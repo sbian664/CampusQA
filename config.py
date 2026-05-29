@@ -34,3 +34,23 @@ SYSTEM_PROMPT = """你是一个有用的AI助手。
 - 回答准确、简洁
 - 如果不确定，请说明
 - 保持友好和专业的语气"""
+
+# ============ 知识库配置 ============
+# 文档加载
+SUPPORTED_FORMATS = ['.md', '.txt', '.pdf', '.html']
+KB_EMBEDDINGS_PROVIDER = "local"  # "local" 或 "deepseek_api" 或 "openai"
+
+# 向量化模型（轻量）
+EMBEDDINGS_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+# 文本分割
+CHUNK_SIZE = 500              # 一块的 token 数
+CHUNK_OVERLAP = 50            # 重叠的 token 数
+
+# Chroma 数据库
+CHROMA_DB_PATH = os.path.join(DATA_DIR, "kb.db")
+CHROMA_COLLECTION = "documents"
+
+# 知识库元数据
+KB_METADATA_FILE = os.path.join(CACHE_DIR, "kb_metadata.json")
+EMBEDDINGS_CACHE_FILE = os.path.join(CACHE_DIR, "embeddings.pkl")

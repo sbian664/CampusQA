@@ -1,2 +1,15 @@
 python-dotenv>=1.0.0
 requests>=2.31.0
+
+# 第三阶段：知识库和文档处理
+langchain>=0.1.0
+chromadb>=0.3.0
+sentence-transformers>=2.2.0
+
+# 文档处理
+pypdf>=3.0.0
+beautifulsoup4>=4.0.0
+html5lib>=1.1
+
+# 性能优化
+numpy>=1.20.0
