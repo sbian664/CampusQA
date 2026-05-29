@@ -9,68 +9,78 @@ from src.session import Session
 def print_help():
     """打印帮助信息"""
     print("\n" + "=" * 50)
-    print("命令帮助:")
-    print("  quit/exit/退出    - 退出程序")
-    print("  clear/清空        - 清空对话历史")
-    print("  save/保存         - 保存当前会话")
-    print("  load/加载         - 加载保存的会话")
-    print("  history/历史      - 显示对话历史")
-    print("  summary/摘要      - 显示会话摘要")
-    print("  help/帮助         - 显示此帮助")
-    print("=" * 50 + "\n")
+    print("📋 命令列表 (在消息前加 / 使用):")
+    print("  /help      - 显示帮助信息")
+    print("  /clear     - 清空对话历史")
+    print("  /history   - 显示对话历史")
+    print("  /summary   - 显示会话摘要")
+    print("  /save      - 保存当前会话")
+    print("  /load      - 加载保存的会话")
+    print("  /quit      - 退出程序")
+    print("=" * 50)
+    print("💡 提示: 输入普通消息直接对话，输入 /help 查看更多\n")
 
 
 def handle_command(command: str, session: Session, chatbot: Chatbot):
-    """处理特殊命令"""
-    cmd = command.lower().strip()
+    """处理特殊命令（以 / 开头）"""
+    # 检查是否是命令（以 / 开头）
+    if not command.startswith('/'):
+        return False
     
-    if cmd in ['help', '帮助']:
+    # 移除 / 并转换为小写
+    cmd = command[1:].lower().strip()
+    
+    if cmd == 'help':
         print_help()
     
-    elif cmd in ['clear', '清空']:
+    elif cmd == 'clear':
         session.clear()
         print("✓ 对话历史已清空\n")
     
-    elif cmd in ['save', '保存']:
+    elif cmd == 'save':
         path = session.save()
         print(f"✓ 会话已保存: {path}\n")
     
-    elif cmd in ['load', '加载']:
+    elif cmd == 'load':
         if session.load():
             print(f"✓ 会话已加载: {session.session_id}")
             print(f"  消息数: {len(session.get_history())}\n")
         else:
             print(f"❌ 无法加载会话: {session.session_id}\n")
     
-    elif cmd in ['history', '历史']:
+    elif cmd == 'history':
         history = session.get_history()
         if not history:
             print("（无对话历史）\n")
         else:
-            print("\n对话历史:")
-            print("-" * 40)
+            print("\n📜 对话历史:")
+            print("-" * 50)
             for i, msg in enumerate(history, 1):
                 role = "👤 用户" if msg["role"] == "user" else "🤖 助手"
-                print(f"{i}. {role}: {msg['content'][:80]}...")
-            print("-" * 40 + "\n")
+                print(f"{i}. {role}: {msg['content'][:70]}...")
+            print("-" * 50 + "\n")
     
-    elif cmd in ['summary', '摘要']:
+    elif cmd == 'summary':
         print(session.get_context_summary())
         print()
     
+    elif cmd in ['quit', 'exit']:
+        return "QUIT"
+    
     else:
-        return False
+        print(f"❌ 未知命令: /{cmd}，输入 /help 查看所有命令\n")
     
     return True
 
 
 def main():
     """主函数"""
-    print("=" * 50)
-    print("欢迎使用 AI 对话助手（带记忆功能）")
-    print("=" * 50)
-    print("提示: 输入 'help' 查看命令，'quit' 退出")
-    print("=" * 50)
+    print("=" * 60)
+    print("🤖 AI 对话助手 (带记忆功能)")
+    print("=" * 60)
+    print("💬 输入普通消息进行对话")
+    print("📌 输入 /help 查看所有命令")
+    print("=" * 60)
     print()
     
     try:
@@ -89,21 +99,24 @@ def main():
                 if not user_input:
                     continue
                 
-                # 检查特殊命令
-                if user_input.lower() in ['quit', 'exit', '退出']:
+                # 处理特殊命令（以 / 开头）
+                cmd_result = handle_command(user_input, session, chatbot)
+                
+                if cmd_result == "QUIT":
                     # 询问是否保存
-                    save_prompt = input("是否保存本次对话? (y/n): ").lower()
-                    if save_prompt in ['y', 'yes', '是']:
+                    save_prompt = input("是否保存本次对话? (y/n): ").lower().strip()
+                    if save_prompt in ['y', 'yes']:
                         path = session.save()
                         print(f"✓ 会话已保存: {path}")
-                    print("\n再见！")
+                    print("\n👋 再见！\n")
                     break
                 
-                # 处理其他特殊命令
-                if handle_command(user_input, session, chatbot):
+                elif cmd_result:
+                    # 命令已处理
                     continue
                 
-                print("\nAgent 思考中...\n")
+                # 普通对话（非命令）
+                print("\n🤔 Agent 思考中...\n")
                 
                 # 获取AI回复
                 response = chatbot.chat_with_history(user_input, session.get_history())
@@ -115,14 +128,14 @@ def main():
                 print(f"Agent: {response}\n")
                 
             except KeyboardInterrupt:
-                print("\n\n程序被中断")
+                print("\n\n⏸️  程序被中断")
                 break
             except Exception as e:
                 print(f"❌ 错误: {str(e)}\n")
     
     except Exception as e:
         print(f"❌ 初始化失败: {str(e)}")
-        print("\n请检查:")
+        print("\n⚙️  请检查:")
         print("1. .env 文件是否正确配置")
         print("2. DEEPSEEK_API_KEY 是否设置")
         print("3. 网络连接是否正常")
