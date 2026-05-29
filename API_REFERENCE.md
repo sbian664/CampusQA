@@ -8,7 +8,230 @@
 
 ## 🔧 核心模块
 
-### 1. llm_client.py - LLM 客户端
+### 1. session.py - 会话管理（第二阶段新增）
+
+#### 概述
+提供对话历史管理、会话持久化等功能。支持多轮对话的完整记忆系统。
+
+#### 类定义
+
+##### Session
+
+```python
+class Session:
+    """对话会话类 - 管理对话历史和上下文"""
+    
+    def __init__(self, session_id: str = None, max_history: int = 20):
+        """
+        初始化会话
+        
+        Args:
+            session_id (str): 会话ID，如果为None则使用时间戳生成
+            max_history (int): 保留的最大历史消息数（防止token溢出，默认20）
+        
+        Examples:
+            >>> session = Session()
+            >>> session = Session(session_id="custom_id", max_history=50)
+        """
+    
+    def add_message(self, role: str, content: str) -> None:
+        """
+        添加消息到历史
+        
+        Args:
+            role (str): 消息角色 ("user" 或 "assistant")
+            content (str): 消息内容
+        
+        Raises:
+            ValueError: 如果 role 不合法
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "你好")
+            >>> session.add_message("assistant", "你好！很高兴认识你")
+        """
+    
+    def get_history(self, include_timestamp: bool = False) -> List[Dict]:
+        """
+        获取对话历史（OpenAI API 兼容格式）
+        
+        Args:
+            include_timestamp (bool): 是否包含时间戳
+        
+        Returns:
+            List[Dict]: 消息列表
+                      格式：[{"role": "user", "content": "..."}, ...]
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "你好")
+            >>> history = session.get_history()
+            >>> print(history)
+            [{'role': 'user', 'content': '你好'}]
+        """
+    
+    def get_last_exchange(self) -> Optional[Dict]:
+        """
+        获取最后一次对话交换（用户消息 + AI回复）
+        
+        Returns:
+            Dict: 包含 user 和 assistant 的最后一次交换
+                 {"user": "用户问题", "assistant": "AI回复"}
+                 如果无交换则返回None
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "什么是AI?")
+            >>> session.add_message("assistant", "AI是人工智能...")
+            >>> exchange = session.get_last_exchange()
+            >>> print(exchange["user"])
+            '什么是AI?'
+        """
+    
+    def clear() -> None:
+        """
+        清空对话历史
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "你好")
+            >>> session.clear()
+            >>> len(session.get_history())
+            0
+        """
+    
+    def get_context_summary(self, max_chars: int = 500) -> str:
+        """
+        获取对话上下文摘要（用于调试或显示）
+        
+        Args:
+            max_chars (int): 摘要最大字符数（默认500）
+        
+        Returns:
+            str: 格式化的上下文摘要，包含：
+                - 会话ID
+                - 消息数
+                - 创建/更新时间
+                - 对话内容预览
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "你好")
+            >>> print(session.get_context_summary())
+        """
+    
+    def save(self, filename: str = None) -> str:
+        """
+        保存会话到文件（JSON格式）
+        
+        Args:
+            filename (str): 文件名，如果为None则使用会话ID + .json
+        
+        Returns:
+            str: 保存的文件路径
+        
+        Raises:
+            Exception: 保存失败时抛出异常
+        
+        Examples:
+            >>> session = Session()
+            >>> session.add_message("user", "你好")
+            >>> path = session.save()
+            >>> print(path)
+            D:\Projects\Agent\data\cache\20260529_121318.json
+        """
+    
+    def load(self, filename: str = None) -> bool:
+        """
+        从文件加载会话
+        
+        Args:
+            filename (str): 文件名，如果为None则使用会话ID + .json
+        
+        Returns:
+            bool: 是否加载成功
+        
+        Examples:
+            >>> session = Session("old_session_id")
+            >>> if session.load():
+            ...     print("加载成功")
+        """
+    
+    @staticmethod
+    def list_saved_sessions() -> List[str]:
+        """
+        列出所有保存的会话文件
+        
+        Returns:
+            List[str]: 保存的会话JSON文件列表
+        
+        Examples:
+            >>> sessions = Session.list_saved_sessions()
+            >>> print(sessions)
+            ['20260529_121318.json', '20260529_120000.json']
+        """
+```
+
+#### 会话数据格式
+
+```json
+{
+  "session_id": "20260529_121318",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好",
+      "timestamp": "2026-05-29T12:13:27.245451"
+    },
+    {
+      "role": "assistant",
+      "content": "你好，很高兴认识你",
+      "timestamp": "2026-05-29T12:13:27.300000"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-05-29T12:13:18.561604",
+    "updated_at": "2026-05-29T12:13:34.400713",
+    "message_count": 2
+  }
+}
+```
+
+#### 使用示例
+
+```python
+from src.session import Session
+from src.chatbot import Chatbot
+
+# 创建新会话
+session = Session()
+
+# 创建机器人
+chatbot = Chatbot()
+
+# 多轮对话
+user_input = "你好，我叫张三"
+response = chatbot.chat_with_history(user_input, session.get_history())
+session.add_message("user", user_input)
+session.add_message("assistant", response)
+
+# 查看历史
+print(session.get_history())
+
+# 保存会话
+path = session.save()
+print(f"会话已保存: {path}")
+
+# 加载会话
+new_session = Session("old_session_id")
+if new_session.load():
+    print("会话加载成功")
+    response = chatbot.chat_with_history("你还记得我叫什么吗?", new_session.get_history())
+```
+
+---
+
+### 2. llm_client.py - LLM 客户端
 
 #### 概述
 提供统一的 LLM 客户端接口，支持多个提供商（DeepSeek、本地模型等）。
@@ -284,7 +507,7 @@ TEMPERATURE=0.7
 
 ## 🚀 快速开始
 
-### 基本对话
+### 基本对话（单轮）
 
 ```python
 from src.chatbot import Chatbot
@@ -297,17 +520,47 @@ response = chatbot.chat("你好")
 print(response)
 ```
 
+### 多轮对话（带记忆）
+
+```python
+from src.chatbot import Chatbot
+from src.session import Session
+
+# 初始化
+chatbot = Chatbot()
+session = Session()
+
+# 第一轮
+user_msg1 = "我叫张三"
+response1 = chatbot.chat_with_history(user_msg1, session.get_history())
+session.add_message("user", user_msg1)
+session.add_message("assistant", response1)
+
+# 第二轮（AI 记得用户名）
+user_msg2 = "我叫什么名字?"
+response2 = chatbot.chat_with_history(user_msg2, session.get_history())
+session.add_message("user", user_msg2)
+session.add_message("assistant", response2)
+
+# 保存会话
+session.save()
+```
+
 ### 命令行交互
 
 ```bash
 # 运行
 python main.py
 
-# 输入问题
-你: 什么是AI?
-
-# 退出
-你: exit
+# 支持的命令
+你: hello              # 普通对话
+你: history           # 查看对话历史
+你: summary           # 显示会话摘要
+你: save              # 保存会话
+你: load              # 加载会话
+你: clear             # 清空历史
+你: help              # 显示帮助
+你: quit              # 退出
 ```
 
 ### 切换 LLM 提供商
@@ -323,6 +576,19 @@ chatbot = Chatbot("local")
 ---
 
 ## 📝 常见问题
+
+### Q: 对话记忆有时间限制吗？
+
+A: 没有。会话保存到文件后，可以随时加载恢复。只有当前会话的历史受 `max_history` 限制（默认20条消息）。
+
+### Q: 如何加载之前保存的会话？
+
+A: ```python
+session = Session("20260529_121318")  # 使用会话ID
+if session.load():
+    print("加载成功")
+    # 继续对话
+```
 
 ### Q: 如何修改系统提示词？
 
@@ -344,7 +610,11 @@ A: 调整 `TEMPERATURE` 参数：
 
 ### Q: 如何处理长对话的 token 溢出？
 
-A: 调整 `MAX_TOKENS` 参数或使用第二阶段的对话历史管理功能。
+A: 调整 `MAX_TOKENS` 参数或使用 Session 的 `max_history` 功能自动截断历史：
+
+```python
+session = Session(max_history=10)  # 只保留最后10条消息
+```
 
 ---
 
@@ -399,33 +669,60 @@ config.py (配置)
 
 ## 📖 后续阶段的 API 预告
 
-### 第二阶段 - Session（对话记忆）
-
-```python
-from src.session import Session
-
-session = Session()
-session.add_message("user", "第一个问题")
-session.add_message("assistant", "第一个回答")
-response = chatbot.chat_with_history(user_input, session.get_history())
-```
-
 ### 第三阶段 - DocumentLoader（文档加载）
 
 ```python
 from src.document_loader import DocumentLoader
+from src.knowledge_base import KnowledgeBase
 
+# 加载文档
 loader = DocumentLoader("data/documents")
-docs = loader.load_all()
+docs = loader.load_all()  # 加载所有 .md 和 .txt 文件
+
+# 管理知识库
+kb = KnowledgeBase()
+kb.add_documents(docs)
+kb.build_index()
+
+# 获取文档
+doc = kb.get_document("filename.md")
 ```
 
 ### 第四阶段 - Retriever（文本检索）
 
 ```python
+from src.text_processor import TextProcessor
 from src.retriever import Retriever
 
-retriever = Retriever(knowledge_base)
-relevant_docs = retriever.retrieve("查询内容", top_k=3)
+# 文本分块
+processor = TextProcessor()
+chunks = processor.chunk_documents(docs, chunk_size=500)
+
+# 检索相关内容
+retriever = Retriever(kb)
+relevant_chunks = retriever.retrieve("查询关键词", top_k=3)
+
+# 在对话中使用
+context = retriever.build_context(relevant_chunks)
+response = chatbot.chat_with_context(user_query, context, session.get_history())
+```
+
+### 第五阶段 - VectorStore（向量检索）
+
+```python
+from src.embedder import Embedder
+from src.vector_store import VectorStore
+
+# 向量化
+embedder = Embedder()
+vectors = embedder.embed_chunks(chunks)
+
+# 向量存储
+vs = VectorStore("faiss")  # 或 "milvus"
+vs.add_vectors(vectors, metadata=chunks)
+
+# 向量检索
+top_results = vs.search(user_query, top_k=5)
 ```
 
 ---
