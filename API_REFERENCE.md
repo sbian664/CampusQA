@@ -552,15 +552,18 @@ session.save()
 # 运行
 python main.py
 
-# 支持的命令
-你: hello              # 普通对话
-你: history           # 查看对话历史
-你: summary           # 显示会话摘要
-你: save              # 保存会话
-你: load              # 加载会话
-你: clear             # 清空历史
-你: help              # 显示帮助
-你: quit              # 退出
+# 支持的命令（以 / 开头）
+你: /help              # 显示帮助信息
+你: /history           # 查看对话历史
+你: /summary           # 显示会话摘要
+你: /save              # 保存会话
+你: /load              # 加载会话
+你: /clear             # 清空历史
+你: /quit              # 退出程序
+
+# 普通对话（直接输入消息）
+你: hello              # 普通消息直接对话
+你: 你好               # 支持中文
 ```
 
 ### 切换 LLM 提供商
