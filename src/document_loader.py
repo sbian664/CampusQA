@@ -180,7 +180,7 @@ class DocumentLoader:
         批量加载目录中的文档
         
         Args:
-            patterns (List[str]): 文件模式，默认为所有支持的格式
+            patterns (List[str]): 文件模式或扩展名列表，默认为所有支持的格式
             recursive (bool): 是否递归子目录
         
         Returns:
@@ -193,6 +193,18 @@ class DocumentLoader:
         """
         if patterns is None:
             patterns = [f"*{fmt}" for fmt in self.supported_formats]
+        else:
+            normalized_patterns = []
+            for pattern in patterns:
+                if not pattern:
+                    continue
+                if pattern.startswith("*"):
+                    normalized_patterns.append(pattern)
+                elif pattern.startswith("."):
+                    normalized_patterns.append(f"*{pattern}")
+                else:
+                    normalized_patterns.append(f"*.{pattern.lstrip('.')}" if not pattern.startswith('*.') else pattern)
+            patterns = normalized_patterns
         
         documents = []
         

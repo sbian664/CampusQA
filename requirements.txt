@@ -3,6 +3,7 @@ requests>=2.31.0
 
 # 第三阶段：知识库和文档处理
 langchain>=0.1.0
+langchain-community>=0.4.2
 chromadb>=0.3.0
 sentence-transformers>=2.2.0
 
