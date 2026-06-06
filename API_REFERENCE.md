@@ -441,6 +441,37 @@ history = [
 response = chatbot.chat_with_history("它有什么应用?", history)
 print(response)
 ```
+    
+    def chat_with_rag(self, user_message: str, history: List[Dict]) -> str:
+        """
+        带 RAG 检索增强的多轮对话（第四阶段新增）
+        
+        流程：
+        1. 在知识库中检索与问题相关的文档块
+        2. 将检索结果格式化为上下文文本
+        3. 构建增强版 system prompt 注入检索上下文
+        4. 调用 LLM 生成基于知识库的回复
+        
+        Args:
+            user_message (str): 当前用户输入
+            history (List[Dict]): 对话历史
+        
+        Returns:
+            str: 基于知识库增强的回复
+            
+        Note:
+            如果 Chatbot 初始化时未传入 knowledge_base，
+            自动降级为 chat_with_history() 普通对话。
+        
+        Examples:
+            >>> from src.knowledge_base import KnowledgeBase
+            >>> kb = KnowledgeBase()
+            >>> kb.load_documents_from_dir()
+            >>> chatbot = Chatbot(knowledge_base=kb)
+            >>> response = chatbot.chat_with_rag("什么是监督学习?", [])
+            >>> print(response)
+            '根据文档 ml_basics.txt，监督学习是...'
+        """
 
 ---
 
@@ -730,4 +761,151 @@ top_results = vs.search(user_query, top_k=5)
 
 ---
 
-最后更新：2026-05-29
+### 5. knowledge_base.py - 知识库管理（第三阶段新增）
+
+#### 概述
+文档向量化存储与检索系统。基于 Chroma 向量数据库 + sentence-transformers 向量模型，支持增量更新。
+
+#### 类定义
+
+##### KnowledgeBase
+
+```python
+class KnowledgeBase:
+    """知识库管理类 - 支持增量更新"""
+    
+    def __init__(self, embeddings_provider: str = "local"):
+        """
+        初始化知识库
+        
+        Args:
+            embeddings_provider (str): 向量化提供商 ("local" / "deepseek_api")
+        
+        Examples:
+            >>> kb = KnowledgeBase()
+            >>> kb = KnowledgeBase(embeddings_provider="local")
+        """
+    
+    def load_documents_from_dir(self) -> int:
+        """
+        从文档目录加载所有文档（带增量更新检查）
+        自动跳过未修改的文件（基于 mtime）
+        
+        Returns:
+            int: 新增/更新的文档数
+        
+        Examples:
+            >>> kb = KnowledgeBase()
+            >>> updated = kb.load_documents_from_dir()
+            >>> print(f"Updated: {updated}")
+        """
+    
+    def search(self, query: str, top_k: int = 3) -> List[Dict]:
+        """
+        向量相似度搜索
+        
+        Args:
+            query (str): 查询文本
+            top_k (int): 返回结果数（默认 3）
+        
+        Returns:
+            List[Dict]: 搜索结果，每项包含：
+                - content: 文档块内容
+                - source: 源文件路径
+                - chunk_index: 块索引
+                - score: 相似度分数 (0~1)
+        
+        Examples:
+            >>> kb = KnowledgeBase()
+            >>> results = kb.search("机器学习", top_k=3)
+            >>> for r in results:
+            ...     print(f"{r['source']}: {r['score']:.2f}")
+        """
+    
+    def get_statistics(self) -> Dict:
+        """
+        获取知识库统计信息
+        
+        Returns:
+            Dict: 包含 total_files, total_chunks, total_size_mb,
+                  embeddings_dim, cache_size
+        
+        Examples:
+            >>> kb = KnowledgeBase()
+            >>> stats = kb.get_statistics()
+            >>> print(stats['total_chunks'])
+        """
+    
+    def rebuild_index(self):
+        """
+        重建索引 — 清空并重新加载所有文档
+        
+        Examples:
+            >>> kb = KnowledgeBase()
+            >>> kb.rebuild_index()
+        """
+```
+
+#### 使用示例
+
+```python
+from src.knowledge_base import KnowledgeBase
+
+# 初始化知识库
+kb = KnowledgeBase(embeddings_provider="local")
+
+# 加载文档（增量更新）
+updated = kb.load_documents_from_dir()
+print(f"加载 {updated} 个文档")
+
+# 查看统计
+stats = kb.get_statistics()
+print(f"文件数: {stats['total_files']}, 块数: {stats['total_chunks']}")
+
+# 搜索
+results = kb.search("深度学习框架", top_k=3)
+for i, r in enumerate(results, 1):
+    print(f"{i}. [{r['score']:.2f}] {r['source']} — {r['content'][:80]}...")
+
+# 重建索引
+kb.rebuild_index()
+```
+
+---
+
+### 6. config.py - RAG 配置（第四阶段新增）
+
+#### 新增配置项
+
+| 配置项 | 类型 | 默认值 | 说明 |
+|--------|------|--------|------|
+| `RAG_ENABLED` | bool | True | 是否默认启用 RAG |
+| `RAG_TOP_K` | int | 3 | 每次检索返回的文档块数 |
+| `RAG_SYSTEM_PROMPT_TEMPLATE` | str | (见源码) | 增强版 system prompt 模板 |
+| `RAG_CONTEXT_ITEM_TEMPLATE` | str | (见源码) | 单条检索结果格式化模板 |
+
+#### RAG 工作流
+
+```
+用户提问 → kb.search(query, top_k=3) → 格式化上下文 → 
+注入 RAG_SYSTEM_PROMPT_TEMPLATE → LLM 生成回复
+```
+
+#### 自定义 RAG 模板
+
+```python
+# 在 config.py 中自定义 prompt 模板
+RAG_SYSTEM_PROMPT_TEMPLATE = """{system_prompt}
+
+## 参考知识库
+{context}
+
+请仅基于以上参考内容回答，如果无法回答请说明。"""
+
+RAG_CONTEXT_ITEM_TEMPLATE = """[来源: {source} 相似度: {score:.2f}]
+{content}"""
+```
+
+---
+
+最后更新：2026-06-06

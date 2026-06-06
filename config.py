@@ -54,3 +54,23 @@ CHROMA_COLLECTION = "documents"
 # 知识库元数据
 KB_METADATA_FILE = os.path.join(CACHE_DIR, "kb_metadata.json")
 EMBEDDINGS_CACHE_FILE = os.path.join(CACHE_DIR, "embeddings.pkl")
+
+# ============ RAG（检索增强生成）配置 ============
+RAG_ENABLED = True            # 是否默认启用 RAG 模式
+RAG_TOP_K = 3                 # 每次检索返回的文档块数
+
+# RAG 增强版 system prompt 模板
+# {system_prompt} 会替换为原始 SYSTEM_PROMPT
+# {context} 会替换为检索到的文档片段
+RAG_SYSTEM_PROMPT_TEMPLATE = """{system_prompt}
+
+## 参考知识库（从文档中检索到的相关内容）
+请优先根据以下参考内容回答问题。如果参考内容不足以回答，请如实告知并基于你的知识补充。
+
+{context}
+
+---"""
+
+# RAG 检索结果的格式化模板（每条）
+RAG_CONTEXT_ITEM_TEMPLATE = """[来源: {source} (块{chunk}) 相似度: {score:.2f}]
+{content}"""

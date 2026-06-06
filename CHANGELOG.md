@@ -1,5 +1,56 @@
 # 项目日志
 
+## 📅 [2026-06-06] 第四阶段完成 - v0.4.0
+
+### ✅ 完成内容
+
+#### 4.1 RAG 配置
+- [x] `config.py` 新增 RAG 参数（+22 行）
+  - [x] `RAG_ENABLED = True` — 默认启用 RAG 模式
+  - [x] `RAG_TOP_K = 3` — 每次检索返回 3 个文档块
+  - [x] `RAG_SYSTEM_PROMPT_TEMPLATE` — 增强版 system prompt 模板
+  - [x] `RAG_CONTEXT_ITEM_TEMPLATE` — 检索结果格式化模板
+
+#### 4.2 Chatbot RAG 增强
+- [x] `chatbot.py` 重构（+54 行）
+  - [x] `__init__` 接受 `knowledge_base` 可选参数
+  - [x] 新增 `chat_with_rag()` 方法：
+    - 检索知识库 → 格式化上下文 → 注入 system prompt → LLM 生成
+    - 无 KB 时自动降级为 `chat_with_history()`
+
+#### 4.3 CLI 知识库命令集成
+- [x] `main.py` 升级（+60 行）
+  - [x] 初始化时加载 KnowledgeBase 并预加载文档
+  - [x] 对话循环切换到 `chat_with_rag()`（默认 RAG）
+  - [x] 新增 4 个知识库命令：
+    - `/add-docs` — 扫描并增量加载文档
+    - `/search <query>` — 向量搜索知识库
+    - `/kb-stats` — 显示知识库统计
+    - `/rebuild` — 重建向量索引
+  - [x] `print_help()` 更新（11 个命令）
+
+#### 4.4 验证测试
+- [x] ✓ 导入测试通过（KnowledgeBase + Chatbot(kb=...)）
+- [x] ✓ RAG 管道 6 项验证全部通过
+- [x] ✓ 代码审查通过（语法、导入、方法签名）
+- [x] ✓ 3 文档 / 6 块，检索正常返回
+- [x] ✓ KB-less 降级路径验证
+
+### 📊 统计数据
+- **新增/修改代码**：~136 行（config +22, chatbot +54, main +60）
+- **新增命令**：4 个（/add-docs, /search, /kb-stats, /rebuild）
+- **总命令数**：11 个
+- **RAG 管道**：检索块数 3，上下文约 1380 chars
+- **文档更新**：README, CHANGELOG, API_REFERENCE
+
+### 🎯 Phase 4 完成度
+- [x] RAG 配置：**100%** ✓
+- [x] Chatbot RAG 方法：**100%** ✓
+- [x] CLI 知识库命令：**100%** ✓
+- [x] 端到端验证：**100%** ✓
+
+---
+
 ## 📅 [2026-05-30] 第三阶段完成 - v0.3.0 (Stage 3.1)
 
 ### ✅ 完成内容
