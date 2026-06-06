@@ -116,3 +116,57 @@ Agent: 根据知识库文档，监督学习是...
 - **"DEEPSEEK_API_KEY 未设置"**：检查 `.env` 文件是否存在且配置正确
 - **连接超时**：检查网络连接和 API 地址
 - **API 错误**：确保 API 密钥有效且有余额
+
+## 可选配置
+
+项目通过 `config.py` 和环境变量 `.env` 集中管理配置。以下为所有可选项及其默认值：
+
+### LLM 配置
+
+| 环境变量 | 默认值 | 说明 |
+|----------|--------|------|
+| `LLM_PROVIDER` | `deepseek` | LLM 提供商：`deepseek` / `local` |
+| `DEEPSEEK_API_KEY` | — | DeepSeek API 密钥 |
+| `DEEPSEEK_API_BASE` | `https://api.deepseek.com/v1` | DeepSeek API 地址 |
+| `MODEL_NAME` | `deepseek-chat` | 模型名称 |
+| `MAX_TOKENS` | `2000` | 最大 Token 数 |
+| `TEMPERATURE` | `0.7` | 生成温度参数 |
+
+### 向量存储（Phase 5）
+
+| 环境变量 | 默认值 | 说明 |
+|----------|--------|------|
+| `VECTOR_STORE` | `chroma` | 后端：`chroma`（SQLite）/ `faiss`（内存索引） |
+| `EMBEDDINGS_PROVIDER` | `local` | 向量化：`local`（MiniLM）/ `openai` / `deepseek_api` |
+| `OPENAI_API_KEY` | — | OpenAI Embeddings API 密钥 |
+| `OPENAI_API_BASE` | `https://api.openai.com/v1` | OpenAI 兼容 API 地址 |
+| `OPENAI_EMBEDDINGS_MODEL` | `text-embedding-3-small` | OpenAI Embeddings 模型 |
+
+### 检索增强（Phase 4）
+
+| 环境变量 | 默认值 | 说明 |
+|----------|--------|------|
+| `RAG_ENABLED` | `True` | 是否默认启用 RAG |
+| `RAG_TOP_K` | `3` | 每次检索返回的文档块数 |
+| `HYBRID_SEARCH_ENABLED` | `True` | 是否启用 BM25+向量混合检索 |
+| `BM25_WEIGHT` | `0.3` | BM25 权重（0~1），剩余为向量权重 |
+
+### 文本分割
+
+| 配置项 | 默认值 | 说明 |
+|--------|--------|------|
+| `CHUNK_SIZE` | `500` | 每个文档块的 Token 数 |
+| `CHUNK_OVERLAP` | `50` | 块间重叠 Token 数 |
+
+### 切换示例
+
+**使用 Faiss + OpenAI Embeddings：**
+
+```bash
+# .env 文件
+VECTOR_STORE=faiss
+EMBEDDINGS_PROVIDER=openai
+OPENAI_API_KEY=sk-your-openai-key
+```
+
+无需修改代码，重启程序即可生效。
