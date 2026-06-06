@@ -15,17 +15,17 @@ from langchain_core.documents import Document
 from config import (
     CHUNK_SIZE,
     CHUNK_OVERLAP,
-    CHROMA_DB_PATH,
-    CHROMA_COLLECTION,
     KB_METADATA_FILE,
     DOCUMENTS_DIR,
     VECTOR_STORE,
     HYBRID_SEARCH_ENABLED,
     BM25_WEIGHT,
+    SEMANTIC_CHUNKING,
 )
 from src.document_loader import DocumentLoader
 from src.embeddings_manager import EmbeddingsManager
 from src.vector_store import create_vector_store, VectorStore
+from src.text_chunker import SemanticChunker
 
 
 class KnowledgeBase:
@@ -43,12 +43,8 @@ class KnowledgeBase:
         self.embeddings_manager = EmbeddingsManager(embeddings_provider)
         self.store_type = vector_store or VECTOR_STORE
 
-        # 初始化文本分割器
-        self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=CHUNK_SIZE,
-            chunk_overlap=CHUNK_OVERLAP,
-            separators=["\n\n", "\n", " ", ""]
-        )
+        # 初始化文本分割器（语义感知）
+        self.text_splitter = SemanticChunker(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
 
         # 初始化向量存储
         self._init_store()

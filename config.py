@@ -46,6 +46,7 @@ EMBEDDINGS_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 # 文本分割
 CHUNK_SIZE = 500              # 一块的 token 数
 CHUNK_OVERLAP = 50            # 重叠的 token 数
+SEMANTIC_CHUNKING = True       # 语义感知分块（按标题/段落拆分，保留语境）
 
 # Chroma 数据库
 CHROMA_DB_PATH = os.path.join(DATA_DIR, "kb.db")
