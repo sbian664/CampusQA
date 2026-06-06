@@ -1,159 +1,191 @@
 """
-向量化管理器 - 支持本地模型和 API
+向量化管理器 — 支持本地模型 / OpenAI API / 兼容接口
 """
 import pickle
 import os
-from typing import List, Union
+import hashlib
+from abc import ABC, abstractmethod
+from typing import List
+
 from config import (
     KB_EMBEDDINGS_PROVIDER,
     EMBEDDINGS_MODEL,
     EMBEDDINGS_CACHE_FILE,
-    DEEPSEEK_API_BASE,
-    DEEPSEEK_API_KEY
+    OPENAI_API_KEY,
+    OPENAI_API_BASE,
+    OPENAI_EMBEDDINGS_MODEL,
 )
 
 
+# ==================== 抽象基类 ====================
+
+class EmbeddingsProvider(ABC):
+    """向量化提供商抽象基类"""
+
+    @abstractmethod
+    def embed_text(self, text: str) -> List[float]:
+        """单条向量化"""
+
+    @abstractmethod
+    def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
+        """批量向量化"""
+
+    @property
+    @abstractmethod
+    def dimension(self) -> int:
+        """向量维度"""
+
+    @property
+    @abstractmethod
+    def provider_name(self) -> str:
+        """提供商标识（用于缓存 key）"""
+
+
+# ==================== 本地模型 ====================
+
+class LocalEmbeddingsProvider(EmbeddingsProvider):
+    """Sentence-Transformers 本地模型"""
+
+    def __init__(self):
+        from sentence_transformers import SentenceTransformer
+        print(f"📥 加载本地向量模型: {EMBEDDINGS_MODEL}")
+        self.model = SentenceTransformer(EMBEDDINGS_MODEL)
+        self._dim = self.model.get_embedding_dimension()
+        print(f"✓ 模型已加载，向量维度: {self._dim}")
+
+    def embed_text(self, text: str) -> List[float]:
+        return self.model.encode(text).tolist()
+
+    def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
+        return self.model.encode(texts, batch_size=batch_size).tolist()
+
+    @property
+    def dimension(self) -> int:
+        return self._dim
+
+    @property
+    def provider_name(self) -> str:
+        return f"local:{EMBEDDINGS_MODEL}"
+
+
+# ==================== OpenAI / 兼容 API ====================
+
+class OpenAIEmbeddingsProvider(EmbeddingsProvider):
+    """OpenAI 及兼容接口的 Embeddings 提供商"""
+
+    def __init__(self, model: str = None, api_key: str = None, api_base: str = None):
+        from openai import OpenAI
+        self.model_name = model or OPENAI_EMBEDDINGS_MODEL
+        self.client = OpenAI(
+            api_key=api_key or OPENAI_API_KEY,
+            base_url=api_base or OPENAI_API_BASE,
+        )
+        # 获取维度
+        test_vec = self.embed_text("test")
+        self._dim = len(test_vec)
+        print(f"✓ OpenAI Embeddings 已初始化: {self.model_name} (维度={self._dim})")
+
+    def embed_text(self, text: str) -> List[float]:
+        resp = self.client.embeddings.create(model=self.model_name, input=text)
+        return resp.data[0].embedding
+
+    def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
+        all_vectors = []
+        for i in range(0, len(texts), batch_size):
+            batch = texts[i:i + batch_size]
+            resp = self.client.embeddings.create(model=self.model_name, input=batch)
+            all_vectors.extend([d.embedding for d in resp.data])
+        return all_vectors
+
+    @property
+    def dimension(self) -> int:
+        return self._dim
+
+    @property
+    def provider_name(self) -> str:
+        return f"openai:{self.model_name}"
+
+
+# ==================== 工厂函数 ====================
+
+def _create_provider(provider: str) -> EmbeddingsProvider:
+    """创建向量化提供商实例"""
+    if provider == "local":
+        return LocalEmbeddingsProvider()
+    elif provider in ("openai", "deepseek_api"):
+        # deepseek_api 暂用 OpenAI 兼容接口（或降级到 local）
+        if provider == "deepseek_api":
+            print("⚠️  DeepSeek embeddings API 预留，请使用 'openai' 或 'local'")
+            return LocalEmbeddingsProvider()
+        return OpenAIEmbeddingsProvider()
+    else:
+        raise ValueError(f"不支持的向量化提供商: {provider}")
+
+
+# ==================== 向量化管理器 ====================
+
 class EmbeddingsManager:
     """
-    向量化管理器 - 支持多个提供商（本地/API）
+    向量化管理器 — 统一缓存 + 多提供商
     """
-    
+
     def __init__(self, provider: str = None):
         """
-        初始化向量化管理器
-        
         Args:
-            provider (str): 提供商
-                           - "local": 本地模型（默认）
-                           - "deepseek_api": DeepSeek API
-                           - "openai": OpenAI API
-        
-        Examples:
-            >>> em = EmbeddingsManager()
-            >>> vector = em.embed_text("你好")
-            >>> len(vector)
-            384  # MiniLM 的向量维度
+            provider: "local" / "openai" / "deepseek_api"
         """
-        self.provider = provider or KB_EMBEDDINGS_PROVIDER
+        self.provider_name = provider or KB_EMBEDDINGS_PROVIDER
+        self._provider = _create_provider(self.provider_name)
         self.cache = self._load_cache()
-        
-        if self.provider == "local":
-            self._init_local()
-        elif self.provider == "deepseek_api":
-            self._init_deepseek()
-        else:
-            raise ValueError(f"不支持的提供商: {self.provider}")
-    
-    def _init_local(self):
-        """初始化本地模型"""
-        try:
-            from sentence_transformers import SentenceTransformer
-            print(f"📥 加载本地向量模型: {EMBEDDINGS_MODEL}")
-            self.embedder = SentenceTransformer(EMBEDDINGS_MODEL)
-            self.embed_dim = self.embedder.get_sentence_embedding_dimension()
-            print(f"✓ 模型已加载，向量维度: {self.embed_dim}")
-        except Exception as e:
-            raise Exception(f"加载本地模型失败: {str(e)}")
-    
-    def _init_deepseek(self):
-        """初始化 DeepSeek API"""
-        if not DEEPSEEK_API_KEY:
-            raise ValueError("DEEPSEEK_API_KEY 未设置")
-        
-        # DeepSeek 暂无官方 embeddings API，这里预留接口
-        print("⚠️  DeepSeek embeddings API 预留，暂使用本地模型作为后备")
-        self._init_local()
-    
+
+    # ---- 公共接口 ----
+
     def embed_text(self, text: str) -> List[float]:
-        """
-        单条文本向量化
-        
-        Args:
-            text (str): 输入文本
-        
-        Returns:
-            List[float]: 向量
-        
-        Examples:
-            >>> em = EmbeddingsManager()
-            >>> vec = em.embed_text("机器学习")
-            >>> print(vec[:5])  # 打印前5个值
-        """
-        # 检查缓存
-        cache_key = hash(text) % (2**31)
+        cache_key = self._make_cache_key(text)
         if cache_key in self.cache:
             return self.cache[cache_key]
-        
-        # 计算向量
-        if self.provider == "local":
-            vector = self.embedder.encode(text).tolist()
-        else:
-            vector = self.embedder.encode(text).tolist()
-        
-        # 缓存
+        vector = self._provider.embed_text(text)
         self.cache[cache_key] = vector
-        
         return vector
-    
+
     def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
-        """
-        批量向量化（带缓存）
-        
-        Args:
-            texts (List[str]): 文本列表
-            batch_size (int): 批处理大小
-        
-        Returns:
-            List[List[float]]: 向量列表
-        
-        Examples:
-            >>> em = EmbeddingsManager()
-            >>> texts = ["文本1", "文本2", "文本3"]
-            >>> vectors = em.embed_batch(texts)
-            >>> len(vectors)
-            3
-        """
-        vectors = []
+        vectors = [None] * len(texts)
         uncached_texts = []
         uncached_indices = []
-        
-        # 分离缓存和未缓存的文本
+
         for i, text in enumerate(texts):
-            cache_key = hash(text) % (2**31)
+            cache_key = self._make_cache_key(text)
             if cache_key in self.cache:
-                vectors.append(self.cache[cache_key])
+                vectors[i] = self.cache[cache_key]
             else:
                 uncached_texts.append(text)
                 uncached_indices.append(i)
-                vectors.append(None)  # 占位符
-        
-        # 批量计算未缓存的向量
+
         if uncached_texts:
-            if self.provider == "local":
-                new_vectors = self.embedder.encode(
-                    uncached_texts,
-                    batch_size=batch_size
-                ).tolist()
-            else:
-                new_vectors = self.embedder.encode(
-                    uncached_texts,
-                    batch_size=batch_size
-                ).tolist()
-            
-            # 填充向量和缓存
-            for idx, new_vec in zip(uncached_indices, new_vectors):
-                vectors[idx] = new_vec
-                cache_key = hash(uncached_texts[uncached_indices.index(idx)]) % (2**31)
-                self.cache[cache_key] = new_vec
-        
+            new_vectors = self._provider.embed_batch(uncached_texts, batch_size)
+            for idx, vec in zip(uncached_indices, new_vectors):
+                vectors[idx] = vec
+                cache_key = self._make_cache_key(uncached_texts[uncached_indices.index(idx)])
+                self.cache[cache_key] = vec
+
         return vectors
-    
+
     def get_embedding_dimension(self) -> int:
-        """获取向量维度"""
-        return self.embed_dim
-    
+        return self._provider.dimension
+
+    @property
+    def embed_dim(self) -> int:
+        """向后兼容别名"""
+        return self._provider.dimension
+
+    # ---- 缓存 ----
+
+    def _make_cache_key(self, text: str) -> str:
+        """用 SHA256 生成缓存 key（避免 hash 碰撞）"""
+        raw = f"{self._provider.provider_name}:{text}"
+        return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
     def save_cache(self):
-        """保存向量缓存到文件"""
         try:
             os.makedirs(os.path.dirname(EMBEDDINGS_CACHE_FILE), exist_ok=True)
             with open(EMBEDDINGS_CACHE_FILE, 'wb') as f:
@@ -161,9 +193,8 @@ class EmbeddingsManager:
             print(f"✓ 向量缓存已保存: {len(self.cache)} 个")
         except Exception as e:
             print(f"⚠️  保存缓存失败: {str(e)}")
-    
+
     def _load_cache(self) -> dict:
-        """从文件加载向量缓存"""
         if os.path.exists(EMBEDDINGS_CACHE_FILE):
             try:
                 with open(EMBEDDINGS_CACHE_FILE, 'rb') as f:
@@ -172,16 +203,14 @@ class EmbeddingsManager:
                 return cache
             except Exception as e:
                 print(f"⚠️  加载缓存失败: {str(e)}")
-        
         return {}
-    
+
     def clear_cache(self):
-        """清空缓存"""
         self.cache.clear()
         if os.path.exists(EMBEDDINGS_CACHE_FILE):
             os.remove(EMBEDDINGS_CACHE_FILE)
         print("✓ 缓存已清空")
-    
+
     def __repr__(self) -> str:
-        """字符串表示"""
-        return f"EmbeddingsManager(provider={self.provider}, dim={self.embed_dim}, cache_size={len(self.cache)})"
+        return (f"EmbeddingsManager(provider={self.provider_name}, "
+                f"dim={self._provider.dimension}, cache={len(self.cache)})")

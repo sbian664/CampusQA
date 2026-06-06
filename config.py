@@ -55,6 +55,19 @@ CHROMA_COLLECTION = "documents"
 KB_METADATA_FILE = os.path.join(CACHE_DIR, "kb_metadata.json")
 EMBEDDINGS_CACHE_FILE = os.path.join(CACHE_DIR, "embeddings.pkl")
 
+# 向量存储后端
+VECTOR_STORE = os.getenv("VECTOR_STORE", "chroma")  # "chroma" 或 "faiss"
+FAISS_INDEX_PATH = os.path.join(DATA_DIR, "faiss_index.bin")
+
+# OpenAI / 兼容 Embeddings API
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "https://api.openai.com/v1")
+OPENAI_EMBEDDINGS_MODEL = os.getenv("OPENAI_EMBEDDINGS_MODEL", "text-embedding-3-small")
+
+# 混合检索（BM25 + 向量）
+HYBRID_SEARCH_ENABLED = True   # 是否启用混合检索
+BM25_WEIGHT = 0.3              # BM25 权重（0~1），剩余为向量权重
+
 # ============ RAG（检索增强生成）配置 ============
 RAG_ENABLED = True            # 是否默认启用 RAG 模式
 RAG_TOP_K = 3                 # 每次检索返回的文档块数

@@ -13,7 +13,8 @@ knowledge-agent/
 │   ├── session.py             # 会话管理
 │   ├── document_loader.py     # 多格式文档加载器
 │   ├── embeddings_manager.py  # 向量化管理
-│   └── knowledge_base.py      # 知识库（Chroma + 检索）
+│   ├── knowledge_base.py      # 知识库（Chroma + 检索）
+│   └── vector_store.py        # 向量存储抽象（Chroma / Faiss）
 ├── data/
 │   ├── documents/            # 知识文档存放目录
 │   ├── cache/               # 缓存数据
@@ -101,7 +102,7 @@ Agent: 根据知识库文档，监督学习是...
 - 第二阶段：对话记忆管理 ✅
 - 第三阶段：文档加载 ✅
 - 第四阶段：文本检索 + RAG 增强 ✅
-- 第五阶段：向量检索优化（待评估）
+- 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
 
 ## 获取 DeepSeek API 密钥
 

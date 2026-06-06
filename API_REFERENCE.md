@@ -908,4 +908,115 @@ RAG_CONTEXT_ITEM_TEMPLATE = """[来源: {source} 相似度: {score:.2f}]
 
 ---
 
+### 7. vector_store.py — 向量存储抽象（第五阶段新增）
+
+#### 概述
+向量存储抽象层，支持 Chroma (SQLite) 和 Faiss 两种后端，通过统一接口切换。
+
+#### 类定义
+
+##### VectorStore（抽象基类）
+
+```python
+class VectorStore(ABC):
+    """向量存储抽象基类"""
+    
+    def add(self, ids, documents, metadatas, embeddings) -> None: ...
+    def search(self, query_embedding, top_k) -> Dict: ...
+    def delete(self, ids) -> None: ...
+    def clear(self) -> None: ...
+    def count(self) -> int: ...
+```
+
+##### ChromaStore / FaissStore
+
+```python
+from src.vector_store import create_vector_store
+
+# Chroma（默认，SQLite 持久化）
+store = create_vector_store("chroma")
+
+# Faiss（内存索引，手动 save/load 持久化）
+store = create_vector_store("faiss", dimension=384)
+store.add(ids, documents, metadatas, embeddings)
+store.save()  # 保存到 data/faiss_index.bin
+```
+
+配置：
+```python
+# config.py
+VECTOR_STORE = "chroma"   # 或 "faiss"
+FAISS_INDEX_PATH = "data/faiss_index.bin"
+```
+
+---
+
+### 8. embeddings_manager.py — 多提供商（第五阶段重构）
+
+#### 概述
+支持本地模型（SentenceTransformer）和 OpenAI/兼容 API 两种向量化方式。缓存键使用 SHA256 避免 hash 碰撞。
+
+#### 新增：OpenAI 提供商
+
+```python
+from src.embeddings_manager import EmbeddingsManager
+
+# 本地模型（默认）
+em = EmbeddingsManager("local")           # 384 维
+
+# OpenAI API
+em = EmbeddingsManager("openai")          # text-embedding-3-small, 1536 维
+```
+
+配置（`.env`）：
+```bash
+OPENAI_API_KEY=sk-xxx
+OPENAI_API_BASE=https://api.openai.com/v1    # 也兼容第三方
+OPENAI_EMBEDDINGS_MODEL=text-embedding-3-small
+```
+
+---
+
+### 9. knowledge_base.py — 混合检索（第五阶段新增）
+
+#### 概述
+`hybrid_search()` 方法结合 BM25 关键词匹配和向量相似度，提升检索召回率。
+
+#### 方法签名
+
+```python
+def hybrid_search(self, query: str, top_k: int = 3,
+                  bm25_weight: float = None) -> List[Dict]:
+    """
+    BM25 + 向量混合检索
+    
+    融合公式: final = BM25_weight * BM25 + (1-BM25_weight) * Vector
+    
+    Returns:
+        [{"content": ..., "source": ..., "score": 0.xxx,
+          "vector_score": 0.xxx, "bm25_score": 0.xxx}, ...]
+    """
+```
+
+#### 使用示例
+
+```python
+kb = KnowledgeBase(embeddings_provider="local")
+kb.load_documents_from_dir()
+
+# 混合检索
+results = kb.hybrid_search("Python 基础语法", top_k=3)
+for r in results:
+    print(f"[{r['score']:.3f}] BM25={r['bm25_score']:.3f} Vec={r['vector_score']:.3f}")
+```
+
+配置：
+```python
+# config.py
+HYBRID_SEARCH_ENABLED = True   # chat_with_rag 自动使用
+BM25_WEIGHT = 0.3              # BM25 权重（0~1）
+```
+
+---
+
 最后更新：2026-06-06

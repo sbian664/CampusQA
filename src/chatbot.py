@@ -8,6 +8,7 @@ from config import (
     RAG_TOP_K,
     RAG_SYSTEM_PROMPT_TEMPLATE,
     RAG_CONTEXT_ITEM_TEMPLATE,
+    HYBRID_SEARCH_ENABLED,
 )
 
 
@@ -87,8 +88,11 @@ class Chatbot:
         if self.kb is None:
             return self.chat_with_history(user_message, history)
 
-        # 1. 检索相关文档
-        results = self.kb.search(user_message, top_k=RAG_TOP_K)
+        # 1. 检索相关文档（混合检索优先）
+        if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'hybrid_search'):
+            results = self.kb.hybrid_search(user_message, top_k=RAG_TOP_K)
+        else:
+            results = self.kb.search(user_message, top_k=RAG_TOP_K)
 
         # 2. 格式化检索结果为上下文文本
         if results:

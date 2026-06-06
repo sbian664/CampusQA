@@ -1,5 +1,60 @@
 # 项目日志
 
+## 📅 [2026-06-06] 第五阶段完成 - v0.5.0
+
+### ✅ 完成内容
+
+#### 5.1 向量存储多后端
+- [x] `src/vector_store.py` 新建（~190 行）
+  - [x] `VectorStore` 抽象基类（add/search/delete/clear/count）
+  - [x] `ChromaStore` — 封装现有 Chroma 逻辑
+  - [x] `FaissStore` — 基于 Faiss IndexFlatL2，内存索引 + pickle 持久化
+  - [x] `create_vector_store()` 工厂函数
+- [x] `knowledge_base.py` 重构，通过 `VectorStore` 抽象操作
+- [x] 配置：`VECTOR_STORE = "chroma"`（默认），可选 `"faiss"`
+
+#### 5.2 Embeddings 多提供商
+- [x] `embeddings_manager.py` 重构（~210 行）
+  - [x] `EmbeddingsProvider` 抽象基类
+  - [x] `LocalEmbeddingsProvider` — 现有 SentenceTransformer 重构
+  - [x] `OpenAIEmbeddingsProvider` — 调用 OpenAI / 兼容 API
+  - [x] SHA256 缓存键（修复 hash 碰撞风险）
+  - [x] 缓存键包含 provider + model 信息（避免跨模型污染）
+- [x] 配置：`OPENAI_API_KEY`, `OPENAI_API_BASE`, `OPENAI_EMBEDDINGS_MODEL`
+
+#### 5.3 BM25 + 向量混合检索
+- [x] `knowledge_base.py` 新增（~100 行）
+  - [x] `hybrid_search()` — BM25 关键词 + 向量相似度融合排序
+  - [x] `_rebuild_bm25()`, `_bm25_score()`, `_tokenize()` — 中英文混合分词
+  - [x] Chunk 文本快照持久化（`kb_metadata_chunks.json`）
+  - [x] `chat_with_rag()` 自动切换为混合检索
+  - [x] `/search` 命令展示 BM25/向量/混合三分分数
+- [x] 配置：`HYBRID_SEARCH_ENABLED = True`, `BM25_WEIGHT = 0.3`
+
+#### 5.4 集成验证
+- [x] ✓ VectorStore 工厂创建/搜索/持久化测试
+- [x] ✓ EmbeddingsManager 多提供商 + SHA256 缓存键测试
+- [x] ✓ KnowledgeBase Chroma + 混合检索测试
+- [x] ✓ KnowledgeBase Faiss 存储/搜索/持久化测试
+- [x] ✓ 代码审查通过（0 错误）
+
+### 📊 统计数据
+- **新增文件**：1 个（`vector_store.py` ~190 行）
+- **重构文件**：3 个（`embeddings_manager.py`, `knowledge_base.py`, `config.py`）
+- **新增代码**：~500 行
+- **新增依赖**：`faiss-cpu`, `rank-bm25`, `openai`
+- **新增命令**：无（现有 `/search` 升级为混合检索）
+- **向量存储后端**：2 个（Chroma + Faiss）
+- **Embeddings 提供商**：2 个（Local + OpenAI）
+
+### 🎯 Phase 5 完成度
+- [x] Faiss 向量存储：**100%** ✓
+- [x] API Embeddings 多提供商：**100%** ✓
+- [x] BM25 混合检索：**100%** ✓
+- [x] 集成测试：**100%** ✓
+
+---
+
 ## 📅 [2026-06-06] 第四阶段完成 - v0.4.0
 
 ### ✅ 完成内容

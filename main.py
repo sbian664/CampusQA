@@ -83,15 +83,18 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
         if not arg:
             print("❌ 用法: /search <查询关键词>\n")
         else:
-            print(f"\n🔍 搜索: {arg}")
+            print(f"\n🔍 混合检索: {arg}")
             print("-" * 50)
-            results = kb.search(arg, top_k=3)
+            results = kb.hybrid_search(arg, top_k=3)
             if not results:
                 print("（未找到相关结果）\n")
             else:
                 for i, r in enumerate(results, 1):
                     source_name = r['source'].replace('\\', '/').split('/')[-1]
-                    print(f"  {i}. 📄 {source_name} (块{r['chunk_index']}) 相似度: {r['score']:.2f}")
+                    bm25_s = r.get('bm25_score', 0)
+                    vec_s = r.get('vector_score', 0)
+                    print(f"  {i}. 📄 {source_name} (块{r['chunk_index']})")
+                    print(f"     混合: {r['score']:.3f} | BM25: {bm25_s:.3f} | 向量: {vec_s:.3f}")
                     print(f"     {r['content'][:120]}...")
                     print()
                 print("-" * 50 + "\n")
@@ -100,6 +103,8 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
         stats = kb.get_statistics()
         print("\n📊 知识库统计:")
         print("-" * 40)
+        print(f"  存储后端:  {stats.get('store_type', 'N/A')}")
+        print(f"  混合检索:  {'✓ 启用' if stats.get('hybrid_search') else '✗ 关闭'}")
         print(f"  文件数:    {stats.get('total_files', 'N/A')}")
         print(f"  块数:      {stats.get('total_chunks', 'N/A')}")
         print(f"  体积:      {stats.get('total_size_mb', 'N/A')} MB")
