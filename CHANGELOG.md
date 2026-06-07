@@ -1,5 +1,75 @@
 # 项目日志
 
+## 📅 [2026-06-07] 第六阶段完成 - v0.6.0
+
+### ✅ 完成内容
+
+#### 6.1 上下文检索增强
+- [x] `src/text_chunker.py` 增强（+60 行）
+  - [x] `split_documents()` 为每个分块附加 `section_path`（章节层级路径）
+  - [x] 新增 `_segment_with_paths()` — 构建 Markdown/编号标题层级路径
+  - [x] 新增 `_get_heading_level()` — 推断标题层级（`#` 数量或编号深度）
+  - [x] 头层级栈追踪，如 `"AI基础 > 机器学习 > 线性回归"`
+- [x] `src/knowledge_base.py` 新增 `_enrich_chunk_text()`（~20 行）
+  - [x] 嵌入前为分块添加文档/章节前缀：`[文档: {title} | 章节: {section_path}] {原文}`
+  - [x] 向量化使用富化版本，存储和展示使用原文
+- [x] `config.py` 新增配置
+  - [x] `CONTEXT_ENRICHMENT_ENABLED = True`
+  - [x] `CONTEXT_ENRICHMENT_TEMPLATE`
+
+#### 6.2 元数据标注体系
+- [x] `src/document_loader.py` 增强（+30 行）
+  - [x] `_get_file_metadata()` 新增 `doc_type`（markdown/text/pdf/html）
+  - [x] 新增 `_extract_title_from_content()` — 提取 Markdown 首标题/首个非空行
+  - [x] Markdown/Text 加载器自动提取文档标题
+- [x] `src/knowledge_base.py` `_update_document()` 分块元数据扩展
+  - [x] 每个 chunk 自动继承：`doc_type`, `title`, `mtime`, `mtime_str`, `section_path`
+
+#### 6.3 元数据过滤检索
+- [x] `src/vector_store.py` `search()` 签名扩展（+5 行）
+  - [x] 新增 `where` 参数；`ChromaStore` 原生透传；`FaissStore` 兼容接受
+- [x] `src/knowledge_base.py` 新增过滤方法（~80 行）
+  - [x] `_build_chroma_where(filters)` — 用户过滤 → Chroma where 语法
+  - [x] `_apply_metadata_filter()` — Faiss 后置过滤
+  - [x] `_parse_time_to_unix()` — 日期字符串 → Unix 时间戳
+  - [x] `search()` 和 `hybrid_search()` 新增 `filters` 参数
+- [x] `config.py` 新增 `METADATA_FILTER_FIELDS` 映射表
+
+#### 6.4 CLI 过滤搜索
+- [x] `main.py` `/search` 命令升级（+40 行）
+  - [x] 支持 `--type markdown|text|pdf|html` 类型过滤
+  - [x] 支持 `--after 2026-01-01` 时间下界
+  - [x] 支持 `--before 2026-06-01` 时间上界
+  - [x] 搜索结果展示 `doc_type` 和 `title`
+- [x] `/help` 更新过滤用法说明
+- [x] `/kb-stats` 展示上下文增强状态
+
+#### 6.5 Bug 修复
+- [x] 修复 `ChromaStore.clear()` 静默失败 — 改用 `get(ids).delete(ids)`
+
+#### 6.6 测试验证
+- [x] ✓ `test_imports.py` 导入通过
+- [x] ✓ `test_knowledge_base.py` 知识库测试通过
+- [x] ✓ `test_rag_pipeline.py` RAG 管道通过（模板已适配新字段）
+- [x] ✓ `test_phase5.py` Chroma + Faiss + 混合检索通过
+- [x] ✓ `test_semantic_chunk.py` 语义分块通过
+
+### 📊 统计数据
+- **修改文件**：6 个（config, document_loader, text_chunker, vector_store, knowledge_base, main.py）
+- **适配文件**：1 个（test_rag_pipeline.py）
+- **新增代码**：~250 行
+- **新增配置项**：3 个（CONTEXT_ENRICHMENT_ENABLED, CONTEXT_ENRICHMENT_TEMPLATE, METADATA_FILTER_FIELDS）
+- **新增 CLI 参数**：3 个（--type, --after, --before）
+
+### 🎯 Phase 6 完成度
+- [x] 上下文检索增强：**100%** ✓
+- [x] 元数据标注体系：**100%** ✓
+- [x] 元数据过滤检索：**100%** ✓
+- [x] CLI 集成：**100%** ✓
+- [x] 回归测试：**100%** ✓
+
+---
+
 ## 📅 [2026-06-06] 第五阶段完成 - v0.5.0
 
 ### ✅ 完成内容

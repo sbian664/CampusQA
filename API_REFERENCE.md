@@ -1019,4 +1019,60 @@ BM25_WEIGHT = 0.3              # BM25 权重（0~1）
 
 ---
 
-最后更新：2026-06-06
+### 10. knowledge_base.py — 元数据过滤检索（第六阶段新增）
+
+`hybrid_search()` 和 `search()` 现支持元数据过滤参数。
+
+```python
+def hybrid_search(self, query: str, top_k: int = 3,
+                  bm25_weight: float = None,
+                  filters: Optional[Dict] = None) -> List[Dict]:
+    """
+    BM25 + 向量混合检索（支持元数据过滤）
+
+    filters 格式: {"doc_type": "markdown", "mtime_after": "2026-01-01", "mtime_before": "2026-06-01"}
+
+    Returns: [{..., "doc_type": "markdown", "title": "Python...", ...}] + 原有字段
+    """
+```
+
+过滤字段：
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `doc_type` | exact | markdown / text / pdf / html |
+| `source` | exact | 文件路径精确匹配 |
+| `mtime_after` | gte | 修改时间 >= 指定日期 |
+| `mtime_before` | lte | 修改时间 <= 指定日期 |
+
+Chroma 后端使用原生 where 过滤，Faiss 后端使用 Python 后置过滤。
+
+### 11. knowledge_base.py — 上下文检索增强（第六阶段新增）
+
+`_enrich_chunk_text()` 在嵌入前为分块文本添加文档/章节前缀：
+
+```python
+@staticmethod
+def _enrich_chunk_text(chunk_text: str, metadata: Dict) -> str:
+    """
+    格式: [文档: {title} | 章节: {section_path}] {chunk_text}
+
+    相同术语在不同文档/章节中获得差异化向量，提升检索精准度
+    可通过 config.CONTEXT_ENRICHMENT_ENABLED 开关
+    """
+```
+
+### 12. text_chunker.py — section_path 追踪（第六阶段新增）
+
+`split_documents()` 为每个分块附加 `section_path` 元数据：
+
+```python
+chunks = chunker.split_documents([doc])
+# chunks[0].metadata['section_path']  # e.g. "AI基础 > 机器学习 > 线性回归"
+```
+
+支持 Markdown 标题（`#`层级）和纯文本编号标题（`3.`/`3.1`）的层级追踪。
+
+---
+
+最后更新：2026-06-07

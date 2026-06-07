@@ -1,8 +1,9 @@
 """
 语义感知文本分块 — 按标题/段落/语义边界分割，避免切断语境
+v0.6.0: 新增 section_path 追踪，每个分块记录其所属章节路径
 """
 import re
-from typing import List
+from typing import List, Tuple
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
@@ -18,6 +19,7 @@ class SemanticChunker:
     1. 先按语义边界（标题、空行）拆分为段落
     2. 短段落直接保留，长段落用 RecursiveCharacterTextSplitter 细分
     3. 子块自动继承父标题，保持语境
+    4. 记录 section_path（标题层级路径），如 "机器学习 > 监督学习 > 线性回归"
     """
 
     # Markdown / reST 风格标题
@@ -33,17 +35,19 @@ class SemanticChunker:
         )
 
     def split_text(self, text: str, source: str = "") -> List[str]:
-        """主入口：语义分块"""
+        """主入口：语义分块（返回纯文本列表）"""
         return self._split_by_sections(text, source)
 
     def split_documents(self, docs: List[Document]) -> List[Document]:
-        """批量处理 LangChain Document 列表"""
+        """批量处理 LangChain Document 列表，附加 section_path 元数据"""
         result = []
         for doc in docs:
             source = doc.metadata.get("source", "")
-            chunks = self.split_text(doc.page_content, source)
-            for chunk in chunks:
-                result.append(Document(page_content=chunk, metadata=dict(doc.metadata)))
+            chunks_with_paths = self._split_by_sections_with_paths(doc.page_content, source)
+            for section_path, chunk_text in chunks_with_paths:
+                md = dict(doc.metadata)
+                md['section_path'] = section_path
+                result.append(Document(page_content=chunk_text, metadata=md))
         return result
 
     # Markdown / reST 风格标题
@@ -55,35 +59,57 @@ class SemanticChunker:
 
     # ---- 内部实现 ----
 
-    def _split_by_sections(self, text: str, source: str) -> List[str]:
-        sections = self._segment(text)
-        chunks = []
+    # ---- 标题层级 ----
 
-        for heading, body in sections:
+    @staticmethod
+    def _get_heading_level(heading: str, pattern_name: str) -> int:
+        """推断标题层级"""
+        if pattern_name == 'heading':
+            # Markdown: # = 1, ## = 2, ...
+            return len(re.match(r'^(#+)', heading).group(1))
+        elif pattern_name == 'numbered':
+            # Numbered: "3." = 1, "3.1" = 2, "3.1.2" = 3
+            prefix = re.match(r'^(\d+(?:\.\d+)*)', heading).group(1)
+            return prefix.count('.') + 1
+        return 1
+
+    def _split_by_sections_with_paths(self, text: str, source: str) -> List[Tuple[str, str]]:
+        """
+        按章节拆分，返回 [(section_path, chunk_text), ...]
+        section_path 例: "机器学习基础 > 监督学习 > 线性回归"
+        """
+        sections = self._segment_with_paths(text)
+        chunks: List[Tuple[str, str]] = []
+
+        for heading_path, body in sections:
             if not body.strip():
                 continue
-            combined = f"{heading}\n{body}".strip() if heading else body
+            combined = f"{heading_path}\n{body}".strip() if heading_path else body
 
             if self._token_estimate(combined) <= self.chunk_size:
-                chunks.append(combined)
+                chunks.append((heading_path, combined))
             else:
-                # 先尝试子步骤边界拆分
                 sub_parts = self._split_by_substeps(body)
                 for part in sub_parts:
-                    full = f"{heading}\n{part}".strip() if heading else part
+                    full = f"{heading_path}\n{part}".strip() if heading_path else part
                     if self._token_estimate(full) <= self.chunk_size:
-                        chunks.append(full)
+                        chunks.append((heading_path, full))
                     else:
-                        # 再按空行尝试
                         para_sections = self._segment_by_paragraphs(full)
                         for _, para_body in para_sections:
                             if self._token_estimate(para_body) <= self.chunk_size:
-                                chunks.append(para_body)
+                                chunks.append((heading_path, para_body))
                             else:
-                                sub_chunks = self._fallback.split_text(para_body)
-                                chunks.extend(sub_chunks)
+                                for sub_chunk in self._fallback.split_text(para_body):
+                                    chunks.append((heading_path, sub_chunk))
 
         return chunks
+
+    # ---- 原有方法（保持向后兼容） ----
+
+    def _split_by_sections(self, text: str, source: str) -> List[str]:
+        """原有接口：返回纯文本块列表（无 section_path）"""
+        return [chunk for _, chunk in self._split_by_sections_with_paths(text, source)]
 
     def _split_by_substeps(self, text: str) -> List[str]:
         """按子步骤边界（步骤1/步骤2...）拆分为组，合并相邻小步骤"""
@@ -121,42 +147,73 @@ class SemanticChunker:
 
     def _segment(self, text: str) -> List[tuple]:
         """
-        按标题拆分为 (标题, 正文) 段列表
+        按标题拆分为 (标题, 正文) 段列表（标题为单层文本，仅为向后兼容）
+        """
+        sections = self._segment_with_paths(text)
+        # 提取最后一层标题作为向后兼容的 heading
+        result = []
+        for heading_path, body in sections:
+            # 路径最后一层 = 当前章节标题
+            last_heading = heading_path.split(" > ")[-1] if heading_path else ""
+            result.append((last_heading, body))
+        return result
+
+    def _segment_with_paths(self, text: str) -> List[tuple]:
+        """
+        按标题拆分为 (heading_path, body) 段列表
+        heading_path 例: "机器学习基础 > 监督学习 > 线性回归"
+
         优先 Markdown ##，其次纯文本编号标题 "3. xxx"
         """
         # 先尝试 Markdown 标题
-        sections = self._split_by_pattern(text, self.HEADING_PATTERN)
+        sections = self._split_by_pattern_with_paths(text, self.HEADING_PATTERN, 'heading')
         if sections:
             return sections
 
         # 再尝试编号标题（纯文本常见格式）
-        sections = self._split_by_pattern(text, self.NUMBERED_SECTION)
+        sections = self._split_by_pattern_with_paths(text, self.NUMBERED_SECTION, 'numbered')
         if sections:
             return sections
 
         # 都没有 → 按段落合并
         return self._segment_by_paragraphs(text)
 
-    def _split_by_pattern(self, text: str, pattern: re.Pattern) -> List[tuple]:
-        """按正则模式拆分文本为 (标题, 正文) 段"""
+    def _split_by_pattern_with_paths(
+        self, text: str, pattern: re.Pattern, pattern_name: str
+    ) -> List[tuple]:
+        """按正则模式拆分文本，构建 heading_path 层级"""
         matches = list(pattern.finditer(text))
         if not matches:
             return []
 
-        sections = []
-        for i, m in enumerate(matches):
-            heading = m.group(1)
-            start = m.end()
-            end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-            body = text[start:end].strip()
-            if body.strip():
-                sections.append((heading, body))
+        sections: List[Tuple[str, str]] = []
+        heading_stack: List[Tuple[int, str]] = []  # [(level, heading_text), ...]
 
-        # 第一个标题之前的文本作为序言
+        # 第一个标题之前的文本作为序言（无路径）
         if matches[0].start() > 0:
             preamble = text[:matches[0].start()].strip()
             if preamble:
-                sections.insert(0, ("", preamble))
+                sections.append(("", preamble))
+
+        for i, m in enumerate(matches):
+            heading = m.group(1).strip()
+            level = self._get_heading_level(m.group(1), pattern_name)
+
+            # 更新栈：弹出比当前更深的层级
+            while heading_stack and heading_stack[-1][0] >= level:
+                heading_stack.pop()
+            heading_stack.append((level, heading))
+
+            # 构建完整路径
+            heading_path = " > ".join(h[1] for h in heading_stack)
+
+            # 提取正文体
+            start = m.end()
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+            body = text[start:end].strip()
+
+            if body.strip():
+                sections.append((heading_path, body))
 
         return sections
 

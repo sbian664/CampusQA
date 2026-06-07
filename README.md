@@ -13,7 +13,8 @@ knowledge-agent/
 │   ├── session.py             # 会话管理
 │   ├── document_loader.py     # 多格式文档加载器
 │   ├── embeddings_manager.py  # 向量化管理
-│   ├── knowledge_base.py      # 知识库（Chroma + 检索）
+│   ├── text_chunker.py         # 语义感知分块器
+│   ├── knowledge_base.py      # 知识库（Chroma + 检索 + 混合检索 + 元数据过滤）
 │   └── vector_store.py        # 向量存储抽象（Chroma / Faiss）
 ├── data/
 │   ├── documents/            # 知识文档存放目录
@@ -92,6 +93,7 @@ Agent: 根据知识库文档，监督学习是...
 ```
 你: /add-docs   # 扫描并加载新文档
 你: /search 机器学习  # 搜索知识库
+你: /search 机器学习 --type markdown --after 2026-01-01  # 元数据过滤搜索
 你: /kb-stats   # 查看知识库统计
 你: /rebuild    # 重建向量索引
 ```
@@ -103,6 +105,7 @@ Agent: 根据知识库文档，监督学习是...
 - 第三阶段：文档加载 ✅
 - 第四阶段：文本检索 + RAG 增强 ✅
 - 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
+- 第六阶段：RAG检索强化（上下文增强 + 元数据过滤） ✅
 
 ## 获取 DeepSeek API 密钥
 
@@ -142,7 +145,7 @@ Agent: 根据知识库文档，监督学习是...
 | `OPENAI_API_BASE` | `https://api.openai.com/v1` | OpenAI 兼容 API 地址 |
 | `OPENAI_EMBEDDINGS_MODEL` | `text-embedding-3-small` | OpenAI Embeddings 模型 |
 
-### 检索增强（Phase 4）
+### 检索增强（Phase 4/5/6）
 
 | 环境变量 | 默认值 | 说明 |
 |----------|--------|------|
@@ -150,6 +153,8 @@ Agent: 根据知识库文档，监督学习是...
 | `RAG_TOP_K` | `3` | 每次检索返回的文档块数 |
 | `HYBRID_SEARCH_ENABLED` | `True` | 是否启用 BM25+向量混合检索 |
 | `BM25_WEIGHT` | `0.3` | BM25 权重（0~1），剩余为向量权重 |
+| `CONTEXT_ENRICHMENT_ENABLED` | `True` | 嵌入前是否添加文档/章节上下文前缀 |
+| `METADATA_FILTER_FIELDS` | `doc_type, source, mtime_after, mtime_before` | 可过滤元数据字段 |
 
 ### 文本分割
 

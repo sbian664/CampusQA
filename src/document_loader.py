@@ -74,15 +74,45 @@ class DocumentLoader:
         elif ext == '.html':
             return self._load_html(file_path)
     
+    @staticmethod
+    def _extract_title_from_content(content: str, filename: str = "") -> str:
+        """
+        从文档内容中提取标题
+        - Markdown: 第一个 # 标题行
+        - 纯文本: 第一个非空行（若长度合适）
+        - 回退: 使用文件名（去扩展名）
+        """
+        # 尝试 Markdown 标题
+        for line in content.split('\n'):
+            line = line.strip()
+            if line.startswith('#'):
+                # 去掉 # 和空格，取标题文本
+                title = line.lstrip('#').strip()
+                if title:
+                    return title
+
+        # 尝试首个非空行（适合纯文本）
+        for line in content.split('\n'):
+            line = line.strip()
+            if line and len(line) >= 5 and len(line) <= 100:
+                return line
+
+        # 回退：文件名去扩展名
+        return Path(filename).stem if filename else "Untitled"
+
     def _load_markdown(self, file_path: str) -> List[Document]:
         """加载 Markdown 文件"""
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             # 获取文件元数据
             metadata = self._get_file_metadata(file_path)
-            
+            # 从内容中提取标题
+            metadata['title'] = self._extract_title_from_content(
+                content, os.path.basename(file_path)
+            )
+
             doc = Document(
                 page_content=content,
                 metadata={
@@ -99,9 +129,12 @@ class DocumentLoader:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             metadata = self._get_file_metadata(file_path)
-            
+            metadata['title'] = self._extract_title_from_content(
+                content, os.path.basename(file_path)
+            )
+
             doc = Document(
                 page_content=content,
                 metadata={
@@ -118,13 +151,15 @@ class DocumentLoader:
         try:
             loader = PyPDFLoader(file_path)
             docs = loader.load()
-            
+
             # 添加元数据
             metadata = self._get_file_metadata(file_path)
+            # PDF 标题回退为文件名
+            metadata['title'] = metadata.get('title') or os.path.splitext(os.path.basename(file_path))[0]
             for doc in docs:
                 doc.metadata.update(metadata)
                 doc.metadata['format'] = 'pdf'
-            
+
             return docs
         except Exception as e:
             raise Exception(f"加载 PDF 文件失败 {file_path}: {str(e)}")
@@ -163,14 +198,26 @@ class DocumentLoader:
             raise Exception(f"加载 HTML 文件失败 {file_path}: {str(e)}")
     
     def _get_file_metadata(self, file_path: str) -> Dict:
-        """提取文件元数据"""
+        """提取文件元数据（含 doc_type 推断和标题提取）"""
         stat = os.stat(file_path)
+        ext = Path(file_path).suffix.lower()
+
+        # 扩展名 → doc_type 映射
+        _ext_to_doc_type = {
+            '.md': 'markdown',
+            '.txt': 'text',
+            '.pdf': 'pdf',
+            '.html': 'html',
+        }
+        doc_type = _ext_to_doc_type.get(ext, 'unknown')
+
         return {
             'source': file_path,
             'filename': os.path.basename(file_path),
+            'doc_type': doc_type,
             'size': stat.st_size,
             'mtime': stat.st_mtime,
-            'mtime_str': datetime.fromtimestamp(stat.st_mtime).isoformat()
+            'mtime_str': datetime.fromtimestamp(stat.st_mtime).isoformat(),
         }
     
     def load_directory(self, 

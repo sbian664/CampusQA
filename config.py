@@ -69,6 +69,19 @@ OPENAI_EMBEDDINGS_MODEL = os.getenv("OPENAI_EMBEDDINGS_MODEL", "text-embedding-3
 HYBRID_SEARCH_ENABLED = True   # 是否启用混合检索
 BM25_WEIGHT = 0.3              # BM25 权重（0~1），剩余为向量权重
 
+# 上下文检索增强 — 嵌入前为分块添加文档/章节前缀
+CONTEXT_ENRICHMENT_ENABLED = True  # 是否启用上下文前缀富化
+CONTEXT_ENRICHMENT_TEMPLATE = "[文档: {title} | 章节: {section_path}] {chunk_text}"
+
+# 元数据过滤 — 可过滤字段及类型
+# key: 用户侧过滤字段名, value: (存储 metadata key, 类型 "exact"/"range")
+METADATA_FILTER_FIELDS = {
+    "doc_type":    ("doc_type", "exact"),
+    "source":      ("source", "exact"),
+    "mtime_after": ("mtime", "gte"),
+    "mtime_before":("mtime", "lte"),
+}
+
 # ============ RAG（检索增强生成）配置 ============
 RAG_ENABLED = True            # 是否默认启用 RAG 模式
 RAG_TOP_K = 3                 # 每次检索返回的文档块数
@@ -86,5 +99,5 @@ RAG_SYSTEM_PROMPT_TEMPLATE = """{system_prompt}
 ---"""
 
 # RAG 检索结果的格式化模板（每条）
-RAG_CONTEXT_ITEM_TEMPLATE = """[来源: {source} (块{chunk}) 相似度: {score:.2f}]
+RAG_CONTEXT_ITEM_TEMPLATE = """[来源: {source} | 类型: {doc_type} | 标题: {title} | 块{chunk} | 相似度: {score:.2f}]
 {content}"""

@@ -101,6 +101,8 @@ class Chatbot:
                 context_parts.append(
                     RAG_CONTEXT_ITEM_TEMPLATE.format(
                         source=r['source'],
+                        doc_type=r.get('doc_type', 'unknown'),
+                        title=r.get('title', ''),
                         chunk=r['chunk_index'],
                         score=r['score'],
                         content=r['content'],

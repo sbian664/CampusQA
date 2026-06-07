@@ -21,6 +21,9 @@ from config import (
     HYBRID_SEARCH_ENABLED,
     BM25_WEIGHT,
     SEMANTIC_CHUNKING,
+    CONTEXT_ENRICHMENT_ENABLED,
+    CONTEXT_ENRICHMENT_TEMPLATE,
+    METADATA_FILTER_FIELDS,
 )
 from src.document_loader import DocumentLoader
 from src.embeddings_manager import EmbeddingsManager
@@ -138,6 +141,13 @@ class KnowledgeBase:
             doc_chunks = self.text_splitter.split_documents([doc])
             chunks.extend(doc_chunks)
 
+        # 提取文档级元数据（从第一个 doc 获取）
+        doc_meta = docs[0].metadata if docs else {}
+        doc_type = doc_meta.get('doc_type', 'unknown')
+        doc_title = doc_meta.get('title', os.path.basename(file_path))
+        doc_mtime = doc_meta.get('mtime', 0)
+        doc_mtime_str = doc_meta.get('mtime_str', '')
+
         # 向量化和存储
         chunk_ids = []
         chunk_texts = []
@@ -151,11 +161,18 @@ class KnowledgeBase:
             chunk_metadatas.append({
                 'source': file_path,
                 'chunk_index': i,
+                'doc_type': doc_type,
+                'title': doc_title,
+                'mtime': doc_mtime,
+                'mtime_str': doc_mtime_str,
+                'section_path': chunk.metadata.get('section_path', ''),
                 **chunk.metadata
             })
 
-            # 获取向量
-            vector = self.embeddings_manager.embed_text(chunk.page_content)
+            # 获取向量（使用上下文富化后的文本做嵌入，提高语义区分度）
+            chunk_meta = chunk_metadatas[-1]
+            text_for_embedding = self._enrich_chunk_text(chunk.page_content, chunk_meta)
+            vector = self.embeddings_manager.embed_text(text_for_embedding)
             chunk_vectors.append(vector)
 
         # 批量存储（更高效）
@@ -189,36 +206,58 @@ class KnowledgeBase:
     
     # ---- 搜索 ----
 
-    def search(self, query: str, top_k: int = 3) -> List[Dict]:
-        """纯向量搜索"""
+    def search(self, query: str, top_k: int = 3,
+               filters: Optional[Dict] = None) -> List[Dict]:
+        """
+        纯向量搜索（支持元数据过滤）
+
+        Args:
+            query: 查询文本
+            top_k: 返回结果数
+            filters: 元数据过滤条件，如 {"doc_type": "markdown", "mtime_after": "2026-01-01"}
+        """
         query_vector = self.embeddings_manager.embed_text(query)
-        raw = self.store.search(query_vector, top_k)
-        return self._format_search_results(raw)
+
+        # Chroma 原生过滤
+        chroma_where = self._build_chroma_where(filters) if filters else None
+        raw = self.store.search(query_vector, top_k, where=chroma_where)
+
+        results = self._format_search_results(raw)
+
+        # Faiss 后置过滤（如果后端不支持原生过滤）
+        if filters and self.store_type == 'faiss':
+            results = self._apply_metadata_filter(results, filters)
+
+        return results[:top_k]
 
     def hybrid_search(self, query: str, top_k: int = 3,
-                      bm25_weight: float = None) -> List[Dict]:
+                      bm25_weight: float = None,
+                      filters: Optional[Dict] = None) -> List[Dict]:
         """
-        BM25 + 向量混合检索
+        BM25 + 向量混合检索（支持元数据过滤）
 
         流程：
         1. 向量粗筛 top_k * 2 个候选
         2. 对候选做 BM25 关键词打分
         3. 融合分数排序：final = BM25_weight * BM25 + (1-BM25_weight) * Vector
-        4. 返回 top_k
+        4. 元数据过滤（Chromba 原生 / Faiss 后置）
+        5. 返回 top_k
 
         Args:
             query: 查询文本
             top_k: 返回结果数
             bm25_weight: BM25 权重（0~1），默认用 config.BM25_WEIGHT
+            filters: 元数据过滤条件，如 {"doc_type": "markdown", "mtime_after": "2026-01-01"}
         """
         if bm25_weight is None:
             bm25_weight = BM25_WEIGHT
 
         query_vector = self.embeddings_manager.embed_text(query)
 
-        # 向量粗筛（取更多候选）
+        # 向量粗筛（取更多候选），Chroma 原生过滤
         candidate_k = max(top_k * 2, top_k + 5)
-        raw = self.store.search(query_vector, candidate_k)
+        chroma_where = self._build_chroma_where(filters) if filters else None
+        raw = self.store.search(query_vector, candidate_k, where=chroma_where)
 
         if not raw['documents'] or not raw['documents'][0]:
             return []
@@ -238,16 +277,122 @@ class KnowledgeBase:
                 'content': raw['documents'][0][i],
                 'source': raw['metadatas'][0][i].get('source', 'unknown'),
                 'chunk_index': raw['metadatas'][0][i].get('chunk_index', 0),
+                'doc_type': raw['metadatas'][0][i].get('doc_type', 'unknown'),
+                'title': raw['metadatas'][0][i].get('title', ''),
                 'score': round(final_score, 4),
                 'vector_score': round(vec_score, 4),
                 'bm25_score': round(bm25_score, 4),
                 'metadata': raw['metadatas'][0][i],
             })
 
+        # Faiss 后置过滤
+        if filters and self.store_type == 'faiss':
+            combined = self._apply_metadata_filter(combined, filters)
+
         # 按融合分数排序
         combined.sort(key=lambda x: x['score'], reverse=True)
         return combined[:top_k]
     
+    # ---- 元数据过滤 ----
+
+    @staticmethod
+    def _build_chroma_where(filters: Dict) -> Dict:
+        """
+        将用户友好的过滤字典转换为 Chroma where 语法
+
+        支持：
+        - 精确匹配：{"doc_type": "markdown"}  →  {"doc_type": "markdown"}
+        - 时间范围：{"mtime_after": "2026-01-01"}  →  {"mtime": {"$gte": 1704067200.0}}
+
+        Args:
+            filters: {"doc_type": "markdown", "mtime_after": "2026-01-01T00:00:00"}
+        """
+        conditions = []
+
+        for user_key, value in filters.items():
+            if user_key not in METADATA_FILTER_FIELDS:
+                continue  # 忽略未知字段
+
+            meta_key, op_type = METADATA_FILTER_FIELDS[user_key]
+
+            if op_type == "exact":
+                conditions.append({meta_key: value})
+            elif op_type == "gte":
+                # 将日期字符串转为 Unix 时间戳
+                ts = KnowledgeBase._parse_time_to_unix(value)
+                if ts is not None:
+                    conditions.append({meta_key: {"$gte": ts}})
+            elif op_type == "lte":
+                ts = KnowledgeBase._parse_time_to_unix(value)
+                if ts is not None:
+                    conditions.append({meta_key: {"$lte": ts}})
+
+        if not conditions:
+            return None
+        if len(conditions) == 1:
+            return conditions[0]
+        return {"$and": conditions}
+
+    @staticmethod
+    def _apply_metadata_filter(results: List[Dict], filters: Dict) -> List[Dict]:
+        """
+        Faiss 后置元数据过滤（Python 侧）
+
+        Args:
+            results: 搜索/混合检索结果列表
+            filters: 用户过滤条件
+        """
+        filtered = []
+        for r in results:
+            meta = r.get('metadata', {})
+            match = True
+            for user_key, value in filters.items():
+                if user_key not in METADATA_FILTER_FIELDS:
+                    continue
+                meta_key, op_type = METADATA_FILTER_FIELDS[user_key]
+
+                if op_type == "exact":
+                    if meta.get(meta_key) != value:
+                        match = False
+                        break
+                elif op_type == "gte":
+                    ts = KnowledgeBase._parse_time_to_unix(value)
+                    if ts is not None and meta.get(meta_key, 0) < ts:
+                        match = False
+                        break
+                elif op_type == "lte":
+                    ts = KnowledgeBase._parse_time_to_unix(value)
+                    if ts is not None and meta.get(meta_key, 0) > ts:
+                        match = False
+                        break
+            if match:
+                filtered.append(r)
+        return filtered
+
+    @staticmethod
+    def _parse_time_to_unix(time_str: str) -> Optional[float]:
+        """将日期/时间字符串转换为 Unix 时间戳"""
+        if not time_str:
+            return None
+        try:
+            # 支持多种格式
+            for fmt in [
+                "%Y-%m-%dT%H:%M:%S",
+                "%Y-%m-%d %H:%M:%S",
+                "%Y-%m-%d",
+                "%Y/%m/%d",
+            ]:
+                try:
+                    dt = datetime.strptime(time_str.strip(), fmt)
+                    return dt.timestamp()
+                except ValueError:
+                    continue
+            # 尝试 ISO 格式
+            dt = datetime.fromisoformat(time_str.strip())
+            return dt.timestamp()
+        except Exception:
+            return None
+
     def get_statistics(self) -> Dict:
         """获取知识库统计信息"""
         total_files = len(self.metadata)
@@ -351,6 +496,8 @@ class KnowledgeBase:
                     'content': doc,
                     'source': meta.get('source', 'unknown'),
                     'chunk_index': meta.get('chunk_index', 0),
+                    'doc_type': meta.get('doc_type', 'unknown'),
+                    'title': meta.get('title', ''),
                     'score': self._distance_to_score(dist),
                     'metadata': meta,
                 })
@@ -360,6 +507,38 @@ class KnowledgeBase:
     def _distance_to_score(distance: float) -> float:
         """L2 距离 → 相似度分数 (0~1)"""
         return round(1 - (distance / 2), 4)
+
+    @staticmethod
+    def _enrich_chunk_text(chunk_text: str, metadata: Dict) -> str:
+        """
+        为分块文本添加文档/章节上下文前缀（用于嵌入向量化）
+
+        效果：相同术语在不同文档中的分块获得差异化向量
+        存储原文不变，仅嵌入时使用富化版本
+
+        Args:
+            chunk_text: 原始分块文本
+            metadata: 分块元数据（含 title, section_path 等）
+
+        Returns:
+            带上下文前缀的文本（如果 CONTEXT_ENRICHMENT_ENABLED=True）
+            否则返回原文
+        """
+        if not CONTEXT_ENRICHMENT_ENABLED:
+            return chunk_text
+
+        title = metadata.get('title', '')
+        section_path = metadata.get('section_path', '')
+
+        # 如果没有任何上下文信息，直接返回原文
+        if not title and not section_path:
+            return chunk_text
+
+        return CONTEXT_ENRICHMENT_TEMPLATE.format(
+            title=title,
+            section_path=section_path or '',
+            chunk_text=chunk_text,
+        )
 
     # ---- BM25 混合检索 ----
 

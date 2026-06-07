@@ -20,9 +20,15 @@ class VectorStore(ABC):
         """添加向量"""
 
     @abstractmethod
-    def search(self, query_embedding: List[float], top_k: int) -> Dict:
+    def search(self, query_embedding: List[float], top_k: int,
+               where: Optional[Dict] = None) -> Dict:
         """
-        搜索
+        搜索（支持元数据过滤）
+        Args:
+            query_embedding: 查询向量
+            top_k: 返回结果数
+            where: Chroma 风格元数据过滤条件，如 {"doc_type": "markdown"}
+                   仅 ChromaStore 支持原生过滤；FaissStore 忽略此参数
         Returns: {"ids": [...], "documents": [...], "metadatas": [...], "distances": [...]}
         """
 
@@ -61,21 +67,32 @@ class ChromaStore(VectorStore):
             embeddings=embeddings,
         )
 
-    def search(self, query_embedding, top_k):
-        return self.collection.query(
-            query_embeddings=[query_embedding],
-            n_results=top_k,
-        )
+    def search(self, query_embedding, top_k, where=None):
+        kwargs = {
+            "query_embeddings": [query_embedding],
+            "n_results": top_k,
+        }
+        if where:
+            kwargs["where"] = where
+        return self.collection.query(**kwargs)
 
     def delete(self, ids):
         if ids:
             self.collection.delete(ids=ids)
 
     def clear(self):
+        """清空所有向量（兼容 Chroma 各版本）"""
         try:
-            self.collection.delete(where={})
+            # 方法1：获取所有 ID 然后按 ID 删除（最可靠）
+            result = self.collection.get(limit=self.collection.count())
+            if result and result.get('ids'):
+                self.collection.delete(ids=result['ids'])
         except Exception:
-            pass
+            try:
+                # 方法2：fallback 用 where={}（某些版本有效）
+                self.collection.delete(where={})
+            except Exception:
+                pass
 
     def count(self):
         return self.collection.count()
@@ -110,7 +127,7 @@ class FaissStore(VectorStore):
         self._documents.extend(documents)
         self._metadatas.extend(metadatas)
 
-    def search(self, query_embedding, top_k):
+    def search(self, query_embedding, top_k, where=None):
         if self.index.ntotal == 0:
             return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]]}
 

@@ -21,7 +21,9 @@ def print_help():
     print("-" * 50)
     print("📚 知识库命令:")
     print("  /add-docs   - 扫描并加载新文档到知识库")
-    print("  /search     - 搜索知识库  (例: /search 机器学习)")
+    print("  /search     - 搜索知识库（支持元数据过滤）")
+    print("    用法: /search <关键词> [--type md|txt|pdf|html] [--after 日期] [--before 日期]")
+    print("    例: /search 机器学习 --type md --after 2026-01-01")
     print("  /kb-stats   - 显示知识库统计信息")
     print("  /rebuild    - 重建知识库索引")
     print("=" * 50)
@@ -81,30 +83,73 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
 
     elif cmd == 'search':
         if not arg:
-            print("❌ 用法: /search <查询关键词>\n")
+            print("❌ 用法: /search <查询关键词> [--type markdown|text|pdf|html] [--after 日期] [--before 日期]\n")
         else:
-            print(f"\n🔍 混合检索: {arg}")
-            print("-" * 50)
-            results = kb.hybrid_search(arg, top_k=3)
-            if not results:
-                print("（未找到相关结果）\n")
+            # 解析过滤参数（从 arg 中分离查询词和过滤器）
+            import shlex
+            try:
+                tokens = shlex.split(arg)
+            except ValueError:
+                tokens = arg.split()
+
+            query_parts = []
+            filters = {}
+            i = 0
+            while i < len(tokens):
+                if tokens[i] in ('--type', '-t') and i + 1 < len(tokens):
+                    filters['doc_type'] = tokens[i + 1].lower()
+                    i += 2
+                elif tokens[i] in ('--after', '-a') and i + 1 < len(tokens):
+                    filters['mtime_after'] = tokens[i + 1]
+                    i += 2
+                elif tokens[i] in ('--before', '-b') and i + 1 < len(tokens):
+                    filters['mtime_before'] = tokens[i + 1]
+                    i += 2
+                else:
+                    query_parts.append(tokens[i])
+                    i += 1
+
+            query = ' '.join(query_parts)
+            if not query:
+                print("❌ 请提供搜索关键词\n")
             else:
-                for i, r in enumerate(results, 1):
-                    source_name = r['source'].replace('\\', '/').split('/')[-1]
-                    bm25_s = r.get('bm25_score', 0)
-                    vec_s = r.get('vector_score', 0)
-                    print(f"  {i}. 📄 {source_name} (块{r['chunk_index']})")
-                    print(f"     混合: {r['score']:.3f} | BM25: {bm25_s:.3f} | 向量: {vec_s:.3f}")
-                    print(f"     {r['content'][:120]}...")
-                    print()
-                print("-" * 50 + "\n")
+                filter_desc = ''
+                if filters:
+                    desc_parts = []
+                    if 'doc_type' in filters:
+                        desc_parts.append(f"类型={filters['doc_type']}")
+                    if 'mtime_after' in filters:
+                        desc_parts.append(f"晚于{filters['mtime_after']}")
+                    if 'mtime_before' in filters:
+                        desc_parts.append(f"早于{filters['mtime_before']}")
+                    filter_desc = ' | 过滤: ' + ', '.join(desc_parts)
+
+                print(f"\n🔍 混合检索: {query}{filter_desc}")
+                print("-" * 50)
+                results = kb.hybrid_search(query, top_k=3, filters=filters if filters else None)
+                if not results:
+                    print("（未找到相关结果）\n")
+                else:
+                    for i, r in enumerate(results, 1):
+                        source_name = r['source'].replace('\\', '/').split('/')[-1]
+                        bm25_s = r.get('bm25_score', 0)
+                        vec_s = r.get('vector_score', 0)
+                        doc_type = r.get('doc_type', '')
+                        title = r.get('title', '')
+                        print(f"  {i}. 📄 {source_name} [{doc_type}] {title}")
+                        print(f"     块{r['chunk_index']} | 混合: {r['score']:.3f} | BM25: {bm25_s:.3f} | 向量: {vec_s:.3f}")
+                        print(f"     {r['content'][:120]}...")
+                        print()
+                    print("-" * 50 + "\n")
 
     elif cmd == 'kb-stats':
+        from config import CONTEXT_ENRICHMENT_ENABLED
         stats = kb.get_statistics()
         print("\n📊 知识库统计:")
         print("-" * 40)
         print(f"  存储后端:  {stats.get('store_type', 'N/A')}")
         print(f"  混合检索:  {'✓ 启用' if stats.get('hybrid_search') else '✗ 关闭'}")
+        print(f"  上下文增强:{'✓ 启用' if CONTEXT_ENRICHMENT_ENABLED else '✗ 关闭'}")
         print(f"  文件数:    {stats.get('total_files', 'N/A')}")
         print(f"  块数:      {stats.get('total_chunks', 'N/A')}")
         print(f"  体积:      {stats.get('total_size_mb', 'N/A')} MB")
