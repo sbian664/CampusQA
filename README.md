@@ -9,13 +9,14 @@ knowledge-agent/
 ├── src/
 │   ├── __init__.py
 │   ├── llm_client.py          # LLM 客户端（支持多个提供商）
-│   ├── chatbot.py             # 对话机器人（支持 RAG）
-│   ├── session.py             # 会话管理
+│   ├── chatbot.py             # 对话机器人（支持 RAG + Agent Loop）
+│   ├── session.py             # 会话管理（支持 tool_calls）
 │   ├── document_loader.py     # 多格式文档加载器
 │   ├── embeddings_manager.py  # 向量化管理
 │   ├── text_chunker.py         # 语义感知分块器
 │   ├── knowledge_base.py      # 知识库（Chroma + 检索 + 混合检索 + 元数据过滤）
-│   └── vector_store.py        # 向量存储抽象（Chroma / Faiss）
+│   ├── vector_store.py        # 向量存储抽象（Chroma / Faiss）
+│   └── tools.py               # Agent 工具定义 + ToolHandler
 ├── data/
 │   ├── documents/            # 知识文档存放目录
 │   ├── cache/               # 缓存数据
@@ -71,11 +72,27 @@ python main.py
 
 程序启动后自动加载知识库，你可以：
 
-**RAG 增强对话** - 直接输入消息（自动检索知识库）：
+**Agent 自主检索对话**（默认模式）— LLM 自主调用检索工具：
+```
+你: 什么是反向传播算法？
+🤖 Agent 思考中（可自主检索）...
+  🔍 search_knowledge_base("反向传播算法") → 3条, top=0.87
+Agent: 根据《深度学习教程》文档，反向传播算法是...
+```
+
+**一步式 RAG 对话** — `/agent` 切换后可回到传统模式：
 ```
 你: 什么是监督学习？
 🔍 检索知识库 + 🤔 思考中...
 Agent: 根据知识库文档，监督学习是...
+```
+
+**Agent 模式命令**：
+```
+你: /agent     # 切换 Agent/Simple 模式
+你: /mode      # 查看当前对话模式
+你: /tool-log  # 查看工具调用历史
+你: /cost      # 查看 Token 消耗
 ```
 
 **对话管理命令**：
@@ -106,6 +123,7 @@ Agent: 根据知识库文档，监督学习是...
 - 第四阶段：文本检索 + RAG 增强 ✅
 - 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
 - 第六阶段：RAG检索强化（上下文增强 + 元数据过滤） ✅
+- 第七阶段：Agent Loop 自主循环检索 ✅
 
 ## 获取 DeepSeek API 密钥
 
@@ -155,6 +173,18 @@ Agent: 根据知识库文档，监督学习是...
 | `BM25_WEIGHT` | `0.3` | BM25 权重（0~1），剩余为向量权重 |
 | `CONTEXT_ENRICHMENT_ENABLED` | `True` | 嵌入前是否添加文档/章节上下文前缀 |
 | `METADATA_FILTER_FIELDS` | `doc_type, source, mtime_after, mtime_before` | 可过滤元数据字段 |
+
+### Agent Loop（Phase 7）
+
+| 环境变量 | 默认值 | 说明 |
+|----------|--------|------|
+| `AGENT_MODE_ENABLED` | `True` | 是否默认启用 Agent 自主检索模式 |
+| `AGENT_MAX_LLM_ROUNDS` | `5` | L1：最大 LLM 对话轮次 |
+| `AGENT_MAX_TOTAL_TOOL_CALLS` | `10` | L2：累计工具调用上限 |
+| `AGENT_DUPLICATE_THRESHOLD` | `0.85` | L3：重复查询 Jaccard 相似度阈值 |
+| `AGENT_LOW_SCORE_THRESHOLD` | `0.3` | L5：低分熔断阈值 |
+| `AGENT_CONTEXT_RATIO` | `0.8` | L6：Token 预算告警比例 |
+| `AGENT_MODEL_MAX_CONTEXT` | `16000` | 模型上下文窗口大小 |
 
 ### 文本分割
 

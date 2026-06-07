@@ -1,10 +1,11 @@
 """
 主程序 - 对话交互入口
-支持对话记忆、会话管理和 RAG 知识库检索
+支持对话记忆、会话管理、RAG 知识库检索、Agent Loop 自主检索
 """
-from src.chatbot import Chatbot
+from src.chatbot import Chatbot, AgentChatResult
 from src.session import Session
 from src.knowledge_base import KnowledgeBase
+from config import AGENT_MODE_ENABLED
 
 
 def print_help():
@@ -19,6 +20,12 @@ def print_help():
     print("  /load      - 加载保存的会话")
     print("  /quit      - 退出程序")
     print("-" * 50)
+    print("🤖 Agent 模式命令:")
+    print("  /agent     - 切换 Agent 自主检索模式（开/关）")
+    print("  /mode      - 查看当前对话模式")
+    print("  /tool-log  - 查看工具调用历史（Agent 模式）")
+    print("  /cost      - 查看 Token 消耗统计")
+    print("-" * 50)
     print("📚 知识库命令:")
     print("  /add-docs   - 扫描并加载新文档到知识库")
     print("  /search     - 搜索知识库（支持元数据过滤）")
@@ -27,7 +34,7 @@ def print_help():
     print("  /kb-stats   - 显示知识库统计信息")
     print("  /rebuild    - 重建知识库索引")
     print("=" * 50)
-    print("💡 提示: 直接输入消息进行 RAG 增强对话，输入 /help 查看更多\n")
+    print("💡 提示: 直接输入消息进行对话，输入 /help 查看更多\n")
 
 
 def handle_command(command: str, session: Session, chatbot: Chatbot, kb: KnowledgeBase):
@@ -162,6 +169,39 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
         kb.rebuild_index()
         print("✓ 索引重建完成\n")
 
+    # ---- Agent 模式命令 ----
+    elif cmd == 'agent':
+        chatbot.agent_mode = not chatbot.agent_mode
+        mode_name = "Agent 自主检索" if chatbot.agent_mode else "一步式 RAG"
+        print(f"✓ 已切换至: {mode_name} 模式\n")
+
+    elif cmd == 'mode':
+        mode_name = "🤖 Agent 自主检索" if chatbot.agent_mode else "📎 一步式 RAG"
+        agent_status = "启用" if AGENT_MODE_ENABLED else "禁用"
+        print(f"\n  当前模式: {mode_name}")
+        print(f"  默认模式: {'Agent' if AGENT_MODE_ENABLED else 'Simple'}")
+        print(f"  输入 /agent 可切换模式\n")
+
+    elif cmd == 'tool-log':
+        log = session.get_tool_call_log()
+        if not log:
+            print("（无工具调用记录）\n")
+        else:
+            print("\n🔧 工具调用历史:")
+            print("-" * 50)
+            for i, entry in enumerate(log, 1):
+                print(f"  {i}. {entry.get('tool_name', '?')}")
+                args = entry.get('arguments', {})
+                query = args.get('query', '?') if isinstance(args, dict) else str(args)
+                print(f"     查询: {str(query)[:60]}")
+                print(f"     耗时: {entry.get('duration_ms', '?')}ms")
+                print(f"     时间: {entry.get('timestamp', '?')}")
+                print()
+            print("-" * 50 + "\n")
+
+    elif cmd == 'cost':
+        print("\n" + session.get_cost_summary() + "\n")
+
     elif cmd in ['quit', 'exit']:
         return "QUIT"
 
@@ -174,9 +214,10 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
 def main():
     """主函数"""
     print("=" * 60)
-    print("🤖 AI 知识库助手 (RAG 检索增强)")
+    print("🤖 AI 知识库助手 (支持 Agent 自主检索)")
     print("=" * 60)
-    print("💬 输入消息进行知识库增强对话")
+    print("💬 直接输入问题进行对话")
+    print(f"🤖 当前模式: {'Agent 自主检索' if AGENT_MODE_ENABLED else '一步式 RAG'}")
     print("📌 输入 /help 查看所有命令")
     print("=" * 60)
     print()
@@ -194,7 +235,8 @@ def main():
         chatbot = Chatbot(knowledge_base=kb)
         session = Session()
 
-        print("✓ 对话机器人初始化成功 (RAG 模式)")
+        mode_str = "Agent 自主检索" if chatbot.agent_mode else "一步式 RAG"
+        print(f"✓ 对话机器人初始化成功 ({mode_str})")
         print(f"✓ 新建会话: {session.session_id}\n")
 
         # 对话循环
@@ -209,7 +251,6 @@ def main():
                 cmd_result = handle_command(user_input, session, chatbot, kb)
 
                 if cmd_result == "QUIT":
-                    # 询问是否保存
                     save_prompt = input("是否保存本次对话? (y/n): ").lower().strip()
                     if save_prompt in ['y', 'yes']:
                         path = session.save()
@@ -218,20 +259,40 @@ def main():
                     break
 
                 elif cmd_result:
-                    # 命令已处理
                     continue
 
-                # 普通对话 — RAG 检索增强
-                print("\n🔍 检索知识库 + 🤔 思考中...\n")
+                # ── 普通对话 ──
+                if chatbot.agent_mode:
+                    # Agent 自主循环检索模式
+                    print(f"\n🤖 Agent 思考中（可自主检索）...\n")
+                    result = chatbot.agent_chat(user_input, session.get_history())
 
-                # 获取 AI 回复（RAG 增强）
-                response = chatbot.chat_with_rag(user_input, session.get_history())
+                    # 打印工具调用摘要
+                    if result.tool_call_log:
+                        print(f"  📊 检索 {len(result.tool_call_log)} 次 | "
+                              f"轮次 {result.rounds} | "
+                              f"结束原因: {result.finish_reason}")
 
-                # 保存对话到会话
-                session.add_message("user", user_input)
-                session.add_message("assistant", response)
+                    response = result.content
 
-                print(f"Agent: {response}\n")
+                    # 保存对话（含 tool 消息）
+                    session.add_message("user", user_input)
+                    session.add_message("assistant", response)
+                    session.append_tool_call_log(result.tool_call_log)
+                    if result.usage:
+                        session.accumulate_usage(result.usage)
+
+                    print(f"\nAgent: {response}\n")
+
+                else:
+                    # 一步式 RAG 模式（原有逻辑）
+                    print("\n🔍 检索知识库 + 🤔 思考中...\n")
+                    response = chatbot.chat_with_rag(user_input, session.get_history())
+
+                    session.add_message("user", user_input)
+                    session.add_message("assistant", response)
+
+                    print(f"Agent: {response}\n")
 
             except KeyboardInterrupt:
                 print("\n\n⏸️  程序被中断")

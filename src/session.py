@@ -31,31 +31,47 @@ class Session:
             "message_count": 0
         }
         self.cache_dir = CACHE_DIR
-        
+        self.tool_call_log: List[Dict] = []  # Agent 模式工具调用日志
+        self.total_prompt_tokens: int = 0    # 累计 prompt tokens
+        self.total_completion_tokens: int = 0# 累计 completion tokens
+
         # 确保缓存目录存在
         os.makedirs(self.cache_dir, exist_ok=True)
     
-    def add_message(self, role: str, content: str) -> None:
+    def add_message(self, role: str, content: str = None, 
+                    tool_calls: List[Dict] = None,
+                    tool_call_id: str = None,
+                    name: str = None) -> None:
         """
-        添加消息到历史
+        添加消息到历史（扩展支持 tool calling 格式）
         
         Args:
-            role (str): 消息角色 ("user" 或 "assistant")
-            content (str): 消息内容
-        
-        Examples:
-            >>> session = Session()
-            >>> session.add_message("user", "你好")
-            >>> session.add_message("assistant", "你好，很高兴为你服务")
+            role: 消息角色 ("user" / "assistant" / "tool")
+            content: 消息文本内容（tool 角色时可为 None）
+            tool_calls: assistant 的 tool_calls 列表（仅 role="assistant" 时）
+            tool_call_id: tool 角色关联的 tool_call id（仅 role="tool" 时）
+            name: 工具名称（仅 role="tool" 时可选）
         """
-        if role not in ["user", "assistant"]:
-            raise ValueError(f"角色必须是 'user' 或 'assistant'，收到: {role}")
+        valid_roles = ["user", "assistant", "tool"]
+        if role not in valid_roles:
+            raise ValueError(f"角色必须是 {valid_roles} 之一，收到: {role}")
         
         message = {
             "role": role,
-            "content": content,
             "timestamp": datetime.now().isoformat()
         }
+
+        if content is not None:
+            message["content"] = content
+
+        if tool_calls is not None:
+            message["tool_calls"] = tool_calls
+
+        if tool_call_id is not None:
+            message["tool_call_id"] = tool_call_id
+
+        if name is not None:
+            message["name"] = name
         
         self.messages.append(message)
         self.metadata["message_count"] += 1
@@ -65,32 +81,50 @@ class Session:
         if len(self.messages) > self.max_history:
             self.messages = self.messages[-self.max_history:]
     
-    def get_history(self, include_timestamp: bool = False) -> List[Dict]:
+    def get_history(self, include_timestamp: bool = False,
+                    strip_tool_details: bool = False) -> List[Dict]:
         """
-        获取对话历史（格式兼容OpenAI API）
+        获取对话历史（格式兼容 OpenAI API）
         
         Args:
-            include_timestamp (bool): 是否包含时间戳
-        
-        Returns:
-            List[Dict]: 消息列表，格式 [{"role": "...", "content": "..."}, ...]
-        
-        Examples:
-            >>> session = Session()
-            >>> session.add_message("user", "你好")
-            >>> session.add_message("assistant", "你好")
-            >>> history = session.get_history()
-            >>> len(history)
-            2
+            include_timestamp: 是否包含时间戳
+            strip_tool_details: True 时过滤掉 tool_calls 和 tool 消息的内部细节，
+                               仅保留 user/assistant 的纯文本视图
         """
         if include_timestamp:
             return self.messages.copy()
-        
-        # 去除时间戳，返回OpenAI兼容格式
-        return [
-            {"role": msg["role"], "content": msg["content"]}
-            for msg in self.messages
-        ]
+
+        if strip_tool_details:
+            # 只返回 user/assistant 消息，去除 tool 相关细节
+            result = []
+            for msg in self.messages:
+                if msg["role"] == "tool":
+                    continue  # 跳过工具结果消息
+                entry = {"role": msg["role"]}
+                # 保留 content，若有 tool_calls 则只保留函数名摘要
+                if "content" in msg:
+                    entry["content"] = msg["content"]
+                if "tool_calls" in msg:
+                    # 简化为摘要
+                    names = [tc.get("function", {}).get("name", "?") for tc in msg["tool_calls"]]
+                    entry["content"] = (entry.get("content", "") or "") + f" [调用了工具: {', '.join(names)}]"
+                result.append(entry)
+            return result
+
+        # 去除时间戳，返回完整 OpenAI 兼容格式
+        result = []
+        for msg in self.messages:
+            entry = {"role": msg["role"]}
+            if "content" in msg:
+                entry["content"] = msg["content"]
+            if "tool_calls" in msg:
+                entry["tool_calls"] = msg["tool_calls"]
+            if "tool_call_id" in msg:
+                entry["tool_call_id"] = msg["tool_call_id"]
+            if "name" in msg:
+                entry["name"] = msg["name"]
+            result.append(entry)
+        return result
     
     def get_last_exchange(self) -> Optional[Dict]:
         """
@@ -210,7 +244,10 @@ class Session:
         data = {
             "session_id": self.session_id,
             "messages": self.messages,
-            "metadata": self.metadata
+            "metadata": self.metadata,
+            "tool_call_log": self.tool_call_log,
+            "total_prompt_tokens": self.total_prompt_tokens,
+            "total_completion_tokens": self.total_completion_tokens,
         }
         
         try:
@@ -250,6 +287,9 @@ class Session:
             self.session_id = data.get("session_id", self.session_id)
             self.messages = data.get("messages", [])
             self.metadata = data.get("metadata", self.metadata)
+            self.tool_call_log = data.get("tool_call_log", [])
+            self.total_prompt_tokens = data.get("total_prompt_tokens", 0)
+            self.total_completion_tokens = data.get("total_completion_tokens", 0)
             
             return True
         except Exception as e:
@@ -275,3 +315,30 @@ class Session:
     def __repr__(self) -> str:
         """字符串表示"""
         return f"Session(id={self.session_id}, messages={len(self.messages)})"
+
+    # ---- Agent 模式扩展方法 ----
+
+    def get_tool_call_log(self) -> List[Dict]:
+        """获取当前会话的工具调用日志"""
+        return self.tool_call_log.copy()
+
+    def append_tool_call_log(self, entries: List[Dict]):
+        """批量追加工具调用日志条目"""
+        self.tool_call_log.extend(entries)
+
+    def accumulate_usage(self, usage: Dict):
+        """累积 token 用量"""
+        if usage:
+            self.total_prompt_tokens += usage.get("prompt_tokens", 0)
+            self.total_completion_tokens += usage.get("completion_tokens", 0)
+
+    def get_cost_summary(self) -> str:
+        """获取 token 消耗摘要"""
+        total = self.total_prompt_tokens + self.total_completion_tokens
+        return (
+            f"📊 Token 消耗:\n"
+            f"  Prompt:     {self.total_prompt_tokens:,}\n"
+            f"  Completion: {self.total_completion_tokens:,}\n"
+            f"  合计:       {total:,}\n"
+            f"  工具调用:   {len(self.tool_call_log)} 次"
+        )

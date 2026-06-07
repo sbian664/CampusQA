@@ -1,5 +1,66 @@
 # 项目日志
 
+## 📅 [2026-06-07] 第七阶段完成 - v0.7.0
+
+### ✅ 完成内容
+
+#### 7.1 Agent Loop 自主循环检索
+- [x] `src/llm_client.py` 扩展（+80 行）
+  - [x] 新增 `LLMResponse` dataclass — 结构化响应（content + tool_calls + usage + finish_reason）
+  - [x] 新增 `send_message_with_tools(messages, tools)` — 支持 OpenAI function calling
+  - [x] API 异常降级：不抛异常，返回 `[API_ERROR]` 文本
+- [x] `src/tools.py` **新建**（~180 行）
+  - [x] `SEARCH_KB_TOOL` — OpenAI function calling schema（query/top_k/filters）
+  - [x] `format_search_results()` — 结果→LLM 可读文本（含分数等级 ★★★/★★☆/★☆☆）
+  - [x] `ToolHandler` — 工具执行分发 + 调用日志
+
+#### 7.2 Agent Loop 核心 + 6 层防护
+- [x] `src/chatbot.py` 新增（~230 行）
+  - [x] `AgentLoopState` — 运行状态追踪（7 字段）
+  - [x] `AgentChatResult` — 结构化返回值（content + finish_reason + tool_call_log + usage）
+  - [x] `agent_chat()` — Agent Loop 主方法
+  - [x] **L1**: `max_llm_rounds=5` 硬限制
+  - [x] **L2**: `max_total_tool_calls=10` 累计调用上限
+  - [x] **L3**: 重复查询检测 — 中文 bigram + 英文 Jaccard（阈值 0.85）
+  - [x] **L4**: 连续 2 次空结果熔断
+  - [x] **L5**: 连续 3 次低分（<0.3）熔断
+  - [x] **L6**: Token 预算裁剪（80% 上下文阈值，保留最近 3 轮工具结果）
+
+#### 7.3 Session 扩展 + CLI 集成
+- [x] `src/session.py` 扩展（+60 行）
+  - [x] `add_message()` 支持 tool_calls / tool_call_id / name 字段
+  - [x] `get_history(strip_tool_details=True)` — 纯文本视图
+  - [x] `get_tool_call_log()` / `append_tool_call_log()` / `accumulate_usage()` / `get_cost_summary()`
+- [x] `main.py` 新增 4 个命令（+50 行）
+  - [x] `/agent` — 切换 Agent/Simple 模式
+  - [x] `/mode` — 查看当前对话模式
+  - [x] `/tool-log` — 查看工具调用历史
+  - [x] `/cost` — 查看 Token 消耗统计
+- [x] `config.py` 新增 8 个配置项 + `AGENT_SYSTEM_PROMPT`
+
+#### 7.4 测试验证
+- [x] ✓ `test_agent_loop.py` **新建** — 32 个单元测试全部通过
+- [x] ✓ 现有测试无回归（test_imports / test_knowledge_base / test_phase5）
+
+### 📊 统计数据
+- **新增文件**：2 个（`tools.py`, `test_agent_loop.py`）
+- **修改文件**：5 个（llm_client, chatbot, session, config, main）
+- **新增代码**：~880 行
+- **新增配置项**：8 个
+- **新增 CLI 命令**：4 个（/agent, /mode, /tool-log, /cost）
+- **防护层级**：6 层
+- **测试用例**：32 个
+
+### 🎯 Phase 7 完成度
+- [x] LLM Tool Calling 扩展：**100%** ✓
+- [x] search_knowledge_base 工具定义：**100%** ✓
+- [x] Agent Loop 核心循环：**100%** ✓
+- [x] 6 层防护机制：**100%** ✓
+- [x] Session 扩展 + CLI 集成：**100%** ✓
+- [x] 回归测试：**100%** ✓
+
+---
+
 ## 📅 [2026-06-07] 第六阶段完成 - v0.6.0
 
 ### ✅ 完成内容

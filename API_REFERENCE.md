@@ -34,41 +34,45 @@ class Session:
             >>> session = Session(session_id="custom_id", max_history=50)
         """
     
-    def add_message(self, role: str, content: str) -> None:
+    def add_message(self, role: str, content: str = None,
+                    tool_calls: List[Dict] = None,
+                    tool_call_id: str = None,
+                    name: str = None) -> None:
         """
-        添加消息到历史
+        添加消息到历史（v0.7 扩展支持 tool calling 格式）
         
         Args:
-            role (str): 消息角色 ("user" 或 "assistant")
-            content (str): 消息内容
+            role (str): 消息角色 ("user" / "assistant" / "tool")
+            content (str): 消息文本内容（tool 角色时可为 None）
+            tool_calls: assistant 的 tool_calls 列表（仅 role="assistant" 时）
+            tool_call_id: tool 角色关联的 tool_call id（仅 role="tool" 时）
+            name: 工具名称（仅 role="tool" 时可选）
         
         Raises:
             ValueError: 如果 role 不合法
-        
-        Examples:
-            >>> session = Session()
-            >>> session.add_message("user", "你好")
-            >>> session.add_message("assistant", "你好！很高兴认识你")
         """
     
-    def get_history(self, include_timestamp: bool = False) -> List[Dict]:
+    def get_history(self, include_timestamp: bool = False,
+                    strip_tool_details: bool = False) -> List[Dict]:
         """
-        获取对话历史（OpenAI API 兼容格式）
+        获取对话历史
         
         Args:
-            include_timestamp (bool): 是否包含时间戳
+            include_timestamp: 是否包含时间戳
+            strip_tool_details: True 时过滤 tool_calls/tool 细节，返回纯文本视图
         
         Returns:
             List[Dict]: 消息列表
-                      格式：[{"role": "user", "content": "..."}, ...]
-        
-        Examples:
-            >>> session = Session()
-            >>> session.add_message("user", "你好")
-            >>> history = session.get_history()
-            >>> print(history)
-            [{'role': 'user', 'content': '你好'}]
         """
+    
+    def get_tool_call_log(self) -> List[Dict]:
+        """获取当前会话的工具调用日志（v0.7 新增）"""
+    
+    def accumulate_usage(self, usage: Dict):
+        """累积 token 用量（v0.7 新增）"""
+    
+    def get_cost_summary(self) -> str:
+        """获取 token 消耗摘要（v0.7 新增）"""
     
     def get_last_exchange(self) -> Optional[Dict]:
         """
@@ -193,9 +197,15 @@ class Session:
     "created_at": "2026-05-29T12:13:18.561604",
     "updated_at": "2026-05-29T12:13:34.400713",
     "message_count": 2
-  }
+  },
+  "tool_call_log": [],
+  "total_prompt_tokens": 0,
+  "total_completion_tokens": 0
 }
 ```
+
+> **v0.7 新增**：`tool_call_log`、`total_prompt_tokens`、`total_completion_tokens` 字段。
+> 消息支持 `tool_calls`（assistant 角色）和 `tool_call_id`/`name`（tool 角色）格式。
 
 #### 使用示例
 
@@ -234,7 +244,18 @@ if new_session.load():
 ### 2. llm_client.py - LLM 客户端
 
 #### 概述
-提供统一的 LLM 客户端接口，支持多个提供商（DeepSeek、本地模型等）。
+提供统一的 LLM 客户端接口，支持多个提供商（DeepSeek、本地模型等）。v0.7 新增 `send_message_with_tools()` 和 `LLMResponse` 数据结构。
+
+#### LLMResponse（v0.7 新增）
+
+```python
+@dataclass
+class LLMResponse:
+    content: Optional[str] = None          # 文本内容
+    tool_calls: Optional[List[Dict]] = None # 工具调用列表
+    usage: Optional[Dict] = None            # {"prompt_tokens": N, "completion_tokens": N, "total_tokens": N}
+    finish_reason: str = "stop"             # "stop" | "tool_calls" | "length" | "error"
+```
 
 #### 类定义
 
@@ -244,19 +265,12 @@ class LLMClient:
     """LLM 客户端基类"""
     
     def send_message(self, messages: List[Dict], **kwargs) -> str:
-        """
-        发送消息到 LLM
-        
-        Args:
-            messages (List[Dict]): 消息列表，格式为 [{"role": "...", "content": "..."}, ...]
-            **kwargs: 额外参数（max_tokens, temperature 等）
-        
-        Returns:
-            str: LLM 响应文本
-        
-        Raises:
-            Exception: API 调用失败时抛出异常
-        """
+        """发送消息（纯文本），返回响应字符串"""
+    
+    def send_message_with_tools(
+        self, messages: List[Dict], tools: Optional[List[Dict]] = None, **kwargs
+    ) -> LLMResponse:
+        """发送消息（支持 tool calling，v0.7 新增），返回 LLMResponse"""
 ```
 
 ##### DeepSeekClient
@@ -472,6 +486,121 @@ print(response)
             >>> print(response)
             '根据文档 ml_basics.txt，监督学习是...'
         """
+    
+    def agent_chat(self, user_message: str, history: List[Dict]) -> AgentChatResult:
+        """
+        Agent Loop 自主循环检索（第七阶段新增）
+        
+        LLM 可自主调用 search_knowledge_base 工具，评估检索结果，
+        在判断不足时自动重新检索，直到满意或达到上限。
+        
+        6 层防护：
+        L1: max_llm_rounds=5   L2: max_total_tool_calls=10
+        L3: 重复查询检测       L4: 连续空结果熔断
+        L5: 低分熔断           L6: Token 预算裁剪
+        
+        Args:
+            user_message (str): 用户输入
+            history (List[Dict]): 对话历史
+        
+        Returns:
+            AgentChatResult: 包含 content, finish_reason, tool_call_log, usage, rounds
+                finish_reason 取值:
+                    "stop"          — LLM 正常结束回答
+                    "max_rounds"    — 达到 LLM 轮次上限
+                    "max_tool_calls"— 达到工具调用上限
+                    "empty_fuse"    — 零结果熔断触发
+                    "low_score_fuse"— 低分熔断触发
+                    "error"         — API 调用异常
+        
+        Examples:
+            >>> chatbot = Chatbot(knowledge_base=kb)
+            >>> result = chatbot.agent_chat("什么是反向传播?", [])
+            >>> print(result.content)
+            '根据文档...'
+            >>> print(result.tool_call_log)
+            [{'tool_name': 'search_knowledge_base', 'arguments': {...}, ...}]
+            >>> print(result.finish_reason)
+            'stop'
+        """
+
+---
+
+### Agent Loop 数据结构
+
+##### AgentChatResult
+
+```python
+@dataclass
+class AgentChatResult:
+    content: str              # 最终回答文本
+    finish_reason: str        # 结束原因（stop/max_rounds/max_tool_calls/error/empty_fuse/low_score_fuse）
+    tool_call_log: List[Dict] # 工具调用日志 [{"tool_name", "arguments", "result_preview", "duration_ms", "timestamp"}]
+    usage: Dict               # Token 用量 {"prompt_tokens": N, "completion_tokens": N}
+    rounds: int               # LLM 对话轮次数
+```
+
+##### AgentLoopState
+
+```python
+@dataclass
+class AgentLoopState:
+    llm_rounds: int = 0            # LLM 对话轮次计数（L1）
+    total_tool_calls: int = 0      # 累计工具调用计数（L2）
+    past_queries: List[str]        # 历史查询列表（L3 重复检测）
+    consecutive_empty: int = 0     # 连续空结果计数（L4）
+    consecutive_low_score: int = 0 # 连续低分计数（L5）
+    total_prompt_tokens: int = 0
+    total_completion_tokens: int = 0
+```
+
+### 5. tools.py - Agent 工具定义（第七阶段新增）
+
+#### SEARCH_KB_TOOL
+
+```python
+SEARCH_KB_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "search_knowledge_base",
+        "description": "在知识库中进行混合检索（语义理解 + 关键词匹配）。...",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "检索查询词"},
+                "top_k": {"type": "integer", "default": 3, "description": "返回结果数"},
+                "filters": {"type": "object", "description": "可选过滤: doc_type/mtime_after/mtime_before"}
+            },
+            "required": ["query"]
+        }
+    }
+}
+```
+
+#### ToolHandler
+
+```python
+class ToolHandler:
+    """工具处理器 — 接收 KnowledgeBase 实例，分发并执行工具调用"""
+    
+    def __init__(self, knowledge_base):
+        """knowledge_base: KnowledgeBase 实例"""
+    
+    def execute(self, tool_name: str, arguments: Dict) -> str:
+        """执行工具调用，返回格式化结果文本"""
+    
+    def get_call_log(self) -> List[Dict]:
+        """获取工具调用日志"""
+```
+
+#### format_search_results
+
+```python
+def format_search_results(results: List[Dict]) -> str:
+    """将 hybrid_search 返回的 dict 列表格式化为 LLM 可读文本
+    含分数等级: ★★★ 高相关(≥0.7) / ★★☆ 中等(≥0.4) / ★☆☆ 低相关(<0.4)
+    """
+```
 
 ---
 
