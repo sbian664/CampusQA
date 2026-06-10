@@ -44,6 +44,13 @@ class VectorStore(ABC):
     def count(self) -> int:
         """向量总数"""
 
+    @abstractmethod
+    def get_all(self) -> Dict:
+        """
+        获取所有存储的文档
+        Returns: {"ids": [...], "documents": [...], "metadatas": [...]}
+        """
+
 
 # ==================== Chroma 后端 ====================
 
@@ -96,6 +103,15 @@ class ChromaStore(VectorStore):
 
     def count(self):
         return self.collection.count()
+
+    def get_all(self):
+        """获取所有文档"""
+        result = self.collection.get(limit=self.collection.count())
+        return {
+            "ids": result.get("ids", []),
+            "documents": result.get("documents", []),
+            "metadatas": result.get("metadatas", []),
+        }
 
 
 # ==================== Faiss 后端 ====================
@@ -178,6 +194,14 @@ class FaissStore(VectorStore):
 
     def count(self):
         return self.index.ntotal
+
+    def get_all(self):
+        """获取所有文档"""
+        return {
+            "ids": list(self._ids),
+            "documents": list(self._documents),
+            "metadatas": list(self._metadatas),
+        }
 
     def _create_empty_index(self):
         import faiss

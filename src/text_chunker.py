@@ -1,6 +1,7 @@
 """
 语义感知文本分块 — 按标题/段落/语义边界分割，避免切断语境
 v0.6.0: 新增 section_path 追踪，每个分块记录其所属章节路径
+v0.7.1: 嵌入前相邻小块合并，避免 md 按标题拆得过碎
 """
 import re
 from typing import List, Tuple
@@ -103,7 +104,55 @@ class SemanticChunker:
                                 for sub_chunk in self._fallback.split_text(para_body):
                                     chunks.append((heading_path, sub_chunk))
 
+        # ── 嵌入前合并：相邻小块拼成大块（解决 md 按标题拆太碎的问题）──
+        chunks = self._merge_small_adjacent(chunks)
+
         return chunks
+
+    def _merge_small_adjacent(
+        self, chunks: List[Tuple[str, str]]
+    ) -> List[Tuple[str, str]]:
+        """
+        将相邻的小块合并为大块（嵌入前处理，避免向量过于碎片化）
+
+        策略：遍历 chunk 列表，贪心地合并相邻 chunk，直到累计 token 超过 chunk_size。
+        合并时保留最宽泛的 section_path（取公共前缀），内容用双换行拼接。
+        """
+        if len(chunks) <= 1:
+            return chunks
+
+        merged: List[Tuple[str, str]] = []
+        buf_path = chunks[0][0]
+        buf_text = chunks[0][1]
+
+        for path, text in chunks[1:]:
+            combined = buf_text + "\n\n" + text
+            if self._token_estimate(combined) <= self.chunk_size:
+                # 可合并：保留更宽泛的路径（公共前缀）
+                buf_path = self._common_prefix(buf_path, path)
+                buf_text = combined
+            else:
+                merged.append((buf_path, buf_text))
+                buf_path = path
+                buf_text = text
+
+        merged.append((buf_path, buf_text))
+        return merged
+
+    @staticmethod
+    def _common_prefix(a: str, b: str) -> str:
+        """取两个 section_path 的公共前缀（如 "A > B > C" 与 "A > B > D" → "A > B"）"""
+        if not a or not b:
+            return a or b or ""
+        a_parts = a.split(" > ")
+        b_parts = b.split(" > ")
+        common = []
+        for pa, pb in zip(a_parts, b_parts):
+            if pa == pb:
+                common.append(pa)
+            else:
+                break
+        return " > ".join(common) if common else a_parts[0] if a_parts else a
 
     # ---- 原有方法（保持向后兼容） ----
 

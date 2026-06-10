@@ -6,6 +6,66 @@
 
 ---
 
+## 🌐 REST API（v1.0.0 新增）
+
+> 启动：`python server.py`（默认端口 8000）
+
+### POST /api/chat
+
+发送消息，获取 AI 回复（自动路由至 Agent Loop 或一步式 RAG）。
+
+**请求体**：
+```json
+{
+  "message": "什么是机器学习？",
+  "session_id": "20260610_120000"
+}
+```
+
+**响应**：
+```json
+{
+  "response": "根据知识库文档...",
+  "session_id": "20260610_120000",
+  "finish_reason": "stop",
+  "tool_calls": [],
+  "usage": { "prompt_tokens": 500, "completion_tokens": 200 },
+  "rounds": 1
+}
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `message` | string | 用户消息（必填） |
+| `session_id` | string? | 会话 ID，不传则新建 |
+| `response` | string | AI 回复（Markdown 格式） |
+| `finish_reason` | string | `stop` / `max_rounds` / `empty_fuse` / `error` |
+
+### GET /api/session/{session_id}
+
+获取会话历史。返回 `{ session_id, message_count, history, created_at, updated_at }`。
+
+### DELETE /api/session/{session_id}
+
+清空会话历史，返回 `{ status: "cleared" }`。
+
+### GET /api/kb/stats
+
+获取知识库统计信息（存储后端、块数、向量维度等）。
+
+### POST /api/kb/search
+
+搜索知识库。
+
+**请求体**：
+```json
+{ "query": "机器学习", "top_k": 5, "doc_type": "markdown" }
+```
+
+**响应**：`{ "query": "...", "results": [...], "count": 3 }`
+
+---
+
 ## 🔧 核心模块
 
 ### 1. session.py - 会话管理（第二阶段新增）

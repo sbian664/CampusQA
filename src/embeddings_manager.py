@@ -54,10 +54,10 @@ class LocalEmbeddingsProvider(EmbeddingsProvider):
         print(f"✓ 模型已加载，向量维度: {self._dim}")
 
     def embed_text(self, text: str) -> List[float]:
-        return self.model.encode(text).tolist()
+        return self.model.encode(text, normalize_embeddings=True).tolist()
 
     def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
-        return self.model.encode(texts, batch_size=batch_size).tolist()
+        return self.model.encode(texts, batch_size=batch_size, normalize_embeddings=True).tolist()
 
     @property
     def dimension(self) -> int:

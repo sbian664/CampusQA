@@ -1,6 +1,6 @@
-# 知识库 AI Agent
+# 知识库 AI Agent（项目名：CampusQA）— v1.0.0
 
-从基础对话框架逐步演进为知识库问答系统。
+从基础对话框架逐步演进为知识库问答系统，现已支持 **Web 前端**（ChatGPT 风格）。
 
 ## 项目结构
 
@@ -17,10 +17,20 @@ knowledge-agent/
 │   ├── knowledge_base.py      # 知识库（Chroma + 检索 + 混合检索 + 元数据过滤）
 │   ├── vector_store.py        # 向量存储抽象（Chroma / Faiss）
 │   └── tools.py               # Agent 工具定义 + ToolHandler
+├── frontend/                 # Vue 3 Web 前端（ChatGPT 风格）
+│   ├── src/
+│   │   ├── App.vue
+│   │   └── components/
+│   │       ├── ChatBubble.vue      # 气泡组件（marked + DOMPurify）
+│   │       ├── ChatMessages.vue    # 消息列表 + 自动滚底
+│   │       ├── ChatInput.vue       # auto-resize 输入框
+│   │       └── ErrorToast.vue      # 错误提示
+│   └── vite.config.js
 ├── data/
 │   ├── documents/            # 知识文档存放目录
 │   ├── cache/               # 缓存数据
 │   └── kb.db/              # Chroma 向量数据库 (SQLite)
+├── server.py               # FastAPI Web API 服务器
 ├── config.py                # 配置文件
 ├── main.py                 # 启动脚本 (CLI 交互)
 ├── requirements.txt        # Python 依赖
@@ -63,6 +73,22 @@ DEEPSEEK_API_KEY=your_actual_key_here
 ```
 
 ### 5. 运行程序
+
+**方式一：Web 界面（推荐）**
+
+```bash
+# 终端 1 — 启动后端 API
+python server.py
+
+# 终端 2 — 启动前端开发服务器
+cd frontend
+npm install
+npm run dev
+```
+
+浏览器访问 `http://localhost:5173`，即可使用 ChatGPT 风格界面。
+
+**方式二：命令行**
 
 ```bash
 python main.py
@@ -115,7 +141,7 @@ Agent: 根据知识库文档，监督学习是...
 你: /rebuild    # 重建向量索引
 ```
 
-## 下一步计划
+## 实现路线图
 
 - 第一阶段：基础对话框架 ✅
 - 第二阶段：对话记忆管理 ✅
@@ -124,6 +150,7 @@ Agent: 根据知识库文档，监督学习是...
 - 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
 - 第六阶段：RAG检索强化（上下文增强 + 元数据过滤） ✅
 - 第七阶段：Agent Loop 自主循环检索 ✅
+- 第八阶段：Web 前端（Vue 3 + TailwindCSS + FastAPI） ✅ — **v1.0.0**
 
 ## 获取 DeepSeek API 密钥
 

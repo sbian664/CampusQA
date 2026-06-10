@@ -1,5 +1,52 @@
 # 项目日志
 
+## 📅 [2026-06-10] v1.0.0 — Web 前端正式发布
+
+### ✅ 完成内容
+
+#### 8.1 FastAPI 后端
+- [x] `server.py` **新建**（~180 行）
+  - [x] `POST /api/chat` — 发送消息，自动路由至 Agent/RAG
+  - [x] `GET /api/session/{id}` — 获取会话历史
+  - [x] `DELETE /api/session/{id}` — 清空会话
+  - [x] `GET /api/kb/stats` — 知识库统计
+  - [x] `POST /api/kb/search` — 知识库搜索
+  - [x] CORS 中间件、全局异常处理、无状态设计
+- [x] `requirements.txt` 新增 `fastapi`, `uvicorn[standard]`
+
+#### 8.2 Vue 3 前端
+- [x] `frontend/` — Vite + Vue 3 + TailwindCSS 项目
+  - [x] `ChatBubble.vue` — 气泡布局（用户蓝右/AI灰左），marked.js 渲染 + **DOMPurify 清洗**
+  - [x] `ChatMessages.vue` — 消息列表 + 空状态 + 自动滚底
+  - [x] `ChatInput.vue` — auto-resize textarea，Enter 发送/Shift+Enter 换行
+  - [x] `ErrorToast.vue` — 底部错误提示（5 秒自动消失）
+- [x] 代理配置：`/api` → `localhost:8000`
+- [x] 响应式设计：移动端适配 + 系统深色模式
+- [x] 会话持久化：localStorage 保存 sessionId
+
+#### 8.3 文档更新
+- [x] README.md — 项目结构、Web UI 快速开始
+- [x] CHANGELOG.md — 本条目
+- [x] API_REFERENCE.md — REST API 端点文档
+
+### 📊 统计数据
+- **新增文件**：6 个（server.py, 4 个 .vue 组件, frontend 脚手架）
+- **新增代码**：~500 行（server.py ~180 + Vue 组件 ~320）
+- **新增依赖**：fastapi, uvicorn, marked, dompurify, tailwindcss, @tailwindcss/vite
+- **新增端点**：5 个 REST API
+- **新增组件**：4 个 Vue SFC
+
+### 🎯 v1.0 完成度
+- [x] Web API 后端：**100%** ✓
+- [x] ChatGPT 风格前端：**100%** ✓
+- [x] Markdown 渲染 + DOMPurify 安全清洗：**100%** ✓
+- [x] 响应式 + 深色模式：**100%** ✓
+- [x] 会话持久化：**100%** ✓
+- [x] 错误处理：**100%** ✓
+- [x] 文档更新：**100%** ✓
+
+---
+
 ## 📅 [2026-06-07] 第七阶段完成 - v0.7.0
 
 ### ✅ 完成内容

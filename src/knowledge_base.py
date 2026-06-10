@@ -60,6 +60,11 @@ class KnowledgeBase:
         self._bm25_corpus: List[str] = []
         self._bm25_doc_freq: Dict[str, int] = defaultdict(int)
         self._bm25_avgdl: float = 0.0
+
+        # 如果 chunks 快照为空但存储有数据（迁移/首次场景），从存储回填
+        if not self._chunk_texts and self.store.count() > 0:
+            self._hydrate_chunk_texts()
+
         if HYBRID_SEARCH_ENABLED and self._chunk_texts:
             self._rebuild_bm25()
 
@@ -161,6 +166,7 @@ class KnowledgeBase:
             chunk_metadatas.append({
                 'source': file_path,
                 'chunk_index': i,
+                'doc_total_chunks': len(chunks),
                 'doc_type': doc_type,
                 'title': doc_title,
                 'mtime': doc_mtime,
@@ -239,7 +245,7 @@ class KnowledgeBase:
         流程：
         1. 向量粗筛 top_k * 2 个候选
         2. 对候选做 BM25 关键词打分
-        3. 融合分数排序：final = BM25_weight * BM25 + (1-BM25_weight) * Vector
+        3. 融合分数排序：final = BM25_weight * log(BM25+1) + (1-BM25_weight) * Vector ** 2 * 2(缩放系数)
         4. 元数据过滤（Chromba 原生 / Faiss 后置）
         5. 返回 top_k
 
@@ -272,7 +278,7 @@ class KnowledgeBase:
         for i in range(len(raw['documents'][0])):
             vec_score = self._distance_to_score(raw['distances'][0][i])
             bm25_score = bm25_scores[i]
-            final_score = bm25_weight * bm25_score + (1 - bm25_weight) * vec_score
+            final_score = bm25_weight * math.log(bm25_score + 1) + (1 - bm25_weight) * vec_score ** 2 * 2
             combined.append({
                 'content': raw['documents'][0][i],
                 'source': raw['metadatas'][0][i].get('source', 'unknown'),
@@ -425,6 +431,9 @@ class KnowledgeBase:
         # 清空元数据
         self.metadata.clear()
 
+        # 清空向量缓存（确保用最新模型/参数重新计算）
+        self.embeddings_manager.cache.clear()
+
         # 重新加载
         self.load_documents_from_dir()
 
@@ -474,6 +483,25 @@ class KnowledgeBase:
                 json.dump(self._chunk_texts, f, ensure_ascii=False, indent=2)
         except Exception as e:
             print(f"⚠️  保存 chunk 快照失败: {str(e)}")
+
+    def _hydrate_chunk_texts(self):
+        """
+        从 VectorStore 回填 _chunk_texts（迁移/恢复场景）
+
+        当 chunks.json 不存在或损坏，但向量存储中已有数据时调用。
+        """
+        print("🔄 从向量存储回填 chunk 文本快照...")
+        try:
+            data = self.store.get_all()
+            ids = data.get("ids", [])
+            docs = data.get("documents", [])
+            for cid, doc in zip(ids, docs):
+                self._chunk_texts[cid] = doc
+            if self._chunk_texts:
+                self._save_chunk_texts()
+                print(f"✓ 回填完成: {len(self._chunk_texts)} 个 chunk")
+        except Exception as e:
+            print(f"⚠️  回填 chunk 快照失败: {e}")
     
     def _save_store(self):
         """持久化向量存储（Faiss 专用）"""
@@ -585,10 +613,19 @@ class KnowledgeBase:
 
     @staticmethod
     def _tokenize(text: str) -> List[str]:
-        """中文+英文混合分词"""
-        # 提取中文连续字符 + 英文单词
-        tokens = re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z]+', text.lower())
-        return tokens if tokens else text.lower().split()
+        """中文+英文混合分词 — 英文按单词，中文按字符 bigram"""
+        text_lower = text.lower()
+        tokens = []
+
+        # 英文单词
+        tokens.extend(re.findall(r'[a-zA-Z]+', text_lower))
+
+        # 中文字符 bigram（滑动窗口，解决贪婪匹配无法命中的问题）
+        chinese_chars = re.findall(r'[\u4e00-\u9fff]', text_lower)
+        for i in range(len(chinese_chars) - 1):
+            tokens.append(chinese_chars[i] + chinese_chars[i + 1])
+
+        return tokens if tokens else text_lower.split()
 
     # ---- 序列化 ----
 
