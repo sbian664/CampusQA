@@ -7,6 +7,8 @@ const props = defineProps({
   isLoading: { type: Boolean, default: false },
 })
 
+const emit = defineEmits(['copy', 'delete', 'edit', 'reroll'])
+
 const containerRef = ref(null)
 
 function scrollToBottom() {
@@ -24,34 +26,60 @@ watch(() => props.isLoading, (val) => { if (val) scrollToBottom() })
 <template>
   <div
     ref="containerRef"
-    class="flex-1 overflow-y-auto py-4 scroll-smooth"
+    class="chat-scroll min-h-0 flex-1 overflow-y-auto scroll-smooth px-4 py-5 md:px-6"
   >
-    <!-- 空状态 -->
-    <div
-      v-if="messages.length === 0 && !isLoading"
-      class="flex flex-col items-center justify-center h-full text-gray-400 dark:text-gray-500"
-    >
-      <svg class="w-16 h-16 mb-4 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-              d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-      </svg>
-      <p class="text-lg font-medium">CampusQA</p>
-      <p class="text-sm mt-1">知识库智能问答助手</p>
+    <div class="mx-auto flex min-h-full w-full max-w-4xl flex-col">
+      <div
+        v-if="messages.length === 0 && !isLoading"
+        class="flex flex-1 items-center justify-center py-10"
+      >
+        <div class="w-full max-w-2xl">
+          <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-bold" style="border-color: var(--border); background: var(--surface-raised); color: var(--ink-muted);">
+            <span class="status-dot"></span>
+            知识库问答已就绪
+          </div>
+          <h2 class="mt-5 text-2xl font-[780] leading-tight md:text-3xl">问具体问题，保留可追溯的校园知识上下文。</h2>
+          <p class="mt-3 max-w-[64ch] text-sm leading-7" style="color: var(--ink-muted);">
+            上传资料、切换检索模式、继续历史会话都在同一个工作台中完成。回答支持 Markdown、代码块和表格，适合直接阅读和复核。
+          </p>
+
+          <div class="mt-6 grid gap-3 sm:grid-cols-3">
+            <div class="rounded-2xl border p-4" style="border-color: var(--border); background: var(--surface-raised);">
+              <p class="text-sm font-bold">政策查询</p>
+              <p class="mt-1 text-xs leading-5" style="color: var(--ink-muted);">查找手册、制度、流程中的精确依据。</p>
+            </div>
+            <div class="rounded-2xl border p-4" style="border-color: var(--border); background: var(--surface-raised);">
+              <p class="text-sm font-bold">文档问答</p>
+              <p class="mt-1 text-xs leading-5" style="color: var(--ink-muted);">上传资料后围绕内容继续追问。</p>
+            </div>
+            <div class="rounded-2xl border p-4" style="border-color: var(--border); background: var(--surface-raised);">
+              <p class="text-sm font-bold">会话复用</p>
+              <p class="mt-1 text-xs leading-5" style="color: var(--ink-muted);">保留历史，回到上下文继续工作。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="space-y-4 pb-2">
+        <ChatBubble
+          v-for="(msg, idx) in messages"
+          :key="idx"
+          :role="msg.role"
+          :content="msg.content"
+          :index="idx"
+          :is-last-ai="msg.role === 'assistant' && idx === messages.length - 1"
+          @copy="(text) => $emit('copy', text)"
+          @delete="(i) => $emit('delete', i)"
+          @edit="(payload) => $emit('edit', payload)"
+          @reroll="$emit('reroll')"
+        />
+
+        <ChatBubble
+          v-if="isLoading"
+          role="assistant"
+          :is-loading="true"
+        />
+      </div>
     </div>
-
-    <!-- 消息列表 -->
-    <ChatBubble
-      v-for="(msg, idx) in messages"
-      :key="idx"
-      :role="msg.role"
-      :content="msg.content"
-    />
-
-    <!-- 加载态气泡 -->
-    <ChatBubble
-      v-if="isLoading"
-      role="assistant"
-      :is-loading="true"
-    />
   </div>
 </template>
