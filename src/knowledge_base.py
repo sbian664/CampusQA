@@ -268,10 +268,11 @@ class KnowledgeBase:
         if not raw['documents'] or not raw['documents'][0]:
             return []
 
-        # 计算 BM25 分数
+        # 计算 BM25 分数（查询端分词：支持 "..." 字面短语 + 单字降权）
         bm25_scores = []
+        query_tokens = self._tokenize_query(query)
         for doc_text in raw['documents'][0]:
-            bm25_scores.append(self._bm25_score(query, doc_text))
+            bm25_scores.append(self._bm25_score(query, doc_text, query_tokens=query_tokens))
 
         # 融合分数
         combined = []
@@ -585,7 +586,46 @@ class KnowledgeBase:
 
         self._bm25_avgdl = total_len / max(len(self._bm25_corpus), 1)
 
-    def _bm25_score(self, query: str, document: str) -> float:
+    # ---- 查询端分词（支持 "..." 字面保留语法） ----
+
+    # 单中文字符 BM25 权重系数（降低 80%）
+    BM25_SINGLE_CHAR_WEIGHT = 0.2
+
+    # 字面保留标记："..." 内的内容不被拆分
+    QUOTED_PHRASE_PATTERN = re.compile(r'"([^"]+)"')
+
+    @staticmethod
+    def _extract_quoted_phrases(text: str):
+        """
+        从文本中提取 "..." 包裹的字面短语
+
+        Returns: (清理后文本, [字面token列表])
+        用法: /search "E1 L2" 办公室 → 字面 token: 'e1 l2'，其余正常分词
+        """
+        phrases = KnowledgeBase.QUOTED_PHRASE_PATTERN.findall(text)
+        clean = KnowledgeBase.QUOTED_PHRASE_PATTERN.sub(' ', text)
+        literal_tokens = [p.strip().lower() for p in phrases if p.strip()]
+        return clean, literal_tokens
+
+    @staticmethod
+    def _is_single_chinese_char(token: str) -> bool:
+        """判断 token 是否为单个中文字符"""
+        return len(token) == 1 and '\u4e00' <= token <= '\u9fff'
+
+    @staticmethod
+    def _tokenize_query(text: str) -> List[str]:
+        """
+        查询端分词：先提取 "..." 字面短语，再对剩余文本做标准分词
+
+        "E1 L2" 办公室  →  ['e1 l2', '办公', '公室', '办', '公', '室']
+        """
+        clean_text, literal_tokens = KnowledgeBase._extract_quoted_phrases(text)
+        regular_tokens = KnowledgeBase._tokenize(clean_text)
+        # 字面 token 置前，BM25 匹配时优先命中
+        return literal_tokens + regular_tokens
+
+    def _bm25_score(self, query: str, document: str,
+                    query_tokens: List[str] = None) -> float:
         """计算单文档的 BM25 分数"""
         if not self._bm25_corpus:
             return 0.0
@@ -594,7 +634,7 @@ class KnowledgeBase:
         N = len(self._bm25_corpus)
         avgdl = self._bm25_avgdl or 1.0
 
-        query_tokens = self._tokenize(query)
+        query_tokens = query_tokens if query_tokens is not None else self._tokenize(query)
         doc_tokens = self._tokenize(document)
         doc_len = len(doc_tokens)
 
@@ -607,7 +647,11 @@ class KnowledgeBase:
             tf = doc_tokens.count(token)
             numerator = tf * (k1 + 1)
             denominator = tf + k1 * (1 - b + b * doc_len / avgdl)
-            score += idf * numerator / denominator
+            term_score = idf * numerator / denominator
+            # 单中文字符降权 80%（减法设计：减少噪音，保留最低匹配能力）
+            if self._is_single_chinese_char(token):
+                term_score *= self.BM25_SINGLE_CHAR_WEIGHT
+            score += term_score
 
         return score
 
