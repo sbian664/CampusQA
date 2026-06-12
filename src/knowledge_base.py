@@ -613,19 +613,43 @@ class KnowledgeBase:
 
     @staticmethod
     def _tokenize(text: str) -> List[str]:
-        """中文+英文混合分词 — 英文按单词，中文按字符 bigram"""
+        """中文+英文+数字混合分词
+
+        策略（按序）：
+        1. 特殊编码 — 字母+数字组合整体保留（E1、L2、AB12）
+        2. 英文单词 — 2 字母以上的连续英文
+        3. 独立数字 — 纯数字序列（房间号、步骤号）
+        4. 中文 bigram — 滑动窗口字符对
+        5. 中文单字 — 保留所有孤立中文字（防单字不可检索）
+
+        特殊编码保留规则：在检索场景中，将 "E1 L2" 这类位置编码视
+        为原子 token，确保在文档与查询两端分词一致。
+        """
         text_lower = text.lower()
-        tokens = []
+        tokens: List[str] = []
 
-        # 英文单词
-        tokens.extend(re.findall(r'[a-zA-Z]+', text_lower))
+        # ---- 第1步：特殊编码（字母+数字组合，如 E1、L2、AB12） ----
+        # 用 \b 边界确保整体匹配，避免从 "textE1" 中误提取
+        CODE_PATTERN = re.compile(r'\b[a-zA-Z]+\d+\b')
+        code_tokens = CODE_PATTERN.findall(text_lower)
+        tokens.extend(code_tokens)
 
-        # 中文字符 bigram（滑动窗口，解决贪婪匹配无法命中的问题）
-        chinese_chars = re.findall(r'[\u4e00-\u9fff]', text_lower)
+        # 移除已提取的编码，避免后续步骤重复处理
+        working_text = CODE_PATTERN.sub(' ', text_lower)
+
+        # ---- 第2步：英文单词（2 字母以上，过滤掉被拆散的单字母残留） ----
+        tokens.extend(re.findall(r'[a-zA-Z]{2,}', working_text))
+
+        # ---- 第3步：独立数字 ----
+        tokens.extend(re.findall(r'\d+', working_text))
+
+        # ---- 第4步：中文 bigram + 单字保留 ----
+        chinese_chars = re.findall(r'[\u4e00-\u9fff]', working_text)
         for i in range(len(chinese_chars) - 1):
             tokens.append(chinese_chars[i] + chinese_chars[i + 1])
+        tokens.extend(chinese_chars)  # 单字保留
 
-        return tokens if tokens else text_lower.split()
+        return tokens if tokens else working_text.split()
 
     # ---- 序列化 ----
 
