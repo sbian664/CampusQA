@@ -6,7 +6,7 @@
 
 ---
 
-## 🌐 REST API（v1.0.0 新增）
+## 🌐 REST API（v1.1.2）
 
 > 启动：`python server.py`（默认端口 8000）
 
@@ -27,6 +27,7 @@
 {
   "response": "根据知识库文档...",
   "session_id": "20260610_120000",
+  "session_title": "机器学习概念",
   "finish_reason": "stop",
   "tool_calls": [],
   "usage": { "prompt_tokens": 500, "completion_tokens": 200 },
@@ -39,11 +40,12 @@
 | `message` | string | 用户消息（必填） |
 | `session_id` | string? | 会话 ID，不传则新建 |
 | `response` | string | AI 回复（Markdown 格式） |
+| `session_title` | string? | 会话标题；新会话首轮可能返回，前端用于立即更新历史侧栏 |
 | `finish_reason` | string | `stop` / `max_rounds` / `empty_fuse` / `error` |
 
 ### GET /api/session/{session_id}
 
-获取会话历史。返回 `{ session_id, message_count, history, created_at, updated_at }`。
+获取会话历史。返回 `{ session_id, message_count, history, created_at, updated_at, title }`。
 
 ### DELETE /api/session/{session_id}
 
@@ -1264,4 +1266,4 @@ chunks = chunker.split_documents([doc])
 
 ---
 
-最后更新：2026-06-07
+最后更新：2026-06-13

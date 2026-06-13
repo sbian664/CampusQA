@@ -44,6 +44,7 @@ frontend/
 │   └── icons.svg
 └── src/
     ├── main.js
+    ├── sessionList.js              # 历史会话列表本地合并/更新
     ├── style.css                   # OKLCH tokens、布局、Markdown、滚动规则
     ├── App.vue                     # 应用壳、状态管理、API 调用
     └── components/
@@ -68,7 +69,13 @@ frontend/
 
 - 管理消息、会话、加载态、错误/成功提示、Agent/RAG 模式与知识库操作。
 - 调用接口：`/api/chat`、`/api/sessions`、`/api/session/*`、`/api/mode`、`/api/upload`、`/api/kb/*`。
+- 收到 `/api/chat` 返回的新 `session_id` 后，会立即将该会话合并到历史侧栏，无需刷新页面。
 - 保持会话工作台的三段式布局：header、消息滚动区、输入区。
+
+### sessionList.js
+
+- 提供 `upsertSessionFromChatResponse()`，把聊天响应中的 `session_id`、`session_title` 合并到本地历史列表。
+- 新会话插入列表顶部；已有会话更新标题、消息数和更新时间，并避免重复项。
 
 ### ChatSidebar.vue
 
@@ -124,6 +131,7 @@ server: {
 
 - 当前 `sessionId` 存储在 `localStorage` 的 `campusqa_session_id`。
 - 页面刷新后会尝试通过 `/api/session/{sessionId}` 恢复历史。
+- 首轮发送创建新会话时，前端会立即更新历史侧栏；刷新页面不再是看到新会话的前提。
 - 新建或清空会话时会清除本地 `sessionId`。
 
 ## 验证
@@ -143,6 +151,12 @@ npm run build
 - `390x844`：移动端抽屉侧栏可展开，消息区可滚动，输入区保持可见。
 
 ## 改动日志
+
+### v1.1.2 (2026-06-13)
+
+- 修复新会话创建后不会立即出现在历史侧栏的问题。
+- 新增 `sessionList.js`，集中处理聊天响应到历史列表的本地合并逻辑。
+- 前端 package 版本升至 `1.1.2`。
 
 ### v1.1.0
 

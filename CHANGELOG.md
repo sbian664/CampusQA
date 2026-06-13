@@ -1,5 +1,22 @@
 # 项目日志
 
+## 📅 [2026-06-13] v1.1.2 — 会话侧栏即时同步
+
+### ✅ 修复内容
+
+- [x] 修复 Web 前端新会话创建后不会立即出现在历史侧栏的问题。
+- [x] 新增 `frontend/src/sessionList.js`，集中处理聊天响应到历史会话列表的本地合并逻辑。
+- [x] `/api/chat` 返回 `session_id` 后，前端立即更新 `sessions` 状态，无需刷新页面。
+- [x] 前端 package 和 FastAPI 应用版本统一升至 `1.1.2`。
+
+### 📚 文档更新
+
+- [x] README.md 更新版本号与修复说明。
+- [x] API_REFERENCE.md 补充 `session_title` 响应字段和会话 `title` 返回说明。
+- [x] frontend/README_frontend.md 补充 `sessionList.js`、会话侧栏同步和 v1.1.2 记录。
+
+---
+
 ## 📅 [2026-06-10] v1.0.0 — Web 前端正式发布
 
 ### ✅ 完成内容

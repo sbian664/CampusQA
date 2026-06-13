@@ -4,6 +4,7 @@ import ChatMessages from './components/ChatMessages.vue'
 import ChatInput from './components/ChatInput.vue'
 import ChatSidebar from './components/ChatSidebar.vue'
 import ErrorToast from './components/ErrorToast.vue'
+import { upsertSessionFromChatResponse } from './sessionList.js'
 
 // ── 状态 ──
 const messages = ref([])
@@ -81,6 +82,7 @@ async function sendMessage(text) {
     if (data.session_id) {
       sessionId.value = data.session_id
       localStorage.setItem('campusqa_session_id', data.session_id)
+      sessions.value = upsertSessionFromChatResponse(sessions.value, data)
     }
 
     messages.value.push({ role: 'assistant', content: data.response })

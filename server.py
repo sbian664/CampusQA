@@ -18,7 +18,7 @@ from src.session import Session
 from src.knowledge_base import KnowledgeBase
 
 # ── FastAPI 应用 ──────────────────────────────────────────
-app = FastAPI(title="CampusQA API", version="0.7.1")
+app = FastAPI(title="CampusQA API", version="1.1.2")
 
 app.add_middleware(
     CORSMiddleware,
