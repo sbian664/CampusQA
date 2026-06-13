@@ -260,15 +260,15 @@ class KnowledgeBase:
 
         query_vector = self.embeddings_manager.embed_text(query)
 
-        # 向量粗筛（取更多候选），Chroma 原生过滤
-        candidate_k = max(top_k * 2, top_k + 5)
+        # 向量粗筛（扩大候选窗口，确保短词查询也能覆盖）
+        candidate_k = max(top_k * 10, 50)
         chroma_where = self._build_chroma_where(filters) if filters else None
         raw = self.store.search(query_vector, candidate_k, where=chroma_where)
 
         if not raw['documents'] or not raw['documents'][0]:
             return []
 
-        # 计算 BM25 分数（查询端分词：支持 "..." 字面短语 + 单字降权）
+        # 计算 BM25 分数（查询端分词：支持 "..." 字面短语）
         bm25_scores = []
         query_tokens = self._tokenize_query(query)
         for doc_text in raw['documents'][0]:
@@ -588,9 +588,6 @@ class KnowledgeBase:
 
     # ---- 查询端分词（支持 "..." 字面保留语法） ----
 
-    # 单中文字符 BM25 权重系数（降低 80%）
-    BM25_SINGLE_CHAR_WEIGHT = 0.2
-
     # 字面保留标记："..." 内的内容不被拆分
     QUOTED_PHRASE_PATTERN = re.compile(r'"([^"]+)"')
 
@@ -606,11 +603,6 @@ class KnowledgeBase:
         clean = KnowledgeBase.QUOTED_PHRASE_PATTERN.sub(' ', text)
         literal_tokens = [p.strip().lower() for p in phrases if p.strip()]
         return clean, literal_tokens
-
-    @staticmethod
-    def _is_single_chinese_char(token: str) -> bool:
-        """判断 token 是否为单个中文字符"""
-        return len(token) == 1 and '\u4e00' <= token <= '\u9fff'
 
     @staticmethod
     def _tokenize_query(text: str) -> List[str]:
@@ -648,12 +640,93 @@ class KnowledgeBase:
             numerator = tf * (k1 + 1)
             denominator = tf + k1 * (1 - b + b * doc_len / avgdl)
             term_score = idf * numerator / denominator
-            # 单中文字符降权 80%（减法设计：减少噪音，保留最低匹配能力）
-            if self._is_single_chinese_char(token):
-                term_score *= self.BM25_SINGLE_CHAR_WEIGHT
             score += term_score
 
         return score
+
+    def _bm25_rescue(self, query: str, top_k: int,
+                     bm25_weight: float, filters: Optional[Dict]) -> List[Dict]:
+        """
+        BM25 救援：当向量粗筛完全没命中关键词时，全局 BM25 兜底
+        """
+        query_tokens = self._tokenize_query(query)
+        scored = []
+        for cid, doc_text in self._chunk_texts.items():
+            bm = self._bm25_score(query, doc_text, query_tokens=query_tokens)
+            if bm > 0:
+                # 从 metadata 还原 chunk 元数据
+                source, chunk_idx, doc_type = self._resolve_chunk_meta(cid)
+
+                # 后置过滤
+                if filters and source:
+                    meta = {'source': source, 'doc_type': doc_type}
+                    if not self._match_meta(meta, filters):
+                        continue
+
+                scored.append({
+                    'content': doc_text,
+                    'source': source,
+                    'chunk_index': chunk_idx,
+                    'doc_type': doc_type,
+                    'title': '',
+                    'score': round(bm25_weight * math.log(bm + 1), 4),
+                    'vector_score': None,   # 纯 BM25，无向量分
+                    'bm25_score': round(bm, 4),
+                    'metadata': {'source': source, 'doc_type': doc_type},
+                })
+
+        scored.sort(key=lambda x: x['score'], reverse=True)
+        return scored[:top_k]
+
+    def bm25_search(self, query: str, top_k: int = 3) -> List[Dict]:
+        """
+        纯 BM25 关键词搜索（不做向量融合）
+
+        供 Agent 决策层在语义搜索失效时调用
+        分数与 hybrid_search 使用相同 bm25_weight，可直接对比
+        """
+        return self._bm25_rescue(query, top_k, bm25_weight=BM25_WEIGHT, filters=None)
+
+    def _resolve_chunk_meta(self, chunk_id: str):
+        """
+        从 chunk_id 还原 source / chunk_index / doc_type
+
+        chunk_id 格式: "faculty_profiles_002.txt_0"
+        """
+        # 按最后一个 _ 分割
+        if '_' in chunk_id:
+            *name_parts, idx_str = chunk_id.rsplit('_', 1)
+            basename = '_'.join(name_parts)
+            chunk_idx = int(idx_str) if idx_str.isdigit() else 0
+        else:
+            basename = chunk_id
+            chunk_idx = 0
+
+        # 在 metadata 中匹配完整路径
+        source = basename
+        doc_type = 'unknown'
+        for file_path in self.metadata:
+            if os.path.basename(file_path) == basename:
+                source = file_path
+                break
+
+        # 从文件名推断类型
+        ext = os.path.splitext(basename)[1].lower()
+        type_map = {'.md': 'markdown', '.txt': 'text', '.html': 'html', '.pdf': 'pdf'}
+        doc_type = type_map.get(ext, 'unknown')
+
+        return source, chunk_idx, doc_type
+
+    @staticmethod
+    def _match_meta(meta: Dict, filters: Dict) -> bool:
+        """检查元数据是否满足过滤条件"""
+        for user_key, value in filters.items():
+            if user_key not in METADATA_FILTER_FIELDS:
+                continue
+            meta_key, op_type = METADATA_FILTER_FIELDS[user_key]
+            if op_type == 'exact' and meta.get(meta_key) != value:
+                return False
+        return True
 
     @staticmethod
     def _tokenize(text: str) -> List[str]:
@@ -664,7 +737,6 @@ class KnowledgeBase:
         2. 英文单词 — 2 字母以上的连续英文
         3. 独立数字 — 纯数字序列（房间号、步骤号）
         4. 中文 bigram — 滑动窗口字符对
-        5. 中文单字 — 保留所有孤立中文字（防单字不可检索）
 
         特殊编码保留规则：在检索场景中，将 "E1 L2" 这类位置编码视
         为原子 token，确保在文档与查询两端分词一致。
@@ -687,11 +759,10 @@ class KnowledgeBase:
         # ---- 第3步：独立数字 ----
         tokens.extend(re.findall(r'\d+', working_text))
 
-        # ---- 第4步：中文 bigram + 单字保留 ----
+        # ---- 第4步：中文 bigram ----
         chinese_chars = re.findall(r'[\u4e00-\u9fff]', working_text)
         for i in range(len(chinese_chars) - 1):
             tokens.append(chinese_chars[i] + chinese_chars[i + 1])
-        tokens.extend(chinese_chars)  # 单字保留
 
         return tokens if tokens else working_text.split()
 

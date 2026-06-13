@@ -2,6 +2,7 @@
 LLM 客户端 - 支持多个提供商（含 Tool Calling）
 """
 import json
+import time
 import requests
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
@@ -10,6 +11,9 @@ from config import (
     DEEPSEEK_API_KEY,
     DEEPSEEK_API_BASE,
     DEEPSEEK_MODEL,
+    DEEPSEEK_TIMEOUT,
+    DEEPSEEK_MAX_RETRIES,
+    DEEPSEEK_RETRY_BACKOFF_SECONDS,
     LOCAL_MODEL_BASE,
     LOCAL_MODEL_NAME,
     MAX_TOKENS,
@@ -55,6 +59,25 @@ class DeepSeekClient(LLMClient):
         if not self.api_key:
             raise ValueError("DEEPSEEK_API_KEY 未设置，请在 .env 文件中配置")
 
+    @staticmethod
+    def _is_retryable_error(error: requests.exceptions.RequestException) -> bool:
+        if isinstance(
+            error,
+            (
+                requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout,
+                requests.exceptions.SSLError,
+            ),
+        ):
+            return True
+
+        if isinstance(error, requests.exceptions.HTTPError):
+            response = getattr(error, "response", None)
+            status_code = getattr(response, "status_code", None)
+            return status_code == 429 or (status_code is not None and status_code >= 500)
+
+        return False
+
     def _build_payload(self, messages: List[Dict], tools: Optional[List[Dict]] = None,
                        **kwargs) -> Dict:
         """构建 API 请求 payload"""
@@ -76,14 +99,34 @@ class DeepSeekClient(LLMClient):
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        response = requests.post(url, json=payload, headers=headers, timeout=60)
-        response.raise_for_status()
-        return response.json()
+        attempts = max(1, DEEPSEEK_MAX_RETRIES)
+        last_error = None
+
+        for attempt in range(attempts):
+            try:
+                response = requests.post(
+                    url,
+                    json=payload,
+                    headers=headers,
+                    timeout=DEEPSEEK_TIMEOUT,
+                )
+                response.raise_for_status()
+                return response.json()
+            except requests.exceptions.RequestException as error:
+                last_error = error
+                if attempt == attempts - 1 or not self._is_retryable_error(error):
+                    raise
+
+                delay = DEEPSEEK_RETRY_BACKOFF_SECONDS * (2 ** attempt)
+                print(f"⚠️ DeepSeek API 瞬时错误，{delay:.1f}s 后重试 ({attempt + 1}/{attempts}): {error}")
+                time.sleep(delay)
+
+        raise last_error
 
     def send_message(self, messages: List[Dict], **kwargs) -> str:
         """调用 DeepSeek API（纯文本模式）"""
         try:
-            payload = self._build_payload(messages)
+            payload = self._build_payload(messages, **kwargs)
             data = self._call_api(payload)
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:

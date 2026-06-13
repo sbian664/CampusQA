@@ -302,6 +302,14 @@ class ToolHandler:
         except Exception as e:
             return f"[ERROR] 搜索执行失败: {type(e).__name__}: {str(e)}"
 
+        # Agent 双通道：若语义匹配全无关键词命中，追加 BM25 结果供 LLM 判断
+        bm25_results = []
+        all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
+        if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
+            qt = self.kb._tokenize_query(query)
+            if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+                bm25_results = self.kb.bm25_search(query, top_k=top_k)
+
         # ── 相邻分块合并 ──
         if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
             before = len(results)
@@ -310,7 +318,17 @@ class ToolHandler:
             if before != after:
                 print(f"  🔗 分块合并: {before} → {after} 块")
 
-        return format_search_results(results)
+        # 格式化输出
+        output = format_search_results(results)
+
+        if bm25_results:
+            output += (
+                "\n\n---\n"
+                "## 关键词匹配结果（精确命中，可能缺失上下文，请自主判断是否采用）\n"
+            )
+            output += format_search_results(bm25_results)
+
+        return output
 
     def get_call_log(self) -> List[Dict]:
         """获取工具调用日志"""

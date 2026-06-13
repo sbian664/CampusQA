@@ -97,10 +97,9 @@ class Chatbot:
         带 RAG 检索增强的多轮对话（一步式检索，不做循环）
 
         流程：
-        1. 检索知识库
-        2. 格式化上下文
-        3. 构建增强 prompt
-        4. 调用 LLM 生成回复
+        1. 混合检索知识库
+        2. 若语义匹配全无关键词命中，追加 BM25 关键词结果
+        3. 双通道结果标注后交给 LLM 自主判断
         """
         if self.kb is None:
             return self.chat_with_history(user_message, history)
@@ -110,8 +109,20 @@ class Chatbot:
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
 
+        # Agent 自主决策：若混合检索全无关键词命中，追加纯 BM25 结果
+        # 但先用 _bm25_doc_freq O(1) 预检，语料中无关键词则跳过全量扫描
+        bm25_results = []
+        all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
+        if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
+            qt = self.kb._tokenize_query(user_message)
+            if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+                bm25_results = self.kb.bm25_search(user_message, top_k=RAG_TOP_K)
+
+        # 构建上下文：语义匹配 + 关键词匹配分开展示
+        context_parts = []
+
         if results:
-            context_parts = []
+            context_parts.append("## 语义匹配结果")
             for r in results:
                 context_parts.append(
                     RAG_CONTEXT_ITEM_TEMPLATE.format(
@@ -123,9 +134,35 @@ class Chatbot:
                         content=r['content'],
                     )
                 )
-            context = "\n\n".join(context_parts)
-        else:
+
+        if bm25_results:
+            context_parts.append("")
+            context_parts.append("## 关键词匹配结果（精确命中，但可能缺失上下文）")
+            for r in bm25_results:
+                context_parts.append(
+                    RAG_CONTEXT_ITEM_TEMPLATE.format(
+                        source=r['source'],
+                        doc_type=r.get('doc_type', 'unknown'),
+                        title=r.get('title', ''),
+                        chunk=r['chunk_index'],
+                        score=r['score'],
+                        content=r['content'],
+                    )
+                )
+
+        if not context_parts:
             context = "（未找到相关文档）"
+        else:
+            context = "\n\n".join(context_parts)
+
+        # 如果有关键词结果，追加判断提示
+        if bm25_results:
+            context += (
+                "\n\n---\n"
+                "注意：以上包含两组结果。语义匹配按向量相似度排序，关键词匹配按精确命中排序。"
+                "请综合两组信息回答。如果关键词结果更相关，请优先使用；"
+                "如果关键词结果与问题无关，请忽略并基于语义结果或你的知识回答。"
+            )
 
         rag_system_prompt = RAG_SYSTEM_PROMPT_TEMPLATE.format(
             system_prompt=self.system_prompt,
@@ -214,27 +251,51 @@ class Chatbot:
                 return self._build_result(response, handler, state, "stop")
 
             # ── 处理 tool_calls ──
+            # 过滤空 function name 的异常调用
+            valid_calls = []
+            bad_calls = []
+            for tc in response.tool_calls:
+                name = tc.get("function", {}).get("name", "")
+                if name:
+                    valid_calls.append(tc)
+                else:
+                    bad_calls.append(tc)
+
+            if bad_calls:
+                print(f"  ⚠️ 过滤 {len(bad_calls)} 个空工具名的异常调用")
+
+            # 若全为异常调用 → 不添加 assistant 消息，直接让 LLM 重试
+            if not valid_calls:
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        "[系统提示] 你刚才的工具调用格式有误（工具名称为空）。"
+                        "请使用 search_knowledge_base 工具重新检索，参数格式: "
+                        '{"query": "搜索关键词", "top_k": 3}'
+                    )
+                })
+                continue
+
             # 构建 assistant 消息（arguments 必须序列化为 JSON 字符串，否则 API 400）
             assistant_msg = {"role": "assistant"}
             if response.content:
                 assistant_msg["content"] = response.content
-            if response.tool_calls:
-                serialized_calls = []
-                for tc in response.tool_calls:
-                    tc_copy = {
-                        "id": tc["id"],
-                        "type": tc["type"],
-                        "function": dict(tc["function"]),
-                    }
-                    args = tc_copy["function"].get("arguments")
-                    if isinstance(args, dict):
-                        tc_copy["function"]["arguments"] = json.dumps(args, ensure_ascii=False)
-                    serialized_calls.append(tc_copy)
-                assistant_msg["tool_calls"] = serialized_calls
+            serialized_calls = []
+            for tc in valid_calls:
+                tc_copy = {
+                    "id": tc["id"],
+                    "type": tc["type"],
+                    "function": dict(tc["function"]),
+                }
+                args = tc_copy["function"].get("arguments")
+                if isinstance(args, dict):
+                    tc_copy["function"]["arguments"] = json.dumps(args, ensure_ascii=False)
+                serialized_calls.append(tc_copy)
+            assistant_msg["tool_calls"] = serialized_calls
             messages.append(assistant_msg)
 
             tool_results = []
-            for tc in response.tool_calls:
+            for tc in valid_calls:
                 func = tc.get("function", {})
                 tool_name = func.get("name", "")
                 arguments = func.get("arguments", {})

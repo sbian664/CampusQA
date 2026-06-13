@@ -10,6 +10,49 @@ from config import CACHE_DIR
 
 class Session:
     """对话会话类 - 管理对话历史和上下文"""
+
+    @staticmethod
+    def _extract_tool_name(tool_call: Dict) -> str:
+        return (
+            tool_call.get("tool_name")
+            or tool_call.get("function", {}).get("name")
+            or ""
+        ).strip()
+
+    @staticmethod
+    def _extract_tool_arguments(tool_call: Dict) -> Dict:
+        arguments = tool_call.get("arguments")
+        if arguments is None:
+            arguments = tool_call.get("function", {}).get("arguments")
+        if isinstance(arguments, str):
+            try:
+                parsed = json.loads(arguments)
+            except json.JSONDecodeError:
+                return {}
+            return parsed if isinstance(parsed, dict) else {}
+        return arguments if isinstance(arguments, dict) else {}
+
+    @classmethod
+    def _summarize_tool_calls(cls, tool_calls: List[Dict]) -> str:
+        search_queries = []
+        tool_names = []
+
+        for tool_call in tool_calls:
+            name = cls._extract_tool_name(tool_call)
+            args = cls._extract_tool_arguments(tool_call)
+            query = str(args.get("query", "")).strip()
+
+            if name == "search_knowledge_base" and query:
+                if query not in search_queries:
+                    search_queries.append(query)
+            elif name and name not in tool_names:
+                tool_names.append(name)
+
+        if search_queries:
+            return f"检索关键词: {', '.join(search_queries)}"
+        if tool_names:
+            return f"调用了工具: {', '.join(tool_names)}"
+        return ""
     
     def __init__(self, session_id: str = None, max_history: int = 20):
         """
@@ -106,8 +149,9 @@ class Session:
                     entry["content"] = msg["content"]
                 if "tool_calls" in msg:
                     # 简化为摘要
-                    names = [tc.get("function", {}).get("name", "?") for tc in msg["tool_calls"]]
-                    entry["content"] = (entry.get("content", "") or "") + f" [调用了工具: {', '.join(names)}]"
+                    summary = self._summarize_tool_calls(msg["tool_calls"])
+                    if summary:
+                        entry["content"] = (entry.get("content", "") or "") + f" [{summary}]"
                 result.append(entry)
             return result
 
@@ -295,6 +339,21 @@ class Session:
         except Exception as e:
             raise Exception(f"加载会话失败: {str(e)}")
     
+    @staticmethod
+    def _is_session_file(filepath: str) -> bool:
+        """判断 JSON 文件是否是会话文件，而不是知识库缓存元数据。"""
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return (
+                isinstance(data, dict)
+                and isinstance(data.get("session_id"), str)
+                and isinstance(data.get("messages"), list)
+                and isinstance(data.get("metadata"), dict)
+            )
+        except Exception:
+            return False
+
     def list_saved_sessions() -> List[str]:
         """
         列出所有保存的会话文件
@@ -308,7 +367,11 @@ class Session:
         """
         try:
             files = os.listdir(CACHE_DIR)
-            return [f for f in files if f.endswith('.json')]
+            return [
+                f for f in files
+                if f.endswith('.json')
+                and Session._is_session_file(os.path.join(CACHE_DIR, f))
+            ]
         except:
             return []
     

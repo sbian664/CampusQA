@@ -17,6 +17,10 @@ function shortId(id) {
   if (!id) return '新会话'
   return id.length > 12 ? `${id.slice(0, 8)}...${id.slice(-4)}` : id
 }
+
+function sessionLabel(session) {
+  return session.title || shortId(session.session_id)
+}
 </script>
 
 <template>
@@ -97,7 +101,7 @@ function shortId(id) {
           class="min-w-0 flex-1 rounded-lg px-2 py-1.5 text-left transition hover:bg-[var(--surface-muted)]"
           @click="$emit('select', s.session_id); $emit('close')"
         >
-          <div class="truncate text-sm font-semibold">{{ shortId(s.session_id) }}</div>
+          <div class="truncate text-sm font-semibold">{{ sessionLabel(s) }}</div>
           <div class="mt-1 flex items-center gap-2 text-xs" style="color: var(--ink-soft);">
             <span>{{ s.message_count }} 条消息</span>
             <span aria-hidden="true">·</span>

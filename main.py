@@ -134,19 +134,36 @@ def handle_command(command: str, session: Session, chatbot: Chatbot, kb: Knowled
                 print(f"\n🔍 混合检索: {query}{filter_desc}")
                 print("-" * 50)
                 results = kb.hybrid_search(query, top_k=3, filters=filters if filters else None)
-                if not results:
+                # 若语义无命中，追加 BM25 结果
+                bm25_results = []
+                if results and all(r.get('bm25_score', 0) == 0 for r in results):
+                    bm25_results = kb.bm25_search(query, top_k=3)
+                    if bm25_results:
+                        bm25_results = [r for r in bm25_results if r['bm25_score'] > 0]
+
+                def _print_result(r, label=""):
+                    source_name = r['source'].replace('\\', '/').split('/')[-1]
+                    bm25_s = r.get('bm25_score', 0)
+                    vec_s = r.get('vector_score', 0)
+                    vec_disp = f"{vec_s:.3f}" if vec_s is not None else "—"
+                    doc_type = r.get('doc_type', '')
+                    title = r.get('title', '')
+                    print(f"  {label}📄 {source_name} [{doc_type}] {title}")
+                    print(f"     块{r['chunk_index']} | 混合: {r['score']:.3f} | BM25: {bm25_s:.3f} | 向量: {vec_disp}")
+                    print(f"     {r['content'][:120]}...")
+
+                if not results and not bm25_results:
                     print("（未找到相关结果）\n")
                 else:
-                    for i, r in enumerate(results, 1):
-                        source_name = r['source'].replace('\\', '/').split('/')[-1]
-                        bm25_s = r.get('bm25_score', 0)
-                        vec_s = r.get('vector_score', 0)
-                        doc_type = r.get('doc_type', '')
-                        title = r.get('title', '')
-                        print(f"  {i}. 📄 {source_name} [{doc_type}] {title}")
-                        print(f"     块{r['chunk_index']} | 混合: {r['score']:.3f} | BM25: {bm25_s:.3f} | 向量: {vec_s:.3f}")
-                        print(f"     {r['content'][:120]}...")
+                    if results:
+                        print("  [语义匹配]")
+                        for i, r in enumerate(results, 1):
+                            _print_result(r, f"  {i}. ")
+                    if bm25_results:
                         print()
+                        print("  [关键词命中 — LLM 自主判断使用]")
+                        for i, r in enumerate(bm25_results, 1):
+                            _print_result(r, f"  {i}. ")
                     print("-" * 50 + "\n")
 
     elif cmd == 'kb-stats':
