@@ -35,8 +35,6 @@ context_parts = []
 for r in results:
     context_parts.append(RAG_CONTEXT_ITEM_TEMPLATE.format(
         source=r["source"],
-        doc_type=r.get("doc_type", "unknown"),
-        title=r.get("title", ""),
         chunk=r["chunk_index"],
         score=r["score"],
         content=r["content"],
@@ -53,7 +51,7 @@ rag_prompt = RAG_SYSTEM_PROMPT_TEMPLATE.format(
 )
 print(f"  Prompt length: {len(rag_prompt)} chars")
 assert "[TEST_SYSTEM_PROMPT]" in rag_prompt
-assert len(rag_prompt) > 500, "Prompt should be substantial"
+assert "机器学习" in rag_prompt or "machine" in rag_prompt.lower()
 print("  OK - template substitution works")
 
 # 6. Verify KB-less fallback

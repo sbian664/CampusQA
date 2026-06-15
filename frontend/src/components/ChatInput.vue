@@ -5,22 +5,10 @@ const props = defineProps({
   disabled: { type: Boolean, default: false },
 })
 
-const emit = defineEmits(['send', 'clear', 'upload'])
+const emit = defineEmits(['send', 'clear'])
 
 const inputText = ref('')
 const textareaRef = ref(null)
-const fileInputRef = ref(null)
-
-function handleUpload() {
-  fileInputRef.value?.click()
-}
-
-function onFileChange(e) {
-  const file = e.target.files?.[0]
-  if (!file) return
-  emit('upload', file)
-  e.target.value = ''
-}
 
 function autoResize() {
   const el = textareaRef.value
@@ -50,28 +38,15 @@ watch(inputText, autoResize)
 </script>
 
 <template>
-  <footer class="shrink-0 border-t px-4 py-3 md:px-6 md:py-4" style="border-color: var(--border); background: color-mix(in oklch, var(--surface-raised), transparent 2%);">
+  <footer
+    class="shrink-0 border-t px-4 py-3 md:px-6 md:py-4"
+    style="border-color: var(--border); background: color-mix(in oklch, var(--surface-raised), transparent 2%);"
+  >
     <div class="mx-auto w-full max-w-4xl">
-      <div class="flex items-end gap-2 rounded-2xl border p-2" style="border-color: var(--border); background: var(--surface); box-shadow: 0 14px 30px oklch(25% 0.04 278 / 0.06);">
-        <button
-          @click="handleUpload"
-          :disabled="disabled"
-          class="icon-button shrink-0"
-          title="上传文档"
-          aria-label="上传文档"
-        >
-          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
-          </svg>
-        </button>
-        <input
-          ref="fileInputRef"
-          type="file"
-          accept=".md,.txt,.pdf,.html"
-          class="hidden"
-          @change="onFileChange"
-        />
-
+      <div
+        class="flex items-end gap-2 rounded-2xl border p-2"
+        style="border-color: var(--border); background: var(--surface); box-shadow: 0 14px 30px oklch(25% 0.04 278 / 0.06);"
+      >
         <textarea
           ref="textareaRef"
           v-model="inputText"
@@ -112,7 +87,7 @@ watch(inputText, autoResize)
       </div>
 
       <div class="mt-2 flex flex-wrap items-center justify-between gap-2 px-1 text-xs" style="color: var(--ink-soft);">
-        <span>支持 md、txt、pdf、html 上传</span>
+        <span>拖入页面可将 md / txt / pdf / html 上传到知识库</span>
         <span>Shift + Enter 换行</span>
       </div>
     </div>

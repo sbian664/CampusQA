@@ -1,8 +1,8 @@
-# 知识库 AI Agent（项目名：CampusQA）— v1.1.2
+# 知识库 AI Agent（项目名：CampusQA）— v1.1.3
 
 从基础对话框架逐步演进为知识库问答系统，现已支持 **Web 前端**（ChatGPT 风格）。
 
-> v1.1.2 修复：Web 前端新会话创建后会立即同步到历史侧栏，无需刷新页面。
+> v1.1.3 修复：恢复会话启动重试、标题展示和对话区滚动；新增批量拖拽上传。
 
 ## 项目结构
 
@@ -152,7 +152,7 @@ Agent: 根据知识库文档，监督学习是...
 - 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
 - 第六阶段：RAG检索强化（上下文增强 + 元数据过滤） ✅
 - 第七阶段：Agent Loop 自主循环检索 ✅
-- 第八阶段：Web 前端（Vue 3 + TailwindCSS + FastAPI） ✅ — **v1.1.2**
+- 第八阶段：Web 前端（Vue 3 + TailwindCSS + FastAPI） ✅ — **v1.1.3**
 
 ## 获取 DeepSeek API 密钥
 

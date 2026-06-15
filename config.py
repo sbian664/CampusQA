@@ -23,7 +23,7 @@ LOCAL_MODEL_BASE = os.getenv("LOCAL_MODEL_BASE", "http://localhost:8000/v1")
 LOCAL_MODEL_NAME = os.getenv("LOCAL_MODEL_NAME", "local-model")
 
 # ============ 对话配置 ============
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2000"))
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.7"))
 
 # ============ 路径配置 ============

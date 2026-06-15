@@ -38,6 +38,8 @@ wheels/
 # 数据和缓存
 data/cache/*
 data/embeddings/*
+data/faiss_index.bin
+data/faiss_index.bin.meta
 *.db
 *.pkl
 *.json.bak

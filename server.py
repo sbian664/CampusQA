@@ -45,7 +45,7 @@ async def _lifespan(app: FastAPI):
     # shutdown 清理（预留）
 
 
-app = FastAPI(title="CampusQA API", version="1.1.2", lifespan=_lifespan)
+app = FastAPI(title="CampusQA API", version="1.1.3", lifespan=_lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -366,7 +366,7 @@ def delete_message(session_id: str, index: int):
     return {"status": "deleted", "session_id": session_id, "index": index}
 
 
-@app.post("/api/upload")
+@app.post("/api/upload-legacy")
 async def upload_file(file: UploadFile = File(...)):
     """上传文档到知识库"""
     # 校验扩展名
@@ -397,6 +397,72 @@ async def upload_file(file: UploadFile = File(...)):
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"索引失败: {str(e)}")
+
+
+@app.post("/api/upload")
+async def upload_files(
+    files: Optional[List[UploadFile]] = File(None),
+    file: Optional[UploadFile] = File(None),
+):
+    """Upload one or more documents to the knowledge base."""
+    upload_files = list(files or [])
+    if file is not None:
+        upload_files.append(file)
+
+    if not upload_files:
+        raise HTTPException(status_code=400, detail="No files uploaded")
+
+    os.makedirs(DOCUMENTS_DIR, exist_ok=True)
+    kb = get_kb()
+    uploaded = []
+    failed = []
+
+    for upload in upload_files:
+        original_name = upload.filename or ""
+        filename = os.path.basename(original_name)
+        ext = os.path.splitext(filename)[1].lower()
+
+        if not filename:
+            failed.append({"filename": original_name, "error": "Missing filename"})
+            continue
+
+        if ext not in SUPPORTED_FORMATS:
+            failed.append({
+                "filename": filename,
+                "error": f"Unsupported file format: {ext}",
+            })
+            continue
+
+        file_path = os.path.join(DOCUMENTS_DIR, filename)
+        try:
+            with open(file_path, "wb") as f:
+                shutil.copyfileobj(upload.file, f)
+            kb._update_document(file_path)
+            uploaded.append({"filename": filename, "status": "ok"})
+        except Exception as e:
+            traceback.print_exc()
+            failed.append({"filename": filename, "error": str(e)})
+
+    if uploaded:
+        kb._save_metadata()
+        kb._save_chunk_texts()
+        kb._save_store()
+
+    uploaded_count = len(uploaded)
+    failed_count = len(failed)
+    response = {
+        "status": "ok" if uploaded_count else "error",
+        "uploaded": uploaded,
+        "failed": failed,
+        "uploaded_count": uploaded_count,
+        "failed_count": failed_count,
+        "message": f"Uploaded {uploaded_count} file(s), {failed_count} failed",
+    }
+
+    if not uploaded:
+        raise HTTPException(status_code=400, detail=response)
+
+    return response
 
 
 @app.get("/api/kb/stats")

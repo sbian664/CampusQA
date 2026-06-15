@@ -5,6 +5,13 @@ import ChatInput from './components/ChatInput.vue'
 import ChatSidebar from './components/ChatSidebar.vue'
 import ErrorToast from './components/ErrorToast.vue'
 import { upsertSessionFromChatResponse } from './sessionList.js'
+import { retryUntilResolved } from './retry.js'
+import {
+  buildKnowledgeUploadFormData,
+  getKnowledgeUploadMessage,
+  hasDraggedFiles,
+  normalizeFileList,
+} from './uploadBatch.js'
 
 // ── 状态 ──
 const messages = ref([])
@@ -15,10 +22,16 @@ const successMsg = ref({ visible: false, message: '' })
 const showSidebar = ref(false)
 const showSettings = ref(false)
 const sessions = ref([])
+const sessionTitle = ref('')
 const agentMode = ref(true)
 const cost = ref(null)
+const isDraggingFiles = ref(false)
+const isUploadingFiles = ref(false)
+const BACKEND_RECOVERY_ATTEMPTS = 15
+const BACKEND_RECOVERY_DELAY_MS = 2000
 
 const currentSessionLabel = computed(() => {
+  if (sessionTitle.value) return sessionTitle.value
   if (!sessionId.value) return '未保存的新会话'
   return `会话 ${sessionId.value.slice(0, 8)}`
 })
@@ -30,22 +43,47 @@ onMounted(() => {
   const saved = localStorage.getItem('campusqa_session_id')
   if (saved) {
     sessionId.value = saved
-    restoreSession()
   }
-  fetchMode()
-  fetchSessions()
+  recoverBackendState()
 })
 
-async function restoreSession() {
+async function recoverBackendState() {
+  try {
+    await retryUntilResolved(
+      async () => {
+        await Promise.all([
+          fetchMode({ throwOnFailure: true }),
+          fetchSessions({ throwOnFailure: true }),
+        ])
+        if (sessionId.value) {
+          await restoreSession({ throwOnFailure: true })
+        }
+      },
+      {
+        attempts: BACKEND_RECOVERY_ATTEMPTS,
+        delayMs: BACKEND_RECOVERY_DELAY_MS,
+      },
+    )
+  } catch {
+    // 保持页面可用，用户发送消息或打开历史时仍会再次请求后端。
+  }
+}
+
+async function restoreSession(options = {}) {
+  const { throwOnFailure = false } = options
   try {
     const res = await fetch(`/api/session/${sessionId.value}`)
     if (res.ok) {
       const data = await res.json()
       messages.value = data.history || []
+      sessionTitle.value = data.title || ''
+      return true
     }
-  } catch {
-    // 静默失败
+    throw new Error(`Failed to restore session (${res.status})`)
+  } catch (err) {
+    if (throwOnFailure) throw err
   }
+  return false
 }
 
 // ── 发送消息 ──
@@ -82,6 +120,7 @@ async function sendMessage(text) {
     if (data.session_id) {
       sessionId.value = data.session_id
       localStorage.setItem('campusqa_session_id', data.session_id)
+      sessionTitle.value = data.session_title || sessionTitle.value
       sessions.value = upsertSessionFromChatResponse(sessions.value, data)
     }
 
@@ -117,9 +156,72 @@ function showError(msg) {
 }
 
 // ── 上传文件 ──
+function showSuccess(msg, timeout = 4000) {
+  successMsg.value = { visible: true, message: msg }
+  setTimeout(() => { successMsg.value.visible = false }, timeout)
+}
+
+function onKnowledgeDragEnter(event) {
+  if (!hasDraggedFiles(event)) return
+  event.preventDefault()
+  isDraggingFiles.value = true
+}
+
+function onKnowledgeDragOver(event) {
+  if (!hasDraggedFiles(event)) return
+  event.preventDefault()
+  if (event.dataTransfer) {
+    event.dataTransfer.dropEffect = 'copy'
+  }
+  isDraggingFiles.value = true
+}
+
+function onKnowledgeDragLeave(event) {
+  if (event.currentTarget?.contains(event.relatedTarget)) return
+  isDraggingFiles.value = false
+}
+
+async function onKnowledgeDrop(event) {
+  if (!hasDraggedFiles(event)) return
+  event.preventDefault()
+  isDraggingFiles.value = false
+
+  const files = normalizeFileList(event.dataTransfer?.files)
+  if (!files.length || isUploadingFiles.value) return
+
+  await uploadKnowledgeFiles(files)
+}
+
+async function uploadKnowledgeFiles(files) {
+  isUploadingFiles.value = true
+  error.value.visible = false
+
+  try {
+    const res = await fetch('/api/upload', {
+      method: 'POST',
+      body: buildKnowledgeUploadFormData(files),
+    })
+
+    const data = await res.json().catch(() => ({}))
+    const payload = res.ok ? data : data.detail || data
+    const result = getKnowledgeUploadMessage(payload)
+
+    if (!res.ok || result.type === 'error') {
+      showError(result.message)
+      return
+    }
+
+    showSuccess(result.message)
+  } catch (err) {
+    showError(err.message || '上传失败')
+  } finally {
+    isUploadingFiles.value = false
+  }
+}
+
 async function uploadFile(file) {
   const formData = new FormData()
-  formData.append('file', file)
+  formData.append('files', file)
 
   try {
     const res = await fetch('/api/upload', {
@@ -139,14 +241,20 @@ async function uploadFile(file) {
 }
 
 // ── 会话管理 ──
-async function fetchSessions() {
+async function fetchSessions(options = {}) {
+  const { throwOnFailure = false } = options
   try {
     const res = await fetch('/api/sessions')
     if (res.ok) {
       const data = await res.json()
       sessions.value = data.sessions || []
+      return true
     }
-  } catch { /* 静默 */ }
+    throw new Error(`Failed to fetch sessions (${res.status})`)
+  } catch (err) {
+    if (throwOnFailure) throw err
+  }
+  return false
 }
 
 async function loadSession(id) {
@@ -160,6 +268,7 @@ async function loadSession(id) {
       const data = await res.json()
       sessionId.value = data.session_id
       messages.value = data.history || []
+      sessionTitle.value = data.title || ''
       localStorage.setItem('campusqa_session_id', data.session_id)
     }
   } catch (err) {
@@ -170,19 +279,31 @@ async function loadSession(id) {
 function newSession() {
   messages.value = []
   sessionId.value = null
+  sessionTitle.value = ''
   cost.value = null
   localStorage.removeItem('campusqa_session_id')
 }
 
+function openSidebar() {
+  showSidebar.value = true
+  fetchSessions()
+}
+
 // ── 模式切换 ──
-async function fetchMode() {
+async function fetchMode(options = {}) {
+  const { throwOnFailure = false } = options
   try {
     const res = await fetch('/api/mode')
     if (res.ok) {
       const data = await res.json()
       agentMode.value = data.agent_mode
+      return true
     }
-  } catch { /* 静默 */ }
+    throw new Error(`Failed to fetch mode (${res.status})`)
+  } catch (err) {
+    if (throwOnFailure) throw err
+  }
+  return false
 }
 
 async function toggleMode() {
@@ -264,7 +385,12 @@ async function rerollLast() {
     if (!res.ok) throw new Error('请求失败')
     const data = await res.json()
     messages.value.push({ role: 'assistant', content: data.response })
-    if (data.session_id) sessionId.value = data.session_id
+    if (data.session_id) {
+      sessionId.value = data.session_id
+      sessionTitle.value = data.session_title || sessionTitle.value
+      localStorage.setItem('campusqa_session_id', data.session_id)
+      sessions.value = upsertSessionFromChatResponse(sessions.value, data)
+    }
   } catch (err) {
     showError('重新生成失败')
   } finally {
@@ -305,7 +431,12 @@ async function editMessage({ index, newText }) {
     if (!res.ok) throw new Error('请求失败')
     const data = await res.json()
     messages.value.push({ role: 'assistant', content: data.response })
-    if (data.session_id) sessionId.value = data.session_id
+    if (data.session_id) {
+      sessionId.value = data.session_id
+      sessionTitle.value = data.session_title || sessionTitle.value
+      localStorage.setItem('campusqa_session_id', data.session_id)
+      sessions.value = upsertSessionFromChatResponse(sessions.value, data)
+    }
   } catch (err) {
     showError('编辑失败')
   } finally {
@@ -348,7 +479,7 @@ function copyNotified() {
           <div class="flex flex-wrap items-center justify-between gap-3">
             <div class="flex min-w-0 items-center gap-3">
               <button
-                @click="showSidebar = true"
+                @click="openSidebar"
                 class="icon-button md:hidden"
                 title="历史会话"
                 aria-label="打开历史会话"
@@ -451,10 +582,29 @@ function copyNotified() {
         </header>
 
         <div class="flex min-h-0 flex-1 flex-col overflow-hidden">
-          <ChatMessages :messages="messages" :is-loading="isLoading"
-            @copy="copyNotified" @delete="deleteMessage" @edit="editMessage" @reroll="rerollLast" />
+          <div
+            class="relative min-h-0 flex flex-1 flex-col overflow-hidden"
+            @dragenter="onKnowledgeDragEnter"
+            @dragover="onKnowledgeDragOver"
+            @dragleave="onKnowledgeDragLeave"
+            @drop="onKnowledgeDrop"
+          >
+            <ChatMessages :messages="messages" :is-loading="isLoading"
+              @copy="copyNotified" @delete="deleteMessage" @edit="editMessage" @reroll="rerollLast" />
 
-          <ChatInput :disabled="isLoading" @send="sendMessage" @clear="clearChat" @upload="uploadFile" />
+            <div
+              v-if="isDraggingFiles"
+              class="absolute inset-3 z-30 grid place-items-center rounded-2xl border-2 border-dashed px-6 text-center"
+              style="border-color: var(--brand); background: color-mix(in oklch, var(--surface-raised), transparent 8%); box-shadow: var(--shadow-menu);"
+            >
+              <div>
+                <p class="text-base font-bold" style="color: var(--ink);">松开后上传到知识库</p>
+                <p class="mt-1 text-sm" style="color: var(--ink-muted);">支持一次拖入多个 md / txt / pdf / html 文件</p>
+              </div>
+            </div>
+          </div>
+
+          <ChatInput :disabled="isLoading || isUploadingFiles" @send="sendMessage" @clear="clearChat" />
         </div>
       </section>
     </main>
