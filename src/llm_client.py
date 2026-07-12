@@ -90,6 +90,8 @@ class DeepSeekClient(LLMClient):
         if tools:
             payload["tools"] = tools
             payload["tool_choice"] = kwargs.get("tool_choice", "auto")
+        if kwargs.get("response_format"):
+            payload["response_format"] = kwargs["response_format"]
         return payload
 
     def _call_api(self, payload: Dict) -> Dict:

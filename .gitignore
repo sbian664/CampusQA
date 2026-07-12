@@ -49,4 +49,7 @@ data/faiss_index.bin.meta
 logs/
 
 # 本地测试与诊断脚本（不随产品代码提交）
-/tests/
+/tests/*
+
+# 开发中途文档
+docs/

@@ -2,9 +2,11 @@
 
 从基础对话框架逐步演进为知识库问答系统，现已支持 **Web 前端**（ChatGPT 风格）。
 
-> v1.2.0 新增请求级 CrossEncoder 智能重排、前端持久化开关，并提升知识库批量索引并发安全性。
+> v1.2.0 新增请求级 CrossEncoder 智能重排、前端持久化开关、多轮上下文路由，并提升知识库批量索引并发安全性。
 
 智能搜索由前端按请求传递 `rerank_enabled`，不会修改服务器全局状态；关闭时保持原有混合检索排序。首次开启会懒加载 CrossEncoder 模型。
+
+多轮对话默认启用上下文路由：首轮问题直接进入问答流程；后续问题由 `deepseek-chat` 判断为独立问题或追问。独立问题不携带旧历史，追问会被改写成可独立检索的问题，并只保留最近一轮相关对话。路由失败时会保守使用原问题和最近一轮历史，完整 Session 仍保存用户原始输入。
 
 ## 项目结构
 
@@ -13,6 +15,7 @@ knowledge-agent/
 ├── src/
 │   ├── __init__.py
 │   ├── llm_client.py          # LLM 客户端（支持多个提供商）
+│   ├── context_router.py      # 多轮上下文分类、追问改写与历史选择
 │   ├── chatbot.py             # 对话机器人（支持 RAG + Agent Loop）
 │   ├── session.py             # 会话管理（支持 tool_calls）
 │   ├── document_loader.py     # 多格式文档加载器
@@ -225,6 +228,22 @@ Agent: 根据知识库文档，监督学习是...
 | `AGENT_LOW_SCORE_THRESHOLD` | `0.4` | L5：低分熔断阈值 |
 | `AGENT_CONTEXT_RATIO` | `0.8` | L6：Token 预算告警比例 |
 | `AGENT_MODEL_MAX_CONTEXT` | `32000` | 模型上下文窗口大小 |
+
+### 多轮上下文路由
+
+| 环境变量 | 默认值 | 说明 |
+|----------|--------|------|
+| `CONTEXT_ROUTER_ENABLED` | `true` | 是否在非首轮请求进入 Chatbot 前执行上下文路由 |
+| `CONTEXT_ROUTER_PROVIDER` | `deepseek` | 路由模型提供方；可设为现有的 `local` OpenAI-compatible 客户端 |
+| `CONTEXT_ROUTER_HISTORY_EXCHANGES` | `2` | 提交给路由模型判断的最近完整问答轮数 |
+
+路由模型使用低温度 JSON 输出，返回 `standalone` 或 `follow_up` 以及独立改写后的问题。切换本地模型时可在 `.env` 中配置：
+
+```bash
+CONTEXT_ROUTER_PROVIDER=local
+LOCAL_MODEL_BASE=http://localhost:8000/v1
+LOCAL_MODEL_NAME=your-local-instruct-model
+```
 
 ### 文本分割
 

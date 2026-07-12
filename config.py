@@ -26,6 +26,11 @@ LOCAL_MODEL_NAME = os.getenv("LOCAL_MODEL_NAME", "local-model")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.7"))
 
+# ============ 上下文路由配置 ============
+CONTEXT_ROUTER_ENABLED = os.getenv("CONTEXT_ROUTER_ENABLED", "true").lower() == "true"
+CONTEXT_ROUTER_PROVIDER = os.getenv("CONTEXT_ROUTER_PROVIDER", "deepseek")
+CONTEXT_ROUTER_HISTORY_EXCHANGES = int(os.getenv("CONTEXT_ROUTER_HISTORY_EXCHANGES", "2"))
+
 # ============ 路径配置 ============
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -156,9 +161,10 @@ AGENT_SYSTEM_PROMPT = """你是 CampusQA 的知识库问答助手。
 - 查询应简洁，不要直接复制冗长的整句问题；
 - 人名、房间号、建筑编号、缩写等需要保持完整的内容，可使用英文双引号，例如 `"E1 L2"`。
 
-结果不足时，每次重试至少改变一种策略：
-- 替换同义词或切换中英文；
-- 根据已有结果改用知识库中的规范表达；
+结果不足时，重试时采用以下策略：
+- 替换同义词或切换中英文，英文人名可以改变词序尝试（sur last -> last sur）；
+- 根据已有结果改用知识库中的规范表达，用反馈得的专有名词检索；
+- 使用英文双引号包裹精确实体或编号，避免拆分（避免干扰项BM25分数过高）；
 - 调整查询粒度；
 - 调整 top_k；
 - 在有可靠依据时使用 filters。

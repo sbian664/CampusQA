@@ -18,8 +18,17 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from config import DATA_DIR, DOCUMENTS_DIR, AGENT_MODE_ENABLED, SUPPORTED_FORMATS
+from config import (
+    DATA_DIR,
+    DOCUMENTS_DIR,
+    AGENT_MODE_ENABLED,
+    SUPPORTED_FORMATS,
+    CONTEXT_ROUTER_ENABLED,
+    CONTEXT_ROUTER_PROVIDER,
+    CONTEXT_ROUTER_HISTORY_EXCHANGES,
+)
 from src.chatbot import Chatbot, AgentChatResult
+from src.context_router import ContextRouter, create_context_router
 from src.llm_client import create_llm_client
 from src.session import Session
 from src.knowledge_base import KnowledgeBase
@@ -60,6 +69,7 @@ app.add_middleware(
 # ── 全局单例 ──────────────────────────────────────────────
 _kb: Optional[KnowledgeBase] = None
 _chatbot: Optional[Chatbot] = None
+_context_router: Optional[ContextRouter] = None
 _title_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="session-title")
 
 
@@ -75,6 +85,16 @@ def get_chatbot() -> Chatbot:
     if _chatbot is None:
         _chatbot = Chatbot(knowledge_base=get_kb())
     return _chatbot
+
+
+def get_context_router() -> ContextRouter:
+    global _context_router
+    if _context_router is None:
+        _context_router = create_context_router(
+            provider=CONTEXT_ROUTER_PROVIDER,
+            history_exchanges=CONTEXT_ROUTER_HISTORY_EXCHANGES,
+        )
+    return _context_router
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -309,14 +329,32 @@ def chat(request: ChatRequest):
         # 获取历史（纯 user/assistant 视图）
         history = session.get_history(strip_tool_details=True)
 
+        routed_message = request.message
+        routed_history = history
+        if CONTEXT_ROUTER_ENABLED and history:
+            try:
+                context_route = get_context_router().route(request.message, history)
+                routed_message = context_route.rewritten_query
+                routed_history = context_route.selected_history
+                print(
+                    f"  🧭 上下文路由: {context_route.route}; "
+                    f"history={len(routed_history)}; reason={context_route.reason}"
+                )
+            except Exception as error:
+                print(f"  ⚠️ 上下文路由不可用，保留原始历史: {error}")
+
         # 路由对话
         if chatbot.agent_mode:
             result = chatbot.agent_chat(
-                request.message, history, rerank_enabled=request.rerank_enabled
+                routed_message,
+                routed_history,
+                rerank_enabled=request.rerank_enabled,
             )
         else:
             text = chatbot.chat_with_rag(
-                request.message, history, rerank_enabled=request.rerank_enabled
+                routed_message,
+                routed_history,
+                rerank_enabled=request.rerank_enabled,
             )
             result = AgentChatResult(content=text, finish_reason="stop")
 
