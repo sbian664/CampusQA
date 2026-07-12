@@ -6,6 +6,7 @@ import os
 import json
 import re
 import traceback
+import tempfile
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import datetime
 from typing import Optional, List, Dict
@@ -22,6 +23,7 @@ from src.chatbot import Chatbot, AgentChatResult
 from src.llm_client import create_llm_client
 from src.session import Session
 from src.knowledge_base import KnowledgeBase
+from src.document_loader import DocumentLoader
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -45,7 +47,7 @@ async def _lifespan(app: FastAPI):
     # shutdown 清理（预留）
 
 
-app = FastAPI(title="CampusQA API", version="1.1.3", lifespan=_lifespan)
+app = FastAPI(title="CampusQA API", version="1.2.0", lifespan=_lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -80,6 +82,7 @@ def get_chatbot() -> Chatbot:
 class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
+    rerank_enabled: bool = True        # 请求级智能搜索开关，不修改服务器全局状态
     reroll: bool = False               # 重新生成：去掉末条 assistant 再生成
     edit_index: Optional[int] = None    # 编辑分支：截断到该索引，替换 user 消息
 
@@ -123,6 +126,14 @@ class SessionInfo(BaseModel):
 class ErrorResponse(BaseModel):
     error: str
     detail: Optional[str] = None
+
+
+class AttachmentParseResponse(BaseModel):
+    status: str
+    filename: str
+    content: str
+    char_count: int
+    truncated: bool = False
 
 
 # ── 辅助函数 ──────────────────────────────────────────────
@@ -226,6 +237,33 @@ def _agent_result_to_response(
     }
 
 
+def _attachment_context_from_docs(filename: str, docs: List, max_chars: int = 12000) -> Dict:
+    """Build bounded text context for a message attachment."""
+    parts = []
+    total = 0
+    source_chars = 0
+    for doc in docs:
+        text = (getattr(doc, "page_content", "") or "").strip()
+        source_chars += len(text)
+        if not text:
+            continue
+        remaining = max_chars - total
+        if remaining <= 0:
+            break
+        chunk = text[:remaining]
+        parts.append(chunk)
+        total += len(chunk)
+
+    content = "\n\n".join(parts).strip()
+    return {
+        "status": "ok",
+        "filename": filename,
+        "content": content,
+        "char_count": len(content),
+        "truncated": source_chars > len(content),
+    }
+
+
 # ── API 端点 ──────────────────────────────────────────────
 
 @app.get("/api/health")
@@ -273,9 +311,13 @@ def chat(request: ChatRequest):
 
         # 路由对话
         if chatbot.agent_mode:
-            result = chatbot.agent_chat(request.message, history)
+            result = chatbot.agent_chat(
+                request.message, history, rerank_enabled=request.rerank_enabled
+            )
         else:
-            text = chatbot.chat_with_rag(request.message, history)
+            text = chatbot.chat_with_rag(
+                request.message, history, rerank_enabled=request.rerank_enabled
+            )
             result = AgentChatResult(content=text, finish_reason="stop")
 
         # 保存消息到会话
@@ -397,6 +439,32 @@ async def upload_file(file: UploadFile = File(...)):
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"索引失败: {str(e)}")
+
+
+@app.post("/api/attachments/parse", response_model=AttachmentParseResponse)
+async def parse_message_attachment(file: UploadFile = File(...)):
+    """Parse a chat attachment without adding it to the knowledge base."""
+    filename = os.path.basename(file.filename or "")
+    ext = os.path.splitext(filename)[1].lower()
+
+    if not filename:
+        raise HTTPException(status_code=400, detail="Missing filename")
+    if ext not in SUPPORTED_FORMATS:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported file format: {ext}. Supported: {SUPPORTED_FORMATS}",
+        )
+
+    with tempfile.TemporaryDirectory(prefix="campusqa_attachment_") as temp_dir:
+        file_path = os.path.join(temp_dir, filename)
+        try:
+            with open(file_path, "wb") as f:
+                shutil.copyfileobj(file.file, f)
+            docs = DocumentLoader(base_dir=temp_dir).load_file(file_path)
+            return _attachment_context_from_docs(filename, docs)
+        except Exception as e:
+            traceback.print_exc()
+            raise HTTPException(status_code=500, detail=f"Attachment parse failed: {str(e)}")
 
 
 @app.post("/api/upload")

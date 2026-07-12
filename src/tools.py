@@ -13,6 +13,7 @@ from config import (
     HYBRID_SEARCH_ENABLED, BM25_WEIGHT,
     AGENT_CHUNK_MERGE_ENABLED, AGENT_CHUNK_MERGE_MAX_CHARS,
 )
+from src.reranker import get_reranker_model, search_with_optional_rerank
 
 
 # ═══════════════════════════════════════════════════════════
@@ -229,12 +230,15 @@ def format_search_results(results: List[Dict]) -> str:
 class ToolHandler:
     """工具处理器 — 接收 KnowledgeBase 实例，分发并执行工具调用"""
 
-    def __init__(self, knowledge_base):
+    def __init__(self, knowledge_base, rerank_enabled=False,
+                 reranker_loader=get_reranker_model):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
         """
         self.kb = knowledge_base
+        self.rerank_enabled = rerank_enabled
+        self.reranker_loader = reranker_loader
         self.call_log: List[Dict] = []  # 工具调用日志
 
     def execute(self, tool_name: str, arguments: Dict) -> str:
@@ -296,7 +300,14 @@ class ToolHandler:
 
         try:
             if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search"):
-                results = self.kb.hybrid_search(query, top_k=top_k, filters=filters)
+                results = search_with_optional_rerank(
+                    self.kb,
+                    query,
+                    top_k=top_k,
+                    enabled=self.rerank_enabled,
+                    filters=filters,
+                    model_loader=self.reranker_loader,
+                )
             else:
                 results = self.kb.search(query, top_k=top_k, filters=filters)
         except Exception as e:
@@ -320,6 +331,11 @@ class ToolHandler:
 
         # 格式化输出
         output = format_search_results(results)
+        if self.rerank_enabled and any("rerank_score" in r for r in results):
+            output += (
+                "\n\n[智能重排] 已启用智能重排，结果顺序以跨编码器判断为准；"
+                "每条结果显示的分数仍为原混合检索分，仅供辅助参考。"
+            )
 
         if bm25_results:
             output += (

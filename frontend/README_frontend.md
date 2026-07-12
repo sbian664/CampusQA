@@ -44,6 +44,7 @@ frontend/
 │   └── icons.svg
 └── src/
     ├── main.js
+    ├── intelligentSearch.js         # 智能搜索开关 localStorage 持久化
     ├── sessionList.js              # 历史会话列表本地合并/更新
     ├── style.css                   # OKLCH tokens、布局、Markdown、滚动规则
     ├── App.vue                     # 应用壳、状态管理、API 调用
@@ -67,7 +68,7 @@ frontend/
 
 ### App.vue
 
-- 管理消息、会话、加载态、错误/成功提示、Agent/RAG 模式与知识库操作。
+- 管理消息、会话、加载态、错误/成功提示、Agent/RAG 模式、智能搜索与知识库操作。
 - 调用接口：`/api/chat`、`/api/sessions`、`/api/session/*`、`/api/mode`、`/api/upload`、`/api/kb/*`。
 - 收到 `/api/chat` 返回的新 `session_id` 后，会立即将该会话合并到历史侧栏，无需刷新页面。
 - 保持会话工作台的三段式布局：header、消息滚动区、输入区。
@@ -100,12 +101,12 @@ frontend/
 
 ### ChatInput.vue
 
-- **Props**：`disabled`
-- **Emits**：`send(text)`、`clear`、`upload(file)`
+- **Props**：`disabled`、`intelligentSearch`
+- **Emits**：`send(text)`、`clear`、`toggle-intelligent-search`
 - 输入区固定在会话面板底部，不随长对话内容移动到屏幕外。
 - `<textarea>` 自动增高，最大高度为 `10.5rem`。
 - Enter 发送，Shift + Enter 换行。
-- 支持 `.md`、`.txt`、`.pdf`、`.html` 文件上传。
+- 输入框内提供“智能搜索”按钮，选中时为当前请求启用 CrossEncoder 重排。
 
 ### ErrorToast.vue
 
@@ -130,6 +131,7 @@ server: {
 ## 会话持久化
 
 - 当前 `sessionId` 存储在 `localStorage` 的 `campusqa_session_id`。
+- 智能搜索状态存储在 `localStorage` 的 `campusqa_intelligent_search`，默认开启。
 - 页面刷新后会尝试通过 `/api/session/{sessionId}` 恢复历史。
 - 首轮发送创建新会话时，前端会立即更新历史侧栏；刷新页面不再是看到新会话的前提。
 - 新建或清空会话时会清除本地 `sessionId`。
@@ -151,6 +153,13 @@ npm run build
 - `390x844`：移动端抽屉侧栏可展开，消息区可滚动，输入区保持可见。
 
 ## 改动日志
+
+### v1.2.0 (2026-07-12)
+
+- 新增请求级“智能搜索”开关，默认开启并跨刷新持久化。
+- `/api/chat` 请求携带 `rerank_enabled`，普通发送、重新生成和编辑分支保持一致。
+- 输入框工具栏增加可访问的选中态按钮，并验证桌面和移动端布局。
+- 前端 package 版本升至 `1.2.0`。
 
 ### v1.1.3 (2026-06-16)
 

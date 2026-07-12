@@ -6,6 +6,7 @@ import ChatSidebar from './components/ChatSidebar.vue'
 import ErrorToast from './components/ErrorToast.vue'
 import { upsertSessionFromChatResponse } from './sessionList.js'
 import { retryUntilResolved } from './retry.js'
+import { loadIntelligentSearch, saveIntelligentSearch } from './intelligentSearch.js'
 import {
   buildKnowledgeUploadFormData,
   getKnowledgeUploadMessage,
@@ -24,6 +25,7 @@ const showSettings = ref(false)
 const sessions = ref([])
 const sessionTitle = ref('')
 const agentMode = ref(true)
+const intelligentSearch = ref(true)
 const cost = ref(null)
 const isDraggingFiles = ref(false)
 const isUploadingFiles = ref(false)
@@ -40,12 +42,18 @@ const totalMessages = computed(() => messages.value.length)
 
 // ── 从 localStorage 恢复 sessionId ──
 onMounted(() => {
+  intelligentSearch.value = loadIntelligentSearch()
   const saved = localStorage.getItem('campusqa_session_id')
   if (saved) {
     sessionId.value = saved
   }
   recoverBackendState()
 })
+
+function toggleIntelligentSearch() {
+  intelligentSearch.value = !intelligentSearch.value
+  saveIntelligentSearch(localStorage, intelligentSearch.value)
+}
 
 async function recoverBackendState() {
   try {
@@ -104,6 +112,7 @@ async function sendMessage(text) {
       body: JSON.stringify({
         message: text,
         session_id: sessionId.value,
+        rerank_enabled: intelligentSearch.value,
       }),
       signal: controller.signal,
     })
@@ -379,6 +388,7 @@ async function rerollLast() {
       body: JSON.stringify({
         message: lastUserMsg,
         session_id: sessionId.value,
+        rerank_enabled: intelligentSearch.value,
         reroll: true,
       }),
     })
@@ -425,6 +435,7 @@ async function editMessage({ index, newText }) {
       body: JSON.stringify({
         message: newText,
         session_id: sessionId.value,
+        rerank_enabled: intelligentSearch.value,
         edit_index: index,
       }),
     })
@@ -604,7 +615,13 @@ function copyNotified() {
             </div>
           </div>
 
-          <ChatInput :disabled="isLoading || isUploadingFiles" @send="sendMessage" @clear="clearChat" />
+          <ChatInput
+            :disabled="isLoading || isUploadingFiles"
+            :intelligent-search="intelligentSearch"
+            @send="sendMessage"
+            @clear="clearChat"
+            @toggle-intelligent-search="toggleIntelligentSearch"
+          />
         </div>
       </section>
     </main>

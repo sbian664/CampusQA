@@ -1,8 +1,10 @@
-# 知识库 AI Agent（项目名：CampusQA）— v1.1.3
+# 知识库 AI Agent（项目名：CampusQA）— v1.2.0
 
 从基础对话框架逐步演进为知识库问答系统，现已支持 **Web 前端**（ChatGPT 风格）。
 
-> v1.1.3 修复：恢复会话启动重试、标题展示和对话区滚动；新增批量拖拽上传。
+> v1.2.0 新增请求级 CrossEncoder 智能重排、前端持久化开关，并提升知识库批量索引并发安全性。
+
+智能搜索由前端按请求传递 `rerank_enabled`，不会修改服务器全局状态；关闭时保持原有混合检索排序。首次开启会懒加载 CrossEncoder 模型。
 
 ## 项目结构
 
@@ -17,11 +19,13 @@ knowledge-agent/
 │   ├── embeddings_manager.py  # 向量化管理
 │   ├── text_chunker.py         # 语义感知分块器
 │   ├── knowledge_base.py      # 知识库（Chroma + 检索 + 混合检索 + 元数据过滤）
+│   ├── reranker.py            # CrossEncoder 懒加载与请求级智能重排
 │   ├── vector_store.py        # 向量存储抽象（Chroma / Faiss）
 │   └── tools.py               # Agent 工具定义 + ToolHandler
 ├── frontend/                 # Vue 3 Web 前端（ChatGPT 风格）
 │   ├── src/
 │   │   ├── App.vue
+│   │   ├── intelligentSearch.js    # 智能搜索开关本地持久化
 │   │   └── components/
 │   │       ├── ChatBubble.vue      # 气泡组件（marked + DOMPurify）
 │   │       ├── ChatMessages.vue    # 消息列表 + 自动滚底
@@ -152,7 +156,8 @@ Agent: 根据知识库文档，监督学习是...
 - 第五阶段：向量检索扩展（Faiss + API Embeddings + 混合检索） ✅
 - 第六阶段：RAG检索强化（上下文增强 + 元数据过滤） ✅
 - 第七阶段：Agent Loop 自主循环检索 ✅
-- 第八阶段：Web 前端（Vue 3 + TailwindCSS + FastAPI） ✅ — **v1.1.3**
+- 第八阶段：Web 前端（Vue 3 + TailwindCSS + FastAPI） ✅
+- 第九阶段：CrossEncoder 智能重排 + 并行知识库索引 ✅ — **v1.2.0**
 
 ## 获取 DeepSeek API 密钥
 
@@ -179,7 +184,7 @@ Agent: 根据知识库文档，监督学习是...
 | `DEEPSEEK_API_KEY` | — | DeepSeek API 密钥 |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com/v1` | DeepSeek API 地址 |
 | `MODEL_NAME` | `deepseek-chat` | 模型名称 |
-| `MAX_TOKENS` | `2000` | 最大 Token 数 |
+| `MAX_TOKENS` | `4000` | 最大 Token 数 |
 | `TEMPERATURE` | `0.7` | 生成温度参数 |
 
 ### 向量存储（Phase 5）
@@ -191,6 +196,7 @@ Agent: 根据知识库文档，监督学习是...
 | `OPENAI_API_KEY` | — | OpenAI Embeddings API 密钥 |
 | `OPENAI_API_BASE` | `https://api.openai.com/v1` | OpenAI 兼容 API 地址 |
 | `OPENAI_EMBEDDINGS_MODEL` | `text-embedding-3-small` | OpenAI Embeddings 模型 |
+| `KB_INDEX_MAX_WORKERS` | `4` | 文档解析与向量计算的并行工作线程数；向量存储提交保持串行 |
 
 ### 检索增强（Phase 4/5/6）
 
@@ -199,9 +205,14 @@ Agent: 根据知识库文档，监督学习是...
 | `RAG_ENABLED` | `True` | 是否默认启用 RAG |
 | `RAG_TOP_K` | `3` | 每次检索返回的文档块数 |
 | `HYBRID_SEARCH_ENABLED` | `True` | 是否启用 BM25+向量混合检索 |
-| `BM25_WEIGHT` | `0.3` | BM25 权重（0~1），剩余为向量权重 |
+| `BM25_WEIGHT` | `0.25` | BM25 权重（0~1），剩余为向量权重 |
 | `CONTEXT_ENRICHMENT_ENABLED` | `True` | 嵌入前是否添加文档/章节上下文前缀 |
 | `METADATA_FILTER_FIELDS` | `doc_type, source, mtime_after, mtime_before` | 可过滤元数据字段 |
+| `RERANKER_AVAILABLE` | `True` | 是否允许聊天请求启用 CrossEncoder 智能重排 |
+| `RERANKER_MODEL` | `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1` | 重排模型（首次使用时懒加载） |
+| `RERANKER_CANDIDATE_K` | `30` | 交给重排模型的混合检索候选数 |
+| `RERANKER_BATCH_SIZE` | `16` | CrossEncoder 推理批量大小 |
+| `RERANKER_MAX_LENGTH` | `512` | CrossEncoder 最大输入长度 |
 
 ### Agent Loop（Phase 7）
 
@@ -211,9 +222,9 @@ Agent: 根据知识库文档，监督学习是...
 | `AGENT_MAX_LLM_ROUNDS` | `5` | L1：最大 LLM 对话轮次 |
 | `AGENT_MAX_TOTAL_TOOL_CALLS` | `10` | L2：累计工具调用上限 |
 | `AGENT_DUPLICATE_THRESHOLD` | `0.85` | L3：重复查询 Jaccard 相似度阈值 |
-| `AGENT_LOW_SCORE_THRESHOLD` | `0.3` | L5：低分熔断阈值 |
+| `AGENT_LOW_SCORE_THRESHOLD` | `0.4` | L5：低分熔断阈值 |
 | `AGENT_CONTEXT_RATIO` | `0.8` | L6：Token 预算告警比例 |
-| `AGENT_MODEL_MAX_CONTEXT` | `16000` | 模型上下文窗口大小 |
+| `AGENT_MODEL_MAX_CONTEXT` | `32000` | 模型上下文窗口大小 |
 
 ### 文本分割
 

@@ -4,6 +4,7 @@
 import pickle
 import os
 import hashlib
+import threading
 from abc import ABC, abstractmethod
 from typing import List
 
@@ -136,17 +137,19 @@ class EmbeddingsManager:
         """
         self.provider_name = provider or KB_EMBEDDINGS_PROVIDER
         self._provider = _create_provider(self.provider_name)
+        self._cache_lock = threading.RLock()
         self.cache = self._load_cache()
 
     # ---- 公共接口 ----
 
     def embed_text(self, text: str) -> List[float]:
         cache_key = self._make_cache_key(text)
-        if cache_key in self.cache:
-            return self.cache[cache_key]
+        with self._cache_lock:
+            if cache_key in self.cache:
+                return self.cache[cache_key]
         vector = self._provider.embed_text(text)
-        self.cache[cache_key] = vector
-        return vector
+        with self._cache_lock:
+            return self.cache.setdefault(cache_key, vector)
 
     def embed_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
         vectors = [None] * len(texts)
@@ -155,8 +158,10 @@ class EmbeddingsManager:
 
         for i, text in enumerate(texts):
             cache_key = self._make_cache_key(text)
-            if cache_key in self.cache:
-                vectors[i] = self.cache[cache_key]
+            with self._cache_lock:
+                cached = self.cache.get(cache_key)
+            if cached is not None:
+                vectors[i] = cached
             else:
                 uncached_texts.append(text)
                 uncached_indices.append(i)
@@ -166,7 +171,8 @@ class EmbeddingsManager:
             for idx, vec in zip(uncached_indices, new_vectors):
                 vectors[idx] = vec
                 cache_key = self._make_cache_key(uncached_texts[uncached_indices.index(idx)])
-                self.cache[cache_key] = vec
+                with self._cache_lock:
+                    self.cache[cache_key] = vec
 
         return vectors
 
@@ -188,9 +194,11 @@ class EmbeddingsManager:
     def save_cache(self):
         try:
             os.makedirs(os.path.dirname(EMBEDDINGS_CACHE_FILE), exist_ok=True)
+            with self._cache_lock:
+                cache_snapshot = dict(self.cache)
             with open(EMBEDDINGS_CACHE_FILE, 'wb') as f:
-                pickle.dump(self.cache, f)
-            print(f"✓ 向量缓存已保存: {len(self.cache)} 个")
+                pickle.dump(cache_snapshot, f)
+            print(f"✓ 向量缓存已保存: {len(cache_snapshot)} 个")
         except Exception as e:
             print(f"⚠️  保存缓存失败: {str(e)}")
 
@@ -206,7 +214,8 @@ class EmbeddingsManager:
         return {}
 
     def clear_cache(self):
-        self.cache.clear()
+        with self._cache_lock:
+            self.cache.clear()
         if os.path.exists(EMBEDDINGS_CACHE_FILE):
             os.remove(EMBEDDINGS_CACHE_FILE)
         print("✓ 缓存已清空")

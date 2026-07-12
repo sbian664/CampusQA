@@ -8,6 +8,7 @@ from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
 from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, ToolHandler
+from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
     RAG_TOP_K,
@@ -92,7 +93,8 @@ class Chatbot:
 
     # ---- RAG 检索增强（一步式，快速模式）----
 
-    def chat_with_rag(self, user_message: str, history: List[Dict]) -> str:
+    def chat_with_rag(self, user_message: str, history: List[Dict],
+                      rerank_enabled: bool = False) -> str:
         """
         带 RAG 检索增强的多轮对话（一步式检索，不做循环）
 
@@ -105,7 +107,12 @@ class Chatbot:
             return self.chat_with_history(user_message, history)
 
         if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'hybrid_search'):
-            results = self.kb.hybrid_search(user_message, top_k=RAG_TOP_K)
+            results = search_with_optional_rerank(
+                self.kb,
+                user_message,
+                top_k=RAG_TOP_K,
+                enabled=rerank_enabled,
+            )
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
 
@@ -180,7 +187,8 @@ class Chatbot:
     #  Agent Loop 自主循环检索（深度模式）
     # ═══════════════════════════════════════════════════════════
 
-    def agent_chat(self, user_message: str, history: List[Dict]) -> AgentChatResult:
+    def agent_chat(self, user_message: str, history: List[Dict],
+                   rerank_enabled: bool = False) -> AgentChatResult:
         """
         Agent Loop 自主循环检索
 
@@ -200,7 +208,7 @@ class Chatbot:
             return AgentChatResult(content=text, finish_reason="stop")
 
         state = AgentLoopState()
-        handler = ToolHandler(self.kb)
+        handler = ToolHandler(self.kb, rerank_enabled=rerank_enabled)
 
         # 构建初始消息列表
         messages = [{"role": "system", "content": AGENT_SYSTEM_PROMPT}]

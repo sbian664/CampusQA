@@ -5,6 +5,7 @@ import json
 import os
 import re
 import math
+import concurrent.futures
 from typing import List, Dict, Optional
 from datetime import datetime
 from collections import defaultdict
@@ -16,6 +17,7 @@ from config import (
     CHUNK_SIZE,
     CHUNK_OVERLAP,
     KB_METADATA_FILE,
+    KB_INDEX_MAX_WORKERS,
     DOCUMENTS_DIR,
     VECTOR_STORE,
     HYBRID_SEARCH_ENABLED,
@@ -77,7 +79,7 @@ class KnowledgeBase:
         """（已废弃 — 由 _init_store + VectorStore 替代）"""
         self._init_store()
     
-    def load_documents_from_dir(self) -> int:
+    def load_documents_from_dir(self, max_workers: int = None) -> int:
         """
         从目录加载所有文档（带增量更新检查）
         
@@ -91,20 +93,51 @@ class KnowledgeBase:
         """
         file_list = self.loader.get_file_list()
         updated_count = 0
+        max_workers = max_workers if max_workers is not None else KB_INDEX_MAX_WORKERS
         
         print(f"\n📂 扫描文档目录: {len(file_list)} 个文件")
         
-        for file_info in file_list:
-            file_path = file_info['path']
-            current_mtime = file_info['mtime']
-            
-            # 检查是否需要更新
-            if self._should_update_file(file_path, current_mtime):
-                try:
-                    self._update_document(file_path)
-                    updated_count += 1
-                except Exception as e:
-                    print(f"⚠️  处理文件失败 {file_path}: {str(e)}")
+        update_candidates = [
+            file_info for file_info in file_list
+            if self._should_update_file(file_info['path'], file_info['mtime'])
+        ]
+
+        prepared_updates = []
+        if update_candidates:
+            worker_count = max(1, min(int(max_workers or 1), len(update_candidates)))
+            if worker_count == 1:
+                for file_info in update_candidates:
+                    file_path = file_info['path']
+                    try:
+                        prepared_updates.append(
+                            self._prepare_document_update(file_path, file_info['mtime'])
+                        )
+                    except Exception as e:
+                        print(f"⚠️  处理文件失败 {file_path}: {str(e)}")
+            else:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=worker_count) as executor:
+                    future_to_file = {
+                        executor.submit(
+                            self._prepare_document_update,
+                            file_info['path'],
+                            file_info['mtime'],
+                        ): file_info['path']
+                        for file_info in update_candidates
+                    }
+                    for future in concurrent.futures.as_completed(future_to_file):
+                        file_path = future_to_file[future]
+                        try:
+                            prepared_updates.append(future.result())
+                        except Exception as e:
+                            print(f"⚠️  处理文件失败 {file_path}: {str(e)}")
+
+        prepared_updates.sort(key=lambda item: item['file_path'])
+        for prepared in prepared_updates:
+            self._commit_prepared_document_update(prepared)
+            updated_count += 1
+
+        if prepared_updates and HYBRID_SEARCH_ENABLED:
+            self._rebuild_bm25()
         
         # 保存元数据
         self._save_metadata()
@@ -117,6 +150,100 @@ class KnowledgeBase:
 
         print(f"✓ 文档加载完成: 新增/更新 {updated_count} 个\n")
         return updated_count
+
+    def _prepare_document_update(self, file_path: str, current_mtime: float) -> Dict:
+        """Prepare chunks, metadata, and embeddings without mutating the store."""
+        docs = self.loader.load_file(file_path)
+
+        chunks = []
+        for doc in docs:
+            doc_chunks = self.text_splitter.split_documents([doc])
+            chunks.extend(doc_chunks)
+
+        doc_meta = docs[0].metadata if docs else {}
+        doc_type = doc_meta.get('doc_type', 'unknown')
+        doc_title = doc_meta.get('title', os.path.basename(file_path))
+        doc_mtime = doc_meta.get('mtime', current_mtime)
+        doc_mtime_str = doc_meta.get('mtime_str', '')
+
+        chunk_ids = []
+        chunk_texts = []
+        chunk_metadatas = []
+        chunk_vectors = []
+
+        for i, chunk in enumerate(chunks):
+            chunk_id = f"{os.path.basename(file_path)}_{i}"
+            chunk_ids.append(chunk_id)
+            chunk_texts.append(chunk.page_content)
+            chunk_metadatas.append({
+                'source': file_path,
+                'chunk_index': i,
+                'doc_total_chunks': len(chunks),
+                'doc_type': doc_type,
+                'title': doc_title,
+                'mtime': doc_mtime,
+                'mtime_str': doc_mtime_str,
+                'section_path': chunk.metadata.get('section_path', ''),
+                **chunk.metadata
+            })
+
+            chunk_meta = chunk_metadatas[-1]
+            text_for_embedding = self._enrich_chunk_text(chunk.page_content, chunk_meta)
+            vector = self.embeddings_manager.embed_text(text_for_embedding)
+            chunk_vectors.append(vector)
+
+        try:
+            file_stat = os.stat(file_path)
+            file_mtime = file_stat.st_mtime
+            file_size = file_stat.st_size
+        except OSError:
+            file_mtime = current_mtime
+            file_size = int(doc_meta.get('size', 0) or 0)
+
+        return {
+            'file_path': file_path,
+            'chunk_ids': chunk_ids,
+            'chunk_texts': chunk_texts,
+            'chunk_metadatas': chunk_metadatas,
+            'chunk_vectors': chunk_vectors,
+            'file_mtime': file_mtime,
+            'file_size': file_size,
+        }
+
+    def _commit_prepared_document_update(self, prepared: Dict):
+        """Apply a prepared update to the vector store and local metadata."""
+        file_path = prepared['file_path']
+
+        if file_path in self.metadata:
+            old_chunk_ids = self.metadata[file_path].get('chunk_ids', [])
+            if old_chunk_ids:
+                try:
+                    self.store.delete(old_chunk_ids)
+                except Exception as e:
+                    print(f"⚠️  删除旧向量失败: {str(e)}")
+
+        chunk_ids = prepared['chunk_ids']
+        chunk_texts = prepared['chunk_texts']
+        if chunk_ids:
+            self.store.add(
+                ids=chunk_ids,
+                documents=chunk_texts,
+                metadatas=prepared['chunk_metadatas'],
+                embeddings=prepared['chunk_vectors'],
+            )
+
+        for cid, ctext in zip(chunk_ids, chunk_texts):
+            self._chunk_texts[cid] = ctext
+
+        self.metadata[file_path] = {
+            'mtime': prepared['file_mtime'],
+            'size': prepared['file_size'],
+            'chunk_ids': chunk_ids,
+            'chunk_count': len(chunk_ids),
+            'updated_at': datetime.now().isoformat()
+        }
+
+        print(f"  ✓ 已处理: {os.path.basename(file_path)} ({len(chunk_ids)} chunks)")
     
     def _should_update_file(self, file_path: str, current_mtime: float) -> bool:
         """检查文件是否需要更新"""

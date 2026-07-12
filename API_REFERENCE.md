@@ -6,7 +6,7 @@
 
 ---
 
-## 🌐 REST API（v1.1.3）
+## 🌐 REST API（v1.2.0）
 
 > 启动：`python server.py`（默认端口 8000）
 
@@ -18,7 +18,8 @@
 ```json
 {
   "message": "什么是机器学习？",
-  "session_id": "20260610_120000"
+  "session_id": "20260610_120000",
+  "rerank_enabled": true
 }
 ```
 
@@ -39,9 +40,28 @@
 |------|------|------|
 | `message` | string | 用户消息（必填） |
 | `session_id` | string? | 会话 ID，不传则新建 |
+| `rerank_enabled` | boolean | 是否启用 CrossEncoder 智能重排，默认 `true`；仅影响当前请求 |
+| `reroll` | boolean | 是否重新生成最后一条回复，默认 `false` |
+| `edit_index` | integer? | 编辑分支的用户消息索引 |
 | `response` | string | AI 回复（Markdown 格式） |
 | `session_title` | string? | 会话标题；新会话首轮可能返回，前端用于立即更新历史侧栏 |
 | `finish_reason` | string | `stop` / `max_rounds` / `empty_fuse` / `error` |
+
+### POST /api/attachments/parse
+
+解析一次性聊天附件，但不把文件加入知识库。使用 `multipart/form-data`，字段名为 `file`；支持的格式与知识库上传一致。返回内容最多保留 12000 个字符。
+
+**响应**：
+
+```json
+{
+  "status": "ok",
+  "filename": "notes.pdf",
+  "content": "解析后的文本...",
+  "char_count": 12000,
+  "truncated": true
+}
+```
 
 ### GET /api/session/{session_id}
 
@@ -681,12 +701,18 @@ def format_search_results(results: List[Dict]) -> str:
 | `DEEPSEEK_MODEL` | str | deepseek-chat | DeepSeek 模型名称 |
 | `LOCAL_MODEL_BASE` | str | http://localhost:8000/v1 | 本地模型 API 地址 |
 | `LOCAL_MODEL_NAME` | str | local-model | 本地模型名称 |
-| `MAX_TOKENS` | int | 2000 | 最大生成 token 数 |
+| `MAX_TOKENS` | int | 4000 | 最大生成 token 数 |
 | `TEMPERATURE` | float | 0.7 | 回复温度（0-1，越高越随机） |
 | `SYSTEM_PROMPT` | str | - | 系统提示词 |
 | `BASE_DIR` | str | - | 项目根目录 |
 | `DOCUMENTS_DIR` | str | - | 文档存放目录 |
 | `CACHE_DIR` | str | - | 缓存目录 |
+| `KB_INDEX_MAX_WORKERS` | int | 4 | 文档解析与向量计算的并行工作线程数 |
+| `RERANKER_AVAILABLE` | bool | true | 是否允许请求级智能重排 |
+| `RERANKER_MODEL` | str | cross-encoder/mmarco-mMiniLMv2-L12-H384-v1 | CrossEncoder 模型 |
+| `RERANKER_CANDIDATE_K` | int | 30 | 重排候选数量 |
+| `RERANKER_BATCH_SIZE` | int | 16 | 重排推理批量大小 |
+| `RERANKER_MAX_LENGTH` | int | 512 | 重排模型最大输入长度 |
 
 #### 使用示例
 
@@ -721,8 +747,13 @@ LOCAL_MODEL_NAME=local-model
 
 # 对话配置
 MODEL_NAME=deepseek-chat
-MAX_TOKENS=2000
+MAX_TOKENS=4000
 TEMPERATURE=0.7
+
+# CrossEncoder 智能重排
+RERANKER_AVAILABLE=true
+RERANKER_MODEL=cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+RERANKER_CANDIDATE_K=30
 ```
 
 ---
@@ -1205,7 +1236,7 @@ for r in results:
 ```python
 # config.py
 HYBRID_SEARCH_ENABLED = True   # chat_with_rag 自动使用
-BM25_WEIGHT = 0.3              # BM25 权重（0~1）
+BM25_WEIGHT = 0.25             # BM25 权重（0~1）
 ```
 
 ---
