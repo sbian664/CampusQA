@@ -1,0 +1,22 @@
+course: SEEN 5040
+normalized_code: SEEN5040
+title: Modeling and Simulation of Complex Energy Systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5040
+  - SEEN 5040
+  - Modeling and Simulation of Complex Energy Systems

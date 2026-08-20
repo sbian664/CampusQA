@@ -1,0 +1,22 @@
+course: AIAA 4250
+normalized_code: AIAA4250
+title: AI for Embodied Manipulation and Mobility
+subject: AIAA
+catalog_number: "4250"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the intersection of AI and physical interaction, focusing on how AI agents learn to execute complex mobility and manipulation tasks. Students will study fundamental algorithms—including reinforcement learning, computer vision for interaction, motion planning, and control—that enable agents to operate autonomously in unstructured environments. The curriculum combines theoretical foundations with hands-on implementation, culminating in a project where students design, train, and deploy AI models for physical or simulated robotic systems. This course is essential for AI undergraduates seeking to pursue research or advanced development in embodied AI and autonomous systems.
+
+requirements:
+  prerequisite: AIAA 2711
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4250
+  - AIAA 4250
+  - AI for Embodied Manipulation and Mobility

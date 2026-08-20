@@ -1,0 +1,22 @@
+course: MICS 5410
+normalized_code: MICS5410
+title: CMOS Analog Integrated Circuits Design
+subject: MICS
+catalog_number: "5410"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course guides the students through the fundamentals of analog integrated circuits design in CMOS technologies. Knowledge in analog design is essential for further research and study in the IC design tracks. This course will cover the operation of MOSFETs, basic concepts of analog circuits design, the implementation of basic analog circuits from MOSFETs, and the realization of more complex CMOS circuits using basic analog building blocks.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5410
+  - MICS 5410
+  - CMOS Analog Integrated Circuits Design

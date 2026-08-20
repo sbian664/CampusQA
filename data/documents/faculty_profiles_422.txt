@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：袁臻毅（Zhenyi YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhenyiyuan@hkust-gz.edu.cn
+  办公室：E4 L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Zhenyi/zhenyiyuan
+  研究方向：
+    Systems & Control，
+    Machine Learning，
+    Sustainable Energy Systems，

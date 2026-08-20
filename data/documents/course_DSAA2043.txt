@@ -1,0 +1,22 @@
+course: DSAA 2043
+normalized_code: DSAA2043
+title: Design and Analysis of Algorithms
+subject: DSAA
+catalog_number: "2043"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Design and Analysis of Algorithms is an important course that bridges students to a number of advanced courses in data science and analytics. This course introduces core data structures and algorithms. It covers advanced asymptotic complexity analysis, introduces common algorithmic paradigms (e.g., divide-and-conquer, greedy, and dynamic programming), a collection of classic algorithms (e.g., graph algorithms) and introduces the computational complexity theory. The course employs a range of assessment methods, including individual projects, coding exercises and closed-book exams, to foster both theoretical and practical foundation.
+
+requirements:
+  prerequisite: UFUG 2602
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA2043
+  - DSAA 2043
+  - Design and Analysis of Algorithms

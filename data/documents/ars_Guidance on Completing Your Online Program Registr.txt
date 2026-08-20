@@ -1,0 +1,30 @@
+ars_page: Guidance on Completing Your Online Program Registration – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/program-registration/online-program-registration-guide/guidance-on-completing-your-online-program-registration/
+source: ARS
+
+headings:
+  - Guidance on Completing Your Online Program Registration
+
+text: >
+  Guidance on Completing Your Online Program Registration
+  Activate Your Campus Account
+  Your Campus Account will be sent to your personal email account before you receive Email on Program Registration. Please follow the email instruction to activate your account before registration. You may also click
+  here
+  for the user guide on the account activation and the access to your email box. For any questions, please contact
+  gzit@hkust-gz.edu.cn
+  .
+  Complete the Online Registration Form
+  Log onto the Online Registration Form with your activated Campus Account.
+  Check and confirm your personal details and program information, provide updated personal information if there is any inconsistency.
+  Provide or update your contact information as well as emergency contact information.
+  Read through the Personal Information Collection Statement (PICS) and grant your consent.
+  Upload the Personal Identification Documents
+  Upload your personal identification documents on the registration form. Validation will be made based on your documents. Changes of your personal information will not be effective until they are verified by the Academic Registry Services (ARS).
+  Upload
+  Your Photo for Student Card
+  You must upload a photo before your arrival at HKUST (GZ) so that your student card can be prepared ready for you when you get here. Please follow the instructions on the specification of your photo.
+  Acknowledgement of Program Registration
+  When you have successfully completed the Online Program Registration, an email with subject “Acknowledgement of Program Registration to the University” will be sent to both your Campus Account and your personal email account after verification by ARS as a confirmation of your registration.
+
+links:
+  - here | https://static.hkust-gz.edu.cn/itd/policy/GuideToAccountActivationAndO356.pdf

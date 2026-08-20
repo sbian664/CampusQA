@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：王舰迎（Jianying WANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：jianyingwang@hkust-gz.edu.cn
+  办公室：C9 E3 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Jianying/jianyingwang
+  研究方向：
+    Geospatial big data and GeoAI，
+    Human Mobility Modelling，
+    Geographic Information Systems (GIS) and Remote Sensing，
+    Climate Change, Urban Resilience and Equity，
+    Spatial Optimization，

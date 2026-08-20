@@ -1,0 +1,22 @@
+course: MICS 4990
+normalized_code: MICS4990
+title: Final Chip Project
+subject: MICS
+catalog_number: "4990"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course requires a research project under the supervision of an instructor to identify a research topic, conduct a comprehensive literature review, and design a solution. This project provides students with an opportunity to apply their knowledge and skills to a real-world problem in the field of microelectronics. The results must be reported in the form of a thesis and oral defense.For students of the MICS Program only. The instructor’s approval is required for enrolment in the course. The grading basis is Letter grade+PP.
+
+requirements:
+  prerequisite: none
+  corequisite: DLED 4010
+  exclusion: none
+
+search_aliases:
+  - MICS4990
+  - MICS 4990
+  - Final Chip Project

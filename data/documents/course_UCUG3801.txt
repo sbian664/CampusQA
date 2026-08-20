@@ -1,0 +1,22 @@
+course: UCUG 3801
+normalized_code: UCUG3801
+title: Social Inequality and Social Mobility
+subject: UCUG
+catalog_number: "3801"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Social stratification concerns the unequal distribution of resources/rewards/opportunities which are scarce but widely desired, and the process of status attainment or social mobility whereby some persons or groups come to receive more of these scarce things than are received by others. This course will introduce the basic concepts and theories in analyzing social and economic inequalities in the contemporary world.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG3801
+  - UCUG 3801
+  - Social Inequality and Social Mobility

@@ -1,0 +1,22 @@
+course: IOTA 6101
+normalized_code: IOTA6101
+title: Internet of Things Seminar I
+subject: IOTA
+catalog_number: "6101"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  A series of regular seminars presented by postgraduate students, faculty, and guest speakers on IoT-related research problems currently under investigation. Students are expected to attend regularly. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6101
+  - IOTA 6101
+  - Internet of Things Seminar I

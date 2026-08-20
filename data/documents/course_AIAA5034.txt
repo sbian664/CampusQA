@@ -1,0 +1,22 @@
+course: AIAA 5034
+normalized_code: AIAA5034
+title: Reinforcement Learning and Optimization
+subject: AIAA
+catalog_number: "5034"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Learning to make good decisions is one of the keys to autonomous systems. This course will focus on Reinforcement Learning (RL), a currently very active subfield of artificial intelligence, and it will discuss selectively a number of algorithmic topics including Markov Decision Process, Q-Learning, function approximation, exploration and exploitation, policy search, imitation learning, model-based RL and optimal control. This course provides both the foundations and techniques for developing RL and deep RL algorithms that interact with physical environments, and real application cases of RL will be introduced. Basic knowledge of machine learning and mathematical optimization are expected for this course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5034
+  - AIAA 5034
+  - Reinforcement Learning and Optimization

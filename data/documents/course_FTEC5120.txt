@@ -1,0 +1,22 @@
+course: FTEC 5120
+normalized_code: FTEC5120
+title: Text Mining in Finance and Economics
+subject: FTEC
+catalog_number: "5120"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an introduction to textual analysis in social science research. It covers text mining models and related statistical tools, including Dictionary Method, SVD, Word2Vec, WEAT, Probabilistic Modeling, Regression Modeling, and Large Language Models in modern social science research. Applications related to the financial market are emphasized, including macro-finance, empirical asset pricing, empirical corporate finance, and ESG.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5120
+  - FTEC 5120
+  - Text Mining in Finance and Economics

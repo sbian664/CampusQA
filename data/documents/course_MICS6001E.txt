@@ -1,0 +1,22 @@
+course: MICSE 001E
+normalized_code: MICS6001E
+title: Sensors and Circuits for Biomedical Applications
+subject: MICS
+catalog_number: "6001E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Sensors and their associated signal conditioning and processing circuits are the key components in many biomedical instruments which play an important role in the monitoring, diagnosis and treatment of diseases in healthcare. This course provides a comprehensive investigation for some important and widely used sensors and circuits for the biomedical applications with focus on the wearable sensing system and medical imaging system.  This course will cover the fundamental working principles of the sensors, the characteristics of the sensing output signals, the signal conditioning and processing circuits, system level integrations, and their biomedical applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001E
+  - MICSE 001E
+  - Sensors and Circuits for Biomedical Applications

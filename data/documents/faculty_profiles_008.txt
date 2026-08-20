@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：杜娟（Juan DU）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：juandu@hkust-gz.edu.cn
+  办公室：W1 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu
+  研究方向：
+    Knowledge-infused data science for quality improvement，
+    Industrial data analytics and machine learning，
+    System informatics and control for manufacturing applications，

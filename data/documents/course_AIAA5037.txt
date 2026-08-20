@@ -1,0 +1,22 @@
+course: AIAA 5037
+normalized_code: AIAA5037
+title: Advanced Algorithms and Data Structures
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5037
+  - AIAA 5037
+  - Advanced Algorithms and Data Structures

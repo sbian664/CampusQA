@@ -1,0 +1,22 @@
+course: UCUG 1501
+normalized_code: UCUG1501
+title: Introduction to Photography and Digital Imaging
+subject: UCUG
+catalog_number: "1501"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  An introduction to the creative art and expression of photography and digital imaging and manipulation through lectures, workshop and projects. Students will learn photographic concepts, various in-camera and post-production visual effect techniques to explore creative possibilities with photography and digital imaging. Focus of this course is to facilitate students to express themselves through this powerful visual medium. Upon the completion of this course, students will combine photographic and digital imaging techniques to communicate and express their creative ideas and stories.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1501
+  - UCUG 1501
+  - Introduction to Photography and Digital Imaging

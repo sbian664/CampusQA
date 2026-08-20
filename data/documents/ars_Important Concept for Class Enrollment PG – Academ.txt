@@ -1,0 +1,77 @@
+ars_page: Important Concept for Class Enrollment (PG) – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+source: ARS
+
+headings:
+  - Important Concept for Class Enrollment (PG)
+  - Class Enrollment Guide (PG)
+
+text: >
+  Important Concept for Class Enrollment (PG)
+  April 22, 2025
+  Shopping Cart
+  The class enrollment system adopts a shopping cart concept in which you may put the classes you plan to enroll in the shopping cart. Validate the suitability of these classes while the system may prompt you with warning messages. You will then proceed to enroll the classes in the shopping cart in the next step.
+  Classes in the shopping cart are not yet enrolled and you must confirm them during the enrollment period
+  .
+  Validation
+  The system allows you to plan your classes before the enrollment process begins. You will put the classes you intend to enroll in the shopping cart and check the enrollment conditions. If necessary, seek special approval with the ‘Request for Approval’ button for the following cases:
+  Requisites Waiver
+  – If you do not meet the pre-requisite or corequisite requirements of a course and have special grounds for enrollment, you may submit a request with justifications to override the requisite requirements.
+  Instructor’s Consent
+  – Some courses require the prior consent (or approval) of course instructors before a student can enroll. Such requirement will be stated in the description of the course. A consent granted does not imply that a student can enroll a class if he/she cannot meet the requisite requirements. (Multiple requests/ approvals will be required if the class requires consent and has requisite requirements.)
+  Cross-career (UG/PG) Enrollment
+  – Approval of course instructor is required if undergraduate students intend to take a postgraduate course, and vice versa.
+  Credit Overload
+  – Special approval from the program office is required if you want to enroll for credits beyond the limit.
+  Add
+  This is a simple function to request for adding a course.
+  Drop
+  Drop function facilitates students to (1) drop a class which enrollment is already confirmed; or (2) remove a wait-listing class from the enrollment record.
+  Swap
+  If you want to change from one course/class to another, you may submit a swap request. The original course/class will
+  NOT
+  be dropped until the new course/class has successfully been added.
+  Waitlist
+  When a class is full, you may choose to add your request to the waiting list. Make sure that you drop the waiting request if you subsequently decide not to enroll for the class.
+  Course Audit
+  If you want to audit a course, you need to seek the special approval from the course instructor with the ‘Request for Approval’ button. Auditing students will not be awarded a regular grade or earn credits. ‘AU’ will be assigned as the course grade when it is successfully completed. Otherwise, the record will be removed from the transcript. (Request for auditing a course will only be processed during add/drop period and when class places are available.)
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Course Offering and Class Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

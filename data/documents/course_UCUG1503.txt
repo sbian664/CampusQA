@@ -1,0 +1,22 @@
+course: UCUG 1503
+normalized_code: UCUG1503
+title: Introduction to Experimental Animation
+subject: UCUG
+catalog_number: "1503"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This introductory course aims at guiding students to explore the art of animation through producing drawing, cut-ups, roto-scoping, photographic and object animation with digital and traditional tools. By introducing techniques and mediums for creating time-based imagery, students will learn both practical skills and theories of animation as a visual art form for artistic expression and communication. Through brief lecturing, students will acquaint themselves with the history and development of experimental animation and its influences to moving image arts in general. The hands-on activities will allow students to explore freely the principles of animation starting from manual techniques such as simple flipbooks and zoetrope. Students will also learn to create animation from common computer software, such as Photoshop and Aftereffect.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1503
+  - UCUG 1503
+  - Introduction to Experimental Animation

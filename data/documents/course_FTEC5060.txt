@@ -1,0 +1,22 @@
+course: FTEC 5060
+normalized_code: FTEC5060
+title: Stochastic Processes
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5060
+  - FTEC 5060
+  - Stochastic Processes

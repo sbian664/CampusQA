@@ -1,0 +1,22 @@
+course: UFUG 1106
+normalized_code: UFUG1106
+title: Honors Calculus II
+subject: UFUG
+catalog_number: "1106"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is the second of a year-long sequence of two courses in one-variable calculus, intended for first year undergraduate students with strong mathematical background. Besides the understanding of foundational concepts and practical skills in applying calculus, the course puts emphasis on rigorous reasoning of practical facts and the proof of certain mathematical theorems. Topics include definite and indefinite integrals, numerical calculation, applications to geometry and physics, and infinite series.
+
+requirements:
+  prerequisite: UFUG 1105
+  corequisite: none
+  exclusion: UFUG 1103
+
+search_aliases:
+  - UFUG1106
+  - UFUG 1106
+  - Honors Calculus II

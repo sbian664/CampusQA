@@ -1,0 +1,23 @@
+course: UCUG 1600
+normalized_code: UCUG1600
+title: Intercultural Communication
+subject: UCUG
+catalog_number: "1600"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Intercultural communication is an applied interdisciplinary course that covers a wide range of subjects including anthropology, sociology, linguistics, psychology, culture and folklore. Contents include the significance of intercultural communication in today’s world of globalization, the basic gateways to effective intercultural communication, how cultures differ, the complexities of cross culture communication, how culture influences communication, how different media are contributing to intercultural communication, the challenges in communicating in intercultural relationships and how to cope with intercultural interpersonal
+relationships, different intercultural conflicts and how to cope with and manage cultural conflicts, the problems in intercultural communication brought by ethnocentrism, the correlation of cultural consciousness and identity, different forms and means of nonverbal communication, effective ways to resolve barriers in intercultural communication and cultural conflicts, and intercultural communication skills in multi-cultural environments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1600
+  - UCUG 1600
+  - Intercultural Communication

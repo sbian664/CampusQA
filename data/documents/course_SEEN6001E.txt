@@ -1,0 +1,22 @@
+course: SEENE 001E
+normalized_code: SEEN6001E
+title: Metal Halide Perovskites: Fundamentals and Applications
+subject: SEEN
+catalog_number: "6001E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive introduction to metal halide perovskite materials, covering their fundamental principles, synthesis techniques, optoelectronic properties, and applications in renewable energy and optoelectronic devices. The course integrates theoretical knowledge with practical applications, focusing on perovskite solar cells, light-emitting diodes, and photodetectors.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001E
+  - SEENE 001E
+  - Metal Halide Perovskites: Fundamentals and Applications

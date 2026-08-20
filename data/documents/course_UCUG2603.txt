@@ -1,0 +1,22 @@
+course: UCUG 2603
+normalized_code: UCUG2603
+title: East Asian Popular Music
+subject: UCUG
+catalog_number: "2603"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will look at various popular music genres in East Asia, namely, in China, Japan and Korea, and explore different popular music styles in each culture and issues related to the emergence of each one and their localized meanings. It will seek to understand how meanings are produced, mediated, negotiated, subverted, and celebrated in popular music. Through discussions based on a combination of selected readings, films/videos, and music recordings, students will not only get acquainted with popular music well beyond their own or what they normally listen to; they will also gain alternative perspectives on what constitutes "popular music" in different East Asian contexts and their significance.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG2603
+  - UCUG 2603
+  - East Asian Popular Music

@@ -1,0 +1,22 @@
+course: SEENQ 000Q
+normalized_code: SEEN6000Q
+title: Air Quality Measurement Techniques
+subject: SEEN
+catalog_number: "6000Q"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Air pollution is the contamination of the indoor or outdoor environment by any chemical, physical or biological agent that modifies the natural characteristics of the atmosphere. It is the fourth-highest global risk for death, and it is closely linked to the earthâs climate and ecosystems. Effective control of air pollution requires a quantitative understanding of the composition and properties of air pollutants. In this course, we will learn how air pollutants can be measured. Major topics covered in this course include an overview of the composition and physical structure of the atmosphere, an introduction to the criteria and newly developed air pollutants and greenhouse gases, and a detailed discussion of air quality measurement techniques of gases and particulate matter. We will also learn novel measurement techniques such as remote sensing, mobile measurement, low-cost sensors, and the use of machine learning in air quality measurements. Examples with local relevance will be discussed. This course is intended for graduate students in the field of sustainable energy and environment, as well as students from other scientific disciplines.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000Q
+  - SEENQ 000Q
+  - Air Quality Measurement Techniques

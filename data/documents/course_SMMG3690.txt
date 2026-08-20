@@ -1,0 +1,22 @@
+course: SMMG 3690
+normalized_code: SMMG3690
+title: Computer-Aided Design and Manufacturing
+subject: SMMG
+catalog_number: "3690"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers topics: curves and surfaces, geometric modeling basics, data structures in CAD/CAM, finite element analysis, optimization, tool path generation. It also introduces the fundamental concepts of artificial intelligence and machine learning, specifically focusing on their applications in design and manufacturing. In addition to lectures, intensive labs of ANSYS for finite element analysis and Python programming will be offered.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3690
+  - SMMG 3690
+  - Computer-Aided Design and Manufacturing

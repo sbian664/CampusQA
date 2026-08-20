@@ -1,0 +1,22 @@
+course: MICS 5520
+normalized_code: MICS5520
+title: Physical Design Automation of Digital Systems
+subject: MICS
+catalog_number: "5520"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the foundations of modern VLSI electronic design automation (EDA), with a focus on optimization and algorithm foundations for VLSI physical design problems. We will introduce partitioning, floor planning, placement, routing, manufacturability optimization, and mask optimization. We will see a set of concrete applications of various conventional optimization techniques in VLSI design, e.g., graph theory, convex programming, numerical optimization, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5520
+  - MICS 5520
+  - Physical Design Automation of Digital Systems

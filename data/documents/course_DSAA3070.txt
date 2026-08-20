@@ -1,0 +1,22 @@
+course: DSAA 3070
+normalized_code: DSAA3070
+title: Bayesian Models and Applications
+subject: DSAA
+catalog_number: "3070"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with a theoretical and practical introduction to Bayesian statistics. Students will be exposed to a variety of Bayesian models and algorithms. This course is divided into three main topics: 1. fundamental theories of Bayesian analysis, such as Bayesian parameter estimation; 2. Bayesian algorithms and computations, such as Markov Chain Monte Carlo; 3. Bayesian regression models and their applications.
+
+requirements:
+  prerequisite: (DSAA 2011 OR DSAA 2012 OR AIAA 3111) AND (UFUG 2106 OR DSAA 2088)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3070
+  - DSAA 3070
+  - Bayesian Models and Applications

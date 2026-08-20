@@ -1,0 +1,22 @@
+course: ROAS 5810
+normalized_code: ROAS5810
+title: Advanced Learning Techniques for Medical Robotics Systems
+subject: ROAS
+catalog_number: "5810"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will present how to utilize many advanced learning techniques and modules to analyze and interpret diverse medical image modalities (such as ultrasound, CT, MRI, X-ray, and so on) in recent years. The techniques to be covered include supervised learning, video understanding, multi-modal learning, transformer, self supervised learning, semi-supervised learning, domain adaptation, generative models, large models, and so on. The course will cover an overview of medical image modalities, traditional medical image processing methods, deep learning techniques and their applications in medical image analysis, and advanced data-efficient learning on medical imaging.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5810
+  - ROAS 5810
+  - Advanced Learning Techniques for Medical Robotics Systems

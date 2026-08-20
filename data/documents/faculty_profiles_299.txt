@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈昶昊（Changhao CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：changhaochen@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Changhao/changhaochen
+  研究方向：
+    Embodied AI，
+    Open-World Spatial Perception，
+    Autonomous Navigation and Manipulation，
+    Simultaneous Localization and Mapping，
+    High-Efficiency Neural Network，

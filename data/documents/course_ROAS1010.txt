@@ -1,0 +1,22 @@
+course: ROAS 1010
+normalized_code: ROAS1010
+title: Introduction to Robotics and Autonomous Systems
+subject: ROAS
+catalog_number: "1010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims at guiding undergraduate students of the ROAS major for their academic path and future. This course is mostly introductory and is proposed to inspire UG students for their academic path development and growth of maturity in four years of UG study. Activities may include seminars, workshops, advising and sharing sessions, interaction with faculty and teaching staff, and discussion with student peers or alumni. Grading type: Pass/ Fail
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS1010
+  - ROAS 1010
+  - Introduction to Robotics and Autonomous Systems

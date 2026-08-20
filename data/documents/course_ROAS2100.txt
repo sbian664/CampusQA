@@ -1,0 +1,22 @@
+course: ROAS 2100
+normalized_code: ROAS2100
+title: Signals and Systems
+subject: ROAS
+catalog_number: "2100"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course for signal and system analysis. The course covers signal analysis tools including continuous- and discrete-time Fourier series and Fourier transform, and Laplace Transform; interactions between signals and linear time invariant (LTI) systems, and differential and difference equations as LTI systems, sampling theorem; and application examples in communication and control systems. MATLAB introduced as an integral part of this course.
+
+requirements:
+  prerequisite: (UFUG 1103 OR UFUG 1106) AND (UFUG 2102 OR UFUG 2103)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS2100
+  - ROAS 2100
+  - Signals and Systems

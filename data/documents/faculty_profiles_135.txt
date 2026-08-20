@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：FANG GENGFA（GENGFA FANG）
+  职称：Lead Engineer
+  学域：Sustainability Section
+  邮箱：gengfafang@hkust-gz.edu.cn
+  办公室：E4 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-GENGFA/gengfafang
+  研究方向：
+    Deep Learning and Reinforcement Learning，
+    IoT and Advanced Analytics for digital energy and smart cities，

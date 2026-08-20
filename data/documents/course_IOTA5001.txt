@@ -1,0 +1,22 @@
+course: IOTA 5001
+normalized_code: IOTA5001
+title: Social and Web Computing
+subject: IOTA
+catalog_number: "5001"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce students to the fundamentals of Social and Web Computing, as well as providing detailed coverage of recent research in this space. It will consist of two major parts. First, students will learn about fundamental social computing theories, alongside computational methodologies that can be used to understand human interactions online. Second, students will be exposed to a range of recent applied research that has employed these methodologies. There will be an empirical focus in the course, and students will be exposed to a range of measurement research capturing how social and web systems work in-the-wild. Students will learn about social network analysis and relevant APIs, alongside related aspects of the Web, user privacy and online advertisement.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5001
+  - IOTA 5001
+  - Social and Web Computing

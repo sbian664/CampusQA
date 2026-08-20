@@ -1,0 +1,22 @@
+course: FTEC 5210
+normalized_code: FTEC5210
+title: Quantitative Models for Financial Derivatives
+subject: FTEC
+catalog_number: "5210"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers basic pricing theory of financial derivatives and risk hedging of exotic options. The course starts with the fundamental theorem of asset pricing and risk neutral valuation principle. The renowned Black-Scholes pricing theory and martingale pricing theory are introduced. Advanced topics include exchange options, quanto options, implied volatility and VIX.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5210
+  - FTEC 5210
+  - Quantitative Models for Financial Derivatives

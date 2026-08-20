@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：江航（Hang JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：hangjiang@hkust-gz.edu.cn
+  办公室：E1(C9) L4 418
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hang/hangjiang
+  研究方向：
+    Principal-Agent Problems，
+    Statistical Contract Theory，
+    Agent Economics and Mechanism Design，
+    Blockchain and Decentralized Finance，

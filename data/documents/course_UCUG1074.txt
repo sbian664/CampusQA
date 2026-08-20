@@ -1,0 +1,22 @@
+course: UCUG 1074
+normalized_code: UCUG1074
+title: Advanced Reading and Writing of Simplified Chinese
+subject: UCUG
+catalog_number: "1074"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is designed for students who have learned Chinese for more than 250 tuition hours. It aims to enhance students' ability to recognize and write simplified Chinese characters, and to help develop their understanding of written Chinese and writing competence in using Chinese in daily life and social situations. After successfully completing the course, students will be able to recognize and write commonly used simplified Chinese characters, understand narrative, expository and basic argumentative texts, and write short passages for daily life and social purposes.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UCUG 1077
+
+search_aliases:
+  - UCUG1074
+  - UCUG 1074
+  - Advanced Reading and Writing of Simplified Chinese

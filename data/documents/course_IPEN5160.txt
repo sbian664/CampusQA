@@ -1,0 +1,22 @@
+course: IPEN 5160
+normalized_code: IPEN5160
+title: Big Data Applications for Business and Government
+subject: IPEN
+catalog_number: "5160"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will cover the key concepts and technologies of big data and data analysis, with a focus on the application of big data in formulating business strategies and policies, and related research issues on how big data affects the direction of business and policy development. The course will provide students with practical training on big data and data analysis based on real-world business or policy issues, ranging from collecting and preprocessing to organizing and analyzing large-scale data.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5160
+  - IPEN 5160
+  - Big Data Applications for Business and Government

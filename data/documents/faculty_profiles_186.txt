@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：张程（Cheng ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：chengzhang@hkust-gz.edu.cn
+  办公室：E4 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Cheng/chengzhang
+  研究方向：
+    Microbiology & Immunology，
+    AI for Enzyme Discovery & Engineering，
+    RNA-Programmable Technologies，
+    RNA-Based Therapeutics，
+    Structural Biology，

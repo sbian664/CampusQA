@@ -1,0 +1,22 @@
+course: SEEN 6000K
+normalized_code: SEEN6000K
+title: Carbon Capture and Utilization
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000K
+  - SEEN 6000K
+  - Carbon Capture and Utilization

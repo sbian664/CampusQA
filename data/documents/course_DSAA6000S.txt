@@ -1,0 +1,22 @@
+course: DSAAS 000S
+normalized_code: DSAA6000S
+title: Data Communication and Security
+subject: DSAA
+catalog_number: "6000S"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive introduction to the fundamental principles and practices of how data is transmitted, managed, and protected across modern computer networks. It examines the architecture, design, and operation of the Internet from the application to the network layer, articulating how data is encoded, routed, and delivered over distributed systems. We will also learn the mechanisms that ensure data remains confidential, authentic, and available as it moves through complex communication environments. By integrating principles of data communication with the foundations of network security, the course provides a coherent view of how the modern Internet support scalable, reliable and secure exchange of massive data in the digital age.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000S
+  - DSAAS 000S
+  - Data Communication and Security

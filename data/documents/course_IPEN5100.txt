@@ -1,0 +1,22 @@
+course: IPEN 5100
+normalized_code: IPEN5100
+title: Innovation, Policy and Entrepreneurship
+subject: IPEN
+catalog_number: "5100"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on the practices and processes that managers in the business sector adopt to advance innovation and attention is also paid to the strategies that policy-makers from regulatory background pursue to manage innovation. Technological innovation will be examined through its process of exploring, executing, leveraging, and renewing from both the perspectives of entrepreneurs and regulators. Students will be guided to seek a collaborative governance mechanism that is workable for different players and sectors in innovation to achieve sustainable growth.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5100
+  - IPEN 5100
+  - Innovation, Policy and Entrepreneurship

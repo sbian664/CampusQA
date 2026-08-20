@@ -1,0 +1,22 @@
+course: DSAA 3055
+normalized_code: DSAA3055
+title: Data Privacy and Security
+subject: DSAA
+catalog_number: "3055"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides hands-on experience with technology-based productivity tools as well as the foundational knowledge to help students to understand system design and development. The course is designed to integrate concepts of hardware, software, and the Internet. This course will include the following topics: data privacy and security landscape, managing data privacy, k-anonymity, l-diversity, k-l diversity and differential privacy, security risk exposure, AI privacy/security, content safety, and deepfake detection. Students will investigate technology career paths and some of the various certifications available in the industry.
+
+requirements:
+  prerequisite: DSAA 2012 OR AIAA 3111
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3055
+  - DSAA 3055
+  - Data Privacy and Security

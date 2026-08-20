@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：吴偲（Cai WU）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：caiwu@hkust-gz.edu.cn
+  办公室：E1 L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Cai/caiwu
+  研究方向：
+    Computational Urban Morphology，
+    Human-Environment Perception & Interaction，
+    Graph and Network Modeling of Cities，
+    AI-Enabled Urban Renewal Analytics and Design，
+    GeoAI for Spatial Equity，

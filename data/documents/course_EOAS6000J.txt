@@ -1,0 +1,22 @@
+course: EOASJ 000J
+normalized_code: EOAS6000J
+title: Atmospheric Chemistry Modeling
+subject: EOAS
+catalog_number: "6000J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Mathematical modeling of atmospheric composition and processes presents a formidable scientific and computational challenge. This course offers a comprehensive overview of the modeling methods utilized in atmospheric chemistry, covering the fundamental principles behind the models and their applications in interpreting observations. Special emphasis will be placed on recent advancements in the study of chemical reactions of trace gases, heterogeneous reactions of organic vapors, emission and deposition processes, meteorological coupling, model evaluation against observations, and adjoint models for integrated assessment and cost-benefit analysis. The course aims to: a) provide an overview of the most significant processes controlling the fate of atmospheric constituents, b) introduce the numerical methods used to describe them mathematically, and c) illustrate the simplified representation of atmospheric chemistry in models and its implications for model predictions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS6000J
+  - EOASJ 000J
+  - Atmospheric Chemistry Modeling

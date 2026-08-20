@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：沈国斌（Guobin SHEN）
+  职称：Principal Engineer
+  学域：Low Altitude Systems and Economy Research Institute
+  邮箱：guobinshen@hkust-gz.edu.cn
+  办公室：W1(C8) L4 405
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHEN-Guobin/guobinshen
+  研究方向：
+    Low Altitude Economy, infrastructure and platform, flying robots design and control，
+    Airspace environment modeling, 3D-aware spatial computing，
+    Multimodal localization, integrated sensing and communication，
+    Internet-of-Things, Cyber/Physical Systems, Ultra Large-scale Systems，
+    Mobile and wearable computing, interaction, applications and systems，

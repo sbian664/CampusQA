@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：赖志路（Zhilu LAI）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhilulai@hkust-gz.edu.cn
+  办公室：E1 (C9) L6 614
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LAI-Zhilu/zhilulai
+  研究方向：
+    Scientific machine learning; Physics-informed machine learning，
+    Deep learning for engineered systems，
+    Computer vision-based infrastructural monitoring; Advanced sensing technologies，
+    IoT applications in civil infrastructure，
+    Structural health monitoring，

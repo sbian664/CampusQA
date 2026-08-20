@@ -1,0 +1,22 @@
+course: AMAT 4810
+normalized_code: AMAT4810
+title: Plant Design and Economics
+subject: AMAT
+catalog_number: "4810"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Computer-aided-design and process evaluation. Risk assessment, qualitative and quantitative assessment. Hazop, Hazan, FMEA, decision tree, fault tree, reliability. Toxicity, dispersion, fire, explosion, relief. Workplace safety. Plant safety and hazard analysis. Plant equipment specification and selection. Cost estimation and profitability analysis. Project evaluation. Cost optimization. Environmental control.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT4810
+  - AMAT 4810
+  - Plant Design and Economics

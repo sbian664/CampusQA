@@ -1,0 +1,17 @@
+教职员简介：
+  姓名：伍楷舜（Kaishun WU）
+  职称：Associate Vice-President (Research)
+  学域：Office of Research and Talent Support
+  邮箱：wuks@hkust-gz.edu.cn
+  办公室：C1 W L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks
+  研究方向：
+    Internet of Things，
+    Wireless Networks，
+    Wireless Communication，
+    Mobile and Ubiquitous Computing，
+    Pervasive Computing，
+    Big Data，
+    Smart e-Health，
+    Industrial Networks，
+    My recent research focuses on four main areas:   • Intelligent Sensing and Applications: device-free sensing of humans, acoustic sensing, vibration sensing • AI for Wireless: bringing AI to wireless networking, mobile cloud computing and edge computing, Federated Learning and Wireless Networks, AI for Wireless Resource Management and Optimization • IoT + AI Systems and Applications: building Internet of Things (IoT) systems with the AI technology to deepen and broaden the ways that we sense the physical world and enable innovative human-computer interactions • Data Science from Mobile and Ubiquitous Computing Perspectives with Applications to Smart Cities，

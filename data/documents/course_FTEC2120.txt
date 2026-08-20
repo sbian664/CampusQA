@@ -1,0 +1,22 @@
+course: FTEC 2120
+normalized_code: FTEC2120
+title: Probability
+subject: FTEC
+catalog_number: "2120"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Sample spaces, conditional probability, random variables, independence, discrete and continuous distributions, expectation, correlation, moment generating function, distributions of function of random variables, law of large numbers and limit theorems.
+
+requirements:
+  prerequisite: UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC2120
+  - FTEC 2120
+  - Probability

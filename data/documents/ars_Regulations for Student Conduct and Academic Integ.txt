@@ -1,0 +1,19 @@
+ars_page: Regulations for Student Conduct and Academic Integrity – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/regulations-for-student-conduct-and-academic-integrity/
+source: ARS
+
+headings:
+  - Regulations for Student Conduct and Academic Integrity
+
+text: >
+  Regulations for Student Conduct and Academic Integrity
+  Regulations for Student Conduct of HKUST(GZ)
+  Regulations for Student Academic Integrity of HKUST(GZ)
+  Procedures for the Deprivation of HKUST Degrees for HKUST(GZ) Students
+  Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct
+
+links:
+  - Regulations for Student Conduct of HKUST(GZ) | https://document.hkust-gz.edu.cn/office/viewer?key=336&fileType=pdf&fileName=Regulations%20for%20Student%20Conduct
+  - Regulations for Student Academic Integrity of HKUST(GZ) | https://document.hkust-gz.edu.cn/office/viewer?key=338&fileType=pdf&fileName=Regulations%20for%20Student%20Academic%20Integrity
+  - Procedures for the Deprivation of HKUST Degrees for HKUST(GZ) Students | https://document.hkust-gz.edu.cn/office/viewer?key=560
+  - Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=341&fileType=pdf&fileName=Supplementary%20Implementation%20Rules%20for%20Regulations%20for%20Student%20Academic%20Integrity%20%26%20Regulations%20for%20Student%20Conduct

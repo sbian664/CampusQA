@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：胡旭明（Xuming HU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：xuminghu@hkust-gz.edu.cn
+  办公室：E3（C9）L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Xuming/xuminghu
+  研究方向：
+    Natural Language Processing，
+    Large Language Models，

@@ -1,0 +1,22 @@
+course: MICSI 002I
+normalized_code: MICS6002I
+title: Network on Chip
+subject: MICS
+catalog_number: "6002I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course focuses on the communication problem of on-chip many-core architectures. It introduces basic concepts and principles of on-chip bus and interconnection network, in particular, about network topology, routing and flow control, deadlock/livelock, and quality-of-service (QoS) et cetera. It presents the micro-architecture details of on-chip router and network interface designs for both message passing and shared memory systems. Furthermore, theoretical and experimental performance evaluation methodology will be investigated.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002I
+  - MICSI 002I
+  - Network on Chip

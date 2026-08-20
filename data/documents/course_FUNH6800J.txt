@@ -1,0 +1,22 @@
+course: FUNHJ 800J
+normalized_code: FUNH6800J
+title: Function Hub Seminar
+subject: FUNH
+catalog_number: "6800J"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FUNH6800J
+  - FUNHJ 800J
+  - Function Hub Seminar

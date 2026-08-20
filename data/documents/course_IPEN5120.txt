@@ -1,0 +1,22 @@
+course: IPEN 5120
+normalized_code: IPEN5120
+title: Research Design for Innovation, Policy and Entrepreneurship Studies
+subject: IPEN
+catalog_number: "5120"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The purposes of the course are to introduce to students key concepts in research design, and to help them develop skills in the design of empirical research for conducting innovation, policy and entrepreneurship studies. Specific emphasis will be on the use of quasi-experimental designs in policy research, as well as on their potentials and limitations.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5120
+  - IPEN 5120
+  - Research Design for Innovation, Policy and Entrepreneurship Studies

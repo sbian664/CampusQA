@@ -1,0 +1,22 @@
+course: DSAA 6000N
+normalized_code: DSAA6000N
+title: Machine Learning Security & Privacy
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000N
+  - DSAA 6000N
+  - Machine Learning Security & Privacy

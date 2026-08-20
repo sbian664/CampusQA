@@ -1,0 +1,22 @@
+course: MICSY 001Y
+normalized_code: MICS6001Y
+title: Integrated Power Electronics
+subject: MICS
+catalog_number: "6001Y"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an in-depth exploration of the essential principles underlying modern integrated circuits (ICs), with a focus on power converters. Students will explore the fundamentals of IC design before diving into two basic types of power converters. Through a combination of theoretical instruction and practical case studies, participants will gain a comprehensive understanding of integrated power converters, including their operation principles, design considerations, challenges and applications. By the end of this course, students will be equipped with the knowledge to design and analyze two important power converters.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001Y
+  - MICSY 001Y
+  - Integrated Power Electronics

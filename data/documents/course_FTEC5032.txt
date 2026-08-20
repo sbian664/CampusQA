@@ -1,0 +1,22 @@
+course: FTEC 5032
+normalized_code: FTEC5032
+title: Optimization Theory
+subject: FTEC
+catalog_number: "5032"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The objective of this course is to provide students with optimization theory and concepts. Main topics cover linear optimization, simplex method, duality theory, convex analysis, and dynamic programming. The emphasis will be on methodology, modelling techniques and mathematical insights.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5032
+  - FTEC 5032
+  - Optimization Theory

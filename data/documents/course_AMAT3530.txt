@@ -1,0 +1,22 @@
+course: AMAT 3530
+normalized_code: AMAT3530
+title: Data science for molecular engineering
+subject: AMAT
+catalog_number: "3530"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an introductory course on the application of machine learning methods in molecular engineering problems. It covers fundamental data processing and machine learning methods to analyze data in chemistry and biology such as molecular similarity calculation and property prediction.
+
+requirements:
+  prerequisite: (UFUG 1103 or 1106) AND (UFUG 1502 or 1504)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3530
+  - AMAT 3530
+  - Data science for molecular engineering

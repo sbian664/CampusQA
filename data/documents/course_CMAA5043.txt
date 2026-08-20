@@ -1,0 +1,22 @@
+course: CMAA 5043
+normalized_code: CMAA5043
+title: Creative Prototyping: Designing Interactive Experiences
+subject: CMAA
+catalog_number: "5043"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers a comprehensive introduction to UX/interfaces/interaction design methods with a focus on prototyping interactive and intelligent interfaces and systems. Students will explore core design theories, human-centered design principles, and gain hands-on experience in developing prototypes using web frameworks and generative AI tools. Through a combination of seminars, practical design sessions, and a final project, students will acquire the technical and critical thinking skills needed to create innovative, interactive, and intelligent technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5043
+  - CMAA 5043
+  - Creative Prototyping: Designing Interactive Experiences

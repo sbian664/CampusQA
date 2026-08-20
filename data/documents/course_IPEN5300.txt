@@ -1,0 +1,22 @@
+course: IPEN 5300
+normalized_code: IPEN5300
+title: Experimental Economics and Organizational Behavior
+subject: IPEN
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the methodology of experimental economics and related behavioral theories, with an emphasis on social-psychological elements of preference and organizational design. Experiments studied will include ones based on the prisonersâ dilemma, dictator game, ultimatum game, and especially the public goods game and the trust game, along with more complex designs for studying institutional and organizational problems such as creation of centralized punishment schemes and secure property.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5300
+  - IPEN 5300
+  - Experimental Economics and Organizational Behavior

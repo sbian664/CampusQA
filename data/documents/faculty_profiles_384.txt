@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：李茂粟（Maosu LI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：maosuli@hkust-gz.edu.cn
+  办公室：E1(C9) L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Maosu/maosuli
+  研究方向：
+    Multi-Perspective City View Assessment and Analytics，
+    3D Photorealistic CIM-based Urban Applications，
+    Automatic Decision Support Methods for 3D Cities，
+    3D GIS, AI, and City Information Modeling，
+    Urban Informatics and Virtual Geographic Environments，

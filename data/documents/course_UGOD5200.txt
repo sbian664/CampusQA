@@ -1,0 +1,22 @@
+course: UGOD 5200
+normalized_code: UGOD5200
+title: Applied Demography
+subject: UGOD
+catalog_number: "5200"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an introduction to applied demography, the practical applications of demographic analysis. Students will learn about the basic principles of demographic analysis, including measures of population size, composition, and distribution, as well as methods for analyzing demographic changes and trends over time. Through hands-on instruction, students will also learn the applications of these techniques to real-world situations, such as policy-making, urban planning, and marketing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5200
+  - UGOD 5200
+  - Applied Demography

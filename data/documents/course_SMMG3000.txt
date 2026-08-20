@@ -1,0 +1,22 @@
+course: SMMG 3000
+normalized_code: SMMG3000
+title: Industrial Training
+subject: SMMG
+catalog_number: "3000"
+credits: 0
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3000
+  - SMMG 3000
+  - Industrial Training

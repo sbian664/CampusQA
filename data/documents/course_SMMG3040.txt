@@ -1,0 +1,22 @@
+course: SMMG 3040
+normalized_code: SMMG3040
+title: Introduction to Numerical Controlled Machining
+subject: SMMG
+catalog_number: "3040"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  CNC technology is generally considered a measure of a nation's manufacturing technology level. It is the integration of technologies of computers, control, machining, and so on, and often referred to as "The Flower of Industrial Technology". This course covers the contents of the principle and applications of CNC, like the general concepts and mechanisms of numerically controlled machines, element technologies of numerical control (including interpreter, interpolator, control of acceleration and deceleration, and position control system), and the characteristics and industrial applications of typical CNC controllers and CNC machine tool. Students interested to learn the fundamental theories and the industrial application of CNC systems are encouraged to enroll in this course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3040
+  - SMMG 3040
+  - Introduction to Numerical Controlled Machining

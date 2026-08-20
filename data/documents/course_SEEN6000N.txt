@@ -1,0 +1,22 @@
+course: SEENN 000N
+normalized_code: SEEN6000N
+title: Fundamentals of transport phenomena in energy system
+subject: SEEN
+catalog_number: "6000N"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will describe the fundamental knowledge of the physical principles that govern the transport of momentum, energy and mass in energy system. We will start by introducing the constitutive equations of mass transfer, heat conduction and momentum transport and solve the conservation equations.  We will then learn the more fundamental physical pictures of these transport phenomena. From this course, the students will acquire a clear physical picture of transport phenomena in energy systems and the ability to analyze them across different length scales.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000N
+  - SEENN 000N
+  - Fundamentals of transport phenomena in energy system

@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：姜蓝督（Landu JIANG）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：landujiang@hkust-gz.edu.cn
+  办公室：E2 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Landu/landujiang
+  研究方向：
+    ubiquitous and mobile computing，
+    AI solutions for smart healthcare, smart cities, green energy, agriculture, etc.，
+    Computer Vision and Computer Graphics，
+    Human-Computer Interaction，

@@ -1,0 +1,22 @@
+course: EOAS 5001
+normalized_code: EOAS5001
+title: Introduction to Earth Surface Processes
+subject: EOAS
+catalog_number: "5001"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the Earth surface hydrodynamics, biogeochemical cycles, sediment and climate processes focusing on the river basin and watershed that link with atmosphere, river water, soil, vegetation, landscape, impact of humans, submarine groundwater discharge and ocean for the modification of Earth system.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5001
+  - EOAS 5001
+  - Introduction to Earth Surface Processes

@@ -1,0 +1,22 @@
+course: AMAT 5560
+normalized_code: AMAT5560
+title: Modern Optical Spectroscopy and Microscopy
+subject: AMAT
+catalog_number: "5560"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course presents a survey of experimental and theoretical methods of optical spectroscopy and microscopy, as used in modern materials research. The course topics include classical and quantum descriptions of the interaction of radiation and matter, experimental methods of optical spectroscopy and microscopy. Qualitative and quantitative aspects of the subject are illustrated with examples, including application of linear and nonlinear spectroscopies and microscopies to the study of molecular dynamics and solid-state physics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5560
+  - AMAT 5560
+  - Modern Optical Spectroscopy and Microscopy

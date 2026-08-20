@@ -1,0 +1,22 @@
+course: SMMG 5300
+normalized_code: SMMG5300
+title: Nanotechnology: Fundamentals and Applications
+subject: SMMG
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the basics of nanofabrication and nanocharacterization methods as well as typical applications of nanotechnology in commercial products.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5300
+  - SMMG 5300
+  - Nanotechnology: Fundamentals and Applications

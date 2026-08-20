@@ -1,0 +1,22 @@
+course: DSAA 5024
+normalized_code: DSAA5024
+title: Data Exploration and Visualization
+subject: DSAA
+catalog_number: "5024"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers essential techniques for data exploration and visualization. Students will learn the iterative process of data preprocessing techniques for getting data into a usable format, exploratory data analysis (EDA) techniques for formulating suitable hypotheses and validating them, and specific techniques for domain-related data exploration and visualization such as high-dimensional, hierarchical, and geospatial data. The course uses programing languages such as python and tools like Tableau.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA5024
+  - DSAA 5024
+  - Data Exploration and Visualization

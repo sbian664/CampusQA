@@ -1,0 +1,22 @@
+course: SMMG 6000S
+normalized_code: SMMG6000S
+title: Advanced Precision Engineering
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000S
+  - SMMG 6000S
+  - Advanced Precision Engineering

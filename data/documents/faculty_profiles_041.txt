@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：刘浩（Hao LIU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：liuh@hkust-gz.edu.cn
+  办公室：E3 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh
+  研究方向：
+    data mining，
+    machine learning，
+    ig data management, with a special focus on mobile analytics and urban computing，

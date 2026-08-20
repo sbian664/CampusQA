@@ -1,0 +1,22 @@
+course: INTR 5260
+normalized_code: INTR5260
+title: Engineering Psychology and Transportation Applications
+subject: INTR
+catalog_number: "5260"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will cover a wide range of engineering psychology topics as well as how the research in these directions can affect policies and regulations in vehicle design and surface transportation. The students will gain an understanding of the characteristics and limitations of human beings from engineering psychology perspectives of view and how the design of traffic control devices, the roadway, the in-vehicle devices, regulations and traffic rules can be affected by the research in these directions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5260
+  - INTR 5260
+  - Engineering Psychology and Transportation Applications

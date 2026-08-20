@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：张永祺（Yongqi ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yongqizhang@hkust-gz.edu.cn
+  办公室：E4(C9) L4 414
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  研究方向：
+    Machine learning on relational graphs，
+    Reasoning on large language models，
+    Automated machine learning，
+    Graph + Science，

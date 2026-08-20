@@ -1,0 +1,15 @@
+教职员简介：
+  姓名：刘克飞（Kefei LIU）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：kefeiliu@hkust-gz.edu.cn
+  办公室：E4 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Kefei/kefeiliu
+  研究方向：
+    System neuroscience，
+    Neural decoding，
+    Spatial navigation，
+    Learning and memory，
+    Sleep，
+    Hippocampus，
+    Visual neural system，

@@ -1,0 +1,22 @@
+course: INTRK 800K
+normalized_code: INTR6800K
+title: Seminar in Intelligent Transportation
+subject: INTR
+catalog_number: "6800K"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6800K
+  - INTRK 800K
+  - Seminar in Intelligent Transportation

@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：郭大强（Daqiang GUO）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：daqiangguo@hkust-gz.edu.cn
+  办公室：W2 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Daqiang/daqiangguo
+  研究方向：
+    Intelligent and sustainable cyber-physical manufacturing systems，
+    Efficient and safe human-robot collaborative manufacturing，
+    Fusion of knowledge and data for optimization of manufacturing operations，
+    Operations management for Industry 4.0 manufacturing，

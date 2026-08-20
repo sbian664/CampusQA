@@ -1,0 +1,22 @@
+course: INTR 5330
+normalized_code: INTR5330
+title: Analytical Methods in Human Factors Research
+subject: INTR
+catalog_number: "5330"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will cover a wide range of analytical methods used in human factors research domain. The students will gain an understanding of the procedures, objectives and limitations of different research methods. The course will also include four case studies so that students would gain first-hand experience in applying the methods in real projects. These contents are required for research investigating usersâ behaviors.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5330
+  - INTR 5330
+  - Analytical Methods in Human Factors Research

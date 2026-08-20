@@ -1,0 +1,22 @@
+course: UFUG 1602
+normalized_code: UFUG1602
+title: Introduction to Java Computing
+subject: UFUG
+catalog_number: "1602"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces fundamental concepts, principles, and techniques of Java - a contemporary object-oriented programming language. Students will learn how to construct appropriate algorithms for the solution of certain problems, using variables, arrays, control statements, loops, recursion and data abstraction. Students will gain experience and confidence in the use of a high level programming language to implement algorithms.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1602
+  - UFUG 1602
+  - Introduction to Java Computing

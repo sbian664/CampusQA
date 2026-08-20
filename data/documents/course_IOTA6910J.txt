@@ -1,0 +1,22 @@
+course: IOTAJ 910J
+normalized_code: IOTA6910J
+title: Sensing Security and Privacy in IoT and AI Systems
+subject: IOTA
+catalog_number: "6910J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will teach students advanced methods to measure, model, and protect the security and privacy of sensing technologies and their users in the age of AI and IoT, with an emphasis on the hardware-software interface in embedded systems and the physics of sensing and computation. Application domains of security analysis include smartphone and AR/VR devices, smart home IoT, autonomous driving, healthcare and medical devices, AI-based controls and Deepfakes, etc. Group projects will have students build voice assistant systems from scratch and explore various offensive and defensive security techniques.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6910J
+  - IOTAJ 910J
+  - Sensing Security and Privacy in IoT and AI Systems

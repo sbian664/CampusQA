@@ -1,0 +1,9 @@
+教职员简介：
+  姓名：朱磊（Lei ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：leizhu@hkust-gz.edu.cn
+  办公室：W1 L5 515
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu
+  研究方向：
+    Computer Vision, Computational Photography, Image/Video Restoration, Computer Graphics, Medical Imaging, and Deep Learning，

@@ -1,0 +1,22 @@
+course: AIAA 6101
+normalized_code: AIAA6101
+title: Artificial Intelligence Seminar I
+subject: AIAA
+catalog_number: "6101"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Series of seminars presenting research problems currently under investigation, presented by faculty, students, and visiting speakers. Students are expected to attend regularly. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA6101
+  - AIAA 6101
+  - Artificial Intelligence Seminar I

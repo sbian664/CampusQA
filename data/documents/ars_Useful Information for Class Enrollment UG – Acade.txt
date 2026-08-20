@@ -1,0 +1,79 @@
+ars_page: Useful Information for Class Enrollment (UG) – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-ug/
+source: ARS
+
+headings:
+  - Useful Information for Class Enrollment (UG)
+  - Class Enrollment Guide (UG)
+
+text: >
+  Useful Information for Class Enrollment (UG)
+  April 21, 2025
+  Program/ Course Catalog
+  For UG Program/Course Catalog, please click
+  here
+  .
+  Maximum and Minimun Study Load
+  In each regular term, students within their normal duration of study and in good academic standing must register for courses to a total of at least
+  12 credits
+  , and for not more than
+  18 credits
+  .
+  Students seeking an exemption from the above require the approval of the relevant Dean or the Dean’s designate.
+  Students who do not maintain appropriate class enrollment may be required to withdraw from the University.
+  Add/Drop and Extended Course Dropping Deadline for PG Courses
+  Undergraduate students taking postgraduate courses should follow the add/drop period of postgraduate courses. Students should note that some postgraduate courses do not follow the regular add/drop period. UG students should note the extended drop period if they have enrolled for PG courses. They should also refer to the Guide for PG class enrollment and double-check the add/drop information of PG courses.
+  Change of course enrollment status
+  Requests for change of course enrollment status from ‘Normal’ to ‘Audit’ and vice versa must be settled before the end of add/drop period.
+  Course Add/Drop and Course Withdrawal after Add/Drop Period
+  Students may make changes to their course registration during the add/drop period scheduled at the beginning of each term. Changes made in this period will not be included in the student’s record.
+  Requests to add a course or to withdraw from a course after the add/drop period will NOT be accepted, except under extenuating circumstances, and require the approval of the relevant Dean, or the Dean’s designate.
+  To apply, please contact your program officer.
+  Circumstances under which Registration will become null and void
+  Each student enrolled in a specific program is subject to the requirements of the major department and the University. Below are the circumstances under which registration will become null and void:
+  Students fail to maintain satisfactory academic progress and are subject to academic dismissal.
+  Students who fail to obtain prior permission from the University concurrently register for another program at this University or at another tertiary institution.
+  Students who fail to settle overdue tuition fees.
+  Students who are required to withdraw from the University subject to the University’s regulation.
+  Please note that a student’s program registration will be revoked without formal class enrollment. Students should ensure that they have properly registered in the courses specified for a term.
+  Class Enrollment Guide (UG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (UG)
+  Class Enrollment Schedule (UG)
+  Course Offering and Class Schedule (UG)
+  Useful Information for Class Enrollment (UG)
+  FAQ (UG): Pre-enrollment
+  FAQ (UG): Validation
+  FAQ (UG): Enrollment
+  FAQ (UG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - here | https://hkustgz.wareton.com/ugeducation/#/UC/
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - Important Concept for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-ug/
+  - Class Enrollment Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-ug/
+  - Course Offering and Class Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-ug/
+  - Useful Information for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-ug/
+  - FAQ (UG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-pre-enrollment/
+  - FAQ (UG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-validation/
+  - FAQ (UG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-enrollment/
+  - FAQ (UG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

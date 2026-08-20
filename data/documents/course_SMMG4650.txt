@@ -1,0 +1,22 @@
+course: SMMG 4650
+normalized_code: SMMG4650
+title: Introduction to Precision Engineering
+subject: SMMG
+catalog_number: "4650"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Principles of precision design, precision machining, and precision measurement; mathematical definitions and theoretical studies of tolerances for one-, two-, and three-dimensional precision assemblies; applications and industrial practices.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4650
+  - SMMG 4650
+  - Introduction to Precision Engineering

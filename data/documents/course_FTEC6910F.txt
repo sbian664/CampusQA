@@ -1,0 +1,22 @@
+course: FTECF 910F
+normalized_code: FTEC6910F
+title: Machine Learning for Finance
+subject: FTEC
+catalog_number: "6910F"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an in-depth introduction to the fundamental concepts of artificial intelligence (AI) and its advanced applications in finance. It covers key AI techniques, including linear models, tree-based methods, clustering algorithms, neural networks, and reinforcement learning, with an emphasis on both theoretical and practical implementation. Applications in finance, including risk management, asset pricing, fraud detection, and high-frequency trading, will be critically analyzed through real-world datasets. The course fosters a deep understanding of AI methods, enabling students to engage in independent research, and contribute to the development of novel financial technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6910F
+  - FTECF 910F
+  - Machine Learning for Finance

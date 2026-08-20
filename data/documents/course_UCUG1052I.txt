@@ -1,0 +1,22 @@
+course: UCUGI 052I
+normalized_code: UCUG1052I
+title: Academic English for University Studies
+subject: UCUG
+catalog_number: "1052I"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1052I
+  - UCUGI 052I
+  - Academic English for University Studies

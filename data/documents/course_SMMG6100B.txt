@@ -1,0 +1,22 @@
+course: SMMGB 100B
+normalized_code: SMMG6100B
+title: Independent Study
+subject: SMMG
+catalog_number: "6100B"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Selected topics in smart manufacturing studied under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6100B
+  - SMMGB 100B
+  - Independent Study

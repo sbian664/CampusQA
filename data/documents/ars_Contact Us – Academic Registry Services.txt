@@ -1,0 +1,47 @@
+ars_page: Contact Us – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/contact-us/
+source: ARS
+
+headings:
+  - Contact Us
+  - Office Hours
+  - Contact Info
+  - address
+  - Email Enquiries
+  - Program Registration (Testimonial)
+  - Course Enrollment
+  - Exam & Grade
+  - Graduation & Credit Transfer
+  - Transcript
+  - General Enquiry
+
+text: >
+  Contact Us
+  For more information on our services and any queries, feel free to contact us.
+  Office Hours
+  Monday to Friday (except Public Holidays)
+  9:00am–12:00pm & 2:00pm–5:30pm
+  Contact Info
+  gzars@hkust-gz.edu.cn
+  address
+  213-2, Student Center (C2 Building)
+  Email Enquiries
+  You may contact us via the following emails on specific subjects.
+  Program Registration (Testimonial)
+  Email:
+  gznewreg@hkust-gz.edu.cn
+  Course Enrollment
+  Email:
+  gzcoursereg@hkust-gz.edu.cn
+  Exam & Grade
+  Email:
+  gzgrade@hkust-gz.edu.cn
+  Graduation & Credit Transfer
+  Email:
+  gzgrad@hkust-gz.edu.cn
+  Transcript
+  Email:
+  gztranscript@hkust-gz.edu.cn
+  General Enquiry
+  Email:
+  gzars@hkust-gz.edu.cn

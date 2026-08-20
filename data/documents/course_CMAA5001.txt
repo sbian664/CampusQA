@@ -1,0 +1,22 @@
+course: CMAA 5001
+normalized_code: CMAA5001
+title: Foundations of Computational Media and Arts
+subject: CMAA
+catalog_number: "5001"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the conceptual fundamentals of computational media and arts, technologies behind computational media and arts, and software and hardware tools used in computational media and arts production. It will cover principles of visual communication, design aesthetics, image and video synthesis, audio editing, animation and game design, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5001
+  - CMAA 5001
+  - Foundations of Computational Media and Arts

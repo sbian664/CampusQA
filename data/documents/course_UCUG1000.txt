@@ -1,0 +1,22 @@
+course: UCUG 1000
+normalized_code: UCUG1000
+title: Cognitive Foundations of University Education: Critical Thinking and Data Literacy
+subject: UCUG
+catalog_number: "1000"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is taught by a teaching team of a group of faculties from four Hubs to introduce the basics of critical thinking and data literacy. The course will be delivered using the problem-solving approach with interdisciplinary applications. The contents include barriers to critical thinking, characteristics of a critical thinker, argument, cognitive bias, logical fallacies, inductive reasoning, and simple probability and statistical models. Students will be equipped with critical thinking and data analyzing skills to analyze problems of reasoning, evaluate the truthfulness of evidence, examine the fallacies of thinking, construct valid arguments, and make better decisions in personal and professional life.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1000
+  - UCUG 1000
+  - Cognitive Foundations of University Education: Critical Thinking and Data Literacy

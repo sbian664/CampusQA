@@ -1,0 +1,22 @@
+course: AMAT 3520
+normalized_code: AMAT3520
+title: Quantum Mechanics I
+subject: AMAT
+catalog_number: "3520"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Basic properties of Schrodinger equation, bound and scattering states in simple one-dimensional potentials, formulation of quantum mechanics in terms of Hilbert space and Dirac bracket notation, Schrodinger equation in three-dimensions, angular momentum, hydrogen atom wavefunction, systems of identical particles, spin and statistics, multi-electron atoms and the periodic table.
+
+requirements:
+  prerequisite: AMAT 2050 and UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3520
+  - AMAT 3520
+  - Quantum Mechanics I

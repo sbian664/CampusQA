@@ -1,0 +1,140 @@
+ars_page: FAQ (UG): Validation – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-validation/
+source: ARS
+
+headings:
+  - FAQ (UG): Validation
+  - Class Enrollment Guide (UG)
+
+text: >
+  FAQ (UG): Validation
+  April 23, 2025
+  1. Eligibility and Conditions
+  Some courses are restricted to specific students. For example, only students registered in a major may be allowed to take courses required for the major. Enrollment conditions may be included in course descriptions or announced before or during the class enrollment period. You should make sure you satisfy all the requirements before you enroll in a course. If in doubt, seek advice.
+  2. What is validation?
+  Validation is a process that starts a few days before the enrollment period for students to do their course planning. Students can check their pre-enrollment result and plan for additional elective courses.
+  Students can make use of the “validate” button in the shopping cart to check their eligibility to enroll in courses they choose. In some cases, prior approvals are required before enrollment to the courses and students may make use of the validation period to seek relevant approvals.
+  3. How should I do my course planning?
+  You are responsible for your own studies. It is important for you to plan ahead to ensure that you can complete the study within the permitted duration of study.
+  You are welcome to contact your College/Hub and program office to seek academic advice whenever you need. In preparing your individual study plan, you can refer to online information such as Program and Course catalog for reference.
+  To understand the structure of a degree program, you will find that each curriculum consists of a structured set of requirements and courses.
+  4. Study Pathway
+  For UG students, each major has an example of a student’s pathway for your easy reference to steadily move toward completion of your program within the normal duration of study.
+  Courses are designated as required or elective. You should complete all the required courses stipulated in the curriculum.
+  If you have any problems or questions, you can contact your College/Hub or major department.
+  5. Useful Link
+  You should do your course planning based on your program curriculum and own interests. Here are a few useful websites:
+  Curriculum (Graduation Requirement)
+  For UG students
+  For PG students
+  Course Catalog
+  UG
+  PG
+  Class Schedule & Quota
+  For elective courses, you may select relevant ones in the areas designated in your curriculum, subject to departmental approval. You have options as to when you take electives. Some postgraduate courses may be available as elective courses.
+  In each regular term, students within the normal duration of study and in good academic standing must register for courses to a total of 12 to 18 credits.
+  6. Do I need to put the pre-enrolled classes into the shopping cart for validation?
+  No, pre-enrolled classes are confirmed enrollment and do not require further validation.
+  7. How to access “Plan” and “Enroll” functions from Student Center?
+  8. How to select classes and put them into the shopping cart?
+  9. How to perform validation and how to solve validation errors?
+  Possible outcomes of the validation report:
+  Note#
+  What is the meaning?
+  How do I solve the problem?
+  Note 1
+  You may add this course
+  during the enrollment period.
+  Note that validation does not mean
+  the seat is "reserved" for you.
+  Remember to enroll the course(s)
+  during enrollment period.
+  Note 2
+  It is a warning message if a UG student tries to validate a PG course, or vice versa.
+  Seek "cross career" approval.
+  Note 3
+  You do not have enough credits to take this course.
+  Seek “credit overload” approval or drop some electives to make enough credits.
+  Note 4
+  Student does not meet the enrollment requisite, which may include pre-/co-requisites or other conditions (e.g., only for a particular Major).
+  Seek "requisite waive" approval.
+  Note: This error message can also be triggered by course exclusion which cannot be waived according to university regulations
+  Note 5
+  There is a time conflict with another course enrolled or in the shopping cart.
+  Students are NOT allowed to enroll two classes with time conflict. Please select another class.
+  Note6
+  Permission from the instructor is required to enroll in this class.
+  Seek “instructor's consent” approval.
+  To learn how to request for approval, refer
+  Question 10
+  .
+  10. How to request for approval and what should I do after that?
+  Please refer to
+  Question 13
+  for further process after obtaining thecourse approvals.
+  11. How to check the assigned credit load of my current term?
+  12. When can I request for course approvals?
+  Approval requests can be submitted from the start of the validation period until the add/drop deadline.
+  13. What should I do after obtaining the course approvals?
+  Students should perform validation again to ensure the results show “OK to add” without other errors.
+  During the enrollment period, students should go to the SIS to confirm their enrollment. Please note that approval does not guarantee available seats.
+  14. Will I be notified when a decision is made?
+  If the instructor has given decision (approval or rejection) to your approval request, notification will be sent to your email box immediately. If the instructor approves your requisite waiver, cross career or consent request, you may enroll the course during the enrollment period. If the instructor approves your drop or audit request, the drop/audit action will be performed by the system immediately.
+  15. What is Prerequisites and Co-requisites?
+  A prerequisite for a course may be a specific level of attainment in a public examination or a course that must be taken and passed before you can enroll for the course in question.
+  A co-requisite is a course that must be taken prior to, or at the same time as, the course in question.
+  Exemptions from a prerequisite or co-requisite requirements require the approval of the instructor responsible for the course.
+  16. What is Exclusion?
+  An exclusion means you cannot enroll in the course in question if you reached a specified level of attainment in a public exam or if you have taken, or are registered in, a specified HKUST(GZ) course.
+  Class Enrollment Guide (UG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (UG)
+  Class Enrollment Schedule (UG)
+  Course Offering and Class Schedule (UG)
+  Useful Information for Class Enrollment (UG)
+  FAQ (UG): Pre-enrollment
+  FAQ (UG): Validation
+  FAQ (UG): Enrollment
+  FAQ (UG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+tables:
+  - Note# | What is the meaning? | How do I solve the problem?
+  - Note 1 | You may add this course during the enrollment period. | Note that validation does not mean the seat is "reserved" for you. Remember to enroll the course(s) during enrollment period.
+  - Note 2 | It is a warning message if a UG student tries to validate a PG course, or vice versa. | Seek "cross career" approval.
+  - Note 3 | You do not have enough credits to take this course. | Seek “credit overload” approval or drop some electives to make enough credits.
+  - Note 4 | Student does not meet the enrollment requisite, which may include pre-/co-requisites or other conditions (e.g., only for a particular Major). | Seek "requisite waive" approval. Note: This error message can also be triggered by course exclusion which cannot be waived according to university regulations
+  - Note 5 | There is a time conflict with another course enrolled or in the shopping cart. | Students are NOT allowed to enroll two classes with time conflict. Please select another class.
+  - Note6 | Permission from the instructor is required to enroll in this class. | Seek “instructor's consent” approval.
+
+links:
+  - For UG students | https://hkustgz.wareton.com/ugeducation/#/UC
+  - For PG students | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - UG | https://hkustgz.wareton.com/ugeducation/#/UC/
+  - Class Schedule & Quota | https://w5.hkust-gz.edu.cn/wcq/cgi-bin/
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - Important Concept for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-ug/
+  - Class Enrollment Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-ug/
+  - Course Offering and Class Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-ug/
+  - Useful Information for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-ug/
+  - FAQ (UG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-pre-enrollment/
+  - FAQ (UG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-validation/
+  - FAQ (UG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-enrollment/
+  - FAQ (UG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

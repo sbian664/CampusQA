@@ -1,0 +1,22 @@
+course: UGOD 6102
+normalized_code: UGOD6102
+title: UGOD Program Seminar II
+subject: UGOD
+catalog_number: "6102"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Selected topics in hands-on data analyses, such as statistical software (R, STATA, or SAS), data management, and visualization, will be introduced to students in urban governance and design for their research. The course is offered once a year. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6102
+  - UGOD 6102
+  - UGOD Program Seminar II

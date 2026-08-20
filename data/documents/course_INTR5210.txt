@@ -1,0 +1,22 @@
+course: INTR 5210
+normalized_code: INTR5210
+title: Game Theoretical Methods in Transportation
+subject: INTR
+catalog_number: "5210"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This postgraduate-level course introduces how game-theoretical methods are used to model strategic behaviors and to support decision making in transportation systems. Fundamental knowledge in game theory and mechanism design, including different game representations, equilibrium concepts and information asymmetry will first be covered. Variational inequality will then be introduced, with an emphasize of its importance in determining equilibrium solutions for transportation network models.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5210
+  - INTR 5210
+  - Game Theoretical Methods in Transportation

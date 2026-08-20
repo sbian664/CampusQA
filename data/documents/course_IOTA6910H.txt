@@ -1,0 +1,22 @@
+course: IOTAH 910H
+normalized_code: IOTA6910H
+title: Privacy and Security Threat to Foundation Models
+subject: IOTA
+catalog_number: "6910H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the intersection of privacy, security, and the rapidly evolving landscape of foundation modelsâlarge-scale AI systems like ChatGPT and DeepSeek that power modern applications. Students will gain foundational knowledge of these models, including their architecture, training methodologies, and real-world applications. The course will then dive into emerging threats, such as data privacy risks (e.g., model inversion, membership inference) and security vulnerabilities (e.g., adversarial attacks, poisoning). We will examine state-of-the-art defense strategies, including robust training techniques, cryptographic protections, and privacy-preserving frameworks, while addressing ethical, regulatory, and practical challenges. By the end of the course, students will be equipped to identify, analyze, and mitigate privacy and security risks in foundation models, balancing innovation with responsible deployment.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6910H
+  - IOTAH 910H
+  - Privacy and Security Threat to Foundation Models

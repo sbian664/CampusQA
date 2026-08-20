@@ -1,0 +1,22 @@
+course: FTECH 910H
+normalized_code: FTEC6910H
+title: Graph Machine Learning: Methods and Applications
+subject: FTEC
+catalog_number: "6910H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Graph data are pervasive in finance and business management. The course will be organized in three parts. Part I introduces graph data types and representations, including typical simple/weighted and directed/undirected graphs; bipartite, heterogeneous and knowledge graphs; temporal/dynamic graphs; hypergraphs together with node/edge attributes and common storage/processing patterns. Part II introduces graph data modeling methods from shallow embeddings to modern graph neural networks (message passing mechanism, heterogeneous/temporal architectures, contrastive pretraining) and LLM-based approaches (graph-aware prompting, graph-based RAG, graph foundation models). Part III examines graph data based applications in finance and business management, including anomaly and fraud detection, stock market prediction, and recommendation systems, with emphasis on reproducible, practice-oriented implementation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6910H
+  - FTECH 910H
+  - Graph Machine Learning: Methods and Applications

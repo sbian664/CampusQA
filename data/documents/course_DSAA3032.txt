@@ -1,0 +1,22 @@
+course: DSAA 3032
+normalized_code: DSAA3032
+title: Introduction to High-Performance and Parallel Computing
+subject: DSAA
+catalog_number: "3032"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals of high-performance and parallel computing. It targets at scientists, engineers, scholars, and everyone seeking to develop the software skills necessary for work in parallel software environments. These skills include big-data analysis, machine learning, parallel programming, and optimization. The course covers the basics of Linux environments and bash scripting all the way to high throughput computing and parallelizing code.
+
+requirements:
+  prerequisite: DSAA 2031 AND UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3032
+  - DSAA 3032
+  - Introduction to High-Performance and Parallel Computing

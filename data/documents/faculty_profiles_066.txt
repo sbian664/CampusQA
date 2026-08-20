@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：ZHANG KANG（Kang ZHANG）
+  职称：Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：kzhangcma@hkust-gz.edu.cn
+  办公室：E4 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Kang/kzhangcma
+  研究方向：
+    Visual Languages可视化语言，
+    Graph Grammars and Their Applications图文法及其应用，
+    Computational Aesthetics计算美学，
+    Generative Art生成艺术，
+    Architectural Design建筑设计，
+    Software Engineering软件工程，

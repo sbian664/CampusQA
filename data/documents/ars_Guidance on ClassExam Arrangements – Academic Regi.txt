@@ -1,0 +1,130 @@
+ars_page: Guidance on Class/Exam Arrangements – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guidance-on-class-exam-arrangements/
+source: ARS
+
+headings:
+  - Guidance on Class/Exam Arrangements
+  - Face-to-Face Teaching Mode with Online Teaching Options
+  - Affected Class Schedule
+  - 1 week prior to the 1st teaching day
+  - 3 days prior to the 1st teaching day
+  - 2 weeks’ time for decision with endorsement by the deadline (set as 12:00PM on the 3rd day of the 2nd teaching week)
+  - 12:00 PM on the 3rd day of the 2nd teaching week
+  - From the 4th day of the 2nd teaching week(2 work-days prior to the end of add/drop period)
+  - When a Typhoon Signal is Yellow or Orange, Red
+  - When a Red Rainstorm Signal is Issued
+
+text: >
+  Guidance on Class/Exam Arrangements
+  Introduction
+  Understand Academic Calendar
+  Course Delivery
+  Classes with Low Enrollment
+  Timelines for Classes with Low Enrollment (Regular Term)
+  Class / Exam Arrangements due to Bad Weather-Typhoon
+  Class / Exam Arrangements due to Bad Weather-Rainstorm (Provisional)
+  Make-Up Classes/Exams
+  Course Instructors’ Responsibilities on Any Change Arrangements on Classes/Exams
+  HKUST(GZ) expects high standards of teaching delivery to students and to uphold the university’s commitment to high-quality education, these guidelines are developed for various class and exam arrangements, covering a range of scenarios, including courses with low enrollment, class and exam arrangements due to public holidays and (or) bad weathers, makeup classes and exams, as well as the instructors’ responsibilities in any change arrangements.
+  The purpose of these guidelines is to provide a framework for addressing potential challenges that may arise during the course of a term, facilitate better course planning for instructors, and to ensure that all students are given the opportunity to succeed in their academic pursuits. By establishing clear protocols for addressing these issues, both instructors and students can have a better understanding of their rights and responsibilities in various situations. Follow-up actions can be taken by relevant departments to support better teaching delivery.
+  By establishing these guidelines, we aim to create a transparent and equitable process for handling various class and exam arrangements, ultimately contributing to a positive and productive learning environment for all students.
+  These guidelines may need to be revisited frequently to ensure consistency with the latest regulations of the University and the government, best practices, and new information or knowledge.
+  1. It has 13 teaching weeks for each regular term (Fall & Spring)
+  2. Public holidays are excluded from teaching days and no class scheduled on the confirmed/predicted holiday dates.
+  3. First column "Week" on Academic Calendar refers to the sequence of teaching week. Classes scheduled on those weeks with number marked.
+  4. All the dates are subject to change. Especially for the public holidays for the Spring Term, once confirmed dates published by the gov., ARS will notify the updates by email.
+  5. Provisional Calendar for the next academic year is normally published by ARS before Spring Term of current academic year.
+  Face-to-Face Teaching Mode with Online Teaching Options
+  All the courses should be primarily offered in regular face-to-face teaching mode, providing options for online participation (virtual classes) in case there are Cross-Campus students taking the course.
+  Affected Class Schedule
+  Except for staff absence due to illness or other unexpected circumstances, the class schedule shall not be affected. For other special circumstances, such as a business trip, prior approval from the Head, corresponding Dean, and VPTL is required at least two weeks before the affected class.
+  For long-term changes, Academic Registry Services should be informed.
+  1. Class Affected by Special Circumstances with Prior Approval (e.g., Business Trips)
+  Apart from unexpected circumstances, any changes to the class schedule require prior approval from the Head, corresponding Dean, and VPTL at least two weeks before the affected class
+  (Seminars are exempt from the 2-week prior approval, allowing flexibility. Instructors should coordinate with course offering units to inform students and ARS of alternative arrangements in advance)
+  .
+  Class Rescheduling Application
+  should be submitted for approvals.
+  The affected class may be either rescheduled or covered by a qualified instructor, given such arrangements approved by corresponding Head, Dean and VPTL.
+  The total affected classes of such circumstances should not be more than 10% of the classes offered in the term.
+  2. Class Affected by Unexpected Circumstances (e.g., illness)
+  If an instructor is unable to teach a class due to illness and other unexpected circumstances, he/she must notify the Hub/College Office as soon as possible to ensure the reporting is received and consequences will be managed. Communications should be made in person by speaking to the right person instead of leaving a WeChat message which might be neglected.
+  Immediately after the Hub/College Office is aware of an instructor’s absence, the course offering unit should contact the students of the affected class via email to inform them that the class is cancelled and begin making cover arrangements.
+  3. Course Scheduling for the Tutorial or Lab During the First Teaching Week of the Term
+  If the first day of the term falls in the middle of a week, and the first class is a Tutorial or a Lab, it is recommended that the course instructor can decide whether to hold the class and arrangement of the class.
+  With the purpose to enhance better course planning and maximize the use of teaching and learning resources, the minimum enrollment for a class is 5 students (audit students excluded) as prescribed by the University.
+  Instructors may request to keep or cancel the classes with endorsements from Thrust/Pillar/Base Head and corresponding Hub/College Dean, copying ARS in the email loop, decisions with endorsements should be received by the scheduled deadline. ARS will send the summarized requests on keeping classes to the President for the final review and approval.
+  Please note that approval to keep the class would normally be considered once for a non-required course, a minimum of 5 students must be enrolled for the following terms if the same course would be offered.
+  While cancelling classes with low enrollment, instructors, heads, Deans must ensure that it doesn’t violate students’ curriculum requirements nor hinder students’ timely progression to graduation (e.g. not a required course).
+  Once classes are endorsed to be cancelled, instructors must notify affected students and program office in a timely manner to ensure students can drop the classes on SIS and have acceptable alternative arrangements on class enrollment with sufficient advising.
+  1 week prior to the 1st teaching day
+  Self-enrollment by student
+  3 days prior to the 1st teaching day
+  ARS to alert instructors with deadline for the endorsed decisions
+  2 weeks’ time for decision with endorsement by the deadline (set as 12:00PM on the 3rd day of the 2nd teaching week)
+  1. Instructor may propose to cancel/keep a class with endorsements from Thrust/Pillar Head and Hub/College Dean, copying ARS in the loop and with decision/endorsement received by the deadline.
+  2. ARS will monitor changes in enrollment numbers and provide updates when necessary.
+  Note: Instructors who have received such alert should monitor the changing enrollment by themselves on SIS.
+  12:00 PM on the 3rd day of the 2nd teaching week
+  1. ARS will summarize the endorsed requests on keeping classes with low enrollment and get the final approvals from the president.
+  2. ARS will notify the instructors of the small-size classes without any endorsements will be closed.
+  For classes to be closed, instructors must notify affected students and program office in a timely manner to ensure students can drop the classes on SIS and have acceptable alternative arrangements on class enrollment with sufficient advising.
+  From the 4th day of the 2nd teaching week(2 work-days prior to the end of add/drop period)
+  Students with class dropped will enroll other classes if required.
+  Note: Once a class is decided to be cancelled, no more student will be allowed to enroll and after all the current enrolled students dropped, ARS will cancel and remove the class from the term.
+  When a Typhoon Signal is Yellow or Orange, Red
+  • All classes have yet to start are highly encouraged to be conducted online via zoom or rescheduled. Instructors should promptly inform affected students via Canvas or Email if classes are to be moved online or reschedu
+  led. All final examinations that have yet to start will normally be postponed. Instructors shall not arrange in-person classes.
+  • Classes/ Final examinations have already started will normally continue until the end. Stay indoors wherever you are and do not leave until the signal is cancelled and the conditions are safe.
+  Resumption Plan of Classes/ Final Examinations:
+  If the Typhoon Signal (yellow, orange, red) is cancelled, classes/ final examinations will be held as scheduled as below:
+  Signal Cancelled
+  Sessions/Periods held as scheduled
+  At or before 7:00 am
+  All classes/ Final examinations of the day
+  At or before 11:30 am
+  Classes/ Final examinations from 1:30 pm and onward
+  At or before 4:00 pm
+  Classes/ Final examinations from 6:00 pm and onward
+  When a Red Rainstorm Signal is Issued
+  • All classes have yet to start are highly encouraged to be conducted online via zoom or rescheduled. Instructors should promptly inform affected students via Canvas or Email if classes are to be moved online or rescheduled. All final examinations that have yet to start will normally be postponed. Instructors shall not arrange in-person classes.
+  • Classes have already started will normally continue until the end. Stay indoors wherever you are and do not leave until the Red Rainstorm signal is cancelled and the conditions are safe.
+  Resumption Plan of Classes/ Final Examinations:
+  Signal Cancelled
+  Sessions/Periods held as scheduled
+  At or before 7:00 am
+  All classes/ Final examinations of the day
+  At or before 11:30 am
+  Classes/ Final examinations from 1:30 pm and onward
+  At or before 4:00 pm
+  Classes/ Final examinations from 6:00 pm and onward
+  This guide sets forth plans, procedures, responsibilities, and requirements related to the scheduling of make-up classes/non-final exams due to the cancellation of classes/non-final exams, or the necessary closing of the instructional spaces for any reason, but most commonly due to public holidays and (or) bad weathers. For class cancellation due to faculty’s personal reason(s), please refer to the guide on Course Delivery.
+  Pre-Scheduled Make-Up Dates for Missed Classes/non-Final Exams
+  Once the calendar is confirmed, if any classes’ teaching week number is less than 13 due to public holidays, pre-scheduled make-up days will be provided by ARS via email in advance. If classes are cancelled due to bad weathers, pre-scheduled make-up days will be provided at a later time after confirmation of an available date(s) having no major time conflicts with other prebooked rooms.
+  Weekend days are designated as the pre-scheduled days
+  on the academic calendar and held later in the term to hold make-up classes, if needed and set forth in accordance with this guide.
+  The rooms will be locked with time slots allocated to the missed classes in the booking system on the pre-scheduled days. Teaching rooms are the top priority, any pre-booked rooms with nonteaching activity may be required to be re-scheduled or re-allocated if there is conflict.
+  Relevant departments (such as program offices, ITD, Logistics etc. ) will also be copied in the notification email loop for their necessary follow-up arrangements.
+  It is the responsibility of instructors to meet all scheduled classes and arrange non-final exams, however, under exceptional circumstances when alternate arrangements made including but not limited to:
+  Classes/non-final exams cancelled or virtual classes arranged to replace the physical classes due to bad weathers
+  Classes/non-final exams missed due to public holidays and (or) bad weathers
+  Classes cancelled due to low enrollment
+  Make-up classes/non-final exams scheduled due to public holidays and (or) bad weathers
+  Classes cancelled due to personal reasons with prior approvals (please refer to Course Delivery)
+  Instructors must notify the affected students and program offices with any class/exam changes, follow-up arrangements and necessary advises as soon as the action is taken.
+  Course instructors should arrange the make-up class sessions on the pre-scheduled dates that announced by the Academic Registry Services.
+  Instructor must ensure the classrooms are pre-booked and (or) necessary IT supports is requested for the make-up classes/exams.
+  For the cancelled / make-up final exams that scheduled centrally by ARS, the relevant follow-ups will be processed by ARS.
+
+tables:
+  - Signal Cancelled | Sessions/Periods held as scheduled
+  - At or before 7:00 am | All classes/ Final examinations of the day
+  - At or before 11:30 am | Classes/ Final examinations from 1:30 pm and onward
+  - At or before 4:00 pm | Classes/ Final examinations from 6:00 pm and onward
+  - Signal Cancelled | Sessions/Periods held as scheduled
+  - At or before 7:00 am | All classes/ Final examinations of the day
+  - At or before 11:30 am | Classes/ Final examinations from 1:30 pm and onward
+  - At or before 4:00 pm | Classes/ Final examinations from 6:00 pm and onward
+
+links:
+  - Class Rescheduling Application | dingtalk://dingtalkclient/action/openapp?app_id=-4&container_type=work_platform&corpid=ding566e542d8f0e42c535c2f4657eb6378f&ddtab=true&redirect_type=jump&redirect_url=https%3A%2F%2Faflow.dingtalk.com%2Fdingtalk%2Fmobile%2Fhomepage.htm%3FappUuid%3Dding566e542d8f0e42c535c2f4657eb6378f%26backcontrol%3Dfalse%26corpid%3Dding566e542d8f0e42c535c2f4657eb6378f%26dd_progress%3Dfalse%26dd_share%3Dfalse%26ddtab%3Dtrue%26showmenu%3Dfalse%23%2Fcustom%3Fpcredirect%3Dself%26processCode%3DPROC-40226752-2442-41DE-BCFB-D49083A8877E

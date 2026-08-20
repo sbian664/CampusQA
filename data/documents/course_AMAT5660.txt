@@ -1,0 +1,22 @@
+course: AMAT 5660
+normalized_code: AMAT5660
+title: Modern Spectroscopic Methods for Condensed Matter Physics
+subject: AMAT
+catalog_number: "5660"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course for postgraduate students with materials science background. The development of advanced spectroscopy techniques for materials physics and condensed matter physics research will be introduced. This course will cover four major topics: X-ray spectrscopy, neutron and electron scattering, photoemission spectroscopy and scanning probe spectroscopy. The fundamental physics of each technique together with the research frontier will be introduced. This course will serve as a beginnerâs guide for modern spectroscopic methods.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5660
+  - AMAT 5660
+  - Modern Spectroscopic Methods for Condensed Matter Physics

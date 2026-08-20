@@ -1,0 +1,22 @@
+course: IOTA 5107
+normalized_code: IOTA5107
+title: Advanced Networked Systems for AI and Multimedia Systems
+subject: IOTA
+catalog_number: "5107"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on relevant current research topics in Networked Systems such as Networking for AI, Multimedia Communication, Data-Center Networks, Software-Defined Networking, Dataplane Programmability, Information-Centric Networking, Quantum Internet Communication, Privacy Preserving Communication, Constrained (IoT) Networks. This course will provide a structured introduction to the state-of-the-art and recent research in the field of networked systems. It will further introduce students to recent development efforts in the academic community as well as in Internet standardization.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5107
+  - IOTA 5107
+  - Advanced Networked Systems for AI and Multimedia Systems

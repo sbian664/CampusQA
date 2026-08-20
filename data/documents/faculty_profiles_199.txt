@@ -1,0 +1,15 @@
+教职员简介：
+  姓名：许丕文（PEI MAN JAMES SHE）
+  职称：Associate Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：jamespmshe@hkust-gz.edu.cn
+  办公室：W1 L6 617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHE-PEI-MAN-JAMES/jamespmshe
+  研究方向：
+    AI for Art, 人工智能在艺术中的应用，
+    AI for Culture and Heritage, 人工智能在文化与遗产中的应用，
+    AI for Art, Science and Generation Education, AI 赋能的艺术、科学与通识教育，
+    AI for Media and Sport, 人工智能在媒体与体育中的应用，
+    AI for Human Creativity, 人工智能在人类创造力中的应用，
+    Multimedia and Social Computing, 多媒体与社交媒体计算，
+    IoT for Interactive and Green System, 物联网在互动和可持续系统中的应用，

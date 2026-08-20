@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈果（Guo CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：guochen@hkust-gz.edu.cn
+  办公室：W2 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Guo/guochen
+  研究方向：
+    Quantum Chemistry，
+    Electronic Structure Theory and Methods，
+    Electron Correlation in Molecules，
+    High-Performance Computing，
+    Lanthanide and Actinide Chemistry，

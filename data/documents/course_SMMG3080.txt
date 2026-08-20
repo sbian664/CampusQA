@@ -1,0 +1,22 @@
+course: SMMG 3080
+normalized_code: SMMG3080
+title: Mechanisms of Machinery
+subject: SMMG
+catalog_number: "3080"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Application of kinematics and dynamics in the analysis, design and synthesis of mechanisms. Type and dimensional design of linkages, cams and gears based on motion requirements and force transmission, in contrast to the strength requirements. Graphical, analytical and computer methods in analysis and design of mechanisms. Design considerations in mechanism synthesis.
+
+requirements:
+  prerequisite: UFUG 1502 AND UFUG 1103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3080
+  - SMMG 3080
+  - Mechanisms of Machinery

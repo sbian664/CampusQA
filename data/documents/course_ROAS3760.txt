@@ -1,0 +1,22 @@
+course: ROAS 3760
+normalized_code: ROAS3760
+title: Digital Image Processing
+subject: ROAS
+catalog_number: "3760"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces methods to process images on a computer. Topics include the formation and quantification of digital images, morphological image processing, image enhancement in the spatial and frequency domain, image restoration, color image processing, image compression, image segmentation, object recognition and face detection. This course is mathematics-oriented. It requires basic knowledge of linear algebra, calculus and linear filtering. Familiarity with the programming language MATLAB is needed.
+
+requirements:
+  prerequisite: UFUG 1102 OR UFUG 1105
+  corequisite: ROAS 3700
+  exclusion: none
+
+search_aliases:
+  - ROAS3760
+  - ROAS 3760
+  - Digital Image Processing

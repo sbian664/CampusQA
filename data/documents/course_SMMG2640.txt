@@ -1,0 +1,22 @@
+course: SMMG 2640
+normalized_code: SMMG2640
+title: Engineering Materials I
+subject: SMMG
+catalog_number: "2640"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Atomic bonding of materials; crystal structure and defects; mechanical properties of materials; phase diagrams and phase transformations; heat treatment of metals; processing and applications of metallic materials.
+
+requirements:
+  prerequisite: UFUG 1501 OR UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG2640
+  - SMMG 2640
+  - Engineering Materials I

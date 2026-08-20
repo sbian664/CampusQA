@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：蔡桂港（Guigang CAI）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：guigangcai@hkust-gz.edu.cn
+  办公室：W1 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Guigang/guigangcai
+  研究方向：
+    Hybrid DC-DC converters，
+    Analog and digital low-dropout regulators，
+    Switched capacitors，
+    Isolated DC-DC converters，
+    Power- and area-efficient analog circuits，

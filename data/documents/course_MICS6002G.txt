@@ -1,0 +1,22 @@
+course: MICSG 002G
+normalized_code: MICS6002G
+title: Principles and Characterization of Microelectronic Devices
+subject: MICS
+catalog_number: "6002G"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This graduate-level course provides a comprehensive introduction to the principles and characterization techniques of microelectronic devices. The curriculum is structured into two main sections: device principles and device characterization.  In the first section, students will explore the essential physics of microelectronic devices. Topics include the carrier statistics, PN and metal semiconductor junctions, and the operation of MOSFETs. This part of the course aims to build a solid understanding of device models that are critical for further study.  The second section focuses on contemporary characterization methods used to assess semiconductor materials and device parameters. Students will gain insights into the theoretical concepts underpinning these techniques, with topics covering resistivity, doping profiles, barrier heights, MOS device interfaces, and MOSFET channel parameters. Emphasis will be placed on understanding the methodologies and technologies employed in the precise characterization of microelectronic devices. This course is designed to equip students with both the theoretical knowledge and practical skills necessary for analyzing and optimizing microelectronic devices in advanced technological applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002G
+  - MICSG 002G
+  - Principles and Characterization of Microelectronic Devices

@@ -1,0 +1,82 @@
+ars_page: FAQ (PG): Enrollment – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+source: ARS
+
+headings:
+  - FAQ (PG): Enrollment
+  - Class Enrollment Guide (PG)
+
+text: >
+  FAQ (PG): Enrollment
+  April 23, 2025
+  1. How to check my enrollment appointment start time?
+  2. How long is my enrollment timeslot?
+  Beginning from the assigned enrollment start time, students may enroll/ drop/ swap a course until its add/drop deadline.
+  3. What are the differences between class enrollment period and the add/drop period?
+  Most functions (add/drop/swap) are the same in these two periods. However, only in the add/drop period students can submit course audit requests. Also, for most UG courses, reserved seats in the enrollment period will be released as free seats during the add/drop period.
+  4. Why are there “reserve capacity” in some courses?
+  Course departments may request to reserve certain or all places of a course for students in particular programs during the enrollment period. Students who have officially declared their major or minor (where applicable) in the specified programs can occupy the reserve capacity.
+  For UG courses, most reserve capacity would be released as free seats when add/drop period starts if they are not taken back by the course departments. Reserve capacity in PG courses would not be released as free seats unless the instructor/ course department intends to do so.
+  5. How to add (enroll) a course?
+  Note 1: Please refer
+  Question 5 of Validation
+  .
+  Note 2: Please refer to
+  Question 6 of Validation
+  .
+  6. How to swap from one course to another?
+  7. How to swap class sections within the same course?
+  8. How can I increase my chance of enrolling in case the course has multiple sections?
+  If a course has no vacancy yet but there are multiple sections, students may submit add requests to waitlist for different sections at the same time. However, when vacancies arise and should one of the waitlist requests be successfully executed, all other waitlist requests for the same course will be cancelled. The below is an illustration:
+  9. How to check my waitlist position?
+  10. Is there a maximum credit that I can waitlist for?
+  In regular terms, PG full-time students can waitlist up to 30 credits while part-time 8.
+  11. I am on the waitlist for a long time without any movements, what are the possible reasons?
+  It is possible that:
+  1) your waitlisted class has a time conflict with one of your enrolled classes.
+  2) Your term enrollment limit would be exceeded if this class is enrolled.
+  Under these circumstances, when places are available, the system will assign them to other students in the queue and your waiting position will remain the same.
+  12. How to drop a class or cancel a waitlist request?
+  13. How can I view my time table for my enrollment in Student Center?
+  You can click on “Class Schedule” and then “>>” button, then you will see the “Select Display Option” buttons for List or Weekly Calendar View. You also need to “tick” the checkbox for the “Class Schedule Filter Options”. By clicking “filter”, your class schedule will pop up.
+  Alternatively, you can go to the “Enroll” Tag, click on “My Class Schedule” and the “List View” or “Weekly Calendar View” button to check your class calendar
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Course Offering and Class Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

@@ -1,0 +1,22 @@
+course: CNCC 5200
+normalized_code: CNCC5200
+title: Climate Change: Science and Governance
+subject: CNCC
+catalog_number: "5200"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course prepares students to acquire the basic knowledge of climate change, which sits on the intersection of science and governance. It will review some of the scientific facts of climate change and contrast the scientific research findings with climate governance status. Case study on transforming to a low carbon society will be conducted in later part of the course. Aspects to consider include both scientific support and governance complexity of the low carbon city idea. Students are expected to build their own analysis of the climate change issue at the end of the course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5200
+  - CNCC 5200
+  - Climate Change: Science and Governance

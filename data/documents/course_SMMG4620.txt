@@ -1,0 +1,22 @@
+course: SMMG 4620
+normalized_code: SMMG4620
+title: Service Engineering and Management
+subject: SMMG
+catalog_number: "4620"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Service system design, service level, quality of service, service product life cycle, measurements, design for serviceability, analysis, productivity in services, client satisfaction, training and services logistics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4620
+  - SMMG 4620
+  - Service Engineering and Management

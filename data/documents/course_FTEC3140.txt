@@ -1,0 +1,22 @@
+course: FTEC 3140
+normalized_code: FTEC3140
+title: Real Analysis
+subject: FTEC
+catalog_number: "3140"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers basics of set topology, differentiation and inverse function theorems of vector-valued functions, uniform convergence, Lebesgue measure and Lebesgue integral on the real line.
+
+requirements:
+  prerequisite: UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3140
+  - FTEC 3140
+  - Real Analysis

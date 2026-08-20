@@ -1,0 +1,23 @@
+course: UFUG 1301
+normalized_code: UFUG1301
+title: General Chemistry
+subject: UFUG
+catalog_number: "1301"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course serves as a gateway to basic chemical theories and principles, demonstrating a microscopic view to the materialized world that built from atoms. Starting from chemical notation and units, lectures will introduce nuclei structure and elemental periodicity, redox reactions, basic inorganic and organic substances with associated chemical bonding and forms, fundamental properties of gases, acid/base theories, chemical kinetics and equilibrium, principles of thermodynamics, and electrochemistry. Additionally, two mini labs providing hands-on experience supplement the lecture materials.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UFUG 1302 
+UFUG 1303
+
+search_aliases:
+  - UFUG1301
+  - UFUG 1301
+  - General Chemistry

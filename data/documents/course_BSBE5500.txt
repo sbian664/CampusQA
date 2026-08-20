@@ -1,0 +1,22 @@
+course: BSBE 5500
+normalized_code: BSBE5500
+title: Principles of Biomaterials, Drug Delivery and Tissue Engineering
+subject: BSBE
+catalog_number: "5500"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the basic knowledge of biomaterials, drug delivery and tissue engineering: natural biomaterials, synthetic biomaterials, biomaterials for drug delivery, biomaterials for tissue engineering, biomaterial formulations (nanoparticles, nanofibers and microspheres), biocompatibility, biodegradability, with focus on the structure-function of the biomaterials and how to develop biomaterials for a variety of biomedical applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE5500
+  - BSBE 5500
+  - Principles of Biomaterials, Drug Delivery and Tissue Engineering

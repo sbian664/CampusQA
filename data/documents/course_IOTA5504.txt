@@ -1,0 +1,22 @@
+course: IOTA 5504
+normalized_code: IOTA5504
+title: Approximate Computing - Introduction to Numerical Analysis
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5504
+  - IOTA 5504
+  - Approximate Computing - Introduction to Numerical Analysis

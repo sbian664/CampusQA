@@ -1,0 +1,22 @@
+course: MICS 6001W
+normalized_code: MICS6001W
+title: Parallel Programming and Architecture
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001W
+  - MICS 6001W
+  - Parallel Programming and Architecture

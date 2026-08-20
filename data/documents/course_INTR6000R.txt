@@ -1,0 +1,22 @@
+course: INTRR 000R
+normalized_code: INTR6000R
+title: Autonomous Vehicle System and Test
+subject: INTR
+catalog_number: "6000R"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Autonomous vehicles (AVs) integrate perception, planning, and control to enable intelligent driving. This course introduces fundamental models and testing methodologies for evaluating AV systems. The first part covers traditional modular architectures, including sensing, perception, trajectory planning, and control algorithms. The second part focuses on emerging end-to-end learning frameworks that directly map sensor inputs to driving actions, emphasizing data processing, training, and safety evaluation. The course concludes with an overview of connected and automated vehicle (CAV) extensions that enhance perception and coordination through communication technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6000R
+  - INTRR 000R
+  - Autonomous Vehicle System and Test

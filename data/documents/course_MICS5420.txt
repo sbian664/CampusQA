@@ -1,0 +1,22 @@
+course: MICS 5420
+normalized_code: MICS5420
+title: Clock Generation Integrated Circuits
+subject: MICS
+catalog_number: "5420"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the design and analysis of clock generation integrated circuits. The covered topics include basic concepts, basic oscillator, oscillator analysis, advanced oscillator techniques, basic phase-locked loop architecture, integer-N PLLs, fractional-N PLLs, frequency dividers and multipliers, digital PLLs, advanced frequency synthesis and clock data recovery.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5420
+  - MICS 5420
+  - Clock Generation Integrated Circuits

@@ -1,0 +1,22 @@
+course: DSAA 5021
+normalized_code: DSAA5021
+title: Data Science Computing
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA5021
+  - DSAA 5021
+  - Data Science Computing

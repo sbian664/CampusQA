@@ -1,0 +1,22 @@
+course: AIAA 4330
+normalized_code: AIAA4330
+title: Introduction to Artificial Intelligence and Big Data in Finance
+subject: AIAA
+catalog_number: "4330"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an overview of the main branches of Al and Big Data, and exposes students to real-world industry use cases to help them understand the impact that Al will have on the finance industry. Upon completion of this course, students will be able to identify and leverage Al and Big Data to enhance and/or disrupt business models, while keeping in mind social and ethical considerations.
+
+requirements:
+  prerequisite: AIAA 2711
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4330
+  - AIAA 4330
+  - Introduction to Artificial Intelligence and Big Data in Finance

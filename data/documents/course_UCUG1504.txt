@@ -1,0 +1,22 @@
+course: UCUG 1504
+normalized_code: UCUG1504
+title: The Art of Public Speaking
+subject: UCUG
+catalog_number: "1504"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the theory and practice of public speaking. The basic terms, concepts, and theories of public speaking will be covered. Using selected speeches, students will learn to analyze rhetorical structure and style and to understand how speakers and writers can persuade an audience. Students will write and critique their own writing and that of their peers using stories, analogies, and metaphors. They will learn to construct and defend effective arguments in a speech and to apply the rhetorical techniques they have learned. Throughout the course, students will write and deliver various types of speeches to a partner, a group, the whole class, and then to a public group, soliciting feedback from their audience. By the end of the course, students will have developed their speech making skills and become more confident in presenting their ideas.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1504
+  - UCUG 1504
+  - The Art of Public Speaking

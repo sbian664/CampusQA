@@ -1,0 +1,22 @@
+course: AIAA 4641
+normalized_code: AIAA4641
+title: Social Information Network Analysis and Engineering
+subject: AIAA
+catalog_number: "4641"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an introduction to social information network analysis and engineering. Students will learn both mathematical and programming knowledge for analyzing the structures and dynamics of typical social information networks (e.g., Facebook, Twitter, and MSN). They will also learn how social metrics can be used to improve computer system design as people are the networks. It will cover topics such as small world phenomenon; contagion, tipping and influence in networks; models of network formation and evolution; the web graph and PageRank; social graphs and community detection; measuring centrality; greedy routing and navigations in networks; introduction to game theory and strategic behavior; social engineering; and principles of computer system design.
+
+requirements:
+  prerequisite: UFUG 2104 OR AIAA 2711
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4641
+  - AIAA 4641
+  - Social Information Network Analysis and Engineering

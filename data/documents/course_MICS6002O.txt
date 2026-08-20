@@ -1,0 +1,22 @@
+course: MICSO 002O
+normalized_code: MICS6002O
+title: Advanced Operating System
+subject: MICS
+catalog_number: "6002O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is designed for graduate students who already understand OS fundamentals. This course will spend some time in the class to refresh the basics and discuss the following topics: OS structure, virtual memory management, file system design, threads and scheduling, virtualization, and distributed systems. For each topic, we will discuss seminal papers and ideas, current influential papers, and future research trends.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002O
+  - MICSO 002O
+  - Advanced Operating System

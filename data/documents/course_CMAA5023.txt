@@ -1,0 +1,22 @@
+course: CMAA 5023
+normalized_code: CMAA5023
+title: Programming for Virtual and Augmented Reality
+subject: CMAA
+catalog_number: "5023"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to programming skills and selected topics for virtual and augmented reality (VR and AR) projects. Students will initially learn basic programming skills relating to modelling, motion controllers, animation, rendering, navigation, networking using Unity3D. Next, students will be exposed to selected topics in VR and AR, including multi-modal interactions, collaborative interactions, visual perceptions in AR, etc. By the end of the course, students will be able to create their own interactive VR and AR creative applications as a course project (games, storytelling, VR experiences, etc.).
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5023
+  - CMAA 5023
+  - Programming for Virtual and Augmented Reality

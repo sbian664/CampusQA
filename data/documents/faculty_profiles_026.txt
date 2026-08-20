@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：张光（Guang ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：guangzhang@hkust-gz.edu.cn
+  办公室：W1 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Guang/guangzhang
+  研究方向：
+    FinTech，
+    Financial Econometrics，
+    Machine Learning，
+    Empirical Finance，

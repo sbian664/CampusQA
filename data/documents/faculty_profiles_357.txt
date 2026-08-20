@@ -1,0 +1,9 @@
+教职员简介：
+  姓名：马克（Ke MA）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：kema@hkust-gz.edu.cn
+  办公室：W4 L5 527
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Ke/kema
+  研究方向：
+    My research interests focus on autonomous driving and intelligent connected vehicles, with an emphasis on end-to-end learning approaches that integrate perception, prediction, and decision-making. I am particularly interested in world models that enable machines to build structured, predictive representations of dynamic environments. More broadly, I explore practical AI applications that bridge advanced machine learning techniques with real-world deployment in transportation and mobility systems.，

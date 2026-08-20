@@ -1,0 +1,22 @@
+course: AIAA 3201
+normalized_code: AIAA3201
+title: Introduction to Computer Vision
+subject: AIAA
+catalog_number: "3201"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to provide a solid understanding of modern Computer Vision. It starts with essential backgrounds in image processing and classical vision methods, then transitions to contemporary learning-based techniques. Students will master core architectures including CNNs, Transformers, and generative models like GANs and Diffusion. Advanced modules explore detection, segmentation, and learning-based 3D vision. The course emphasizes problem-solving through a practical mini-project, encouraging students to apply these algorithms to real-world needs such as biomedical analysis or AR/VR. Students will finish the course ready to conduct independent research and develop innovative vision solutions.
+
+requirements:
+  prerequisite: Prerequisites: UFUG 2601 OR UFUG 2602
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3201
+  - AIAA 3201
+  - Introduction to Computer Vision

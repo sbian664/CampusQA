@@ -1,0 +1,22 @@
+course: CNCC 6900
+normalized_code: CNCC6900
+title: CNCC Program Seminar I
+subject: CNCC
+catalog_number: "6900"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is expected to expose the RPg students to the current carbon neutrality and climate change research and development, and provide them with opportunities to make social contacts with the speakers in environmental and climate change communities. This course will be an essential part of training for our RPg students. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC6900
+  - CNCC 6900
+  - CNCC Program Seminar I

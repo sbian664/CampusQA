@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：张弘策（Hongce ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：hongcezh@hkust-gz.edu.cn
+  办公室：W2 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Hongce/hongcezh
+  研究方向：
+    Hardware Formal Verification，
+    Model Checking，
+    Logic Design and Verification，

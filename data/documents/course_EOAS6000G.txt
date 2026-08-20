@@ -1,0 +1,22 @@
+course: EOASG 000G
+normalized_code: EOAS6000G
+title: Global Environmental Challenges: Science, Technology & Policy
+subject: EOAS
+catalog_number: "6000G"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Our generations face rapid global environmental changes resulting from rising human interventions to the air, water, land and climate. Addressing crucial contemporary environmental challenge requires an interdisciplinary mind set that recognizes the interconnections among environmental problems, as well as the science of their causes, potential technological solutions and policy instruments. This is a course covering selected topics in cutting-edge earth system studies and the science, technology and policy aspects, in order to equip students with both knowledge and analytical tools for approaching pressing environmental problems. Topics include planetary boundaries and sustainable development goals, the reactive nitrogen cycle, global land use change, biodiversity losses, transboundary air pollution, co-mitigation of air pollution and greenhouse gas emissions, international trade and environmental justice, etc. Through guided literature reading, seminar discussions, group presentations and projects, students will develop critical thinking skills, interdisciplinary research design capabilities, and passion for sustainable development, which could be adopted for their own future research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS6000G
+  - EOASG 000G
+  - Global Environmental Challenges: Science, Technology & Policy

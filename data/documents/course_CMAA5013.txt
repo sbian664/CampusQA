@@ -1,0 +1,22 @@
+course: CMAA 5013
+normalized_code: CMAA5013
+title: Interactive Storytelling
+subject: CMAA
+catalog_number: "5013"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores interactive storytelling as cinematic, narrative and interactive art forms. It focuses on the art and techniques of visual storytelling that can interact thematically with the audience in meaningful ways. Students will learn about the key aspects of filmmaking and can apply narrative and interactive principles to storytelling in playable media and platform.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5013
+  - CMAA 5013
+  - Interactive Storytelling

@@ -1,0 +1,22 @@
+course: AIAA 4911
+normalized_code: AIAA4911
+title: IT Entrepreneurship
+subject: AIAA
+catalog_number: "4911"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to provide an introduction to the basic elements of IT entrepreneurship. This course presents a step-by-step strategic road map for launching a successful venture or bringing innovative products and ideas to market more efficiently. Students will learn the framework of disciplined entrepreneurship through lectures, case studies, team exercises and coaching from experienced entrepreneurs. Students will complete the entrepreneurship course with a comprehensive view of how to make, market and sell a product that people want to buy. Through lectures, assignments and a final project, students will learn the necessary skills to design, implement and launch IT products to the market.
+
+requirements:
+  prerequisite: AIAA 2205
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4911
+  - AIAA 4911
+  - IT Entrepreneurship

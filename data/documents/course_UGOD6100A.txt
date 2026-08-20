@@ -1,0 +1,22 @@
+course: UGODA 100A
+normalized_code: UGOD6100A
+title: Behavioral Geography: Space-Time Dynamics of Human Mobility
+subject: UGOD
+catalog_number: "6100A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course examines human travel behavior and mobility patterns across spatial and temporal dimensions, with emphasis on interactions with built environment. Students will study how streetscapes, environmental exposures, urban form, and socio-economic conditions shape mobility choices, health, and well-being. The course integrates theoretical frameworks and cutting-edge analytical methodsâincluding AI agents for behavioral geography, machine learning, and spatial causal inferenceâalong with empirical data such as GPS tracking, mobile data, street imagery and environmental exposure data. Key topics include spatio-temporal behavior, built environment perception for mobility, micro-mobility behavior, and the cognitive processing of travel trajectories and decisions. Case studies address commuting patterns, accessibility disparities, shared mobility, and disaster resilience. The course also features visits to partner enterprises, promoting integration of academia, research, and industry practice.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100A
+  - UGODA 100A
+  - Behavioral Geography: Space-Time Dynamics of Human Mobility

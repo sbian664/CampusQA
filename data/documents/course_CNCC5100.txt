@@ -1,0 +1,22 @@
+course: CNCC 5100
+normalized_code: CNCC5100
+title: Carbon Neutrality and Climate Change
+subject: CNCC
+catalog_number: "5100"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the concepts of climate neutrality and climate change from a multidisciplinary perspective. The course covers the scientific, technological, economic, political, and social aspects of climate neutrality and climate change, including mitigation and adaptation strategies, carbon accounting, renewable energy, energy efficiency, carbon markets, climate policy, and international climate negotiations. The course also examines the ethical and justice dimensions of climate change, including the distributional impacts of climate policies and the responsibilities of different actors in addressing climate change. By the end of the course, students will have a comprehensive understanding of the challenges and opportunities of achieving climate neutrality and addressing climate change, as well as the skills to engage in cutting-edge research in this field.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5100
+  - CNCC 5100
+  - Carbon Neutrality and Climate Change

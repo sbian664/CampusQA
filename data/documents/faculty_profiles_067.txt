@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：KIM SUNG HUN（Sung Hun KIM）
+  职称：Associate Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：hunkim@hkust-gz.edu.cn
+  办公室：E3(C9) L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-Sung-Hun/hunkim
+  研究方向：
+    Programmer productivity，
+    Identifying faults in program development or in deployed programs by mining software repositories，
+    Source code (static analysis)，
+    Program execution (dynamic analysis)，

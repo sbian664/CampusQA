@@ -1,0 +1,22 @@
+course: CMAAA 018A
+normalized_code: CMAA6018A
+title: Independent Study
+subject: CMAA
+catalog_number: "6018A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent research project carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6018A
+  - CMAAA 018A
+  - Independent Study

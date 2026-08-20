@@ -1,0 +1,22 @@
+course: EOAS 5003
+normalized_code: EOAS5003
+title: Coupled Physical-Biogeochemical Dynamics in the Ocean
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5003
+  - EOAS 5003
+  - Coupled Physical-Biogeochemical Dynamics in the Ocean

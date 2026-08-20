@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：马军（Benedict Jun MA）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：junm@hkust-gz.edu.cn
+  办公室：E2 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Benedict-Jun/junm
+  研究方向：
+    Automated and Robotic Warehousing，
+    Air-Ground Collaborative Logistics，
+    AI-driven Human-Robot Collaboration，
+    Human-AI Collective Intelligence，
+    LLMs for Intelligent Supply Chains，
+    Technology Operations and Management，

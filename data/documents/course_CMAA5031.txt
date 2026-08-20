@@ -1,0 +1,22 @@
+course: CMAA 5031
+normalized_code: CMAA5031
+title: Introduction to Game Development
+subject: CMAA
+catalog_number: "5031"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a comprehensive course designed to introduce students to the fundamental aspects of game creation. Covering topics from game design principles, programming basics, art and sound design, to industry-standard software and tools, this course offers a hands-on approach to learning. Students will engage in both theoretical understanding and practical application, leading to the development of their own simple game project by the end of the course. This course is ideal for beginners aspiring to enter the field of game development and those seeking to understand the basics of this dynamic and creative industry.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5031
+  - CMAA 5031
+  - Introduction to Game Development

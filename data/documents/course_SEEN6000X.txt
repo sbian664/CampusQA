@@ -1,0 +1,22 @@
+course: SEENX 000X
+normalized_code: SEEN6000X
+title: Air Pollution Control
+subject: SEEN
+catalog_number: "6000X"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Air pollution presents substantial human health risks, contributes to climate change, incurs economic costs, diminishes visibility, and exacerbates social inequalities, highlighting the urgency of effective management strategies. This course offers a quantitative overview of air pollution characterization and control, with a particular emphasis on greenhouse gases. Half of this course focuses on control technologies, exploring both their theoretical foundations and practical applications, while the other half delves into essential background topics that inform the selection of these techniques. Through this comprehensive framework, students will develop a nuanced understanding of air quality management and its critical implications for public health and environmental sustainability.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000X
+  - SEENX 000X
+  - Air Pollution Control

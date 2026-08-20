@@ -1,0 +1,22 @@
+course: BSBE 5600
+normalized_code: BSBE5600
+title: Biosignal Processing
+subject: BSBE
+catalog_number: "5600"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the principles, implementation and applications of signal processing methods in biological research and biomedical engineering. Through a series of case studies and projects, the course will provide opportunities to acquire practical knowledge and skills of data analysis. General concepts of signals and systems, and a brief tutorial of MATLAB will be introduced at the beginning. Then data acquisition, filtering, coding, feature extraction, statistical inference, pattern classification, and modeling will be covered with emphasis on applications in real-world data. This course also includes a topic about neural signal processing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE5600
+  - BSBE 5600
+  - Biosignal Processing

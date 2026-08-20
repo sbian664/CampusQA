@@ -1,0 +1,22 @@
+course: DSAA 2012
+normalized_code: DSAA2012
+title: Deep Learning
+subject: DSAA
+catalog_number: "2012"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with an extensive exposure to deep learning. Topics include shallow and deep neural networks, activation functions and rectified linear unit, construction of deep neural networks and matrix representations including deep convolutional neural networks and deep recursive neural networks, computational issues including backpropagation, automatic differentiation, stochastic gradient descent, complexity analysis, approximation analysis including universality of approximation, design of deep neural network architectures and programming according to various applications.
+
+requirements:
+  prerequisite: DSAA 2011 or AIAA 3111
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA2012
+  - DSAA 2012
+  - Deep Learning

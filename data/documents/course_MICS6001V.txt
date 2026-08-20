@@ -1,0 +1,22 @@
+course: MICSV 001V
+normalized_code: MICS6001V
+title: Accelerated Computing with GPUs
+subject: MICS
+catalog_number: "6001V"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals of GPU-accelerated computing, focusing on how GPUs enable high-performance solutions for complex tasks in fields like AI, data analytics, and scientific simulations. Students will explore GPU architectures, learn parallel programming models such as CUDA and ROCM, and develop skills in memory management, performance optimization, and thread synchronization. Through hands-on projects, participants will gain practical experience in leveraging GPU parallelism to solve real-world computational challenges, preparing them to apply these techniques in industries.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001V
+  - MICSV 001V
+  - Accelerated Computing with GPUs

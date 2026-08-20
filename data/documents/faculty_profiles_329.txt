@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈思佳（Sijia CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：sijiachen@hkust-gz.edu.cn
+  办公室：W4 L5 521
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Sijia/sijiachen
+  研究方向：
+    Distributed computing, mainly federated learning，
+    Multimodal learning, mainly focusing on vision-language alignment，
+    Decision-making algorithm, especially game theory，
+    Reasoning language models，
+    Applications of large language models in finance，

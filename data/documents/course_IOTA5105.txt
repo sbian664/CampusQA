@@ -1,0 +1,22 @@
+course: IOTA 5105
+normalized_code: IOTA5105
+title: Fundamentals of Wireless Communications
+subject: IOTA
+catalog_number: "5105"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course lays theoretical foundation for students with general EE background to pursue research advances involving wireless communication-based systems, e.g., 4G/5G mobile communication, IoT and WLAN. In this course, concepts of wireless channels, its modelling as well as channel capacity for point-to-point/multi-user/MMO communications will be systematically introduced. Along with understanding of these theories, the principles and state-of-the-art technologies to combat fading and interference including general diversity techniques, OFDM, and multiple access schemes will be conveyed. Finally, a few advanced topics for 5G-and beyond (B5G) communication system design will be briefly introduced, such as massive MIMO and reconfigurable intelligent surface (RIS).
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5105
+  - IOTA 5105
+  - Fundamentals of Wireless Communications

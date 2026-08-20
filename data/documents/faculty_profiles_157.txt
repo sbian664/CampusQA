@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：王晓雨（Xiaoyu WANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：xiaoyuwang@hkust-gz.edu.cn
+  办公室：W1(C8) L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xiaoyu/xiaoyuwang
+  研究方向：
+    Theoretical Machine Learning，
+    Financial Engineering，
+    Applied Machine Learning in Finance，

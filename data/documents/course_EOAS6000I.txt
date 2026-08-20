@@ -1,0 +1,22 @@
+course: EOASI 000I
+normalized_code: EOAS6000I
+title: Environmental Exposure and Risk Assessment
+subject: EOAS
+catalog_number: "6000I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delivers an extensive examination of the processes involved in risk assessment and management related to environmental and public health. Topics include hazard identification, exposure analysis, dose-response relationships, ecological risk evaluation, and risk communication, among others. Each topic is crafted to equip students with the vital knowledge and skills necessary for conducting risk assessments in diverse contexts. The objective is to provide a comprehensive understanding of exposure and risk assessment while developing students' abilities to identify hazards, evaluate risks, and effectively communicate strategies for risk management.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS6000I
+  - EOASI 000I
+  - Environmental Exposure and Risk Assessment

@@ -1,0 +1,22 @@
+course: IPEN 5280
+normalized_code: IPEN5280
+title: Technological Catching-up Policies and Management
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5280
+  - IPEN 5280
+  - Technological Catching-up Policies and Management

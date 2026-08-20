@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：朱国毅（Guoyi ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：guoyizhu@hkust-gz.edu.cn
+  办公室：W4 L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Guoyi/guoyizhu
+  研究方向：
+    Entangled Quantum Matter meets Quantum Information，
+    Entangled states and tensor network，
+    Monitored quantum circuit dynamics，
+    Topological phases of matter and phase transitions，
+    Correlated electrons: spin liquid and unconventional superconductivity，

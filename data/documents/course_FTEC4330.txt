@@ -1,0 +1,22 @@
+course: FTEC 4330
+normalized_code: FTEC4330
+title: Game Theory
+subject: FTEC
+catalog_number: "4330"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Zero-sum games; minimax theorem; games in extensive form; strategic equilibrium; bi-matrix games; repeated Prisonner's Dilemma; evolutionary stable strategies; games in coalition form; core; Shapley Value; Power Index; two-side matching games.
+
+requirements:
+  prerequisite: FTEC 2120 AND FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4330
+  - FTEC 4330
+  - Game Theory

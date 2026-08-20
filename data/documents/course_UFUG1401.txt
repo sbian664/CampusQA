@@ -1,0 +1,22 @@
+course: UFUG 1401
+normalized_code: UFUG1401
+title: General Biology I
+subject: UFUG
+catalog_number: "1401"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  General Biology I is designed for students interested in understanding life processes and scientific discoveries shaping our knowledge of the natural world. It provides students with an overview of life science: basic characteristics of life, cell biology, essential concepts of genetics, evolution and ecosystems. The course consists of interactive lectures and hands-on lab activities. A special-topic seminar on biological intelligence will also be covered.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: Level 3 or above in HKDSE 1X Biology
+
+search_aliases:
+  - UFUG1401
+  - UFUG 1401
+  - General Biology I

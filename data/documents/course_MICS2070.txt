@@ -1,0 +1,22 @@
+course: MICS 2070
+normalized_code: MICS2070
+title: Introduction to Computer Organization and Design
+subject: MICS
+catalog_number: "2070"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course to computer hardware and software organization. The topics covered include computing systems, computing programing, hardware-software collaboration, computer arithmetic, computer hardware organizations and operations, parallel processing, memory technologies and organization, and technology trends.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS2070
+  - MICS 2070
+  - Introduction to Computer Organization and Design

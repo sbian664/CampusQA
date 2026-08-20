@@ -1,0 +1,22 @@
+course: UCUG 1505
+normalized_code: UCUG1505
+title: Creative Coding and Interactive Art
+subject: UCUG
+catalog_number: "1505"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to programming graphics and interaction for computational media and arts. Students learn the principles, algorithms, and coding frameworks for creating graphics and interaction with machines while also sharpening their sense of aesthetics. Each week, the relevant computational artworks employing these techniques are introduced, analyzed, and explored in practical assignments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1505
+  - UCUG 1505
+  - Creative Coding and Interactive Art

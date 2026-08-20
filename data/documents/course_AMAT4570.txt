@@ -1,0 +1,22 @@
+course: AMAT 4570
+normalized_code: AMAT4570
+title: Integrated circuit fabrication technology
+subject: AMAT
+catalog_number: "4570"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is intended to provide students with fundamental knowledge in device and integrated circuits (IC's) fabrication. The class covers the modules of device fabrication (including clean room concept, cleaning procedures, diffusion, lithography, wet processing, dry etching, chemical vapor deposition, sputtering) and process integration to form IC's.
+
+requirements:
+  prerequisite: AMAT 3350
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT4570
+  - AMAT 4570
+  - Integrated circuit fabrication technology

@@ -1,0 +1,22 @@
+course: UCUG 1702
+normalized_code: UCUG1702
+title: Introduction to Materials Science and Applications
+subject: UCUG
+catalog_number: "1702"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is to introduce the field of materials science and engineering and to survey the role that materials have played in shaping our society. This course will introduce different categories of materials and elucidate their applications. Concepts of different kinds of materials and the basic structures at different scales will be studied. Relevant design and principles will be explored to understand the structure-property relationship, with the purpose of providing a foundation for students to understand the common properties of materials and to evaluate the social, economic, and environmental impact of materials.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1702
+  - UCUG 1702
+  - Introduction to Materials Science and Applications

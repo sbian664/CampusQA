@@ -1,0 +1,22 @@
+course: SEEN 5170
+normalized_code: SEEN5170
+title: Electric Drives and Control Techniques
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5170
+  - SEEN 5170
+  - Electric Drives and Control Techniques

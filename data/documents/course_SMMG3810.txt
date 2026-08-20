@@ -1,0 +1,22 @@
+course: SMMG 3810
+normalized_code: SMMG3810
+title: Smart Manufacturing Laboratory I
+subject: SMMG
+catalog_number: "3810"
+credits: 2
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory laboratory course to provide students with training in experimental techniques and laboratory procedures, data acquisition, analysis, and presentation. This course series aims at offering students an opportunity to face real problems in real manufacturing environments through the application of smart manufacturing methods to support the engineering and management of high-value-added products, the continuous innovation of products and processes, the sustainability of products and production systems along their lifecycle.
+
+requirements:
+  prerequisite: UFUG 1501 or UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3810
+  - SMMG 3810
+  - Smart Manufacturing Laboratory I

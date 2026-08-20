@@ -1,0 +1,22 @@
+course: DSAA 4031
+normalized_code: DSAA4031
+title: Data Management for Data Science
+subject: DSAA
+catalog_number: "4031"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an advanced course for understanding the importance of data quality (with an exposure of typical data quality topics such as missing values, outliers, (near-) duplicates and entity resolution) for different data science tasks (e.g., analytical queries, visualizations, and machine learning), and solving them using rule-based methods, machine learning based, deep learning based, and foundation model based methods. It will also introduce methods to improve machine/deep learning model performance throughout its life cycle.
+
+requirements:
+  prerequisite: DSAA 2031
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4031
+  - DSAA 4031
+  - Data Management for Data Science

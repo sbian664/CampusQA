@@ -1,0 +1,22 @@
+course: BSBEL 000L
+normalized_code: BSBE6000L
+title: Structural Biology and Drug Discovery
+subject: BSBE
+catalog_number: "6000L"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is structured into two main sections: the first part explores the fundamental principles and the latest advancements in structural biology, which are essential for understanding the molecular basis underlying drug action. The second part presents a thorough overview of the various modalities to drug discovery as practiced in the pharmaceutical industry, demonstrating how knowledge of protein structures can be used to design and optimize drug molecules.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000L
+  - BSBEL 000L
+  - Structural Biology and Drug Discovery

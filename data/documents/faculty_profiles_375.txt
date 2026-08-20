@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：张坚（Jian ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：jianz@hkust-gz.edu.cn
+  办公室：E2 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Jian/jianz
+  研究方向：
+    Operating System，
+    Storage System，
+    Computer Architecture，
+    HPC，
+    Distributed Systems，
+    AI Systems，

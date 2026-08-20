@@ -1,0 +1,27 @@
+course: IPENC 100C
+normalized_code: IPEN6100C
+title: Carbon Emissions and Mitigation
+subject: IPEN
+catalog_number: "6100C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces where, how and why carbon emissions come from and can be mitigated, with further understanding of related economic, technological and environmental aspects of actions. 
+The course is organized into three main parts:
+â¢ Part I: A general understanding of the major sources and removals of, sectoral and regional contributions to, greenhouse gas (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and F gases) emissions across natural and anthropogenic systems, with an emphasis on transition away from fossil fuels. Focuses will be mainly on questions related to where, why, when and how. In addition, MRV (measurable, reportable, and verifiable) issues will covered in this part.
+â¢ Part II: An in-depth investigation into mitigation options, their respective economic, social and technological potentials, and sectoral and regional effectiveness and impacts.
+â¢ Part III: An overview of policy options, governance and co-operation among market and political entities, and further comparative analysis of mitigation policies and actions.  
+Through lectures, readings, case examinations/illustrations and field trips, and data analysis exercises, students will develop skills to interpret CO2 emissions and mitigation options, evaluate methodological strengths and limitations, and carry out GHG MRV and carbon footprints assessments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100C
+  - IPENC 100C
+  - Carbon Emissions and Mitigation

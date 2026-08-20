@@ -1,0 +1,22 @@
+course: LANG 5000
+normalized_code: LANG5000
+title: Foundation in Listening & Speaking for Postgraduate Students
+subject: LANG
+catalog_number: "5000"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - LANG5000
+  - LANG 5000
+  - Foundation in Listening & Speaking for Postgraduate Students

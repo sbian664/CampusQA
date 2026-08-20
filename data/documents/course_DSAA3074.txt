@@ -1,0 +1,22 @@
+course: DSAA 3074
+normalized_code: DSAA3074
+title: Deep Learning for Science
+subject: DSAA
+catalog_number: "3074"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Advances in machine learning and deep machine learning are continuously penetrating computational science and engineering. This course will introduce students to recent advances in data-driven scientific research based on deep learning techniques. It will cover topics including advanced deep neural network models, physics-informed neural networks (PINN) for model discovery, prediction, and uncertainty quantification, and other computational tasks (e.g., molecular dynamics simulation and deep potentials) aided by deep learning methods.
+
+requirements:
+  prerequisite: (DSAA 2011 OR DSAA 2012 OR AIAA 3111) AND (UFUG 2106 OR DSAA 2088)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3074
+  - DSAA 3074
+  - Deep Learning for Science

@@ -1,0 +1,22 @@
+course: UGOD 5700
+normalized_code: UGOD5700
+title: Categorical Data Analysis
+subject: UGOD
+catalog_number: "5700"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on statistical analysis of data that are categorical or non-continuous in nature. The contents cover a family of statistical models that deal with binary data, discrete data, count data, and categorical data with special features such as truncation and overdispersion. The course gives emphasis to modeling techniques and hands-on applications to empirical research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5700
+  - UGOD 5700
+  - Categorical Data Analysis

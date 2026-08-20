@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：钟秉灼（Bingzhuo ZHONG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：bingzhuoz@hkust-gz.edu.cn
+  办公室：W4(C8) L3 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Bingzhuo/bingzhuoz
+  研究方向：
+    具身智能安全 Safe and Secure Embodied Intelligence，
+    信息物理系统验证和控制 Verification and Control of Cyber-Physical Systems，
+    人工智能 + （低空经济/海洋/教育/智能制造）AI + (Low-altitude Economy, Ocean Engineering, Education, Smart Manufacturing)，

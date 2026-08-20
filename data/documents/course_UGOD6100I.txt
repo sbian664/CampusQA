@@ -1,0 +1,22 @@
+course: UGODI 100I
+normalized_code: UGOD6100I
+title: Experiential Learning: âLiving Structure + AIâ Inspired Design
+subject: UGOD
+catalog_number: "6100I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, students explore architectural beauty through living structures and AI-driven design. Weekly sessions blend theory and practice, focusing on Christopher Alexanderâs living structure principles. Open to all disciplines, the course requires no prior experience. Participants engage in real projects and digital fabrication, enhancing creative and technical skills. The program emphasizes architecture's impact on well-being, culminating in a final presentation of innovative designs that harmonize structure and style.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100I
+  - UGODI 100I
+  - Experiential Learning: âLiving Structure + AIâ Inspired Design

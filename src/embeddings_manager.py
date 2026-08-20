@@ -11,11 +11,54 @@ from typing import List
 from config import (
     KB_EMBEDDINGS_PROVIDER,
     EMBEDDINGS_MODEL,
+    EMBEDDINGS_MODEL_PATH,
+    EMBEDDINGS_AUTO_DOWNLOAD,
     EMBEDDINGS_CACHE_FILE,
     OPENAI_API_KEY,
     OPENAI_API_BASE,
     OPENAI_EMBEDDINGS_MODEL,
 )
+
+
+def _is_local_embedding_model_ready(model_path: str) -> bool:
+    """检查本地模型是否至少包含 Sentence-Transformers 的完整入口文件。"""
+    return (
+        os.path.isfile(os.path.join(model_path, "modules.json"))
+        and os.path.isfile(os.path.join(model_path, "1_Pooling", "config.json"))
+    )
+
+
+def _download_embedding_model(model_name: str, model_path: str) -> None:
+    """将 Hugging Face 模型仓库下载到项目目录，而不是依赖全局缓存。"""
+    from huggingface_hub import snapshot_download
+
+    os.makedirs(model_path, exist_ok=True)
+    snapshot_download(repo_id=model_name, local_dir=model_path)
+
+
+def ensure_local_embedding_model(
+    model_name: str = EMBEDDINGS_MODEL,
+    model_path: str = EMBEDDINGS_MODEL_PATH,
+    auto_download: bool = EMBEDDINGS_AUTO_DOWNLOAD,
+) -> str:
+    """返回可供本地加载的模型目录，缺失时只下载一次。"""
+    model_path = os.path.abspath(os.fspath(model_path))
+    if _is_local_embedding_model_ready(model_path):
+        print(f"[embeddings] use local model: {model_path}")
+        return model_path
+
+    if not auto_download:
+        raise FileNotFoundError(
+            f"本地 Embeddings 模型不存在或不完整: {model_path}。"
+            "请先下载模型，或设置 EMBEDDINGS_AUTO_DOWNLOAD=true。"
+        )
+
+    print(f"[embeddings] download model to: {model_path}")
+    _download_embedding_model(model_name, model_path)
+    if not _is_local_embedding_model_ready(model_path):
+        raise RuntimeError(f"Embeddings 模型下载完成但文件不完整: {model_path}")
+    print(f"[embeddings] model downloaded: {model_path}")
+    return model_path
 
 
 # ==================== 抽象基类 ====================
@@ -49,10 +92,11 @@ class LocalEmbeddingsProvider(EmbeddingsProvider):
 
     def __init__(self):
         from sentence_transformers import SentenceTransformer
-        print(f"📥 加载本地向量模型: {EMBEDDINGS_MODEL}")
-        self.model = SentenceTransformer(EMBEDDINGS_MODEL)
+        model_path = ensure_local_embedding_model()
+        print(f"[embeddings] load local model: {model_path}")
+        self.model = SentenceTransformer(model_path, local_files_only=True)
         self._dim = self.model.get_embedding_dimension()
-        print(f"✓ 模型已加载，向量维度: {self._dim}")
+        print(f"[embeddings] model ready, dimension: {self._dim}")
 
     def embed_text(self, text: str) -> List[float]:
         return self.model.encode(text, normalize_embeddings=True).tolist()

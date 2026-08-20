@@ -1,0 +1,23 @@
+course: BSBEI 000I
+normalized_code: BSBE6000I
+title: Concept and Application of Chemical Biology
+subject: BSBE
+catalog_number: "6000I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an overview of chemical biology, including the key concepts and recent development in chemical methodologies and biological applications. Topics will cover a broad range of chemical tools and molecular methods including bioorthogonal chemistry, photochemistry, genetic code expansion, chemical probe and reporter, and to showcase how these interdisciplinary technologies enable new biological discoveries relevant to DNA, RNA, and protein, with diverse examples from epigenetics, microbiology, and drug discovery.
+Students will gain a whole picture of the concepts and technologies in the field of chemical biology and learn how chemical approaches can power fundamental research as well as clinical translation. Moreover, students will learn the guiding principles and practical considerations when develop and implement chemical biology approaches in their own research, with a series of workshop and case studies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000I
+  - BSBEI 000I
+  - Concept and Application of Chemical Biology

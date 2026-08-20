@@ -1,0 +1,22 @@
+course: UCUGS 052S
+normalized_code: UCUG1052S
+title: Academic English for University Studies
+subject: UCUG
+catalog_number: "1052S"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1052S
+  - UCUGS 052S
+  - Academic English for University Studies

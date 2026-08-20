@@ -1,0 +1,22 @@
+course: ROAS 5210
+normalized_code: ROAS5210
+title: Advanced Robotics
+subject: ROAS
+catalog_number: "5210"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Learning about the core principles and latest developments in Robotics is crucial for nurturing innovative students in this field. This course provides a comprehensive overview of the core concepts in robotics. Students will mainly explore the principles of robot kinematics, dynamics, planning and control. In addition, some latest advancements in robotics integrated with artificial intelligence will also be discussed, such as VLA and robot foundation models.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5210
+  - ROAS 5210
+  - Advanced Robotics

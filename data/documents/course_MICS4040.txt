@@ -1,0 +1,22 @@
+course: MICS 4040
+normalized_code: MICS4040
+title: Analogue Integrated Circuits Design and Analysis
+subject: MICS
+catalog_number: "4040"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Multiple-stage operational amplifiers, frequency response, feedback analysis, stability and compensation, Slew rate, advanced amplifier design techniques, analog VLSI building blocks.
+
+requirements:
+  prerequisite: ROAS 2200
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS4040
+  - MICS 4040
+  - Analogue Integrated Circuits Design and Analysis

@@ -1,0 +1,22 @@
+course: DLED 4040
+normalized_code: DLED4040
+title: English Communication II for Systems Hub Programs
+subject: DLED
+catalog_number: "4040"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course makes use of the Final Year Thesis or Final Year Capstone Project with their associated spoken and written components to maximize the language and literacy gains from carrying out this significant piece of work. The course supports students in producing the communicative components of the project and, though iterations of those components, further develops and refines their ability to present and write at a high level in an academic context. Graded: Letter grade or PP. For Year 4 students in Systems Hub only.
+
+requirements:
+  prerequisite: DLED 3040
+  corequisite: SMMG 4901 or SMMG 4960
+  exclusion: none
+
+search_aliases:
+  - DLED4040
+  - DLED 4040
+  - English Communication II for Systems Hub Programs

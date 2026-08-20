@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：汤凯（Kai TANG）
+  职称：Thrust Head
+  学域：Thrust of Smart Manufacturing
+  邮箱：mektang@hkust-gz.edu.cn
+  办公室：W4 L3 314
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Kai/mektang
+  研究方向：
+    Computer-aided design and manufacturing (CAD / CAM)，
+    Multi-axis machining of complex parts，
+    Multi-axis additive manufacturing，
+    Hybrid manufacturing，

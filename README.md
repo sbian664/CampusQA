@@ -1,10 +1,10 @@
 # 知识库 AI Agent（项目名：CampusQA）— v1.2.0
 
-从基础对话框架逐步演进为知识库问答系统，现已支持 **Web 前端**（ChatGPT 风格）。
+从基础对话框架逐步演进为面向微信小程序的 FastAPI 知识库问答后端。
 
-> v1.2.0 新增请求级 CrossEncoder 智能重排、前端持久化开关、多轮上下文路由，并提升知识库批量索引并发安全性。
+> v1.2.0 新增请求级 CrossEncoder 智能重排、多轮上下文路由，并提升知识库批量索引并发安全性。
 
-智能搜索由前端按请求传递 `rerank_enabled`，不会修改服务器全局状态；关闭时保持原有混合检索排序。首次开启会懒加载 CrossEncoder 模型。
+智能搜索由请求传递 `rerank_enabled`，不会修改服务器全局状态；关闭时保持原有混合检索排序。首次开启会加载项目本地 CrossEncoder 模型。
 
 多轮对话默认启用上下文路由：首轮问题直接进入问答流程；后续问题由 `deepseek-chat` 判断为独立问题或追问。独立问题不携带旧历史，追问会被改写成可独立检索的问题，并只保留最近一轮相关对话。路由失败时会保守使用原问题和最近一轮历史，完整 Session 仍保存用户原始输入。
 
@@ -25,25 +25,18 @@ knowledge-agent/
 │   ├── reranker.py            # CrossEncoder 懒加载与请求级智能重排
 │   ├── vector_store.py        # 向量存储抽象（Chroma / Faiss）
 │   └── tools.py               # Agent 工具定义 + ToolHandler
-├── frontend/                 # Vue 3 Web 前端（ChatGPT 风格）
-│   ├── src/
-│   │   ├── App.vue
-│   │   ├── intelligentSearch.js    # 智能搜索开关本地持久化
-│   │   └── components/
-│   │       ├── ChatBubble.vue      # 气泡组件（marked + DOMPurify）
-│   │       ├── ChatMessages.vue    # 消息列表 + 自动滚底
-│   │       ├── ChatInput.vue       # auto-resize 输入框
-│   │       └── ErrorToast.vue      # 错误提示
-│   └── vite.config.js
 ├── data/
 │   ├── documents/            # 知识文档存放目录
-│   ├── cache/               # 缓存数据
-│   └── kb.db/              # Chroma 向量数据库 (SQLite)
+│   ├── cache/                # 运行时缓存（不提交）
+│   ├── embeddings/           # 本地 embedding 模型（不提交）
+│   └── reranker/             # 本地 reranker 模型（不提交）
+├── scripts/
+│   └── download_models.py    # 预下载两个本地模型
 ├── server.py               # FastAPI Web API 服务器
 ├── config.py                # 配置文件
-├── main.py                 # 启动脚本 (CLI 交互)
 ├── requirements.txt        # Python 依赖
-└── .env.example           # 环境变量示例
+├── API_REFERENCE.md        # API 接口文档
+└── .env.example            # 环境变量示例
 ```
 
 ## 快速开始
@@ -81,29 +74,21 @@ cp .env.example .env
 DEEPSEEK_API_KEY=your_actual_key_here
 ```
 
-### 5. 运行程序
-
-**方式一：Web 界面（推荐）**
+### 5. 预下载模型（可选）
 
 ```bash
-# 终端 1 — 启动后端 API
+python scripts/download_models.py
+```
+
+### 6. 启动后端 API
+
+```bash
 python server.py
-
-# 终端 2 — 启动前端开发服务器
-cd frontend
-npm install
-npm run dev
 ```
 
-浏览器访问 `http://localhost:5173`，即可使用 ChatGPT 风格界面。
+微信小程序按 [API_REFERENCE.md](API_REFERENCE.md) 调用 `http://<host>:8000`。
 
-**方式二：命令行**
-
-```bash
-python main.py
-```
-
-### 6. 使用命令
+### 7. 使用命令
 
 程序启动后自动加载知识库，你可以：
 
@@ -196,6 +181,9 @@ Agent: 根据知识库文档，监督学习是...
 |----------|--------|------|
 | `VECTOR_STORE` | `chroma` | 后端：`chroma`（SQLite）/ `faiss`（内存索引） |
 | `EMBEDDINGS_PROVIDER` | `local` | 向量化：`local`（MiniLM）/ `openai` / `deepseek_api` |
+| `EMBEDDINGS_MODEL` | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | Hugging Face 模型名称，仅在本地模型缺失时用于首次下载 |
+| `EMBEDDINGS_MODEL_PATH` | `data/embeddings/paraphrase-multilingual-MiniLM-L12-v2` | 项目本地模型目录 |
+| `EMBEDDINGS_AUTO_DOWNLOAD` | `true` | 本地模型不存在时是否自动下载；设为 `false` 可强制离线启动 |
 | `OPENAI_API_KEY` | — | OpenAI Embeddings API 密钥 |
 | `OPENAI_API_BASE` | `https://api.openai.com/v1` | OpenAI 兼容 API 地址 |
 | `OPENAI_EMBEDDINGS_MODEL` | `text-embedding-3-small` | OpenAI Embeddings 模型 |
@@ -213,6 +201,8 @@ Agent: 根据知识库文档，监督学习是...
 | `METADATA_FILTER_FIELDS` | `doc_type, source, mtime_after, mtime_before` | 可过滤元数据字段 |
 | `RERANKER_AVAILABLE` | `True` | 是否允许聊天请求启用 CrossEncoder 智能重排 |
 | `RERANKER_MODEL` | `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1` | 重排模型（首次使用时懒加载） |
+| `RERANKER_MODEL_PATH` | `data/reranker/mmarco-mMiniLMv2-L12-H384-v1` | 项目本地重排模型目录 |
+| `RERANKER_AUTO_DOWNLOAD` | `true` | 本地重排模型不存在时是否自动下载 |
 | `RERANKER_CANDIDATE_K` | `30` | 交给重排模型的混合检索候选数 |
 | `RERANKER_BATCH_SIZE` | `16` | CrossEncoder 推理批量大小 |
 | `RERANKER_MAX_LENGTH` | `512` | CrossEncoder 最大输入长度 |

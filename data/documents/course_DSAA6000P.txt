@@ -1,0 +1,22 @@
+course: DSAA 6000P
+normalized_code: DSAA6000P
+title: Game Theory
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000P
+  - DSAA 6000P
+  - Game Theory

@@ -1,0 +1,22 @@
+course: AMAT 5996
+normalized_code: AMAT5996
+title: Modern Quantum Mechanics
+subject: AMAT
+catalog_number: "5996"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Quantum mechanics is considered the most fundamental theory for understanding our world. It has been used in many areas, including the prediction of material properties, the establishment of quantum computing devices, and the prediction of phase transitions. This course introduces quantum mechanics with modern language, which covers Chapters 1-5, 7 of J.J. Sakurai's famous book "Modern Quantum Mechanics": fundamental concepts, quantum dynamics, theory of angular momentum, symmetry in quantum mechanics, and approximation methods and identical particles.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5996
+  - AMAT 5996
+  - Modern Quantum Mechanics

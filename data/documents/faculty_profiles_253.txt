@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：钟梓昕（Zixin ZHONG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zixinzhong@hkust-gz.edu.cn
+  办公室：W1 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong
+  研究方向：
+    Reinforcement Learning，
+    Online Learning，
+    Multi-armed Bandits，

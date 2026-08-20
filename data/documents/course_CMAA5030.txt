@@ -1,0 +1,22 @@
+course: CMAA 5030
+normalized_code: CMAA5030
+title: Interactive Music Systems Design
+subject: CMAA
+catalog_number: "5030"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides a comprehensive overview of the main digital sound manipulation and synthesis and their application in the design of interactive music systems. At the end of the course, students will have a solid knowledge of Pure Data, a visual programming language that can be incorporated in a number of interactive environments. Additionally, a number of research topics in the field will be explored.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5030
+  - CMAA 5030
+  - Interactive Music Systems Design

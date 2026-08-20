@@ -1,0 +1,22 @@
+course: ROAS 4220
+normalized_code: ROAS4220
+title: Introduction to Robotics: Kinematics, Planning and Control
+subject: ROAS
+catalog_number: "4220"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, fundamental concepts and modelling methods of modern robotics are introduced: Kinematics, motion planning and control. These components are integrated to model, design, and control of mobile robots and manipulators to serve engineering or scientific needs. Students will learn: (1) basic concepts of robotics; (2) how to use mathematical methods to model kinematics of mobile robots and manipulators and understanding the physical meaning behind these models; (3) the classical algorithmsto plan robot motion and the idea behind them; (4) how to design controllers with consideration of motion and force, including traditional methods and learning methods; and (5) how to design and implement algorithms on a real mobile-manipulation robot system during the course project.
+
+requirements:
+  prerequisite: UFUG 2102 & UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS4220
+  - ROAS 4220
+  - Introduction to Robotics: Kinematics, Planning and Control

@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：杨锌（Xin YANG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：xiny@hkust-gz.edu.cn
+  办公室：W4 L5 537
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Xin/xiny
+  研究方向：
+    Non-contact Sensing，
+    Integrated Sensing and Communication，
+    Flexible Bioelectronics，
+    Edge Computing，
+    Biomedical Device Fabrication and Integration，

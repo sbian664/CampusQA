@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：罗琼（Qiong LUO）
+  职称：Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：luo@hkust-gz.edu.cn
+  办公室：E1 L4 401
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  研究方向：
+    Database systems，
+    Parallel and distributed systems，
+    Data-intensive applications，

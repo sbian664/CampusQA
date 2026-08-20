@@ -1,0 +1,22 @@
+course: IOTA 5006
+normalized_code: IOTA5006
+title: Distributed Systems: Concepts and Applications
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5006
+  - IOTA 5006
+  - Distributed Systems: Concepts and Applications

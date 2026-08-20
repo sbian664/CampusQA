@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：刘李（Li LIU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：avrillliu@hkust-gz.edu.cn
+  办公室：E4 L4 405
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu
+  研究方向：
+    · Few-shot Learning，
+    · AI Security and Transferability，
+    · AI for Medical Imaging，
+    · Audio-visual Cued Speech Recognition/Generation，

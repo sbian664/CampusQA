@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：芦尚奇（Shangqi LU）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：shangqilu@hkust-gz.edu.cn
+  办公室：E3 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu
+  研究方向：
+    Database Query Processing，
+    Vector Databases，

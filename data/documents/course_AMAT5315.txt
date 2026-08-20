@@ -1,0 +1,22 @@
+course: AMAT 5315
+normalized_code: AMAT5315
+title: Modern Scientific Computing
+subject: AMAT
+catalog_number: "5315"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course about computational methods for physical systems such as quantum physics, spin glass et al. It requires knowledge about linear algebra and familiarity of any programming language. The course covers not only computational methods related to matrix/tensor computation, differential programming, and combinatorial optimization, but also techniques related to CUDA programming and the Julia programming language.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5315
+  - AMAT 5315
+  - Modern Scientific Computing

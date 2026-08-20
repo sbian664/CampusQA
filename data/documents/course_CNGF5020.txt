@@ -1,0 +1,22 @@
+course: CNGF 5020
+normalized_code: CNGF5020
+title: Environmental Modeling and Big Data Analytics
+subject: CNGF
+catalog_number: "5020"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course equips students with knowledge and skills to leverage big data for environmental modeling and decision-making in the context of carbon neutrality. Through lectures, case studies, and projects, students learn cutting-edge statistical and computational tools to process, analyze, and visualize large-scale environmental datasets, and apply these techniques to real-world problems related to climate change mitigation, renewable energy, and sustainable land use.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF5020
+  - CNGF 5020
+  - Environmental Modeling and Big Data Analytics

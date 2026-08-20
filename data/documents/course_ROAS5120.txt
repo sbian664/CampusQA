@@ -1,0 +1,22 @@
+course: ROAS 5120
+normalized_code: ROAS5120
+title: Formal Verification and Control of Dynamical Systems
+subject: ROAS
+catalog_number: "5120"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Formal methods originate from theoretical computer science and have been seamlessly integrated with dynamical systems. At its core, formal methods involve formulating specifications to form proof obligations, verifying that the systems indeed meet their specifications via algorithmic proof search, and designing systems to meet those obligations. This course bridges fundamental gaps between formal methods and control theory. It introduces fundamental theories and techniques of formal methods that apply broadly to various dynamical systems, such as robots, autonomous systems and cyber physical systems. Particularly, the following topics will be covered: symbolic system modeling, regular and omega-regular properties, linear temporal logic, model checking, system simulation and abstraction, game theoretic control synthesis and cutting-edge engineering applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5120
+  - ROAS 5120
+  - Formal Verification and Control of Dynamical Systems

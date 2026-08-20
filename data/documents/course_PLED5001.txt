@@ -1,0 +1,22 @@
+course: PLED 5001
+normalized_code: PLED5001
+title: Communicating Research in English
+subject: PLED
+catalog_number: "5001"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - PLED5001
+  - PLED 5001
+  - Communicating Research in English

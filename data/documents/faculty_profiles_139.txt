@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：常腾飞（Tengfei CHANG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：tengfeichang@hkust-gz.edu.cn
+  办公室：W2(C8) L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHANG-Tengfei/tengfeichang
+  研究方向：
+    Low-Power Wireless Mesh Networks，
+    Indoor Wireless Localization，
+    Sensor Fusion，
+    Swarm Robotics/Intelligence，

@@ -1,0 +1,22 @@
+course: FTEC 4320
+normalized_code: FTEC4320
+title: Financial Data Analysis
+subject: FTEC
+catalog_number: "4320"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Financial Data Analysis explores state-of-the-art approaches for extracting insights and building AI-driven intelligent systems using diverse financial data sources. Students will engage in hands-on projects that involve analyzing and modeling multimodal financial data, including time-series (e.g., stock prices), textual data (e.g., news and social media), graph data (e.g., supply chain), tabular data (e.g., company fundamentals), and alternative data (satellite images). Drawing on tools from artificial intelligence and statistical modeling, students will learn to design and evaluate data-driven solutions to real-world financial tasks such as market prediction, sentiment analysis, and risk estimation. Through guided projects and open-ended problem-solving, students will gain experience in end-to-end data workflows, from acquisition and preprocessing to modeling and evaluation. The course emphasizes implementation and experimentation, preparing students for future research and industry roles in FinTech.
+
+requirements:
+  prerequisite: DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4320
+  - FTEC 4320
+  - Financial Data Analysis

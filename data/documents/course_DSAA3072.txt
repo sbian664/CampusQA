@@ -1,0 +1,22 @@
+course: DSAA 3072
+normalized_code: DSAA3072
+title: Advanced Theories in Computing
+subject: DSAA
+catalog_number: "3072"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an introduction to the theory of computational complexity and standard complexity classes, solving discrete and continuous optimization problems under various settings (exact, heuristic, randomized or approximate). It will also introduce theoretical methods and results in different areas.
+
+requirements:
+  prerequisite: DSAA 3071
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3072
+  - DSAA 3072
+  - Advanced Theories in Computing

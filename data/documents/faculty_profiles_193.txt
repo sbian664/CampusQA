@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：YASA IMMIHAN CEREN（IMMIHAN CEREN YASA）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：cerenyasa@hkust-gz.edu.cn
+  办公室：W4 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHAN-CEREN/cerenyasa
+  研究方向：
+    Medical microrobotics，
+    Complex cellular systems and biohybrid robotics，
+    Point-of-care devices，
+    Biomaterials，

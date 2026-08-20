@@ -1,0 +1,22 @@
+course: FTEC 4260
+normalized_code: FTEC4260
+title: Computer and Communication Network
+subject: FTEC
+catalog_number: "4260"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Principles of computer network architectures and communication protocols; the OSI reference model; switching and multiplexing techniques; data link, network, transport and application layers; LAN and medium access protocols; network programming.
+
+requirements:
+  prerequisite: FTEC 3220
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4260
+  - FTEC 4260
+  - Computer and Communication Network

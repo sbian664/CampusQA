@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：汤南（Nan TANG）
+  职称：Associate Dean
+  学域：Information Hub
+  邮箱：nantang@hkust-gz.edu.cn
+  办公室：E3 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  研究方向：
+    Data-Centric AI，
+    Retrieval-Augmented Generation for High-fidelity Reasoning of Large Language Models，
+    AI for Data Preparation，

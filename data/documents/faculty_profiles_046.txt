@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：贺登博（Dengbo HE）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：dengbohe@hkust-gz.edu.cn
+  办公室：W3 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe
+  研究方向：
+    Human Factors，
+    Driver Behaviors，
+    Driving Automation，
+    Driver State Estimation，

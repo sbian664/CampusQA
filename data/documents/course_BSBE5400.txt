@@ -1,0 +1,22 @@
+course: BSBE 5400
+normalized_code: BSBE5400
+title: Fundamentals of Light Microscopy and Electronic Imaging
+subject: BSBE
+catalog_number: "5400"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The goal of this course is to provide a fundamental introduction to light microscopy and electronic imaging. In the past 20 years, much has happened to light microscopy into the forefront of biomedical research methodologies. Topics to be covered include principles and practice of optical imaging, light and color, the point spread function and resolution, phase contrast microscopy and darkfield microscopy, differential interference contrast microscopy, fluorescence microscopy, confocal laser scanning microscopy, two-photon excitation fluorescence microscopy, super resolution imaging, imaging living cells with the microscope, digital imaging introduction and noise, digital image processing and other related topics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE5400
+  - BSBE 5400
+  - Fundamentals of Light Microscopy and Electronic Imaging

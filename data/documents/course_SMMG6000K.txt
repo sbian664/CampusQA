@@ -1,0 +1,22 @@
+course: SMMG 6000K
+normalized_code: SMMG6000K
+title: Introduction to Engineering Data Analytics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000K
+  - SMMG 6000K
+  - Introduction to Engineering Data Analytics

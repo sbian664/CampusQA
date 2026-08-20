@@ -1,0 +1,22 @@
+course: IOTA 5003
+normalized_code: IOTA5003
+title: Wireless Connectivity for Mobile Autonomous Things
+subject: IOTA
+catalog_number: "5003"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to develop studentsâ fundamental understanding of the application scenarios, challenges, and solutions of wireless connectivity in various systems involving autonomous things, and under possible mobility. Topics covered include fundamentals of digital communications, future wireless connectivity requirements, and various solutions to the unique challenges such as dynamic propagation environment, scalability, complexity, and heterogeneity.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5003
+  - IOTA 5003
+  - Wireless Connectivity for Mobile Autonomous Things

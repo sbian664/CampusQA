@@ -1,0 +1,22 @@
+course: IOTA 5108
+normalized_code: IOTA5108
+title: Incremental Learning and Adaptive Signal Processing
+subject: IOTA
+catalog_number: "5108"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to develop studentsâ fundamental understanding of the theory and application of incremental learning and adaptive signal processing. Topics covered in this course include Wiener filter, least mean squares (LMS), recursive least squares (RLS), the Kalman filter, classification, parameter learning, neural network and deep learning.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5108
+  - IOTA 5108
+  - Incremental Learning and Adaptive Signal Processing

@@ -1,0 +1,22 @@
+course: AMAT 5850
+normalized_code: AMAT5850
+title: Molecular Dynamics Simulations for Biomolecules
+subject: AMAT
+catalog_number: "5850"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Molecular dynamics simulation provides the evolution of the system at the atomistic level. As a computational microscope, molecular dynamics simulation has attracted unprecedented attention and rendered a wide range of applications in current scientific and industrial research, particularly for biomolecular systems. This course will introduce an overview of the molecular dynamics simulation, then describe the principles underlying this advanced technique, and discuss its applications in studying the structure and dynamics of biomolecules, such as proteins and nucleic acids.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5850
+  - AMAT 5850
+  - Molecular Dynamics Simulations for Biomolecules

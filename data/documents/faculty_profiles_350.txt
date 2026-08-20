@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：段凌杰（Lingjie DUAN）
+  职称：Professor
+  学域：Thrust of Internet of Things
+  邮箱：lingjieduan@hkust-gz.edu.cn
+  办公室：E1 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Lingjie/lingjieduan
+  研究方向：
+    Human-in-the-loop AI，
+    Distributed machine learning，
+    Computer networking，
+    Algorithmic game theory，
+    Network Economics，

@@ -1,0 +1,22 @@
+course: AIAA 4213
+normalized_code: AIAA4213
+title: Introduction to Bayesian Networks
+subject: AIAA
+catalog_number: "4213"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The major objective of the course is to teach students the principles of probabilistic models and deep (unsupervised) models in Machine Learning and Artificial Intelligence, and how to use existing tools to implement those principles (probabilistic programming languages). This course provides students with a solid foundation to the field of probability, Bayesian statistics, latent variable modeling and approximate inference. Students will learn about the core concepts in probabilistic machine learning and emerging techniques, including deep ensembles and deep Gaussian processes. The course is offered as a combination of lectures, written and coding assignments, and course projects. Students are expected to be equipped with modeling and learning algorithms through the lens of Bayesian analysis. Assignments include the basics of probability theory, Gaussian processes, Bayesian optimization and probabilistic deep learning.
+
+requirements:
+  prerequisite: DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4213
+  - AIAA 4213
+  - Introduction to Bayesian Networks

@@ -1,0 +1,22 @@
+course: UCUGA 052A
+normalized_code: UCUG1052A
+title: Academic English for University Studies
+subject: UCUG
+catalog_number: "1052A"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1052A
+  - UCUGA 052A
+  - Academic English for University Studies

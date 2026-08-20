@@ -1,0 +1,22 @@
+course: AIAA 5031
+normalized_code: AIAA5031
+title: Introduction to Computing Using Python
+subject: AIAA
+catalog_number: "5031"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers how to program with Python and use it to solve practical problems in Artificial Intelligence. Topics include basic Python usage (e.g., syntax, data structure, etc.) and important packages for data analysis and machine learning applications (e.g., NumPy, SciPy, etc.). The students will be guided to practice on simple artificial intelligence tasks.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5031
+  - AIAA 5031
+  - Introduction to Computing Using Python

@@ -1,0 +1,22 @@
+course: INTR 5310
+normalized_code: INTR5310
+title: Theory and Application of Linear Optimization
+subject: INTR
+catalog_number: "5310"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will explore the fundamental theories and methodologies of linear optimization and demonstrate how these techniques can be used to solve practical optimization problems. Two typical linear optimization techniques, linear programming and integer programming, will be introduced and discussed. The first part, linear programming, explores the simplex algorithm and the duality theory that act as the cornerstones of modern linear optimization solvers. The second part, integer programming, covers a broader range of topics in both methodology and applications, including problem modeling, model analysis, and decomposition- and relaxation-based solution methods. Implementation issues and industry cases will also be discussed.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5310
+  - INTR 5310
+  - Theory and Application of Linear Optimization

@@ -1,0 +1,22 @@
+course: SMMG 2030
+normalized_code: SMMG2030
+title: Introduction to Smart Manufacturing
+subject: SMMG
+catalog_number: "2030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces core smart manufacturing technologies through integrated lectures and hands-on labs. Aimed at developing foundational understanding of data-driven modern production systems, it covers five essential topics: Design for Smart Manufacturing explores product optimization for digital workflows; Additive Manufacturing examines different 3D Printing processes beyond prototyping; Industrial Robotics teaches programming collaborative robots for automation tasks; Industrial Internet of Things addresses sensor networks and real-time data utilization; and Virtual and Augmented Reality Applications demonstrates immersive tools for design and maintenance. Each topic is integrated with a lab session. By the end of this course, students will be able to articulate key components of smart factories, apply skills learned in labsto real-world scenarios, and critically evaluate the impact of these technologies on manufacturing productivity, flexibility, and customization.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG2030
+  - SMMG 2030
+  - Introduction to Smart Manufacturing

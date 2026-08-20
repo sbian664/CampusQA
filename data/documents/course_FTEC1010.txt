@@ -1,0 +1,22 @@
+course: FTEC 1010
+normalized_code: FTEC1010
+title: Academic Orientation for FTEC Students
+subject: FTEC
+catalog_number: "1010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is the compulsory one-year development course for FTEC students. The course provides academic and professional advising to students on the development of professional ethics, social awareness, responsibilities, and communication skills. An intended learning outcome is to develop a holistic, interdisciplinary, and evidence-based understanding of the issues in FinTech in the financial markets. Grading Type: Pass/ Fail
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC1010
+  - FTEC 1010
+  - Academic Orientation for FTEC Students

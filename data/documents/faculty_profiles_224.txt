@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：RIKOS APOSTOLOS（APOSTOLOS RIKOS）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：apostolosr@hkust-gz.edu.cn
+  办公室：C8 W4 L3 Unit8
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/RIKOS-APOSTOLOS/apostolosr
+  研究方向：
+    Networks with AI，
+    Distributed Control of Networked Systems，
+    Distributed Optimization and Machine Learning，
+    Privacy over Networks，
+    Applications: Cyber-Physical Systems, Smart Grids, Internet of Things (IoT)，

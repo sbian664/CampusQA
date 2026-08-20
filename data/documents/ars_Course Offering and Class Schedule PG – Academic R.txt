@@ -1,0 +1,67 @@
+ars_page: Course Offering and Class Schedule (PG) – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+source: ARS
+
+headings:
+  - Course Offering and Class Schedule (PG)
+  - Class Enrollment Guide (PG)
+
+text: >
+  Course Offering and Class Schedule (PG)
+  April 22, 2025
+  The PG Course Catalog lists out all courses offered in both CWB and Guangzhou Campuses, which have been approved by the University as of the current academic year.
+  However, not all courses are offered every term. To view the course offering of the current and recent terms in Guangzhou, students should refer to the HKUST(GZ)
+  Class Schedule & Quota
+  page. The page provides the following information:
+  (1) Class Schedule & Quota
+  Classes offered in a particular term are listed according to the subject area (e.g., AIAA, SYSH, etc.) and the level. 1000-level to 4000-level courses are Undergraduate courses while 5000-level to 7000-level courses are Postgraduate courses. Underneath the course code, course title and its number of credits (units), the available sections with their meeting schedule, venue, instructor information and available quotas are displayed. The page is refreshed every 15 minutes. Students should note the “Date & Time” of their enrolled/ waiting classes and ensure that there is no time conflict.
+  (2) Notes & Links
+  Students may find a complete list of course and credit requirements for postgraduate programs which will be used as the basis for graduation check in Program Catalog.
+  (3) Class Matching Rules
+  In choosing class sections, students should note that some courses are subject to a matching rule of the section number of classes, e.g. On this screen, it shows that students in MATH 1003 L1 should only enroll in T1A or T1B and those in L2 should only enroll in T2A or T2B. A special remark [Matching between Lecture/Tutorial/Laboratory required] is highlighted in red.
+  (4) Course Information
+  The “COURSE INFO” tab, when clicked, displays useful information of the course including course description, enrollment requirement (such as pre-requisites) etc.
+  (5) Special Remarks
+  Some courses may show a red label or a blue bubble, or both, in the “Remarks” column of the class. A red “Consent” label indicates that enrollment to this course requires instructor’s consent and the approval request must be submitted via the SIS. The blue “i” (information) bubble, when scrolled over, displays additional information to the class.
+  Note that the “Room” for some classes might be “TBA” due to special arrangement. For most of these classes, you may find the special class venue by scrolling over the information bubble. Special remarks information also includes irregular add/drop deadline of a class if the class has its special arrangement, particularly in Summer term.
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Class Schedule & Quota | https://w5.hkust-gz.edu.cn/wcq/cgi-bin/
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Course Offering and Class Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

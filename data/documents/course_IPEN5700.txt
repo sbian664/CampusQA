@@ -1,0 +1,22 @@
+course: IPEN 5700
+normalized_code: IPEN5700
+title: Strategic Management of Technology and Innovation
+subject: IPEN
+catalog_number: "5700"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Technological innovation is increasingly the source of sustainable competitive advantage for firms worldwide. This course introduces a grounding in the field of technology and innovation, with an emphasis on economic policy and business strategy. The course will be highly interactive and apply multiple disciplines including economics, management, law and public policy.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5700
+  - IPEN 5700
+  - Strategic Management of Technology and Innovation

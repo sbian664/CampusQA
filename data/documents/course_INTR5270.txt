@@ -1,0 +1,22 @@
+course: INTR 5270
+normalized_code: INTR5270
+title: Introduction to Mobile Edge Computing and Edge Intelligence
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5270
+  - INTR 5270
+  - Introduction to Mobile Edge Computing and Edge Intelligence

@@ -1,0 +1,22 @@
+course: AMAT 4095
+normalized_code: AMAT4095
+title: Final Year Capstone Project
+subject: AMAT
+catalog_number: "4095"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a course designed for the students who are in their final year of study. The course offers practice of materials design through individual or group design project to integrate materials covered in the curriculum. This course aims at providing students the opportunity with an emphasis of interdisciplinary nature, allowing the students to bridge academic study and practical applications. Instructor’s approval is required for enrollment in this course.
+
+requirements:
+  prerequisite: DLED 3010 or AMAT 2250
+  corequisite: DLED 4010 or AMAT 2450
+  exclusion: AMAT 4901
+
+search_aliases:
+  - AMAT4095
+  - AMAT 4095
+  - Final Year Capstone Project

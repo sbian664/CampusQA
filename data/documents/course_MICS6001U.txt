@@ -1,0 +1,22 @@
+course: MICS 6001U
+normalized_code: MICS6001U
+title: Programmable Photonic Chips
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001U
+  - MICS 6001U
+  - Programmable Photonic Chips

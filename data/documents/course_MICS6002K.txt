@@ -1,0 +1,22 @@
+course: MICSK 002K
+normalized_code: MICS6002K
+title: Artificial Intelligence for Time-Series Analysis
+subject: MICS
+catalog_number: "6002K"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Time-series data represent a major category of real-world data collected over time from various sensors or measurement equipment. This course introduces foundational Artificial Intelligence (AI) methods for analyzing time-series data, in particular, about time-series modeling and prediction. We start from investigating the basic properties of time-series data, then discuss a range of popular AI models widely used for time-series modeling and prediction such as Autoregressive Integrated Moving Average (ARIMA) models, Neural Network (NN), Physics-Informed Neural Network (PINN), Hidden Markov Model (HMM) and Kalman Filter (KF) etc. Besides supervised learning, we also discuss un-supervised learning such as clustering algorithms and Self-Organizing Map (SOM) for analyzing time-series data. Broadly this course is a fundamental AI course for all students who intend to master essential theoretical AI methods and practical AI skills needed to develop, assess, and deploy intelligent functionalities in smart electronic and computer systems, Internet-of-Things (IoT), cyber-physical systems (CPS), and any forecasting-relevant applications in finance, economics, data analytics, and other relevant science & engineering fields. Grading Type: Pass or Fail
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002K
+  - MICSK 002K
+  - Artificial Intelligence for Time-Series Analysis

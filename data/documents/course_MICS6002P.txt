@@ -1,0 +1,22 @@
+course: MICSP 002P
+normalized_code: MICS6002P
+title: Advanced Logic and Memory Devices
+subject: MICS
+catalog_number: "6002P"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Building on semiconductor fundamentals and device physics, this course explores the latest developments in advanced logic and memory devices, covering nanoscale CMOS transistor scaling, short-channel effects, advanced process technologies, and reliability challenges. Beyond logic devices, it offers a comprehensive overview of memory technologies, including volatile memories (SRAM, DRAM) and non-volatile memories (Flash, ReRAM, ferroelectric memory), emphasizing their device physics, charge or polarization mechanisms, performance trade-offs, and integration with logic circuits. Through comparative analysis, the course highlights how emerging memory technologies complement and extend CMOS logic to enable next-generation computing architectures.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002P
+  - MICSP 002P
+  - Advanced Logic and Memory Devices

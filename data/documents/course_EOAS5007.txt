@@ -1,0 +1,22 @@
+course: EOAS 5007
+normalized_code: EOAS5007
+title: Watershed Biogeochemistry
+subject: EOAS
+catalog_number: "5007"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course addresses foundational theories, knowledge, and current challenges within the broad and interdisciplinary field of watershed biogeochemistry, focusing on the biogeochemical, hydrological, and ecological connections across the land-air-water continuum in watersheds. General themes will be explored through lectures on basic theories and discussions of recent literature. More specific questions and methodological approaches will be introduced using hands-on practices and excursions to field sites. This course will enhance students' understanding of water, carbon, and nutrient cycling along the terrestrial-aquatic interface.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5007
+  - EOAS 5007
+  - Watershed Biogeochemistry

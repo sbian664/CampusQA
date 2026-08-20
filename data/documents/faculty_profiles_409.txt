@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：薛昊（Hao XUE）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：haoxue@hkust-gz.edu.cn
+  办公室：E4 (C9) L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XUE-Hao/haoxue
+  研究方向：
+    LLM/MLLM for time series and spatiotemporal data，
+    Time series/spatiotemporal data representation learning (e.g., causal reasoning, forecasting, etc.)，
+    Urban computing and applied AI (e.g., AI for transportation, AI for energy, AI for public health, etc.)，
+    Agentic learning and multi-agent systems (e.g., RL/LLM age），
+    AI/Foundation Model (e.g., continue learning, distillation)，

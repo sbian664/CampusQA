@@ -1,0 +1,22 @@
+course: FTEC 3330
+normalized_code: FTEC3330
+title: Intermediate Corporate Finance
+subject: FTEC
+catalog_number: "3330"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides an in-depth treatment of long-term financing decisions, including estimation of the cost of capital, financial leverage, corporate distress, raising financing, dividend policy, and working capital analysis.
+
+requirements:
+  prerequisite: FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3330
+  - FTEC 3330
+  - Intermediate Corporate Finance

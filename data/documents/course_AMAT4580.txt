@@ -1,0 +1,22 @@
+course: AMAT 4580
+normalized_code: AMAT4580
+title: Photonics and Optical Communications
+subject: AMAT
+catalog_number: "4580"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  To introduce optoelectronics and fiber optics for communications. Topics include optical fibers, optical sources, optical detectors, and passive components for wavelength-division multiplexing. Laboratory gives hands-on experience in handling optical fibers, lasers and detectors, microoptical components, opto-mechanical equipment, and building wavelength-division-multiplexed optical links.
+
+requirements:
+  prerequisite: UFUG 1504
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT4580
+  - AMAT 4580
+  - Photonics and Optical Communications

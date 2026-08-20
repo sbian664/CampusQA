@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：曹瑞（Rui CAO）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：ruicao@hkust-gz.edu.cn
+  办公室：E4 L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAO-Rui/ruicao
+  研究方向：
+    GeoAI & Spatial Data Science (AI for earth observation; spatially explicit AI models; spatial-temporal data mining and analytics)，
+    Urban Informatics & Smart Cities (urban sensing, computing, and analytics; urban digital twins; smart mobility)，
+    Urban Sustainability & Resilience (SDGs for cities; AI for social good; disaster management)，

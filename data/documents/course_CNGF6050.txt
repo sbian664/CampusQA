@@ -1,0 +1,22 @@
+course: CNGF 6050
+normalized_code: CNGF6050
+title: Internship I
+subject: CNGF
+catalog_number: "6050"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is the first part of a 6-month mandatory and guaranteed internship. It provides students with the opportunity to gain practical experience in the industry, applying the knowledge and skills acquired throughout their academic program. Under the guidance of both academic supervisors and industry mentors, students will work on real-world projects related to carbon neutrality and green finance. This hands-on experience will enable students to develop a deeper understanding of how their expertise can be applied to address various climate change challenges faced by organizations. Throughout the internship, students will enhance their problem-solving abilities, professional communication skills, and industry-specific knowledge, preparing them for successful careers in the field of sustainable finance and environmental management.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF6050
+  - CNGF 6050
+  - Internship I

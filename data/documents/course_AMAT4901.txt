@@ -1,0 +1,22 @@
+course: AMAT 4901
+normalized_code: AMAT4901
+title: Final Year Thesis
+subject: AMAT
+catalog_number: "4901"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a course designed for the students who are in their final year of study. The course offers students the opportunity to undertake a year-long research project under the supervision of a faculty member in AMAT thrust. The findings will be presented in the form of a thesis. Credit load will be spread over a year. This course aims at providing student a pathway towards conducting research that synergizes with his or her self-interest, allowing the student to explore research under the guidance of a faculty member. Instructor’s approval is required for enrollment in this course.
+
+requirements:
+  prerequisite: DLED 3010 and AMAT 2250
+  corequisite: DLED 4010 and AMAT 2450
+  exclusion: AMAT 4095
+
+search_aliases:
+  - AMAT4901
+  - AMAT 4901
+  - Final Year Thesis

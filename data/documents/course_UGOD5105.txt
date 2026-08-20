@@ -1,0 +1,22 @@
+course: UGOD 5105
+normalized_code: UGOD5105
+title: Urban Complexity Analysis and Modeling
+subject: UGOD
+catalog_number: "5105"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Going beyond conventional GIS and geospatial analysis, this course delves into the realm of complexity-science methods, including fractal geometry, power law statistics, space syntax, complex networks, scaling hierarchy, and cellular automata. By embracing pivotal concepts like "natural streets" and "natural cities," alongside the tools such as Axwoman and head/tail breaks, students will explore city structure and dynamics from a complexity-science perspective. These concepts, methods and tools will be applied to open-access geospatial big data such as OpenStreetMap, nighttime imagery, and location-based social media data for revealing insights into cities for better transforming modern cities towards a sustainable planet.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5105
+  - UGOD 5105
+  - Urban Complexity Analysis and Modeling

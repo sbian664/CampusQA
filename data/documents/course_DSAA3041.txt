@@ -1,0 +1,22 @@
+course: DSAA 3041
+normalized_code: DSAA3041
+title: Advanced Algorithms
+subject: DSAA
+catalog_number: "3041"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces advanced algorithmic techniques, including amortized analysis, randomized algorithms, and approximation algorithms. Students will learn about advanced data structures and their applications, as well as advanced solutions for optimization problems like linear programming and network flow. The course emphasizes the design and analysis of these techniques while also covering problem hardness and tractability, providing a solid foundation in advanced algorithms.
+
+requirements:
+  prerequisite: DSAA 2043
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3041
+  - DSAA 3041
+  - Advanced Algorithms

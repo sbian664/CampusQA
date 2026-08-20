@@ -1,0 +1,22 @@
+course: UGOD 6101
+normalized_code: UGOD6101
+title: UGOD Program Seminar I
+subject: UGOD
+catalog_number: "6101"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Advanced seminar series presented by postgraduate students, faculty, and guest speakers on selected topics in urban governance and design. This course is offered once a year. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6101
+  - UGOD 6101
+  - UGOD Program Seminar I

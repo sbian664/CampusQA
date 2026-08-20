@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：洪枝青（Zhiqing HONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhiqinghong@hkust-gz.edu.cn
+  办公室：E4 L4 409
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HONG-Zhiqing/zhiqinghong
+  研究方向：
+    Human-centered AI，
+    Wearable AI & Large Sensor Model，
+    Ubiquitous Computing，
+    Embodied AI，
+    Smart City，

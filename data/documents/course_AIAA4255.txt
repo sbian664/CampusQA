@@ -1,0 +1,22 @@
+course: AIAA 4255
+normalized_code: AIAA4255
+title: Machine Learning with Structured Data
+subject: AIAA
+catalog_number: "4255"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an introduction to statistical machine learning algorithms for structured data such as text sequences, taxonomy trees, relational databases (such as knowledge bases), and graphs (including graph databases such as biomedical graphs and large heterogeneous information networks such as knowledge graphs), and using programming tools such as Python to implement them for real problems. lt will use some of the following practical problems such as text and graph classification, statistical relational learning, information extraction, sequence modeling, graph modeling, protein 3D structure prediction, QA system, etc. as illustrations to demonstrate the power of the statistical learning algorithms.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4255
+  - AIAA 4255
+  - Machine Learning with Structured Data

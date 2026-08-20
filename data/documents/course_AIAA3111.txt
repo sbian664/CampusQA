@@ -1,0 +1,22 @@
+course: AIAA 3111
+normalized_code: AIAA3111
+title: Introduction to Data Mining
+subject: AIAA
+catalog_number: "3111"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explains the fundamental principles, uses, and some technical details of data mining techniques through lectures and real-world case studies. The emphasis is on understanding the business applications of data mining techniques. The mechanics of how data analytics techniques work will also be discussed as it is essential to the understanding of the fundamental concepts and business applications.
+
+requirements:
+  prerequisite: UFUG 2601 OR UFUG 2602 OR DSAA 1001
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3111
+  - AIAA 3111
+  - Introduction to Data Mining

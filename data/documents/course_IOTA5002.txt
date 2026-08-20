@@ -1,0 +1,23 @@
+course: IOTA 5002
+normalized_code: IOTA5002
+title: Data-driven Modeling: Learning from Sensor Data
+subject: IOTA
+catalog_number: "5002"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Data-driven modeling is revolutionizing the modeling and predicting of complex systems. This cross-disciplinary course will introduce methodologies for integrating time-series analysis, machine learning, engineering mathematics, and mathematical physics, into data-driven methods for inferring and building models from data. At the end of the course, students are expected to understand the principles and methods of extracting patterns and models from data and making effective predictions, and to have hands-on implementations with Python/Matlab. 
+In-class lab demonstrations will also be provided.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5002
+  - IOTA 5002
+  - Data-driven Modeling: Learning from Sensor Data

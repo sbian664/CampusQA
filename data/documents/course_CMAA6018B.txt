@@ -1,0 +1,22 @@
+course: CMAAB 018B
+normalized_code: CMAA6018B
+title: Independent Study
+subject: CMAA
+catalog_number: "6018B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent research project carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6018B
+  - CMAAB 018B
+  - Independent Study

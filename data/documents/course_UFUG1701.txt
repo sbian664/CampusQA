@@ -1,0 +1,22 @@
+course: UFUG 1701
+normalized_code: UFUG1701
+title: Introduction to Civil Engineering
+subject: UFUG
+catalog_number: "1701"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the general knowledge about Civil Engineering, which includes building engineering, transportation, materials in civil engineering, hydraulic engineering, environmental engineering, and geotechnical engineering. Students can learn definitions and feasible solutions for the analysis and design of basic problems in Civil Engineering. Upon completion of this course, students are expected to broaden their horizons and interest in Civil Engineering.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1701
+  - UFUG 1701
+  - Introduction to Civil Engineering

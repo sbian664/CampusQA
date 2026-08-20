@@ -1,0 +1,22 @@
+course: SMMG 3050
+normalized_code: SMMG3050
+title: Industrial Data Analytics
+subject: SMMG
+catalog_number: "3050"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course equips students with a basic understanding of fundamental data mining and analytics techniques to transform rich industrial data into intelligent decision-making. Students will be trained to model and solve real industrial problems scientifically with the aid of appropriate data analytics techniques.
+
+requirements:
+  prerequisite: UFUG 2102 or UFUG 2103 or UFUG 2104
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3050
+  - SMMG 3050
+  - Industrial Data Analytics

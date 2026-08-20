@@ -1,0 +1,22 @@
+course: CNGF 5000
+normalized_code: CNGF5000
+title: Foundation in Green and Sustainable Finance
+subject: CNGF
+catalog_number: "5000"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will provide an advanced foundation in the study and practice of green finance at the level required for postgraduate studies. As the field of green finance is inherently interdisciplinary, the course will take a broad view of green finance and include perspectives from public policy, climate risks and management, environmental science and governance, finance and other aspects in related areas. It will elaborate core concepts in green finance and explain their evolution as well as the reasons behind. It will also delve into the policies and practices of green finance from an international comparative perspective. Carbon trading and carbon neutrality, as the hot pursed topics related to green finance, will also be covered. Gaps for strengthening the green finance system will be critically discussed calling for reflections and actions at the end of the course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF5000
+  - CNGF 5000
+  - Foundation in Green and Sustainable Finance

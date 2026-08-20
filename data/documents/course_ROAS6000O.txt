@@ -1,0 +1,22 @@
+course: ROASO 000O
+normalized_code: ROAS6000O
+title: Introduction to Robotics in Healthcare
+subject: ROAS
+catalog_number: "6000O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the transformative role of robotics in modern healthcare, exploring its applications across diagnostics, surgery, rehabilitation, and patient care. Students will gain a comprehensive understanding of how robotics is changing healthcare delivery, from minimally invasive surgical systems like the Da Vinci Surgical System to assistive robots that enhance daily living for individuals with disabilities. In addition, it addresses the integration of AI and machine learning in healthcare robotics, including predictive analytics and AI-assisted diagnostics. Emerging trends, including micro/nanorobots and soft robots, are also discussed to prepare students for future innovations.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS6000O
+  - ROASO 000O
+  - Introduction to Robotics in Healthcare

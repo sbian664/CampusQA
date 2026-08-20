@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：肖殿勋（Dianxun XIAO）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：dianxunxiao@hkust-gz.edu.cn
+  办公室：W3 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIAO-Dianxun/dianxunxiao
+  研究方向：
+    Electric vehicle and More-electric aircraft，
+    Electrical machines and control system，
+    Battery management system，
+    Optimization and data-driven approach，
+    Estimation and diagnostic algorithm，
+    Robotic servo motor and control，

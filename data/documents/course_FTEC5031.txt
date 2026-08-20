@@ -1,0 +1,22 @@
+course: FTEC 5031
+normalized_code: FTEC5031
+title: Advanced Probability Theory
+subject: FTEC
+catalog_number: "5031"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will give students a deeper understanding of the foundations of probability theory, such as probability theory from a measure-theoretic perspective, convergences of distributions and probability measures, and conditional expectations. During the course, important theorems, such as Radon-Nikodym theorem, Fubini theorem, and general central limit theorems, will be investigated.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5031
+  - FTEC 5031
+  - Advanced Probability Theory

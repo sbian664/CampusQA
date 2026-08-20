@@ -1,0 +1,22 @@
+course: IPEN 6110
+normalized_code: IPEN6110
+title: Capstone Project
+subject: IPEN
+catalog_number: "6110"
+credits: 6
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course consists of 6 credits and will last for two regular terms. In the first term, students learn and integrate the latest technology topics through seminars,lectures, and workshops. After completing four micro-policy analysis reports, students can familiarize themselves with technology policy hot spots and policy analysis tools, as well as the cooperation skills and role division among the groups. In the second term, they will complete group projects on selected topics for science and technology policy under the supervision offaculty members. The participation of the universityâs internal community and external organizations in these projects will be highly encouraged. The university will be responsible for the control, management and evaluation of the project. Students will exercise their teamwork skills, analyze science and technology policy issues and develop concise reports of their findings and recommendations. They should write the paper acting as an assistant to a particular decision-maker in a government, nonprofit organization, business or private sector. This course is for MSc(TP) students only. May be graded PP.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6110
+  - IPEN 6110
+  - Capstone Project

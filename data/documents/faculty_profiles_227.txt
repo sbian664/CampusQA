@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：王宇阳（Yuyang WANG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：yuyangwang@hkust-gz.edu.cn
+  办公室：E1 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang
+  研究方向：
+    VR Motion Sickness，
+    Multimodal Emotion Recognition，
+    Brain-AI Alignment，
+    Immersive Human-machine Interaction，
+    Computer Vision/Reinforcement Learning，

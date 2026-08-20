@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈雷（Lei CHEN）
+  职称：Dean
+  学域：Information Hub
+  邮箱：leichen@hkust-gz.edu.cn
+  办公室：E3 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  研究方向：
+    Data-driven machine learning，
+    Crowdsourcing-based data processing，
+    Uncertain and probabilistic databases，
+    Web information management，
+    Multimedia systems，

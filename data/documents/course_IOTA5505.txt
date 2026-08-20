@@ -1,0 +1,22 @@
+course: IOTA 5505
+normalized_code: IOTA5505
+title: Statistical Inference for Machine Learning and Signal Processing
+subject: IOTA
+catalog_number: "5505"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals and advanced topics of statistics that cover multivariate distribution along with dimension-reduction techniques, concentration inequalities, performance metrics for statistical learning, and applications in statistical signal processing, including estimation theory and methods, detection theory and methods, and selected advanced algorithms such as Markov Chain Monte Carlo (MCMC) and expectation maximization (EM), etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5505
+  - IOTA 5505
+  - Statistical Inference for Machine Learning and Signal Processing

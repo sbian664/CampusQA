@@ -1,0 +1,22 @@
+course: DSAA 3073
+normalized_code: DSAA3073
+title: Theories in Data Science
+subject: DSAA
+catalog_number: "3073"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a cohesive introduction to statistical machine learning and scalable data analysis. Students will develop intuition for learning theory, modern predictive modeling, and algorithmic techniques for working with large datasets. Balancing fundamentals with applied methodology, the course connects theory, algorithms, and systems considerations to support reliable learning at scale. Assessments include a midterm and final exam, with hands-on components that reinforce conceptual understanding and practical skills.
+
+requirements:
+  prerequisite: (DSAA 2011 or DSAA 2012 or AIAA 3111) AND (UFUG 2106 or DSAA 2088)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3073
+  - DSAA 3073
+  - Theories in Data Science

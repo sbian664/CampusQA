@@ -1,0 +1,22 @@
+course: SOCH 6780
+normalized_code: SOCH6780
+title: Professional Development in Innovation, Technology, and Social Responsibility
+subject: SOCH
+catalog_number: "6780"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This one credit course is intended to provide basic professional training to research postgraduate students in the Society Hub. The course will begin with lectures and a workshop on ethics in research. Students will be asked to focus on a particular theme of their choice that links technological innovation to various social and policy issues, conduct analysis and present their findings. They will also need to work in a team and learn to effectively communicate their ideas in informal and formal settings. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SOCH6780
+  - SOCH 6780
+  - Professional Development in Innovation, Technology, and Social Responsibility

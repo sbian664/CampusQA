@@ -1,0 +1,22 @@
+course: ROAS 6000I
+normalized_code: ROAS6000I
+title: Optimal Control Systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS6000I
+  - ROAS 6000I
+  - Optimal Control Systems

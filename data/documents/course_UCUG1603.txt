@@ -1,0 +1,22 @@
+course: UCUG 1603
+normalized_code: UCUG1603
+title: Science-Fiction Storytelling
+subject: UCUG
+catalog_number: "1603"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Science-Fiction (Sci-fi) Storytelling offers a creative exploration of sci-fi topics such as perception of reality, existentialism in the multiverse, and philosophical and ethical questions on identity, Artificial Intelligence (AI), genetic engineering and so on. This course not only discusses these topics, but also offers students opportunities to exercise the power of creative imagination with critical thinking to build on these themes by developing original sci-fi stories. In this analytical, creative, critical thinking and collaborative process, students will team up to develop and present their story analysis and creation. This course offers visions of the future through studying important visionary film masters and related creative sci-fi works in films, TV and animations, which stimulates thought-provoking discussion and forward thinking. Students will combine sci-fi knowledge, technique and the power of imaginative storytelling, analytical, creative and critical thinking to screen-related research, analysis, and sci-fi story creation through world, character and tension building.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1603
+  - UCUG 1603
+  - Science-Fiction Storytelling

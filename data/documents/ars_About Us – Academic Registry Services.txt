@@ -1,0 +1,35 @@
+ars_page: About Us – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/about-us/
+source: ARS
+
+headings:
+  - Academic Registry Services
+  - Underpin the Academic Excellence and Support Students' Academic Journey
+  - Student Guide to Academic Registry Services (ARS)
+
+text: >
+  Academic Registry Services
+  Underpin the Academic Excellence and Support Students' Academic Journey
+  The Department of Academic Registry Services serves as a central administrative unit within the University, responsible for managing student records, enrollment, academic processes and related services to students, faculty, and staff in various administrative areas. The department now consists of four specialized teams dedicated to program registration, class scheduling, exam and grade management, and graduation management. These teams work collaboratively to support students and faculty in navigating the academic landscape, providing essential services and guidance to facilitate a seamless academic experience. The department is committed to maintaining the integrity of student records, promoting academic excellence, and fostering a supportive environment for all members of the university community.
+  Teams
+  Program Registration
+  Student Registration
+  Student Record Management
+  Student Status Management
+  Testimonial Processing
+  Exams & Grades
+  Exam Scheduling
+  Grade Reporting and Management
+  Academic Transcript Processing
+  Programs & Courses
+  Class Scheduling
+  Course Enrollment
+  Curriculum Record Management
+  Graduation
+  Credit Transfer
+  Deviation from Curriculum
+  Graduation Process Check
+  Diploma Processing
+  Award Certification Letter Processing
+  Video
+  Student Guide to Academic Registry Services (ARS)

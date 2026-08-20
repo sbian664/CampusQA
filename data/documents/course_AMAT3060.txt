@@ -1,0 +1,22 @@
+course: AMAT 3060
+normalized_code: AMAT3060
+title: Introduction to Materials Science
+subject: AMAT
+catalog_number: "3060"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  An integrated study of the nature and behavior of metals, ceramics and polymers. Topicsinclude crystalstructures, phase diagrams, microstructures and microscopy, defects, phases and interfaces in materialssystems, phase transformations, deformation, annealing and failure of materials.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3060
+  - AMAT 3060
+  - Introduction to Materials Science

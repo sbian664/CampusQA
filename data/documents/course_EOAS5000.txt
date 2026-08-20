@@ -1,0 +1,22 @@
+course: EOAS 5000
+normalized_code: EOAS5000
+title: Introduction to Oceanography
+subject: EOAS
+catalog_number: "5000"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An introduction to the fundamentals of physical, chemical, geological, geochemical, and biological oceanography. It unveils the mystery of the oceans including the formation of the continents, oceanic circulation, and formation of precious minerals in the deep oceans; discovers ocean resources from phytoplankton to fish. The course will lay the foundation for sustainable use of the oceans and discuss human threats such as global warming, overfishing, and coastal pollution.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5000
+  - EOAS 5000
+  - Introduction to Oceanography

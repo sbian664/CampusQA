@@ -1,0 +1,22 @@
+course: SMMGP 000P
+normalized_code: SMMG6000P
+title: System Simulation
+subject: SMMG
+catalog_number: "6000P"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Simulation is the creation of a virtual model of a real-world system or process to study and analyze its behavior under various conditions; it is widely used in industrial systems to optimize design, improve processes, and test scenarios without the cost and risk of physical experimentation. This course will cover basic concepts and theories of simulation, discuss models and applications of discrete-event simulation in manufacturing systems. Students will learn to develop and analyze simulations, and test scenarios of real-world industrial systems. Additionally, this course will introduce the emerging concept of the digital twin in Smart Manufacturing and compare it with simulation, preparing students for opportunities in the evolving industrial revolution.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000P
+  - SMMGP 000P
+  - System Simulation

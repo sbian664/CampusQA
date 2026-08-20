@@ -1,0 +1,22 @@
+course: SMMG 3060
+normalized_code: SMMG3060
+title: Micro/Nano Fabrication and Applications
+subject: SMMG
+catalog_number: "3060"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamental principles and techniques of micro- and nanofabrication, including photolithography, etching, deposition, bonding, and packaging. These processes form the technological foundation for the design and manufacturing of microelectromechanical systems (MEMS), as well as for advanced integrated circuits and next-generation electronic devices. In addition, the course explores how micro/nanofabrication enables a wide range of applications—including sensors, actuators, advanced electronics packaging, and other emerging microsystems—highlighting its critical role in modern and future technologies.
+
+requirements:
+  prerequisite: UFUG 1501 OR UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3060
+  - SMMG 3060
+  - Micro/Nano Fabrication and Applications

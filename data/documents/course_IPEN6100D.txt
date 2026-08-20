@@ -1,0 +1,22 @@
+course: IPEN 6100D
+normalized_code: IPEN6100D
+title: Carbon Pricing and Climate Finance
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100D
+  - IPEN 6100D
+  - Carbon Pricing and Climate Finance

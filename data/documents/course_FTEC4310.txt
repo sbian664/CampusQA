@@ -1,0 +1,22 @@
+course: FTEC 4310
+normalized_code: FTEC4310
+title: Financial Markets Trading and Structure
+subject: FTEC
+catalog_number: "4310"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course examines liquidity, market structure and trading. The focus is on examining the efficiency of trading systems and markets, the impact of new algorithmic trading on markets, the role of intermediaries and regulatory actions on market structure issues. Students learn about a number of alternative market structures in terms of their economic and operational effectiveness.
+
+requirements:
+  prerequisite: FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4310
+  - FTEC 4310
+  - Financial Markets Trading and Structure

@@ -1,0 +1,22 @@
+course: AIAA 5047
+normalized_code: AIAA5047
+title: Responsible Artificial Intelligence
+subject: AIAA
+catalog_number: "5047"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Artificial Intelligence technologies have been maturing and are deployed in real-world applications, such as healthcare, entertainment, business, scientific research, military, etc. In all these domains, the decisions made by AI algorithms can critically impact individuals, organizations and society. The designers, auditors, and users of AI technologies thus need to be equipped with the capabilities to understand, analyze, and eventually discipline these algorithms in the broader contexts. This course will introduce students to the latest research of responsible AI and explore these capabilities in both theoretical and practical ways. Topics include but are not limited to theories and algorithms of secure machine learning, fair machine learning, interpretable AI, and case studies involving natural language processing, computer vision, and reinforcement learning.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5047
+  - AIAA 5047
+  - Responsible Artificial Intelligence

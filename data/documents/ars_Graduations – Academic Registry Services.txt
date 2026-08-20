@@ -1,0 +1,64 @@
+ars_page: Graduations – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/graduations/
+source: ARS
+
+headings:
+  - Graduation
+  - PG Graduation Guide
+  - Request Forms
+  - When can I get the Degree Diploma/Transcript/Award Certification Letter?
+  - Award Certification Letter for Graduates
+  - Verification of study record (by external party)
+
+text: >
+  Graduation
+  On Graduation Process Check, Credit Transfer, Course Deviation…
+  PG Graduation Guide
+  Request Forms
+  Below applications can be requested, please click
+  here
+  for the links under Graduation category:
+  Award Certification Letter for Graduates
+  Credit Transfer
+  Course Substitution/Deviation from Curriculum
+  Thesis Examination Result for Research Postgraduate Degrees
+  Qualifying Examination Result for PhD Student
+  Apply
+  When can I get the Degree Diploma/Transcript/Award Certification Letter?
+  Degree/postgraduate diploma will be issued after the conferment of degrees at scheduled sessions below:
+  (1) 31 January
+  (2) 31 March
+  (3) 31 May
+  (4) 31 July
+  (5) 15 October
+  Each graduate (except those from some special degree and diploma programs) will be issued:
+  – ONE copy of the Degree Diploma in paper and electronic version (JSON format)
+  – ONE free copy of the Academic Transcript in paper and electronic version (JSON format)
+  – ONE free copy of the Award Certification Letter (ACL) in electronic version (JSON format)
+  Time to issue the degree diploma together with academic transcript:
+  E-version (diploma, transcript & ACL): normally a few additional days required for the insurance after the date of degree conferment.
+  Hard-copy (diploma & transcript): normally issued in one month after the date of degree conferment.
+  Award Certification Letter for Graduates
+  Award Certification Letter (ACL)
+  The Award Certification Letter is a standard letter to certify the status and degree award details of graduates.
+  A free electronic copy (in JSON format) will be issued to students who
+  have completed their programs of study and have been formally approved by the University for graduation; and
+  have their degrees conferred.
+  Other than the free copy, graduates may request for additional award certification letter (paper or electronic format) at a charge of ¥20 by submitting online requests.
+  Provisional Award Certification Letter (PACL)
+  Potential graduates who have not yet been approved for graduation but have already (1) satisfied all the graduation requirements as confirmed by their program office with (2) all grades are reported may apply for a provisional version (paper or scanned copy) only if there is an urgent need of the proof of completion of studies by submitting online requests.
+  Online Request
+  Verification of study record (by external party)
+  With the explicit consent of our graduate, the Academic Registry Services provides degree verification service to educational institutions, employers and employment agencies, etc. Requests could be sent to us (gzars@hkust-gz.edu.cn) with the following information:
+  Student/graduate full name, date of birth and identification document no.
+  Explicit consent of the student/graduate for releasing the information to the enquirer
+  While transcripts and letters will not be certified, students/graduates may apply for a copy to be sent to a specific recipient.
+  HKUST(GZ) issues some official documents in a secure electronic format which are verifiable. Please click
+  here
+  for details.
+
+links:
+  - PG Graduation Guide | https://ars.hkust-gz.edu.cn/graduation/pg-graduation-guide/
+  - here | https://ars.hkust-gz.edu.cn/student-services/
+  - Online Request | https://acad-edoc.hkust-gz.edu.cn/index
+  - here | https://edoc.hkust-gz.edu.cn/home

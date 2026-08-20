@@ -1,0 +1,22 @@
+course: INTRQ 000Q
+normalized_code: INTR6000Q
+title: Smart Production and Operations Management
+subject: INTR
+catalog_number: "6000Q"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores how emerging technologiesâsuch as AI, IoT, robotics, and data analyticsâare transforming modern production and operations management. Students will learn to design, analyze, and optimize intelligent production systems that enhance efficiency, flexibility, and sustainability. Topics include smart manufacturing systems, digital twins, humanârobot collaboration, supply chain integration, and data-driven decision-making. Through case studies and practical projects, students gain both theoretical foundations and hands-on experience in managing operations within Industry 4.0 environments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6000Q
+  - INTRQ 000Q
+  - Smart Production and Operations Management

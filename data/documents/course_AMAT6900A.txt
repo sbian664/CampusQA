@@ -1,0 +1,22 @@
+course: AMATA 900A
+normalized_code: AMAT6900A
+title: Independent Study
+subject: AMAT
+catalog_number: "6900A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent study on selected topics carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT6900A
+  - AMATA 900A
+  - Independent Study

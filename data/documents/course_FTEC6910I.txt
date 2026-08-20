@@ -1,0 +1,22 @@
+course: FTECI 910I
+normalized_code: FTEC6910I
+title: Applied Econometrics in Financial Technology
+subject: FTEC
+catalog_number: "6910I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The overarching goal of this course is to equip students with a working knowledge of important econometric techniques necessary to understand and interpret financial data in a broad sense. We will investigate topics such as market efficiency, event studies, factor models, return anomalies, bond markets, among others. Apart from model-based approaches, we will also partially cover state-of-the-art design-based approaches such as synthetic control, regression discontinuity, matrix completion, double machine learning and so on. This course will involve both lecture and paper discussion.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6910I
+  - FTECI 910I
+  - Applied Econometrics in Financial Technology

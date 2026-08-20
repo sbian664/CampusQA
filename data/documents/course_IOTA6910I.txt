@@ -1,0 +1,22 @@
+course: IOTAI 910I
+normalized_code: IOTA6910I
+title: Information Theory and its Applications in Machine Learning
+subject: IOTA
+catalog_number: "6910I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals of information theory and its applications in machine learning and statistics. Beyond compression and transmission, information theory also addresses information extraction and learning. By formulating operational problems with elegant mathematics and solving them through powerful techniques, it characterizes fundamental performance limits and offers deep insights into system design. We will cover both classical and modern topics. The course begins with core information measuresâentropy, f-divergences, convex duality, and variational characterizationsâfollowed by data compression, channel coding, and strong data-processing inequalities, which illustrate the operational meaning of these definitions. We then explore information-theoretic treatments of inference, hypothesis testing, and large deviations. Applications include deriving generalization bounds, and inequalities in machine learning, as well as insights for statistical estimation. By the end of the course, students will gain both the tools and intuition to analyze fundamental limits and to apply information-theoretic methods to modern problems in learning and inference.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6910I
+  - IOTAI 910I
+  - Information Theory and its Applications in Machine Learning

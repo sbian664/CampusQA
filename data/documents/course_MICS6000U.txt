@@ -1,0 +1,22 @@
+course: MICS 6000U
+normalized_code: MICS6000U
+title: ML Accelerators
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6000U
+  - MICS 6000U
+  - ML Accelerators

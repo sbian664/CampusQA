@@ -1,0 +1,22 @@
+course: IPEN 5800
+normalized_code: IPEN5800
+title: New Venture Creation
+subject: IPEN
+catalog_number: "5800"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course to entrepreneurship research. Entrepreneurship is defined as the creation and growth of business ventures, either as new organizations or inside existing ones, and as transformation of existing organizations. This course covers fundamental readings and current research with an emphasis on business venture creation. The objective is to give enough training that students can follow and contribute to entrepreneurship research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5800
+  - IPEN 5800
+  - New Venture Creation

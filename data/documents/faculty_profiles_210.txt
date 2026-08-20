@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：高诗简（Shijian GAO）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：shijiangao@hkust-gz.edu.cn
+  办公室：W1(C8) L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GAO-Shijian/shijiangao
+  研究方向：
+    Hardware-efficient PHY transmission，
+    High-dimensional array signal processing，
+    Multi-modality sensing-aided communication，
+    AI-empowered wireless system optimization，

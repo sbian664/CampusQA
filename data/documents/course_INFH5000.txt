@@ -1,0 +1,22 @@
+course: INFH 5000
+normalized_code: INFH5000
+title: Information Science and Technology: Essentials and Trends
+subject: INFH
+catalog_number: "5000"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INFH5000
+  - INFH 5000
+  - Information Science and Technology: Essentials and Trends

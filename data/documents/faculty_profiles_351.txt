@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：何海韵（Haiyun HE）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：haiyunhe@hkust-gz.edu.cn
+  办公室：W3 (C8) L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Haiyun/haiyunhe
+  研究方向：
+    Information theory，
+    Machine learning，
+    Statistical learning，
+    Trustworthy AI，

@@ -1,0 +1,22 @@
+course: AMAT 3350
+normalized_code: AMAT3350
+title: Structure and Properties of Crystalline Solids
+subject: AMAT
+catalog_number: "3350"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers material structures and physical properties. Topics include the periodic structure of crystals with basic crystallography, symmetry operations and crystalline structures, diffraction and microscopy techniques to determine Bravais lattices and crystal structures, the imperfections in solid materials and their roles in physical properties, physical and mechanical behavior of solid materials based on different bonding types and common defects, the fundamental concepts of mechanical, electrical, optical and magnetic properties and nanomaterials including nanotubes, nanowires, graphene, and 2D semiconductors.
+
+requirements:
+  prerequisite: AMAT 3060
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3350
+  - AMAT 3350
+  - Structure and Properties of Crystalline Solids

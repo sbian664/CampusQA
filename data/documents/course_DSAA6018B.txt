@@ -1,0 +1,22 @@
+course: DSAAB 018B
+normalized_code: DSAA6018B
+title: Independent Study
+subject: DSAA
+catalog_number: "6018B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, an independent research project will be carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6018B
+  - DSAAB 018B
+  - Independent Study

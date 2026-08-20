@@ -1,0 +1,22 @@
+course: AMAT 2450
+normalized_code: AMAT2450
+title: Physical Chemistry Laboratory
+subject: AMAT
+catalog_number: "2450"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is the laboratory course corresponding to the lecture course CHEM 2410. The topics of experiments covered in the laboratory course will be related to those taught in the lecture course,such as thermodynamics, etc. For CHEM students under the four-year degree only.
+
+requirements:
+  prerequisite: UFUG 1301, and AMAT 2020
+  corequisite: AMAT 2040
+  exclusion: none
+
+search_aliases:
+  - AMAT2450
+  - AMAT 2450
+  - Physical Chemistry Laboratory

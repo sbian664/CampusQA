@@ -1,0 +1,22 @@
+course: UFUG 1801
+normalized_code: UFUG1801
+title: Principles of Economics
+subject: UFUG
+catalog_number: "1801"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to economics. It consists of three modules: basics of ecomomics (Module1), microeconomics (Module 2) and macroeconomics (Module 3). Module1 covers the basic principles of economics, supply, demand, market equilibrium, welfare, market failure, and the rationale for government intervention. Module 2 covers the optimal decision of consumers and firms, market power and different market structures, Labor markets and inequality, etc. Module 3 includes measuring aggregate economic activities, consumption and investment, money and financial intermediaries, aggregate demand, aggregate supply and business cycles, macroeconomic stability policy, and economic growth.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1801
+  - UFUG 1801
+  - Principles of Economics

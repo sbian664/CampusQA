@@ -1,0 +1,22 @@
+course: SEEN 5030
+normalized_code: SEEN5030
+title: Battery Sustainability
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5030
+  - SEEN 5030
+  - Battery Sustainability

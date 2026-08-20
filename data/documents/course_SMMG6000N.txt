@@ -1,0 +1,22 @@
+course: SMMGN 000N
+normalized_code: SMMG6000N
+title: Advanced Manufacturing for Bioelectronics
+subject: SMMG
+catalog_number: "6000N"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The increasing human-machine interactions necessitate new format of electronics that can be seamlessly integrated with biological systems. New materials and advanced manufacturing techniques have been developed to bridge the domains of biology and electronics, underpinning future healthcare and brain-machine interfaces. This course will cover trending manufacturing techniques, along with designs and applications of bioelectronics. Via case studies, students will appreciate the frontiers and challenges of this interdisciplinary field.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000N
+  - SMMGN 000N
+  - Advanced Manufacturing for Bioelectronics

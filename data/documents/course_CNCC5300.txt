@@ -1,0 +1,22 @@
+course: CNCC 5300
+normalized_code: CNCC5300
+title: Policy and Technology for Carbon Neutrality
+subject: CNCC
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  All industries in China are actively taking effective actions to develop new and clean technologies in order to achieve the carbon peak and neutrality goal of shouldering the common destiny of human beings. This course examines the scientific, technological, and policy approaches that China and the rest of the world can take to achieve carbon peak and carbon neutrality.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5300
+  - CNCC 5300
+  - Policy and Technology for Carbon Neutrality

@@ -1,0 +1,22 @@
+course: FTEC 3220
+normalized_code: FTEC3220
+title: Algorithm and Data Structure for FinTech
+subject: FTEC
+catalog_number: "3220"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course offers an in-depth exploration of core computer science concepts, specifically data structures and algorithms. Students will learn about fundamental data structures, such as arrays, linked lists, trees, graphs, stacks, and queues, along with the algorithms used to manipulate, search, and sort data within these structures. The course will also touch on advanced algorithms, including greedy algorithms and dynamic programming. Emphasis will be placed on analyzing algorithm complexities and understanding the efficient handling of data.
+
+requirements:
+  prerequisite: UFUG 1103 OR UFUG 1106; UFUG 1601; UFUG 1602 OR UFUG 2601; UFUG 2106
+  corequisite: none
+  exclusion: UFUG 2602
+
+search_aliases:
+  - FTEC3220
+  - FTEC 3220
+  - Algorithm and Data Structure for FinTech

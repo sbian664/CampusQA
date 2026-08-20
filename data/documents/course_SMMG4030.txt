@@ -1,0 +1,22 @@
+course: SMMG 4030
+normalized_code: SMMG4030
+title: System Simulation
+subject: SMMG
+catalog_number: "4030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Basic concepts and algorithm of discrete-event simulation, generation of random variates, modelling input distributions, statistical analysis of simulation outputs, verification and validation of simulation models, comparisons and optimization via simulation, simple spreadsheet simulation, intermediate modelling and analysis with a commercial simulation package.
+
+requirements:
+  prerequisite: DSAA 1085 OR UFUG 2104
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4030
+  - SMMG 4030
+  - System Simulation

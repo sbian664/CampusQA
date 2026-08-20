@@ -1,0 +1,22 @@
+course: IPENJ 100J
+normalized_code: IPEN6100J
+title: Entrepreneurship and Innovation: From Idea to Impact
+subject: IPEN
+catalog_number: "6100J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive overview of entrepreneurship and innovation, guiding students through the entire process from identifying opportunities to launching and scaling new ventures. It emphasizes experiential learning and real-world application, with a unique focus on direct engagement with successful entrepreneurs and innovators. Through a series of guest speaker sessions, students will gain invaluable insights into the challenges and triumphs of building a business, fostering a strong entrepreneurial mindset, and developing practical skills for navigating the dynamic landscape of innovation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100J
+  - IPENJ 100J
+  - Entrepreneurship and Innovation: From Idea to Impact

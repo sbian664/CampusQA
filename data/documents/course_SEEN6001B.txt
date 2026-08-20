@@ -1,0 +1,22 @@
+course: SEENB 001B
+normalized_code: SEEN6001B
+title: Digital Energy Technology and Renewable Energy Systems
+subject: SEEN
+catalog_number: "6001B"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the integration of digital technologies with renewable energy systems, focusing on smart solutions to optimize energy generation, storage, and consumption. Key topics include smart photovoltaics, electric vehicles, charging networks, data center energy management, embedded power systems, and digital platforms for energy optimization. Case studies, simulations, and hands-on projects are emphasized.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001B
+  - SEENB 001B
+  - Digital Energy Technology and Renewable Energy Systems

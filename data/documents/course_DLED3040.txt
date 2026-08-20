@@ -1,0 +1,22 @@
+course: DLED 3040
+normalized_code: DLED3040
+title: English Communication I for Systems Hub programs
+subject: DLED
+catalog_number: "3040"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides students with exposure to, and practice in using English within the field of Bioscience and Biomedical Engineering, Intelligent Transportation, Robotics, Smart Manufacturing. The course aims to encourage students to develop their abilities as thoughtful communication strategists, to communicate effectively, appropriately and confidently in relevant academic and professional contexts, and to use language to explore and to express critically the wider social implications of their fields.
+
+requirements:
+  prerequisite: UCUG 1052 or UCUG 1053
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DLED3040
+  - DLED 3040
+  - English Communication I for Systems Hub programs

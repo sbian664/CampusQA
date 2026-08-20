@@ -1,0 +1,22 @@
+course: SYSH 6780
+normalized_code: SYSH6780
+title: Career Development for Systems Hub Research Students
+subject: SYSH
+catalog_number: "6780"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims at equipping research students with the skills conducive to their professional career development. Students will attend the training focusing on personality self-exploration and program-specific training at the Thrust level, and another training at the Hub level. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SYSH6780
+  - SYSH 6780
+  - Career Development for Systems Hub Research Students

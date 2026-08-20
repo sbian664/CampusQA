@@ -1,0 +1,22 @@
+course: UCMP 6030
+normalized_code: UCMP6030
+title: Cross-disciplinary Design Thinking I
+subject: UCMP
+catalog_number: "6030"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCMP6030
+  - UCMP 6030
+  - Cross-disciplinary Design Thinking I

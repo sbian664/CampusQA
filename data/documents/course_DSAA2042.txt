@@ -1,0 +1,22 @@
+course: DSAA 2042
+normalized_code: DSAA2042
+title: Computer Architecture and Systems
+subject: DSAA
+catalog_number: "2042"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the basic mechanisms of computer hardware of modern computers, and covers operating systems fundamentals such as memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis. Students will learn the purpose and structure of operating systems, as well as the basic knowledge on process management, CPU scheduling, file systems, security and protection.
+
+requirements:
+  prerequisite: UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA2042
+  - DSAA 2042
+  - Computer Architecture and Systems

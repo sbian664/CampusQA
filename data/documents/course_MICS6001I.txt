@@ -1,0 +1,22 @@
+course: MICSI 001I
+normalized_code: MICS6001I
+title: Brain-inspired Computing
+subject: MICS
+catalog_number: "6001I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Spiking Neural Networks represent the third generation of neural network models, differentiating themselves by more closely mimicking the biological processes of the human brain. Unlike traditional artificial neural networks that process information in a continuous manner, SNNs incorporate the concept of time directly into their operating model, using spikes for communication and computation, which makes them powerful tools for modeling temporal dynamics and learning from spatio-temporal data. This course includes modules: Introduction to Neural Computation; Biological Foundations and Neuron Modeling; Network Architectures and Dynamics Connectivity patterns in SNNs; Learning in Spiking Neural Networks, Hebbian learning and STDP; Simulation and lmplementation Tools and frameworks for simulating SNNs; Applications and Future Directions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001I
+  - MICSI 001I
+  - Brain-inspired Computing

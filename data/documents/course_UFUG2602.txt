@@ -1,0 +1,22 @@
+course: UFUG 2602
+normalized_code: UFUG2602
+title: Data Structure and Algorithm Design
+subject: UFUG
+catalog_number: "2602"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces common data structures and algorithms. Data structures include arrays and matrices, linked lists, stacks, priority queues, hash tables, trees, and graphs. Algorithms include sorting, hashing, searching, greedy methods, divide-and-conquer, dynamic programming, and branch-and-bound. Students will learn Python implementations of these data structures and algorithms, and solve programming problems with learned techniques.
+
+requirements:
+  prerequisite: UFUG 1601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG2602
+  - UFUG 2602
+  - Data Structure and Algorithm Design

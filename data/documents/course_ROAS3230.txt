@@ -1,0 +1,22 @@
+course: ROAS 3230
+normalized_code: ROAS3230
+title: Introduction to Medical Microrobotics
+subject: ROAS
+catalog_number: "3230"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Microrobotics is an interdisciplinary field which involves robotics, microfabrication, medicine and materials science. This course introduces microscopic robots and covers the fundamentals of their design, fabrication, and control of miniature robots and their manipulators. In addition to basic background material, the course includes case studies of current microrobots, challenges and future trends, and potential medical applications, including but not limited to cancer therapy, diagnostics, targeted delivery, and minimally invasive surgery. This course aims to equip students with the theoretical knowledge and practical insights necessary to contribute to this rapidly advancing field, and develop the skill needed to discover, innovate and create.
+
+requirements:
+  prerequisite: UFUG 1501 OR UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS3230
+  - ROAS 3230
+  - Introduction to Medical Microrobotics

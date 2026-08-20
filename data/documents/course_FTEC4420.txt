@@ -1,0 +1,22 @@
+course: FTEC 4420
+normalized_code: FTEC4420
+title: Risk Management
+subject: FTEC
+catalog_number: "4420"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the role of risk management in supporting companies as they strive to balance the internal and external risk factors surrounding the operation of their business model against their various stakeholder obligations. Topics include a review of basic hedging strategies (knowledge of futures and options is pre-requisite), the theory and evidence on the value of corporate risk management, review of major surveys of risk management practices, business-case studies highlighting advanced derivatives and risk-management strategies, an illustrative model of integrated enterprise risk- management (featuring Monte-Carlo simulation), and student-led-risk-management audits.
+
+requirements:
+  prerequisite: FTEC 3130
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4420
+  - FTEC 4420
+  - Risk Management

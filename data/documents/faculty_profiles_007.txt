@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：须江（Jiang XU）
+  职称：Thrust Head
+  学域：Thrust of Microelectronics
+  邮箱：jiang.xu@hkust-gz.edu.cn
+  办公室：W1 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Jiang/jiang.xu
+  研究方向：
+    System-on-chip，
+    Hardware-software codesign，
+    Hybrid photonic-electronic chip design，
+    Chip power management，
+    Machine learning system，

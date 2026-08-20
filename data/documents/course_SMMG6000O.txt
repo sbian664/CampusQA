@@ -1,0 +1,22 @@
+course: SMMGO 000O
+normalized_code: SMMG6000O
+title: Engineering Materials
+subject: SMMG
+catalog_number: "6000O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will introduce students to the fundamental relationships between the internal structure, properties, and processing of engineering materials, with a particular focus on polymers and composites. Comprehensive coverage spanning physical, chemical, thermal, mechanical, electrical, magnetic, and optical responses will be provided. The course is intended for materials researchers from all backgrounds, as well as engineers working in product design, development, and manufacturing. It helps students establish a foundation for advanced studies in materials engineering, manufacturing and related fields.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000O
+  - SMMGO 000O
+  - Engineering Materials

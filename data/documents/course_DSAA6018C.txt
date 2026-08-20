@@ -1,0 +1,22 @@
+course: DSAAC 018C
+normalized_code: DSAA6018C
+title: Independent Study
+subject: DSAA
+catalog_number: "6018C"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, an independent research project will be carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6018C
+  - DSAAC 018C
+  - Independent Study

@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：聂强（Qiang NIE）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：qiangnie@hkust-gz.edu.cn
+  办公室：W1(C8) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie
+  研究方向：
+    Robot Design and Control，
+    Human-Robot Interaction（including human behavior understanding, human pose estimation, human action prediction, human-robot cooperation），
+    Learning from Videos（Human Skill Learning/Human Behavior Imitation），
+    Multi-modal Vision Model（Perception, Understanding, Generation and Their Unified Model），
+    AI Agent，
+    Reinforcement Learning，

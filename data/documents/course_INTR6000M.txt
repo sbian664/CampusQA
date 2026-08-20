@@ -1,0 +1,22 @@
+course: INTRM 000M
+normalized_code: INTR6000M
+title: Deep Learning for Human Mobility Analytics
+subject: INTR
+catalog_number: "6000M"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The postgraduate course delves into the fusion of deep learning techniques with human mobility analytics. In an era dominated by extensive data availability, the course addresses the complexities of mobility analytics using cutting-edge deep learning methodologies. Students will gain a foundational understanding of deep learning concepts and apply them to decipher intricate large-scale human mobility data. The course aims to empower students to contribute meaningfully to fields such as urban planning, transportation management, and public health. Through literature review and hands-on projects, students will develop proficiency in applying deep learning to real-world mobility challenges, fostering a well-rounded skill set for addressing the evolving landscape of human mobility analytics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6000M
+  - INTRM 000M
+  - Deep Learning for Human Mobility Analytics

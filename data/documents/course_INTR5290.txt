@@ -1,0 +1,22 @@
+course: INTR 5290
+normalized_code: INTR5290
+title: Simultaneous Localization and Mapping (SLAM) and Its Applications
+subject: INTR
+catalog_number: "5290"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the principles and algorithms of Simultaneous Localization and Mapping (SLAM), which is widely used in intelligent transportation and robotics. Students will learn how to reconstruct 3D maps of environments and track the positions of mobile agents simultaneously. Practical applications of SLAM in autonomous vehicles, drones, and smart manufacturing will be explored through hands-on projects.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5290
+  - INTR 5290
+  - Simultaneous Localization and Mapping (SLAM) and Its Applications

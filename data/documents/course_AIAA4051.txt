@@ -1,0 +1,22 @@
+course: AIAA 4051
+normalized_code: AIAA4051
+title: Introduction to Natural Language Processing
+subject: AIAA
+catalog_number: "4051"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive journey into Natural Language Processing, first establishing the essential computational fundamentals of words, syntax, and semantics, and then advancing to the modern architectures that define the LLM era, such as transformers and GPT. You will learn to bridge classic techniques with cutting-edge applications—mastering pre-training, fine-tuning, and prompt engineering—while critically examining the advanced capabilities and profound responsibilities surrounding fairness, security, and interpretability. Through a blend of foundational theory and hands-on projects, this course equips you to build, innovate, and lead in the rapidly evolving field of applied NLP.
+
+requirements:
+  prerequisite: UFUG 2601 OR UFUG 2602
+  corequisite: none
+  exclusion: DSAA 3051
+
+search_aliases:
+  - AIAA4051
+  - AIAA 4051
+  - Introduction to Natural Language Processing

@@ -1,0 +1,22 @@
+course: INFH 6780
+normalized_code: INFH6780
+title: Career Development for Information Hub Students
+subject: INFH
+catalog_number: "6780"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims at equipping RPg students of the Information Hub with the skills conducive to their professional career development. Students are required to attend the 3 hours' training focusing on personality self-exploration and discipline-specific training at the thrust level, and another 10 hours' training at the hub level, at their own choice. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INFH6780
+  - INFH 6780
+  - Career Development for Information Hub Students

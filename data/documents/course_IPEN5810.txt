@@ -1,0 +1,22 @@
+course: IPEN 5810
+normalized_code: IPEN5810
+title: Data Science in Empirical Economics
+subject: IPEN
+catalog_number: "5810"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In the digital age, there is more data available than ever before on human behavior: from analyzing an elected officialâs opinion on Twitter to identifying a farmerâs crop choices through satellite images. This course aims to familiarize students in applied economics, public policy, and relevant disciplines with recent research that has used big data to push the cutting-edge of the applied economic and public policy fields. Through a combination of problem sets and independent projects, students will acquire the statistical and computational tools needed for making use of big data in empirical research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5810
+  - IPEN 5810
+  - Data Science in Empirical Economics

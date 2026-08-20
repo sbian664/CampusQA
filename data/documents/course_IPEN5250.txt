@@ -1,0 +1,22 @@
+course: IPEN 5250
+normalized_code: IPEN5250
+title: Text Analysis and Machine Learning
+subject: IPEN
+catalog_number: "5250"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course serves as an applied introduction to machine learning methods for text analysis. Several approaches on text data management and analysis will be covered in this course including basic natural language processing techniques, document representation, text categorization and clustering, document summarization, sentiment analysis, social network and social media analysis, probabilistic topic models and text visualization.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5250
+  - IPEN 5250
+  - Text Analysis and Machine Learning

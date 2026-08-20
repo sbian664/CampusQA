@@ -38,6 +38,7 @@ wheels/
 # 数据和缓存
 data/cache/*
 data/embeddings/*
+data/reranker/*
 data/faiss_index.bin
 data/faiss_index.bin.meta
 *.db
@@ -53,3 +54,8 @@ logs/
 
 # 开发中途文档
 docs/
+
+# Backend-only branch: local frontend/evaluation workspace is not part of this branch
+/frontend/
+/eval/
+/tests/

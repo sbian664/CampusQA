@@ -1,0 +1,22 @@
+course: IOTA 5106
+normalized_code: IOTA5106
+title: Introduction to Communication Networks
+subject: IOTA
+catalog_number: "5106"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to different types of communication networks, with a focus on Internet technologies. Topics covered include error control, flow control, medium access control, routing, congestion control, packet scheduling, queueing theory, and network optimization. The course will provide students with the fundamental knowledge required to understand, analyze, and optimize the performance of communication networks. It is suitable for students who do not have an existing background in communication networks.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5106
+  - IOTA 5106
+  - Introduction to Communication Networks

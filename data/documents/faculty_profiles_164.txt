@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：林桥津（Julie Qiaojin LIN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：qiaojinlin@hkust-gz.edu.cn
+  办公室：E4 L4 413
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Qiaojin/qiaojinlin
+  研究方向：
+    Molecular neuroscience，
+    RNA biology，
+    Brain temperature，
+    Neuroprotection，
+    Brain-on-chip，

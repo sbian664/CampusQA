@@ -1,0 +1,22 @@
+course: BSBE 5300
+normalized_code: BSBE5300
+title: Brain and Behavior
+subject: BSBE
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the basic knowledge of neuroscience, including neuronal communications in the brain, the fundamental information and electrophysiological properties of neurons, neuroanatomy, psychopharmacology, and how the activity of neurons and neural circuits, together with chemical systems in the brains, yield emotion, motivated behaviors, learning and memory.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE5300
+  - BSBE 5300
+  - Brain and Behavior

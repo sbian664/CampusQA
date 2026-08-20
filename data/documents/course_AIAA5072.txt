@@ -1,0 +1,22 @@
+course: AIAA 5072
+normalized_code: AIAA5072
+title: Quantum Computing
+subject: AIAA
+catalog_number: "5072"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive introduction to the field of quantum computing. Students will explore fundamental concepts such as quantum bits, quantum circuits, and quantum algorithms. Advanced topics including quantum error correction, quantum information processing, and quantum machine learning will also be covered.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5072
+  - AIAA 5072
+  - Quantum Computing

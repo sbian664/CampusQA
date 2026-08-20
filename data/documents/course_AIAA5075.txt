@@ -1,0 +1,22 @@
+course: AIAA 5075
+normalized_code: AIAA5075
+title: Information Theory for Machine Learning
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5075
+  - AIAA 5075
+  - Information Theory for Machine Learning

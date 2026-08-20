@@ -1,0 +1,22 @@
+course: ROAS 4471
+normalized_code: ROAS4471
+title: Deep Learning in Computer Vision
+subject: ROAS
+catalog_number: "4471"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Deep learning has significantly advanced the performance of computer vision system from object recognition to image processing. This course covers the basics and various applications of deep learning in computer vision. Students will study the details of convolutional neural networks as well as recurrent neural networks and train deep networks with end-to-end optimization, and learn deep learning based approaches for both high-level and low-level computer vision tasks such as image recognition and image enhancement. Through programming projects, students will implement, train, and test deep neural networks on cutting-edge computer vision research. Students would be required to study or do research in a final course project related to deep learning and computer vision and present their work by the end of the course.
+
+requirements:
+  prerequisite: (UFUG 2601 OR UFUG 2602) AND (UFUG 2102 OR UFUG 2103)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS4471
+  - ROAS 4471
+  - Deep Learning in Computer Vision

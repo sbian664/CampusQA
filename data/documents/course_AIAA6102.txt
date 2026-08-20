@@ -1,0 +1,22 @@
+course: AIAA 6102
+normalized_code: AIAA6102
+title: Artificial Intelligence Seminar II
+subject: AIAA
+catalog_number: "6102"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Series of seminars presenting research problems currently under investigation, presented by faculty, students, and visiting speakers. Students are expected to attend regularly. Continuation of AIAA 6101. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA6102
+  - AIAA 6102
+  - Artificial Intelligence Seminar II

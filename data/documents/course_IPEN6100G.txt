@@ -1,0 +1,22 @@
+course: IPENG 100G
+normalized_code: IPEN6100G
+title: Global Environmental and Climate Policy
+subject: IPEN
+catalog_number: "6100G"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  As the magnitudes of environmental problems have increased, many of the most severe issues have become truly global challenges. Hundreds of international agreements have been signed, but their effectiveness has been inconsistent. Heightened concern about environmental quality has increased demand analysts who can navigate the political, economic, scientific, and technological dimensions of these issues to inform critical policy decisions in a multinational context. This class is designed to introduce students to the main concepts, frameworks, and actors involved in addressing environmental and climate problems of global scale.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100G
+  - IPENG 100G
+  - Global Environmental and Climate Policy

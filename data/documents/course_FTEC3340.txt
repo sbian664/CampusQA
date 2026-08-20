@@ -1,0 +1,22 @@
+course: FTEC 3340
+normalized_code: FTEC3340
+title: Introduction to Econometrics
+subject: FTEC
+catalog_number: "3340"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Topics on the use of statistical regression techniques in modeling and estimating economic and business relationships. Both theoretical and applied aspects are addressed.
+
+requirements:
+  prerequisite: FTEC 3130 AND FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3340
+  - FTEC 3340
+  - Introduction to Econometrics

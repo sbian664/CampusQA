@@ -1,0 +1,22 @@
+course: AIAA 2290
+normalized_code: AIAA2290
+title: Ethics, Privacy and Security in Artificial Intelligence
+subject: AIAA
+catalog_number: "2290"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This introductory course surveys the explosive area of AI ethics and illuminates relevant AI concepts with no prior background needed. Key topics include Fake News Bots; AI Driven Social Media Displacing Traditional Journalism; drone Warfare; Elimination of Traditional Jobs; Privacy-violating Advertising; Monopolistic Network Effects; Biased AI Decision/Recognition Algorithms; Deepfakes; Autonomous Vehicles; Automated Hedge Fund Trading, etc. Through the course, students will be able to understand how human civilization will survive amid the rise of AI, what are the new rules in the new era, how to preserve ethics when facing the threats of extinction and what are engineers’ and entrepreneurs’ ethical responsibilities.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA2290
+  - AIAA 2290
+  - Ethics, Privacy and Security in Artificial Intelligence

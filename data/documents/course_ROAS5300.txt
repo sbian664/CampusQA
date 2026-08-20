@@ -1,0 +1,22 @@
+course: ROAS 5300
+normalized_code: ROAS5300
+title: Multiple View Geometry for Mobile Robot Navigation
+subject: ROAS
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Multiple view geometry techniques can provide robots with the ability to better perceive and reconstruct their surroundings, leading to improved navigation capabilities. This course aims to help students gain a deep understanding of the mathematical and computational methods used in multiple view geometry, including camera calibration, stereo vision, structure from motion, and 3D reconstruction. This knowledge is essential for developing algorithms and systems that can accurately interpret and manipulate visual data in mobile robot navigation and related applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5300
+  - ROAS 5300
+  - Multiple View Geometry for Mobile Robot Navigation

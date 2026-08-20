@@ -1,0 +1,22 @@
+course: AMAT 2020
+normalized_code: AMAT2020
+title: Mathematical Methods in PhysicsⅠ
+subject: AMAT
+catalog_number: "2020"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will cover most of the mathematical tools required for studying classical mechanics, electromagnetism, quantum mechanics and statistical mechanics. Key topics include complex numbers, vector analysis, Fourier series and transform, ordinary differential equations and series solutions.
+
+requirements:
+  prerequisite: (UFUG 1103 or 1106) AND (UFUG 1502 or 1504)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2020
+  - AMAT 2020
+  - Mathematical Methods in PhysicsⅠ

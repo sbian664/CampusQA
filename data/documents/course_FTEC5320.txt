@@ -1,0 +1,22 @@
+course: FTEC 5320
+normalized_code: FTEC5320
+title: Decentralized Finance
+subject: FTEC
+catalog_number: "5320"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces various novel types of financial instruments enabled by blockchains, collectively known as Decentralized Finance (DeFi). Students will delve into key DeFi elements, gaining both theoretical knowledge and practical skills to effectively navigate and engage with DeFi platforms and protocols.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5320
+  - FTEC 5320
+  - Decentralized Finance

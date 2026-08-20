@@ -1,0 +1,22 @@
+course: IPEN 5130
+normalized_code: IPEN5130
+title: Economics of Technology Innovation and Entrepreneurship
+subject: IPEN
+catalog_number: "5130"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the economics of technology innovation and entrepreneurship through the combined perspectives of microeconomics and macroeconomics. It covers microeconomic core modules concerning consumers, firms, markets, and governments, as well as macroeconomic core modules on economic growth associated with entrepreneurship and innovation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5130
+  - IPEN 5130
+  - Economics of Technology Innovation and Entrepreneurship

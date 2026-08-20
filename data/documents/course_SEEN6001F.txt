@@ -1,0 +1,22 @@
+course: SEENF 001F
+normalized_code: SEEN6001F
+title: Characterization Techniques of Energy Materials
+subject: SEEN
+catalog_number: "6001F"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The characterization of energy materials is pivotal for understanding their structure-property relationships. This course introduces the principles and applications of various instrumental techniques used in the characterization of energy materials. It covers the fundamental theoretical frameworks that provide insights into the working principles of equipment for imaging, diffraction and spectroscopy methods to characterize structural, compositional, and surface properties of energy materials. Additionally, the course explores the applications of these techniques in studying the structures and properties of key materials for energy conversion and storage systems such as electrocatalysis, batteries and solar cells. Ultimately, this course empowers students to select suitable characterization techniques and instruments to solve problems in energy materials research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001F
+  - SEENF 001F
+  - Characterization Techniques of Energy Materials

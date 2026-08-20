@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：许泽锋（Zefeng XU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zefengxu@hkust-gz.edu.cn
+  办公室：E3 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Zefeng/zefengxu
+  研究方向：
+    Photonic computing，
+    Photonic integrated device，
+    Metamaterial，
+    Photonic/optical interconnect，
+    Compute-in-memory technology，

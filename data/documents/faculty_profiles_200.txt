@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：张延林（Yanlin ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yanlinzhang@hkust-gz.edu.cn
+  办公室：E1 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  研究方向：
+    Computational biology，
+    AI for Science，
+    Marine genomics，
+    Immersive data visualization，
+    Genetics and Evolution，

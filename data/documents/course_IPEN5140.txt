@@ -1,0 +1,22 @@
+course: IPEN 5140
+normalized_code: IPEN5140
+title: Quantitative Analysis and Empirical Methods
+subject: IPEN
+catalog_number: "5140"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to empirical methods and data management tools used in the current social science disciplines, with some special focuses on strategy, finance and applied micro-economics. The overall approach is to understand the common methods and research design used in the empirical research through intensive reading and replicating papers published in top journals. Students would also become proficient in the use of computer software that is widely used in analyzing quantitative data via empirical assignments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5140
+  - IPEN 5140
+  - Quantitative Analysis and Empirical Methods

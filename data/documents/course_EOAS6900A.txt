@@ -1,0 +1,22 @@
+course: EOASA 900A
+normalized_code: EOAS6900A
+title: Independent Study
+subject: EOAS
+catalog_number: "6900A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Study on selected topics in the Earth, Ocean and Atmospheric Sciences under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS6900A
+  - EOASA 900A
+  - Independent Study

@@ -1,0 +1,22 @@
+course: DSAAJ 000J
+normalized_code: DSAA6000J
+title: Foundations of Language Agents
+subject: DSAA
+catalog_number: "6000J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Large language model (LLM) based-Agents have been an important frontier in AI, however, they still fall short critical skills, such as complex reasoning, for solving hard problems and enabling applications in real-world scenarios. This course covers the foundations and applications of language agents that can continuously improve themselves through interaction with the environment. The course will start with inference and post-training techniques for building language agents, such as scaling test-time compute, combining tools with LLMs, and reinforcement learning with verified rewards, etc. We focus on two application domains: mathematics and programming. Our goal is that the students learn from the latest research papers, discuss the suggested readings in each class, work on an original research project in this area, and learn from invited academic and industry speakers about applications in building language agents.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000J
+  - DSAAJ 000J
+  - Foundations of Language Agents

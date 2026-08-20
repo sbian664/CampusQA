@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：唐靖（Jing TANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：jingtang@hkust-gz.edu.cn
+  办公室：E3 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  研究方向：
+    Big Data Management and Analytics，
+    Social Network and Graph Analysis，
+    Machine Learning，
+    Blockchains，

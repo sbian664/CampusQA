@@ -1,0 +1,22 @@
+course: UFUG 1105
+normalized_code: UFUG1105
+title: Honors Calculus I
+subject: UFUG
+catalog_number: "1105"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is the first of a year-long sequence of two courses in one-variable calculus, intended for first year undergraduate students with strong mathematical background. Besides the understanding of foundational concepts and practical skills in applying calculus, the course put emphasis on rigorous reasoning of practical facts and the proof of certain mathematical theorems. Topics include approximation, continuity, limit, differentiation, high order approximations and differentiation, and applications to optimization, monotonicity, and convexity.
+
+requirements:
+  prerequisite: Score 120 or above in Gaokao Mathematics OR Level 5 or above in HKDSE Mathematics Extended Module M2
+  corequisite: none
+  exclusion: UFUG 1102
+
+search_aliases:
+  - UFUG1105
+  - UFUG 1105
+  - Honors Calculus I

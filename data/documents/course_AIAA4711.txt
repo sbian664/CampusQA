@@ -1,0 +1,22 @@
+course: AIAA 4711
+normalized_code: AIAA4711
+title: Introduction to Advanced Algorithmic Techniques
+subject: AIAA
+catalog_number: "4711"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course aims to introduce advanced methods for designing and analyzing algorithms for solving tough problems. The topics cover useful advanced data structures, graph algorithms, heuristic searching algorithms and optimization algorithms that promote the development of AI. Also, students will learn algorithm design and analysis skills for computationally intractable problems, such as NP-completeness, randomized algorithms, approximation algorithms and amortized analysis. Additional topics, such as string matching, geometric and number-theoretic algorithms, will also be introduced. The course presents the topics at an introductory level and aims at senior undergraduate students. Through the class, students will develop a deeper understanding of algorithm design and demonstrate a basic understanding of the principles of advanced algorithms.
+
+requirements:
+  prerequisite: DSAA 2043
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4711
+  - AIAA 4711
+  - Introduction to Advanced Algorithmic Techniques

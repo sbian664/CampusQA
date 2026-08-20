@@ -1,0 +1,22 @@
+course: AIAA 5045
+normalized_code: AIAA5045
+title: Artificial Intelligence for Medical Imaging
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5045
+  - AIAA 5045
+  - Artificial Intelligence for Medical Imaging

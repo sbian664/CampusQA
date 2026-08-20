@@ -1,0 +1,22 @@
+course: UGOD 5030
+normalized_code: UGOD5030
+title: GIS and Spatial Analysis
+subject: UGOD
+catalog_number: "5030"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the basic concepts and methods in Geographic Information System (GIS), and their applications in urban design and governance, environmental and infrastructure sustainability, and smart city management. This course integrates social science and informatics perspectives, and is suitable for students with various backgrounds. In addition to learning traditional GIS data, spatial analytical techniques, and GIS software, this course also develops skills of manipulating spatially detailed urban sensing Big Data (about urban activities, environmental qualities, and mobility patterns).
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5030
+  - UGOD 5030
+  - GIS and Spatial Analysis

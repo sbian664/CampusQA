@@ -1,0 +1,22 @@
+course: SEENV 000V
+normalized_code: SEEN6000V
+title: Quantum Mechanical Modeling of Energy Materials
+subject: SEEN
+catalog_number: "6000V"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In the context of global decarbonization, energy materials take center stage in sustainable energy applications. Thanks to the development of theory and computation power, computational materials science is playing a more and more important role in the investigation and design of energy materials. This course equips students with the fundamental theory and practical skills in materials modeling based on the quantum-mechanical first-principles calculations. The following contents will be covered: the SchrÃ¶dinger equation; density functional theory; Hartree-Fock method; calculations of solids, surfaces, vibrations, thermodynamic phase diagrams, electronic structure, transition states, and ab initio molecular dynamics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000V
+  - SEENV 000V
+  - Quantum Mechanical Modeling of Energy Materials

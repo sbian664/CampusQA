@@ -1,0 +1,22 @@
+course: EOAS 5006
+normalized_code: EOAS5006
+title: Global Carbon Cycle and Climate Change
+subject: EOAS
+catalog_number: "5006"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides fundamental knowledge of how carbon flows through the land-ocean-atmosphere continuum and how carbon interacts with the cycling of water and other essential biogeochemical elements to regulate the Earthâs climate. It provides insight into human activities altering the carbon cycle, the global climate, and ecosystem dynamics. It also explores nature-based solutions or eco-engineering strategies for achieving carbon neutrality and mitigating adverse climate and ecosystem changes.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5006
+  - EOAS 5006
+  - Global Carbon Cycle and Climate Change

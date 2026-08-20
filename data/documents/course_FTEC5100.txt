@@ -1,0 +1,22 @@
+course: FTEC 5100
+normalized_code: FTEC5100
+title: Research in Corporate Finance
+subject: FTEC
+catalog_number: "5100"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the main issues in corporate finance, identifies principal theoretical tools and empirical approaches, and fosters thinking about current research questions. The theoretical part includes classic theories such as ModiglianiâMiller theorem, Coase theorem, and Fisher separation theorem, with a focus on financing decisions of firms, corporate governance, and their implications. The empirical part reviews econometric methods commonly used in corporate finance research and covers selected topics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5100
+  - FTEC 5100
+  - Research in Corporate Finance

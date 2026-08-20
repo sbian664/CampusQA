@@ -1,0 +1,22 @@
+course: DSAA 3053
+normalized_code: DSAA3053
+title: Introduction to Reinforcement Learning
+subject: DSAA
+catalog_number: "3053"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Topics include history and motivations of reinforcement learning, tabular solution methods such as multi-arm bandits, finite Markov decision process, dynamic programming, monte carlo methods and temporal difference learning, approximate solution such as on-policy approximation of action values, and off-policy approximation.
+
+requirements:
+  prerequisite: DSAA 2012
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3053
+  - DSAA 3053
+  - Introduction to Reinforcement Learning

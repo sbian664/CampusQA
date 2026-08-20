@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：岳玉涛（Yutao YUE）
+  职称：Associate Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yutaoyue@hkust-gz.edu.cn
+  办公室：E4 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue
+  研究方向：
+    Foundation Models & Generative Models 基础模型与生成模型，
+    Multimodal Learning 多模态学习，
+    AI Emotion, Cognition and Consciousness AI情感、认知与意识，
+    AI for Education & AI for Health AI在教育与健康领域的应用，

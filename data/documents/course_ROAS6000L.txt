@@ -1,0 +1,22 @@
+course: ROAS 6000L
+normalized_code: ROAS6000L
+title: Formal methods for dynamic systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS6000L
+  - ROAS 6000L
+  - Formal methods for dynamic systems

@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：梁俊卫（Junwei LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：junweiliang@hkust-gz.edu.cn
+  办公室：E4(C9) L3 304
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Junwei/junweiliang
+  研究方向：
+    Human trajectory forecasting，
+    Action recognition，
+    Large-scale computer vision，
+    Video analytics in general，

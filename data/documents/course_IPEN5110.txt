@@ -1,0 +1,22 @@
+course: IPEN 5110
+normalized_code: IPEN5110
+title: Foundation in Public Policy
+subject: IPEN
+catalog_number: "5110"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will provide an advanced foundation in the study and practice of public policy at the level required for graduate study. The course will cover both the historic foundations of policy studies, as well as emerging approaches and directions. As the study of public policy is inherently interdisciplinary, it will include perspectives from political science, public policy, economics, business and other aspects of social science. It will take a broad view of public policy, including taking up some of the core literature on public management and public administration.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5110
+  - IPEN 5110
+  - Foundation in Public Policy

@@ -1,0 +1,22 @@
+course: ROAS 5600
+normalized_code: ROAS5600
+title: Introduction to Discrete Event Systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5600
+  - ROAS 5600
+  - Introduction to Discrete Event Systems

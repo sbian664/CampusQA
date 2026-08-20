@@ -1,0 +1,22 @@
+course: FTEC 5040
+normalized_code: FTEC5040
+title: Financial Technology Research
+subject: FTEC
+catalog_number: "5040"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The objective of this course is to provide students with an extensive exposure to important research in financial technology and a rigorous training in related research methodologies. Main topics include cryptocurrencies, blockchain, P2P lending, crowdfunding, robo-advisors, regulatory technology (RegTech), and insurance technology (InsurTech). This course also enables students to gain an appreciation for how research in financial technologies improves traditional financial services and overcomes various difficulties inherent in the current financial system.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5040
+  - FTEC 5040
+  - Financial Technology Research

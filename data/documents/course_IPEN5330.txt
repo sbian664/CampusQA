@@ -1,0 +1,22 @@
+course: IPEN 5330
+normalized_code: IPEN5330
+title: Energy Economics and Policy
+subject: IPEN
+catalog_number: "5330"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an in-depth examination of the economics and policy issues surrounding energy. Topics include energy demand and supply, market structures, renewable energy technologies, fossil fuels, energy security, climate change, transportation, innovation, and policy analysis. Students will also participate in a research project to apply their knowledge to real-world scenarios.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5330
+  - IPEN 5330
+  - Energy Economics and Policy

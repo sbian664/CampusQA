@@ -1,0 +1,9 @@
+教职员简介：
+  姓名：吴大琪（TAI KAI NG）
+  职称：Pillar Head
+  学域：Pillar of STEM Education
+  邮箱：phtai@hkust-gz.edu.cn
+  办公室：W2 5F 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NG-TAI-KAI/phtai
+  研究方向：
+    condensed matter physics, in particular application of Quantum Field Theory to condensed matter systems. Topics of interests include strong correlated electrons, non-equilibrium mesoscopic transports, quantum topological order, disordered electronic systems and superconductivity; recently my interests include also data-driven education research including application of Machine Learning Technique on Education, developing neutral network type models for education.，

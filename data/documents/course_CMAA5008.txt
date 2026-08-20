@@ -1,0 +1,22 @@
+course: CMAA 5008
+normalized_code: CMAA5008
+title: Visual Communication and Expression
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5008
+  - CMAA 5008
+  - Visual Communication and Expression

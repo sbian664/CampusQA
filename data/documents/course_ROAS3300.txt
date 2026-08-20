@@ -1,0 +1,22 @@
+course: ROAS 3300
+normalized_code: ROAS3300
+title: Fundamentals of Machine Learning and Pattern Recognition
+subject: ROAS
+catalog_number: "3300"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This undergraduate course provides students with a solid foundation in the exciting field of artificial intelligence. This course explores the principles and techniques behind machine learning algorithms, pattern recognition methods, and decision-making policies, focusing specifically on their application in robotics and autonomous systems. Essential concepts such as supervised and unsupervised learning, feature extraction, classification, regression, Bayesian estimation, and optimization will be covered. Through hands-on projects and practical examples, students will develop the skills to analyze and interpret data, train machine learning models, and apply them to real-world problems in robotics and autonomous systems. By the end of this course, students will be equipped with the knowledge and tools to design intelligent algorithms, enabling them to contribute to the development of cutting-edge technologies in the field of robotics and autonomous systems.
+
+requirements:
+  prerequisite: UFUG 2102 OR UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS3300
+  - ROAS 3300
+  - Fundamentals of Machine Learning and Pattern Recognition

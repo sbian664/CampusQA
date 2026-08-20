@@ -1,0 +1,22 @@
+course: CMAA 5002
+normalized_code: CMAA5002
+title: Animation Art: From Concept to Production
+subject: CMAA
+catalog_number: "5002"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  From screenplay through post-production, students are immersed in the collaborative animation pipeline. In this course, students will utilize a variety of animation tools and techniques to tell a compelling story and experience the diverse roles within the animation industry through storyboarding, editing and completion of a short animated film.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5002
+  - CMAA 5002
+  - Animation Art: From Concept to Production

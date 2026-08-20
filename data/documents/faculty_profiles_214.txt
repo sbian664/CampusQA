@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：李昊昂（Haoang LI）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：haoangli@hkust-gz.edu.cn
+  办公室：W2(C8) 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli
+  研究方向：
+    Embodied AI (VLA and VLN)，
+    3D Computer Vision，
+    Autonomous Driving，

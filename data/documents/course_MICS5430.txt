@@ -1,0 +1,22 @@
+course: MICS 5430
+normalized_code: MICS5430
+title: Radio-Frequency Integrated Circuits for Wireless Systems
+subject: MICS
+catalog_number: "5430"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a foundation course in radio frequency integrated circuit design. The covered topics include basic concepts in RF design and wireless communication, transmission lines, passive devices, transceiver architectures, low noise amplifiers, mixers, baseband, phase-locked loops, power amplifier and transceiver SoC design.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5430
+  - MICS 5430
+  - Radio-Frequency Integrated Circuits for Wireless Systems

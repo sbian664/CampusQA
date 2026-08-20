@@ -1,0 +1,32 @@
+course: IPENH 100H
+normalized_code: IPEN6100H
+title: Nature-based Solutions to Carbon Neutrality
+subject: IPEN
+catalog_number: "6100H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Nature-based solutions (NbS) are becoming increasingly important as effective strategies for achieving carbon neutrality and addressing climate change. This course offers an integrated introduction to how natural and managed ecosystems contribute to carbon removal, how NbS are designed and implemented, and how they fit within broader sustainability and climate policy frameworks.
+
+The course is organized into three parts:
+Part I: Scientific foundations
+A concise overview of climate change, the global carbon cycle, and the roles of land, ocean, and atmospheric systems in storing and releasing carbon. This section provides essential background for students from diverse disciplinary backgrounds.
+Part II: NbS strategies and real-world applications
+An in-depth exploration of major nature-based approaches across different ecosystems, including: land-based NbS such as soil and forest carbon enhancement and landscape restoration; wetland NbS including peatland restoration and riparian systems; coastal and marine NbS (blue carbon) such as mangroves and saltmarsh ecosystems; and urban and hybrid NbS including green infrastructure and emerging integrated approaches. Case studies from China and around the world will be used to illustrate effectiveness, co-benefits, risks, and implementation challenges.
+Part III: Policy, governance, and sustainability practice
+A review of how NbS are incorporated into national and global climate strategies, carbon neutrality pathways, ESG and corporate sustainability frameworks. This section highlights real-world decision-making and career-relevant perspectives in climate policy, sustainability planning, and environmental management.
+
+Through lectures, discussions, and group projects, students will develop interdisciplinary skills to understand, evaluate, and communicate how NbS contribute to carbon neutrality pathways in both scientific and practical contexts.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100H
+  - IPENH 100H
+  - Nature-based Solutions to Carbon Neutrality

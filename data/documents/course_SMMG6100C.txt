@@ -1,0 +1,22 @@
+course: SMMGC 100C
+normalized_code: SMMG6100C
+title: Independent Study
+subject: SMMG
+catalog_number: "6100C"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Selected topics in smart manufacturing studied under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6100C
+  - SMMGC 100C
+  - Independent Study

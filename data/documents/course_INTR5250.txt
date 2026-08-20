@@ -1,0 +1,22 @@
+course: INTR 5250
+normalized_code: INTR5250
+title: Artificial Intelligence in Transportation
+subject: INTR
+catalog_number: "5250"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course aims to help students master the basic concepts and research methods of Artificial Intelligence (AI) and machine learning, understand future development trends, and lay the foundation for further research in leveraging machine learning and AI in transportation research. Through the study of this course, students will understand and master the basic concepts, ideas and methods of AI and related machine learning techniques, and initially learn and master the ability to use those machine learning techniques to solve practical problems, especially in transportation context.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5250
+  - INTR 5250
+  - Artificial Intelligence in Transportation

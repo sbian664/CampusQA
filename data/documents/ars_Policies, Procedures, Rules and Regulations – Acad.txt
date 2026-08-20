@@ -1,0 +1,40 @@
+ars_page: Policies, Procedures, Rules and Regulations – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/program-registration/policies-procedures-rules-regulations/
+source: ARS
+
+headings:
+  - Policies, Procedures, Rules & Regulations
+
+text: >
+  Policies, Procedures, Rules & Regulations
+  As a condition of online program registration, students must agree to abide by the University’s policies, procedures, rules and regulations, as approved by the University from time to time, which include but are not limited to the following:
+  Academic Honor Code
+  Academic Regulations Governing Undergraduate Studies
+  Academic Regulations Governing Postgraduate Studies
+  Regulations for Student Conduct
+  Regulations for Student Academic Integrity
+  Examination regulations & guidelines (student)
+  Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct
+  Equal Opportunities and Anti-discrimination Policy
+  Intellectual Property Policy
+  IT Acceptable Use Policy
+  Policy and Guidelines on the Use of the University’s Titles, Names and Logos:
+  Policy
+  Guidelines
+  Policy on Research Conduct and Integrity
+  Individual colleges, hubs, offices and departments may maintain policies for specific purposes.
+
+links:
+  - Academic Honor Code | https://document.hkust-gz.edu.cn/office/viewer?key=168&fileType=pdf&fileName=The+HKUST(GZ)+Academic+Honor+Code
+  - Academic Regulations Governing Undergraduate Studies | https://document.hkust-gz.edu.cn/office/viewer?key=541&fileType=pdf&fileName=Academic%20Regulations%20Governing%20Undergraduate%20Studies%202025-26
+  - Academic Regulations Governing Postgraduate Studies | https://fytgs.hkust-gz.edu.cn/internal-resources/academic-regulations
+  - Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=336&fileType=pdf&fileName=Regulations+for+Student+Conduct+
+  - Regulations for Student Academic Integrity | https://document.hkust-gz.edu.cn/office/viewer?key=338&fileType=pdf&fileName=Regulations+for+Student+Academic+Integrity
+  - Examination regulations & guidelines (student) | https://document.hkust-gz.edu.cn/office/viewer?key=166&fileType=pdf&fileName=Examination+Regulations+%26+Guidelines+(Student)
+  - Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=341&fileType=pdf&fileName=Supplementary+Implementation+Rules+for+Regulations+for+Student+Academic+Integrity+%26+Regulations+for+Student+Conduct
+  - Equal Opportunities and Anti-discrimination Policy | https://material.hkust-gz.edu.cn/wp-content/uploads/2023/11/Equal-Opportunities-and-Anti-discrimination-Policy.pdf
+  - Intellectual Property Policy | https://document.hkust-gz.edu.cn/office/viewer?key=232&fileType=pdf&fileName=Intellectual%20Property%20Policy
+  - IT Acceptable Use Policy | https://itd.hkust-gz.edu.cn/en/PoliciesRegulations
+  - Policy | https://legal.hkust.edu.hk/files/Policy_Use_of_University_Titles_Names_and_Logos.pdf
+  - Guidelines | https://geco.ust.hk/Bdownload/HKUST_Brand_guideline.pdf
+  - Policy on Research Conduct and Integrity | https://rd.hkust-gz.edu.cn/wp-content/uploads/2023/09/HKUSTGZ-Policy-on-Research-Conduct-and-Integrity.pdf

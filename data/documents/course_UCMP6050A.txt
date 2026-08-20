@@ -1,0 +1,22 @@
+course: UCMPA 050A
+normalized_code: UCMP6050A
+title: Project-driven Collaborative Design Thinking
+subject: UCMP
+catalog_number: "6050A"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCMP6050A
+  - UCMPA 050A
+  - Project-driven Collaborative Design Thinking

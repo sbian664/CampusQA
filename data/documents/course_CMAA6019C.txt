@@ -1,0 +1,23 @@
+course: CMAAC 019C
+normalized_code: CMAA6019C
+title: Sensor Technologies in Computational Arts and HCI
+subject: CMAA
+catalog_number: "6019C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers practical methods for designing and developing interactive techniques using off-the-shelf sensors, focusing on creative experiences like art creation and spatial interaction in computational arts and HCI.
+Students will gain hands-on experience throughout the entire process of developing sensor-based interaction methods and applications. The course, structured around case studies, covers sensor data collection, data organization, signal processing, and the use of machine learning to create engaging, responsive systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019C
+  - CMAAC 019C
+  - Sensor Technologies in Computational Arts and HCI

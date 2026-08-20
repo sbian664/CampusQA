@@ -1,0 +1,22 @@
+course: CNGF 6030
+normalized_code: CNGF6030
+title: Career Fair Workshop
+subject: CNGF
+catalog_number: "6030"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers students the chance to acquire essential career readiness skills and knowledge. These workshops are facilitated by the faculty members of CNCC Thrust and cover a wide range of topics, such as resume writing techniques, effective strategies for navigating career fairs, and exploring different career path options, among others. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF6030
+  - CNGF 6030
+  - Career Fair Workshop

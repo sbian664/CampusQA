@@ -1,0 +1,22 @@
+course: UFUG 1303
+normalized_code: UFUG1303
+title: Honors Chemistry II
+subject: UFUG
+catalog_number: "1303"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is designed for students who have taken Honors Chemistry I and want to continue to expand their chemistry knowledge. It will cover topics related to chemical kinetics and equilibrium, acids and bases, acid-base equilibria, solubility and complex ion equilibria, entropy and free energy, electrochemistry, representative elements and their chemistries, transition metals and coordination chemistry, organic molecules and organic reactions.
+
+requirements:
+  prerequisite: UFUG 1302
+  corequisite: none
+  exclusion: UFUG 1301
+
+search_aliases:
+  - UFUG1303
+  - UFUG 1303
+  - Honors Chemistry II

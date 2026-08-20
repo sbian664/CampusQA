@@ -1,0 +1,22 @@
+course: DSAA 4086
+normalized_code: DSAA4086
+title: Introduction to Optimization
+subject: DSAA
+catalog_number: "4086"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces fundamental theory and techniques of optimization. Topics include linear programming, unconstrained optimization, and constrained optimization. Numerical implementations of optimization methods are also discussed.
+
+requirements:
+  prerequisite: DSAA 2011 OR DSAA 2012 OR AIAA 3111
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4086
+  - DSAA 4086
+  - Introduction to Optimization

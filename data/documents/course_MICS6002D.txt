@@ -1,0 +1,22 @@
+course: MICSD 002D
+normalized_code: MICS6002D
+title: Domain Specific HW Design
+subject: MICS
+catalog_number: "6002D"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course equips students with the essential knowledge and skills to develop and optimize hardware solutions tailored for specific applications. It covers fundamental principles of hardware acceleration, focusing on the unique requirements and challenges of various applications. Students will learn to leverage custom architectures and design techniques to create efficient domain-specific accelerators that enhance performance and reduce power consumption compared to general-purpose processors. Key topics include architectural design, profiling and optimizing algorithms, and integrating hardware and software components, ultimately preparing students to design, implement, and evaluate cutting-edge hardware solutions in their fields.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002D
+  - MICSD 002D
+  - Domain Specific HW Design

@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：林仕居（Shiju LIN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：shijulin@hkust-gz.edu.cn
+  办公室：E1(C9) L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Shiju/shijulin
+  研究方向：
+    Electronic Design Automation (EDA)，
+    GPU Acceleration for EDA，

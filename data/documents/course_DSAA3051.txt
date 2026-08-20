@@ -1,0 +1,22 @@
+course: DSAA 3051
+normalized_code: DSAA3051
+title: Introduction to Natural Language Processing and Knowledge Engineering
+subject: DSAA
+catalog_number: "3051"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive overview of modern approaches for (1) natural language processing and (2) knowledge graphs. Students will explore text processing, linguistic preprocessing, and foundational language models, progressing from ngrams to word embeddings and neural language models. The curriculum covers semantic and discourse analysis, information extraction, and the integration of knowledge bases. Key topics include knowledge-intensive tasks, and the construction and application of knowledge graphs, along with ontologies and semantic web technologies like RDF, OWL, and SPARQL. The course also delves into large language models, emphasizing transformer architectures and ethical considerations of NLP and knowledge systems such as bias, fairness, and privacy. Through lectures, discussions, and practical exercises, students will gain critical insights into the development, maintenance, and application of NLP and knowledge systems, preparing them to address real-world challenges in these fields.
+
+requirements:
+  prerequisite: DSAA 2012
+  corequisite: none
+  exclusion: AIAA 4051
+
+search_aliases:
+  - DSAA3051
+  - DSAA 3051
+  - Introduction to Natural Language Processing and Knowledge Engineering

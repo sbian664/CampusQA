@@ -1,0 +1,15 @@
+教职员简介：
+  姓名：王仁杰（Renjie WANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：renjiewang@hkust-gz.edu.cn
+  办公室：W3 (C8) L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Renjie/renjiewang
+  研究方向：
+    Data-Driven Design for Microelectronic Component and System，
+    Multiphysics Simulation and Machine Learning，
+    Optoelectronic Detection, Sensing, Display, and Communications，
+    MicroLEDs, Photodiodes, Lasers, Transistors, and Their On-Chip Integrations，
+    Multiphysics Simulation of Optoelectronic and Microelectronic Devices，
+    Epitaxial Growth of Quantum Nanostructures，
+    Semiconductor Device Performance and Reliability，

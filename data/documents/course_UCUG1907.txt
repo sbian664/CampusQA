@@ -1,0 +1,22 @@
+course: UCUG 1907
+normalized_code: UCUG1907
+title: Design Thinking for Health Innovation
+subject: UCUG
+catalog_number: "1907"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  A project-based, experiential course that exposes students to the design thinking process for health innovation to address the real-world unmet needs in the society. The goal of this course is to develop students’ communication, interpersonal, teamwork, analytical, design and project management skills through a multi-disciplinary, team-based design experience. The design thinking process modules: empathize, define, ideate, prototype and test, will be introduced and the students will learn experientially by applying these process modules to solve the health unmet needs they observe in real life. The students are required to report their progress throughout the semester. At the end of the course, they will showcase their prototype in a roadshow and submit their project report and reflection on their design journey. It is a common core course for students from different schools who have no background in design thinking or are looking for practical experience in design thinking.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1907
+  - UCUG 1907
+  - Design Thinking for Health Innovation

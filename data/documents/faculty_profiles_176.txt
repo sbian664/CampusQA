@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：刘曦文（Xiwen LIU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：xiwenliu@hkust-gz.edu.cn
+  办公室：W1 L6 615
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Xiwen/xiwenliu
+  研究方向：
+    Microelectronics Devices，
+    Emerging Memory Technology，
+    Compute-in-Memory，
+    Design-Technology Co-Design，
+    Unconventional Computing，

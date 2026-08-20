@@ -1,0 +1,22 @@
+course: UCUG 1800
+normalized_code: UCUG1800
+title: Technology and Innovation: Social and Business Perspectives
+subject: UCUG
+catalog_number: "1800"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The development of new technology and innovation plays an increasingly important role in modern economic development. This course aims to equip students with a solid conceptual foundation to understand the dynamic process of technological innovation. Students will be introduced to the importance of technological innovation as a driver for value creation and economic growth. The dynamics of technological change will be analyzed through concepts such as technology life cycles, dominant design, network externalities, and first-mover advantage.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1800
+  - UCUG 1800
+  - Technology and Innovation: Social and Business Perspectives

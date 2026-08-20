@@ -1,0 +1,22 @@
+course: SEENB 100B
+normalized_code: SEEN6100B
+title: Independent Study
+subject: SEEN
+catalog_number: "6100B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent study on selected topics carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6100B
+  - SEENB 100B
+  - Independent Study

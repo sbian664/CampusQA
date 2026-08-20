@@ -1,0 +1,22 @@
+course: UCUG 2500
+normalized_code: UCUG2500
+title: Music of China
+subject: UCUG
+catalog_number: "2500"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will look at various forms of Chinese music, focusing in particular on instrumental genres. Although the aim is not to present the history of Chinese music per se, the topical organization of the course will follow a more or less chronological framework as attention is drawn to certain issues and prominent characteristics of music and musical life in China from ancient times to the present. The ability to read music or knowledge of musical notation would be helpful, but not required.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG2500
+  - UCUG 2500
+  - Music of China

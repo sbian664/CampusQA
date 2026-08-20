@@ -1,0 +1,22 @@
+course: DSAA 6010
+normalized_code: DSAA6010
+title: Industry Round Table
+subject: DSAA
+catalog_number: "6010"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers students opportunities to learn the possible industry topics and supervisors that they will work with during their internship. The goals are: (a) understand (i) problems in industry, (ii) existing data-sets, (iii) AI models, (iv) service scenario and KPI, (v) challenges; (b) propose industrial projects based on the understanding; and (c) matching for their industrial projects. This course is only available for MSc(DCAI) students. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6010
+  - DSAA 6010
+  - Industry Round Table

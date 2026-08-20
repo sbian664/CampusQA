@@ -1,0 +1,22 @@
+course: UFUG 1601
+normalized_code: UFUG1601
+title: Introduction to Computer Science
+subject: UFUG
+catalog_number: "1601"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the world of computer science, data analysis, and artificial intelligence. Through a series of lectures and hands-on exercises, students will learn the basics of each of these disciplines, and how they can be used to solve real-world problems. It will cover the following topics: an introduction to computer science, including an overview of its principles and concepts; the basics of data analysis, including methods for collecting, organizing, and analyzing data; an introduction to artificial intelligence, including an exploration of its various applications and capabilities; and an examination of how computer science, data analysis, and artificial intelligence can be used in combination to solve real-world problems. Upon completion of this course, students will have a strong foundation on which to build more advanced knowledge in these exciting fields.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1601
+  - UFUG 1601
+  - Introduction to Computer Science

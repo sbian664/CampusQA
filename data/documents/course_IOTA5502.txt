@@ -1,0 +1,22 @@
+course: IOTA 5502
+normalized_code: IOTA5502
+title: Convex and Nonconvex Optimization II
+subject: IOTA
+catalog_number: "5502"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers advanced theory, algorithms, and applications for convex and nonconvex optimization, including: subgradient methods, localization methods, decomposition methods, proximal methods, alternating direction methods of multipliers, conjugate direction methods, successive approximation methods, convex-cardinality problems, low-rank optimization problems, neural networks, semidefinite programming and relaxation, robust optimization, discrete optimization, stochastic optimization, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5502
+  - IOTA 5502
+  - Convex and Nonconvex Optimization II

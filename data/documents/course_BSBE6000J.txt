@@ -1,0 +1,26 @@
+course: BSBEJ 000J
+normalized_code: BSBE6000J
+title: Advances and Applications of Bioengineering
+subject: BSBE
+catalog_number: "6000J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive exploration of the latest advancements and applications within the field of bioengineering. Designed for students with a solid foundation in biology, chemistry, or engineering, this course aims to deepen understanding and enhance skills across key sub-disciplines including protein engineering, synthetic biology, metabolic engineering, and biomedical engineering.
+
+Throughout the course, students will actively engage with cutting-edge research and case studies that demonstrate the practical implementation of bioengineering solutions across diverse sectors such as medicine, industry, and the environment. Core topics encompass the strategic design and modification of proteins for therapeutic and industrial uses, the construction of synthetic biological systems for novel functions, optimization of metabolic pathways for improved production processes, and the development of innovative biomedical devices and techniques for health care improvements.
+
+This course is designed to ensure that students not only acquire comprehensive theoretical knowledge but also gain practical experience in applying engineering principles to biological systems. Through a blend of lectures, practical sessions, and project work, students will develop the essential knowledge and skills required to tackle complex challenges and lead future innovations in bioengineering.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000J
+  - BSBEJ 000J
+  - Advances and Applications of Bioengineering

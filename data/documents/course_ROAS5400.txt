@@ -1,0 +1,22 @@
+course: ROAS 5400
+normalized_code: ROAS5400
+title: Learning for 3D Vision
+subject: ROAS
+catalog_number: "5400"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the forefront of computer vision through the lens of novel neural 3D representations. Students will investigate advanced techniques that leverage deep learning to enhance the understanding and interpretation of 3D data. Key topics include the development and application of innovative neural architectures for processing point clouds, voxel grids, and implicit surfaces, as well as the integration of these representations into real-world applications such as augmented reality, autonomous navigation, and robotics. Through a blend of theoretical insights and practical projects, students will engage with state-of the-art methodologies and contribute to ongoing research in the field.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5400
+  - ROAS 5400
+  - Learning for 3D Vision

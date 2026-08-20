@@ -1,0 +1,22 @@
+course: UGOD 6100B
+normalized_code: UGOD6100B
+title: Urban Simulation and Analytics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100B
+  - UGOD 6100B
+  - Urban Simulation and Analytics

@@ -1,0 +1,22 @@
+course: UFUG 1502
+normalized_code: UFUG1502
+title: General Physics II
+subject: UFUG
+catalog_number: "1502"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  General Physics II is designed for students who are interested in science and technology. The course consists of three modules, which are Module 1: Electrostatics and Circuit, including Coulomb’s law, Electric Fields, Gauss’s Law, Electric potential, Capacitance, Current and Resistance, and Circuits; Module 2: Magnetism and Electromagnetics, including Magnetic Fields, Magnetic Field due to Currents, Induction and Inductance, Electromagnetic Oscillations, and Maxwell’s Equations, Electromagnetic Waves; Module 3: Optics and Modern Physics, including Images, Interference, Diffraction, Photons and Matters Waves, and A toms. In addition to the lecture, students are required to take 3 experimental sections.
+
+requirements:
+  prerequisite: UFUG 1501 or UFUG 1503
+  corequisite: none
+  exclusion: UFUG 1504
+
+search_aliases:
+  - UFUG1502
+  - UFUG 1502
+  - General Physics II

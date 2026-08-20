@@ -1,0 +1,22 @@
+course: SEENY 000Y
+normalized_code: SEEN6000Y
+title: Hydrogen and Fuel Cell
+subject: SEEN
+catalog_number: "6000Y"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Hydrogen energy plays a pivotal role in the transition towards a sustainable and clean future. In this course we will provide the students with fundamental knowledge of hydrogen production and utilization technologies. We will introduce the concepts, components and operational principles of hydrogen production, storage, transportation and utilization technologies. We will pay particular attention to the fuel cell technology as key converter in hydrogen energy grid, by learning thermodynamics, kinetics, fuel cell components, stacks and fuel cell economies. Upon completion of this course, students will acquire fundamental and comprehensive understanding of hydrogen production technologies for applications and innovations, as well as designing and evaluation of fuel cell systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000Y
+  - SEENY 000Y
+  - Hydrogen and Fuel Cell

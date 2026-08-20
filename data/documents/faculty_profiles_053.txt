@@ -1,0 +1,16 @@
+教职员简介：
+  姓名：季一丁（Yiding JI）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：jiyiding@hkust-gz.edu.cn
+  办公室：W1 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding
+  研究方向：
+    control systems，
+    formal methods，
+    discrete event systems，
+    game theory，
+    trustworthy machine learning，
+    reinforcement learning，
+    robotics and autonomous systems，
+    cyber physical systems，

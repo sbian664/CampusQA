@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：倪明选（Lionel Ming-Shuan NI）
+  职称：President
+  学域：President
+  邮箱：ni@hkust-gz.edu.cn
+  办公室：C1 E L7
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-Lionel-Ming-Shuan/ni
+  研究方向：
+    Big data，
+    High-performance computing，
+    Internet technologies，
+    Mobile computing，
+    Wireless networking，
+    Intelligent computing，

@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：巩紫君（Zijun GONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：gongzijun@hkust-gz.edu.cn
+  办公室：W4 L6 617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GONG-Zijun/gongzijun
+  研究方向：
+    Signal processing for wireless communications，
+    Channel estimation and channel tracking，
+    Array signal processing for communications and localization，
+    Stochastic signal process and optimization，
+    Target detection recognition, localization and tracking (Radar and Sonar)，

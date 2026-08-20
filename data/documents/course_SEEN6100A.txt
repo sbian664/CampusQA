@@ -1,0 +1,22 @@
+course: SEENA 100A
+normalized_code: SEEN6100A
+title: Independent Study
+subject: SEEN
+catalog_number: "6100A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent study on selected topics carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6100A
+  - SEENA 100A
+  - Independent Study

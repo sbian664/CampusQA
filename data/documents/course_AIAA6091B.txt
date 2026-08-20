@@ -1,0 +1,22 @@
+course: AIAAB 091B
+normalized_code: AIAA6091B
+title: Independent Study
+subject: AIAA
+catalog_number: "6091B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent research project carried out under the supervision of a faculty member. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA6091B
+  - AIAAB 091B
+  - Independent Study

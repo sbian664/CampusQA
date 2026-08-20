@@ -1,0 +1,22 @@
+course: UCUG 1502
+normalized_code: UCUG1502
+title: Video Art and Media Production
+subject: UCUG
+catalog_number: "1502"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to provide students with the knowledge, experience and the technical know-how skills of digital video production for various creative and artistic exploration and expression. Students can also use video images and combine with different media to create different visual effects and viewing experiences. Students will put the knowledge into practice in a series of creative exercises from shooting to post-production process of moving images. Using cinematic language as a personal and expressive medium, students are expected to become effective and artistic communicators of moving images.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1502
+  - UCUG 1502
+  - Video Art and Media Production

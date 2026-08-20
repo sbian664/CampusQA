@@ -1,0 +1,22 @@
+course: CMAA 5028
+normalized_code: CMAA5028
+title: Immersive Authoring for World Building and Animation
+subject: CMAA
+catalog_number: "5028"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Creating immersivity in virtual reality allows creators to have an engaging experience in creating arts, animation, or visual assets for building virtual world. The way of creating is significantly different compared to traditional methods of creating. In this studio-based course, students will be introduced creating methods using different immersive authoring tools in VR, such as QuillVR and Gravity Sketch; and have opportunities to practice the sketching, assets building, animation and pipeline building for world building projects.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5028
+  - CMAA 5028
+  - Immersive Authoring for World Building and Animation

@@ -1,0 +1,22 @@
+course: INTR 5240
+normalized_code: INTR5240
+title: The Principle and Application of Intelligent Connected Vehicle
+subject: INTR
+catalog_number: "5240"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Intelligent connected vehicles (ICVs) are believed to change peopleâs life in the near future by making the transportation safer, cleaner and more comfortable. Although many prototypes of ICVs have been developed to prove the concept of autonomous driving and the feasibility of improving traffic efficiency, there still exists a significant gap before achieving mass production of high-level ICVs. This course aims to present an overview of both the state of the art and future perspectives of key technologies that are needed for future ICVs. Through the study of this course, students will understand and master the basic concepts, key technologies and applications of ICV, and initially learn and master the ability to use that knowledge to solve practical problems, especially in cross-disciplinary communication and transportation context.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5240
+  - INTR 5240
+  - The Principle and Application of Intelligent Connected Vehicle

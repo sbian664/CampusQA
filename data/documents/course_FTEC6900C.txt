@@ -1,0 +1,22 @@
+course: FTECC 900C
+normalized_code: FTEC6900C
+title: Independent Study
+subject: FTEC
+catalog_number: "6900C"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Independent study in a designated subject under direct guidance of a faculty member to provide students the advanced knowledge and research skill sets on a topic of Financial Technology. Required readings, tutorial discussions, and submission of report(s) will be used for assessment. The course may be repeated for credit if different topics are studied. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6900C
+  - FTECC 900C
+  - Independent Study

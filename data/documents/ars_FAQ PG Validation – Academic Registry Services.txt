@@ -1,0 +1,116 @@
+ars_page: FAQ (PG): Validation – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+source: ARS
+
+headings:
+  - FAQ (PG): Validation
+  - Class Enrollment Guide (PG)
+
+text: >
+  FAQ (PG): Validation
+  April 23, 2025
+  1. What is validation?
+  Validation is a process that starts a few days before the enrollment period for students to do their course planning. Students can check their pre-enrollment result and plan for additional elective courses.
+  Students can make use of the “validate” button in the shopping cart to check their eligibility to enroll in courses they choose. In some cases, prior approvals are required before enrollment to the courses and students may make use of the validation period to seek relevant approvals.
+  2. How should I do my course planning?
+  You should do your course planning based on your program curriculum and own interests. Here are a few useful websites:
+  PG Academic Regulations
+  PG Curriculum (Graduation Requirement)
+  Class Schedule & Quota
+  When in doubt, you are encouraged to seek academic advice from your Program Office.
+  3. Do I need to put the pre-enrolled classes into the shopping cart for validation?
+  No, pre-enrolled classes are confirmed enrollment and do not require further validation.
+  4. How to access “Plan” and “Enroll” functions from Student Center?
+  5. How to select classes and put them into the shopping cart?
+  6. How to perform validation and how to solve validation errors?
+  Possible outcomes of the validation report:
+  Note#
+  What is the meaning?
+  How do I solve the problem?
+  Note 1
+  You may add this course
+  during the enrollment period.
+  Note that validation does not mean
+  the seat is "reserved" for you.
+  Remember to enroll the course(s)
+  during enrollment period.
+  Note 2
+  It is a warning message if a UG student tries to validate a PG course, or vice versa.
+  Seek "cross career" approval.
+  Note 3
+  Student does not meet the enrollment requisite, which may include pre-/co-requisites or other conditions (e.g., only for a particular Major).
+  Seek "requisite waive" approval.
+  Note: This error message can also be triggered by course exclusion which cannot be waived according to university regulations
+  Note 4
+  Permission from the instructor is required to enroll in this class.
+  Seek “instructor's consent” approval.
+  To learn how to request for approval, refer
+  Question 7
+  .
+  7. How to request for approval and what should I do after that?
+  Please refer to
+  Question 10
+  for further process after obtaining thecourse approvals.
+  8. How to check the assigned credit load of my current term?
+  9. When can I request for course approvals?
+  Approval requests can be submitted from the start of the validation period until the add/drop deadline.
+  10. What should I do after obtaining the course approvals?
+  Students should perform validation again to ensure the results show “OK to add” without other errors.
+  During the enrollment period, students should go to the SIS to confirm their enrollment. Please note that approval does not guarantee available seats.
+  11. Will I be notified when a decision is made?
+  If the instructor has given decision (approval or rejection) to your approval request, notification will be sent to your email box immediately. If the instructor approves your requisite waiver, cross career or consent request, you may enroll the course during the enrollment period. If the instructor approves your drop or audit request, the drop/audit action will be performed by the system immediately.
+  12. What is Prerequisites and Co-requisites?
+  A prerequisite for a course may be a specific level of attainment in a public examination or a course that must be taken and passed before you can enroll for the course in question.
+  A co-requisite is a course that must be taken prior to, or at the same time as, the course in question.
+  Exemptions from a prerequisite or co-requisite requirements require the approval of the instructor responsible for the course.
+  13. What is Exclusion?
+  An exclusion means you cannot enroll in the course in question if you reached a specified level of attainment in a public exam or if you have taken, or are registered in, a specified HKUST(GZ) course.
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+tables:
+  - Note# | What is the meaning? | How do I solve the problem?
+  - Note 1 | You may add this course during the enrollment period. | Note that validation does not mean the seat is "reserved" for you. Remember to enroll the course(s) during enrollment period.
+  - Note 2 | It is a warning message if a UG student tries to validate a PG course, or vice versa. | Seek "cross career" approval.
+  - Note 3 | Student does not meet the enrollment requisite, which may include pre-/co-requisites or other conditions (e.g., only for a particular Major). | Seek "requisite waive" approval. Note: This error message can also be triggered by course exclusion which cannot be waived according to university regulations
+  - Note 4 | Permission from the instructor is required to enroll in this class. | Seek “instructor's consent” approval.
+
+links:
+  - PG Academic Regulations | https://fytgs.hkust-gz.edu.cn/internal-resources/academic-regulations
+  - PG Curriculum (Graduation Requirement) | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Class Schedule & Quota | https://w5.hkust-gz.edu.cn/wcq/cgi-bin/
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Course Offering and Class Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

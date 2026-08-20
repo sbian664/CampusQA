@@ -1,0 +1,22 @@
+course: SEEN 6000W
+normalized_code: SEEN6000W
+title: Framework Compounds: Design and Energy Applications
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000W
+  - SEEN 6000W
+  - Framework Compounds: Design and Energy Applications

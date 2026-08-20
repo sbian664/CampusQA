@@ -1,0 +1,22 @@
+course: SEEN 5060
+normalized_code: SEEN5060
+title: Greenhouse Gas, Air Pollutant Emissions and Mitigation
+subject: SEEN
+catalog_number: "5060"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The aims of this course are to assist students understand emission characteristics of greenhouse gas and air pollutants and their sources, how to characterize and quantify emissions for diverse source sectors, and how to mitigate greenhouse gas and air pollutant emissions. The topics will include: the introduction of greenhouse gases and air pollutants; the characteristics of sector-based greenhouse gas and air pollutant emission sources, sampling and measurement techniques, and commonly used bottom-up estimation methods for major sectors such as energy, industry, transportation, households, and others; the uncertainty and validation of bottom-up emission inventory; the application of big data and innovative methodologies to emission inventory development; and major strategies and green technologies for mitigating greenhouse gas and air pollutant emissions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5060
+  - SEEN 5060
+  - Greenhouse Gas, Air Pollutant Emissions and Mitigation

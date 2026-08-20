@@ -1,0 +1,22 @@
+course: CNCC 5120
+normalized_code: CNCC5120
+title: Data Science for Carbon Neutrality Studies
+subject: CNCC
+catalog_number: "5120"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the application of data science techniques in the context of achieving carbon neutrality. The course covers various data-driven approaches to understanding, quantifying, and mitigating carbon emissions across different sectors, such as energy, transportation, buildings, and land use. Students will learn to collect, process, analyze, and visualize large-scale datasets related to carbon emissions, and develop predictive models and optimization techniques to support decision-making processes aimed at reducing carbon footprints. The course will also explore the role of data science in informing climate change mitigation policies and strategies at local, regional, and global scales
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5120
+  - CNCC 5120
+  - Data Science for Carbon Neutrality Studies

@@ -1,0 +1,22 @@
+course: UCUG 1809
+normalized_code: UCUG1809
+title: Understanding Yourself in University: A Sociological Perspective
+subject: UCUG
+catalog_number: "1809"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the interplay between education and society with a particular focus on higher education. Students will examine how social forces such as culture, race, class, and gender influence educational processes and outcomes at universities. The course will cover foundational theories and concepts in the sociology of education, the role of family and community, the structure and function of educational institutions, and contemporary issues in higher education. Students will also engage in self-reflection to understand their own experiences in the university setting through a sociological lens.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1809
+  - UCUG 1809
+  - Understanding Yourself in University: A Sociological Perspective

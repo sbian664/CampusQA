@@ -1,0 +1,22 @@
+course: SMMGX 000X
+normalized_code: SMMG6000X
+title: Advanced Composites: Mechanics and Manufacturing
+subject: SMMG
+catalog_number: "6000X"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course begins with a thorough examination of various composite material types and property prediction methods, essential for material selection and engineering design. This is followed by a rigorous analysis of laminated composites, covering micromechanics, homogenization techniques for determining effective stiffness properties, and the development of damage and failure theories. Students will apply classical laminated plate theory to design and analyze composite plates under bending, tension, compression, and hygrothermal loading conditions. Furthermore, the course introduces and demonstrates advanced composite manufacturing and fabrication techniques, alongside non-destructive evaluation and repair methodologies, and relevant testing procedures.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000X
+  - SMMGX 000X
+  - Advanced Composites: Mechanics and Manufacturing

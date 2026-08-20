@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：颜嘉（Jia YAN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：jasonjiayan@hkust-gz.edu.cn
+  办公室：W1 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YAN-Jia/jasonjiayan
+  研究方向：
+    mobile edge computing and edge intelligence，
+    wireless federated learning with differential privacy，
+    Internet of Vehicles (IoV) and Internet of Things (IoT)，
+    5G and beyond systems，

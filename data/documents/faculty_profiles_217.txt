@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：JIANG WEI（WEI JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：weijiang2@hkust-gz.edu.cn
+  办公室：E4 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-WEI/weijiang2
+  研究方向：
+    Low-cost and high-sensitivity optical sensors，
+    High-performance and high-speed readout integrated circuits，
+    Biomedical Circuits and Systems，
+    Emerging Applications: Medical Imaging, Wearable device, OWC, LiDAR，

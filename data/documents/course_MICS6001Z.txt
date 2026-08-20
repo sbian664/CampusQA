@@ -1,0 +1,22 @@
+course: MICSZ 001Z
+normalized_code: MICS6001Z
+title: Microstructure Physics and Semiconductor Devices
+subject: MICS
+catalog_number: "6001Z"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will explore the physics and properties of semiconductor micro and nano structures, physics and characteristics of semiconductor microdevices, and their electronic and photonic applications as active components. This course will discuss how the semiconductor micro/nano structuring and device miniaturization affect their properties and characteristics. This course will investigate the physics, design, and fundamental properties of Si, Ge, GaN-based, GaAs-based semiconductor micro and nanostructures. It will also cover two-dimensional gas and high electron mobility transistors, quantum wells/dots and semiconductor devices, microstructures and light-receiving microdevices, physics of micro light sources, edge- and surface-emitting microlasers, microwires and microwire devices, carrier confinement, photonic confinement and microcavities, advanced solar cells and solar-hydrogen devices. The goal of this course is to develop a comprehensive understanding of micro/nano structuring and device miniaturization of the next generation semiconductor technologies and applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001Z
+  - MICSZ 001Z
+  - Microstructure Physics and Semiconductor Devices

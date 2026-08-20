@@ -1,0 +1,22 @@
+course: AIAA 3053
+normalized_code: AIAA3053
+title: Reinforcement Learning: Principles and Methods
+subject: AIAA
+catalog_number: "3053"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The implementation of autonomous systems requires agents to learn how to make decisions. Reinforcement learning is a powerful paradigm for achieving such a goal, and it is relevant to an enormous range of tasks, including robotics, game playing, operations research, healthcare and more. This course provides a solid introduction to the field of reinforcement learning. Students learn about the core challenges and approaches, including generalization and exploration. Through the combination of lectures, written and coding assignments, and course projects, students are equipped with modeling and learning algorithm techniques for sequential decision-making problems. Assignments include the basics of reinforcement learning as well as deep reinforcement learning — an extremely promising new area that combines deep learning advancements with reinforcement learning.
+
+requirements:
+  prerequisite: UFUG 2104 AND (UFUG 2601 OR UFUG 2602)
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3053
+  - AIAA 3053
+  - Reinforcement Learning: Principles and Methods

@@ -1,0 +1,22 @@
+course: IOTA 5009
+normalized_code: IOTA5009
+title: AR/VR/MR/XR: Concepts, Theory, and Techniques
+subject: IOTA
+catalog_number: "5009"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the concepts, theories, and interaction techniques in AR/VR/MR/XR. It covers both the fundamental concepts and design theories and the state-of-the-art interaction techniques in the field. In addition, students will work independently or in teams to design, develop, and evaluate AR/VR/MR/XR applications. In sum, by the end of the class, students will have a solid grasp of the fundamental concepts and theories and hands-on experience in AR/VR/MR/XR.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5009
+  - IOTA 5009
+  - AR/VR/MR/XR: Concepts, Theory, and Techniques

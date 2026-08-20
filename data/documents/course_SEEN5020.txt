@@ -1,0 +1,22 @@
+course: SEEN 5020
+normalized_code: SEEN5020
+title: Design and Optimization of Energy Systems
+subject: SEEN
+catalog_number: "5020"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to introduce techniques for the architecture design, optimization modelling and the economic evaluation of industrial processes and energy systems and to develop the skills required to identify the opportunity and implement optimization-based decision support tools in energy processes and systems. It covers the problem statement, modeling of processes and systems, solving methods for the simulation and the single and multi-objective optimization strategies. Topics cover process systems engineering, process and system modelling and simulation, economic evaluation, optimization strategies, and data reconciliation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5020
+  - SEEN 5020
+  - Design and Optimization of Energy Systems

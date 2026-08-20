@@ -1,0 +1,22 @@
+course: UGOD 5070
+normalized_code: UGOD5070
+title: Urban Planning and Design
+subject: UGOD
+catalog_number: "5070"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course cuts across all major fields within urban planning and design and introduces the major theories, models, and methodological approaches that urban planners and policy makers use for urban planning and design. This course also critically examines the current practice of urban planning and governance in China at various geographical scales.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5070
+  - UGOD 5070
+  - Urban Planning and Design

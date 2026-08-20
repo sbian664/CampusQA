@@ -1,0 +1,22 @@
+course: MICSE 002E
+normalized_code: MICS6002E
+title: Efficient Computing in Heterogeneous System
+subject: MICS
+catalog_number: "6002E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course equips students with critical knowledge and techniques for designing and optimizing modern heterogeneous computing systems. It offers a comprehensive understanding of heterogeneous computing architecture, i.e., the CPU+NPU+DPU+GPU. Students will learn how to leverage different hardware features to achieve a high-performance and power-efficient computing system. Through an in-depth understanding of unified memory programming, asynchronous communication, direct memory access, and workload in/off-loading, students will gain the skills to optimize the heterogeneous system for building an efficient system.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002E
+  - MICSE 002E
+  - Efficient Computing in Heterogeneous System

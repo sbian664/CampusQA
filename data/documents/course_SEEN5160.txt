@@ -1,0 +1,22 @@
+course: SEEN 5160
+normalized_code: SEEN5160
+title: Integration Study of Energy, Transportation, Information and Humanity
+subject: SEEN
+catalog_number: "5160"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  From the view of integration and digitalization, this course aims to paint a picture of what could happen next in industrial development. It will integrate digital technology and power electronics technology to develop energy digitization and promote the energy revolution. Specifically, this course introduces the evolution from industry 1.0 to 5.0, solar power and storage system, data center and AI server power supply, intelligent and electrified transportation, smart charging network and policy, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5160
+  - SEEN 5160
+  - Integration Study of Energy, Transportation, Information and Humanity

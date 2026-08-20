@@ -1,0 +1,22 @@
+course: MICSB 090B
+normalized_code: MICS6090B
+title: Independent Study
+subject: MICS
+catalog_number: "6090B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent study on selected topics carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6090B
+  - MICSB 090B
+  - Independent Study

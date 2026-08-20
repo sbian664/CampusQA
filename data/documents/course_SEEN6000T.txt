@@ -1,0 +1,22 @@
+course: SEENT 000T
+normalized_code: SEEN6000T
+title: Computational Fluid Dynamics
+subject: SEEN
+catalog_number: "6000T"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the numerical analysis and data structures to analyze and solve problems involving fluid flows. The following contents will be included. Euler and Navier-Stokes equations governing the flow of gas and liquids. Mathematical character of partial differential equations. Discretization approaches with a focus on the finite difference method. Explicit and implicit solution techniques and their numerical stability. Introduction to verification, validation, and uncertainty quantification for computational fluid dynamics predictions. Algorithms for solving the Navier Stokes and energy equations, turbulence modeling.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000T
+  - SEENT 000T
+  - Computational Fluid Dynamics

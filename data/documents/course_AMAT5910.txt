@@ -1,0 +1,22 @@
+course: AMAT 5910
+normalized_code: AMAT5910
+title: Compound Semiconductor Materials Technology
+subject: AMAT
+catalog_number: "5910"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Compound semiconductor materials have been deeply integrated in various gadgets nowadays, shaping the new world in an unimaginable way. Understanding compound semiconductor materials is critical as one of the first steps towards understanding how the advanced technology evolves continuously, from the past to the future. This course aims to introduce an overview of compound semiconductor materials, linking the fundamental physics, materials and devices to the point where the students can specialize and assist them in their supervised research. The course contains fundamentals of semiconductor physics and semiconductor specifics including technologically relevant materials and their properties, doping and defects and heterostructures. General and detailed discussions on linking materials and devices for applications will be covered at the later stage in the course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5910
+  - AMAT 5910
+  - Compound Semiconductor Materials Technology

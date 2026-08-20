@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：黄智强（Zhiqiang HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zqhuang@hkust-gz.edu.cn
+  办公室：W2(C8) L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Zhiqiang/zqhuang
+  研究方向：
+    Analog/Mixed-Signal/RF/mm-wave/THz integrated circuit design，
+    Analog/RF/mm-wave integrated circuit design，
+    Frequency synthesis from RF to sub-THz，
+    Low power integrated circuit design，

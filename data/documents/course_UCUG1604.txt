@@ -1,0 +1,22 @@
+course: UCUG 1604
+normalized_code: UCUG1604
+title: History of Chinese Civilization: From Antiquity to Late Imperial
+subject: UCUG
+catalog_number: "1604"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive overview of the key historical events, dynasties, and cultural developments that have shaped Chinese civilization over 3000 years, spanning from the Shang dynasty to the end of imperial China. It explores the unique trajectories and general trends in Chinese social, cultural, and intellectual history, highlighting the profound influence of philosophical and religious movements such as Confucianism, Legalism, and Buddhism. Additionally, the course situates China within a global context, examining its encounters and interactions through trade, cultural exchanges, and diplomatic relations. By analyzing both "China in the world" and "the world in China," this course offers a nuanced understanding of China's historical significance and its interconnectedness with global developments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1604
+  - UCUG 1604
+  - History of Chinese Civilization: From Antiquity to Late Imperial

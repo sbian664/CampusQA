@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：袁子轩（Zixuan YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zixuanyuan@hkust-gz.edu.cn
+  办公室：E3（C9）L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Zixuan/zixuanyuan
+  研究方向：
+    Data Science and Artificial Intelligence，
+    Financial Technology，
+    Text Analytics，
+    Recommendation Systems，

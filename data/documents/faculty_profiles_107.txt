@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：刘金国（Jinguo LIU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：jinguoliu@hkust-gz.edu.cn
+  办公室：W1 L3 315
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jinguo/jinguoliu
+  研究方向：
+    Tensor Network Algorithms，
+    Quantum Simulation Software，
+    Combinatorial Optimization，

@@ -1,0 +1,22 @@
+course: UGOD 5010
+normalized_code: UGOD5010
+title: Science of Cities
+subject: UGOD
+catalog_number: "5010"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course aims to provide a comprehensive understanding of the city and the system of cities, the challenges faced by cities, especially the rapidly-developing large cities, and the key tools for interventions in response to critical pressures linked to economic development, urbanization, globalization, migration, social inclusion, climate change, resource efficiency, technology etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5010
+  - UGOD 5010
+  - Science of Cities

@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：王泽宇（Zeyu WANG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：zeyuwang@hkust-gz.edu.cn
+  办公室：E2 L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Zeyu/zeyuwang
+  研究方向：
+    The Creative Intelligence and Synergy (CIS) Lab at The Hong Kong University of Science and Technology (Guangzhou) conducts cutting-edge research at the intersection of computer graphics, human-computer interaction, and artificial intelligence, with a focus on algorithms and systems for digital content creation. Our current research topics include sketching, VR/AR/XR, generative techniques, and multimodal creativity, with applications in art, design, perception, and cultural heritage.，
+    • Drawing analysis and intelligent interfaces, including non-photorealistic rendering, sketch-based modeling, and AI-assisted drawing，
+    • Virtual/augmented/extended reality, including efficient 3D capture, processing, and editing, spatial interfaces, and digital twin，
+    • AI content generation, including neural rendering, digital humans, procedural modeling, and multimodal AI creativity，
+    • Applications in art, design, perception, and cultural heritage, such as digitization of Longmen Grottoes and Dunhuang dance，

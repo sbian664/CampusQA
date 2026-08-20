@@ -1,0 +1,26 @@
+course: SEENH 001H
+normalized_code: SEEN6001H
+title: Electrochemistry of Energy Systems
+subject: SEEN
+catalog_number: "6001H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course aims to develop understanding in the area of electrochemical energy systems by building on existing knowledge of thermodynamics, kinetics, and transport. The lectures are thematically organized around several modules: 
+1) Introduction to Devices
+2) Thermodynamics: relating free energy and potential, concentration-dependence of potential, temperature-dependence of potential, heat engine analysis, efficiency 
+3) Kinetics: Butler Volmer, mechanisms, Marcus theory, Sabatier principle, double layer 
+4) Transport: electronic conductivity, ionic conductivity, concentration overpotential, liquid junctions, conservation of mass and charge, boundary conditions, boundary layer analysis, experimental methods, equivalent circuits.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001H
+  - SEENH 001H
+  - Electrochemistry of Energy Systems

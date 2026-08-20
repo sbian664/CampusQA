@@ -8,7 +8,7 @@ from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
 from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, ToolHandler
-from src.reranker import search_with_optional_rerank
+from src.reranker import rerank_precomputed_results
 from config import (
     SYSTEM_PROMPT,
     RAG_TOP_K,
@@ -23,6 +23,7 @@ from config import (
     AGENT_CONTEXT_RATIO,
     AGENT_MODEL_MAX_CONTEXT,
     AGENT_SYSTEM_PROMPT,
+    RERANKER_CANDIDATE_K,
 )
 
 
@@ -106,24 +107,23 @@ class Chatbot:
         if self.kb is None:
             return self.chat_with_history(user_message, history)
 
-        if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'hybrid_search'):
-            results = search_with_optional_rerank(
-                self.kb,
+        if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'retrieve'):
+            candidate_k = RERANKER_CANDIDATE_K if rerank_enabled else RAG_TOP_K
+            retrieval = self.kb.retrieve(
                 user_message,
+                top_k=candidate_k,
+                rescue_top_k=RAG_TOP_K,
+            )
+            results = rerank_precomputed_results(
+                user_message,
+                retrieval.results,
                 top_k=RAG_TOP_K,
                 enabled=rerank_enabled,
             )
+            bm25_results = retrieval.bm25_results
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
-
-        # Agent 自主决策：若混合检索全无关键词命中，追加纯 BM25 结果
-        # 但先用 _bm25_doc_freq O(1) 预检，语料中无关键词则跳过全量扫描
-        bm25_results = []
-        all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
-        if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
-            qt = self.kb._tokenize_query(user_message)
-            if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
-                bm25_results = self.kb.bm25_search(user_message, top_k=RAG_TOP_K)
+            bm25_results = []
 
         # 构建上下文：语义匹配 + 关键词匹配分开展示
         context_parts = []

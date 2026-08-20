@@ -1,0 +1,22 @@
+course: SEENA 001A
+normalized_code: SEEN6001A
+title: Machine Learning for Energy Materials
+subject: SEEN
+catalog_number: "6001A"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Machine learning (ML) has become one of the most useful and important tools in scientific research. This course provides the fundamentals and useful insight into where ML could have the greatest impact for the students dedicated to energy materials research. The lectures provide example methods for ML applied to experiments and simulations, covering the early stages of building an ML solution for a materials science problem, the issue of how to build more robust models, the use of ML to accelerate or augment simulations, how ML is applied to analyze and process experimental data, and how ML can be used in the discovery of new energy materials on computers.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001A
+  - SEENA 001A
+  - Machine Learning for Energy Materials

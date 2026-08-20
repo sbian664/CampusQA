@@ -1,0 +1,26 @@
+course: IPENF 100F
+normalized_code: IPEN6100F
+title: Greenhouse Gas Emission Quantification
+subject: IPEN
+catalog_number: "6100F"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the scientific principles and practical methods for quantifying greenhouse gas (GHG) emissions using both bottom-up and top-down approaches. The course is organized into three main parts:
+â¢ Part I: Overview of the major sources and sinks of carbon dioxide (COâ), methane (CHâ), and nitrous oxide (NâO) across natural and anthropogenic systems, with emphasis on global budgets and controlling processes.
+â¢ Part II: Bottom-up approaches, including emission inventories, process-based modeling, and activity data analysis, with applications to key sectors such as energy, agriculture, and land use.
+â¢ Part III: Top-down approaches, including atmospheric observations from ground stations, aircraft, and satellites, coupled with atmospheric transport models and inverse modeling techniques to infer emissions.
+Through lectures, readings, and data analysis exercises, students will develop skills to interpret GHG fluxes, evaluate methodological strengths and limitations, and integrate complementary approaches for robust emission assessments. The course emphasizes both theoretical foundations and up-to-date research literature.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100F
+  - IPENF 100F
+  - Greenhouse Gas Emission Quantification

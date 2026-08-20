@@ -1,0 +1,22 @@
+course: UFUG 1103
+normalized_code: UFUG1103
+title: Calculus II
+subject: UFUG
+catalog_number: "1103"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is the second of a year-long sequence of two introductory courses in one-variable calculus, intended for first year undergraduate students. The emphasis is on the understanding of foundational concepts and practical skills in applying calculus, which are essential for their future study in various fields. Topics include definite and indefinite integrals, numerical calculation, applications to geometry and physics, and infinite series.
+
+requirements:
+  prerequisite: UFUG 1102 or UFUG 1105
+  corequisite: none
+  exclusion: UFUG 1106
+
+search_aliases:
+  - UFUG1103
+  - UFUG 1103
+  - Calculus II

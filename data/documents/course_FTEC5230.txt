@@ -1,0 +1,22 @@
+course: FTEC 5230
+normalized_code: FTEC5230
+title: Financial Risk Management
+subject: FTEC
+catalog_number: "5230"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course shows the use of various quantitative techniques and financial engineering principles in the management and modeling of financial risks. The topics include hedging of market risks, immunization of bond risks, Value-at-Risk and expected shortfall, credit yield curve model, credit derivatives pricing, and default correlation models.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5230
+  - FTEC 5230
+  - Financial Risk Management

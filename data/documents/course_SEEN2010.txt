@@ -1,0 +1,22 @@
+course: SEEN 2010
+normalized_code: SEEN2010
+title: Introduction to New Energy Science and Engineering
+subject: SEEN
+catalog_number: "2010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN2010
+  - SEEN 2010
+  - Introduction to New Energy Science and Engineering

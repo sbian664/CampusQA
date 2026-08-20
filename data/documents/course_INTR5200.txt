@@ -1,0 +1,22 @@
+course: INTR 5200
+normalized_code: INTR5200
+title: Emerging Mobility and Multimodal Freight Systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5200
+  - INTR 5200
+  - Emerging Mobility and Multimodal Freight Systems

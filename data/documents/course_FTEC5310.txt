@@ -1,0 +1,22 @@
+course: FTEC 5310
+normalized_code: FTEC5310
+title: Blockchain Technology
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5310
+  - FTEC 5310
+  - Blockchain Technology

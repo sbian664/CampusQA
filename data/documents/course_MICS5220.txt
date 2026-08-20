@@ -1,0 +1,22 @@
+course: MICS 5220
+normalized_code: MICS5220
+title: Micro Fabrication of Advanced Optoelectronic Devices
+subject: MICS
+catalog_number: "5220"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the core principles of micro/nano processing technologies crucial for developing sophisticated optoelectronic devices. This course delves into the thermodynamics, kinetics of material growth, deposition methods, vacuum technology, cutting-edge deposition and characterization techniques, and advanced lithography. Students will learn to manipulate control parameters of these processes and understand their impact on optoelectronic device performance and applications. These devices are widely used in fields such as communications, transportation, environmental monitoring, aerospace applications, energy production, medical applications, and others.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5220
+  - MICS 5220
+  - Micro Fabrication of Advanced Optoelectronic Devices

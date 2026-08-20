@@ -1,0 +1,22 @@
+course: SEENO 000O
+normalized_code: SEEN6000O
+title: Energy-efficient Separation Technologies
+subject: SEEN
+catalog_number: "6000O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The industrial process of separating chemical mixtures into purer forms currently constitutes a significant 10-15% of the world's total energy consumption. Opting for purification methods that do not rely on heat holds the potential to substantially reduce global energy expenditure, emissions, and environmental pollution, while also forging novel pathways to essential resources. This course aims to introduce participants to cutting-edge separation technologies, with a particular focus on non-thermal techniques such as membrane separations. The initial segment will delineate the specific areas where membranes can be employed to conserve energy. Following that, the course will delve into the fundamental principles governing membrane separations and the pivotal design considerations for advancing membrane technology. Finally, the course will culminate in a comprehensive exploration of diverse applications of membranes, spanning industries like petrochemicals, battery manufacturing, and semiconductor fabrication, elucidating their respective operational mechanisms.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000O
+  - SEENO 000O
+  - Energy-efficient Separation Technologies

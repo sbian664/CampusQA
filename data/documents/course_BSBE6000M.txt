@@ -1,0 +1,22 @@
+course: BSBEM 000M
+normalized_code: BSBE6000M
+title: Exploring Advanced Techniques in Molecular Biology
+subject: BSBE
+catalog_number: "6000M"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Innovative tools, methods, and approaches continuously reshape various fields, offering fresh perspectives and avenues for exploration. This course is designed to equip students with an understanding of cutting-edge approaches enabling the manipulation and visualization of specific molecular processes within distinct cell types. Participants will learn how to apply these techniques to their own research and refine their capacity to adapt or innovate methodologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000M
+  - BSBEM 000M
+  - Exploring Advanced Techniques in Molecular Biology

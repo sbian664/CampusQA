@@ -1,0 +1,22 @@
+course: SMMG 5500
+normalized_code: SMMG5500
+title: Additive Manufacturing Fundamentals
+subject: SMMG
+catalog_number: "5500"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to introduce the fundamentals of various additive manufacturing techniques, including fused deposition modeling (FDM), two-photon lithography, stereolithography (SLA), etc. The additive manufacturing process (FDM or SLA as an example) will be illustrated by actual model design, system setup and fabrication of parts.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5500
+  - SMMG 5500
+  - Additive Manufacturing Fundamentals

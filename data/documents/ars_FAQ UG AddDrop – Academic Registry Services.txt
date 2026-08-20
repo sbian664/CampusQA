@@ -1,0 +1,71 @@
+ars_page: FAQ (UG): Add/Drop – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-add-drop/
+source: ARS
+
+headings:
+  - FAQ (UG): Add/Drop
+  - Class Enrollment Guide (UG)
+
+text: >
+  FAQ (UG): Add/Drop
+  April 22, 2025
+  1. Will I be notified if my waitlist request is successful?
+  When a place in the course/class of your waitlist request has been confirmed, notification will be sent to your email box on the next day at around 1am. Therefore, students whose waitlist requests being updated on the last day of add/drop period will only receive notification after the lapse of add/drop period. If you are on the waiting list of a class and you no longer want to enroll, you should cancel the request disregard your queue position on the waiting list.
+  2. What will happen to my outstanding waitlist requests after the add/drop deadline?
+  Outstanding waitlist requests will be cancelled after the add/drop deadline. But you are recommended to cancel a waitlist request if you no longer wish to enroll for the waiting class.
+  3. Will a dropped course be shown in my academic records?
+  Course(s) dropped during the add/drop period will only be recorded in the SIS but not be printed on students’ transcripts.
+  4. Do all courses have the same add/drop deadline?
+  Courses with irregular schedule may have different add/drop deadline,
+  e.g., courses that only have classes in the first half of the term may
+  have an earlier add/drop deadline. Some PG courses have an
+  extended drop period (also applicable to UG students enrolled to the
+  respective PG course), please refer to the class details.
+  5. How to audit a course?
+  Audit request can be submitted during the add/drop period in regular terms using the approval request system (refer Validation Question 10). Students should NOT be enrolling or waitlisting for the course at the time when they submit the audit request. If the class is full at the time of the approval, the audit request will be cancelled automatically.
+  Course with an audit status:
+  6. Can I change a normal enrollment into audit, and vice versa?
+  Students may approach the course instructor for approval. Confirmation should be sent from the course instructor to Academic Registry Services Course Registration (gzcourserg@hkust-gz.edu.cn) for processing during the add/drop period.
+  7. What is the obligation as an audit student?
+  Audit students will not earn any grades or credits from the course. Subject to satisfactory completion of requirements set by the instructor, the course will be designated AU on the student’s transcript. Otherwise, the course will be removed from the registration record. Please consult the course instructor for course-specific arrangements.
+  Students are allowed to re-take an audited course to earn credits subject to the requirement that they must properly enroll in the course.
+  Class Enrollment Guide (UG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (UG)
+  Class Enrollment Schedule (UG)
+  Course Offering and Class Schedule (UG)
+  Useful Information for Class Enrollment (UG)
+  FAQ (UG): Pre-enrollment
+  FAQ (UG): Validation
+  FAQ (UG): Enrollment
+  FAQ (UG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - Important Concept for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-ug/
+  - Class Enrollment Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-ug/
+  - Course Offering and Class Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-ug/
+  - Useful Information for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-ug/
+  - FAQ (UG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-pre-enrollment/
+  - FAQ (UG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-validation/
+  - FAQ (UG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-enrollment/
+  - FAQ (UG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

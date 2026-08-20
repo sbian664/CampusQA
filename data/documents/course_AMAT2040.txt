@@ -1,0 +1,23 @@
+course: AMAT 2040
+normalized_code: AMAT2040
+title: Physical chemistry I: Equilibrium thermodynamics and statistical mechanics
+subject: AMAT
+catalog_number: "2040"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course consists of two parts. The first part teaches the equilibrium thermodynamics, covering the laws of thermodynamics and thermodynamics functions, with applications to various problems in phase equilibrium, chemical and electrochemical equilibrium. The second part teaches the equilibrium statistical thermodynamics, covering the Boltzmann distribution, the statistical ensembles and partition functions and their relations to thermodynamics functions.
+
+requirements:
+  prerequisite: (a) UFUG 1303; and
+(b) UFUG 1103 or UFUG 1106
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2040
+  - AMAT 2040
+  - Physical chemistry I: Equilibrium thermodynamics and statistical mechanics

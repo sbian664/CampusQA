@@ -1,0 +1,22 @@
+course: EOASH 000H
+normalized_code: EOAS6000H
+title: Global Change Biology
+subject: EOAS
+catalog_number: "6000H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  How will life on Earth withstand the combined pressures of climate change, habitat loss, and invasive species? Global Change Biology addresses this urgent challenge by applying core ecological principles to interpret and predict nature's responses. We will move beyond cataloging environmental problems to uncover the ecological rules governing how species and ecosystems respond to stress. This course emphasizes the interconnectedness of global change threats and trains students to apply ecological thinking to real-world biosecurity challenges. The goal is to equip students with the knowledge to develop solutions for preserving biodiversity, securing food systems, and protecting public health in an era of rapid global change.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS6000H
+  - EOASH 000H
+  - Global Change Biology

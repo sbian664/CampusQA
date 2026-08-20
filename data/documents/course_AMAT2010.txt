@@ -1,0 +1,22 @@
+course: AMAT 2010
+normalized_code: AMAT2010
+title: Process and Materials Design Principles
+subject: AMAT
+catalog_number: "2010"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals of transport processes in materials and key principles of materials design. Topics cover dimensional analysis, momentum, energy, heat, and mass transfer, and the systematic design and preparation of materials for science and engineering applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2010
+  - AMAT 2010
+  - Process and Materials Design Principles

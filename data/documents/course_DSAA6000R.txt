@@ -1,0 +1,22 @@
+course: DSAAR 000R
+normalized_code: DSAA6000R
+title: Data Intelligence: When Databases Meet AI
+subject: DSAA
+catalog_number: "6000R"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the dynamic relationship between database technologies and artificial intelligence, providing students with advanced knowledge and practical skills in this rapidly evolving field. Students will learn foundational concepts in data intelligence, AI-driven database optimization, intelligent querying methods such as Natural Language to SQL, and retrieval-augmented generation (RAG) techniques for data applications. Through practical exercises and real-world case studies, students will understand how AI improves data management, analytics, visualization, and decision-making processes. The course includes a final project in which students apply AI methods to solve practical database challenges, preparing them to innovate effectively in data intelligence.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000R
+  - DSAAR 000R
+  - Data Intelligence: When Databases Meet AI

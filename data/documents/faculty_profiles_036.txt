@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：鱼欢（Huan YU）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：huanyu@hkust-gz.edu.cn
+  办公室：W1 L5 512
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu
+  研究方向：
+    Intelligient Transportation Systems，
+    Control Systems，
+    Traffic Flow Modeling and Control，
+    Mix-autonomy Traffic with Connected and Automated Vehicles，
+    Reinforcement Learning，

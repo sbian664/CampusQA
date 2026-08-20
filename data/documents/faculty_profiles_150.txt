@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：谢思泓（Sean Sihong XIE）
+  职称：Associate Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：sihongxie@hkust-gz.edu.cn
+  办公室：W4 L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Sihong/sihongxie
+  研究方向：
+    Responsible machine learning on graphs，
+    Data-Centric AI，
+    Misinformation detection，

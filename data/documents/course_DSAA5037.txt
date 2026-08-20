@@ -1,0 +1,22 @@
+course: DSAA 5037
+normalized_code: DSAA5037
+title: Introduction to Graph Learning
+subject: DSAA
+catalog_number: "5037"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Graph, as a very expressive model, has been widely used to model real-world entities and their relationships in application-specific networks. In this course, students will gain a thorough introduction to the basics of graph theories, as well as cutting-edge research in deep learning for graphs. The topics include graph embeddings, graph neural networks, graph clustering models, graph generative models, adversarial attacks on graphs, graph reasoning, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA5037
+  - DSAA 5037
+  - Introduction to Graph Learning

@@ -1,0 +1,22 @@
+course: UCUG 1903
+normalized_code: UCUG1903
+title: Signals and Information Technology
+subject: UCUG
+catalog_number: "1903"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This common core course introduces the basics of signals and information technology and their applications to daily-life consumer communication devices. Contents include the representation of signals in the time and frequency domains; digitization of information; coding for data compression and error protection; transmission of signals; five generations of cellular networks, multiple access technologies, and packet switching. Students will do a group project to address a state-of-the-art signals and information technology and present their views and findings. It is expected that through studying these technologies and how they address the problems encountered in the information technology area, students will also grasp the skills in solving problems with engineering approach and spirit and appreciate how these technologies impact the society.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1903
+  - UCUG 1903
+  - Signals and Information Technology

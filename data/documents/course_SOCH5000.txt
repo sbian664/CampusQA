@@ -1,0 +1,22 @@
+course: SOCH 5000
+normalized_code: SOCH5000
+title: Technological Innovation and Social Entrepreneurship
+subject: SOCH
+catalog_number: "5000"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SOCH5000
+  - SOCH 5000
+  - Technological Innovation and Social Entrepreneurship

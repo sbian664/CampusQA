@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：黄同舸（Tongge HUANG）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：tonggehuang@hkust-gz.edu.cn
+  办公室：E1 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Tongge/tonggehuang
+  研究方向：
+    Intelligent transportation system，
+    Embodied Multi-Agents，
+    Autonomous driving system，
+    Big Data-driven decision making，

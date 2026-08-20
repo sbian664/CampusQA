@@ -1,0 +1,22 @@
+course: ROAS 4210
+normalized_code: ROAS4210
+title: Introduction to Mobile Robotics
+subject: ROAS
+catalog_number: "4210"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is to introduce the basic concepts of autonomous navigation used in mobile robotics. Course content includes navigation paradigm, common sensors, robot localization, robot mapping, SLAM, and software platforms for robotics research.
+
+requirements:
+  prerequisite: [UFUG 2102 OR UFUG 2103] AND UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS4210
+  - ROAS 4210
+  - Introduction to Mobile Robotics

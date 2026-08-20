@@ -1,0 +1,22 @@
+course: FTEC 4210
+normalized_code: FTEC4210
+title: Blockchain, Cryptocurrencies and Smart Contracts
+subject: FTEC
+catalog_number: "4210"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a holistic introduction to the world of Blockchain Protocols and Smart Contracts. You will learn how cryptocurrencies such as Bitcoin and Ethereum work, why they are secure, and how you can use them to develop smart contracts. You will also learn to detect and avoid common security vulnerabilities in smart contracts. This is a very hands-on and project-based course. The course covers the following topics: basics of cryptography, the double-spending problem in decentralized currencies, Proof-of-work and its alternatives, programmable blockchains and smart contracts, auctions and escrows, common smart contract vulnerabilities, and tools for verifying the correctness of a smart contract.
+
+requirements:
+  prerequisite: UFUG 2103 AND UFUG 1601 AND (UFUG 1602 OR UFUG 2601) AND UFUG 2106
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4210
+  - FTEC 4210
+  - Blockchain, Cryptocurrencies and Smart Contracts

@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：王浩（Hao WANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：haowang@hkust-gz.edu.cn
+  办公室：E4 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Hao/haowang
+  研究方向：
+    Multimodal Learning，
+    3D Reconstruction，
+    LLM Agents，

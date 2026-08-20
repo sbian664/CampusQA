@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：曾伟（Wei ZENG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：weizeng@hkust-gz.edu.cn
+  办公室：W1 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng
+  研究方向：
+    Visualization，
+    Visual Analytics，
+    AIGC，
+    VR/AR，

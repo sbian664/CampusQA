@@ -1,0 +1,22 @@
+course: ROAS 4500
+normalized_code: ROAS4500
+title: Human-Computer Interaction
+subject: ROAS
+catalog_number: "4500"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is a broad introduction to Human-Computer Interaction (HCI), with an emphasis on techniques, models, theories, and applications for designing, prototyping, and evaluating current and future interactive systems for human use. HCI is an interesting and important area of study, providing the human perspective to computing. Besides technology and innovation, it also touches on issues like ethics and social responsibilities related to technologies in the real world. Selected topics include multimodal interaction design, usability evaluation, computer-supported cooperative work, assistive technologies, social computing, crowd computing, ubiquitous/mobile computing, virtual/augmented reality and gaming, agents and robots, and HCI applications in various domains such as education, health, urban sustainability, scientific discoveries, etc.
+
+requirements:
+  prerequisite: UFUG 2601 OR UFUG 2602
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS4500
+  - ROAS 4500
+  - Human-Computer Interaction

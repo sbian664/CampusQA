@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：杨萌林（Menglin YANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：menglinyang@hkust-gz.edu.cn
+  办公室：W4 L5 540
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Menglin/menglinyang
+  研究方向：
+    (1) Foundation Models. LLMs(Peft, RAG, Agent, Reasoning)、Multi-modal LLMs & Non-Euclidean LLMs，
+    (2) Information Retrival. Recommender Systems, Personalization, Knowledge graph, Data mining and Network sciences，
+    (3) Geometric Learning. Hyperbolic Representation Learning, Differential Geometry, Hierarchical Modeling, Geometric Learning and AI4SCI，

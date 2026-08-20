@@ -1,0 +1,22 @@
+course: CMAA 5033
+normalized_code: CMAA5033
+title: Computational Media and Arts Theory I
+subject: CMAA
+catalog_number: "5033"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delves into the critical exploration of cultural and philosophical theories that underpin the evolving landscape of computational media arts. It immerses students in relevant readings and discussions, providing them with a deep understanding of the complex interplay between humanities, science, technology, culture, and art. Through the examination of key texts and critical debates, students will engage with concepts that shape the field, such as digital aesthetics, media archaeology, cybernetics, posthumanism, and the impact of technology on society.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5033
+  - CMAA 5033
+  - Computational Media and Arts Theory I

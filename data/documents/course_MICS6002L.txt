@@ -1,0 +1,22 @@
+course: MICSL 002L
+normalized_code: MICS6002L
+title: Introduction to Humanoid Computing
+subject: MICS
+catalog_number: "6002L"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Humanoid Computing sits at the exciting intersection of AI, robotics, neuroscience, and engineering. It is for students who are curious about the future of intelligent systems and want to contribute to technologies that work in harmony with human abilities. This course will equip you with a unique, bio-inspired perspective that is becoming increasingly critical for innovation in artificial intelligence and robotics. It encompasses human-inspired approaches to computation, including topics such as humanoid robots, tactile perception, and brain-inspired algorithms.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002L
+  - MICSL 002L
+  - Introduction to Humanoid Computing

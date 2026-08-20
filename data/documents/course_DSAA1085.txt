@@ -1,0 +1,22 @@
+course: DSAA 1085
+normalized_code: DSAA1085
+title: Probability and Statistics
+subject: DSAA
+catalog_number: "1085"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce topics in probability and statistics. Topics include probability spaces and random variables, distributions (absolutely continuous and singular distributions) and probability densities, moment inequalities, moment generating functions, conditional expectations, independence, conditional distributions, convergence concepts (weak, strong and in distribution), law of large numbers (weak and strong) and central limit theorem.
+
+requirements:
+  prerequisite: UFUG 2103 OR UFUG 2102
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA1085
+  - DSAA 1085
+  - Probability and Statistics

@@ -1,0 +1,22 @@
+course: SMMG 5110
+normalized_code: SMMG5110
+title: Introduction to Precision Engineering
+subject: SMMG
+catalog_number: "5110"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the fundamentals and capabilities in precision engineering, including tool materials, mechanics of cutting, ultra-precision machine elements, micro electro-mechanical systems (MEMS) and nanoscale additive manufacturing. Based on these accumulations, this course introduces the industry growth, global state and analyzes the future of precision engineering.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5110
+  - SMMG 5110
+  - Introduction to Precision Engineering

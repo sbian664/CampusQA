@@ -1,0 +1,16 @@
+教职员简介：
+  姓名：文泽忆（Zeyi WEN）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：wenzeyi@hkust-gz.edu.cn
+  办公室：E2 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  研究方向：
+    Efficient Large Language Model (LLM) Fine-Tuning，
+    Efficient Large Language Model (LLM) Training，
+    Efficient Large Language Model (LLM) Inference，
+    Serving/Memory Systems for AI Agents，
+    Machine Learning Systems (MLSys)，
+    Hyper-Parameter Optimization (HPO)，
+    Automatic Machine Learning (AutoML)，
+    High-Performance Computing (HPC)，

@@ -1,0 +1,22 @@
+course: MSSM 5011
+normalized_code: MSSM5011
+title: Computerized Numerical Control Technology
+subject: MSSM
+catalog_number: "5011"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the contents of the principle and applications of Computerized Numerical Control (CNC), like the fundamental technologies of numerical control (including interpreter, interpolator, control of acceleration and deceleration, and position control system), and the characteristics and industrial applications of typical CNC controllers and CNC machine tool.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MSSM5011
+  - MSSM 5011
+  - Computerized Numerical Control Technology

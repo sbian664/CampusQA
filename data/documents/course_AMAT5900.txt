@@ -1,0 +1,22 @@
+course: AMAT 5900
+normalized_code: AMAT5900
+title: Molecular Physics and Optoelectronic Processes
+subject: AMAT
+catalog_number: "5900"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will cover the physics of the electronic structure of pi-conjugated materials and their neutral, excited and charged states (excitons, polarons), their optical properties (absorption, emission), photophysical processes, photochemistry, energy transfer and charge transport. It will introduce the principles of design and operation of molecular based light emitting devices, solar cells etc. as well as providing an introduction to device fabrication and device engineering for maximum performance and lifetime.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5900
+  - AMAT 5900
+  - Molecular Physics and Optoelectronic Processes

@@ -1,0 +1,22 @@
+course: CMAA 5007
+normalized_code: CMAA5007
+title: Computational Approach to Chinese Calligraphy
+subject: CMAA
+catalog_number: "5007"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the most fundamental knowledge and techniques of Chinese calligraphy and its important role in the modern technological advances. The history and various styles of calligraphy, history and principles of making rice paper, seal making and its role, and best-known calligraphers are introduced. Students will first learn and practice writing Chinese calligraphy on rice paper and then use deep learning tools to transfer interesting calligraphy styles. Students will develop projects, such as programming to generate or drive robots to write calligraphy. There will be guest lectures by well-known Chinese calligraphers and researchers in digitizing and modernizing Chinese calligraphy. A trip is planned to visit the best-known rice paper factory (çº¢æå®£çº¸å) in Jingxian, Anhui, where all Four Treasures of calligraphy are located.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5007
+  - CMAA 5007
+  - Computational Approach to Chinese Calligraphy

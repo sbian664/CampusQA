@@ -1,0 +1,22 @@
+course: AMAT 2050
+normalized_code: AMAT2050
+title: Modern Physics
+subject: AMAT
+catalog_number: "2050"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Introduction to relativity; introduction to quantum theory: particle-wave duality and Schrodinger equation; atoms, molecules; and statistical physics: Maxwell, Bose and Fermi distributions.
+
+requirements:
+  prerequisite: UFUG 1502 or 1504
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2050
+  - AMAT 2050
+  - Modern Physics

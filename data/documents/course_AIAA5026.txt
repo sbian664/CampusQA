@@ -1,0 +1,22 @@
+course: AIAA 5026
+normalized_code: AIAA5026
+title: Computer Vision and Its Applications
+subject: AIAA
+catalog_number: "5026"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers popular topics in computer vision, which includes high-level tasks like image classification, object detection, image segmentation, and low-level tasks like image generation, image enhancement, image-to-image translation, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5026
+  - AIAA 5026
+  - Computer Vision and Its Applications

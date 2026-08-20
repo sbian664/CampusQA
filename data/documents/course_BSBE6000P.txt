@@ -1,0 +1,22 @@
+course: BSBEP 000P
+normalized_code: BSBE6000P
+title: Data Mining in Bioinformatics
+subject: BSBE
+catalog_number: "6000P"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The rapid advancements in omics technologies, such as genomics, transcriptomics, and proteomics, have led to the generation of vast amounts of biological data, highlighting the need for effective analytical methods. This course provides a comprehensive overview of bioinformatics methods and databases, showcasing their applications in biological and biomedical datasets. Students will delve into various data mining algorithms and tools, learn to preprocess and analyze diverse omics data, and gain practical experience in interpreting results. By the end of the course, participants will be able to extract meaningful insights from complex biological data.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000P
+  - BSBEP 000P
+  - Data Mining in Bioinformatics

@@ -1,0 +1,22 @@
+course: AIAA 5048
+normalized_code: AIAA5048
+title: Multimodal Artificial Intelligence
+subject: AIAA
+catalog_number: "5048"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on the Artificial Intelligence (AI) techniques and applications in multimodal tasks, which involve processing, fusing, and generating contents from multiple data modalities, such as images, videos, text etc. The course will cover the challenges, state-of-the-art methods, as well as hands-on experience in implementing and evaluating multi-modal deep learning models.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5048
+  - AIAA 5048
+  - Multimodal Artificial Intelligence

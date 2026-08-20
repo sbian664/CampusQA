@@ -1,0 +1,22 @@
+course: UGODD 100D
+normalized_code: UGOD6100D
+title: Urban Economics and Policy Analysis
+subject: UGOD
+catalog_number: "6100D"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course examines the economic forces driving urban development, combining theoretical frameworks with real-world policy challenges. Key topics include agglomeration and systems of cities, urban growth and its spatial forms (sprawl v.s. densification), land use patterns (zoning and growth control), transportation (road network, transit, and congestion), housing (affordability, informality, and renewal), and the role of local governments. The course will also highlights recent disruptive forces such as remote work, autonomous vehicles, platform economy, and climate shocks in different urban contexts. Through hands-on learning experiences, students will become proficient in econometric methods and will learn to leverage emerging data sources in urban studies, such as AI-empowered textual repositories, satellite and street imagery, sensors, GPS and CDRs, and social media.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100D
+  - UGODD 100D
+  - Urban Economics and Policy Analysis

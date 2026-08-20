@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：李昱亨（Yuheng LI）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yuhengli@hkust-gz.edu.cn
+  办公室：W1 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yuheng/yuhengli
+  研究方向：
+    First-principles calculations, molecular dynamics，
+    Machine learning and high-throughput computation for data-driven materials design，
+    All-solid-state Li-ion and Na-ion batteries，
+    Hybrid halide perovskites for solar cells and light-emitting diodes，
+    Point defects, surface, interface, and vibrational spectroscopy，
+    Scientific software development，

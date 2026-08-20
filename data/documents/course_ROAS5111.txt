@@ -1,0 +1,22 @@
+course: ROAS 5111
+normalized_code: ROAS5111
+title: Soft Robotics
+subject: ROAS
+catalog_number: "5111"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive introduction to soft robotics, focusing on the design, fabrication, and application of compliant and flexible robots. Students will explore the fundamental principles of soft materials, actuation methods, and sensing technologies that enable soft robots to interact safely with complex, unstructured environments. It covers key topics including material selection, mechanical modeling, control strategies, and manufacturing techniques. Through detailed case studies, students will examine how specific materials and design choices improve the functionality and efficiency of these robots for applications in healthcare and exploration.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5111
+  - ROAS 5111
+  - Soft Robotics

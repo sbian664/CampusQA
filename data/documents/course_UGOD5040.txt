@@ -1,0 +1,22 @@
+course: UGOD 5040
+normalized_code: UGOD5040
+title: Urban Data Acquisition and Analysis
+subject: UGOD
+catalog_number: "5040"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course introduces students to different methods of collecting data in the social sciences for urban analysis, focusing on sampling surveys designs and analysis in urban settings. Since alternative data sources (e.g., passive measurement, social media and administrative data) become increasingly available in recent years, the course will also cover other modes of data acquisitions such as using new  technology on wearables, sensors, and apps in urban research settings, and exploration of cutting edge methods for collecting and analyzing web data, and how they can be used in combination with traditional survey data.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5040
+  - UGOD 5040
+  - Urban Data Acquisition and Analysis

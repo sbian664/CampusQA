@@ -1,0 +1,22 @@
+course: FTEC 4270
+normalized_code: FTEC4270
+title: Introduction to Graph Theory
+subject: FTEC
+catalog_number: "4270"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is to equip students with basic knowledge of graph theory that will be needed in mathematics, computer science, and engineering (in particular network analysis). Topics include but not restricted to: Euler tours and Chinese postman problem, Hamilton cycles and traveling salesman problem; minimum spanning trees and searching algorithms; block decomposition, ear decomposition, connectivity and edge connectivity; network flows, Ford‐ Fulkerson (Max‐ Flow Min‐ Cut) theorem, augmenting‐ path algorithm; planar graphs, Euler formula, duality, classification of Platonic solids, Kuratowski (planarity) theorem; maximum matchings and perfect matchings, matchings in bipartite graphs, matchings in general graphs, Tutte‐ Berge theorem, Petersen theorem; probabilistic method, page rank problem, random walks; cycle spaces and bond spaces, graph Laplace operator, matrix‐ tree theorem; Four‐ Color problem, colorings and flows, chromatic number and flow number, chromatic polynomials, flow polynomials, Tutte polynomials; matroids.
+
+requirements:
+  prerequisite: UFUG 2103 AND FTEC 3220
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4270
+  - FTEC 4270
+  - Introduction to Graph Theory

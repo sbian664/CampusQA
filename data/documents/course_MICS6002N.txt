@@ -1,0 +1,22 @@
+course: MICSN 002N
+normalized_code: MICS6002N
+title: Random Process with Applications to Signal
+subject: MICS
+catalog_number: "6002N"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Signals in the form of fluctuating quantities such as voltage, temperatures or others are usually not subject to precise prediction. On the other hand, disturbances such as thermal noise, or errors during signal transmission also contribute to such unpredictability. These quantities which vary with time are referred to as random processes. This course introduces how random signals can be characterized with the help of knowledge of random processes. As prerequisites, the course will also cover basic knowledge about random processes (including a quick review of necessary knowledge about probability theory), as well as signal processing (mainly focus on linear time-invariant systems). The course will also give a brief introduction about the underlying physics mechanisms in electronic devices which account for the intrinsic randomness in the electronic system.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002N
+  - MICSN 002N
+  - Random Process with Applications to Signal

@@ -1,0 +1,22 @@
+course: AMAT 5250
+normalized_code: AMAT5250
+title: Mathematical Methods for Materials Science and Engineering
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5250
+  - AMAT 5250
+  - Mathematical Methods for Materials Science and Engineering

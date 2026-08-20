@@ -1,0 +1,22 @@
+course: CMAA 5032
+normalized_code: CMAA5032
+title: Advanced Game Development
+subject: CMAA
+catalog_number: "5032"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delves deeper into the intricacies of creating sophisticated and engaging video games. This course is designed for students who have a foundational understanding of game development and are looking to enhance their skills in areas such as advanced programming, complex game mechanics, AI integration, and immersive storytelling. Emphasizing a project-based approach, the course allows students to work on elaborate game projects, encouraging collaboration and innovation. Throughout the course, students will also explore emerging trends and technologies shaping the future of the gaming industry. This course is perfect for those aiming to refine their game development expertise and craft compelling, high-quality gaming experiences.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5032
+  - CMAA 5032
+  - Advanced Game Development

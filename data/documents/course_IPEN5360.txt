@@ -1,0 +1,22 @@
+course: IPEN 5360
+normalized_code: IPEN5360
+title: Climate Innovation: Policy and Development
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5360
+  - IPEN 5360
+  - Climate Innovation: Policy and Development

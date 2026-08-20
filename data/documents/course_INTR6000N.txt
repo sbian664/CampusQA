@@ -1,0 +1,22 @@
+course: INTRN 000N
+normalized_code: INTR6000N
+title: Mobile Sensing and Computing for Transportation
+subject: INTR
+catalog_number: "6000N"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Harness the power of mobile devices to revolutionize transportation with this postgraduate course. As mobile sensing and computing become increasingly integral to our understanding of the physical world, this postgraduate-level course provides a comprehensive look at their transformative impact on urban transportation. Students will gain a solid grasp of the fundamental concepts and cutting-edge techniques in mobile sensing and computing, enabling the development of intelligent transportation systems and applications. Key topics include mobile device sensing, computing, and communication fundamentals, as well as advanced discussions on mobile computing enabled transportation management, localization and tracking, mobile crowdsensing paradigm, social sensing, vehicular mobile systems, and mobile intelligence. This course is designed for students and professionals seeking to leverage mobile technology for innovative solutions in transportation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6000N
+  - INTRN 000N
+  - Mobile Sensing and Computing for Transportation

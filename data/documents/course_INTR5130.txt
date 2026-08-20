@@ -1,0 +1,22 @@
+course: INTR 5130
+normalized_code: INTR5130
+title: Traffic Control and Simulation
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5130
+  - INTR 5130
+  - Traffic Control and Simulation

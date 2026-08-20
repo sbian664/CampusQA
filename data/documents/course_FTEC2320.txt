@@ -1,0 +1,22 @@
+course: FTEC 2320
+normalized_code: FTEC2320
+title: Microeconomics
+subject: FTEC
+catalog_number: "2320"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Theory of the firm in a free enterprise system; theory of consumer demand; market structures and resource allocation; selected topics on government regulation.
+
+requirements:
+  prerequisite: FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC2320
+  - FTEC 2320
+  - Microeconomics

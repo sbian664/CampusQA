@@ -1,0 +1,22 @@
+course: SMMG 4640
+normalized_code: SMMG4640
+title: Data Driven Supply Chain Management
+subject: SMMG
+catalog_number: "4640"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  An introduction to the design, development, and management of integrated logistics supply chain systems, including inventory management, distribution channels, and information systems. Emphasis on the impact of e-business on companies and industries, especially how the Internet changes the way in which goods and services flow through the value chain from manufacturers to customers.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4640
+  - SMMG 4640
+  - Data Driven Supply Chain Management

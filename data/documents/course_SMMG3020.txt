@@ -1,0 +1,22 @@
+course: SMMG 3020
+normalized_code: SMMG3020
+title: Introduction to Additive Manufacturing
+subject: SMMG
+catalog_number: "3020"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course studies methods used in additive manufacturing, theories governing additive manufacturing. With the information on materials given, students would be explained the relations between materials to be processed and methods of additive manufacturing, The course also introduces the common machines used for the technology and its applications and business opportunities with future directions. Students will learn to manufacture a 3D part by using some of the methods of additive manufacturing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3020
+  - SMMG 3020
+  - Introduction to Additive Manufacturing

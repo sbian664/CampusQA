@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：孙晓通（Xiaotong SUN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：xtsun@hkust-gz.edu.cn
+  办公室：W1 L5 513
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Xiaotong/xtsun
+  研究方向：
+    Transportation Systems Modelling，
+    Resource and Pricing Allocation Mechanisms in Transportation，
+    Transportation Network Modeling，
+    Mixed Traffic Operations，

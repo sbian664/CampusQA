@@ -1,0 +1,22 @@
+course: UCMP 6010
+normalized_code: UCMP6010
+title: Cross-disciplinary Research Methods I
+subject: UCMP
+catalog_number: "6010"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCMP6010
+  - UCMP 6010
+  - Cross-disciplinary Research Methods I

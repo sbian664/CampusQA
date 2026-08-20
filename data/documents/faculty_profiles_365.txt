@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：于旭（JEFFREY XU YU）
+  职称：Acting Thrust Head
+  学域：Thrust of Data Science and Analytics
+  邮箱：jeffreyxuyu@hkust-gz.edu.cn
+  办公室：E1 L5 516
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREY-XU/jeffreyxuyu
+  研究方向：
+    Graph algorithms and systems，
+    Graph neural networks，
+    Vector databases，
+    AI-powered database systems，

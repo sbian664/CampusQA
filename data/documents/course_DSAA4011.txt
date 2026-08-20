@@ -1,0 +1,22 @@
+course: DSAA 4011
+normalized_code: DSAA4011
+title: Advanced Machine Learning and Deep Learning
+subject: DSAA
+catalog_number: "4011"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, topics include: SVM, kernel methods, ensemble learning, dimensionality reduction, Gaussian Mixture Models, Hidden Markov Models, Topic Models, semi-supervised learning, transfer learning, and domain adaptation. This course extends classical ML and deep learning with a few advanced themes: kernel-based methods; ensemble and representation learning; probabilistic modeling and latent variable methods; learning beyond labels, including semi-, self-, and unsupervised approaches, and out-of-distribution learning. Students will learn to design, analyze, and implement these advanced learning approaches as well as handle non-typical learning scenarios.
+
+requirements:
+  prerequisite: DSAA 2011 OR DSAA 2012
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4011
+  - DSAA 4011
+  - Advanced Machine Learning and Deep Learning

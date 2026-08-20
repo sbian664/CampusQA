@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：陈颖聪（Yingcong CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yingcongchen@hkust-gz.edu.cn
+  办公室：W1 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yingcong/yingcongchen
+  研究方向：
+    Computer Vision，
+    Machine Learning，

@@ -1,0 +1,15 @@
+教职员简介：
+  姓名：杨可洲（Kezhou YANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：kezhouyang@hkust-gz.edu.cn
+  办公室：E4 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Kezhou/kezhouyang
+  研究方向：
+    Neuromorphic Computing，
+    Spintronic Devices，
+    Spiking Neural Networks，
+    Bayesian Neural Networks，
+    Hardware-Algorithm Codesign，
+    Compute-In-Memory，
+    Non-Volatile Memories，

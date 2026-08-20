@@ -1,0 +1,22 @@
+course: IOTAB 900B
+normalized_code: IOTA6900B
+title: Independent Study
+subject: IOTA
+catalog_number: "6900B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent research project carried out under the supervision of a faculty member on an Internet of Things topic.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6900B
+  - IOTAB 900B
+  - Independent Study

@@ -1,0 +1,22 @@
+course: IOTA 5501
+normalized_code: IOTA5501
+title: Convex and Nonconvex Optimization I
+subject: IOTA
+catalog_number: "5501"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers fundamental theory, algorithms, and applications for convex and nonconvex optimization, including: 1) Theory: convex sets, convex functions, optimization problems and optimality conditions, convex optimization problems, geometric programming, duality, Lagrange multiplier theory; 2) Algorithms: disciplined convex programming, numerical linear algebra, unconstrained minimization, minimization over a convex set, equality constrained minimization, inequality constrained minimization; 3) Applications: approximation (regression), statistical estimation, geometric problems, classification, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5501
+  - IOTA 5501
+  - Convex and Nonconvex Optimization I

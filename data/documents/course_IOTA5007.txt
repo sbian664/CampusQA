@@ -1,0 +1,22 @@
+course: IOTA 5007
+normalized_code: IOTA5007
+title: Introduction to Data Processing in Array-structured Systems
+subject: IOTA
+catalog_number: "5007"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive overview of array processing techniques and their applications in various fields, including wireless communications, radio astronomy, biomedical imaging, and audio and speech signal processing. Students will explore topics such as wave propagation, data modeling, matrix decomposition, adaptive filtering, beamforming, direction finding, microphone and radar array processing, factor analysis, and biomedical array processing. The course emphasizes the interdisciplinary nature of array processing and its relevance in the context of IoT, preparing students to be equipped with the knowledge and skills necessary to analyze and process data from array-structured systems, contributing to advancements in array processing across diverse domains.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5007
+  - IOTA 5007
+  - Introduction to Data Processing in Array-structured Systems

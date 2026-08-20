@@ -1,0 +1,22 @@
+course: BSBE 6000N
+normalized_code: BSBE6000N
+title: Workshops in Bioscience and Biomedical Engineering
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000N
+  - BSBE 6000N
+  - Workshops in Bioscience and Biomedical Engineering

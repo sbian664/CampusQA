@@ -1,0 +1,22 @@
+course: UGOD 5300
+normalized_code: UGOD5300
+title: Introduction to GeoAI
+subject: UGOD
+catalog_number: "5300"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  GeoAI is an interdisciplinary field of Geography/GIScience and Artificial Intelligence (AI), aiming to harness AI techniques to address diverse environmental and societal challenges related to geospatial domain. The course will introduce fundamental concepts, methods, and tools of GeoAI, and show how emerging urban spatio-temporal data and GeoAI technologies can be applied to address urban challenges, improve urban governance and management, and enhance the overall livability and sustainability of cities.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5300
+  - UGOD 5300
+  - Introduction to GeoAI

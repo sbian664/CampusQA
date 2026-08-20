@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈晋泰（Jintai CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：jintaichen@hkust-gz.edu.cn
+  办公室：E1 L5 512
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Jintai/jintaichen
+  研究方向：
+    AI for Healthcare，
+    Multimodal Learning，
+    Deep Tabular Learning，
+    AI for Drug Design，
+    Multiagent Systems，

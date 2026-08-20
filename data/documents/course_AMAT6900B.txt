@@ -1,0 +1,22 @@
+course: AMATB 900B
+normalized_code: AMAT6900B
+title: Independent Study
+subject: AMAT
+catalog_number: "6900B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent study on selected topics carried out under the supervision of a faculty member.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT6900B
+  - AMATB 900B
+  - Independent Study

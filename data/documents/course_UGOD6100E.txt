@@ -1,0 +1,22 @@
+course: UGODE 100E
+normalized_code: UGOD6100E
+title: Big Data for Urban Modeling
+subject: UGOD
+catalog_number: "6100E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores how big data transforms our understanding of cities. Learn how and why satellite images, points of interest (POIs), mobile phone data, location-based social media data, and other emerging datasets can be applied in urban analytics to advance planning, sustainability, and policy-making. Through real-world case studies and interactive discussions, youâll analyze the opportunities and limitations of big data in modeling urban systemsâfrom land use and population dynamics to socio-economic development.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100E
+  - UGODE 100E
+  - Big Data for Urban Modeling

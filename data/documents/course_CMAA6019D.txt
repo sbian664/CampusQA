@@ -1,0 +1,22 @@
+course: CMAAD 019D
+normalized_code: CMAA6019D
+title: Immersive Cinema
+subject: CMAA
+catalog_number: "6019D"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course we will explore the artistic, formal, and technical processes involved in creating motion pictures for non-standard screens and multi-channel, immersive cinema installations that occupy a unique, multi-projection cinema architecture. We will create work that expands cinema from passively viewed, two-dimensional projection in a traditional theater architecture to an embodied, poly-perspectival configuration of cinema in space. Approaching cinema as a form of concrete poetry, we will investigate the potential for expression and meaning-making rooted within the specificity of different formal presentation formats to develop an individual language of expression.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019D
+  - CMAAD 019D
+  - Immersive Cinema

@@ -1,0 +1,22 @@
+course: SEEN 5320
+normalized_code: SEEN5320
+title: Machine Learning in Advanced Energy Systems
+subject: SEEN
+catalog_number: "5320"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course aims to introduce main machine learning techniques and their applications in energy systems. The topics will include: 1) the basic concept of machine learning, big data, and energy system; 2) both basic and the state-of-the-art techniques in machine learning; 3) the application of machine learning in energy systems, especially for power systems and smart grids. The goal of the course is to prepare the students for careers in energy and artificial intelligence related areas by teaching data-driven perspective.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5320
+  - SEEN 5320
+  - Machine Learning in Advanced Energy Systems

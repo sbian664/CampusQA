@@ -1,0 +1,22 @@
+course: UFUG 2101
+normalized_code: UFUG2101
+title: Introduction to Multivariable Calculus
+subject: UFUG
+catalog_number: "2101"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course emphasizes a thorough study of vectors, vector functions, partial derivatives, multiple integrals, and vector calculus. Students should understand the basic concepts and techniques of vector calculus and be proficient at vector operations and multivariable calculus calculation. After taking this course, students will understand the following implementations of functions of several variables: limits, continuity, derivatives, and integration, and will be able to apply multivariable calculus in solving practical problems in the real world.
+
+requirements:
+  prerequisite: UFUG1103 or UFUG 1106
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG2101
+  - UFUG 2101
+  - Introduction to Multivariable Calculus

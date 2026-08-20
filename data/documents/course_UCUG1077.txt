@@ -1,0 +1,22 @@
+course: UCUG 1077
+normalized_code: UCUG1077
+title: Chinese Communication Essentials: Written and Oral
+subject: UCUG
+catalog_number: "1077"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Targeting students from the Chinese mainland, Hong Kong, Macao, Taiwan, and international students with native or near-native proficiency, this course is designed to develop comprehensive communication skills in standard Chinese. This course aims to develop students' skills in both oral and written Chinese communication. It will enable students to demonstrate effective, appropriate, and persuasive oral communication skills in Putonghua and produce accurate, standard, and persuasive written communications in simplified Chinese. Students will learn to analyze and critically evaluate Chinese communications for clarity, coherence, and effectiveness. Ultimately, students will be able to apply their Putonghua and simplified Chinese communication skills effectively in multilingual environments within and beyond the Greater Bay Area for academic and professional purposes.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UCUG 1070, UCUG 1071, UCUG 1072, UCUG 1073, UCUG 1074
+
+search_aliases:
+  - UCUG1077
+  - UCUG 1077
+  - Chinese Communication Essentials: Written and Oral

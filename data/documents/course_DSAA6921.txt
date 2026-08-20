@@ -1,0 +1,22 @@
+course: DSAA 6921
+normalized_code: DSAA6921
+title: Industry Internship â¡
+subject: DSAA
+catalog_number: "6921"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, students will be trained in the industry. They will work under the guidance of their supervisors (industry and academia) to practice what they have learned in the program, and apply the data science and AI knowledge and techniques to various real-life problems. In Part II, students are required to complete an Intermediate report with oral examination on the studentâs progress and industry collaboration progress. This course is only available for MSc(DCAI) students. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6921
+  - DSAA 6921
+  - Industry Internship â¡

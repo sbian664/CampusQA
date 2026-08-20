@@ -1,0 +1,22 @@
+course: UCUG 1507
+normalized_code: UCUG1507
+title: Figure Drawing in Motion
+subject: UCUG
+catalog_number: "1507"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Students will embark on a comprehensive exploration that lays a robust foundation for their artistic prowess, with a specialized emphasis on its significance in the realm of animation making. The course commences by refining students' observational and measuring skills, providing expert tutelage in mastering various effective approaches. These encompass the art of simplifying intricate human structures into simple forms, capturing motion, and recreating dynamic poses with original character designs or visual styles. Furthermore, the curriculum introduces students to cutting-edge digital techniques for figure drawing, leveraging tools such as digital tablets and VR sketching. Through an in-depth study of the human figure, students will analyze the fundamental elements of drawing a human form and cultivate their observational drawing skills by delving into proportions, forms, and gestures. Moreover, the acquired skills and techniques form an essential foundation for animation making, enabling students to translate their artistic visions into captivating animated sequences.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1507
+  - UCUG 1507
+  - Figure Drawing in Motion

@@ -1,0 +1,22 @@
+course: AMAT 2150
+normalized_code: AMAT2150
+title: Materials Project Laboratory I
+subject: AMAT
+catalog_number: "2150"
+credits: 2
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Materials Project Laboratory I and subsequent II are intended to offer students with hands-on experiences in practical materials processing. This course includes polymer fiber spinning, biaxial stretching of polymer films, fabrication of batteries, etc. This course also intends to emulate professional practices in materials project management, with aspects of design, analysis, teamwork, literature, and patent searching, web creation and oral presentation, and other related skills in Materials Science and Engineering.
+
+requirements:
+  prerequisite: (UFUG 1103 or 1106)  and (UFUG 1502 or 1504) and AMAT 2010
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2150
+  - AMAT 2150
+  - Materials Project Laboratory I

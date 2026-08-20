@@ -1,0 +1,22 @@
+course: ROAS 5200
+normalized_code: ROAS5200
+title: Medical Microrobotics: Principles and Applications
+subject: ROAS
+catalog_number: "5200"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces microscopic robots and covers the fundamentals of their design, fabrication, and control for healthcare applications. Students will explore the interdisciplinary fields of engineering, materials science, medicine, and nanotechnology, and understand how these robots are set to revolutionize diagnostics, targeted therapy, and minimally invasive surgery. This course aims to equip students with the theoretical knowledge and practical insights necessary to contribute to this rapidly advancing field.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5200
+  - ROAS 5200
+  - Medical Microrobotics: Principles and Applications

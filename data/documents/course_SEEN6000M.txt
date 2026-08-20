@@ -1,0 +1,22 @@
+course: SEEN 6000M
+normalized_code: SEEN6000M
+title: Exposure and Risk Assessment
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000M
+  - SEEN 6000M
+  - Exposure and Risk Assessment

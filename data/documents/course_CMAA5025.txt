@@ -1,0 +1,22 @@
+course: CMAA 5025
+normalized_code: CMAA5025
+title: Computational Techniques for Sketch-based Creativity
+subject: CMAA
+catalog_number: "5025"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an in-depth introduction to algorithms and interfaces that bridge sketching and modeling, with a particular focus on tools that support the conceptual design of shape and creation of artwork at a variety of scales. We will explore the full pipeline of concept to fabricated shape. Topics to be covered include: 2D and 3D representations, non-photorealistic rendering, sketch processing, image synthesis, sketch-based modelling, fabrication, pen and touch, and XR interfaces. We will also cover classic and cutting-edge papers published on top computer graphics and HCI venues. We will discuss how these techniques and systems benefit art and design, and vice versa.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5025
+  - CMAA 5025
+  - Computational Techniques for Sketch-based Creativity

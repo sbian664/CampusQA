@@ -1,0 +1,22 @@
+course: AMAT 4560
+normalized_code: AMAT4560
+title: Material Characterization Method
+subject: AMAT
+catalog_number: "4560"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce a selected series of materials characterization methods with an emphasis on the characterization methods of nanomaterials, especially chemically processed nanomaterials. The characterization methods will include electron spectroscopies, electron microscopies, scanning probe microscopies, and optical, thermal, mechanical, scattering and diffraction methods. The course will provide a balanced mix of physical principles, application considerations, and practical examples of the characterization methods.
+
+requirements:
+  prerequisite: AMAT 2040 and AMAT 3060
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT4560
+  - AMAT 4560
+  - Material Characterization Method

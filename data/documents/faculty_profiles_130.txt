@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：崔华晨（Huachen CUI）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：hccui@hkust-gz.edu.cn
+  办公室：W2 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CUI-Huachen/hccui
+  研究方向：
+    Advanced additive manufacturing techniques，
+    Design, manufacturing and characterization of multifunctional materials，
+    Robotics and autonomous systems via additive manufacturing，
+    Development of 3D-printed medical devices，

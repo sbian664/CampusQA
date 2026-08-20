@@ -1,0 +1,22 @@
+course: FTEC 5050
+normalized_code: FTEC5050
+title: Machine Learning and Artificial Intelligence
+subject: FTEC
+catalog_number: "5050"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the fundamentals of machine learning and artificial intelligence, and their applications in computer vision, image processing, natural language processing, and robotics. The topics include major learning paradigms (supervised learning, unsupervised learning and reinforcement learning), learning models (such as neural networks, Bayesian classification, clustering, kernels, feature extraction), and other problem solving techniques (such as heuristic search, constraint satisfaction solvers and knowledge-based systems) in AI.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5050
+  - FTEC 5050
+  - Machine Learning and Artificial Intelligence

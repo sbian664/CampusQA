@@ -1,0 +1,22 @@
+course: MSSM 5003
+normalized_code: MSSM5003
+title: Design for Manufacturing and Assembly
+subject: MSSM
+catalog_number: "5003"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a course in Design for Manufacturing and Assembly (DFMA) that focuses on the principles and techniques involved in designing products for efficient and cost-effective manufacturing and assembly processes. This course aims to equip students with the knowledge and skills necessary to optimize the design of products, considering factors such as ease of manufacturing, assembly, and overall product quality.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MSSM5003
+  - MSSM 5003
+  - Design for Manufacturing and Assembly

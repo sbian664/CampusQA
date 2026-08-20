@@ -1,0 +1,22 @@
+course: AIAA 1010
+normalized_code: AIAA1010
+title: Academic Orientation for AI Students
+subject: AIAA
+catalog_number: "1010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides guidance to undergraduate students of the AI major for their academic path and future. This course is mostly introductory and aims to inspire UG students for their academic path development and growth of maturity during their UG study. Activities may include seminars, workshops, advising and sharing sessions, interaction with faculty and teaching staff, and discussion with student peers or alumni. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA1010
+  - AIAA 1010
+  - Academic Orientation for AI Students

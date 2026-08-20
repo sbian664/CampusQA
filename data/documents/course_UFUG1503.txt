@@ -1,0 +1,22 @@
+course: UFUG 1503
+normalized_code: UFUG1503
+title: Honors General Physics I
+subject: UFUG
+catalog_number: "1503"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a calculus-based general physics course covering topics in mechanics and thermodynamics, providing solid foundations for students to pursuit deep understandings and methods. This course will be divided into three modules: Module 1 covers fundaments of mechanics including motion, Newton’s laws, momentum conservation, rotation; Module 2 covers work and energy, energy conservation, oscillations, and waves; Module 3 covers laws of thermodynamics, kinetic theory. Understanding calculus is a preliminary to enroll in this course. This is the in-depth version of course UFUG 1501 General Physics I.
+
+requirements:
+  prerequisite: (Score of 70% or above in GaoKao Physics OR in GaoKao Lizong/Integrated Science OR Level 5 or above in HKDSE 1/2x OR in HKDSE 1x Physics) and (Score of 70% or above in GaoKao Math OR Level 5 or above in HKDSE Math Extended Module M1/M2)
+  corequisite: none
+  exclusion: UFUG 1501
+
+search_aliases:
+  - UFUG1503
+  - UFUG 1503
+  - Honors General Physics I

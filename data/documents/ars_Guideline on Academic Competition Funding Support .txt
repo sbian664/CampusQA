@@ -1,0 +1,92 @@
+ars_page: Guideline on Academic Competition Funding Support – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/guideline-on-academic-competition-funding-support/
+source: ARS
+
+headings:
+  - Academic Competition Funding Support
+  - Guideline on Academic Competition Funding Support
+  - 1. Designation and Management
+  - 2. Responsibilities of Students, Faculty Advisors, and Leading Unit
+  - 3. Funding Support
+  - 4. Competition Category
+  - 5. Summary and Archiving
+  - 6. Supplementary Provisions
+
+text: >
+  Academic Competition Funding Support
+  May 2026
+  Table of Contents
+  Guideline on Academic Competition Funding Support
+  For the purpose of this Guideline, the Academic Competition Committee shall be referred to as the Committee.
+  Academic competitions play an important role in cultivating students’ innovative spirit, practical skills, teamwork, and organizational abilities, while also promoting individual development and fostering a culture of innovation and entrepreneurship. To effectively support these competitions, ensure proper fund usage, and encourage student participation in high-level academic competitions, this Guideline has been formulated.
+  1. Designation and Management
+  1.1 The Committee shall be responsible for developing and maintaining this Guideline, the application process, and centralized funding support standards.
+  1.2 The Committee shall review applications for funding support for academic competitions and confirm the leading academic unit for newly initiated academic competitions. Subject to the Committee’s resolution, the Finance Department shall make the final decision on the reimbursement amount in accordance with the stipulated financial policies.
+  2. Responsibilities of Students, Faculty Advisors, and Leading Unit
+  2.1 Students
+  1) Actively participate in training and competitions, maintain regular communication with faculty advisors, and uphold the integrity of the competition.
+  2) Ensure that academic commitments take precedence over participation in training or competitions.
+  3) Year 1 and Year 2 undergraduate students must obtain approval from CES prior to participating in competitions.
+  4) Submit a proposal and prepare a 5–10 minute presentation as part of the funding support application.
+  5) If endorsed, submit the reimbursement request to the Finance Department via the lead faculty advisor or the leading unit administrator, in compliance with the University’s financial policies.
+  2.2 Faculty Advisors
+  1) Provide overall academic and technical guidance to student participants.
+  2) Monitor the training schedule and competition preparation.
+  3) Ensure the safety and ethical conduct of all participants.
+  4) Assist in submitting the application form, budget plan, and team composition list via the DingTalk application.
+  2.3 Leading Unit
+  1) Develop comprehensive participation rules, including selection criteria and an implementation timeline.
+  2) Oversee competition implementation and operations.
+  3) Review and process student reimbursement requests in compliance with the University’s financial policies and provide reimbursement-related assistance as needed.
+  4) Manage all competition-related promotions.
+  5) Summarize the work and prepare a summary report to the Committee within one month after the competition concludes.
+  3. Funding Support
+  3.1 Application Procedure
+  To apply for funding support, applicants shall complete the
+  application form
+  ,
+  budget plan
+  , and
+  team composition list
+  , and submit them to the Committee Secretariat
+  via DingTalk
+  (“Academic Competition Funding Support Application”) at least
+  three months
+  in advance of the competition. Students are required to prepare a 5–10 minute presentation for the Committee’s review.
+  3.2 Budget Allocation Criteria
+  The following factors shall be considered in determining the funding support amount:
+  Academic competition category;
+  Past achievements (if applicable);
+  Team composition;
+  Budget rationality and cost details.
+  If multiple teams from different academic units apply for funding support for the same competition, the total budget shall, in principle, be approved as a single project. A single leading unit shall be proposed in advance to be responsible for promotion, organization, and reimbursement.
+  Applicants shall propose a budget plan by stage, specifying the amounts needed for different stages (e.g. preliminary rounds, semi-finals, finals) and the corresponding timeline.
+  3.3 Scope of Funding Support
+  4. Competition Category
+  Academic competitions are classified into two categories—A and B—based on the evaluation criteria below. In general, a competition must have been held for more than three years to qualify for Category A. Exceptions shall be subject to an observation period and require special approval from the Committee.
+  Evaluation Criteria:
+  Competition level and scale;
+  Entry selectivity;
+  Impact on the University community;
+  Impact on society at large;
+  Award settings (prize proportion).
+  International-level, national-level, and provincial-level competitions with award rates of 30% or below are eligible to be classified as Category A or B.
+  International competitions refer to global academic competitions organized by UNESCO or other recognized international academic organizations.
+  National-level competitions refer to academic competitions organized by national government departments or national academic organizations.
+  Provincial-level competitions refer to academic competitions organized by provincial government departments or provincial academic organizations, including those that are cross-regional in scope.
+  The Committee reserves the right to adjust the classification based on comprehensive evaluation of all criteria. Funding amounts shall correspond to the category: higher funding for Category A (priority support), basic funding for Category B (wide seeding).
+  5. Summary and Archiving
+  Upon conclusion of each competition, the Leading Unit shall summarize the work and prepare a summary report. The report shall include the following: basic information with finalized team composition, main achievements and gains, experience summary, and financial settlement.
+  All materials related to academic competitions shall be archived in accordance with the requirements of the Archive Management Department.
+  6. Supplementary Provisions
+  In accordance with the University’s development requirements and actual circumstances, the Committee shall adjust the funding support standards for academic competitions at an appropriate time.
+  The Expert Committee of Academic Competitions
+  May 2026
+  —
+  > HKUST(GZ) Academic Competition Category List (2026)
+
+links:
+  - application form | https://document.hkust-gz.edu.cn/office/viewer?key=871
+  - budget plan | https://document.hkust-gz.edu.cn/office/viewer?key=872
+  - team composition list | https://document.hkust-gz.edu.cn/office/viewer?key=873
+  - > HKUST(GZ) Academic Competition Category List (2026) | https://document.hkust-gz.edu.cn/office/viewer?key=874

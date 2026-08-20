@@ -1,0 +1,22 @@
+course: MICSN 001N
+normalized_code: MICS6001N
+title: Fundamentals and Design Practice of CMOS Integrated Circuits
+subject: MICS
+catalog_number: "6001N"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on the design practice of CMOS integrated circuits (ICs). In the begining of the course, we will talk about some fundamentals regarding the MOSFET models, voltage/current reference, supply-independent biasing and its startup circuits, amplifiers, output buffers, switched-capacitor circuits and memories. After understanding the fundatmentals of ICs, we will focus the design pratice of the CMOS integrated circuits using the Cadence IC design tools.  We will explore the designs and simulations of the following blocks: current sink, bandgap reference, amplifier, switched-capacitor circuits, output buffers and etc. After finishing this course, students are expected to obtain the practical experience of the design and simulation methdologies of  some of the key digital and analog circuit blocks using the Cadence tools.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001N
+  - MICSN 001N
+  - Fundamentals and Design Practice of CMOS Integrated Circuits

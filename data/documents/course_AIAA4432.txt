@@ -1,0 +1,22 @@
+course: AIAA 4432
+normalized_code: AIAA4432
+title: Statistical Machine Learning
+subject: AIAA
+catalog_number: "4432"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an advanced course in machine learning. It dives into statistical methods that are very popular in modern machine learning systems. It includes topics like supervised learning, dimensional reduction, support vector machines, boosting, sparse methods and deep learning, etc. In this course, we will delve into statistical methods for machine learning. It covers hot topics in statistical learning, aiming to provide students with state-of-the-art statistical tools to enhance modern engineering and science practice.
+
+requirements:
+  prerequisite: DSAA2011 AND UFUG2104
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4432
+  - AIAA 4432
+  - Statistical Machine Learning

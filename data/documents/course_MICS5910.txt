@@ -1,0 +1,22 @@
+course: MICS 5910
+normalized_code: MICS5910
+title: Embedded System Design
+subject: MICS
+catalog_number: "5910"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the basic concepts of embedded system design. It covers the modeling and specification, hardware/software co-design, architectures, real-time operating systems, compression, compilation, and design space exploration. It will also cover other topics, such as security, verification, and validation. The goal of this course is to help students develop a comprehensive understanding of the technologies behind the embedded systems design.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5910
+  - MICS 5910
+  - Embedded System Design

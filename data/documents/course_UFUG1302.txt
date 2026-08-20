@@ -1,0 +1,22 @@
+course: UFUG 1302
+normalized_code: UFUG1302
+title: Honors Chemistry I
+subject: UFUG
+catalog_number: "1302"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is designed for students we have acquired solid chemistry knowledge in high school (e.g., HKDSE 1.0X Chemistry, Mainland Gaokao Chemistry, etc.) and intend to pursue a degree related to chemistry (including but not limited to materials, energy, biology, environment, manufacturing, etc.). It is Part I of the Chemistry fundamental course (Honors  Chemistry I/II). The course is modularized into 3 sections to accommodate the teaching and learning needs of students from different departments. With acquisition of this course, the students will have a deeper understanding of atomic/molecular structure and chemical bonding (Module 1), chemical reaction and thermochemistry (Module 2), and the general properties of substances (gases/liquids/solids) (Module 3).
+
+requirements:
+  prerequisite: Gaokao Chemistry or Gaokao Lizong (Integrated Science) OR Level 3 in HKDSE 1.0X Chemistry or equivalent.
+  corequisite: none
+  exclusion: UFUG 1301
+
+search_aliases:
+  - UFUG1302
+  - UFUG 1302
+  - Honors Chemistry I

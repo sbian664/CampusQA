@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：成子腾（Ziteng CHENG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zitengcheng@hkust-gz.edu.cn
+  办公室：E3(C9) L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHENG-Ziteng/zitengcheng
+  研究方向：
+    Risk-Averse Decision Making，
+    Reinforcement Learning，
+    Inverse Reinforcement Learning，
+    Mean Field Games，
+    Mathematical Finance，

@@ -1,0 +1,22 @@
+course: ROAS 5500
+normalized_code: ROAS5500
+title: Mechatronics Design
+subject: ROAS
+catalog_number: "5500"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the essential fundamentals, including modeling, sensing, signal transmission and conversion, actuation, control, simulation, and implementation technologies used within the mechatronics design for robots and autonomous systems. It will give a holistic view of advanced automation technologies in industrial applications, taking electric vehicles and robots as examples. Also, this course will provide the essential skills to design intelligent mechatronics systems, and students will be allocated Arduino and STM32 development kits to participate in mechatronics design in the course project. Through this course, students can enhance their understanding of the cross-disciplinary integration and systematic optimization of mechatronics systems involving the knowledge of mechanics, electronics, control engineering, and computer science.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5500
+  - ROAS 5500
+  - Mechatronics Design

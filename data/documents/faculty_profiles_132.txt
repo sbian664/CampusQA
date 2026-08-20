@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：苏宗贤（Zongxian SU）
+  职称：Lead Engineer
+  学域：Center for Engineering Excellence
+  邮箱：zongxiansu@hkust-gz.edu.cn
+  办公室：E1 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Zongxian/zongxiansu
+  研究方向：
+    Intelligent Capsule Pipeline Freight System，
+    Theory and Technology of Underwater Tunnel Engineering，
+    Intelligent Construction，

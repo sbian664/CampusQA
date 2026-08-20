@@ -1,0 +1,22 @@
+course: UGOD 5112
+normalized_code: UGOD5112
+title: Machine Learning in Remote Sensing
+subject: UGOD
+catalog_number: "5112"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on applying machine and deep learning methods for remote sensing and covers a variety of practical applications of remote sensing image processing in complex urban environments. Through a mixture of theoretical and hands-on sessions, students will gain a deeper understanding of advanced image analysis methods and will be able to apply new concepts and approaches to enhance their problem-solving abilities in the interdisciplinary field using multi-source geo-information.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5112
+  - UGOD 5112
+  - Machine Learning in Remote Sensing

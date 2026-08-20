@@ -1,0 +1,22 @@
+course: CNCC 5400
+normalized_code: CNCC5400
+title: Environmental Economics and Sustainable Development
+subject: CNCC
+catalog_number: "5400"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a graduate-level interdisciplinary course focusing on the economics of environmental and sustainable development problems and the solutions to those problems. Students will learn to use tools from applied economics and relevant disciplines to better understand and evaluate a series of current policy questions, such as air and water pollution, climate change, environmental amenities, agricultural production, ecosystem services, and biodiversity.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5400
+  - CNCC 5400
+  - Environmental Economics and Sustainable Development

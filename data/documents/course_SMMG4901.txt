@@ -1,0 +1,22 @@
+course: SMMG 4901
+normalized_code: SMMG4901
+title: Final Year Thesis
+subject: SMMG
+catalog_number: "4901"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Students will undertake a year-long research project under the supervision of a faculty member, and the results must be reported in the form of a thesis or a research paper. Credit load will be spread over the year. For students of the SMMG Program only. Instructor's approval is required for enrolment in the course. Graded: Letter grade or PP.
+
+requirements:
+  prerequisite: none
+  corequisite: DLED 4040
+  exclusion: SMMG 4960
+
+search_aliases:
+  - SMMG4901
+  - SMMG 4901
+  - Final Year Thesis

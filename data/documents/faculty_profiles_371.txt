@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：代茹诗（Rushi DAI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：rushidai@hkust-gz.edu.cn
+  办公室：E3 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DAI-Rushi/rushidai
+  研究方向：
+    Intelligent Construction and Robotic Fabrication，
+    Digital Twins，
+    Gamification in Human-Robot Interaction，
+    Generative AI for 3D Scene Generation，
+    IoT Communication in Urban Construction，

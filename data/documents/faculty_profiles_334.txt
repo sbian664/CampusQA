@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：段华忆（Huayi DUAN）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：huayiduan@hkust-gz.edu.cn
+  办公室：W4 L5 530
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan
+  研究方向：
+    Network Security，
+    Data Security，
+    Trustworthy Systems，
+    Trustworthy AI，

@@ -1,0 +1,22 @@
+course: IPENI 100I
+normalized_code: IPEN6100I
+title: ESG Fundamentals and Strategy for Business
+subject: IPEN
+catalog_number: "6100I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  As ESG (Environmental, Social, and Governance) momentum sweeps the globe, companies must proactively chart their course and craft actionable strategies for engaging with society and the environmentâthereby mitigating related risks and building sustainable competitive advantage. This course introduces and maps out the frameworks and tools for business ESG strategy, enriched with case studies, simulations, and field study to inform both executive decision-making and frontline implementation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100I
+  - IPENI 100I
+  - ESG Fundamentals and Strategy for Business

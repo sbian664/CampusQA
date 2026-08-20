@@ -1,0 +1,44 @@
+ars_page: Program Registration – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/program-registration/
+source: ARS
+
+headings:
+  - Program Registration
+  - Online Program Registration
+  - Study Program Guides
+  - Request Forms
+
+text: >
+  Program Registration
+  For student registration, student record management, Testimonial application…
+  Online Program Registration
+  Welcome to HKUST (GZ), new students! As you embark on your academic journey with us, one of the first steps you will need to take is to complete your online program registration through our new student orientation system. This system has been designed to guide you through the registration process and ensure a smooth transition into university life.
+  To kickstart this process, an email notification will be sent to your personal email account with detailed instructions on how to access the system and complete your registration. This email will provide you with all the necessary information and resources to successfully register for your courses and set you on the path to academic success.
+  Study Program Guides
+  For Undergraduate (UG)
+  For Postgraduate (PG)
+  All students are required to complete program registration procedures in each regular term.
+  Program registration involves payment of tuition and other prescribed fees where appropriate and confirms students’ enrollment at the University.
+  Failure to enroll in the program in any one regular term will result in automatic withdrawal from the program and the University, unless a formal approval of Leave from Study has been obtained from the student’s major department. A student must be officially registered in the program in the regular term when he/she is being considered for graduation from that program.
+  A student’s registration in a program is automatically revoked if the student fails to complete course registration, or subsequently withdraws from all courses enrolled, or is not approved by the major department to proceed with course registration. In such circumstances, the student is deemed to have withdrawn from the University.
+  Students who have completed the degree requirements by the end of a term are not allowed to continue registration any longer.
+  Each student enrolled in a specific program is subject to the requirements of the major department and the University. Exemption from specific requirements is possible, but only in well justified circumstances and with written permission from the major department.
+  Request Forms
+  Below applications can be requested, please click
+  here
+  for the links under Program Registration category:
+  Testimonial
+  Program Transfer/Change of Academic Load
+  Leave from Study
+  Withdrawal of Study
+  Personal Data Amendment
+  Continuing Student Status
+  Retention of Student Status
+  Re-Enrollment of Study
+  Apply
+
+links:
+  - Read More | https://ars.hkust-gz.edu.cn/program-registration/online-program-registration-guide/
+  - For Undergraduate (UG) | https://ars.hkust-gz.edu.cn/registration/undergraduate-studies/
+  - For Postgraduate (PG) | https://ars.hkust-gz.edu.cn/registration/guides-on-postgraduate-studies-pg/
+  - here | https://ars.hkust-gz.edu.cn/student-services/

@@ -1,0 +1,22 @@
+course: MSSM 5001
+normalized_code: MSSM5001
+title: Additive Manufacturing Introduction
+subject: MSSM
+catalog_number: "5001"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers selected topics of current interest in additive manufacturing. Students will study the fundamentals of various additive manufacturing techniques, including fused deposition modeling (FDM), two-photon lithography, stereolithography (SLA), etc. The additive manufacturing process (FDM or SLA as an example) will be illustrated by actual model design, system setup and fabrication of parts.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MSSM5001
+  - MSSM 5001
+  - Additive Manufacturing Introduction

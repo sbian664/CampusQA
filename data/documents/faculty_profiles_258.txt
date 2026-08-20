@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：刘志丹（Zhidan LIU）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：zhidanliu@hkust-gz.edu.cn
+  办公室：W4(C8) 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Zhidan/zhidanliu
+  研究方向：
+    Artificial Internet of Things (AIoT)，
+    Urban Computing & Smart Mobility，
+    Mobile and Edge Computing & Intelligence，
+    Crowdsensing and Crowdsourcing，
+    Spatio-Temporal Data Mining and Analytics，

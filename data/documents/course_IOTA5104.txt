@@ -1,0 +1,22 @@
+course: IOTA 5104
+normalized_code: IOTA5104
+title: Fundamentals of Discrete-Time Signal Processing
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5104
+  - IOTA 5104
+  - Fundamentals of Discrete-Time Signal Processing

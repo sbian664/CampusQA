@@ -1,0 +1,22 @@
+course: SMMG 4610
+normalized_code: SMMG4610
+title: Product Design and Lifecycle Management
+subject: SMMG
+catalog_number: "4610"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Introduction to the knowledge of strategic and tactical activities, from idea generation to commercialization, for designing a product. It also covers the strategic process of managing the complete journey of a product including initial ideation, development, service, and disposal.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4610
+  - SMMG 4610
+  - Product Design and Lifecycle Management

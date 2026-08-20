@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：KUTSCHER DIRK（DIRK KUTSCHER）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：dku@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KUTSCHER-DIRK/dku
+  研究方向：
+    Distributed computing and networking，
+    Information-Centric networking，
+    Infrastructure for data science and machine learning，
+    Internet evolution，

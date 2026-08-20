@@ -1,0 +1,22 @@
+course: MICS 5460
+normalized_code: MICS5460
+title: Advanced VLSI Design
+subject: MICS
+catalog_number: "5460"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an in-depth exploration of the contemporary VLSI circuit design. The material covers the design principles of digital circuits, as well as the designs of core VLSI building units, including combinational logic, sequential elements, arithmetic circuits, memory sub-systems, and other important circuits for VLSI system integration. Implementations in CMOS will be considered in relation to key design metrics such as timing, power, area, and reliability. This course is a project-oriented class, which requires students to design and layout VLSI circuits and sub-systems using commercially available design tools.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5460
+  - MICS 5460
+  - Advanced VLSI Design

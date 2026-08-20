@@ -1,0 +1,22 @@
+course: MICSM 002M
+normalized_code: MICS6002M
+title: Introduction to Semiconductorized Photonics
+subject: MICS
+catalog_number: "6002M"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Photonics is transforming the world by enabling breakthroughs in AI, robotics, and next-generation computing. This course explores the rapidly evolving field of photonic technologies that are driving innovation across multiple industries, with a particular emphasis on the semiconductor industry. Over the past decade, photonics has become increasingly integrated into semiconductor processes and is undergoing a trend of being âsemiconductorizedâ. Students will begin by learning the fundamentals of active photonic devices and advanced nanofabrication techniques. The course will then dive into emerging applications, including photonic sensing, photonic computing, and biophotonic technologies. By the end of the course, students will gain a deep understanding of the pivotal role of photonics in technological advancement and will be well-prepared to engage with future innovations in this field. Grading Type: Pass or Fail
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002M
+  - MICSM 002M
+  - Introduction to Semiconductorized Photonics

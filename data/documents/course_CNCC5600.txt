@@ -1,0 +1,22 @@
+course: CNCC 5600
+normalized_code: CNCC5600
+title: Energy Economics and Policy
+subject: CNCC
+catalog_number: "5600"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an in-depth examination of the economics and policy issues surrounding energy. Topics include energy demand and supply, market structures, renewable energy technologies, fossil fuels, energy security, climate change, transportation, innovation, and policy analysis. Students will also participate in a research project to apply their knowledge to real-world scenarios.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC5600
+  - CNCC 5600
+  - Energy Economics and Policy

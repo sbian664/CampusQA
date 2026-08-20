@@ -1,0 +1,22 @@
+course: DLED 3030
+normalized_code: DLED3030
+title: English Communication I for Society Hub programs
+subject: DLED
+catalog_number: "3030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides students with exposure to and practice in using English within the specific fields of Carbon Neutrality and Climate Change, Financial Technology, Innovation Policy and Entrepreneurship, Urban Governance and Design. The course aims to encourage students to develop their abilities as thoughtful communication strategists, to communicate effectively, appropriately and confidently in relevant academic and professional contexts, and to use language to express critically the wider social implications of their fields on topics relevant to all SOCH students.
+
+requirements:
+  prerequisite: UCUG 1052 OR UCUG 1053
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DLED3030
+  - DLED 3030
+  - English Communication I for Society Hub programs

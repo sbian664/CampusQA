@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：杨维铠（Weikai YANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：weikaiyang@hkust-gz.edu.cn
+  办公室：W1 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang
+  研究方向：
+    VIS4AI，
+    AI4VIS，
+    Human-AI collaboration，
+    Weakly-supervised learning，
+    Active learning，
+    Statistical learning and optimization，

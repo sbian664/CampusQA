@@ -1,0 +1,22 @@
+course: AIAA 5023
+normalized_code: AIAA5023
+title: Foundations of Deep Neural Networks
+subject: AIAA
+catalog_number: "5023"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course helps students to get basic knowledge about deep neural networks, helping them to understand basic concepts, capabilities and challenges of deep neural networks.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5023
+  - AIAA 5023
+  - Foundations of Deep Neural Networks

@@ -1,0 +1,17 @@
+教职员简介：
+  姓名：范明明（Mingming FAN）
+  职称：Acting Base Head
+  学域：Base of Red Bird MPhil
+  邮箱：mingmingfan@hkust-gz.edu.cn
+  办公室：E2 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Mingming/mingmingfan
+  研究方向：
+    Human-Centered AI，
+    Human-AI Collaboration (for Education, Learning, Collaboration, Creativity Support)，
+    Multi-Agent Interactive System Design (for Education, Learning, Collaboration, Creativity Support)，
+    Human-Robot Interaction (e.g., companion robot)，
+    Accessible Computing (novel assistive technology design for older adults and people with disabilities)，
+    Multi-Sensory (e.g., haptic, olfactory) interaction design，
+    Virtual Reality (VR) / Augmented Reality (AR) / Mixed Reality (MR)，
+    Mobile, Wearable, and Ubiquitous computing techniques and applications，
+    Human-Computer Interaction (HCI)，

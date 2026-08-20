@@ -1,0 +1,22 @@
+course: UGOD 5060
+normalized_code: UGOD5060
+title: Urban Data Analytics
+subject: UGOD
+catalog_number: "5060"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Over recent years, the way data are used to understand urban system has changed dramatically. Cities are constantly adapting to incorporate new technology, and urban social life increasingly occurs in digital environments and continues to be mediated by digital systems, producing urban data not only in volume but also in form (i.e. text, image, audio, and video). This course delves into the challenges and opportunities of using new and emerging forms of data to study cities.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5060
+  - UGOD 5060
+  - Urban Data Analytics

@@ -1,0 +1,16 @@
+教职员简介：
+  姓名：蔡宁（Ning CAI）
+  职称：Thrust Head
+  学域：Thrust of Financial Technology
+  邮箱：ningcai@hkust-gz.edu.cn
+  办公室：W3 L5 501
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Ning/ningcai
+  研究方向：
+    FinTech，
+    Financial engineering，
+    Risk management，
+    Green finance，
+    Operations research，
+    Stochastic modeling，
+    Applied probability，
+    Statistics and data science，

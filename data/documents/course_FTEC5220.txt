@@ -1,0 +1,22 @@
+course: FTEC 5220
+normalized_code: FTEC5220
+title: Monte Carlo Simulation in Finance
+subject: FTEC
+catalog_number: "5220"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers Monte Carol simulation methods from the perspectives of derivatives pricing, credit risk modeling and trading strategies. The first topic starts with various sampling methods for generating random variables, like the basic inverse transform method and acceptance-rejection method. Special emphasis is placed on simulation of normal distributions. Next, we consider pricing financial derivatives via simulation. The dynamic price processes include the Geometric Brownian motion and jump diffusion models. Various variance reduction techniques, like the antithetic variate, control variate, conditioning and stratified sampling are considered. The solution of the optimal stopping model of an American option via the Longstaff-Schwartz regression method is discussed. We also consider rare event simulation via various importance sampling methods, like the mean drift method and cross entropy method. Applications in risk measures calculation in credit risk models, like the Gaussian copula models, are considered.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5220
+  - FTEC 5220
+  - Monte Carlo Simulation in Finance

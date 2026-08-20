@@ -1,0 +1,22 @@
+course: AMATB 000B
+normalized_code: AMAT6000B
+title: Quantum Matter Meets Quantum Information
+subject: AMAT
+catalog_number: "6000B"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course for post-graduate students to grasp the essential basic notions of quantum many-body physics in the information epoch, being applied to the modern quantum matter and quantum information processing. The topics include the many-body Hilbert space and entanglement; the concepts of phase of matter and phase transition â from the aspect of symmetry and topology; the subtlety of geometry phase and the gauge theory behind; the out-of-equilibrium entanglement dynamics in closed and open quantum systems, etc. The most essential concepts will be conveyed, with the most representative examples, relevant to the latest progress of quantum simulation and quantum computation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT6000B
+  - AMATB 000B
+  - Quantum Matter Meets Quantum Information

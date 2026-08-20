@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：柏舸（Ge BAI）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：gebai@hkust-gz.edu.cn
+  办公室：W4 L5 520
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Ge/gebai
+  研究方向：
+    Quantum information 量子信息，
+    Quantum machine learning 量子机器学习，
+    Quantum inference 量子推断，
+    Quantum networks 量子网络，

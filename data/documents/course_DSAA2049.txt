@@ -1,0 +1,22 @@
+course: DSAA 2049
+normalized_code: DSAA2049
+title: Advanced Programming Languages
+subject: DSAA
+catalog_number: "2049"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers (1) advanced programming concepts such as C++20, template, closure, co-routine, futures/promises and (2) experience alternative programming languages, especially, functional programming.
+
+requirements:
+  prerequisite: UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA2049
+  - DSAA 2049
+  - Advanced Programming Languages

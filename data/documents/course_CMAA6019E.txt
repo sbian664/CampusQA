@@ -1,0 +1,22 @@
+course: CMAAE 019E
+normalized_code: CMAA6019E
+title: Social Robots for HCI, Art, and Design
+subject: CMAA
+catalog_number: "6019E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  As robots transition from industrial tools to relational partners, they will reshape how we live, work, create, and connect. This course reimagines human-robot interaction (HRI) through the lenses of human-computer interaction (HCI), speculative design, and artistic practice, centering creativity, empathy, and critical inquiry over technical implementation. Moving beyond engineering paradigms, we explore how social robots amplify human agency, foster collaboration, and challenge societal norms in spaces ranging from homes and hospitals to galleries and public installations. This course will cover theoretical and technical foundations through seminars, discussions of cutting-edge research papers, and teamwork for an empirical, practical or creative robotics research project.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019E
+  - CMAAE 019E
+  - Social Robots for HCI, Art, and Design

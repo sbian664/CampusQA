@@ -1,0 +1,9 @@
+教职员简介：
+  姓名：田敏（Min TIAN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：mint@hkust-gz.edu.cn
+  办公室：E4 (C9) L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TIAN-Min/mint
+  研究方向：
+    Dr. Tian’s research centers on elucidating the molecular, cellular, and circuit-level mechanisms underlying injury and repair in neurodegenerative diseases including different types of dementia. By integrating human and model animal cell-type-specific transcriptomics, bioinformatics, behavior tests, and in vivo gene manipulation techniques, Dr. Tian has identified key intercellular signaling pathways between endothelial and glial cell subsets involved in neurovascular dysfunction and repair. Her work has revealed multiple promising therapeutic targets, including the Serpine2-Lrp1 and CD39-A3AR signaling axes, which she has functionally validated through approaches such as small-molecule drug development, gene therapy, and high throughput screening platforms. Beyond mechanistic discovery, Dr. Tian actively advances translational research, collaborating with medicinal chemists and clinicians to drive the development of novel therapeutics for dementia.，

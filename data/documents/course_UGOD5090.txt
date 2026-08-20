@@ -1,0 +1,22 @@
+course: UGOD 5090
+normalized_code: UGOD5090
+title: Urban Sustainability
+subject: UGOD
+catalog_number: "5090"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a road map for examining the sustainability of cities through perspectives and approaches in urban governance and design. Drawing from an interdisciplinary literature, we will explore the following major themes in the context of urban sustainability: theories and assessment tools of urban sustainability, land use and transportation, urban design, energy and climate change, food and health, governance, and social ecology.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5090
+  - UGOD 5090
+  - Urban Sustainability

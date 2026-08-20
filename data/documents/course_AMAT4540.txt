@@ -1,0 +1,24 @@
+course: AMAT 4540
+normalized_code: AMAT4540
+title: Biomaterials and Drug Delivery
+subject: AMAT
+catalog_number: "4540"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the relevant concepts in biology, material science, and engineering principles for the design and applications of biomaterials to meet medical needs, with emphasis on drug, gene, and cell delivery. Essential methods for the physiochemical characterization and preclinical evaluation of biomaterials will be introduced. Students will also learn about the roles of regulations and standard practice in industry. Case students will be featured to highlight the scientific theories and clinical translation of classical and latest therapeutic carriers. Students are expected to have basic background in fluid mechanics and mass transfer.
+
+requirements:
+  prerequisite: (a) UFUG 1103 or UFUG 1106; and
+(b) UFUG 1502 or 1504; and
+(c) UFUG 1301
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT4540
+  - AMAT 4540
+  - Biomaterials and Drug Delivery

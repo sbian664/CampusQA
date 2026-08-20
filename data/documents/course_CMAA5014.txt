@@ -1,0 +1,22 @@
+course: CMAA 5014
+normalized_code: CMAA5014
+title: Experimental 3D Rendering and Motion
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5014
+  - CMAA 5014
+  - Experimental 3D Rendering and Motion

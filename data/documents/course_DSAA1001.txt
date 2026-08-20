@@ -1,0 +1,22 @@
+course: DSAA 1001
+normalized_code: DSAA1001
+title: Introduction to Data Science and Analytics
+subject: DSAA
+catalog_number: "1001"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Data science changes the way people process data in different areas. It has promoted the development of many subjects. This course introduces beginners to the whole lifecycle of data science problems and solutions. The course will help students comprehensively understand the basic knowledge of data science and use computer techniques to handle the real-life data science problems. Topics covered include data collection and processing, machine learning (including classification and clustering), statistical estimation and inference methods, and case studies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA1001
+  - DSAA 1001
+  - Introduction to Data Science and Analytics

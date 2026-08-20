@@ -1,0 +1,22 @@
+course: IOTA 5201
+normalized_code: IOTA5201
+title: Reinforcement Learning for Intelligent Decision Making in Cyber-Physical Systems
+subject: IOTA
+catalog_number: "5201"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on applying reinforcement learning (RL) to cyber-physical systems (CPS), which integrate computation, networking, and physical processes. It covers the fundamentals of RL and its application in designing intelligent decision-making algorithms for CPS. Topics include model-based and model-free RL approaches, safe RL practices to ensure the safety of CPS, and the integration of RL with other techniques, such as model predictive control in CPS. The course will also explore different applications of RL in CPS.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5201
+  - IOTA 5201
+  - Reinforcement Learning for Intelligent Decision Making in Cyber-Physical Systems

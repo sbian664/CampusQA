@@ -1,0 +1,22 @@
+course: UCUG 2304
+normalized_code: UCUG2304
+title: Undergraduate Teaching Opportunities Program
+subject: UCUG
+catalog_number: "2304"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG2304
+  - UCUG 2304
+  - Undergraduate Teaching Opportunities Program

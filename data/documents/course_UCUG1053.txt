@@ -1,0 +1,22 @@
+course: UCUG 1053
+normalized_code: UCUG1053
+title: Advanced Academic English for University Studies
+subject: UCUG
+catalog_number: "1053"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course puts a strong emphasis on developing university-level academic literacy and communication competence in writing, speaking, and multimodal contexts. The course introduces students to research skills using university library resources for finding and evaluating sources for academic writing and speaking tasks. It expects students to be critical readers and writers, synthesizing ideas when developing a coherent argument. The course also aims to develop students’ competence in communicating effectively in an academic community, developing the ability to collaborate both as a member of a group and assuming responsibility as a discussion facilitator in the context of student-led seminars. Throughout the course, students are expected to transfer and adapt their knowledge, attitudes and habits for autonomous lifelong learning.
+
+requirements:
+  prerequisite: IELTS  Band 7.0 or above (overall) or HKDSE English Language Level 5 (overall) or above or equivalence of the above.
+  corequisite: none
+  exclusion: UCUG 1052I, UCUG 1052S, UCUG 1052A
+
+search_aliases:
+  - UCUG1053
+  - UCUG 1053
+  - Advanced Academic English for University Studies

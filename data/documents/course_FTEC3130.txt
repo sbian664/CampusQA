@@ -1,0 +1,22 @@
+course: FTEC 3130
+normalized_code: FTEC3130
+title: Statistical Inference
+subject: FTEC
+catalog_number: "3130"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Sampling theory, order statistics, limiting distributions, point estimation, confidence intervals, hypothesis testing, non-parametric methods.
+
+requirements:
+  prerequisite: FTEC 2120
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3130
+  - FTEC 3130
+  - Statistical Inference

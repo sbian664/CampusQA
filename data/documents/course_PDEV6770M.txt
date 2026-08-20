@@ -1,0 +1,22 @@
+course: PDEVM 770M
+normalized_code: PDEV6770M
+title: Professional Development for Research Postgraduate Students
+subject: PDEV
+catalog_number: "6770M"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, SelfâManagement, and Career Development. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - PDEV6770M
+  - PDEVM 770M
+  - Professional Development for Research Postgraduate Students

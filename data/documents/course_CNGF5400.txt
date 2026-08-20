@@ -1,0 +1,22 @@
+course: CNGF 5400
+normalized_code: CNGF5400
+title: Carbon Pricing, Trading, and Climate Finance Innovations
+subject: CNGF
+catalog_number: "5400"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an in-depth exploration of the role of market mechanisms and financial instruments in addressing climate change and promoting the transitionto a low-carbon economy. The course covers the fundamental concepts, theories, and practices related to carbon markets, carbon pricing, and climate finance. Students will learn about the design, implementation, and operation of various carbon market mechanisms, such as cap-and-trade systems, carbon taxes, and voluntary carbon markets. The course also examines innovative climate finance instruments, including green bonds, climate funds, and climate risk insurance, and their potential to mobilize capital for climate change mitigation and adaptation projects. Through case studies, simulations, and hands-on projects, students will gain practical skills in analyzing, designing, and evaluating carbon market and climate finance interventions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF5400
+  - CNGF 5400
+  - Carbon Pricing, Trading, and Climate Finance Innovations

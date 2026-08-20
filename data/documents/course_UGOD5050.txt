@@ -1,0 +1,22 @@
+course: UGOD 5050
+normalized_code: UGOD5050
+title: Cities and Society
+subject: UGOD
+catalog_number: "5050"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course looks at some of the major drivers of urban inequality and poverty, and the key actions that cities are taking to reduce urban inequalities through urban design, infrastructure and policy. Students are introduced with tools to analyze the socio-demographic profile of households and neighborhoods/communities and their relation to spatial distribution and clustering in cities of both the developing and the developed world. A particular emphasis is placed on identifying spatial strategies that can alleviate the concentration of urban poverty and inequality to enhance urban social cohesion by optimizing access to jobs, housing, education, health, public space, transport and community infrastructure.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5050
+  - UGOD 5050
+  - Cities and Society

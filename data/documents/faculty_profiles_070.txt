@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：TYSON GARETH JOHN（Gareth John TYSON）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：gtyson@hkust-gz.edu.cn
+  办公室：E1 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TYSON-Gareth-John/gtyson
+  研究方向：
+    Internet Measurements，
+    Social Computing，
+    Web，
+    Cybersafety，

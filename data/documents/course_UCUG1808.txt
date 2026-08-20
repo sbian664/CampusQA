@@ -1,0 +1,22 @@
+course: UCUG 1808
+normalized_code: UCUG1808
+title: Sport in Society: Cultures, Media and Politics
+subject: UCUG
+catalog_number: "1808"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  An introductory course blending case studies, practice, and theory to engage students in exploring modern sports through a series of lectures, seminars, tutorials, and enrichment activities. The course “Sports and society” is part of the core fundamentals of the Pillar of General Education at The Hong Kong University of Science and Technology (Guangzhou). The main goal with this course is to teach the students the sport from a sociological perspective, to understand the complex, interconnected relationship between sports and society. Gender, race, social class, health, media, politics and economy will be the primary topics from which to understand sport as a social institution.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1808
+  - UCUG 1808
+  - Sport in Society: Cultures, Media and Politics

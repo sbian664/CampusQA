@@ -1,0 +1,22 @@
+course: UFUG 2102
+normalized_code: UFUG2102
+title: Matrix Algebra and Applications
+subject: UFUG
+catalog_number: "2102"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Matrix algebra is a branch of mathematics that studies systems of linear equations and the properties of matrices. The use of matrix algebra for physics, engineering, and social sciences has been increasing at a rapid pace in recent years. Due to its broad range of applications, matrix algebra is one of the most widely taught subjects in college-level mathematics. The course will have three important objectives: 1) Develop an understanding of the core ideas and concepts of matrix algebra, linear transformations, eigenvectors, and inner product spaces; 2) Recognize the power of abstraction and generalization, carry out mathematical work with independent judgement; 3) Apply rigorous, analytical, and numeric approaches to analyze and solve problems using concepts of matrix algebra.
+
+requirements:
+  prerequisite: UFUG 1103 OR UFUG 1106
+  corequisite: none
+  exclusion: UFUG 2103
+
+search_aliases:
+  - UFUG2102
+  - UFUG 2102
+  - Matrix Algebra and Applications

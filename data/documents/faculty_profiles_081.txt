@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：童业煜（Yeyu TONG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yeyutong@hkust-gz.edu.cn
+  办公室：W3 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-Yeyu/yeyutong
+  研究方向：
+    Photonic Integrated Circuits，
+    Optical Interconnects，
+    Optical Signal Processing and Computing，
+    Photonic Design Automation，
+    Photonic Sensing and Imaging，

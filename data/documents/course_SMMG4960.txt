@@ -1,0 +1,22 @@
+course: SMMG 4960
+normalized_code: SMMG4960
+title: Final Year Capstone Project
+subject: SMMG
+catalog_number: "4960"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  A year-long final year project related to smart manufacturing. Under the supervision of a faculty member, students are required to produce a project proposal and a final report. Credit load will be spread over the year. For SMMG students in their fourth year of study only. Graded: Letter grade or PP. Instructor's approval is required for the enrollment of the course.
+
+requirements:
+  prerequisite: none
+  corequisite: DLED 4040
+  exclusion: SMMG 4901
+
+search_aliases:
+  - SMMG4960
+  - SMMG 4960
+  - Final Year Capstone Project

@@ -1,0 +1,22 @@
+course: SEEN 5150
+normalized_code: SEEN5150
+title: Kinetic Energy Harvesting and Conversion
+subject: SEEN
+catalog_number: "5150"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will discuss kinetic energy harvesting devices and systems, including: Principles of energy harvesting from wind, wave, water flow, vibration, and human motion; Architectures and design; Mechanism, electromechanical modeling and analysis of electromagnetic, piezoelectric, triboelectric, electrostatic generators; Lab experiments; Wind turbines and fluid-structure interaction; Fundamentals of vibration; Control and power conditioning circuits; Performance evaluation and optimization; Potential applications and sensing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5150
+  - SEEN 5150
+  - Kinetic Energy Harvesting and Conversion

@@ -1,0 +1,22 @@
+course: SMMG 5100
+normalized_code: SMMG5100
+title: Microelectromechanical Systems (MEMS) Fabrication Technology
+subject: SMMG
+catalog_number: "5100"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the foundations of todayâs microfabrication technologies. Topics include lithography, etching, surface micromachining technology, bulk micromachining, microsystem integration, device design, and mask layout. Special topics of the examples of MEMS applications will also be discussed.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5100
+  - SMMG 5100
+  - Microelectromechanical Systems (MEMS) Fabrication Technology

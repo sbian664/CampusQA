@@ -1,0 +1,22 @@
+course: SMMGW 000W
+normalized_code: SMMG6000W
+title: Introduction to Flexible Electronics
+subject: SMMG
+catalog_number: "6000W"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delves into the cutting-edge world of materials science and electronic engineering. Students will explore the development and application of intelligent materials that respond dynamically to environmental changes, such as temperature, pressure, and light. The course covers flexible electronics, emphasizing their design, fabrication, and integration into wearable devices, sensors, and other innovative applications. Students will learn popular materials like graphene, conductive polymers, and shape-memory alloys, learning how these materials revolutionize industries from healthcare to consumer electronics. Through a combination of lectures and project-based learning, this course equips students with the skills and knowledge to innovate and excel in the rapidly evolving fields of smart materials and flexible electronics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000W
+  - SMMGW 000W
+  - Introduction to Flexible Electronics

@@ -1,0 +1,22 @@
+course: UFUG 1999
+normalized_code: UFUG1999
+title: Special Topics
+subject: UFUG
+catalog_number: "1999"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This special topics course will help students to gain a better understanding on the topics related to their interdisciplinary studies. A range of professional activities are eligible for study, including seminars/ lectures, professional activities/ meetings, journal readings or structured readings. May be repeated for credits if different topics are taken. May be graded by letter, P/F or DI/PA/F for different offerings.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1999
+  - UFUG 1999
+  - Special Topics

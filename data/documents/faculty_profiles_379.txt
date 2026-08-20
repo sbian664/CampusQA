@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：龙颜（Yan LONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：yanlong@hkust-gz.edu.cn
+  办公室：E3 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LONG-Yan/yanlong
+  研究方向：
+    Sensing Security and Privacy，
+    Embedded and CPS Security，
+    Novel Sensing for Healthcare and Security，

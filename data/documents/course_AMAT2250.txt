@@ -1,0 +1,22 @@
+course: AMAT 2250
+normalized_code: AMAT2250
+title: Materials Project Laboratory II
+subject: AMAT
+catalog_number: "2250"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Through a series of interactive laboratory sessions, students will learn how to make scientific observations and measurements, and how to present and understand these measurements by means of graphs and tables. Students will learn the inherent limitations of the measurements and how to assess accuracies and errors. Students will also be trained to perform a wide range of basic synthetic chemistry laboratory techniques, operate chemical instruments in laboratory, relate the physical and chemical principles and theory in practice and develop their data interpretation and analyzing skills. This course also intends to emulate professional practices in materials project management, with aspects of design, analysis, teamwork, literature, patent searching, oral presentation, and other related skills in Materials Science and Engineering.
+
+requirements:
+  prerequisite: AMAT 2150
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2250
+  - AMAT 2250
+  - Materials Project Laboratory II

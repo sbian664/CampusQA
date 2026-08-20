@@ -1,0 +1,22 @@
+course: SMMG 4010
+normalized_code: SMMG4010
+title: Integrated Production Systems
+subject: SMMG
+catalog_number: "4010"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers fundamental concepts and principles of integrated production systems. Topics to be covered include demand forecasting, inventory control, aggregate planning, production control, just-in-time, manufacturing resources planning, operation scheduling, and project scheduling. Upon completion of the course, students will be able to use quantitative techniques to address various problems in production and manufacturing systems.
+
+requirements:
+  prerequisite: DSAA 1085 OR UFUG 2104
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4010
+  - SMMG 4010
+  - Integrated Production Systems

@@ -1,0 +1,22 @@
+course: MSSM 6001
+normalized_code: MSSM6001
+title: Industry Internship Project I
+subject: MSSM
+catalog_number: "6001"
+credits: 4
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The Industry Internship Project provides students with the opportunity to apply their theoretical knowledge and academic training to real-world manufacturing environments, allowing them to gain practical experience and witness the application of smart manufacturing concepts in action. Students are required to complete an industry internship with a duration of 6 months. The internship consists of two parts. In MSSM 6001, students are required to submit a mid-term progress report for review by the academic and industry supervisors. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MSSM6001
+  - MSSM 6001
+  - Industry Internship Project I

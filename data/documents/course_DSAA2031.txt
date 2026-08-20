@@ -1,0 +1,22 @@
+course: DSAA 2031
+normalized_code: DSAA2031
+title: Database Management Systems
+subject: DSAA
+catalog_number: "2031"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Topics include: principles of database systems; conceptual modeling and data models; logical and physical database design; query languages and query processing; database services including concurrency, crash recovery, security and integrity. Hands-on DBMS experience.
+
+requirements:
+  prerequisite: DSAA 2043
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA2031
+  - DSAA 2031
+  - Database Management Systems

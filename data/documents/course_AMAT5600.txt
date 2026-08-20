@@ -1,0 +1,22 @@
+course: AMAT 5600
+normalized_code: AMAT5600
+title: Solid State Physics and Quantum Materials
+subject: AMAT
+catalog_number: "5600"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course for postgraduate students with materials science background. Basic topics of solid state physics including electronic band structure, phonons, electron interactions and spin correlations will be covered. In addition, modern topics of high temperature superconductors, topological electrons, spin liquids and low dimensional systems will be introduced, providing a beginnerâs guide to quantum materials.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5600
+  - AMAT 5600
+  - Solid State Physics and Quantum Materials

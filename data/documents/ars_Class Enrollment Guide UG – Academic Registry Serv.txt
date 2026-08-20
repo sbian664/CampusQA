@@ -1,0 +1,77 @@
+ars_page: Class Enrollment Guide (UG) – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+source: ARS
+
+headings:
+  - Preface
+  - Class Enrollment Guide (UG)
+
+text: >
+  Preface
+  April 18, 2025
+  Class
+  enrollment of undergraduate students is processed with the web-based
+  Student Information System (SIS)
+  . Students can submit their class choices and confirm class places online with the University’s Campus Account.
+  Before class enrollment starts, students may validate their eligibility to enroll a class via the same system.
+  Registered and active students can access SIS at any point that has access to the internet.
+  For new UG students (Fall term only), after completing program
+  registration with the University, a student with valid Campus Account
+  may access the class enrollment functions of SIS the next day.
+  The main system functions of Student Information System (SIS)
+  include the following:
+  Students can view their own class timetable.
+  Students can submit class choices, confirm their places or/and make changes before the add/drop deadline.
+  In case of over-subscription of classes, they can be put on the system-automated waiting list for class space.
+  In case students require special approval from the faculty member/academic department for enrollment, requests can be submitted through the system.
+  Students should refer to the Program/ Course Catalog for information about program requirements. Please approach your program office/ major department or Academic Advisor for academic advice on class enrollment. You should submit your class requests according to their advice.
+  Continue reading more:
+  Important Concept for Class Enrollment (UG)
+  Class Enrollment Schedule (UG)
+  Course Offering and Class Schedule (UG)
+  Useful Information for Class Enrollment (UG)
+  FAQ (UG): Pre-enrollment
+  FAQ (UG): Validation
+  FAQ (UG): Enrollment
+  FAQ (UG): Add/Drop
+  SIS Briefing Session
+  Class Enrollment Guide (UG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (UG)
+  Class Enrollment Schedule (UG)
+  Course Offering and Class Schedule (UG)
+  Useful Information for Class Enrollment (UG)
+  FAQ (UG): Pre-enrollment
+  FAQ (UG): Validation
+  FAQ (UG): Enrollment
+  FAQ (UG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - Important Concept for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-ug/
+  - Class Enrollment Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-ug/
+  - Course Offering and Class Schedule (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-ug/
+  - Useful Information for Class Enrollment (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-ug/
+  - FAQ (UG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-pre-enrollment/
+  - FAQ (UG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-validation/
+  - FAQ (UG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-enrollment/
+  - FAQ (UG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-ug-add-drop/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

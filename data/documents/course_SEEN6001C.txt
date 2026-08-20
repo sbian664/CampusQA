@@ -1,0 +1,22 @@
+course: SEENC 001C
+normalized_code: SEEN6001C
+title: Energy Nanomaterials
+subject: SEEN
+catalog_number: "6001C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Energy nanomaterials are advanced materials designed at the nanoscale to improve the efficiency, performance, and sustainability of energy conversion technologies. This course will explore the principles and applications of nanomaterials in energy conversion, emphasizing their unique nanoscale properties. Topics covered include photovoltaics, light-emitting diodes, photodetectors, and optoelectronic devices, with a focus on synthesis, crystal structures, and the role of semiconductors in advancing energy technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6001C
+  - SEENC 001C
+  - Energy Nanomaterials

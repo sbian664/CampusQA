@@ -1,0 +1,22 @@
+course: AMAT 3360
+normalized_code: AMAT3360
+title: Computational Methods in Physics
+subject: AMAT
+catalog_number: "3360"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an introduction to basic numerical and symbolic computation. Topics include methods of interpolation and extrapolation, approximation methods of root finding, numerical integration and solving ordinary differential equations, symbolic algebra and calculus. Students need to write computer codes in laboratory sessions and write lab reports to describe their results.
+
+requirements:
+  prerequisite: (UFUG 1103 or 1106) AND (UFUG 1502 or 1504) AND AMAT2020
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3360
+  - AMAT 3360
+  - Computational Methods in Physics

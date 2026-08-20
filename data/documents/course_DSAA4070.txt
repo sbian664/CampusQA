@@ -1,0 +1,22 @@
+course: DSAA 4070
+normalized_code: DSAA4070
+title: Data Science for Battery Technologies
+subject: DSAA
+catalog_number: "4070"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with a firm foundation of concepts and data science techniques in renewable battery technologies (especially lithium-ion batteries). It will cover topics including the underlying mechanism of how lithium-ion battery cells work, what and how to design a battery management system, how to perform state-of-charge (SOC) estimator for lithium-ion battery cells, how to perform state-of-health (SOH) estimator for lithium-ion battery cells, and other advanced research topics. Students will also present research papers and conduct implementation projects to gain a deep and empirical understanding of the related technologies.
+
+requirements:
+  prerequisite: DSAA 3070 AND DSAA 3074
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4070
+  - DSAA 4070
+  - Data Science for Battery Technologies

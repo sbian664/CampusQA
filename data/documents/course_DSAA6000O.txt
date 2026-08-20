@@ -1,0 +1,22 @@
+course: DSAAO 000O
+normalized_code: DSAA6000O
+title: Table Representation Learning
+subject: DSAA
+catalog_number: "6000O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Tables are a crucial component of data management and analysis, yet their potential is often underutilized. This project-driven course addresses this gap by equipping students with both theoretical knowledge and practical skills in table representation learning. The course is divided into four parts: (1) Theory: Core concepts of table representation learning, including tabular data analysis, representation learning, multimodal integration (with code and text), and retrieval-augmented generation (RAG). (2) Tools and Techniques: Exploration of advanced tools such as deep learning models, large language models (LLMs), multimodal LLMs, and RAG methods, with a focus on pre-training paradigms for table-related tasks. (3) Table Analysis Applications: Practical applications, including Natural language to SQL (NL2SQL), Table Question Answering (TableQA), Table Visualization, and Data storytelling, demonstrating the use of table representation learning in real-world scenarios. (4) Course Project: A solo project where students apply the concepts and tools learned to address a real-world problem related to table representation learning.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000O
+  - DSAAO 000O
+  - Table Representation Learning

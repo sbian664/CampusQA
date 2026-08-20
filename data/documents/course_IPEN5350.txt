@@ -1,0 +1,22 @@
+course: IPEN 5350
+normalized_code: IPEN5350
+title: Energy Systems and Policy
+subject: IPEN
+catalog_number: "5350"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the challenges associated with climate change, energy and environmental policies from multiple perspectives, disciplines and scales. Students will examine the evolving science and policy of climate change, observe the conflicts between energy companies and interest groups in China, discuss technology innovations and its impact on reducing greenhouse gases emission.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5350
+  - IPEN 5350
+  - Energy Systems and Policy

@@ -1,0 +1,22 @@
+course: UCUG 1050
+normalized_code: UCUG1050
+title: Intensive English Language for University Studies
+subject: UCUG
+catalog_number: "1050"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an intensive English language course for students in their first year of study who need language enhancement and proficiency training to build a strong foundation in English. Students will develop the language skills necessary to communicate effectively and complete academic tasks in an English-medium university. They will also build skills and habits for self-directed learning at university. The content of this course focuses on developing students’ language foundation, and tasks and activities are designed so that they can receive enhanced teacher support and feedback.
+
+requirements:
+  prerequisite: Gaokao English Score 120 to 129, or equivalence.
+  corequisite: none
+  exclusion: UCUG 1051; Gaokao English Score 130 or above; IELTS Band 6.0 overall with all subscores at 6.0 or above; HKDSE English Level 3 or above (overall) with all subscores at or above Level 3.
+
+search_aliases:
+  - UCUG1050
+  - UCUG 1050
+  - Intensive English Language for University Studies

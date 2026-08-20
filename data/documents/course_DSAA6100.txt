@@ -1,0 +1,23 @@
+course: DSAA 6100
+normalized_code: DSAA6100
+title: Practical Lab Course
+subject: DSAA
+catalog_number: "6100"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will teach students practical programming and parallel processing skills on implementing various deep learning or machine learning models, starting from preparing data, feature selection to model choosing, hyperparameter tuning, and final result analysis and explaining. This course is only available for MSc(DCAI) 
+students.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6100
+  - DSAA 6100
+  - Practical Lab Course

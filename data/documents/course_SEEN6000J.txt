@@ -1,0 +1,22 @@
+course: SEENJ 000J
+normalized_code: SEEN6000J
+title: Indoor Air Quality and Healthy Buildings
+subject: SEEN
+catalog_number: "6000J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Human health and well-being are intimately linked to the state of air quality. As vividly shown by the COVID-19 outbreak, Indoor Air Quality (IAQ) has never been more important in terms of sustaining human health, well-being, and productivity. This course is a graduate level introduction to IAQ in a built environment. This course covers topics such as comprehensive reviews of contaminant concentrations, measurement techniques, exposures, and health effects, components and functions of building systems that affect IAQ, human responses to indoor environmental quality conditions. Students will also be introduced to new technologies such as computational fluid dynamics, big data analysis, advanced chemical analytical capability, sensing, control, and human biomarker analysis that have contributed greatly to modern indoor air science. Overall, students will be engaged with diverse disciplines including built environment, atmospheric environment, exposure science, public health, chemistry, and indoor air science. The field of indoor air science is moving forward rapidly, the students will be trained with an âeye to the futureâ to raise new questions, new possibilities, new angles to advance science for healthier indoor environments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6000J
+  - SEENJ 000J
+  - Indoor Air Quality and Healthy Buildings

@@ -1,0 +1,22 @@
+course: FTEC 3310
+normalized_code: FTEC3310
+title: Economic Theory for FinTech
+subject: FTEC
+catalog_number: "3310"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course presents a detailed study of basic topics in microeconomics and macroeconomics with a special emphasis on using a rigorous analytical and mathematical approach. The topics in microeconomics include demand theory, uncertainty, asymmetric information, general equilibrium, welfare economics, externality, and public goods. The course also covers the basics of macroeconomics, business cycle analysis, money and inflation, current accounts, and exchange rates. The implications of FinTech on the financial sector and the rest of the economy are discussed, along with the potential benefits and risks of FinTech for financial stability. The course also addresses the implications of FinTech on central banking and monetary policy.
+
+requirements:
+  prerequisite: UFUG 1103 OR UFUG 1106; UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3310
+  - FTEC 3310
+  - Economic Theory for FinTech

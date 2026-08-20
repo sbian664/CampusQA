@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：范小舟（Xiaozhou FAN）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：xiaozhoufan@hkust-gz.edu.cn
+  办公室：W4 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Xiaozhou/xiaozhoufan
+  研究方向：
+    Bio-inspired Aerial Robotics，
+    Unsteady Aerodynamics，
+    Dynamical System，
+    Data-Driven Flow Sensing and Flight Control，

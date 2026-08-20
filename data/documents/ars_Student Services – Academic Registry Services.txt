@@ -1,0 +1,47 @@
+ars_page: Student Services – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/student-services/
+source: ARS
+
+headings:
+  - Student Services
+  - Request Forms
+
+text: >
+  Student Services
+  Request
+  Forms
+  Titles with * are applied via e-doc system, electronic version will be provided which can be verified and viewed at HKUST(GZ) official website on Electronic Documents Verification Program:
+  https://edoc.hkust-gz.edu.cn/home
+  .
+  Titles with # are applied via E-Form platform.
+  All
+  Program Registration
+  Course
+  Exam & Grade
+  Graduation
+  Testimonial *
+  A testimonial is a certification of the student’s current registration status at the University. This application form is NOT applicable to students who have completed the program of study.
+  Official Transcript*
+  The academic transcript provides a FULL record of a student’s academic results and performance. This record may not be released to any other party without the written consent of the student.
+  Class Enrollment/Withdrawal after Add/Drop Period#
+  Requests to add a course, to withdraw from a course, to change course enrollment status, or to swap within a course after the add/drop period will not be accepted except under extenuating circumstances.
+  Credit Transfer (PG)#
+  Transfer of credits may be granted to students in recognition of studies completed elsewhere other than HKUST(GZ) at an appropriate level as recognized by the University.
+  Credit Transfer (UG)#
+  Transfer of credits may be granted to students in recognition of studies completed elsewhere other than HKUST and HKUST(GZ) at an appropriate level as recognized by the University.
+  Program Transfer/Change of Academic Load#
+  Application for program transfer and change of academic load should be submitted before the term the transfer takes effect.
+  Leave from Study#
+  The Leave from Study should be on term basis. Application for Leave from Study should be made prior to the beginning of a regular term, in which the leave from study status will become effective. Under exceptional circumstances, such as health issues, the leave period can commence at other times.
+  Course Substitution/Deviation from Curriculum (PG)#
+  This form is for students who wish to apply for course substitution or deviation from curriculum.
+
+links:
+  - https://edoc.hkust-gz.edu.cn/home | https://edoc.hkust-gz.edu.cn/home
+  - https://acad-edoc.hkust-gz.edu.cn/index | https://acad-edoc.hkust-gz.edu.cn/index
+  - https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period
+  - https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Application_for_Credit_Transfer(PG) | https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Application_for_Credit_Transfer(PG)
+  - https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Credit_Transfer(UG) | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Credit_Transfer(UG)
+  - https://eform.hkust-gz.edu.cn/BPM/yzsoft/forms/post.aspx?pn=Application_for_Program_Transfer(PG) | https://eform.hkust-gz.edu.cn/BPM/yzsoft/forms/post.aspx?pn=Application_for_Program_Transfer(PG)
+  - https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Leave_from_Study | https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Leave_from_Study
+  - https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Course_Substitution_or_Deviation(PG) | https://eform.hkust-gz.edu.cn/BPM/YZSoft/forms/Post.aspx?pn=Course_Substitution_or_Deviation(PG)

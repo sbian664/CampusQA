@@ -1,0 +1,22 @@
+course: UCUG 1807
+normalized_code: UCUG1807
+title: Thinking like an Economist I: Microeconomics
+subject: UCUG
+catalog_number: "1807"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Students learn the "economic way of thinking" in this course. We will explore fundamental microeconomic concepts and tools such as comparative advantage and specialization, demand-supply analysis, market equilibrium, government's role in markets, game theory, and people's interactions in order to explain and analyze consumer and producer decisions and social issues. Students will develop problem-solving abilities in dealing with new social issues as well as develop their sense of community and consideration through the lens of microeconomics.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UFUG 1801
+
+search_aliases:
+  - UCUG1807
+  - UCUG 1807
+  - Thinking like an Economist I: Microeconomics

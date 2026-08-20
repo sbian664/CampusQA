@@ -1,0 +1,22 @@
+course: SMMGJ 800J
+normalized_code: SMMG6800J
+title: Seminar in Smart Manufacturing
+subject: SMMG
+catalog_number: "6800J"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6800J
+  - SMMGJ 800J
+  - Seminar in Smart Manufacturing

@@ -1,0 +1,22 @@
+course: UCUG 1073
+normalized_code: UCUG1073
+title: Elementary Reading and Writing of Simplified Chinese
+subject: UCUG
+catalog_number: "1073"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is designed for students who have already studied Chinese for 151-250 tuition hours. It aims to provide students with simplified Chinese reading and writing skills for academic and social use through a series of everyday topics. Upon successful completion of the course, students will have acquired basic knowledge of simplified Chinese characters, be able to recognize information from simple passages of text, and write simple sentences to introduce themselves and describe their daily lives.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UCUG 1074, UCUG 1077
+
+search_aliases:
+  - UCUG1073
+  - UCUG 1073
+  - Elementary Reading and Writing of Simplified Chinese

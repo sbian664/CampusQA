@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：孙鉴锋（Jianfeng SUN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：jianfengsun@hkust-gz.edu.cn
+  办公室：C9 E3 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Jianfeng/jianfengsun
+  研究方向：
+    Deep learning for molecular interactions，
+    Computational genomics，
+    Structural variation calling and genotyping，
+    Long-read single-cell sequencing methods，
+    Cancer biology，

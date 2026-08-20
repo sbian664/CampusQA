@@ -1,0 +1,22 @@
+course: ROAS 5800
+normalized_code: ROAS5800
+title: Physical-based Vision for Robot and Autonomous Driving
+subject: ROAS
+catalog_number: "5800"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Light traveling in the 3D world interacts with the scene through intricate processes before being captured by a camera. These processes result in the dazzling effects like color and shading, complex surface and material appearance, different weathering, just to name a few. Physics based vision aims to invert the processes to recover the scene properties, such as shape, reflectance, light distribution, medium properties, etc., from the images by modelling and analyzing the imaging process to extract desired features or information. This course introduces the advanced methodologies in the context of physical-based vision for robotics and autonomous systems. We will introduce diverse techniques, covering from traditional methods based on hand-crafted features to recent deep learning methods. Apart from the fundamental knowledge in physical-based vision, the students will also have opportunities to discover and learn cutting-edge methodologies in popular physical-based vision topics (i.e., bad-weather restoration, shadow detection and removal, specular highlight detection and removal, intrinsic image decomposition, reflection detection and removal, and so on) of the physical-based vision, aligning with the substantial developments in robotics, autonomous driving, UAVs, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5800
+  - ROAS 5800
+  - Physical-based Vision for Robot and Autonomous Driving

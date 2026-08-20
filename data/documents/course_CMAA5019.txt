@@ -1,0 +1,22 @@
+course: CMAA 5019
+normalized_code: CMAA5019
+title: Machine Learning for the Arts
+subject: CMAA
+catalog_number: "5019"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  As Machine Learning (ML) permeates numerous aspects of culture, industry, and scholarship, it is crucial for the next generation of computational artists to be ML-literate, possessing the ability to critically evaluate and apply this rapidly evolving technology. Through hands-on experience with cutting-edge ML tools, students will hone their skills in this domain and establish critical perspectives on the strengths and limitations of current methods. This course employs free, open-source ML toolkits, enabling students to become familiar with various classification and regression models, RNNs, Convolutional Neural Networks, Transfer Learning, large language models, Text-to-Image generators, and more, for the purpose of implementing art projects. Each week, pertinent computational artworks utilizing various techniques are introduced, analyzed, and discussed.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5019
+  - CMAA 5019
+  - Machine Learning for the Arts

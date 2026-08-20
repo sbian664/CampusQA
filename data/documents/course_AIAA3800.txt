@@ -1,0 +1,22 @@
+course: AIAA 3800
+normalized_code: AIAA3800
+title: Human-Centered Artificial Intelligence
+subject: AIAA
+catalog_number: "3800"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3800
+  - AIAA 3800
+  - Human-Centered Artificial Intelligence

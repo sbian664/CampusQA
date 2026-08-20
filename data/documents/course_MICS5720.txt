@@ -1,0 +1,22 @@
+course: MICS 5720
+normalized_code: MICS5720
+title: Photonics and Optical Interconnects
+subject: MICS
+catalog_number: "5720"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to introduce photonics technology from devices to systems for high-capacity optical interconnects within the integrated circuit package. The course covers topics such as an introduction to optical interconnects, optical waveguides and fibers, attenuation and dispersion, fundamentals of key optoelectronic devices, high-speed optical transmitters and receivers, optical communication systems, advanced modulation formats and detection schemes, multiplexing techniques, as well as the latest trends and developments in optical interconnect technology.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5720
+  - MICS 5720
+  - Photonics and Optical Interconnects

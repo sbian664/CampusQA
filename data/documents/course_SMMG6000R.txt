@@ -1,0 +1,22 @@
+course: SMMGR 000R
+normalized_code: SMMG6000R
+title: AR/VR Techniques and Applications in Smart Manufacturing
+subject: SMMG
+catalog_number: "6000R"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In the era of Smart Manufacturing, manufacturing industries are undergoing transformation towards increased production efficiency, higher autonomy, and enhanced flexibility to achieve product mass customization. Modern manufacturing systems are expected to become highly automated and intelligent in handling complex tasks, empowered by integrating technical elements such as artificial intelligence (AI), the Industrial Internet of Things (IIoT), cloud computing, and industrial robots. However, certain manual operations still exist on the shop floor that are either impractical or impossible to accomplish without human intervention. To bridge humans and machines, Augmented/Virtual Reality (AR/VR) is considered a pivot to provide the immersive experience, the in-situ simulation, and a hub for other relevant techniques, such as AI and data analytics. This course aims to help graduate students understand the latest developments and critical challenges of augmented/virtual reality and their applications in smart manufacturing and provide students with related techniques and practical experience in developing applications based on AR/VR in the context of smart manufacturing. The target audience of the course is students in broad engineering/computing programs. The course will prepare the students for advanced careers related to smart manufacturing and the development of AR/VR applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000R
+  - SMMGR 000R
+  - AR/VR Techniques and Applications in Smart Manufacturing

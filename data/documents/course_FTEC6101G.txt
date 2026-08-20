@@ -1,0 +1,22 @@
+course: FTECG 101G
+normalized_code: FTEC6101G
+title: FinTech Program Seminar
+subject: FTEC
+catalog_number: "6101G"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Advanced seminar series presented by guest speakers and faculty members on selected topics in Financial Technology. This course is offered every regular term. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6101G
+  - FTECG 101G
+  - FinTech Program Seminar

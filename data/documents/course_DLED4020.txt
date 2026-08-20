@@ -1,0 +1,22 @@
+course: DLED 4020
+normalized_code: DLED4020
+title: English Communication II for Information Hub Programs
+subject: DLED
+catalog_number: "4020"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course makes use of the Final Year Capstone Project with its associated spoken and written components to maximize the language and literacy gains from carrying out this significant piece of work. The course supports students in producing the communicative components of the project and, through iterations of those components, further develops and refines their ability to present and write at a high level in an academic context. Graded: Letter grade or PP. For Year 4 students in Information Hub only.
+
+requirements:
+  prerequisite: DLED 3020
+  corequisite: AIAA4490 or DSAA 4591
+  exclusion: none
+
+search_aliases:
+  - DLED4020
+  - DLED 4020
+  - English Communication II for Information Hub Programs

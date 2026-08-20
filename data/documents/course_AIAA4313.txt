@@ -1,0 +1,22 @@
+course: AIAA 4313
+normalized_code: AIAA4313
+title: Frontier Topics in AI Security and Privacy
+subject: AIAA
+catalog_number: "4313"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4313
+  - AIAA 4313
+  - Frontier Topics in AI Security and Privacy

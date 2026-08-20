@@ -1,0 +1,22 @@
+course: CMAA 6019A
+normalized_code: CMAA6019A
+title: Research Design and Optimization
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019A
+  - CMAA 6019A
+  - Research Design and Optimization

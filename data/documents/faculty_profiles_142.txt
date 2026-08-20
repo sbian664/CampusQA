@@ -1,0 +1,14 @@
+教职员简介：
+  姓名：刘坚能（Kin Nang LAU）
+  职称：Chair Professor
+  学域：Thrust of Internet of Things
+  邮箱：
+  办公室：CWB Room 2416
+  个人网站：
+  研究方向：
+    Stochastic Optimization and Analysis for wireless systems，
+    Massive MIMO Systems，
+    Sparse Recovery，
+    Bayesian Inferencing，
+    Mission-Critical IoT，
+    PHY Caching for Wireless Networks，

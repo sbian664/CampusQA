@@ -1,0 +1,22 @@
+course: AIAA 5032
+normalized_code: AIAA5032
+title: Foundations of Artificial Intelligence
+subject: AIAA
+catalog_number: "5032"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to provide students with an overview of Artificial Intelligence (AI) principles and techniques. Key topics include machine learning, search, game theories, Markov decision process, constraint satisfaction problems, Bayesian networks, etc. Through this course, students will learn and practice the foundational principles, techniques and tools to tackle new AI problems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5032
+  - AIAA 5032
+  - Foundations of Artificial Intelligence

@@ -1,0 +1,22 @@
+course: MICS 2710
+normalized_code: MICS2710
+title: Computer Organization
+subject: MICS
+catalog_number: "2710"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. Topics include: instructions set design, memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis, assembly language programming, and a survey of advanced architectures.
+
+requirements:
+  prerequisite: UFUG 2601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS2710
+  - MICS 2710
+  - Computer Organization

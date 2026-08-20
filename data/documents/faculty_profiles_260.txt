@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：丁宁宁（Ningning DING）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：ningningding@hkust-gz.edu.cn
+  办公室：W2 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding
+  研究方向：
+    Artificial intelligence: machine unlearning, multi-agent coordination and game, LLM, diffusion model，
+    Network system: Internet of Things (IoT), sharing platform，
+    Network economics: data trading, LLM mechanism design，

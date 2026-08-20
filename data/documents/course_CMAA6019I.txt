@@ -1,0 +1,22 @@
+course: CMAAI 019I
+normalized_code: CMAA6019I
+title: Digital Fabrication & Physical Computing
+subject: CMAA
+catalog_number: "6019I"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In the Digital Fabrication and Physical Computing course, 3D printing, laser cutting, CNC milling, and other fabrication technologiesâalongside fundamental electronics, coding, and circuit designâwill be introduced to students. Adopting a hands-on approach, this course equips students with foundational prototype development skills; no prior experience is required. The construction of physical devices is an important part of contemporary artistic and non-artistic practices, and prototype development proficiency often shapes project progression. Structured around project-based activities, the course also delivers theoretical grounding via scholarly discussions and research outcome analysis. It emphasizes a FLOSS (Free/Libre and Open-Source Software)-centered approach, with instruction in classrooms and university laboratories.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019I
+  - CMAAI 019I
+  - Digital Fabrication & Physical Computing

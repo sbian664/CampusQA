@@ -1,0 +1,22 @@
+course: UFUG 1102
+normalized_code: UFUG1102
+title: Calculus I
+subject: UFUG
+catalog_number: "1102"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is the first of a year-long sequence of two introductory courses in one-variable calculus, intended for first year undergraduate students. The emphasis is on the understanding of foundational concepts and practical skills in applying calculus, which are essential for their future study in various fields. Topics include approximation, continuity, limit, differentiation, high order approximations and differentiation, and applications to optimization, monotonicity, and convexity.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UFUG 1105
+
+search_aliases:
+  - UFUG1102
+  - UFUG 1102
+  - Calculus I

@@ -1,0 +1,22 @@
+course: AIAA 6011B
+normalized_code: AIAA6011B
+title: Frontier of "AI for Healthcare"
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA6011B
+  - AIAA 6011B
+  - Frontier of "AI for Healthcare"

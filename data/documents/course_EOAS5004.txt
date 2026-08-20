@@ -1,0 +1,22 @@
+course: EOAS 5004
+normalized_code: EOAS5004
+title: Earth System Modeling
+subject: EOAS
+catalog_number: "5004"
+credits: 4
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course covers major processes and interactions of Earth system components and introduces the related numerical modeling concepts and techniques. It provides hands-on modeling projects to explore ideas of designing, constructing, and applying models to test hypotheses and enhance understanding of the Earth system processes and their response and feedback to the climate.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5004
+  - EOAS 5004
+  - Earth System Modeling

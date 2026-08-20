@@ -1,0 +1,22 @@
+course: CNGF 5200
+normalized_code: CNGF5200
+title: Life Cycle Assessment: From Theory to Application
+subject: CNGF
+catalog_number: "5200"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Life Cycle Assessment (LCA) is a crucial tool for evaluating the environmental performance of products and processes throughout their whole life cycle. This course provides comprehensive knowledge and practical skills in understanding the fundamental steps to conduct and utilize LCA for improvement and innovation towards sustainable practices. The students will also learn about the application of LCA in various industries, including energy, solid waste, and green buildings.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF5200
+  - CNGF 5200
+  - Life Cycle Assessment: From Theory to Application

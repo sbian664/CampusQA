@@ -1,0 +1,22 @@
+course: AIAA 4332
+normalized_code: AIAA4332
+title: Big Data Mining and Management
+subject: AIAA
+catalog_number: "4332"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Data mining and management effectively support storage, retrieval, and extracting implicit, previously unknown, and potentially useful knowledge from data. This course emphasizes two parts. The first part is big data issues such as mining and managing distributed data, sampling big data and using some cloud computing techniques on big data. The second part is applications of the techniques learned in areas such as business intelligence, science, and engineering, and aims to uncover facts and patterns in large volumes of data for decision support.
+
+requirements:
+  prerequisite: AIAA 3111
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4332
+  - AIAA 4332
+  - Big Data Mining and Management

@@ -1,0 +1,22 @@
+course: IPEN 5340
+normalized_code: IPEN5340
+title: Business Model Innovation for Sustainability
+subject: IPEN
+catalog_number: "5340"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an overview of sustainable business model innovation theories and practices as well as discusses how business models can serve as essential tools to transform our economy into a sustainable one. We will provide students with a rich opportunity to examine companiesâ efforts in creating and implementing sustainable business models and building a supporting ecosystem.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5340
+  - IPEN 5340
+  - Business Model Innovation for Sustainability

@@ -1,0 +1,22 @@
+course: BSBEJ 800J
+normalized_code: BSBE6800J
+title: Seminar in Bioscience and Biomedical Engineering
+subject: BSBE
+catalog_number: "6800J"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6800J
+  - BSBEJ 800J
+  - Seminar in Bioscience and Biomedical Engineering

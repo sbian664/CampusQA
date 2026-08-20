@@ -1,0 +1,22 @@
+course: UGODH 100H
+normalized_code: UGOD6100H
+title: Generative AI in 3D Space
+subject: UGOD
+catalog_number: "6100H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Generative AI in 3D Space explores how cutting-edge generative AI technologies can create and refine 3D spatial designs while respecting real-world constraints. Students will dive into AI-driven 3D modeling, generative algorithms, and multi-objective optimization techniquesâbalancing human-centered needs with practical factors like construction feasibility, energy efficiency, material limitations, and cost. Through hands-on projects, learners will build intelligent design systems that merge creativity with real-world implement ability. This course is ideal for those interested in applying AI to architecture, urban planning, game design, virtual reality, or smart infrastructureâwhere intelligent, adaptive, and sustainable 3D environments are the future. Through lectures, case studies, and hands-on projects, students will build and evaluate generative design pipelines that close the loop between AI-generated spatial proposals and real-world deployment contexts.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100H
+  - UGODH 100H
+  - Generative AI in 3D Space

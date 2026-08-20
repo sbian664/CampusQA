@@ -1,0 +1,22 @@
+course: AMAT 5678
+normalized_code: AMAT5678
+title: Structure-property Relationship of Advanced Polymer Materials
+subject: AMAT
+catalog_number: "5678"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is designed for understanding the correlation between molecular structure, chain conformation, condensed structure, physical properties, and mixing thermodynamics. The knowledge learned in the course will equip students with the rationale to design polymer materials for various applications with advanced mechanical, optical, thermal, electrical, and/or magnetic properties.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5678
+  - AMAT 5678
+  - Structure-property Relationship of Advanced Polymer Materials

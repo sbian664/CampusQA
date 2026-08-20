@@ -1,0 +1,22 @@
+course: ROASH 000H
+normalized_code: ROAS6000H
+title: Human Centric Machine Perception
+subject: ROAS
+catalog_number: "6000H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Recent advancements in deep learning have significantly enhanced the performance of machine perception systems across various domains, including robotics, autonomous vehicles, and intelligent user interfaces. This course offers an in-depth exploration of the deep learning algorithms and architectures used for a range of perceptual tasks, with a particular focus on cutting-edge research in human-centric computer vision and learning. By the end of the course, students will have gained a solid foundation in algorithms for processing and interpreting human input within computing systems. Specifically, participants will be equipped to develop systems that recognize individuals, detect and describe body parts, infer their spatial configurations, and transfer human motion patterns and skills to robotic systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS6000H
+  - ROASH 000H
+  - Human Centric Machine Perception

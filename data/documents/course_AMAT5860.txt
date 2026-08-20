@@ -1,0 +1,22 @@
+course: AMAT 5860
+normalized_code: AMAT5860
+title: Introduction to Molecular Biophysics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5860
+  - AMAT 5860
+  - Introduction to Molecular Biophysics

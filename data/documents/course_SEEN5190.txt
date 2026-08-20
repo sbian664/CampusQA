@@ -1,0 +1,22 @@
+course: SEEN 5190
+normalized_code: SEEN5190
+title: Carbon Capture and Utilization
+subject: SEEN
+catalog_number: "5190"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive overview of the technologies and strategies involved in capturing and converting carbon dioxide (COâ) from industrial processes and the atmosphere. Students will explore the science behind carbon capture methods and emerging technologies for converting COâ into valuable products. The course also covers the economic, environmental, and policy considerations driving the development and deployment of carbon capture and conversion systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5190
+  - SEEN 5190
+  - Carbon Capture and Utilization

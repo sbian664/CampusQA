@@ -1,0 +1,22 @@
+course: AMAT 1010
+normalized_code: AMAT1010
+title: Academic orientation for AMAT students
+subject: AMAT
+catalog_number: "1010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The first part of the compulsory one-year development course series for AMAT students. This course aims to provide introduction of materials, giving students the idea regarding the role of materials in the daily life and technological applications. In addition, academic and professional advising to students and to develop their technical and non-technical communication skills and professional ethics will be provided. Graded P/PP/F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT1010
+  - AMAT 1010
+  - Academic orientation for AMAT students

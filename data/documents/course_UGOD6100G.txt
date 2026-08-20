@@ -1,0 +1,22 @@
+course: UGODG 100G
+normalized_code: UGOD6100G
+title: Natural Language Processing for Social Science Research
+subject: UGOD
+catalog_number: "6100G"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the principles and applications of Natural Language Processing (NLP) in social science research. It combines computational methods with theoretically grounded questions in sociology, political science, communication, and related fields. Students will learn to collect, process, and analyze large-scale textual data (e.g., news, social media, policy documents) to answer substantive social science questions.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100G
+  - UGODG 100G
+  - Natural Language Processing for Social Science Research

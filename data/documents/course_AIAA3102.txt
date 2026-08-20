@@ -1,0 +1,22 @@
+course: AIAA 3102
+normalized_code: AIAA3102
+title: Python Programming with Artificial Intelligence
+subject: AIAA
+catalog_number: "3102"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This undergraduate course provides a solid foundation in Python programming tailored for artificial intelligence applications. It begins with core Python concepts, including data types, control flow, functions, and object-oriented programming. Students then explore machine learning essentials using NumPy, Matplotlib, and scikit-learn for scientific computing, visualization, and implementing basic supervised and unsupervised models. The course further introduces deep learning with PyTorch, covering neural networks, optimization, transformers, large language models (LLMs), and AI agents. A distinctive module focuses on programming with AI, examining AI coding copilots, their workflows, practical strengths and limitations, and how to collaborate effectively with these tools. The course concludes with a final capstone project in which students design, implement, and present a substantial AI application, demonstrating their ability to apply Python both to build AI systems and to leverage AI tools in modern development.
+
+requirements:
+  prerequisite: UFUG 2601 OR UFUG 2602
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3102
+  - AIAA 3102
+  - Python Programming with Artificial Intelligence

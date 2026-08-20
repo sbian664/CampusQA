@@ -1,0 +1,22 @@
+course: BSBE 6000K
+normalized_code: BSBE6000K
+title: Mechanobiology in Health and Disease
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000K
+  - BSBE 6000K
+  - Mechanobiology in Health and Disease

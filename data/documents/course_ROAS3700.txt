@@ -1,0 +1,22 @@
+course: ROAS 3700
+normalized_code: ROAS3700
+title: System Modeling, Analysis and Control
+subject: ROAS
+catalog_number: "3700"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces basic concepts, tools and techniques for modeling, analysis, and control of dynamical systems. The course starts from the use of differential equations to model continuous time systems. Examples from a variety of Electronic and Computer Engineering disciplines will be given to illustrate the modeling process. Then, basic tools needed for analyzing the behavior of dynamical systems will be presented. Finally, techniques for controlling their behavior will be introduced. Throughout the course, laboratory experiments demonstrating the use of these analysis/design tools will be included.
+
+requirements:
+  prerequisite: ROAS 2100
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS3700
+  - ROAS 3700
+  - System Modeling, Analysis and Control

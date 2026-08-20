@@ -1,0 +1,22 @@
+course: DSAA 4012
+normalized_code: DSAA4012
+title: Machine Learning Systems
+subject: DSAA
+catalog_number: "4012"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces basics on machine learning systems. Students will study efficient machine learning systems for training and inference, and general design principles. The general issues including privacy, security and fairness of machine learning systems are also covered in this course. The course also aims to discuss machine learning for general systems, and how to design efficient machine learning systems by parallelism and distributed computing.
+
+requirements:
+  prerequisite: DSAA 2031 AND DSAA 2042
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4012
+  - DSAA 4012
+  - Machine Learning Systems

@@ -1,0 +1,22 @@
+course: IPEN 5310
+normalized_code: IPEN5310
+title: Behavioral Economics and Public Policy
+subject: IPEN
+catalog_number: "5310"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces behavioral economics - the incorporation of insights from psychology into economics - with an emphasis on its value for improving empirical predictions and policy decisions. Students will learn the major themes of behavioral economics and apply them to improve the design, implementation, and evaluation of public policies in a wide variety of domains.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5310
+  - IPEN 5310
+  - Behavioral Economics and Public Policy

@@ -1,0 +1,22 @@
+course: DSAA 5012
+normalized_code: DSAA5012
+title: Advanced Database Management for Data Science
+subject: DSAA
+catalog_number: "5012"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, the concepts and implementation schemes in advanced database management systems for data science applications will be introduced, such as disk and memory management, advanced access methods, implementation of relational operators, query processing and optimization, transactions and concurrency control. It also introduces emerging database related techniques for data science.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA5012
+  - DSAA 5012
+  - Advanced Database Management for Data Science

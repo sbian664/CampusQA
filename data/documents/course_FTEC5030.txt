@@ -1,0 +1,22 @@
+course: FTEC 5030
+normalized_code: FTEC5030
+title: Statistical Methods for Financial Technology
+subject: FTEC
+catalog_number: "5030"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will survey modern financial technology, through the lens of statistics, which is the science of the analysis of data. Students will learn how statistical methodology, in conjunction with advances in technology, is used to efficiently acquire, utilize and interpret data, as it relates to innovations in the financial services sector. This course will develop skillsets for Big Data analytics and Predictive modelling, for better understanding of the financial markets.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5030
+  - FTEC 5030
+  - Statistical Methods for Financial Technology

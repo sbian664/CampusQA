@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：宋杰（Jie SONG）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：jsongroas@hkust-gz.edu.cn
+  办公室：W3 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas
+  研究方向：
+    3D computer vision，
+    Reconstrucion，
+    Robotics，
+    Human-Robot interaction，
+    Sim-to-Real，

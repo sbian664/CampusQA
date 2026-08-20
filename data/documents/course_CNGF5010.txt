@@ -1,0 +1,22 @@
+course: CNGF 5010
+normalized_code: CNGF5010
+title: Green Technology and Innovation
+subject: CNGF
+catalog_number: "5010"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delves into the multifaceted realm of Green Technology and Innovation (GTI), exploring its significance in today's world. Through examining innovation systems, economic policies, and global disparities, we analyze the transition from fossil fuels to renewable energy sources like wind, solar, and hydroelectric power. Additionally, we scrutinize the pivotal roles of lithium batteries, electric vehicles, and industry choices in shaping sustainable development.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNGF5010
+  - CNGF 5010
+  - Green Technology and Innovation

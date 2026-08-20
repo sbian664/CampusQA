@@ -1,0 +1,22 @@
+course: CMAAJ 019J
+normalized_code: CMAA6019J
+title: City as Canvas: Art & Technology in Public Space
+subject: CMAA
+catalog_number: "6019J"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The course will introduce students to theories and practical methods of creating public space art using emerging technologies, quantitative and qualitative analysis methods for urban and public spaces, theories about public space in general and public space art in particular. We will design and build a large-scale installation to be placed in a public or semi-public space. Each student will be in charge of a part/section of this participatory work. The course is grounded in project-based and problem-based learning combined with reading and discussion of relevant literature.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019J
+  - CMAAJ 019J
+  - City as Canvas: Art & Technology in Public Space

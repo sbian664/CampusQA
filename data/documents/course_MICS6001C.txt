@@ -1,0 +1,22 @@
+course: MICSC 001C
+normalized_code: MICS6001C
+title: Customized Computing with FPGAs
+subject: MICS
+catalog_number: "6001C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Being able to customize hardware architecture to application's exact needs, FPGA-based accelerators deliver better efficiency than general architectures such as CPUs. This course provides a comprehensive overview of FPGA-based accelerators and other domain specific architectures from historical contexts to recent trends in system designs spanning a collection of architectural techniques and a variety of application domains. Additionally, the course delves into methods for performance analysis and emphasizes on practical experience with parallel programming for FPGA platforms. This hands-on approach ensures students gain a deep understanding of domain specific architectures.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001C
+  - MICSC 001C
+  - Customized Computing with FPGAs

@@ -1,0 +1,22 @@
+course: ROAS 4320
+normalized_code: ROAS4320
+title: Soft Robotics for Healthcare
+subject: ROAS
+catalog_number: "4320"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces students to the field of soft robotics, focusing on its impact on healthcare. Students explore soft materials, principles of actuation and sensing, bioinspired design reasoning, control and manipulation, along with safety and regulatory considerations for soft robots that interact with humans and delicate biological tissues. The course prioritizes theory, case studies, and interdisciplinary discussions over hands-on fabrication. Through case studies, students will examine how soft robots enhance patient care, support rehabilitation, and advance surgical procedures and targeted drug delivery. By the end of the course, students will be able to describe fundamental soft-robotics concepts, evaluate their healthcare applications, identify safety and regulatory challenges, and communicate design trade-offs to diverse audiences.
+
+requirements:
+  prerequisite: UFUG 1501 OR UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS4320
+  - ROAS 4320
+  - Soft Robotics for Healthcare

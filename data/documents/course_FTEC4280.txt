@@ -1,0 +1,22 @@
+course: FTEC 4280
+normalized_code: FTEC4280
+title: Data Visualization
+subject: FTEC
+catalog_number: "4280"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce visualization techniques for data from everyday life, social media, business, scientific computing, medical imaging, etc. The topics include human visual system and perception, visual design principles, open- source visualization tools and systems, visualization techniques for CT/MRI data, computational fluid dynamics, graphs and networks, time-series data, text and documents, Twitter data, and spatio-temporal data. The labs and the course project will give students hands-on experience to turn their data into beautiful visualizations.
+
+requirements:
+  prerequisite: DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4280
+  - FTEC 4280
+  - Data Visualization

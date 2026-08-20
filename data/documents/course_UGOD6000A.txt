@@ -1,0 +1,22 @@
+course: UGOD 6000A
+normalized_code: UGOD6000A
+title: Independent Study
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6000A
+  - UGOD 6000A
+  - Independent Study

@@ -1,0 +1,22 @@
+course: MICSX 001X
+normalized_code: MICS6001X
+title: Symbolic and Neurosymbolic Reasoning
+subject: MICS
+catalog_number: "6001X"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will first discuss the traditional symbolic reasoning techniques, covering propositional logic, predicate calculus, and classical reasoning methods including Boolean satisfiability solving, model checking and interactive theorem proving. It will then explore the combination of neural networks and symbolic reasoning, including neural heuristics for symbolic reasoning, the neural logic network, the neural Turing machine, neural program induction and synthesis, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001X
+  - MICSX 001X
+  - Symbolic and Neurosymbolic Reasoning

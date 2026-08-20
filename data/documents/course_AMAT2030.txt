@@ -1,0 +1,22 @@
+course: AMAT 2030
+normalized_code: AMAT2030
+title: Fundamentals of Organic Chemistry
+subject: AMAT
+catalog_number: "2030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Various classes of organic compounds, emphasizing organic chemicalreactions and mechanisms of majorfunctionalities and their importance in the area of biological chemistry.
+
+requirements:
+  prerequisite: UFUG 1301 or UFUG 1302
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2030
+  - AMAT 2030
+  - Fundamentals of Organic Chemistry

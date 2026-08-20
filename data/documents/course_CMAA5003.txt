@@ -1,0 +1,22 @@
+course: CMAA 5003
+normalized_code: CMAA5003
+title: Virtual Production Studio
+subject: CMAA
+catalog_number: "5003"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the creative power and expressions in visual storytelling and cinematic production with real-time rendering technology, LED-based virtual production, Gen AI and other digital tools. Students will learn and apply creative arts and principles of storytelling and filmmaking and integrate them in real-time virtual platform with virtual assets and characters. This course prepares and equips students with the soft and hard skills for endless creative possibilities in virtual production and visual content creation.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5003
+  - CMAA 5003
+  - Virtual Production Studio

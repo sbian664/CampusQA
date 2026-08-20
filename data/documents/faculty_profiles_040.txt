@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：干则成（Zecheng GAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：zechenggan@hkust-gz.edu.cn
+  办公室：W1 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GAN-Zecheng/zechenggan
+  研究方向：
+    Applied math and scientfic computing，
+    Data-driven and machine learning methods，
+    Computational electromagnetism and hydrodynamics，
+    Computational materials science，

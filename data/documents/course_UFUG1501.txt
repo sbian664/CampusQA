@@ -1,0 +1,22 @@
+course: UFUG 1501
+normalized_code: UFUG1501
+title: General Physics I
+subject: UFUG
+catalog_number: "1501"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  General Physics I is designed for students who are interested in science and technology. The course is delivered based on an algebra-based approach, and it incorporates conceptual understandings and mathematical problem-solving skills. Key topics covered by General Physics I are divided into three modules. The first module covers the fundamentals of mechanics, including motion in one and two dimensions, Newton's Laws, and rotational kinematics and dynamics, etc. The second module covers energy and oscillations, including work, energy conservation, momentum conservation, oscillations, fluids, and waves, etc. The third module covers thermodynamics,including the laws of thermodynamics and ideal gases, etc.
+
+requirements:
+  prerequisite: Gaokao Physics or Gaokao Lizong (Integrated Science) OR HKDSE Level 3 or above in HKDSE 1/2x OR HKDSE 1x Physics
+  corequisite: none
+  exclusion: UFUG 1503
+
+search_aliases:
+  - UFUG1501
+  - UFUG 1501
+  - General Physics I

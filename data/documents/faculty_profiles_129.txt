@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：姜泓吾（Hongwu JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：hongwujiang@hkust-gz.edu.cn
+  办公室：W1 L6 613
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hongwu/hongwujiang
+  研究方向：
+    in-memory computing，
+    AI hardware accelerator design，
+    3D integrated circuit design，

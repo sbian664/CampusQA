@@ -1,0 +1,22 @@
+course: DLED 3010
+normalized_code: DLED3010
+title: English Communication I for Function Hub programs
+subject: DLED
+catalog_number: "3010"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides students with exposure to and practice in using English within the specific fields of Advanced Materials, Earth, Ocean and Atmospheric Sciences, Microelectronics, Sustainable Energy and Environment . The course aims to encourage students to develop their abilities as thoughtful communication strategists, to communicate effectively, appropriately and confidently in relevant academic and professional contexts, and to use language to express critically the wider social implications of their fields on topics relevant to all FUNH students.
+
+requirements:
+  prerequisite: UCUG 1052 OR UCUG 1053
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DLED3010
+  - DLED 3010
+  - English Communication I for Function Hub programs

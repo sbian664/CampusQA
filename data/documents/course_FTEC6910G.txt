@@ -1,0 +1,22 @@
+course: FTECG 910G
+normalized_code: FTEC6910G
+title: Robo-Advising and Portfolio Management
+subject: FTEC
+catalog_number: "6910G"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an overview of methods used in the rapidly evolving field of robo-advising, focusing on customized portfolio optimization. It aims to introduce the theory of portfolio management and popular techniques in automated trading. The course also explores the nascent field of understanding client risk preference in robo-advising. These techniques combine to offer the basis for developing a robo-advisory system.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6910G
+  - FTECG 910G
+  - Robo-Advising and Portfolio Management

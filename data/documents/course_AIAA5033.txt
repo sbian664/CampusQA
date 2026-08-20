@@ -1,0 +1,22 @@
+course: AIAA 5033
+normalized_code: AIAA5033
+title: AI Security and Privacy
+subject: AIAA
+catalog_number: "5033"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces potential security and privacy vulnerabilities in Artificial Intelligence (AI) and covers basic and advanced protections. Topics include security and privacy risks in AI technologies, the goal of C.I.A. (Confidentiality, Integrity and Availability) in AI technologies, basic and advanced cryptography, protocol designs for AI security and privacy, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5033
+  - AIAA 5033
+  - AI Security and Privacy

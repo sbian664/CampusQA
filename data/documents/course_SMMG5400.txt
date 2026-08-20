@@ -1,0 +1,22 @@
+course: SMMG 5400
+normalized_code: SMMG5400
+title: Design for Additive Manufacturing
+subject: SMMG
+catalog_number: "5400"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides knowledge and skills on how to develop, optimize, and implement different design strategies in additive manufacturing (AM). Through hands-on instructional activities and case studies, students will learn to select the appropriate AM technologies for specific design-manufacturing applications; explain challenges in design and manufacturing and provide solutions; identify and utilize proper software tools to analyze and evaluate designs; and design parts that fully leverage the strengths of AM.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5400
+  - SMMG 5400
+  - Design for Additive Manufacturing

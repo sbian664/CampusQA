@@ -1,0 +1,22 @@
+course: BSBEB 200B
+normalized_code: BSBE6200B
+title: Independent Study
+subject: BSBE
+catalog_number: "6200B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  An independent research project carried out under the supervision of a faculty member on a Bioscience and Biomedical Engineering topic.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6200B
+  - BSBEB 200B
+  - Independent Study

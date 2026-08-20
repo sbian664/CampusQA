@@ -1,0 +1,22 @@
+course: DSAA 6800
+normalized_code: DSAA6800
+title: Independent Project
+subject: DSAA
+catalog_number: "6800"
+credits: 6
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, the student will work on a practical project. The independent project is related to real problems existing in data science and AI application domains. The student needs to conduct literature survey, method comparison, solution selection and implementation, experimental study and write the final report. The course will train students skills on proposing end-to-end solution for a realapplications problem. This course is only available for MSc(DCAI) students. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6800
+  - DSAA 6800
+  - Independent Project

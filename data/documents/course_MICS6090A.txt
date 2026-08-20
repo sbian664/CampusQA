@@ -1,0 +1,22 @@
+course: MICS 6090A
+normalized_code: MICS6090A
+title: Independent Study
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6090A
+  - MICS 6090A
+  - Independent Study

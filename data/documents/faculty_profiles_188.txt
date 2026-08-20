@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：王鲁佳（Lujia WANG）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：eewanglj@hkust-gz.edu.cn
+  办公室：W1 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj
+  研究方向：
+    Perception and Uncertainty Modeling，
+    Lifelong federated learning，
+    Embodied intelligence，
+    Technology applications in  Electric Vertical Take-off and Landing(EVToL), domestic robots, autonomous driving, and so on.，

@@ -1,0 +1,22 @@
+course: FTEC 3320
+normalized_code: FTEC3320
+title: Asset Pricing Theory
+subject: FTEC
+catalog_number: "3320"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course explores the principles and models that underpin the pricing of financial assets, including stocks, bonds, derivatives, and alternative investments. The course will focus on the relationship between risk and return, market efficiency, portfolio choice, and the pricing of various financial instruments, as well as the implications of asset pricing theory for investment decision-making, risk management, and product development within fintech companies. Additionally, the economic rationale behind regulatory requirements related to asset pricing and disclosure will be analyzed.
+
+requirements:
+  prerequisite: FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3320
+  - FTEC 3320
+  - Asset Pricing Theory

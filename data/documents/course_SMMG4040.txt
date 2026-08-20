@@ -1,0 +1,22 @@
+course: SMMG 4040
+normalized_code: SMMG4040
+title: Fundamentals of Metal Processing
+subject: SMMG
+catalog_number: "4040"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers a wide range of manufacturing processes for metal materials, including machining, casting, 3D printing, and heat treatment; and explains the fundamental and practical aspects of manufacturing at scale. For each process, this course explains the underlying physical principles, provides several examples and demonstrations. This course aims to introduce students to various advanced metal manufacturing technologies with emphasis on the following intertwined themes: manufacturing processes, equipment and automation, variation and quality, and design for metal processing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4040
+  - SMMG 4040
+  - Fundamentals of Metal Processing

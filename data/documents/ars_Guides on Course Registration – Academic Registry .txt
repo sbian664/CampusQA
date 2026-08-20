@@ -1,0 +1,124 @@
+ars_page: Guides on Course Registration – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/
+source: ARS
+
+headings:
+  - Course Enrollment
+  - Class Enrollment Guides
+
+text: >
+  Course Enrollment
+  Class enrollment of undergraduate and postgraduate students is processed with the web-based Student Information System (SIS). The main system functions include the following:
+  Students can view their own class timetable.
+  Students can submit class choices, confirm their places or/and make changes before the add/drop deadline.
+  In case of over-subscription of classes, they can be put on the system-automated waiting list for class space.
+  In case students require special approval from the faculty member/academic department for enrollment, requests can be submitted through the system.
+  Students are welcome to contact their College/Hub and program department to seek academic advice whenever in need. In preparing the individual study plan, students can refer to online information such as Program and Course catalog (
+  UG
+  &
+  PG
+  ) for reference.
+  Please note that
+  students are responsible for their own studies. It is important for students to plan ahead to ensure they can complete the study within the permitted duration of study.
+  Class Enrollment Guides
+  Class enrollment schedule for Summer 2025-26
+  Period
+  Date & Time
+  Validation Period
+  (Shopping Cart Appointment)
+  9:30 am, 29 May 2026 onwards
+  Enrollment Period
+  (Enrollment Appointment)
+  05 June 2026
+  onwards: Could enroll only one class.
+  9:30 onwards:
+  UG Year 3
+  10:30 onwards:
+  UG Year 2
+  11:30 onwards:
+  UG Year 1
+  13:30 onwards:
+  MSc Year 2 and above/ MPhil Year 2 and above/ PhD Year 4/ 1-3 cohort PS students
+  14:30 onwards:
+  PhD Year 2 and Year 3
+  15:30 onwards:
+  MSc Year 1/ MPhil Year 1/ PhD Year 1/ non-degree students
+  (Maintenance Hour everyday: 7:30am-9:30am)
+  09:30 am, 8 June 2026 onwards:
+  All active students. Could enroll in the second and/or third class, no more than THREE classes.
+  Add/Drop Period*
+  Classes offered in Summer term have different add/drop deadlines. Please refer to the remarks for each course on the
+  Class Schedule and Quota
+  webpage.
+  24 hours / day (excluding 07:30 - 09:30am)
+  Extended Drop Period*
+  (For PG courses only)
+  Classes offered in Summer term have different add/drop deadlines. Please refer to the remarks for each course on the
+  Class Schedule and Quota
+  webpage.
+  24 hours / day (excluding 07:30 - 09:30am)
+  * Courses offered in Summer term have different add/drop deadlines and extended drop deadlines.
+  Class enrollment schedule for Spring 2025-26
+  Period
+  Date & Time
+  Validation Period
+  (Shopping Cart Appointment)
+  9:30am
+  : 9 January 2026 onwards
+  Enrollment Period
+  (Enrollment Appointment)
+  15 January 2026 onwards
+  09:30 onwards:
+  UG Year 3
+  10:30 onwards:
+  UG Year 2
+  11:30 onwards:
+  UG Year 1
+  13:30 onwards:
+  MSc Year 2 and above / MPhil Year 2 and above / PhD Year 4 / 1-3 cohort
+  Pilot Scheme
+  students
+  14:30 onwards:
+  PhD Year 2 and Year 3
+  15:30 onwards:
+  MSc Year 1 / MPhil Year 1 / PhD Year 1 / other non-degree students.
+  (Maintenance Hour: 7:30am-9:30am)
+  Add/Drop Period
+  23 January-5 February 2026
+  24 hours / day (excluding 07:30 - 09:30am)
+  Extended Drop Period
+  (For PG courses only)
+  6 February-4 March 2026
+  24 hours / day (excluding 07:30 - 09:30am)
+  Class Enrollment Guides (PG)
+  Click
+  here
+  for details.
+  Class Enrollment Guides (UG)
+  Click
+  here
+  for details.
+  Class Enrollment Guide for Staff (PG/UG)
+  Click
+  here
+  for details.
+
+tables:
+  - Period | Date & Time
+  - Validation Period (Shopping Cart Appointment) | 9:30 am, 29 May 2026 onwards
+  - Enrollment Period (Enrollment Appointment) | 05 June 2026 onwards: Could enroll only one class. 9:30 onwards: UG Year 3 10:30 onwards: UG Year 2 11:30 onwards: UG Year 1 13:30 onwards: MSc Year 2 and above/ MPhil Year 2 and above/ PhD Year 4/ 1-3 cohort PS students 14:30 onwards: PhD Year 2 and Year 3 15:30 onwards: MSc Year 1/ MPhil Year 1/ PhD Year 1/ non-degree students (Maintenance Hour everyday: 7:30am-9:30am) 09:30 am, 8 June 2026 onwards: All active students. Could enroll in the second and/or third class, no more than THREE classes.
+  - Add/Drop Period* | Classes offered in Summer term have different add/drop deadlines. Please refer to the remarks for each course on the Class Schedule and Quota webpage. 24 hours / day (excluding 07:30 - 09:30am)
+  - Extended Drop Period* (For PG courses only) | Classes offered in Summer term have different add/drop deadlines. Please refer to the remarks for each course on the Class Schedule and Quota webpage. 24 hours / day (excluding 07:30 - 09:30am)
+  - Period | Date & Time
+  - Validation Period (Shopping Cart Appointment) | 9:30am : 9 January 2026 onwards
+  - Enrollment Period (Enrollment Appointment) | 15 January 2026 onwards 09:30 onwards: UG Year 3 10:30 onwards: UG Year 2 11:30 onwards: UG Year 1 13:30 onwards: MSc Year 2 and above / MPhil Year 2 and above / PhD Year 4 / 1-3 cohort Pilot Scheme students 14:30 onwards: PhD Year 2 and Year 3 15:30 onwards: MSc Year 1 / MPhil Year 1 / PhD Year 1 / other non-degree students. (Maintenance Hour: 7:30am-9:30am)
+  - Add/Drop Period | 23 January-5 February 2026 24 hours / day (excluding 07:30 - 09:30am)
+  - Extended Drop Period (For PG courses only) | 6 February-4 March 2026 24 hours / day (excluding 07:30 - 09:30am)
+
+links:
+  - UG | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog
+  - Class Schedule and Quota | https://sisn.hkust-gz.edu.cn/cq
+  - here | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - here | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - here | https://document.hkust-gz.edu.cn/office/viewer?key=345&fileType=pdf&fileName=Class_Enrollment_Guides_Staff

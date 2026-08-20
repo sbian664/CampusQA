@@ -1,0 +1,22 @@
+course: DSAA 4032
+normalized_code: DSAA4032
+title: Complex Data Management
+subject: DSAA
+catalog_number: "4032"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an advanced course for understanding the diversity of data types (e.g., graph data, time series data, spatial data, video data) in data science: why they exist, how to store them, how to query them, and how to build scalable and efficient solutions for managing these data types. It will also introduce how to make predictions, especially for time-series data, which has important applications for financial data and health care data.
+
+requirements:
+  prerequisite: DSAA 2031
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4032
+  - DSAA 4032
+  - Complex Data Management

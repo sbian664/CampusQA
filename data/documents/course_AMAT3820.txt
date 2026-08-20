@@ -1,0 +1,22 @@
+course: AMAT 3820
+normalized_code: AMAT3820
+title: Integrated Chemical Process and Product Design
+subject: AMAT
+catalog_number: "3820"
+credits: 5
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Conceptual design of chemical processes and products. Integration of prior knowledge in the execution of a structured design project, under the direct guidance of faculty. Project topics encompass both process and product design with different emphases. Design tasks include literature and market survey, ideation, feasibility and viability studies, prototyping and/or simulation, unit operation or component design, planning and project management, and societal and environmental impact assessment. Emphasis on the design process, hands-on experimentation, teamwork, and self-learning.
+
+requirements:
+  prerequisite: AMAT 2010
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT3820
+  - AMAT 3820
+  - Integrated Chemical Process and Product Design

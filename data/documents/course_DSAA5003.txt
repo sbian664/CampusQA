@@ -1,0 +1,22 @@
+course: DSAA 5003
+normalized_code: DSAA5003
+title: Automatic Machine Learning
+subject: DSAA
+catalog_number: "5003"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  A recent trend in Data Science and Machine Learning communities is to further boost the accessibility of Machine Learning techniques by reducing the tedious effort on learning model selection, hyper-parameter tuning, etc. Automatic Machine Learning (AutoML) aims to reduce this tedious effort and make Machine Learning easier to use. In this course, students will master the basics of AutoML, and understand key techniques including hyper-parameter optimization, feature engineering and meta-learning. This course also introduces common AutoML systems and covers real-world case studies on the applications of AutoML.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA5003
+  - DSAA 5003
+  - Automatic Machine Learning

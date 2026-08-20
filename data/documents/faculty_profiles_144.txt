@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：胡鹏程（Pengcheng HU）
+  职称：Associate Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：pengchenghu@hkust-gz.edu.cn
+  办公室：W2 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Pengcheng/pengchenghu
+  研究方向：
+    Intelligent CNC Machining，
+    Robotic Manufacturing，
+    Multi-axis Autonomous Tool Path Computation and Optimization，
+    Additive & Subtracting Hybrid Manufacturing，

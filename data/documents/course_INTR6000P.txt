@@ -1,0 +1,22 @@
+course: INTRP 000P
+normalized_code: INTR6000P
+title: Visual Navigation for Intelligent Vehicles
+subject: INTR
+catalog_number: "6000P"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Navigation is a core capability for intelligent vehicles, enabling environment perception, localization, and decision-making. This course provides a comprehensive understanding of vision-based navigation for unmanned systems, focusing on mobile robots and self-driving vehicles. It covers a wide range of topics, including multiview geometry, visual/-inertial state estimation, simultaneous localization and mapping (SLAM), place recognition, scene perception, and recent advances in embodied AI, equipping students with the theoretical and practical skills to design advanced navigation systems. Through hands-on projects using real-world datasets, students will gain experience in implementing and evaluating visual navigation solutions. Ideal for those interested in intelligent systems, computer vision, and AI, this course bridges theory and practice for autonomous systems development.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR6000P
+  - INTRP 000P
+  - Visual Navigation for Intelligent Vehicles

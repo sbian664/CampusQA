@@ -1,0 +1,22 @@
+course: MICSF 002F
+normalized_code: MICS6002F
+title: Process-in-Memory: From Devices to Systems
+subject: MICS
+catalog_number: "6002F"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides a comprehensive exploration of in-memory processing paradigm, focusing on the integration of memory and computational processes to improve hardware efficiency and performance. Students will investigate various memory device technologies and their corresponding compute-in-memory circuit and architecture designs. The course begins with an overview of in-memory computing concepts, highlighting the paradigm shift from traditional von Neumann architectures to memory-centric processing. Students will delve into the characteristics and functionalities of various memory technologies, and analyze their unique advantages, limitations, and applications in process-in-memory systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002F
+  - MICSF 002F
+  - Process-in-Memory: From Devices to Systems

@@ -1,0 +1,22 @@
+course: UFUG 2106
+normalized_code: UFUG2106
+title: Discrete Mathematics
+subject: UFUG
+catalog_number: "2106"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course examines applied and theoretical mathematical implications of the mathematical concepts. These include elementary logic and set theory, functions, direct proof techniques, contradiction and contraposition, mathematical induction and recursion, elementary combinatorics, basic graph theory, minimal spanning trees, and so on. It also expands and explores symbolic, numerical, and graphical representations of mathematical concepts. Emphasis will be put on solving problems symbolically, numerically, and graphically and understanding the connections among these methods in interpreting and analyzing results. Instructor's approval is required for enrollment.
+
+requirements:
+  prerequisite: UFUG 1601
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG2106
+  - UFUG 2106
+  - Discrete Mathematics

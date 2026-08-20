@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：张莹（Ying ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：yingzhang@hkust-gz.edu.cn
+  办公室：W1(C8) L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Ying/yingzhang
+  研究方向：
+    Numerical Algorithms Design，
+    Machine Learning and Finance，
+    Stochastic Optimization，

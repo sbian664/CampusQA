@@ -1,0 +1,22 @@
+course: SMMG 6100A
+normalized_code: SMMG6100A
+title: Independent Study
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6100A
+  - SMMG 6100A
+  - Independent Study

@@ -1,0 +1,16 @@
+教职员简介：
+  姓名：崔颖（Ying CUI）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：yingcui@hkust-gz.edu.cn
+  办公室：E2 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CUI-Ying/yingcui
+  研究方向：
+    Theory and applications of optimization and learning，
+    AI+wireless communications, networking, and signal processing，
+    Integrated communications, sensing, computing, and control，
+    Distributed learning and inference，
+    Dynamic programming and deep reinforcement learning，
+    IoT systems and communications，
+    Mobile edge caching and computing，
+    Video transmission，

@@ -1,0 +1,22 @@
+course: SEEN 5360
+normalized_code: SEEN5360
+title: Inorganic Photovoltaic Materials and Devices
+subject: SEEN
+catalog_number: "5360"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Photovoltaics plays a critical role in harvesting solar energy and secures our future sustainable and carbon-neutral society. This course introduces the mainstream photovoltaic technologies specially focused on the ones based on inorganic materials. It covers the fundamental operation and design principles for inorganic photovoltaics, technological challenges, and applications. It also provides the students with the future technological trend and basic knowledge as well as visions in the research and development of inorganic materials based photovoltaic technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5360
+  - SEEN 5360
+  - Inorganic Photovoltaic Materials and Devices

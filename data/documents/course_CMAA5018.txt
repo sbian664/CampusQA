@@ -1,0 +1,22 @@
+course: CMAA 5018
+normalized_code: CMAA5018
+title: Assistive Technology Design based on Computational Media and Arts
+subject: CMAA
+catalog_number: "5018"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course teaches students the design and evaluation of novel smart assistive technologies for people with disabilities (e.g., blind, deaf, motor-impaired) and the aging population. Students will learn user-centered methods to identify true user needs and design smart assistive technologies that leverage immersive media (e.g., VR/AR/MR) or AIoT (e.g., AI, mobile and wearable sensing). Moreover, students will also learn how to evaluate the performance and user experience of such assistive technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5018
+  - CMAA 5018
+  - Assistive Technology Design based on Computational Media and Arts

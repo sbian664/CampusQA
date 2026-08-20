@@ -1,0 +1,22 @@
+course: DLED 4030
+normalized_code: DLED4030
+title: English Communication II for Society Hub Programs
+subject: DLED
+catalog_number: "4030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This one year course makes use of the Final Year Thesis or Final Year Capstone Project with their associated spoken and written components to maximize the language and literacy gains from carrying out this significant piece of work. The course supports students in producing the communicative components of the project and, though iterations of those components, further develops and refines their ability to present and write at a high level in an academic context. Grading Type: Letter Grade+PP.
+
+requirements:
+  prerequisite: DLED 3030
+  corequisite: FTEC 4910
+  exclusion: none
+
+search_aliases:
+  - DLED4030
+  - DLED 4030
+  - English Communication II for Society Hub Programs

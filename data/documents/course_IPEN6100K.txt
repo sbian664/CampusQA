@@ -1,0 +1,22 @@
+course: IPENK 100K
+normalized_code: IPEN6100K
+title: Health Care Management and Policy
+subject: IPEN
+catalog_number: "6100K"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course examines the health care sector and healthy policy issues using theoretical frameworks and empirical evidence. We will provide a broad understanding of the global health care system, with an emphasis on payers, providers, products, and patients. This course also introduces the statistical methods used for evaluating health outcomes that enable us to assess the true effectiveness of health care policies and strategies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100K
+  - IPENK 100K
+  - Health Care Management and Policy

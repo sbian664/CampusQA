@@ -1,0 +1,22 @@
+course: UGOD 5009
+normalized_code: UGOD5009
+title: Inferential Statistics and OLS Regression
+subject: UGOD
+catalog_number: "5009"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces fundamental knowledge and practice of basic statistics in quantitative social science research, with a focus on how quantitative methods are used to assemble, describe, and draw inferences from bodies of numerical data. The course serves as an additional foundation for more advanced methodology courses (such as UGOD 5020). The course covers two modules. The first is about descriptive statistics and fundamentals of statistical inference. Topics include frequency distribution, probability theory, random variable and probability distributions, estimation, hypothesis testing, t-test, Analysis of Variance (ANOVA), and contingency table analysis. The second is about linear regression techniques, which are widely used in social science research. The course materials are explored through the analyses of real data sets using STATA.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5009
+  - UGOD 5009
+  - Inferential Statistics and OLS Regression

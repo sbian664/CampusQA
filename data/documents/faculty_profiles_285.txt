@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：魏嘉珩（Jiaheng WEI）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：jiahengwei@hkust-gz.edu.cn
+  办公室：E3 L3 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei
+  研究方向：
+    Weakly Supervised Learning，
+    High-Quality Data Generation in LLM，
+    AI-Assisted Data Curation and Quality Evaluation，
+    Robust LLM Training and Fine-Tuning，
+    LLM Ethics (Unlearning, Watermarking, Jailbreaking)，

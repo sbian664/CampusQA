@@ -1,0 +1,22 @@
+course: ROAS 4900
+normalized_code: ROAS4900
+title: Final Year Capstone Project
+subject: ROAS
+catalog_number: "4900"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course requires a research project under the supervision of an instructor, and the results must be reported in the form of a thesis or a research paper. For students of the Robotics Program only. Instructor’s approval is required for enrollment in the course. Graded P,PP or F.
+
+requirements:
+  prerequisite: DLED 3040
+  corequisite: DLED 4040
+  exclusion: none
+
+search_aliases:
+  - ROAS4900
+  - ROAS 4900
+  - Final Year Capstone Project

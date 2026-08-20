@@ -1,0 +1,22 @@
+course: BSBE 5200
+normalized_code: BSBE5200
+title: Principles of Neuroscience and Related Diseases
+subject: BSBE
+catalog_number: "5200"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the basic knowledge of nervous system, and the clinical manifestation, anatomy, physiology, pathophysiology, diagnosis, and treatment of common nervous system diseases, with focus on the underlying molecular mechanism of the diseases and treatments.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE5200
+  - BSBE 5200
+  - Principles of Neuroscience and Related Diseases

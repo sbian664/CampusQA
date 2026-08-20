@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：王炜（Wei WANG）
+  职称：Associate Dean
+  学域：Information Hub
+  邮箱：weiwcs@hkust-gz.edu.cn
+  办公室：W4 L5 515
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs
+  研究方向：
+    Integration of database and artificial intelligence technologies，
+    Large Language Models，
+    Deep Learning and Artificial Intelligence，
+    AI for Science; AI for Education，

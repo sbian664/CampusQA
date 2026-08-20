@@ -1,0 +1,22 @@
+course: FTEC 2330
+normalized_code: FTEC2330
+title: Macroeconomics
+subject: FTEC
+catalog_number: "2330"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Theory of national income determination and business fluctuation; monetary and fiscal policies; selected topics in macroeconomic policies and open economy macroeconomics.
+
+requirements:
+  prerequisite: FTEC 3310
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC2330
+  - FTEC 2330
+  - Macroeconomics

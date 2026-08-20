@@ -1,0 +1,22 @@
+course: UFUG 1504
+normalized_code: UFUG1504
+title: Honors General Physics II
+subject: UFUG
+catalog_number: "1504"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The UFUG 1504 is a more challenging version of UFUG 1502. It intends to provide a solid foundation to students who wish to take more advanced physics related study and research in the future. The course consists of three modules, which are Module 1: Electrostatics and Circuit, including Coulomb’s law, Electric Fields, Gauss’s Law, Electric potential, Capacitance, Current and Resistance, and Circuits; Module 2: Magnetism and Electromagnetics, including Magnetic Fields, Magnetic Filed due to Currents, Induction and Inductance, Electromagnetic Oscillations, and Maxwell’s Equations, Electromagnetic Waves; Module 3: Optics and Modern Physics, including Images, Interference, Diffraction, Photons and Matters Waves, and Atoms. In addition to the lecture, students are required to take 3 experimental sections.
+
+requirements:
+  prerequisite: (UFUG 1501 or UFUG 1503) AND (UFUG 1102 or UFUG 1105)
+  corequisite: none
+  exclusion: UFUG 1502
+
+search_aliases:
+  - UFUG1504
+  - UFUG 1504
+  - Honors General Physics II

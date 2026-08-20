@@ -1,0 +1,22 @@
+course: IPEN 5111
+normalized_code: IPEN5111
+title: Public Management and Institutional Analysis
+subject: IPEN
+catalog_number: "5111"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course focuses on the theoretical and analytical perspective of public management and institutions. It introduces students to key concepts in the discipline of public management and institutional analysis. The course begins with a review of the evolution of thinking in this field. In the following sessions, students will be extensively exposed to theoretical frameworks. The course aims to equip students with theories that help students in building up their capacity toward academic research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5111
+  - IPEN 5111
+  - Public Management and Institutional Analysis

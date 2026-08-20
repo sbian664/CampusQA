@@ -1,0 +1,22 @@
+course: IPEN 6000C
+normalized_code: IPEN6000C
+title: Independent Study
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6000C
+  - IPEN 6000C
+  - Independent Study

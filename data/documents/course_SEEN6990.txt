@@ -1,0 +1,22 @@
+course: SEEN 6990
+normalized_code: SEEN6990
+title: MPhil Thesis Research
+subject: SEEN
+catalog_number: "6990"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN6990
+  - SEEN 6990
+  - MPhil Thesis Research

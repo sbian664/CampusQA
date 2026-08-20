@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：朱子木（Zimu ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zimuzhu@hkust-gz.edu.cn
+  办公室：W4(C8) L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Zimu/zimuzhu
+  研究方向：
+    Stochastic Control and Games，
+    Mathematical Finance，
+    Principal-Agent Problem，
+    Machine Learning，

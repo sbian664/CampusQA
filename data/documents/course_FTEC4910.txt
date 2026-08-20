@@ -1,0 +1,22 @@
+course: FTEC 4910
+normalized_code: FTEC4910
+title: Final Year Thesis
+subject: FTEC
+catalog_number: "4910"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This two-semester course necessitates the completion of a research project on FinTech topics, supervised by an instructor. The results of the project should be presented as a thesis or a comparable format. Enrollment is exclusive to FTEC students and requires the instructor's approval. Grading Type: Letter Grade + PP
+
+requirements:
+  prerequisite: DLED 3030
+  corequisite: DLED 4030
+  exclusion: none
+
+search_aliases:
+  - FTEC4910
+  - FTEC 4910
+  - Final Year Thesis

@@ -1,0 +1,22 @@
+course: DSAA 3052
+normalized_code: DSAA3052
+title: Data Science for Computer Vision and Multimedia
+subject: DSAA
+catalog_number: "3052"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers a unified introduction to computer vision and multimedia, covering core concepts and practical methods across images, video, and audio. Students will learn how visual and auditory data are captured, represented, and learned from, and how these capabilities enable modern intelligent media systems. Emphasizing both fundamentals and current practice, the course integrates perception, representation, learning, and inference across modalities, preparing students to prototype, evaluate, and communicate end-to-end solutions. A final project culminates the experience, giving students the opportunity to design and present a multimedia system or study of their choice.
+
+requirements:
+  prerequisite: DSAA2012
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA3052
+  - DSAA 3052
+  - Data Science for Computer Vision and Multimedia

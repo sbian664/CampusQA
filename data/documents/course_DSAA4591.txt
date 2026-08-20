@@ -1,0 +1,22 @@
+course: DSAA 4591
+normalized_code: DSAA4591
+title: Final Year Capstone Project
+subject: DSAA
+catalog_number: "4591"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an independent study or project under the directed guidance of a faculty member on a data science topic. A written report, presentation, and/or an examination are required. The course will also provide opportunities for students to practice their English skills (reading, writing, understanding, and presentation) via project-related activities. Credit load will be spread over the year. Graded: Letter grade or PP.
+
+requirements:
+  prerequisite: DSAA 2011 or DSAA 2012 or AIAA 3111
+  corequisite: DLED 4020
+  exclusion: none
+
+search_aliases:
+  - DSAA4591
+  - DSAA 4591
+  - Final Year Capstone Project

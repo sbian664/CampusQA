@@ -1,0 +1,22 @@
+course: AIAA 4490
+normalized_code: AIAA4490
+title: Final Year Capstone Project
+subject: AIAA
+catalog_number: "4490"
+credits: 6
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is an independent, one-year-long final-year project related to Artificial Intelligence. A written report, presentation, and/or examination are required. In the final year, students may wonder what AI research is and whether they are capable of doing research as postgraduate students. This course gives students an opportunity to understand AI research through reference searching, independent critical thinking, academic writing, and presentation. Under the supervision of a faculty member, students will have the opportunity to practice their English communication skills (reading, writing, understanding, and presentation) via project-related activities. Credit load will be spread over the year and can be registered for AI students in their fourth year of study only. Graded: Letter grade or PP. Instructor's approval is required for enrollment.
+
+requirements:
+  prerequisite: none
+  corequisite: DLED4020
+  exclusion: none
+
+search_aliases:
+  - AIAA4490
+  - AIAA 4490
+  - Final Year Capstone Project

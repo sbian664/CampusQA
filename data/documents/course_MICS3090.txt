@@ -1,0 +1,22 @@
+course: MICS 3090
+normalized_code: MICS3090
+title: Integrated Circuit Devices
+subject: MICS
+catalog_number: "3090"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory course for semiconductor device operation principles and technology in common electronic products such as integrated circuit (IC), digital camera, solar cell, memory elements, smartcard, etc. Topics covered include Semiconductor properties, IC fabrication technology, PN junctions, Bipolar Junction Transistors (BJT), MOSFETs, CCD and the future technology trend in the electronic industry.
+
+requirements:
+  prerequisite: ROAS 2200
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS3090
+  - MICS 3090
+  - Integrated Circuit Devices

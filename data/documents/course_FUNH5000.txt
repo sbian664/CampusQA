@@ -1,0 +1,22 @@
+course: FUNH 5000
+normalized_code: FUNH5000
+title: Introduction to Function Hub for Sustainable Future
+subject: FUNH
+catalog_number: "5000"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FUNH5000
+  - FUNH 5000
+  - Introduction to Function Hub for Sustainable Future

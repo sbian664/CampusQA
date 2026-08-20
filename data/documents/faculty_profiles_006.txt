@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：曾宪国（Hin Kwok TSANG）
+  职称：Thrust Head
+  学域：Thrust of Internet of Things
+  邮箱：eetsang@hkust-gz.edu.cn
+  办公室：W1 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSANG-Hin-Kwok/eetsang
+  研究方向：
+    Smart grids，
+    Networking，
+    Wireless networking，
+    Cloud/Edge computing，

@@ -1,0 +1,22 @@
+course: UFUG 1811
+normalized_code: UFUG1811
+title: Quantitative Data Analysis for Social Research
+subject: UFUG
+catalog_number: "1811"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The goal of this course is to introduce students to data analysis methods and procedures commonly used in social sciences. During the course, students will acquire practical skills to be able to gather, generate, visualize and analyze quantitative data in social science research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1811
+  - UFUG 1811
+  - Quantitative Data Analysis for Social Research

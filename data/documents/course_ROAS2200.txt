@@ -1,0 +1,22 @@
+course: ROAS 2200
+normalized_code: ROAS2200
+title: Electronic Circuits
+subject: ROAS
+catalog_number: "2200"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Fundamental electronic concepts for DC and AC circuits, KVL and KCL, Thevenin and Norton Theroems, linearity and superposition, nodal and mesh analyses, sinusoidal steady state and phasor, transient analysis, transfer functions and Bode plots, op-amps, diodes, MOS transistors and related circuits.
+
+requirements:
+  prerequisite: UFUG 1102 OR UFUG 1105
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS2200
+  - ROAS 2200
+  - Electronic Circuits

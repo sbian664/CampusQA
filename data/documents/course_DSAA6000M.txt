@@ -1,0 +1,22 @@
+course: DSAAM 000M
+normalized_code: DSAA6000M
+title: Machine Learning in Genetics and Genomics
+subject: DSAA
+catalog_number: "6000M"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Genetics and genomics are closely related fields, both analyzing massive biological data. Genetics studies specific genes and their roles in heredity, while genomics encompasses the entire genome of an organism to understand its complex systems. This course aims to introduce traditional computational biology and revolutionary advancements in machine learning that are transforming the fields of genetics and genomics. It begins with a very brief overview of conventional algorithms in genetics and genomics, setting the stage for a deeper exploration of how genetics and genomics have evolved with the advent of machine learning techniques. As the course progresses, students will be introduced to the latest machine learning methods, with an emphasis on deep learning, which has dramatically changed the landscape of genomics research. Through a combination of theoretical instruction and hands-on teamwork projects, this course is designed to equip students with the necessary skills to navigate and contribute to the field of genomics, leveraging machine learning to uncover new insights into genetic data and its implications for human health and disease.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000M
+  - DSAAM 000M
+  - Machine Learning in Genetics and Genomics

@@ -1,0 +1,22 @@
+course: UCUG 1905
+normalized_code: UCUG1905
+title: The Impact and Value of Technology Innovation
+subject: UCUG
+catalog_number: "1905"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The focus is the impact of the current technological evolution on the creation of value in the global economy, society in general, and personal lives. Students will study how science and technology developments have been transformed into innovative products and services. Case studies and examples will be drawn from well-known successes and failures of technology companies in Silicon Valley and Asia. Business issues such as marketing of disruptive innovations and ethics will be explored. Special emphasis will be given to intellectual property issues. Students will receive extensive exposure to existing and emerging technology innovations and establish the skills to analyze them from multiple perspectives.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1905
+  - UCUG 1905
+  - The Impact and Value of Technology Innovation

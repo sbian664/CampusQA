@@ -1,0 +1,22 @@
+course: MICSQ 001Q
+normalized_code: MICS6001Q
+title: Neuromorphic Sensing and Computing
+subject: MICS
+catalog_number: "6001Q"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an in-depth study of neuromorphic hardware, including both computing and sensing blocks. Students will engage with foundational principles as well as cutting-edge developments in neuromorphic devices and circuits, gaining a comprehensive understanding of their architecture, function, and potential impact. The curriculum begins by covering essential components such as CMOS transistors, vision sensors, acoustic sensors, and other sensory devices. Students will also explore advanced neuromorphic systems, including silicon neurons, synapses, retinas and cochlear, as well as utilize event-driven, spike-based communication for neuromorphic system. Emerging technologies beyond CMOS, such as memristors and MEMS devices, will be examined for their transformative potential in neuromorphic computing and sensing applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001Q
+  - MICSQ 001Q
+  - Neuromorphic Sensing and Computing

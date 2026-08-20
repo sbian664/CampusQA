@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：杨旸（Yang YANG）
+  职称：Adjunct Professor
+  学域：Thrust of Internet of Things
+  邮箱：yyiot@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Yang/yyiot
+  研究方向：
+    (1)	Wireless sensor networks and Internet of Things.，
+    (2)	Multi-tier computing networks.，
+    (3)	5G/6G mobile communications.，

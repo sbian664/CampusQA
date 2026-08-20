@@ -1,0 +1,22 @@
+course: IOTA 5109
+normalized_code: IOTA5109
+title: Wireless Sensor and Actuator Networks Toward Swarm Intelligence
+subject: IOTA
+catalog_number: "5109"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course teaches the basic concepts of wireless sensor and actuator networks (WSANs), and how swarm intelligence is applied over WSAN. The course content includes the typical architecture of the hardware WSAN devices, the general communication mechanism and examples of applications using WSANs to realize swarm intelligence.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5109
+  - IOTA 5109
+  - Wireless Sensor and Actuator Networks Toward Swarm Intelligence

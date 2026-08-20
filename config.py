@@ -37,6 +37,21 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 DOCUMENTS_DIR = os.path.join(DATA_DIR, "documents")
 CACHE_DIR = os.path.join(DATA_DIR, "cache")
 
+# ============ 本地 Embeddings 模型 ============
+EMBEDDINGS_MODEL = os.getenv(
+    "EMBEDDINGS_MODEL",
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+)
+EMBEDDINGS_MODEL_PATH = os.getenv(
+    "EMBEDDINGS_MODEL_PATH",
+    os.path.join(DATA_DIR, "embeddings", "paraphrase-multilingual-MiniLM-L12-v2"),
+)
+EMBEDDINGS_AUTO_DOWNLOAD = os.getenv("EMBEDDINGS_AUTO_DOWNLOAD", "true").lower() in (
+    "1",
+    "true",
+    "yes",
+)
+
 # ============ 系统提示词 ============
 SYSTEM_PROMPT = """你是一个有用的AI助手。
 - 回答准确、简洁
@@ -48,9 +63,6 @@ SYSTEM_PROMPT = """你是一个有用的AI助手。
 SUPPORTED_FORMATS = ['.md', '.txt', '.pdf', '.html']
 KB_EMBEDDINGS_PROVIDER = "local"  # "local" 或 "deepseek_api" 或 "openai"
 KB_INDEX_MAX_WORKERS = int(os.getenv("KB_INDEX_MAX_WORKERS", "4"))
-
-# 向量化模型（轻量）
-EMBEDDINGS_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 # 文本分割
 CHUNK_SIZE = 500              # 一块的 token 数
@@ -82,6 +94,15 @@ BM25_WEIGHT = 0.25              # BM25 权重（0~1），剩余为向量权重
 RERANKER_AVAILABLE = os.getenv("RERANKER_AVAILABLE", "true").lower() in ("1", "true", "yes")
 RERANKER_MODEL = os.getenv(
     "RERANKER_MODEL", "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+)
+RERANKER_MODEL_PATH = os.getenv(
+    "RERANKER_MODEL_PATH",
+    os.path.join(DATA_DIR, "reranker", "mmarco-mMiniLMv2-L12-H384-v1"),
+)
+RERANKER_AUTO_DOWNLOAD = os.getenv("RERANKER_AUTO_DOWNLOAD", "true").lower() in (
+    "1",
+    "true",
+    "yes",
 )
 RERANKER_CANDIDATE_K = int(os.getenv("RERANKER_CANDIDATE_K", "30"))
 RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "16"))

@@ -1,0 +1,15 @@
+教职员简介：
+  姓名：袁家兴（Jiaxing YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：jiaxingyuan@hkust-gz.edu.cn
+  办公室：E4 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Jiaxing/jiaxingyuan
+  研究方向：
+    Electrostatic and hydrodynamic interactions in soft matter，
+    Phase separation in macromolecular systems，
+    Self-assembly of colloids and nanoparticles，
+    Structure and dynamics of tetrahedral liquids，
+    Monte Carlo and molecular dynamics simulations，
+    Machine learning force fields for soft and liquid matter，
+    Physics of living matter，

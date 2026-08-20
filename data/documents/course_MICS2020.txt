@@ -1,0 +1,22 @@
+course: MICS 2020
+normalized_code: MICS2020
+title: Digital Circuits Analysis and Design
+subject: MICS
+catalog_number: "2020"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course covers a wide range of topics, including logic gates, Boolean algebra, combinational and sequential logic circuits, programmable logic devices and the hardware description language. Students will learn the theoretical foundations of digital circuits and gain practical experience in designing and analyzing complex digital systems. The course emphasizes hands-on learning through laboratory experiments and design projects, where students will apply their knowledge to solve real-world problems and build digital circuits using EDA tools.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS2020
+  - MICS 2020
+  - Digital Circuits Analysis and Design

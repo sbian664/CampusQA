@@ -11,11 +11,24 @@ from config import (
     RERANKER_CANDIDATE_K,
     RERANKER_MAX_LENGTH,
     RERANKER_MODEL,
+    RERANKER_MODEL_PATH,
+    RERANKER_AUTO_DOWNLOAD,
 )
+from src.model_utils import ensure_local_huggingface_model
 
 
 _model = None
 _model_lock = threading.Lock()
+
+
+def ensure_local_reranker_model(auto_download: bool = RERANKER_AUTO_DOWNLOAD) -> str:
+    return ensure_local_huggingface_model(
+        model_name=RERANKER_MODEL,
+        model_path=RERANKER_MODEL_PATH,
+        required_files=("config.json", ("model.safetensors", "pytorch_model.bin")),
+        auto_download=auto_download,
+        label="reranker",
+    )
 
 
 def get_reranker_model():
@@ -26,9 +39,14 @@ def get_reranker_model():
         if _model is None:
             from sentence_transformers import CrossEncoder
 
-            print(f"📥 加载重排模型: {RERANKER_MODEL}")
-            _model = CrossEncoder(RERANKER_MODEL, max_length=RERANKER_MAX_LENGTH)
-            print("✓ 重排模型已就绪")
+            model_path = ensure_local_reranker_model()
+            print(f"[reranker] load local model: {model_path}")
+            _model = CrossEncoder(
+                model_path,
+                max_length=RERANKER_MAX_LENGTH,
+                local_files_only=True,
+            )
+            print("[reranker] model ready")
     return _model
 
 
@@ -73,6 +91,24 @@ def rerank_results(
     return unique
 
 
+def rerank_precomputed_results(
+    query: str,
+    results: List[Dict],
+    top_k: int,
+    enabled: bool,
+    model_loader: Callable = get_reranker_model,
+) -> List[Dict]:
+    requested_k = max(1, int(top_k))
+    if not enabled or not RERANKER_AVAILABLE:
+        return results[:requested_k]
+
+    try:
+        return rerank_results(query, results, model_loader(), requested_k)
+    except Exception as exc:
+        print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
+        return results[:requested_k]
+
+
 def search_with_optional_rerank(
     knowledge_base,
     query: str,
@@ -86,11 +122,10 @@ def search_with_optional_rerank(
     requested_k = max(1, int(top_k))
     search_k = max(requested_k, int(candidate_k)) if use_reranker else requested_k
     results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters)
-    if not use_reranker:
-        return results[:requested_k]
-
-    try:
-        return rerank_results(query, results, model_loader(), requested_k)
-    except Exception as exc:
-        print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
-        return results[:requested_k]
+    return rerank_precomputed_results(
+        query,
+        results,
+        top_k=requested_k,
+        enabled=use_reranker,
+        model_loader=model_loader,
+    )

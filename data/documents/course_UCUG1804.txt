@@ -1,0 +1,22 @@
+course: UCUG 1804
+normalized_code: UCUG1804
+title: Population and Development in China
+subject: UCUG
+catalog_number: "1804"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to provide comprehensive understanding of population growth, distribution, major demographic processes, and their relationship with economic development. Special attention is given to the demographic trends and policies in China in the context of the nation’s socioeconomic development.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1804
+  - UCUG 1804
+  - Population and Development in China

@@ -1,0 +1,22 @@
+course: SMMGM 000M
+normalized_code: SMMG6000M
+title: Robotics in Manufacturing
+subject: SMMG
+catalog_number: "6000M"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the integration of industrial robotics with modern manufacturing industries. Basic theories like structure, forward and inverse kinematics, velocities and static forces, and trajectory and motion planning of robots will be introduced in this course. For some specific manufacturing scenarios, e.g., materials handling, processing (multi-axis milling, additive manufacturing, grinding, etc.), assembly, and inspection, some essential technologies like image processing and analysis and path planning in multi-axis milling and 3D printing will also be elaborated in detail. Students interested in industrial robots, especially the kinematics, motion and trajectory control, and computer vision of industry robots in the modern manufacturing industry, are encouraged to take this course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000M
+  - SMMGM 000M
+  - Robotics in Manufacturing

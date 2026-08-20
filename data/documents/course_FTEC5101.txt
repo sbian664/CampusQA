@@ -1,0 +1,22 @@
+course: FTEC 5101
+normalized_code: FTEC5101
+title: Microeconomic Theory
+subject: FTEC
+catalog_number: "5101"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a course in graduate level microeconomic theory for PhD students in financial technology and other related fields. This course covers topics including consumer theory, producer theory, uncertainty, general equilibrium,and matching. The required background knowledge for the course are intermediate microeconomic theory and mathematics through calculus of several variables and introductory real analysis. Additional mathematical tools will be explained briefly as the course proceeds. This course serves as the first rigorous training in economics and finance and helps lay down a solid foundation in economic modelling for future research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5101
+  - FTEC 5101
+  - Microeconomic Theory

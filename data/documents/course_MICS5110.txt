@@ -1,0 +1,22 @@
+course: MICS 5110
+normalized_code: MICS5110
+title: Fundamentals of Optics and Photonics
+subject: MICS
+catalog_number: "5110"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is about fundamentals in optics and photonics. The âOpticsâ part includes ray optics, electromagnetic optics, plasmonics, coherence and polarization of light, etc. The âPhotonicsâ part includes the science behind light generation (e.g. laser), manipulation (e.g. based on nonlinear optics) and photodetection (e.g. PN junction diodes).
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5110
+  - MICS 5110
+  - Fundamentals of Optics and Photonics

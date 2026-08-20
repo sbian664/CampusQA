@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：赵航（Hang ZHAO）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：hangzhao@hkust-gz.edu.cn
+  办公室：W1 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao
+  研究方向：
+    Design and control of joint actuators for legged robots，
+    Mechatronics design for robotics，
+    AI for motor design and control，
+    Smart grid with renewable energy，

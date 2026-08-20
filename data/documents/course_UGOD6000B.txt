@@ -1,0 +1,22 @@
+course: UGODB 000B
+normalized_code: UGOD6000B
+title: Independent Study
+subject: UGOD
+catalog_number: "6000B"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Independent study in a designated subject under direct guidance of a faculty member to provide students the advanced knowledge and research skill sets on urban governance and design related topics. Required readings, tutorial discussions, and submission of report(s) will be used for assessment. The course may be repeated for credit if different topics are studied.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6000B
+  - UGODB 000B
+  - Independent Study

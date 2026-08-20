@@ -1,0 +1,22 @@
+course: SMMG 4660
+normalized_code: SMMG4660
+title: Numerical Methods in Engineering
+subject: SMMG
+catalog_number: "4660"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is intended for teaching numerical methods for engineering students at the senior level as well as at the beginning graduate level. The course will have three important objectives: (1) to teach the basic theories and fundamentals of numerical methods; (2) to help the students to acquire skills to implement these methods for computer solution; and finally (3) to provide an environment where the students can familiarize themselves with many today's popular commercial software systems, such as MATLAB, and their use in the solution of engineering problems.
+
+requirements:
+  prerequisite: UFUG 2102 OR UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4660
+  - SMMG 4660
+  - Numerical Methods in Engineering

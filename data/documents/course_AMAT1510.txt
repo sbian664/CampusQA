@@ -1,0 +1,22 @@
+course: AMAT 1510
+normalized_code: AMAT1510
+title: Quantum Information For Everyone
+subject: AMAT
+catalog_number: "1510"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Information cannot exist without a physical system to represent it. Quantum physics enables some fundamental new ways of information processing. In recent years, quantum information processing (QIP) has emerged as one of the “most fiercely competitive in today’s world of technology”. This course offers an introduction to the past, present and future of QIP. The theme is to explain the major ideas and issues in QIP, and how this new technology will change our understanding of information processing. The course starts from a gentle introduction to quantum theory without assuming any physics background, then moves to the key applications of QIP including quantum computing, quantum cryptography, and quantum communication. Besides theory, demonstrations and hands-on experiences with quantum hardware will also be given. Students will benefit from learning quantum information technology in an interdisciplinary environment, with knowledge and skills for comprehending the fast-paced developments in today’s technological world.
+
+requirements:
+  prerequisite: UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT1510
+  - AMAT 1510
+  - Quantum Information For Everyone

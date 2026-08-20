@@ -1,0 +1,22 @@
+course: UFUG 2105
+normalized_code: UFUG2105
+title: Optimization
+subject: UFUG
+catalog_number: "2105"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This is an introductory-level course on optimization. Topics include convex sets and functions, optimization problems, convex problems, duality, numerical linear algebra, gradient methods, Newton's methods, conjugate gradient method, gradient projection method, block coordinate descent method, penalty methods, interior-point methods, software, and applications. Students learn to analyze and solve optimization problems theoretically and numerically using appropriate methods.
+
+requirements:
+  prerequisite: (UFUG 1103 OR UFUG1106) AND UFUG 2101 AND UFUG 2103
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG2105
+  - UFUG 2105
+  - Optimization

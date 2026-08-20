@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：王旭东（Xudong WANG）
+  职称：Dean
+  学域：College of Future Technology
+  邮箱：xudongwang@hkust-gz.edu.cn
+  办公室：E1 L4 404
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xudong/xudongwang
+  研究方向：
+    AI for Wireless，
+    Distributed Machine Learning，
+    Mobile Edge Computing，
+    Joint Communications and Sensing，
+    6G and Beyond Networks，

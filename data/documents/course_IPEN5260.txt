@@ -1,0 +1,22 @@
+course: IPEN 5260
+normalized_code: IPEN5260
+title: Corporate Governance Research
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5260
+  - IPEN 5260
+  - Corporate Governance Research

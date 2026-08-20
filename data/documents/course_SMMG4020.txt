@@ -1,0 +1,22 @@
+course: SMMG 4020
+normalized_code: SMMG4020
+title: Manufacturing Process and Systems
+subject: SMMG
+catalog_number: "4020"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, students will learn the fundamental engineering strategies of how products are manufactured from raw materials, including metal shaping, polymer processing, and emerging techniques such as additive manufacturing and biofabrication. Through understanding basic engineering material properties, students will explore the rationale of selecting appropriate manufacturing routes via vase studies. Finally, students will explore how manufacturing systems are optimized for performance and cost, so as to appreciate the integrated nature of design, material, processing, and management in the manufacture of products.
+
+requirements:
+  prerequisite: UFUG 1501 or UFUG 1503
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4020
+  - SMMG 4020
+  - Manufacturing Process and Systems

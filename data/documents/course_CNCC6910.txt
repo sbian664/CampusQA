@@ -1,0 +1,22 @@
+course: CNCC 6910
+normalized_code: CNCC6910
+title: CNCC Program Seminar II
+subject: CNCC
+catalog_number: "6910"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is expected to expose the RPg students to the current carbon neutrality and climate change research and development, and provide them with opportunities to make social contacts with the speakers inenvironmental and climate change communities. This course will be an essential part of training for our RPg students. Seminar II is an extension of Seminar I. While the overall design of the seminar course looks essentially the same, topics covered and guests invited will be differentiated. Graded P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CNCC6910
+  - CNCC 6910
+  - CNCC Program Seminar II

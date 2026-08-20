@@ -1,0 +1,22 @@
+course: AMAT 2380
+normalized_code: AMAT2380
+title: Transport Phenomena I
+subject: AMAT
+catalog_number: "2380"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Fundamentals of transport phenomena with emphasis on physical properties, flow behavior and diffusive transport of fluids in chemical and biological systems. Engineering derivation and quantitative analysis of fluid transport in confined domains. Emphasis on practical application of transport phenomena in chemical and biological engineering. Use of software for solving problems in transport phenomena.
+
+requirements:
+  prerequisite: UFUG 1103 or 1106
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2380
+  - AMAT 2380
+  - Transport Phenomena I

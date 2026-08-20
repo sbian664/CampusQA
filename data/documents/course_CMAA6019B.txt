@@ -1,0 +1,22 @@
+course: CMAA 6019B
+normalized_code: CMAA6019B
+title: Creative Prototyping: Designing Interactive Experiences
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019B
+  - CMAA 6019B
+  - Creative Prototyping: Designing Interactive Experiences

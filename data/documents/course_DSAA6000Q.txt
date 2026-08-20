@@ -1,0 +1,22 @@
+course: DSAAQ 000Q
+normalized_code: DSAA6000Q
+title: Large Language Models: Theory and Practice
+subject: DSAA
+catalog_number: "6000Q"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course delves into the foundational theories and cutting-edge advancements in large language models (LLMs). The course emphasizes LLM's application in real-world scenarios, focusing on topics such as domain-specific LLMs (e.g., continuous pretraining, SFT, and RLHF), data-intensive and document-intensive scenarios (e.g., NL2SQL RAG). Active student participation is encouraged through mini-projects, presentations, and discussions, providing hands-on experience in leveraging LLMs for real-world challenges.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA6000Q
+  - DSAAQ 000Q
+  - Large Language Models: Theory and Practice

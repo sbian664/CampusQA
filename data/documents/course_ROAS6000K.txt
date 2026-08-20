@@ -1,0 +1,22 @@
+course: ROAS 6000K
+normalized_code: ROAS6000K
+title: Soft Robotics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS6000K
+  - ROAS 6000K
+  - Soft Robotics

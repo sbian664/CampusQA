@@ -1,0 +1,22 @@
+course: AIAA 5088
+normalized_code: AIAA5088
+title: Natural Language Processing and Its Applications
+subject: AIAA
+catalog_number: "5088"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an in-depth exploration of Natural Language Processing (NLP), emphasizing transformative neural network architectures like RNNs and transformers. Students will engage with core NLP tasks such as language modeling and machine translation, and examine the impacts of recent innovations like Large Language Models.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5088
+  - AIAA 5088
+  - Natural Language Processing and Its Applications

@@ -1,0 +1,22 @@
+course: FTECE 910E
+normalized_code: FTEC6910E
+title: Game Theory
+subject: FTEC
+catalog_number: "6910E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course offers an in-depth analysis of game theory and its advanced applications in fin-tech related fields. First, it covers theoretical foundations, including extensive form game, strategic form game, Nash Equilibrium and its existence, backward induction, games of incomplete information, sub-game perfection, Bayesian Nash equilibrium, sequential equilibrium. Second, it covers mechanism design, including non-linear pricing, dominant strategy mechanism, Bayesian mechanism design, robust mechanism design, and dynamic mechanism design. The course fosters a deep understanding of game theory, equipping students with advanced tools to engage in independent research, and contribute to the development of novel financial technologies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC6910E
+  - FTECE 910E
+  - Game Theory

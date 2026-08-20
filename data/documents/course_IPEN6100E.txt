@@ -1,0 +1,22 @@
+course: IPENE 100E
+normalized_code: IPEN6100E
+title: Life Cycle Assessment: From Theory to Application
+subject: IPEN
+catalog_number: "6100E"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Life cycle assessment (LCA) has emerged as a powerful methodology widely adopted in research, industry, and national policy to assess the environmental impacts of products and processes. However, specialized knowledge and skills are required to understand and effectively implement LCA; hence, this course seeks to provide that. This course will delve into the fundamental concepts of LCA and highlight the challenges of implementing LCA, including goal and scope definition, data availability and quality, methodological complexity, and results interpretation and uncertainty analysis. A special topic that includes integrating artificial intelligence (AI) and other systems analytical tools to complement the LCA limitations will be discussed. The students will also learn about the application of LCA in various industries, including energy, solid waste, and green buildings. Practical case studies will be discussed to provide the students with knowledge and skills to apply to LCA in various industries.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN6100E
+  - IPENE 100E
+  - Life Cycle Assessment: From Theory to Application

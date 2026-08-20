@@ -1,0 +1,22 @@
+course: SMMG 3030
+normalized_code: SMMG3030
+title: Prescriptive Analytics
+subject: SMMG
+catalog_number: "3030"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Introduction to optimization methods. Topics include linear programming, integer programming, nonlinear programming, decision-making under uncertainty, and sequential decision-making. Software packages are used to solve data-driven decision-making problems in engineering and business.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG3030
+  - SMMG 3030
+  - Prescriptive Analytics

@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：孙朔（Shuo SUN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：shuosun@hkust-gz.edu.cn
+  办公室：W4 (C8) L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Shuo/shuosun
+  研究方向：
+    Reinforcement Learning，
+    Deep Learning，
+    Quantitative Trading，
+    Large Language Model，
+    AI + Blockchain，

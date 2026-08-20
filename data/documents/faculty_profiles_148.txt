@@ -1,0 +1,17 @@
+教职员简介：
+  姓名：张黔（Qian ZHANG）
+  职称：Chair Professor
+  学域：Thrust of Internet of Things
+  邮箱：
+  办公室：CWB Campus, Room 3544
+  个人网站：
+  研究方向：
+    Internet of Things (IoT)，
+    Smart Healthcare，
+    Mobile computing and sensing，
+    Blockchain infrastructure construction，
+    Next-generation wireless networks，
+    Cyber security，
+    Cognitive radio networks and dynamic spectrum management，
+    Network economics，
+    Multimedia delivery over Internet, wireless, and wireless Internet，

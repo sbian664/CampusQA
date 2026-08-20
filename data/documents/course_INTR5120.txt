@@ -1,0 +1,22 @@
+course: INTR 5120
+normalized_code: INTR5120
+title: Optimization Methods for Transport and Logistics Management
+subject: INTR
+catalog_number: "5120"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce important optimization problems arising from transport and logistics management, including network flow problems, routing and scheduling problems, and problems involving uncertainty. It will focus on modeling techniques and solution methodology for problem solving. Theoretical and operational insights into the problems will also be discussed. The goal of the course is to train students to a level of technical competency to formulate and solve related optimization problems that they may encounter in both research and real-life.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5120
+  - INTR 5120
+  - Optimization Methods for Transport and Logistics Management

@@ -1,0 +1,22 @@
+course: CMAA 5041
+normalized_code: CMAA5041
+title: Experiment Design for Protocol Optimization
+subject: CMAA
+catalog_number: "5041"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is for students who want to improve their skills in designing and optimizing experiment protocol in HCI study. It focuses on helping students understand the difference between exploring new ideas and confirming what we already know. The course covers key concepts like how to plan experiments, test different variables, and find the best solutions using advanced techniques to verify their new interaction protocol. Students will also learn both quantitative (numbers-based) and qualitative (observation-based) research methods, giving them a strong foundation for conducting experiments. Along with learning how to design experiments, students will get hands on experience with statistical tools to analyze data and make informed decisions. By the end of the course, students will be confident in using these methods to solve real-world problems and improve processes in different areas of research.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5041
+  - CMAA 5041
+  - Experiment Design for Protocol Optimization

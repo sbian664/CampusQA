@@ -1,0 +1,22 @@
+course: AIAA 3225
+normalized_code: AIAA3225
+title: Learning and Optimization for Artificial Intelligence
+subject: AIAA
+catalog_number: "3225"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Learning and optimization serve as the foundational block for many artificial intelligence algorithms. Our initial focus is on convex analysis and on modeling problems as convex problems, while later on in the course we will shift the focus to different algorithms for convex optimization and nonconvex optimization. The techniques introduced in this course will be motivated by needs of problems and applications in Machine Learning and Deep Learning. The topics range from foundational material to cutting-edge trends.
+
+requirements:
+  prerequisite: DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3225
+  - AIAA 3225
+  - Learning and Optimization for Artificial Intelligence

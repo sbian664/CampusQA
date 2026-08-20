@@ -1,0 +1,22 @@
+course: EOAS 5005
+normalized_code: EOAS5005
+title: Introduction to Atmospheric Science
+subject: EOAS
+catalog_number: "5005"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamental principles that govern the physical and chemical processes in the atmosphere, including the thermodynamics of dry and moist air, radiative transfer, important trace gases and aerosols, and essential aspects of atmospheric circulation, etc. These fundamental principles form the basis of understanding the role of atmosphere in the global energy, water and carbon cycles, and the interaction between the atmosphere and other components of the Earth system. This course also provides a synthesis of these topics in the context of critical issues that are affecting human society such as extreme weather events, air pollution, and climate change.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5005
+  - EOAS 5005
+  - Introduction to Atmospheric Science

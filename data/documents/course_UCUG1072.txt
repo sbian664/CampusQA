@@ -1,0 +1,22 @@
+course: UCUG 1072
+normalized_code: UCUG1072
+title: Advanced Listening and Speaking of Putonghua
+subject: UCUG
+catalog_number: "1072"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is designed for students who have learned Chinese for 151-250 tuition hours. It prepares students for an advanced-level understanding of Putonghua and equips them with a strong communicative competence in using Chinese in social and professional situations. After successfully completing the course, students will be able to handle a wide range of discourse with nearly full linguistic control and communicate effectively on complex topics relating to life, study and work.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: UCUG 1074, UCUG 1077
+
+search_aliases:
+  - UCUG1072
+  - UCUG 1072
+  - Advanced Listening and Speaking of Putonghua

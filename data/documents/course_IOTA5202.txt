@@ -1,0 +1,22 @@
+course: IOTA 5202
+normalized_code: IOTA5202
+title: Efficient Machine Learning for Resource Constrained Environments
+subject: IOTA
+catalog_number: "5202"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores cutting-edge techniques for creating efficient machine-learning models to address the growing demand for real-time decision-making and localized processing across diverse application fields, including IoT/robotics/smart manufacturing systems and beyond. Key topics include model compression, pruning, quantization, neural architecture search, knowledge distillation, on-device fine-tuning, transfer learning, application-specific acceleration techniques, etc. Through hands-on projects, students will learn to optimize and adapt deep learning models for resource-constrained devices while maintaining accuracy and performance.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5202
+  - IOTA 5202
+  - Efficient Machine Learning for Resource Constrained Environments

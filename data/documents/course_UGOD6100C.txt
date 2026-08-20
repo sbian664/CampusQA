@@ -1,0 +1,22 @@
+course: UGODC 100C
+normalized_code: UGOD6100C
+title: Qualitative and mixed research
+subject: UGOD
+catalog_number: "6100C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will provide an overview of qualitative and mixed research, with an emphasis on its application in urban studies. The course will begin with a discussion of the main types of research methodologies and the history of mixed research. We will delve into the techniques for collecting, analyzing, integrating, and reporting data from multiple sources will be introduced. The course will also discuss different forms of causality, causal inference, and theory testing in qualitative and comparative case study approaches. Participants will be encouraged to engage with the latest trends in mixed methods including qualitative comparative analysis, process tracing, and analytical narratives. The main goal of this course is to equip participants with relevant knowledge, skills and awareness of using the proper methods in solving the research questions in social science studies.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD6100C
+  - UGODC 100C
+  - Qualitative and mixed research

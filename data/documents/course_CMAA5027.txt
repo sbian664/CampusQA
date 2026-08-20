@@ -1,0 +1,22 @@
+course: CMAA 5027
+normalized_code: CMAA5027
+title: Emerging Technologies in Media, Art and Heritage
+subject: CMAA
+catalog_number: "5027"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with the necessary knowledge and skills to critically evaluate the role and use of emerging computational technologies in Art, Media, and Heritage. These technologies include Generative AI, Natural Language Processing, Sentiment Analysis, and others. Students will learn to select and assess these technologies based on their ability to best support the core values of art creation, media production, and heritage applications through various coursework. The course will feature real-world experience, case studies, and guest speakers to provide students with a practical understanding of these technologies. Furthermore, students will receive hands-on technical training through weekly or bi-weekly practical activities. Eventually, students will develop innovative content or applications for exhibition or real-world collaboration.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA5027
+  - CMAA 5027
+  - Emerging Technologies in Media, Art and Heritage

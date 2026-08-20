@@ -1,0 +1,22 @@
+course: SEEN 5210
+normalized_code: SEEN5210
+title: Energy Materials and Systems
+subject: SEEN
+catalog_number: "5210"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Materials are critical for the developments of advanced energy systems, which play a pivotal role towards the sustainable, carbon-neutral future. This course will introduce the working principles of a few energy systems such as fossil fuel, renewable energies, batteries, and supercapacitors. Special focus will be placed on the material aspects of these energy systems through the interrelationships of composition, processing, structure, properties, and performance.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5210
+  - SEEN 5210
+  - Energy Materials and Systems

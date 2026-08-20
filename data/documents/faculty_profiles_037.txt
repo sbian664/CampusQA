@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：吕杨迪（Yangdi LYU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yangdilyu@hkust-gz.edu.cn
+  办公室：W4(C8) L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LYU-Yangdi/yangdilyu
+  研究方向：
+    Electronic Design Automation，
+    Automated test generation，
+    Hardware security and trust，

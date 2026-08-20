@@ -1,0 +1,22 @@
+course: SMMG 4630
+normalized_code: SMMG4630
+title: Design of Logistics and Manufacturing Systems
+subject: SMMG
+catalog_number: "4630"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Facility location, process and material flow analysis, space allocation and plant layout, computerized layout planning, material handling equipment, material handling system design.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG4630
+  - SMMG 4630
+  - Design of Logistics and Manufacturing Systems

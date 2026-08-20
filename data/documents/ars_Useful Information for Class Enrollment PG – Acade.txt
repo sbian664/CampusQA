@@ -1,0 +1,78 @@
+ars_page: Useful Information for Class Enrollment (PG) – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+source: ARS
+
+headings:
+  - Useful Information for Class Enrollment (PG)
+  - Class Enrollment Guide (PG)
+
+text: >
+  Useful Information for Class Enrollment (PG)
+  April 22, 2025
+  Study Load Requirement and Restriction
+  1. Taught master’s programs
+  The normal study load for full-time students on taught master’s programs is twelve credits per regular term, with nine credits being the minimum. For part-time students, unless otherwise specified by program regulations, the maximum study load is eight credits per term. The normal credits of audit courses at the time of class enrollment are included in the calculation of study load.
+  2. Research degree programs
+  The normal study load of full-time research degree students is ten credits per regular term whereas the maximum study load for those in part-time mode is eight, including normal credit load of audit courses. Students registered as Continuing Student can only enroll in the thesis research course. Students should ensure that they enroll on the appropriate thesis research course when they begin their thesis research work. They should continue to enroll in the thesis research course until they have submitted their thesis. Full-time students should avoid undue credits overload. Over-enrollment of courses without genuine academic reasons should be discouraged.
+  Thesis Research / Project Course
+  Students who commence their thesis research/project courses this term must submit class enrollment requests to add the thesis/project courses formally.
+  For students who have already enrolled in thesis research/project courses and obtained ‘PP’ grades in the last regular term, they will automatically be registered in the same thesis research/project courses this term. If they decide to discontinue the thesis research/project, students have to drop these courses by the course dropping deadline.
+  Please note that the automatic continued registration of thesis research/project courses applies in Fall and Spring terms only.
+  Course Enrollment
+  All the courses enrollment, except for the pre-enrolled ones, should be done by students in SIS(GZ). Before the enrollment starts, if students have questions about the courses they need to take in the first term, they should consult their program offices.
+  Change of Course Enrollment Status
+  Requests for change of course enrollment status from ‘Normal’ to ‘Audit’ and vice versa must be settled before the end of add/drop period.
+  Course Add/Drop and Course Withdrawal after Add/Drop Period
+  Students may make changes to their class enrollment during the add/drop period scheduled at the beginning of each term. Changes made in this period will not be reflected in the student’s record.
+  Requests to add or withdraw from courses after the add/drop period will not be accepted, except under extenuating circumstances beyond the control of the student. Students wishing to request for course add or withdrawal after the add/drop period will be required to provide the program office with full justification for making the application. The request has to be supported by the course instructor concerned, and endorsed by the Thrust Head/ RBM Director, and the Dean or the Dean’s designate before it is forwarded to Academic Registry Services for consideration.
+  If approval is granted for course withdrawal, the Withdrawal without Penalty Grade ‘W’ will be recorded on the student’s transcript as the course grade.
+  Circumstances under which Registration will become null and void
+  Each student enrolled in a specific program is subject to the requirements of the major department and the University. Below are the circumstances under which registration will become null and void:
+  PG students exceed time limit for degree completion.
+  Students fail to maintain satisfactory academic progress and are subject to academic dismissal.
+  Research postgraduates fail to submit the completed annual progress report by the prescribed deadline and result in discontinuation of study.
+  PG students fail to meet the re-enrollment conditions for resumption of study at the end of the suspension or leave from study period.
+  Students who fail to obtain prior permission from the University concurrently register for another program at this University or at another tertiary institution.
+  Students who fail to settle overdue tuition fees.
+  Students who are required to withdraw from the University subject to the University’s regulation.
+  Please note that a student’s program registration will be revoked without formal class enrollment. Students should ensure that they have properly registered in the courses specified for a term.
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Course Offering and Class Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

@@ -1,0 +1,22 @@
+course: UFUG 2104
+normalized_code: UFUG2104
+title: Applied Statistics
+subject: UFUG
+catalog_number: "2104"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers the basic concepts of Statistics and Probability Theory, gives a systematic introduction to Statistical Inference, Test Statistic, Regression, and Bayesian Statistics, and deepens the understanding of these theories and techniques through practical applications.
+
+requirements:
+  prerequisite: UFUG 1102  OR UFUG 1105
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG2104
+  - UFUG 2104
+  - Applied Statistics

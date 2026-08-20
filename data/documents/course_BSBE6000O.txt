@@ -1,0 +1,22 @@
+course: BSBEO 000O
+normalized_code: BSBE6000O
+title: Mass Spectrometry, Proteomics and Their Clinical Applications
+subject: BSBE
+catalog_number: "6000O"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course explores the dynamic world of proteins and their critical roles in biological systems and clinical research. Participants will learn advanced methodologies for protein characterization and functional omics, encompassing bothÂ traditional techniquesÂ (e.g., protein separation, purification, and analysis of protein complexes in chemical biology) andÂ cutting-edge omics strategiesÂ (e.g., high-throughput identification, quantification, and analysis of proteins and their post-translational modifications). Students will gain a robust understanding of the classical approachesÂ in protein biochemistry, including isolation and functional analysis of proteins, and Modern omics technologiesÂ for system-wide profiling of proteins in biological and clinical contexts. The course also provides a framework for students to design and develop their own research projects, applying these tools to solve the challenges in neurobiology, biomedicine and clinical applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000O
+  - BSBEO 000O
+  - Mass Spectrometry, Proteomics and Their Clinical Applications

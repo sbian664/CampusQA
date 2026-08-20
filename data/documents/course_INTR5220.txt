@@ -1,0 +1,22 @@
+course: INTR 5220
+normalized_code: INTR5220
+title: Wireless Connectivity for Mobile Autonomous Things
+subject: INTR
+catalog_number: "5220"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to develop studentsâ fundamental understanding of the application scenarios, challenges, and solutions of wireless connectivity in various systems involving autonomous things, and under possible mobility. Topics covered include fundamentals of digital communications, future wireless connectivity requirements, and various solutions to the unique challenges such as dynamic propagation environment, scalability, complexity, and heterogeneity.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - INTR5220
+  - INTR 5220
+  - Wireless Connectivity for Mobile Autonomous Things

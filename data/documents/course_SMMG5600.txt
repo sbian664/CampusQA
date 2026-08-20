@@ -1,0 +1,22 @@
+course: SMMG 5600
+normalized_code: SMMG5600
+title: Fundamental Theories and Algorithms of CAD/CAM
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5600
+  - SMMG 5600
+  - Fundamental Theories and Algorithms of CAD/CAM

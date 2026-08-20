@@ -1,0 +1,22 @@
+course: FTEC 4110
+normalized_code: FTEC4110
+title: Statistical Machine Learning
+subject: FTEC
+catalog_number: "4110"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with an extensive exposure to the elements of statistical machine learning in supervised and unsupervised learning with real world datasets. Topics include regression, classification, resampling methods, model assessment, model selection, regularization, nonparametric models, boosting, ensemble methods, random forests, kernel methods, support vector machines, neural networks, and some standard techniques in unsupervised learning such as clustering and dimensionally reduction. Lab sessions on using R or Python in data analysis with machine learning methods will be conducted in class. Scientific reports and/or poster presentations are required for project evaluations.
+
+requirements:
+  prerequisite: (UFUG 1602 OR UFUG 2601) AND FTEC 3130 AND DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC4110
+  - FTEC 4110
+  - Statistical Machine Learning

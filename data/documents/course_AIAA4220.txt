@@ -1,0 +1,22 @@
+course: AIAA 4220
+normalized_code: AIAA4220
+title: Introduction to Embodied AI
+subject: AIAA
+catalog_number: "4220"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the fundamentals of embodied AI. Students will explore key principles and algorithms to build modern autonomous embodied AI systems. Key topics include machine perception, planning and decision-making algorithms. Through this course, students will learn and practice the foundational principles, techniques, and tools to build new embodied autonomous AI systems.
+
+requirements:
+  prerequisite: (UFUG1103 OR UFUG1106) AND UFUG2104
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA4220
+  - AIAA 4220
+  - Introduction to Embodied AI

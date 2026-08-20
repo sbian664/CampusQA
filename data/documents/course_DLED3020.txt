@@ -1,0 +1,22 @@
+course: DLED 3020
+normalized_code: DLED3020
+title: English Communication I for Information Hub programs
+subject: DLED
+catalog_number: "3020"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course provides students with exposure to and practice in using English within the specific fields of Artificial Intelligence, Computer Media Arts, Internet of Things, Data Science. The course aims to encourage students to develop their abilities as thoughtful communication strategists, to communicate effectively, appropriately and confidently in relevant academic and professional contexts, and to use language to express critically the wider social implications of their fields on topics relevant to all INFH students.
+
+requirements:
+  prerequisite: UCUG 1052 or UCUG 1053
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DLED3020
+  - DLED 3020
+  - English Communication I for Information Hub programs

@@ -1,0 +1,28 @@
+ars_page: Online Program Registration Guide – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/program-registration/online-program-registration-guide/
+source: ARS
+
+headings:
+  - Online Program Registration
+
+text: >
+  Online Program Registration
+  Dear Students,
+  Welcome to the Hong Kong University of Science and Technology (Guangzhou)!
+  As a new student, you will be invited to complete the Online Program Registration, an official email with subject
+  “HKUST (GZ): Invitation for Program Registration” (Student No. XXXXXXX)
+  will be sent to both of your personal email address and Campus Account (University Email Address) by the Academic Registry Services.
+  Please read through the guidance on the email and
+  complete your Online Program Registration before the deadline
+  as stated in the email. Each student admitted to the University in a particular academic year must complete the online registration in their programs.
+  More detailed guidance on completing your Online Program Registration can be found
+  here
+  .
+  For any queries, please contact Academic Registry Services by sending email to
+  gzars@hkust-gz.edu.cn
+  .
+  Academic Registry Services
+  The Hong Kong University of Science and Technology (Guangzhou)
+
+links:
+  - here | https://ars.hkust-gz.edu.cn/program-registration/online-program-registration-guide/guidance-on-completing-your-online-program-registration/

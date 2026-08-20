@@ -1,0 +1,22 @@
+course: IPEN 5180
+normalized_code: IPEN5180
+title: Disruptive Technologies and Society
+subject: IPEN
+catalog_number: "5180"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course gives students a broad introduction to the key disruptive technologies, such as mobile internet, AI, and robotics, that have transformed our society. We will examine the practical applications of these technologies and discuss their socioeconomic impacts and policy responses. We will also look at the potential for businesses and governments to harness these disruptive technologies to deliver new services or improve existing ones and enhance value in public and private sectors.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IPEN5180
+  - IPEN 5180
+  - Disruptive Technologies and Society

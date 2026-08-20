@@ -1,0 +1,22 @@
+course: AMAT 2320
+normalized_code: AMAT2320
+title: Solid Mechanics I
+subject: AMAT
+catalog_number: "2320"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Forces, moments, equilibrium; principles of virtual work; analysis of structural members under axial load, torsion and bending; shear force and bending moment diagrams; statically indeterminate trusses; buckling and structural stability.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT2320
+  - AMAT 2320
+  - Solid Mechanics I

@@ -1,0 +1,22 @@
+course: UGOD 5020
+normalized_code: UGOD5020
+title: Quantitative Social Science
+subject: UGOD
+catalog_number: "5020"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course builds on the knowledge of the linear regression models to introduce students advanced statistical methods to analyze survey, administrative and other types of data of interest to quantitative social scientists. The introduction of statistical methods is integrated into research contexts and designs from a holistic framework and bridge quantitative social science and computational social science (data science). Topics include measurement, prediction, causal inference, natural experiment and program evaluation (difference-in-differences, panel data, instrumental variables, regression discontinuity), applied to both survey and big data.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5020
+  - UGOD 5020
+  - Quantitative Social Science

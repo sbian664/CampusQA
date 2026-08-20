@@ -1,0 +1,9 @@
+教职员简介：
+  姓名：王蕴达（Yunda WANG）
+  职称：Associate Dean
+  学域：Systems Hub
+  邮箱：ydwang@hkust-gz.edu.cn
+  办公室：W1 L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yunda/ydwang
+  研究方向：
+    Prof. Wang’s research has focused on exploring disruptive innovation and developing key technologies in micro-electro-mechanical systems (MEMS), microsystem integration, and thermal management devices for sensor and electronics, that push the boundaries of science and engineering. Of special interest are areas including (a) micro-scale integration for hybrid electronics, emerging display technologies, large area sensors, wearable health monitoring devices, and human-machine interfaces and (b) emerging cooling technologies for electronics system thermal management.，

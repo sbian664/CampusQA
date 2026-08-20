@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：戴恩炎（Enyan DAI）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：enyandai@hkust-gz.edu.cn
+  办公室：E4 L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DAI-Enyan/enyandai
+  研究方向：
+    Trustworthy Vision-Language-Action Model，
+    AI for Protein Science，

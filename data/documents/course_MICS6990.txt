@@ -1,0 +1,22 @@
+course: MICS 6990
+normalized_code: MICS6990
+title: MPhil Thesis Research
+subject: MICS
+catalog_number: "6990"
+credits: 0
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6990
+  - MICS 6990
+  - MPhil Thesis Research

@@ -1,0 +1,22 @@
+course: FTEC 5110
+normalized_code: FTEC5110
+title: Research in Asset Pricing
+subject: FTEC
+catalog_number: "5110"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course addresses issues in both theoretical development and empirical studies of asset pricing. The theoretical part covers portfolio theory, arbitrage pricing theory with large numbers of assets, the intertemporal asset pricing model and the production-based asset pricing model. Topics related to derivative pricing are also covered. The empirical part covers asset return predictability, volatility-return relationship, asset pricing testing methodology, popular factor models used by practitioners and empirical findings in derivative markets.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5110
+  - FTEC 5110
+  - Research in Asset Pricing

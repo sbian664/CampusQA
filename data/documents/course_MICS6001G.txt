@@ -1,0 +1,22 @@
+course: MICS 6001G
+normalized_code: MICS6001G
+title: Probability and Statistics for Electrical Engineering: Basics and Applications
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001G
+  - MICS 6001G
+  - Probability and Statistics for Electrical Engineering: Basics and Applications

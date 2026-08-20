@@ -1,0 +1,22 @@
+course: MSSM 5009
+normalized_code: MSSM5009
+title: Fundamental Theories and Algorithms of CAD/CAM
+subject: MSSM
+catalog_number: "5009"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course covers topics such as curves and surfaces, geometric modeling basics, data structures in CAD/CAM, optimization, numerical control technology, numerical control machining, and projects. In addition to lectures, a 3-hour lab in SolidWorks and MATLAB programming will be offered.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MSSM5009
+  - MSSM 5009
+  - Fundamental Theories and Algorithms of CAD/CAM

@@ -1,0 +1,22 @@
+course: UFUG 1402
+normalized_code: UFUG1402
+title: General Biology II
+subject: UFUG
+catalog_number: "1402"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  In General Biology II, we will focus on the biological processes of human physiology and basic knowledge of genetics Topics include nervous systems, circulatory systems, respiratory systems, osmoregulation and excretion, digestive system and nutrition, endocrine System, lymphatic and Immune systems, DNA structure and gene expression, patterns of gene inheritance , chromosomal basis of inheritance, biotechnology, development, and aging.
+
+requirements:
+  prerequisite: UFUG 1401
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1402
+  - UFUG 1402
+  - General Biology II

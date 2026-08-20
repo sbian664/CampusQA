@@ -1,0 +1,22 @@
+course: AMAT 5540
+normalized_code: AMAT5540
+title: Introduction to Low-Dimensional Materials
+subject: AMAT
+catalog_number: "5540"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course emphasizes the critical role of nanotechnology in the modern technology, focusing on the distinctive properties of low-dimensional nanomaterials and nanostructures across one to three dimensions. It encompasses their classification, fabrication methods, and varied applications in photonics, sensors, catalysis, energy storage, etc. By offering a comprehensive overview, the course will help students to conduct research in nanotechnology.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5540
+  - AMAT 5540
+  - Introduction to Low-Dimensional Materials

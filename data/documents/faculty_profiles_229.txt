@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：鲁中海（Zhonghai LU）
+  职称：Professor
+  学域：Thrust of Microelectronics
+  邮箱：zhl@hkust-gz.edu.cn
+  办公室：E3 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Zhonghai/zhl
+  研究方向：
+    Network-on-Chip and Chiplet Network，
+    Computing System Architecture，
+    Embedded Machine Learning，
+    Reliability of Electronic Systems，

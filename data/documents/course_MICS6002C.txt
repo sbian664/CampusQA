@@ -1,0 +1,22 @@
+course: MICSC 002C
+normalized_code: MICS6002C
+title: CUDA Programming
+subject: MICS
+catalog_number: "6002C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course is designed for students aiming to master the art of parallel computing using NVIDIA's CUDA platform. Offering a comprehensive exploration of CUDA and C++ programming, the course emphasizes the development of efficient, high-performance applications optimized for modern GPU architectures. Students will learn to harness the computational power of GPUs by understanding core concepts such as memory hierarchy, thread management, and performance optimization techniques. Through a combination of theoretical insights and practical hands-on sessions, students will gain the skills necessary to tackle complex computational problems across various domains.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002C
+  - MICSC 002C
+  - CUDA Programming

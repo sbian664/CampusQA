@@ -1,0 +1,22 @@
+course: AIAA 3075
+normalized_code: AIAA3075
+title: Information-Theoretic Foundations of Compression and Learning
+subject: AIAA
+catalog_number: "3075"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  In the era of AI, understanding the profound mathematical bedrock that shapes how we process, compress, and learn from data has become essential. This course, Information-Theoretic Foundations of Compression and Learning, aims to bridge the gap between classical information theory and its cutting-edge applications in modern machine learning. Students will learn how basic classical principles—particularly entropy, mutual information, divergence, and channel capacity—dictate the fundamental limits and opportunities in both compression systems and learning algorithms. Furthermore, through an information-theoretic lens, students will understand the crucial relationships between data size, model complexity, and how AI models can predict well on unseen data. These insights provide principled guidance for designing efficient machine learning systems that balance expressiveness with generalization. Students are expected to be equipped with a comprehensive theoretical toolkit to innovate at the intersection of data efficiency and intelligent systems.
+
+requirements:
+  prerequisite: (UFUG 2102 OR UFUG 2103) AND AIAA 2711
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3075
+  - AIAA 3075
+  - Information-Theoretic Foundations of Compression and Learning

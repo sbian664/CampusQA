@@ -1,0 +1,115 @@
+ars_page: Key Dates – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/key-dates/
+source: ARS
+
+headings:
+  - Academic Calendar & Key Dates
+  - Academic Calendar
+  - Key Dates 2026
+  - 2026
+
+text: >
+  Academic Calendar & Key Dates
+  Academic Calendar
+  Key Dates 2026
+  Date
+  Events
+  Term
+  2026
+  Jan 9
+  Validation Period Starts - All UG/PG Students
+  Spring
+  Jan 15
+  Class Enrollment Starts - All UG/PG Students
+  Spring
+  Jan 22
+  Last day of Winter Term
+  Spring
+  Jan 23
+  Spring Term commences
+  Spring
+  Feb 5
+  Add/Drop Period end date
+  Spring
+  Feb 11
+  Winter Break for UG students start date
+  Spring
+  Feb 28
+  Make-up day for Monday classes
+  Spring
+  March 4
+  Extended Drop Period end date - For PG Courses Only
+  Spring
+  May 11
+  Last day of Spring Term classes
+  Spring
+  May 18
+  Spring Term Examinations start date
+  Spring
+  May 29
+  Last day of Spring Term
+  Spring
+  June 15
+  Summer Term commences
+  Summer
+  Aug 7
+  Last day of Summer Term
+  Summer
+  Sep 1
+  - Commencement of the 2026-27 Academic Year
+  - Fall Term commences
+  Fall
+  Sep 14
+  Add/Drop Period end date
+  Fall
+  Sep 30
+  Extended Drop Period end date - For PG Courses Only
+  Fall
+  Oct 10
+  Make-up day for Friday classes
+  Fall
+  Dec 7
+  Last day of Fall Term classes
+  Fall
+  Dec 8
+  Study Break start date
+  Fall
+  Dec 14
+  Fall Term Examinations start date
+  Fall
+  Dec 25
+  Last day of Fall Term
+  Fall
+  Dec 28
+  Winter Term commences
+  Winter
+
+tables:
+  - Date | Events | Term
+  - 2026
+  - Jan 9 | Validation Period Starts - All UG/PG Students | Spring
+  - Jan 15 | Class Enrollment Starts - All UG/PG Students | Spring
+  - Jan 22 | Last day of Winter Term | Spring
+  - Jan 23 | Spring Term commences | Spring
+  - Feb 5 | Add/Drop Period end date | Spring
+  - Feb 11 | Winter Break for UG students start date | Spring
+  - Feb 28 | Make-up day for Monday classes | Spring
+  - March 4 | Extended Drop Period end date - For PG Courses Only | Spring
+  - May 11 | Last day of Spring Term classes | Spring
+  - May 18 | Spring Term Examinations start date | Spring
+  - May 29 | Last day of Spring Term | Spring
+  - June 15 | Summer Term commences | Summer
+  - Aug 7 | Last day of Summer Term | Summer
+  - Sep 1 | - Commencement of the 2026-27 Academic Year - Fall Term commences | Fall
+  - Sep 14 | Add/Drop Period end date | Fall
+  - Sep 30 | Extended Drop Period end date - For PG Courses Only | Fall
+  - Oct 10 | Make-up day for Friday classes | Fall
+  - Dec 7 | Last day of Fall Term classes | Fall
+  - Dec 8 | Study Break start date | Fall
+  - Dec 14 | Fall Term Examinations start date | Fall
+  - Dec 25 | Last day of Fall Term | Fall
+  - Dec 28 | Winter Term commences | Winter
+
+links:
+  - Academic Calendar | https://www.hkust-gz.edu.cn/academics/academic-calendar/
+  - Validation Period Starts - All UG/PG Students | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/

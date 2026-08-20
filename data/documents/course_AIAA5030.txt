@@ -1,0 +1,22 @@
+course: AIAA 5030
+normalized_code: AIAA5030
+title: Foundations of Data Mining
+subject: AIAA
+catalog_number: "5030"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will introduce the fundamental principles, uses, and technical details of data mining techniques by lectures and real-world case studies. The emphasis is on understanding the basic data mining techniques and their applications. We will discuss the mechanics of how data analytics techniques work as is necessary to understand the fundamental concepts and real-world applications.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5030
+  - AIAA 5030
+  - Foundations of Data Mining

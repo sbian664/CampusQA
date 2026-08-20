@@ -1,0 +1,22 @@
+course: UFUG 1999A
+normalized_code: UFUG1999A
+title: Engineering Team Design Experience
+subject: UFUG
+catalog_number: "1999A"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The Engineering Team Design Experience course allows students to explore various areas of engineering in order to design and work towards a final road show demonstration before the end of the term. Students in this course will be divided into design teams with a common goal: construct their project artifact or virtual 3D model, taken from a wide range of engineering and design contexts. There will be three main aspects: engineering skills, design creativity and teamwork. Fundamental engineering skills will be introduced in different engineering fields, such as 3D modelling or hands-on prototyping skills, along with exposure to various kinds of advanced technology available. Some class sessions will focus on design thinking and creativity. They are key to creating practical and interesting products. Students will work together in teams to realize their common idea of their final roadshow project, to have a real-world experience working with a design team.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1999A
+  - UFUG 1999A
+  - Engineering Team Design Experience

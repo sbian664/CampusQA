@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：郑心湖（Xinhu ZHENG）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：xinhuzheng@hkust-gz.edu.cn
+  办公室：W2 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng
+  研究方向：
+    Intelligent Transportation System Autonomous Driving，
+    Environment Perception，
+    Connected Intelligence，
+    Multimodal Data Fusion，

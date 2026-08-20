@@ -1,0 +1,22 @@
+course: DSAA 4018
+normalized_code: DSAA4018
+title: Data Science for Cross-disciplinary Applications
+subject: DSAA
+catalog_number: "4018"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will cover the basics of data science with a focus on how it can be applied to solve problems across a variety of disciplines. Topics will include data wrangling, exploratory data analysis, machine learning, and data visualization. The course will be taught using a mix of lectures, readings, and hands-on labs and projects.
+
+requirements:
+  prerequisite: (DSAA 2011 OR DSAA 2012 OR AIAA 3111) AND DSAA 2031
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - DSAA4018
+  - DSAA 4018
+  - Data Science for Cross-disciplinary Applications

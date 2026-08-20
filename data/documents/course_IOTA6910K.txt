@@ -1,0 +1,22 @@
+course: IOTAK 910K
+normalized_code: IOTA6910K
+title: Distributed and Federated Machine Learning
+subject: IOTA
+catalog_number: "6910K"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  From operating systems to artificial intelligence, the principles of distributed computing underpin much of contemporary computer science. This course provides a comprehensive introduction to distributed systems and their applications in distributed learning. The first part focuses on foundational concepts in distributed computing, covering classical problems such as synchronization, fault tolerance, and communication protocols, as well as the theoretical challenges that arise when computation and communication are distributed across multiple nodes. Building on this foundation, the second part explores how distributed principles are applied to large-scale machine learning. Topics include federated learning, large language models (LLMs), and distributed AI agent coordination, highlighting how distributed systems continue to evolve and shape the future of intelligent computing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA6910K
+  - IOTAK 910K
+  - Distributed and Federated Machine Learning

@@ -1,0 +1,22 @@
+course: EOAS 5002
+normalized_code: EOAS5002
+title: Atmosphere-Ocean Dynamics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - EOAS5002
+  - EOAS 5002
+  - Atmosphere-Ocean Dynamics

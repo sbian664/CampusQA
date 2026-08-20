@@ -1,0 +1,22 @@
+course: AIAA 3072
+normalized_code: AIAA3072
+title: Foundations of Quantum Computing and Quantum AI
+subject: AIAA
+catalog_number: "3072"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Quantum computing represents a revolutionary computing paradigm with transformative potential for next-generation AI. This course provides a comprehensive introduction to quantum computing and quantum AI, guiding students from foundational concepts—such as qubits and quantum circuits—to advanced topics, including quantum algorithms, quantum error correction, quantum simulation, and quantum programming. The curriculum also introduces the foundations of the emerging area of quantum AI, covering quantum neural networks, quantum machine learning methods, and AI applications in quantum computing. It spans material from basic principles to the latest cutting-edge developments.
+
+requirements:
+  prerequisite: (UFUG 2102 OR UFUG 2103) AND AIAA 2711
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA3072
+  - AIAA 3072
+  - Foundations of Quantum Computing and Quantum AI

@@ -1,0 +1,22 @@
+course: MICSL 001L
+normalized_code: MICS6001L
+title: Secure Hardware Architecture
+subject: MICS
+catalog_number: "6001L"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  In this course, we will first introduce classic microarchitectural side-channel attacks, such as Spectre, Meltdown, Hertbleed, Fallout, and AfterImage. You will learn how they leak data from modern processors. This course will then introduce how to design secure microarchitecture to defend against these attacks. You will use some simulators to reproduce these defenses and finally design your own secure processor.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001L
+  - MICSL 001L
+  - Secure Hardware Architecture

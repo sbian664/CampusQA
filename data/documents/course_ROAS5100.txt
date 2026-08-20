@@ -1,0 +1,22 @@
+course: ROAS 5100
+normalized_code: ROAS5100
+title: Advanced Robot Mechanisms and Design
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5100
+  - ROAS 5100
+  - Advanced Robot Mechanisms and Design

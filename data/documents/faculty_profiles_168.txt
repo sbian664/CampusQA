@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：陈煌栒（Huangxun CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：huangxunchen@hkust-gz.edu.cn
+  办公室：E1 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Huangxun/huangxunchen
+  研究方向：
+    Efficient Edge/Embedded AI System，
+    Human‑Centered AI System，
+    Intent‑driven System Operation and Management，
+    Sensing and Perception Security/Privacy，
+    AIoT (Artificial Intelligence of Things)，

@@ -1,0 +1,22 @@
+course: MICS 1010
+normalized_code: MICS1010
+title: Introduction to IC Chip
+subject: MICS
+catalog_number: "1010"
+credits: 1
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces integrated circuit (IC) and insights into key IC technologies. Through visiting chip fabrication facilities and watching examples, it helps students understand the importance of IC to our daily lives and societies. The course overviews topics including IC fabrication, architecture, systems, applications, and electronic design automation (EDA). The IC history and development trends are discussed in the course. Graded Pass/Fail.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS1010
+  - MICS 1010
+  - Introduction to IC Chip

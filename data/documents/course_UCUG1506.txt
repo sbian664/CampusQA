@@ -1,0 +1,22 @@
+course: UCUG 1506
+normalized_code: UCUG1506
+title: Enjoyment of Classical Music
+subject: UCUG
+catalog_number: "1506"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  From the power and beauty of the orchestra to masterpieces of the church and concert hall, students will gain an in-depth appreciation for the history and fundamentals of Western classical music. The listening and analytical skills demonstrated will bring about a deeper understanding of music as an art form. Previous musical training, albeit helpful, is not required.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1506
+  - UCUG 1506
+  - Enjoyment of Classical Music

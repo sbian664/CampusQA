@@ -1,0 +1,22 @@
+course: ROAS 5700
+normalized_code: ROAS5700
+title: Robot Motion Planning and Control
+subject: ROAS
+catalog_number: "5700"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces the advanced methodologies in the context of motion planning and control for robotics and autonomous systems. Various methodologies are introduced, including search-based methods, grid-based methods, sampling-based methods, optimization-based methods, learning-based methods, etc. In general, this course covers modern approaches, deep theory, and good practice envisions. In addition to the fundamental knowledge in motion planning and control, the students will also have the opportunity to discover and learn cutting-edge methodologies in the related field, aligning with the substantial developments in robotics, autonomous driving, UAVs, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - ROAS5700
+  - ROAS 5700
+  - Robot Motion Planning and Control

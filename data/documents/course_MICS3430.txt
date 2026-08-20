@@ -1,0 +1,22 @@
+course: MICS 3430
+normalized_code: MICS3430
+title: Digital Fundamentals and System Design
+subject: MICS
+catalog_number: "3430"
+credits: 4
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Design and synthesis of digital circuits with main emphasis on sequential logic taught through project-based learning approach. Laboratory assignments make extensive use of VHDL and FPGAs and prepare students for an open-ended project undertaken in the remaining part of the course.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS3430
+  - MICS 3430
+  - Digital Fundamentals and System Design

@@ -1,0 +1,22 @@
+course: SEEN 5180
+normalized_code: SEEN5180
+title: Advanced Thermal Management for Electronics and Power Batteries
+subject: SEEN
+catalog_number: "5180"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course introduces concepts in the thermal management of electronics systems and power batteries. Traditional and innovative methods for heat dissipation from electronic systems, and assessment of these methods over a range of applications and scales, will be covered. Novel ultrathin flexible vapor chamber heat spreaders and microchannel heat sinks will be introduced and discussed. Some special emphasis is given to industry applications to discuss thermal management trends.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SEEN5180
+  - SEEN 5180
+  - Advanced Thermal Management for Electronics and Power Batteries

@@ -1,0 +1,22 @@
+course: IOTA 5005
+normalized_code: IOTA5005
+title: Introduction to Energy Harvesting Technology
+subject: IOTA
+catalog_number: "5005"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The distributed power supply for millions and billions of remote & off-grid electronics (such as wireless IOT node sensors) is challenging. Harvesting sustainable energy from the ambient environment provides the possibility of designing battery-free devices. This course will introduce the vibration energy harvesting technology developed in the past two decades to students. As the fundamentals, commonly used energy transduction mechanisms will be first introduced to the students. The students will also learn various modeling methods, including lumped parameter modeling, equivalent circuit modeling, and finite element modeling.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - IOTA5005
+  - IOTA 5005
+  - Introduction to Energy Harvesting Technology

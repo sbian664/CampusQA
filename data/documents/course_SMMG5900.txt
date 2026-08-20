@@ -1,0 +1,22 @@
+course: SMMG 5900
+normalized_code: SMMG5900
+title: Advanced Metal Additive Manufacturing
+subject: SMMG
+catalog_number: "5900"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides students with the latest knowledge and skills for metal additive manufacturing (AM) techniques and implications, as well as the fundamental understanding of process-structure-property relationships in material processing using AM.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG5900
+  - SMMG 5900
+  - Advanced Metal Additive Manufacturing

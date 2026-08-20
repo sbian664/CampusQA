@@ -1,0 +1,22 @@
+course: UCUG 1070
+normalized_code: UCUG1070
+title: Elementary Listening and Speaking of Putonghua
+subject: UCUG
+catalog_number: "1070"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  The course is designed for students who have learned Chinese for less than 50 tuition hours. It aims to equip the students with listening and speaking skills for communicating in Putonghua for daily and social purposes through a range of learning activities. After successfully completing the course, students will have developed fundamental listening and speaking skills of Putonghua necessary for daily communication.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UCUG1070
+  - UCUG 1070
+  - Elementary Listening and Speaking of Putonghua

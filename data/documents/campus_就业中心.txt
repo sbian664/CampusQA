@@ -1,0 +1,16 @@
+Campus page: 就业中心
+Language: zh
+Section: facilities
+Source: https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/career-center/
+
+就业中心致力于为本校学生提供优质的就业服务。服务内容包括收集和发布就业信息，组织各类宣讲会与招聘会；就业服务信息化建设及维护；联络潜在雇主并建立合作关系；策划和组织就业相关讲座、交流会、企业参访等活动；提供简历指导服务；对毕业生就业信息进行收集、统计、分析及报送；对毕业生开展跟踪调查等。
+
+联系我们
+
+地点：C2 203，学生事务办公室
+
+办公时间：8:30am-12pm, 1:00pm-5:30pm（周一至周五，节假日除外）
+
+电话：（020）88339139
+
+邮箱：careercenter@hkust-gz.edu.cn（可发邮件预约相关服务）

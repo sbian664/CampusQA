@@ -1,0 +1,22 @@
+course: AIAA 5050
+normalized_code: AIAA5050
+title: Machine Consciousness
+subject: AIAA
+catalog_number: "5050"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  The study of consciousness is referred to as the "ultimate challenge of artificial intelligence." This course provides instruction and discussions in the field of machine consciousness. The main content includes an introduction to consciousness research, mainstream theories of consciousness, research on self-awareness, attention mechanisms, optimization of intelligent agent goals, subjectivity and affective computing, consciousness modeling and evaluation of artificial intelligence systems, and analysis and control of risks related to machine consciousness. Through this course, participants can gain a fairly comprehensive and in-depth understanding of the research history and current status of the field of machine consciousness, and engage in collaborative research on several specific issues.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA5050
+  - AIAA 5050
+  - Machine Consciousness

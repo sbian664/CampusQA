@@ -1,0 +1,22 @@
+course: UGOD 5080
+normalized_code: UGOD5080
+title: Economic Analysis of Cities and the Environment
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5080
+  - UGOD 5080
+  - Economic Analysis of Cities and the Environment

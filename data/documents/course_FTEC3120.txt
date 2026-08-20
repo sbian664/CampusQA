@@ -1,0 +1,22 @@
+course: FTEC 3120
+normalized_code: FTEC3120
+title: Stochastic Modeling
+subject: FTEC
+catalog_number: "3120"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Discrete time Markov chains and the Poisson processes. Additional topics include birth and death process, elementary renewal process and continuous-time Markov chains.
+
+requirements:
+  prerequisite: FTEC 3130 AND FTEC 3140
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3120
+  - FTEC 3120
+  - Stochastic Modeling

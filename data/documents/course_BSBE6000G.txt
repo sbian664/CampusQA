@@ -1,0 +1,22 @@
+course: BSBE 6000G
+normalized_code: BSBE6000G
+title: Introduction to Proteomics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - BSBE6000G
+  - BSBE 6000G
+  - Introduction to Proteomics

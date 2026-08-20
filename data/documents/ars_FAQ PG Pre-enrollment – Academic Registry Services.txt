@@ -1,0 +1,73 @@
+ars_page: FAQ (PG): Pre-enrollment – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+source: ARS
+
+headings:
+  - FAQ (PG): Pre-enrollment
+  - Class Enrollment Guide (PG)
+
+text: >
+  FAQ (PG): Pre-enrollment
+  April 23, 2025
+  1. What is pre-enrollment?
+  Before the start of the validation period, ARS pre-enrolls students to the required courses or the courses designated by the Hub/ College/ Thrust/ Pillar that the students belong.
+  2. When & How to check my pre-enrollment result?
+  From the start day of the validation period and onwards, you may access the Student Center to check your pre-enrollment result. The Student Center can be accessed via SIS (
+  https://sisp.hkust-gz.edu.cn/gzsisp/signon.html
+  ).
+  3. Will I be pre-enrolled to all my required courses?
+  In regular terms, research postgraduates will be pre-enrolled to the PEDV courses, and thesis course if they have obtained a “PP” grade in the previous regular term.
+  In some special cases, ARS will pre-enroll upon the request of the program office and according to the list sent from the office. However, under the following circumstances, pre-enrollment will not be done:
+  1) You have failed/ not taken the pre-requisite of the required course(s), or
+  2) You have already taken the course in previous terms.
+  4. What if I need to repeat a required course, or have not taken some required courses in previous term(s)?
+  You need to enroll the courses by yourself during the enrollment period. Take note that only two courses (excluding audited courses) in a postgraduate program may be retaken, and unless otherwise specified, each may be repeated only once. The new grade obtained at the second attempt will replace the previous grade in the calculation of the grade averages.
+  5. Can I change the class sections of my pre-enrolled courses?
+  For most courses with multiple sections, you may swap your class section(s) during the enrollment period but please observe the Matching rule on
+  Course Offering and Class Schedule
+  .
+  6. Can I drop a pre-enrolled course?
+  Dropping a pre-enrolled course is strongly discouraged as it may affect your academic progress. But if you have strong reasons to do so, you may seek such approval during the validation period. Refer FAQ “
+  Validation
+  Question 7” for details. Please note that if you drop a pre-enrolled course, the pre-enrollment may not be arranged for you again in future terms.
+  Class Enrollment Guide (PG)
+  The materials and content of this document are reproduced by courtesy of the Academic Registry, HKUST (Clear Water Bay).
+  Preface
+  Important Concept for Class Enrollment (PG)
+  Class Enrollment Schedule (PG)
+  Course Offering and Class Schedule (PG)
+  Useful Information for Class Enrollment (PG)
+  FAQ (PG): Pre-enrollment
+  FAQ (PG): Validation
+  FAQ (PG): Enrollment
+  FAQ (PG): Add/Drop
+  Useful Websites:
+  Student Information System (SIS)
+  SIS Briefing Session
+  Class Schedule & Quota
+  Class Enrollment Guide (UG)
+  Class Enrollment Guide (PG)
+  Program/ Course Catalog:
+  UG Curriculum
+  PG Program & Course Catalog
+  Related Application Form & System:
+  Application for Class Enrollment/Withdrawn after Add/Drop period.
+
+links:
+  - https://sisp.hkust-gz.edu.cn/gzsisp/signon.html | https://sisp.hkust-gz.edu.cn/gzsisp/signon.html
+  - Course Offering and Class Schedule | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/course-offering-and-class-schedule-pg/
+  - Validation | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-validation/
+  - Preface | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-pg/
+  - Important Concept for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/important-concept-for-class-enrollment-pg/
+  - Class Enrollment Schedule (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-schedule-pg/
+  - Useful Information for Class Enrollment (PG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/useful-information-for-class-enrollment-pg/
+  - FAQ (PG): Pre-enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-pre-enrollment/
+  - FAQ (PG): Enrollment | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-enrollment/
+  - FAQ (PG): Add/Drop | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/faq-pg-add-drop/
+  - Student Information System (SIS) | https://sisn.hkust-gz.edu.cn/
+  - SIS Briefing Session | https://www.hkust-gz.edu.cn/wp-content/uploads/pdf/SIS%20Briefing%20Session_HKUST%28GZ%29.pdf
+  - Class Schedule & Quota | https://sisn.hkust-gz.edu.cn/cq
+  - Class Enrollment Guide (UG) | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/
+  - UG Curriculum | https://vptlo.hkust-gz.edu.cn/ugeducation/#/UC
+  - PG Program & Course Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Application for Class Enrollment/Withdrawn after Add/Drop period. | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_for_Class_Enrollment_or_Withdrawal_after_Add_Drop_Period

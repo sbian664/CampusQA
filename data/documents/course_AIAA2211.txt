@@ -1,0 +1,22 @@
+course: AIAA 2211
+normalized_code: AIAA2211
+title: Exploring Artificial Intelligence
+subject: AIAA
+catalog_number: "2211"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to give an introduction to the basic elements of artificial intelligence (AI) through understanding examples from various applications and hands-on experimentation using AI software. In addition to covering technical aspects of AI through topics such as search and problem-solving, knowledge representation, probabilistic reasoning, machine learning, computer vision and image processing, video understanding, action recognition and detection, natural language processing, speech recognition, multi-modal content analysis, and robotics, this course also provides the historical perspective, social and ethical implications, as well as potential limitations of AI. To provide students with an overview of what AI can accomplish and potential research directions of future AI, this course demonstrates different AI technologies and small course project designs for students to get hands-on experience in building AI modules that are used in autonomous driving systems, public safety, robotics, smart retail, industrial AI and so on.
+
+requirements:
+  prerequisite: UFUG2601 OR UFUG2602
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AIAA2211
+  - AIAA 2211
+  - Exploring Artificial Intelligence

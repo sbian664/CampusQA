@@ -1,0 +1,22 @@
+course: UFUG 1403
+normalized_code: UFUG1403
+title: Introduction to Biotechnology
+subject: UFUG
+catalog_number: "1403"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Advancement in science has enabled scientists to modify biological systems for specific purposes. Many of these technologies have been used to improve our daily life and this area of study is commonly referred to as biotechnology. This course is designed to introduce some of the major subjects in this field including the history of biotechnology, ethics in genetic modification and use of animals in experimental studies, molecular foundation of biotechnology, animal biotechnology, plant and agricultural biotechnology, and health-care applications. You will learn how different aspects of biotechnology affect our daily life and have impact on the society.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UFUG1403
+  - UFUG 1403
+  - Introduction to Biotechnology

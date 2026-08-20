@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：陈鑫宇（Xinyu CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：xinyuchen@hkust-gz.edu.cn
+  办公室：W1 L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Xinyu/xinyuchen
+  研究方向：
+    Hardware-software co-design，
+    AI accelerators and LLM inference，
+    Embodied AI，
+    Heterogeneous computing with FPGAs/GPUs/NPUs，

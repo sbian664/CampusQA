@@ -1,0 +1,22 @@
+course: MICSB 002B
+normalized_code: MICS6002B
+title: Microprocessor Architecture
+subject: MICS
+catalog_number: "6002B"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims to build a strong foundation and equip students with insights and techniques in modern microprocessor architecture for future system design. The course covers fundamental and advanced concepts, including processor design, memory hierarchy, pipelining, caching, multicore architectures, GPU, interconnection networks, and domain-specific optimizations. Students will gain a deep understanding of how microprocessors are designed and optimized for performance, efficiency, and scalability, preparing them for challenges in the evolving landscape of computing.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6002B
+  - MICSB 002B
+  - Microprocessor Architecture

@@ -1,0 +1,5315 @@
+教职员简介：
+  姓名：叶纪文（David Kei Man YIP）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：daveyip@hkust-gz.edu.cn
+  办公室：E2 L3 302
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YIP-David-Kei-Man/daveyip
+  研究方向：
+
+教职员简介：
+  姓名：张旭（Xu ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：xuzhang@hkust-gz.edu.cn
+  办公室：W4 L5 512
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Xu/xuzhang
+  研究方向：
+    Microeconomic Theory，
+    Behavioral Economics，
+    Experimental Economics，
+    Behavioral Public Policy，
+    Human-Computer Interaction，
+
+教职员简介：
+  姓名：张俊杰（Junjie ZHANG）
+  职称：Lecturer I
+  学域：Thrust of Computational Media and Arts
+  邮箱：jakezhang@hkust-gz.edu.cn
+  办公室：E2 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Junjie/jakezhang
+  研究方向：
+    Animation，
+    Immersive content creation，
+    VR/XR storytelling，
+    Creator experience，
+
+教职员简介：
+  姓名：周晋妮（Jenny Jinni ZHOU）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：eejinni@hkust-gz.edu.cn
+  办公室：W2 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni
+  研究方向：
+    New Engineering Education Transformation (NEET), especially for Innovation and Entrepreneurship Education，
+    Intelligent Robot Systems, especially for Unmanned Aerial Vehicle (UAV) Systems and Humanoid Robots，
+    Embodied AI for Future Applications，
+    Art and Technology，
+
+教职员简介：
+  姓名：杜迪佳（Coco Dijia DU）
+  职称：Research Associate Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：cocodu@hkust-gz.edu.cn
+  办公室：E1 L5 515
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Dijia/cocodu
+  研究方向：
+    Environmental policy，
+    Policy process theory，
+    Green finance policy，
+    Regional innovation system，
+
+教职员简介：
+  姓名：曾宪国（Hin Kwok TSANG）
+  职称：Thrust Head
+  学域：Thrust of Internet of Things
+  邮箱：eetsang@hkust-gz.edu.cn
+  办公室：W1 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSANG-Hin-Kwok/eetsang
+  研究方向：
+    Smart grids，
+    Networking，
+    Wireless networking，
+    Cloud/Edge computing，
+
+教职员简介：
+  姓名：须江（Jiang XU）
+  职称：Thrust Head
+  学域：Thrust of Microelectronics
+  邮箱：jiang.xu@hkust-gz.edu.cn
+  办公室：W1 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Jiang/jiang.xu
+  研究方向：
+    System-on-chip，
+    Hardware-software codesign，
+    Hybrid photonic-electronic chip design，
+    Chip power management，
+    Machine learning system，
+
+教职员简介：
+  姓名：杜娟（Juan DU）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：juandu@hkust-gz.edu.cn
+  办公室：W1 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu
+  研究方向：
+    Knowledge-infused data science for quality improvement，
+    Industrial data analytics and machine learning，
+    System informatics and control for manufacturing applications，
+
+教职员简介：
+  姓名：吴景深（Jingshen WU）
+  职称：Vice-President (Teaching & Learning)
+  学域：Vice President (Teaching & Learning)
+  邮箱：mejswu@hkust-gz.edu.cn
+  办公室：W1 L4 403
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Jingshen/mejswu
+  研究方向：
+
+教职员简介：
+  姓名：倪明选（Lionel Ming-Shuan NI）
+  职称：President
+  学域：President
+  邮箱：ni@hkust-gz.edu.cn
+  办公室：C1 E L7
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-Lionel-Ming-Shuan/ni
+  研究方向：
+    Big data，
+    High-performance computing，
+    Internet technologies，
+    Mobile computing，
+    Wireless networking，
+    Intelligent computing，
+
+教职员简介：
+  姓名：谢丹阳（Danyang XIE）
+  职称：Chair Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：dxie@hkust-gz.edu.cn
+  办公室：E2 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Danyang/dxie
+  研究方向：
+    Economic growth and Development，
+    Macroeconomics，
+    Chinese Economy，
+    Digital Economy，
+    Innovation and Entrepreneurship，
+    Money and Banking，
+
+教职员简介：
+  姓名：李世玮（Ricky Shi-Wei LEE）
+  职称：Vice-President (Research)
+  学域：Vice-President (Research)
+  邮箱：rickylee@hkust-gz.edu.cn
+  办公室：C1 W L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee
+  研究方向：
+    Electronic packaging，
+    Computational modeling，
+    Microelectromechanical systems (MEMS)，
+
+教职员简介：
+  姓名：宗福季（Fu-Gee TSUNG）
+  职称：Chair Professor
+  学域：Dept of Industrial Engineering and Decision Analytics
+  邮箱：season@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  研究方向：
+    Industrial big data，
+    Data Analytics，
+    Statistical process control and monitoring，
+    Quality engineering and management，
+
+教职员简介：
+  姓名：温维佳（Weijia WEN）
+  职称：Dean
+  学域：Function Hub
+  邮箱：phwen@hkust-gz.edu.cn
+  办公室：W4 L5 513
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Weijia/phwen
+  研究方向：
+    Condensed matter physics，
+
+教职员简介：
+  姓名：陈雷（Lei CHEN）
+  职称：Dean
+  学域：Information Hub
+  邮箱：leichen@hkust-gz.edu.cn
+  办公室：E3 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  研究方向：
+    Data-driven machine learning，
+    Crowdsourcing-based data processing，
+    Uncertain and probabilistic databases，
+    Web information management，
+    Multimedia systems，
+
+教职员简介：
+  姓名：吴宏伟（Charles Wang Wai NG）
+  职称：Chair Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：C1 W L6 602A
+  个人网站：
+  研究方向：
+    Energy foundations，
+
+教职员简介：
+  姓名：QI YE（Ye QI）
+  职称：Dean
+  学域：Society Hub
+  邮箱：yeqi@hkust-gz.edu.cn
+  办公室：E1 L5 501
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QI-Ye/yeqi
+  研究方向：
+    Climate change and Environmental policy and governance，
+    Sustainability science and applications，
+
+教职员简介：
+  姓名：高平（Ping GAO）
+  职称：Thrust Head
+  学域：Thrust of Advanced Materials
+  邮箱：kepgao@hkust-gz.edu.cn
+  办公室：W1 L3 301
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GAO-Ping/kepgao
+  研究方向：
+    Polymer，
+    Rheology of polymers，
+    2D Porous polymer films，
+    Polymer membranes for biomedical, energy, environment and sensors，
+    high-performance polymer fibers, films and composites，
+    Nanocomposites，
+
+教职员简介：
+  姓名：张卓妮（Zhuoni ZHANG）
+  职称：Associate Thrust Head
+  学域：Thrust of Urban Governance and Design
+  邮箱：znzhang@hkust-gz.edu.cn
+  办公室：W3 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Zhuoni/znzhang
+  研究方向：
+    Population Migration，
+    Social Inequality，
+    Residential Segregation，
+    Ethnic Enclaves，
+    Urban Studies.，
+
+教职员简介：
+  姓名：杨琳（Lin YANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：yangl@hkust-gz.edu.cn
+  办公室：E2 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Lin/yangl
+  研究方向：
+    Applied Microeconomics，
+    Environmental, Resource, and Energy Economics，
+    Urban and Transportation Economics，
+
+教职员简介：
+  姓名：许珂维（Corey Kewei XU）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：coreyxu@hkust-gz.edu.cn
+  办公室：E2 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Kewei/coreyxu
+  研究方向：
+    Technology and Governance，
+    Smart City，
+    Big Data Analytics，
+    Sustainability，
+    Public Policy，
+    Public Administration，
+
+教职员简介：
+  姓名：余柳倩（Liuqian YU）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：liuqianyu@hkust-gz.edu.cn
+  办公室：W4 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Liuqian/liuqianyu
+  研究方向：
+    Ocean biogeochemical cycles，
+    Marine ecosystem modelling，
+    Data assimilation，
+
+教职员简介：
+  姓名：袁卓尔（Cheuk Yi Kelvin YUEN）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：kelvinyuen@hkust-gz.edu.cn
+  办公室：E2 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUEN-Cheuk-Yi-Kelvin/kelvinyuen
+  研究方向：
+    Macroeconomics，
+    Labor Economics，
+    Entrepreneurship，
+
+教职员简介：
+  姓名：李超骕（Chaosu LI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：chaosuli@hkust-gz.edu.cn
+  办公室：E2 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Chaosu/chaosuli
+  研究方向：
+    Urban Planning and Governance，
+    Urban Form，
+    Urban Planning for Climate Change，
+    Large Language Models for Urban Analytics，
+
+教职员简介：
+  姓名：熊辉（Hui XIONG）
+  职称：Associate Vice-President (Knowledge Transfer)
+  学域：Office of Knowledge Transfer
+  邮箱：xionghui@hkust-gz.edu.cn
+  办公室：C1 W 201
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui
+  研究方向：
+    Data mining and knowledge discovery，
+    big data analytics，
+    mobile computing，
+    business intelligence，
+    information asurance，
+
+教职员简介：
+  姓名：张光（Guang ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：guangzhang@hkust-gz.edu.cn
+  办公室：W1 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Guang/guangzhang
+  研究方向：
+    FinTech，
+    Financial Econometrics，
+    Machine Learning，
+    Empirical Finance，
+
+教职员简介：
+  姓名：范明明（Mingming FAN）
+  职称：Acting Base Head
+  学域：Base of Red Bird MPhil
+  邮箱：mingmingfan@hkust-gz.edu.cn
+  办公室：E2 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Mingming/mingmingfan
+  研究方向：
+    Human-Centered AI，
+    Human-AI Collaboration (for Education, Learning, Collaboration, Creativity Support)，
+    Multi-Agent Interactive System Design (for Education, Learning, Collaboration, Creativity Support)，
+    Human-Robot Interaction (e.g., companion robot)，
+    Accessible Computing (novel assistive technology design for older adults and people with disabilities)，
+    Multi-Sensory (e.g., haptic, olfactory) interaction design，
+    Virtual Reality (VR) / Augmented Reality (AR) / Mixed Reality (MR)，
+    Mobile, Wearable, and Ubiquitous computing techniques and applications，
+    Human-Computer Interaction (HCI)，
+
+教职员简介：
+  姓名：陈颖聪（Yingcong CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yingcongchen@hkust-gz.edu.cn
+  办公室：W1 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yingcong/yingcongchen
+  研究方向：
+    Computer Vision，
+    Machine Learning，
+
+教职员简介：
+  姓名：王炜（Wei WANG）
+  职称：Associate Dean
+  学域：Information Hub
+  邮箱：weiwcs@hkust-gz.edu.cn
+  办公室：W4 L5 515
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs
+  研究方向：
+    Integration of database and artificial intelligence technologies，
+    Large Language Models，
+    Deep Learning and Artificial Intelligence，
+    AI for Science; AI for Education，
+
+教职员简介：
+  姓名：唐靖（Jing TANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：jingtang@hkust-gz.edu.cn
+  办公室：E3 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  研究方向：
+    Big Data Management and Analytics，
+    Social Network and Graph Analysis，
+    Machine Learning，
+    Blockchains，
+
+教职员简介：
+  姓名：李佳（Jia LI）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：jialee@hkust-gz.edu.cn
+  办公室：W2 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  研究方向：
+    Graph Learning, e.g., Hierarchical Graph Neural Networks, Deconvolutional Networks on graph，
+    Data Mining, e.g., anomaly detection，
+    AI for Science, e.g., drug discovery, healthcare，
+
+教职员简介：
+  姓名：孙晓通（Xiaotong SUN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：xtsun@hkust-gz.edu.cn
+  办公室：W1 L5 513
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Xiaotong/xtsun
+  研究方向：
+    Transportation Systems Modelling，
+    Resource and Pricing Allocation Mechanisms in Transportation，
+    Transportation Network Modeling，
+    Mixed Traffic Operations，
+
+教职员简介：
+  姓名：李庆（Qing LI）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：ocqingli@hkust-gz.edu.cn
+  办公室：W4 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Qing/ocqingli
+  研究方向：
+    Planetary boundary layer turbulence，
+    Ocean surface waves，
+    Numerical modeling，
+    Climate sciences，
+
+教职员简介：
+  姓名：张弘策（Hongce ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：hongcezh@hkust-gz.edu.cn
+  办公室：W2 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Hongce/hongcezh
+  研究方向：
+    Hardware Formal Verification，
+    Model Checking，
+    Logic Design and Verification，
+
+教职员简介：
+  姓名：吉启星（Qixing JI）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：qixingji@hkust-gz.edu.cn
+  办公室：E3 L3 304
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Qixing/qixingji
+  研究方向：
+    Aquatic Nitrogen Biogeochemistry，
+    Greenhouse Gases，
+    Marine Chemistry，
+
+教职员简介：
+  姓名：鱼欢（Huan YU）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：huanyu@hkust-gz.edu.cn
+  办公室：W1 L5 512
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu
+  研究方向：
+    Intelligient Transportation Systems，
+    Control Systems，
+    Traffic Flow Modeling and Control，
+    Mix-autonomy Traffic with Connected and Automated Vehicles，
+    Reinforcement Learning，
+
+教职员简介：
+  姓名：吕杨迪（Yangdi LYU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yangdilyu@hkust-gz.edu.cn
+  办公室：W4(C8) L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LYU-Yangdi/yangdilyu
+  研究方向：
+    Electronic Design Automation，
+    Automated test generation，
+    Hardware security and trust，
+
+教职员简介：
+  姓名：许彬（Pan HUI）
+  职称：Acting Thrust Head
+  学域：Thrust of Computational Media and Arts
+  邮箱：panhui@hkust-gz.edu.cn
+  办公室：E1 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUI-Pan/panhui
+  研究方向：
+    Mobile computing，
+    Computer networking，
+    Data analytics，
+    Human-computer interaction，
+
+教职员简介：
+  姓名：吴佳莹（Jiaying WU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：jiayingwu@hkust-gz.edu.cn
+  办公室：W3 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Jiaying/jiayingwu
+  研究方向：
+    Photon Energy Conversion，
+    Photophysics，
+    Device Physics，
+    Charge Carrier Dynamics，
+
+教职员简介：
+  姓名：干则成（Zecheng GAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：zechenggan@hkust-gz.edu.cn
+  办公室：W1 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GAN-Zecheng/zechenggan
+  研究方向：
+    Applied math and scientfic computing，
+    Data-driven and machine learning methods，
+    Computational electromagnetism and hydrodynamics，
+    Computational materials science，
+
+教职员简介：
+  姓名：刘浩（Hao LIU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：liuh@hkust-gz.edu.cn
+  办公室：E3 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh
+  研究方向：
+    data mining，
+    machine learning，
+    ig data management, with a special focus on mobile analytics and urban computing，
+
+教职员简介：
+  姓名：褚晓文（Xiaowen CHU）
+  职称：Acting Thrust Head
+  学域：Thrust of Artificial Intelligence
+  邮箱：xwchu@hkust-gz.edu.cn
+  办公室：E1 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu
+  研究方向：
+    GPU computing，
+    Distributed machine learning systems (including federated learning)，
+    Computer vision for autonomous vehicles，
+    Vehicular networks，
+
+教职员简介：
+  姓名：蔡毅（Yi CAI）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：yicai@hkust-gz.edu.cn
+  办公室：W2 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Yi/yicai
+  研究方向：
+    Next-generation Additive Manufacturing，
+    Novel Robots for Future Manufacturing and Services，
+    Digital Twins for Advanced Engineering Systems，
+    Interactive Technologies for STEM education，
+
+教职员简介：
+  姓名：夏军（Jun XIA）
+  职称：Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：jxia@hkust-gz.edu.cn
+  办公室：E4 L3 318
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/jxia
+  研究方向：
+    Protein trafficking，
+    Synaptic transmission (Neurotransmission)，
+
+教职员简介：
+  姓名：PAPATHEODOROU THEODOROS（Theodoros PAPATHEODOROU）
+  职称：Senior Lecturer
+  学域：Thrust of Computational Media and Arts
+  邮箱：theodoros@hkust-gz.edu.cn
+  办公室：E2 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PAPATHEODOROU-Theodoros/theodoros
+  研究方向：
+
+教职员简介：
+  姓名：贺登博（Dengbo HE）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：dengbohe@hkust-gz.edu.cn
+  办公室：W3 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe
+  研究方向：
+    Human Factors，
+    Driver Behaviors，
+    Driving Automation，
+    Driver State Estimation，
+
+教职员简介：
+  姓名：曾伟（Wei ZENG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：weizeng@hkust-gz.edu.cn
+  办公室：W1 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng
+  研究方向：
+    Visualization，
+    Visual Analytics，
+    AIGC，
+    VR/AR，
+
+教职员简介：
+  姓名：吴逊（Xun WU）
+  职称：Associate Dean
+  学域：Society Hub
+  邮箱：wuxun@hkust-gz.edu.cn
+  办公室：W1 (C8) L5 501
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Xun/wuxun
+  研究方向：
+    Water resource management，
+    Health policy，
+    Anti-corruption，
+    Policy design and innovations，
+    Technology policy，
+
+教职员简介：
+  姓名：赵斌（Bin ZHAO）
+  职称：Professor of Practice
+  学域：Thrust of Microelectronics
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：马宇哲（Yuzhe MA）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yuzhema@hkust-gz.edu.cn
+  办公室：W4 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Yuzhe/yuzhema
+  研究方向：
+    Electronic design automation，
+    AI-assisted VLSI design，
+    Hardware-friendly learning algorithms，
+
+教职员简介：
+  姓名：朱磊（Lei ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：leizhu@hkust-gz.edu.cn
+  办公室：W1 L5 515
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu
+  研究方向：
+    Computer Vision, Computational Photography, Image/Video Restoration, Computer Graphics, Medical Imaging, and Deep Learning，
+
+教职员简介：
+  姓名：张楷浩（Kaihao ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：kaihaozhang@hkust-gz.edu.cn
+  办公室：W2 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Kaihao/kaihaozhang
+  研究方向：
+    Additive Manufacturing，
+    Metal Matrix Composites，
+    Laser Manufacturing，
+    Material Synthesis，
+
+教职员简介：
+  姓名：季一丁（Yiding JI）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：jiyiding@hkust-gz.edu.cn
+  办公室：W1 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding
+  研究方向：
+    control systems，
+    formal methods，
+    discrete event systems，
+    game theory，
+    trustworthy machine learning，
+    reinforcement learning，
+    robotics and autonomous systems，
+    cyber physical systems，
+
+教职员简介：
+  姓名：MA JUN（Jun MA）
+  职称：Associate Thrust Head
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：eejma@hkust-gz.edu.cn
+  办公室：W1 L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma
+  研究方向：
+    Robotics，
+    Autonomous Driving，
+    Motion Planning and Control，
+    Optimization，
+    Reinforcement Learning，
+    Foundation Models，
+
+教职员简介：
+  姓名：迟进舒（Jinshu CHI）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：jinshuchi@hkust-gz.edu.cn
+  办公室：W4 L6 612
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHI-Jinshu/jinshuchi
+  研究方向：
+    Terrestrial carbon and water cycles，
+    Land-atmosphere interactions，
+    Eddy covariance，
+
+教职员简介：
+  姓名：邢泓（Hong XING）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：hongxing@hkust-gz.edu.cn
+  办公室：W4 (C8) L4 416
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XING-Hong/hongxing
+  研究方向：
+    Edge Learning/Inference，
+    Federated Learning，
+    Mobile Edge Computing，
+    Simultaneous Localization and Communication，
+
+教职员简介：
+  姓名：周穆之（Muzhi ZHOU）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：mzzhou@hkust-gz.edu.cn
+  办公室：E4 L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Muzhi/mzzhou
+  研究方向：
+    Family & Life Course，
+    Ageing & Care，
+    Comparative Study，
+    Digital Technology & Digital Divide，
+    Social Computing，
+
+教职员简介：
+  姓名：许人镜（Renjing XU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：renjingxu@hkust-gz.edu.cn
+  办公室：W3 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu
+  研究方向：
+    Brain-inspired Computing，
+    Humanoid Robotics，
+    Embodied AI，
+    Machining Learning and Deep Learning，
+
+教职员简介：
+  姓名：张统一（Tongyi ZHANG）
+  职称：Chair Professor
+  学域：Thrust of Advanced Materials
+  邮箱：mezhangt@hkust-gz.edu.cn
+  办公室：W4 L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Tongyi/mezhangt
+  研究方向：
+    Materials Genome Engineering，
+    Materials Informatics，
+    Mechanoinformatics，
+
+教职员简介：
+  姓名：熊婉茹（Wanru XIONG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：wanruxiong@hkust-gz.edu.cn
+  办公室：E1 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Wanru/wanruxiong
+  研究方向：
+    Fertility，
+    Marriage & Family，
+    Migration，
+    Population Projection，
+
+教职员简介：
+  姓名：黄加强（Jiaqiang HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：seejhuang@hkust-gz.edu.cn
+  办公室：W3 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Jiaqiang/seejhuang
+  研究方向：
+    Battery sensors，
+    Electrochemical energy storage，
+    Data-driven battery diagnostics/prognostics，
+    AI + Battery + Sensors，
+
+教职员简介：
+  姓名：巩紫君（Zijun GONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：gongzijun@hkust-gz.edu.cn
+  办公室：W4 L6 617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GONG-Zijun/gongzijun
+  研究方向：
+    Signal processing for wireless communications，
+    Channel estimation and channel tracking，
+    Array signal processing for communications and localization，
+    Stochastic signal process and optimization，
+    Target detection recognition, localization and tracking (Radar and Sonar)，
+
+教职员简介：
+  姓名：贾帅（Shuai JIA）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：shuaijia@hkust-gz.edu.cn
+  办公室：W1 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIA-Shuai/shuaijia
+  研究方向：
+    Data-Driven Modelling and Optimization，
+    Large-Scale Optimization，
+    Transport and Logistics Management，
+    Decision Support Systems，
+
+教职员简介：
+  姓名：李雷（Lei LI）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：thorli@hkust-gz.edu.cn
+  办公室：W4 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  研究方向：
+    Spatial Database Management，
+    Graph，
+    Machine Learning，
+    Distributed Database，
+    Intelligent Transportation，
+
+教职员简介：
+  姓名：齐众（Robert Zhong QI）
+  职称：Acting Dean
+  学域：Systems Hub
+  邮箱：qirz@hkust-gz.edu.cn
+  办公室：E3 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QI-Robert-Zhong/qirz
+  研究方向：
+    Cell biology，
+    Cytoskeletal dynamics，
+    Cellular and molecular mechanisms，
+    Cancer，
+    Molecular and cellular neuroscience，
+
+教职员简介：
+  姓名：ZHANG KANG（Kang ZHANG）
+  职称：Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：kzhangcma@hkust-gz.edu.cn
+  办公室：E4 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Kang/kzhangcma
+  研究方向：
+    Visual Languages可视化语言，
+    Graph Grammars and Their Applications图文法及其应用，
+    Computational Aesthetics计算美学，
+    Generative Art生成艺术，
+    Architectural Design建筑设计，
+    Software Engineering软件工程，
+
+教职员简介：
+  姓名：KIM SUNG HUN（Sung Hun KIM）
+  职称：Associate Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：hunkim@hkust-gz.edu.cn
+  办公室：E3(C9) L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-Sung-Hun/hunkim
+  研究方向：
+    Programmer productivity，
+    Identifying faults in program development or in deployed programs by mining software repositories，
+    Source code (static analysis)，
+    Program execution (dynamic analysis)，
+
+教职员简介：
+  姓名：赵航（Hang ZHAO）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：hangzhao@hkust-gz.edu.cn
+  办公室：W1 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao
+  研究方向：
+    Design and control of joint actuators for legged robots，
+    Mechatronics design for robotics，
+    AI for motor design and control，
+    Smart grid with renewable energy，
+
+教职员简介：
+  姓名：张县（Xian ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：xianzhang@hkust-gz.edu.cn
+  办公室：E4 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Xian/xianzhang
+  研究方向：
+    Neuroscience，
+    Neural Mechanisms of Vocalization，
+    Neural Circuits of Adaptive Behaviors，
+    Mental Disorders，
+
+教职员简介：
+  姓名：TYSON GARETH JOHN（Gareth John TYSON）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：gtyson@hkust-gz.edu.cn
+  办公室：E1 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TYSON-Gareth-John/gtyson
+  研究方向：
+    Internet Measurements，
+    Social Computing，
+    Web，
+    Cybersafety，
+
+教职员简介：
+  姓名：苏权科（Quanke SU）
+  职称：Chief Engineer
+  学域：Center for Engineering Excellence
+  邮箱：quankesu@hkust-gz.edu.cn
+  办公室：E4(C8) L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Quanke/quankesu
+  研究方向：
+    •	Future Cross-sea Engineering，
+    •	Bridge and Tunneling Engineering，
+    •	Intelligent Transportation，
+    •	Infrastructure Digitalization，
+
+教职员简介：
+  姓名：TAN CHEE KEONG（Chee Keong TAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：cheekeongtan@hkust-gz.edu.cn
+  办公室：W3 L3 304
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TAN-Chee-Keong/cheekeongtan
+  研究方向：
+    Wide and Ultra Wide Bandgap Semiconductor Materials and Devices，
+    Third Gen and Next Gen Semicon，
+    Materials Informatics，
+
+教职员简介：
+  姓名：陈模军（Mojun CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：mjchen@hkust-gz.edu.cn
+  办公室：W2 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Mojun/mjchen
+  研究方向：
+    Micro/nanoscale 3D printing，
+    Optoelectronics，
+    Micro/nanorobotics，
+    Wearable devices，
+
+教职员简介：
+  姓名：肖殿勋（Dianxun XIAO）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：dianxunxiao@hkust-gz.edu.cn
+  办公室：W3 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIAO-Dianxun/dianxunxiao
+  研究方向：
+    Electric vehicle and More-electric aircraft，
+    Electrical machines and control system，
+    Battery management system，
+    Optimization and data-driven approach，
+    Estimation and diagnostic algorithm，
+    Robotic servo motor and control，
+
+教职员简介：
+  姓名：王蕴达（Yunda WANG）
+  职称：Associate Dean
+  学域：Systems Hub
+  邮箱：ydwang@hkust-gz.edu.cn
+  办公室：W1 L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yunda/ydwang
+  研究方向：
+    Prof. Wang’s research has focused on exploring disruptive innovation and developing key technologies in micro-electro-mechanical systems (MEMS), microsystem integration, and thermal management devices for sensor and electronics, that push the boundaries of science and engineering. Of special interest are areas including (a) micro-scale integration for hybrid electronics, emerging display technologies, large area sensors, wearable health monitoring devices, and human-machine interfaces and (b) emerging cooling technologies for electronics system thermal management.，
+
+教职员简介：
+  姓名：陈民（Man CHAN）
+  职称：Associate Dean
+  学域：College of Future Technology
+  邮箱：chanman@hkust-gz.edu.cn
+  办公室：C1 E L4 428
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHAN-Man/chanman
+  研究方向：
+    Carbon Fiber Related Materials and Structural Design，
+    Mechatronics System Design，
+    Ultrasonic Vibration System Design，
+    Manufacturing Technology Research and Development (Plastics 3D printing, Metal 3D printing)，
+
+教职员简介：
+  姓名：程伯骏（Bojun CHENG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：bocheng@hkust-gz.edu.cn
+  办公室：W3 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHENG-Bojun/bocheng
+  研究方向：
+    memristive computing devices，
+    neuromorphic in-memory computing circuits and algorithm，
+    event-based sensor and applications，
+
+教职员简介：
+  姓名：KAN GE LIN（Ge Lin KAN）
+  职称：Thrust Head
+  学域：Thrust of Urban Governance and Design
+  邮箱：gelin@hkust-gz.edu.cn
+  办公室：E1 L4 403
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KAN-Ge-Lin/gelin
+  研究方向：
+    GIS，
+    Spatial Epidemiology，
+    Data Integration，
+    Aging and Urban Health，
+    Metaverse，
+
+教职员简介：
+  姓名：文泽忆（Zeyi WEN）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：wenzeyi@hkust-gz.edu.cn
+  办公室：E2 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  研究方向：
+    Efficient Large Language Model (LLM) Fine-Tuning，
+    Efficient Large Language Model (LLM) Training，
+    Efficient Large Language Model (LLM) Inference，
+    Serving/Memory Systems for AI Agents，
+    Machine Learning Systems (MLSys)，
+    Hyper-Parameter Optimization (HPO)，
+    Automatic Machine Learning (AutoML)，
+    High-Performance Computing (HPC)，
+
+教职员简介：
+  姓名：刘易（Yi LIU）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：yiliuyl@hkust-gz.edu.cn
+  办公室：E1 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Yi/yiliuyl
+  研究方向：
+    Hydrogeology，
+    Groundwater-Surface water interaction，
+    Land-Ocean Interaction，
+    Greenhouse Gas Emission from Water Bodies，
+    Coastal Biogeochemistry，
+    Watershed Carbon and Nitrogen Cycles，
+
+教职员简介：
+  姓名：童业煜（Yeyu TONG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yeyutong@hkust-gz.edu.cn
+  办公室：W3 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-Yeyu/yeyutong
+  研究方向：
+    Photonic Integrated Circuits，
+    Optical Interconnects，
+    Optical Signal Processing and Computing，
+    Photonic Design Automation，
+    Photonic Sensing and Imaging，
+
+教职员简介：
+  姓名：周腾（Teng ZHOU）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：tengzhou@hkust-gz.edu.cn
+  办公室：W1 (C8) L4 401
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Teng/tengzhou
+  研究方向：
+    CO2 capture material and process design，
+    CO2 conversion process design，
+    Hybrid renewable energy systems modeling and optimization，
+    Optimal design of energy storage/conversion devices (e.g. flow battery)，
+
+教职员简介：
+  姓名：储棂椤（Lingluo CHU）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：lingluochu@hkust-gz.edu.cn
+  办公室：E3 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Lingluo/lingluochu
+  研究方向：
+    Chromosome architecture and dynamics，
+    Chromosome instability and innate immunity，
+    Cell dynamics and AI，
+
+教职员简介：
+  姓名：杨柳青（Liuqing YANG）
+  职称：Thrust Head
+  学域：Thrust of Intelligent Transportation
+  邮箱：lqyang@hkust-gz.edu.cn
+  办公室：W1 L5 516
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Liuqing/lqyang
+  研究方向：
+    Multi-entity intelligence with applications to transportation and energy systems，
+    Synergy of communications, sensing, and information processing，
+    Theory and applications of wireless communications and networking，
+
+教职员简介：
+  姓名：宗志锐（Zhirui ZONG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zong@hkust-gz.edu.cn
+  办公室：W3 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZONG-Zhirui/zong
+  研究方向：
+    Phase-locked loops (PLL) and frequency synthesizers，
+    RF and millimeter-wave integrated circuits design，
+    High-speed data communication circuits design，
+
+教职员简介：
+  姓名：颜畅（Chang YAN）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：changyan@hkust-gz.edu.cn
+  办公室：W4 L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YAN-Chang/changyan
+  研究方向：
+    Artificial Intelligence lab for solar cell，
+    Perovskite and Chalcogenide Solar cell，
+    Ultra-high efficiency tandem solar cell，
+    Flexible, semitransparent solar cell，
+    Thin film and nanostructured materials for solar fuel production，
+
+教职员简介：
+  姓名：左瑞婷（Ruiting ZUO）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：ruitingzuo@hkust-gz.edu.cn
+  办公室：W1 L3 314
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZUO-Ruiting/ruitingzuo
+  研究方向：
+    Finance-Operations Interface，
+    E-commerce and marketplace analytics，
+    Operations-Marketing Interface，
+    Game theory，
+    Optimal control，
+    Data-driven decision making，
+
+教职员简介：
+  姓名：李四光（Siguang LI）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：siguangli@hkust-gz.edu.cn
+  办公室：W1 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Siguang/siguangli
+  研究方向：
+    Fintech，
+    Digital Economies，
+    Social Media，
+    Industrial Organization，
+    Applied Theory，
+
+教职员简介：
+  姓名：吴钧（Jun WU）
+  职称：Associate Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：junwuhkust@hkust-gz.edu.cn
+  办公室：E1 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Jun/junwuhkust
+  研究方向：
+    Biomaterials，
+    Drug delivery，
+    Tissue engineering，
+    Theranostics，
+    Stem cell，
+
+教职员简介：
+  姓名：侯韵（Yun HOU）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：yunhou@hkust-gz.edu.cn
+  办公室：E2 L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HOU-Yun/yunhou
+  研究方向：
+    Innovation and Technology Management，
+    Entrepreneurship，
+    Causal Inference and Experimental Methods，
+
+教职员简介：
+  姓名：訾云龙（Yunlong ZI）
+  职称：Acting Dean
+  学域：College of Education Sciences
+  邮箱：ylzi@hkust-gz.edu.cn
+  办公室：W1 L4 404，C1 E L2 228 (CES Office)
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZI-Yunlong/ylzi
+  研究方向：
+    High-performance mechanical energy harvesting through triboelectric nanogenerator，
+    Tribo-photonics toward novel self-powered wireless solution，
+    Triboelectric mechanism and breakdown discharging，
+    Multi-modal tactile sensing，
+    Nanomaterials and nano-electronics，
+
+教职员简介：
+  姓名：黄智强（Zhiqiang HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zqhuang@hkust-gz.edu.cn
+  办公室：W2(C8) L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Zhiqiang/zqhuang
+  研究方向：
+    Analog/Mixed-Signal/RF/mm-wave/THz integrated circuit design，
+    Analog/RF/mm-wave integrated circuit design，
+    Frequency synthesis from RF to sub-THz，
+    Low power integrated circuit design，
+
+教职员简介：
+  姓名：WANG JUN（Jun WANG）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：junwangc@hkust-gz.edu.cn
+  办公室：W3 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Jun/junwangc
+  研究方向：
+    Lightweight Multifunctional Composites and Foams，
+    Mixed Ionic–electronic Conducting Polymers，
+    Plastic Upcycling，
+
+教职员简介：
+  姓名：邱惠和（Huihe QIU）
+  职称：Thrust Head
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：meqiu@hkust-gz.edu.cn
+  办公室：W1 L4 406A
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIU-Huihe/meqiu
+  研究方向：
+    Fluid Dynamics and Heat Transfer，
+    Bioinspired Flyers and Micro Air Vehicles (MAV)，
+    Transport Phenomena in Microscale Multiphase flows，
+    Micro Sensors and Actuators，
+    Thermal  Comfort Sensing and Smart Buildings，
+
+教职员简介：
+  姓名：汤凯（Kai TANG）
+  职称：Thrust Head
+  学域：Thrust of Smart Manufacturing
+  邮箱：mektang@hkust-gz.edu.cn
+  办公室：W4 L3 314
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Kai/mektang
+  研究方向：
+    Computer-aided design and manufacturing (CAD / CAM)，
+    Multi-axis machining of complex parts，
+    Multi-axis additive manufacturing，
+    Hybrid manufacturing，
+
+教职员简介：
+  姓名：蔡宁（Ning CAI）
+  职称：Thrust Head
+  学域：Thrust of Financial Technology
+  邮箱：ningcai@hkust-gz.edu.cn
+  办公室：W3 L5 501
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Ning/ningcai
+  研究方向：
+    FinTech，
+    Financial engineering，
+    Risk management，
+    Green finance，
+    Operations research，
+    Stochastic modeling，
+    Applied probability，
+    Statistics and data science，
+
+教职员简介：
+  姓名：伍楷舜（Kaishun WU）
+  职称：Associate Vice-President (Research)
+  学域：Office of Research and Talent Support
+  邮箱：wuks@hkust-gz.edu.cn
+  办公室：C1 W L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks
+  研究方向：
+    Internet of Things，
+    Wireless Networks，
+    Wireless Communication，
+    Mobile and Ubiquitous Computing，
+    Pervasive Computing，
+    Big Data，
+    Smart e-Health，
+    Industrial Networks，
+    My recent research focuses on four main areas:   • Intelligent Sensing and Applications: device-free sensing of humans, acoustic sensing, vibration sensing • AI for Wireless: bringing AI to wireless networking, mobile cloud computing and edge computing, Federated Learning and Wireless Networks, AI for Wireless Resource Management and Optimization • IoT + AI Systems and Applications: building Internet of Things (IoT) systems with the AI technology to deepen and broaden the ways that we sense the physical world and enable innovative human-computer interactions • Data Science from Mobile and Ubiquitous Computing Perspectives with Applications to Smart Cities，
+
+教职员简介：
+  姓名：陈罗烨（Luoye CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：luoyechen@hkust-gz.edu.cn
+  办公室：E2 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Luoye/luoyechen
+  研究方向：
+    Environmental and Agricultural Economics，
+
+教职员简介：
+  姓名：崔颖（Ying CUI）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：yingcui@hkust-gz.edu.cn
+  办公室：E2 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CUI-Ying/yingcui
+  研究方向：
+    Theory and applications of optimization and learning，
+    AI+wireless communications, networking, and signal processing，
+    Integrated communications, sensing, computing, and control，
+    Distributed learning and inference，
+    Dynamic programming and deep reinforcement learning，
+    IoT systems and communications，
+    Mobile edge caching and computing，
+    Video transmission，
+
+教职员简介：
+  姓名：何今宇（Jinyu HE）
+  职称：Associate Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：jyhe@hkust-gz.edu.cn
+  办公室：W3 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Jinyu/jyhe
+  研究方向：
+    Corporate Governance，
+    Corporate Social Responsibility and Sustainability，
+    Firm Knowledge Assets and Innovation，
+
+教职员简介：
+  姓名：Rafiqul GANI（Rafiqul GANI）
+  职称：Adjunct Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Multiscale modelling for managing the complexity in process-product design，
+    Sustainable process  design and analysis, including process intensification，
+    Computer aided product (molecule and mixture)  design，
+    Development of systematic computer aided methods & tools，
+    Development of predictive models for prediction of properties of chemical systems，
+
+教职员简介：
+  姓名：楚夏昆（Xiakun CHU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：xiakunchu@hkust-gz.edu.cn
+  办公室：W3 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiakun/xiakunchu
+  研究方向：
+    Theoretical and Computational Biophysics，
+    Structure-Function Relationship，
+    Multi-scale Modelling of Biomolecules，
+    4D Genome，
+    Protein Design，
+
+教职员简介：
+  姓名：赖志路（Zhilu LAI）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhilulai@hkust-gz.edu.cn
+  办公室：E1 (C9) L6 614
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LAI-Zhilu/zhilulai
+  研究方向：
+    Scientific machine learning; Physics-informed machine learning，
+    Deep learning for engineered systems，
+    Computer vision-based infrastructural monitoring; Advanced sensing technologies，
+    IoT applications in civil infrastructure，
+    Structural health monitoring，
+
+教职员简介：
+  姓名：罗琼（Qiong LUO）
+  职称：Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：luo@hkust-gz.edu.cn
+  办公室：E1 L4 401
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  研究方向：
+    Database systems，
+    Parallel and distributed systems，
+    Data-intensive applications，
+
+教职员简介：
+  姓名：刘克飞（Kefei LIU）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：kefeiliu@hkust-gz.edu.cn
+  办公室：E4 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Kefei/kefeiliu
+  研究方向：
+    System neuroscience，
+    Neural decoding，
+    Spatial navigation，
+    Learning and memory，
+    Sleep，
+    Hippocampus，
+    Visual neural system，
+
+教职员简介：
+  姓名：吴肖肖（Xiaoxiao WU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：xiaoxiaowu@hkust-gz.edu.cn
+  办公室：W2 L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Xiaoxiao/xiaoxiaowu
+  研究方向：
+    Terahertz and Sub-terahertz Photonics，
+    Electromagnetic and Acoustic Wave Functional Metamaterials，
+    Topological Photonic and Phononic Metamaterials，
+
+教职员简介：
+  姓名：刘金国（Jinguo LIU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：jinguoliu@hkust-gz.edu.cn
+  办公室：W1 L3 315
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jinguo/jinguoliu
+  研究方向：
+    Tensor Network Algorithms，
+    Quantum Simulation Software，
+    Combinatorial Optimization，
+
+教职员简介：
+  姓名：陈鹏（Peng CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：pengchen@hkust-gz.edu.cn
+  办公室：W4 L5 514
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Peng/pengchen
+  研究方向：
+    Quantum Information，
+    Quantum Computing，
+    Ultracold Physics，
+    Quantum Metrology，
+    Advanced Photonics，
+
+教职员简介：
+  姓名：王泽宇（Zeyu WANG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：zeyuwang@hkust-gz.edu.cn
+  办公室：E2 L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Zeyu/zeyuwang
+  研究方向：
+    The Creative Intelligence and Synergy (CIS) Lab at The Hong Kong University of Science and Technology (Guangzhou) conducts cutting-edge research at the intersection of computer graphics, human-computer interaction, and artificial intelligence, with a focus on algorithms and systems for digital content creation. Our current research topics include sketching, VR/AR/XR, generative techniques, and multimodal creativity, with applications in art, design, perception, and cultural heritage.，
+    • Drawing analysis and intelligent interfaces, including non-photorealistic rendering, sketch-based modeling, and AI-assisted drawing，
+    • Virtual/augmented/extended reality, including efficient 3D capture, processing, and editing, spatial interfaces, and digital twin，
+    • AI content generation, including neural rendering, digital humans, procedural modeling, and multimodal AI creativity，
+    • Applications in art, design, perception, and cultural heritage, such as digitization of Longmen Grottoes and Dunhuang dance，
+
+教职员简介：
+  姓名：郑心湖（Xinhu ZHENG）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：xinhuzheng@hkust-gz.edu.cn
+  办公室：W2 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng
+  研究方向：
+    Intelligent Transportation System Autonomous Driving，
+    Environment Perception，
+    Connected Intelligence，
+    Multimodal Data Fusion，
+
+教职员简介：
+  姓名：SHIN JI HOON（JI HOON SHIN）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：jihoonshin@hkust-gz.edu.cn
+  办公室：E1 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHIN-JI-HOON/jihoonshin
+  研究方向：
+    Technology management，
+    Technology policy，
+    Innovation, R&D, High-tech industry，
+
+教职员简介：
+  姓名：李昊翔（Haoxiang LI）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：haoxiangli@hkust-gz.edu.cn
+  办公室：W3 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoxiang/haoxiangli
+  研究方向：
+    Quantum materials，
+    Strongly correlated systems，
+    Topological electron, magnon and phonon systems，
+    Superconductivity，
+    Charge density wave，
+    Quantum spin liquid，
+
+教职员简介：
+  姓名：杨其纯（Qichun YANG）
+  职称：Senior Lecturer
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：qichunyang@hkust-gz.edu.cn
+  办公室：W3 L3 301
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Qichun/qichunyang
+  研究方向：
+    Watershed Hydrology and Biogeochemistry，
+    Water Quality and Pollution Control，
+    Hydroclimate，
+    Hydrological Modeling，
+    Water Forecasting，
+    Computational Hydrology，
+
+教职员简介：
+  姓名：KUTSCHER DIRK（DIRK KUTSCHER）
+  职称：Associate Professor
+  学域：Thrust of Internet of Things
+  邮箱：dku@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KUTSCHER-DIRK/dku
+  研究方向：
+    Distributed computing and networking，
+    Information-Centric networking，
+    Infrastructure for data science and machine learning，
+    Internet evolution，
+
+教职员简介：
+  姓名：韩伟（Wei HAN）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：weihan@hkust-gz.edu.cn
+  办公室：W2 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HAN-Wei/weihan
+  研究方向：
+    Power Electronics，
+    Wireless Power Transfer，
+    Wireless Motor Drive，
+    Grid-Forming Inverter Control，
+
+教职员简介：
+  姓名：梁俊卫（Junwei LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：junweiliang@hkust-gz.edu.cn
+  办公室：E4(C9) L3 304
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Junwei/junweiliang
+  研究方向：
+    Human trajectory forecasting，
+    Action recognition，
+    Large-scale computer vision，
+    Video analytics in general，
+
+教职员简介：
+  姓名：邢清清（Claire Qingqing XING）
+  职称：Senior Lecturer
+  学域：Pillar of Language Education
+  邮箱：claireqqxing@hkust-gz.edu.cn
+  办公室：E1 L6 617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XING-Qingqing/claireqqxing
+  研究方向：
+    Science Communication; Education Sciences; Language Education，
+
+教职员简介：
+  姓名：马近远（Marina Jinyuan MA）
+  职称：Associate Dean
+  学域：College of Education Sciences
+  邮箱：jinyuanma@hkust-gz.edu.cn
+  办公室：C1 E L2 227
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jinyuan/jinyuanma
+  研究方向：
+
+教职员简介：
+  姓名：PARK JAEUK（JAEUK PARK）
+  职称：Senior Lecturer
+  学域：Pillar of Language Education
+  邮箱：jaeukpark@hkust-gz.edu.cn
+  办公室：E1(C9) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PARK-JAEUK/jaeukpark
+  研究方向：
+    Second Language Acquisition (SLA)；Computer-Assisted Language Learning (CALL)；English for Academic Purposes (EAP)； multimodality and interactional competence，
+
+教职员简介：
+  姓名：王林晓（Linxiao Wang）
+  职称：Acting Pillar Head
+  学域：Pillar of Language Education
+  邮箱：linxiaowang@hkust-gz.edu.cn
+  办公室：E4 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/Wang-Linxiao/linxiaowang
+  研究方向：
+    My research interests are particularly focused on project-based learning and innovation in higher education, with a strong foundation in language education and assessment, cross-cultural communication, and the broader field of educational practices. Drawing from extensive theoretical insights and practical experiences in education, I am dedicated to the exploration and advancement of these areas, aiming to significantly enhance learning outcomes and cultivate a more inclusive and impactful educational atmosphere.，
+
+教职员简介：
+  姓名：张蔚（Wei ZHANG）
+  职称：Lecturer II
+  学域：Pillar of Language Education
+  邮箱：jadewzhang@hkust-gz.edu.cn
+  办公室：E4 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Wei/jadewzhang
+  研究方向：
+
+教职员简介：
+  姓名：张栩宁（Xuning ZHANG）
+  职称：Lecturer I
+  学域：Pillar of STEM Education
+  邮箱：eexuning@hkust-gz.edu.cn
+  办公室：W4(C8) L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Xuning/eexuning
+  研究方向：
+
+教职员简介：
+  姓名：胡国标（Guobiao HU）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：guobiaohu@hkust-gz.edu.cn
+  办公室：W4 L4 409
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Guobiao/guobiaohu
+  研究方向：
+    Vibration energy harvesting，
+    Acoustic-elastic metamaterials，
+    Smart materials and structures，
+    Nonlinear dynamics and vibration，
+    Structural health monitoring，
+
+教职员简介：
+  姓名：李贝津妮（Beijinni LI）
+  职称：Lecturer I
+  学域：College of Future Technology
+  邮箱：beijinnili@hkust-gz.edu.cn
+  办公室：E1(C9) L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Beijinni/beijinnili
+  研究方向：
+    Life Cycle Assessment (LCA) and Life Cycle Costing (LCC)，
+    Sustainable Development Evaluation and Strategy Planning，
+    Sustainability Education and Practice，
+    Smart Traditional Chinese Medicine (TCM)，
+    AI applications in all the above areas，
+
+教职员简介：
+  姓名：冯志雄（Chi Hung FUNG）
+  职称：Chair Professor
+  学域：Dept of Mathematics
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Atmospheric science and weather prediction，
+    Regional climate change and variability，
+    Multi-scale air quality modeling，
+    Computational fluid dynamics，
+    Environmental sustainability，
+
+教职员简介：
+  姓名：郑君瑜（Junyu ZHENG）
+  职称：Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：junyuzheng@hkust-gz.edu.cn
+  办公室：E2 L6 612
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Junyu/junyuzheng
+  研究方向：
+    Source characterization and emission inventory，
+    Co-control of air pollution and carbon emissions，
+    Novel source measurement instruments and source tracing，
+    Application of big data and AI to environmental models and emission mitigation，
+
+教职员简介：
+  姓名：黄姗诗（Shanshi HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：shanshihuang@hkust-gz.edu.cn
+  办公室：W2 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Shanshi/shanshihuang
+  研究方向：
+    cross-layer hardware & software co-design，
+    EDA design，
+    Hardware security，
+    heterogeneous computing，
+
+教职员简介：
+  姓名：方婷（Ting FANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：tingfang@hkust-gz.edu.cn
+  办公室：W4 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-Ting/tingfang
+  研究方向：
+    Atmospheric Chemistry，
+    Outdoor and Indoor Aerosols，
+    Health-related Aerosols，
+    Cell Toxicity，
+    Long-and Short-lived Free Radicals，
+    Lung Microbial Balance，
+
+教职员简介：
+  姓名：姜泓吾（Hongwu JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：hongwujiang@hkust-gz.edu.cn
+  办公室：W1 L6 613
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hongwu/hongwujiang
+  研究方向：
+    in-memory computing，
+    AI hardware accelerator design，
+    3D integrated circuit design，
+
+教职员简介：
+  姓名：崔华晨（Huachen CUI）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：hccui@hkust-gz.edu.cn
+  办公室：W2 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CUI-Huachen/hccui
+  研究方向：
+    Advanced additive manufacturing techniques，
+    Design, manufacturing and characterization of multifunctional materials，
+    Robotics and autonomous systems via additive manufacturing，
+    Development of 3D-printed medical devices，
+
+教职员简介：
+  姓名：刘李（Li LIU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：avrillliu@hkust-gz.edu.cn
+  办公室：E4 L4 405
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu
+  研究方向：
+    · Few-shot Learning，
+    · AI Security and Transferability，
+    · AI for Medical Imaging，
+    · Audio-visual Cued Speech Recognition/Generation，
+
+教职员简介：
+  姓名：苏宗贤（Zongxian SU）
+  职称：Lead Engineer
+  学域：Center for Engineering Excellence
+  邮箱：zongxiansu@hkust-gz.edu.cn
+  办公室：E1 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Zongxian/zongxiansu
+  研究方向：
+    Intelligent Capsule Pipeline Freight System，
+    Theory and Technology of Underwater Tunnel Engineering，
+    Intelligent Construction，
+
+教职员简介：
+  姓名：JIANG BIN（BIN JIANG）
+  职称：Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：binjiang@hkust-gz.edu.cn
+  办公室：E3 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-BIN/binjiang
+  研究方向：
+    Georeferenced Big Data，
+    Geospatial Analysis，
+    AI/Deep Learning，
+    Sustainable Urban Design，
+
+教职员简介：
+  姓名：关继祖（Joseph Kai Cho KWAN）
+  职称：Director of GCO
+  学域：General Coordination Office
+  邮箱：joekwan@hkust-gz.edu.cn
+  办公室：C1 E L6 627
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KWAN-Joseph-Kai-Cho/joekwan
+  研究方向：
+    The transport and fate of infectious microbes in the indoor environment，
+    Novel hazards control technologies，
+    Optimization of health care service delivery efficiency through engagement of new technologies，
+
+教职员简介：
+  姓名：FANG GENGFA（GENGFA FANG）
+  职称：Lead Engineer
+  学域：Sustainability Section
+  邮箱：gengfafang@hkust-gz.edu.cn
+  办公室：E4 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-GENGFA/gengfafang
+  研究方向：
+    Deep Learning and Reinforcement Learning，
+    IoT and Advanced Analytics for digital energy and smart cities，
+
+教职员简介：
+  姓名：王仁杰（Renjie WANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：renjiewang@hkust-gz.edu.cn
+  办公室：W3 (C8) L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Renjie/renjiewang
+  研究方向：
+    Data-Driven Design for Microelectronic Component and System，
+    Multiphysics Simulation and Machine Learning，
+    Optoelectronic Detection, Sensing, Display, and Communications，
+    MicroLEDs, Photodiodes, Lasers, Transistors, and Their On-Chip Integrations，
+    Multiphysics Simulation of Optoelectronic and Microelectronic Devices，
+    Epitaxial Growth of Quantum Nanostructures，
+    Semiconductor Device Performance and Reliability，
+
+教职员简介：
+  姓名：宋杰（Jie SONG）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：jsongroas@hkust-gz.edu.cn
+  办公室：W3 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas
+  研究方向：
+    3D computer vision，
+    Reconstrucion，
+    Robotics，
+    Human-Robot interaction，
+    Sim-to-Real，
+
+教职员简介：
+  姓名：黄嘉逸（Jiayi HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：hjy@hkust-gz.edu.cn
+  办公室：W1 (C8) L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Jiayi/hjy
+  研究方向：
+    Computer Architecture，
+    Interconnection Networks，
+    Machine Learning Systems，
+
+教职员简介：
+  姓名：常腾飞（Tengfei CHANG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：tengfeichang@hkust-gz.edu.cn
+  办公室：W2(C8) L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHANG-Tengfei/tengfeichang
+  研究方向：
+    Low-Power Wireless Mesh Networks，
+    Indoor Wireless Localization，
+    Sensor Fusion，
+    Swarm Robotics/Intelligence，
+
+教职员简介：
+  姓名：屈华民（Huamin QU）
+  职称：Chair Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：廖思梅（Simei LIAO）
+  职称：Lecturer II
+  学域：Pillar of Language Education
+  邮箱：simeiliao@hkust-gz.edu.cn
+  办公室：E2(C9) L6 614
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIAO-Simei/simeiliao
+  研究方向：
+
+教职员简介：
+  姓名：刘坚能（Kin Nang LAU）
+  职称：Chair Professor
+  学域：Thrust of Internet of Things
+  邮箱：
+  办公室：CWB Room 2416
+  个人网站：
+  研究方向：
+    Stochastic Optimization and Analysis for wireless systems，
+    Massive MIMO Systems，
+    Sparse Recovery，
+    Bayesian Inferencing，
+    Mission-Critical IoT，
+    PHY Caching for Wireless Networks，
+
+教职员简介：
+  姓名：卢泓远（Hongyuan LU）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：hongylu@hkust-gz.edu.cn
+  办公室：E3 L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Hongyuan/hongylu
+  研究方向：
+    Protein Engineering，
+    Synthetic Biology，
+    Environmental Engineering，
+    AI for Bioengineering，
+
+教职员简介：
+  姓名：胡鹏程（Pengcheng HU）
+  职称：Associate Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：pengchenghu@hkust-gz.edu.cn
+  办公室：W2 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Pengcheng/pengchenghu
+  研究方向：
+    Intelligent CNC Machining，
+    Robotic Manufacturing，
+    Multi-axis Autonomous Tool Path Computation and Optimization，
+    Additive & Subtracting Hybrid Manufacturing，
+
+教职员简介：
+  姓名：王鑫（Xin WANG）
+  职称：Associate Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：felixxinwang@hkust-gz.edu.cn
+  办公室：W2 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xin/felixxinwang
+  研究方向：
+    量子计算 Quantum Computing，
+    量子信息 Quantum Information，
+    量子纠错与缓释 Quantum Error Correction and Mitigation，
+    人工智能 Artificial Intelligence，
+    量子机器学习 Quantum Machine Learning，
+    量子软件与体系结构 Quantum Software and Architecture，
+
+教职员简介：
+  姓名：梁宇轩（Yuxuan LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：yuxuanliang@hkust-gz.edu.cn
+  办公室：W2 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang
+  研究方向：
+    Spatio-Temporal Data Mining，
+    Urban Computing，
+    Time Series，
+    Multimodal，
+    AI，
+
+教职员简介：
+  姓名：刘振（Henry Zhen LIU）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：henryzhenliu@hkust-gz.edu.cn
+  办公室：W4 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Zhen/henryzhenliu
+  研究方向：
+    Aerosol and monsoon climate interactions，
+    Extreme weather and climate events，
+    Regional impacts of climate change，
+    Earth system modelling，
+
+教职员简介：
+  姓名：张黔（Qian ZHANG）
+  职称：Chair Professor
+  学域：Thrust of Internet of Things
+  邮箱：
+  办公室：CWB Campus, Room 3544
+  个人网站：
+  研究方向：
+    Internet of Things (IoT)，
+    Smart Healthcare，
+    Mobile computing and sensing，
+    Blockchain infrastructure construction，
+    Next-generation wireless networks，
+    Cyber security，
+    Cognitive radio networks and dynamic spectrum management，
+    Network economics，
+    Multimedia delivery over Internet, wireless, and wireless Internet，
+
+教职员简介：
+  姓名：杨旸（Yang YANG）
+  职称：Adjunct Professor
+  学域：Thrust of Internet of Things
+  邮箱：yyiot@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Yang/yyiot
+  研究方向：
+    (1)	Wireless sensor networks and Internet of Things.，
+    (2)	Multi-tier computing networks.，
+    (3)	5G/6G mobile communications.，
+
+教职员简介：
+  姓名：谢思泓（Sean Sihong XIE）
+  职称：Associate Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：sihongxie@hkust-gz.edu.cn
+  办公室：W4 L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Sihong/sihongxie
+  研究方向：
+    Responsible machine learning on graphs，
+    Data-Centric AI，
+    Misinformation detection，
+
+教职员简介：
+  姓名：陶莉（Li TAO）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：litao@hkust-gz.edu.cn
+  办公室：E4(C9) L4 406
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TAO-Li/litao
+  研究方向：
+    Neuronal cell biology，
+    Neuronal morphogenisis，
+    Neurotransmission，
+    Aging，
+
+教职员简介：
+  姓名：汤南（Nan TANG）
+  职称：Associate Dean
+  学域：Information Hub
+  邮箱：nantang@hkust-gz.edu.cn
+  办公室：E3 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  研究方向：
+    Data-Centric AI，
+    Retrieval-Augmented Generation for High-fidelity Reasoning of Large Language Models，
+    AI for Data Preparation，
+
+教职员简介：
+  姓名：郭宇权（YUE KUEN KWOK）
+  职称：Professor
+  学域：Thrust of Financial Technology
+  邮箱：maykwok@hkust-gz.edu.cn
+  办公室：E2(C9) L3 314
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KWOK-YUE-KUEN/maykwok
+  研究方向：
+    Financial Mathematics，
+    Risk Management，
+    Financial Engineering，
+
+教职员简介：
+  姓名：蔡桂港（Guigang CAI）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：guigangcai@hkust-gz.edu.cn
+  办公室：W1 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Guigang/guigangcai
+  研究方向：
+    Hybrid DC-DC converters，
+    Analog and digital low-dropout regulators，
+    Switched capacitors，
+    Isolated DC-DC converters，
+    Power- and area-efficient analog circuits，
+
+教职员简介：
+  姓名：李晨杨（Chenyang LI）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：chenyangli@hkust-gz.edu.cn
+  办公室：W4 L5 516
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Chenyang/chenyangli
+  研究方向：
+    Industrial Organization，
+    Platform，
+    Digital Economics，
+    Game Theory，
+    Network Theory，
+    Business Economics，
+    Behaviour Economics，
+
+教职员简介：
+  姓名：骆昱宇（Yuyu LUO）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yuyuluo@hkust-gz.edu.cn
+  办公室：E2 L6 615
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  研究方向：
+    DATA+AI，
+    AI-driven Data Analytics，
+    Data-centric Artificial Intelligence，
+    LLM Agents，
+    Database System，
+
+教职员简介：
+  姓名：王晓雨（Xiaoyu WANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：xiaoyuwang@hkust-gz.edu.cn
+  办公室：W1(C8) L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xiaoyu/xiaoyuwang
+  研究方向：
+    Theoretical Machine Learning，
+    Financial Engineering，
+    Applied Machine Learning in Finance，
+
+教职员简介：
+  姓名：张莹（Ying ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：yingzhang@hkust-gz.edu.cn
+  办公室：W1(C8) L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Ying/yingzhang
+  研究方向：
+    Numerical Algorithms Design，
+    Machine Learning and Finance，
+    Stochastic Optimization，
+
+教职员简介：
+  姓名：张磊夫（Leifu ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：leifuzhang@hkust-gz.edu.cn
+  办公室：W1(C8) L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Leifu/leifuzhang
+  研究方向：
+    FinTech，
+    Information Economics in Financial Markets，
+    Adversarial/Strategic ML/AI & Its Applications，
+    Decentralized Finance (DeFi)，
+
+教职员简介：
+  姓名：张译（Yi ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：ethanyizhang@hkust-gz.edu.cn
+  办公室：E4(C9) L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yi/ethanyizhang
+  研究方向：
+    Theoretical and Empirical Climate Asset Pricing，
+    Climate Finance，
+    Macro Finance，
+    ESG，
+    Text Mining，
+    China Economy，
+    Applied Machine Learning，
+
+教职员简介：
+  姓名：王雪超（Xuechao WANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：xuechaowang@hkust-gz.edu.cn
+  办公室：W1（C8） L4 415
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xuechao/xuechaowang
+  研究方向：
+    Blockchain，
+    Decentralized Finance，
+
+教职员简介：
+  姓名：梁卓毅（Zhuoyi LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：zhuoyiliang@hkust-gz.edu.cn
+  办公室：E4 L4 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Zhuoyi/zhuoyiliang
+  研究方向：
+    Neuroscience，
+    Immunology，
+    Genomic instability，
+    Cancer，
+    Neurodegenerative diseases，
+
+教职员简介：
+  姓名：徐巍（Wei XU）
+  职称：Director (NFF(GZ))
+  学域：Nanosystem Fabrication Facility (GZ)
+  邮箱：weixu@hkust-gz.edu.cn
+  办公室：C1 W L6
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Wei/weixu
+  研究方向：
+
+教职员简介：
+  姓名：林桥津（Julie Qiaojin LIN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：qiaojinlin@hkust-gz.edu.cn
+  办公室：E4 L4 413
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Qiaojin/qiaojinlin
+  研究方向：
+    Molecular neuroscience，
+    RNA biology，
+    Brain temperature，
+    Neuroprotection，
+    Brain-on-chip，
+
+教职员简介：
+  姓名：袁子轩（Zixuan YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zixuanyuan@hkust-gz.edu.cn
+  办公室：E3（C9）L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Zixuan/zixuanyuan
+  研究方向：
+    Data Science and Artificial Intelligence，
+    Financial Technology，
+    Text Analytics，
+    Recommendation Systems，
+
+教职员简介：
+  姓名：李晓萌（Xiaomeng LI）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：xiaomengli@hkust-gz.edu.cn
+  办公室：E4 L6 612
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Xiaomeng/xiaomengli
+  研究方向：
+    Chemical Biology，
+    Epigenetics，
+    Histone PTMs，
+    Protein-protein Interactions，
+    Quantitative Proteomics，
+
+教职员简介：
+  姓名：颜嘉（Jia YAN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：jasonjiayan@hkust-gz.edu.cn
+  办公室：W1 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YAN-Jia/jasonjiayan
+  研究方向：
+    mobile edge computing and edge intelligence，
+    wireless federated learning with differential privacy，
+    Internet of Vehicles (IoV) and Internet of Things (IoT)，
+    5G and beyond systems，
+
+教职员简介：
+  姓名：陈煌栒（Huangxun CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：huangxunchen@hkust-gz.edu.cn
+  办公室：E1 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Huangxun/huangxunchen
+  研究方向：
+    Efficient Edge/Embedded AI System，
+    Human‑Centered AI System，
+    Intent‑driven System Operation and Management，
+    Sensing and Perception Security/Privacy，
+    AIoT (Artificial Intelligence of Things)，
+
+教职员简介：
+  姓名：李顺诚（Shuncheng LEE）
+  职称：Thrust Head
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：shunchenglee@hkust-gz.edu.cn
+  办公室：W2 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shuncheng/shunchenglee
+  研究方向：
+    Indoor Air Pollution，
+    Toxic Air Pollutants，
+    Emission Source Characterization，
+    Carbonaceous Aerosol Characterization，
+
+教职员简介：
+  姓名：鲁杨斯宇（Yangsiyu LU）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：yangsiyulu@hkust-gz.edu.cn
+  办公室：E1 L4 414
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Yangsiyu/yangsiyulu
+  研究方向：
+    Energy Transition，
+    Clean Technology Investment，
+    Fossil Fuel Stranded assets，
+    Climate Risks，
+    Environmental Economics，
+    Energy Policy，
+
+教职员简介：
+  姓名：黄淼俊（Miaojun HUANG）
+  职称：Associate Base Head
+  学域：Base of Red Bird MPhil
+  邮箱：mjhuang@hkust-gz.edu.cn
+  办公室：W1 L6 616
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Miaojun/mjhuang
+  研究方向：
+    Higher Education and Innovation，
+    Biomedical Development and Application，
+
+教职员简介：
+  姓名：黄同舸（Tongge HUANG）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：tonggehuang@hkust-gz.edu.cn
+  办公室：E1 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Tongge/tonggehuang
+  研究方向：
+    Intelligent transportation system，
+    Embodied Multi-Agents，
+    Autonomous driving system，
+    Big Data-driven decision making，
+
+教职员简介：
+  姓名：李然（Ran LI）
+  职称：Lecturer I
+  学域：Pillar of General Education
+  邮箱：ranli@hkust-gz.edu.cn
+  办公室：E1 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Ran/ranli
+  研究方向：
+
+教职员简介：
+  姓名：胡文珣（Wenxun HU）
+  职称：Lecturer II
+  学域：Base of Red Bird MPhil
+  邮箱：wenxunhu@hkust-gz.edu.cn
+  办公室：W3 L3 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Wenxun/wenxunhu
+  研究方向：
+    Intelligent Transportation Systems，
+    Smart Cities，
+    Urban Air Mobility，
+    Emotional Intelligence and Mindfulness，
+
+教职员简介：
+  姓名：吕东烨（Dongye LYU）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：dongyelyu@hkust-gz.edu.cn
+  办公室：E1 L4 415
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LYU-Dongye/dongyelyu
+  研究方向：
+    Sports Media & Technology，
+    Health Communication & Physical Activity，
+    Olympics and Sports Culture，
+    Sports Business & Intelletual Marketing，
+    Celebrity Studies，
+
+教职员简介：
+  姓名：刘曦文（Xiwen LIU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：xiwenliu@hkust-gz.edu.cn
+  办公室：W1 L6 615
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Xiwen/xiwenliu
+  研究方向：
+    Microelectronics Devices，
+    Emerging Memory Technology，
+    Compute-in-Memory，
+    Design-Technology Co-Design，
+    Unconventional Computing，
+
+教职员简介：
+  姓名：杨可洲（Kezhou YANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：kezhouyang@hkust-gz.edu.cn
+  办公室：E4 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Kezhou/kezhouyang
+  研究方向：
+    Neuromorphic Computing，
+    Spintronic Devices，
+    Spiking Neural Networks，
+    Bayesian Neural Networks，
+    Hardware-Algorithm Codesign，
+    Compute-In-Memory，
+    Non-Volatile Memories，
+
+教职员简介：
+  姓名：苑荣峰（Rongfeng YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：rongfengyuan@hkust-gz.edu.cn
+  办公室：W4 L4 405
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Rongfeng/rongfengyuan
+  研究方向：
+    Nanoscale transport mechanism of energy carriers，
+    Ultrafast spectroscopy and microscopy，
+    Dynamics of intermolecular interactions and lattice vibrations，
+
+教职员简介：
+  姓名：王浩（Hao WANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：haowang@hkust-gz.edu.cn
+  办公室：E4 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Hao/haowang
+  研究方向：
+    Multimodal Learning，
+    3D Reconstruction，
+    LLM Agents，
+
+教职员简介：
+  姓名：余露文（Luwen YU）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：luwenyu@hkust-gz.edu.cn
+  办公室：E3 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Luwen/luwenyu
+  研究方向：
+    Colour Science in Human Factors，
+    Perception, Cognition and Behaviour，
+    Psychophysiological Research，
+    Neuroaesthetics，
+
+教职员简介：
+  姓名：何庆浩（Qinghao HE）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：qinghaohe@hkust-gz.edu.cn
+  办公室：E4(C9) L4 412
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Qinghao/qinghaohe
+  研究方向：
+    Design and manufacturing of advanced composites，
+    Additive manufacturing of polymers and polymer composites，
+    Application of recyclable fiber-reinforced composites，
+
+教职员简介：
+  姓名：方博（Bo FANG）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：bofang@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-Bo/bofang
+  研究方向：
+
+教职员简介：
+  姓名：郭娇（Jiao GUO）
+  职称：Senior Lecturer
+  学域：Pillar of General Education
+  邮箱：jiaoguo@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Jiao/jiaoguo
+  研究方向：
+
+教职员简介：
+  姓名：曾健（Jian ZENG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：jianzeng@hkust-gz.edu.cn
+  办公室：W4 L4 413
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Jian/jianzeng
+  研究方向：
+    Thermal energy materials and heat transfer，
+    Solar-thermal energy conversion and storage，
+    Carbon capture and conversion，
+    Desalination and water harvesting，
+    Building/electronics/personal thermal-moisture management，
+
+教职员简介：
+  姓名：周胜（Sheng ZHOU）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：shengzhou@hkust-gz.edu.cn
+  办公室：W1 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Sheng/shengzhou
+  研究方向：
+    Gas separations, including CO2 capture, natural gas purification, hydrocarbon separations，
+    Membrane-based separation technology，
+    Ion separations，
+    Metal-organic frameworks, covalent-organic frameworks, hydrogen-bonded organic frameworks and other porous materials，
+    Energy-harvest membrane devices，
+
+教职员简介：
+  姓名：张程（Cheng ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：chengzhang@hkust-gz.edu.cn
+  办公室：E4 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Cheng/chengzhang
+  研究方向：
+    Microbiology & Immunology，
+    AI for Enzyme Discovery & Engineering，
+    RNA-Programmable Technologies，
+    RNA-Based Therapeutics，
+    Structural Biology，
+
+教职员简介：
+  姓名：吕冬（Dong LU）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：donglu@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Dong/donglu
+  研究方向：
+    · Project based Interdisciplinary Education and Entrepreneurship，
+    · AI Empowered Microsystems Packaging Design and Failure Analysis，
+    · Materials' Non-standard Characterization and Digitalization，
+    · Mechanical and Thermal Simulation，
+    · Microelectronic Packaging and Functional Materials，
+
+教职员简介：
+  姓名：王鲁佳（Lujia WANG）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：eewanglj@hkust-gz.edu.cn
+  办公室：W1 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj
+  研究方向：
+    Perception and Uncertainty Modeling，
+    Lifelong federated learning，
+    Embodied intelligence，
+    Technology applications in  Electric Vertical Take-off and Landing(EVToL), domestic robots, autonomous driving, and so on.，
+
+教职员简介：
+  姓名：朱国毅（Guoyi ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：guoyizhu@hkust-gz.edu.cn
+  办公室：W4 L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Guoyi/guoyizhu
+  研究方向：
+    Entangled Quantum Matter meets Quantum Information，
+    Entangled states and tensor network，
+    Monitored quantum circuit dynamics，
+    Topological phases of matter and phase transitions，
+    Correlated electrons: spin liquid and unconventional superconductivity，
+
+教职员简介：
+  姓名：王晓燕（Xiaoyan WANG）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：xiaoyanwang@hkust-gz.edu.cn
+  办公室：W1 (C8) 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xiaoyan/xiaoyanwang
+  研究方向：
+    Multifunctional Biomaterials，
+    Flipped Classroom in Engineering Education，
+
+教职员简介：
+  姓名：黄扬（Yang HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：yanghuang@hkust-gz.edu.cn
+  办公室：W1(C8) L4 414
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yang/yanghuang
+  研究方向：
+    Surface functionalization of energy-related material and studies of its surface-interface effect，
+    High energy density and dendrite-free aqueous battery for distributed energy storage system，
+    High output power thermocell with gel electrolyte for low-grade heat harvesting，
+
+教职员简介：
+  姓名：曹蓓（Bei CAO）
+  职称：Senior Lecturer
+  学域：Pillar of STEM Education
+  邮箱：beicao@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAO-Bei/beicao
+  研究方向：
+
+教职员简介：
+  姓名：YASA IMMIHAN CEREN（IMMIHAN CEREN YASA）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：cerenyasa@hkust-gz.edu.cn
+  办公室：W4 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHAN-CEREN/cerenyasa
+  研究方向：
+    Medical microrobotics，
+    Complex cellular systems and biohybrid robotics，
+    Point-of-care devices，
+    Biomaterials，
+
+教职员简介：
+  姓名：YASA ONCAY（ONCAY YASA）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：oncayyasa@hkust-gz.edu.cn
+  办公室：W4 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa
+  研究方向：
+    Biohybrid Robotics，
+    Soft Robotics，
+    Microrobotics，
+    Materials for Robotics，
+
+教职员简介：
+  姓名：曹瑞（Rui CAO）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：ruicao@hkust-gz.edu.cn
+  办公室：E4 L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAO-Rui/ruicao
+  研究方向：
+    GeoAI & Spatial Data Science (AI for earth observation; spatially explicit AI models; spatial-temporal data mining and analytics)，
+    Urban Informatics & Smart Cities (urban sensing, computing, and analytics; urban digital twins; smart mobility)，
+    Urban Sustainability & Resilience (SDGs for cities; AI for social good; disaster management)，
+
+教职员简介：
+  姓名：韩冰岩（Bingyan HAN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：bingyanhan@hkust-gz.edu.cn
+  办公室：W2(C8) 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HAN-Bingyan/bingyanhan
+  研究方向：
+    FinTech，
+    Optimal transport，
+    Mathematical finance，
+
+教职员简介：
+  姓名：王文宇（Wenyu WANG）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：wenyuwang@hkust-gz.edu.cn
+  办公室：W4 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenyu/wenyuwang
+  研究方向：
+    Adaptive printing of soft materials，
+    Fibre printing for e-skins and smart wearables，
+    Biofabrication and bioelectronics，
+
+教职员简介：
+  姓名：于佳冬（Jiadong YU）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：jiadongyu@hkust-gz.edu.cn
+  办公室：W1 L6 614
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Jiadong/jiadongyu
+  研究方向：
+    Reinforcement Learning and MARL，
+    Multi-agent System，
+    Edge Intelligence，
+    Digital Twin，
+
+教职员简介：
+  姓名：许丕文（PEI MAN JAMES SHE）
+  职称：Associate Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：jamespmshe@hkust-gz.edu.cn
+  办公室：W1 L6 617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHE-PEI-MAN-JAMES/jamespmshe
+  研究方向：
+    AI for Art, 人工智能在艺术中的应用，
+    AI for Culture and Heritage, 人工智能在文化与遗产中的应用，
+    AI for Art, Science and Generation Education, AI 赋能的艺术、科学与通识教育，
+    AI for Media and Sport, 人工智能在媒体与体育中的应用，
+    AI for Human Creativity, 人工智能在人类创造力中的应用，
+    Multimedia and Social Computing, 多媒体与社交媒体计算，
+    IoT for Interactive and Green System, 物联网在互动和可持续系统中的应用，
+
+教职员简介：
+  姓名：张延林（Yanlin ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yanlinzhang@hkust-gz.edu.cn
+  办公室：E1 L5 511
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  研究方向：
+    Computational biology，
+    AI for Science，
+    Marine genomics，
+    Immersive data visualization，
+    Genetics and Evolution，
+
+教职员简介：
+  姓名：翁禄涛（Lutao WENG）
+  职称：Director
+  学域：Office Of Lab Facilities and Safety
+  邮箱：mcltweng@hkust-gz.edu.cn
+  办公室：W1 L1 128B
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WENG-Lutao/mcltweng
+  研究方向：
+    	Surface chemistry and surface analysis of advanced materials，
+    	Surface analysis techniques (TOF-SIMS, XPS, and AES etc.)，
+    	Materials analysis，
+
+教职员简介：
+  姓名：赵吴凡（Wufan ZHAO）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：wufanzhao@hkust-gz.edu.cn
+  办公室：E1 L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao
+  研究方向：
+    3D City Perception / Reconstruction，
+    Multi-modal Data Learning，
+    Spatial Intelligence and Embodied AI，
+    GeoAI for Sustainable City，
+
+教职员简介：
+  姓名：姜蓝督（Landu JIANG）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：landujiang@hkust-gz.edu.cn
+  办公室：E2 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Landu/landujiang
+  研究方向：
+    ubiquitous and mobile computing，
+    AI solutions for smart healthcare, smart cities, green energy, agriculture, etc.，
+    Computer Vision and Computer Graphics，
+    Human-Computer Interaction，
+
+教职员简介：
+  姓名：林源宝（Yuanbao LIN）
+  职称：Lecturer I
+  学域：Pillar of STEM Education
+  邮箱：yuanbaolin@hkust-gz.edu.cn
+  办公室：E1 L6 615
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Yuanbao/yuanbaolin
+  研究方向：
+
+教职员简介：
+  姓名：吕晓洁（Xiaojie LU）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：xiaojielu@hkust-gz.edu.cn
+  办公室：W1 L4 406
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Xiaojie/xiaojielu
+  研究方向：
+    Universal Design，
+    Wearables and Health，
+    Virtual Reality，
+    Sustainability，
+
+教职员简介：
+  姓名：朱俊华（Junhua ZHU）
+  职称：Lecturer I
+  学域：Pillar of General Education
+  邮箱：junhuazhu@hkust-gz.edu.cn
+  办公室：E3 L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Junhua/junhuazhu
+  研究方向：
+
+教职员简介：
+  姓名：陈鑫宇（Xinyu CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：xinyuchen@hkust-gz.edu.cn
+  办公室：W1 L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Xinyu/xinyuchen
+  研究方向：
+    Hardware-software co-design，
+    AI accelerators and LLM inference，
+    Embodied AI，
+    Heterogeneous computing with FPGAs/GPUs/NPUs，
+
+教职员简介：
+  姓名：梁雨桐（Yutong LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yutongliang@hkust-gz.edu.cn
+  办公室：W4 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yutong/yutongliang
+  研究方向：
+    Mobile Measurement of Air Pollution，
+    Mass spectrometry，
+    Indoor air quality，
+    Biomass burning，
+
+教职员简介：
+  姓名：方超（Chao FANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：chaofang@hkust-gz.edu.cn
+  办公室：W4 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-Chao/chaofang
+  研究方向：
+    Multiscale Modeling of Transport Phenomena，
+    Ion Transport in Electrolytes，
+    Interfacial Fluid Transport，
+    Soft Matter Physics，
+    AI in Molecular Modeling，
+
+教职员简介：
+  姓名：高诗简（Shijian GAO）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：shijiangao@hkust-gz.edu.cn
+  办公室：W1(C8) L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GAO-Shijian/shijiangao
+  研究方向：
+    Hardware-efficient PHY transmission，
+    High-dimensional array signal processing，
+    Multi-modality sensing-aided communication，
+    AI-empowered wireless system optimization，
+
+教职员简介：
+  姓名：连家良（ARTHUR KAR LEUNG LIN）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：arthurkll@hkust-gz.edu.cn
+  办公室：E3 L6 611
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-ARTHUR-KAR-LEUNG/arthurkll
+  研究方向：
+    CubeSat development，
+    Smart Manufacturing: IoT, IR4.0，
+    Aerospace，
+
+教职员简介：
+  姓名：李岚慧（Lanhui LI）
+  职称：Lecturer II
+  学域：Base of Red Bird MPhil
+  邮箱：lanhuili@hkust-gz.edu.cn
+  办公室：W1(C8) L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lanhui/lanhuili
+  研究方向：
+    Microsystems and Micro/Nanoengineering，
+    Lab-on-Chip Microfluidic Sensors and Organ-on-Chip Systems，
+    Artificial Intelligence-based Brain-on-Chip Platforms，
+    Smart Materials and their Application in Microfluidic Devices，
+    Teaching, Learning and Assessment in Innovative Higher Education，
+    AI + Education，
+
+教职员简介：
+  姓名：郝暾（Tun HAO）
+  职称：Lecturer I
+  学域：Pillar of Language Education
+  邮箱：tunhao@hkust-gz.edu.cn
+  办公室：W1 L4 409
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HAO-Tun/tunhao
+  研究方向：
+    Psycholinguistics，
+    Grammar，
+    Applied Linguistics，
+
+教职员简介：
+  姓名：李昊昂（Haoang LI）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：haoangli@hkust-gz.edu.cn
+  办公室：W2(C8) 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli
+  研究方向：
+    Embodied AI (VLA and VLN)，
+    3D Computer Vision，
+    Autonomous Driving，
+
+教职员简介：
+  姓名：岳玉涛（Yutao YUE）
+  职称：Associate Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yutaoyue@hkust-gz.edu.cn
+  办公室：E4 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue
+  研究方向：
+    Foundation Models & Generative Models 基础模型与生成模型，
+    Multimodal Learning 多模态学习，
+    AI Emotion, Cognition and Consciousness AI情感、认知与意识，
+    AI for Education & AI for Health AI在教育与健康领域的应用，
+
+教职员简介：
+  姓名：胡旭明（Xuming HU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：xuminghu@hkust-gz.edu.cn
+  办公室：E3（C9）L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Xuming/xuminghu
+  研究方向：
+    Natural Language Processing，
+    Large Language Models，
+
+教职员简介：
+  姓名：JIANG WEI（WEI JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：weijiang2@hkust-gz.edu.cn
+  办公室：E4 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-WEI/weijiang2
+  研究方向：
+    Low-cost and high-sensitivity optical sensors，
+    High-performance and high-speed readout integrated circuits，
+    Biomedical Circuits and Systems，
+    Emerging Applications: Medical Imaging, Wearable device, OWC, LiDAR，
+
+教职员简介：
+  姓名：岳亮（Liang YUE）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：liangyue@hkust-gz.edu.cn
+  办公室：E4(C9) 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Liang/liangyue
+  研究方向：
+    Multifunctional Polymer Materials，
+    Responsive Material Systems，
+    Shape Morphing Structures，
+    3D/4D Printing，
+
+教职员简介：
+  姓名：郭怡鑫（Yixin GUO）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：yixinguo@hkust-gz.edu.cn
+  办公室：W4 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Yixin/yixinguo
+  研究方向：
+    The reactive nitrogen cycle and air quality，
+    Agricultural ammonia emission quantifications and mitigation，
+    Land-atmosphere exchange of nitrogen，
+    Sustainable food systems，
+    Sustainable development goals，
+    Management policies incentivizing technology adoption，
+    Interactions between climate change and nitrogen cycle，
+    Climate mitigation and adaptation of agriculture，
+
+教职员简介：
+  姓名：白煜（Yu BAI）
+  职称：Director (EC)
+  学域：Entrepreneurship Center
+  邮箱：yubai@hkust-gz.edu.cn
+  办公室：C1 W L2 204
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Yu/yubai
+  研究方向：
+
+教职员简介：
+  姓名：徐铁英（Tieying XU）
+  职称：Lecturer I
+  学域：Centre for Ethics Education and Contemporary China Studies
+  邮箱：tieyingxu@hkust-gz.edu.cn
+  办公室：C1 E L7
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Tieying/tieyingxu
+  研究方向：
+
+教职员简介：
+  姓名：许均瑜（Junyu XU）
+  职称：Senior Lecturer
+  学域：Pillar of STEM Education
+  邮箱：junyuxu@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Junyu/junyuxu
+  研究方向：
+    Molecular-cellular-neural circuitry mechanisms of Autism，
+    Synapse formation and cognition，
+
+教职员简介：
+  姓名：陈韵（Yun CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：yunchen@hkust-gz.edu.cn
+  办公室：W1(C8) L5 514
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yun/yunchen
+  研究方向：
+    Computer Architecture，
+    Hardware and System Security，
+    Side-Channel Attacks and Mitigations，
+    High-Performance Archirtecture，
+    Trusted Computing，
+
+教职员简介：
+  姓名：RIKOS APOSTOLOS（APOSTOLOS RIKOS）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：apostolosr@hkust-gz.edu.cn
+  办公室：C8 W4 L3 Unit8
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/RIKOS-APOSTOLOS/apostolosr
+  研究方向：
+    Networks with AI，
+    Distributed Control of Networked Systems，
+    Distributed Optimization and Machine Learning，
+    Privacy over Networks，
+    Applications: Cyber-Physical Systems, Smart Grids, Internet of Things (IoT)，
+
+教职员简介：
+  姓名：郑贺（He ZHENG）
+  职称：Lecturer II
+  学域：Centre for Ethics Education and Contemporary China Studies
+  邮箱：hezheng@hkust-gz.edu.cn
+  办公室：W4 C8 616
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-He/hezheng
+  研究方向：
+
+教职员简介：
+  姓名：聂强（Qiang NIE）
+  职称：Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：qiangnie@hkust-gz.edu.cn
+  办公室：W1(C8) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie
+  研究方向：
+    Robot Design and Control，
+    Human-Robot Interaction（including human behavior understanding, human pose estimation, human action prediction, human-robot cooperation），
+    Learning from Videos（Human Skill Learning/Human Behavior Imitation），
+    Multi-modal Vision Model（Perception, Understanding, Generation and Their Unified Model），
+    AI Agent，
+    Reinforcement Learning，
+
+教职员简介：
+  姓名：王宇阳（Yuyang WANG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：yuyangwang@hkust-gz.edu.cn
+  办公室：E1 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang
+  研究方向：
+    VR Motion Sickness，
+    Multimodal Emotion Recognition，
+    Brain-AI Alignment，
+    Immersive Human-machine Interaction，
+    Computer Vision/Reinforcement Learning，
+
+教职员简介：
+  姓名：薛珂（Ke XUE）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：jerrykxue@hkust-gz.edu.cn
+  办公室：E2 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XUE-Ke/jerrykxue
+  研究方向：
+    Reliability design for semiconductor packaging，
+    Virtual design, verification and multi-scale simulation of advanced polymer composites，
+    Interdisciplinary project-based learning pedagogy，
+
+教职员简介：
+  姓名：鲁中海（Zhonghai LU）
+  职称：Professor
+  学域：Thrust of Microelectronics
+  邮箱：zhl@hkust-gz.edu.cn
+  办公室：E3 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Zhonghai/zhl
+  研究方向：
+    Network-on-Chip and Chiplet Network，
+    Computing System Architecture，
+    Embedded Machine Learning，
+    Reliability of Electronic Systems，
+
+教职员简介：
+  姓名：王玥（Yue WANG）
+  职称：Lecturer II
+  学域：Base of Red Bird MPhil
+  邮箱：yw@hkust-gz.edu.cn
+  办公室：C1 E L4
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yue/yw
+  研究方向：
+    Assistive Technology，
+    Circular economy in plastics，
+    Mitigating environmental risks associated with microplastics，
+    AI for polymer optimization，
+    Structure-properties relationship for polyesters，
+    Biodegradation/hydrolysis on (bio)plastics，
+
+教职员简介：
+  姓名：郭大强（Daqiang GUO）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：daqiangguo@hkust-gz.edu.cn
+  办公室：W2 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Daqiang/daqiangguo
+  研究方向：
+    Intelligent and sustainable cyber-physical manufacturing systems，
+    Efficient and safe human-robot collaborative manufacturing，
+    Fusion of knowledge and data for optimization of manufacturing operations，
+    Operations management for Industry 4.0 manufacturing，
+
+教职员简介：
+  姓名：唐国明（Guoming TANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：guomingtang@hkust-gz.edu.cn
+  办公室：W3 L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang
+  研究方向：
+    Sustainble Computing，
+    Cloud/Edge Computing，
+    Applied AI/ML，
+    Computer Networks，
+
+教职员简介：
+  姓名：谢泽柯（Zeke XIE）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zekexie@hkust-gz.edu.cn
+  办公室：E1 L4 416
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie
+  研究方向：
+    Generative AI，
+    Agentic AI，
+    LLM Training and Infra，
+    AI and AGI Theory，
+
+教职员简介：
+  姓名：余世琴（Shiqin YU）
+  职称：Research Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：shiqinyu@hkust-gz.edu.cn
+  办公室：E3 L6 624
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Shiqin/shiqinyu
+  研究方向：
+
+教职员简介：
+  姓名：PARK SEONA（Seona PARK）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：seonapark@hkust-gz.edu.cn
+  办公室：W4 L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PARK-Seona/seonapark
+  研究方向：
+    Energy Justice & Just Transition，
+    Climate Neutrality Policies in Asia，
+    Identification and support of marginalized groups in the climate crisis，
+
+教职员简介：
+  姓名：GUMBER ANURAG（ANURAG GUMBER）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：anuraggumber@hkust-gz.edu.cn
+  办公室：E2 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUMBER-ANURAG/anuraggumber
+  研究方向：
+    Climate finance & policy，
+    Low-carbon infrastructure/asset finance，
+    Energy, transport, urban infrastructure，
+    Technology innovation and finance，
+    Banking and institutional investors，
+
+教职员简介：
+  姓名：TONG XIN（XIN TONG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：xint@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint
+  研究方向：
+
+教职员简介：
+  姓名：张永祺（Yongqi ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yongqizhang@hkust-gz.edu.cn
+  办公室：E4(C9) L4 414
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  研究方向：
+    Machine learning on relational graphs，
+    Reasoning on large language models，
+    Automated machine learning，
+    Graph + Science，
+
+教职员简介：
+  姓名：LIANG HAI NING（HAI NING LIANG）
+  职称：Associate Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：hainingliang@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-HAI-NING/hainingliang
+  研究方向：
+    Human-Computer Interaction，
+    Virtual/Augmented/Mixed Reality，
+    Gaming Technologies，
+    Visualization Technologies，
+
+教职员简介：
+  姓名：李莫言（Moyan LI）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：moyanli@hkust-gz.edu.cn
+  办公室：W4 L4 414
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Moyan/moyanli
+  研究方向：
+    Healthcare Innovation，
+    Health Economics，
+    Applied Microeconomics，
+
+教职员简介：
+  姓名：梁宸（Chen LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：chenliang2@hkust-gz.edu.cn
+  办公室：W1 L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Chen/chenliang2
+  研究方向：
+
+教职员简介：
+  姓名：杨经纬（Jingwei YANG）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：jingweiyang@hkust-gz.edu.cn
+  办公室：E2 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jingwei/jingweiyang
+  研究方向：
+    Requirements Engineering，
+    Software Engineering，
+    Knowledge Engineering，
+    Quality Assurance of AI，
+    Active Learning Pedagogies，
+
+教职员简介：
+  姓名：李秋蒙（Qiumeng LI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：qiumengli@hkust-gz.edu.cn
+  办公室：W4 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Qiumeng/qiumengli
+  研究方向：
+    Built Environment Cognition for Mobility，
+    AI Agent for Behavioural Geography，
+    Micro-Mobility Behaviour，
+    Spatial Cognition，
+
+教职员简介：
+  姓名：张超（Chao ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：chaoz@hkust-gz.edu.cn
+  办公室：W2(C8) L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chao/chaoz
+  研究方向：
+    AI for Finance，
+
+教职员简介：
+  姓名：郭奕龙（YI-LUNG KUO）
+  职称：Senior Lecturer
+  学域：Pillar of Cognitive Sciences
+  邮箱：yilungkuo@hkust-gz.edu.cn
+  办公室：E1 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KUO-YI-LUNG/yilungkuo
+  研究方向：
+    Social and Emotional Learning，
+    Large-Scale Assessments in Education，
+    Development of Innovative Assessments，
+    Gifted Education，
+    College Teaching and Learning，
+
+教职员简介：
+  姓名：庞鼎全（TING CHUEN PONG）
+  职称：Vice-President (Administration & Business)
+  学域：Vice-President (Administration & Business)
+  邮箱：tcpong@hkust-gz.edu.cn
+  办公室：C1 W L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TING-CHUEN/tcpong
+  研究方向：
+
+教职员简介：
+  姓名：王斌喆（Binzhe WANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：binzhewang@hkust-gz.edu.cn
+  办公室：E4 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Binzhe/binzhewang
+  研究方向：
+    Urban and transportation economics，
+    Economic geography，
+    Housing and land development，
+    Urban big data, human behavior, and the built environment，
+
+教职员简介：
+  姓名：韦芊芊（Qianqian WEI）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：qianqianwei@hkust-gz.edu.cn
+  办公室：W2 (C8) L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Qianqian/qianqianwei
+  研究方向：
+    Socio-technical transition，
+    Urban and regional development，
+    Governance for emerging technologies，
+    Climate and environmental governance，
+
+教职员简介：
+  姓名：戴恩炎（Enyan DAI）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：enyandai@hkust-gz.edu.cn
+  办公室：E4 L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DAI-Enyan/enyandai
+  研究方向：
+    Trustworthy Vision-Language-Action Model，
+    AI for Protein Science，
+
+教职员简介：
+  姓名：丁子硕（Zishuo DING）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zishuoding@hkust-gz.edu.cn
+  办公室：W4 L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+  研究方向：
+    Optimizing natural language processing techniques for software engineering，
+    Software performance engineering for large-scale systems，
+
+教职员简介：
+  姓名：芦尚奇（Shangqi LU）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：shangqilu@hkust-gz.edu.cn
+  办公室：E3 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu
+  研究方向：
+    Database Query Processing，
+    Vector Databases，
+
+教职员简介：
+  姓名：杨维铠（Weikai YANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：weikaiyang@hkust-gz.edu.cn
+  办公室：W1 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang
+  研究方向：
+    VIS4AI，
+    AI4VIS，
+    Human-AI collaboration，
+    Weakly-supervised learning，
+    Active learning，
+    Statistical learning and optimization，
+
+教职员简介：
+  姓名：钟梓昕（Zixin ZHONG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zixinzhong@hkust-gz.edu.cn
+  办公室：W1 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong
+  研究方向：
+    Reinforcement Learning，
+    Online Learning，
+    Multi-armed Bandits，
+
+教职员简介：
+  姓名：孙文（Wen SUN）
+  职称：Research Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：wens@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Wen/wens
+  研究方向：
+    Carbon Pricing，
+    Low-carbon Development，
+    Climate Policy Interactions，
+
+教职员简介：
+  姓名：蔡兰兰（Lanlan CAI）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：lanlancai@hkust-gz.edu.cn
+  办公室：W4 L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAI-Lanlan/lanlancai
+  研究方向：
+    Microbial Oceanography，
+    Marine Viral Ecology，
+    Virus–Host Interaction，
+
+教职员简介：
+  姓名：成子腾（Ziteng CHENG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zitengcheng@hkust-gz.edu.cn
+  办公室：E3(C9) L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHENG-Ziteng/zitengcheng
+  研究方向：
+    Risk-Averse Decision Making，
+    Reinforcement Learning，
+    Inverse Reinforcement Learning，
+    Mean Field Games，
+    Mathematical Finance，
+
+教职员简介：
+  姓名：李昱亨（Yuheng LI）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yuhengli@hkust-gz.edu.cn
+  办公室：W1 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yuheng/yuhengli
+  研究方向：
+    First-principles calculations, molecular dynamics，
+    Machine learning and high-throughput computation for data-driven materials design，
+    All-solid-state Li-ion and Na-ion batteries，
+    Hybrid halide perovskites for solar cells and light-emitting diodes，
+    Point defects, surface, interface, and vibrational spectroscopy，
+    Scientific software development，
+
+教职员简介：
+  姓名：刘志丹（Zhidan LIU）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：zhidanliu@hkust-gz.edu.cn
+  办公室：W4(C8) 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Zhidan/zhidanliu
+  研究方向：
+    Artificial Internet of Things (AIoT)，
+    Urban Computing & Smart Mobility，
+    Mobile and Edge Computing & Intelligence，
+    Crowdsensing and Crowdsourcing，
+    Spatio-Temporal Data Mining and Analytics，
+
+教职员简介：
+  姓名：张玫（Mei ZHANG）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：meizhang@hkust-gz.edu.cn
+  办公室：W1 L4 413
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Mei/meizhang
+  研究方向：
+
+教职员简介：
+  姓名：丁宁宁（Ningning DING）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：ningningding@hkust-gz.edu.cn
+  办公室：W2 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding
+  研究方向：
+    Artificial intelligence: machine unlearning, multi-agent coordination and game, LLM, diffusion model，
+    Network system: Internet of Things (IoT), sharing platform，
+    Network economics: data trading, LLM mechanism design，
+
+教职员简介：
+  姓名：钟秉灼（Bingzhuo ZHONG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：bingzhuoz@hkust-gz.edu.cn
+  办公室：W4(C8) L3 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Bingzhuo/bingzhuoz
+  研究方向：
+    具身智能安全 Safe and Secure Embodied Intelligence，
+    信息物理系统验证和控制 Verification and Control of Cyber-Physical Systems，
+    人工智能 + （低空经济/海洋/教育/智能制造）AI + (Low-altitude Economy, Ocean Engineering, Education, Smart Manufacturing)，
+
+教职员简介：
+  姓名：朱子木（Zimu ZHU）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：zimuzhu@hkust-gz.edu.cn
+  办公室：W4(C8) L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Zimu/zimuzhu
+  研究方向：
+    Stochastic Control and Games，
+    Mathematical Finance，
+    Principal-Agent Problem，
+    Machine Learning，
+
+教职员简介：
+  姓名：沈阳（Yang SHEN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：samyangshen@hkust-gz.edu.cn
+  办公室：E4(C9) L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHEN-Yang/samyangshen
+  研究方向：
+    Memory encoding and storage，
+    Neuron-glia crosstalk，
+    Synaptic plasticity，
+    Aging and neurodegeneration，
+
+教职员简介：
+  姓名：FELICIA WONG YEN MYAN（FELICIA YEN MYAN WONG）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：feliciawong@hkust-gz.edu.cn
+  办公室：C1 E L4
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WONG-FELICIA-YEN-MYAN/feliciawong
+  研究方向：
+    Antifouling technology using surface modification to prevent biofouling.，
+    CFD simulation of micro-hydrodynamics to understand surface topology impact on biofouling.，
+    Microfluidics for cell separation and agglomeration in biomedical applications.，
+    Soft lithography for designing modified surfaces for various applications.，
+    Educational research on the impact of educational technology and innovative instruction on graduate development.，
+
+教职员简介：
+  姓名：VON CHAMIER-WAITE CLEA THERESA（Clea VON CHAMIER-WAITE）
+  职称：Associate Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：cleavcw@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/VON-CHAMIER-WAITE-Clea/cleavcw
+  研究方向：
+    Science-Art as Media-specific Practice，
+    Spatial Cinema/ Immersive Cinema，
+    360°-cinema，
+    Fulldome，
+    Multi-channel Video Installation，
+    Alternative and Emerging Screen Technologies，
+    Embodied Form and Somatic Interfaces，
+    Experimental Cinema，
+    Data Poetics，
+
+教职员简介：
+  姓名：史维（Wei  SHYY）
+  职称：Chair Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：weishyy@hkust-gz.edu.cn
+  办公室：C1 L7 716
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHYY-Wei/weishyy
+  研究方向：
+    Aerodynamics and propulsion，
+    Bioinspired and unconventional flight vehicles，
+    Computational modeling for aerospace and mechanical systems，
+    Energy production and storage，
+    Multi-objective design and optimization，
+
+教职员简介：
+  姓名：陈晋泰（Jintai CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：jintaichen@hkust-gz.edu.cn
+  办公室：E1 L5 512
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Jintai/jintaichen
+  研究方向：
+    AI for Healthcare，
+    Multimodal Learning，
+    Deep Tabular Learning，
+    AI for Drug Design，
+    Multiagent Systems，
+
+教职员简介：
+  姓名：罗墨轩（Moxuan LUO）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：moxuanluo@hkust-gz.edu.cn
+  办公室：W1 L6 612
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Moxuan/moxuanluo
+  研究方向：
+    Chinese Classical Literature，
+    Literature from Song to Qing Dynasty，
+    Chinese Classical Fictions，
+    Chinese Classical Poems，
+
+教职员简介：
+  姓名：王旭东（Xudong WANG）
+  职称：Dean
+  学域：College of Future Technology
+  邮箱：xudongwang@hkust-gz.edu.cn
+  办公室：E1 L4 404
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xudong/xudongwang
+  研究方向：
+    AI for Wireless，
+    Distributed Machine Learning，
+    Mobile Edge Computing，
+    Joint Communications and Sensing，
+    6G and Beyond Networks，
+
+教职员简介：
+  姓名：鄭展鵬（Chin Pang CHENG）
+  职称：Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Building information modeling，
+    Construction engineering，
+    Green buildings，
+    Internet of Things (IoT)，
+    Sustainable construction，
+
+教职员简介：
+  姓名：胡郁（Yu HU）
+  职称：Adjunct Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：王文雄（Wenxiong WANG）
+  职称：Adjunct Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：何桥（Qiao HE）
+  职称：Lecturer I
+  学域：Pillar of STEM Education
+  邮箱：qiaohe@hkust-gz.edu.cn
+  办公室：W1 L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Qiao/qiaohe
+  研究方向：
+    Organic Semiconductor Materials，
+    Organic Optoelectronic Devices，
+    Molecular Design and Synthesis，
+
+教职员简介：
+  姓名：吴偲（Cai WU）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：caiwu@hkust-gz.edu.cn
+  办公室：E1 L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Cai/caiwu
+  研究方向：
+    Computational Urban Morphology，
+    Human-Environment Perception & Interaction，
+    Graph and Network Modeling of Cities，
+    AI-Enabled Urban Renewal Analytics and Design，
+    GeoAI for Spatial Equity，
+
+教职员简介：
+  姓名：朱龙潜（Longqian ZHU）
+  职称：Assistant Professor of Practice
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Battery and chip thermal management，
+    Building energy saving，
+    New and renewable energy refrigeration，
+    Carbon emissions accounting，
+
+教职员简介：
+  姓名：侯波（Bo HOU）
+  职称：Director（WFMRF）
+  学域：Wave Functional Metamaterial Research Facility
+  邮箱：bohou@hkust-gz.edu.cn
+  办公室：W3 L3 324B
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HOU-Bo/bohou
+  研究方向：
+
+教职员简介：
+  姓名：王德利（Deli WANG）
+  职称：Adjunct Professor
+  学域：Thrust of Advanced Materials
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：傅红波（Hongbo FU）
+  职称：Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：萧咏康（Weng Hong Sio）
+  职称：Adjunct Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：FRANZ RACHEL（RACHEL FRANZ）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：rachelfranz@hkust-gz.edu.cn
+  办公室：W3 L5 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FRANZ-RACHEL/rachelfranz
+  研究方向：
+    Human-computer interaction，
+    Accessibility，
+    VR/AR，
+    Older adults，
+
+教职员简介：
+  姓名：刘晓凤（Xiaofeng LIU）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：xiaofengliu@hkust-gz.edu.cn
+  办公室：W4 L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Xiaofeng/xiaofengliu
+  研究方向：
+    Political Geography，
+    Global South/ Belt and Road，
+    Urban and Regional Environmental Politics，
+    Transboundary and Local Governance，
+    AI for Social Science，
+    Qualitative and Mixed Research，
+
+教职员简介：
+  姓名：沈国斌（Guobin SHEN）
+  职称：Principal Engineer
+  学域：Low Altitude Systems and Economy Research Institute
+  邮箱：guobinshen@hkust-gz.edu.cn
+  办公室：W1(C8) L4 405
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHEN-Guobin/guobinshen
+  研究方向：
+    Low Altitude Economy, infrastructure and platform, flying robots design and control，
+    Airspace environment modeling, 3D-aware spatial computing，
+    Multimodal localization, integrated sensing and communication，
+    Internet-of-Things, Cyber/Physical Systems, Ultra Large-scale Systems，
+    Mobile and wearable computing, interaction, applications and systems，
+
+教职员简介：
+  姓名：吴大琪（TAI KAI NG）
+  职称：Pillar Head
+  学域：Pillar of STEM Education
+  邮箱：phtai@hkust-gz.edu.cn
+  办公室：W2 5F 502
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NG-TAI-KAI/phtai
+  研究方向：
+    condensed matter physics, in particular application of Quantum Field Theory to condensed matter systems. Topics of interests include strong correlated electrons, non-equilibrium mesoscopic transports, quantum topological order, disordered electronic systems and superconductivity; recently my interests include also data-driven education research including application of Machine Learning Technique on Education, developing neutral network type models for education.，
+
+教职员简介：
+  姓名：戚亚冰（Yabing QI）
+  职称：Adjunct Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Surface interface science，
+    Energy materials，
+    Atomic resolution imaging，
+    Perovskite solar cells，
+    Lithium-ion batteries，
+    Perovskite light-emitting diodes，
+    Organic electronic devices，
+
+教职员简介：
+  姓名：魏嘉珩（Jiaheng WEI）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：jiahengwei@hkust-gz.edu.cn
+  办公室：E3 L3 305
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei
+  研究方向：
+    Weakly Supervised Learning，
+    High-Quality Data Generation in LLM，
+    AI-Assisted Data Curation and Quality Evaluation，
+    Robust LLM Training and Fine-Tuning，
+    LLM Ethics (Unlearning, Watermarking, Jailbreaking)，
+
+教职员简介：
+  姓名：周桐（Tong ZHOU）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：tongz@hkust-gz.edu.cn
+  办公室：E4 (C9) L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Tong/tongz
+  研究方向：
+    Topological phases of matter，
+    Electron correlations and unconventional superconductivity，
+    Mesoscopic electronic charge, spin and valley transport，
+    Correlation and topology in twisted bilayer systems，
+    Quantum geometric and correlation effects in bilayer stacking/sliding ferroelectrics，
+
+教职员简介：
+  姓名：刘宏远（Hongyuan LIU）
+  职称：Adjunct Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：陈道毅（Daoyi CHEN）
+  职称：Adjunct Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Marine environmental studies，
+    Gas hydrate research，
+    Marine instrumentation and equipment，
+    Ocean dynamics，
+    Marine satellite remote sensing and information science，
+
+教职员简介：
+  姓名：Alex Hubertus Levering（Alex Levering）
+  职称：Adjunct Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：Peter WU（Peter Wu）
+  职称：Professor of Practice
+  学域：Thrust of Financial Technology
+  邮箱：jindingwu@hkust-gz.edu.cn
+  办公室：Remote
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/Wu-Peter/jindingwu
+  研究方向：
+    FinTech，
+
+教职员简介：
+  姓名：胡继善（Jishan HU）
+  职称：Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：jishanhu@hkust-gz.edu.cn
+  办公室：E3 L3 302
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Jishan/jishanhu
+  研究方向：
+
+教职员简介：
+  姓名：何全甫（Quanfu HE）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：quanfuhe@hkust-gz.edu.cn
+  办公室：W4 L4 418
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Quanfu/quanfuhe
+  研究方向：
+    Atmospheric Chemistry and Physics，
+    Aerosol-climate interactions and their global climatic effects，
+    Sources, formation, and evolution of organic aerosols，
+    Global and regional air quality，
+    Instrument development for atmospheric trace gas species and particles，
+
+教职员简介：
+  姓名：杨萌林（Menglin YANG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：menglinyang@hkust-gz.edu.cn
+  办公室：W4 L5 540
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Menglin/menglinyang
+  研究方向：
+    (1) Foundation Models. LLMs(Peft, RAG, Agent, Reasoning)、Multi-modal LLMs & Non-Euclidean LLMs，
+    (2) Information Retrival. Recommender Systems, Personalization, Knowledge graph, Data mining and Network sciences，
+    (3) Geometric Learning. Hyperbolic Representation Learning, Differential Geometry, Hierarchical Modeling, Geometric Learning and AI4SCI，
+
+教职员简介：
+  姓名：左腾嘉（Tengjia ZUO）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：tengjiazuo@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZUO-Tengjia/tengjiazuo
+  研究方向：
+
+教职员简介：
+  姓名：李翔宇（Xiangyu LI）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：xiangyul@hkust-gz.edu.cn
+  办公室：W1 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Xiangyu/xiangyul
+  研究方向：
+    Smart Grid and Flexible Resource Management，
+    AI for Energy Systems，
+    Transportation Electrification，
+    Energy Transaction and Market Mechanisms，
+
+教职员简介：
+  姓名：刘世源（Shiyuan LIU）
+  职称：Assistant Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：shiyuanl@hkust-gz.edu.cn
+  办公室：W4 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Shiyuan/shiyuanl
+  研究方向：
+    Functional ceramic films for energy conversion，
+    Stretchable electronics and soft robotics，
+    Interfacial engineering，
+    Ultrasonic power transfer for biomedical applications，
+    Low dimensional ferroelectric materials，
+
+教职员简介：
+  姓名：LAU Alexis Kai Hon（Alexis Kai Hon LAU）
+  职称：Chair Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Air quality analysis, forecasts and management，
+    Air pollution exposure and health impact assessment，
+    Climate adaptation and resilience，
+    Sustainable urban environment，
+    Green and sustainable finance，
+
+教职员简介：
+  姓名：GRIMSHAW-AAGAARD MARK NICHOLAS（MARK NICHOLAS GRIMSHAW-AAGAARD）
+  职称：Associate Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：mgrimshaw@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GRIMSHAW-AAGAARD-MARK-NICHOLAS/mgrimshaw
+  研究方向：
+    Sound philosophy and perception，
+    Presence，
+    Environmental ultrasound，
+
+教职员简介：
+  姓名：陈昶昊（Changhao CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：changhaochen@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Changhao/changhaochen
+  研究方向：
+    Embodied AI，
+    Open-World Spatial Perception，
+    Autonomous Navigation and Manipulation，
+    Simultaneous Localization and Mapping，
+    High-Efficiency Neural Network，
+
+教职员简介：
+  姓名：陈子冲（Zichong CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：zichongchen@hkust-gz.edu.cn
+  办公室：W3 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Zichong/zichongchen
+  研究方向：
+    Greenhouse Gases (CO2, methane, N2O)，
+    Air Pollutants (ammonia, CO)，
+    Carbon-climate Interactions and 'top-down’ Inverse Modeling，
+
+教职员简介：
+  姓名：袁家兴（Jiaxing YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：jiaxingyuan@hkust-gz.edu.cn
+  办公室：E4 L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Jiaxing/jiaxingyuan
+  研究方向：
+    Electrostatic and hydrodynamic interactions in soft matter，
+    Phase separation in macromolecular systems，
+    Self-assembly of colloids and nanoparticles，
+    Structure and dynamics of tetrahedral liquids，
+    Monte Carlo and molecular dynamics simulations，
+    Machine learning force fields for soft and liquid matter，
+    Physics of living matter，
+
+教职员简介：
+  姓名：ZHANG TIEFU（TIEFU ZHANG）
+  职称：Lecturer I
+  学域：Pillar of Language Education
+  邮箱：tiefuzhang@hkust-gz.edu.cn
+  办公室：W1 L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-TIEFU/tiefuzhang
+  研究方向：
+
+教职员简介：
+  姓名：林仕居（Shiju LIN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：shijulin@hkust-gz.edu.cn
+  办公室：E1(C9) L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Shiju/shijulin
+  研究方向：
+    Electronic Design Automation (EDA)，
+    GPU Acceleration for EDA，
+
+教职员简介：
+  姓名：WOON KOK SIN（KOK SIN WOON）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：koksinwoon@hkust-gz.edu.cn
+  办公室：E3 L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WOON-KOK-SIN/koksinwoon
+  研究方向：
+    Life cycle assessment in waste, energy, building, transportation, and agriculture，
+    Carbon footprint and material flow analysis，
+    Multi-objective optimization and geospatial analysis，
+    Decarbonization strategy and low-carbon policy planning，
+    Artificial intelligence for sustainability and climate change，
+    Environment-economic-social nexus for climate resilience，
+
+教职员简介：
+  姓名：励宁（Ning LI）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：nl@hkust-gz.edu.cn
+  办公室：E1 L4 406
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Ning/nl
+  研究方向：
+    Interdisciplinary teaching and learning in bio-medical education，
+    Advanced technologies for neuro-monitoring and rehabilitation，
+    Therapeutic Strategies for Neurological Trauma Recovery，
+
+教职员简介：
+  姓名：茹彬鑫（Binxin RU）
+  职称：Adjunct Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：乐阳（Yang YUE）
+  职称：Associate Dean
+  学域：Society Hub
+  邮箱：yangyue@hkust-gz.edu.cn
+  办公室：E1(C9) L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue
+  研究方向：
+    Innovations at the nexus of urban big data, GeoAI, and social sustainability.，
+
+教职员简介：
+  姓名：郭志江（Zhijiang GUO）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zhijiangguo@hkust-gz.edu.cn
+  办公室：W3 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo
+  研究方向：
+    Large Language Models，
+    Agentic AI，
+    Natural Language Processing，
+    Machine Learning，
+
+教职员简介：
+  姓名：章勇（Yong ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yongzhang@hkust-gz.edu.cn
+  办公室：W4 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yong/yongzhang
+  研究方向：
+    Novel photoactive materials design，
+    Perovskite photovoltaic technologies，
+    Perovskite microcrystal synthesis，
+    Lead halide perovskite recycling，
+    AI for perovskite solar cells，
+
+教职员简介：
+  姓名：柏舸（Ge BAI）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：gebai@hkust-gz.edu.cn
+  办公室：W4 L5 520
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Ge/gebai
+  研究方向：
+    Quantum information 量子信息，
+    Quantum machine learning 量子机器学习，
+    Quantum inference 量子推断，
+    Quantum networks 量子网络，
+
+教职员简介：
+  姓名：蒋纳（Na JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：najiang@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Na/najiang
+  研究方向：
+    Urban Analytics，
+    Geosimulation，
+    Agent-based modeling，
+    Computational Social Science，
+    Synthetic Population，
+
+教职员简介：
+  姓名：李宏宇（Hongyu LI）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：hongyuli@hkust-gz.edu.cn
+  办公室：W4 L5 518
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Hongyu/hongyuli
+  研究方向：
+    Wireless communications，
+    Advanced multiple access techniques，
+    Reconfigurable intelligent surfaces，
+    Reconfigurable antenna systems，
+
+教职员简介：
+  姓名：REN ZHIJUN（ZHIJUN REN）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：zhijunren@hkust-gz.edu.cn
+  办公室：W4 L5 523
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/REN-ZHIJUN/zhijunren
+  研究方向：
+
+教职员简介：
+  姓名：徐迎庆（Yingqing XU）
+  职称：Adjunct Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：袁晶（Jing YUAN）
+  职称：Adjunct Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Artificial Intelligence，
+    Data Platforms and Analytics，
+    Human Language Technologies，
+    Search and Information Retrieval，
+
+教职员简介：
+  姓名：胡骁（Xiao HU）
+  职称：Adjunct Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：姜克隽（Kejun JIANG）
+  职称：Thrust Head
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：kejunjiang@hkust-gz.edu.cn
+  办公室：W3 L3 311
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Kejun/kejunjiang
+  研究方向：
+    Energy Transition，
+    Integrated Assessment Model，
+    Policy Assessment，
+    Climate Change Mitigation，
+    Emission Scenarios，
+    Sustainable Development Option Assessment，
+
+教职员简介：
+  姓名：秦成伟（Chengwei QIN）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：chengweiqin@hkust-gz.edu.cn
+  办公室：W3 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIN-Chengwei/chengweiqin
+  研究方向：
+    LLM Reasoning，
+    Agent，
+    Multimodality，
+    Efficient Learning (including both data and parameter efficiency)，
+
+教职员简介：
+  姓名：舒瑶（Yao SHU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yaoshu@hkust-gz.edu.cn
+  办公室：E1(C9) L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHU-Yao/yaoshu
+  研究方向：
+    Optimization & Decision-Making，
+    Learning Dynamics & Theories，
+    Large Language Models，
+    Data-Centric AI，
+    Agentic AI & AutoML，
+
+教职员简介：
+  姓名：饶广（Guang RAO）
+  职称：Lecturer I
+  学域：Pillar of STEM Education
+  邮箱：guangrao@hkust-gz.edu.cn
+  办公室：W4 L5 519
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/RAO-Guang/guangrao
+  研究方向：
+
+教职员简介：
+  姓名：饶安逸（Anyi RAO）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：Nikos SALINGAROS（Nikos SALINGAROS）
+  职称：Professor of Practice
+  学域：Thrust of Urban Governance and Design
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    AI and Design，
+    Pattern Language，
+    Geometrical Principles of The Nature of Order，
+    Fundamentals of Architecture and Urban Design，
+
+教职员简介：
+  姓名：吴小剑（Xiaojian WU）
+  职称：Adjunct Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：高峰（Feng GAO）
+  职称：Adjunct Associate Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：刘建功（Jiangong LIU）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：jiangongliu@hkust-gz.edu.cn
+  办公室：W4 L5 532
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jiangong/jiangongliu
+  研究方向：
+    Ecosystem Adaptation to Climate Change，
+    Ecosystem Response to Climate Extremes，
+    Nature-based Climate Solutions，
+    Explainable and Causally-inferenced AI，
+
+教职员简介：
+  姓名：许泽锋（Zefeng XU）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zefengxu@hkust-gz.edu.cn
+  办公室：E3 L6 606
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Zefeng/zefengxu
+  研究方向：
+    Photonic computing，
+    Photonic integrated device，
+    Metamaterial，
+    Photonic/optical interconnect，
+    Compute-in-memory technology，
+
+教职员简介：
+  姓名：韵勤柏（Qinbai YUN）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：qinbaiyun@hkust-gz.edu.cn
+  办公室：W4 L6 613
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUN-Qinbai/qinbaiyun
+  研究方向：
+    Metal nanomaterials，
+    Two-dimensional nanomaterials，
+    Phase engineering，
+    Catalysis，
+    Lithium batteries，
+
+教职员简介：
+  姓名：李文烨（Wenye LI）
+  职称：Associate Pillar Head
+  学域：Pillar of STEM Education
+  邮箱：wenyeli@hkust-gz.edu.cn
+  办公室：W4 L5 517
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Wenye/wenyeli
+  研究方向：
+
+教职员简介：
+  姓名：陈思佳（Sijia CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：sijiachen@hkust-gz.edu.cn
+  办公室：W4 L5 521
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Sijia/sijiachen
+  研究方向：
+    Distributed computing, mainly federated learning，
+    Multimodal learning, mainly focusing on vision-language alignment，
+    Decision-making algorithm, especially game theory，
+    Reasoning language models，
+    Applications of large language models in finance，
+
+教职员简介：
+  姓名：王忠敬（Zhongjing WANG）
+  职称：Lecturer I
+  学域：Centre for Ethics Education and Contemporary China Studies
+  邮箱：zhongjingw@hkust-gz.edu.cn
+  办公室：W4 L5 525
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Zhongjing/zhongjingw
+  研究方向：
+
+教职员简介：
+  姓名：DR. REICHLE INGEBORG（INGEBORG DR. REICHLE）
+  职称：Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：ingeborgr@hkust-gz.edu.cn
+  办公室：E2 L3 302
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DR.-REICHLE-INGEBORG/ingeborgr
+  研究方向：
+
+教职员简介：
+  姓名：潘翠萍（Cuiping PAN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：cuipingpan@hkust-gz.edu.cn
+  办公室：W4 L5 526
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PAN-Cuiping/cuipingpan
+  研究方向：
+    Genetic and epigenetic mechanisms，
+    Immune regulatory networks，
+    Computational approaches in omics analytics，
+    AI for precision medicine，
+
+教职员简介：
+  姓名：甄勇（Kevin Yong ZHEN）
+  职称：Associate Vice-President for Undergraduate Recruitment and Admission
+  学域：President
+  邮箱：kevinzhen@hkust-gz.edu.cn
+  办公室：C1 E L1 本科招生办公室
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHEN-Yong/kevinzhen
+  研究方向：
+
+教职员简介：
+  姓名：段华忆（Huayi DUAN）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：huayiduan@hkust-gz.edu.cn
+  办公室：W4 L5 530
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan
+  研究方向：
+    Network Security，
+    Data Security，
+    Trustworthy Systems，
+    Trustworthy AI，
+
+教职员简介：
+  姓名：吴博（Bo WU）
+  职称：Professor of Practice
+  学域：Thrust of Advanced Materials
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Engaged in research and engineering development on the functionalization and high-performance enhancement of polymer materials, as well as research on polymer materials, resources, and the environment, for many years.，
+
+教职员简介：
+  姓名：郭彦东（Yandong GUO）
+  职称：Adjunct Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：方勇（Yong FANG）
+  职称：Professor of Practice
+  学域：Thrust of Urban Governance and Design
+  邮箱：yongfang@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FANG-Yong/yongfang
+  研究方向：
+
+教职员简介：
+  姓名：饶及人（James JAO）
+  职称：Professor of Practice
+  学域：Thrust of Urban Governance and Design
+  邮箱：jameschijenj@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JAO-James/jameschijenj
+  研究方向：
+
+教职员简介：
+  姓名：黄强（Qiang HUANG）
+  职称：Acting Thrust Head
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：qiangh@hkust-gz.edu.cn
+  办公室：E2 (C9) L5 505
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Qiang/qiangh
+  研究方向：
+
+教职员简介：
+  姓名：任前平（Qianping REN）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：qianpingren@hkust-gz.edu.cn
+  办公室：W4 L5 529
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/REN-Qianping/qianpingren
+  研究方向：
+    Environmental and Energy Economics，
+    Public Economics，
+    Business Economics，
+
+教职员简介：
+  姓名：宋雨琪（Yuqi SONG）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：yuqisong@hkust-gz.edu.cn
+  办公室：W4 L5 524
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Yuqi/yuqisong
+  研究方向：
+    Environmental and Energy Economics，
+    Applied Microeconomics，
+    Climate Economics，
+
+教职员简介：
+  姓名：孙朔（Shuo SUN）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：shuosun@hkust-gz.edu.cn
+  办公室：W4 (C8) L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Shuo/shuosun
+  研究方向：
+    Reinforcement Learning，
+    Deep Learning，
+    Quantitative Trading，
+    Large Language Model，
+    AI + Blockchain，
+
+教职员简介：
+  姓名：张亮（Liang ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：liangzhang@hkust-gz.edu.cn
+  办公室：W2 (C8) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Liang/liangzhang
+  研究方向：
+    LLM-driven Marketing and Financial Technology，
+    Machine Learning in Digital Economy，
+    Business Intelligence, Recommender System，
+    Multi-modal Financial Data Modelling，
+
+教职员简介：
+  姓名：MERENDINO NICOLO（NICOLO MERENDINO）
+  职称：Lecturer I
+  学域：Thrust of Computational Media and Arts
+  邮箱：nicolom@hkust-gz.edu.cn
+  办公室：W4 L5 533
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MERENDINO-NICOLO/nicolom
+  研究方向：
+
+教职员简介：
+  姓名：王俊轩（Junxuan WANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：junxuanwang@hkust-gz.edu.cn
+  办公室：W4 (C8) L3 307
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Junxuan/junxuanwang
+  研究方向：
+    International Finance，
+    Decentralized Finance，
+    Foreign Exchange，
+    Fixed Income，
+
+教职员简介：
+  姓名：苏宁馨（Ningxin SU）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：ningxinsu@hkust-gz.edu.cn
+  办公室：W4 L5 531
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu
+  研究方向：
+    Distributed Machine Learning，
+    Embodied AI and Multi-agent Systems，
+    Metaverse，
+    Networking，
+
+教职员简介：
+  姓名：夏俊（Jun XIA）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：junxia@hkust-gz.edu.cn
+  办公室：W4 L5 535
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia
+  研究方向：
+    Machine Learning，
+    AI for Life Science，
+    Multimodal Large Models，
+
+教职员简介：
+  姓名：马军（Benedict Jun MA）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：junm@hkust-gz.edu.cn
+  办公室：E2 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Benedict-Jun/junm
+  研究方向：
+    Automated and Robotic Warehousing，
+    Air-Ground Collaborative Logistics，
+    AI-driven Human-Robot Collaboration，
+    Human-AI Collective Intelligence，
+    LLMs for Intelligent Supply Chains，
+    Technology Operations and Management，
+
+教职员简介：
+  姓名：李兵（Bing LI）
+  职称：Senior Lecturer
+  学域：Pillar of Language Education
+  邮箱：bingli@hkust-gz.edu.cn
+  办公室：E1 (C9) L3 303
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Bing/bingli
+  研究方向：
+
+教职员简介：
+  姓名：段凌杰（Lingjie DUAN）
+  职称：Professor
+  学域：Thrust of Internet of Things
+  邮箱：lingjieduan@hkust-gz.edu.cn
+  办公室：E1 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Lingjie/lingjieduan
+  研究方向：
+    Human-in-the-loop AI，
+    Distributed machine learning，
+    Computer networking，
+    Algorithmic game theory，
+    Network Economics，
+
+教职员简介：
+  姓名：何海韵（Haiyun HE）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：haiyunhe@hkust-gz.edu.cn
+  办公室：W3 (C8) L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Haiyun/haiyunhe
+  研究方向：
+    Information theory，
+    Machine learning，
+    Statistical learning，
+    Trustworthy AI，
+
+教职员简介：
+  姓名：胡志明（Zhiming HU）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：zhiminghu@hkust-gz.edu.cn
+  办公室：W4 L4 406
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Zhiming/zhiminghu
+  研究方向：
+    Virtual and augmented reality，
+    Human-computer interaction，
+    Eye tracking，
+    Embodied AI，
+    Human-centered AI，
+
+教职员简介：
+  姓名：邱实（Shi QIU）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：shiqiu@hkust-gz.edu.cn
+  办公室：W3 (C8) L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIU-Shi/shiqiu
+  研究方向：
+    Operations Management & Finance Interface，
+    Blockchain，
+    AI Application in Business，
+    Sustainability，
+
+教职员简介：
+  姓名：杨晶（Jing YANG）
+  职称：Head
+  学域：Research Construction and Development Department
+  邮箱：jingyang@hkust-gz.edu.cn
+  办公室：C1 W L4
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jing/jingyang
+  研究方向：
+
+教职员简介：
+  姓名：薛惠洁（Huijie XUE）
+  职称：Adjunct Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：钟流举（Liuju ZHONG）
+  职称：Professor of Practice
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+    Regional Air Quality Monitoring Technology and Practice，
+    Regional Air Pollution Control Technology and Practice，
+    Efficient Interaction between Atmospheric Environment Scientific Research and Decision-Making，
+
+教职员简介：
+  姓名：马克（Ke MA）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：kema@hkust-gz.edu.cn
+  办公室：W4 L5 527
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Ke/kema
+  研究方向：
+    My research interests focus on autonomous driving and intelligent connected vehicles, with an emphasis on end-to-end learning approaches that integrate perception, prediction, and decision-making. I am particularly interested in world models that enable machines to build structured, predictive representations of dynamic environments. More broadly, I explore practical AI applications that bridge advanced machine learning techniques with real-world deployment in transportation and mobility systems.，
+
+教职员简介：
+  姓名：COSTA HAMIDO OMAR（OMAR COSTA HAMIDO）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：omarhamido@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/COSTA-HAMIDO-OMAR/omarhamido
+  研究方向：
+    Computer Music and Emergent Technologies，
+    Multimedia and interactive real-time electronics，
+    Telematics (Networked Music Performance)，
+    Quantum Aesthetics and Mediation in Art，
+    Quantum-computing Aided Composition (QAC)，
+    Music Performance and Improvisation，
+    Contemporary Art Practices，
+    Sonification/Visualization，
+
+教职员简介：
+  姓名：HORVATH ANCA-SIMONA（ANCA-SIMONA HORVATH）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：ancahorvath@hkust-gz.edu.cn
+  办公室：W4 L5 539
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HORVATH-ANCA-SIMONA/ancahorvath
+  研究方向：
+
+教职员简介：
+  姓名：黄雨晴（Yuqing HUANG）
+  职称：Lecturer II
+  学域：Pillar of Language Education
+  邮箱：yuqinghuang@hkust-gz.edu.cn
+  办公室：W4 L5 528
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuqing/yuqinghuang
+  研究方向：
+
+教职员简介：
+  姓名：李越（Yue LI）
+  职称：Lecturer II
+  学域：Thrust of Artificial Intelligence
+  邮箱：yueli@hkust-gz.edu.cn
+  办公室：E3 L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yue/yueli
+  研究方向：
+
+教职员简介：
+  姓名：苗丽莉（Lili MIAO）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：lilimiao@hkust-gz.edu.cn
+  办公室：E1 L4 415
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MIAO-Lili/lilimiao
+  研究方向：
+    Science of Science，
+    Innovation Policy，
+    Computational Social Science，
+
+教职员简介：
+  姓名：王文军（Wenjun WANG）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：wenjunwang@hkust-gz.edu.cn
+  办公室：W4 L5 538
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjun/wenjunwang
+  研究方向：
+    Energy and Environmental Economics，
+    Empirical Industrial Organization，
+    Sustainable Finance，
+
+教职员简介：
+  姓名：贺冬琳（Donglin HE）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：donglinhe@hkust-gz.edu.cn
+  办公室：E3 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Donglin/donglinhe
+  研究方向：
+    Crystalline Porous Materials，
+    Functional Materials for Energy and Environment，
+    Crystal Engineering & Self-Assembly，
+    Algorithm‑Driven Robotic Discovery of Crystalline Materials，
+
+教职员简介：
+  姓名：于旭（JEFFREY XU YU）
+  职称：Acting Thrust Head
+  学域：Thrust of Data Science and Analytics
+  邮箱：jeffreyxuyu@hkust-gz.edu.cn
+  办公室：E1 L5 516
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREY-XU/jeffreyxuyu
+  研究方向：
+    Graph algorithms and systems，
+    Graph neural networks，
+    Vector databases，
+    AI-powered database systems，
+
+教职员简介：
+  姓名：GOTO AKIHIRO（AKIHIRO GOTO）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：akihirogoto@hkust-gz.edu.cn
+  办公室：C9 E4 L5 509
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GOTO-AKIHIRO/akihirogoto
+  研究方向：
+
+教职员简介：
+  姓名：洪佶豪（Justin Jihao HONG）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：justinjihaoh@hkust-gz.edu.cn
+  办公室：E3 L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HONG-Justin-Jihao/justinjihaoh
+  研究方向：
+    - The Personnel Economics of the State，
+    - Technological Innovation and State Capacity，
+    - Culture and Socioeconomic Development，
+    - Education, Inequality and Mobility，
+    - Chinese Economy，
+
+教职员简介：
+  姓名：李国惠斌（Robin Guohuibin LI）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：robinghbli@hkust-gz.edu.cn
+  办公室：E1 L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Robin-Guohuibin/robinghbli
+  研究方向：
+    Technology Trust, Acceptance, and Adoption，
+    Responsible AI and Biometrics，
+    Digital Government and Technology Policy，
+    Entrepreneurship，
+
+教职员简介：
+  姓名：王鑫（Xin WANG）
+  职称：Assistant Professor
+  学域：Thrust of Innovation, Policy and Entrepreneurship
+  邮箱：xinwang2@hkust-gz.edu.cn
+  办公室：E2 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xin/xinwang2
+  研究方向：
+    Global Strategy，
+    Governance Choices，
+    Geopolitical Risks，
+    International Entrepreneurship，
+    Digital Platforms，
+
+教职员简介：
+  姓名：孟繁秦（Echo Fanqin MENG）
+  职称：Lecturer I
+  学域：Pillar of General Education
+  邮箱：fanqinmeng@hkust-gz.edu.cn
+  办公室：E1 L6  617
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MENG-Fanqin/fanqinmeng
+  研究方向：
+
+教职员简介：
+  姓名：代茹诗（Rushi DAI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：rushidai@hkust-gz.edu.cn
+  办公室：E3 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DAI-Rushi/rushidai
+  研究方向：
+    Intelligent Construction and Robotic Fabrication，
+    Digital Twins，
+    Gamification in Human-Robot Interaction，
+    Generative AI for 3D Scene Generation，
+    IoT Communication in Urban Construction，
+
+教职员简介：
+  姓名：范小舟（Xiaozhou FAN）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：xiaozhoufan@hkust-gz.edu.cn
+  办公室：W4 L6 602
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Xiaozhou/xiaozhoufan
+  研究方向：
+    Bio-inspired Aerial Robotics，
+    Unsteady Aerodynamics，
+    Dynamical System，
+    Data-Driven Flow Sensing and Flight Control，
+
+教职员简介：
+  姓名：吕想（Xiang LU）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：xianglu@hkust-gz.edu.cn
+  办公室：E4 L3 317
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Xiang/xianglu
+  研究方向：
+    AI and Society / Computational Social Science，
+    Migration，
+    Race and Ethnicity，
+    Public Opinion and Attitudes，
+    Media Studies，
+
+教职员简介：
+  姓名：王艺超（Yichao WANG）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yichaowang@hkust-gz.edu.cn
+  办公室：W2 L6 616
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yichao/yichaowang
+  研究方向：
+    Dynamic interface processes in solid-state batteries，
+    Advanced characterization method for solid state batteries，
+    Exploration of new electrochemical energy storage system，
+
+教职员简介：
+  姓名：张坚（Jian ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：jianz@hkust-gz.edu.cn
+  办公室：E2 L6 604
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Jian/jianz
+  研究方向：
+    Operating System，
+    Storage System，
+    Computer Architecture，
+    HPC，
+    Distributed Systems，
+    AI Systems，
+
+教职员简介：
+  姓名：芦佳琪（Jiaqi LU）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：jiaqilu@hkust-gz.edu.cn
+  办公室：E4 L3 309
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Jiaqi/jiaqilu
+  研究方向：
+    Global Energy Transitions，
+    Energy and Climate Policy，
+    International Climate Governance，
+    Comparative Environmental Politics，
+    Energy Technology Innovation，
+
+教职员简介：
+  姓名：谢红兵（Hongbing XIE）
+  职称：Principal Engineer
+  学域：Marine Hydrodynamic Research Facility
+  邮箱：hongbingxie@hkust-gz.edu.cn
+  办公室：E4 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Hongbing/hongbingxie
+  研究方向：
+    Marine Engineering Test Technology，
+    Bridge Design and Construction，
+    Floating Structures，
+    International Engineering Planning and Project Management，
+
+教职员简介：
+  姓名：楊經倫（King Lun YEUNG）
+  职称：Chair Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：
+  办公室：
+  个人网站：
+  研究方向：
+
+教职员简介：
+  姓名：龙颜（Yan LONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：yanlong@hkust-gz.edu.cn
+  办公室：E3 L6 609
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LONG-Yan/yanlong
+  研究方向：
+    Sensing Security and Privacy，
+    Embedded and CPS Security，
+    Novel Sensing for Healthcare and Security，
+
+教职员简介：
+  姓名：洪瑄粗（Xuancu HONG）
+  职称：Lecturer II
+  学域：Pillar of Language Education
+  邮箱：xuancuhong@hkust-gz.edu.cn
+  办公室：W2 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HONG-Xuancu/xuancuhong
+  研究方向：
+    Language Acquisition，
+    Multimodal Lingustics，
+    Gestural Studies，
+    Language Learning in Interaction，
+
+教职员简介：
+  姓名：罗李娜（Lina LUO）
+  职称：Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：linaluo@hkust-gz.edu.cn
+  办公室：E3 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Lina/linaluo
+  研究方向：
+    Agricultural emissions of greenhouse gases and air pollutants，
+    Climate change–agroecosystem interactions，
+    Agroecosystem model development and multi-scale integration，
+
+教职员简介：
+  姓名：孙鉴锋（Jianfeng SUN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：jianfengsun@hkust-gz.edu.cn
+  办公室：C9 E3 L6 605
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Jianfeng/jianfengsun
+  研究方向：
+    Deep learning for molecular interactions，
+    Computational genomics，
+    Structural variation calling and genotyping，
+    Long-read single-cell sequencing methods，
+    Cancer biology，
+
+教职员简介：
+  姓名：齐杰（Jie QI）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：jieqi@hkust-gz.edu.cn
+  办公室：W1 L4 412
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QI-Jie/jieqi
+  研究方向：
+    Metal-based hydrogen storage and carbon capture technologies，
+    Green/low-carbon metallurgy，
+    AI-driven advanced manufacturing of sustainable structural materials，
+
+教职员简介：
+  姓名：李茂粟（Maosu LI）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：maosuli@hkust-gz.edu.cn
+  办公室：E1(C9) L5 506
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Maosu/maosuli
+  研究方向：
+    Multi-Perspective City View Assessment and Analytics，
+    3D Photorealistic CIM-based Urban Applications，
+    Automatic Decision Support Methods for 3D Cities，
+    3D GIS, AI, and City Information Modeling，
+    Urban Informatics and Virtual Geographic Environments，
+
+教职员简介：
+  姓名：HUANG JUN BO（Mario JUN BO HUANG）
+  职称：Senior Lecturer
+  学域：Pillar of STEM Education
+  邮箱：junbohuang@hkust-gz.edu.cn
+  办公室：W3 (C8) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-JUN-BO/junbohuang
+  研究方向：
+    Graph Theory，
+    Algebraic Combinatorics，
+
+教职员简介：
+  姓名：ZHOU QIUSHI（QIUSHI ZHOU）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：qiushizhou@hkust-gz.edu.cn
+  办公室：E1 L4 406
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-QIUSHI/qiushizhou
+  研究方向：
+
+教职员简介：
+  姓名：陈思翰（Sihan CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：sihanchen@hkust-gz.edu.cn
+  办公室：E1(C9) L3 312
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Sihan/sihanchen
+  研究方向：
+    Nanoelectronics，
+    Nanobiosensing，
+    2D Electronic Devices，
+
+教职员简介：
+  姓名：顾正龙（Zhenglong GU）
+  职称：Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：zhenglonggu@hkust-gz.edu.cn
+  办公室：E3 (C9) L3 301
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GU-Zhenglong/zhenglonggu
+  研究方向：
+    Mitochondria-targeted strategies for disease prevention，
+    Targeting mitochondrial function to delay aging，
+    Mechanisms of mitochondrial DNA mutations in human diseases，
+    Single cell mitochondrial DNA mutation dynamics，
+
+教职员简介：
+  姓名：林菁（Jing LIN）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：jinglin@hkust-gz.edu.cn
+  办公室：C1 E L4
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Jing/jinglin
+  研究方向：
+    Functional Foods and Bioactive Ingredients，
+    Precision Nutrition and Personalized Dietary Intervention，
+    Microbial Therapeutics and Probiotic Delivery，
+    Sustainable Food Systems，
+
+教职员简介：
+  姓名：刘丹（Dan LIU）
+  职称：Lecturer I
+  学域：Pillar of Language Education
+  邮箱：emmadanliu@hkust-gz.edu.cn
+  办公室：E4 L3 306
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Dan/emmadanliu
+  研究方向：
+
+教职员简介：
+  姓名：LUO ZHENG（ZHENG LUO）
+  职称：Lecturer I
+  学域：Base of Red Bird MPhil
+  邮箱：zhengluo@hkust-gz.edu.cn
+  办公室：E1 (C9) L4 409
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-ZHENG/zhengluo
+  研究方向：
+    Urban Air Mobility (UAM) & Drone-Integrated Logistics，
+    Human Factors & Safety in Mixed Traffic Environments，
+    AI-Powered Transportation Operation & Decision Support Platforms，
+    Smart Mobility Hubs & Autonomous Vehicle Integration，
+    Transport Equity, Accessibility & Climate Resilience，
+
+教职员简介：
+  姓名：邱国雄（Guoxiong QIU）
+  职称：Lecturer II
+  学域：Thrust of Smart Manufacturing
+  邮箱：guoxiongqiu@hkust-gz.edu.cn
+  办公室：E1 L5 508
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIU-Guoxiong/guoxiongqiu
+  研究方向：
+
+教职员简介：
+  姓名：陈果（Guo CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：guochen@hkust-gz.edu.cn
+  办公室：W2 L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Guo/guochen
+  研究方向：
+    Quantum Chemistry，
+    Electronic Structure Theory and Methods，
+    Electron Correlation in Molecules，
+    High-Performance Computing，
+    Lanthanide and Actinide Chemistry，
+
+教职员简介：
+  姓名：洪枝青（Zhiqing HONG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhiqinghong@hkust-gz.edu.cn
+  办公室：E4 L4 409
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HONG-Zhiqing/zhiqinghong
+  研究方向：
+    Human-centered AI，
+    Wearable AI & Large Sensor Model，
+    Ubiquitous Computing，
+    Embodied AI，
+    Smart City，
+
+教职员简介：
+  姓名：PRPA MIRJANA（MIRJANA PRPA）
+  职称：Assistant Professor
+  学域：Thrust of Computational Media and Arts
+  邮箱：mirjanaprpa@hkust-gz.edu.cn
+  办公室：E1 L4 412
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PRPA-MIRJANA/mirjanaprpa
+  研究方向：
+
+教职员简介：
+  姓名：乔思（Si QIAO）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：siqiao@hkust-gz.edu.cn
+  办公室：W4 L3 316
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIAO-Si/siqiao
+  研究方向：
+    Social–Spatial Inequality，
+    Spatiotemporal Big Data Sensing & Analytics，
+    Perception–Intention–Behavior Modeling，
+    Emerging Intelligent Transportation Systems，
+    Social Data Infrastructure，
+
+教职员简介：
+  姓名：王舰迎（Jianying WANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：jianyingwang@hkust-gz.edu.cn
+  办公室：C9 E3 L6 603
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Jianying/jianyingwang
+  研究方向：
+    Geospatial big data and GeoAI，
+    Human Mobility Modelling，
+    Geographic Information Systems (GIS) and Remote Sensing，
+    Climate Change, Urban Resilience and Equity，
+    Spatial Optimization，
+
+教职员简介：
+  姓名：曹孛嫣（Beiyan CAO）
+  职称：Lecturer II
+  学域：Pillar of STEM Education
+  邮箱：beiyancao@hkust-gz.edu.cn
+  办公室：E3 L5 504
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CAO-Beiyan/beiyancao
+  研究方向：
+    Human-Computer Interaction，
+    Accessibility and Assistive Technology，
+    Online Social Platforms and Live-Streaming，
+    Intergenerational Communication in Digital Environments，
+    Emotional Support and Well-being in Digital Communities，
+
+教职员简介：
+  姓名：陈青泉（Qingquan CHEN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：kevinqqchen@hkust-gz.edu.cn
+  办公室：E1 L5 507
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Qingquan/kevinqqchen
+  研究方向：
+
+教职员简介：
+  姓名：JOHNSON SHANE MIGUEL（SHANE MIGUEL JOHNSON）
+  职称：Associate Professor
+  学域：Thrust of Smart Manufacturing
+  邮箱：shanejohnson@hkust-gz.edu.cn
+  办公室：E3 L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JOHNSON-SHANE-MIGUEL/shanejohnson
+  研究方向：
+
+教职员简介：
+  姓名：JANG KEEMOON（KEEMOON JANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：keemoonjang@hkust-gz.edu.cn
+  办公室：W4(C8) L3 310
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JANG-KEEMOON/keemoonjang
+  研究方向：
+    Place Identity/Placemaking，
+    Green Space Accessibility/Exposure，
+    Visual AI Application to Cities，
+    LLM-Augmented Urban Planning and Design，
+    Future Smart Cities，
+
+教职员简介：
+  姓名：范萍瑜（Pingyu FAN）
+  职称：Research Assistant Professor
+  学域：Thrust of Carbon Neutrality and Climate Change
+  邮箱：pingyufan@hkust-gz.edu.cn
+  办公室：W4 L5 22
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Pingyu/pingyufan
+  研究方向：
+    Carbon Mitigation and Net-Zero Emissions，
+    Remote Sensing Big Data and Geospatial Artificial Intelligence，
+    Urban Analytics，
+
+教职员简介：
+  姓名：赵天翔（Tianxiang ZHAO）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：tianxiangz@hkust-gz.edu.cn
+  办公室：W4 L4 420
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Tianxiang/tianxiangz
+  研究方向：
+
+教职员简介：
+  姓名：张婧（Joey Jing ZHANG）
+  职称：Lecturer I
+  学域：Pillar of Language Education
+  邮箱：joeyjingz@hkust-gz.edu.cn
+  办公室：E1 L4 407
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Jing/joeyjingz
+  研究方向：
+
+教职员简介：
+  姓名：张荣庆（Rongqing ZHANG）
+  职称：Associate Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：rongqingz@hkust-gz.edu.cn
+  办公室：W1 L3 318
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Rongqing/rongqingz
+  研究方向：
+
+教职员简介：
+  姓名：张衍达（Yanda ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：yandazhang@hkust-gz.edu.cn
+  办公室：W4 L4 421
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanda/yandazhang
+  研究方向：
+    Aerosol Climate Effects，
+    Climate Change，
+    Precipitation Changes，
+    Climate and Weather Extremes，
+    Earth System Modeling，
+
+教职员简介：
+  姓名：张皓翔（Haoxiang ZHANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：hxz@hkust-gz.edu.cn
+  办公室：W1 (C8) L3 302
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haoxiang/hxz
+  研究方向：
+    Healthy Sustainable Urban Design，
+    Urban spatiotemporal Big Data，
+    Geospatial Modelling and Analysis Methods，
+    The Influence of Built Environments on Public Behaviour and Perception，
+    AI-supported Urban Design，
+
+教职员简介：
+  姓名：董宸呈（Chencheng DONG）
+  职称：Research Assistant Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：leviccdong@hkust-gz.edu.cn
+  办公室：W2 L2 222G
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DONG-Chencheng/leviccdong
+  研究方向：
+
+教职员简介：
+  姓名：薛昊（Hao XUE）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：haoxue@hkust-gz.edu.cn
+  办公室：E4 (C9) L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XUE-Hao/haoxue
+  研究方向：
+    LLM/MLLM for time series and spatiotemporal data，
+    Time series/spatiotemporal data representation learning (e.g., causal reasoning, forecasting, etc.)，
+    Urban computing and applied AI (e.g., AI for transportation, AI for energy, AI for public health, etc.)，
+    Agentic learning and multi-agent systems (e.g., RL/LLM age），
+    AI/Foundation Model (e.g., continue learning, distillation)，
+
+教职员简介：
+  姓名：林宸剑（Chenjian LIN）
+  职称：Assistant Professor
+  学域：Thrust of Advanced Materials
+  邮箱：chenjianlin@hkust-gz.edu.cn
+  办公室：W4 L5 541
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Chenjian/chenjianlin
+  研究方向：
+    Design, synthesis, and characterization of multifunctional hybrid photon-harvesting systems. Specifically, organic synthesis for high-efficiency photon-harvesting molecules, thin film fabrication and crystal engineering for hybrid systems, and ultrafast spectroscopy for structure-property correlation.，
+
+教职员简介：
+  姓名：田敏（Min TIAN）
+  职称：Assistant Professor
+  学域：Thrust of Bioscience and Biomedical Engineering
+  邮箱：mint@hkust-gz.edu.cn
+  办公室：E4 (C9) L6 610
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TIAN-Min/mint
+  研究方向：
+    Dr. Tian’s research centers on elucidating the molecular, cellular, and circuit-level mechanisms underlying injury and repair in neurodegenerative diseases including different types of dementia. By integrating human and model animal cell-type-specific transcriptomics, bioinformatics, behavior tests, and in vivo gene manipulation techniques, Dr. Tian has identified key intercellular signaling pathways between endothelial and glial cell subsets involved in neurovascular dysfunction and repair. Her work has revealed multiple promising therapeutic targets, including the Serpine2-Lrp1 and CD39-A3AR signaling axes, which she has functionally validated through approaches such as small-molecule drug development, gene therapy, and high throughput screening platforms. Beyond mechanistic discovery, Dr. Tian actively advances translational research, collaborating with medicinal chemists and clinicians to drive the development of novel therapeutics for dementia.，
+
+教职员简介：
+  姓名：韩雨（Yu HAN）
+  职称：Associate Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：yuhan2@hkust-gz.edu.cn
+  办公室：W3 L6 601
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HAN-Yu/yuhan2
+  研究方向：
+
+教职员简介：
+  姓名：杨锌（Xin YANG）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：xiny@hkust-gz.edu.cn
+  办公室：W4 L5 537
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Xin/xiny
+  研究方向：
+    Non-contact Sensing，
+    Integrated Sensing and Communication，
+    Flexible Bioelectronics，
+    Edge Computing，
+    Biomedical Device Fabrication and Integration，
+
+教职员简介：
+  姓名：杨德（De YANG）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：deyang@hkust-gz.edu.cn
+  办公室：E4 (C9) L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-De/deyang
+  研究方向：
+
+教职员简介：
+  姓名：梁宇（Yu LIANG）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：yul@hkust-gz.edu.cn
+  办公室：W4 4L 426
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yu/yul
+  研究方向：
+
+教职员简介：
+  姓名：杨修齐（Sukie Xiuqi YANG）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：sukiexiuqiy@hkust-gz.edu.cn
+  办公室：E1 (C9) L5 510
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Xiuqi/sukiexiuqiy
+  研究方向：
+
+教职员简介：
+  姓名：车伟涛（Weitao CHE）
+  职称：Assistant Professor of Practice
+  学域：Thrust of Urban Governance and Design
+  邮箱：weitaoche@hkust-gz.edu.cn
+  办公室：
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHE-Weitao/weitaoche
+  研究方向：
+    Digital Twins，
+    AI-Enabled Urban and Spatial Applications，
+    3D GIS and Virtual Geographic Environments，
+    Satellite and Remote Sensing Applications，
+
+教职员简介：
+  姓名：杨俊（Jun YANG）
+  职称：Professor
+  学域：Thrust of Robotics and Autonomous Systems
+  邮箱：jy@hkust-gz.edu.cn
+  办公室：W2 L3 313
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy
+  研究方向：
+    Embodied Intelligence，
+    Visual Agile Autonomy，
+    Bio-inspired Control，
+    Safety-Critical Control，
+    Active Learning and Inference，
+    Model Predictive Control，
+    Disturbance Observer-Based Control，
+    Motion Planning and Path Planning，
+    Sensor Fusion and State Estimation，
+    Single/Dual Arm Robot，
+    Mobile Robot/Vehicle，
+    Suspended Loading Crane，
+    UAV，
+    Power Electronics, Machines, and Drives，
+
+教职员简介：
+  姓名：黄钰文（Yuwen HUANG）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：yuwenhuang@hkust-gz.edu.cn
+  办公室：W4 L4 422
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuwen/yuwenhuang
+  研究方向：
+    Graphical models，
+    Quantum information processing，
+    Geometry of polynomials，
+    Information theory，
+
+教职员简介：
+  姓名：孟毅明（Yiming MENG）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yimingmeng@hkust-gz.edu.cn
+  办公室：W4 L4 425
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MENG-Yiming/yimingmeng
+  研究方向：
+    AI for dynamical systems & control，
+    Physics-informed machine learning for decision-making，
+    Stochastic dynamical systems and data-driven control，
+    Formal methods for control design，
+
+教职员简介：
+  姓名：王家伟（Jiawei WANG）
+  职称：Assistant Professor
+  学域：Thrust of Intelligent Transportation
+  邮箱：jiaweiw@hkust-gz.edu.cn
+  办公室：W4 L4 423
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Jiawei/jiaweiw
+  研究方向：
+
+教职员简介：
+  姓名：袁臻毅（Zhenyi YUAN）
+  职称：Assistant Professor
+  学域：Thrust of Internet of Things
+  邮箱：zhenyiyuan@hkust-gz.edu.cn
+  办公室：E4 L4 402
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUAN-Zhenyi/zhenyiyuan
+  研究方向：
+    Systems & Control，
+    Machine Learning，
+    Sustainable Energy Systems，
+
+教职员简介：
+  姓名：彭博（Bo PENG）
+  职称：Assistant Professor
+  学域：Thrust of Earth, Ocean and Atmospheric Sciences
+  邮箱：bopeng@hkust-gz.edu.cn
+  办公室：W1(C8) L4 418
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PENG-Bo/bopeng
+  研究方向：
+    Exposure biomarker identification and human exposome，
+    Associations and mechanisms between exposure and health，
+    Interaction between air pollution and climate change on health，
+    Al-assisted toxicology and exposure risk assessment，
+
+教职员简介：
+  姓名：林丹（Dan LIN）
+  职称：Lecturer I
+  学域：Pillar of General Education
+  邮箱：danlin@hkust-gz.edu.cn
+  办公室：W4 L4 403
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIN-Dan/danlin
+  研究方向：
+
+教职员简介：
+  姓名：江航（Hang JIANG）
+  职称：Assistant Professor
+  学域：Thrust of Financial Technology
+  邮箱：hangjiang@hkust-gz.edu.cn
+  办公室：E1(C9) L4 418
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hang/hangjiang
+  研究方向：
+    Principal-Agent Problems，
+    Statistical Contract Theory，
+    Agent Economics and Mechanism Design，
+    Blockchain and Decentralized Finance，
+
+教职员简介：
+  姓名：晋天元（Tianyuan JIN）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：tianyuanjin@hkust-gz.edu.cn
+  办公室：E4 L3 308
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIN-Tianyuan/tianyuanjin
+  研究方向：
+
+教职员简介：
+  姓名：Bai Yu（Yu Bai）
+  职称：Lecturer II
+  学域：Pillar of General Education
+  邮箱：yub@hkust-gz.edu.cn
+  办公室：E1 L6 608
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/Bai-Yu/yub
+  研究方向：
+
+教职员简介：
+  姓名：李云坡（Yunpo LI）
+  职称：Assistant Professor
+  学域：Thrust of Sustainable Energy and Environment
+  邮箱：yunpoli@hkust-gz.edu.cn
+  办公室：W1 L4 417
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Yunpo/yunpoli
+  研究方向：

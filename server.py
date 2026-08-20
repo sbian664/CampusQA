@@ -464,11 +464,7 @@ async def upload_file(file: UploadFile = File(...)):
 
     # 索引到知识库
     try:
-        kb = get_kb()
-        kb._update_document(file_path)
-        kb._save_metadata()
-        kb._save_chunk_texts()
-        kb._save_store()
+        get_kb().index_document(file_path)
         return {
             "status": "ok",
             "filename": file.filename,
@@ -522,6 +518,7 @@ async def upload_files(
     kb = get_kb()
     uploaded = []
     failed = []
+    saved_paths = []
 
     for upload in upload_files:
         original_name = upload.filename or ""
@@ -543,16 +540,26 @@ async def upload_files(
         try:
             with open(file_path, "wb") as f:
                 shutil.copyfileobj(upload.file, f)
-            kb._update_document(file_path)
-            uploaded.append({"filename": filename, "status": "ok"})
+            saved_paths.append(file_path)
         except Exception as e:
             traceback.print_exc()
             failed.append({"filename": filename, "error": str(e)})
 
-    if uploaded:
-        kb._save_metadata()
-        kb._save_chunk_texts()
-        kb._save_store()
+    if saved_paths:
+        index_result = kb.index_documents(saved_paths)
+        indexed_paths = set(index_result.indexed_paths)
+        uploaded.extend(
+            {"filename": os.path.basename(path), "status": "ok"}
+            for path in saved_paths
+            if path in indexed_paths
+        )
+        failed.extend(
+            {
+                "filename": os.path.basename(item.file_path),
+                "error": item.error,
+            }
+            for item in index_result.failures
+        )
 
     uploaded_count = len(uploaded)
     failed_count = len(failed)
@@ -591,26 +598,18 @@ def kb_search(request: SearchRequest):
     if request.mtime_before:
         filters["mtime_before"] = request.mtime_before
 
-    results = kb.hybrid_search(
+    retrieval = kb.retrieve(
         request.query,
         top_k=request.top_k,
         filters=filters if filters else None,
     )
 
-    # 若语义匹配全无关键词命中，检查是否需要追加 BM25
-    bm25_results = []
-    all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
-    if all_bm25_zero and hasattr(kb, 'bm25_search'):
-        qt = kb._tokenize_query(request.query)
-        if any(kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
-            bm25_results = kb.bm25_search(request.query, top_k=request.top_k)
-
     return {
         "query": request.query,
-        "results": results,
-        "bm25_results": bm25_results,
-        "count": len(results),
-        "bm25_count": len(bm25_results),
+        "results": retrieval.results,
+        "bm25_results": retrieval.bm25_results,
+        "count": len(retrieval.results),
+        "bm25_count": len(retrieval.bm25_results),
     }
 
 

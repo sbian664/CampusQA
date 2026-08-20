@@ -1,0 +1,68 @@
+ars_page: HKUST(GZ) Outstanding Teaching Award – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/hkustgz-outstanding-teaching-award/
+source: ARS
+
+headings:
+  - HKUST(GZ) Lionel M. NI and Yin CHING Outstanding Teaching Award
+  - Eligibility
+  - Nomination Procedures
+  - Selection Criteria
+  - Selection Process
+  - Award Presentation
+  - Award Recipients
+
+text: >
+  HKUST(GZ) Lionel M. NI and Yin CHING Outstanding Teaching Award
+  June, 2026
+  Table of Contents
+  HKUST(GZ) Lionel M. NI and Yin CHING Outstanding Teaching Award
+  is established to recognize on an annual basis a distinguished member of the academic staff who has demonstrated excellence in teaching and learning practices within our academic community. It signifies the importance that the University places on the pursuit of teaching excellence and the enhancement of student learning experience.
+  The Award is presented each year at the University Graduation Ceremony to a member of the academic staff who best exemplifies continued pursuit of excellence, devotion to teaching, and the ability to inspire and motivate others. The recipient is representative of the high quality of teaching and learning that the University offers and promotes.
+  It will be presented at the Graduation Ceremony every year. The Awardee will receive a medal, a certificate and RMB 200,000 (before tax).
+  Eligibility
+  For consideration of the Award, a nominee must be
+  (i)
+  a full-time staff member who
+  has completed a minimum of 2 years of service at HKUST(GZ) by the time of nomination, and
+  (ii) the primary instructor for at least two courses in the past two years. The requirement for these two courses:
+  • teaching contribution for both must be 50% or above, and
+  • at least one of them must be a UG course.
+  Nomination Procedures
+  A nomination must be submitted jointly by at least five members of the University community, including at least one faculty member other than the nominee, and two students.
+  Nominators are requested to submit the following documents in PDF form to the respective Hubs/Colleges/EECCS:
+  (i) Nomination Form (
+  pdf
+  /
+  doc
+  ) (Part 1)
+  (ii) Statement(s) from nominators in support of the nomination – max 5 pages
+  (iii) Nominee’s consent for being nominated as part of Nomination Form (Part 1)
+  (iv) Teaching philosophy, achievements in teaching and other evidence for consideration (Nomination Form, Part 2) – to be provided by the nominee, and may either be submitted through the nominators together with (i) – (iii）above, or submitted separately to the respective Hub/College/EECCS directly by the nominee.
+  For more details of Evidence of Excellence in Teaching, please click
+  here
+  .
+  Selection Criteria
+  (i) Ability to promote student learning
+  (ii) An innovative approach to teaching
+  (iii) Effective student assessment
+  (iv) Contributions to the development of teaching at the University
+  Selection Process
+  Hubs, CES, CFT and EECCS will each form a Vetting Committee to evaluate the nominations received.
+  Each of the Hubs, Colleges and EECCS will recommend one nominee to the University-level Selection Committee (the Selection Committee) for further consideration. This committee, chaired by a Vice-President assigned by the President, will have one member each from Hubs, CES, CFT and EECCS, one undergraduate student representative and one postgraduate student representative.
+  The shortlisted nominees will be invited by the Selection Committee to attend an interview.
+  Upon completion of the selection process, the Selection Committee will recommend one nominee for approval of the President.
+  Award Presentation
+  The Award will be presented to the recipient during the Graduation Ceremony.
+  Nomination Form (pdf)
+  Nomination Form (doc)
+  Evidence of Excellence in Teaching
+  Award Recipients
+  2025
+  Professor ZI Yunlong
+  (SEE Thrust, Function Hub)
+
+links:
+  - pdf | https://document.hkust-gz.edu.cn/office/viewer?key=523&fileType=pdf&fileName=HKUST(GZ)_Outstanding_Teaching_Award_Nomination_Form
+  - doc | https://document.hkust-gz.edu.cn/office/viewer?key=524&fileType=docx&fileName=HKUST(GZ)_Outstanding_Teaching_Award_Nomination_Form
+  - here | https://document.hkust-gz.edu.cn/office/viewer?key=522&fileType=pdf&fileName=Evidence_of_Excellence_in_Teaching
+  - Professor ZI Yunlong | https://document.hkust-gz.edu.cn/office/viewer?key=860

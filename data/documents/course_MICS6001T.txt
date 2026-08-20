@@ -1,0 +1,22 @@
+course: MICS 6001T
+normalized_code: MICS6001T
+title: Introduction to Noise in Devices and Electronic Systems
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001T
+  - MICS 6001T
+  - Introduction to Noise in Devices and Electronic Systems

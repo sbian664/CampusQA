@@ -1,0 +1,22 @@
+course: UCUG 1052
+normalized_code: UCUG1052
+title: Academic English for University Studies
+subject: UCUG
+catalog_number: "1052"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  This course emphasises the development of academic literacy skills, in addition to developing students’ language proficiency. Students will learn how to find and evaluate sources for academic tasks and will further develop their abilities to be critical in reading and writing, to synthesise ideas and to develop coherent arguments. Collaboration and leadership skills will also be emphasised to further develop skills and habits for autonomous lifelong learning.
+
+requirements:
+  prerequisite: UCUG 1050 OR UCUG 1051 OR IELTS Band 6.5 (overall) with all subscores at or above 6.0 OR HKDSE Engish Language Level 5 (overall) with all subscores at or above level 4 OR equivalence of the above.
+  corequisite: none
+  exclusion: UCUG 1053
+
+search_aliases:
+  - UCUG1052
+  - UCUG 1052
+  - Academic English for University Studies

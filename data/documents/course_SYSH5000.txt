@@ -1,0 +1,22 @@
+course: SYSH 5000
+normalized_code: SYSH5000
+title: Model-Based Systems Engineering
+subject: SYSH
+catalog_number: "5000"
+credits: 2
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SYSH5000
+  - SYSH 5000
+  - Model-Based Systems Engineering

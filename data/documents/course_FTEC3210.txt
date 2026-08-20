@@ -1,0 +1,22 @@
+course: FTEC 3210
+normalized_code: FTEC3210
+title: Data Analysis with Python
+subject: FTEC
+catalog_number: "3210"
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  Students will learn how to develop Python code for cleaning and preparing data for analysis. This includes handling missing values, formatting, normalizing, and binning data. They will also learn to perform exploratory data analysis and apply analytical techniques to real-world datasets using libraries such as Pandas, Numpy, and Scipy. The course will also cover manipulating data using data frames, summarizing data, understanding data distribution, performing correlation analysis, and creating data pipelines. Additionally, students will learn how to build and evaluate regression models with the scikit-learn library for machine learning and how to use these for prediction and decision-making.
+
+requirements:
+  prerequisite: DSAA 2011
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC3210
+  - FTEC 3210
+  - Data Analysis with Python

@@ -1,0 +1,13 @@
+教职员简介：
+  姓名：舒瑶（Yao SHU）
+  职称：Assistant Professor
+  学域：Thrust of Artificial Intelligence
+  邮箱：yaoshu@hkust-gz.edu.cn
+  办公室：E1(C9) L4 411
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHU-Yao/yaoshu
+  研究方向：
+    Optimization & Decision-Making，
+    Learning Dynamics & Theories，
+    Large Language Models，
+    Data-Centric AI，
+    Agentic AI & AutoML，

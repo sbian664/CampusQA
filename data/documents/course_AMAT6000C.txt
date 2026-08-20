@@ -1,0 +1,22 @@
+course: AMATC 000C
+normalized_code: AMAT6000C
+title: Introduction to Soft Matter Physics
+subject: AMAT
+catalog_number: "6000C"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Soft matter encompasses a diverse class of materials, including polymers, colloids, surfactants, and liquid crystals, which are characterized by their ability to be easily deformed by thermal fluctuations or weak external forces. These materials are ubiquitous in everyday life, playing critical roles in industries and advanced technologies. This course offers an introduction to the field of soft matter, with a particular emphasis on the physics approach to understanding these materials. Key topics include the thermodynamics and dynamics of soft materials, phase behavior, and the interplay between microscopic interactions and macroscopic properties. The course will also delve into the role of entropy, elasticity, hydrodynamic, and electrostatic forces in shaping the behavior of soft matter. By the end of the course, students will have gained a deep understanding of the physical principles underlying soft matter.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT6000C
+  - AMATC 000C
+  - Introduction to Soft Matter Physics

@@ -1,0 +1,12 @@
+教职员简介：
+  姓名：赵吴凡（Wufan ZHAO）
+  职称：Assistant Professor
+  学域：Thrust of Urban Governance and Design
+  邮箱：wufanzhao@hkust-gz.edu.cn
+  办公室：E1 L4 408
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao
+  研究方向：
+    3D City Perception / Reconstruction，
+    Multi-modal Data Learning，
+    Spatial Intelligence and Embodied AI，
+    GeoAI for Sustainable City，

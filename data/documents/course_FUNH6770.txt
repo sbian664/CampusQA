@@ -1,0 +1,22 @@
+course: FUNH 6770
+normalized_code: FUNH6770
+title: Professional Development for Function Hub
+subject: FUNH
+catalog_number: "6770"
+credits: 1
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course aims at providing research postgraduate students basic training in scientific ethics in research studies in advanced materials, sustainable energy and environment, earth, ocean and atmospheric sciences and microelectronics, research management, professional career development, and related professional skills. Guest speakers from various professional areas will be invited to share their career paths in professional career developments. Students will have chances to connect to talents in various professional areas. Graded PP, P or F.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FUNH6770
+  - FUNH 6770
+  - Professional Development for Function Hub

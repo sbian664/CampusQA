@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：宗志锐（Zhirui ZONG）
+  职称：Assistant Professor
+  学域：Thrust of Microelectronics
+  邮箱：zong@hkust-gz.edu.cn
+  办公室：W3 L5 503
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZONG-Zhirui/zong
+  研究方向：
+    Phase-locked loops (PLL) and frequency synthesizers，
+    RF and millimeter-wave integrated circuits design，
+    High-speed data communication circuits design，

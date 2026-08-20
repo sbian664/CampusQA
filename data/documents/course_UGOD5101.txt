@@ -1,0 +1,22 @@
+course: UGOD 5101
+normalized_code: UGOD5101
+title: Empirical Methods for Urban Research
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - UGOD5101
+  - UGOD 5101
+  - Empirical Methods for Urban Research

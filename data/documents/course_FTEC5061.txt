@@ -1,0 +1,22 @@
+course: FTEC 5061
+normalized_code: FTEC5061
+title: Stochastic Calculus for Financial Technology
+subject: FTEC
+catalog_number: "5061"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This is a graduate level course in stochastic calculus for MPhil/PhD students in Financial Technology and other related fields. This course aims to provide a rigorous mathematical introduction to the tools of stochastic calculus used in derivative pricing and financial modeling. Topics include Brownian motion, stopping times, stochastic integral, ItÃ´âs formula, stochastic differential equations, martingales, Girsanovâs theorem, option pricing, etc.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - FTEC5061
+  - FTEC 5061
+  - Stochastic Calculus for Financial Technology

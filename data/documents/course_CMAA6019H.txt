@@ -1,0 +1,22 @@
+course: CMAAH 019H
+normalized_code: CMAA6019H
+title: E-Textiles
+subject: CMAA
+catalog_number: "6019H"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Textiles are one of the oldest, most pervasive, and most continually evolving technologies used throughout human activity. The intimacy of textiles with our daily lives and our senses provides an opportunity to create useful, evocative, and fun creations. Whether we are making one-of-a kind garment creations, or exploring techniques that can be applied more broadly to textiles for work, play, and display, we learn how to combine traditionally soft and conforming materials with other technologies. We will integrate electronic technologies for signals and light, programming of computer embroidery machines, and explore new manufacturing technologies. The class is grounded in project-based learning, combined with reading and discussion of research papers. We will create and exhibit wearable and/or portable e-Textile items as final projects.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - CMAA6019H
+  - CMAAH 019H
+  - E-Textiles

@@ -1,0 +1,22 @@
+course: MICS 5450
+normalized_code: MICS5450
+title: High-Speed Integrated Circuits Design
+subject: MICS
+catalog_number: "5450"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course will focus on the circuits and architectures for high-speed wireline data communications. The topics that will be covered in this course include wireline data link systems, transmitters, receivers, equalizers, clock and data recovery, etc. Upon finishing this course, students are expected to understand the basic principles of modern high-speed data link systems and grasp the essentials to design the integrated circuits for such systems.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS5450
+  - MICS 5450
+  - High-Speed Integrated Circuits Design

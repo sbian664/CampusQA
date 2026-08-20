@@ -1,0 +1,22 @@
+course: AMAT 5430
+normalized_code: AMAT5430
+title: Introduction to Photonic Crystals and Modeling
+subject: AMAT
+catalog_number: "5430"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  This course provides an introduction to the fascinating field of photonic crystals, which are artificial structures that manipulate and control the flow of light. Students will learn about the fundamental principles of photonic crystals, and also their design, fabrication, and characterization. The course will cover the theoretical and experimental aspects of photonic crystals, as well as their practical applications in various industries. Topics to be covered include the electromagnetic theory of periodic structures, band structure and photonic band gaps, optical properties of photonic crystals, fabrication techniques, and the latest advancements in the field. Students will also have the opportunity to explore case studies and practical design of photonic crystals. By the end of the course, students will have a solid understanding of the principles and applications of photonic crystals, and will be equipped with the knowledge to pursue further studies or careers in this exciting and rapidly evolving field.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - AMAT5430
+  - AMAT 5430
+  - Introduction to Photonic Crystals and Modeling

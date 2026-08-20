@@ -1,0 +1,11 @@
+教职员简介：
+  姓名：薛珂（Ke XUE）
+  职称：Senior Lecturer
+  学域：Base of Red Bird MPhil
+  邮箱：jerrykxue@hkust-gz.edu.cn
+  办公室：E2 L6 607
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XUE-Ke/jerrykxue
+  研究方向：
+    Reliability design for semiconductor packaging，
+    Virtual design, verification and multi-scale simulation of advanced polymer composites，
+    Interdisciplinary project-based learning pedagogy，

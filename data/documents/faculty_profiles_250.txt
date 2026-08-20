@@ -1,0 +1,10 @@
+教职员简介：
+  姓名：丁子硕（Zishuo DING）
+  职称：Assistant Professor
+  学域：Thrust of Data Science and Analytics
+  邮箱：zishuoding@hkust-gz.edu.cn
+  办公室：W4 L4 410
+  个人网站：https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+  研究方向：
+    Optimizing natural language processing techniques for software engineering，
+    Software performance engineering for large-scale systems，

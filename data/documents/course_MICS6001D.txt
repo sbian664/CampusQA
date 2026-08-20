@@ -1,0 +1,22 @@
+course: MICSD 001D
+normalized_code: MICS6001D
+title: Integrated Switch Mode Power Converters Design
+subject: MICS
+catalog_number: "6001D"
+credits: 3
+level: postgraduate
+source: UniKorn
+active: true
+
+description: >
+  Switch mode power converters (SMPCs) are the most widely used power management circuits. This course covers the working principles of the SMPCs, along with discussion of the topologies, continuous and discontinuous conduction mode, loop gain analysis and relevant mathematical tools, stability and compensation. This course delves into the design details and optimization of integrated SMPCs. This course provides a comprehensive understanding of the SMPCs.
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - MICS6001D
+  - MICSD 001D
+  - Integrated Switch Mode Power Converters Design

@@ -1,0 +1,22 @@
+course: SMMG 6000T
+normalized_code: SMMG6000T
+title: Introduction to Industrial Data Analytics
+subject: 
+catalog_number: ""
+credits: 3
+level: undergraduate
+source: UniKorn
+active: true
+
+description: >
+  none
+
+requirements:
+  prerequisite: none
+  corequisite: none
+  exclusion: none
+
+search_aliases:
+  - SMMG6000T
+  - SMMG 6000T
+  - Introduction to Industrial Data Analytics
