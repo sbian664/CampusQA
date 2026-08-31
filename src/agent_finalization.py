@@ -14,6 +14,17 @@ FINAL_ANSWER_INSTRUCTION = (
     "只输出面向用户的自然语言答案，不要描述内部检索过程。"
 )
 
+_TOOL_BLOCK_RE = re.compile(
+    r"<(?:tool_call|tool_calls|function_call|invoke)\b[^>]*>"
+    r".*?(?:</(?:tool_call|tool_calls|function_call|invoke)\s*>|$)",
+    flags=re.IGNORECASE | re.DOTALL,
+)
+_TOOL_TAG_RE = re.compile(
+    r"</?(?:tool_call|tool_calls|function_call|invoke)\b[^>]*>",
+    flags=re.IGNORECASE,
+)
+_PIPE_PROTOCOL_RE = re.compile(r"<\|.*?\|>", flags=re.DOTALL)
+
 
 def sanitize_tool_protocol_text(content: str | None) -> str:
     """Remove leaked tool-protocol markup while retaining any natural-language prefix."""
@@ -21,15 +32,16 @@ def sanitize_tool_protocol_text(content: str | None) -> str:
     if not text:
         return ""
 
-    markers = [
-        match.start()
-        for pattern in (r"<\|", r"\bDSML\b", r"\btoolcalls?\b", r"\binvoke\b")
-        for match in [re.search(pattern, text, flags=re.IGNORECASE)]
-        if match is not None
-    ]
-    if markers:
-        text = text[: min(markers)].rstrip()
-    return text
+    text = _TOOL_BLOCK_RE.sub("", text)
+    text = _PIPE_PROTOCOL_RE.sub("", text)
+    text = _TOOL_TAG_RE.sub("", text)
+
+    # DSML is treated as a protocol marker; ordinary words such as
+    # "invoke" in a natural-language answer remain intact.
+    dsml_marker = re.search(r"\bDSML\b", text, flags=re.IGNORECASE)
+    if dsml_marker:
+        text = text[: dsml_marker.start()]
+    return text.strip()
 
 
 def build_final_answer_messages(messages: List[Dict]) -> List[Dict]:

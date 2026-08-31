@@ -5,6 +5,7 @@ FastAPI 后端 —— 将现有 Chatbot / Session / KnowledgeBase 封装为 REST
 import os
 import json
 import re
+import hmac
 import traceback
 import tempfile
 from concurrent.futures import Future, ThreadPoolExecutor
@@ -14,7 +15,7 @@ from typing import Optional, List, Dict
 import shutil
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, Depends, HTTPException, Header, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -26,6 +27,7 @@ from config import (
     CONTEXT_ROUTER_ENABLED,
     CONTEXT_ROUTER_PROVIDER,
     CONTEXT_ROUTER_HISTORY_EXCHANGES,
+    LLM_CONFIG_TOKEN,
 )
 from src.chatbot import Chatbot, AgentChatResult
 from src.context_router import ContextRouter, create_context_router
@@ -108,6 +110,16 @@ def get_context_router() -> ContextRouter:
 
 def get_llm_config() -> Dict[str, str]:
     return _llm_config_store.get()
+
+
+def require_llm_config_token(
+    token: Optional[str] = Header(default=None, alias="X-LLM-Config-Token"),
+) -> None:
+    """Require an explicit server-side token for model configuration changes."""
+    if not LLM_CONFIG_TOKEN:
+        raise HTTPException(status_code=503, detail="LLM 配置接口尚未启用")
+    if not token or not hmac.compare_digest(token, LLM_CONFIG_TOKEN):
+        raise HTTPException(status_code=401, detail="LLM 配置接口认证失败")
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -225,9 +237,17 @@ def _clean_session_title(raw_title: Optional[str], max_chars: int = 24) -> str:
     return title[:max_chars] or "新会话"
 
 
-def _generate_session_title(user_message: str, client_factory=create_llm_client) -> str:
+def _generate_session_title(
+    user_message: str,
+    client_factory=create_llm_client,
+    llm_config: Optional[Dict[str, str]] = None,
+) -> str:
     """使用 LLM 为首轮消息生成短标题。"""
-    client = client_factory()
+    client = (
+        client_factory(config=llm_config)
+        if llm_config is not None
+        else client_factory()
+    )
     title = client.send_message(
         _build_title_prompt(user_message),
         max_tokens=24,
@@ -321,18 +341,18 @@ def health_check():
     return {"status": "ok", "timestamp": datetime.now().isoformat()}
 
 
-@app.get("/api/llm-config")
+@app.get("/api/llm-config", dependencies=[Depends(require_llm_config_token)])
 def get_llm_config_endpoint():
     """读取单用户模型配置；API Key 只返回脱敏值。"""
     return _llm_config_store.public_config()
 
 
-@app.put("/api/llm-config")
+@app.put("/api/llm-config", dependencies=[Depends(require_llm_config_token)])
 def update_llm_config(request: LLMConfigRequest):
     """保存单用户模型配置并让后续请求重新创建 LLM 客户端。"""
     global _chatbot, _context_router
     try:
-        saved = _llm_config_store.update(request.dict())
+        _llm_config_store.update(request.dict())
     except ValueError as error:
         raise HTTPException(status_code=400, detail=str(error))
     _chatbot = None
@@ -340,11 +360,14 @@ def update_llm_config(request: LLMConfigRequest):
     return {"status": "saved", **_llm_config_store.public_config()}
 
 
-@app.post("/api/llm-config/test")
+@app.post("/api/llm-config/test", dependencies=[Depends(require_llm_config_token)])
 def test_llm_config(request: LLMConfigRequest):
     """测试当前输入配置，不保存配置。"""
     try:
-        candidate = _llm_config_store.resolve(request.dict())
+        candidate = _llm_config_store.resolve(
+            request.dict(),
+            preserve_existing_key=False,
+        )
         client = create_llm_client(config=candidate)
         client.send_message(
             [
@@ -378,7 +401,12 @@ def chat(request: ChatRequest):
             and len(session.messages) == 0
         )
         title_future = (
-            _title_executor.submit(_generate_session_title, request.message)
+            _title_executor.submit(
+                _generate_session_title,
+                request.message,
+                create_llm_client,
+                get_llm_config(),
+            )
             if should_generate_title else None
         )
 
@@ -534,7 +562,8 @@ async def upload_file(file: UploadFile = File(...)):
     # 索引到知识库
     try:
         kb = get_kb()
-        kb._update_document(file_path)
+        if kb._update_document(file_path) is False:
+            raise RuntimeError("文档索引未提交")
         kb._save_metadata()
         kb._save_chunk_texts()
         kb._save_store()
@@ -612,7 +641,8 @@ async def upload_files(
         try:
             with open(file_path, "wb") as f:
                 shutil.copyfileobj(upload.file, f)
-            kb._update_document(file_path)
+            if kb._update_document(file_path) is False:
+                raise RuntimeError("文档索引未提交")
             uploaded.append({"filename": filename, "status": "ok"})
         except Exception as e:
             traceback.print_exc()

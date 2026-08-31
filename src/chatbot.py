@@ -82,7 +82,7 @@ class Chatbot:
             {"role": "user", "content": user_message}
         ]
         response = self.client.send_message(messages)
-        return response
+        return sanitize_tool_protocol_text(response)
 
     def chat_with_history(self, user_message: str, history: List[Dict]) -> str:
         """带对话历史的多轮对话"""
@@ -90,7 +90,7 @@ class Chatbot:
         messages.extend(history)
         messages.append({"role": "user", "content": user_message})
         response = self.client.send_message(messages)
-        return response
+        return sanitize_tool_protocol_text(response)
 
     # ---- RAG 检索增强（一步式，快速模式）----
 
@@ -182,7 +182,7 @@ class Chatbot:
         messages.append({"role": "user", "content": user_message})
 
         response = self.client.send_message(messages)
-        return response
+        return sanitize_tool_protocol_text(response)
 
     # ═══════════════════════════════════════════════════════════
     #  Agent Loop 自主循环检索（深度模式）
@@ -246,6 +246,10 @@ class Chatbot:
                 messages, tools=AGENT_TOOLS
             )
             self._accumulate_state_usage(state, response)
+            # Every model call consumes one round, including malformed or
+            # tool-free responses; otherwise invalid tool calls can bypass
+            # the hard loop limit.
+            state.llm_rounds += 1
 
             # ── 错误处理 ──
             if response.finish_reason == "error":
@@ -346,7 +350,6 @@ class Chatbot:
                 })
 
             messages.extend(tool_results)
-            state.llm_rounds += 1
 
         # ── 达到 LLM 轮次上限 ──
         final = self._call_llm_forced_text(messages, state)

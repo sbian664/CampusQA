@@ -8,6 +8,15 @@ from src.user_llm_config import UserLLMConfigStore, mask_api_key, normalize_llm_
 
 
 class UserLLMConfigTests(unittest.TestCase):
+    def test_normalize_rejects_untrusted_base_url(self):
+        with self.assertRaises(ValueError):
+            normalize_llm_config({
+                "provider": "custom",
+                "api_key": "sk-test",
+                "model": "custom-model",
+                "base_url": "http://169.254.169.254/latest/meta-data",
+            })
+
     def test_normalize_accepts_openai_compatible_provider(self):
         config = normalize_llm_config({
             "provider": "openai",
@@ -69,6 +78,29 @@ class UserLLMConfigTests(unittest.TestCase):
 
             self.assertEqual(candidate["provider"], "openai")
             self.assertFalse(path.exists())
+
+    def test_resolve_candidate_does_not_reuse_saved_api_key(self):
+        with tempfile.TemporaryDirectory() as directory:
+            store = UserLLMConfigStore(
+                path=Path(directory) / "user_llm_config.json",
+                default_config={
+                    "provider": "deepseek",
+                    "api_key": "sk-existing",
+                    "model": "deepseek-chat",
+                    "base_url": "https://api.deepseek.com/v1",
+                },
+            )
+
+            with self.assertRaises(ValueError):
+                store.resolve(
+                    {
+                        "provider": "openai",
+                        "api_key": "",
+                        "model": "gpt-4o-mini",
+                        "base_url": "https://api.openai.com/v1",
+                    },
+                    preserve_existing_key=False,
+                )
 
     def test_openai_compatible_client_uses_user_provider_model_and_key(self):
         client = OpenAICompatibleClient("qwen", {

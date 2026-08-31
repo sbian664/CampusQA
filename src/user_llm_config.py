@@ -17,6 +17,7 @@ from config import (
     LLM_PROVIDER,
     LOCAL_MODEL_BASE,
     LOCAL_MODEL_NAME,
+    LLM_CONFIG_ALLOWED_HOSTS,
 )
 
 
@@ -50,8 +51,14 @@ def mask_api_key(api_key: str) -> str:
     return f"{value[:4]}...{value[-4:]}"
 
 
-def normalize_llm_config(raw: Dict[str, str]) -> Dict[str, str]:
-    data = raw or {}
+def normalize_llm_config(
+    raw: Dict[str, str],
+    *,
+    allow_missing_api_key: bool = False,
+) -> Dict[str, str]:
+    if not isinstance(raw, dict):
+        raise ValueError("模型配置必须是 JSON 对象")
+    data = raw
     provider = str(data.get("provider", "")).strip().lower()
     api_key = str(data.get("api_key", "")).strip()
     model = str(data.get("model", "")).strip()
@@ -62,9 +69,26 @@ def normalize_llm_config(raw: Dict[str, str]) -> Dict[str, str]:
     if not model or len(model) > 200:
         raise ValueError("模型名称不能为空且不能超过 200 个字符")
     parsed = urlparse(base_url)
-    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+    try:
+        port = parsed.port
+    except ValueError:
+        raise ValueError("Base URL 端口无效")
+    host = (parsed.hostname or "").lower().rstrip(".")
+    if parsed.scheme not in {"http", "https"} or not host:
         raise ValueError("Base URL 必须是完整的 http(s) 地址")
-    if provider != "local" and not api_key:
+    if parsed.username or parsed.password:
+        raise ValueError("Base URL 不得包含用户名或密码")
+    if provider == "local":
+        if host not in {"localhost", "127.0.0.1", "::1"}:
+            raise ValueError("local 供应商只允许连接本机地址")
+    else:
+        if parsed.scheme != "https":
+            raise ValueError("非 local 供应商必须使用 HTTPS")
+        if host not in set(LLM_CONFIG_ALLOWED_HOSTS):
+            raise ValueError("Base URL 域名不在允许列表中")
+        if port not in {None, 443}:
+            raise ValueError("HTTPS Base URL 只允许使用 443 端口")
+    if provider != "local" and not api_key and not allow_missing_api_key:
         raise ValueError("API Key 不能为空")
 
     return {
@@ -80,7 +104,10 @@ class UserLLMConfigStore:
 
     def __init__(self, path: Optional[Path] = None, default_config: Optional[Dict[str, str]] = None):
         self.path = Path(path or DEFAULT_CONFIG_PATH)
-        self.default_config = normalize_llm_config(default_config or default_llm_config())
+        self.default_config = normalize_llm_config(
+            default_config or default_llm_config(),
+            allow_missing_api_key=True,
+        )
 
     def get(self) -> Dict[str, str]:
         if not self.path.exists():
@@ -113,11 +140,19 @@ class UserLLMConfigStore:
     def update(self, payload: Dict[str, str]) -> Dict[str, str]:
         return self.save(self.resolve(payload))
 
-    def resolve(self, payload: Dict[str, str]) -> Dict[str, str]:
+    def resolve(
+        self,
+        payload: Dict[str, str],
+        *,
+        preserve_existing_key: bool = True,
+    ) -> Dict[str, str]:
         current = self.get()
         incoming = dict(payload or {})
         submitted_key = str(incoming.get("api_key", "")).strip()
-        if not submitted_key or submitted_key == mask_api_key(current["api_key"]):
+        if (
+            preserve_existing_key
+            and (not submitted_key or submitted_key == mask_api_key(current["api_key"]))
+        ):
             incoming["api_key"] = current["api_key"]
         return normalize_llm_config({
             "provider": incoming.get("provider", current["provider"]),

@@ -84,6 +84,25 @@ def rerank_results(
     return scored[:top_k]
 
 
+def rerank_precomputed_results(
+    query: str,
+    results: List[Dict],
+    top_k: int,
+    enabled: bool,
+    model_loader: Callable = get_reranker_model,
+) -> List[Dict]:
+    """Rerank an already retrieved result list while preserving fallback behavior."""
+    requested_k = max(1, int(top_k))
+    if not enabled or not RERANKER_AVAILABLE:
+        return results[:requested_k]
+
+    try:
+        return rerank_results(query, results, model_loader(), requested_k)
+    except Exception as exc:
+        print(f"鈿狅笍  閲嶆帓澶辫触锛屽洖閫€娣峰悎妫€绱㈡帓搴忥細{type(exc).__name__}: {exc}")
+        return results[:requested_k]
+
+
 def search_with_optional_rerank(
     knowledge_base,
     query: str,

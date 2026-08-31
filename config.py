@@ -20,6 +20,23 @@ DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "60"))
 DEEPSEEK_MAX_RETRIES = int(os.getenv("DEEPSEEK_MAX_RETRIES", "3"))
 DEEPSEEK_RETRY_BACKOFF_SECONDS = float(os.getenv("DEEPSEEK_RETRY_BACKOFF_SECONDS", "0.8"))
 
+# LLM 配置接口保护（未配置时接口默认拒绝访问）
+LLM_CONFIG_TOKEN = os.getenv("LLM_CONFIG_TOKEN", "").strip()
+_DEFAULT_LLM_CONFIG_HOSTS = (
+    "api.deepseek.com",
+    "api.openai.com",
+    "dashscope.aliyuncs.com",
+    "open.bigmodel.cn",
+)
+LLM_CONFIG_ALLOWED_HOSTS = tuple(
+    host.strip().lower().rstrip(".")
+    for host in os.getenv(
+        "LLM_CONFIG_ALLOWED_HOSTS",
+        ",".join(_DEFAULT_LLM_CONFIG_HOSTS),
+    ).split(",")
+    if host.strip()
+)
+
 # 本地模型配置（预留）
 LOCAL_MODEL_BASE = os.getenv("LOCAL_MODEL_BASE", "http://localhost:8000/v1")
 LOCAL_MODEL_NAME = os.getenv("LOCAL_MODEL_NAME", "local-model")
