@@ -1,0 +1,14 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 2. Extension
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 1
+
+content: >
+  In exceptional cases where students require an extension of the University timeline (Full-time
+  PhD students: 30 months after the commencement of their PhD program; Part-time PhD
+  students: 60 months after the commencement of their PhD program), for example due to
+  medical reasons, they are required to submit the request to the Committee on Postgraduate
+  Studies for consideration of approval prior to exceeding the designated timeline. The request
+  should be supported by the respective Thrusts and Hubs.

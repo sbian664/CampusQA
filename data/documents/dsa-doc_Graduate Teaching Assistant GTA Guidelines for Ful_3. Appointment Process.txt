@@ -1,0 +1,34 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 3. Appointment Process
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 2-3
+
+content: >
+  An internal GTA recruitment will be initiated by DSA Thrust via email around 6 weeks before
+  the upcoming semesters.
+  3.1 Internal Recruitment
+  Round 1:
+  During the 1st week of internal recruitment, instructors and task coordinators can extend direct
+  invitations to selected students and report the mutual agreement between instructor-GTA to
+  DSA Thrust.
+  Round 2:
+  From the 2nd week of internal recruitment, DSA Thrust collects the GTA vacancy information
+  from the instructors and task coordinators and sends recruitment emails to all DSA full-time
+  PhD students. A recruitment email will include headcounts, specific requirements, required
+  qualifications, duty descriptions, and so on.
+  Round 3:
+  For any vacancies still unfilled after the above two rounds, DSA Thrust will assign eligible
+  students to the positions based on faculty's recommendations and students' skill sets. When
+  assigning service duties, DSA Thrust will consider each student's technical skill set and prior
+  service record to distribute tasks reasonably and maintain balanced workloads across all PhD
+  students.
+  If all GTA openings managed by DSA Thrust are fully filled upon completion of the first two
+  rounds, DSA Thrust will issue a Thrust-wide official email listing all preliminarily confirmed
+  GTA assignments.
+  3.2 Official Appointment for In-Course GTAs
+  All in-course GTAs will be invited to submit applications in the GTA Management System in
+  due course. The selection, appointment, and evaluation procedures will be completed in the
+  System. The GTA responsibilities, workload, and other requirements follow the HKUST(GZ)
+  GTA Management Guidelines.

@@ -1,0 +1,12 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 5. Grade Reporting for PDEV 6800
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 4
+
+content: >
+  VPTLO shall complete the PDEV 6800 course grades for PhD students in Student Information
+  System. Upon completion of the PDEV 6800 course requirements, DSA full-time PhD students
+  are still required to complete the Thrust specific requirements on GTA services to meet
+  graduation criteria.

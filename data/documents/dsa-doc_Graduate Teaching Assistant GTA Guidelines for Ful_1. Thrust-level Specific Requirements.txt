@@ -1,0 +1,25 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 1. Thrust-level Specific Requirements
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 1-2
+
+content: >
+  Per HKUST(GZ) RPG Handbook, all full-time PhD students must fulfill Graduate Teaching
+  Assistant (GTA) duties as part of graduation requirements. DSA full-time PhD students are
+  required to complete at least 3 times and at most 6 times of GTA services, in the frequence of
+  one time in maximum each semester, under the arrangement of DSA Thrust during their
+  normative PhD study period. The service period starts usually from the 2nd semester of Year 1
+  (included) and will normally end in the first semester of normative study or the semester of
+  PhD Thesis Examination (included). Among the duties above, at least one semester of service
+  must be in the university-level teaching activities (VPTL courses), upon approval from DSA
+  Thrust.
+  Students shall be assigned one of the following two categories of duties, with equivalent
+  workload and hourly requirements (5 hours per week and 70 hours per semester) applicable to
+  both categories:
+  Category 1: In-course GTA duties tied to specific courses taught or coordinated by DSA
+  Thrust/Faculty; the full lifecycle will be captured within the GTA Management System;
+  Category 2: Academic special tasks, including Thrust academic operations and events. As such
+  tasks are not attached to any individual course, they will not be entered into the GTA
+  Management System but be retained within internal Thrust records.

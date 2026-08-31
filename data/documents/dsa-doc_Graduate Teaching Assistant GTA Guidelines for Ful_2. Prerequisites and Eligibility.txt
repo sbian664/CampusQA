@@ -1,0 +1,14 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 2. Prerequisites and Eligibility
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 2
+
+content: >
+  DSA full-time PhD students are required to fulfill the following requisites simultaneously
+  within the first semester of Year 1:
+  - Received a Pass grade in PDEV 6800Y Introduction to Teaching and Learning in Higher
+  Education (10 hours training).
+  - Received a Pass grade in the English Language Proficiency Assessment (ELPA) or in
+  LANG 5000 Foundation in Listening and Speaking for Postgraduate Students.

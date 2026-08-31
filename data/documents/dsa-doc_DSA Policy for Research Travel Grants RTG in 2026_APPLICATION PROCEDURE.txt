@@ -1,0 +1,34 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: APPLICATION PROCEDURE
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 4
+
+content: >
+  Applicants must send the following supporting documentation and information to dsa-
+  research@hkust-gz.edu.cn via email, copying to their prime supervisors, at least 3 weeks before
+  the start date of the event:
+  a) Leave approvals (UG: email approval; PhD: Leave Form as a PDF file).
+  b) The letter of acceptance of the publication.
+  c) The invitation to present the paper stating the mode of presentation (oral vs. poster).
+  d) The official link of paper to be presented, or the camera-ready version as a PDF file.
+  e) The receipt of registration fee and the link of rates webpage of the event.
+  f) Hotel reservation note.
+  g) A brief budget plan (in the application email body).
+  Budget Plan Template
+  Items Amount Remarks
+  e.g.: Registration fee USD 400 Register as 1st author
+  e.g.: Hotel – 4 nights CNY 2,000 XXX Hotel
+  e.g.: Flight ticket CNY 1,500 Economy Class
+  h) The justification for choosing luxury hotels and others (if applicable, in the email body).
+  i) The Special Request Letter for non-conference events (if applicable, in the email body).
+  The result will be released to applicants at least 1 week prior to the event. Failure to submit the
+  applications by the deadline will result in disqualification. Post-event applications will not be
+  entertained.
+
+tables:
+  - Items | Amount | Remarks
+  - e.g.: Registration fee | USD 400 | Register as 1st author
+  - e.g.: Hotel – 4 nights | CNY 2,000 | XXX Hotel
+  - e.g.: Flight ticket | CNY 1,500 | Economy Class

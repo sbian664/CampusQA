@@ -1,0 +1,18 @@
+dsa_doc: Quarterly Progress Evaluation (QPE) Guidelines for PhD Students in the DSA Program
+doc_type: QPE
+audience: DSA PhD students
+section: 1. Timeline
+source_pdf: DSA-Quarterly Progress Evaluation (QPE) Guidelines-Version 202602.pdf
+page_range: 1
+
+content: >
+  In September, December and March each year, the QPE system is open for access via this Link.
+  Students and faculty will automatically receive the announcement from the system.
+
+tables:
+  - Point | Description
+  - 5 | Excellentprogress
+  - 4 | Goodprogress
+  - 3 | Satisfactoryprogress
+  - 2 | Littleprogress(unsatisfactory)
+  - 1 | Noprogress(veryunsatisfactory)

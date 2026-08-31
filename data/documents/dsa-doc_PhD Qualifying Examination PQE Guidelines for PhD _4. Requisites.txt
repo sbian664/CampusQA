@@ -1,0 +1,15 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 4. Requisites
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 2
+
+content: >
+  Before attempting the PhD qualifying examination, DSA PhD students must obtain a grade B
+  or above in any two of the following PG courses in the DSA program:
+  - DSAA 5002 Data Mining and Knowledge Discovery in Data Science (normally offered
+  in the fall term)
+  - DSAA 5009 Deep Learning in Data Science (normally offered in the spring term)
+  - DSAA 5012 Advanced Database Management for Data Science (normally offered in the
+  spring term)

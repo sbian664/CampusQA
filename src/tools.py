@@ -12,6 +12,7 @@ from collections import defaultdict
 from config import (
     HYBRID_SEARCH_ENABLED, BM25_WEIGHT,
     AGENT_CHUNK_MERGE_ENABLED, AGENT_CHUNK_MERGE_MAX_CHARS,
+    RAG_CONTEXT_NEIGHBOR_RADIUS,
 )
 from src.reranker import get_reranker_model, search_with_optional_rerank
 
@@ -124,7 +125,20 @@ def merge_adjacent_chunks(results: List[Dict], max_chars: int = None) -> List[Di
             if curr_idx == prev_idx and combined_len <= max_chars:
                 # 合并：拼接内容，保留最高分
                 current["content"] = current["content"] + "\n" + item["content"]
-                current["score"] = max(current["score"], item.get("score", 0))
+                current["score"] = max(
+                    current.get("score", 0),
+                    item.get("score", 0),
+                )
+                if "rerank_score" in current or "rerank_score" in item:
+                    current["rerank_score"] = max(
+                        current.get("rerank_score", float("-inf")),
+                        item.get("rerank_score", float("-inf")),
+                    )
+                if "rerank_rank" in current or "rerank_rank" in item:
+                    current["rerank_rank"] = min(
+                        current.get("rerank_rank", float("inf")),
+                        item.get("rerank_rank", float("inf")),
+                    )
                 current["chunk_index"] = min(current["chunk_index"], curr_idx)
                 current["_merged_count"] = current.get("_merged_count", 1) + 1
             else:
@@ -135,6 +149,15 @@ def merge_adjacent_chunks(results: List[Dict], max_chars: int = None) -> List[Di
         if current is not None:
             merged.append(current)
 
+    if any("rerank_rank" in item for item in merged):
+        merged.sort(
+            key=lambda item: (
+                item.get("rerank_rank", float("inf")),
+                -item.get("score", 0),
+            )
+        )
+    else:
+        merged.sort(key=lambda item: item.get("score", 0), reverse=True)
     return merged
 
 
@@ -319,9 +342,19 @@ class ToolHandler:
         if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
             qt = self.kb._tokenize_query(query)
             if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
-                bm25_results = self.kb.bm25_search(query, top_k=top_k)
+                bm25_results = self.kb.bm25_search(
+                    query,
+                    top_k=top_k,
+                    filters=filters,
+                )
 
         # ── 相邻分块合并 ──
+        if hasattr(self.kb, "expand_adjacent_chunks"):
+            results = self.kb.expand_adjacent_chunks(
+                results,
+                radius=RAG_CONTEXT_NEIGHBOR_RADIUS,
+            )
+
         if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
             before = len(results)
             results = merge_adjacent_chunks(results, AGENT_CHUNK_MERGE_MAX_CHARS)

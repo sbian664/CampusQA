@@ -1,0 +1,100 @@
+dsa_doc: Thesis Proposal Examination (TPE) Guidelines for PhD Students in the DSA Program
+doc_type: TPE
+audience: DSA PhD students
+section: C. Conducting
+source_pdf: DSA-Thesis Proposal Examination (TPE) Guidelines-Version 202512.pdf
+page_range: 5-7
+
+content: >
+  A thesis proposal examination takes place in a single session, comprising four parts. The first
+  two parts are open to the public. The third part is closed to all but the candidate and the Thesis
+  Proposal Examination Committee, and the fourth is a closed session of the Thesis Proposal
+  Examination Committee in the absence of the candidate.
+  1. The first part is an oral presentation of the thesis proposal by the candidate in no more
+  than 30 minutes.
+  2. The second part is an open questioning session, involving the Thesis Proposal
+  Examination Committee and others in attendance. During this part of the examination, all
+  questions are addressed through the Chairperson, and any dialogue is limited to the
+  candidate and the individual questioner.
+  3. The third part is a closed session involving a Q&A and discussion between the candidate
+  and the Thesis Proposal Examination Committee. Other than the candidate and the
+  committee members, other persons are not ordinarily allowed to attend this part. At the
+  end of this part of the examination, the candidate must leave the examination venue.
+  4. The fourth part is a closed session involving only the Thesis Proposal Examination
+  Committee members, who then assess the performance of the candidate during the
+  examination.
+  Students will be evaluated based on the following criteria:
+  1) The quality of the written proposal.
+  2) The quality of the presentation.
+  3) The student's ability to answer questions raised by the Thesis Proposal Examination
+  Committee and guests.
+  5. The Chairperson will convey the outcome of the thesis proposal examination to the
+  student immediately after the fourth part.
+  6. The Chairperson should complete the Chair's Report and return it to the DSA Thrust
+  (dsarpg@hkust-gz.edu.cn) within 1 week after the exam. In the case where the
+  Chairperson participates online, the supervisors or the examiner who are on-site should
+  collect the paper Report first, then pass the authentic/scanned version to the Chairperson.
+  The Chairperson should complete the Report with assistance from the DSA Thrust, not
+  from the student being examined.
+  Appendix 1
+  Thesis Proposal Examination (TPE) Intention Email Template:
+  From: Student's HKUST(GZ) email account
+  To: DSA RPG Program (dsarpg@hkust-gz.edu.cn)
+  Cc: All TPE Committee Members
+  Subject: TPE Intention - [ZHANG, San] - [Student ID]
+  Dear DSA Officer,
+  I'd like to schedule my TPE on DD/MM/YYYY. Please kindly find the detailed information
+  below:
+  Student Name: SURNAME, First name (e.g., ZHANG, San)
+  Student ID:
+  Proposed PQE date: DD/MM/YYYY
+  Proposed PQE time: XX:XX a.m./p.m.
+  Prime supervisor: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Co-supervisor: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Invited Chairperson: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Chairperson Email:
+  Invited Examiner: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Examiner Email:
+  Please find the endorsement emails from the invited committee members attached above for
+  your records.
+  Please kindly help set up a Zoom link/book a classroom as the TPE venue, and help present my
+  intention to the PG Coordinator for approval. Thank you.
+  Best regards,
+  [Student Name]
+  Revision History：
+  Revised Date Version Revised Contents
+  Sep 12 2023 Original
+  Updated the Thrust contact email.
+  Changed the TPE timeline.
+  Added the application process for requesting a waiver of the TPE.
+  Clarified the outcomes of failing the TPE.
+  Elaborated on the composition of the committee.
+  Dec 19 2025 202512
+  Clarified the procedure for late proposal submission.
+  Clarified the attendance mode for committee members from CWB
+  or other institutions.
+  Added the application process for students' online attendance
+  under special circumstances.
+
+tables:
+  - StudentName: | SURNAME,Firstname(e.g.,ZHANG,San)
+  - Student ID:
+  - ProposedPQEdate: | DD/MM/YYYY
+  - ProposedPQEtime: | XX:XXa.m./p.m.
+  - Primesupervisor: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - Co-supervisor: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - InvitedChairperson: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - ChairpersonEmail:
+  - InvitedExaminer: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - ExaminerEmail:
+  - RevisedDate | Version | RevisedContents
+  - Sep122023 | Original
+  - Dec192025 | 202512 | UpdatedtheThrustcontactemail. ChangedtheTPEtimeline. AddedtheapplicationprocessforrequestingawaiveroftheTPE. ClarifiedtheoutcomesoffailingtheTPE. Elaboratedonthecompositionofthecommittee. Clarifiedtheprocedureforlateproposalsubmission. ClarifiedtheattendancemodeforcommitteemembersfromCWB orotherinstitutions. Addedtheapplicationprocessforstudents'onlineattendance underspecialcircumstances.

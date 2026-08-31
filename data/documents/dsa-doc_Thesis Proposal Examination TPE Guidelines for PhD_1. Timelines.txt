@@ -1,0 +1,11 @@
+dsa_doc: Thesis Proposal Examination (TPE) Guidelines for PhD Students in the DSA Program
+doc_type: TPE
+audience: DSA PhD students
+section: 1. Timelines
+source_pdf: DSA-Thesis Proposal Examination (TPE) Guidelines-Version 202512.pdf
+page_range: 1
+
+content: >
+  Taking a Thesis Proposal Examination (TPE) is normally required at least six months before
+  the PhD defense. However, the prime supervisor may waive the TPE requirement. Students
+  without an approved waiver are not permitted to proceed to the thesis defense.

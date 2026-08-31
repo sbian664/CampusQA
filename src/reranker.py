@@ -76,37 +76,12 @@ def rerank_results(
         item["rerank_score"] = float(rerank_score)
         scored.append(item)
     scored.sort(key=lambda item: item["rerank_score"], reverse=True)
+    for rerank_rank, item in enumerate(scored, start=1):
+        item["rerank_rank"] = rerank_rank
 
-    # One strongest chunk per source keeps the final context diverse.
-    unique = []
-    seen_sources = set()
-    for item in scored:
-        source = item.get("source", "")
-        if source in seen_sources:
-            continue
-        seen_sources.add(source)
-        unique.append(item)
-        if len(unique) >= top_k:
-            break
-    return unique
-
-
-def rerank_precomputed_results(
-    query: str,
-    results: List[Dict],
-    top_k: int,
-    enabled: bool,
-    model_loader: Callable = get_reranker_model,
-) -> List[Dict]:
-    requested_k = max(1, int(top_k))
-    if not enabled or not RERANKER_AVAILABLE:
-        return results[:requested_k]
-
-    try:
-        return rerank_results(query, results, model_loader(), requested_k)
-    except Exception as exc:
-        print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
-        return results[:requested_k]
+    # Keep multiple strong chunks from one source when they form a contiguous
+    # passage. Context assembly is responsible for diversity after expansion.
+    return scored[:top_k]
 
 
 def search_with_optional_rerank(
@@ -122,10 +97,11 @@ def search_with_optional_rerank(
     requested_k = max(1, int(top_k))
     search_k = max(requested_k, int(candidate_k)) if use_reranker else requested_k
     results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters)
-    return rerank_precomputed_results(
-        query,
-        results,
-        top_k=requested_k,
-        enabled=use_reranker,
-        model_loader=model_loader,
-    )
+    if not use_reranker:
+        return results[:requested_k]
+
+    try:
+        return rerank_results(query, results, model_loader(), requested_k)
+    except Exception as exc:
+        print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
+        return results[:requested_k]

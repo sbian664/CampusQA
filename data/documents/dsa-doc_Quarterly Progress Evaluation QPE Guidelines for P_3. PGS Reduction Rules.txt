@@ -1,0 +1,25 @@
+dsa_doc: Quarterly Progress Evaluation (QPE) Guidelines for PhD Students in the DSA Program
+doc_type: QPE
+audience: DSA PhD students
+section: 3. PGS Reduction Rules
+source_pdf: DSA-Quarterly Progress Evaluation (QPE) Guidelines-Version 202602.pdf
+page_range: 1-2
+
+content: >
+  Details of the PGS reduction rule are as below:
+  PGS Reduction (%)
+  Point 2 (First Time) 50
+  Point 2 (After First Time) 100
+  Point 1 100
+
+tables:
+  - Point | Description
+  - 5 | Excellentprogress
+  - 4 | Goodprogress
+  - 3 | Satisfactoryprogress
+  - 2 | Littleprogress(unsatisfactory)
+  - 1 | Noprogress(veryunsatisfactory)
+  - PGSReduction(%)
+  - Point2(FirstTime) | 50
+  - Point2(AfterFirstTime) | 100
+  - Point1 | 100

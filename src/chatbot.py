@@ -7,8 +7,9 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
+from src.agent_finalization import build_final_answer_messages, sanitize_tool_protocol_text
 from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, ToolHandler
-from src.reranker import rerank_precomputed_results
+from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
     RAG_TOP_K,
@@ -23,7 +24,6 @@ from config import (
     AGENT_CONTEXT_RATIO,
     AGENT_MODEL_MAX_CONTEXT,
     AGENT_SYSTEM_PROMPT,
-    RERANKER_CANDIDATE_K,
 )
 
 
@@ -60,7 +60,7 @@ class AgentChatResult:
 class Chatbot:
     """对话机器人 — 支持 RAG 检索增强生成 + Agent Loop 自主检索"""
 
-    def __init__(self, llm_provider: str = None, knowledge_base=None):
+    def __init__(self, llm_provider: str = None, knowledge_base=None, llm_config=None):
         """
         初始化对话机器人
 
@@ -68,7 +68,7 @@ class Chatbot:
             llm_provider: LLM 提供商 (deepseek / local)
             knowledge_base: KnowledgeBase 实例（用于 RAG 检索）
         """
-        self.client = create_llm_client(llm_provider)
+        self.client = create_llm_client(llm_provider, config=llm_config)
         self.system_prompt = SYSTEM_PROMPT
         self.kb = knowledge_base
         self.agent_mode = AGENT_MODE_ENABLED  # 运行时可切换
@@ -107,23 +107,24 @@ class Chatbot:
         if self.kb is None:
             return self.chat_with_history(user_message, history)
 
-        if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'retrieve'):
-            candidate_k = RERANKER_CANDIDATE_K if rerank_enabled else RAG_TOP_K
-            retrieval = self.kb.retrieve(
+        if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'hybrid_search'):
+            results = search_with_optional_rerank(
+                self.kb,
                 user_message,
-                top_k=candidate_k,
-                rescue_top_k=RAG_TOP_K,
-            )
-            results = rerank_precomputed_results(
-                user_message,
-                retrieval.results,
                 top_k=RAG_TOP_K,
                 enabled=rerank_enabled,
             )
-            bm25_results = retrieval.bm25_results
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
-            bm25_results = []
+
+        # Agent 自主决策：若混合检索全无关键词命中，追加纯 BM25 结果
+        # 但先用 _bm25_doc_freq O(1) 预检，语料中无关键词则跳过全量扫描
+        bm25_results = []
+        all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
+        if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
+            qt = self.kb._tokenize_query(user_message)
+            if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+                bm25_results = self.kb.bm25_search(user_message, top_k=RAG_TOP_K)
 
         # 构建上下文：语义匹配 + 关键词匹配分开展示
         context_parts = []
@@ -286,8 +287,9 @@ class Chatbot:
 
             # 构建 assistant 消息（arguments 必须序列化为 JSON 字符串，否则 API 400）
             assistant_msg = {"role": "assistant"}
-            if response.content:
-                assistant_msg["content"] = response.content
+            clean_content = sanitize_tool_protocol_text(response.content)
+            if clean_content:
+                assistant_msg["content"] = clean_content
             serialized_calls = []
             for tc in valid_calls:
                 tc_copy = {
@@ -358,8 +360,8 @@ class Chatbot:
 
     def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState) -> LLMResponse:
         """强制文本模式调用（不带 tools），用于熔断后获取最终回答"""
-        # 临时移除 tools 相关消息确保兼容性
-        response = self.client.send_message_with_tools(messages, tools=None)
+        final_messages = build_final_answer_messages(messages)
+        response = self.client.send_message_with_tools(final_messages, tools=None)
         self._accumulate_state_usage(state, response)
         return response
 
@@ -367,7 +369,7 @@ class Chatbot:
                       state: AgentLoopState, reason: str) -> AgentChatResult:
         """构建 AgentChatResult"""
         return AgentChatResult(
-            content=response.content or "",
+            content=sanitize_tool_protocol_text(response.content),
             finish_reason=reason,
             tool_call_log=handler.get_call_log(),
             usage={

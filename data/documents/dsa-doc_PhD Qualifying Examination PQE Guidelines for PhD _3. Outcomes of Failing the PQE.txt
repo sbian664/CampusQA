@@ -1,0 +1,11 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 3. Outcomes of Failing the PQE
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 1
+
+content: >
+  Students who fail to take or pass the qualifying examination within the stipulated timeframe
+  will be considered as failing the qualifying examination, and will either be dismissed from the
+  University or required to apply for transfer to the MPhil program.

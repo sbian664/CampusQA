@@ -47,17 +47,22 @@ class LLMClient:
         raise NotImplementedError
 
 
-class DeepSeekClient(LLMClient):
-    """DeepSeek API 客户端"""
+class OpenAICompatibleClient(LLMClient):
+    """OpenAI-compatible chat completions client."""
 
-    def __init__(self):
-        super().__init__("deepseek")
-        self.api_key = DEEPSEEK_API_KEY
-        self.base_url = DEEPSEEK_API_BASE
-        self.model = DEEPSEEK_MODEL
+    def __init__(self, provider: str = "custom", config: Optional[Dict] = None):
+        super().__init__(provider)
+        settings = config or {
+            "api_key": DEEPSEEK_API_KEY,
+            "base_url": DEEPSEEK_API_BASE,
+            "model": DEEPSEEK_MODEL,
+        }
+        self.api_key = str(settings.get("api_key", "")).strip()
+        self.base_url = str(settings.get("base_url", "")).strip().rstrip("/")
+        self.model = str(settings.get("model", "")).strip()
 
-        if not self.api_key:
-            raise ValueError("DEEPSEEK_API_KEY 未设置，请在 .env 文件中配置")
+        if self.provider != "local" and not self.api_key:
+            raise ValueError("API Key 未设置，请在设置页中配置")
 
     @staticmethod
     def _is_retryable_error(error: requests.exceptions.RequestException) -> bool:
@@ -120,7 +125,7 @@ class DeepSeekClient(LLMClient):
                     raise
 
                 delay = DEEPSEEK_RETRY_BACKOFF_SECONDS * (2 ** attempt)
-                print(f"⚠️ DeepSeek API 瞬时错误，{delay:.1f}s 后重试 ({attempt + 1}/{attempts}): {error}")
+                print(f"⚠️ {self.provider} API 瞬时错误，{delay:.1f}s 后重试 ({attempt + 1}/{attempts}): {error}")
                 time.sleep(delay)
 
         raise last_error
@@ -132,7 +137,7 @@ class DeepSeekClient(LLMClient):
             data = self._call_api(payload)
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
-            raise Exception(f"DeepSeek API 调用失败: {str(e)}")
+            raise Exception(f"{self.provider} API 调用失败: {str(e)}")
 
     def send_message_with_tools(
         self, messages: List[Dict], tools: Optional[List[Dict]] = None, **kwargs
@@ -189,7 +194,7 @@ class DeepSeekClient(LLMClient):
 
         except requests.exceptions.RequestException as e:
             return LLMResponse(
-                content=f"[API_ERROR] DeepSeek API 调用失败: {str(e)}",
+                content=f"[API_ERROR] {self.provider} API 调用失败: {str(e)}",
                 finish_reason="error",
             )
         except (KeyError, IndexError, json.JSONDecodeError) as e:
@@ -199,13 +204,21 @@ class DeepSeekClient(LLMClient):
             )
 
 
+class DeepSeekClient(OpenAICompatibleClient):
+    """DeepSeek API 客户端，保留旧的默认入口。"""
+
+    def __init__(self, config: Optional[Dict] = None):
+        super().__init__("deepseek", config)
+
+
 class LocalModelClient(LLMClient):
     """本地模型客户端（预留接口）"""
 
-    def __init__(self):
+    def __init__(self, config: Optional[Dict] = None):
         super().__init__("local")
-        self.base_url = LOCAL_MODEL_BASE
-        self.model = LOCAL_MODEL_NAME
+        settings = config or {}
+        self.base_url = str(settings.get("base_url", LOCAL_MODEL_BASE)).strip().rstrip("/")
+        self.model = str(settings.get("model", LOCAL_MODEL_NAME)).strip()
 
     def send_message(self, messages: List[Dict], **kwargs) -> str:
         """调用本地模型 API"""
@@ -241,13 +254,16 @@ class LocalModelClient(LLMClient):
             )
 
 
-def create_llm_client(provider: str = None) -> LLMClient:
+def create_llm_client(provider: str = None, config: Optional[Dict] = None) -> LLMClient:
     """工厂函数：根据提供商创建 LLM 客户端"""
-    provider = provider or LLM_PROVIDER
+    provider = (config or {}).get("provider") or provider or LLM_PROVIDER
+    provider = provider.lower()
 
-    if provider.lower() == "deepseek":
-        return DeepSeekClient()
-    elif provider.lower() == "local":
-        return LocalModelClient()
+    if provider == "deepseek":
+        return DeepSeekClient(config)
+    elif provider in {"openai", "qwen", "zhipu", "custom"}:
+        return OpenAICompatibleClient(provider, config)
+    elif provider == "local":
+        return LocalModelClient(config)
     else:
         raise ValueError(f"未支持的 LLM 提供商: {provider}")

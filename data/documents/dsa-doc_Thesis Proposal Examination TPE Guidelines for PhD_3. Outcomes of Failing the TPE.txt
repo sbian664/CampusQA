@@ -1,0 +1,9 @@
+dsa_doc: Thesis Proposal Examination (TPE) Guidelines for PhD Students in the DSA Program
+doc_type: TPE
+audience: DSA PhD students
+section: 3. Outcomes of Failing the TPE
+source_pdf: DSA-Thesis Proposal Examination (TPE) Guidelines-Version 202512.pdf
+page_range: 1
+
+content: >
+  If a student chooses to take the TPE, they must pass it in order to proceed to the thesis defense.

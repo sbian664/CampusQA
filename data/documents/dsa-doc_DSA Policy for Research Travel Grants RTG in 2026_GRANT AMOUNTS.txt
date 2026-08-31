@@ -1,0 +1,30 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: GRANT AMOUNTS
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 3
+
+content: >
+  Applicants may apply for DSA RTG once during 2026:
+  Applicant Groups Conditions Maximum Grant
+  PhD (DSA/IIP- 1st or 2nd author attending conferences marked A, or
+  Up to CNY 4,000
+  DSA) 2nd authors attending A+ conferences.
+  PhD (DSA/IIP-
+  1st and co-1st author attending A+ conferences Up to CNY 7,000
+  DSA)
+  BSc (General) Y1-2 UG students supervised by DSA faculty Up to CNY 3,000
+  Students have formally been admitted to the DSA Thrust
+  BSc (DSBD) Up to CNY 7,000
+  and supervised by DSA faculty.
+  The final amount of the DSA RTG may vary subject to fund availability and the number of
+  applications received for the same event. The reimbursement amount is counted on an actual basis.
+  The remaining balance will be considered as being surrendered back to DSA Thrust.
+
+tables:
+  - Applicant Groups | Conditions | Maximum Grant
+  - PhD (DSA/IIP- DSA) | 1st or 2nd author attending conferences marked A, or 2nd authors attending A+ conferences. | Up to CNY 4,000
+  - PhD (DSA/IIP- DSA) | 1st and co-1st author attending A+ conferences | Up to CNY 7,000
+  - BSc (General) | Y1-2 UG students supervised by DSA faculty | Up to CNY 3,000
+  - BSc (DSBD) | Students have formally been admitted to the DSA Thrust and supervised by DSA faculty. | Up to CNY 7,000

@@ -1,0 +1,21 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: APPLICATION TIMELINE
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 4
+
+content: >
+  At least 3 weeks At least 1 week During the event Within 1 week after the
+  before the event before the event event
+  Submit Receive Result Keep all related Submit the "DSA RTG
+  application Notification reimbursement files. Report" to Thrust for fund
+  Promote DSA Thrust and access, then raise BR in
+  DSA PhD program PBMS.
+  actively.
+
+tables:
+  - Items | Amount | Remarks
+  - e.g.: Registration fee | USD 400 | Register as 1st author
+  - e.g.: Hotel – 4 nights | CNY 2,000 | XXX Hotel
+  - e.g.: Flight ticket | CNY 1,500 | Economy Class

@@ -1,0 +1,26 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 5. PQE Content
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 2
+
+content: >
+  The PQE consists of a comprehensive, written critical survey and review of the student's
+  intended research focus, and a public oral examination. The written survey should normally be
+  approximately 25 pages long. The arrangement and protocol of the oral examination are
+  specified in the Section C.
+  The purpose of the PQE is to assess the student's understanding of the literature, as well as
+  preparedness to conduct research, in the selected research focus. The written survey and
+  review should identify important research issues in the student's intended research focus. The
+  research focus should be broad enough to contain many potential thesis topics, yet sufficiently
+  narrow that the highly relevant papers number in the tens rather than in the hundreds.
+  The written survey should take a subfield and survey a small number of results in that subfield.
+  It should NOT be a cut-and-paste list of results. Instead, it should attempt to integrate research
+  findings within a unified framework and reflect a clear understanding of the area. Suggested
+  topics to cover are: how the field developed, early results, new techniques, advantages/
+  disadvantages of some approaches compared to others, etc.
+  The survey should not be targeted at specialists who already know the field. It should start off
+  with a clear explanation of basic definition and necessary background, so that a non-specialist
+  in the area, e.g., a faculty member with a good basic knowledge of Data Science and Analytics
+  but not expert knowledge of the survey area, can follow the survey and the presentation.

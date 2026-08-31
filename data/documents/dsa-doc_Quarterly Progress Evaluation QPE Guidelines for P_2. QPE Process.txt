@@ -1,0 +1,31 @@
+dsa_doc: Quarterly Progress Evaluation (QPE) Guidelines for PhD Students in the DSA Program
+doc_type: QPE
+audience: DSA PhD students
+section: 2. QPE Process
+source_pdf: DSA-Quarterly Progress Evaluation (QPE) Guidelines-Version 202602.pdf
+page_range: 1
+
+content: >
+  The first part is to be completed by the students who should provide a brief summary of
+  research progress during the reporting period. The second part is an overall assessment given
+  by the prime supervisor following discussions with the co-supervisor. If the assessment is
+  unsatisfactory, comments and expectations must be provided. Students will be given the chance
+  to view and discuss the result with their supervisors. The rating system is as below:
+  Point Description
+  5 Excellent progress
+  4 Good progress
+  3 Satisfactory progress
+  2 Little progress (unsatisfactory)
+  1 No progress (very unsatisfactory)
+  If the supervisor decides to allocate an Unsatisfactory point (point 2/ point 1) to DSA PhD
+  students, they should first send an email to the DSA Thrust (dsarpg@hkust-gz.edu.cn) for
+  endorsement by the DSA PG Committee. Once the DSA PG Committee has provided their
+  endorsement, the supervisor can then enter the evaluation result into the system for the student.
+
+tables:
+  - Point | Description
+  - 5 | Excellentprogress
+  - 4 | Goodprogress
+  - 3 | Satisfactoryprogress
+  - 2 | Littleprogress(unsatisfactory)
+  - 1 | Noprogress(veryunsatisfactory)

@@ -1,0 +1,42 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 7. Effective Date
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 6-8
+
+content: >
+  The DSA GTA Guidelines take effect from July 16, 2026, with GTA arrangements governed
+  herein formally implemented for the 2026-27 Fall Semester and afterwards. Students in the
+  intake of 2026-27 Fall and afterward cohorts shall strictly follow the DSA GTA Guidelines to
+  ensure high-quality teaching training.
+  Students in the intakes of 2022-23 Fall to 2025-26 Spring should follow the requirements
+  stipulated by RPG Handbook and University GTA Guidelines to complete 2 times of GTA
+  duties in different terms. Students who haven't completed the 2 duties before or in 2025-26
+  Summer should arrange the remaining GTA under management of DSA Thrust. Any service
+  records without prior approval from DSA Thrust before the commencement of GTA duty will
+  not be recognized as completion of Thrust specific GTA requirements.
+  The final right of interpretation resides with DSA Thrust.
+  Glossary:
+  1. GTA: Graduate Teaching Assistants
+  2. Courses managed by VPTL: course code starts with "UFUG", "UCUG", "UCMP",
+  "LANG", "PLED", etc.
+  3. Courses managed by Hub/Thrust: course code starts with "INFH", "DSAA", etc.
+  4. Course Offering Units:
+  DSA Thrust-course code starts with "DSAA";
+  Information Hub- course code starts with "INFH";
+  College of Education Science: course code starts with "UFUG", "UCUG", etc.
+  Revision History:
+  Revised Date Version Revised Contents
+  20250825 Original
+  20260702 202607 Clarified the thrust specific minimum and maximum duty requirements.
+  Enriched the duty range.
+  Clarified the internal recruitment procedure.
+  Clarified the penalty of 2 kinds of violations.
+  Enquiry Contact:
+  dsarpg@hkust-gz.edu.cn
+
+tables:
+  - Revised Date | Version | Revised Contents
+  - 20250825 | Original
+  - 20260702 | 202607 | Clarified the thrust specific minimum and maximum duty requirements. Enriched the duty range. Clarified the internal recruitment procedure. Clarified the penalty of 2 kinds of violations.

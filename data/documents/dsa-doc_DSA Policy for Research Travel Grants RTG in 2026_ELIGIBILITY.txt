@@ -1,0 +1,31 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: ELIGIBILITY
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 1
+
+content: >
+  Targeting students:
+  1. the full-time students under PhD (DSA) or PhD (IIP-DSA) programs.
+  2. the UG students under BSc (DSBD) or in Year 1-2 who have made outstanding research progress
+  under the supervision of DSA faculty.
+  Minimum Requirements:
+  1. The conference must be listed in the selected list of conferences for DSA RTG (see Annex 1).
+  If the event is not a conference, but a workshop, forum, competition or other, the applicant
+  must provide a Special Request Letter with a brief introduction to the event together with the
+  application materials.
+  2. The research being presented must have been conducted at HKUST(GZ), and the first
+  affiliation of the papers used to support PhD applications must be HKUST(GZ).
+  3. Each paper is eligible to support only ONE UG student and/or ONE PhD student. There is no
+  restriction on the order of authors for the UG applicant, while the PhD applicant must be the
+  first or second author of papers accepted by the main conference, not the associated workshops
+  or demo sessions.
+  Note:
+  1. Applicants must be registered at HKUST(GZ) or in the Pilot Scheme students when application.
+  If the applicant will leave the University when the event is held, he/she is still eligible to apply
+  for RTG if "HKUST(GZ)" is the affiliation of his/her paper to be presented at the event.
+  2. Any deviation from the requirements above should be reviewed and approved by the DSA
+  Research Support Committee on a case-by-case basis.
+  3. DSA RTG is stackable with HKUST(GZ) RTG or the financial support from supervisors,
+  however, all expenses must be compiled in a claim.

@@ -33,6 +33,7 @@ from src.llm_client import create_llm_client
 from src.session import Session
 from src.knowledge_base import KnowledgeBase
 from src.document_loader import DocumentLoader
+from src.user_llm_config import UserLLMConfigStore
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -70,6 +71,7 @@ app.add_middleware(
 _kb: Optional[KnowledgeBase] = None
 _chatbot: Optional[Chatbot] = None
 _context_router: Optional[ContextRouter] = None
+_llm_config_store = UserLLMConfigStore()
 _title_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="session-title")
 
 
@@ -82,19 +84,30 @@ def get_kb() -> KnowledgeBase:
 
 def get_chatbot() -> Chatbot:
     global _chatbot
-    if _chatbot is None:
-        _chatbot = Chatbot(knowledge_base=get_kb())
+    llm_config = get_llm_config()
+    config_signature = json.dumps(llm_config, sort_keys=True)
+    if _chatbot is None or getattr(_chatbot, "_llm_config_signature", None) != config_signature:
+        _chatbot = Chatbot(knowledge_base=get_kb(), llm_config=llm_config)
+        _chatbot._llm_config_signature = config_signature
     return _chatbot
 
 
 def get_context_router() -> ContextRouter:
     global _context_router
-    if _context_router is None:
+    llm_config = get_llm_config()
+    config_signature = json.dumps(llm_config, sort_keys=True)
+    if _context_router is None or getattr(_context_router, "_llm_config_signature", None) != config_signature:
         _context_router = create_context_router(
             provider=CONTEXT_ROUTER_PROVIDER,
             history_exchanges=CONTEXT_ROUTER_HISTORY_EXCHANGES,
+            llm_config=llm_config,
         )
+        _context_router._llm_config_signature = config_signature
     return _context_router
+
+
+def get_llm_config() -> Dict[str, str]:
+    return _llm_config_store.get()
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -103,8 +116,23 @@ class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
     rerank_enabled: bool = True        # 请求级智能搜索开关，不修改服务器全局状态
+    context_router_enabled: Optional[bool] = None  # 实验性上下文路由；未指定时使用服务默认值
     reroll: bool = False               # 重新生成：去掉末条 assistant 再生成
     edit_index: Optional[int] = None    # 编辑分支：截断到该索引，替换 user 消息
+
+
+def is_context_router_enabled(request: ChatRequest) -> bool:
+    """Resolve the per-request experimental switch with an environment fallback."""
+    if request.context_router_enabled is None:
+        return CONTEXT_ROUTER_ENABLED
+    return request.context_router_enabled
+
+
+class LLMConfigRequest(BaseModel):
+    provider: str
+    api_key: str = ""
+    model: str
+    base_url: str
 
 
 class ChatResponse(BaseModel):
@@ -121,6 +149,7 @@ class SearchRequest(BaseModel):
     query: str
     top_k: int = 5
     doc_type: Optional[str] = None
+    source: Optional[str] = None
     mtime_after: Optional[str] = None
     mtime_before: Optional[str] = None
 
@@ -292,6 +321,46 @@ def health_check():
     return {"status": "ok", "timestamp": datetime.now().isoformat()}
 
 
+@app.get("/api/llm-config")
+def get_llm_config_endpoint():
+    """读取单用户模型配置；API Key 只返回脱敏值。"""
+    return _llm_config_store.public_config()
+
+
+@app.put("/api/llm-config")
+def update_llm_config(request: LLMConfigRequest):
+    """保存单用户模型配置并让后续请求重新创建 LLM 客户端。"""
+    global _chatbot, _context_router
+    try:
+        saved = _llm_config_store.update(request.dict())
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
+    _chatbot = None
+    _context_router = None
+    return {"status": "saved", **_llm_config_store.public_config()}
+
+
+@app.post("/api/llm-config/test")
+def test_llm_config(request: LLMConfigRequest):
+    """测试当前输入配置，不保存配置。"""
+    try:
+        candidate = _llm_config_store.resolve(request.dict())
+        client = create_llm_client(config=candidate)
+        client.send_message(
+            [
+                {"role": "system", "content": "只回复 OK。"},
+                {"role": "user", "content": "连接测试"},
+            ],
+            max_tokens=8,
+            temperature=0,
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
+    except Exception as error:
+        raise HTTPException(status_code=502, detail=f"模型连接失败: {error}")
+    return {"status": "ok"}
+
+
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
     """
@@ -331,7 +400,7 @@ def chat(request: ChatRequest):
 
         routed_message = request.message
         routed_history = history
-        if CONTEXT_ROUTER_ENABLED and history:
+        if is_context_router_enabled(request) and history:
             try:
                 context_route = get_context_router().route(request.message, history)
                 routed_message = context_route.rewritten_query
@@ -464,7 +533,11 @@ async def upload_file(file: UploadFile = File(...)):
 
     # 索引到知识库
     try:
-        get_kb().index_document(file_path)
+        kb = get_kb()
+        kb._update_document(file_path)
+        kb._save_metadata()
+        kb._save_chunk_texts()
+        kb._save_store()
         return {
             "status": "ok",
             "filename": file.filename,
@@ -518,7 +591,6 @@ async def upload_files(
     kb = get_kb()
     uploaded = []
     failed = []
-    saved_paths = []
 
     for upload in upload_files:
         original_name = upload.filename or ""
@@ -540,26 +612,16 @@ async def upload_files(
         try:
             with open(file_path, "wb") as f:
                 shutil.copyfileobj(upload.file, f)
-            saved_paths.append(file_path)
+            kb._update_document(file_path)
+            uploaded.append({"filename": filename, "status": "ok"})
         except Exception as e:
             traceback.print_exc()
             failed.append({"filename": filename, "error": str(e)})
 
-    if saved_paths:
-        index_result = kb.index_documents(saved_paths)
-        indexed_paths = set(index_result.indexed_paths)
-        uploaded.extend(
-            {"filename": os.path.basename(path), "status": "ok"}
-            for path in saved_paths
-            if path in indexed_paths
-        )
-        failed.extend(
-            {
-                "filename": os.path.basename(item.file_path),
-                "error": item.error,
-            }
-            for item in index_result.failures
-        )
+    if uploaded:
+        kb._save_metadata()
+        kb._save_chunk_texts()
+        kb._save_store()
 
     uploaded_count = len(uploaded)
     failed_count = len(failed)
@@ -593,23 +655,37 @@ def kb_search(request: SearchRequest):
     filters = {}
     if request.doc_type:
         filters["doc_type"] = request.doc_type
+    if request.source:
+        filters["source"] = request.source
     if request.mtime_after:
         filters["mtime_after"] = request.mtime_after
     if request.mtime_before:
         filters["mtime_before"] = request.mtime_before
 
-    retrieval = kb.retrieve(
+    results = kb.hybrid_search(
         request.query,
         top_k=request.top_k,
         filters=filters if filters else None,
     )
 
+    # 若语义匹配全无关键词命中，检查是否需要追加 BM25
+    bm25_results = []
+    all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
+    if all_bm25_zero and hasattr(kb, 'bm25_search'):
+        qt = kb._tokenize_query(request.query)
+        if any(kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+            bm25_results = kb.bm25_search(
+                request.query,
+                top_k=request.top_k,
+                filters=filters if filters else None,
+            )
+
     return {
         "query": request.query,
-        "results": retrieval.results,
-        "bm25_results": retrieval.bm25_results,
-        "count": len(retrieval.results),
-        "bm25_count": len(retrieval.bm25_results),
+        "results": results,
+        "bm25_results": bm25_results,
+        "count": len(results),
+        "bm25_count": len(bm25_results),
     }
 
 

@@ -1,0 +1,16 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: SELECTION CRITERIA
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 1-2
+
+content: >
+  Selection of applications will be based on the following criteria:
+  - Whether the paper has been referred or not
+  - Whether the paper will be presented orally or not
+  - The significance of the applicant's contribution to the paper
+  - First-time applicants have priority over the awardees of DSA RTG in previous years.
+  - The first PhD student authors have priority over the second PhD student authors. If the first
+  PhD author already obtains financial support from the University or DSA, the 2nd author will
+  be disqualified for DSA RTG.

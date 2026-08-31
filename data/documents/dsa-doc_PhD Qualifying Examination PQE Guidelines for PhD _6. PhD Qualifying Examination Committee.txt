@@ -1,0 +1,16 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 6. PhD Qualifying Examination Committee
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 2-3
+
+content: >
+  The PQE Committee must consist of a minimum of 4 faculty members: one chairperson, the
+  prime supervisor, the co-supervisor, and one examiner.
+  The majority (at least three members) of the PQE Committee members must be from the
+  Thrust of Data Science and Analytics. Thechairperson and the examiner must be
+  substantiation-track faculty members at HKUST(GZ) or HKUST, and the chairperson must be
+  at the rank of Associate Professor or above. Other than the supervisors, the membership of the
+  PQE Committee is proposed by the student in consultation with the supervisors, and should be
+  approved by the DSA PG Coordinator.

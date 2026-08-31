@@ -1,0 +1,54 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: B. Scheduling
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 4-5
+
+content: >
+  PhD Qualifying Examination Intention
+  1. In consultation with the supervisors, students will propose a date for the PhD Qualifying
+  Examination and the membership of the PhD Qualifying Examination Committee, after
+  meeting the requisite requirements. It allows a student to proceed with the PQE without
+  their supervisors' agreement, but it mandates that the supervisors confirm their
+  attendance for the student's examination.The examination should be scheduled on normal
+  workdays to encourage participation from members of the Hub/Thrust community.
+  2. The PhD students should declare their exam intention by email to the DSA Thrust
+  (dsarpg@hkust-gz.edu.cn), with endorsement letters from all invited committee members
+  enclosed. (Email template is enclosed in Appendix 1).
+  3. The DSA Thrust will present the intention to the PG Coordinator who will endorse the
+  exam.
+  4. The DSA Thrust will then send a calendar invitation as confirmation to the student being
+  examined and all committee members. The calendar invitation includes the following
+  information: exam date and time, venue, and membership of the PQE Committee. The
+  PQE intention and the membership of the PQE Committee must be confirmed by the
+  DSA Thrust at least 6 weeks before the exam date. Students should allow sufficient time
+  for the above processes. Inadequate notice served for scheduling will result in
+  postponement of the PQE.
+  PQE Survey Submission
+  1. The survey should be distributed by email to the committee members, with a copy to the
+  DSA Thrust (dsarpg@hkust-gz.edu.cn) at least 2 weeks prior to the oral examination.
+  The PhD Qualifying Examination Committee has the discretion to cancel the exam if the
+  quality of the survey does not meet the standard. Should such a case occur, the student
+  will be notified by the DSA Thrust.
+  2. In case of late submission, the student must obtain prior consent from their PQE
+  Committee at least 1 week before the survey submission deadline. The student should
+  propose the expected submission time to their PQE Committee via email and forward the
+  consent emails to the DSA Thrust (dsarpg@hkust-gz.edu.cn).
+  3. If the committee rejects the request, the student should either submit the survey as
+  originally scheduled or reschedule the exam. If the late submission approval is not
+  obtained before the required deadline, it will be considered that the committee has
+  rejected the extension request.
+  Attendance Mode
+  The default attendance mode is in-person for the examinee and all GZ members of the PQE
+  Committee. Committee members from CWB or other institutions can attend online. To render
+  more flexibility in the conduct of PQE, the examinations may be conducted in a hybrid mode.
+  - If any GZ examiners are unable to attend the examination in person under special
+  circumstances, the examiners should obtain email approval from the DSA PG Coordinator
+  at least 1 working day prior to the exam, with a copy to the DSA Thrust (dsarpg@hkust-
+  gz.edu.cn). To ensure academic integrity and quality assurance, at least 1 examiner must
+  participate on-site with the examinee.
+  - If a student cannot attend the examination in person due to urgent and special
+  circumstances temporarily, the student should provide strong justification, obtain email
+  approval from supervisors, and then forward the emails to the DSA Thrust (dsarpg@hkust
+  -gz.edu.cn) for the PG Coordinator's approval at least 1 working day prior to the exam.

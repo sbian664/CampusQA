@@ -1,0 +1,118 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: C. Conducting
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 6-9
+
+content: >
+  A qualifying examination takes place in a single session, comprising four parts. The first two
+  parts are open to the public. The third part is closed to all but the candidate and the PQE
+  Committee, and the fourth is a closed session of the PQE Committee in the absence of the
+  candidate.
+  1. The first part is an oral presentation about the survey by the candidate. The oral
+  presentation should normally take approximately 30 minutes.
+  2. The second part is an open questioning session, involving the PQE Committee members,
+  and others in attendance. This part should normally take approximately 10 minutes.
+  3. The third part is a closed session involving Q&A and discussion between the candidate
+  and the PQE Committee. Other than the candidate and the PQE Committee members,
+  others are not ordinarily allowed to attend this part. At the end of this part of the
+  examination, the candidate must leave the examination venue and wait nearby.
+  4. The fourth part is a closed session involving only the PQE Committee members, who
+  then assess the performance of the candidate during the examination.
+  Students will be evaluated based on the following criteria:
+  1) The quality of the written survey.
+  2) The quality of the presentation, including the student's ability to understand the
+  background of the proposed research and the research potential demonstrated during
+  the presentation.
+  3) The student's ability to answer questions raised by the PQE Committee and guests.
+  5. The Chairperson will convey the outcome of the PQE to the student immediately after the
+  fourth part.
+  6. The Chairperson should complete the Chair's Report and return it to the DSA Thrust
+  (dsarpg@hkust-gz.edu.cn) within 1 week after the exam. In the case where the
+  Chairperson participates online, the supervisors or the examiner who are on-site should
+  collect the paper Report first, then pass the authentic/scanned version to the Chairperson.
+  The Chairperson should complete the Report with assistance from the DSA Thrust, not
+  from the student being examined.
+  7. The DSA Thrust will report the final result with the HKUST(GZ) Academic Registry
+  Service (ARS) after receiving the Chair's Report from the Chairperson. Then ARS will
+  record the results in the Student Information System (SIS). Students can check their PQE
+  status in their Advisement Reports after the update.
+  Appendix 1
+  PhD Qualifying Examination (PQE) Intention Email Template:
+  From: Student's HKUST(GZ) email account
+  To: DSA RPG Program (dsarpg@hkust-gz.edu.cn)
+  Cc: All PQE Committee Members
+  Subject: PQE Intention - [ZHANG, San] - [Student ID]
+  Dear DSA Officer,
+  I'd like to schedule my PQE on DD/MM/YYYY. Please kindly find the detailed information
+  below:
+  Student Name: SURNAME, First name (e.g., ZHANG, San)
+  Student ID:
+  Proposed PQE date: DD/MM/YYYY
+  Proposed PQE time: XX:XX a.m./p.m.
+  Prime supervisor: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Co-supervisor: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Invited Chairperson: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Chairperson Email:
+  Invited Examiner: Prof. SURNAME, First Attend onsite or online
+  name
+  (please delete as appropriate)
+  Examiner Email:
+  Please find the endorsement emails from the invited committee members attached above for
+  your records.
+  Please kindly help set up a Zoom link/book a classroom as the PQE venue, and help present my
+  intention to the PG Coordinator for approval. Thank you.
+  Best regards,
+  [Student Name]
+  Revision History：
+  Revised Date Version Revised Contents
+  2021 Original
+  Added extension rules and application procedure.
+  Updated PQE Committee composition (Chair appointment).
+  Jul 07 2022 202209 Standardized exam confirmation procedure.
+  Clarified each exam session.
+  Specified PQE result report procedure.
+  Oct 19 2023 202310 Changed Thrust contact email.
+  Changed Thrust contact email.
+  Mar 18 2024 202403
+  Clarified attendance mode.
+  Apr 08 2024 202404 Clarified extension application flow.
+  Elaborated committee composition.
+  Stipulated deadlines for the use of 1st and 2nd attempts and
+  beyond limit period. Clarified the outcomes of late scheduling and
+  Sep 01 2025 202509 failing PQE.
+  Clarified the procedure of late survey submission.
+  Clarified attendance mode for committee members from CWB or
+  other institutions.
+  Changed the PQE timeline.
+  Updated the extension guide.
+  Dec 02 2025 202512 Updated the outcomes of failing the PQE.
+  Added the application process for students' online attendance
+  under special circumstances.
+
+tables:
+  - StudentName: | SURNAME,Firstname(e.g.,ZHANG,San)
+  - Student ID:
+  - ProposedPQEdate: | DD/MM/YYYY
+  - ProposedPQEtime: | XX:XXa.m./p.m.
+  - Primesupervisor: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - Co-supervisor: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - InvitedChairperson: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - ChairpersonEmail:
+  - InvitedExaminer: | Prof.SURNAME,First name | Attendonsite or online (pleasedeleteasappropriate)
+  - ExaminerEmail:
+  - RevisedDate | Version | RevisedContents
+  - 2021 | Original
+  - Jul07 2022 | 202209 | Addedextensionrulesandapplicationprocedure. UpdatedPQECommitteecomposition(Chairappointment). Standardizedexamconfirmationprocedure. Clarifiedeachexam session. SpecifiedPQEresultreportprocedure.
+  - Oct 192023 | 202310 | ChangedThrustcontactemail.
+  - Mar 182024 | 202403 | ChangedThrustcontactemail. Clarifiedattendancemode.
+  - Apr082024 | 202404 | Clarifiedextensionapplicationflow.
+  - Sep012025 | 202509 | Elaboratedcommitteecomposition. Stipulateddeadlinesfortheuseof1st and2nd attemptsand beyondlimitperiod.Clarifiedtheoutcomesoflateschedulingand failingPQE. Clarifiedtheprocedureoflatesurveysubmission. ClarifiedattendancemodeforcommitteemembersfromCWBor otherinstitutions.
+  - Dec022025 | 202512 | ChangedthePQEtimeline. Updatedtheextensionguide. Updated theoutcomesoffailingthePQE. Addedtheapplicationprocessforstudents'onlineattendance underspecialcircumstances.

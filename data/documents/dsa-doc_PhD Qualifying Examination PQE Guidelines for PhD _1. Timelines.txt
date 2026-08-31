@@ -1,0 +1,24 @@
+dsa_doc: PhD Qualifying Examination (PQE) Guidelines for PhD Students in the DSA Program
+doc_type: PQE
+audience: DSA PhD students
+section: 1. Timelines
+source_pdf: DSA-PhD Qualifying Examination (PQE) Guidelines-Version 202512 (1).pdf
+page_range: 1
+
+content: >
+  In order to obtain PhD candidacy, full-time doctoral students are required to pass the
+  qualifying examination within 30 months after the commencement of their PhD program, and
+  part-time doctoral students within 60 months after the commencement of their PhD program.
+  In cases where students transfer from an MPhil or PhD program to a different PhD program,
+  the timeframe will be calculated from the commencement of the new PhD program. Each
+  student is allowed a maximum of two attempts within the above-stipulated timeframes, which
+  will apply to all doctoral students regardless of the length of the normative period of studies.
+  - For full-time DSA PhD students: the first attempt is within 22 months after the
+  commencement of their PhD program, and the second attempt is within 30 months after
+  the commencement of their PhD program.
+  - For part-time DSA PhD students: the first attempt is within 36 months after the
+  commencement of their PhD program, and the second attempt is within 60 months after
+  the commencement of their PhD program.
+  The period of approved Leave from Study will not be counted toward the maximum time
+  allowed for qualifying examination. However, any suspension period will be included in the
+  calculation of the maximum time.

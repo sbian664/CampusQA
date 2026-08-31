@@ -1,0 +1,46 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 6. Handling of Violations
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 4-5
+
+content: >
+  6.1 General Negligence during Service
+  (1) If a course instructor finds that an in-course GTA's performance fails to meet the
+  predetermined requirements, prompt communication shall be conducted, followed by a formal
+  written warning outlining the issues, needed improvements, and a deadline for improvement.
+  This written warning shall be copied to VPTLO for follow-up, and to the course offering unit
+  and FYTGS for archiving. If no significant improvement is made within the specified period,
+  the course instructor may request to disqualify the GTA for that course via GTA System. Upon
+  approval by the course offering unit, the disqualification notice shall be sent to the GTA and
+  copied to FYTGS and VPTLO for archiving.
+  (2) If a task coordinator finds that a Special Task GTA's performance fails to meet the
+  predetermined requirements, prompt communication shall be conducted, followed by a formal
+  written warning outlining the issues, needed improvements, and a deadline for improvement.
+  The warning shall be copied to DSA Thrust (dsarpg@hkust-gz.edu.cn) for follow-up. If no
+  significant improvement is made within the specified period, the faculty may request to
+  disqualify the GTA by informing DSA Thrust.
+  6.2 Major Violations
+  (1) If an in-course GTA commits a major teaching incident, abandons their duties without prior
+  authorization, or engages in other major violations, the course offering unit or course instructor
+  shall submit a written report to VPTLO immediately. Upon receiving the report, VPTLO shall
+  initiate an investigation. If the allegations are found to be unsubstantiated or the infraction is
+  minor and does not constitute a major violation, VPTLO shall provide a written response to the
+  relevant parties. If the allegations are substantiated and constitute a major violation, VPTLO
+  shall submit an investigation report to FYTGS.
+  Based on the relevant University regulations, FYTGS shall impose the following sanctions:
+  ◆ Immediate disqualification of the GTA for the current term.
+  ◆ A 50% reduction of the postgraduate studentships (PGS), effective for three months from
+  the month of disqualification.
+  ◆ Prohibition from serving as a GTA in the following term.
+  (2) If a Special Task GTA commits a major teaching incident, abandons their duties without
+  prior authorization, or engages in other major violations against research integrity, code of
+  conduct and compliance, the coordinator shall inform DSA Thrust with evidence immediately.
+  DSA Thrust will investigate and if the allegations are substantiated and constitute a major
+  violation, the following sanctions will be imposed:
+  ◆ Immediate disqualification of the GTA for the current term.
+  ◆ A 50% reduction of the full postgraduate studentships (PGS), effective for three months
+  from the month of disqualification. Such penalty will be calculated with other penalties
+  such as unsatisfactory quarterly/annual progress.
+  ◆ A mandatory make-up service must be made by the next regular semester.

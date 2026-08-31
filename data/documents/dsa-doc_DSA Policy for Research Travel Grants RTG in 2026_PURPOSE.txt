@@ -1,0 +1,11 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: PURPOSE
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 1
+
+content: >
+  The DSA Research Travel Grant (hereafter "DSA RTG") program is intended to help support the
+  student research travels to international conferences, workshops and forums held in China
+  (Mainland, Hong Kong, Macau and Taiwan) and overseas.

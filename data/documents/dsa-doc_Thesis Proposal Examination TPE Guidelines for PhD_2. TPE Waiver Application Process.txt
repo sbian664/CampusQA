@@ -1,0 +1,11 @@
+dsa_doc: Thesis Proposal Examination (TPE) Guidelines for PhD Students in the DSA Program
+doc_type: TPE
+audience: DSA PhD students
+section: 2. TPE Waiver Application Process
+source_pdf: DSA-Thesis Proposal Examination (TPE) Guidelines-Version 202512.pdf
+page_range: 1
+
+content: >
+  Students send an email to the prime supervisor for the TPE Waiver Application. After
+  receiving approval, students forward the approval email to the DSA Thrust (dsarpg@hkust-
+  gz.edu.cn) for record-keeping.

@@ -1,0 +1,29 @@
+dsa_doc: DSA Policy for Research Travel Grants (RTG) in 2026
+doc_type: RTG
+audience: DSA PhD students, DSA undergraduate students
+section: USE AND EXPIRATION OF AWARDS
+source_pdf: 2026 DSA RTG Policy-202601(1).pdf
+page_range: 5
+
+content: >
+  The DSA RTG can be used only for the purpose for which they were awarded and are not
+  transferable for other trips. Awardees are encouraged to use DSA RTG specifically for the
+  reimbursement of registration fees, rather than for other travel expenses.
+  Awardees should submit the DSA RTG Report (find template in the Annex II) to dsa-
+  research@hkust-gz.edu.cn within 1 week from the end date of the event. Late report submissions
+  may cause disqualification.
+  Once the report is endorsed by DSA Thrust, the applicant will be granted access to DSA Thrust fund.
+  All reimbursement files (see reimbursement guide in the folder "Student Reimbursement" in the
+  DSA Intra SharePoint) must be submitted in PBMS – "Student Travel" within 1 week after the
+  applicant is granted the DSA Thrust fund.
+  - Select "Non-RTG" when the awardee is supported by DSA RTG and/or supervisors' funds.
+  - Select "RTG" when the awardee is receiving both HKUST(GZ) RTG and DSA RTG, and/or
+  supervisors' support.
+  Awardees are also required to share their experiences gained from attending the conference in
+  various student activities which include, but are not limited to, the DSA Academic Salon, DSA
+  Poster Pop-Up, and other related events.
+  Note: For events scheduled between November 20th and December 31st, the deadline for
+  reimbursement materials submissions will be determined based on the HKUST(GZ) Financial
+  Department's fiscal year-end closing schedule and must be submitted within 3 days from the end
+  date of the event. For events scheduled at the very end of the year, applicants should follow the
+  notifications sent from Finance Department and DSA Thrust.

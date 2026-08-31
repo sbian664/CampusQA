@@ -1,0 +1,24 @@
+dsa_doc: Quarterly Progress Evaluation (QPE) Guidelines for PhD Students in the DSA Program
+doc_type: QPE
+audience: DSA PhD students
+section: 4. Special Situation
+source_pdf: DSA-Quarterly Progress Evaluation (QPE) Guidelines-Version 202602.pdf
+page_range: 2-3
+
+content: >
+  If the student fails to submit the QPE, the student will be marked as point 2. If the student
+  submits the QPE but the supervisors fail to complete their evaluation, the QPE will be
+  automatically marked as point 3.
+  Revision History：
+  Revised Date Version Revised Contents
+  Dec 02 2025 Original
+  Feb 05 2026 202602 Special Situation
+
+tables:
+  - PGSReduction(%)
+  - Point2(FirstTime) | 50
+  - Point2(AfterFirstTime) | 100
+  - Point1 | 100
+  - RevisedDate | Version | RevisedContents
+  - Dec022025 | Original
+  - Feb052026 | 202602 | SpecialSituation

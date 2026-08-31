@@ -41,6 +41,7 @@ data/embeddings/*
 data/reranker/*
 data/faiss_index.bin
 data/faiss_index.bin.meta
+data/user_llm_config.json
 *.db
 *.pkl
 *.json.bak

@@ -1,0 +1,19 @@
+dsa_doc: Thesis Proposal Examination (TPE) Guidelines for PhD Students in the DSA Program
+doc_type: TPE
+audience: DSA PhD students
+section: 4. Thesis Proposal Content
+source_pdf: DSA-Thesis Proposal Examination (TPE) Guidelines-Version 202512.pdf
+page_range: 1
+
+content: >
+  A thesis proposal should lay the groundwork for the thesis research by providing convincing
+  arguments that the problem is worth solving and can be solved. It provides a good yardstick
+  against which the candidate can measure his/her own progress or lack of it. A thesis proposal
+  should address at least the following six points:
+  - A statement of the problem and why it should be solved.
+  - Reference to and comments upon relevant work by others on the same or similar problems.
+  - The student's ideas and insights for solving the problem and any preliminary results he/she
+  may have obtained.
+  - A statement or characterization of what kind of solution is being sought.
+  - A plan of action for the remainder of the research.
+  - A rough outline of the thesis itself.

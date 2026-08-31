@@ -1,0 +1,45 @@
+dsa_doc: Graduate Teaching Assistant (GTA) Guidelines for Full-time PhD Students in DSA Program
+doc_type: GTA
+audience: DSA PhD students, DSA GTAs
+section: 4. Performance Evaluation
+source_pdf: DSA Internal GTA Guidlines-202607(1).pdf
+page_range: 3-4
+
+content: >
+  4.1 Evaluation of In-Course GTAs
+  (1) Process Evaluation
+  To monitor ongoing teaching quality, regular surveys among all courses will be conducted by
+  VPTLO to collect feedback from course instructors and GTAs. Course instructors may use this
+  channel to provide prompt evaluations of GTA performance, while GTAs may raise concerns
+  about professional guidance and task allocation. VPTLO shall provide support based on the
+  feedback received to facilitate communication. Cases involving GTA violations shall be
+  referred to Article 9 of HKUST(GZ) GTA Management Guidelines, while those involving
+  course instructors shall be handled following the relevant University regulations.
+  (2) End-of-Term Evaluation
+  At the end of the term, coordinated by VPTLO, in-course instructors shall conduct a summary
+  performance evaluation of the GTA's overall performance throughout the term via the System.
+  Evaluation levels are: Excellent, Good, Fair, Unsatisfactory. After the instructor submits the
+  evaluation result via the System:
+  ◼ If the result is "Excellent" "Good" or "Fair", the GTA work for that term shall be
+  considered completed and recognized upon the duty confirmation in the system.
+  ◼ If the result is "Unsatisfactory", it shall be submitted to the course offering unit (DSA
+  Thrust or other units) for review and approval. Upon approval, the final evaluation result
+  shall be notified to the GTA. A rating of "Unsatisfactory" shall result in the failure of the
+  GTA duty for that term.
+  (3) Appeal
+  A GTA may submit a written request to appeal the evaluation rating to VPTLO within three
+  working days of receiving the result. VPTLO shall complete the review and provide a final
+  response within five working days.
+  4.2 Evaluation of GTAs with Special Tasks
+  (1) End-of-Term Evaluation
+  At the end of the term, the Thrust Office will contact the task coordinators overseeing the tasks
+  to collect formal performance feedback on the GTAs.
+  After compiling the task coordinator's assessment feedback, DSA Thrust will send a written
+  notification to the student via email, attaching a copy of the completed assessment form for the
+  student's reference.
+  (2) Appeal
+  If a GTA holds objections to the assessment outcome, they may submit a formal written appeal
+  with supporting evidence to dsarpg@hkust-gz.edu.cn within five working days of receiving the
+  assessment notification. The DSA Postgraduate Committee will review all appeal materials and
+  deliver a final, binding decision to the student within ten working days upon receipt of the
+  appeal.

@@ -118,10 +118,10 @@ class ContextRouter:
 
 
 def create_context_router(
-    provider: str = "deepseek", history_exchanges: int = 2
+    provider: str = "deepseek", history_exchanges: int = 2, llm_config=None
 ) -> ContextRouter:
     """创建路由器；provider 可切换为现有的 local 客户端。"""
-    client = create_llm_client(provider)
+    client = create_llm_client(provider, config=llm_config)
     return ContextRouter(
         LLMContextRouteModel(client),
         history_exchanges=history_exchanges,
