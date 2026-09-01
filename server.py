@@ -845,4 +845,6 @@ def kb_rebuild():
 if __name__ == "__main__":
     import uvicorn
     print("⚡ 启动中（嵌入模型将预加载）...")
-    uvicorn.run("server:app", host="0.0.0.0", port=8000, reload=True)
+    # Production is started by the service manager; reload mode creates a
+    # multiprocessing reloader and can leave a model-heavy child behind.
+    uvicorn.run("server:app", host="0.0.0.0", port=8000, reload=False)
