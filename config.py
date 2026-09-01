@@ -20,8 +20,6 @@ DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "60"))
 DEEPSEEK_MAX_RETRIES = int(os.getenv("DEEPSEEK_MAX_RETRIES", "3"))
 DEEPSEEK_RETRY_BACKOFF_SECONDS = float(os.getenv("DEEPSEEK_RETRY_BACKOFF_SECONDS", "0.8"))
 
-# LLM 配置接口保护（未配置时接口默认拒绝访问）
-LLM_CONFIG_TOKEN = os.getenv("LLM_CONFIG_TOKEN", "").strip()
 _DEFAULT_LLM_CONFIG_HOSTS = (
     "api.deepseek.com",
     "api.openai.com",

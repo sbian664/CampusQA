@@ -5,7 +5,6 @@ FastAPI 后端 —— 将现有 Chatbot / Session / KnowledgeBase 封装为 REST
 import os
 import json
 import re
-import hmac
 import traceback
 import tempfile
 from concurrent.futures import Future, ThreadPoolExecutor
@@ -15,7 +14,7 @@ from typing import Optional, List, Dict
 import shutil
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Depends, HTTPException, Header, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -27,7 +26,6 @@ from config import (
     CONTEXT_ROUTER_ENABLED,
     CONTEXT_ROUTER_PROVIDER,
     CONTEXT_ROUTER_HISTORY_EXCHANGES,
-    LLM_CONFIG_TOKEN,
 )
 from src.chatbot import Chatbot, AgentChatResult
 from src.context_router import ContextRouter, create_context_router
@@ -110,16 +108,6 @@ def get_context_router() -> ContextRouter:
 
 def get_llm_config() -> Dict[str, str]:
     return _llm_config_store.get()
-
-
-def require_llm_config_token(
-    token: Optional[str] = Header(default=None, alias="X-LLM-Config-Token"),
-) -> None:
-    """Require an explicit server-side token for model configuration changes."""
-    if not LLM_CONFIG_TOKEN:
-        raise HTTPException(status_code=503, detail="LLM 配置接口尚未启用")
-    if not token or not hmac.compare_digest(token, LLM_CONFIG_TOKEN):
-        raise HTTPException(status_code=401, detail="LLM 配置接口认证失败")
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -341,13 +329,13 @@ def health_check():
     return {"status": "ok", "timestamp": datetime.now().isoformat()}
 
 
-@app.get("/api/llm-config", dependencies=[Depends(require_llm_config_token)])
+@app.get("/api/llm-config")
 def get_llm_config_endpoint():
     """读取单用户模型配置；API Key 只返回脱敏值。"""
     return _llm_config_store.public_config()
 
 
-@app.put("/api/llm-config", dependencies=[Depends(require_llm_config_token)])
+@app.put("/api/llm-config")
 def update_llm_config(request: LLMConfigRequest):
     """保存单用户模型配置并让后续请求重新创建 LLM 客户端。"""
     global _chatbot, _context_router
@@ -360,7 +348,7 @@ def update_llm_config(request: LLMConfigRequest):
     return {"status": "saved", **_llm_config_store.public_config()}
 
 
-@app.post("/api/llm-config/test", dependencies=[Depends(require_llm_config_token)])
+@app.post("/api/llm-config/test")
 def test_llm_config(request: LLMConfigRequest):
     """测试当前输入配置，不保存配置。"""
     try:
