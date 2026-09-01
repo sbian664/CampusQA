@@ -354,7 +354,6 @@ def test_llm_config(request: LLMConfigRequest):
     try:
         candidate = _llm_config_store.resolve(
             request.dict(),
-            preserve_existing_key=False,
         )
         client = create_llm_client(config=candidate)
         client.send_message(

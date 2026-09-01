@@ -28,6 +28,29 @@ class LLMConfigAuthRemovalTests(unittest.TestCase):
                     f"{node.name} must not require LLM_CONFIG_TOKEN",
                 )
 
+    def test_llm_config_test_preserves_saved_key_when_input_is_blank(self):
+        source = Path(__file__).parents[1].joinpath("server.py").read_text(encoding="utf-8")
+        tree = ast.parse(source)
+        endpoint = next(
+            node
+            for node in ast.walk(tree)
+            if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef))
+            and node.name == "test_llm_config"
+        )
+
+        resolve_calls = [
+            node
+            for node in ast.walk(endpoint)
+            if isinstance(node, ast.Call)
+            and isinstance(node.func, ast.Attribute)
+            and node.func.attr == "resolve"
+        ]
+        self.assertEqual(len(resolve_calls), 1)
+        self.assertNotIn(
+            "preserve_existing_key",
+            {keyword.arg for keyword in resolve_calls[0].keywords},
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
