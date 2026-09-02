@@ -189,7 +189,7 @@ class Chatbot:
     # ═══════════════════════════════════════════════════════════
 
     def agent_chat(self, user_message: str, history: List[Dict],
-                   rerank_enabled: bool = False) -> AgentChatResult:
+                   rerank_enabled: bool = False, turn_id: Optional[str] = None) -> AgentChatResult:
         """
         Agent Loop 自主循环检索
 
@@ -209,7 +209,7 @@ class Chatbot:
             return AgentChatResult(content=text, finish_reason="stop")
 
         state = AgentLoopState()
-        handler = ToolHandler(self.kb, rerank_enabled=rerank_enabled)
+        handler = ToolHandler(self.kb, rerank_enabled=rerank_enabled, turn_id=turn_id)
 
         # 构建初始消息列表
         messages = [{"role": "system", "content": AGENT_SYSTEM_PROMPT}]
@@ -275,7 +275,8 @@ class Chatbot:
                     bad_calls.append(tc)
 
             if bad_calls:
-                print(f"  ⚠️ 过滤 {len(bad_calls)} 个空工具名的异常调用")
+                # Keep diagnostics ASCII-safe for Windows GBK terminals.
+                print(f"  [warning] 过滤 {len(bad_calls)} 个空工具名的异常调用")
 
             # 若全为异常调用 → 不添加 assistant 消息，直接让 LLM 重试
             if not valid_calls:

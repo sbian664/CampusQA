@@ -23,7 +23,9 @@ _TOOL_TAG_RE = re.compile(
     r"</?(?:tool_call|tool_calls|function_call|invoke)\b[^>]*>",
     flags=re.IGNORECASE,
 )
-_PIPE_PROTOCOL_RE = re.compile(r"<\|.*?\|>", flags=re.DOTALL)
+# Some compatible model endpoints emit the closing ``>`` without the final
+# pipe, e.g. ``<| | DSML | | toolcalls>``.
+_PIPE_PROTOCOL_RE = re.compile(r"<\|.*?(?:\|>|>)", flags=re.DOTALL)
 
 
 def sanitize_tool_protocol_text(content: str | None) -> str:

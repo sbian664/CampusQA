@@ -254,7 +254,7 @@ class ToolHandler:
     """工具处理器 — 接收 KnowledgeBase 实例，分发并执行工具调用"""
 
     def __init__(self, knowledge_base, rerank_enabled=False,
-                 reranker_loader=get_reranker_model):
+                 reranker_loader=get_reranker_model, turn_id=None):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
@@ -262,7 +262,9 @@ class ToolHandler:
         self.kb = knowledge_base
         self.rerank_enabled = rerank_enabled
         self.reranker_loader = reranker_loader
+        self.turn_id = turn_id
         self.call_log: List[Dict] = []  # 工具调用日志
+        self._pending_trace: Dict = {}
 
     def execute(self, tool_name: str, arguments: Dict) -> str:
         """
@@ -277,10 +279,15 @@ class ToolHandler:
         """
         start_time = time.time()
 
-        if tool_name == "search_knowledge_base":
-            result_text = self._handle_search_knowledge_base(arguments)
-        else:
-            result_text = f"[ERROR] 未知工具: {tool_name}"
+        try:
+            if tool_name == "search_knowledge_base":
+                result_text = self._handle_search_knowledge_base(arguments)
+            else:
+                result_text = f"[ERROR] 未知工具: {tool_name}"
+                self._pending_trace = {"error": result_text}
+        except Exception as error:
+            result_text = f"[ERROR] 工具执行失败: {type(error).__name__}: {error}"
+            self._pending_trace = {"error": result_text}
 
         duration_ms = round((time.time() - start_time) * 1000)
 
@@ -292,6 +299,9 @@ class ToolHandler:
             "duration_ms": duration_ms,
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         }
+        log_entry.update(self._pending_trace)
+        log_entry.setdefault("turn_id", self.turn_id)
+        log_entry["duration_ms"] = duration_ms
         self.call_log.append(log_entry)
 
         return result_text
@@ -305,6 +315,7 @@ class ToolHandler:
         """
         query = args.get("query", "")
         if not query:
+            self._pending_trace = {"query": "", "engine": "unknown", "result_count": 0, "hits": [], "error": "缺少必填参数 query"}
             return "[ERROR] 缺少必填参数 query"
 
         top_k = args.get("top_k", 3)
@@ -321,6 +332,15 @@ class ToolHandler:
                     valid_filters[k] = v
             filters = valid_filters if valid_filters else None
 
+        self._pending_trace = {
+            "query": query,
+            "filters": filters or {},
+            "top_k": top_k,
+            "engine": "hybrid" if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search") else "vector",
+            "rerank_enabled": bool(self.rerank_enabled),
+            "result_count": 0,
+            "hits": [],
+        }
         try:
             if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search"):
                 results = search_with_optional_rerank(
@@ -334,6 +354,7 @@ class ToolHandler:
             else:
                 results = self.kb.search(query, top_k=top_k, filters=filters)
         except Exception as e:
+            self._pending_trace.update({"result_count": 0, "hits": [], "error": f"{type(e).__name__}: {e}"})
             return f"[ERROR] 搜索执行失败: {type(e).__name__}: {str(e)}"
 
         # Agent 双通道：若语义匹配全无关键词命中，追加 BM25 结果供 LLM 判断
@@ -377,7 +398,30 @@ class ToolHandler:
             )
             output += format_search_results(bm25_results)
 
+        hybrid_hits = [self._trace_hit(result) for result in results]
+        bm25_hits = [self._trace_hit(result) for result in bm25_results]
+        self._pending_trace.update({
+            "engine": "reranked" if any("rerank_score" in item for item in results) else self._pending_trace.get("engine", "hybrid"),
+            "result_count": len(hybrid_hits) + len(bm25_hits),
+            "hits": hybrid_hits + bm25_hits,
+            "channels": {"hybrid": hybrid_hits, "bm25": bm25_hits},
+        })
+
         return output
+
+    @staticmethod
+    def _trace_hit(result: Dict) -> Dict:
+        return {
+            "source": result.get("source", "unknown"),
+            "title": result.get("title", ""),
+            "doc_type": result.get("doc_type", "unknown"),
+            "chunk_index": result.get("chunk_index", 0),
+            "content_snippet": str(result.get("content", ""))[:800],
+            "score": result.get("score"),
+            "bm25_score": result.get("bm25_score"),
+            "rerank_score": result.get("rerank_score"),
+            "rerank_rank": result.get("rerank_rank"),
+        }
 
     def get_call_log(self) -> List[Dict]:
         """获取工具调用日志"""

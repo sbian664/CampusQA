@@ -7,6 +7,8 @@ import json
 import re
 import traceback
 import tempfile
+import uuid
+import time
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import datetime
 from typing import Optional, List, Dict
@@ -14,7 +16,7 @@ from typing import Optional, List, Dict
 import shutil
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -26,6 +28,7 @@ from config import (
     CONTEXT_ROUTER_ENABLED,
     CONTEXT_ROUTER_PROVIDER,
     CONTEXT_ROUTER_HISTORY_EXCHANGES,
+    RERANKER_AVAILABLE,
 )
 from src.chatbot import Chatbot, AgentChatResult
 from src.context_router import ContextRouter, create_context_router
@@ -34,6 +37,17 @@ from src.session import Session
 from src.knowledge_base import KnowledgeBase
 from src.document_loader import DocumentLoader
 from src.user_llm_config import UserLLMConfigStore
+from src.admin.routes import (
+    admin_csrf_dependency,
+    admin_session_dependency,
+    create_admin_router,
+    create_default_admin_store,
+)
+from src.admin.service import AdminService, list_session_summaries, load_session_detail
+from src.admin.jobs import AdminJobManager
+from src.admin.documents import AdminDocumentService
+from src.admin.config import AdminConfigService
+from src.reranker import search_with_optional_rerank
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -54,18 +68,35 @@ async def _lifespan(app: FastAPI):
     print(f"   后端: http://0.0.0.0:8000")
     print("=" * 50)
     yield
-    # shutdown 清理（预留）
+    _admin_job_manager.shutdown()
 
 
 app = FastAPI(title="CampusQA API", version="1.2.0", lifespan=_lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        origin.strip()
+        for origin in os.getenv(
+            "ADMIN_CORS_ORIGINS",
+            "http://localhost:5173,http://127.0.0.1:5173",
+        ).split(",")
+        if origin.strip()
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+_admin_control_store = create_default_admin_store(DATA_DIR)
+_admin_job_manager = AdminJobManager(_admin_control_store)
+_admin_document_service = AdminDocumentService(
+    kb_provider=lambda: get_kb(),
+    documents_dir=DOCUMENTS_DIR,
+    supported_formats=set(SUPPORTED_FORMATS),
+)
+_admin_auth = admin_session_dependency(_admin_control_store)
+_admin_csrf = admin_csrf_dependency(_admin_control_store)
 
 # ── 全局单例 ──────────────────────────────────────────────
 _kb: Optional[KnowledgeBase] = None
@@ -73,6 +104,50 @@ _chatbot: Optional[Chatbot] = None
 _context_router: Optional[ContextRouter] = None
 _llm_config_store = UserLLMConfigStore()
 _title_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="session-title")
+
+
+@app.middleware("http")
+async def admin_request_observability(request, call_next):
+    """Attach a correlation id and collect only bounded admin metrics."""
+    observed_paths = {
+        "/api/llm-config", "/api/llm-config/test", "/api/upload", "/api/upload-legacy",
+        "/api/kb/scan", "/api/kb/rebuild", "/api/mode/toggle",
+    }
+    if not request.url.path.startswith("/api/admin") and request.url.path not in observed_paths and not request.url.path.startswith("/api/sessions/") and not request.url.path.startswith("/api/session/"):
+        return await call_next(request)
+    request_id = uuid.uuid4().hex
+    request.state.request_id = request_id
+    started = time.perf_counter()
+    try:
+        response = await call_next(request)
+    except Exception as error:
+        duration_ms = round((time.perf_counter() - started) * 1000)
+        _admin_control_store.record_metric("api_requests", duration_ms=duration_ms)
+        _admin_control_store.record_metric("api_errors")
+        _admin_control_store.record_error(
+            request_id=request_id, path=request.url.path, status_code=500,
+            detail=f"{type(error).__name__}: {error}",
+        )
+        raise
+    duration_ms = round((time.perf_counter() - started) * 1000)
+    _admin_control_store.record_metric("api_requests", duration_ms=duration_ms)
+    if response.status_code >= 400:
+        _admin_control_store.record_metric("api_errors")
+        _admin_control_store.record_error(
+            request_id=request_id, path=request.url.path,
+            status_code=response.status_code, detail="管理请求失败",
+        )
+    _admin_control_store.record_audit(
+        actor=getattr(request.state, "admin_username", "anonymous"),
+        action="admin.request",
+        target=request.url.path,
+        status=str(response.status_code),
+        request_id=request_id,
+        duration_ms=duration_ms,
+        details={"method": request.method},
+    )
+    response.headers["X-Request-ID"] = request_id
+    return response
 
 
 def get_kb() -> KnowledgeBase:
@@ -108,6 +183,124 @@ def get_context_router() -> ContextRouter:
 
 def get_llm_config() -> Dict[str, str]:
     return _llm_config_store.get()
+
+
+def _admin_search(query: str, top_k: int, rerank_enabled: bool, filters: Dict[str, object]) -> Dict[str, object]:
+    started = time.perf_counter()
+    kb = get_kb()
+    valid_filters = {
+        key: value for key, value in (filters or {}).items()
+        if key in {"doc_type", "source", "mtime_after", "mtime_before"}
+    }
+    vector_results = kb.search(query, top_k=top_k, filters=valid_filters or None)
+    bm25_results = kb.bm25_search(query, top_k=top_k, filters=valid_filters or None) if hasattr(kb, "bm25_search") else []
+    hybrid_results = kb.hybrid_search(query, top_k=top_k, filters=valid_filters or None) if hasattr(kb, "hybrid_search") else vector_results
+    reranked_results = (
+        search_with_optional_rerank(
+            kb, query, top_k=top_k, enabled=True, filters=valid_filters or None
+        )
+        if rerank_enabled
+        else []
+    )
+    return AdminService.search_response(
+        query=query,
+        channels={
+            "vector": vector_results,
+            "bm25": bm25_results,
+            "hybrid": hybrid_results,
+            "reranked": reranked_results,
+        },
+        duration_ms=round((time.perf_counter() - started) * 1000),
+    )
+
+
+def _admin_mode() -> Dict[str, object]:
+    chatbot = get_chatbot()
+    return {
+        "agent_mode": chatbot.agent_mode,
+        "mode_name": "Agent 自主检索" if chatbot.agent_mode else "一步式 RAG",
+        "reranker_enabled": bool(RERANKER_AVAILABLE),
+        "context_router_enabled": bool(CONTEXT_ROUTER_ENABLED),
+    }
+
+
+def _admin_toggle_mode() -> Dict[str, object]:
+    chatbot = get_chatbot()
+    chatbot.agent_mode = not chatbot.agent_mode
+    return {
+        "agent_mode": chatbot.agent_mode,
+        "mode_name": "Agent 自主检索" if chatbot.agent_mode else "一步式 RAG",
+    }
+
+
+def _admin_job_operation(kind: str, progress) -> Dict[str, object]:
+    """Run one serialized KB mutation and report coarse-grained progress."""
+    kb = get_kb()
+    if kind == "scan":
+        progress(10, "正在扫描文档目录")
+        updated = kb.load_documents_from_dir(max_workers=1)
+        progress(95, "正在保存索引状态")
+        return {"updated_documents": updated}
+    if kind == "rebuild":
+        progress(10, "正在清空现有索引")
+        kb.rebuild_index()
+        progress(95, "正在完成索引持久化")
+        return {"status": "rebuilt"}
+    raise ValueError(f"不支持的索引任务: {kind}")
+
+
+_admin_job_manager.run_operation = _admin_job_operation
+_admin_config_service = AdminConfigService(
+    llm_store=_llm_config_store,
+    control_store=_admin_control_store,
+    mode_provider=_admin_mode,
+    mode_toggle=_admin_toggle_mode,
+)
+
+
+def _admin_session_detail(session_id: str) -> Dict[str, object]:
+    detail = load_session_detail(Session, session_id)
+    detail["feedback"] = _admin_control_store.get_feedback(session_id)
+    return detail
+
+
+def _admin_activity() -> Dict[str, object]:
+    audits = _admin_control_store.list_audit(limit=100)
+    return {
+        "today_sessions": None,
+        "today_questions": None,
+        "today_tokens": None,
+        "recent_errors": _admin_control_store.list_errors(limit=5),
+        "recent_kb_operations": [
+            event for event in audits if str(event.get("action", "")).startswith("kb.")
+        ][:5],
+    }
+
+
+_admin_service = AdminService(
+    health_provider=lambda: {"status": "ok", "timestamp": datetime.now().isoformat()},
+    kb_provider=lambda: get_kb().get_statistics(),
+    llm_provider=_llm_config_store.public_config,
+    mode_provider=_admin_mode,
+    sessions_provider=lambda limit, offset, query: list_session_summaries(
+        Session, limit=limit, offset=offset, query=query
+    ),
+    session_detail_provider=_admin_session_detail,
+    activity_provider=_admin_activity,
+)
+app.include_router(
+    create_admin_router(
+        _admin_control_store,
+        _admin_service,
+        search_provider=lambda query, top_k, rerank_enabled, filters: _admin_search(
+            query, top_k, rerank_enabled, filters
+        ),
+        job_manager=_admin_job_manager,
+        document_service=_admin_document_service,
+        config_service=_admin_config_service,
+    ),
+    prefix="/api/admin",
+)
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -330,13 +523,13 @@ def health_check():
 
 
 @app.get("/api/llm-config")
-def get_llm_config_endpoint():
+def get_llm_config_endpoint(_admin=Depends(_admin_auth)):
     """读取单用户模型配置；API Key 只返回脱敏值。"""
     return _llm_config_store.public_config()
 
 
 @app.put("/api/llm-config")
-def update_llm_config(request: LLMConfigRequest):
+def update_llm_config(request: LLMConfigRequest, _admin=Depends(_admin_csrf)):
     """保存单用户模型配置并让后续请求重新创建 LLM 客户端。"""
     global _chatbot, _context_router
     try:
@@ -349,7 +542,7 @@ def update_llm_config(request: LLMConfigRequest):
 
 
 @app.post("/api/llm-config/test")
-def test_llm_config(request: LLMConfigRequest):
+def test_llm_config(request: LLMConfigRequest, _admin=Depends(_admin_csrf)):
     """测试当前输入配置，不保存配置。"""
     try:
         candidate = _llm_config_store.resolve(
@@ -428,11 +621,13 @@ def chat(request: ChatRequest):
                 print(f"  ⚠️ 上下文路由不可用，保留原始历史: {error}")
 
         # 路由对话
+        turn_id = uuid.uuid4().hex
         if chatbot.agent_mode:
             result = chatbot.agent_chat(
                 routed_message,
                 routed_history,
                 rerank_enabled=request.rerank_enabled,
+                turn_id=turn_id,
             )
         else:
             text = chatbot.chat_with_rag(
@@ -495,7 +690,7 @@ def get_session(session_id: str):
 
 
 @app.delete("/api/session/{session_id}")
-def clear_session(session_id: str):
+def clear_session(session_id: str, _admin=Depends(_admin_csrf)):
     """清空会话历史（不删文件）"""
     session = Session(session_id=session_id)
     session.load()
@@ -505,7 +700,7 @@ def clear_session(session_id: str):
 
 
 @app.delete("/api/sessions/{session_id}")
-def delete_session_file(session_id: str):
+def delete_session_file(session_id: str, _admin=Depends(_admin_csrf)):
     """删除会话文件（从磁盘永久删除）"""
     import os as _os
     filepath = _os.path.join(DATA_DIR, "cache", f"{session_id}.json")
@@ -516,7 +711,7 @@ def delete_session_file(session_id: str):
 
 
 @app.delete("/api/session/{session_id}/message/{index}")
-def delete_message(session_id: str, index: int):
+def delete_message(session_id: str, index: int, _admin=Depends(_admin_csrf)):
     """删除会话中指定位置的消息"""
     session = Session(session_id=session_id)
     if not session.load():
@@ -531,7 +726,7 @@ def delete_message(session_id: str, index: int):
 
 
 @app.post("/api/upload-legacy")
-async def upload_file(file: UploadFile = File(...)):
+async def upload_file(file: UploadFile = File(...), _admin=Depends(_admin_csrf)):
     """上传文档到知识库"""
     # 校验扩展名
     ext = os.path.splitext(file.filename or "")[1].lower()
@@ -542,7 +737,10 @@ async def upload_file(file: UploadFile = File(...)):
         )
 
     # 保存文件
-    file_path = os.path.join(DOCUMENTS_DIR, file.filename)
+    filename = os.path.basename(file.filename or "")
+    if not filename:
+        raise HTTPException(status_code=400, detail="文件名不能为空")
+    file_path = os.path.join(DOCUMENTS_DIR, filename)
     with open(file_path, "wb") as f:
         shutil.copyfileobj(file.file, f)
 
@@ -594,6 +792,7 @@ async def parse_message_attachment(file: UploadFile = File(...)):
 async def upload_files(
     files: Optional[List[UploadFile]] = File(None),
     file: Optional[UploadFile] = File(None),
+    _admin=Depends(_admin_csrf),
 ):
     """Upload one or more documents to the knowledge base."""
     upload_files = list(files or [])
@@ -764,7 +963,7 @@ def get_mode():
 
 
 @app.post("/api/mode/toggle", response_model=ModeResponse)
-def toggle_mode():
+def toggle_mode(_admin=Depends(_admin_csrf)):
     """切换 Agent / 一步式 RAG 模式"""
     chatbot = get_chatbot()
     chatbot.agent_mode = not chatbot.agent_mode
@@ -812,7 +1011,7 @@ def get_tool_log(session_id: str):
 # ═══════════════════════════════════════════════════════════
 
 @app.post("/api/kb/scan")
-def kb_scan():
+def kb_scan(_admin=Depends(_admin_csrf)):
     """扫描文档目录，增量加载新文档"""
     kb = get_kb()
     updated = kb.load_documents_from_dir()
@@ -820,7 +1019,7 @@ def kb_scan():
 
 
 @app.post("/api/kb/rebuild")
-def kb_rebuild():
+def kb_rebuild(_admin=Depends(_admin_csrf)):
     """重建知识库索引"""
     kb = get_kb()
     kb.rebuild_index()
