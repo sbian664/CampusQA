@@ -23,16 +23,21 @@ class AdminJobManager:
         self.lock = Lock()
         self.futures: Dict[str, Future] = {}
 
-    def submit(self, kind: str, work: Callable[[Callable[[int, str], None]], Any]) -> str:
+    def submit(
+        self,
+        kind: str,
+        work: Callable[[Callable[[int, str], None]], Any],
+        target_id: str | None = None,
+    ) -> str:
         with self.lock:
             active = next(
                 (job for job in self.store.list_jobs(limit=20)
-                 if job["status"] in {"queued", "running"} and job["kind"] in {"scan", "rebuild", "upload"}),
+                 if job["status"] in {"queued", "running"} and job["kind"] in {"scan", "rebuild", "upload", "publish_submission"}),
                 None,
             )
             if active:
                 raise RuntimeError(f"已有索引任务运行中: {active['job_id']}")
-            job_id = self.store.create_job(kind)
+            job_id = self.store.create_job(kind, target_id=target_id)
             self.futures[job_id] = self.executor.submit(self._run, job_id, work)
             return job_id
 

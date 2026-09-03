@@ -51,7 +51,13 @@ CONTEXT_ROUTER_HISTORY_EXCHANGES = int(os.getenv("CONTEXT_ROUTER_HISTORY_EXCHANG
 # ============ 路径配置 ============
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
+ADMIN_FRONTEND_DIR = os.getenv("ADMIN_FRONTEND_DIR", os.path.join(BASE_DIR, "admin-dist"))
 DOCUMENTS_DIR = os.path.join(DATA_DIR, "documents")
+SUBMISSIONS_DIR = os.path.join(DATA_DIR, "submissions")
+SUBMISSION_MAX_FILE_SIZE = int(os.getenv("SUBMISSION_MAX_FILE_SIZE", str(20 * 1024 * 1024)))
+SUBMISSION_RATE_LIMIT_COUNT = int(os.getenv("SUBMISSION_RATE_LIMIT_COUNT", "5"))
+SUBMISSION_RATE_LIMIT_WINDOW_SECONDS = int(os.getenv("SUBMISSION_RATE_LIMIT_WINDOW_SECONDS", "3600"))
+SUBMISSION_RATE_LIMIT_SALT = os.getenv("SUBMISSION_RATE_LIMIT_SALT", "campusqa-submissions")
 CACHE_DIR = os.path.join(DATA_DIR, "cache")
 
 # ============ 本地 Embeddings 模型 ============

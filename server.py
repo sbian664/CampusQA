@@ -11,24 +11,33 @@ import uuid
 import time
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import datetime
+from threading import RLock
 from typing import Optional, List, Dict
 
 import shutil
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from config import (
     DATA_DIR,
     DOCUMENTS_DIR,
     AGENT_MODE_ENABLED,
+    ADMIN_FRONTEND_DIR,
     SUPPORTED_FORMATS,
     CONTEXT_ROUTER_ENABLED,
     CONTEXT_ROUTER_PROVIDER,
     CONTEXT_ROUTER_HISTORY_EXCHANGES,
     RERANKER_AVAILABLE,
+    SUBMISSIONS_DIR,
+    SUBMISSION_MAX_FILE_SIZE,
+    SUBMISSION_RATE_LIMIT_COUNT,
+    SUBMISSION_RATE_LIMIT_WINDOW_SECONDS,
+    SUBMISSION_RATE_LIMIT_SALT,
 )
 from src.chatbot import Chatbot, AgentChatResult
 from src.context_router import ContextRouter, create_context_router
@@ -48,6 +57,8 @@ from src.admin.jobs import AdminJobManager
 from src.admin.documents import AdminDocumentService
 from src.admin.config import AdminConfigService
 from src.reranker import search_with_optional_rerank
+from src.submissions import SubmissionService
+from src.submission_routes import create_submission_router
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -57,8 +68,10 @@ async def _lifespan(app: FastAPI):
     print("⚡ 预加载嵌入模型...")
     kb = get_kb()
     print(f"✓ 嵌入模型已就绪 (维度: {kb.embeddings_manager.get_embedding_dimension()})")
+    _submission_service.cleanup_recovered_indexes()
     print("📂 加载文档索引...")
-    updated = kb.load_documents_from_dir()
+    with _kb_mutation_lock:
+        updated = kb.load_documents_from_dir()
     print(f"✓ 文档索引完成 (更新 {updated} 个)")
     get_chatbot()
     print("✓ Chatbot 已就绪")
@@ -72,6 +85,20 @@ async def _lifespan(app: FastAPI):
 
 
 app = FastAPI(title="CampusQA API", version="1.2.0", lifespan=_lifespan)
+
+
+def mount_admin_frontend(application: FastAPI, directory: str | Path) -> None:
+    """Serve the built admin console without changing the API route boundary."""
+    frontend_dir = Path(directory)
+    if frontend_dir.is_dir():
+        application.mount(
+            "/admin",
+            StaticFiles(directory=str(frontend_dir), html=True),
+            name="admin-frontend",
+        )
+
+
+mount_admin_frontend(app, ADMIN_FRONTEND_DIR)
 
 app.add_middleware(
     CORSMiddleware,
@@ -90,10 +117,24 @@ app.add_middleware(
 
 _admin_control_store = create_default_admin_store(DATA_DIR)
 _admin_job_manager = AdminJobManager(_admin_control_store)
+_kb_mutation_lock = RLock()
 _admin_document_service = AdminDocumentService(
     kb_provider=lambda: get_kb(),
     documents_dir=DOCUMENTS_DIR,
     supported_formats=set(SUPPORTED_FORMATS),
+    mutation_lock=_kb_mutation_lock,
+)
+_submission_service = SubmissionService(
+    db_path=_admin_control_store.db_path,
+    submissions_dir=SUBMISSIONS_DIR,
+    documents_dir=DOCUMENTS_DIR,
+    kb_provider=lambda: get_kb(),
+    supported_formats=set(SUPPORTED_FORMATS),
+    max_file_size=SUBMISSION_MAX_FILE_SIZE,
+    rate_limit_count=SUBMISSION_RATE_LIMIT_COUNT,
+    rate_limit_window_seconds=SUBMISSION_RATE_LIMIT_WINDOW_SECONDS,
+    rate_limit_salt=SUBMISSION_RATE_LIMIT_SALT,
+    mutation_lock=_kb_mutation_lock,
 )
 _admin_auth = admin_session_dependency(_admin_control_store)
 _admin_csrf = admin_csrf_dependency(_admin_control_store)
@@ -211,6 +252,7 @@ def _admin_search(query: str, top_k: int, rerank_enabled: bool, filters: Dict[st
             "reranked": reranked_results,
         },
         duration_ms=round((time.perf_counter() - started) * 1000),
+        source_root=DOCUMENTS_DIR,
     )
 
 
@@ -236,16 +278,19 @@ def _admin_toggle_mode() -> Dict[str, object]:
 def _admin_job_operation(kind: str, progress) -> Dict[str, object]:
     """Run one serialized KB mutation and report coarse-grained progress."""
     kb = get_kb()
-    if kind == "scan":
-        progress(10, "正在扫描文档目录")
-        updated = kb.load_documents_from_dir(max_workers=1)
-        progress(95, "正在保存索引状态")
-        return {"updated_documents": updated}
-    if kind == "rebuild":
-        progress(10, "正在清空现有索引")
-        kb.rebuild_index()
-        progress(95, "正在完成索引持久化")
-        return {"status": "rebuilt"}
+    with _kb_mutation_lock:
+        if kind == "scan":
+            progress(10, "正在扫描文档目录")
+            updated = kb.load_documents_from_dir(max_workers=1)
+            progress(95, "正在保存索引状态")
+            _admin_document_service.invalidate_catalog()
+            return {"updated_documents": updated}
+        if kind == "rebuild":
+            progress(10, "正在清空现有索引")
+            kb.rebuild_index()
+            progress(95, "正在完成索引持久化")
+            _admin_document_service.invalidate_catalog()
+            return {"status": "rebuilt"}
     raise ValueError(f"不支持的索引任务: {kind}")
 
 
@@ -298,9 +343,11 @@ app.include_router(
         job_manager=_admin_job_manager,
         document_service=_admin_document_service,
         config_service=_admin_config_service,
+        submission_service=_submission_service,
     ),
     prefix="/api/admin",
 )
+app.include_router(create_submission_router(_submission_service), prefix="/api/submissions")
 
 
 # ── 请求 / 响应模型 ───────────────────────────────────────
@@ -741,17 +788,19 @@ async def upload_file(file: UploadFile = File(...), _admin=Depends(_admin_csrf))
     if not filename:
         raise HTTPException(status_code=400, detail="文件名不能为空")
     file_path = os.path.join(DOCUMENTS_DIR, filename)
-    with open(file_path, "wb") as f:
-        shutil.copyfileobj(file.file, f)
-
-    # 索引到知识库
     try:
-        kb = get_kb()
-        if kb._update_document(file_path) is False:
-            raise RuntimeError("文档索引未提交")
-        kb._save_metadata()
-        kb._save_chunk_texts()
-        kb._save_store()
+        with _kb_mutation_lock:
+            with open(file_path, "wb") as f:
+                shutil.copyfileobj(file.file, f)
+
+            # 索引到知识库
+            kb = get_kb()
+            if kb._update_document(file_path) is False:
+                raise RuntimeError("文档索引未提交")
+            kb._save_metadata()
+            kb._save_chunk_texts()
+            kb._save_store()
+        _admin_document_service.invalidate_catalog()
         return {
             "status": "ok",
             "filename": file.filename,
@@ -825,19 +874,22 @@ async def upload_files(
 
         file_path = os.path.join(DOCUMENTS_DIR, filename)
         try:
-            with open(file_path, "wb") as f:
-                shutil.copyfileobj(upload.file, f)
-            if kb._update_document(file_path) is False:
-                raise RuntimeError("文档索引未提交")
+            with _kb_mutation_lock:
+                with open(file_path, "wb") as f:
+                    shutil.copyfileobj(upload.file, f)
+                if kb._update_document(file_path) is False:
+                    raise RuntimeError("文档索引未提交")
             uploaded.append({"filename": filename, "status": "ok"})
         except Exception as e:
             traceback.print_exc()
             failed.append({"filename": filename, "error": str(e)})
 
     if uploaded:
-        kb._save_metadata()
-        kb._save_chunk_texts()
-        kb._save_store()
+        with _kb_mutation_lock:
+            kb._save_metadata()
+            kb._save_chunk_texts()
+            kb._save_store()
+        _admin_document_service.invalidate_catalog()
 
     uploaded_count = len(uploaded)
     failed_count = len(failed)
@@ -1014,7 +1066,9 @@ def get_tool_log(session_id: str):
 def kb_scan(_admin=Depends(_admin_csrf)):
     """扫描文档目录，增量加载新文档"""
     kb = get_kb()
-    updated = kb.load_documents_from_dir()
+    with _kb_mutation_lock:
+        updated = kb.load_documents_from_dir()
+    _admin_document_service.invalidate_catalog()
     return {"status": "ok", "updated_count": updated}
 
 
@@ -1022,7 +1076,9 @@ def kb_scan(_admin=Depends(_admin_csrf)):
 def kb_rebuild(_admin=Depends(_admin_csrf)):
     """重建知识库索引"""
     kb = get_kb()
-    kb.rebuild_index()
+    with _kb_mutation_lock:
+        kb.rebuild_index()
+    _admin_document_service.invalidate_catalog()
     return {"status": "ok", "message": "索引重建完成"}
 
 

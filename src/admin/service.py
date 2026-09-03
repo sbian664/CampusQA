@@ -106,9 +106,9 @@ class AdminService:
         }
 
     @staticmethod
-    def search_response(*, query: str, channels: Dict[str, list[Dict[str, Any]]], duration_ms: int) -> Dict[str, Any]:
+    def search_response(*, query: str, channels: Dict[str, list[Dict[str, Any]]], duration_ms: int, source_root: Optional[str] = None) -> Dict[str, Any]:
         serialized = {
-            name: [AdminService._serialize_hit(hit) for hit in hits]
+            name: [AdminService._serialize_hit(hit, source_root=source_root) for hit in hits]
             for name, hits in channels.items()
         }
         return {
@@ -119,10 +119,15 @@ class AdminService:
         }
 
     @staticmethod
-    def _serialize_hit(result: Dict[str, Any]) -> Dict[str, Any]:
+    def _serialize_hit(result: Dict[str, Any], *, source_root: Optional[str] = None) -> Dict[str, Any]:
+        source = str(result.get("source", "unknown"))
+        source = AdminService._display_source(source, source_root)
+        title = str(result.get("title", ""))
+        if title and (os.path.isabs(title) or "/" in title or "\\" in title):
+            title = AdminService._display_source(title, source_root)
         return {
-            "source": result.get("source", "unknown"),
-            "title": result.get("title", ""),
+            "source": source,
+            "title": title,
             "doc_type": result.get("doc_type", "unknown"),
             "chunk_index": result.get("chunk_index", 0),
             "content_snippet": str(result.get("content", ""))[:1200],
@@ -131,6 +136,18 @@ class AdminService:
             "rerank_score": result.get("rerank_score"),
             "rerank_rank": result.get("rerank_rank"),
         }
+
+    @staticmethod
+    def _display_source(source: str, source_root: Optional[str]) -> str:
+        if source_root:
+            try:
+                source_path = os.path.realpath(source)
+                root_path = os.path.realpath(source_root)
+                if os.path.commonpath([source_path, root_path]) == root_path:
+                    return os.path.relpath(source_path, root_path).replace(os.sep, "/")
+            except (OSError, ValueError):
+                pass
+        return source.replace("\\", "/").rsplit("/", 1)[-1]
 
 
 def list_session_summaries(session_class: Any, *, limit: int, offset: int, query: Optional[str]) -> list[Dict[str, Any]]:

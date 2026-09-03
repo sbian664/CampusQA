@@ -131,6 +131,7 @@ class AdminControlStore:
                 CREATE TABLE IF NOT EXISTS admin_jobs (
                     job_id TEXT PRIMARY KEY,
                     kind TEXT NOT NULL,
+                    target_id TEXT,
                     status TEXT NOT NULL,
                     progress INTEGER NOT NULL DEFAULT 0,
                     phase TEXT NOT NULL DEFAULT '',
@@ -179,6 +180,12 @@ class AdminControlStore:
                 );
                 """
             )
+            job_columns = {
+                row["name"]
+                for row in connection.execute("PRAGMA table_info(admin_jobs)").fetchall()
+            }
+            if "target_id" not in job_columns:
+                connection.execute("ALTER TABLE admin_jobs ADD COLUMN target_id TEXT")
             if self.password_hash:
                 now = _iso_now()
                 connection.execute(
@@ -356,15 +363,15 @@ class AdminControlStore:
             result.append(item)
         return result
 
-    def create_job(self, kind: str) -> str:
+    def create_job(self, kind: str, target_id: Optional[str] = None) -> str:
         job_id = uuid.uuid4().hex
         with self._connect() as connection:
             connection.execute(
                 """
-                INSERT INTO admin_jobs(job_id, kind, status, created_at)
-                VALUES (?, ?, 'queued', ?)
+                INSERT INTO admin_jobs(job_id, kind, target_id, status, created_at)
+                VALUES (?, ?, ?, 'queued', ?)
                 """,
-                (job_id, kind, _iso_now()),
+                (job_id, kind, target_id, _iso_now()),
             )
         return job_id
 

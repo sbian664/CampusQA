@@ -11,6 +11,7 @@ from pydantic import BaseModel
 
 from .control_store import AdminControlStore
 from .service import AdminService
+from src.submissions import SubmissionService
 
 
 ADMIN_SESSION_COOKIE = "campusqa_admin_session"
@@ -27,6 +28,10 @@ class AdminSearchRequest(BaseModel):
     top_k: int = 5
     rerank_enabled: bool = True
     filters: Optional[Dict[str, Any]] = None
+
+
+class AdminDocumentEditRequest(BaseModel):
+    content: str
 
 
 class AdminLLMConfigRequest(BaseModel):
@@ -48,6 +53,10 @@ class AdminRuntimeConfigRequest(BaseModel):
 class FeedbackRequest(BaseModel):
     quality: str
     note: str = ""
+
+
+class SubmissionRejectRequest(BaseModel):
+    reason: str
 
 
 def admin_session_dependency(store: AdminControlStore):
@@ -81,6 +90,7 @@ def create_admin_router(
     job_manager: Any = None,
     document_service: Any = None,
     config_service: Any = None,
+    submission_service: SubmissionService | None = None,
 ) -> APIRouter:
     router = APIRouter()
 
@@ -308,6 +318,96 @@ def create_admin_router(
                            request_id=getattr(request.state, "request_id", None), details={"agent_mode": result.get("agent_mode")})
         return result
 
+    @router.get("/submissions")
+    def submissions(
+        status: Optional[str] = None,
+        limit: int = 50,
+        offset: int = 0,
+        session: Dict[str, Any] = Depends(require_admin),
+    ):
+        if submission_service is None:
+            raise HTTPException(status_code=503, detail="投稿服务未配置")
+        return submission_service.list_admin(status=status, limit=limit, offset=offset)
+
+    @router.get("/submissions/summary")
+    def submission_summary(session: Dict[str, Any] = Depends(require_admin)):
+        if submission_service is None:
+            raise HTTPException(status_code=503, detail="投稿服务未配置")
+        return submission_service.summary()
+
+    @router.get("/submissions/{submission_id}")
+    def submission_detail(submission_id: str, session: Dict[str, Any] = Depends(require_admin)):
+        if submission_service is None:
+            raise HTTPException(status_code=503, detail="投稿服务未配置")
+        try:
+            result = submission_service.get_admin(submission_id)
+            if job_manager is not None and result.get("job_id"):
+                result["job"] = job_manager.get(result["job_id"])
+            return result
+        except LookupError as error:
+            raise HTTPException(status_code=404, detail=str(error))
+
+    def _queue_submission(submission_id: str, session: Dict[str, Any], *, retry: bool) -> Dict[str, Any]:
+        if submission_service is None or job_manager is None:
+            raise HTTPException(status_code=503, detail="投稿任务服务未配置")
+        try:
+            submission_service.mark_importing(submission_id, allow_failed=retry)
+            job_id = job_manager.submit(
+                "publish_submission",
+                lambda progress: _publish_submission_job(submission_id, progress),
+                target_id=submission_id,
+            )
+            submission_service.attach_job(submission_id, job_id)
+        except (LookupError, ValueError) as error:
+            if "cannot be imported" in str(error):
+                raise HTTPException(status_code=409, detail=str(error))
+            raise HTTPException(status_code=404, detail=str(error))
+        except RuntimeError as error:
+            submission_service.reset_pending(submission_id)
+            raise HTTPException(status_code=409, detail=str(error))
+        store.record_audit(
+            actor=session["username"],
+            action="submission.retry" if retry else "submission.approve",
+            target=submission_id,
+            status="accepted",
+            details={"job_id": job_id},
+        )
+        return {"submission_id": submission_id, "job_id": job_id, "status": "queued"}
+
+    def _publish_submission_job(submission_id: str, progress: Any) -> Dict[str, Any]:
+        progress(10, "正在准备投稿文件")
+        result = submission_service.publish(submission_id)
+        progress(95, "正在保存知识库索引")
+        return result
+
+    @router.post("/submissions/{submission_id}/approve", status_code=202)
+    def approve_submission(submission_id: str, session: Dict[str, Any] = Depends(require_csrf)):
+        return _queue_submission(submission_id, session, retry=False)
+
+    @router.post("/submissions/{submission_id}/reject")
+    def reject_submission(
+        submission_id: str,
+        payload: SubmissionRejectRequest,
+        session: Dict[str, Any] = Depends(require_csrf),
+    ):
+        if submission_service is None:
+            raise HTTPException(status_code=503, detail="投稿服务未配置")
+        try:
+            result = submission_service.reject(submission_id, payload.reason)
+        except LookupError as error:
+            raise HTTPException(status_code=404, detail=str(error))
+        except ValueError as error:
+            raise HTTPException(status_code=400, detail=str(error))
+        store.record_audit(
+            actor=session["username"], action="submission.reject", target=submission_id,
+            status="success", details={"reason": payload.reason[:200]},
+        )
+        return result
+
+    @router.post("/submissions/{submission_id}/retry", status_code=202)
+    def retry_submission(submission_id: str, session: Dict[str, Any] = Depends(require_csrf)):
+        return _queue_submission(submission_id, session, retry=True)
+
     def submit_job(kind: str, session: Dict[str, Any]) -> Dict[str, Any]:
         if job_manager is None:
             raise HTTPException(status_code=503, detail="任务服务未配置")
@@ -361,8 +461,12 @@ def create_admin_router(
                   session: Dict[str, Any] = Depends(require_admin)):
         if document_service is None:
             raise HTTPException(status_code=503, detail="文档服务未配置")
-        items = document_service.list_documents(limit=max(1, min(limit, 200)), offset=max(0, offset), query=query)
-        return {"items": items, "limit": max(1, min(limit, 200)), "offset": max(0, offset)}
+        safe_limit = max(1, min(limit, 200))
+        safe_offset = max(0, offset)
+        if hasattr(document_service, "list_documents_page"):
+            return document_service.list_documents_page(limit=safe_limit, offset=safe_offset, query=query)
+        items = document_service.list_documents(limit=safe_limit, offset=safe_offset, query=query)
+        return {"items": items, "total": None, "limit": safe_limit, "offset": safe_offset}
 
     @router.get("/kb/documents/{document_id}")
     def document_detail(document_id: str, session: Dict[str, Any] = Depends(require_admin)):
@@ -372,6 +476,20 @@ def create_admin_router(
             return document_service.get_document(document_id)
         except (FileNotFoundError, LookupError) as error:
             raise HTTPException(status_code=404, detail=str(error))
+
+    @router.put("/kb/documents/{document_id}")
+    def edit_document(document_id: str, payload: AdminDocumentEditRequest,
+                      session: Dict[str, Any] = Depends(require_csrf)):
+        if document_service is None:
+            raise HTTPException(status_code=503, detail="文档服务未配置")
+        try:
+            result = document_service.update_content(document_id, payload.content)
+        except (FileNotFoundError, LookupError) as error:
+            raise HTTPException(status_code=404, detail=str(error))
+        except ValueError as error:
+            raise HTTPException(status_code=400, detail=str(error))
+        store.record_audit(actor=session["username"], action="kb.document.edit", target=document_id, status="success")
+        return result
 
     @router.post("/kb/documents/upload", status_code=201)
     async def upload_document(file: UploadFile = File(...), session: Dict[str, Any] = Depends(require_csrf)):

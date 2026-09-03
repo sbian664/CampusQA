@@ -1,4 +1,5 @@
 import unittest
+from tempfile import TemporaryDirectory
 
 from src.admin.service import AdminService
 
@@ -60,6 +61,18 @@ class AdminServiceTests(unittest.TestCase):
         self.assertEqual(result["duration_ms"], 12)
         self.assertEqual(result["channels"]["vector"][0]["source"], "a.md")
         self.assertIn("content_snippet", result["channels"]["bm25"][0])
+
+    def test_search_results_show_relative_sources_without_server_paths(self):
+        with TemporaryDirectory() as temp_dir:
+            result = AdminService.search_response(
+                query="课程注册",
+                channels={"bm25": [{"source": f"{temp_dir}/nested/guide.md", "title": f"{temp_dir}/nested/guide.md", "content": "bm25"}]},
+                duration_ms=8,
+                source_root=temp_dir,
+            )
+
+        self.assertEqual(result["channels"]["bm25"][0]["source"], "nested/guide.md")
+        self.assertEqual(result["channels"]["bm25"][0]["title"], "nested/guide.md")
 
 
 if __name__ == "__main__":

@@ -428,6 +428,22 @@ class KnowledgeBase:
         if HYBRID_SEARCH_ENABLED:
             self._rebuild_bm25()
         return True
+
+    def delete_document(self, file_path: str) -> bool:
+        """Remove one indexed document and its source file metadata."""
+        file_path = os.path.abspath(file_path)
+        previous_metadata = self.metadata.get(file_path)
+        if not previous_metadata:
+            return False
+        chunk_ids = list(previous_metadata.get("chunk_ids", []))
+        if chunk_ids:
+            self.store.delete(chunk_ids)
+        self._remove_chunk_ids(chunk_ids)
+        self.metadata.pop(file_path, None)
+        if HYBRID_SEARCH_ENABLED:
+            self._rebuild_bm25()
+        self._persist_index()
+        return True
     
     # ---- 搜索 ----
 

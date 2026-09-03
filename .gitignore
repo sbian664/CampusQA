@@ -37,6 +37,7 @@ wheels/
 
 # 数据和缓存
 data/cache/*
+data/submissions/*
 data/embeddings/*
 data/reranker/*
 data/faiss_index.bin
@@ -60,3 +61,7 @@ docs/
 /frontend/
 /eval/
 /tests/
+/admin-dist/
+
+# 本地AI相关文档
+AGENT.md
