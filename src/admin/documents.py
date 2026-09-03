@@ -37,11 +37,16 @@ class AdminDocumentService:
         relative = path.relative_to(self.documents_dir).as_posix()
         return hashlib.sha256(relative.encode("utf-8")).hexdigest()[:24]
 
+    def _stored_document_id(self, path: Path, kb: Any) -> str:
+        raw = getattr(kb, "metadata", {}).get(str(path), {})
+        return raw.get("document_id") or self._document_id(path)
+
     def _resolve_id(self, document_id: str) -> Path:
         if not document_id or len(document_id) > 64 or any(char not in "0123456789abcdef" for char in document_id.lower()):
             raise LookupError("文档不存在")
+        kb = self.kb_provider()
         for path in self.documents_dir.rglob("*"):
-            if path.is_file() and path.suffix.lower() in self.supported_formats and self._document_id(path) == document_id:
+            if path.is_file() and path.suffix.lower() in self.supported_formats and self._stored_document_id(path, kb) == document_id:
                 return path
         raise FileNotFoundError("文档不存在")
 
@@ -50,7 +55,7 @@ class AdminDocumentService:
         raw = getattr(kb, "metadata", {}).get(str(path), {})
         stat = path.stat()
         return {
-            "document_id": self._document_id(path),
+            "document_id": self._stored_document_id(path, kb),
             "filename": path.name,
             "source": path.relative_to(self.documents_dir).as_posix(),
             "doc_type": path.suffix.lower().lstrip(".") or "unknown",
@@ -114,6 +119,53 @@ class AdminDocumentService:
             item["content_error"] = f"{type(error).__name__}: {error}"
         return item
 
+    def get_document_path(self, document_id: str) -> Path:
+        path = self._resolve_id(document_id)
+        if not path.is_file():
+            raise FileNotFoundError("文档不存在")
+        return path
+
+    def rename(self, document_id: str, filename: str) -> Dict[str, Any]:
+        old_path = self._resolve_id(document_id)
+        new_path = self._safe_path(filename)
+        if new_path == old_path:
+            raise ValueError("新文件名与当前文件名相同")
+        if new_path.exists():
+            raise ValueError("目标文件名已存在")
+
+        kb = self.kb_provider()
+        stable_id = self._stored_document_id(old_path, kb)
+        try:
+            with self.mutation_lock:
+                os.replace(old_path, new_path)
+                try:
+                    if kb._update_document(str(new_path)) is False:
+                        raise RuntimeError("文档索引未提交")
+                    new_metadata = getattr(kb, "metadata", {}).setdefault(str(new_path), {})
+                    new_metadata["document_id"] = stable_id
+                    if hasattr(kb, "delete_document"):
+                        kb.delete_document(str(old_path))
+                    else:
+                        old_metadata = getattr(kb, "metadata", {}).pop(str(old_path), {})
+                        for chunk_id in old_metadata.get("chunk_ids", []):
+                            kb._remove_chunk_ids([chunk_id])
+                    kb._save_metadata()
+                    kb._save_chunk_texts()
+                    kb._save_store()
+                except Exception:
+                    if hasattr(kb, "delete_document") and str(new_path) in getattr(kb, "metadata", {}):
+                        kb.delete_document(str(new_path))
+                    if new_path.exists() and not old_path.exists():
+                        os.replace(new_path, old_path)
+                    raise
+        except Exception:
+            raise
+
+        self.invalidate_catalog()
+        result = self._metadata(new_path, kb)
+        result["status"] = "renamed"
+        return result
+
     def update_content(self, document_id: str, content: str) -> Dict[str, Any]:
         path = self._resolve_id(document_id)
         if path.suffix.lower() not in EDITABLE_DOCUMENT_SUFFIXES:
@@ -127,6 +179,7 @@ class AdminDocumentService:
         old_bytes = path.read_bytes()
         old_stat = path.stat()
         kb = self.kb_provider()
+        stable_id = self._stored_document_id(path, kb)
         temp_path = path.with_name(f".{path.name}.admin-edit-{uuid.uuid4().hex}.tmp")
         try:
             with self.mutation_lock:
@@ -134,6 +187,7 @@ class AdminDocumentService:
                 os.replace(temp_path, path)
                 if kb._update_document(str(path)) is False:
                     raise RuntimeError("文档索引未提交")
+                getattr(kb, "metadata", {}).setdefault(str(path), {})["document_id"] = stable_id
                 kb._save_metadata()
                 kb._save_chunk_texts()
                 kb._save_store()
@@ -191,12 +245,14 @@ class AdminDocumentService:
             raise ValueError("目标文件名已存在")
         old_bytes = old_path.read_bytes()
         kb = self.kb_provider()
+        stable_id = self._stored_document_id(old_path, kb)
         try:
             with self.mutation_lock:
                 with new_path.open("wb") as destination:
                     shutil.copyfileobj(stream, destination)
                 if kb._update_document(str(new_path)) is False:
                     raise RuntimeError("文档索引未提交")
+                getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
                 if new_path != old_path:
                     if hasattr(kb, "delete_document"):
                         kb.delete_document(str(old_path))
@@ -215,4 +271,4 @@ class AdminDocumentService:
                 new_path.unlink(missing_ok=True)
             raise
         self.invalidate_catalog()
-        return {"status": "replaced", "document_id": self._document_id(new_path), "filename": new_path.name}
+        return {"status": "replaced", "document_id": stable_id, "filename": new_path.name}

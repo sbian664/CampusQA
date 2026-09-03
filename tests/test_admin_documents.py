@@ -104,8 +104,53 @@ class AdminDocumentRouteTests(unittest.TestCase):
         self.assertEqual(service.list_documents_page()["total"], 2)
         temp_dir.cleanup()
 
+    def test_renaming_document_preserves_id_and_reindexes_under_new_filename(self):
+        temp_dir = TemporaryDirectory()
+        root = Path(temp_dir.name)
+        old_path = root / "guide.md"
+        new_path = root / "renamed-guide.md"
+        old_path.write_text("# Guide", encoding="utf-8")
+        calls = []
+
+        class FakeKB:
+            metadata = {str(old_path): {"chunk_count": 1}}
+
+            def _update_document(self, file_path):
+                calls.append(("update", file_path))
+                self.metadata[file_path] = {"chunk_count": 1}
+                return True
+
+            def delete_document(self, file_path):
+                calls.append(("delete", file_path))
+                self.metadata.pop(file_path, None)
+                return True
+
+            def _save_metadata(self): pass
+            def _save_chunk_texts(self): pass
+            def _save_store(self): pass
+
+        kb = FakeKB()
+        service = AdminDocumentService(
+            kb_provider=lambda: kb,
+            documents_dir=temp_dir.name,
+            supported_formats={".md"},
+        )
+        document_id = service._document_id(old_path)
+
+        result = service.rename(document_id, "renamed-guide.md")
+
+        self.assertFalse(old_path.exists())
+        self.assertTrue(new_path.exists())
+        self.assertEqual(result["document_id"], document_id)
+        self.assertEqual(result["filename"], "renamed-guide.md")
+        self.assertEqual(service.get_document(document_id)["filename"], "renamed-guide.md")
+        self.assertEqual(calls, [("update", str(new_path)), ("delete", str(old_path))])
+        temp_dir.cleanup()
+
     def test_document_list_is_protected_and_upload_uses_document_service(self):
         temp_dir = TemporaryDirectory()
+        temp_dir_path = Path(temp_dir.name) / "guide.md"
+        temp_dir_path.write_bytes(b"download me")
         store = AdminControlStore(
             Path(temp_dir.name) / "admin.db",
             username="admin",
@@ -123,6 +168,13 @@ class AdminDocumentRouteTests(unittest.TestCase):
             def update_content(self, document_id, content):
                 self.edited = (document_id, content)
                 return {"document_id": document_id, "status": "updated"}
+
+            def rename(self, document_id, filename):
+                self.renamed = (document_id, filename)
+                return {"document_id": document_id, "filename": filename, "status": "renamed"}
+
+            def get_document_path(self, document_id):
+                return temp_dir_path
 
         documents = FakeDocuments()
         app = FastAPI()
@@ -155,6 +207,19 @@ class AdminDocumentRouteTests(unittest.TestCase):
         )
         self.assertEqual(edited.status_code, 200)
         self.assertEqual(documents.edited, ("doc-1", "# Edited"))
+        renamed = client.patch(
+            "/api/admin/kb/documents/doc-1",
+            json={"filename": "renamed.md"},
+            headers={"X-CSRF-Token": csrf},
+        )
+        self.assertEqual(renamed.status_code, 200)
+        self.assertEqual(documents.renamed, ("doc-1", "renamed.md"))
+        downloaded = client.get(
+            "/api/admin/kb/documents/doc-1/download",
+        )
+        self.assertEqual(downloaded.status_code, 200)
+        self.assertEqual(downloaded.content, b"download me")
+        self.assertIn("guide.md", downloaded.headers["content-disposition"])
         temp_dir.cleanup()
 
 

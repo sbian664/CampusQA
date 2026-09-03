@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import os
 import inspect
+import mimetypes
 from typing import Any, Dict, Optional
 
 from fastapi import APIRouter, Depends, File, Header, HTTPException, Request, Response, UploadFile
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from .control_store import AdminControlStore
@@ -32,6 +34,10 @@ class AdminSearchRequest(BaseModel):
 
 class AdminDocumentEditRequest(BaseModel):
     content: str
+
+
+class AdminDocumentRenameRequest(BaseModel):
+    filename: str
 
 
 class AdminLLMConfigRequest(BaseModel):
@@ -476,6 +482,32 @@ def create_admin_router(
             return document_service.get_document(document_id)
         except (FileNotFoundError, LookupError) as error:
             raise HTTPException(status_code=404, detail=str(error))
+
+    @router.get("/kb/documents/{document_id}/download")
+    def download_document(document_id: str, session: Dict[str, Any] = Depends(require_admin)):
+        if document_service is None:
+            raise HTTPException(status_code=503, detail="文档服务未配置")
+        try:
+            path = document_service.get_document_path(document_id)
+        except (FileNotFoundError, LookupError) as error:
+            raise HTTPException(status_code=404, detail=str(error))
+        store.record_audit(actor=session["username"], action="kb.document.download", target=document_id, status="success")
+        media_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+        return FileResponse(path, filename=path.name, media_type=media_type)
+
+    @router.patch("/kb/documents/{document_id}")
+    def rename_document(document_id: str, payload: AdminDocumentRenameRequest,
+                        session: Dict[str, Any] = Depends(require_csrf)):
+        if document_service is None:
+            raise HTTPException(status_code=503, detail="文档服务未配置")
+        try:
+            result = document_service.rename(document_id, payload.filename)
+        except (FileNotFoundError, LookupError) as error:
+            raise HTTPException(status_code=404, detail=str(error))
+        except ValueError as error:
+            raise HTTPException(status_code=400, detail=str(error))
+        store.record_audit(actor=session["username"], action="kb.document.rename", target=document_id, status="success")
+        return result
 
     @router.put("/kb/documents/{document_id}")
     def edit_document(document_id: str, payload: AdminDocumentEditRequest,
