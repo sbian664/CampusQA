@@ -651,6 +651,8 @@ SEARCH_KB_TOOL = {
             "properties": {
                 "query": {"type": "string", "description": "检索查询词"},
                 "top_k": {"type": "integer", "default": 3, "description": "返回结果数"},
+                "rerank_query_source": {"type": "string", "enum": ["search_query", "user_query", "custom"], "default": "search_query", "description": "重排查询来源"},
+                "rerank_query": {"type": "string", "description": "rerank_query_source=custom 时使用的重排问题"},
                 "filters": {"type": "object", "description": "可选过滤: doc_type/mtime_after/mtime_before"}
             },
             "required": ["query"]

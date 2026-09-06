@@ -1,4 +1,8 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
+
+from langchain_core.documents import Document
 
 from src.knowledge_base import (
     DocumentIndexResult,
@@ -21,6 +25,21 @@ class FailingAddStore:
 
 
 class KnowledgeBaseCommitTests(unittest.TestCase):
+    def test_prepared_chunk_metadata_omits_missing_document_id(self):
+        with TemporaryDirectory() as temp_dir:
+            file_path = str(Path(temp_dir) / "guide.md")
+            Path(file_path).write_text("# Guide", encoding="utf-8")
+            kb = KnowledgeBase.__new__(KnowledgeBase)
+            kb.loader = type("Loader", (), {"load_file": lambda self, path: [Document(page_content="# Guide", metadata={"doc_type": "markdown"})]})()
+            kb.text_splitter = type("Splitter", (), {"split_documents": lambda self, docs: [Document(page_content="# Guide", metadata={})]})()
+            kb.metadata = {}
+            kb.embeddings_manager = type("EmbeddingStub", (), {"embed_text": lambda self, text: [0.1]})()
+            kb._enrich_chunk_text = lambda text, metadata: text
+
+            prepared = kb._prepare_document_update(file_path, 1)
+
+            self.assertNotIn("document_id", prepared["chunk_metadatas"][0])
+
     def test_legacy_index_and_retrieve_api_remains_available(self):
         self.assertIsInstance(DocumentIndexResult(), DocumentIndexResult)
         self.assertIsInstance(KnowledgeRetrievalResult(), KnowledgeRetrievalResult)
@@ -44,6 +63,30 @@ class KnowledgeBaseCommitTests(unittest.TestCase):
 
         self.assertEqual(retrieved.results[0]["content"], "semantic")
         self.assertEqual(retrieved.bm25_results[0]["content"], "keyword")
+
+    def test_mixed_alphanumeric_identifiers_remain_distinct_tokens(self):
+        tokens_a = KnowledgeBase._tokenize("normalized_code: AIAA6091A")
+        tokens_b = KnowledgeBase._tokenize("normalized_code: AIAA6091B")
+
+        self.assertIn("aiaa6091a", tokens_a)
+        self.assertIn("aiaa6091b", tokens_b)
+        self.assertNotIn("aiaa6091b", tokens_a)
+        self.assertNotIn("aiaa6091a", tokens_b)
+
+    def test_quoted_multi_part_entity_matches_document_text_in_bm25(self):
+        kb = KnowledgeBase.__new__(KnowledgeBase)
+        kb._bm25_corpus = ["办公室：E1 L2"]
+        kb._bm25_avgdl = 4
+        kb._bm25_doc_freq = {"e1 l2": 1}
+
+        query = '"E1 L2" 办公室'
+        score = kb._bm25_score(
+            query,
+            "办公室：E1 L2",
+            query_tokens=KnowledgeBase._tokenize_query(query),
+        )
+
+        self.assertGreater(score, 0)
 
     def test_failed_replacement_restores_old_vector(self):
         kb = KnowledgeBase.__new__(KnowledgeBase)

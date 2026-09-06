@@ -5,6 +5,8 @@
 ToolHandler 负责工具执行、结果格式化、异常处理、相邻分块合并
 """
 import json
+import hashlib
+import os
 import time
 from typing import List, Dict, Optional
 from collections import defaultdict
@@ -13,8 +15,14 @@ from config import (
     HYBRID_SEARCH_ENABLED, BM25_WEIGHT,
     AGENT_CHUNK_MERGE_ENABLED, AGENT_CHUNK_MERGE_MAX_CHARS,
     RAG_CONTEXT_NEIGHBOR_RADIUS,
+    DOCUMENTS_DIR,
+    AGENT_SEARCH_TOP_K_MAX,
 )
-from src.reranker import get_reranker_model, search_with_optional_rerank
+from src.reranker import (
+    get_reranker_model,
+    rerank_precomputed_results,
+    search_with_optional_rerank,
+)
 
 
 # ═══════════════════════════════════════════════════════════
@@ -45,7 +53,23 @@ SEARCH_KB_TOOL = {
                 "top_k": {
                     "type": "integer",
                     "default": 3,
-                    "description": "返回结果条数，默认 3。若需更多上下文可调大至 5~8。",
+                    "minimum": 1,
+                    "maximum": 30,
+                    "description": "返回结果条数，默认 3。多实体集合问题通常使用 5；若从 3 或 5 开始，后续可用 8、15、30 扩大，最大 30。",
+                },
+                "rerank_query_source": {
+                    "type": "string",
+                    "enum": ["search_query", "user_query", "custom"],
+                    "default": "search_query",
+                    "description": (
+                        "可选的重排查询来源。search_query 使用当前检索词；"
+                        "user_query 使用当前轮用户问题；custom 使用 rerank_query。"
+                        "问题独立完整时可选 user_query；追问或子问题优先使用 search_query。"
+                    ),
+                },
+                "rerank_query": {
+                    "type": "string",
+                    "description": "当 rerank_query_source=custom 时使用的重排问题；否则忽略。",
                 },
                 "filters": {
                     "type": "object",
@@ -115,6 +139,7 @@ def merge_adjacent_chunks(results: List[Dict], max_chars: int = None) -> List[Di
             if current is None:
                 current = dict(item)
                 current["_merged_count"] = 1
+                current["_trace_exact_matches"] = ToolHandler._trace_exact_matches(item)
                 continue
 
             # 判断是否可合并：chunk_index 连续 且 合并不超限
@@ -141,10 +166,15 @@ def merge_adjacent_chunks(results: List[Dict], max_chars: int = None) -> List[Di
                     )
                 current["chunk_index"] = min(current["chunk_index"], curr_idx)
                 current["_merged_count"] = current.get("_merged_count", 1) + 1
+                current["_trace_exact_matches"] = current.get("_trace_exact_matches", []) + ToolHandler._trace_exact_matches(item)
+                if "_trace_exact_content" not in current and item.get("_trace_exact_content") is not None:
+                    current["_trace_exact_content"] = item["_trace_exact_content"]
+                    current["_trace_exact_chunk_index"] = item.get("_trace_exact_chunk_index")
             else:
                 merged.append(current)
                 current = dict(item)
                 current["_merged_count"] = 1
+                current["_trace_exact_matches"] = ToolHandler._trace_exact_matches(item)
 
         if current is not None:
             merged.append(current)
@@ -254,7 +284,8 @@ class ToolHandler:
     """工具处理器 — 接收 KnowledgeBase 实例，分发并执行工具调用"""
 
     def __init__(self, knowledge_base, rerank_enabled=False,
-                 reranker_loader=get_reranker_model, turn_id=None):
+                 reranker_loader=get_reranker_model, turn_id=None,
+                 user_query: Optional[str] = None):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
@@ -263,6 +294,7 @@ class ToolHandler:
         self.rerank_enabled = rerank_enabled
         self.reranker_loader = reranker_loader
         self.turn_id = turn_id
+        self.user_query = str(user_query or "").strip()
         self.call_log: List[Dict] = []  # 工具调用日志
         self._pending_trace: Dict = {}
 
@@ -320,7 +352,9 @@ class ToolHandler:
 
         top_k = args.get("top_k", 3)
         # 放宽上限：LLM 自主增大 top_k 时有足够空间
-        top_k = max(1, min(int(top_k), 20))
+        top_k = max(1, min(int(top_k), AGENT_SEARCH_TOP_K_MAX))
+
+        rerank_query, rerank_query_source = self._resolve_rerank_query(args, query)
 
         filters = args.get("filters")
         # 规范化 filters：只保留已知字段
@@ -334,6 +368,9 @@ class ToolHandler:
 
         self._pending_trace = {
             "query": query,
+            "retrieval_query": query,
+            "rerank_query": rerank_query,
+            "rerank_query_source": rerank_query_source,
             "filters": filters or {},
             "top_k": top_k,
             "engine": "hybrid" if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search") else "vector",
@@ -343,31 +380,92 @@ class ToolHandler:
         }
         try:
             if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search"):
-                results = search_with_optional_rerank(
+                search_output = search_with_optional_rerank(
                     self.kb,
                     query,
                     top_k=top_k,
                     enabled=self.rerank_enabled,
                     filters=filters,
                     model_loader=self.reranker_loader,
+                    rerank_query=rerank_query,
+                    return_candidates=True,
                 )
+                if isinstance(search_output, tuple):
+                    results, rerank_candidates = search_output
+                else:
+                    # Keep compatibility with test doubles and legacy wrappers.
+                    results = search_output
+                    rerank_candidates = results
             else:
                 results = self.kb.search(query, top_k=top_k, filters=filters)
+                rerank_candidates = results
         except Exception as e:
             self._pending_trace.update({"result_count": 0, "hits": [], "error": f"{type(e).__name__}: {e}"})
             return f"[ERROR] 搜索执行失败: {type(e).__name__}: {str(e)}"
 
-        # Agent 双通道：若语义匹配全无关键词命中，追加 BM25 结果供 LLM 判断
+        # Agent 双通道：若当前混合结果全无关键词命中，追加全库 BM25 结果供 LLM 判断。
+        # 先用文档频率索引预检，语料中没有查询词时不扫描全库。
         bm25_results = []
-        all_bm25_zero = all(r.get('bm25_score', 0) == 0 for r in results)
-        if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
-            qt = self.kb._tokenize_query(query)
-            if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+        all_bm25_zero = all(r.get("bm25_score", 0) == 0 for r in results)
+        if all_bm25_zero and hasattr(self.kb, "bm25_search"):
+            query_tokens = self.kb._tokenize_query(query)
+            bm25_doc_freq = getattr(self.kb, "_bm25_doc_freq", {})
+            if any(bm25_doc_freq.get(token, 0) > 0 for token in query_tokens):
                 bm25_results = self.kb.bm25_search(
                     query,
                     top_k=top_k,
                     filters=filters,
                 )
+
+        rerank_was_applied = any("rerank_score" in item for item in results)
+        bm25_rescue_in_final = []
+        if bm25_results and rerank_was_applied:
+            # Keep the already ranked top-k first so a rescue rerank failure
+            # falls back to the exact result ordering returned above, while
+            # still allowing the omitted candidate tail to compete.
+            ranked_keys = {
+                (
+                    item.get("source"),
+                    item.get("chunk_index"),
+                    item.get("content"),
+                )
+                for item in results
+            }
+            full_candidate_pool = list(results)
+            for item in rerank_candidates:
+                item_key = (
+                    item.get("source"),
+                    item.get("chunk_index"),
+                    item.get("content"),
+                )
+                if item_key not in ranked_keys:
+                    full_candidate_pool.append(item)
+                    ranked_keys.add(item_key)
+            rerank_candidates = full_candidate_pool
+            for item in bm25_results:
+                rescued = dict(item)
+                rescued["_bm25_rescued"] = True
+                rerank_candidates.append(rescued)
+
+            reranked_with_rescue = rerank_precomputed_results(
+                rerank_query,
+                rerank_candidates,
+                top_k=top_k,
+                enabled=True,
+                model_loader=self.reranker_loader,
+            )
+            bm25_rescue_in_final = [
+                item for item in reranked_with_rescue
+                if item.get("_bm25_rescued")
+            ]
+            if bm25_rescue_in_final:
+                results = reranked_with_rescue
+                # The selected rescue result is already part of the final
+                # top-k context; do not append it a second time.
+                bm25_results = []
+
+        self._mark_trace_anchors(results)
+        self._mark_trace_anchors(bm25_results)
 
         # ── 相邻分块合并 ──
         if hasattr(self.kb, "expand_adjacent_chunks"):
@@ -398,8 +496,32 @@ class ToolHandler:
             )
             output += format_search_results(bm25_results)
 
-        hybrid_hits = [self._trace_hit(result) for result in results]
-        bm25_hits = [self._trace_hit(result) for result in bm25_results]
+        # Adjacent chunks are context only. They must not inflate the Top-k
+        # trace count or appear as independent retrieval hits.
+        trace_results = [result for result in results if result.get("_trace_exact_chunk_index") is not None]
+        hybrid_hits = [
+            self._trace_hit(
+                result,
+                document_id=self._document_id_for_source(result.get("source")),
+            )
+            for result in trace_results
+            if not result.get("_bm25_rescued")
+        ]
+        bm25_hits = [
+            self._trace_hit(
+                result,
+                document_id=self._document_id_for_source(result.get("source")),
+            )
+            for result in trace_results
+            if result.get("_bm25_rescued")
+        ]
+        bm25_hits.extend(
+            self._trace_hit(
+                result,
+                document_id=self._document_id_for_source(result.get("source")),
+            )
+            for result in bm25_results
+        )
         self._pending_trace.update({
             "engine": "reranked" if any("rerank_score" in item for item in results) else self._pending_trace.get("engine", "hybrid"),
             "result_count": len(hybrid_hits) + len(bm25_hits),
@@ -409,14 +531,75 @@ class ToolHandler:
 
         return output
 
+    def _resolve_rerank_query(self, args: Dict, retrieval_query: str):
+        """Resolve a safe rerank query without adding another model call."""
+        source = str(args.get("rerank_query_source", "search_query")).strip().lower()
+        if source == "user_query" and self.user_query:
+            return self.user_query, source
+        if source == "custom":
+            custom_query = str(args.get("rerank_query", "")).strip()
+            if custom_query:
+                return custom_query, source
+        return retrieval_query, "search_query"
+
     @staticmethod
-    def _trace_hit(result: Dict) -> Dict:
+    def _trace_exact_matches(result: Dict) -> List[Dict]:
+        if result.get("_trace_exact_content") is None:
+            return []
+        return [{
+            "chunk_index": result.get("_trace_exact_chunk_index", result.get("chunk_index", 0)),
+            "content": str(result.get("_trace_exact_content", "")),
+        }]
+
+    @staticmethod
+    def _mark_trace_anchors(results: List[Dict]) -> None:
+        for result in results:
+            result.setdefault("_trace_exact_content", str(result.get("content", "")))
+            result.setdefault("_trace_exact_chunk_index", result.get("chunk_index", 0))
+
+    @staticmethod
+    def _trace_preview(content: object, max_lines: int = 5, max_chars: int = 800) -> str:
+        text = str(content or "").strip()
+        return "\n".join(text.splitlines()[:max_lines])[:max_chars]
+
+    def _document_id_for_source(self, source: object) -> Optional[str]:
+        if not source:
+            return None
+        source_text = str(source)
+        metadata = getattr(self.kb, "metadata", {}) or {}
+        for key in (source_text, os.path.abspath(source_text), os.path.realpath(source_text)):
+            raw = metadata.get(key, {})
+            if raw.get("document_id"):
+                return str(raw["document_id"])
+        try:
+            source_path = os.path.realpath(source_text)
+            root_path = os.path.realpath(DOCUMENTS_DIR)
+            if os.path.commonpath([source_path, root_path]) != root_path:
+                return None
+            relative = os.path.relpath(source_path, root_path).replace(os.sep, "/")
+            return hashlib.sha256(relative.encode("utf-8")).hexdigest()[:24]
+        except (OSError, ValueError):
+            return None
+
+    @classmethod
+    def _trace_hit(cls, result: Dict, document_id: Optional[str] = None) -> Dict:
+        exact_content = result.get("_trace_exact_content")
+        if exact_content is None:
+            exact_content = result.get("content", "")
+        merged_content = str(result.get("content", ""))
+        matched_index = result.get("_trace_exact_chunk_index", result.get("chunk_index", 0))
+        merged_count = int(result.get("_merged_count", 1) or 1)
         return {
             "source": result.get("source", "unknown"),
             "title": result.get("title", ""),
             "doc_type": result.get("doc_type", "unknown"),
             "chunk_index": result.get("chunk_index", 0),
-            "content_snippet": str(result.get("content", ""))[:800],
+            "matched_chunk_index": matched_index,
+            "matched_content_snippet": cls._trace_preview(exact_content),
+            "content_snippet": cls._trace_preview(exact_content),
+            "merged_content": merged_content,
+            "merged_chunk_indices": list(range(int(result.get("chunk_index", 0)), int(result.get("chunk_index", 0)) + merged_count)),
+            "document_id": document_id,
             "score": result.get("score"),
             "bm25_score": result.get("bm25_score"),
             "rerank_score": result.get("rerank_score"),

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import re
+import hashlib
 from datetime import datetime, timezone
 from typing import Any, Callable, Dict, Iterable, Optional
 
@@ -120,22 +121,54 @@ class AdminService:
 
     @staticmethod
     def _serialize_hit(result: Dict[str, Any], *, source_root: Optional[str] = None) -> Dict[str, Any]:
-        source = str(result.get("source", "unknown"))
+        raw_source = str(result.get("source", "unknown"))
+        source = raw_source
         source = AdminService._display_source(source, source_root)
         title = str(result.get("title", ""))
         if title and (os.path.isabs(title) or "/" in title or "\\" in title):
             title = AdminService._display_source(title, source_root)
+        content = str(result.get("content", ""))
+        matched_content = str(result.get("_trace_exact_content", content))
+        merged_count = int(result.get("_merged_count", 1) or 1)
+        chunk_index = int(result.get("chunk_index", 0) or 0)
         return {
             "source": source,
             "title": title,
             "doc_type": result.get("doc_type", "unknown"),
-            "chunk_index": result.get("chunk_index", 0),
-            "content_snippet": str(result.get("content", ""))[:1200],
+            "chunk_index": chunk_index,
+            "matched_chunk_index": result.get("_trace_exact_chunk_index", chunk_index),
+            "matched_content_snippet": AdminService._preview(matched_content),
+            "content_snippet": AdminService._preview(matched_content),
+            "merged_content": content,
+            "merged_chunk_indices": list(range(chunk_index, chunk_index + merged_count)),
+            "document_id": AdminService._document_id(result, raw_source, source_root),
             "score": result.get("score"),
             "bm25_score": result.get("bm25_score"),
             "rerank_score": result.get("rerank_score"),
             "rerank_rank": result.get("rerank_rank"),
         }
+
+    @staticmethod
+    def _preview(content: str, max_lines: int = 5, max_chars: int = 1200) -> str:
+        return "\n".join(content.strip().splitlines()[:max_lines])[:max_chars]
+
+    @staticmethod
+    def _document_id(result: Dict[str, Any], source: str, source_root: Optional[str]) -> Optional[str]:
+        metadata = result.get("metadata") or {}
+        if metadata.get("document_id") or result.get("document_id"):
+            return str(result.get("document_id") or metadata["document_id"])
+        if not source_root:
+            return None
+        try:
+            source_path = source if os.path.isabs(source) else os.path.join(source_root, source)
+            source_path = os.path.realpath(source_path)
+            root_path = os.path.realpath(source_root)
+            if os.path.commonpath([source_path, root_path]) != root_path:
+                return None
+            relative = os.path.relpath(source_path, root_path).replace(os.sep, "/")
+            return hashlib.sha256(relative.encode("utf-8")).hexdigest()[:24]
+        except (OSError, ValueError):
+            return None
 
     @staticmethod
     def _display_source(source: str, source_root: Optional[str]) -> str:

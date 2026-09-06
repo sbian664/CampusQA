@@ -6,7 +6,7 @@
 
 智能搜索由请求传递 `rerank_enabled`，不会修改服务器全局状态；关闭时保持原有混合检索排序。首次开启会加载项目本地 CrossEncoder 模型。
 
-多轮对话默认启用上下文路由：首轮问题直接进入问答流程；后续问题由 `deepseek-chat` 判断为独立问题或追问。独立问题不携带旧历史，追问会被改写成可独立检索的问题，并只保留最近一轮相关对话。路由失败时会保守使用原问题和最近一轮历史，完整 Session 仍保存用户原始输入。
+多轮对话默认关闭上下文路由：首轮问题直接进入问答流程；需要时可通过环境变量或请求参数开启。启用后，后续问题由 `deepseek-chat` 判断为独立问题或追问。独立问题不携带旧历史，追问会被改写成可独立检索的问题，并只保留最近一轮相关对话。路由失败时会保守使用原问题和最近一轮历史，完整 Session 仍保存用户原始输入。
 
 ## 项目结构
 
@@ -223,11 +223,13 @@ Agent: 根据知识库文档，监督学习是...
 
 | 环境变量 | 默认值 | 说明 |
 |----------|--------|------|
-| `CONTEXT_ROUTER_ENABLED` | `true` | 是否在非首轮请求进入 Chatbot 前执行上下文路由 |
+| `CONTEXT_ROUTER_ENABLED` | `false` | 是否在非首轮请求进入 Chatbot 前执行上下文路由 |
 | `CONTEXT_ROUTER_PROVIDER` | `deepseek` | 路由模型提供方；可设为现有的 `local` OpenAI-compatible 客户端 |
 | `CONTEXT_ROUTER_HISTORY_EXCHANGES` | `2` | 提交给路由模型判断的最近完整问答轮数 |
 
 路由模型使用低温度 JSON 输出，返回 `standalone` 或 `follow_up` 以及独立改写后的问题。切换本地模型时可在 `.env` 中配置：
+
+Agent 的 `search_knowledge_base` 工具还支持在不增加额外模型请求的情况下选择重排 query：默认使用 Agent 检索词；独立完整的问题可使用 `rerank_query_source=user_query`；需要针对某个子意图时可使用 `custom` 和 `rerank_query`。
 
 ```bash
 CONTEXT_ROUTER_PROVIDER=local

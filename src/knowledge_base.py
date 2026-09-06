@@ -273,6 +273,10 @@ class KnowledgeBase:
         doc_title = doc_meta.get('title', os.path.basename(file_path))
         doc_mtime = doc_meta.get('mtime', current_mtime)
         doc_mtime_str = doc_meta.get('mtime_str', '')
+        document_id = (
+            doc_meta.get('document_id')
+            or self.metadata.get(file_path, {}).get('document_id')
+        )
 
         chunk_ids = []
         chunk_texts = []
@@ -283,7 +287,7 @@ class KnowledgeBase:
             chunk_id = f"{os.path.basename(file_path)}_{i}"
             chunk_ids.append(chunk_id)
             chunk_texts.append(chunk.page_content)
-            chunk_metadatas.append({
+            chunk_metadata = {
                 'source': file_path,
                 'chunk_index': i,
                 'doc_total_chunks': len(chunks),
@@ -293,7 +297,14 @@ class KnowledgeBase:
                 'mtime_str': doc_mtime_str,
                 'section_path': chunk.metadata.get('section_path', ''),
                 **chunk.metadata
-            })
+            }
+            chunk_document_id = chunk.metadata.get('document_id') or document_id
+            if chunk_document_id:
+                chunk_metadata['document_id'] = chunk_document_id
+            else:
+                # Chroma accepts scalar metadata values only; never write None.
+                chunk_metadata.pop('document_id', None)
+            chunk_metadatas.append(chunk_metadata)
 
             chunk_meta = chunk_metadatas[-1]
             text_for_embedding = self._enrich_chunk_text(chunk.page_content, chunk_meta)
@@ -927,6 +938,16 @@ class KnowledgeBase:
 
     # 字面保留标记："..." 内的内容不被拆分
     QUOTED_PHRASE_PATTERN = re.compile(r'"([^"]+)"')
+    # 识别由多个 ASCII 编码组成的实体，例如 "E1 L2"、"W4 L5 512"。
+    ENTITY_SEQUENCE_PATTERN = re.compile(
+        r'(?<![a-z0-9])(?:[a-z0-9]+(?:[ \t-]+[a-z0-9]+){1,3})(?![a-z0-9])',
+        re.IGNORECASE,
+    )
+    # 保留完整的字母数字编码，例如 AIAA6091A、E1、6091A。
+    ALPHANUMERIC_IDENTIFIER_PATTERN = re.compile(
+        r'\b(?=[a-z0-9]*[a-z])(?=[a-z0-9]*\d)[a-z0-9]+\b',
+        re.IGNORECASE,
+    )
 
     @staticmethod
     def _extract_quoted_phrases(text: str):
@@ -1112,22 +1133,31 @@ class KnowledgeBase:
         text_lower = text.lower()
         tokens: List[str] = []
 
-        # ---- 第1步：特殊编码（字母+数字组合，如 E1、L2、AB12） ----
-        # 用 \b 边界确保整体匹配，避免从 "textE1" 中误提取
-        CODE_PATTERN = re.compile(r'\b[a-zA-Z]+\d+\b')
-        code_tokens = CODE_PATTERN.findall(text_lower)
-        tokens.extend(code_tokens)
+        # ---- 第1步：多段实体（如 E1 L2、W4-L5-512） ----
+        # 只有包含字母数字编码的序列才作为整体 token，避免普通英文短语污染索引。
+        for match in KnowledgeBase.ENTITY_SEQUENCE_PATTERN.finditer(text_lower):
+            parts = re.split(r'[ \t-]+', match.group(0))
+            if any(
+                re.fullmatch(r'(?=.*[a-z])(?=.*\d)[a-z0-9]+', part)
+                for part in parts
+            ):
+                tokens.append(' '.join(parts))
+
+        # ---- 第2步：完整字母数字编码（如 AIAA6091A、E1、6091A） ----
+        # 用边界确保整体匹配，避免把编码拆成前缀、数字和后缀。
+        identifier_tokens = KnowledgeBase.ALPHANUMERIC_IDENTIFIER_PATTERN.findall(text_lower)
+        tokens.extend(identifier_tokens)
 
         # 移除已提取的编码，避免后续步骤重复处理
-        working_text = CODE_PATTERN.sub(' ', text_lower)
+        working_text = KnowledgeBase.ALPHANUMERIC_IDENTIFIER_PATTERN.sub(' ', text_lower)
 
-        # ---- 第2步：英文单词（2 字母以上，过滤掉被拆散的单字母残留） ----
+        # ---- 第3步：英文单词（2 字母以上，过滤掉被拆散的单字母残留） ----
         tokens.extend(re.findall(r'[a-zA-Z]{2,}', working_text))
 
-        # ---- 第3步：独立数字 ----
+        # ---- 第4步：独立数字 ----
         tokens.extend(re.findall(r'\d+', working_text))
 
-        # ---- 第4步：中文 bigram ----
+        # ---- 第5步：中文 bigram ----
         chinese_chars = re.findall(r'[\u4e00-\u9fff]', working_text)
         for i in range(len(chinese_chars) - 1):
             tokens.append(chinese_chars[i] + chinese_chars[i + 1])

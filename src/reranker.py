@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import threading
-from typing import Callable, Dict, List, Optional
+from typing import Callable, Dict, List, Optional, Tuple, Union
 
 from config import (
     RERANKER_AVAILABLE,
@@ -111,16 +111,27 @@ def search_with_optional_rerank(
     filters: Optional[Dict] = None,
     candidate_k: int = RERANKER_CANDIDATE_K,
     model_loader: Callable = get_reranker_model,
-) -> List[Dict]:
+    rerank_query: Optional[str] = None,
+    return_candidates: bool = False,
+) -> Union[List[Dict], Tuple[List[Dict], List[Dict]]]:
+    """Retrieve with ``query`` and optionally rerank with another query.
+
+    When ``return_candidates`` is true, return ``(ranked_results, candidates)``
+    so a later rescue pass can compete against the full reranker candidate pool.
+    """
     use_reranker = bool(enabled and RERANKER_AVAILABLE)
     requested_k = max(1, int(top_k))
     search_k = max(requested_k, int(candidate_k)) if use_reranker else requested_k
     results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters)
     if not use_reranker:
-        return results[:requested_k]
+        ranked = results[:requested_k]
+        return (ranked, results) if return_candidates else ranked
 
     try:
-        return rerank_results(query, results, model_loader(), requested_k)
+        effective_rerank_query = str(rerank_query or "").strip() or query
+        ranked = rerank_results(effective_rerank_query, results, model_loader(), requested_k)
+        return (ranked, results) if return_candidates else ranked
     except Exception as exc:
         print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
-        return results[:requested_k]
+        ranked = results[:requested_k]
+        return (ranked, results) if return_candidates else ranked

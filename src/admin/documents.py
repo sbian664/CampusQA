@@ -139,6 +139,9 @@ class AdminDocumentService:
             with self.mutation_lock:
                 os.replace(old_path, new_path)
                 try:
+                    # Let KnowledgeBase carry the stable admin ID into every
+                    # newly indexed chunk before the old path is removed.
+                    getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
                     if kb._update_document(str(new_path)) is False:
                         raise RuntimeError("文档索引未提交")
                     new_metadata = getattr(kb, "metadata", {}).setdefault(str(new_path), {})
@@ -250,6 +253,9 @@ class AdminDocumentService:
             with self.mutation_lock:
                 with new_path.open("wb") as destination:
                     shutil.copyfileobj(stream, destination)
+                # Preserve the document identity when replacement also changes
+                # the filename, so retrieval traces keep the same detail link.
+                getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
                 if kb._update_document(str(new_path)) is False:
                     raise RuntimeError("文档索引未提交")
                 getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id

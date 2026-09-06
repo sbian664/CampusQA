@@ -21,6 +21,10 @@ class AgentFinalizationTests(unittest.TestCase):
         self.assertIn("达到检索轮次上限", AGENT_SYSTEM_PROMPT)
         self.assertIn("禁止调用任何工具", AGENT_SYSTEM_PROMPT)
 
+    def test_agent_prompt_defines_progressive_retrieval_for_distributed_lists(self):
+        self.assertIn("3/5 → 8 → 15 → 30", AGENT_SYSTEM_PROMPT)
+        self.assertIn("k-1", AGENT_SYSTEM_PROMPT)
+
     def test_chatbot_forced_call_uses_tool_free_final_context(self):
         captured = {}
 

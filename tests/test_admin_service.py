@@ -1,4 +1,6 @@
 import unittest
+import hashlib
+import os
 from tempfile import TemporaryDirectory
 
 from src.admin.service import AdminService
@@ -61,6 +63,29 @@ class AdminServiceTests(unittest.TestCase):
         self.assertEqual(result["duration_ms"], 12)
         self.assertEqual(result["channels"]["vector"][0]["source"], "a.md")
         self.assertIn("content_snippet", result["channels"]["bm25"][0])
+
+    def test_search_results_include_context_and_document_detail_id(self):
+        with TemporaryDirectory() as temp_dir:
+            source = os.path.join(temp_dir, "guide.md")
+            result = AdminService.search_response(
+                query="课程注册",
+                channels={"hybrid": [{
+                    "source": source,
+                    "chunk_index": 4,
+                    "content": "命中第一行\n命中第二行\n命中第三行\n命中第四行\n命中第五行\n不应出现在预览",
+                    "_merged_count": 2,
+                    "score": 0.9,
+                }]},
+                duration_ms=8,
+                source_root=temp_dir,
+            )
+
+        hit = result["channels"]["hybrid"][0]
+        expected_id = hashlib.sha256("guide.md".encode("utf-8")).hexdigest()[:24]
+        self.assertEqual(hit["document_id"], expected_id)
+        self.assertEqual(hit["matched_content_snippet"], "命中第一行\n命中第二行\n命中第三行\n命中第四行\n命中第五行")
+        self.assertEqual(hit["merged_content"], "命中第一行\n命中第二行\n命中第三行\n命中第四行\n命中第五行\n不应出现在预览")
+        self.assertEqual(hit["merged_chunk_indices"], [4, 5])
 
     def test_search_results_show_relative_sources_without_server_paths(self):
         with TemporaryDirectory() as temp_dir:

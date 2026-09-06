@@ -63,11 +63,11 @@ CACHE_DIR = os.path.join(DATA_DIR, "cache")
 # ============ 本地 Embeddings 模型 ============
 EMBEDDINGS_MODEL = os.getenv(
     "EMBEDDINGS_MODEL",
-    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "ibm-granite/granite-embedding-97m-multilingual-r2",
 )
 EMBEDDINGS_MODEL_PATH = os.getenv(
     "EMBEDDINGS_MODEL_PATH",
-    os.path.join(DATA_DIR, "embeddings", "paraphrase-multilingual-MiniLM-L12-v2"),
+    os.path.join(DATA_DIR, "embeddings", "granite-embedding-97m-multilingual-r2"),
 )
 EMBEDDINGS_AUTO_DOWNLOAD = os.getenv("EMBEDDINGS_AUTO_DOWNLOAD", "true").lower() in (
     "1",
@@ -172,6 +172,7 @@ AGENT_DUPLICATE_THRESHOLD = 0.85# L3: 重复查询 Jaccard 相似度阈值
 AGENT_LOW_SCORE_THRESHOLD = 0.4 # L5: 低分熔断阈值（连续 3 次低于此分则熔断）
 AGENT_CONTEXT_RATIO = 0.8       # L6: Token 预算告警比例（占模型上下文的 80%）
 AGENT_MODEL_MAX_CONTEXT = 32000 # DeepSeek-chat 上下文窗口（保守估计）
+AGENT_SEARCH_TOP_K_MAX = 30     # Agent 单次知识库检索的最大返回块数
 
 # 分块合并（相邻同类 chunk 合并为更大上下文块）
 AGENT_CHUNK_MERGE_ENABLED = True     # 是否启用相邻分块合并
@@ -202,8 +203,16 @@ AGENT_SYSTEM_PROMPT = """你是 CampusQA 的知识库问答助手。
 
 首次查询：
 - 提取问题中最有区分度的实体、属性和限定条件；
+- 根据问题判断用户查询的为单实体还是多个实体，选择恰当的 top_k，单实体 top_k<=3, 多个实体 top_k>=5；
 - 查询应简洁，不要直接复制冗长的整句问题；
 - 人名、房间号、建筑编号、缩写等需要保持完整的内容，可使用英文双引号，例如 `"E1 L2"`。
+- query 参数用于召回；问题独立且完整时可将 rerank_query_source 设为 user_query，使用当前用户问题进行重排；追问或已拆分的子问题使用 search_query，必要时使用 custom 和 rerank_query。
+
+对于“有哪些、列出全部、名单、分别有哪些”等集合/列表问题：
+- 如果答案预期分散在多个文档中，且当前结果没有一份总结或整合性文档，不要因当前结果都相关就立即停止；
+- 多实体问题通常从 top_k=5 开始；如果仍从 top_k=3 开始，下一轮直接扩大到 8；之后按 15 → 30 扩大，即 3/5 → 8 → 15 → 30；同一查询只有在 top_k 严格递增时才允许重复检索；
+- 当前轮的结果全部都是独立且有效的答案条目时继续扩大；当 top_k>3 时，允许至多 1 条干扰项，即至少 k-1 条仍是有效答案时继续扩大；
+- 新增结果主要是重复项、上下文邻居或无关内容时可以停止；达到 top_k=30 后停止，并汇总所有已核验的答案。
 
 结果不足时，重试时采用以下策略：
 - 替换同义词或切换中英文，英文人名可以改变词序尝试（sur last -> last sur）；

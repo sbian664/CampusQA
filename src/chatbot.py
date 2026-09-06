@@ -24,6 +24,7 @@ from config import (
     AGENT_CONTEXT_RATIO,
     AGENT_MODEL_MAX_CONTEXT,
     AGENT_SYSTEM_PROMPT,
+    AGENT_SEARCH_TOP_K_MAX,
 )
 
 
@@ -37,6 +38,7 @@ class AgentLoopState:
     llm_rounds: int = 0
     total_tool_calls: int = 0
     past_queries: List[str] = field(default_factory=list)     # L3 重复检测
+    past_searches: List[Dict] = field(default_factory=list)   # query + filters + top_k
     consecutive_empty: int = 0                                  # L4 零结果熔断
     consecutive_low_score: int = 0                              # L5 低分熔断
     total_prompt_tokens: int = 0
@@ -209,7 +211,12 @@ class Chatbot:
             return AgentChatResult(content=text, finish_reason="stop")
 
         state = AgentLoopState()
-        handler = ToolHandler(self.kb, rerank_enabled=rerank_enabled, turn_id=turn_id)
+        handler = ToolHandler(
+            self.kb,
+            rerank_enabled=rerank_enabled,
+            turn_id=turn_id,
+            user_query=user_message,
+        )
 
         # 构建初始消息列表
         messages = [{"role": "system", "content": AGENT_SYSTEM_PROMPT}]
@@ -326,8 +333,21 @@ class Chatbot:
                     return self._build_result(response_final, handler, state, "max_tool_calls")
 
                 # L3: 重复查询检测
-                query = arguments.get("query", "") if isinstance(arguments, dict) else str(arguments)
-                if self._is_duplicate_query(query, state.past_queries):
+                arguments_dict = arguments if isinstance(arguments, dict) else {}
+                query = arguments_dict.get("query", "") if isinstance(arguments, dict) else str(arguments)
+                search_top_k = self._normalize_search_top_k(arguments_dict.get("top_k", 3))
+                search_filters = arguments_dict.get("filters", {})
+                if not isinstance(search_filters, dict):
+                    search_filters = {}
+                rerank_query_source, rerank_query = self._normalize_rerank_choice(arguments_dict)
+                if self._is_duplicate_search(
+                    query,
+                    search_top_k,
+                    search_filters,
+                    state.past_searches,
+                    rerank_query_source,
+                    rerank_query,
+                ):
                     tool_result_text = (
                         f"[DUPLICATE] 你已用高度相似的查询 \"{query[:50]}...\" 搜索过。"
                         "请换不同的关键词、角度，或基于已有结果回答。"
@@ -335,6 +355,13 @@ class Chatbot:
                     print(f"  ⚠️ 重复查询已拦截: {query[:60]}")
                 else:
                     state.past_queries.append(query)
+                    state.past_searches.append({
+                        "query": query,
+                        "top_k": search_top_k,
+                        "filters": search_filters,
+                        "rerank_query_source": rerank_query_source,
+                        "rerank_query": rerank_query,
+                    })
                     # 执行工具
                     tool_result_text = handler.execute(tool_name, arguments)
                     self._update_fuse_counters(state, tool_result_text)
@@ -390,6 +417,73 @@ class Chatbot:
             state.total_completion_tokens += response.usage.get("completion_tokens", 0)
 
     # ---- L3: 重复查询检测 ----
+
+    @staticmethod
+    def _normalize_search_top_k(top_k: object) -> int:
+        try:
+            value = int(top_k)
+        except (TypeError, ValueError):
+            value = 3
+        return max(1, min(value, AGENT_SEARCH_TOP_K_MAX))
+
+    @staticmethod
+    def _is_duplicate_search(
+        new_query: str,
+        new_top_k: int,
+        new_filters: Dict,
+        past_searches: List[Dict],
+        new_rerank_query_source: str = "search_query",
+        new_rerank_query: str = "",
+    ) -> bool:
+        """Allow the same query only when its retrieval scope is expanded."""
+        normalized_query = str(new_query or "").strip()
+        normalized_filters = new_filters or {}
+        new_rerank_key = Chatbot._rerank_choice_key(
+            new_rerank_query_source,
+            new_rerank_query,
+        )
+
+        for past in reversed(past_searches[-3:]):
+            past_query = str(past.get("query", "")).strip()
+            past_filters = past.get("filters") or {}
+            past_rerank_key = Chatbot._rerank_choice_key(
+                past.get("rerank_query_source", "search_query"),
+                past.get("rerank_query", ""),
+            )
+
+            if normalized_query == past_query:
+                if normalized_filters != past_filters:
+                    continue
+                if new_rerank_key != past_rerank_key:
+                    continue
+                return int(new_top_k) <= int(past.get("top_k", 3))
+
+            if Chatbot._is_duplicate_query(normalized_query, [past_query]):
+                if new_rerank_key == past_rerank_key:
+                    return True
+
+        return False
+
+    @staticmethod
+    def _normalize_rerank_choice(arguments: Dict) -> tuple:
+        source = str(arguments.get("rerank_query_source", "search_query") or "").strip().lower()
+        if source == "custom":
+            query = str(arguments.get("rerank_query", "") or "").strip()
+            if query:
+                return source, query
+        if source == "user_query":
+            return source, ""
+        return "search_query", ""
+
+    @staticmethod
+    def _rerank_choice_key(source: object, query: object) -> tuple:
+        normalized_source = str(source or "search_query").strip().lower()
+        normalized_query = str(query or "").strip()
+        if normalized_source == "custom" and normalized_query:
+            return normalized_source, normalized_query
+        if normalized_source == "user_query":
+            return normalized_source, ""
+        return "search_query", ""
 
     @staticmethod
     def _is_duplicate_query(new_query: str, past_queries: List[str]) -> bool:

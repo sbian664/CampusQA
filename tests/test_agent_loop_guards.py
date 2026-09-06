@@ -29,6 +29,49 @@ class InvalidToolClient:
 
 
 class AgentLoopGuardTests(unittest.TestCase):
+    def test_same_query_can_escalate_when_top_k_increases(self):
+        past_searches = [{"query": "DSA 学域 staff", "top_k": 3, "filters": {}}]
+
+        self.assertFalse(
+            Chatbot._is_duplicate_search(
+                "DSA 学域 staff", 5, {}, past_searches
+            )
+        )
+
+    def test_same_query_is_duplicate_when_top_k_does_not_increase(self):
+        past_searches = [{"query": "DSA 学域 staff", "top_k": 5, "filters": {}}]
+
+        self.assertTrue(
+            Chatbot._is_duplicate_search(
+                "DSA 学域 staff", 5, {}, past_searches
+            )
+        )
+
+        self.assertTrue(
+            Chatbot._is_duplicate_search(
+                "DSA 学域 staff", 3, {}, past_searches
+            )
+        )
+
+    def test_same_retrieval_query_can_use_a_different_rerank_query(self):
+        past_searches = [{
+            "query": "课程 关键词",
+            "top_k": 3,
+            "filters": {},
+            "rerank_query_source": "search_query",
+            "rerank_query": "课程 关键词",
+        }]
+
+        self.assertFalse(
+            Chatbot._is_duplicate_search(
+                "课程 关键词",
+                3,
+                {},
+                past_searches,
+                "user_query",
+                "完整的当前用户问题",
+            )
+        )
     def test_invalid_tool_calls_consume_llm_round_budget(self):
         original_limit = chatbot_module.AGENT_MAX_LLM_ROUNDS
         chatbot_module.AGENT_MAX_LLM_ROUNDS = 2
