@@ -304,7 +304,7 @@ _admin_config_service = AdminConfigService(
 
 
 def _admin_session_detail(session_id: str) -> Dict[str, object]:
-    detail = load_session_detail(Session, session_id)
+    detail = load_session_detail(Session, session_id, source_root=DOCUMENTS_DIR)
     detail["feedback"] = _admin_control_store.get_feedback(session_id)
     return detail
 
@@ -528,10 +528,40 @@ def _agent_result_to_response(
         "session_id": session_id,
         "session_title": session_title,
         "finish_reason": result.finish_reason,
-        "tool_calls": result.tool_call_log,
+        "tool_calls": _public_tool_call_log(result.tool_call_log),
         "usage": result.usage,
         "rounds": result.rounds,
     }
+
+
+def _public_tool_call_log(entries: List[Dict]) -> List[Dict]:
+    """Return a user-safe summary without retrieval content or filesystem paths.
+
+    Full structured traces remain available through the authenticated admin
+    service. Public chat/session APIs only need execution summaries.
+    """
+    public_entries = []
+    for entry in entries or []:
+        if not isinstance(entry, dict):
+            continue
+        public_entry = {}
+        for key in (
+            "turn_id",
+            "tool_name",
+            "query",
+            "top_k",
+            "engine",
+            "rerank_enabled",
+            "duration_ms",
+            "result_count",
+            "timestamp",
+        ):
+            if key in entry:
+                public_entry[key] = entry[key]
+        if entry.get("error"):
+            public_entry["has_error"] = True
+        public_entries.append(public_entry)
+    return public_entries
 
 
 def _attachment_context_from_docs(filename: str, docs: List, max_chars: int = 12000) -> Dict:
@@ -993,7 +1023,7 @@ def load_session(request: LoadSessionRequest):
         "session_id": session.session_id,
         "message_count": session.metadata.get("message_count", 0),
         "history": session.get_history(strip_tool_details=True),
-        "tool_call_log": session.get_tool_call_log(),
+        "tool_call_log": _public_tool_call_log(session.get_tool_call_log()),
         "created_at": session.metadata.get("created_at", ""),
         "updated_at": session.metadata.get("updated_at", ""),
         "title": _session_title(session),
@@ -1053,7 +1083,7 @@ def get_tool_log(session_id: str):
         raise HTTPException(status_code=404, detail="会话不存在")
     return {
         "session_id": session_id,
-        "tool_call_log": session.get_tool_call_log(),
+        "tool_call_log": _public_tool_call_log(session.get_tool_call_log()),
         "count": len(session.tool_call_log),
     }
 

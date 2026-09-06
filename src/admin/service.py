@@ -149,6 +149,26 @@ class AdminService:
         }
 
     @staticmethod
+    def serialize_trace_entry(entry: Dict[str, Any], *, source_root: Optional[str] = None) -> Dict[str, Any]:
+        """Normalize persisted trace paths for the authenticated admin UI."""
+        serialized = {
+            key: value for key, value in entry.items()
+            if key != "hits"
+        }
+        hits = []
+        for hit in entry.get("hits", []) or []:
+            normalized = dict(hit)
+            raw_source = str(normalized.get("source", "unknown"))
+            normalized["source"] = AdminService._display_source(raw_source, source_root)
+            title = str(normalized.get("title", ""))
+            if title and (os.path.isabs(title) or "/" in title or "\\" in title):
+                normalized["title"] = AdminService._display_source(title, source_root)
+            hits.append(normalized)
+        if "hits" in entry:
+            serialized["hits"] = hits
+        return serialized
+
+    @staticmethod
     def _preview(content: str, max_lines: int = 5, max_chars: int = 1200) -> str:
         return "\n".join(content.strip().splitlines()[:max_lines])[:max_chars]
 
@@ -208,13 +228,16 @@ def list_session_summaries(session_class: Any, *, limit: int, offset: int, query
     return matches[offset:offset + limit]
 
 
-def load_session_detail(session_class: Any, session_id: str) -> Dict[str, Any]:
+def load_session_detail(session_class: Any, session_id: str, *, source_root: Optional[str] = None) -> Dict[str, Any]:
     if not SESSION_ID_RE.fullmatch(session_id):
         raise ValueError("非法会话 ID")
     session = session_class(session_id=session_id)
     if not session.load():
         raise FileNotFoundError("会话不存在")
-    traces = session.get_tool_call_log()
+    traces = [
+        AdminService.serialize_trace_entry(entry, source_root=source_root)
+        for entry in session.get_tool_call_log()
+    ]
     return {
         "session_id": session.session_id,
         "title": session.metadata.get("title") or session.metadata.get("summary"),

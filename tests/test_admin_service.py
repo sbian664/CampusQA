@@ -99,6 +99,25 @@ class AdminServiceTests(unittest.TestCase):
         self.assertEqual(result["channels"]["bm25"][0]["source"], "nested/guide.md")
         self.assertEqual(result["channels"]["bm25"][0]["title"], "nested/guide.md")
 
+    def test_trace_entry_hides_internal_source_root_but_keeps_admin_context(self):
+        with TemporaryDirectory() as temp_dir:
+            source = os.path.join(temp_dir, "guide.md")
+            trace = AdminService.serialize_trace_entry({
+                "tool_name": "search_knowledge_base",
+                "hits": [{
+                    "source": source,
+                    "title": source,
+                    "merged_content": "管理员需要查看的上下文",
+                    "document_id": "doc-1",
+                }],
+            }, source_root=temp_dir)
+
+        hit = trace["hits"][0]
+        self.assertEqual(hit["source"], "guide.md")
+        self.assertEqual(hit["title"], "guide.md")
+        self.assertEqual(hit["merged_content"], "管理员需要查看的上下文")
+        self.assertNotIn(temp_dir, str(trace))
+
 
 if __name__ == "__main__":
     unittest.main()
