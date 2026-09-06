@@ -427,6 +427,11 @@ class AttachmentParseResponse(BaseModel):
 
 # ── 辅助函数 ──────────────────────────────────────────────
 
+def _validate_user_session_id(session_id: str) -> None:
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{1,160}", session_id):
+        raise HTTPException(status_code=400, detail="会话 ID 格式无效")
+
+
 def _load_or_create_session(session_id: Optional[str]) -> Session:
     """加载已有 Session 或创建新 Session"""
     if session_id:
@@ -600,14 +605,14 @@ def health_check():
 
 
 @app.get("/api/llm-config")
-def get_llm_config_endpoint(_admin=Depends(_admin_auth)):
-    """读取单用户模型配置；API Key 只返回脱敏值。"""
+def get_llm_config_endpoint():
+    """读取面向用户的模型配置；API Key 只返回脱敏值。"""
     return _llm_config_store.public_config()
 
 
 @app.put("/api/llm-config")
-def update_llm_config(request: LLMConfigRequest, _admin=Depends(_admin_csrf)):
-    """保存单用户模型配置并让后续请求重新创建 LLM 客户端。"""
+def update_llm_config(request: LLMConfigRequest):
+    """保存面向用户的模型配置并让后续请求重新创建 LLM 客户端。"""
     global _chatbot, _context_router
     try:
         _llm_config_store.update(request.dict())
@@ -619,8 +624,8 @@ def update_llm_config(request: LLMConfigRequest, _admin=Depends(_admin_csrf)):
 
 
 @app.post("/api/llm-config/test")
-def test_llm_config(request: LLMConfigRequest, _admin=Depends(_admin_csrf)):
-    """测试当前输入配置，不保存配置。"""
+def test_llm_config(request: LLMConfigRequest):
+    """测试面向用户的当前输入配置，不保存配置。"""
     try:
         candidate = _llm_config_store.resolve(
             request.dict(),
@@ -767,8 +772,9 @@ def get_session(session_id: str):
 
 
 @app.delete("/api/session/{session_id}")
-def clear_session(session_id: str, _admin=Depends(_admin_csrf)):
-    """清空会话历史（不删文件）"""
+def clear_session(session_id: str):
+    """清空用户会话历史（不删文件）。"""
+    _validate_user_session_id(session_id)
     session = Session(session_id=session_id)
     session.load()
     session.clear()
@@ -777,8 +783,9 @@ def clear_session(session_id: str, _admin=Depends(_admin_csrf)):
 
 
 @app.delete("/api/sessions/{session_id}")
-def delete_session_file(session_id: str, _admin=Depends(_admin_csrf)):
-    """删除会话文件（从磁盘永久删除）"""
+def delete_session_file(session_id: str):
+    """删除用户会话文件（从磁盘永久删除）。"""
+    _validate_user_session_id(session_id)
     import os as _os
     filepath = _os.path.join(DATA_DIR, "cache", f"{session_id}.json")
     if _os.path.exists(filepath):
@@ -788,8 +795,9 @@ def delete_session_file(session_id: str, _admin=Depends(_admin_csrf)):
 
 
 @app.delete("/api/session/{session_id}/message/{index}")
-def delete_message(session_id: str, index: int, _admin=Depends(_admin_csrf)):
-    """删除会话中指定位置的消息"""
+def delete_message(session_id: str, index: int):
+    """删除用户会话中指定位置的消息。"""
+    _validate_user_session_id(session_id)
     session = Session(session_id=session_id)
     if not session.load():
         raise HTTPException(status_code=404, detail="会话不存在")
@@ -1045,8 +1053,8 @@ def get_mode():
 
 
 @app.post("/api/mode/toggle", response_model=ModeResponse)
-def toggle_mode(_admin=Depends(_admin_csrf)):
-    """切换 Agent / 一步式 RAG 模式"""
+def toggle_mode():
+    """切换 Agent / 一步式 RAG 模式。"""
     chatbot = get_chatbot()
     chatbot.agent_mode = not chatbot.agent_mode
     return {
