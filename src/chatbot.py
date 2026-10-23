@@ -3,6 +3,8 @@
 """
 import json
 import time
+from copy import deepcopy
+from src.errors import ContextLimitError
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
@@ -12,6 +14,7 @@ from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, ToolHandler
 from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
+    MAX_TOKENS,
     RAG_TOP_K,
     RAG_SYSTEM_PROMPT_TEMPLATE,
     RAG_CONTEXT_ITEM_TEMPLATE,
@@ -43,6 +46,7 @@ class AgentLoopState:
     consecutive_low_score: int = 0                              # L5 低分熔断
     total_prompt_tokens: int = 0
     total_completion_tokens: int = 0
+    usage_known: bool = False
 
 
 @dataclass
@@ -74,6 +78,8 @@ class Chatbot:
         self.system_prompt = SYSTEM_PROMPT
         self.kb = knowledge_base
         self.agent_mode = AGENT_MODE_ENABLED  # 运行时可切换
+        self.max_tokens = MAX_TOKENS
+        self.bm25_weight = None
 
     # ---- 基础对话 ----
 
@@ -83,7 +89,7 @@ class Chatbot:
             {"role": "system", "content": self.system_prompt},
             {"role": "user", "content": user_message}
         ]
-        response = self.client.send_message(messages)
+        response = self.client.send_message(self._trim_context_if_needed(messages), max_tokens=getattr(self, 'max_tokens', MAX_TOKENS))
         return sanitize_tool_protocol_text(response)
 
     def chat_with_history(self, user_message: str, history: List[Dict]) -> str:
@@ -91,7 +97,7 @@ class Chatbot:
         messages = [{"role": "system", "content": self.system_prompt}]
         messages.extend(history)
         messages.append({"role": "user", "content": user_message})
-        response = self.client.send_message(messages)
+        response = self.client.send_message(self._trim_context_if_needed(messages), max_tokens=getattr(self, 'max_tokens', MAX_TOKENS))
         return sanitize_tool_protocol_text(response)
 
     # ---- RAG 检索增强（一步式，快速模式）----
@@ -115,6 +121,7 @@ class Chatbot:
                 user_message,
                 top_k=RAG_TOP_K,
                 enabled=rerank_enabled,
+                bm25_weight=getattr(self, 'bm25_weight', None),
             )
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
@@ -176,14 +183,15 @@ class Chatbot:
 
         rag_system_prompt = RAG_SYSTEM_PROMPT_TEMPLATE.format(
             system_prompt=self.system_prompt,
-            context=context,
+            context="（参见知识库检索结果）",
         )
 
         messages = [{"role": "system", "content": rag_system_prompt}]
         messages.extend(history)
+        messages.append({"role": "user", "content": "[知识库检索结果]\n" + context})
         messages.append({"role": "user", "content": user_message})
 
-        response = self.client.send_message(messages)
+        response = self.client.send_message(self._trim_context_if_needed(messages), max_tokens=getattr(self, 'max_tokens', MAX_TOKENS))
         return sanitize_tool_protocol_text(response)
 
     # ═══════════════════════════════════════════════════════════
@@ -216,6 +224,7 @@ class Chatbot:
             rerank_enabled=rerank_enabled,
             turn_id=turn_id,
             user_query=user_message,
+            bm25_weight=getattr(self, 'bm25_weight', None),
         )
 
         # 构建初始消息列表
@@ -246,11 +255,11 @@ class Chatbot:
                 return self._build_result(response, handler, state, "low_score_fuse")
 
             # ── 预检查：L6 Token 预算裁剪 ──
-            messages = self._trim_context_if_needed(messages)
+            messages = self._trim_context_if_needed(messages, tools=AGENT_TOOLS)
 
             # ── 调用 LLM（带工具定义）──
             response = self.client.send_message_with_tools(
-                messages, tools=AGENT_TOOLS
+                messages, tools=AGENT_TOOLS, max_tokens=getattr(self, 'max_tokens', MAX_TOKENS)
             )
             self._accumulate_state_usage(state, response)
             # Every model call consumes one round, including malformed or
@@ -391,8 +400,8 @@ class Chatbot:
 
     def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState) -> LLMResponse:
         """强制文本模式调用（不带 tools），用于熔断后获取最终回答"""
-        final_messages = build_final_answer_messages(messages)
-        response = self.client.send_message_with_tools(final_messages, tools=None)
+        final_messages = self._trim_context_if_needed(build_final_answer_messages(self._trim_context_if_needed(messages)))
+        response = self.client.send_message_with_tools(final_messages, tools=None, max_tokens=getattr(self, "max_tokens", MAX_TOKENS))
         self._accumulate_state_usage(state, response)
         return response
 
@@ -406,13 +415,14 @@ class Chatbot:
             usage={
                 "prompt_tokens": state.total_prompt_tokens,
                 "completion_tokens": state.total_completion_tokens,
-            },
+            } if state.usage_known else {},
             rounds=state.llm_rounds,
         )
 
     def _accumulate_state_usage(self, state: AgentLoopState, response: LLMResponse):
         """累积 token 用量"""
         if response.usage:
+            state.usage_known = True
             state.total_prompt_tokens += response.usage.get("prompt_tokens", 0)
             state.total_completion_tokens += response.usage.get("completion_tokens", 0)
 
@@ -565,44 +575,37 @@ class Chatbot:
 
     @staticmethod
     def _estimate_tokens(messages: List[Dict]) -> int:
-        """粗略估算 token 数（~3 chars/token）"""
-        total_chars = sum(len(str(m.get("content", ""))) for m in messages)
-        total_chars += sum(
-            len(json.dumps(m.get("tool_calls", []), ensure_ascii=False))
-            for m in messages if "tool_calls" in m
-        )
-        return total_chars // 3
+        # UTF-8 bytes are a conservative upper bound for byte-pair tokenizers.
+        # Include role/call IDs and JSON protocol, not just visible content.
+        return len(json.dumps(messages, ensure_ascii=False).encode('utf-8'))
 
-    def _trim_context_if_needed(self, messages: List[Dict]) -> List[Dict]:
-        """L6: 若 token 预算超过阈值，裁剪旧的工具结果"""
-        estimated = self._estimate_tokens(messages)
-        threshold = int(AGENT_MODEL_MAX_CONTEXT * AGENT_CONTEXT_RATIO)
-
-        if estimated <= threshold:
-            return messages
-
-        print(f"  ⚡ Token 预算告警 ({estimated}>{threshold})，裁剪旧工具结果...")
-
-        # 保留: system prompt + 最近 3 轮 tool 结果 + 所有 user/assistant 非工具消息
-        # 策略：跟踪最近的 tool 消息索引，只保留最后 9 条（3 轮 × 3 结果）
-        tool_indices = [
-            i for i, m in enumerate(messages)
-            if m.get("role") == "tool"
-        ]
-        keep_last_n_tools = 9  # 保留最近 3 轮
-
-        if len(tool_indices) > keep_last_n_tools:
-            indices_to_trim = set(tool_indices[:-keep_last_n_tools])
-            trimmed = []
-            for i, m in enumerate(messages):
-                if i in indices_to_trim:
-                    trimmed.append({
-                        "role": "tool",
-                        "tool_call_id": m.get("tool_call_id", ""),
-                        "content": "[已压缩] 早期检索结果已裁剪以节省上下文空间。",
-                    })
-                else:
-                    trimmed.append(m)
-            return trimmed
-
-        return messages
+    def _trim_context_if_needed(self, messages: List[Dict], tools=None) -> List[Dict]:
+        trimmed = deepcopy(messages)
+        overhead = 128
+        threshold = min(int(AGENT_MODEL_MAX_CONTEXT * AGENT_CONTEXT_RATIO),
+                        AGENT_MODEL_MAX_CONTEXT - getattr(self, 'max_tokens', MAX_TOKENS) - overhead)
+        def fits():
+            return self._estimate_tokens({'messages': trimmed, 'tools': tools or []}) <= threshold
+        def real_user(message):
+            content = str(message.get('content') or '')
+            return message.get('role') == 'user' and not content.startswith((
+                '[系统提示]', '[知识库检索结果]', '检索预算已经用完。'))
+        # Drop whole old exchanges, preserving assistant calls and their results.
+        while not fits():
+            starts = [i for i, m in enumerate(trimmed) if real_user(m)]
+            if len(starts) < 2:
+                break
+            trimmed[starts[0]:starts[1]] = [m for m in trimmed[starts[0]:starts[1]]
+                if str(m.get('content') or '').startswith('[知识库检索结果]')]
+        # Compress results without removing tool messages or breaking call IDs.
+        for message in trimmed:
+            if fits():
+                break
+            content = str(message.get('content') or '')
+            if message.get('role') == 'tool' or content.startswith('[知识库检索结果]'):
+                while not fits() and len(content) > 32:
+                    content = content[:max(16, len(content) // 2)]
+                    message['content'] = content + '\n[检索结果已压缩]'
+        if not fits():
+            raise ContextLimitError('输入超出模型上下文预算，请缩短当前输入或降低输出长度后重试')
+        return trimmed

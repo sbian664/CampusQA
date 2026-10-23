@@ -3,10 +3,36 @@ import hashlib
 import os
 from tempfile import TemporaryDirectory
 
-from src.admin.service import AdminService
+from src.admin.service import AdminService, list_session_summaries
 
 
 class AdminServiceTests(unittest.TestCase):
+    def test_session_listing_can_return_total_for_admin_pagination(self):
+        class FakeSession:
+            @classmethod
+            def list_saved_sessions(cls):
+                return ["session-2.json", "session-1.json"]
+
+            def __init__(self, session_id):
+                self.session_id = session_id
+                self.metadata = {
+                    "title": session_id,
+                    "message_count": 1,
+                    "created_at": "2026-09-07T00:00:00Z",
+                    "updated_at": "2026-09-07T00:00:00Z",
+                }
+                self.messages = []
+                self.tool_call_log = []
+
+            def load(self):
+                return True
+
+        page = list_session_summaries(FakeSession, limit=1, offset=1, query=None, include_total=True)
+
+        self.assertEqual(page["total"], 2)
+        self.assertEqual(len(page["items"]), 1)
+        self.assertEqual(page["items"][0]["session_id"], "session-1")
+
     def test_overview_keeps_runtime_unknowns_explicit_and_limits_sessions(self):
         service = AdminService(
             health_provider=lambda: {"status": "ok", "timestamp": "2026-09-02T10:00:00+00:00"},

@@ -256,3 +256,9 @@ OPENAI_API_KEY=sk-your-openai-key
 ```
 
 无需修改代码，重启程序即可生效。
+
+## 维护与兼容
+
+- [维护重建、备份和回退](OPERATIONS.md)
+- [小程序上线前核验清单](MINIPROGRAM_COMPATIBILITY.md)
+- 测试：`python -m pip install -r requirements-dev.txt`，然后 `python -m pytest -q`。CI 使用 Python 3.13。

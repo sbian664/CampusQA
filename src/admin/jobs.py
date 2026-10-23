@@ -54,7 +54,9 @@ class AdminJobManager:
 
         try:
             result = work(progress)
-            self.store.update_job(job_id, status="succeeded", progress=100, phase="complete", message="任务完成", result=result, finished_at=_now())
+            partial = isinstance(result, dict) and result.get('failed', 0) > 0
+            self.store.update_job(job_id, status="partial_failed" if partial else "succeeded", progress=100,
+                                  phase="complete", message="部分文件失败，请修复后重试" if partial else "任务完成", result=result, finished_at=_now())
         except Exception as error:
             self.store.update_job(
                 job_id,
@@ -62,6 +64,7 @@ class AdminJobManager:
                 phase="failed",
                 message="任务失败",
                 error=f"{type(error).__name__}: {error}",
+                result=getattr(error, 'result', None),
                 finished_at=_now(),
             )
             traceback.print_exc()

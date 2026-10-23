@@ -3,15 +3,21 @@
 from __future__ import annotations
 
 import hashlib
+import logging
 import os
 import shutil
 import uuid
+import tempfile
+from contextlib import contextmanager, nullcontext
+from copy import deepcopy
+from src.file_processing import file_operation, copy_limited, MAX_FILE_BYTES, ensure_file_size
+from src.errors import FileLimitError, RepairRequired
 from pathlib import Path
 from threading import RLock
 from typing import Any, BinaryIO, Callable, Dict, Optional
 
 EDITABLE_DOCUMENT_SUFFIXES = {".md", ".txt", ".html"}
-MAX_EDITABLE_CONTENT_BYTES = 5 * 1024 * 1024
+MAX_EDITABLE_CONTENT_BYTES = MAX_FILE_BYTES
 
 class AdminDocumentService:
     def __init__(self, *, kb_provider: Callable[[], Any], documents_dir: str, supported_formats: set[str], mutation_lock: RLock | None = None) -> None:
@@ -103,9 +109,11 @@ class AdminDocumentService:
     def list_documents(self, *, limit: int = 50, offset: int = 0, query: Optional[str] = None) -> list[Dict[str, Any]]:
         return self.list_documents_page(limit=limit, offset=offset, query=query)["items"]
 
+    @file_operation
     def get_document(self, document_id: str) -> Dict[str, Any]:
         path = self._resolve_id(document_id)
         item = self._metadata(path)
+        ensure_file_size(path)
         try:
             if path.suffix.lower() in EDITABLE_DOCUMENT_SUFFIXES:
                 content = path.read_text(encoding="utf-8")
@@ -125,156 +133,188 @@ class AdminDocumentService:
             raise FileNotFoundError("文档不存在")
         return path
 
-    def rename(self, document_id: str, filename: str) -> Dict[str, Any]:
-        old_path = self._resolve_id(document_id)
-        new_path = self._safe_path(filename)
-        if new_path == old_path:
-            raise ValueError("新文件名与当前文件名相同")
-        if new_path.exists():
-            raise ValueError("目标文件名已存在")
+    @staticmethod
+    def _persist(kb):
+        for name in ('_save_metadata', '_save_chunk_texts', '_save_store'):
+            method = getattr(kb, name, None)
+            if method:
+                method()
 
-        kb = self.kb_provider()
-        stable_id = self._stored_document_id(old_path, kb)
-        try:
-            with self.mutation_lock:
-                os.replace(old_path, new_path)
+    @contextmanager
+    def _transaction(self, kb, paths, persist=True):
+        # The lock covers file and vector snapshots, mutation, persistence and rollback.
+        with self.mutation_lock:
+            state = getattr(kb, 'index_state', None)
+            with state.write() if state else nullcontext():
+                backup_dir = Path(tempfile.mkdtemp(prefix='campusqa_rollback_'))
+                rollback_failed = False
+                originals = {}
                 try:
-                    # Let KnowledgeBase carry the stable admin ID into every
-                    # newly indexed chunk before the old path is removed.
-                    getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
-                    if kb._update_document(str(new_path)) is False:
-                        raise RuntimeError("文档索引未提交")
-                    new_metadata = getattr(kb, "metadata", {}).setdefault(str(new_path), {})
-                    new_metadata["document_id"] = stable_id
-                    if hasattr(kb, "delete_document"):
-                        kb.delete_document(str(old_path))
-                    else:
-                        old_metadata = getattr(kb, "metadata", {}).pop(str(old_path), {})
-                        for chunk_id in old_metadata.get("chunk_ids", []):
-                            kb._remove_chunk_ids([chunk_id])
-                    kb._save_metadata()
-                    kb._save_chunk_texts()
-                    kb._save_store()
+                    for i, path in enumerate(paths):
+                        if path.exists():
+                            backup = backup_dir / str(i)
+                            shutil.copyfile(path, backup)
+                            originals[path] = (backup, path.stat())
+                        else:
+                            originals[path] = None
                 except Exception:
-                    if hasattr(kb, "delete_document") and str(new_path) in getattr(kb, "metadata", {}):
-                        kb.delete_document(str(new_path))
-                    if new_path.exists() and not old_path.exists():
-                        os.replace(new_path, old_path)
+                    self._cleanup_backup(backup_dir)
                     raise
-        except Exception:
-            raise
+                try:
+                    snapshot = kb.snapshot_documents(paths) if hasattr(kb, 'snapshot_documents') else deepcopy(getattr(kb, 'metadata', {}))
+                except Exception:
+                    self._cleanup_backup(backup_dir)
+                    raise
+                try:
+                    yield
+                    if persist:
+                        self._persist(kb)
+                except Exception as original:
+                    try:
+                        for path, saved in originals.items():
+                            if saved is None:
+                                path.unlink(missing_ok=True)
+                            else:
+                                temporary = path.with_name(f'.{path.name}.{uuid.uuid4().hex}.tmp')
+                                try:
+                                    shutil.copyfile(saved[0], temporary)
+                                    os.replace(temporary, path)
+                                finally:
+                                    temporary.unlink(missing_ok=True)
+                                os.utime(path, (saved[1].st_atime, saved[1].st_mtime))
+                        if hasattr(kb, 'restore_documents'):
+                            kb.restore_documents(snapshot)
+                        else:
+                            kb.metadata = snapshot
+                            self._persist(kb)
+                    except Exception as recovery:
+                        rollback_failed = True
+                        reason = f'文档回滚失败，需要修复: {type(original).__name__}: {original}; {type(recovery).__name__}: {recovery}; 恢复备份: {backup_dir}'
+                        if hasattr(kb, 'mark_repair_required'):
+                            kb.mark_repair_required(reason)
+                        elif state:
+                            state.set('repair_required', reason)
+                        raise RepairRequired(reason) from recovery
+                    raise
+                finally:
+                    self._catalog_cache = None
+                    if not rollback_failed:
+                        self._cleanup_backup(backup_dir)
 
-        self.invalidate_catalog()
-        result = self._metadata(new_path, kb)
-        result["status"] = "renamed"
-        return result
-
-    def update_content(self, document_id: str, content: str) -> Dict[str, Any]:
-        path = self._resolve_id(document_id)
-        if path.suffix.lower() not in EDITABLE_DOCUMENT_SUFFIXES:
-            raise ValueError("当前格式不支持正文编辑，请使用替换文件")
-        if not isinstance(content, str):
-            raise ValueError("文档内容必须是文本")
-        encoded = content.encode("utf-8")
-        if len(encoded) > MAX_EDITABLE_CONTENT_BYTES:
-            raise ValueError("文档内容不能超过 5 MB")
-
-        old_bytes = path.read_bytes()
-        old_stat = path.stat()
-        kb = self.kb_provider()
-        stable_id = self._stored_document_id(path, kb)
-        temp_path = path.with_name(f".{path.name}.admin-edit-{uuid.uuid4().hex}.tmp")
+    @staticmethod
+    def _cleanup_backup(path):
         try:
-            with self.mutation_lock:
-                temp_path.write_bytes(encoded)
-                os.replace(temp_path, path)
-                if kb._update_document(str(path)) is False:
-                    raise RuntimeError("文档索引未提交")
-                getattr(kb, "metadata", {}).setdefault(str(path), {})["document_id"] = stable_id
-                kb._save_metadata()
-                kb._save_chunk_texts()
-                kb._save_store()
-        except Exception:
-            temp_path.unlink(missing_ok=True)
-            path.write_bytes(old_bytes)
-            os.utime(path, (old_stat.st_atime, old_stat.st_mtime))
-            raise
-        self.invalidate_catalog()
-        result = self._metadata(path)
-        result["status"] = "updated"
-        return result
+            shutil.rmtree(path)
+        except OSError:
+            logging.getLogger(__name__).warning('临时备份清理失败，已保留: %s', path)
 
+    @staticmethod
+    def _write_bytes(path, content):
+        temporary = path.with_name(f'.{path.name}.{uuid.uuid4().hex}.tmp')
+        try:
+            with temporary.open('wb') as destination:
+                destination.write(content)
+                destination.flush()
+                os.fsync(destination.fileno())
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
+
+    def _index(self, kb, path, stable_id):
+        kb.metadata.setdefault(str(path), {})['document_id'] = stable_id
+        if kb._update_document(str(path)) is False:
+            raise RuntimeError('文档索引未提交')
+        kb.metadata.setdefault(str(path), {})['document_id'] = stable_id
+
+    def _remove_index(self, kb, path):
+        if hasattr(kb, 'delete_document'):
+            kb.delete_document(str(path))
+        else:
+            old = kb.metadata.pop(str(path), {})
+            kb._remove_chunk_ids(old.get('chunk_ids', []))
+
+    @file_operation
+    def rename(self, document_id: str, filename: str) -> Dict[str, Any]:
+        with self.mutation_lock:
+            old_path = self._resolve_id(document_id)
+            new_path = self._safe_path(filename)
+            if new_path == old_path:
+                raise ValueError('新文件名与当前文件名相同')
+            if new_path.exists():
+                raise ValueError('目标文件名已存在')
+            kb = self.kb_provider()
+            stable_id = self._stored_document_id(old_path, kb)
+            with self._transaction(kb, [old_path, new_path]):
+                os.replace(old_path, new_path)
+                self._index(kb, new_path, stable_id)
+                self._remove_index(kb, old_path)
+            return {**self._metadata(new_path, kb), 'status': 'renamed'}
+
+    @file_operation
+    def update_content(self, document_id: str, content: str) -> Dict[str, Any]:
+        with self.mutation_lock:
+            path = self._resolve_id(document_id)
+            if path.suffix.lower() not in EDITABLE_DOCUMENT_SUFFIXES:
+                raise ValueError('当前格式不支持正文编辑，请使用替换文件')
+            if not isinstance(content, str):
+                raise ValueError('文档内容必须是文本')
+            encoded = content.encode('utf-8')
+            if len(encoded) > MAX_EDITABLE_CONTENT_BYTES:
+                raise FileLimitError('文档内容不能超过 20 MB')
+            kb = self.kb_provider()
+            stable_id = self._stored_document_id(path, kb)
+            with self._transaction(kb, [path]):
+                self._write_bytes(path, encoded)
+                self._index(kb, path, stable_id)
+            return {**self._metadata(path, kb), 'status': 'updated'}
+
+    @contextmanager
+    def _staged(self, stream):
+        # Hidden .tmp files are never discoverable as knowledge documents.
+        fd, name = tempfile.mkstemp(prefix='.upload-', suffix='.tmp', dir=self.documents_dir)
+        path = Path(name)
+        try:
+            with os.fdopen(fd, 'wb') as destination:
+                copy_limited(stream, destination)
+            yield path
+        finally:
+            path.unlink(missing_ok=True)
+
+    @file_operation
     def upload(self, filename: str, stream: BinaryIO) -> Dict[str, Any]:
         path = self._safe_path(filename)
-        if path.exists():
-            raise ValueError("文件已存在，请使用替换操作")
-        kb = self.kb_provider()
-        try:
-            with self.mutation_lock:
-                with path.open("wb") as destination:
-                    shutil.copyfileobj(stream, destination)
-                if kb._update_document(str(path)) is False:
-                    raise RuntimeError("文档索引未提交")
-                kb._save_metadata()
-                kb._save_chunk_texts()
-                kb._save_store()
-        except Exception:
-            path.unlink(missing_ok=True)
-            raise
-        self.invalidate_catalog()
-        return self._metadata(path)
+        with self._staged(stream) as staged, self.mutation_lock:
+            if path.exists():
+                raise ValueError('文件已存在，请使用替换操作')
+            kb = self.kb_provider()
+            with self._transaction(kb, [path]):
+                os.replace(staged, path)
+                self._index(kb, path, self._document_id(path))
+            return self._metadata(path, kb)
 
+    @file_operation
     def delete_document(self, document_id: str) -> Dict[str, Any]:
-        path = self._resolve_id(document_id)
-        kb = self.kb_provider()
         with self.mutation_lock:
-            if hasattr(kb, "delete_document"):
-                kb.delete_document(str(path))
-            else:
-                raw = getattr(kb, "metadata", {}).pop(str(path), {})
-                for chunk_id in raw.get("chunk_ids", []):
-                    kb._remove_chunk_ids([chunk_id])
-                kb._save_metadata()
-                kb._save_chunk_texts()
-                kb._save_store()
-            path.unlink()
-        self.invalidate_catalog()
-        return {"status": "deleted", "document_id": document_id}
+            path = self._resolve_id(document_id)
+            kb = self.kb_provider()
+            with self._transaction(kb, [path]):
+                self._remove_index(kb, path)
+                path.unlink()
+            return {'status': 'deleted', 'document_id': document_id}
 
+    @file_operation
     def replace(self, document_id: str, filename: str, stream: BinaryIO) -> Dict[str, Any]:
-        old_path = self._resolve_id(document_id)
         new_path = self._safe_path(filename)
-        if new_path != old_path and new_path.exists():
-            raise ValueError("目标文件名已存在")
-        old_bytes = old_path.read_bytes()
-        kb = self.kb_provider()
-        stable_id = self._stored_document_id(old_path, kb)
-        try:
-            with self.mutation_lock:
-                with new_path.open("wb") as destination:
-                    shutil.copyfileobj(stream, destination)
-                # Preserve the document identity when replacement also changes
-                # the filename, so retrieval traces keep the same detail link.
-                getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
-                if kb._update_document(str(new_path)) is False:
-                    raise RuntimeError("文档索引未提交")
-                getattr(kb, "metadata", {}).setdefault(str(new_path), {})["document_id"] = stable_id
-                if new_path != old_path:
-                    if hasattr(kb, "delete_document"):
-                        kb.delete_document(str(old_path))
-                    else:
-                        old_metadata = getattr(kb, "metadata", {}).pop(str(old_path), {})
-                        for chunk_id in old_metadata.get("chunk_ids", []):
-                            kb._remove_chunk_ids([chunk_id])
+        with self._staged(stream) as staged, self.mutation_lock:
+            old_path = self._resolve_id(document_id)
+            if new_path != old_path and new_path.exists():
+                raise ValueError('目标文件名已存在')
+            kb = self.kb_provider()
+            stable_id = self._stored_document_id(old_path, kb)
+            with self._transaction(kb, list(dict.fromkeys([old_path, new_path]))):
+                os.replace(staged, new_path)
+                self._index(kb, new_path, stable_id)
+                if old_path != new_path:
+                    self._remove_index(kb, old_path)
                     old_path.unlink()
-                kb._save_metadata()
-                kb._save_chunk_texts()
-                kb._save_store()
-        except Exception:
-            if new_path == old_path:
-                old_path.write_bytes(old_bytes)
-            else:
-                new_path.unlink(missing_ok=True)
-            raise
-        self.invalidate_catalog()
-        return {"status": "replaced", "document_id": stable_id, "filename": new_path.name}
+            return {'status': 'replaced', 'document_id': stable_id, 'filename': new_path.name}

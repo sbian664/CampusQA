@@ -89,20 +89,21 @@ class ChromaStore(VectorStore):
 
     def clear(self):
         """清空所有向量（兼容 Chroma 各版本）"""
-        try:
-            # 方法1：获取所有 ID 然后按 ID 删除（最可靠）
-            result = self.collection.get(limit=self.collection.count())
-            if result and result.get('ids'):
+        if self.collection.count():
+            result = self.collection.get(include=[])
+            if result.get('ids'):
                 self.collection.delete(ids=result['ids'])
-        except Exception:
-            try:
-                # 方法2：fallback 用 where={}（某些版本有效）
-                self.collection.delete(where={})
-            except Exception:
-                pass
+        if self.collection.count():
+            raise RuntimeError('旧分块未完全清除，需要修复')
 
     def count(self):
         return self.collection.count()
+
+    def get_records(self, ids):
+        if not ids:
+            return {'ids': [], 'documents': [], 'metadatas': [], 'embeddings': []}
+        result = self.collection.get(ids=ids, include=['documents', 'metadatas', 'embeddings'])
+        return {key: list(result[key]) for key in ('ids', 'documents', 'metadatas', 'embeddings')}
 
     def get_all(self):
         """获取所有文档"""
@@ -194,6 +195,14 @@ class FaissStore(VectorStore):
 
     def count(self):
         return self.index.ntotal
+
+    def get_records(self, ids):
+        wanted = set(ids)
+        indices = [i for i, cid in enumerate(self._ids) if cid in wanted]
+        return {'ids': [self._ids[i] for i in indices],
+                'documents': [self._documents[i] for i in indices],
+                'metadatas': [self._metadatas[i] for i in indices],
+                'embeddings': [self.index.reconstruct(i).tolist() for i in indices]}
 
     def get_all(self):
         """获取所有文档"""

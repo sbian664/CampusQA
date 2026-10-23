@@ -51,17 +51,13 @@ data/user_llm_config.json
 *.log
 logs/
 
-# 本地测试与诊断脚本（不随产品代码提交）
-/tests/*
-
-# 开发中途文档
-docs/
-
 # Backend-only branch: local frontend/evaluation workspace is not part of this branch
 /frontend/
 /eval/
-/tests/
 /admin-dist/
 
 # 本地AI相关文档
 AGENT.md
+
+.venv*/
+.pytest_cache/

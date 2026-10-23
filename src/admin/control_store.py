@@ -9,6 +9,7 @@ import os
 import secrets
 import sqlite3
 import uuid
+from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
@@ -91,11 +92,16 @@ class AdminControlStore:
         self.cookie_secure = cookie_secure
         self._initialize()
 
-    def _connect(self) -> sqlite3.Connection:
+    @contextmanager
+    def _connect(self):
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         connection = sqlite3.connect(str(self.db_path), timeout=10)
         connection.row_factory = sqlite3.Row
-        return connection
+        try:
+            with connection:
+                yield connection
+        finally:
+            connection.close()
 
     def _initialize(self) -> None:
         with self._connect() as connection:
@@ -434,6 +440,20 @@ class AdminControlStore:
             return json.loads(row["value_json"])
         except (TypeError, ValueError, json.JSONDecodeError):
             return None
+
+    def get_settings(self, keys):
+        if not keys:
+            return {}
+        with self._connect() as connection:
+            rows = connection.execute('SELECT setting_key, value_json FROM admin_settings WHERE setting_key IN (' +
+                                      ','.join('?' for _ in keys) + ')', list(keys)).fetchall()
+        return {row['setting_key']: json.loads(row['value_json']) for row in rows}
+
+    def set_settings(self, values):
+        records = [(key, json.dumps(value, ensure_ascii=False), _iso_now()) for key, value in values.items()]
+        with self._connect() as connection:
+            connection.executemany('''INSERT INTO admin_settings(setting_key, value_json, updated_at) VALUES (?, ?, ?)
+                ON CONFLICT(setting_key) DO UPDATE SET value_json=excluded.value_json, updated_at=excluded.updated_at''', records)
 
     def set_setting(self, key: str, value: Any) -> None:
         with self._connect() as connection:

@@ -49,8 +49,9 @@ class AdminConfigService:
             "bm25_weight": float(BM25_WEIGHT),
             "max_tokens": int(MAX_TOKENS),
         }
+        snapshot = self.control_store.get_settings([f'runtime.{key}' for key in defaults])
         for key in defaults:
-            value = self.control_store.get_setting(f"runtime.{key}")
+            value = snapshot.get(f'runtime.{key}')
             if value is not None:
                 defaults[key] = value
         return {**defaults, "precedence": "admin_runtime > environment > defaults"}
@@ -66,8 +67,7 @@ class AdminConfigService:
             raise ValueError("BM25 权重必须在 0 到 1 之间")
         if "max_tokens" in payload and not 1 <= int(payload["max_tokens"]) <= 128000:
             raise ValueError("最大 Token 必须在 1 到 128000 之间")
-        for key, value in payload.items():
-            self.control_store.set_setting(f"runtime.{key}", value)
+        self.control_store.set_settings({f"runtime.{key}": value for key, value in payload.items()})
         return self.runtime_config()
 
     def toggle_mode(self) -> Dict[str, Any]:

@@ -2,6 +2,7 @@
 文档加载器 - 支持多种格式（MD, TXT, PDF, HTML）
 """
 import os
+from src.file_processing import ensure_file_size, file_operation
 from pathlib import Path
 from typing import List, Dict, Optional
 from datetime import datetime
@@ -29,6 +30,7 @@ class DocumentLoader:
         # 确保目录存在
         os.makedirs(self.base_dir, exist_ok=True)
     
+    @file_operation
     def load_file(self, file_path: str) -> List[Document]:
         """
         加载单个文件
@@ -58,6 +60,8 @@ class DocumentLoader:
         if not os.path.exists(file_path):
             raise FileNotFoundError(f"文件不存在: {file_path}")
         
+        ensure_file_size(file_path)
+
         # 获取文件扩展名
         ext = Path(file_path).suffix.lower()
         

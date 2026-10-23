@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import hashlib
+import io
+from src.file_processing import copy_limited, file_operation, MAX_FILE_BYTES
 import hmac
 from html import unescape
 import os
@@ -228,6 +230,7 @@ class SubmissionService:
         elif extension == ".pdf" and not data.startswith(b"%PDF"):
             raise ValueError("document is not a valid PDF")
 
+    @file_operation
     def submit(self, filename: str, stream: BinaryIO, *, client_key: str = "unknown") -> dict[str, Any]:
         if not filename or filename != os.path.basename(filename) or any(char in filename for char in "/\\"):
             raise ValueError("invalid filename")
@@ -235,7 +238,9 @@ class SubmissionService:
         if extension not in self.supported_formats:
             raise ValueError(f"unsupported format: {extension}")
 
-        data = stream.read(self.max_file_size + 1)
+        buffer = io.BytesIO()
+        copy_limited(stream, buffer, self.max_file_size)
+        data = buffer.getvalue()
         if isinstance(data, str):
             data = data.encode("utf-8")
         if not data:
@@ -432,6 +437,7 @@ class SubmissionService:
     def _document_id(filename: str) -> str:
         return hashlib.sha256(filename.encode("utf-8")).hexdigest()[:24]
 
+    @file_operation
     def publish(self, submission_id: str) -> dict[str, Any]:
         with self._connect() as connection:
             row = connection.execute("SELECT * FROM knowledge_submissions WHERE submission_id = ?", (submission_id,)).fetchone()
@@ -448,44 +454,30 @@ class SubmissionService:
             raise FileNotFoundError("staging file not found")
         published_filename = self._published_filename(row)
         published_path = self.documents_dir / published_filename
-        published_path.unlink(missing_ok=True)
-
+        from src.admin.documents import AdminDocumentService
         kb = self.kb_provider()
+        documents = AdminDocumentService(kb_provider=lambda: kb, documents_dir=str(self.documents_dir),
+                                         supported_formats=self.supported_formats, mutation_lock=self.mutation_lock)
         try:
             with self.mutation_lock:
-                shutil.copyfile(staging_path, published_path)
-                try:
+                if published_path.exists():
+                    raise FileExistsError('目标文件已存在，请核验并修复后重试')
+                # Snapshot index + source together; DB publication is the final commit.
+                with documents._transaction(kb, [published_path], persist=False):
+                    with staging_path.open('rb') as source, documents._staged(source) as staged:
+                        os.replace(staged, published_path)
                     kb.index_document(str(published_path))
-                except Exception:
-                    remove_document = getattr(kb, "delete_document", None)
-                    if callable(remove_document):
-                        try:
-                            remove_document(str(published_path))
-                        except Exception:
-                            pass
-                    raise
-            now = self._now()
-            with self._connect() as connection:
-                connection.execute(
-                    """
-                    UPDATE knowledge_submissions
-                    SET status = ?, published_filename = ?, published_document_id = ?,
-                        published_at = ?, error_message = NULL, updated_at = ?
-                    WHERE submission_id = ?
-                    """,
-                    (SubmissionStatus.PUBLISHED, published_filename, self._document_id(published_filename), now, now, submission_id),
-                )
-                row = connection.execute("SELECT * FROM knowledge_submissions WHERE submission_id = ?", (submission_id,)).fetchone()
-            return self._admin_projection(row)
+                    now = self._now()
+                    with self._connect() as connection:
+                        connection.execute(
+                            '''UPDATE knowledge_submissions
+                            SET status = ?, published_filename = ?, published_document_id = ?,
+                                published_at = ?, error_message = NULL, updated_at = ? WHERE submission_id = ?''',
+                            (SubmissionStatus.PUBLISHED, published_filename, self._document_id(published_filename), now, now, submission_id),
+                        )
+                        row = connection.execute('SELECT * FROM knowledge_submissions WHERE submission_id = ?', (submission_id,)).fetchone()
+                return self._admin_projection(row)
         except Exception as error:
-            with self.mutation_lock:
-                remove_document = getattr(kb, "delete_document", None)
-                if callable(remove_document):
-                    try:
-                        remove_document(str(published_path))
-                    except Exception:
-                        pass
-            published_path.unlink(missing_ok=True)
             self._mark_failed(submission_id, str(error))
             raise
 

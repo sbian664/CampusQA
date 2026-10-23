@@ -113,6 +113,7 @@ def search_with_optional_rerank(
     model_loader: Callable = get_reranker_model,
     rerank_query: Optional[str] = None,
     return_candidates: bool = False,
+    bm25_weight: Optional[float] = None,
 ) -> Union[List[Dict], Tuple[List[Dict], List[Dict]]]:
     """Retrieve with ``query`` and optionally rerank with another query.
 
@@ -122,7 +123,8 @@ def search_with_optional_rerank(
     use_reranker = bool(enabled and RERANKER_AVAILABLE)
     requested_k = max(1, int(top_k))
     search_k = max(requested_k, int(candidate_k)) if use_reranker else requested_k
-    results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters)
+    weight = {} if bm25_weight is None else {"bm25_weight": bm25_weight}
+    results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters, **weight)
     if not use_reranker:
         ranked = results[:requested_k]
         return (ranked, results) if return_candidates else ranked

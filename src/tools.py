@@ -8,6 +8,8 @@ import json
 import hashlib
 import os
 import time
+from src.index_state import retrieval_guard
+from src.errors import KnowledgeUnavailable
 from typing import List, Dict, Optional
 from collections import defaultdict
 
@@ -285,11 +287,12 @@ class ToolHandler:
 
     def __init__(self, knowledge_base, rerank_enabled=False,
                  reranker_loader=get_reranker_model, turn_id=None,
-                 user_query: Optional[str] = None):
+                 user_query: Optional[str] = None, bm25_weight=None):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
         """
+        self.bm25_weight = bm25_weight
         self.kb = knowledge_base
         self.rerank_enabled = rerank_enabled
         self.reranker_loader = reranker_loader
@@ -298,6 +301,7 @@ class ToolHandler:
         self.call_log: List[Dict] = []  # 工具调用日志
         self._pending_trace: Dict = {}
 
+    @retrieval_guard
     def execute(self, tool_name: str, arguments: Dict) -> str:
         """
         执行工具调用
@@ -317,6 +321,8 @@ class ToolHandler:
             else:
                 result_text = f"[ERROR] 未知工具: {tool_name}"
                 self._pending_trace = {"error": result_text}
+        except KnowledgeUnavailable:
+            raise
         except Exception as error:
             result_text = f"[ERROR] 工具执行失败: {type(error).__name__}: {error}"
             self._pending_trace = {"error": result_text}
@@ -389,6 +395,7 @@ class ToolHandler:
                     model_loader=self.reranker_loader,
                     rerank_query=rerank_query,
                     return_candidates=True,
+                    **({"bm25_weight": self.bm25_weight} if self.bm25_weight is not None else {}),
                 )
                 if isinstance(search_output, tuple):
                     results, rerank_candidates = search_output
@@ -399,6 +406,8 @@ class ToolHandler:
             else:
                 results = self.kb.search(query, top_k=top_k, filters=filters)
                 rerank_candidates = results
+        except KnowledgeUnavailable:
+            raise
         except Exception as e:
             self._pending_trace.update({"result_count": 0, "hits": [], "error": f"{type(e).__name__}: {e}"})
             return f"[ERROR] 搜索执行失败: {type(e).__name__}: {str(e)}"

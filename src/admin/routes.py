@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import os
 import inspect
+from src.file_processing import run_file_work
+from src.errors import FileLimitError
 import mimetypes
 from typing import Any, Dict, Optional
 
@@ -212,6 +214,8 @@ def create_admin_router(
             raise HTTPException(status_code=503, detail="会话服务未配置")
         try:
             return service.session_detail(session_id)
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         except (FileNotFoundError, LookupError) as error:
@@ -223,6 +227,8 @@ def create_admin_router(
             raise HTTPException(status_code=503, detail="会话服务未配置")
         try:
             detail = service.session_detail(session_id)
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         except (FileNotFoundError, LookupError) as error:
@@ -270,6 +276,8 @@ def create_admin_router(
             raise HTTPException(status_code=503, detail="配置服务未配置")
         try:
             result = config_service.update_llm(payload.model_dump() if hasattr(payload, "model_dump") else payload.dict())
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(actor=session["username"], action="llm_config.update", target="runtime", status="success",
@@ -283,6 +291,8 @@ def create_admin_router(
             raise HTTPException(status_code=503, detail="配置服务未配置")
         try:
             result = config_service.test_llm(payload.model_dump() if hasattr(payload, "model_dump") else payload.dict())
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             store.record_audit(actor=session["username"], action="llm_config.test", target="runtime", status="failure",
                                request_id=getattr(request.state, "request_id", None), details={"reason": str(error)})
@@ -309,6 +319,8 @@ def create_admin_router(
         values = payload.model_dump(exclude_none=True) if hasattr(payload, "model_dump") else payload.dict(exclude_none=True)
         try:
             result = config_service.update_runtime(values)
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(actor=session["username"], action="runtime_config.update", target="runtime", status="success",
@@ -402,6 +414,8 @@ def create_admin_router(
             result = submission_service.reject(submission_id, payload.reason)
         except LookupError as error:
             raise HTTPException(status_code=404, detail=str(error))
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(
@@ -451,7 +465,9 @@ def create_admin_router(
     def jobs(limit: int = 50, offset: int = 0, session: Dict[str, Any] = Depends(require_admin)):
         if job_manager is None:
             raise HTTPException(status_code=503, detail="任务服务未配置")
-        return {"items": job_manager.list(limit=max(1, min(limit, 100)), offset=max(0, offset))}
+        stats = service.kb_provider() if service else {}
+        return {"items": job_manager.list(limit=max(1, min(limit, 100)), offset=max(0, offset)),
+                "index_state": stats.get('index_state', 'unknown'), "index_state_detail": stats.get('index_state_detail', {})}
 
     @router.get("/kb/jobs/{job_id}")
     def job_detail(job_id: str, session: Dict[str, Any] = Depends(require_admin)):
@@ -504,6 +520,8 @@ def create_admin_router(
             result = document_service.rename(document_id, payload.filename)
         except (FileNotFoundError, LookupError) as error:
             raise HTTPException(status_code=404, detail=str(error))
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(actor=session["username"], action="kb.document.rename", target=document_id, status="success")
@@ -518,6 +536,8 @@ def create_admin_router(
             result = document_service.update_content(document_id, payload.content)
         except (FileNotFoundError, LookupError) as error:
             raise HTTPException(status_code=404, detail=str(error))
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(actor=session["username"], action="kb.document.edit", target=document_id, status="success")
@@ -528,9 +548,11 @@ def create_admin_router(
         if document_service is None:
             raise HTTPException(status_code=503, detail="文档服务未配置")
         try:
-            result = document_service.upload(file.filename or "", file.file)
+            result = await run_file_work(document_service.upload, file.filename or "", file.file)
             if inspect.isawaitable(result):
                 result = await result
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         except Exception as error:
@@ -554,11 +576,13 @@ def create_admin_router(
         if document_service is None:
             raise HTTPException(status_code=503, detail="文档服务未配置")
         try:
-            result = document_service.replace(document_id, file.filename or "", file.file)
+            result = await run_file_work(document_service.replace, document_id, file.filename or "", file.file)
             if inspect.isawaitable(result):
                 result = await result
         except (FileNotFoundError, LookupError) as error:
             raise HTTPException(status_code=404, detail=str(error))
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
         store.record_audit(actor=session["username"], action="kb.document.replace", target=document_id, status="accepted")

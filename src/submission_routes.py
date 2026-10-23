@@ -7,6 +7,8 @@ from typing import Any
 from fastapi import APIRouter, File, Form, Header, HTTPException, Request, UploadFile
 
 from src.submissions import SubmissionService
+from src.file_processing import run_file_work
+from src.errors import FileLimitError
 
 
 def create_submission_router(service: SubmissionService) -> APIRouter:
@@ -21,7 +23,9 @@ def create_submission_router(service: SubmissionService) -> APIRouter:
         client_key = request.client.host if request.client else "unknown"
         try:
             filename = original_filename or file.filename or ""
-            return service.submit(filename, file.file, client_key=client_key)
+            return await run_file_work(service.submit, filename, file.file, client_key=client_key)
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             message = str(error)
             status_code = 413 if "size" in message else 400

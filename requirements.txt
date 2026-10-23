@@ -27,3 +27,7 @@ openai>=1.0.0
 # Web 后端
 fastapi>=0.100.0
 uvicorn[standard]>=0.20.0
+
+python-multipart>=0.0.9
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1

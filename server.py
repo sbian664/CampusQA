@@ -6,6 +6,13 @@ import os
 import json
 import re
 import traceback
+import logging
+from copy import copy
+from fastapi.responses import JSONResponse
+from src.file_processing import run_file_work, copy_limited, file_operation
+from src.errors import ContextLimitError, FileLimitError, KnowledgeUnavailable, RepairRequired
+import inspect
+from functools import wraps
 import tempfile
 import uuid
 import time
@@ -18,7 +25,7 @@ import shutil
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, HTTPException, UploadFile, File
+from fastapi import Request, Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -42,7 +49,7 @@ from config import (
 from src.chatbot import Chatbot, AgentChatResult
 from src.context_router import ContextRouter, create_context_router
 from src.llm_client import create_llm_client
-from src.session import Session
+from src.session import Session, SessionConflict, validate_session_id
 from src.knowledge_base import KnowledgeBase
 from src.document_loader import DocumentLoader
 from src.user_llm_config import UserLLMConfigStore
@@ -62,17 +69,23 @@ from src.submission_routes import create_submission_router
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
+@file_operation
+def _startup_index(kb):
+    with _kb_mutation_lock, kb.index_state.write():
+        _submission_service.cleanup_recovered_indexes()
+        kb.load_documents_from_dir(max_workers=1)
+
+
 @asynccontextmanager
 async def _lifespan(app: FastAPI):
     """启动时预加载嵌入模型和知识库"""
     print("⚡ 预加载嵌入模型...")
     kb = get_kb()
     print(f"✓ 嵌入模型已就绪 (维度: {kb.embeddings_manager.get_embedding_dimension()})")
-    _submission_service.cleanup_recovered_indexes()
-    print("📂 加载文档索引...")
-    with _kb_mutation_lock:
-        updated = kb.load_documents_from_dir()
-    print(f"✓ 文档索引完成 (更新 {updated} 个)")
+    if kb.index_state.status == 'ready':
+        await run_file_work(_startup_index, kb)
+    else:
+        print('知识库处于维护状态；保留现有索引并等待管理员修复重建')
     get_chatbot()
     print("✓ Chatbot 已就绪")
     print("=" * 50)
@@ -110,6 +123,7 @@ app.add_middleware(
         ).split(",")
         if origin.strip()
     ],
+    expose_headers=["X-Request-ID"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -147,11 +161,34 @@ _llm_config_store = UserLLMConfigStore()
 _title_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="session-title")
 
 
+async def observe_chat_request(request, call_next):
+    request.state.request_id = uuid.uuid4().hex
+    request.state.chat_trace = {'stage': 'validation', 'effective_mode': None, 'usage': None, 'outcome': 'error'}
+    started = time.perf_counter()
+    status = 500
+    try:
+        response = await call_next(request)
+        status = response.status_code
+        response.headers['X-Request-ID'] = request.state.request_id
+        return response
+    finally:
+        trace = request.state.chat_trace
+        logging.getLogger('uvicorn.error').info('chat_request %s', json.dumps({
+            'request_id': request.state.request_id,
+            'duration_ms': round((time.perf_counter() - started) * 1000),
+            'effective_mode': trace['effective_mode'], 'outcome': trace['outcome'],
+            'status_code': status, 'error_stage': trace['stage'] if trace['outcome'] == 'error' else None,
+            'usage': trace['usage'],
+        }, ensure_ascii=False))
+
+
 @app.middleware("http")
 async def admin_request_observability(request, call_next):
-    """Attach a correlation id and collect only bounded admin metrics."""
+    """Attach correlation IDs without logging message text or model credentials."""
+    if request.url.path == '/api/chat':
+        return await observe_chat_request(request, call_next)
     observed_paths = {
-        "/api/llm-config", "/api/llm-config/test", "/api/upload", "/api/upload-legacy",
+        "/api/chat", "/api/llm-config", "/api/llm-config/test", "/api/upload", "/api/upload-legacy",
         "/api/kb/scan", "/api/kb/rebuild", "/api/mode/toggle",
     }
     if not request.url.path.startswith("/api/admin") and request.url.path not in observed_paths and not request.url.path.startswith("/api/sessions/") and not request.url.path.startswith("/api/session/"):
@@ -191,6 +228,22 @@ async def admin_request_observability(request, call_next):
     return response
 
 
+@app.exception_handler(ContextLimitError)
+@app.exception_handler(FileLimitError)
+async def input_limit_handler(request, error):
+    return JSONResponse(status_code=413, content={"detail": str(error)})
+
+
+@app.exception_handler(KnowledgeUnavailable)
+async def knowledge_unavailable_handler(request, error):
+    return JSONResponse(status_code=503, content={"detail": str(error)})
+
+
+@app.exception_handler(RepairRequired)
+async def repair_required_handler(request, error):
+    return JSONResponse(status_code=500, content={"detail": str(error), "repair_required": True})
+
+
 def get_kb() -> KnowledgeBase:
     global _kb
     if _kb is None:
@@ -198,9 +251,9 @@ def get_kb() -> KnowledgeBase:
     return _kb
 
 
-def get_chatbot() -> Chatbot:
+def get_chatbot(llm_config=None) -> Chatbot:
     global _chatbot
-    llm_config = get_llm_config()
+    llm_config = get_llm_config() if llm_config is None else llm_config
     config_signature = json.dumps(llm_config, sort_keys=True)
     if _chatbot is None or getattr(_chatbot, "_llm_config_signature", None) != config_signature:
         _chatbot = Chatbot(knowledge_base=get_kb(), llm_config=llm_config)
@@ -208,9 +261,9 @@ def get_chatbot() -> Chatbot:
     return _chatbot
 
 
-def get_context_router() -> ContextRouter:
+def get_context_router(llm_config=None) -> ContextRouter:
     global _context_router
-    llm_config = get_llm_config()
+    llm_config = get_llm_config() if llm_config is None else llm_config
     config_signature = json.dumps(llm_config, sort_keys=True)
     if _context_router is None or getattr(_context_router, "_llm_config_signature", None) != config_signature:
         _context_router = create_context_router(
@@ -233,12 +286,13 @@ def _admin_search(query: str, top_k: int, rerank_enabled: bool, filters: Dict[st
         key: value for key, value in (filters or {}).items()
         if key in {"doc_type", "source", "mtime_after", "mtime_before"}
     }
+    weight = float(_admin_config_service.runtime_config()["bm25_weight"])
     vector_results = kb.search(query, top_k=top_k, filters=valid_filters or None)
     bm25_results = kb.bm25_search(query, top_k=top_k, filters=valid_filters or None) if hasattr(kb, "bm25_search") else []
-    hybrid_results = kb.hybrid_search(query, top_k=top_k, filters=valid_filters or None) if hasattr(kb, "hybrid_search") else vector_results
+    hybrid_results = kb.hybrid_search(query, top_k=top_k, filters=valid_filters or None, bm25_weight=weight) if hasattr(kb, "hybrid_search") else vector_results
     reranked_results = (
         search_with_optional_rerank(
-            kb, query, top_k=top_k, enabled=True, filters=valid_filters or None
+            kb, query, top_k=top_k, enabled=True, filters=valid_filters or None, bm25_weight=weight
         )
         if rerank_enabled
         else []
@@ -275,22 +329,24 @@ def _admin_toggle_mode() -> Dict[str, object]:
     }
 
 
+@file_operation
 def _admin_job_operation(kind: str, progress) -> Dict[str, object]:
     """Run one serialized KB mutation and report coarse-grained progress."""
     kb = get_kb()
     with _kb_mutation_lock:
         if kind == "scan":
             progress(10, "正在扫描文档目录")
-            updated = kb.load_documents_from_dir(max_workers=1)
+            with kb.index_state.write():
+                updated = kb.load_documents_from_dir(max_workers=1)
             progress(95, "正在保存索引状态")
             _admin_document_service.invalidate_catalog()
-            return {"updated_documents": updated}
+            return {"updated_documents": updated, **kb.index_result_summary(kb.last_index_result)}
         if kind == "rebuild":
             progress(10, "正在清空现有索引")
-            kb.rebuild_index()
+            result = kb.rebuild_index()
             progress(95, "正在完成索引持久化")
             _admin_document_service.invalidate_catalog()
-            return {"status": "rebuilt"}
+            return {"status": "rebuilt" if not result.get("failed") else "partial_failed", **result}
     raise ValueError(f"不支持的索引任务: {kind}")
 
 
@@ -328,7 +384,7 @@ _admin_service = AdminService(
     llm_provider=_llm_config_store.public_config,
     mode_provider=_admin_mode,
     sessions_provider=lambda limit, offset, query: list_session_summaries(
-        Session, limit=limit, offset=offset, query=query
+        Session, limit=limit, offset=offset, query=query, include_total=True
     ),
     session_detail_provider=_admin_session_detail,
     activity_provider=_admin_activity,
@@ -383,6 +439,7 @@ class ChatResponse(BaseModel):
     tool_calls: Optional[List[Dict]] = None
     usage: Optional[Dict] = None
     rounds: int = 0
+    effective_mode: str = "agent"
 
 
 class SearchRequest(BaseModel):
@@ -428,8 +485,10 @@ class AttachmentParseResponse(BaseModel):
 # ── 辅助函数 ──────────────────────────────────────────────
 
 def _validate_user_session_id(session_id: str) -> None:
-    if not re.fullmatch(r"[A-Za-z0-9_.-]{1,160}", session_id):
-        raise HTTPException(status_code=400, detail="会话 ID 格式无效")
+    try:
+        validate_session_id(session_id)
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
 
 
 def _load_or_create_session(session_id: Optional[str]) -> Session:
@@ -513,10 +572,11 @@ def _save_generated_title(session_id: str, future: Future) -> None:
         return
 
     try:
-        session = Session(session_id=session_id)
-        if session.load() and not _session_title(session):
-            _apply_session_title(session, title)
-            session.save()
+        with Session.coordinate(session_id, blocking=True):
+            session = Session(session_id=session_id)
+            if session.load() and not _session_title(session):
+                _apply_session_title(session, title)
+                session.save()
     except Exception:
         traceback.print_exc()
 
@@ -596,6 +656,24 @@ def _attachment_context_from_docs(filename: str, docs: List, max_chars: int = 12
     }
 
 
+def session_operation(function):
+    signature = inspect.signature(function)
+    @wraps(function)
+    def guarded(*args, **kwargs):
+        values = signature.bind(*args, **kwargs).arguments
+        session_id = values.get('session_id')
+        if session_id is None:
+            session_id = values['request'].session_id
+        try:
+            with Session.coordinate(session_id):
+                return function(*args, **kwargs)
+        except ValueError as error:
+            raise HTTPException(status_code=400, detail=str(error))
+        except SessionConflict as error:
+            raise HTTPException(status_code=409, detail=str(error))
+    return guarded
+
+
 # ── API 端点 ──────────────────────────────────────────────
 
 @app.get("/api/health")
@@ -647,14 +725,33 @@ def test_llm_config(request: LLMConfigRequest):
 
 
 @app.post("/api/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
-    """
-    发送消息，获取 AI 回复。
-    支持 reroll（重新生成）和 edit_index（编辑分支）。
-    """
+def chat(request: ChatRequest, http_request: Request):
     try:
-        session = _load_or_create_session(request.session_id)
-        chatbot = get_chatbot()
+        http_request.state.chat_trace["stage"] = "session"
+        session = Session(session_id=request.session_id)
+        with Session.coordinate(session.session_id):
+            session.load()
+            return _chat_locked(request, session, http_request.state.chat_trace)
+    except ContextLimitError:
+        raise
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
+    except SessionConflict as error:
+        raise HTTPException(status_code=409, detail=str(error))
+
+
+def _chat_locked(request: ChatRequest, session: Session, trace):
+    try:
+        trace['stage'] = 'configuration'
+        llm_snapshot = get_llm_config()
+        chatbot = copy(get_chatbot(llm_snapshot))
+        chatbot.client = copy(chatbot.client)
+        chatbot.client.last_usage = None
+        runtime = _admin_config_service.runtime_config()
+        chatbot.max_tokens = int(runtime["max_tokens"])
+        chatbot.bm25_weight = float(runtime["bm25_weight"])
+        if isinstance(chatbot, Chatbot):
+            chatbot._trim_context_if_needed([{'role': 'user', 'content': request.message}])
         should_generate_title = (
             not request.session_id
             and not request.reroll
@@ -667,7 +764,7 @@ def chat(request: ChatRequest):
                 _generate_session_title,
                 request.message,
                 create_llm_client,
-                get_llm_config(),
+                llm_snapshot,
             )
             if should_generate_title else None
         )
@@ -690,9 +787,10 @@ def chat(request: ChatRequest):
 
         routed_message = request.message
         routed_history = history
+        trace["stage"] = "context_router"
         if is_context_router_enabled(request) and history:
             try:
-                context_route = get_context_router().route(request.message, history)
+                context_route = get_context_router(llm_snapshot).route(request.message, history)
                 routed_message = context_route.rewritten_query
                 routed_history = context_route.selected_history
                 print(
@@ -704,7 +802,10 @@ def chat(request: ChatRequest):
 
         # 路由对话
         turn_id = uuid.uuid4().hex
-        if chatbot.agent_mode:
+        effective_mode = "agent" if chatbot.agent_mode and getattr(chatbot.client, "supports_tools", False) else "rag"
+        trace["effective_mode"] = effective_mode
+        trace["stage"] = "model_or_retrieval"
+        if effective_mode == "agent":
             result = chatbot.agent_chat(
                 routed_message,
                 routed_history,
@@ -717,8 +818,11 @@ def chat(request: ChatRequest):
                 routed_history,
                 rerank_enabled=request.rerank_enabled,
             )
-            result = AgentChatResult(content=text, finish_reason="stop")
+            result = AgentChatResult(content=text, finish_reason="stop", usage=getattr(chatbot.client, "last_usage", None) or {})
 
+        trace["usage"] = result.usage or None
+        trace["outcome"] = "error" if result.finish_reason == "error" else "success"
+        trace["stage"] = "persistence"
         # 保存消息到会话
         session.add_message("user", request.message)
 
@@ -743,19 +847,24 @@ def chat(request: ChatRequest):
 
         session.save()
 
-        if title_future and not title_future.done():
+        if title_future:
             title_future.add_done_callback(
                 lambda future, sid=session.session_id: _save_generated_title(sid, future)
             )
 
-        return _agent_result_to_response(result, session.session_id, session_title)
+        trace["stage"] = "model" if result.finish_reason == "error" else None
+        return {**_agent_result_to_response(result, session.session_id, session_title), "effective_mode": effective_mode}
 
+    except (HTTPException, SessionConflict, ValueError, KnowledgeUnavailable, RepairRequired):
+        trace["outcome"] = "error"
+        raise
     except Exception as e:
-        traceback.print_exc()
-        raise HTTPException(status_code=500, detail=str(e))
+        trace["outcome"] = "error"
+        raise HTTPException(status_code=500, detail=f"聊天请求失败: {type(e).__name__}")
 
 
 @app.get("/api/session/{session_id}")
+@session_operation
 def get_session(session_id: str):
     """获取会话信息与历史"""
     session = Session(session_id=session_id)
@@ -772,6 +881,7 @@ def get_session(session_id: str):
 
 
 @app.delete("/api/session/{session_id}")
+@session_operation
 def clear_session(session_id: str):
     """清空用户会话历史（不删文件）。"""
     _validate_user_session_id(session_id)
@@ -783,18 +893,17 @@ def clear_session(session_id: str):
 
 
 @app.delete("/api/sessions/{session_id}")
+@session_operation
 def delete_session_file(session_id: str):
     """删除用户会话文件（从磁盘永久删除）。"""
     _validate_user_session_id(session_id)
-    import os as _os
-    filepath = _os.path.join(DATA_DIR, "cache", f"{session_id}.json")
-    if _os.path.exists(filepath):
-        _os.remove(filepath)
+    if Session(session_id).delete():
         return {"status": "deleted", "session_id": session_id}
     raise HTTPException(status_code=404, detail="会话文件不存在")
 
 
 @app.delete("/api/session/{session_id}/message/{index}")
+@session_operation
 def delete_message(session_id: str, index: int):
     """删除用户会话中指定位置的消息。"""
     _validate_user_session_id(session_id)
@@ -821,32 +930,17 @@ async def upload_file(file: UploadFile = File(...), _admin=Depends(_admin_csrf))
             detail=f"不支持的文件格式: {ext}，支持: {[f for f in SUPPORTED_FORMATS]}",
         )
 
-    # 保存文件
-    filename = os.path.basename(file.filename or "")
-    if not filename:
-        raise HTTPException(status_code=400, detail="文件名不能为空")
-    file_path = os.path.join(DOCUMENTS_DIR, filename)
-    try:
-        with _kb_mutation_lock:
-            with open(file_path, "wb") as f:
-                shutil.copyfileobj(file.file, f)
+    result = await run_file_work(_upload_compatible, file.filename or '', file.file)
+    return {'status': 'ok', 'filename': file.filename, 'message': f'文件 {file.filename} 已上传并索引'}
 
-            # 索引到知识库
-            kb = get_kb()
-            if kb._update_document(file_path) is False:
-                raise RuntimeError("文档索引未提交")
-            kb._save_metadata()
-            kb._save_chunk_texts()
-            kb._save_store()
-        _admin_document_service.invalidate_catalog()
-        return {
-            "status": "ok",
-            "filename": file.filename,
-            "message": f"文件 {file.filename} 已上传并索引",
-        }
-    except Exception as e:
-        traceback.print_exc()
-        raise HTTPException(status_code=500, detail=f"索引失败: {str(e)}")
+
+def _upload_compatible(filename, stream):
+    path = _admin_document_service._safe_path(filename)
+    if path.exists():
+        kb = get_kb()
+        return _admin_document_service.replace(_admin_document_service._stored_document_id(path, kb), filename, stream)
+    return _admin_document_service.upload(filename, stream)
+
 
 
 @app.post("/api/attachments/parse", response_model=AttachmentParseResponse)
@@ -863,16 +957,22 @@ async def parse_message_attachment(file: UploadFile = File(...)):
             detail=f"Unsupported file format: {ext}. Supported: {SUPPORTED_FORMATS}",
         )
 
-    with tempfile.TemporaryDirectory(prefix="campusqa_attachment_") as temp_dir:
+    return await run_file_work(_parse_attachment, filename, file.file)
+
+
+def _parse_attachment(filename, stream):
+    with tempfile.TemporaryDirectory(prefix='campusqa_attachment_') as temp_dir:
         file_path = os.path.join(temp_dir, filename)
         try:
-            with open(file_path, "wb") as f:
-                shutil.copyfileobj(file.file, f)
+            with open(file_path, 'wb') as destination:
+                copy_limited(stream, destination)
             docs = DocumentLoader(base_dir=temp_dir).load_file(file_path)
             return _attachment_context_from_docs(filename, docs)
-        except Exception as e:
-            traceback.print_exc()
-            raise HTTPException(status_code=500, detail=f"Attachment parse failed: {str(e)}")
+        except FileLimitError:
+            raise
+        except Exception as error:
+            raise HTTPException(status_code=500, detail=f'附件解析失败: {type(error).__name__}') from error
+
 
 
 @app.post("/api/upload")
@@ -889,45 +989,19 @@ async def upload_files(
     if not upload_files:
         raise HTTPException(status_code=400, detail="No files uploaded")
 
-    os.makedirs(DOCUMENTS_DIR, exist_ok=True)
-    kb = get_kb()
     uploaded = []
     failed = []
-
     for upload in upload_files:
-        original_name = upload.filename or ""
-        filename = os.path.basename(original_name)
-        ext = os.path.splitext(filename)[1].lower()
-
-        if not filename:
-            failed.append({"filename": original_name, "error": "Missing filename"})
-            continue
-
-        if ext not in SUPPORTED_FORMATS:
-            failed.append({
-                "filename": filename,
-                "error": f"Unsupported file format: {ext}",
-            })
-            continue
-
-        file_path = os.path.join(DOCUMENTS_DIR, filename)
+        filename = os.path.basename(upload.filename or '')
         try:
-            with _kb_mutation_lock:
-                with open(file_path, "wb") as f:
-                    shutil.copyfileobj(upload.file, f)
-                if kb._update_document(file_path) is False:
-                    raise RuntimeError("文档索引未提交")
-            uploaded.append({"filename": filename, "status": "ok"})
-        except Exception as e:
-            traceback.print_exc()
-            failed.append({"filename": filename, "error": str(e)})
-
-    if uploaded:
-        with _kb_mutation_lock:
-            kb._save_metadata()
-            kb._save_chunk_texts()
-            kb._save_store()
-        _admin_document_service.invalidate_catalog()
+            await run_file_work(_upload_compatible, filename, upload.file)
+            uploaded.append({'filename': filename, 'status': 'ok'})
+        except FileLimitError as error:
+            raise HTTPException(status_code=413, detail=str(error), headers={'X-Upload-Result': 'partial' if uploaded else 'none'})
+        except RepairRequired:
+            raise
+        except Exception as error:
+            failed.append({'filename': filename, 'error': str(error)})
 
     uploaded_count = len(uploaded)
     failed_count = len(failed)
@@ -972,6 +1046,7 @@ def kb_search(request: SearchRequest):
         request.query,
         top_k=request.top_k,
         filters=filters if filters else None,
+        bm25_weight=float(_admin_config_service.runtime_config()["bm25_weight"]),
     )
 
     # 若语义匹配全无关键词命中，检查是否需要追加 BM25
@@ -1022,6 +1097,7 @@ def list_sessions():
 
 
 @app.post("/api/session/load")
+@session_operation
 def load_session(request: LoadSessionRequest):
     """加载指定会话并返回历史"""
     session = Session(session_id=request.session_id)
@@ -1068,6 +1144,7 @@ def toggle_mode():
 # ═══════════════════════════════════════════════════════════
 
 @app.get("/api/cost/{session_id}")
+@session_operation
 def get_cost(session_id: str):
     """获取指定会话的 Token 消耗统计"""
     session = Session(session_id=session_id)
@@ -1084,6 +1161,7 @@ def get_cost(session_id: str):
 
 
 @app.get("/api/session/{session_id}/tool-log")
+@session_operation
 def get_tool_log(session_id: str):
     """获取指定会话的工具调用日志"""
     session = Session(session_id=session_id)
@@ -1101,23 +1179,25 @@ def get_tool_log(session_id: str):
 # ═══════════════════════════════════════════════════════════
 
 @app.post("/api/kb/scan")
+@file_operation
 def kb_scan(_admin=Depends(_admin_csrf)):
     """扫描文档目录，增量加载新文档"""
     kb = get_kb()
-    with _kb_mutation_lock:
-        updated = kb.load_documents_from_dir()
+    with _kb_mutation_lock, kb.index_state.write():
+        updated = kb.load_documents_from_dir(max_workers=1)
     _admin_document_service.invalidate_catalog()
-    return {"status": "ok", "updated_count": updated}
+    return {"status": "ok", "updated_count": updated, **kb.index_result_summary(kb.last_index_result)}
 
 
 @app.post("/api/kb/rebuild")
+@file_operation
 def kb_rebuild(_admin=Depends(_admin_csrf)):
     """重建知识库索引"""
     kb = get_kb()
     with _kb_mutation_lock:
-        kb.rebuild_index()
+        result = kb.rebuild_index()
     _admin_document_service.invalidate_catalog()
-    return {"status": "ok", "message": "索引重建完成"}
+    return {"status": "ok" if not result.get("failed") else "partial_failed", "message": "索引重建完成" if not result.get("failed") else "部分文件失败，需要修复", **result}
 
 
 # ── 启动入口 ──────────────────────────────────────────────

@@ -3,13 +3,84 @@
 """
 import json
 import os
+import re
+import uuid
+from pathlib import Path
+from threading import RLock, Lock
+from contextlib import contextmanager
+from src.storage import atomic_json
 from datetime import datetime
 from typing import List, Dict, Optional
 from config import CACHE_DIR
 
 
+class SessionConflict(RuntimeError):
+    pass
+
+
+def validate_session_id(value):
+    reserved = {'kb_metadata', 'kb_metadata_chunks', 'index_state', 'user_llm_config', 'con', 'prn', 'aux', 'nul'}
+    if (not isinstance(value, str) or not re.fullmatch(r'[A-Za-z0-9_.-]{1,160}', value)
+            or value.endswith('.') or value.lower().split('.')[0] in reserved
+            or re.fullmatch(r'(com|lpt)[1-9](\..*)?', value.lower())):
+        raise ValueError('会话 ID 格式无效或属于保留文件')
+    return value
+
+
 class Session:
     """对话会话类 - 管理对话历史和上下文"""
+
+    _registry_guard = Lock()
+    _locks = {}
+
+    @classmethod
+    @contextmanager
+    def coordinate(cls, session_id, *, blocking=False):
+        """Serialize complete operations; process-local, reentrant for persistence."""
+        validate_session_id(session_id)
+        key = os.path.normcase(str(Path(CACHE_DIR).resolve() / session_id))
+        with cls._registry_guard:
+            lock, users = cls._locks.get(key, (RLock(), 0))
+            cls._locks[key] = (lock, users + 1)
+        acquired = lock.acquire(blocking=blocking)
+        try:
+            if not acquired:
+                raise SessionConflict('会话处理中，请稍后刷新核验')
+            yield
+        finally:
+            if acquired:
+                lock.release()
+            with cls._registry_guard:
+                _, users = cls._locks[key]
+                if users == 1:
+                    del cls._locks[key]
+                else:
+                    cls._locks[key] = (lock, users - 1)
+
+    def _path(self, filename=None):
+        validate_session_id(self.session_id)
+        expected = f'{self.session_id}.json'
+        if filename is not None and filename != expected:
+            raise ValueError('会话文件名必须与会话 ID 一致')
+        root = Path(self.cache_dir).resolve()
+        path = (root / expected).resolve()
+        if path.parent != root:
+            raise ValueError('非法会话路径')
+        if path.exists():
+            with path.open(encoding='utf-8') as stream:
+                data = json.load(stream)
+            if (not isinstance(data, dict) or data.get('session_id') != self.session_id
+                    or not isinstance(data.get('messages'), list) or not isinstance(data.get('metadata'), dict)):
+                raise ValueError('目标不是合法会话文件')
+        return path
+
+    def delete(self):
+        with self.coordinate(self.session_id):
+            path = self._path()
+            if not path.exists():
+                return False
+            path.unlink()
+            return True
 
     @staticmethod
     def _extract_tool_name(tool_call: Dict) -> str:
@@ -63,7 +134,8 @@ class Session:
             max_history (int): 保留的最大历史消息数（防止token溢出）
         """
         if session_id is None:
-            session_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+            session_id = str(uuid.uuid4())
+        validate_session_id(session_id)
         
         self.session_id = session_id
         self.max_history = max_history
@@ -120,9 +192,7 @@ class Session:
         self.metadata["message_count"] += 1
         self.metadata["updated_at"] = datetime.now().isoformat()
         
-        # 防止历史过长导致token溢出
-        if len(self.messages) > self.max_history:
-            self.messages = self.messages[-self.max_history:]
+        # Model budgets are applied to a copy at call time, never to storage.
     
     def get_history(self, include_timestamp: bool = False,
                     strip_tool_details: bool = False) -> List[Dict]:
@@ -283,7 +353,7 @@ class Session:
         if filename is None:
             filename = f"{self.session_id}.json"
         
-        filepath = os.path.join(self.cache_dir, filename)
+        filepath = self._path(filename)
         
         data = {
             "session_id": self.session_id,
@@ -295,9 +365,10 @@ class Session:
         }
         
         try:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            return filepath
+            with self.coordinate(self.session_id):
+                filepath = self._path(filename)
+                atomic_json(filepath, data)
+            return str(filepath)
         except Exception as e:
             raise Exception(f"保存会话失败: {str(e)}")
     
@@ -319,7 +390,7 @@ class Session:
         if filename is None:
             filename = f"{self.session_id}.json"
         
-        filepath = os.path.join(self.cache_dir, filename)
+        filepath = self._path(filename)
         
         if not os.path.exists(filepath):
             return False
@@ -328,6 +399,7 @@ class Session:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
+            validate_session_id(data.get('session_id'))
             self.session_id = data.get("session_id", self.session_id)
             self.messages = data.get("messages", [])
             self.metadata = data.get("metadata", self.metadata)

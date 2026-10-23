@@ -4,6 +4,7 @@ LLM 客户端 - 支持多个提供商（含 Tool Calling）
 import json
 import time
 import requests
+from src.errors import ContextLimitError
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 from config import (
@@ -18,7 +19,18 @@ from config import (
     LOCAL_MODEL_NAME,
     MAX_TOKENS,
     TEMPERATURE,
+    AGENT_MODEL_MAX_CONTEXT,
+    AGENT_CONTEXT_RATIO,
 )
+
+
+def check_model_payload(payload):
+    output = int(payload.get('max_tokens', MAX_TOKENS))
+    threshold = min(int(AGENT_MODEL_MAX_CONTEXT * AGENT_CONTEXT_RATIO),
+                    AGENT_MODEL_MAX_CONTEXT - output - 128)
+    model_input = {'messages': payload.get('messages', []), 'tools': payload.get('tools', [])}
+    if len(json.dumps(model_input, ensure_ascii=False).encode('utf-8')) > threshold:
+        raise ContextLimitError('输入超出模型上下文预算，请缩短当前输入或降低输出长度后重试')
 
 
 @dataclass
@@ -32,6 +44,7 @@ class LLMResponse:
 
 class LLMClient:
     """LLM 客户端基类"""
+    supports_tools = False
 
     def __init__(self, provider: str = None):
         self.provider = provider or LLM_PROVIDER
@@ -49,6 +62,7 @@ class LLMClient:
 
 class OpenAICompatibleClient(LLMClient):
     """OpenAI-compatible chat completions client."""
+    supports_tools = True
 
     def __init__(self, provider: str = "custom", config: Optional[Dict] = None):
         super().__init__(provider)
@@ -97,6 +111,7 @@ class OpenAICompatibleClient(LLMClient):
             payload["tool_choice"] = kwargs.get("tool_choice", "auto")
         if kwargs.get("response_format"):
             payload["response_format"] = kwargs["response_format"]
+        check_model_payload(payload)
         return payload
 
     def _call_api(self, payload: Dict) -> Dict:
@@ -135,6 +150,7 @@ class OpenAICompatibleClient(LLMClient):
         try:
             payload = self._build_payload(messages, **kwargs)
             data = self._call_api(payload)
+            self.last_usage = data.get("usage") or None
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
             raise Exception(f"{self.provider} API 调用失败: {str(e)}")
@@ -146,6 +162,7 @@ class OpenAICompatibleClient(LLMClient):
         try:
             payload = self._build_payload(messages, tools, **kwargs)
             data = self._call_api(payload)
+            self.last_usage = data.get("usage") or None
 
             choice = data["choices"][0]
             message = choice.get("message", {})
@@ -232,10 +249,12 @@ class LocalModelClient(LLMClient):
         }
 
         try:
+            check_model_payload(payload)
             response = requests.post(url, json=payload, timeout=30)
             response.raise_for_status()
 
             data = response.json()
+            self.last_usage = data.get("usage") or None
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
             raise Exception(f"本地模型 API 调用失败: {str(e)}")

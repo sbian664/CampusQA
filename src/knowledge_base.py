@@ -5,6 +5,14 @@ import json
 import os
 import re
 import math
+import hashlib
+from pathlib import Path
+from copy import deepcopy
+from contextlib import nullcontext
+from src.storage import atomic_json
+from src.index_state import IndexState, retrieval_guard
+from src.errors import RepairRequired, IndexRebuildError
+from src.file_processing import file_operation, ensure_file_size
 import concurrent.futures
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
@@ -38,6 +46,7 @@ from src.text_chunker import SemanticChunker
 class DocumentIndexFailure:
     file_path: str
     error: str
+    stage: str = "index"
 
 
 @dataclass
@@ -75,6 +84,11 @@ class KnowledgeBase:
 
         # 加载元数据
         self.metadata = self._load_metadata()
+        self.index_state = IndexState(Path(KB_METADATA_FILE).with_name('index_state.json'))
+        legacy_chunks = any(not re.fullmatch(r'[0-9a-f]{64}_[0-9]+', chunk_id)
+                            for item in self.metadata.values() for chunk_id in item.get('chunk_ids', []))
+        if legacy_chunks and self.index_state.status == 'ready':
+            self.index_state.set('repair_required', '分块标识需要迁移，请执行一次维护重建')
 
         # BM25 索引（混合检索用）
         self._chunk_texts: Dict[str, str] = self._load_chunk_texts()
@@ -106,78 +120,12 @@ class KnowledgeBase:
         """（已废弃 — 由 _init_store + VectorStore 替代）"""
         self._init_store()
     
+    @file_operation
     def load_documents_from_dir(self, max_workers: int = None) -> int:
-        """
-        从目录加载所有文档（带增量更新检查）
-        
-        Returns:
-            int: 新增/更新的文档数
-        
-        Examples:
-            >>> kb = KnowledgeBase()
-            >>> new_count = kb.load_documents_from_dir()
-            >>> print(f"新增/更新 {new_count} 个文档")
-        """
-        file_list = self.loader.get_file_list()
-        updated_count = 0
-        max_workers = max_workers if max_workers is not None else KB_INDEX_MAX_WORKERS
-
-        print(f"\n📂 扫描文档目录: {len(file_list)} 个文件")
-
-        update_candidates = [
-            file_info for file_info in file_list
-            if self._should_update_file(file_info['path'], file_info['mtime'])
-        ]
-
-        prepared_updates = []
-        if update_candidates:
-            worker_count = max(1, min(int(max_workers or 1), len(update_candidates)))
-            if worker_count == 1:
-                for file_info in update_candidates:
-                    file_path = file_info['path']
-                    try:
-                        prepared_updates.append(
-                            self._prepare_document_update(file_path, file_info['mtime'])
-                        )
-                    except Exception as e:
-                        print(f"⚠️  处理文件失败 {file_path}: {str(e)}")
-            else:
-                with concurrent.futures.ThreadPoolExecutor(max_workers=worker_count) as executor:
-                    future_to_file = {
-                        executor.submit(
-                            self._prepare_document_update,
-                            file_info['path'],
-                            file_info['mtime'],
-                        ): file_info['path']
-                        for file_info in update_candidates
-                    }
-                    for future in concurrent.futures.as_completed(future_to_file):
-                        file_path = future_to_file[future]
-                        try:
-                            prepared_updates.append(future.result())
-                        except Exception as e:
-                            print(f"⚠️  处理文件失败 {file_path}: {str(e)}")
-
-        prepared_updates.sort(key=lambda item: item['file_path'])
-        for prepared in prepared_updates:
-            committed = self._commit_prepared_document_update(prepared)
-            if committed is not False:
-                updated_count += 1
-
-        if prepared_updates and HYBRID_SEARCH_ENABLED:
-            self._rebuild_bm25()
-
-        # 保存元数据
-        self._save_metadata()
-
-        # 保存 chunk 文本快照（BM25 用）
-        self._save_chunk_texts()
-
-        # 持久化向量存储（Faiss 专用）
-        self._save_store()
-
-        print(f"✓ 文档加载完成: 新增/更新 {updated_count} 个\n")
-        return updated_count
+        files = self.loader.get_file_list()
+        candidates = [item for item in files if self._should_update_file(item['path'], item['mtime'])]
+        self.last_index_result = self.index_documents([item['path'] for item in candidates], max_workers=max_workers)
+        return len(self.last_index_result.indexed_paths)
 
     def index_document(self, file_path: str) -> None:
         """Index and persist one existing document, raising on failure."""
@@ -196,7 +144,11 @@ class KnowledgeBase:
         if result.indexed_paths:
             if HYBRID_SEARCH_ENABLED:
                 self._rebuild_bm25()
-            self._persist_index()
+            try:
+                self._persist_index()
+            except Exception as error:
+                self.mark_repair_required(f'索引持久化失败: {type(error).__name__}: {error}')
+                raise
         return result
 
     def _index_candidates(
@@ -226,7 +178,7 @@ class KnowledgeBase:
                     prepared_updates.append(prepare(candidate))
                 except Exception as error:
                     print(f"鈿狅笍  澶勭悊鏂囦欢澶辫触 {file_path}: {str(error)}")
-                    result.failures.append(DocumentIndexFailure(file_path, str(error)))
+                    result.failures.append(DocumentIndexFailure(file_path, str(error), "prepare"))
         else:
             with concurrent.futures.ThreadPoolExecutor(max_workers=worker_count) as executor:
                 future_to_file = {
@@ -239,7 +191,7 @@ class KnowledgeBase:
                         prepared_updates.append(future.result())
                     except Exception as error:
                         print(f"鈿狅笍  澶勭悊鏂囦欢澶辫触 {file_path}: {str(error)}")
-                        result.failures.append(DocumentIndexFailure(file_path, str(error)))
+                        result.failures.append(DocumentIndexFailure(file_path, str(error), "prepare"))
 
         prepared_updates.sort(key=lambda item: item['file_path'])
         for prepared in prepared_updates:
@@ -261,6 +213,7 @@ class KnowledgeBase:
 
     def _prepare_document_update(self, file_path: str, current_mtime: float) -> Dict:
         """Prepare chunks, metadata, and embeddings without mutating the store."""
+        ensure_file_size(file_path)
         docs = self.loader.load_file(file_path)
 
         chunks = []
@@ -278,13 +231,15 @@ class KnowledgeBase:
             or self.metadata.get(file_path, {}).get('document_id')
         )
 
+        relative = os.path.relpath(file_path, getattr(self.loader, 'base_dir', os.path.dirname(file_path))).replace('\\', '/')
+        path_hash = hashlib.sha256(relative.encode('utf-8')).hexdigest()
         chunk_ids = []
         chunk_texts = []
         chunk_metadatas = []
         chunk_vectors = []
 
         for i, chunk in enumerate(chunks):
-            chunk_id = f"{os.path.basename(file_path)}_{i}"
+            chunk_id = f"{path_hash}_{i}"
             chunk_ids.append(chunk_id)
             chunk_texts.append(chunk.page_content)
             chunk_metadata = {
@@ -327,6 +282,7 @@ class KnowledgeBase:
             'chunk_vectors': chunk_vectors,
             'file_mtime': file_mtime,
             'file_size': file_size,
+            'document_id': document_id or path_hash[:24],
         }
 
     def _remove_chunk_ids(self, chunk_ids: List[str]) -> None:
@@ -364,19 +320,21 @@ class KnowledgeBase:
                 'document': self._chunk_texts[chunk_id],
                 'metadata': dict(self._chunk_metadata.get(chunk_id, {})),
             })
-        old_embeddings = [
-            self.embeddings_manager.embed_text(
-                self._enrich_chunk_text(item['document'], item['metadata'])
-            )
-            for item in old_records
-        ]
-
-        if old_chunk_ids and not self._delete_old_vectors(old_chunk_ids):
-            raise RuntimeError(f"删除旧文档向量失败，未替换: {file_path}")
+        if hasattr(self.store, 'get_records'):
+            records = self.store.get_records(old_chunk_ids)
+            if len(records['ids']) != len(old_chunk_ids):
+                raise RuntimeError('缺少旧向量快照，拒绝替换')
+            by_id = {cid: vector for cid, vector in zip(records['ids'], records['embeddings'])}
+            old_embeddings = [by_id[item['id']] for item in old_records]
+        else:
+            old_embeddings = [self.embeddings_manager.embed_text(
+                self._enrich_chunk_text(item['document'], item['metadata'])) for item in old_records]
 
         chunk_ids = prepared['chunk_ids']
         chunk_texts = prepared['chunk_texts']
         try:
+            if old_chunk_ids:
+                self.store.delete(old_chunk_ids)
             if chunk_ids:
                 self.store.add(
                     ids=chunk_ids,
@@ -384,21 +342,17 @@ class KnowledgeBase:
                     metadatas=prepared['chunk_metadatas'],
                     embeddings=prepared['chunk_vectors'],
                 )
-        except Exception:
-            # A backend may have partially accepted the new batch. Remove it
-            # before restoring the old IDs so both Chroma and Faiss converge
-            # back to the pre-update state.
+        except Exception as original:
             try:
-                self.store.delete(chunk_ids)
-            except Exception as cleanup_error:
-                print(f"Failed to clean up replacement vectors: {cleanup_error}")
-            if old_records:
-                self.store.add(
-                    ids=[item['id'] for item in old_records],
-                    documents=[item['document'] for item in old_records],
-                    metadatas=[item['metadata'] for item in old_records],
-                    embeddings=old_embeddings,
-                )
+                self.store.delete(list(dict.fromkeys(old_chunk_ids + chunk_ids)))
+                if old_records:
+                    self.store.add(ids=[item['id'] for item in old_records],
+                                   documents=[item['document'] for item in old_records],
+                                   metadatas=[item['metadata'] for item in old_records],
+                                   embeddings=old_embeddings)
+            except Exception as recovery:
+                self.mark_repair_required(f'向量回滚失败: {type(original).__name__}; {type(recovery).__name__}')
+                raise RepairRequired('文档回滚失败，需要修复；请查看索引诊断状态') from recovery
             raise
 
         if old_chunk_ids:
@@ -410,6 +364,7 @@ class KnowledgeBase:
             self._chunk_metadata[cid] = dict(metadata)
 
         self.metadata[file_path] = {
+            'document_id': prepared.get('document_id') or (previous_metadata or {}).get('document_id'),
             'mtime': prepared['file_mtime'],
             'size': prepared['file_size'],
             'chunk_ids': chunk_ids,
@@ -426,6 +381,8 @@ class KnowledgeBase:
         if file_path not in self.metadata:
             return True
         
+        if 'chunk_ids' not in self.metadata[file_path]:
+            return True
         stored_mtime = self.metadata[file_path].get('mtime', 0)
         return current_mtime > stored_mtime
     
@@ -458,6 +415,7 @@ class KnowledgeBase:
     
     # ---- 搜索 ----
 
+    @retrieval_guard
     def search(self, query: str, top_k: int = 3,
                filters: Optional[Dict] = None) -> List[Dict]:
         """
@@ -482,6 +440,7 @@ class KnowledgeBase:
 
         return results[:top_k]
 
+    @retrieval_guard
     def hybrid_search(self, query: str, top_k: int = 3,
                       bm25_weight: float = None,
                       filters: Optional[Dict] = None) -> List[Dict]:
@@ -546,6 +505,7 @@ class KnowledgeBase:
         combined.sort(key=lambda x: x['score'], reverse=True)
         return combined[:top_k]
 
+    @retrieval_guard
     def retrieve(
         self,
         query: str,
@@ -673,6 +633,8 @@ class KnowledgeBase:
         total_size = sum(m.get('size', 0) for m in self.metadata.values())
 
         return {
+            'index_state': getattr(self, 'index_state', None).status if hasattr(self, 'index_state') else 'ready',
+            'index_state_detail': getattr(self, 'index_state', None).data if hasattr(self, 'index_state') else {},
             'total_files': total_files,
             'total_chunks': total_chunks,
             'total_size': total_size,
@@ -686,34 +648,81 @@ class KnowledgeBase:
             'files': self.metadata,
         }
     
+    @file_operation
     def rebuild_index(self):
-        """
-        重建索引（清空并重新加载所有文档）
-        """
-        print("🔄 重建索引...")
+        state = self.index_state
+        state.begin_rebuild()
+        paths = []
+        phase = 'scan'
+        try:
+            with state.write():
+                paths = [item['path'] for item in self.loader.get_file_list()]
+                identities = {path: {'document_id': item.get('document_id') or hashlib.sha256(
+                    os.path.relpath(path, self.loader.base_dir).replace('\\', '/').encode()).hexdigest()[:24]}
+                    for path, item in self.metadata.items()}
+                phase = 'clear'
+                self.store.clear()
+                self.metadata.clear()
+                self.metadata.update(identities)
+                self._chunk_texts.clear()
+                self._chunk_metadata.clear()
+                self.embeddings_manager.cache.clear()
+                phase = 'index'
+                result = self.index_documents(paths, max_workers=1)
+                # Drop seed-only metadata for files no longer on disk.
+                self.metadata = {path: item for path, item in self.metadata.items() if path in paths}
+                phase = 'persist'
+                self._persist_index()
+                phase = 'cache'
+                self.embeddings_manager.save_cache()
+                summary = self.index_result_summary(result, len(paths))
+                if result.failures:
+                    state.set('repair_required', '部分文档重建失败，请修复文件后重试重建')
+                else:
+                    state.set('ready')
+                return summary
+        except Exception as error:
+            state.set('repair_required', f'重建失败: {type(error).__name__}: {error}')
+            summary = self.index_result_summary(DocumentIndexResult(failures=[
+                DocumentIndexFailure(path, str(error), phase) for path in paths]), len(paths))
+            summary['operation_error'] = {'stage': phase, 'reason': str(error)}
+            raise IndexRebuildError(str(error), summary) from error
 
-        # 清空向量存储
-        self.store.clear()
+    @staticmethod
+    def index_result_summary(result, total=None):
+        return {'total': total if total is not None else len(result.indexed_paths) + len(result.failures),
+                'succeeded': len(result.indexed_paths), 'failed': len(result.failures),
+                'files': [{'file': path, 'status': 'succeeded'} for path in result.indexed_paths] +
+                         [{'file': item.file_path, 'status': 'failed', 'stage': item.stage, 'reason': item.error} for item in result.failures],
+                'failures': [{'file': item.file_path, 'stage': item.stage, 'reason': item.error} for item in result.failures]}
 
-        # 清空元数据
-        self.metadata.clear()
-        self._chunk_texts.clear()
-        self._chunk_metadata.clear()
+    def mark_repair_required(self, reason):
+        if hasattr(self, 'index_state'):
+            self.index_state.set('repair_required', reason)
 
-        # 清空向量缓存（确保用最新模型/参数重新计算）
-        self.embeddings_manager.cache.clear()
+    def snapshot_documents(self, paths):
+        paths = [str(path) for path in paths]
+        ids = [cid for path in paths for cid in self.metadata.get(path, {}).get('chunk_ids', [])]
+        records = self.store.get_records(ids)
+        if len(records['ids']) != len(ids):
+            raise RuntimeError('缺少原向量，拒绝修改；需要修复')
+        return {'paths': paths, 'records': records, 'metadata': deepcopy(self.metadata),
+                'texts': deepcopy(self._chunk_texts), 'chunk_metadata': deepcopy(self._chunk_metadata)}
 
-        # 重新加载
-        self.load_documents_from_dir()
+    def restore_documents(self, snapshot):
+        ids = set(snapshot['records']['ids'])
+        for path in snapshot['paths']:
+            ids.update(self.metadata.get(path, {}).get('chunk_ids', []))
+        self.store.delete(list(ids))
+        records = snapshot['records']
+        if records['ids']:
+            self.store.add(**records)
+        self.metadata = snapshot['metadata']
+        self._chunk_texts = snapshot['texts']
+        self._chunk_metadata = snapshot['chunk_metadata']
+        self._rebuild_bm25()
+        self._persist_index()
 
-        # 保存缓存
-        self.embeddings_manager.save_cache()
-
-        # 持久化 Faiss 索引
-        self._save_store()
-
-        print("✓ 索引重建完成")
-    
     def _load_metadata(self) -> Dict:
         """从文件加载元数据"""
         if os.path.exists(KB_METADATA_FILE):
@@ -726,12 +735,7 @@ class KnowledgeBase:
     
     def _save_metadata(self):
         """保存元数据到文件"""
-        try:
-            os.makedirs(os.path.dirname(KB_METADATA_FILE), exist_ok=True)
-            with open(KB_METADATA_FILE, 'w', encoding='utf-8') as f:
-                json.dump(self.metadata, f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            print(f"⚠️  保存元数据失败: {str(e)}")
+        atomic_json(KB_METADATA_FILE, self.metadata)
 
     def _load_chunk_texts(self) -> Dict[str, str]:
         """加载 chunk 文本快照（BM25 用）"""
@@ -747,11 +751,7 @@ class KnowledgeBase:
     def _save_chunk_texts(self):
         """保存 chunk 文本快照"""
         chunk_file = KB_METADATA_FILE.replace('.json', '_chunks.json')
-        try:
-            with open(chunk_file, 'w', encoding='utf-8') as f:
-                json.dump(self._chunk_texts, f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            print(f"⚠️  保存 chunk 快照失败: {str(e)}")
+        atomic_json(chunk_file, self._chunk_texts)
 
     def _hydrate_chunk_texts(self):
         """
@@ -792,6 +792,7 @@ class KnowledgeBase:
         except Exception as e:
             print(f"Failed to hydrate chunk metadata: {e}")
 
+    @retrieval_guard
     def expand_adjacent_chunks(
         self,
         results: List[Dict],
@@ -1049,6 +1050,7 @@ class KnowledgeBase:
         scored.sort(key=lambda x: x['score'], reverse=True)
         return scored[:top_k]
 
+    @retrieval_guard
     def bm25_search(
         self,
         query: str,

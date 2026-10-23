@@ -44,7 +44,8 @@ class AdminService:
         kb = self.kb_provider() or {}
         llm = self.llm_provider() or {}
         mode = self.mode_provider() or {}
-        sessions = self.sessions_provider(max(1, min(session_limit, 50)), 0, None)
+        session_page = self.sessions_provider(max(1, min(session_limit, 50)), 0, None)
+        sessions = session_page.get("items", []) if isinstance(session_page, dict) else session_page
         healthy = health.get("status") == "ok"
         activity = self.activity_provider() if self.activity_provider else {
             "today_sessions": None,
@@ -70,6 +71,8 @@ class AdminService:
                 "context_router_enabled": mode.get("context_router_enabled"),
             },
             "knowledge_base": {
+                "index_state": kb.get("index_state", "ready"),
+                "index_state_detail": kb.get("index_state_detail", {}),
                 "total_files": _number(kb.get("total_files")),
                 "total_chunks": _number(kb.get("total_chunks")),
                 "total_size_mb": float(kb.get("total_size_mb") or 0),
@@ -86,8 +89,14 @@ class AdminService:
     def sessions(self, *, limit: int = 20, offset: int = 0, query: Optional[str] = None) -> Dict[str, Any]:
         safe_limit = max(1, min(int(limit), 100))
         safe_offset = max(0, int(offset))
-        items = self.sessions_provider(safe_limit, safe_offset, query.strip() if query else None)
-        return {"items": items, "limit": safe_limit, "offset": safe_offset}
+        result = self.sessions_provider(safe_limit, safe_offset, query.strip() if query else None)
+        if isinstance(result, dict):
+            items = result.get("items", [])
+            total = result.get("total")
+        else:
+            items = result
+            total = None
+        return {"items": items, "total": total, "limit": safe_limit, "offset": safe_offset}
 
     def session_detail(self, session_id: str) -> Dict[str, Any]:
         if not SESSION_ID_RE.fullmatch(session_id):
@@ -203,7 +212,14 @@ class AdminService:
         return source.replace("\\", "/").rsplit("/", 1)[-1]
 
 
-def list_session_summaries(session_class: Any, *, limit: int, offset: int, query: Optional[str]) -> list[Dict[str, Any]]:
+def list_session_summaries(
+    session_class: Any,
+    *,
+    limit: int,
+    offset: int,
+    query: Optional[str],
+    include_total: bool = False,
+) -> Any:
     query_lower = query.lower() if query else None
     matches = []
     for filename in sorted(session_class.list_saved_sessions(), reverse=True):
@@ -225,7 +241,8 @@ def list_session_summaries(session_class: Any, *, limit: int, offset: int, query
             "updated_at": session.metadata.get("updated_at", ""),
             "trace": AdminService.trace_summary(session.tool_call_log),
         })
-    return matches[offset:offset + limit]
+    page = matches[offset:offset + limit]
+    return {"items": page, "total": len(matches)} if include_total else page
 
 
 def load_session_detail(session_class: Any, session_id: str, *, source_root: Optional[str] = None) -> Dict[str, Any]:
