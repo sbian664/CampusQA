@@ -93,4 +93,3 @@ def test_trim_and_client_payload_use_the_same_protocol_and_tool_budget():
         payload = client._build_payload(trimmed, tools, max_tokens=40)
     assert payload['messages'][-1]['content'] == 'current'
     assert not any(m.get('content') == 'x' * 400 for m in trimmed)
-
