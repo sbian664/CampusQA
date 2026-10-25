@@ -14,3 +14,5 @@
 ## 管理接口边界
 
 知识库上传/扫描/重建等旧兼容入口仍要求管理员 Session 与 CSRF；清空会话、删除单条消息、删除会话 `/api/sessions/{session_id}`、模式切换 `/api/mode/toggle`、面向用户的模型配置 `/api/llm-config`、`/api/llm-config/test`、用户聊天 `/api/chat` 和附件解析 `/api/attachments/parse` 不要求管理员登录。控制台对应的 `/api/admin/llm-config` 仍受管理员 Session 与 CSRF 保护。检索追踪只对新产生的 Agent 工具调用保存结构化证据，历史会话不会被虚构回填。
+
+管理接口的完整路由以当前后端 `/openapi.json` 为准，简表见 [API_REFERENCE.md](API_REFERENCE.md)。索引维护和恢复流程见 [OPERATIONS.md](OPERATIONS.md)。本地控制台开发不代表生产部署；部署需要当前任务明确要求。
