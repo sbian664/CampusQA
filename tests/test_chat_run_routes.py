@@ -1,10 +1,51 @@
 import uuid
+from contextlib import nullcontext
+from threading import Event
 from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 
 import server
 from src.chat_runs import ChatRunManager
+
+
+def test_chat_run_worker_copies_session_before_generating():
+    class FakeSession:
+        def __init__(self, session_id=None):
+            self.session_id = session_id or "new-session"
+            self.metadata = {}
+            self.saved = False
+
+        @classmethod
+        def coordinate(cls, session_id):
+            return nullcontext()
+
+        def load(self):
+            return False
+
+        def save(self):
+            self.saved = True
+
+    class FakeRunManager:
+        committed = False
+
+        def commit(self, run_id, callback, result):
+            callback()
+            self.committed = True
+            return True
+
+    emitted = []
+    run_manager = FakeRunManager()
+    result = {"response": "hello", "session_id": "new-session", "session_title": "hello"}
+    payload = {"run_id": str(uuid.uuid4()), "message": "hello"}
+    with patch.object(server, "Session", FakeSession), \
+         patch.object(server, "_chat_locked", return_value=result), \
+         patch.object(server, "chat_runs", run_manager):
+        actual = server._execute_chat_run(payload, lambda event, data: emitted.append((event, data)), Event())
+
+    assert actual == result
+    assert run_manager.committed is True
+    assert any(event == "status" and data["stage"] == "saving" for event, data in emitted)
 
 
 def test_run_routes_create_snapshot_cancel_and_sse(tmp_path):

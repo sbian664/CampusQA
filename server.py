@@ -990,7 +990,7 @@ def _execute_chat_run(payload, emit, cancel_event):
     try:
         with Session.coordinate(session.session_id):
             session.load()
-            working = copy.deepcopy(session)
+            working = deepcopy(session)
             trace = {"stage": "queued", "effective_mode": None, "usage": None, "outcome": "error"}
 
             def status(stage, details):
