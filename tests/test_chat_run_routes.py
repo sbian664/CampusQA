@@ -11,7 +11,7 @@ from src.chat_runs import ChatRunManager
 
 def test_chat_run_worker_copies_session_before_generating():
     class FakeSession:
-        def __init__(self, session_id=None):
+        def __init__(self, session_id=None, **kwargs):
             self.session_id = session_id or "new-session"
             self.metadata = {}
             self.saved = False
@@ -37,7 +37,7 @@ def test_chat_run_worker_copies_session_before_generating():
     emitted = []
     run_manager = FakeRunManager()
     result = {"response": "hello", "session_id": "new-session", "session_title": "hello"}
-    payload = {"run_id": str(uuid.uuid4()), "message": "hello"}
+    payload = {"run_id": str(uuid.uuid4()), "message": "hello", '__owner_user_id': 'test-user', '__new_session': True}
     with patch.object(server, "Session", FakeSession), \
          patch.object(server, "_chat_locked", return_value=result), \
          patch.object(server, "chat_runs", run_manager):
@@ -48,7 +48,7 @@ def test_chat_run_worker_copies_session_before_generating():
     assert any(event == "status" and data["stage"] == "saving" for event, data in emitted)
 
 
-def test_run_routes_create_snapshot_cancel_and_sse(tmp_path):
+def test_run_routes_create_snapshot_cancel_and_sse(tmp_path, user_client):
     def worker(payload, emit, cancelled):
         emit("status", {"stage": "answering"})
         emit("delta", {"text": "hello"})
@@ -56,7 +56,8 @@ def test_run_routes_create_snapshot_cancel_and_sse(tmp_path):
 
     manager = ChatRunManager(tmp_path / "runs.sqlite3", worker=worker)
     run_id = str(uuid.uuid4())
-    with patch.object(server, "chat_runs", manager), TestClient(server.app) as client:
+    with patch.object(server, "chat_runs", manager), patch.object(server, 'get_chatbot', return_value=type('Bot', (), {'agent_mode': True})()):
+        client = user_client
         created = client.post("/api/chat/runs", json={"run_id": run_id, "message": "hello"})
         assert created.status_code == 202
         manager.wait_for_run(run_id, timeout=3)

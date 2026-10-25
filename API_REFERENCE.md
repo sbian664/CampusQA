@@ -6,9 +6,14 @@
 
 ## 用户接口
 
+除健康检查与微信登录外，用户接口统一要求微信 Bearer Token，上传和 SSE 也需携带。管理员 Cookie 不替代用户身份。环境、个人配置及配套切换见 [USER_ISOLATION.md](USER_ISOLATION.md)。
+
 | 方法 | 路径 | 用途 |
 | --- | --- | --- |
 | `GET` | `/api/health` | 服务与知识库健康状态 |
+| `POST` | `/api/auth/wechat` | code 换取 7 天用户 Token |
+| `GET` | `/api/auth/me` | 当前用户编号 |
+| `POST` | `/api/auth/logout` | 撤销当前 Token |
 | `POST` | `/api/chat` | 同步聊天接口，供不支持分块响应的客户端兼容使用 |
 | `POST` | `/api/chat/runs` | 创建后台聊天任务，成功返回 `202` |
 | `GET` | `/api/chat/runs/{run_id}` | 查询任务状态、当前文本快照或最终结果 |
@@ -21,6 +26,7 @@
 | `DELETE` | `/api/session/{session_id}/message/{index}` | 删除会话中的一条消息 |
 | `POST` | `/api/attachments/parse` | 解析单次聊天附件，不加入知识库 |
 | `POST` | `/api/submissions` | 提交知识文档供管理员审核 |
+| `GET` | `/api/submissions` | 分页列出自己的投稿 |
 | `GET` | `/api/submissions/{submission_id}/status` | 查询投稿处理状态 |
 
 聊天请求的主要字段如下：
@@ -36,7 +42,7 @@
 }
 ```
 
-新会话由服务端分配 UUID。聊天成功响应包含 `response`、`session_id`、`session_title`、`finish_reason`、`tool_calls`、`usage`、`rounds` 和实际执行模式 `effective_mode` 等字段；以 OpenAPI 模型为准。
+新会话由服务端分配 UUID。指定已有 ID 必须属于当前用户；不存在、他人所有或历史未归属均返回 404，不自动创建/认领。聊天成功响应包含 `response`、`session_id`、`session_title`、`finish_reason`、`tool_calls`、`usage`、`rounds` 和实际执行模式 `effective_mode` 等字段；以 OpenAPI 模型为准。
 
 ## 流式聊天任务
 
@@ -56,10 +62,11 @@
 | `POST` | `/api/kb/rebuild` | 兼容管理入口；需要管理员登录和 CSRF |
 | `POST` | `/api/upload` | 兼容管理入口；需要管理员登录和 CSRF |
 | `POST` | `/api/upload-legacy` | 旧版上传兼容入口；需要管理员登录和 CSRF |
-| `GET` / `PUT` | `/api/llm-config` | 用户侧模型配置读写 |
+| `GET` / `PUT` | `/api/llm-config` | 当前用户 source=server/personal 配置 |
+| `DELETE` | `/api/llm-config` | 删除个人配置并切回服务器 |
 | `POST` | `/api/llm-config/test` | 测试用户侧模型配置 |
 | `GET` | `/api/mode` | 读取问答模式 |
-| `POST` | `/api/mode/toggle` | 切换问答模式 |
+| `POST` | `/api/mode/toggle` | 管理员 Cookie + CSRF 切换全局模式 |
 | `GET` | `/api/cost/{session_id}` | 读取会话用量摘要 |
 | `GET` | `/api/session/{session_id}/tool-log` | 读取工具调用记录 |
 | `POST` | `/api/session/load` | 兼容会话加载入口 |
@@ -73,7 +80,8 @@
 ## 状态码与诊断
 
 - `400`：请求参数无效。
-- `401` / `403`：管理员会话缺失或 CSRF 校验失败（管理接口）。
+- `401`：用户 Token 缺失/失效或管理员会话缺失；`403`：管理员 CSRF 校验失败。
+- `404`：记录不存在、不属于当前用户或历史未归属，不透露外部记录是否存在。
 - `409`：会话/任务冲突，或当前状态不接受该写操作。
 - `413`：文件超过 20 MiB 单文件限制。
 - `429`：登录或投稿频率限制。

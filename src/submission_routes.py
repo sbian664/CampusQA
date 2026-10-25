@@ -1,4 +1,4 @@
-"""Public API for anonymous knowledge-document submissions."""
+"""Authenticated API for user-owned knowledge-document submissions."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ from fastapi import APIRouter, File, Form, Header, HTTPException, Request, Uploa
 from src.submissions import SubmissionService
 from src.file_processing import run_file_work
 from src.errors import FileLimitError
+from src.identity import require_user_id
 
 
 def create_submission_router(service: SubmissionService) -> APIRouter:
@@ -20,18 +21,22 @@ def create_submission_router(service: SubmissionService) -> APIRouter:
         file: UploadFile = File(...),
         original_filename: str | None = Form(default=None),
     ) -> dict[str, Any]:
-        client_key = request.client.host if request.client else "unknown"
+        user_id = require_user_id()
         try:
             filename = original_filename or file.filename or ""
-            return await run_file_work(service.submit, filename, file.file, client_key=client_key)
+            return await run_file_work(service.submit, filename, file.file, owner_user_id=user_id)
         except FileLimitError as error:
             raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             message = str(error)
-            status_code = 413 if "size" in message else 400
+            status_code = 429 if 'rate limit' in message else 413 if "size" in message else 400
             raise HTTPException(status_code=status_code, detail=message)
         except Exception:
             raise HTTPException(status_code=422, detail="document validation failed")
+
+    @router.get('')
+    def my_submissions(limit: int = 50, offset: int = 0):
+        return service.list_owned(require_user_id(), limit=limit, offset=offset)
 
     @router.get("/{submission_id}/status")
     def submission_status(
@@ -39,7 +44,7 @@ def create_submission_router(service: SubmissionService) -> APIRouter:
         submission_token: str | None = Header(default=None, alias="X-Submission-Token"),
     ) -> dict[str, Any]:
         try:
-            return service.get_public_status(submission_id, submission_token or "")
+            return service.get_owned_status(submission_id, require_user_id())
         except LookupError as error:
             raise HTTPException(status_code=404, detail=str(error))
         except PermissionError as error:

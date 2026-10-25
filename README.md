@@ -29,6 +29,8 @@ python server.py
 
 启动后端后，可在设置页把小程序地址切到 `http://localhost:8000`，也可按管理端 README 启动控制台。小程序默认配置和正式 request 域名要求见前端 README。
 
+用户接口已要求微信 Bearer 登录。后端、小程序须配套切换；个人模型加密、备份和安全回退见 [USER_ISOLATION.md](USER_ISOLATION.md)。
+
 ## 主要能力
 
 - 同步聊天 `POST /api/chat`，以及可续读、可取消的后台流式聊天 `POST /api/chat/runs`。

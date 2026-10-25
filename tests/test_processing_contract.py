@@ -19,7 +19,8 @@ def test_submission_size_has_413():
         raise FileLimitError('单文件不能超过 20 MB')
     app = FastAPI()
     app.include_router(create_submission_router(SimpleNamespace(submit=reject)), prefix='/submissions')
-    assert TestClient(app).post('/submissions', files={'file': ('x.txt', b'x')}).status_code == 413
+    with patch('src.submission_routes.require_user_id', return_value='test-user'):
+        assert TestClient(app).post('/submissions', files={'file': ('x.txt', b'x')}).status_code == 413
 
 
 def test_maintenance_error_escapes_tool_handler(tmp_path):
@@ -30,7 +31,7 @@ def test_maintenance_error_escapes_tool_handler(tmp_path):
         ToolHandler(kb).execute('search_knowledge_base', {'query': 'x'})
 
 
-def test_health_responds_on_shared_event_loop_while_parser_is_blocked():
+def test_health_responds_on_shared_event_loop_while_parser_is_blocked(user_client):
     started = threading.Event()
     release = threading.Event()
     class Loader:
@@ -43,7 +44,7 @@ def test_health_responds_on_shared_event_loop_while_parser_is_blocked():
     async def no_startup(app):
         yield
     with patch.object(server.app.router, 'lifespan_context', no_startup), patch('server.DocumentLoader', Loader):
-        with TestClient(server.app) as client, ThreadPoolExecutor(max_workers=2) as pool:
+        with user_client as client, ThreadPoolExecutor(max_workers=2) as pool:
             pending = pool.submit(client.post, '/api/attachments/parse', files={'file': ('slow.txt', b'x')})
             try:
                 assert started.wait(2)

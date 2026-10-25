@@ -59,15 +59,23 @@ def make_app(tmp_path):
     )
     jobs = FakeJobs()
     app = FastAPI()
+    from src.identity import current_user
+    @app.middleware('http')
+    async def test_identity(request, call_next):
+        marker = current_user.set('test-user' if request.headers.get('Authorization') == 'Bearer test-user' else None)
+        try:
+            return await call_next(request)
+        finally:
+            current_user.reset(marker)
     app.include_router(create_submission_router(service), prefix="/api/submissions")
     app.include_router(
         create_admin_router(store, job_manager=jobs, submission_service=service),
         prefix="/api/admin",
     )
-    return TestClient(app), service, kb, jobs
+    return TestClient(app, headers={'Authorization': 'Bearer test-user'}), service, kb, jobs
 
 
-def test_public_submit_and_status_require_the_receipt_token(tmp_path):
+def test_submit_and_status_require_owner_identity(tmp_path):
     client, _, _, _ = make_app(tmp_path)
 
     response = client.post(
@@ -80,7 +88,7 @@ def test_public_submit_and_status_require_the_receipt_token(tmp_path):
     receipt = response.json()
     assert receipt["status"] == SubmissionStatus.PENDING
     assert receipt["original_filename"] == "Campus Guide.md"
-    assert client.get(f"/api/submissions/{receipt['submission_id']}/status").status_code == 403
+    assert client.get(f"/api/submissions/{receipt['submission_id']}/status", headers={"Authorization": ""}).status_code == 401
     status = client.get(
         f"/api/submissions/{receipt['submission_id']}/status",
         headers={"X-Submission-Token": receipt["access_token"]},

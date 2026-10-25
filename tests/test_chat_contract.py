@@ -10,9 +10,8 @@ from src.chatbot import AgentChatResult
 
 
 @pytest.fixture
-def client(tmp_path):
-    with patch('src.session.CACHE_DIR', str(tmp_path)):
-        yield TestClient(server.app)
+def client(user_client):
+    return user_client
 
 
 def test_invalid_chat_and_load_keep_400(client):
@@ -22,7 +21,7 @@ def test_invalid_chat_and_load_keep_400(client):
 
 
 def test_conflict_covers_chat_and_all_mutations(client):
-    session = Session('busy')
+    session = Session('busy', owner_user_id=client.user_id)
     session.save()
     with Session.coordinate('busy'):
         with ThreadPoolExecutor(max_workers=1) as pool:

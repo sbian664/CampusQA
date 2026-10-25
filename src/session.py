@@ -125,7 +125,7 @@ class Session:
             return f"调用了工具: {', '.join(tool_names)}"
         return ""
     
-    def __init__(self, session_id: str = None, max_history: int = 20):
+    def __init__(self, session_id: str = None, max_history: int = 20, *, owner_user_id=None):
         """
         初始化会话
         
@@ -138,6 +138,7 @@ class Session:
         validate_session_id(session_id)
         
         self.session_id = session_id
+        self._owner_user_id = owner_user_id
         self.max_history = max_history
         self.messages: List[Dict] = []  # 对话历史
         self.metadata = {
@@ -152,6 +153,15 @@ class Session:
 
         # 确保缓存目录存在
         os.makedirs(self.cache_dir, exist_ok=True)
+
+    @property
+    def owner_user_id(self):
+        return self._owner_user_id
+
+    def require_owner(self, user_id):
+        if not user_id or self.owner_user_id != user_id:
+            from fastapi import HTTPException
+            raise HTTPException(status_code=404, detail='会话不存在')
     
     def add_message(self, role: str, content: str = None, 
                     tool_calls: List[Dict] = None,
@@ -357,6 +367,7 @@ class Session:
         
         data = {
             "session_id": self.session_id,
+            "owner_user_id": self.owner_user_id,
             "messages": self.messages,
             "metadata": self.metadata,
             "tool_call_log": self.tool_call_log,
@@ -367,6 +378,10 @@ class Session:
         try:
             with self.coordinate(self.session_id):
                 filepath = self._path(filename)
+                if filepath.exists():
+                    existing = json.loads(filepath.read_text(encoding='utf-8'))
+                    if existing.get('owner_user_id') != self.owner_user_id:
+                        raise ValueError('会话归属不可变更')
                 atomic_json(filepath, data)
             return str(filepath)
         except Exception as e:
@@ -401,6 +416,7 @@ class Session:
             
             validate_session_id(data.get('session_id'))
             self.session_id = data.get("session_id", self.session_id)
+            self._owner_user_id = data.get('owner_user_id')
             self.messages = data.get("messages", [])
             self.metadata = data.get("metadata", self.metadata)
             self.tool_call_log = data.get("tool_call_log", [])

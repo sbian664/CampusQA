@@ -1,4 +1,4 @@
-"""Single-user, server-side LLM configuration storage."""
+"""Administrator-managed server default LLM configuration storage."""
 
 from __future__ import annotations
 
@@ -100,7 +100,7 @@ def normalize_llm_config(
 
 
 class UserLLMConfigStore:
-    """Persist one server-wide model configuration for the single-user MVP."""
+    """Persist the administrator-managed server model configuration."""
 
     def __init__(self, path: Optional[Path] = None, default_config: Optional[Dict[str, str]] = None):
         self.path = Path(path or DEFAULT_CONFIG_PATH)

@@ -235,6 +235,7 @@ def list_session_summaries(
             continue
         matches.append({
             "session_id": session_id,
+            "owner_user_id": getattr(session, 'owner_user_id', None),
             "title": title,
             "message_count": _number(session.metadata.get("message_count"), len(session.messages)),
             "created_at": session.metadata.get("created_at", ""),
@@ -257,6 +258,7 @@ def load_session_detail(session_class: Any, session_id: str, *, source_root: Opt
     ]
     return {
         "session_id": session.session_id,
+        "owner_user_id": getattr(session, 'owner_user_id', None),
         "title": session.metadata.get("title") or session.metadata.get("summary"),
         "message_count": _number(session.metadata.get("message_count"), len(session.messages)),
         "created_at": session.metadata.get("created_at", ""),

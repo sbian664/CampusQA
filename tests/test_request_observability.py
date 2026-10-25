@@ -15,7 +15,7 @@ def test_auxiliary_model_payload_enforces_budget_before_api():
             client._build_payload([{'role': 'user', 'content': 'x' * 500}], max_tokens=24)
 
 
-def test_chat_request_snapshot_is_stable_and_trace_contains_no_body_or_key(tmp_path, caplog):
+def test_chat_request_snapshot_is_stable_and_trace_contains_no_body_or_key(tmp_path, caplog, user_client):
     captured = []
     settings = {'max_tokens': 321, 'bm25_weight': .6}
     class Bot:
@@ -27,7 +27,7 @@ def test_chat_request_snapshot_is_stable_and_trace_contains_no_body_or_key(tmp_p
             return 'answer'
     with patch('src.session.CACHE_DIR', str(tmp_path)), patch('server.get_chatbot', return_value=Bot()), patch.object(server._admin_config_service, 'runtime_config', side_effect=lambda: dict(settings)), patch('server._generate_session_title', return_value='title'):
         caplog.set_level('INFO', logger='uvicorn.error')
-        client = TestClient(server.app)
+        client = user_client
         for _ in range(2):
             response = client.post('/api/chat', json={'message': 'private body secret-key'})
             assert response.status_code == 200

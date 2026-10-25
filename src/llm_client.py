@@ -133,9 +133,13 @@ class OpenAICompatibleClient(LLMClient):
                     json=payload,
                     headers=headers,
                     timeout=DEEPSEEK_TIMEOUT,
+                    allow_redirects=False,
                     **({"stream": True} if cancel_event is not None else {}),
                 )
                 register = getattr(cancel_event, "register", None)
+                if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
+                    response.close()
+                    raise requests.HTTPError('模型服务不允许重定向')
                 if callable(register):
                     register(response)
                 if cancel_event is not None:
@@ -162,7 +166,7 @@ class OpenAICompatibleClient(LLMClient):
                     raise
 
                 delay = DEEPSEEK_RETRY_BACKOFF_SECONDS * (2 ** attempt)
-                print(f"⚠️ {self.provider} API 瞬时错误，{delay:.1f}s 后重试 ({attempt + 1}/{attempts}): {error}")
+                print(f"⚠️ {self.provider} API 瞬时错误，{delay:.1f}s 后重试 ({attempt + 1}/{attempts})")
                 time.sleep(delay)
 
         raise last_error
@@ -174,7 +178,7 @@ class OpenAICompatibleClient(LLMClient):
         payload["stream_options"] = {"include_usage": True}
         url = f"{self.base_url}/chat/completions"
         headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-        response = requests.post(url, json=payload, headers=headers, timeout=DEEPSEEK_TIMEOUT, stream=True)
+        response = requests.post(url, json=payload, headers=headers, timeout=DEEPSEEK_TIMEOUT, stream=True, allow_redirects=False)
         register = getattr(cancel_event, "register", None)
         if callable(register):
             register(response)
@@ -183,6 +187,8 @@ class OpenAICompatibleClient(LLMClient):
         terminal = False
         finish_reason = None
         try:
+            if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
+                raise requests.HTTPError('模型服务不允许重定向')
             if not callable(getattr(response, "iter_lines", None)):
                 raise RuntimeError("upstream does not support streaming responses")
             response.raise_for_status()
@@ -233,7 +239,7 @@ class OpenAICompatibleClient(LLMClient):
             self.last_usage = data.get("usage") or None
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
-            raise Exception(f"{self.provider} API 调用失败: {str(e)}")
+            raise RuntimeError('模型调用失败，请检查配置或稍后重试') from None
 
     def send_message_with_tools(
         self, messages: List[Dict], tools: Optional[List[Dict]] = None, **kwargs
@@ -291,12 +297,12 @@ class OpenAICompatibleClient(LLMClient):
 
         except requests.exceptions.RequestException as e:
             return LLMResponse(
-                content=f"[API_ERROR] {self.provider} API 调用失败: {str(e)}",
+                content='[API_ERROR] 模型调用失败，请检查配置或稍后重试',
                 finish_reason="error",
             )
         except (KeyError, IndexError, json.JSONDecodeError) as e:
             return LLMResponse(
-                content=f"[API_ERROR] 响应解析失败: {str(e)}",
+                content='[API_ERROR] 模型响应解析失败',
                 finish_reason="error",
             )
 

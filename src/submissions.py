@@ -1,4 +1,4 @@
-"""Anonymous knowledge-document submissions and publication workflow."""
+"""Owned knowledge-document submissions and publication workflow."""
 
 from __future__ import annotations
 
@@ -113,6 +113,11 @@ class SubmissionService:
                     ON knowledge_submissions(client_key_hash, created_at DESC);
                 """
             )
+
+        with self._connect() as connection:
+            if 'owner_user_id' not in {row[1] for row in connection.execute('PRAGMA table_info(knowledge_submissions)')}:
+                connection.execute('ALTER TABLE knowledge_submissions ADD COLUMN owner_user_id TEXT')
+            connection.execute('CREATE INDEX IF NOT EXISTS idx_submissions_owner ON knowledge_submissions(owner_user_id, created_at)')
 
     def _recover_interrupted_imports(self) -> None:
         """Make submissions left in-flight by a process restart retryable."""
@@ -231,7 +236,7 @@ class SubmissionService:
             raise ValueError("document is not a valid PDF")
 
     @file_operation
-    def submit(self, filename: str, stream: BinaryIO, *, client_key: str = "unknown") -> dict[str, Any]:
+    def submit(self, filename: str, stream: BinaryIO, *, client_key: str = "unknown", owner_user_id=None) -> dict[str, Any]:
         if not filename or filename != os.path.basename(filename) or any(char in filename for char in "/\\"):
             raise ValueError("invalid filename")
         extension = Path(filename).suffix.lower()
@@ -249,7 +254,7 @@ class SubmissionService:
             raise ValueError("file size exceeds limit")
 
         content_hash = hashlib.sha256(data).hexdigest()
-        client_hash = self._client_hash(client_key)
+        client_hash = self._client_hash('user:' + owner_user_id if owner_user_id else client_key)
         now = datetime.now(timezone.utc)
         cutoff = (now - timedelta(seconds=self.rate_limit_window_seconds)).isoformat()
 
@@ -271,11 +276,12 @@ class SubmissionService:
                 duplicate = connection.execute(
                     """
                     SELECT 1 FROM knowledge_submissions
-                    WHERE content_hash = ? AND status IN (?, ?, ?, ?)
+                    WHERE content_hash = ? AND owner_user_id IS ? AND status IN (?, ?, ?, ?)
                     LIMIT 1
                     """,
                     (
                         content_hash,
+                        owner_user_id,
                         SubmissionStatus.PENDING,
                         SubmissionStatus.IMPORTING,
                         SubmissionStatus.FAILED,
@@ -289,8 +295,8 @@ class SubmissionService:
                     INSERT INTO knowledge_submissions(
                         submission_id, original_filename, extension, staging_relpath,
                         content_hash, access_token_hash, client_key_hash, file_size,
-                        status, created_at, updated_at
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        status, created_at, updated_at, owner_user_id
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """,
                     (
                         submission_id,
@@ -304,6 +310,7 @@ class SubmissionService:
                         SubmissionStatus.PENDING,
                         now.isoformat(),
                         now.isoformat(),
+                        owner_user_id,
                     ),
                 )
                 row = connection.execute(
@@ -316,6 +323,20 @@ class SubmissionService:
         except Exception:
             shutil.rmtree(submission_dir, ignore_errors=True)
             raise
+
+    def list_owned(self, user_id, *, limit=50, offset=0):
+        limit, offset = max(1, min(int(limit), 200)), max(0, int(offset))
+        with self._connect() as connection:
+            rows = connection.execute('SELECT * FROM knowledge_submissions WHERE owner_user_id=? ORDER BY created_at DESC LIMIT ? OFFSET ?', (user_id, limit, offset)).fetchall()
+            total = connection.execute('SELECT COUNT(*) FROM knowledge_submissions WHERE owner_user_id=?', (user_id,)).fetchone()[0]
+        return {'items': [self._public_projection(row) for row in rows], 'total': total, 'limit': limit, 'offset': offset}
+
+    def get_owned_status(self, submission_id, user_id):
+        with self._connect() as connection:
+            row = connection.execute('SELECT * FROM knowledge_submissions WHERE submission_id=? AND owner_user_id=?', (submission_id, user_id)).fetchone()
+        if not row:
+            raise LookupError('submission not found')
+        return self._public_projection(row)
 
     def get_public_status(self, submission_id: str, access_token: str) -> dict[str, Any]:
         with self._connect() as connection:

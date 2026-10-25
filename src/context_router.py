@@ -109,7 +109,7 @@ class ContextRouter:
                 route="ambiguous",
                 rewritten_query=current_query,
                 selected_history=fallback_history,
-                reason=f"路由失败，保守保留最近一轮: {error}",
+                reason='路由失败，保守保留最近一轮',
             )
 
     @staticmethod

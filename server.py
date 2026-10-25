@@ -29,6 +29,7 @@ from pathlib import Path
 from fastapi import Request, Depends, FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from fastapi.openapi.utils import get_openapi
 from pydantic import BaseModel
 
 from config import (
@@ -54,6 +55,8 @@ from src.session import Session, SessionConflict, validate_session_id
 from src.knowledge_base import KnowledgeBase
 from src.document_loader import DocumentLoader
 from src.user_llm_config import UserLLMConfigStore
+from src.identity import UserStore, current_user, require_user_id, exchange_wechat_code
+from src.personal_llm_config import PersonalLLMConfigStore
 from src.admin.routes import (
     admin_csrf_dependency,
     admin_session_dependency,
@@ -132,6 +135,8 @@ app.add_middleware(
 )
 
 _admin_control_store = create_default_admin_store(DATA_DIR)
+_user_store = UserStore(_admin_control_store.db_path)
+_personal_llm_store = PersonalLLMConfigStore(_user_store)
 _admin_job_manager = AdminJobManager(_admin_control_store)
 _kb_mutation_lock = RLock()
 _admin_document_service = AdminDocumentService(
@@ -161,6 +166,51 @@ _chatbot: Optional[Chatbot] = None
 _context_router: Optional[ContextRouter] = None
 _llm_config_store = UserLLMConfigStore()
 _title_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="session-title")
+
+ADMIN_COMPAT_PATHS = {'/api/upload', '/api/upload-legacy', '/api/kb/scan', '/api/kb/rebuild', '/api/mode/toggle'}
+
+
+def user_route_requires_auth(path):
+    path = path.rstrip('/')
+    return (path.startswith('/api/') and not path.startswith('/api/admin/')
+            and path not in {'/api/health', '/api/auth/wechat'} and path not in ADMIN_COMPAT_PATHS)
+
+
+def user_auth_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    schema = get_openapi(title=app.title, version=app.version, routes=app.routes)
+    schema.setdefault('components', {}).setdefault('securitySchemes', {})['UserBearer'] = {
+        'type': 'http', 'scheme': 'bearer', 'description': 'POST /api/auth/wechat 获取的用户 Token；不能代替管理员 Cookie。'}
+    for path, operations in schema['paths'].items():
+        if user_route_requires_auth(path):
+            for method, operation in operations.items():
+                if method in {'get', 'post', 'put', 'patch', 'delete'}:
+                    operation['security'] = [{'UserBearer': []}]
+                    operation.setdefault('responses', {})['401'] = {'description': '微信登录缺失或失效'}
+    app.openapi_schema = schema
+    return schema
+
+
+app.openapi = user_auth_openapi
+
+
+@app.middleware('http')
+async def authenticate_user_request(request, call_next):
+    path = request.url.path.rstrip('/')
+    if not user_route_requires_auth(path) or request.method == 'OPTIONS':
+        return await call_next(request)
+    scheme, _, token = request.headers.get('Authorization', '').partition(' ')
+    user_id = await asyncio.to_thread(_user_store.authenticate, token) if scheme.lower() == 'bearer' else None
+    if not user_id:
+        return JSONResponse(status_code=401, content={'detail': '登录已失效，请重新进行微信登录'})
+    marker = current_user.set(user_id)
+    request.state.user_id = user_id
+    request.state.user_token = token
+    try:
+        return await call_next(request)
+    finally:
+        current_user.reset(marker)
 
 
 async def observe_chat_request(request, call_next):
@@ -206,7 +256,7 @@ async def admin_request_observability(request, call_next):
         _admin_control_store.record_metric("api_errors")
         _admin_control_store.record_error(
             request_id=request_id, path=request.url.path, status_code=500,
-            detail=f"{type(error).__name__}: {error}",
+            detail=type(error).__name__,
         )
         raise
     duration_ms = round((time.perf_counter() - started) * 1000)
@@ -255,6 +305,10 @@ def get_kb() -> KnowledgeBase:
 
 def get_chatbot(llm_config=None) -> Chatbot:
     global _chatbot
+    if llm_config is not None:
+        bot = Chatbot(knowledge_base=get_kb(), llm_config=dict(llm_config))
+        bot.agent_mode = _chatbot.agent_mode if _chatbot is not None else AGENT_MODE_ENABLED
+        return bot
     llm_config = get_llm_config() if llm_config is None else llm_config
     config_signature = json.dumps(llm_config, sort_keys=True)
     if _chatbot is None or getattr(_chatbot, "_llm_config_signature", None) != config_signature:
@@ -265,6 +319,10 @@ def get_chatbot(llm_config=None) -> Chatbot:
 
 def get_context_router(llm_config=None) -> ContextRouter:
     global _context_router
+    if llm_config is not None:
+        return create_context_router(provider=llm_config['provider'],
+                                     history_exchanges=CONTEXT_ROUTER_HISTORY_EXCHANGES,
+                                     llm_config=dict(llm_config))
     llm_config = get_llm_config() if llm_config is None else llm_config
     config_signature = json.dumps(llm_config, sort_keys=True)
     if _context_router is None or getattr(_context_router, "_llm_config_signature", None) != config_signature:
@@ -431,10 +489,15 @@ def is_context_router_enabled(request: ChatRequest) -> bool:
 
 
 class LLMConfigRequest(BaseModel):
-    provider: str
+    source: str = 'personal'
+    provider: str = ''
     api_key: str = ""
-    model: str
-    base_url: str
+    model: str = ''
+    base_url: str = ''
+
+
+class WeChatLoginRequest(BaseModel):
+    code: str
 
 
 class ChatResponse(BaseModel):
@@ -505,6 +568,14 @@ def _load_or_create_session(session_id: Optional[str]) -> Session:
     else:
         session = Session()
         session.save()
+    return session
+
+
+def _load_owned_session(session_id):
+    session = Session(session_id=session_id)
+    if not session.load():
+        raise HTTPException(status_code=404, detail='会话不存在')
+    session.require_owner(require_user_id())
     return session
 
 
@@ -671,9 +742,13 @@ def session_operation(function):
         if session_id is None:
             session_id = values['request'].session_id
         try:
-            if session_id and chat_runs.is_session_busy(session_id):
-                raise HTTPException(status_code=409, detail="该会话正在生成")
+            # Check the last atomic snapshot before attempting a nonblocking lock:
+            # foreign callers must not learn whether another user's session is busy.
+            _load_owned_session(session_id)
             with Session.coordinate(session_id):
+                _load_owned_session(session_id)
+                if chat_runs.is_session_busy(session_id):
+                    raise HTTPException(status_code=409, detail='该会话正在生成')
                 return function(*args, **kwargs)
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
@@ -692,30 +767,55 @@ def health_check():
 
 @app.get("/api/llm-config")
 def get_llm_config_endpoint():
-    """读取面向用户的模型配置；API Key 只返回脱敏值。"""
-    return _llm_config_store.public_config()
+    return _personal_llm_store.public_config(require_user_id())
 
 
 @app.put("/api/llm-config")
 def update_llm_config(request: LLMConfigRequest):
     """保存面向用户的模型配置并让后续请求重新创建 LLM 客户端。"""
-    global _chatbot, _context_router
     try:
-        _llm_config_store.update(request.dict())
+        config = _personal_llm_store.save(require_user_id(), request.dict())
     except ValueError as error:
         raise HTTPException(status_code=400, detail=str(error))
-    _chatbot = None
-    _context_router = None
-    return {"status": "saved", **_llm_config_store.public_config()}
+    return {"status": "saved", **config}
+
+
+@app.delete('/api/llm-config')
+def delete_personal_llm_config():
+    return _personal_llm_store.delete(require_user_id())
+
+
+@app.post('/api/auth/wechat')
+def wechat_login(request: WeChatLoginRequest):
+    if not request.code.strip() or len(request.code) > 512:
+        raise HTTPException(status_code=400, detail='微信登录 code 无效')
+    app_id, open_id = exchange_wechat_code(request.code)
+    return _user_store.login(app_id, open_id)
+
+
+@app.get('/api/auth/me')
+def user_me():
+    return {'user_id': require_user_id()}
+
+
+@app.post('/api/auth/logout')
+def user_logout(request: Request):
+    _user_store.revoke(request.state.user_token)
+    return {'status': 'logged_out'}
+
+
+def user_llm_snapshot():
+    try:
+        return _personal_llm_store.effective(require_user_id(), get_llm_config())
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
 
 
 @app.post("/api/llm-config/test")
 def test_llm_config(request: LLMConfigRequest):
     """测试面向用户的当前输入配置，不保存配置。"""
     try:
-        candidate = _llm_config_store.resolve(
-            request.dict(),
-        )
+        candidate = _personal_llm_store.resolve(require_user_id(), request.dict())
         client = create_llm_client(config=candidate)
         client.send_message(
             [
@@ -727,21 +827,26 @@ def test_llm_config(request: LLMConfigRequest):
         )
     except ValueError as error:
         raise HTTPException(status_code=400, detail=str(error))
-    except Exception as error:
-        raise HTTPException(status_code=502, detail=f"模型连接失败: {error}")
+    except Exception:
+        raise HTTPException(status_code=502, detail='模型连接失败，请检查个人配置') from None
     return {"status": "ok"}
 
 
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(request: ChatRequest, http_request: Request):
     try:
-        if request.session_id and chat_runs.is_session_busy(request.session_id):
-            raise HTTPException(status_code=409, detail="该会话正在生成")
+        if request.session_id:
+            _load_owned_session(request.session_id)
         http_request.state.chat_trace["stage"] = "session"
-        session = Session(session_id=request.session_id)
+        session = Session(session_id=request.session_id, owner_user_id=require_user_id())
         with Session.coordinate(session.session_id):
-            session.load()
-            return _chat_locked(request, session, http_request.state.chat_trace)
+            if request.session_id:
+                if not session.load():
+                    raise HTTPException(status_code=404, detail='会话不存在')
+                session.require_owner(require_user_id())
+            if chat_runs.is_session_busy(session.session_id):
+                raise HTTPException(status_code=409, detail='该会话正在生成')
+            return _chat_locked(request, session, http_request.state.chat_trace, llm_snapshot=user_llm_snapshot())
     except ContextLimitError:
         raise
     except ValueError as error:
@@ -753,22 +858,31 @@ def chat(request: ChatRequest, http_request: Request):
 @app.post("/api/chat/runs", status_code=202)
 def create_chat_run(request: ChatRunRequest):
     try:
+        user_id = require_user_id()
+        try:
+            _require_owned_run(request.run_id)
+            existing_run = True
+        except RunNotFound:
+            existing_run = False
+        if request.session_id:
+            _load_owned_session(request.session_id)
+            if not existing_run:
+                with Session.coordinate(request.session_id):
+                    _load_owned_session(request.session_id)
         payload = request.dict(exclude={"run_id"})
+        payload['__owner_user_id'] = user_id
         payload["run_id"] = request.run_id
         payload["__client_session_id"] = request.session_id
         payload["__new_session"] = not bool(request.session_id)
         if not payload.get("session_id"):
             payload["session_id"] = str(uuid.uuid4())
-        llm_snapshot = get_llm_config()
+        if existing_run:
+            return chat_runs.create(request.run_id, payload)
+        llm_snapshot = user_llm_snapshot()
         chatbot = get_chatbot(llm_snapshot)
         payload["__llm_snapshot"] = llm_snapshot
         payload["__runtime_snapshot"] = _admin_config_service.runtime_config()
         payload["__agent_mode_snapshot"] = chatbot.agent_mode
-        try:
-            chat_runs.get(request.run_id)
-            existing_run = True
-        except RunNotFound:
-            existing_run = False
         if not existing_run:
             try:
                 with Session.coordinate(payload["session_id"]):
@@ -782,11 +896,16 @@ def create_chat_run(request: ChatRunRequest):
         raise HTTPException(status_code=409, detail=str(error))
     except RunCapacityError as error:
         raise HTTPException(status_code=429, detail=str(error))
+    except RunNotFound:
+        raise HTTPException(status_code=404, detail='生成任务不存在')
+    except SessionConflict as error:
+        raise HTTPException(status_code=409, detail=str(error))
 
 
 @app.get("/api/chat/runs/{run_id}")
 def get_chat_run(run_id: str):
     try:
+        _require_owned_run(run_id)
         current = chat_runs.get(run_id)
         if current.get("status") == "interrupted" and current.get("session_id"):
             session = Session(session_id=current["session_id"])
@@ -809,6 +928,7 @@ def get_chat_run(run_id: str):
 @app.post("/api/chat/runs/{run_id}/cancel")
 def cancel_chat_run(run_id: str):
     try:
+        _require_owned_run(run_id)
         return chat_runs.cancel(run_id)
     except RunNotFound:
         raise HTTPException(status_code=404, detail="生成任务不存在")
@@ -817,7 +937,7 @@ def cancel_chat_run(run_id: str):
 @app.get("/api/chat/runs/{run_id}/events")
 async def chat_run_events(run_id: str, request: Request, after: int = 0):
     try:
-        chat_runs.get(run_id)
+        _require_owned_run(run_id)
     except RunNotFound:
         raise HTTPException(status_code=404, detail="生成任务不存在")
 
@@ -908,8 +1028,8 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
                     f"  🧭 上下文路由: {context_route.route}; "
                     f"history={len(routed_history)}; reason={context_route.reason}"
                 )
-            except Exception as error:
-                print(f"  ⚠️ 上下文路由不可用，保留原始历史: {error}")
+            except Exception:
+                print('上下文路由不可用，保留原始历史')
 
         # 路由对话
         turn_id = uuid.uuid4().hex
@@ -986,10 +1106,13 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
 def _execute_chat_run(payload, emit, cancel_event):
     run_id = payload["run_id"]
     request = ChatRequest(**payload)
-    session = Session(session_id=request.session_id)
+    session = Session(session_id=request.session_id, owner_user_id=payload['__owner_user_id'])
     try:
         with Session.coordinate(session.session_id):
-            session.load()
+            if not payload.get('__new_session'):
+                if not session.load():
+                    raise HTTPException(status_code=404, detail='会话不存在')
+                session.require_owner(payload['__owner_user_id'])
             working = deepcopy(session)
             trace = {"stage": "queued", "effective_mode": None, "usage": None, "outcome": "error"}
 
@@ -1019,7 +1142,7 @@ def _execute_chat_run(payload, emit, cancel_event):
                 raise RuntimeError("generation cancelled")
 
             if result.get("session_title") is None and payload.get("__new_session"):
-                _title_executor.submit(_generate_session_title, request.message, create_llm_client, get_llm_config()).add_done_callback(
+                _title_executor.submit(_generate_session_title, request.message, create_llm_client, payload['__llm_snapshot']).add_done_callback(
                     lambda future, sid=working.session_id: _save_generated_title(sid, future)
                 )
             return result
@@ -1032,6 +1155,13 @@ def _execute_chat_run(payload, emit, cancel_event):
 
 
 chat_runs = ChatRunManager(Path(DATA_DIR) / "cache" / "chat_runs.sqlite3", worker=_execute_chat_run)
+
+
+def _require_owned_run(run_id):
+    owner = chat_runs.owner(run_id)
+    if owner != require_user_id():
+        raise HTTPException(status_code=404, detail='生成任务不存在')
+    return owner
 
 
 @app.get("/api/session/{session_id}")
@@ -1256,7 +1386,7 @@ def list_sessions():
         sid = f.replace(".json", "")
         try:
             s = Session(session_id=sid)
-            if s.load():
+            if s.load() and s.owner_user_id == require_user_id():
                 sessions.append({
                     "session_id": sid,
                     "title": _session_title(s),
@@ -1268,6 +1398,11 @@ def list_sessions():
             pass
     by_id = {session["session_id"]: session for session in sessions}
     for pending in chat_runs.active_sessions():
+        try:
+            if chat_runs.owner(pending['run_id']) != require_user_id():
+                continue
+        except RunNotFound:
+            continue
         session = by_id.get(pending["session_id"])
         if session is None:
             session = {
@@ -1317,7 +1452,7 @@ def get_mode():
 
 
 @app.post("/api/mode/toggle", response_model=ModeResponse)
-def toggle_mode():
+def toggle_mode(_admin=Depends(_admin_csrf)):
     """切换 Agent / 一步式 RAG 模式。"""
     chatbot = get_chatbot()
     chatbot.agent_mode = not chatbot.agent_mode

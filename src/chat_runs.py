@@ -117,6 +117,8 @@ class ChatRunManager:
                 expires_at REAL NOT NULL
             )""")
             db.execute("CREATE INDEX IF NOT EXISTS idx_chat_runs_session ON chat_runs(session_id, status)")
+            if 'owner_user_id' not in {row[1] for row in db.execute('PRAGMA table_info(chat_runs)')}:
+                db.execute('ALTER TABLE chat_runs ADD COLUMN owner_user_id TEXT')
 
     def _load_runs(self):
         now = time.time()
@@ -166,6 +168,8 @@ class ChatRunManager:
                     self._runs.pop(old_id, None)
             existing = db.execute("SELECT * FROM chat_runs WHERE run_id=?", (run_id,)).fetchone()
             if existing:
+                if existing['owner_user_id'] != payload.get('__owner_user_id'):
+                    raise RunNotFound('run not found')
                 if existing["payload_hash"] != payload_hash:
                     raise RunConflict("run_id already belongs to a different request")
                 return {"run_id": run_id, "session_id": existing["session_id"], "status": existing["status"], "created": False}
@@ -176,8 +180,8 @@ class ChatRunManager:
             if active >= self.max_tasks:
                 raise RunCapacityError("too many active chat runs")
             db.execute(
-                "INSERT INTO chat_runs(run_id,session_id,payload_hash,status,created_at,updated_at,expires_at) VALUES(?,?,?,?,?,?,?)",
-                (run_id, session_id, payload_hash, "queued", now, now, now + self.ttl_seconds),
+                "INSERT INTO chat_runs(run_id,session_id,payload_hash,status,created_at,updated_at,expires_at,owner_user_id) VALUES(?,?,?,?,?,?,?,?)",
+                (run_id, session_id, payload_hash, "queued", now, now, now + self.ttl_seconds, payload.get('__owner_user_id')),
             )
             run = _Run(run_id, session_id, payload_hash, payload)
             run.expires_at = now + self.ttl_seconds
@@ -321,6 +325,13 @@ class ChatRunManager:
             "usage": result.get("usage"),
             "model_calls": result.get("rounds"),
         }, ensure_ascii=False, separators=(",", ":")))
+
+    def owner(self, run_id):
+        with self._connect() as db:
+            row = db.execute('SELECT owner_user_id FROM chat_runs WHERE run_id=?', (str(run_id),)).fetchone()
+        if row is None:
+            raise RunNotFound(str(run_id))
+        return row['owner_user_id']
 
     def get(self, run_id):
         run = self._runs.get(str(run_id))
