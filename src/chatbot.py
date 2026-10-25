@@ -9,8 +9,8 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
-from src.agent_finalization import build_final_answer_messages, sanitize_tool_protocol_text
-from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, ToolHandler
+from src.agent_finalization import build_final_answer_messages, sanitize_tool_protocol_text, stream_cleaned_answer
+from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, FINISH_RETRIEVAL_TOOL, ToolHandler
 from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
@@ -47,6 +47,8 @@ class AgentLoopState:
     total_prompt_tokens: int = 0
     total_completion_tokens: int = 0
     usage_known: bool = False
+    total_model_calls: int = 0
+    include_final_call_in_rounds: bool = False
 
 
 @dataclass
@@ -103,7 +105,8 @@ class Chatbot:
     # ---- RAG 检索增强（一步式，快速模式）----
 
     def chat_with_rag(self, user_message: str, history: List[Dict],
-                      rerank_enabled: bool = False) -> str:
+                      rerank_enabled: bool = False, on_status=None,
+                      on_delta=None, cancel_event=None) -> str:
         """
         带 RAG 检索增强的多轮对话（一步式检索，不做循环）
 
@@ -113,7 +116,22 @@ class Chatbot:
         3. 双通道结果标注后交给 LLM 自主判断
         """
         if self.kb is None:
+            if on_delta:
+                messages = [{"role": "system", "content": self.system_prompt}]
+                messages.extend(history)
+                messages.append({"role": "user", "content": user_message})
+                if on_status:
+                    on_status("answering", {})
+                return stream_cleaned_answer(self.client,
+                    self._trim_context_if_needed(messages), on_delta, cancel_event,
+                    max_tokens=getattr(self, "max_tokens", MAX_TOKENS),
+                )
+            if on_status:
+                on_status("answering", {})
             return self.chat_with_history(user_message, history)
+
+        if on_status:
+            on_status("searching", {"query": user_message[:80], "search_count": 1})
 
         if HYBRID_SEARCH_ENABLED and hasattr(self.kb, 'hybrid_search'):
             results = search_with_optional_rerank(
@@ -122,6 +140,7 @@ class Chatbot:
                 top_k=RAG_TOP_K,
                 enabled=rerank_enabled,
                 bm25_weight=getattr(self, 'bm25_weight', None),
+                **({"on_rerank": lambda query: on_status("reranking", {"query": str(query)[:80]})} if on_status else {}),
             )
         else:
             results = self.kb.search(user_message, top_k=RAG_TOP_K)
@@ -133,6 +152,8 @@ class Chatbot:
         if all_bm25_zero and hasattr(self.kb, 'bm25_search'):
             qt = self.kb._tokenize_query(user_message)
             if any(self.kb._bm25_doc_freq.get(t, 0) > 0 for t in qt):
+                if on_status:
+                    on_status("searching", {"query": user_message[:80], "search_count": 2})
                 bm25_results = self.kb.bm25_search(user_message, top_k=RAG_TOP_K)
 
         # 构建上下文：语义匹配 + 关键词匹配分开展示
@@ -191,7 +212,18 @@ class Chatbot:
         messages.append({"role": "user", "content": "[知识库检索结果]\n" + context})
         messages.append({"role": "user", "content": user_message})
 
-        response = self.client.send_message(self._trim_context_if_needed(messages), max_tokens=getattr(self, 'max_tokens', MAX_TOKENS))
+        trimmed = self._trim_context_if_needed(messages)
+        if cancel_event is not None and cancel_event.is_set():
+            raise RuntimeError("generation cancelled")
+        if on_status:
+            on_status("answering", {})
+        if on_delta:
+            response = stream_cleaned_answer(self.client,
+                trimmed, on_delta, cancel_event,
+                max_tokens=getattr(self, 'max_tokens', MAX_TOKENS),
+            )
+        else:
+            response = self.client.send_message(trimmed, max_tokens=getattr(self, 'max_tokens', MAX_TOKENS))
         return sanitize_tool_protocol_text(response)
 
     # ═══════════════════════════════════════════════════════════
@@ -199,7 +231,8 @@ class Chatbot:
     # ═══════════════════════════════════════════════════════════
 
     def agent_chat(self, user_message: str, history: List[Dict],
-                   rerank_enabled: bool = False, turn_id: Optional[str] = None) -> AgentChatResult:
+                   rerank_enabled: bool = False, turn_id: Optional[str] = None,
+                   on_status=None, on_delta=None, cancel_event=None) -> AgentChatResult:
         """
         Agent Loop 自主循环检索
 
@@ -215,16 +248,34 @@ class Chatbot:
         L6: Token 预算裁剪
         """
         if self.kb is None:
+            if on_delta:
+                messages = [{"role": "system", "content": self.system_prompt}]
+                messages.extend(history)
+                messages.append({"role": "user", "content": user_message})
+                if on_status:
+                    on_status("answering", {})
+                content = stream_cleaned_answer(self.client,
+                    self._trim_context_if_needed(messages), on_delta, cancel_event,
+                    max_tokens=getattr(self, "max_tokens", MAX_TOKENS),
+                )
+                usage = getattr(self.client, "last_usage", None) or {}
+                return AgentChatResult(content=sanitize_tool_protocol_text(content), finish_reason="stop",
+                                       usage=usage, rounds=1)
             text = self.chat_with_history(user_message, history)
             return AgentChatResult(content=text, finish_reason="stop")
 
+        streaming = on_delta is not None
+        decision_tools = AGENT_TOOLS + ([FINISH_RETRIEVAL_TOOL] if streaming else [])
+
         state = AgentLoopState()
+        state.include_final_call_in_rounds = streaming
         handler = ToolHandler(
             self.kb,
             rerank_enabled=rerank_enabled,
             turn_id=turn_id,
             user_query=user_message,
             bm25_weight=getattr(self, 'bm25_weight', None),
+            **({"on_rerank": lambda query: on_status("reranking", {"query": str(query)[:80]})} if on_status else {}),
         )
 
         # 构建初始消息列表
@@ -233,6 +284,10 @@ class Chatbot:
         messages.append({"role": "user", "content": user_message})
 
         while state.llm_rounds < AGENT_MAX_LLM_ROUNDS:
+            if cancel_event is not None and cancel_event.is_set():
+                raise RuntimeError("generation cancelled")
+            if on_status:
+                on_status("deciding", {"search_count": len(handler.get_call_log())})
             # ── 预检查：L4 零结果熔断 ──
             if state.consecutive_empty >= 2:
                 messages.append({
@@ -241,7 +296,7 @@ class Chatbot:
                                "请直接基于你的知识回答，并告知用户这一情况。"
                 })
                 # 强制下一轮不调用工具
-                response = self._call_llm_forced_text(messages, state)
+                response = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
                 return self._build_result(response, handler, state, "empty_fuse")
 
             # ── 预检查：L5 低分熔断 ──
@@ -251,17 +306,20 @@ class Chatbot:
                     "content": "[系统提示] 连续多次检索结果相关性较低，知识库可能不包含相关信息。"
                                "请直接基于你的知识回答，并说明知识库中未找到高质量匹配。"
                 })
-                response = self._call_llm_forced_text(messages, state)
+                response = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
                 return self._build_result(response, handler, state, "low_score_fuse")
 
             # ── 预检查：L6 Token 预算裁剪 ──
-            messages = self._trim_context_if_needed(messages, tools=AGENT_TOOLS)
+            messages = self._trim_context_if_needed(messages, tools=decision_tools)
 
             # ── 调用 LLM（带工具定义）──
             response = self.client.send_message_with_tools(
-                messages, tools=AGENT_TOOLS, max_tokens=getattr(self, 'max_tokens', MAX_TOKENS)
+                messages, tools=decision_tools,
+                max_tokens=min(512, getattr(self, 'max_tokens', MAX_TOKENS)) if streaming else getattr(self, 'max_tokens', MAX_TOKENS),
+                **({"cancel_event": cancel_event} if streaming else {}),
             )
             self._accumulate_state_usage(state, response)
+            state.total_model_calls += 1
             # Every model call consumes one round, including malformed or
             # tool-free responses; otherwise invalid tool calls can bypass
             # the hard loop limit.
@@ -277,7 +335,17 @@ class Chatbot:
 
             # ── 无 tool_calls → LLM 认为可以回答了 ──
             if not response.tool_calls:
+                if streaming:
+                    final = self._call_llm_forced_text(messages, state, on_delta=on_delta, cancel_event=cancel_event)
+                    return self._build_result(final, handler, state, "stop")
                 return self._build_result(response, handler, state, "stop")
+
+            if streaming and any(
+                tc.get("function", {}).get("name") == "finish_retrieval"
+                for tc in response.tool_calls
+            ):
+                final = self._call_llm_forced_text(messages, state, on_delta=on_delta, cancel_event=cancel_event)
+                return self._build_result(final, handler, state, "stop")
 
             # ── 处理 tool_calls ──
             # 过滤空 function name 的异常调用
@@ -338,7 +406,7 @@ class Chatbot:
                         "role": "user",
                         "content": "[系统提示] 已达到工具调用上限，请基于现有检索结果直接回答。"
                     })
-                    response_final = self._call_llm_forced_text(messages, state)
+                    response_final = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
                     return self._build_result(response_final, handler, state, "max_tool_calls")
 
                 # L3: 重复查询检测
@@ -372,6 +440,10 @@ class Chatbot:
                         "rerank_query": rerank_query,
                     })
                     # 执行工具
+                    if cancel_event is not None and cancel_event.is_set():
+                        raise RuntimeError("generation cancelled")
+                    if on_status and tool_name == "search_knowledge_base":
+                        on_status("searching", {"query": str(query)[:80], "search_count": len(handler.get_call_log()) + 1})
                     tool_result_text = handler.execute(tool_name, arguments)
                     self._update_fuse_counters(state, tool_result_text)
                     # 彩色日志输出
@@ -389,20 +461,36 @@ class Chatbot:
             messages.extend(tool_results)
 
         # ── 达到 LLM 轮次上限 ──
-        final = self._call_llm_forced_text(messages, state)
+        final = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
         result = self._build_result(final, handler, state, "max_rounds")
-        result.content += "\n\n[已达到检索轮次上限，以上回答基于现有检索结果]"
+        limit_note = "\n\n[已达到检索轮次上限，以上回答基于现有检索结果]"
+        if on_delta:
+            on_delta(limit_note)
+        result.content += limit_note
         return result
 
     # ═══════════════════════════════════════════════════════════
     #  Agent Loop 辅助方法
     # ═══════════════════════════════════════════════════════════
 
-    def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState) -> LLMResponse:
+    def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState,
+                              on_status=None, on_delta=None, cancel_event=None) -> LLMResponse:
         """强制文本模式调用（不带 tools），用于熔断后获取最终回答"""
         final_messages = self._trim_context_if_needed(build_final_answer_messages(self._trim_context_if_needed(messages)))
-        response = self.client.send_message_with_tools(final_messages, tools=None, max_tokens=getattr(self, "max_tokens", MAX_TOKENS))
+        if cancel_event is not None and cancel_event.is_set():
+            raise RuntimeError("generation cancelled")
+        if on_delta:
+            if on_status:
+                on_status("answering", {})
+            content = stream_cleaned_answer(self.client,
+                final_messages, on_delta, cancel_event,
+                max_tokens=getattr(self, "max_tokens", MAX_TOKENS),
+            )
+            response = LLMResponse(content=content, usage=getattr(self.client, "last_usage", None) or {})
+        else:
+            response = self.client.send_message_with_tools(final_messages, tools=None, max_tokens=getattr(self, "max_tokens", MAX_TOKENS))
         self._accumulate_state_usage(state, response)
+        state.total_model_calls += 1
         return response
 
     def _build_result(self, response: LLMResponse, handler: ToolHandler,
@@ -416,7 +504,7 @@ class Chatbot:
                 "prompt_tokens": state.total_prompt_tokens,
                 "completion_tokens": state.total_completion_tokens,
             } if state.usage_known else {},
-            rounds=state.llm_rounds,
+            rounds=state.total_model_calls if state.include_final_call_in_rounds else state.llm_rounds,
         )
 
     def _accumulate_state_usage(self, state: AgentLoopState, response: LLMResponse):

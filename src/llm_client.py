@@ -1,4 +1,4 @@
-﻿"""
+"""
 LLM 客户端 - 支持多个提供商（含 Tool Calling）
 """
 import json
@@ -49,6 +49,8 @@ class LLMClient:
     def __init__(self, provider: str = None):
         self.provider = provider or LLM_PROVIDER
 
+    def stream_message(self, messages: List[Dict], on_delta, cancel_event, **kwargs) -> str:
+        raise RuntimeError("this provider does not support streaming responses")
     def send_message(self, messages: List[Dict], **kwargs) -> str:
         """发送消息到 LLM，返回响应文本"""
         raise NotImplementedError
@@ -114,7 +116,7 @@ class OpenAICompatibleClient(LLMClient):
         check_model_payload(payload)
         return payload
 
-    def _call_api(self, payload: Dict) -> Dict:
+    def _call_api(self, payload: Dict, cancel_event=None) -> Dict:
         """调用 API 并返回响应 JSON"""
         url = f"{self.base_url}/chat/completions"
         headers = {
@@ -131,12 +133,32 @@ class OpenAICompatibleClient(LLMClient):
                     json=payload,
                     headers=headers,
                     timeout=DEEPSEEK_TIMEOUT,
+                    **({"stream": True} if cancel_event is not None else {}),
                 )
+                register = getattr(cancel_event, "register", None)
+                if callable(register):
+                    register(response)
+                if cancel_event is not None:
+                    try:
+                        response.raise_for_status()
+                        chunks = []
+                        for chunk in response.iter_content(chunk_size=8192):
+                            if cancel_event.is_set():
+                                raise RuntimeError("generation cancelled")
+                            if chunk:
+                                chunks.append(chunk)
+                        return json.loads(b"".join(chunks).decode("utf-8"))
+                    finally:
+                        close = getattr(response, "close", None)
+                        if callable(close):
+                            close()
+                        if callable(register):
+                            register(None)
                 response.raise_for_status()
                 return response.json()
             except requests.exceptions.RequestException as error:
                 last_error = error
-                if attempt == attempts - 1 or not self._is_retryable_error(error):
+                if (cancel_event is not None and cancel_event.is_set()) or attempt == attempts - 1 or not self._is_retryable_error(error):
                     raise
 
                 delay = DEEPSEEK_RETRY_BACKOFF_SECONDS * (2 ** attempt)
@@ -145,11 +167,69 @@ class OpenAICompatibleClient(LLMClient):
 
         raise last_error
 
+    def stream_message(self, messages: List[Dict], on_delta, cancel_event, **kwargs) -> str:
+        """Stream real OpenAI-compatible SSE deltas and return the emitted text."""
+        payload = self._build_payload(messages, **kwargs)
+        payload["stream"] = True
+        payload["stream_options"] = {"include_usage": True}
+        url = f"{self.base_url}/chat/completions"
+        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+        response = requests.post(url, json=payload, headers=headers, timeout=DEEPSEEK_TIMEOUT, stream=True)
+        register = getattr(cancel_event, "register", None)
+        if callable(register):
+            register(response)
+        chunks = []
+        usage = None
+        terminal = False
+        finish_reason = None
+        try:
+            if not callable(getattr(response, "iter_lines", None)):
+                raise RuntimeError("upstream does not support streaming responses")
+            response.raise_for_status()
+            for line in response.iter_lines(decode_unicode=False):
+                if cancel_event.is_set():
+                    raise RuntimeError("generation cancelled")
+                if not line:
+                    continue
+                raw = line.decode("utf-8") if isinstance(line, bytes) else str(line)
+                if not raw.startswith("data:"):
+                    continue
+                data = raw[5:].strip()
+                if data == "[DONE]":
+                    terminal = True
+                    break
+                try:
+                    payload_part = json.loads(data)
+                except json.JSONDecodeError as error:
+                    raise RuntimeError("invalid streaming response") from error
+                usage = payload_part.get("usage") or usage
+                choices = payload_part.get("choices") or []
+                for choice in choices:
+                    delta = choice.get("delta") or {}
+                    content = delta.get("content")
+                    if isinstance(content, str) and content:
+                        chunks.append(content)
+                        on_delta(content)
+                    if choice.get("finish_reason") is not None:
+                        finish_reason = choice["finish_reason"]
+                        terminal = True
+            if not terminal and not cancel_event.is_set():
+                raise RuntimeError("streaming response ended without a terminal event")
+            if finish_reason == "length":
+                raise RuntimeError("streamed answer was truncated by the output limit")
+            self.last_usage = usage
+            return "".join(chunks)
+        finally:
+            close = getattr(response, "close", None)
+            if callable(close):
+                close()
+            if callable(register):
+                register(None)
     def send_message(self, messages: List[Dict], **kwargs) -> str:
         """调用 DeepSeek API（纯文本模式）"""
         try:
             payload = self._build_payload(messages, **kwargs)
-            data = self._call_api(payload)
+            data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
             self.last_usage = data.get("usage") or None
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
@@ -161,7 +241,7 @@ class OpenAICompatibleClient(LLMClient):
         """调用 DeepSeek API（支持 tool calling），返回结构化 LLMResponse"""
         try:
             payload = self._build_payload(messages, tools, **kwargs)
-            data = self._call_api(payload)
+            data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
             self.last_usage = data.get("usage") or None
 
             choice = data["choices"][0]

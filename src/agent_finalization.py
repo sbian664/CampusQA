@@ -28,6 +28,54 @@ _TOOL_TAG_RE = re.compile(
 _PIPE_PROTOCOL_RE = re.compile(r"<\|.*?(?:\|>|>)", flags=re.DOTALL)
 
 
+class ProtocolSafeStream:
+    """Release answer text incrementally while withholding partial protocol markers."""
+
+    _MARKERS = ("<tool_call", "<tool_calls", "<function_call", "<invoke", "<|", "dsml")
+
+    def __init__(self, on_delta):
+        self.on_delta = on_delta
+        self.raw = ""
+        self.emitted = ""
+        self.stopped = False
+
+    def feed(self, chunk: str, *, final=False):
+        self.raw += str(chunk or "")
+        if self.stopped:
+            return ""
+        low = self.raw.lower()
+        marker_positions = [low.find(marker) for marker in self._MARKERS if low.find(marker) >= 0]
+        if marker_positions:
+            boundary = min(marker_positions)
+            # Natural language before a protocol block remains visible.
+            candidate = sanitize_tool_protocol_text(self.raw[:boundary])
+            self.stopped = True
+        else:
+            safe_end = len(self.raw)
+            if not final:
+                for marker in self._MARKERS:
+                    for size in range(1, len(marker)):
+                        if low.endswith(marker[:size]):
+                            safe_end = min(safe_end, len(low) - size)
+            candidate = sanitize_tool_protocol_text(self.raw[:safe_end])
+            if final:
+                candidate = sanitize_tool_protocol_text(self.raw)
+        if not candidate.startswith(self.emitted):
+            return ""
+        delta = candidate[len(self.emitted):]
+        self.emitted = candidate
+        if delta:
+            self.on_delta(delta)
+        return delta
+
+
+def stream_cleaned_answer(client, messages, on_delta, cancel_event, **kwargs):
+    safe = ProtocolSafeStream(on_delta)
+    client.stream_message(messages, lambda chunk: safe.feed(chunk), cancel_event, **kwargs)
+    safe.feed("", final=True)
+    return safe.emitted
+
+
 def sanitize_tool_protocol_text(content: str | None) -> str:
     """Remove leaked tool-protocol markup while retaining any natural-language prefix."""
     text = html.unescape(str(content or "")).strip()

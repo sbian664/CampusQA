@@ -99,6 +99,15 @@ SEARCH_KB_TOOL = {
 # Agent Loop 可用的工具列表（目前仅一个，后续可扩展）
 AGENT_TOOLS = [SEARCH_KB_TOOL]
 
+FINISH_RETRIEVAL_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "finish_retrieval",
+        "description": "检索阶段已经完成；现在转入最终回答。",
+        "parameters": {"type": "object", "properties": {}},
+    },
+}
+
 
 # ═══════════════════════════════════════════════════════════
 #  相邻分块合并（完整性感知）
@@ -287,12 +296,14 @@ class ToolHandler:
 
     def __init__(self, knowledge_base, rerank_enabled=False,
                  reranker_loader=get_reranker_model, turn_id=None,
-                 user_query: Optional[str] = None, bm25_weight=None):
+                 user_query: Optional[str] = None, bm25_weight=None,
+                 on_rerank=None):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
         """
         self.bm25_weight = bm25_weight
+        self.on_rerank = on_rerank
         self.kb = knowledge_base
         self.rerank_enabled = rerank_enabled
         self.reranker_loader = reranker_loader
@@ -395,6 +406,7 @@ class ToolHandler:
                     model_loader=self.reranker_loader,
                     rerank_query=rerank_query,
                     return_candidates=True,
+                    **({"on_rerank": self.on_rerank} if self.on_rerank else {}),
                     **({"bm25_weight": self.bm25_weight} if self.bm25_weight is not None else {}),
                 )
                 if isinstance(search_output, tuple):

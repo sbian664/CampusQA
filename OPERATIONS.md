@@ -40,3 +40,22 @@
 聊天响应（含可处理的错误）提供 `X-Request-ID`，CORS 允许读取该响应头。`uvicorn.error` 的 `chat_request` 结构化记录包含请求 ID、总耗时、实际模式、状态码、结果、出错阶段及可取得的用量；未知用量为 `null`，不新增正文或 Key 日志。标题和上下文路由使用自己的小输出预算。
 
 控制台上传、替换、正文编辑和重命名等待 120 秒，其他请求保留 15 秒。耗时写入超时后结果仍未知，服务端可能继续执行；页面保留输入并要求刷新核验，不自动重试，也不声称服务端已取消或回滚。
+
+## 聊天流式代理
+
+`/api/chat/runs/{run_id}/events` 使用 SSE。Nginx 应为该路径关闭代理缓冲、缓存和压缩缓冲，并允许至少 330 秒读取时间；其他 API 路由沿用现有代理设置：
+
+```nginx
+location ~ ^/api/chat/runs/[^/]+/events$ {
+    proxy_pass http://127.0.0.1:8000;
+    proxy_http_version 1.1;
+    proxy_buffering off;
+    proxy_cache off;
+    gzip off;
+    proxy_read_timeout 330s;
+    proxy_send_timeout 330s;
+    add_header X-Accel-Buffering no;
+}
+```
+
+聊天任务的会话锁和未完成事件保存在单个服务进程中；部署时保持一个 Uvicorn worker。已完成任务元数据写入 `data/cache/chat_runs.sqlite3`，默认保留 24 小时。进程重启会停止上游生成并将未完成任务记为 `interrupted`；客户端仍可读取本机保存的草稿，但服务端不保留失败或取消的半段答案。

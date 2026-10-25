@@ -3,12 +3,13 @@ CampusQA Web API 服务器
 FastAPI 后端 —— 将现有 Chatbot / Session / KnowledgeBase 封装为 REST API
 """
 import os
+import asyncio
 import json
 import re
 import traceback
 import logging
-from copy import copy
-from fastapi.responses import JSONResponse
+from copy import copy, deepcopy
+from fastapi.responses import JSONResponse, StreamingResponse
 from src.file_processing import run_file_work, copy_limited, file_operation
 from src.errors import ContextLimitError, FileLimitError, KnowledgeUnavailable, RepairRequired
 import inspect
@@ -66,6 +67,7 @@ from src.admin.config import AdminConfigService
 from src.reranker import search_with_optional_rerank
 from src.submissions import SubmissionService
 from src.submission_routes import create_submission_router
+from src.chat_runs import ChatRunManager, RunCapacityError, RunConflict, RunNotFound
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -417,6 +419,10 @@ class ChatRequest(BaseModel):
     edit_index: Optional[int] = None    # 编辑分支：截断到该索引，替换 user 消息
 
 
+class ChatRunRequest(ChatRequest):
+    run_id: str
+
+
 def is_context_router_enabled(request: ChatRequest) -> bool:
     """Resolve the per-request experimental switch with an environment fallback."""
     if request.context_router_enabled is None:
@@ -665,6 +671,8 @@ def session_operation(function):
         if session_id is None:
             session_id = values['request'].session_id
         try:
+            if session_id and chat_runs.is_session_busy(session_id):
+                raise HTTPException(status_code=409, detail="该会话正在生成")
             with Session.coordinate(session_id):
                 return function(*args, **kwargs)
         except ValueError as error:
@@ -727,6 +735,8 @@ def test_llm_config(request: LLMConfigRequest):
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(request: ChatRequest, http_request: Request):
     try:
+        if request.session_id and chat_runs.is_session_busy(request.session_id):
+            raise HTTPException(status_code=409, detail="该会话正在生成")
         http_request.state.chat_trace["stage"] = "session"
         session = Session(session_id=request.session_id)
         with Session.coordinate(session.session_id):
@@ -740,14 +750,113 @@ def chat(request: ChatRequest, http_request: Request):
         raise HTTPException(status_code=409, detail=str(error))
 
 
-def _chat_locked(request: ChatRequest, session: Session, trace):
+@app.post("/api/chat/runs", status_code=202)
+def create_chat_run(request: ChatRunRequest):
+    try:
+        payload = request.dict(exclude={"run_id"})
+        payload["run_id"] = request.run_id
+        payload["__client_session_id"] = request.session_id
+        payload["__new_session"] = not bool(request.session_id)
+        if not payload.get("session_id"):
+            payload["session_id"] = str(uuid.uuid4())
+        llm_snapshot = get_llm_config()
+        chatbot = get_chatbot(llm_snapshot)
+        payload["__llm_snapshot"] = llm_snapshot
+        payload["__runtime_snapshot"] = _admin_config_service.runtime_config()
+        payload["__agent_mode_snapshot"] = chatbot.agent_mode
+        try:
+            chat_runs.get(request.run_id)
+            existing_run = True
+        except RunNotFound:
+            existing_run = False
+        if not existing_run:
+            try:
+                with Session.coordinate(payload["session_id"]):
+                    pass
+            except SessionConflict as error:
+                raise HTTPException(status_code=409, detail=str(error))
+        return chat_runs.create(request.run_id, payload)
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error))
+    except RunConflict as error:
+        raise HTTPException(status_code=409, detail=str(error))
+    except RunCapacityError as error:
+        raise HTTPException(status_code=429, detail=str(error))
+
+
+@app.get("/api/chat/runs/{run_id}")
+def get_chat_run(run_id: str):
+    try:
+        current = chat_runs.get(run_id)
+        if current.get("status") == "interrupted" and current.get("session_id"):
+            session = Session(session_id=current["session_id"])
+            if session.load() and session.metadata.get("last_completed_run_id") == run_id:
+                history = session.get_history(strip_tool_details=True)
+                result = {
+                    "session_id": session.session_id,
+                    "session_title": _session_title(session),
+                    "response": history[-1].get("content", "") if history else "",
+                    "finish_reason": "stop",
+                    "usage": None,
+                }
+                chat_runs.recover_success(run_id, result)
+                return chat_runs.get(run_id)
+        return current
+    except RunNotFound:
+        raise HTTPException(status_code=404, detail="生成任务不存在")
+
+
+@app.post("/api/chat/runs/{run_id}/cancel")
+def cancel_chat_run(run_id: str):
+    try:
+        return chat_runs.cancel(run_id)
+    except RunNotFound:
+        raise HTTPException(status_code=404, detail="生成任务不存在")
+
+
+@app.get("/api/chat/runs/{run_id}/events")
+async def chat_run_events(run_id: str, request: Request, after: int = 0):
+    try:
+        chat_runs.get(run_id)
+    except RunNotFound:
+        raise HTTPException(status_code=404, detail="生成任务不存在")
+
+    async def stream():
+        cursor = max(0, after)
+        while not await request.is_disconnected():
+            events = await asyncio.to_thread(chat_runs.wait_for_events, run_id, cursor, 10)
+            if not events:
+                state = chat_runs.get(run_id).get("status")
+                if state in {"succeeded", "cancelled", "error", "interrupted"}:
+                    break
+                yield ": heartbeat\n\n"
+                continue
+            for event in events:
+                cursor = max(cursor, int(event["id"]))
+                data = json.dumps(event["data"], ensure_ascii=False, separators=(",", ":"))
+                yield f"id: {event['id']}\nevent: {event['event']}\ndata: {data}\n\n"
+            state = chat_runs.get(run_id).get("status")
+            if state in {"succeeded", "cancelled", "error", "interrupted"}:
+                break
+
+    return StreamingResponse(stream(), media_type="text/event-stream", headers={
+        "Cache-Control": "no-cache, no-transform",
+        "X-Accel-Buffering": "no",
+    })
+
+
+def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
+                 on_status=None, on_delta=None, cancel_event=None,
+                 llm_snapshot=None, runtime_snapshot=None, agent_mode_snapshot=None):
     try:
         trace['stage'] = 'configuration'
-        llm_snapshot = get_llm_config()
+        llm_snapshot = llm_snapshot or get_llm_config()
         chatbot = copy(get_chatbot(llm_snapshot))
+        if agent_mode_snapshot is not None:
+            chatbot.agent_mode = bool(agent_mode_snapshot)
         chatbot.client = copy(chatbot.client)
         chatbot.client.last_usage = None
-        runtime = _admin_config_service.runtime_config()
+        runtime = runtime_snapshot or _admin_config_service.runtime_config()
         chatbot.max_tokens = int(runtime["max_tokens"])
         chatbot.bm25_weight = float(runtime["bm25_weight"])
         if isinstance(chatbot, Chatbot):
@@ -766,7 +875,7 @@ def _chat_locked(request: ChatRequest, session: Session, trace):
                 create_llm_client,
                 llm_snapshot,
             )
-            if should_generate_title else None
+            if should_generate_title and save else None
         )
 
         # ── 编辑分支：截断到指定位置 ──
@@ -788,6 +897,8 @@ def _chat_locked(request: ChatRequest, session: Session, trace):
         routed_message = request.message
         routed_history = history
         trace["stage"] = "context_router"
+        if on_status:
+            on_status("context", {})
         if is_context_router_enabled(request) and history:
             try:
                 context_route = get_context_router(llm_snapshot).route(request.message, history)
@@ -811,12 +922,18 @@ def _chat_locked(request: ChatRequest, session: Session, trace):
                 routed_history,
                 rerank_enabled=request.rerank_enabled,
                 turn_id=turn_id,
+                on_status=on_status,
+                on_delta=on_delta,
+                cancel_event=cancel_event,
             )
         else:
             text = chatbot.chat_with_rag(
                 routed_message,
                 routed_history,
                 rerank_enabled=request.rerank_enabled,
+                on_status=on_status,
+                on_delta=on_delta,
+                cancel_event=cancel_event,
             )
             result = AgentChatResult(content=text, finish_reason="stop", usage=getattr(chatbot.client, "last_usage", None) or {})
 
@@ -845,7 +962,10 @@ def _chat_locked(request: ChatRequest, session: Session, trace):
             except Exception:
                 session_title = _session_title(session)
 
-        session.save()
+        if cancel_event is not None and cancel_event.is_set():
+            raise RuntimeError("generation cancelled")
+        if save:
+            session.save()
 
         if title_future:
             title_future.add_done_callback(
@@ -861,6 +981,57 @@ def _chat_locked(request: ChatRequest, session: Session, trace):
     except Exception as e:
         trace["outcome"] = "error"
         raise HTTPException(status_code=500, detail=f"聊天请求失败: {type(e).__name__}")
+
+
+def _execute_chat_run(payload, emit, cancel_event):
+    run_id = payload["run_id"]
+    request = ChatRequest(**payload)
+    session = Session(session_id=request.session_id)
+    try:
+        with Session.coordinate(session.session_id):
+            session.load()
+            working = copy.deepcopy(session)
+            trace = {"stage": "queued", "effective_mode": None, "usage": None, "outcome": "error"}
+
+            def status(stage, details):
+                public = {"stage": stage}
+                if details.get("query"):
+                    public["query"] = str(details["query"])[:80]
+                if details.get("search_count") is not None:
+                    public["search_count"] = int(details["search_count"])
+                emit("status", public)
+
+            result = _chat_locked(
+                request, working, trace, save=False, on_status=status,
+                on_delta=lambda text: emit("delta", {"text": text}),
+                cancel_event=cancel_event,
+                llm_snapshot=payload.get("__llm_snapshot"),
+                runtime_snapshot=payload.get("__runtime_snapshot"),
+                agent_mode_snapshot=payload.get("__agent_mode_snapshot"),
+            )
+            if result.get("finish_reason") == "error":
+                raise RuntimeError("模型未能完成回答")
+            if cancel_event.is_set():
+                raise RuntimeError("generation cancelled")
+            emit("status", {"stage": "saving"})
+            working.metadata["last_completed_run_id"] = run_id
+            if not chat_runs.commit(run_id, working.save, result):
+                raise RuntimeError("generation cancelled")
+
+            if result.get("session_title") is None and payload.get("__new_session"):
+                _title_executor.submit(_generate_session_title, request.message, create_llm_client, get_llm_config()).add_done_callback(
+                    lambda future, sid=working.session_id: _save_generated_title(sid, future)
+                )
+            return result
+    except SessionConflict:
+        raise
+    except Exception:
+        if cancel_event.is_set():
+            return None
+        raise
+
+
+chat_runs = ChatRunManager(Path(DATA_DIR) / "cache" / "chat_runs.sqlite3", worker=_execute_chat_run)
 
 
 @app.get("/api/session/{session_id}")
@@ -889,6 +1060,7 @@ def clear_session(session_id: str):
     session.load()
     session.clear()
     session.save()
+    chat_runs.remove_session_runs(session_id)
     return {"status": "cleared", "session_id": session_id}
 
 
@@ -898,6 +1070,7 @@ def delete_session_file(session_id: str):
     """删除用户会话文件（从磁盘永久删除）。"""
     _validate_user_session_id(session_id)
     if Session(session_id).delete():
+        chat_runs.remove_session_runs(session_id)
         return {"status": "deleted", "session_id": session_id}
     raise HTTPException(status_code=404, detail="会话文件不存在")
 
@@ -1093,6 +1266,21 @@ def list_sessions():
                 })
         except Exception:
             pass
+    by_id = {session["session_id"]: session for session in sessions}
+    for pending in chat_runs.active_sessions():
+        session = by_id.get(pending["session_id"])
+        if session is None:
+            session = {
+                "session_id": pending["session_id"],
+                "title": "Generating answer…",
+                "message_count": 0,
+                "created_at": "",
+                "updated_at": "",
+            }
+            sessions.insert(0, session)
+            by_id[pending["session_id"]] = session
+        session["pending_run_id"] = pending["run_id"]
+        session["pending_status"] = pending["status"]
     return {"sessions": sessions, "count": len(sessions)}
 
 

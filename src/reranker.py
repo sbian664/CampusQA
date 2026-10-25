@@ -114,6 +114,7 @@ def search_with_optional_rerank(
     rerank_query: Optional[str] = None,
     return_candidates: bool = False,
     bm25_weight: Optional[float] = None,
+    on_rerank: Optional[Callable] = None,
 ) -> Union[List[Dict], Tuple[List[Dict], List[Dict]]]:
     """Retrieve with ``query`` and optionally rerank with another query.
 
@@ -130,6 +131,8 @@ def search_with_optional_rerank(
         return (ranked, results) if return_candidates else ranked
 
     try:
+        if results and on_rerank:
+            on_rerank(str(rerank_query or query))
         effective_rerank_query = str(rerank_query or "").strip() or query
         ranked = rerank_results(effective_rerank_query, results, model_loader(), requested_k)
         return (ranked, results) if return_candidates else ranked

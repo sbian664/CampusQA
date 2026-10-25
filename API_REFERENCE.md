@@ -23,6 +23,27 @@
 }
 ```
 
+### 后台生成任务与流式订阅
+
+`POST /api/chat/runs` 接受与 `/api/chat` 相同的聊天参数，并要求客户端提供 UUID `run_id`。创建返回 `202`；相同 ID 和请求可安全重试，不同请求复用 ID 返回 `409`。新会话在任务创建时分配 UUID，但只有成功回答才写入会话历史。
+
+```json
+{
+  "run_id": "f849f05d-5368-4a14-a4a2-206d90523e25",
+  "message": "课程注册何时截止？",
+  "session_id": null,
+  "rerank_enabled": true
+}
+```
+
+- `GET /api/chat/runs/{run_id}` 查询状态、已生成文本快照、序号和最终结果。
+- `GET /api/chat/runs/{run_id}/events?after=N` 以 SSE 重放新事件；游标落后缓存时发送完整快照。连接断开不会停止生成。
+- `POST /api/chat/runs/{run_id}/cancel` 请求取消。响应 `stopping` 表示服务端正在到达可取消边界；响应 `succeeded` 表示提交已经完成，不能撤销。
+
+任务状态包括 `queued`、`running`、`stopping`、`succeeded`、`cancelled`、`error` 和 `interrupted`。事件为 `status`、`delta`、`snapshot`、`done`、`error`、`cancelled`；内部推理和检索文档内容不会通过进度事件公开。完成结果和任务元数据保留 24 小时，半成品文本只在运行进程内暂存。任务超时为 300 秒，最多同时执行 4 个任务，同一会话同时只允许一个任务。
+
+任务锁、正在运行的事件和半成品快照存在进程内，服务应以单个 worker 运行。重启会将未确认任务标记为 `interrupted`；查询时会用会话完成标记识别已提交结果。旧 `/api/chat` 保持同步兼容。
+
 **响应**：
 ```json
 {
