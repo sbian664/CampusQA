@@ -250,6 +250,13 @@ class Session:
             result.append(entry)
         return result
     
+    def history_message_index(self, index: int) -> int:
+        """Map a client history index to storage, where tool results are hidden."""
+        visible_indexes = [i for i, message in enumerate(self.messages) if message.get("role") != "tool"]
+        if index < 0 or index >= len(visible_indexes):
+            raise ValueError("消息索引越界")
+        return visible_indexes[index]
+
     def get_last_exchange(self) -> Optional[Dict]:
         """
         获取最后一次对话交换（用户消息 + AI回复）

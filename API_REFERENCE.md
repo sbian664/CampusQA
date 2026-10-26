@@ -44,6 +44,8 @@
 
 新会话由服务端分配 UUID。指定已有 ID 必须属于当前用户；不存在、他人所有或历史未归属均返回 404，不自动创建/认领。聊天成功响应包含 `response`、`session_id`、`session_title`、`finish_reason`、`tool_calls`、`usage`、`rounds` 和实际执行模式 `effective_mode` 等字段；以 OpenAPI 模型为准。
 
+`reroll=true` 替换最后一轮回答，问题只保存一次。`edit_index` 替换指定用户消息并丢弃其后的旧分支；索引从 0 开始，以 `GET /api/session/{session_id}` 返回的 `history` 为准，隐藏的工具结果不占索引。删除消息使用相同索引约定。两种操作不能同时指定，编辑目标必须是已有的用户消息。生成失败或取消时保留原有已保存历史。
+
 ## 流式聊天任务
 
 客户端先向 `POST /api/chat/runs` 发送聊天字段及 UUID `run_id`。重复提交相同 ID 和相同请求可安全恢复；以同一个 ID 提交不同请求返回冲突。然后连接事件接口，从 `after` 序号续读。断开 SSE 连接不会停止生成；只有调用取消接口才会请求停止。
