@@ -38,6 +38,8 @@
 
 新会话由服务端分配 UUID。聊天成功响应包含 `response`、`session_id`、`session_title`、`finish_reason`、`tool_calls`、`usage`、`rounds` 和实际执行模式 `effective_mode` 等字段；以 OpenAPI 模型为准。
 
+`reroll=true` 替换最后一轮回答，问题只保存一次。`edit_index` 替换指定用户消息并丢弃其后的旧分支；索引从 0 开始，以 `GET /api/session/{session_id}` 返回的 `history` 为准，隐藏的工具结果不占索引。删除消息使用相同索引约定。两种操作不能同时指定，编辑目标必须是已有的用户消息。生成失败或取消时保留原有已保存历史。
+
 ## 流式聊天任务
 
 Agent 现提供文档目录筛选与按 ID 读取工具，不增加 HTTP 接口。参数、分页、读取范围与迁移边界见 [DOCUMENT_FILTERS.md](DOCUMENT_FILTERS.md)。

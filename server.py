@@ -826,17 +826,15 @@ async def chat_run_events(run_id: str, request: Request, after: int = 0):
         while not await request.is_disconnected():
             events = await asyncio.to_thread(chat_runs.wait_for_events, run_id, cursor, 10)
             if not events:
-                state = chat_runs.get(run_id).get("status")
-                if state in {"succeeded", "cancelled", "error", "interrupted"}:
-                    break
                 yield ": heartbeat\n\n"
                 continue
             for event in events:
                 cursor = max(cursor, int(event["id"]))
                 data = json.dumps(event["data"], ensure_ascii=False, separators=(",", ":"))
                 yield f"id: {event['id']}\nevent: {event['event']}\ndata: {data}\n\n"
-            state = chat_runs.get(run_id).get("status")
-            if state in {"succeeded", "cancelled", "error", "interrupted"}:
+            # Completion can race this batch. Close only after delivering its
+            # terminal event, rather than observing a newer task status.
+            if events[-1]["data"].get("status") in {"succeeded", "cancelled", "error", "interrupted"}:
                 break
 
     return StreamingResponse(stream(), media_type="text/event-stream", headers={
@@ -878,17 +876,23 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
             if should_generate_title and save else None
         )
 
-        # ── 编辑分支：截断到指定位置 ──
-        if request.edit_index is not None:
-            idx = request.edit_index
-            if idx < len(session.messages):
-                session.messages = session.messages[:idx]
-                session.metadata["message_count"] = len(session.messages)
+        if request.edit_index is not None and request.reroll:
+            raise ValueError("不能同时编辑问题和重新生成回答")
 
-        # ── 重新生成：去掉末条 assistant（及紧随的 tool 消息）──
-        if request.reroll:
-            while session.messages and session.messages[-1].get("role") != "user":
-                session.messages.pop()
+        # Both operations replace a turn. The target user message is appended
+        # once after generation, so it must not also remain in model history.
+        if request.edit_index is not None:
+            idx = session.history_message_index(request.edit_index)
+            if session.messages[idx].get("role") != "user":
+                raise ValueError("只能编辑用户消息")
+            session.messages = session.messages[:idx]
+            session.metadata["message_count"] = len(session.messages)
+        elif request.reroll:
+            idx = next((i for i in range(len(session.messages) - 1, -1, -1)
+                        if session.messages[i].get("role") == "user"), None)
+            if idx is None:
+                raise ValueError("没有可重新生成的用户消息")
+            session.messages = session.messages[:idx]
             session.metadata["message_count"] = len(session.messages)
 
         # 获取历史（纯 user/assistant 视图）
@@ -939,6 +943,8 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
 
         trace["usage"] = result.usage or None
         trace["outcome"] = "error" if result.finish_reason == "error" else "success"
+        if result.finish_reason == "error":
+            raise RuntimeError("模型未能完成回答")
         trace["stage"] = "persistence"
         # 保存消息到会话
         session.add_message("user", request.message)
@@ -1083,9 +1089,12 @@ def delete_message(session_id: str, index: int):
     session = Session(session_id=session_id)
     if not session.load():
         raise HTTPException(status_code=404, detail="会话不存在")
-    if index < 0 or index >= len(session.messages):
-        raise HTTPException(status_code=400, detail="消息索引越界")
-    session.messages.pop(index)
+    raw_index = session.history_message_index(index)
+    end = raw_index + 1
+    if session.messages[raw_index].get("role") == "assistant":
+        while end < len(session.messages) and session.messages[end].get("role") == "tool":
+            end += 1
+    del session.messages[raw_index:end]
     session.metadata["message_count"] = len(session.messages)
     session.metadata["updated_at"] = datetime.now().isoformat()
     session.save()
