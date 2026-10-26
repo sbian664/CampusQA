@@ -40,6 +40,8 @@
 
 ## 流式聊天任务
 
+Agent 现提供文档目录筛选与按 ID 读取工具，不增加 HTTP 接口。参数、分页、读取范围与迁移边界见 [DOCUMENT_FILTERS.md](DOCUMENT_FILTERS.md)。
+
 客户端先向 `POST /api/chat/runs` 发送聊天字段及 UUID `run_id`。重复提交相同 ID 和相同请求可安全恢复；以同一个 ID 提交不同请求返回冲突。然后连接事件接口，从 `after` 序号续读。断开 SSE 连接不会停止生成；只有调用取消接口才会请求停止。
 
 事件类型包括 `status`、`delta`、`snapshot`、`done`、`error` 和 `cancelled`。客户端应按事件序号增量应用文本，并在断线或回到前台时先查询任务再继续订阅。任务终态包括 `succeeded`、`cancelled`、`error` 和 `interrupted`。任务元数据保留 24 小时，半成品文本仅在服务进程运行期间暂存；聊天任务、会话锁和未完成事件要求单个 Uvicorn worker。

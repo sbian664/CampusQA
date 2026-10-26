@@ -9,6 +9,7 @@ import hashlib
 import os
 import time
 from src.index_state import retrieval_guard
+from src.document_catalog import DocumentCatalog
 from src.errors import KnowledgeUnavailable
 from typing import List, Dict, Optional
 from collections import defaultdict
@@ -41,9 +42,9 @@ SEARCH_KB_TOOL = {
             "适用场景：需要从已加载的文档中查找信息时。\n"
             "不适用场景：简单寒暄、常识性问题、纯代码生成。\n"
             "检索策略建议：首次用问题的核心关键词；若结果不理想，尝试同义词或更宽泛/更具体的表述；"
-            "也可用 filters 限定文档类型或时间范围。\n"
+            "也可用 filters 限定文档类型或时间范围。文件名、来源模糊匹配、完整文档清单请用 find_documents。\n"
             "⚠️ 完整性提示：每条结果会标注该文档共有多少块（如 [文档共 12 块，本次展示 3 块]）。"
-            "若发现检索到的块数远小于文档总块数且信息不完整，应增大 top_k 或用 filters.source 限定该文档重新检索。"
+            "若已定位文档但需要完整索引正文，先 find_documents 获取 document_id，再 read_documents 按游标读取。Top-k 命中不能证明名单完整。"
         ),
         "parameters": {
             "type": "object",
@@ -78,7 +79,7 @@ SEARCH_KB_TOOL = {
                     "description": (
                         "可选元数据过滤条件，用于缩小检索范围。"
                         "支持字段: doc_type（文档类型: markdown/text/pdf/html）、"
-                        "source（按源文件路径过滤，用于获取某文档的全部块）、"
+                        "source（按源文件路径精确过滤，仍受 top_k 限制）、"
                         "mtime_after（修改时间晚于指定日期，格式 YYYY-MM-DD）、"
                         "mtime_before（修改时间早于指定日期）"
                     ),
@@ -96,8 +97,67 @@ SEARCH_KB_TOOL = {
 }
 
 
-# Agent Loop 可用的工具列表（目前仅一个，后续可扩展）
-AGENT_TOOLS = [SEARCH_KB_TOOL]
+FIND_DOCUMENTS_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "find_documents",
+        "description": (
+            "筛选整个当前已索引文档目录，返回轻量清单、精确匹配总数及 next_cursor；不依赖向量召回或 top_k。"
+            "适合文件名/来源定位、列出资料和完整枚举。多个 filters 为 AND；包含匹配忽略大小写、Unicode 宽度和空白，"
+            "例如 UFUG 1106 可匹配 UFUG1106；不做正则或拼写纠错。"
+            "清单不含正文，不能用标题判断学分、先修等事实。取得 ID 后用 read_documents。"
+            "只有 next_cursor=null 才已遍历全部匹配清单。游标失效时重新查询，不得自行构造。"
+        ),
+        "parameters": {
+            "type": "object", "additionalProperties": False,
+            "properties": {
+                "filters": {
+                    "type": "object", "additionalProperties": False,
+                    "description": "仅限已知元数据条件；不支持学分、教师等正文字段。空对象枚举当前全部已索引文档。",
+                    "properties": {
+                        "document_id": {"type": "string", "description": "精确文档 ID"},
+                        "source": {"type": "string", "description": "清单返回的相对来源路径，精确匹配"},
+                        "source_contains": {"type": "string", "description": "来源相对路径包含文字"},
+                        "source_prefix": {"type": "string", "description": "来源目录前缀，按目录边界匹配"},
+                        "filename_contains": {"type": "string", "description": "仅文件名包含文字，如 UFUG 或退选"},
+                        "title_contains": {"type": "string", "description": "已索引标题包含文字；标题缺失时使用文件名"},
+                        "doc_type": {"type": "string", "enum": ["markdown", "text", "pdf", "html", "md", "txt"]},
+                        "mtime_after": {"type": "string", "description": "UTC 文件修改日期下界 YYYY-MM-DD，含当天；不是政策生效时间"},
+                        "mtime_before": {"type": "string", "description": "UTC 文件修改日期上界 YYYY-MM-DD，含当天"},
+                    },
+                },
+                "page_size": {"type": "integer", "minimum": 1, "maximum": 100, "default": 20},
+                "cursor": {"type": "string", "description": "上一页原样返回的 next_cursor；续页保持相同 filters"},
+            },
+        },
+    },
+}
+
+READ_DOCUMENTS_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "read_documents",
+        "description": (
+            "按 find_documents 返回的 ID 读取已索引正文，按分块原顺序返回，不做向量排序或 Top-k 截断。"
+            "短文档可一次读完，长文档用 next_cursor 续读；同一批续读必须保持 document_ids 及顺序不变。"
+            "start_offset/end_offset/total_chars 标示每份文档本页覆盖，has_more_content 表示该文档尚未读到末尾。"
+            "next_cursor=null 仅表示这一批 ID 已读至末尾，不代表整个目录已读完；缺失字段不能当作无要求。"
+        ),
+        "parameters": {
+            "type": "object", "additionalProperties": False,
+            "properties": {
+                "document_ids": {"type": "array", "minItems": 1, "maxItems": 10, "items": {"type": "string"}},
+                "max_chars": {"type": "integer", "minimum": 1, "maximum": 8000, "default": 2000,
+                              "description": "本次正文字符预算，另受 12000 UTF-8 字节限制；不足时返回游标"},
+                "cursor": {"type": "string", "description": "上一页原样返回的 next_cursor；失效时从该批第一页重读"},
+            },
+            "required": ["document_ids"],
+        },
+    },
+}
+
+DOCUMENT_TOOL_NAMES = {"find_documents", "read_documents"}
+AGENT_TOOLS = [SEARCH_KB_TOOL, FIND_DOCUMENTS_TOOL, READ_DOCUMENTS_TOOL]
 
 FINISH_RETRIEVAL_TOOL = {
     "type": "function",
@@ -268,7 +328,7 @@ def format_search_results(results: List[Dict]) -> str:
             source_name = source.replace("\\", "/").split("/")[-1]
             warnings.append(
                 f"  ⚠️ {source_name} 共 {total} 块，仅检索到 {shown} 块 "
-                f"（覆盖率 {shown}/{total}）。如需完整内容，建议以 source=\"{source}\" 过滤并增大 top_k 重新检索。"
+                f"（覆盖率 {shown}/{total}）。如需完整索引正文，使用 find_documents 定位 {source_name}，再 read_documents 按游标读取。"
             )
 
     # ── 汇总评估 ──
@@ -325,10 +385,15 @@ class ToolHandler:
             格式化的工具执行结果文本
         """
         start_time = time.time()
+        self._pending_trace = {}
 
         try:
+            if not isinstance(arguments, dict):
+                raise ValueError("工具参数必须是对象")
             if tool_name == "search_knowledge_base":
                 result_text = self._handle_search_knowledge_base(arguments)
+            elif tool_name in DOCUMENT_TOOL_NAMES:
+                result_text = self._handle_document_tool(tool_name, arguments)
             else:
                 result_text = f"[ERROR] 未知工具: {tool_name}"
                 self._pending_trace = {"error": result_text}
@@ -354,6 +419,26 @@ class ToolHandler:
         self.call_log.append(log_entry)
 
         return result_text
+
+    def _handle_document_tool(self, tool_name: str, args: Dict) -> str:
+        allowed = ({"filters", "page_size", "cursor"} if tool_name == "find_documents"
+                   else {"document_ids", "max_chars", "cursor"})
+        if set(args) - allowed:
+            raise ValueError("包含未知工具参数")
+        catalog = DocumentCatalog(self.kb)
+        result = getattr(catalog, tool_name)(**args)
+        hits = [{
+            "document_id": item["document_id"], "source": item["source"],
+            "title": item["title"], "doc_type": item["doc_type"],
+            "chunk_index": 0, "score": None,
+            "content_snippet": self._trace_preview(item.get("content", "")),
+        } for item in result["items"]]
+        self._pending_trace = {
+            "engine": tool_name, "filters": args.get("filters", {}), "hits": hits,
+            "result_count": len(hits), "has_more": result["next_cursor"] is not None,
+            "catalog_total": result.get("total"),
+        }
+        return json.dumps(result, ensure_ascii=False)
 
     def _handle_search_knowledge_base(self, args: Dict) -> str:
         """
