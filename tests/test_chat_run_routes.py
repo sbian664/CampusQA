@@ -1,6 +1,7 @@
 import uuid
-from contextlib import nullcontext
+from contextlib import asynccontextmanager, nullcontext
 from threading import Event
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from fastapi.testclient import TestClient
@@ -49,6 +50,11 @@ def test_chat_run_worker_copies_session_before_generating():
 
 
 def test_run_routes_create_snapshot_cancel_and_sse(tmp_path):
+    @asynccontextmanager
+    async def without_model_startup(app):
+        # This route contract uses a stub worker, not real embeddings/models.
+        yield
+
     def worker(payload, emit, cancelled):
         emit("status", {"stage": "answering"})
         emit("delta", {"text": "hello"})
@@ -56,7 +62,10 @@ def test_run_routes_create_snapshot_cancel_and_sse(tmp_path):
 
     manager = ChatRunManager(tmp_path / "runs.sqlite3", worker=worker)
     run_id = str(uuid.uuid4())
-    with patch.object(server, "chat_runs", manager), TestClient(server.app) as client:
+    with patch.object(server, "chat_runs", manager), \
+         patch.object(server, "get_chatbot", return_value=SimpleNamespace(agent_mode=True)), \
+         patch.object(server.app.router, "lifespan_context", without_model_startup), \
+         TestClient(server.app) as client:
         created = client.post("/api/chat/runs", json={"run_id": run_id, "message": "hello"})
         assert created.status_code == 202
         manager.wait_for_run(run_id, timeout=3)

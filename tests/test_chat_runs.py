@@ -70,11 +70,13 @@ def test_snapshot_replays_when_cursor_is_older_than_retained_events(tmp_path):
 
 def test_cancel_is_idempotent_and_worker_terminal_state_is_cancelled(tmp_path):
     started = threading.Event()
+    release = threading.Event()
 
     def worker(payload, emit, cancelled):
         started.set()
         while not cancelled.wait(0.01):
             pass
+        release.wait(5)
         return {"response": "partial"}
 
     manager = ChatRunManager(tmp_path / "runs.sqlite3", worker=worker)
@@ -82,8 +84,11 @@ def test_cancel_is_idempotent_and_worker_terminal_state_is_cancelled(tmp_path):
     manager.create(run_id, {"message": "hello"})
     assert started.wait(1)
 
-    assert manager.cancel(run_id)["status"] == "stopping"
-    assert manager.cancel(run_id)["status"] == "stopping"
+    try:
+        assert manager.cancel(run_id)["status"] == "stopping"
+        assert manager.cancel(run_id)["status"] == "stopping"
+    finally:
+        release.set()
     run = manager.wait_for_run(run_id, timeout=1)
     assert run["status"] == "cancelled"
     assert run.get("result") is None
