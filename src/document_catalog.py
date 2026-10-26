@@ -138,7 +138,9 @@ class DocumentCatalog:
         return result, after, before
 
     @retrieval_guard
-    def find_documents(self, filters=None, page_size=20, cursor=None):
+    def find_documents(self, filters=None, page_size=20, cursor=None, view="list"):
+        if view not in {"list", "count"}:
+            raise ValueError("view 必须是 list 或 count")
         page_size = _integer(page_size, "page_size", 1, 100)
         filters, after, before = self._filters(filters)
         records, revision, excluded = self._records()
@@ -161,6 +163,9 @@ class DocumentCatalog:
             if after is not None and mtime < after or before is not None and mtime >= before:
                 continue
             matches.append(item)
+        if view == "count":
+            return {"view": "count", "total": len(matches), "items": [], "returned_count": 0,
+                    "next_cursor": None, "excluded_documents": excluded, "scope": "active_indexed_documents"}
         offset = _position(cursor, "find", revision, _digest(filters), 0)
         _integer(offset, "游标位置", 0, len(matches))
         items = []
@@ -175,7 +180,6 @@ class DocumentCatalog:
             "total": len(matches), "items": items, "returned_count": len(items),
             "next_cursor": _cursor("find", revision, _digest(filters), next_offset) if next_offset < len(matches) else None,
             "excluded_documents": excluded, "scope": "active_indexed_documents",
-            "note": "总数仅指当前索引中匹配元数据的文档，不代表正文满足条件；正文需 read_documents 核验。",
         }
 
     @retrieval_guard
@@ -224,5 +228,4 @@ class DocumentCatalog:
             "items": items, "requested_documents": len(ids),
             "next_cursor": _cursor("read", revision, _digest(ids), [index, offset]) if index < len(documents) else None,
             "excluded_documents": excluded,
-            "note": "内容按已索引分块顺序拼接，相邻块可能重叠；按偏移续读，不代表原文件全文或当前学期开课信息。",
         }

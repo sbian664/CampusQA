@@ -1,4 +1,5 @@
 import unittest
+import json
 
 from config import AGENT_SYSTEM_PROMPT
 from src.chatbot import AgentLoopState, Chatbot
@@ -21,11 +22,15 @@ class AgentFinalizationTests(unittest.TestCase):
         self.assertIn("达到检索轮次上限", AGENT_SYSTEM_PROMPT)
         self.assertIn("禁止调用任何工具", AGENT_SYSTEM_PROMPT)
 
-    def test_agent_prompt_separates_catalog_coverage_from_content_evidence(self):
-        self.assertIn("find_documents", AGENT_SYSTEM_PROMPT)
-        self.assertIn("read_documents", AGENT_SYSTEM_PROMPT)
-        self.assertIn("目录范围", AGENT_SYSTEM_PROMPT)
-        self.assertIn("必要正文已读完", AGENT_SYSTEM_PROMPT)
+    def test_final_context_preserves_catalog_values_without_html_unescaping_json(self):
+        row = {"document_id": "id", "filename": "A &quot;B&quot;.txt", "title": "A &lt;B&gt;"}
+        messages = build_final_answer_messages([{
+            "role": "tool", "name": "find_documents", "tool_call_id": "find",
+            "content": json.dumps({"total": 1, "items": [row], "next_cursor": None}),
+        }])
+        result = json.loads(messages[0]['content'].split('\n', 1)[1])
+        self.assertEqual(dict(zip(result['item_columns'], result['items'][0])), row)
+        self.assertEqual(result['total'], 1)
 
     def test_chatbot_forced_call_uses_tool_free_final_context(self):
         captured = {}

@@ -156,3 +156,18 @@ def test_tools_share_maintenance_barrier_and_do_not_reuse_previous_trace(tmp_pat
 def test_catalog_limits_are_validated_not_silently_clamped(tmp_path, kwargs):
     with pytest.raises(ValueError):
         DocumentCatalog(catalog_kb(tmp_path)).find_documents(**kwargs)
+
+
+def test_count_view_returns_matching_total_without_a_page_of_items(tmp_path):
+    catalog = DocumentCatalog(catalog_kb(tmp_path, 137))
+    result = catalog.find_documents({'filename_contains': 'UFUG 00'}, view='count')
+    assert result['total'] == 100
+    assert result['view'] == 'count' and result['scope'] == 'active_indexed_documents'
+    assert result['items'] == [] and result['next_cursor'] is None
+    with pytest.raises(ValueError, match='view'):
+        catalog.find_documents(view='summary')
+
+
+def test_count_view_is_available_through_the_agent_tool_handler(tmp_path):
+    result = json.loads(ToolHandler(catalog_kb(tmp_path)).execute('find_documents', {'view': 'count'}))
+    assert result['tool'] == 'find_documents' and result['total'] == 3 and result['items'] == []

@@ -4,7 +4,7 @@
 
 ## 工具行为
 
-- `find_documents(filters={}, page_size=20, cursor=...)`：从完整的当前已索引文档目录筛选，不经过向量 Top-k。返回 `total/items/returned_count/next_cursor/excluded_documents`。每页最多 100 条，元数据列表另受 12000 UTF-8 字节限制；实际条数可能小于 page_size，是否结束以 next_cursor 为准。
+- `find_documents(filters={}, page_size=20, cursor=..., view="list")`：从完整的当前已索引文档目录筛选，不经过向量 Top-k。返回 `total/items/returned_count/next_cursor/excluded_documents`。只问文档总数可用 `view="count"`，不返回整页条目，也不需要翻页。清单每页最多 100 条，元数据列表另受 12000 UTF-8 字节限制；实际条数可能小于 page_size，是否结束以 next_cursor 为准。
 - `read_documents(document_ids=[...], max_chars=2000, cursor=...)`：每批最多 10 个 ID，按登记分块顺序读取。正文字符预算最大 8000，另受 12000 UTF-8 字节限制；返回每文档的偏移、总字符数和续读游标。不同分块可能重叠，内容是当前索引文本，不承诺等于原文件逐字全文。
 - 所有筛选为 AND。支持 `document_id`、相对路径精确 `source`、`source_contains`、按目录边界匹配的 `source_prefix`、`filename_contains`、`title_contains`、`doc_type`、`mtime_after/before`。包含匹配忽略大小写、Unicode 宽度和空白，例如 `UFUG 1106` 可匹配 `UFUG1106`。不支持正则、任意学分/教师字段或正文搜索；正文语义搜索继续使用原工具。
 - 日期为 UTC 文件修改日期，起止当天均包括；不是政策生效期或学期开课信息。`md/txt` 分别视为 `markdown/text`。标题使用索引现有标题，缺失时使用文件名，不额外生成摘要。
@@ -25,11 +25,17 @@
 {"document_ids":["清单返回的真实ID"],"max_chars":2000}
 ```
 
-读取续页必须保持 ID 列表和顺序，使用 read_documents 返回的 next_cursor。清单总数只统计元数据匹配文档；学分、先修等正文条件须读完并核验。文档数、块数和课程/人员数不可混用。结果压缩、未读完、排除项和预算不足必须披露覆盖范围。
+读取续页必须保持 ID 列表和顺序，使用 read_documents 返回的 next_cursor。目录中的名称、明确编号和文档计数可直接作为证据；未提供的正文属性再补读，不要求所有问题逐篇读完。统计按题目所问单位去重。只对实际影响答案的缺失内容说明限制。
 
 ## 提示词调整
 
-配置中的 AGENT_SYSTEM_PROMPT 增加工具选择、元数据与正文证据分工、分页和完整性规则；删除“逐步放大 Top-k 即可证明集合完整”的旧启发式。语义搜索描述与片段不完整提示同步指向新工具。最终回答提示改成中性的“检索阶段已结束”，不再把主动结束误报为预算耗尽，并要求对未读完或压缩的证据限定结论。
+主提示词仅保留工具选择、证据充分即结束、分页和回答原则；不规定课程编号题必须走 find/read，也不包含具体评测题的例子。参数细节保留在工具定义中，最终回答指令不再因存在无关未读正文而否定已充分的目录证据。主提示词和工具定义合计 UTF-8 体积从 13295 降至 6312 字节（下降 52.5%）；不是模型 token 数或延迟测量。
+
+## 模型上下文中的结构化结果
+
+工具原始追踪保留字典式条目。构建模型上下文时，目录无损改为 `item_columns` 配合 `items` 行数组，字段名只出现一次，所有条目和值保持不变。例如 columns 为 `["document_id", "filename"]` 时，行 `["id", "guide.txt"]` 对应同名两个字段。评测若解析实际模型请求，应同时识别此编码，而不是把行数组当作缺失文档。
+
+原普通文本摘录先按既有策略压缩；结构化 JSON 不再直接按字符串截断。仍超预算时，先缩短正文，并用 `context_omitted_chars` 与 `visible_end_offset` 标明实际保留范围；原读取偏移和游标不变。最后才省略完整目录条目，保留原 total/next_cursor，并标记 `context_omitted_items`。最终回答上下文同样保留 JSON 结构及数据值，避免 HTML 解码破坏字段内容。
 
 若模型同时请求读取与 finish_retrieval，先执行实际读取再结束；最终回答仍不携带工具协议。
 
@@ -37,7 +43,7 @@
 
 目标基线为 `codex/user-isolation@9d28bbd`，本轮不修改该分支。
 
-1. 迁入文档工具功能提交，包含新 catalog 模块、tools/chatbot、主提示词、最终回答提示词、新测试和本文档。不要用旧 server.py 覆盖目标分支。
+1. 迁入初版文档工具提交及其后的目录证据/上下文调整，或使用累计补丁；需要包含 catalog、tool_context、tools/chatbot、提示词和对应测试。不要用旧 server.py 覆盖目标分支。
 2. 文档根目录仍是共享正式知识库；不要接入会话、用户配置、投稿暂存目录。保留目标分支已有 Bearer 认证、会话/任务归属及个人模型配置快照。
 3. 不复制 chat-runs 的匿名路由测试。本轮单独提交的流式回归测试修正不要求整体迁入：目标分支已有取消屏障及 authenticated user_client。
 4. 在目标分支重跑文档工具测试、全量用户隔离测试、个人 Key 并发/路由/标题测试和流式任务权限矩阵。机械补丁检查通过不等于这些验证已完成。

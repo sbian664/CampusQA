@@ -5,6 +5,7 @@ import json
 import time
 from copy import deepcopy
 from src.errors import ContextLimitError
+from src.tool_context import compact_document_message, shrink_document_message
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
@@ -715,6 +716,12 @@ class Chatbot:
                         AGENT_MODEL_MAX_CONTEXT - getattr(self, 'max_tokens', MAX_TOKENS) - overhead)
         def fits():
             return self._estimate_tokens({'messages': trimmed, 'tools': tools or []}) <= threshold
+        # Lossless compaction precedes both history removal and result clipping.
+        document_messages = []
+        for message in trimmed:
+            kind = compact_document_message(message)
+            if kind:
+                document_messages.append((kind, message))
         def real_user(message):
             content = str(message.get('content') or '')
             return message.get('role') == 'user' and not content.startswith((
@@ -726,15 +733,28 @@ class Chatbot:
                 break
             trimmed[starts[0]:starts[1]] = [m for m in trimmed[starts[0]:starts[1]]
                 if str(m.get('content') or '').startswith('[知识库检索结果]')]
-        # Compress results without removing tool messages or breaking call IDs.
+        surviving_ids = {id(message) for message in trimmed}
+        document_messages = [(kind, message) for kind, message in document_messages if id(message) in surviving_ids]
+        document_ids = {id(message) for _, message in document_messages}
+        # Compress ordinary excerpts first; never cut document JSON as text.
         for message in trimmed:
             if fits():
                 break
             content = str(message.get('content') or '')
+            if id(message) in document_ids:
+                continue
             if message.get('role') == 'tool' or content.startswith('[知识库检索结果]'):
                 while not fits() and len(content) > 32:
                     content = content[:max(16, len(content) // 2)]
                     message['content'] = content + '\n[检索结果已压缩]'
+        # Preserve full catalog rows ahead of long bodies. If even the compact
+        # catalog cannot fit, retain valid JSON, original totals/cursors and an
+        # explicit omitted-row count instead of silently severing a page.
+        for kind in ('read_documents', 'find_documents'):
+            for current_kind, message in document_messages:
+                if current_kind == kind:
+                    while not fits() and shrink_document_message(message):
+                        pass
         if not fits():
             raise ContextLimitError('输入超出模型上下文预算，请缩短当前输入或降低输出长度后重试')
         return trimmed

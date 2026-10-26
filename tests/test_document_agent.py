@@ -21,6 +21,9 @@ class CatalogClient:
             return LLMResponse(content='已核验首份文档内容 ab。')
         assert {'find_documents', 'read_documents', 'search_knowledge_base'} <= {tool['function']['name'] for tool in tools}
         results = [json.loads(message['content']) for message in messages if message['role'] == 'tool']
+        for result in results:
+            if 'item_columns' in result:
+                result['items'] = [dict(zip(result['item_columns'], row)) for row in result['items']]
         actions = [
             ('find_documents', {'page_size': 1}),
             ('find_documents', {'page_size': 1, 'cursor': results[0]['next_cursor']}) if results else None,

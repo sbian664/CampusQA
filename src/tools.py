@@ -37,14 +37,8 @@ SEARCH_KB_TOOL = {
     "function": {
         "name": "search_knowledge_base",
         "description": (
-            "在知识库中进行混合检索（语义理解 + 关键词匹配）。"
-            "返回与查询相关的文档片段，包含来源文件和相似度分数。\n"
-            "适用场景：需要从已加载的文档中查找信息时。\n"
-            "不适用场景：简单寒暄、常识性问题、纯代码生成。\n"
-            "检索策略建议：首次用问题的核心关键词；若结果不理想，尝试同义词或更宽泛/更具体的表述；"
-            "也可用 filters 限定文档类型或时间范围。文件名、来源模糊匹配、完整文档清单请用 find_documents。\n"
-            "⚠️ 完整性提示：每条结果会标注该文档共有多少块（如 [文档共 12 块，本次展示 3 块]）。"
-            "若已定位文档但需要完整索引正文，先 find_documents 获取 document_id，再 read_documents 按游标读取。Top-k 命中不能证明名单完整。"
+            "混合检索相关正文片段，附来源和相对分数，适合事实查询和主题探索。"
+            "结果已回答问题即可结束；缺少必要内容时再补查。文档清单或计数使用 find_documents。"
         ),
         "parameters": {
             "type": "object",
@@ -58,16 +52,14 @@ SEARCH_KB_TOOL = {
                     "default": 3,
                     "minimum": 1,
                     "maximum": 30,
-                    "description": "返回结果条数，默认 3。多实体集合问题通常使用 5；若从 3 或 5 开始，后续可用 8、15、30 扩大，最大 30。",
+                    "description": "返回片段数，按需要选择；不是文档或实体总数。",
                 },
                 "rerank_query_source": {
                     "type": "string",
                     "enum": ["search_query", "user_query", "custom"],
                     "default": "search_query",
                     "description": (
-                        "可选的重排查询来源。search_query 使用当前检索词；"
-                        "user_query 使用当前轮用户问题；custom 使用 rerank_query。"
-                        "问题独立完整时可选 user_query；追问或子问题优先使用 search_query。"
+                        "重排使用检索词、当前用户问题或自定义 rerank_query；追问/子问题通常用 search_query。"
                     ),
                 },
                 "rerank_query": {
@@ -102,24 +94,22 @@ FIND_DOCUMENTS_TOOL = {
     "function": {
         "name": "find_documents",
         "description": (
-            "筛选整个当前已索引文档目录，返回轻量清单、精确匹配总数及 next_cursor；不依赖向量召回或 top_k。"
-            "适合文件名/来源定位、列出资料和完整枚举。多个 filters 为 AND；包含匹配忽略大小写、Unicode 宽度和空白，"
-            "例如 UFUG 1106 可匹配 UFUG1106；不做正则或拼写纠错。"
-            "清单不含正文，不能用标题判断学分、先修等事实。取得 ID 后用 read_documents。"
-            "只有 next_cursor=null 才已遍历全部匹配清单。游标失效时重新查询，不得自行构造。"
+            "筛选全部已索引文档，不受 Top-k 限制。目录足以回答其中的名称、编号和文档计数；"
+            "其他属性有需要再读正文。filters 为 AND，包含匹配忽略大小写、Unicode 宽度及空白，不支持正则。"
+            "total 是匹配总数；next_cursor 用于列清单的续页。只计数选 view=count。"
         ),
         "parameters": {
             "type": "object", "additionalProperties": False,
             "properties": {
                 "filters": {
                     "type": "object", "additionalProperties": False,
-                    "description": "仅限已知元数据条件；不支持学分、教师等正文字段。空对象枚举当前全部已索引文档。",
+                    "description": "元数据条件，空对象匹配全部已索引文档。",
                     "properties": {
                         "document_id": {"type": "string", "description": "精确文档 ID"},
                         "source": {"type": "string", "description": "清单返回的相对来源路径，精确匹配"},
                         "source_contains": {"type": "string", "description": "来源相对路径包含文字"},
                         "source_prefix": {"type": "string", "description": "来源目录前缀，按目录边界匹配"},
-                        "filename_contains": {"type": "string", "description": "仅文件名包含文字，如 UFUG 或退选"},
+                        "filename_contains": {"type": "string", "description": "文件名包含文字"},
                         "title_contains": {"type": "string", "description": "已索引标题包含文字；标题缺失时使用文件名"},
                         "doc_type": {"type": "string", "enum": ["markdown", "text", "pdf", "html", "md", "txt"]},
                         "mtime_after": {"type": "string", "description": "UTC 文件修改日期下界 YYYY-MM-DD，含当天；不是政策生效时间"},
@@ -127,6 +117,8 @@ FIND_DOCUMENTS_TOOL = {
                     },
                 },
                 "page_size": {"type": "integer", "minimum": 1, "maximum": 100, "default": 20},
+                "view": {"type": "string", "enum": ["list", "count"], "default": "list",
+                         "description": "list 返回清单，count 仅返回总数与范围。"},
                 "cursor": {"type": "string", "description": "上一页原样返回的 next_cursor；续页保持相同 filters"},
             },
         },
@@ -138,10 +130,8 @@ READ_DOCUMENTS_TOOL = {
     "function": {
         "name": "read_documents",
         "description": (
-            "按 find_documents 返回的 ID 读取已索引正文，按分块原顺序返回，不做向量排序或 Top-k 截断。"
-            "短文档可一次读完，长文档用 next_cursor 续读；同一批续读必须保持 document_ids 及顺序不变。"
-            "start_offset/end_offset/total_chars 标示每份文档本页覆盖，has_more_content 表示该文档尚未读到末尾。"
-            "next_cursor=null 仅表示这一批 ID 已读至末尾，不代表整个目录已读完；缺失字段不能当作无要求。"
+            "按文档 ID 补读所需正文，按索引分块顺序返回，块间可能重叠。"
+            "需要继续读取时原样传 next_cursor，保持 ID 列表及顺序不变。偏移和总字符数表示读取范围。"
         ),
         "parameters": {
             "type": "object", "additionalProperties": False,
@@ -421,12 +411,13 @@ class ToolHandler:
         return result_text
 
     def _handle_document_tool(self, tool_name: str, args: Dict) -> str:
-        allowed = ({"filters", "page_size", "cursor"} if tool_name == "find_documents"
+        allowed = ({"filters", "page_size", "cursor", "view"} if tool_name == "find_documents"
                    else {"document_ids", "max_chars", "cursor"})
         if set(args) - allowed:
             raise ValueError("包含未知工具参数")
         catalog = DocumentCatalog(self.kb)
         result = getattr(catalog, tool_name)(**args)
+        result["tool"] = tool_name
         hits = [{
             "document_id": item["document_id"], "source": item["source"],
             "title": item["title"], "doc_type": item["doc_type"],
