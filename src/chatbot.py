@@ -42,6 +42,7 @@ class AgentLoopState:
     total_tool_calls: int = 0
     past_queries: List[str] = field(default_factory=list)     # L3 重复检测
     past_searches: List[Dict] = field(default_factory=list)   # query + filters + top_k
+    entity_scope: Optional[str] = None
     consecutive_empty: int = 0                                  # L4 零结果熔断
     consecutive_low_score: int = 0                              # L5 低分熔断
     total_prompt_tokens: int = 0
@@ -374,6 +375,18 @@ class Chatbot:
                 })
                 continue
 
+            scopes = []
+            for call in valid_calls:
+                function = call.get("function", {})
+                if function.get("name") == "search_knowledge_base":
+                    call_args = function.get("arguments", {})
+                    scopes.append(call_args.get("entity_scope") if isinstance(call_args, dict) else None)
+            if scopes:
+                if state.entity_scope != "multiple" and all(scope == "single" for scope in scopes):
+                    state.entity_scope = "single"
+                else:
+                    state.entity_scope = "multiple"
+
             # 构建 assistant 消息（arguments 必须序列化为 JSON 字符串，否则 API 400）
             assistant_msg = {"role": "assistant"}
             clean_content = sanitize_tool_protocol_text(response.content)
@@ -411,6 +424,9 @@ class Chatbot:
 
                 # L3: 重复查询检测
                 arguments_dict = arguments if isinstance(arguments, dict) else {}
+                arguments_dict = dict(arguments_dict)
+                arguments_dict["entity_scope"] = state.entity_scope or "multiple"
+                arguments = arguments_dict
                 query = arguments_dict.get("query", "") if isinstance(arguments, dict) else str(arguments)
                 search_top_k = self._normalize_search_top_k(arguments_dict.get("top_k", 3))
                 search_filters = arguments_dict.get("filters", {})
@@ -424,6 +440,7 @@ class Chatbot:
                     state.past_searches,
                     rerank_query_source,
                     rerank_query,
+                    state.entity_scope or "multiple",
                 ):
                     tool_result_text = (
                         f"[DUPLICATE] 你已用高度相似的查询 \"{query[:50]}...\" 搜索过。"
@@ -438,6 +455,7 @@ class Chatbot:
                         "filters": search_filters,
                         "rerank_query_source": rerank_query_source,
                         "rerank_query": rerank_query,
+                        "entity_scope": state.entity_scope or "multiple",
                     })
                     # 执行工具
                     if cancel_event is not None and cancel_event.is_set():
@@ -532,6 +550,7 @@ class Chatbot:
         past_searches: List[Dict],
         new_rerank_query_source: str = "search_query",
         new_rerank_query: str = "",
+        new_entity_scope: str = "unknown",
     ) -> bool:
         """Allow the same query only when its retrieval scope is expanded."""
         normalized_query = str(new_query or "").strip()
@@ -542,6 +561,8 @@ class Chatbot:
         )
 
         for past in reversed(past_searches[-3:]):
+            if past.get("entity_scope") == "single" and new_entity_scope != "single":
+                continue
             past_query = str(past.get("query", "")).strip()
             past_filters = past.get("filters") or {}
             past_rerank_key = Chatbot._rerank_choice_key(

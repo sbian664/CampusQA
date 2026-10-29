@@ -204,6 +204,7 @@ AGENT_SYSTEM_PROMPT = """你是 CampusQA 的知识库问答助手。
 首次查询：
 - 提取问题中最有区分度的实体、属性和限定条件；
 - 根据问题判断用户查询的为单实体还是多个实体，选择恰当的 top_k，单实体 top_k<=3, 多个实体 top_k>=5；
+- 对 search_knowledge_base 的 entity_scope 按整轮用户问题判断：明确只有一个实体填 single，多个实体填 multiple，无法确定填 unknown；多实体问题即使拆成多个单实体检索也填 multiple；
 - 查询应简洁，不要直接复制冗长的整句问题；
 - 人名、房间号、建筑编号、缩写等需要保持完整的内容，可使用英文双引号，例如 `"E1 L2"`。
 - query 参数用于召回；问题独立且完整时可将 rerank_query_source 设为 user_query，使用当前用户问题进行重排；追问或已拆分的子问题使用 search_query，必要时使用 custom 和 rerank_query。

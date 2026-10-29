@@ -11,6 +11,7 @@ import logging
 from copy import copy, deepcopy
 from fastapi.responses import JSONResponse, StreamingResponse
 from src.file_processing import run_file_work, copy_limited, file_operation
+from src.batch_upload import upload_batch
 from src.errors import ContextLimitError, FileLimitError, KnowledgeUnavailable, RepairRequired
 import inspect
 from functools import wraps
@@ -1299,38 +1300,7 @@ async def upload_files(
     if file is not None:
         upload_files.append(file)
 
-    if not upload_files:
-        raise HTTPException(status_code=400, detail="No files uploaded")
-
-    uploaded = []
-    failed = []
-    for upload in upload_files:
-        filename = os.path.basename(upload.filename or '')
-        try:
-            await run_file_work(_upload_compatible, filename, upload.file)
-            uploaded.append({'filename': filename, 'status': 'ok'})
-        except FileLimitError as error:
-            raise HTTPException(status_code=413, detail=str(error), headers={'X-Upload-Result': 'partial' if uploaded else 'none'})
-        except RepairRequired:
-            raise
-        except Exception as error:
-            failed.append({'filename': filename, 'error': str(error)})
-
-    uploaded_count = len(uploaded)
-    failed_count = len(failed)
-    response = {
-        "status": "ok" if uploaded_count else "error",
-        "uploaded": uploaded,
-        "failed": failed,
-        "uploaded_count": uploaded_count,
-        "failed_count": failed_count,
-        "message": f"Uploaded {uploaded_count} file(s), {failed_count} failed",
-    }
-
-    if not uploaded:
-        raise HTTPException(status_code=400, detail=response)
-
-    return response
+    return await upload_batch(upload_files, _upload_compatible)
 
 
 @app.get("/api/kb/stats")

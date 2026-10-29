@@ -59,6 +59,11 @@ SEARCH_KB_TOOL = {
                     "maximum": 30,
                     "description": "返回结果条数，默认 3。多实体集合问题通常使用 5；若从 3 或 5 开始，后续可用 8、15、30 扩大，最大 30。",
                 },
+                "entity_scope": {
+                    "type": "string",
+                    "enum": ["single", "multiple", "unknown"],
+                    "description": "按整轮用户问题判断实体范围；明确单实体填 single，多实体填 multiple，不确定填 unknown。不可按拆分后的检索词判断。",
+                },
                 "rerank_query_source": {
                     "type": "string",
                     "enum": ["search_query", "user_query", "custom"],
@@ -488,19 +493,30 @@ class ToolHandler:
         self._mark_trace_anchors(results)
         self._mark_trace_anchors(bm25_results)
 
-        # ── 相邻分块合并 ──
-        if hasattr(self.kb, "expand_adjacent_chunks"):
-            results = self.kb.expand_adjacent_chunks(
-                results,
-                radius=RAG_CONTEXT_NEIGHBOR_RADIUS,
-            )
-
-        if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
-            before = len(results)
-            results = merge_adjacent_chunks(results, AGENT_CHUNK_MERGE_MAX_CHARS)
-            after = len(results)
-            if before != after:
-                print(f"  🔗 分块合并: {before} → {after} 块")
+        # A single-entity question retains all exact hits, but only its first
+        # three ranked anchors receive adjacent context. Expanding the complete
+        # anchor set first prevents a later exact hit being duplicated as a
+        # neighbor; each anchor is merged separately so trace IDs are retained.
+        limited = args.get("entity_scope") == "single" and len(results) > 3
+        if limited:
+            anchors = list(results)
+            expanded = (self.kb.expand_adjacent_chunks(anchors, radius=RAG_CONTEXT_NEIGHBOR_RADIUS)
+                        if hasattr(self.kb, "expand_adjacent_chunks") else anchors)
+            context = [item for item in expanded if item.get("is_context_neighbor")]
+            results = []
+            for anchor in anchors[:3]:
+                group = [anchor] + [item for item in context
+                    if item.get("source") == anchor.get("source")
+                    and item.get("anchor_chunk") == anchor.get("chunk_index")]
+                if AGENT_CHUNK_MERGE_ENABLED and len(group) > 1:
+                    group = merge_adjacent_chunks(group, AGENT_CHUNK_MERGE_MAX_CHARS)
+                results.extend(group)
+            results.extend(anchors[3:])
+        else:
+            if hasattr(self.kb, "expand_adjacent_chunks"):
+                results = self.kb.expand_adjacent_chunks(results, radius=RAG_CONTEXT_NEIGHBOR_RADIUS)
+            if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
+                results = merge_adjacent_chunks(results, AGENT_CHUNK_MERGE_MAX_CHARS)
 
         # 格式化输出
         output = format_search_results(results)
