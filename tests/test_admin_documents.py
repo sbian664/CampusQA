@@ -40,7 +40,7 @@ class AdminDocumentRouteTests(unittest.TestCase):
 
         self.assertEqual(path.read_text(encoding="utf-8"), "# After")
         self.assertEqual(result["status"], "updated")
-        self.assertEqual(calls, [str(path)])
+        self.assertEqual(calls, [str(path.resolve())])
         temp_dir.cleanup()
 
     def test_editing_pdf_requires_replacement_upload(self):
@@ -144,7 +144,7 @@ class AdminDocumentRouteTests(unittest.TestCase):
         self.assertEqual(result["document_id"], document_id)
         self.assertEqual(result["filename"], "renamed-guide.md")
         self.assertEqual(service.get_document(document_id)["filename"], "renamed-guide.md")
-        self.assertEqual(calls, [("update", str(new_path)), ("delete", str(old_path))])
+        self.assertEqual(calls, [("update", str(new_path.resolve())), ("delete", str(old_path.resolve()))])
         temp_dir.cleanup()
 
     def test_document_list_is_protected_and_upload_uses_document_service(self):
