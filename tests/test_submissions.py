@@ -98,6 +98,23 @@ def test_publish_indexes_unique_formal_file_and_marks_published(tmp_path):
     assert result["submission_id"] in kb.indexed[0].name
 
 
+def test_published_submission_appears_in_previously_cached_document_list(tmp_path):
+    from src.admin.documents import AdminDocumentService
+
+    service, kb = make_service(tmp_path)
+    documents = AdminDocumentService(kb_provider=lambda: kb, documents_dir=str(service.documents_dir),
+                                     supported_formats={'.txt'}, mutation_lock=service.mutation_lock)
+    service.document_service = documents
+    assert documents.list_documents_page(query='official')['total'] == 0
+    submission = service.submit('official_guide.txt', io.BytesIO(b'hello'))
+
+    service.publish(submission['submission_id'])
+
+    page = documents.list_documents_page(query='official')
+    assert page['total'] == 1
+    assert submission['submission_id'] in page['items'][0]['filename']
+
+
 def test_failed_publish_preserves_staging_file_and_can_be_retried(tmp_path):
     service, kb = make_service(tmp_path, fail=True)
     result = service.submit("guide.txt", io.BytesIO(b"hello"), client_key="test")

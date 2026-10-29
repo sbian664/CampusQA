@@ -151,6 +151,7 @@ _submission_service = SubmissionService(
     rate_limit_window_seconds=SUBMISSION_RATE_LIMIT_WINDOW_SECONDS,
     rate_limit_salt=SUBMISSION_RATE_LIMIT_SALT,
     mutation_lock=_kb_mutation_lock,
+    document_service=_admin_document_service,
 )
 _admin_auth = admin_session_dependency(_admin_control_store)
 _admin_csrf = admin_csrf_dependency(_admin_control_store)

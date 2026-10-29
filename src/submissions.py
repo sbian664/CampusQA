@@ -44,6 +44,7 @@ class SubmissionService:
         rate_limit_window_seconds: int = 3600,
         rate_limit_salt: str = "campusqa-submissions",
         mutation_lock: RLock | None = None,
+        document_service: Any = None,
     ) -> None:
         if connection is None and db_path is None:
             raise ValueError("db_path or connection is required")
@@ -58,6 +59,7 @@ class SubmissionService:
         self.rate_limit_window_seconds = max(1, int(rate_limit_window_seconds))
         self.rate_limit_salt = rate_limit_salt
         self.mutation_lock = mutation_lock or RLock()
+        self.document_service = document_service
         self.submissions_dir.mkdir(parents=True, exist_ok=True)
         self.documents_dir.mkdir(parents=True, exist_ok=True)
         self._recovery_document_paths: list[Path] = []
@@ -456,8 +458,9 @@ class SubmissionService:
         published_path = self.documents_dir / published_filename
         from src.admin.documents import AdminDocumentService
         kb = self.kb_provider()
-        documents = AdminDocumentService(kb_provider=lambda: kb, documents_dir=str(self.documents_dir),
-                                         supported_formats=self.supported_formats, mutation_lock=self.mutation_lock)
+        documents = self.document_service or AdminDocumentService(
+            kb_provider=lambda: kb, documents_dir=str(self.documents_dir),
+            supported_formats=self.supported_formats, mutation_lock=self.mutation_lock)
         try:
             with self.mutation_lock:
                 if published_path.exists():
