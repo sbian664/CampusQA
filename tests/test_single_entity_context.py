@@ -1,7 +1,9 @@
 from unittest.mock import patch
+from types import SimpleNamespace
 
 from src.chatbot import Chatbot
 from src.llm_client import LLMResponse
+from src.knowledge_base import KnowledgeBase
 from src.tools import ToolHandler
 
 
@@ -85,3 +87,21 @@ def test_single_uses_final_reranked_order_not_original_candidate_order():
         result = handler.execute("search_knowledge_base", {"query": "course", "top_k": 5, "entity_scope": "single"})
     assert all(f"neighbor-{i}" in result for i in range(3))
     assert "neighbor-3" not in result and "neighbor-4" not in result
+
+
+def test_later_exact_hit_is_not_duplicated_as_a_top_three_neighbor():
+    class AdjacentKB:
+        expand_adjacent_chunks = KnowledgeBase.expand_adjacent_chunks
+        def __init__(self):
+            self._chunk_metadata = {str(i): {"source": "doc.txt", "chunk_index": i} for i in range(15)}
+            self._chunk_texts = {str(i): f"content-{i}-end" for i in range(15)}
+            self.store = SimpleNamespace(count=lambda: 15)
+        def hybrid_search(self, query, top_k, filters=None):
+            return [{"source": "doc.txt", "chunk_index": i, "content": self._chunk_texts[str(i)],
+                     "score": 1 - pos / 10, "bm25_score": 1} for pos, i in enumerate((2, 5, 8, 3, 12))]
+    handler = ToolHandler(AdjacentKB(), rerank_enabled=False)
+    result = handler.execute("search_knowledge_base", {"query": "course", "top_k": 5, "entity_scope": "single"})
+    assert result.count("content-3-end") == 1
+    assert result.count("content-12-end") == 1
+    assert "content-11-end" not in result and "content-13-end" not in result
+    assert len(handler.get_call_log()[0]["hits"]) == 5
