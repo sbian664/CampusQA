@@ -41,7 +41,7 @@ class AdminDocumentService:
         return path
 
     def _document_id(self, path: Path) -> str:
-        relative = path.relative_to(self.documents_dir).as_posix()
+        relative = path.resolve().relative_to(self.documents_dir).as_posix()
         return hashlib.sha256(relative.encode("utf-8")).hexdigest()[:24]
 
     def _stored_document_id(self, path: Path, kb: Any) -> str:
@@ -64,7 +64,7 @@ class AdminDocumentService:
         return {
             "document_id": self._stored_document_id(path, kb),
             "filename": path.name,
-            "source": path.relative_to(self.documents_dir).as_posix(),
+            "source": path.resolve().relative_to(self.documents_dir).as_posix(),
             "doc_type": path.suffix.lower().lstrip(".") or "unknown",
             "size": int(raw.get("size", stat.st_size)),
             "mtime": raw.get("mtime", stat.st_mtime),
