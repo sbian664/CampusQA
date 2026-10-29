@@ -5,6 +5,7 @@ import json
 import time
 import requests
 from src.errors import ContextLimitError
+from src.chat_metrics import stage_scope, track_attempt
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 from config import (
@@ -128,38 +129,43 @@ class OpenAICompatibleClient(LLMClient):
 
         for attempt in range(attempts):
             try:
-                response = requests.post(
-                    url,
-                    json=payload,
-                    headers=headers,
-                    timeout=DEEPSEEK_TIMEOUT,
-                    allow_redirects=False,
-                    **({"stream": True} if cancel_event is not None else {}),
-                )
-                register = getattr(cancel_event, "register", None)
-                if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
-                    response.close()
-                    raise requests.HTTPError('模型服务不允许重定向')
-                if callable(register):
-                    register(response)
-                if cancel_event is not None:
-                    try:
-                        response.raise_for_status()
-                        chunks = []
-                        for chunk in response.iter_content(chunk_size=8192):
-                            if cancel_event.is_set():
-                                raise RuntimeError("generation cancelled")
-                            if chunk:
-                                chunks.append(chunk)
-                        return json.loads(b"".join(chunks).decode("utf-8"))
-                    finally:
-                        close = getattr(response, "close", None)
-                        if callable(close):
-                            close()
-                        if callable(register):
-                            register(None)
-                response.raise_for_status()
-                return response.json()
+                with track_attempt(self.provider, self.model, cancel_event) as tracked:
+                    response = requests.post(
+                        url,
+                        json=payload,
+                        headers=headers,
+                        timeout=DEEPSEEK_TIMEOUT,
+                        allow_redirects=False,
+                        **({"stream": True} if cancel_event is not None else {}),
+                    )
+                    register = getattr(cancel_event, "register", None)
+                    if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
+                        response.close()
+                        raise requests.HTTPError('模型服务不允许重定向')
+                    if callable(register):
+                        register(response)
+                    if cancel_event is not None:
+                        try:
+                            response.raise_for_status()
+                            chunks = []
+                            for chunk in response.iter_content(chunk_size=8192):
+                                if cancel_event.is_set():
+                                    raise RuntimeError("generation cancelled")
+                                if chunk:
+                                    chunks.append(chunk)
+                            data = json.loads(b"".join(chunks).decode("utf-8"))
+                            tracked.usage = data.get("usage")
+                            return data
+                        finally:
+                            close = getattr(response, "close", None)
+                            if callable(close):
+                                close()
+                            if callable(register):
+                                register(None)
+                    response.raise_for_status()
+                    data = response.json()
+                    tracked.usage = data.get("usage")
+                    return data
             except requests.exceptions.RequestException as error:
                 last_error = error
                 if (cancel_event is not None and cancel_event.is_set()) or attempt == attempts - 1 or not self._is_retryable_error(error):
@@ -178,59 +184,61 @@ class OpenAICompatibleClient(LLMClient):
         payload["stream_options"] = {"include_usage": True}
         url = f"{self.base_url}/chat/completions"
         headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-        response = requests.post(url, json=payload, headers=headers, timeout=DEEPSEEK_TIMEOUT, stream=True, allow_redirects=False)
-        register = getattr(cancel_event, "register", None)
-        if callable(register):
-            register(response)
-        chunks = []
-        usage = None
-        terminal = False
-        finish_reason = None
-        try:
-            if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
-                raise requests.HTTPError('模型服务不允许重定向')
-            if not callable(getattr(response, "iter_lines", None)):
-                raise RuntimeError("upstream does not support streaming responses")
-            response.raise_for_status()
-            for line in response.iter_lines(decode_unicode=False):
-                if cancel_event.is_set():
-                    raise RuntimeError("generation cancelled")
-                if not line:
-                    continue
-                raw = line.decode("utf-8") if isinstance(line, bytes) else str(line)
-                if not raw.startswith("data:"):
-                    continue
-                data = raw[5:].strip()
-                if data == "[DONE]":
-                    terminal = True
-                    break
-                try:
-                    payload_part = json.loads(data)
-                except json.JSONDecodeError as error:
-                    raise RuntimeError("invalid streaming response") from error
-                usage = payload_part.get("usage") or usage
-                choices = payload_part.get("choices") or []
-                for choice in choices:
-                    delta = choice.get("delta") or {}
-                    content = delta.get("content")
-                    if isinstance(content, str) and content:
-                        chunks.append(content)
-                        on_delta(content)
-                    if choice.get("finish_reason") is not None:
-                        finish_reason = choice["finish_reason"]
-                        terminal = True
-            if not terminal and not cancel_event.is_set():
-                raise RuntimeError("streaming response ended without a terminal event")
-            if finish_reason == "length":
-                raise RuntimeError("streamed answer was truncated by the output limit")
-            self.last_usage = usage
-            return "".join(chunks)
-        finally:
-            close = getattr(response, "close", None)
-            if callable(close):
-                close()
+        with track_attempt(self.provider, self.model, cancel_event) as tracked:
+            response = requests.post(url, json=payload, headers=headers, timeout=DEEPSEEK_TIMEOUT, stream=True, allow_redirects=False)
+            register = getattr(cancel_event, "register", None)
             if callable(register):
-                register(None)
+                register(response)
+            chunks = []
+            usage = None
+            terminal = False
+            finish_reason = None
+            try:
+                if isinstance(getattr(response, 'status_code', None), int) and 300 <= response.status_code < 400:
+                    raise requests.HTTPError('模型服务不允许重定向')
+                if not callable(getattr(response, "iter_lines", None)):
+                    raise RuntimeError("upstream does not support streaming responses")
+                response.raise_for_status()
+                for line in response.iter_lines(decode_unicode=False):
+                    if cancel_event.is_set():
+                        raise RuntimeError("generation cancelled")
+                    if not line:
+                        continue
+                    raw = line.decode("utf-8") if isinstance(line, bytes) else str(line)
+                    if not raw.startswith("data:"):
+                        continue
+                    data = raw[5:].strip()
+                    if data == "[DONE]":
+                        terminal = True
+                        break
+                    try:
+                        payload_part = json.loads(data)
+                    except json.JSONDecodeError as error:
+                        raise RuntimeError("invalid streaming response") from error
+                    usage = payload_part.get("usage") or usage
+                    tracked.usage = usage
+                    choices = payload_part.get("choices") or []
+                    for choice in choices:
+                        delta = choice.get("delta") or {}
+                        content = delta.get("content")
+                        if isinstance(content, str) and content:
+                            chunks.append(content)
+                            on_delta(content)
+                        if choice.get("finish_reason") is not None:
+                            finish_reason = choice["finish_reason"]
+                            terminal = True
+                if not terminal and not cancel_event.is_set():
+                    raise RuntimeError("streaming response ended without a terminal event")
+                if finish_reason == "length":
+                    raise RuntimeError("streamed answer was truncated by the output limit")
+                self.last_usage = usage
+                return "".join(chunks)
+            finally:
+                close = getattr(response, "close", None)
+                if callable(close):
+                    close()
+                if callable(register):
+                    register(None)
     def send_message(self, messages: List[Dict], **kwargs) -> str:
         """调用 DeepSeek API（纯文本模式）"""
         try:
@@ -247,7 +255,8 @@ class OpenAICompatibleClient(LLMClient):
         """调用 DeepSeek API（支持 tool calling），返回结构化 LLMResponse"""
         try:
             payload = self._build_payload(messages, tools, **kwargs)
-            data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
+            with stage_scope('decision' if tools else 'answer'):
+                data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
             self.last_usage = data.get("usage") or None
 
             choice = data["choices"][0]
@@ -336,12 +345,14 @@ class LocalModelClient(LLMClient):
 
         try:
             check_model_payload(payload)
-            response = requests.post(url, json=payload, timeout=30)
-            response.raise_for_status()
+            with track_attempt(self.provider, self.model) as tracked:
+                response = requests.post(url, json=payload, timeout=30)
+                response.raise_for_status()
 
-            data = response.json()
-            self.last_usage = data.get("usage") or None
-            return data["choices"][0]["message"]["content"]
+                data = response.json()
+                tracked.usage = data.get("usage")
+                self.last_usage = data.get("usage") or None
+                return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
             raise Exception(f"本地模型 API 调用失败: {str(e)}")
 

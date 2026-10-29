@@ -72,6 +72,7 @@ from src.reranker import search_with_optional_rerank
 from src.submissions import SubmissionService
 from src.submission_routes import create_submission_router
 from src.chat_runs import ChatRunManager, RunCapacityError, RunConflict, RunNotFound
+from src.chat_metrics import ChatMetrics, current_scope, stage_scope, turn_scope
 
 # ── FastAPI 应用 ──────────────────────────────────────────
 
@@ -138,6 +139,8 @@ app.add_middleware(
 _admin_control_store = create_default_admin_store(DATA_DIR)
 _user_store = UserStore(_admin_control_store.db_path)
 _personal_llm_store = PersonalLLMConfigStore(_user_store)
+_chat_metrics = ChatMetrics(Path(DATA_DIR) / "cache" / "chat_metrics.sqlite3")
+_chat_metrics.recover_interrupted()
 _admin_job_manager = AdminJobManager(_admin_control_store)
 _kb_mutation_lock = RLock()
 _admin_document_service = AdminDocumentService(
@@ -462,6 +465,7 @@ app.include_router(
         document_service=_admin_document_service,
         config_service=_admin_config_service,
         submission_service=_submission_service,
+        chat_metrics=_chat_metrics,
     ),
     prefix="/api/admin",
 )
@@ -511,6 +515,7 @@ class ChatResponse(BaseModel):
     usage: Optional[Dict] = None
     rounds: int = 0
     effective_mode: str = "agent"
+    turn_id: Optional[str] = None
 
 
 class SearchRequest(BaseModel):
@@ -625,6 +630,13 @@ def _generate_session_title(
         temperature=0.2,
     )
     return _clean_session_title(title)
+
+
+def _tracked_session_title(user_message, client_factory, llm_config, scope):
+    if scope is None:
+        return _generate_session_title(user_message, client_factory, llm_config)
+    with turn_scope(*scope), stage_scope('title'):
+        return _generate_session_title(user_message, client_factory, llm_config)
 
 
 def _session_title(session: Session) -> Optional[str]:
@@ -848,7 +860,16 @@ def chat(request: ChatRequest, http_request: Request):
                 session.require_owner(require_user_id())
             if chat_runs.is_session_busy(session.session_id):
                 raise HTTPException(status_code=409, detail='该会话正在生成')
-            return _chat_locked(request, session, http_request.state.chat_trace, llm_snapshot=user_llm_snapshot())
+            metric_turn_id = uuid.uuid4().hex
+            _chat_metrics.start(metric_turn_id, session.session_id)
+            status = 'failed'
+            try:
+                with turn_scope(_chat_metrics, metric_turn_id):
+                    result = _chat_locked(request, session, http_request.state.chat_trace, llm_snapshot=user_llm_snapshot())
+                status = 'succeeded'
+                return result
+            finally:
+                _chat_metrics.finish(metric_turn_id, status)
     except ContextLimitError:
         raise
     except ValueError as error:
@@ -921,6 +942,7 @@ def get_chat_run(run_id: str):
                     "usage": None,
                 }
                 chat_runs.recover_success(run_id, result)
+                _chat_metrics.recover_succeeded(run_id)
                 return chat_runs.get(run_id)
         return current
     except RunNotFound:
@@ -990,10 +1012,11 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
         )
         title_future = (
             _title_executor.submit(
-                _generate_session_title,
+                _tracked_session_title,
                 request.message,
                 create_llm_client,
                 llm_snapshot,
+                current_scope(),
             )
             if should_generate_title and save else None
         )
@@ -1027,7 +1050,8 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
             on_status("context", {})
         if is_context_router_enabled(request) and history:
             try:
-                context_route = get_context_router(llm_snapshot).route(request.message, history)
+                with stage_scope('router'):
+                    context_route = get_context_router(llm_snapshot).route(request.message, history)
                 routed_message = context_route.rewritten_query
                 routed_history = context_route.selected_history
                 print(
@@ -1038,8 +1062,11 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
                 print('上下文路由不可用，保留原始历史')
 
         # 路由对话
-        turn_id = uuid.uuid4().hex
+        scope = current_scope()
+        turn_id = scope[1] if scope else uuid.uuid4().hex
         effective_mode = "agent" if chatbot.agent_mode and getattr(chatbot.client, "supports_tools", False) else "rag"
+        if scope:
+            _chat_metrics.mode(turn_id, effective_mode)
         trace["effective_mode"] = effective_mode
         trace["stage"] = "model_or_retrieval"
         if effective_mode == "agent":
@@ -1070,6 +1097,7 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
         trace["stage"] = "persistence"
         # 保存消息到会话
         session.add_message("user", request.message)
+        session.messages[-1]['turn_id'] = turn_id
 
         # 如果 AI 返回了 tool_calls，也一并记录
         if result.tool_call_log:
@@ -1078,6 +1106,7 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
             session.tool_call_log.extend(result.tool_call_log)
         else:
             session.add_message("assistant", result.content)
+        session.messages[-1]['turn_id'] = turn_id
 
         if result.usage:
             session.total_prompt_tokens += result.usage.get("prompt_tokens", 0)
@@ -1101,7 +1130,7 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
             )
 
         trace["stage"] = "model" if result.finish_reason == "error" else None
-        return {**_agent_result_to_response(result, session.session_id, session_title), "effective_mode": effective_mode}
+        return {**_agent_result_to_response(result, session.session_id, session_title), "effective_mode": effective_mode, "turn_id": turn_id}
 
     except (HTTPException, SessionConflict, ValueError, KnowledgeUnavailable, RepairRequired):
         trace["outcome"] = "error"
@@ -1112,6 +1141,11 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
 
 
 def _execute_chat_run(payload, emit, cancel_event):
+    with turn_scope(_chat_metrics, payload['run_id']):
+        return _execute_chat_run_scoped(payload, emit, cancel_event)
+
+
+def _execute_chat_run_scoped(payload, emit, cancel_event):
     run_id = payload["run_id"]
     request = ChatRequest(**payload)
     session = Session(session_id=request.session_id, owner_user_id=payload['__owner_user_id'])
@@ -1150,7 +1184,7 @@ def _execute_chat_run(payload, emit, cancel_event):
                 raise RuntimeError("generation cancelled")
 
             if result.get("session_title") is None and payload.get("__new_session"):
-                _title_executor.submit(_generate_session_title, request.message, create_llm_client, payload['__llm_snapshot']).add_done_callback(
+                _title_executor.submit(_tracked_session_title, request.message, create_llm_client, payload['__llm_snapshot'], current_scope()).add_done_callback(
                     lambda future, sid=working.session_id: _save_generated_title(sid, future)
                 )
             return result
@@ -1162,7 +1196,11 @@ def _execute_chat_run(payload, emit, cancel_event):
         raise
 
 
-chat_runs = ChatRunManager(Path(DATA_DIR) / "cache" / "chat_runs.sqlite3", worker=_execute_chat_run)
+chat_runs = ChatRunManager(
+    Path(DATA_DIR) / "cache" / "chat_runs.sqlite3", worker=_execute_chat_run,
+    on_created=lambda run_id, session_id, now: _chat_metrics.start(run_id, session_id, created_at=now),
+    on_terminal=lambda run_id, status: _chat_metrics.finish(run_id, 'failed' if status == 'error' else status),
+)
 
 
 def _require_owned_run(run_id):

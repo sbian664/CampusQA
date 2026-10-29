@@ -83,10 +83,12 @@ class _Run:
 
 class ChatRunManager:
     def __init__(self, db_path, worker: Callable, *, max_tasks=4, max_events=256,
-                 ttl_seconds=86400, timeout_seconds=300):
+                 ttl_seconds=86400, timeout_seconds=300, on_created=None, on_terminal=None):
         self.db_path = Path(db_path)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self.worker = worker
+        self.on_created = on_created
+        self.on_terminal = on_terminal
         self.max_tasks = max_tasks
         self.max_events = max_events
         self.ttl_seconds = ttl_seconds
@@ -158,6 +160,8 @@ class ChatRunManager:
         if not isinstance(payload, dict):
             raise ValueError("request payload must be an object")
         payload = json.loads(json.dumps(payload, ensure_ascii=False))
+        if 'run_id' in payload:
+            payload['run_id'] = run_id
         payload_hash = self._request_hash(payload)
         session_id = payload.get("session_id")
         now = time.time()
@@ -188,6 +192,8 @@ class ChatRunManager:
             run.events = deque(maxlen=self.max_events)
             self._runs[run_id] = run
             self._publish(run, "status", {"status": "queued", "stage": "queued"})
+            if self.on_created:
+                self.on_created(run_id, session_id, now)
             timer = threading.Timer(self.timeout_seconds, lambda: self.cancel(run_id))
             timer.daemon = True
             run.timeout_timer = timer
@@ -242,9 +248,9 @@ class ChatRunManager:
                     run.result = result
                     run.status = "succeeded"
                     self._persist(run)
+                    self._log_terminal(run)
                     self._publish(run, "done", {"status": "succeeded", "result": result})
                     self._clear_timeout(run)
-                    self._log_terminal(run)
         except Exception as error:
             with self._lock:
                 if run.cancel_event.is_set():
@@ -253,9 +259,9 @@ class ChatRunManager:
                     run.error = str(error) or type(error).__name__
                     run.status = "error"
                     self._persist(run)
+                    self._log_terminal(run)
                     self._publish(run, "error", {"status": "error", "message": run.error})
                     self._clear_timeout(run)
-                    self._log_terminal(run)
 
     def commit(self, run_id, callback, result):
         """Serialize the durable session commit against cancellation."""
@@ -308,14 +314,16 @@ class ChatRunManager:
         run.result = None
         run.status = "cancelled"
         self._persist(run)
+        self._log_terminal(run)
         self._publish(run, "cancelled", {"status": "cancelled"})
         self._clear_timeout(run)
-        self._log_terminal(run)
 
     def _log_terminal(self, run):
         if run.logged:
             return
         run.logged = True
+        if self.on_terminal:
+            self.on_terminal(run.run_id, run.status)
         result = run.result or {}
         logging.getLogger("uvicorn.error").info("chat_run %s", json.dumps({
             "run_id": run.run_id,

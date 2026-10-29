@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import inspect
+import sqlite3
 from src.file_processing import run_file_work
 from src.errors import FileLimitError
 import mimetypes
@@ -99,6 +100,7 @@ def create_admin_router(
     document_service: Any = None,
     config_service: Any = None,
     submission_service: SubmissionService | None = None,
+    chat_metrics: Any = None,
 ) -> APIRouter:
     router = APIRouter()
 
@@ -186,6 +188,31 @@ def create_admin_router(
     @router.get("/metrics/summary")
     def metrics_summary(session: Dict[str, Any] = Depends(require_admin)):
         return store.metrics_summary()
+
+    @router.get("/metrics/chat")
+    def chat_metrics_summary(date_from: str | None = None, date_to: str | None = None,
+                             model: str | None = None, mode: str | None = None,
+                             stage: str | None = None, session: Dict[str, Any] = Depends(require_admin)):
+        if chat_metrics is None:
+            raise HTTPException(status_code=503, detail="问答统计未配置")
+        try:
+            return chat_metrics.summary(date_from, date_to, model, mode, stage)
+        except ValueError as error:
+            raise HTTPException(status_code=400, detail=str(error)) from None
+        except (OSError, sqlite3.Error):
+            raise HTTPException(status_code=503, detail="问答统计暂不可用") from None
+
+    @router.get("/metrics/chat/turns/{turn_id}")
+    def chat_metrics_turn(turn_id: str, session: Dict[str, Any] = Depends(require_admin)):
+        if chat_metrics is None:
+            raise HTTPException(status_code=503, detail="问答统计未配置")
+        try:
+            result = chat_metrics.turn(turn_id)
+        except (OSError, sqlite3.Error):
+            raise HTTPException(status_code=503, detail="问答统计暂不可用") from None
+        if result is None:
+            raise HTTPException(status_code=404, detail="问答统计不存在")
+        return result
 
     @router.get("/errors")
     def errors(limit: int = 50, session: Dict[str, Any] = Depends(require_admin)):

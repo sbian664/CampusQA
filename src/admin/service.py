@@ -256,6 +256,11 @@ def load_session_detail(session_class: Any, session_id: str, *, source_root: Opt
         AdminService.serialize_trace_entry(entry, source_root=source_root)
         for entry in session.get_tool_call_log()
     ]
+    history = session.get_history(strip_tool_details=True)
+    visible = [item for item in session.messages if item.get('role') != 'tool']
+    for entry, original in zip(history, visible):
+        if original.get('turn_id'):
+            entry['turn_id'] = original['turn_id']
     return {
         "session_id": session.session_id,
         "owner_user_id": getattr(session, 'owner_user_id', None),
@@ -263,7 +268,7 @@ def load_session_detail(session_class: Any, session_id: str, *, source_root: Opt
         "message_count": _number(session.metadata.get("message_count"), len(session.messages)),
         "created_at": session.metadata.get("created_at", ""),
         "updated_at": session.metadata.get("updated_at", ""),
-        "history": session.get_history(strip_tool_details=True),
+        "history": history,
         "tool_call_log": traces,
         "trace": AdminService.trace_summary(traces),
         "usage": {

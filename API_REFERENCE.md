@@ -81,6 +81,16 @@
 
 ## 状态码与诊断
 
+问答新统计需管理员 Cookie：`GET /api/admin/metrics/chat` 接受 `date_from`、
+`date_to`（YYYY-MM-DD）、`model`、`mode`、`stage`。默认近七日，按香港时间
+的问答创建日分组；异步标题完成后追加原问答日。响应包括 `totals`、`days`、
+`models`、`modes`、`stages`，每项含问题数、会话数、终态、平均耗时、
+调用次数、已知输入/输出 Token 和 `unknown_usage_calls`。已知用量仅是小计，
+未知值不能解释为零。`available=false` 表示统计写入曾失败，数据不应视为完整。
+`GET /api/admin/metrics/chat/turns/{turn_id}` 返回不含正文或 Key 的单轮与调用明细；
+管理会话详情的 `history` 消息在有记录时含 `turn_id`。统计从新版本启动后开始，
+旧会话没有可追溯的逐次统计；数据库 `data/cache/chat_metrics.sqlite3` 需随 data 备份。
+
 - `400`：请求参数无效。
 - `401`：用户 Token 缺失/失效或管理员会话缺失；`403`：管理员 CSRF 校验失败。
 - `404`：记录不存在、不属于当前用户或历史未归属，不透露外部记录是否存在。
