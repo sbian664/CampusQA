@@ -26,6 +26,7 @@ class AdminDocumentService:
         self.supported_formats = {extension.lower() for extension in supported_formats}
         self.mutation_lock = mutation_lock or RLock()
         self._catalog_cache: Optional[list[Dict[str, Any]]] = None
+        self._catalog_version = None
         self.documents_dir.mkdir(parents=True, exist_ok=True)
 
     def _safe_path(self, filename: str) -> Path:
@@ -87,9 +88,13 @@ class AdminDocumentService:
 
     def _all_documents(self, query: Optional[str] = None) -> list[Dict[str, Any]]:
         with self.mutation_lock:
-            if self._catalog_cache is None:
-                self._catalog_cache = self._build_catalog()
-            items = list(self._catalog_cache)
+            kb = self.kb_provider()
+            with kb.pinned() if hasattr(kb, 'pinned') else nullcontext():
+                version = getattr(kb, 'active_version', None)
+                if self._catalog_cache is None or self._catalog_version != version:
+                    self._catalog_cache = self._build_catalog()
+                    self._catalog_version = version
+                items = list(self._catalog_cache)
         query_lower = query.strip().lower() if query else None
         if not query_lower:
             return items

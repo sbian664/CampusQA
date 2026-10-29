@@ -1,3 +1,4 @@
+import pytest
 import asyncio
 import json
 from types import SimpleNamespace
@@ -7,7 +8,7 @@ from fastapi.testclient import TestClient
 import server
 
 from src.batch_upload import upload_batch
-from src.errors import FileLimitError, RepairRequired
+from src.errors import FileLimitError, RepairRequired, IndexWriteConflict
 
 
 def uploads(names):
@@ -61,3 +62,10 @@ def test_admin_upload_route_returns_per_file_results():
         assert [item["status"] for item in response.json()["items"]] == ["uploaded", "oversize", "uploaded"]
     finally:
         server.app.dependency_overrides.pop(server._admin_csrf, None)
+
+
+def test_index_rebuild_conflict_is_not_swallowed():
+    def upload(filename, stream):
+        raise IndexWriteConflict("rebuilding")
+    with pytest.raises(IndexWriteConflict):
+        asyncio.run(upload_batch(uploads(["a.txt", "b.txt"]), upload))

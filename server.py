@@ -12,7 +12,8 @@ from copy import copy, deepcopy
 from fastapi.responses import JSONResponse, StreamingResponse
 from src.file_processing import run_file_work, copy_limited, file_operation
 from src.batch_upload import upload_batch
-from src.errors import ContextLimitError, FileLimitError, KnowledgeUnavailable, RepairRequired
+from src.errors import ContextLimitError, FileLimitError, KnowledgeUnavailable, RepairRequired, IndexWriteConflict
+from src.index_versions import IndexVersionManager
 import inspect
 from functools import wraps
 import tempfile
@@ -296,6 +297,11 @@ async def knowledge_unavailable_handler(request, error):
     return JSONResponse(status_code=503, content={"detail": str(error)})
 
 
+@app.exception_handler(IndexWriteConflict)
+async def index_write_conflict_handler(request, error):
+    return JSONResponse(status_code=409, content={"detail": str(error)})
+
+
 @app.exception_handler(RepairRequired)
 async def repair_required_handler(request, error):
     return JSONResponse(status_code=500, content={"detail": str(error), "repair_required": True})
@@ -304,7 +310,7 @@ async def repair_required_handler(request, error):
 def get_kb() -> KnowledgeBase:
     global _kb
     if _kb is None:
-        _kb = KnowledgeBase()
+        _kb = IndexVersionManager(on_switch=lambda: _admin_document_service.invalidate_catalog())
     return _kb
 
 
@@ -345,8 +351,13 @@ def get_llm_config() -> Dict[str, str]:
 
 
 def _admin_search(query: str, top_k: int, rerank_enabled: bool, filters: Dict[str, object]) -> Dict[str, object]:
-    started = time.perf_counter()
     kb = get_kb()
+    with kb.index_state.read():
+        return _admin_search_current(kb, query, top_k, rerank_enabled, filters)
+
+
+def _admin_search_current(kb, query, top_k, rerank_enabled, filters):
+    started = time.perf_counter()
     valid_filters = {
         key: value for key, value in (filters or {}).items()
         if key in {"doc_type", "source", "mtime_after", "mtime_before"}
@@ -398,20 +409,20 @@ def _admin_toggle_mode() -> Dict[str, object]:
 def _admin_job_operation(kind: str, progress) -> Dict[str, object]:
     """Run one serialized KB mutation and report coarse-grained progress."""
     kb = get_kb()
-    with _kb_mutation_lock:
-        if kind == "scan":
+    if kind == "scan":
+        with _kb_mutation_lock:
             progress(10, "正在扫描文档目录")
             with kb.index_state.write():
                 updated = kb.load_documents_from_dir(max_workers=1)
             progress(95, "正在保存索引状态")
             _admin_document_service.invalidate_catalog()
             return {"updated_documents": updated, **kb.index_result_summary(kb.last_index_result)}
-        if kind == "rebuild":
-            progress(10, "正在清空现有索引")
-            result = kb.rebuild_index()
-            progress(95, "正在完成索引持久化")
-            _admin_document_service.invalidate_catalog()
-            return {"status": "rebuilt" if not result.get("failed") else "partial_failed", **result}
+    if kind == "rebuild":
+        progress(10, "正在构建新索引，原索引继续提供检索")
+        result = kb.rebuild_index()
+        progress(95, "正在完成索引持久化")
+        _admin_document_service.invalidate_catalog()
+        return {"status": "rebuilt" if not result.get("failed") else "partial_failed", **result}
     raise ValueError(f"不支持的索引任务: {kind}")
 
 
@@ -466,6 +477,8 @@ app.include_router(
         config_service=_admin_config_service,
         submission_service=_submission_service,
         chat_metrics=_chat_metrics,
+        versions_provider=lambda: get_kb().status(),
+        rollback_provider=lambda: get_kb().rollback(),
     ),
     prefix="/api/admin",
 )
@@ -1353,6 +1366,11 @@ def kb_stats():
 def kb_search(request: SearchRequest):
     """搜索知识库（含 BM25 双通道，前端自主展示）"""
     kb = get_kb()
+    with kb.index_state.read():
+        return _kb_search_current(kb, request)
+
+
+def _kb_search_current(kb, request):
     filters = {}
     if request.doc_type:
         filters["doc_type"] = request.doc_type
@@ -1535,8 +1553,7 @@ def kb_scan(_admin=Depends(_admin_csrf)):
 def kb_rebuild(_admin=Depends(_admin_csrf)):
     """重建知识库索引"""
     kb = get_kb()
-    with _kb_mutation_lock:
-        result = kb.rebuild_index()
+    result = kb.rebuild_index()
     _admin_document_service.invalidate_catalog()
     return {"status": "ok" if not result.get("failed") else "partial_failed", "message": "索引重建完成" if not result.get("failed") else "部分文件失败，需要修复", **result}
 

@@ -64,7 +64,8 @@ class KnowledgeRetrievalResult:
 class KnowledgeBase:
     """知识库管理类 - 支持增量更新"""
     
-    def __init__(self, embeddings_provider: str = "local", vector_store: str = None):
+    def __init__(self, embeddings_provider: str = "local", vector_store: str = None,
+                 *, storage_dir=None, embeddings_manager=None, strict=False, index_state=None):
         """
         初始化知识库
 
@@ -73,8 +74,11 @@ class KnowledgeBase:
             vector_store: 向量存储后端 ("chroma" / "faiss")，默认读取 config
         """
         self.loader = DocumentLoader(DOCUMENTS_DIR)
-        self.embeddings_manager = EmbeddingsManager(embeddings_provider)
+        self.embeddings_manager = embeddings_manager or EmbeddingsManager(embeddings_provider)
         self.store_type = vector_store or VECTOR_STORE
+        self.storage_dir = Path(storage_dir) if storage_dir is not None else None
+        self.metadata_file = str(self.storage_dir / 'metadata.json') if self.storage_dir else KB_METADATA_FILE
+        self.strict = strict
 
         # 初始化文本分割器（语义感知）
         self.text_splitter = SemanticChunker(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
@@ -84,7 +88,7 @@ class KnowledgeBase:
 
         # 加载元数据
         self.metadata = self._load_metadata()
-        self.index_state = IndexState(Path(KB_METADATA_FILE).with_name('index_state.json'))
+        self.index_state = index_state or IndexState(Path(self.metadata_file).with_name('index_state.json'))
         legacy_chunks = any(not re.fullmatch(r'[0-9a-f]{64}_[0-9]+', chunk_id)
                             for item in self.metadata.values() for chunk_id in item.get('chunk_ids', []))
         if legacy_chunks and self.index_state.status == 'ready':
@@ -105,6 +109,8 @@ class KnowledgeBase:
             # deleted chunks cannot survive in the BM25 corpus.
             self._hydrate_chunk_texts()
         else:
+            if self.strict and self._chunk_texts:
+                raise RuntimeError('向量索引为空但分块快照非空')
             self._chunk_texts.clear()
             self._chunk_metadata.clear()
 
@@ -114,7 +120,11 @@ class KnowledgeBase:
     def _init_store(self):
         """初始化向量存储后端"""
         dim = self.embeddings_manager.get_embedding_dimension()
-        self.store: VectorStore = create_vector_store(self.store_type, dim)
+        if self.storage_dir is None:
+            self.store: VectorStore = create_vector_store(self.store_type, dim)
+        else:
+            path = self.storage_dir / ('faiss_index.bin' if self.store_type == 'faiss' else 'chroma')
+            self.store = create_vector_store(self.store_type, dim, path=path, strict=self.strict)
     
     def _init_chroma(self):
         """（已废弃 — 由 _init_store + VectorStore 替代）"""
@@ -725,32 +735,36 @@ class KnowledgeBase:
 
     def _load_metadata(self) -> Dict:
         """从文件加载元数据"""
-        if os.path.exists(KB_METADATA_FILE):
+        metadata_file = getattr(self, 'metadata_file', KB_METADATA_FILE)
+        if os.path.exists(metadata_file):
             try:
-                with open(KB_METADATA_FILE, 'r', encoding='utf-8') as f:
+                with open(metadata_file, 'r', encoding='utf-8') as f:
                     return json.load(f)
             except Exception as e:
+                if getattr(self, 'strict', False):
+                    raise RuntimeError('索引元数据加载失败') from e
                 print(f"⚠️  加载元数据失败: {str(e)}")
         return {}
     
     def _save_metadata(self):
         """保存元数据到文件"""
-        atomic_json(KB_METADATA_FILE, self.metadata)
+        atomic_json(getattr(self, 'metadata_file', KB_METADATA_FILE), self.metadata)
 
     def _load_chunk_texts(self) -> Dict[str, str]:
         """加载 chunk 文本快照（BM25 用）"""
-        chunk_file = KB_METADATA_FILE.replace('.json', '_chunks.json')
+        chunk_file = getattr(self, 'metadata_file', KB_METADATA_FILE).replace('.json', '_chunks.json')
         if os.path.exists(chunk_file):
             try:
                 with open(chunk_file, 'r', encoding='utf-8') as f:
                     return json.load(f)
-            except Exception:
-                pass
+            except Exception as error:
+                if getattr(self, 'strict', False):
+                    raise RuntimeError('分块快照加载失败') from error
         return {}
 
     def _save_chunk_texts(self):
         """保存 chunk 文本快照"""
-        chunk_file = KB_METADATA_FILE.replace('.json', '_chunks.json')
+        chunk_file = getattr(self, 'metadata_file', KB_METADATA_FILE).replace('.json', '_chunks.json')
         atomic_json(chunk_file, self._chunk_texts)
 
     def _hydrate_chunk_texts(self):
@@ -765,10 +779,13 @@ class KnowledgeBase:
             ids = data.get("ids", [])
             docs = data.get("documents", [])
             metadatas = data.get("metadatas", [])
-            self._chunk_texts = {
+            texts = {
                 cid: doc
                 for cid, doc in zip(ids, docs)
             }
+            if getattr(self, 'strict', False) and texts != self._chunk_texts:
+                raise ValueError('分块快照与向量存储不一致')
+            self._chunk_texts = texts
             self._chunk_metadata = {
                 cid: dict(metadata or {})
                 for cid, metadata in zip(ids, metadatas)
@@ -777,6 +794,8 @@ class KnowledgeBase:
                 self._save_chunk_texts()
                 print(f"✓ 回填完成: {len(self._chunk_texts)} 个 chunk")
         except Exception as e:
+            if getattr(self, 'strict', False):
+                raise RuntimeError('读取索引分块失败') from e
             print(f"⚠️  回填 chunk 快照失败: {e}")
     
     def _hydrate_chunk_metadata(self):

@@ -57,9 +57,9 @@ class VectorStore(ABC):
 class ChromaStore(VectorStore):
     """基于 Chroma (SQLite) 的向量存储"""
 
-    def __init__(self):
+    def __init__(self, path=None):
         import chromadb
-        self.client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
+        self.client = chromadb.PersistentClient(path=str(path or CHROMA_DB_PATH))
         self.collection = self.client.get_or_create_collection(
             name=CHROMA_COLLECTION,
             metadata={"hnsw:space": "l2"},
@@ -107,7 +107,10 @@ class ChromaStore(VectorStore):
 
     def get_all(self):
         """获取所有文档"""
-        result = self.collection.get(limit=self.collection.count())
+        count = self.collection.count()
+        if not count:
+            return {"ids": [], "documents": [], "metadatas": []}
+        result = self.collection.get(limit=count)
         return {
             "ids": result.get("ids", []),
             "documents": result.get("documents", []),
@@ -120,9 +123,11 @@ class ChromaStore(VectorStore):
 class FaissStore(VectorStore):
     """基于 Faiss (IndexFlatL2) 的内存向量存储，支持持久化"""
 
-    def __init__(self, dimension: int):
+    def __init__(self, dimension: int, path=None, strict=False):
         import faiss
         self.dimension = dimension
+        self.path = str(path or FAISS_INDEX_PATH)
+        self.strict = strict
         self.index = faiss.IndexFlatL2(dimension)
         self._ids: List[str] = []
         self._documents: List[str] = []
@@ -221,9 +226,9 @@ class FaissStore(VectorStore):
     def save(self):
         """保存索引到磁盘"""
         import faiss
-        os.makedirs(os.path.dirname(FAISS_INDEX_PATH), exist_ok=True)
-        faiss.write_index(self.index, FAISS_INDEX_PATH)
-        meta_path = FAISS_INDEX_PATH + ".meta"
+        os.makedirs(os.path.dirname(self.path), exist_ok=True)
+        faiss.write_index(self.index, self.path)
+        meta_path = self.path + ".meta"
         with open(meta_path, "wb") as f:
             pickle.dump({
                 "ids": self._ids,
@@ -236,25 +241,32 @@ class FaissStore(VectorStore):
     def _load(self) -> bool:
         """从磁盘加载索引"""
         import faiss
-        meta_path = FAISS_INDEX_PATH + ".meta"
-        if not os.path.exists(FAISS_INDEX_PATH) or not os.path.exists(meta_path):
+        meta_path = self.path + ".meta"
+        if not os.path.exists(self.path) or not os.path.exists(meta_path):
+            if self.strict and (os.path.exists(self.path) or os.path.exists(meta_path)):
+                raise RuntimeError('Faiss 索引文件不完整')
             return False
         try:
-            self.index = faiss.read_index(FAISS_INDEX_PATH)
+            self.index = faiss.read_index(self.path)
             with open(meta_path, "rb") as f:
                 data = pickle.load(f)
             self._ids = data["ids"]
             self._documents = data["documents"]
             self._metadatas = data["metadatas"]
+            if (self.index.d != self.dimension or data.get('dimension') != self.dimension
+                    or any(len(items) != self.index.ntotal for items in (self._ids, self._documents, self._metadatas))):
+                raise ValueError('Faiss 索引与元数据不一致')
             return True
         except Exception as e:
+            if self.strict:
+                raise RuntimeError('Faiss 索引加载失败') from e
             print(f"⚠️  Faiss 索引加载失败: {e}，将使用空索引")
             return False
 
 
 # ==================== 工厂函数 ====================
 
-def create_vector_store(store_type: str, dimension: int = 384) -> VectorStore:
+def create_vector_store(store_type: str, dimension: int = 384, *, path=None, strict=False) -> VectorStore:
     """
     工厂函数 — 创建向量存储实例
 
@@ -266,6 +278,6 @@ def create_vector_store(store_type: str, dimension: int = 384) -> VectorStore:
         VectorStore 实例
     """
     if store_type == "faiss":
-        return FaissStore(dimension)
+        return FaissStore(dimension, path=path, strict=strict)
     else:
-        return ChromaStore()
+        return ChromaStore(path=path)

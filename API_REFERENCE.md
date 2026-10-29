@@ -79,6 +79,8 @@
 
 管理 API 位于 `/api/admin/*`，主要包括认证、运行概览、会话和追踪、知识库检索/文档/任务、模型与运行配置、投稿审核、错误和审计记录。登录后使用 HttpOnly Session Cookie；写操作同时校验 `X-CSRF-Token`。控制台通过 `credentials: include` 发送 Cookie。初始化与本地启动步骤见 [ADMIN_SETUP.md](ADMIN_SETUP.md)。
 
+`GET /api/admin/kb/versions` 返回 `active`、`previous`、`building`、`rollback_available`、`index_state` 和 `last_failure`。`POST /api/admin/kb/versions/rollback` 使用管理员 Cookie 和 CSRF，成功返回同一结构；无旧版本、重建中、旧索引损坏或源文件变更时返回 `409`。重建期间可读取就绪的活动索引，文档写入返回 `409`；详见 [OPERATIONS.md](OPERATIONS.md)。
+
 ## 状态码与诊断
 
 问答新统计需管理员 Cookie：`GET /api/admin/metrics/chat` 接受 `date_from`、

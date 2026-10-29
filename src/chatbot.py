@@ -5,6 +5,7 @@ import json
 import time
 from copy import deepcopy
 from src.errors import ContextLimitError
+from src.index_state import retrieval_guard
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
@@ -105,6 +106,7 @@ class Chatbot:
 
     # ---- RAG 检索增强（一步式，快速模式）----
 
+    @retrieval_guard
     def chat_with_rag(self, user_message: str, history: List[Dict],
                       rerank_enabled: bool = False, on_status=None,
                       on_delta=None, cancel_event=None) -> str:

@@ -6,7 +6,7 @@ import os
 import inspect
 import sqlite3
 from src.file_processing import run_file_work
-from src.errors import FileLimitError
+from src.errors import FileLimitError, IndexWriteConflict
 import mimetypes
 from typing import Any, Dict, Optional
 
@@ -101,6 +101,8 @@ def create_admin_router(
     config_service: Any = None,
     submission_service: SubmissionService | None = None,
     chat_metrics: Any = None,
+    versions_provider: Any = None,
+    rollback_provider: Any = None,
 ) -> APIRouter:
     router = APIRouter()
 
@@ -488,6 +490,21 @@ def create_admin_router(
     def start_rebuild(session: Dict[str, Any] = Depends(require_csrf)):
         return submit_job("rebuild", session)
 
+    @router.get('/kb/versions')
+    def index_versions(session: Dict[str, Any] = Depends(require_admin)):
+        if versions_provider is None:
+            raise HTTPException(status_code=503, detail='索引版本服务未配置')
+        return versions_provider()
+
+    @router.post('/kb/versions/rollback')
+    def rollback_index(request: Request, session: Dict[str, Any] = Depends(require_csrf)):
+        if rollback_provider is None:
+            raise HTTPException(status_code=503, detail='索引版本服务未配置')
+        result = rollback_provider()
+        store.record_audit(actor=session['username'], action='kb.rollback', target='knowledge_base',
+                           status='success', request_id=getattr(request.state, 'request_id', None))
+        return result
+
     @router.get("/kb/jobs")
     def jobs(limit: int = 50, offset: int = 0, session: Dict[str, Any] = Depends(require_admin)):
         if job_manager is None:
@@ -582,6 +599,8 @@ def create_admin_router(
             raise HTTPException(status_code=413, detail=str(error))
         except ValueError as error:
             raise HTTPException(status_code=400, detail=str(error))
+        except IndexWriteConflict:
+            raise
         except Exception as error:
             raise HTTPException(status_code=500, detail=f"上传失败: {error}")
         store.record_audit(actor=session["username"], action="kb.document.upload", target=result.get("document_id", "document"), status="success")

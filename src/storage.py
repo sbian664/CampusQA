@@ -15,5 +15,15 @@ def atomic_json(path, value):
             stream.flush()
             os.fsync(stream.fileno())
         os.replace(temporary, path)
+        # Persist the directory entry as well as the file contents when the
+        # platform supports directory fsync (not available on Windows).
+        try:
+            directory = os.open(str(path.parent), os.O_RDONLY)
+            try:
+                os.fsync(directory)
+            finally:
+                os.close(directory)
+        except OSError:
+            pass
     finally:
         Path(temporary).unlink(missing_ok=True)

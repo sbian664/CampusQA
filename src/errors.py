@@ -14,6 +14,10 @@ class RepairRequired(RuntimeError):
     pass
 
 
+class IndexWriteConflict(RuntimeError):
+    """Index rebuild or rollback temporarily prevents document writes."""
+
+
 class IndexRebuildError(RuntimeError):
     def __init__(self, message, result):
         super().__init__(message)

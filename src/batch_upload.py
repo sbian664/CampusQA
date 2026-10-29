@@ -5,7 +5,7 @@ import os
 from fastapi import HTTPException
 from fastapi.responses import JSONResponse
 
-from src.errors import FileLimitError, RepairRequired
+from src.errors import FileLimitError, RepairRequired, IndexWriteConflict
 from src.file_processing import run_file_work
 
 
@@ -28,6 +28,8 @@ async def upload_batch(files, upload_one):
             item.update(status="repair_required", error=str(error))
             failed.append({"filename": filename, "error": str(error)})
             repair_error = str(error)
+        except IndexWriteConflict:
+            raise
         except Exception as error:
             item.update(status="error", error=str(error))
             failed.append({"filename": filename, "error": str(error)})
