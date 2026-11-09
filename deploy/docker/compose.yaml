@@ -1,0 +1,38 @@
+services:
+  app:
+    image: ${CAMPUSQA_IMAGE:?Set CAMPUSQA_IMAGE from the release manifest}
+    platform: linux/amd64
+    pull_policy: never
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 180s
+    env_file:
+      - ${CAMPUSQA_ROOT:?Set CAMPUSQA_ROOT}/config/app.env
+    environment:
+      TMPDIR: /app/data/tmp
+      HF_HOME: /app/data/model-cache
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+      EMBEDDINGS_AUTO_DOWNLOAD: 'false'
+      RERANKER_AUTO_DOWNLOAD: 'false'
+      EMBEDDINGS_MODEL_PATH: /models/embedding
+      RERANKER_MODEL_PATH: /models/reranker
+    ports:
+      - '127.0.0.1:${CAMPUSQA_PORT:-8000}:8000'
+    volumes:
+      - type: bind
+        source: ${CAMPUSQA_ROOT}/data
+        target: /app/data
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${CAMPUSQA_MODELS:?Set CAMPUSQA_MODELS}
+        target: /models
+        read_only: true
+        bind:
+          create_host_path: false
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'

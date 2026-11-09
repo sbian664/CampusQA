@@ -382,16 +382,21 @@ def test_real_clients_keep_keys_for_concurrent_agent_router_and_title(identities
             json=lambda: {'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}], 'usage': {}})
 
     with patch('src.llm_client.requests.post', side_effect=post):
-        def send(login):
-            client = TestClient(server.app)
-            first = client.post('/api/chat', headers=auth(login), json={'message': 'first'})
-            assert first.status_code == 200
-            return client.post('/api/chat', headers=auth(login), json={
-                'message': 'follow up', 'session_id': first.json()['session_id'], 'context_router_enabled': True})
+        def first_round(login):
+            first = TestClient(server.app).post('/api/chat', headers=auth(login), json={'message': 'first'})
+            assert first.status_code == 200, (first.status_code, first.text)
+            return first.json()['session_id']
+        def follow_up(item):
+            login, session_id = item
+            return TestClient(server.app).post('/api/chat', headers=auth(login), json={
+                'message': 'follow up', 'session_id': session_id, 'context_router_enabled': True})
         with ThreadPoolExecutor(2) as executor:
-            results = list(executor.map(send, [a, b]))
-        title_executor.shutdown(wait=True)
-    assert all(response.status_code == 200 for response in results)
+            try:
+                session_ids = list(executor.map(first_round, [a, b]))
+            finally:
+                title_executor.shutdown(wait=True)
+            results = list(executor.map(follow_up, zip([a, b], session_ids)))
+    assert all(response.status_code == 200 for response in results), [(r.status_code, r.text) for r in results]
     for key in [CONFIG['api_key'], 'key-b']:
         assert seen.count(('title', 'Bearer '+key)) == 1
         assert seen.count(('router', 'Bearer '+key)) == 1

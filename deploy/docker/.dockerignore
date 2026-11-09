@@ -1,0 +1,11 @@
+**/.git
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+backend/data
+models
+**/__pycache__
+**/*.log
+**/*.pem
+**/id_rsa*
