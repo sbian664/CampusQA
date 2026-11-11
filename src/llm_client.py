@@ -4,6 +4,7 @@ LLM 客户端 - 支持多个提供商（含 Tool Calling）
 import json
 import time
 import requests
+from urllib.parse import urlparse
 from src.errors import ContextLimitError
 from src.chat_metrics import stage_scope, track_attempt
 from dataclasses import dataclass, field
@@ -109,6 +110,19 @@ class OpenAICompatibleClient(LLMClient):
             "max_tokens": kwargs.get("max_tokens", MAX_TOKENS),
             "temperature": kwargs.get("temperature", TEMPERATURE),
         }
+        # Current DeepSeek models default to thinking. This client does not
+        # preserve reasoning_content across tool rounds, so keep its existing
+        # non-thinking contract explicit, without changing other providers.
+        if (
+            self.provider == "deepseek"
+            and self.model in {
+                "deepseek-flash", "deepseek-v4-pro",
+                "deepseek-v4-flash", "deepseek-v4-flash-vision-exp",
+            }
+            and urlparse(self.base_url).scheme == "https"
+            and (urlparse(self.base_url).hostname or "").rstrip(".") == "api.deepseek.com"
+        ):
+            payload["thinking"] = {"type": "disabled"}
         if tools:
             payload["tools"] = tools
             payload["tool_choice"] = kwargs.get("tool_choice", "auto")
@@ -117,7 +131,7 @@ class OpenAICompatibleClient(LLMClient):
         check_model_payload(payload)
         return payload
 
-    def _call_api(self, payload: Dict, cancel_event=None) -> Dict:
+    def _call_api(self, payload: Dict, cancel_event=None, max_attempts=None) -> Dict:
         """调用 API 并返回响应 JSON"""
         url = f"{self.base_url}/chat/completions"
         headers = {
@@ -125,6 +139,9 @@ class OpenAICompatibleClient(LLMClient):
             "Content-Type": "application/json",
         }
         attempts = max(1, DEEPSEEK_MAX_RETRIES)
+        if max_attempts is not None:
+            # A probe can lower the limit without changing normal chat retries.
+            attempts = min(attempts, max(1, int(max_attempts)))
         last_error = None
 
         for attempt in range(attempts):
@@ -243,7 +260,8 @@ class OpenAICompatibleClient(LLMClient):
         """调用 DeepSeek API（纯文本模式）"""
         try:
             payload = self._build_payload(messages, **kwargs)
-            data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
+            data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"),
+                                  max_attempts=kwargs.get("max_attempts"))
             self.last_usage = data.get("usage") or None
             return data["choices"][0]["message"]["content"]
         except requests.exceptions.RequestException as e:
@@ -256,7 +274,8 @@ class OpenAICompatibleClient(LLMClient):
         try:
             payload = self._build_payload(messages, tools, **kwargs)
             with stage_scope('decision' if tools else 'answer'):
-                data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"))
+                data = self._call_api(payload, cancel_event=kwargs.get("cancel_event"),
+                                  max_attempts=kwargs.get("max_attempts"))
             self.last_usage = data.get("usage") or None
 
             choice = data["choices"][0]

@@ -15,7 +15,7 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "deepseek")  # deepseek 或 local
 # DeepSeek API 配置
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 DEEPSEEK_API_BASE = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com/v1")
-DEEPSEEK_MODEL = os.getenv("MODEL_NAME", "deepseek-chat")
+DEEPSEEK_MODEL = os.getenv("MODEL_NAME", "deepseek-flash")
 DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "60"))
 DEEPSEEK_MAX_RETRIES = int(os.getenv("DEEPSEEK_MAX_RETRIES", "3"))
 DEEPSEEK_RETRY_BACKOFF_SECONDS = float(os.getenv("DEEPSEEK_RETRY_BACKOFF_SECONDS", "0.8"))

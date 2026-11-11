@@ -32,11 +32,14 @@ class AdminConfigService:
     def test_llm(self, payload: Dict[str, Any]) -> Dict[str, str]:
         candidate = self.llm_store.resolve(payload)
         client = create_llm_client(config=candidate)
-        client.send_message(
+        text = client.send_message(
             [{"role": "system", "content": "只回复 OK。"}, {"role": "user", "content": "连接测试"}],
             max_tokens=8,
             temperature=0,
+            max_attempts=1,
         )
+        if not isinstance(text, str) or not text.strip():
+            raise RuntimeError("模型连接测试未返回有效文本")
         return {"status": "ok"}
 
     def runtime_config(self) -> Dict[str, Any]:
