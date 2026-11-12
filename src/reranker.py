@@ -3,12 +3,18 @@
 from __future__ import annotations
 
 import hashlib
+import math
+import time
 import threading
 import weakref
+from pathlib import Path
 from collections import OrderedDict
 from typing import Callable, Dict, List, Optional, Tuple, Union
 
 from config import (
+    RERANKER_BACKEND, RERANKER_DEVICE, RERANKER_ONNX_FILE,
+    RERANKER_MAX_CONCURRENT, RERANKER_MAX_QUEUE, RERANKER_QUEUE_TIMEOUT_SECONDS,
+    RERANKER_LOAD_RETRY_SECONDS, INFERENCE_CPU_THREADS,
     RERANKER_AVAILABLE,
     RERANKER_BATCH_SIZE,
     RERANKER_SCORE_CACHE_SIZE,
@@ -19,10 +25,15 @@ from config import (
     RERANKER_AUTO_DOWNLOAD,
 )
 from src.model_utils import ensure_local_huggingface_model
+from src.reranker_backend import load_backend, validate_onnx_artifact
+from src.inference_runtime import (InferenceGate, RerankerBusy, RerankMetrics, current_rerank_metrics)
 
 
 _model = None
 _model_lock = threading.Lock()
+_load_retry_at = 0.0
+_load_failed = False
+_inference_gate = InferenceGate(RERANKER_MAX_CONCURRENT, RERANKER_MAX_QUEUE, RERANKER_QUEUE_TIMEOUT_SECONDS)
 
 
 class RerankScoreCache:
@@ -39,6 +50,7 @@ class RerankScoreCache:
         self._lock = threading.Lock()
         self._model_ref = None
         self._strong_model = None
+        self._settings = None
 
     @staticmethod
     def key(query: str, content: str) -> tuple:
@@ -47,8 +59,12 @@ class RerankScoreCache:
 
     def _check_model(self, model) -> None:
         active = self._model_ref() if self._model_ref else self._strong_model
-        if active is model:
+        settings = (getattr(model, "max_length", RERANKER_MAX_LENGTH),
+                    getattr(model, "_campusqa_backend", "torch"),
+                    getattr(model, "_campusqa_artifact", ""))
+        if active is model and settings == self._settings:
             return
+        self._settings = settings
         self._entries.clear()
         self._strong_model = None
         try:
@@ -90,6 +106,11 @@ _score_cache = RerankScoreCache()
 
 
 def ensure_local_reranker_model(auto_download: bool = RERANKER_AUTO_DOWNLOAD) -> str:
+    if RERANKER_BACKEND == "onnx":
+        validate_onnx_artifact(RERANKER_MODEL_PATH, RERANKER_ONNX_FILE)
+        return str(Path(RERANKER_MODEL_PATH).resolve())
+    if RERANKER_BACKEND != "torch":
+        raise ValueError("RERANKER_BACKEND must be torch or onnx")
     return ensure_local_huggingface_model(
         model_name=RERANKER_MODEL,
         model_path=RERANKER_MODEL_PATH,
@@ -100,21 +121,36 @@ def ensure_local_reranker_model(auto_download: bool = RERANKER_AUTO_DOWNLOAD) ->
 
 
 def get_reranker_model():
-    global _model
+    global _model, _load_retry_at, _load_failed
     if _model is not None:
         return _model
+    metrics = current_rerank_metrics()
+    wait_started = time.perf_counter()
     with _model_lock:
-        if _model is None:
-            from sentence_transformers import CrossEncoder
-
+        if metrics is not None:
+            metrics.model_wait_ms += (time.perf_counter() - wait_started) * 1000
+        if _model is not None:
+            return _model
+        if _load_failed and time.monotonic() < _load_retry_at:
+            raise RuntimeError("Reranker load is in retry cooldown; inspect the initial load error")
+        started = time.perf_counter()
+        try:
             model_path = ensure_local_reranker_model()
-            print(f"[reranker] load local model: {model_path}")
-            _model = CrossEncoder(
-                model_path,
-                max_length=RERANKER_MAX_LENGTH,
-                local_files_only=True,
+            _model = load_backend(
+                model_path, backend=RERANKER_BACKEND, file_name=RERANKER_ONNX_FILE,
+                device=RERANKER_DEVICE, max_length=RERANKER_MAX_LENGTH,
+                threads=INFERENCE_CPU_THREADS,
             )
-            print("[reranker] model ready")
+            _load_failed = False
+            print(f"[reranker] ready: backend={RERANKER_BACKEND}, device={RERANKER_DEVICE}, "
+                  f"threads={INFERENCE_CPU_THREADS}, artifact={_model._campusqa_artifact}")
+        except Exception:
+            _load_failed = True
+            _load_retry_at = time.monotonic() + RERANKER_LOAD_RETRY_SECONDS
+            raise
+        finally:
+            if metrics is not None:
+                metrics.model_load_ms += (time.perf_counter() - started) * 1000
     return _model
 
 
@@ -131,34 +167,61 @@ def rerank_results(
     if not results or top_k <= 0:
         return []
 
-    # Only score missing (query, document text) pairs. The initial candidate
-    # pass and a subsequent BM25 rescue thus share scores, as do later tool
-    # calls in the same process with the same effective rerank query.
+    metrics = current_rerank_metrics() or RerankMetrics()
+    metrics.calls += 1
+    metrics.backend = getattr(model, "_campusqa_backend", RERANKER_BACKEND)
+    started = time.perf_counter()
     pairs = [(query, result.get("content", "")) for result in results]
     keys = [_score_cache.key(q, content) for q, content in pairs]
-    scores = [None] * len(keys)
-    missing = OrderedDict()  # Key -> [indices], deduplicates identical chunks.
+    positions = OrderedDict()
     for index, key in enumerate(keys):
-        cached_score = _score_cache.get(model, key)
-        if cached_score is not None:
-            scores[index] = cached_score
-        else:
-            missing.setdefault(key, []).append(index)
-    if missing:
-        missing_keys = list(missing)
-        missing_pairs = [pairs[missing[key][0]] for key in missing_keys]
-        fresh_scores = model.predict(
-            missing_pairs,
-            batch_size=RERANKER_BATCH_SIZE,
-            show_progress_bar=False,
-        )
-        if len(fresh_scores) != len(missing_keys):
-            raise ValueError("Reranker returned an unexpected number of scores")
-        fresh = dict(zip(missing_keys, map(float, fresh_scores)))
-        _score_cache.put_many(model, fresh)
-        for key, indices in missing.items():
-            for index in indices:
-                scores[index] = fresh[key]
+        positions.setdefault(key, []).append(index)
+    metrics.pairs += len(pairs)
+    metrics.unique_pairs += len(positions)
+    metrics.deduplicated_pairs += len(pairs) - len(positions)
+    resolved = {}
+    try:
+        for key in positions:
+            cached = _score_cache.get(model, key)
+            if cached is not None:
+                resolved[key] = cached
+                metrics.cache_hits += 1
+        if len(resolved) < len(positions):
+            with _inference_gate.slot(metrics):
+                # Another request may have filled these scores while we waited.
+                # Default concurrency=1 prevents overlapping requests rescoring
+                # the same uncached pair. Pure cache hits never enter the gate.
+                missing = []
+                for key in positions:
+                    if key in resolved:
+                        continue
+                    cached = _score_cache.get(model, key)
+                    if cached is None:
+                        missing.append(key)
+                    else:
+                        resolved[key] = cached
+                        metrics.cache_hits += 1
+                        metrics.cache_hits_after_wait += 1
+                if missing:
+                    missing_pairs = [pairs[positions[key][0]] for key in missing]
+                    metrics.predict_calls += 1
+                    metrics.predicted_pairs += len(missing_pairs)
+                    prediction_started = time.perf_counter()
+                    try:
+                        values = model.predict(missing_pairs, batch_size=RERANKER_BATCH_SIZE,
+                                               show_progress_bar=False)
+                    finally:
+                        metrics.predict_ms += (time.perf_counter() - prediction_started) * 1000
+                    if len(values) != len(missing):
+                        raise ValueError("Reranker returned an unexpected number of scores")
+                    fresh = dict(zip(missing, map(float, values)))
+                    if not all(math.isfinite(score) for score in fresh.values()):
+                        raise ValueError("Reranker returned non-finite scores")
+                    _score_cache.put_many(model, fresh)
+                    resolved.update(fresh)
+    finally:
+        metrics.rerank_ms += (time.perf_counter() - started) * 1000
+    scores = [resolved[key] for key in keys]
     scored = []
     for original_rank, (result, rerank_score) in enumerate(zip(results, scores), start=1):
         item = dict(result)
@@ -183,13 +246,16 @@ def rerank_precomputed_results(
 ) -> List[Dict]:
     """Rerank an already retrieved result list while preserving fallback behavior."""
     requested_k = max(1, int(top_k))
-    if not enabled or not RERANKER_AVAILABLE:
+    if not results or not enabled or not RERANKER_AVAILABLE:
         return results[:requested_k]
 
     try:
         return rerank_results(query, results, model_loader(), requested_k)
     except Exception as exc:
-        print(f"鈿狅笍  閲嶆帓澶辫触锛屽洖閫€娣峰悎妫€绱㈡帓搴忥細{type(exc).__name__}: {exc}")
+        metrics = current_rerank_metrics()
+        if metrics is not None:
+            metrics.fallback_reason = exc.reason if isinstance(exc, RerankerBusy) else type(exc).__name__
+        print(f"重排失败，回退已有排序: {type(exc).__name__}: {exc}")
         return results[:requested_k]
 
 
@@ -216,7 +282,7 @@ def search_with_optional_rerank(
     search_k = max(requested_k, int(candidate_k)) if use_reranker else requested_k
     weight = {} if bm25_weight is None else {"bm25_weight": bm25_weight}
     results = knowledge_base.hybrid_search(query, top_k=search_k, filters=filters, **weight)
-    if not use_reranker:
+    if not results or not use_reranker:
         ranked = results[:requested_k]
         return (ranked, results) if return_candidates else ranked
 
@@ -227,6 +293,9 @@ def search_with_optional_rerank(
         ranked = rerank_results(effective_rerank_query, results, model_loader(), requested_k)
         return (ranked, results) if return_candidates else ranked
     except Exception as exc:
+        metrics = current_rerank_metrics()
+        if metrics is not None:
+            metrics.fallback_reason = exc.reason if isinstance(exc, RerankerBusy) else type(exc).__name__
         print(f"⚠️  重排失败，回退混合检索排序: {type(exc).__name__}: {exc}")
         ranked = results[:requested_k]
         return (ranked, results) if return_candidates else ranked

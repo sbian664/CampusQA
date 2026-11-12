@@ -132,6 +132,17 @@ RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "16"))
 RERANKER_SCORE_CACHE_SIZE = int(os.getenv("RERANKER_SCORE_CACHE_SIZE", "4096"))
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "512"))
 
+# CPU settings are process-wide (embedding and reranker share PyTorch).
+INFERENCE_CPU_THREADS = max(1, int(os.getenv("INFERENCE_CPU_THREADS", "2")))
+INFERENCE_INTEROP_THREADS = max(1, int(os.getenv("INFERENCE_INTEROP_THREADS", "1")))
+RERANKER_BACKEND = os.getenv("RERANKER_BACKEND", "torch").strip().lower()
+RERANKER_DEVICE = os.getenv("RERANKER_DEVICE", "auto").strip().lower()
+RERANKER_ONNX_FILE = os.getenv("RERANKER_ONNX_FILE", "onnx/model.onnx").strip()
+RERANKER_MAX_CONCURRENT = int(os.getenv("RERANKER_MAX_CONCURRENT", "1"))
+RERANKER_MAX_QUEUE = int(os.getenv("RERANKER_MAX_QUEUE", "8"))
+RERANKER_QUEUE_TIMEOUT_SECONDS = float(os.getenv("RERANKER_QUEUE_TIMEOUT_SECONDS", "30"))
+RERANKER_LOAD_RETRY_SECONDS = max(0, float(os.getenv("RERANKER_LOAD_RETRY_SECONDS", "30")))
+
 # 上下文检索增强 — 嵌入前为分块添加文档/章节前缀
 CONTEXT_ENRICHMENT_ENABLED = True  # 是否启用上下文前缀富化
 CONTEXT_ENRICHMENT_TEMPLATE = "[文档: {title} | 章节: {section_path}] {chunk_text}"

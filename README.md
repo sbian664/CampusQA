@@ -48,6 +48,8 @@ python server.py
 - [MINIPROGRAM_COMPATIBILITY.md](MINIPROGRAM_COMPATIBILITY.md)：小程序客户端兼容核验。
 - [OPERATIONS.md](OPERATIONS.md)：运行限制、索引维护、备份、恢复和部署注意事项。
 - [VERIFICATION.md](VERIFICATION.md)：已执行的本地验证及其范围。
+- [RERANKER_PERFORMANCE.md](RERANKER_PERFORMANCE.md)：ONNX INT8 导出、CPU 线程/并发预算、计时及回退步骤。
+- [RERANKER_PERFORMANCE_RESULTS.md](RERANKER_PERFORMANCE_RESULTS.md)：本地真实模型基准与验证边界。
 
 ## 部署边界
 

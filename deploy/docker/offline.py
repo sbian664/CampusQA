@@ -62,9 +62,33 @@ def verify_models(root):
         if not path.is_file() or path.stat().st_size != item['size'] or digest(path) != item['sha256']:
             raise ValueError(f'Missing or corrupt model file: {name}')
     for directory in ('embedding', 'reranker'):
-        if not any(name.startswith(directory + '/') and name.endswith(('.safetensors', '.bin')) for name in seen):
+        extensions = ('.safetensors', '.bin', '.onnx') if directory == 'reranker' else ('.safetensors', '.bin')
+        if not any(name.startswith(directory + '/') and name.endswith(extensions) for name in seen):
             raise ValueError(f'Missing model weights: {directory}')
     return {'verified_files': len(records), 'model_bytes': sum(item['size'] for item in records)}
+
+
+def verify_reranker_selection(root):
+    """Fail before serving if the configured graph is absent/unmanifested."""
+    root = Path(root)
+    manifest = json.loads((root / 'manifest.json').read_text())
+    files = {item['path'] for item in manifest['files']}
+    backend = os.getenv('RERANKER_BACKEND', 'torch').strip().lower()
+    if backend == 'onnx':
+        name = os.getenv('RERANKER_ONNX_FILE', 'onnx/model.onnx').strip()
+        relative = Path(name)
+        if relative.is_absolute() or '..' in relative.parts or relative.suffix != '.onnx':
+            raise ValueError('Invalid RERANKER_ONNX_FILE')
+        selected = 'reranker/' + relative.as_posix()
+        if selected not in files or not child(root, selected).is_file():
+            raise ValueError('Configured ONNX reranker must be present in the verified model manifest')
+        if 'reranker/config.json' not in files:
+            raise ValueError('ONNX reranker config.json must be included in the model manifest')
+    elif backend == 'torch':
+        if not any(name.startswith('reranker/') and name.endswith(('.safetensors', '.bin')) for name in files):
+            raise ValueError('PyTorch reranker weights are missing; select the ONNX backend or restore FP32 weights')
+    else:
+        raise ValueError('RERANKER_BACKEND must be torch or onnx')
 
 
 @contextmanager
@@ -98,6 +122,7 @@ def verify_identity_config():
 
 def preflight(data, models):
     result = verify_models(models)
+    verify_reranker_selection(models)
     verify_identity_config()
     for directory in ('documents', 'submissions', 'cache', 'tmp', 'model-cache'):
         path = Path(data) / directory

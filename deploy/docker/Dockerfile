@@ -8,8 +8,8 @@ RUN VITE_API_BASE_URL= VITE_DEMO_MODE=false npm run build
 FROM python:3.13-slim-bookworm AS python-build
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 WORKDIR /build
-COPY backend/requirements.txt ./
-RUN python -m venv /opt/venv && /opt/venv/bin/pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
+COPY backend/requirements.txt backend/requirements-onnx.txt ./
+RUN python -m venv /opt/venv && /opt/venv/bin/pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && /opt/venv/bin/pip install --no-cache-dir -r requirements-onnx.txt
 
 FROM python:3.13-slim-bookworm AS runtime
 RUN apt-get update && apt-get install -y --no-install-recommends libgomp1 && rm -rf /var/lib/apt/lists/* && useradd --uid 10001 --create-home app

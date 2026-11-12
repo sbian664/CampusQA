@@ -68,7 +68,7 @@ def main():
     image = f'campusqa:{release}'
     context = args.stage.resolve() / release
     if not context.exists():
-        export(args.backend, backend, context / 'backend', ['config.py', 'server.py', 'src', 'scripts', 'requirements.txt', 'requirements-dev.txt', 'tests', 'deploy/docker'])
+        export(args.backend, backend, context / 'backend', ['config.py', 'server.py', 'src', 'scripts', 'requirements.txt', 'requirements-onnx.txt', 'requirements-dev.txt', 'tests', 'deploy/docker'])
         export(args.admin, admin, context / 'admin')
         shutil.copy2(context / 'backend/deploy/docker/.dockerignore', context / '.dockerignore')
     if not args.skip_build:

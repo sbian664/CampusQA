@@ -10,6 +10,7 @@ import os
 import time
 from src.index_state import retrieval_guard
 from src.errors import KnowledgeUnavailable
+from src.inference_runtime import collect_rerank_metrics
 from typing import List, Dict, Optional
 from collections import defaultdict
 
@@ -348,17 +349,18 @@ class ToolHandler:
         start_time = time.time()
         self._pending_trace = {}
 
-        try:
-            if tool_name == "search_knowledge_base":
-                result_text = self._handle_search_knowledge_base(arguments)
-            else:
-                result_text = f"[ERROR] 未知工具: {tool_name}"
+        with collect_rerank_metrics() as rerank_metrics:
+            try:
+                if tool_name == "search_knowledge_base":
+                    result_text = self._handle_search_knowledge_base(arguments)
+                else:
+                    result_text = f"[ERROR] 未知工具: {tool_name}"
+                    self._pending_trace = {"error": result_text}
+            except KnowledgeUnavailable:
+                raise
+            except Exception as error:
+                result_text = f"[ERROR] 工具执行失败: {type(error).__name__}: {error}"
                 self._pending_trace = {"error": result_text}
-        except KnowledgeUnavailable:
-            raise
-        except Exception as error:
-            result_text = f"[ERROR] 工具执行失败: {type(error).__name__}: {error}"
-            self._pending_trace = {"error": result_text}
 
         duration_ms = round((time.time() - start_time) * 1000)
 
@@ -373,6 +375,7 @@ class ToolHandler:
         log_entry.update(self._pending_trace)
         log_entry.setdefault("turn_id", self.turn_id)
         log_entry["duration_ms"] = duration_ms
+        log_entry["rerank_metrics"] = rerank_metrics.to_dict()
         self.call_log.append(log_entry)
 
         return result_text

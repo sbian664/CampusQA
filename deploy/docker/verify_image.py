@@ -145,6 +145,7 @@ print(json.dumps([response.status,value]))
         passed('runtime_settings_persist')
         status, search = request('/api/admin/kb/search', 'POST', {'query': 'library opens', 'top_k': 2, 'rerank_enabled': True})
         assert status == 200 and search['channels']['reranked'], (status, search)
+        assert all(isinstance(hit.get('rerank_score'), (int, float)) for hit in search['channels']['reranked']), 'Reranker silently fell back to hybrid search'
         passed('real_crossencoder_inference', reranked_hits=len(search['channels']['reranked']))
         payload, content_type = multipart('uploaded.txt', b'An offline upload validation document.')
         status, doc = request('/api/admin/kb/documents/upload', 'POST', payload, content_type)

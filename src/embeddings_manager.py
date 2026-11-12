@@ -91,6 +91,8 @@ class LocalEmbeddingsProvider(EmbeddingsProvider):
     """Sentence-Transformers 本地模型"""
 
     def __init__(self):
+        from src.inference_runtime import configure_torch_threads
+        configure_torch_threads()
         from sentence_transformers import SentenceTransformer
         model_path = ensure_local_embedding_model()
         print(f"[embeddings] load local model: {model_path}")
