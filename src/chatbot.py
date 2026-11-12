@@ -235,7 +235,8 @@ class Chatbot:
 
     def agent_chat(self, user_message: str, history: List[Dict],
                    rerank_enabled: bool = False, turn_id: Optional[str] = None,
-                   on_status=None, on_delta=None, cancel_event=None) -> AgentChatResult:
+                   on_status=None, on_delta=None, cancel_event=None,
+                   original_user_message: Optional[str] = None) -> AgentChatResult:
         """
         Agent Loop 自主循环检索
 
@@ -272,11 +273,14 @@ class Chatbot:
 
         state = AgentLoopState()
         state.include_final_call_in_rounds = streaming
+        original_question = user_message if original_user_message is None else original_user_message
+        routed_question = user_message if original_question != user_message else None
         handler = ToolHandler(
             self.kb,
             rerank_enabled=rerank_enabled,
             turn_id=turn_id,
-            user_query=user_message,
+            user_query=original_question,
+            initial_rerank_query=routed_question,
             bm25_weight=getattr(self, 'bm25_weight', None),
             **({"on_rerank": lambda query: on_status("reranking", {"query": str(query)[:80]})} if on_status else {}),
         )
@@ -284,7 +288,13 @@ class Chatbot:
         # 构建初始消息列表
         messages = [{"role": "system", "content": AGENT_SYSTEM_PROMPT}]
         messages.extend(history)
-        messages.append({"role": "user", "content": user_message})
+        question_context = user_message
+        if routed_question:
+            question_context = (
+                f"[用户原始问题]\n{original_question}\n\n"
+                f"[上下文路由已初始化的 custom 问题；后续省略重排参数即可复用]\n{routed_question}"
+            )
+        messages.append({"role": "user", "content": question_context})
 
         while state.llm_rounds < AGENT_MAX_LLM_ROUNDS:
             if cancel_event is not None and cancel_event.is_set():
@@ -434,8 +444,17 @@ class Chatbot:
                 search_filters = arguments_dict.get("filters", {})
                 if not isinstance(search_filters, dict):
                     search_filters = {}
-                rerank_query_source, rerank_query = self._normalize_rerank_choice(arguments_dict)
-                if self._is_duplicate_search(
+                # Resolve inherited intent before duplicate detection, exactly
+                # as execution does. Invalid arguments must not enter history:
+                # otherwise a corrected retry could be falsely blocked.
+                rerank_error = None
+                try:
+                    rerank_query, rerank_query_source = handler._resolve_rerank_query(arguments_dict)
+                except ValueError as error:
+                    rerank_error = str(error)
+                if rerank_error:
+                    tool_result_text = handler.execute(tool_name, arguments)
+                elif self._is_duplicate_search(
                     query,
                     search_top_k,
                     search_filters,
@@ -550,7 +569,7 @@ class Chatbot:
         new_top_k: int,
         new_filters: Dict,
         past_searches: List[Dict],
-        new_rerank_query_source: str = "search_query",
+        new_rerank_query_source: str = "user_query",
         new_rerank_query: str = "",
         new_entity_scope: str = "unknown",
     ) -> bool:
@@ -568,7 +587,7 @@ class Chatbot:
             past_query = str(past.get("query", "")).strip()
             past_filters = past.get("filters") or {}
             past_rerank_key = Chatbot._rerank_choice_key(
-                past.get("rerank_query_source", "search_query"),
+                past.get("rerank_query_source", "user_query"),
                 past.get("rerank_query", ""),
             )
 
@@ -586,25 +605,13 @@ class Chatbot:
         return False
 
     @staticmethod
-    def _normalize_rerank_choice(arguments: Dict) -> tuple:
-        source = str(arguments.get("rerank_query_source", "search_query") or "").strip().lower()
-        if source == "custom":
-            query = str(arguments.get("rerank_query", "") or "").strip()
-            if query:
-                return source, query
-        if source == "user_query":
-            return source, ""
-        return "search_query", ""
-
-    @staticmethod
     def _rerank_choice_key(source: object, query: object) -> tuple:
-        normalized_source = str(source or "search_query").strip().lower()
+        # Production callers supply the resolved text. A label-only switch
+        # with identical model input is not a new relevance judgement.
         normalized_query = str(query or "").strip()
-        if normalized_source == "custom" and normalized_query:
-            return normalized_source, normalized_query
-        if normalized_source == "user_query":
-            return normalized_source, ""
-        return "search_query", ""
+        if normalized_query:
+            return "effective_query", normalized_query
+        return str(source or "user_query").strip().lower(), ""
 
     @staticmethod
     def _is_duplicate_query(new_query: str, past_queries: List[str]) -> bool:

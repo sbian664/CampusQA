@@ -179,6 +179,7 @@ class RerankScoreCacheTests(unittest.TestCase):
             "query": "term", "top_k": 1,
             "rerank_query_source": "custom",
             "rerank_query": "different rewritten question",
+            "rerank_query_update_reason": "Correct the course identity using newly retrieved evidence.",
         })
         self.assertEqual(len(model.inferred_pairs), 8)
 

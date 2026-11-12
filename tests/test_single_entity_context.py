@@ -82,7 +82,7 @@ def test_single_uses_final_reranked_order_not_original_candidate_order():
     ranked = [ranked[i] for i in (4, 2, 0, 1, 3)]
     for i, item in enumerate(ranked):
         item["rerank_rank"] = i + 1
-    handler = ToolHandler(kb, rerank_enabled=True)
+    handler = ToolHandler(kb, rerank_enabled=True, user_query="Which courses meet the requirements?")
     with patch("src.tools.search_with_optional_rerank", return_value=(ranked, ranked)):
         result = handler.execute("search_knowledge_base", {"query": "course", "top_k": 5, "entity_scope": "single"})
     assert all(f"neighbor-{i}" in result for i in range(3))

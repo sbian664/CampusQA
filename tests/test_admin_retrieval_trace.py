@@ -233,7 +233,7 @@ class RetrievalTraceTests(unittest.TestCase):
 
     def test_search_reranks_bm25_rescue_and_keeps_only_final_top_k(self):
         kb = RerankableSupplementalBM25KnowledgeBase()
-        handler = ToolHandler(kb, rerank_enabled=True, reranker_loader=lambda: RescueAwareReranker())
+        handler = ToolHandler(kb, rerank_enabled=True, user_query="课程注册", reranker_loader=lambda: RescueAwareReranker())
         reranked_hybrid = [{
             "source": "hybrid.md",
             "chunk_index": 0,
@@ -270,7 +270,7 @@ class RetrievalTraceTests(unittest.TestCase):
                     for _, content in pairs
                 ]
 
-        handler = ToolHandler(kb, rerank_enabled=True, reranker_loader=lambda: CapturingReranker())
+        handler = ToolHandler(kb, rerank_enabled=True, user_query="课程注册", reranker_loader=lambda: CapturingReranker())
         hybrid_top = {
             "source": "hybrid.md",
             "chunk_index": 0,

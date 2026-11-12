@@ -13,7 +13,7 @@ ROUTER_SYSTEM_PROMPT = """你是 CampusQA 的对话上下文路由器。
 判断当前问题能否脱离历史独立理解，并在需要时把它改写成独立、完整的检索问题。
 
 规则：
-- standalone：当前问题自身已包含完整实体和意图；不得把历史实体带入。
+- standalone：当前问题自身已包含完整实体和意图；rewritten_query 必须原样返回当前问题，不得把历史实体带入或仅为润色而改写。
 - follow_up：当前问题包含指代、省略、纠正或承接，必须利用历史才能完整理解。
 - 只使用历史消除歧义，不得添加历史和当前问题都没有的信息。
 - 保留课程代码、人名、地点、时间和限定条件。
@@ -100,7 +100,7 @@ class ContextRouter:
                 raise ValueError("路由模型返回了无效决策")
             return ContextRoute(
                 route=route,
-                rewritten_query=rewritten_query,
+                rewritten_query=current_query if route == "standalone" else rewritten_query,
                 selected_history=fallback_history if route == "follow_up" else [],
                 reason=reason,
             )

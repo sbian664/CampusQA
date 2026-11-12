@@ -50,7 +50,7 @@ SEARCH_KB_TOOL = {
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "检索查询词。建议提取用户问题的核心概念，而非完整句子。",
+                    "description": "仅用于召回的关键词，可换同义词、语言或拆分子查询；不要因此改变整轮重排问题。",
                 },
                 "top_k": {
                     "type": "integer",
@@ -66,17 +66,28 @@ SEARCH_KB_TOOL = {
                 },
                 "rerank_query_source": {
                     "type": "string",
-                    "enum": ["search_query", "user_query", "custom"],
-                    "default": "search_query",
+                    "enum": ["user_query", "custom"],
                     "description": (
-                        "可选的重排查询来源。search_query 使用当前检索词；"
-                        "user_query 使用当前轮用户问题；custom 使用 rerank_query。"
-                        "问题独立完整时可选 user_query；追问或子问题优先使用 search_query。"
+                        "首次：独立、完整且无歧义的问题使用 user_query；追问、指代、省略或模糊问题"
+                        "使用 custom，将历史中已明确的信息补成完整问题。"
+                        "后续省略此字段即沿用本轮已确定的重排问题，不随召回词变化；"
+                        "仅纠正方向错误或补充重要约束时修订，并填写 rerank_query_update_reason。"
                     ),
                 },
                 "rerank_query": {
                     "type": "string",
-                    "description": "当 rerank_query_source=custom 时使用的重排问题；否则忽略。",
+                    "description": (
+                        "custom 的完整独立问题，保留整轮用户问题的实体、意图、关系和限定条件，"
+                        "不得臆造消歧信息或缩成当前检索关键词。首次 custom 必填；"
+                        "后续可省略以复用已有 custom，不要仅为换词、翻译或扩大 top_k 而重写。"
+                    ),
+                },
+                "rerank_query_update_reason": {
+                    "type": "string",
+                    "description": (
+                        "改变本轮已有重排问题时必填：说明检索发现的方向错误，或有依据的重要补充；"
+                        "首次确定问题或复用原文不需要。不是为同义改写或扩大召回范围提供理由。"
+                    ),
                 },
                 "filters": {
                     "type": "object",
@@ -302,7 +313,7 @@ class ToolHandler:
     def __init__(self, knowledge_base, rerank_enabled=False,
                  reranker_loader=get_reranker_model, turn_id=None,
                  user_query: Optional[str] = None, bm25_weight=None,
-                 on_rerank=None):
+                 on_rerank=None, initial_rerank_query: Optional[str] = None):
         """
         Args:
             knowledge_base: KnowledgeBase 实例
@@ -314,6 +325,11 @@ class ToolHandler:
         self.reranker_loader = reranker_loader
         self.turn_id = turn_id
         self.user_query = str(user_query or "").strip()
+        # One handler per user turn. A context-router rewrite is already a
+        # resolved question, not the user's original wording.
+        initial = str(initial_rerank_query or "").strip()
+        self._active_rerank_query = (initial, "custom") if initial else None
+        self._rerank_query_revision = 1 if initial else 0
         self.call_log: List[Dict] = []  # 工具调用日志
         self._pending_trace: Dict = {}
 
@@ -330,6 +346,7 @@ class ToolHandler:
             格式化的工具执行结果文本
         """
         start_time = time.time()
+        self._pending_trace = {}
 
         try:
             if tool_name == "search_knowledge_base":
@@ -376,7 +393,13 @@ class ToolHandler:
         # 放宽上限：LLM 自主增大 top_k 时有足够空间
         top_k = max(1, min(int(top_k), AGENT_SEARCH_TOP_K_MAX))
 
-        rerank_query, rerank_query_source = self._resolve_rerank_query(args, query)
+        rerank_query, rerank_query_source = self._resolve_rerank_query(args)
+        previous = self._active_rerank_query
+        changed = previous is None or previous[0] != rerank_query
+        if rerank_query:
+            if changed:
+                self._rerank_query_revision += 1
+            self._active_rerank_query = (rerank_query, rerank_query_source)
 
         filters = args.get("filters")
         # 规范化 filters：只保留已知字段
@@ -393,6 +416,11 @@ class ToolHandler:
             "retrieval_query": query,
             "rerank_query": rerank_query,
             "rerank_query_source": rerank_query_source,
+            "rerank_query_revision": self._rerank_query_revision,
+            "rerank_query_update_reason": (
+                str(args.get("rerank_query_update_reason") or "").strip()
+                if changed and previous is not None else ""
+            ),
             "filters": filters or {},
             "top_k": top_k,
             "engine": "hybrid" if HYBRID_SEARCH_ENABLED and hasattr(self.kb, "hybrid_search") else "vector",
@@ -474,10 +502,10 @@ class ToolHandler:
                 rerank_candidates.append(rescued)
 
             # Reuse all initial CrossEncoder scores; only previously unseen
-            # BM25 rescue documents need inference. Normalize identically to
-            # search_with_optional_rerank's initial pass.
+            # BM25 rescue documents need inference. Both passes consume the
+            # same resolved, turn-scoped question.
             reranked_with_rescue = rerank_precomputed_results(
-                str(rerank_query or "").strip() or query,
+                rerank_query,
                 rerank_candidates,
                 top_k=top_k,
                 enabled=True,
@@ -571,16 +599,47 @@ class ToolHandler:
 
         return output
 
-    def _resolve_rerank_query(self, args: Dict, retrieval_query: str):
-        """Resolve a safe rerank query without adding another model call."""
-        source = str(args.get("rerank_query_source", "search_query")).strip().lower()
-        if source == "user_query" and self.user_query:
-            return self.user_query, source
+    def _resolve_rerank_query(self, args: Dict) -> tuple[str, str]:
+        """Preview the effective question without mutating per-turn state.
+
+        The Agent duplicate guard and tool execution use this same resolver.
+        Retrieval keywords are deliberately not a fallback for missing intent.
+        """
+        def text_field(name):
+            value = args.get(name)
+            if value is None:
+                return ""
+            if not isinstance(value, str):
+                raise ValueError(f"{name} 必须是字符串")
+            return value.strip()
+
+        source = text_field("rerank_query_source").lower()
+        custom = text_field("rerank_query")
+        reason = text_field("rerank_query_update_reason")
+        active = self._active_rerank_query
+        if source not in {"", "user_query", "custom"}:
+            raise ValueError(
+                "rerank_query_source 仅支持 user_query/custom；"
+                "召回词不能代替完整问题，后续省略字段即可沿用本轮问题"
+            )
+        if not source:
+            source = "custom" if custom else (active[1] if active else "user_query")
         if source == "custom":
-            custom_query = str(args.get("rerank_query", "")).strip()
-            if custom_query:
-                return custom_query, source
-        return retrieval_query, "search_query"
+            if not custom and active and active[1] == "custom":
+                custom = active[0]
+            if not custom:
+                raise ValueError("首次 custom 必须提供完整、已消歧的 rerank_query")
+            effective = custom
+        else:
+            effective = self.user_query
+            if not effective and self.rerank_enabled:
+                raise ValueError("缺少用户问题；请提供 custom 和完整 rerank_query，不能退回召回词")
+        if active and active[0] != effective and not reason:
+            raise ValueError(
+                "修改已有重排问题须提供 rerank_query_update_reason，"
+                "说明方向纠正或重要补充；仅换召回词时请沿用原问题"
+            )
+        return effective, source
 
     @staticmethod
     def _trace_exact_matches(result: Dict) -> List[Dict]:
