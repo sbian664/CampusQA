@@ -129,6 +129,7 @@ RERANKER_AUTO_DOWNLOAD = os.getenv("RERANKER_AUTO_DOWNLOAD", "true").lower() in 
 )
 RERANKER_CANDIDATE_K = int(os.getenv("RERANKER_CANDIDATE_K", "30"))
 RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "16"))
+RERANKER_SCORE_CACHE_SIZE = int(os.getenv("RERANKER_SCORE_CACHE_SIZE", "4096"))
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "512"))
 
 # 上下文检索增强 — 嵌入前为分块添加文档/章节前缀

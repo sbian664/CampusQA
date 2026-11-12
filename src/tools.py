@@ -473,8 +473,11 @@ class ToolHandler:
                 rescued["_bm25_rescued"] = True
                 rerank_candidates.append(rescued)
 
+            # Reuse all initial CrossEncoder scores; only previously unseen
+            # BM25 rescue documents need inference. Normalize identically to
+            # search_with_optional_rerank's initial pass.
             reranked_with_rescue = rerank_precomputed_results(
-                rerank_query,
+                str(rerank_query or "").strip() or query,
                 rerank_candidates,
                 top_k=top_k,
                 enabled=True,
