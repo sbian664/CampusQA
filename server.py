@@ -70,6 +70,7 @@ from src.admin.jobs import AdminJobManager
 from src.admin.documents import AdminDocumentService
 from src.admin.config import AdminConfigService
 from src.reranker import search_with_optional_rerank
+from src.startup_warmup import prepare_reranker_startup
 from src.submissions import SubmissionService
 from src.submission_routes import create_submission_router
 from src.chat_runs import ChatRunManager, RunCapacityError, RunConflict, RunNotFound
@@ -96,6 +97,9 @@ async def _lifespan(app: FastAPI):
         print('知识库处于维护状态；保留现有索引并等待管理员修复重建')
     get_chatbot()
     print("✓ Chatbot 已就绪")
+    # Await serial model loading/warmup before lifespan yields and traffic starts.
+    # Indexing is finished; no parallel FP32 + INT8 loads or background prewarm.
+    app.state.reranker_startup = await asyncio.to_thread(prepare_reranker_startup)
     print("=" * 50)
     print("🚀 CampusQA API 已就绪")
     print(f"   模式: {'Agent 自主检索' if AGENT_MODE_ENABLED else '一步式 RAG'}")

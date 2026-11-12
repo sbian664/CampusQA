@@ -132,3 +132,41 @@ RERANKER_AUTO_DOWNLOAD=false
 2026-11-12 的本地实测结果见 [RERANKER_PERFORMANCE_RESULTS.md](RERANKER_PERFORMANCE_RESULTS.md)。
 Linux x86_64 / Python 3.13 的 ONNX、ORT 二进制 wheel 已做安装解析检查（manylinux_2_28）；完整 Linux 镜像仍需构建和验收。旧于 glibc 2.28 的裸机环境不适用这组固定版本，应使用仓库的 Debian bookworm 容器或另行验证依赖。
 `model_load_ms` 是实际初始化耗时；`model_wait_ms` 单列等待另一个请求加载模型的耗时，避免冷启动等待被误判为模型前向计算。
+
+## 6. 避免把模型冷启动留给用户首问
+
+重排模型原本是进程内单例：首次懒加载后一直常驻，不是每次问答都重新加载。`lazy` 仅推迟初始化，不减少加载之后 embedding、索引与重排模型同时驻留的内存。L6 已能运行，是可以考虑预加载的理由，但不是生产并发下的内存容量证明。
+
+现在提供显式选项（默认保持旧行为）：
+
+```dotenv
+RERANKER_STARTUP_MODE=warmup
+RERANKER_AUTO_DOWNLOAD=false
+RERANKER_DEVICE=cpu
+```
+
+服务启动按以下顺序执行并等待完成：
+
+```text
+embedding + 已有索引加载 → 启动索引更新结束 → Chatbot 初始化
+→ 清理不可达的 Python 临时对象 → 校验预置本地模型
+→ 加载当前配置的唯一重排后端 → 1 个短 query/document pair 预热
+→ ASGI lifespan yield，开始接收请求
+```
+
+不额外调用 LLM，不下载/导出模型，不同时加载 FP32 和 INT8，不为预热另起模型进程，不把合成预热 pair 填入分数缓存。模型沿用现有单例并继续常驻。`RERANKER_AVAILABLE=false` 时跳过。模型缺失、加载失败或预测无效会阻止启动就绪，不静默退回 lazy 后把失败交给用户首问。恢复 `RERANKER_STARTUP_MODE=lazy` 并重启即可回到原行为。
+
+启动日志 `reranker_startup_begin/end` 分开记录加载与预热时间，及进程当前 RSS/历史峰值 RSS（Linux 从 `/proc/self/status` 读取；不支持的平台字段可为空）。日志不公开模型路径、用户数据或凭据。这个读数不等于容器/主机总内存，也不是能提前阻止内核 OOM 的准入控制。
+
+### 2GB 的实际验收边界
+
+- 必须能容纳 **embedding 常驻 + 索引/缓存 + reranker 常驻 + 请求临时张量 + 其他进程/系统开销**。仅把重排权重变小，不能推出完整服务占用同步缩小。
+- 先让索引更新完成，再加载重排，可以避免一部分瞬时峰值重叠；串行加载仍不能解决总常驻容量超限。`gc.collect()` 只清理不可达 Python 对象，不承诺归还原生内存。
+- 动态量化在开发/构建机完成，服务只加载选定图。不要在 2GB 服务器启动时先加载 FP32 再转换成 INT8。
+- batch=1 的短输入预热旨在初始化通用执行路径，**不证明 30 candidates / batch=16 / 512 tokens 的长输入安全，也不会预先缓存未来真实问题**。不同 batch/sequence shape 的首次分配仍可能产生额外延迟。
+- 在目标环境记录启动、第一条真实长输入、连续请求和并发请求的容器总内存/峰值、系统 MemAvailable、swap、OOM 计数。给系统和请求峰值保留余量；不能仅看到启动成功便视为验收。
+- 如真实请求峰值紧张，优先试 batch 8 或 4、单 worker/单次推理；这不删除候选，但吞吐与延迟需重新实测。必要时阻止索引重建与服务峰值并行。不要以频繁卸载模型或依赖 swap 换取表面“启动成功”。
+
+预热把初始化移动到发布启动阶段；它不会消除每个全新 query/document pair 的前向计算。如果已有 15/21 秒是模型热、分数缓存冷的 P50/P95，不能把这次改动当成这部分时间的解决方案。
+
+本次机制验证：原测试环境和独立 ONNX 环境各通过 378 tests、19 subtests（新增 13 项启动测试）。另在 Mac 上分别以已有 L12 PyTorch FP32、L12 ONNX O2 INT8 实际调用启动预热，再执行新 query/document 推理，确认复用同一模型实例且后续 `model_load_ms=0`；预热没有写入分数缓存。这不是 ECS/L6 的容量测试，也没有同时启动完整知识库来推断 2GB 是否够用。

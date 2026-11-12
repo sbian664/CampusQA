@@ -130,6 +130,8 @@ RERANKER_AUTO_DOWNLOAD = os.getenv("RERANKER_AUTO_DOWNLOAD", "true").lower() in 
 RERANKER_CANDIDATE_K = int(os.getenv("RERANKER_CANDIDATE_K", "30"))
 RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "16"))
 RERANKER_SCORE_CACHE_SIZE = int(os.getenv("RERANKER_SCORE_CACHE_SIZE", "4096"))
+# Opt in after checking the full-service memory budget; never download at startup.
+RERANKER_STARTUP_MODE = os.getenv("RERANKER_STARTUP_MODE", "lazy").strip().lower()
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "512"))
 
 # CPU settings are process-wide (embedding and reranker share PyTorch).
