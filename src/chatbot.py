@@ -478,12 +478,7 @@ class Chatbot:
 
         # ── 达到 LLM 轮次上限 ──
         final = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
-        result = self._build_result(final, handler, state, "max_rounds")
-        limit_note = "\n\n[已达到检索轮次上限，以上回答基于现有检索结果]"
-        if on_delta:
-            on_delta(limit_note)
-        result.content += limit_note
-        return result
+        return self._build_result(final, handler, state, "max_rounds")
 
     # ═══════════════════════════════════════════════════════════
     #  Agent Loop 辅助方法

@@ -69,3 +69,23 @@ def test_budget_never_drops_persisted_messages(tmp_path):
         restored = Session(session.session_id)
         restored.load()
         assert len(restored.messages) == 6
+
+
+@pytest.mark.parametrize('suffix', ['', '\n\n[已达到检索轮次上限，以上回答基于现有检索结果]'])
+def test_restored_history_excludes_retrieval_debug_text(tmp_path, suffix):
+    with patch('src.session.CACHE_DIR', str(tmp_path)):
+        session = Session('retrieval-history')
+        search = {'tool_name': 'search_knowledge_base', 'arguments': {'query': '课程学分'}}
+        session.add_message('user', '这门课有几个学分？')
+        session.add_message('assistant', '这门课有三个学分。' + suffix, tool_calls=[search])
+        session.append_tool_call_log([search])
+        session.save()
+
+        restored = Session(session.session_id)
+        assert restored.load()
+        assert restored.get_history(strip_tool_details=True) == [
+            {'role': 'user', 'content': '这门课有几个学分？'},
+            {'role': 'assistant', 'content': '这门课有三个学分。'},
+        ]
+        assert restored.get_history()[-1]['content'] == '这门课有三个学分。' + suffix
+        assert restored.get_tool_call_log() == [search]

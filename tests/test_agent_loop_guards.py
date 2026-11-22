@@ -27,6 +27,10 @@ class InvalidToolClient:
             )
         return LLMResponse(content="意外继续", finish_reason="stop")
 
+    def stream_message(self, messages, on_delta, cancel_event, **kwargs):
+        self.total_calls += 1
+        on_delta("最终回答")
+
 
 class AgentLoopGuardTests(unittest.TestCase):
     def test_same_query_can_escalate_when_top_k_increases(self):
@@ -88,6 +92,23 @@ class AgentLoopGuardTests(unittest.TestCase):
         self.assertEqual(result.finish_reason, "max_rounds")
         self.assertEqual(client.tool_enabled_calls, 2)
         self.assertEqual(client.total_calls, 3)
+        self.assertEqual(result.content, "最终回答")
+
+    def test_round_limit_streams_only_the_answer(self):
+        original_limit = chatbot_module.AGENT_MAX_LLM_ROUNDS
+        chatbot_module.AGENT_MAX_LLM_ROUNDS = 1
+        chatbot = Chatbot.__new__(Chatbot)
+        chatbot.client = InvalidToolClient()
+        chatbot.kb = object()
+        deltas = []
+
+        try:
+            result = chatbot.agent_chat("查询测试", [], rerank_enabled=False, on_delta=deltas.append)
+        finally:
+            chatbot_module.AGENT_MAX_LLM_ROUNDS = original_limit
+
+        self.assertEqual("".join(deltas), "最终回答")
+        self.assertEqual(result.content, "最终回答")
 
 
 if __name__ == "__main__":

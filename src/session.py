@@ -14,6 +14,9 @@ from typing import List, Dict, Optional
 from config import CACHE_DIR
 
 
+_LEGACY_RETRIEVAL_LIMIT_SUFFIX = "\n\n[已达到检索轮次上限，以上回答基于现有检索结果]"
+
+
 class SessionConflict(RuntimeError):
     pass
 
@@ -82,49 +85,6 @@ class Session:
             path.unlink()
             return True
 
-    @staticmethod
-    def _extract_tool_name(tool_call: Dict) -> str:
-        return (
-            tool_call.get("tool_name")
-            or tool_call.get("function", {}).get("name")
-            or ""
-        ).strip()
-
-    @staticmethod
-    def _extract_tool_arguments(tool_call: Dict) -> Dict:
-        arguments = tool_call.get("arguments")
-        if arguments is None:
-            arguments = tool_call.get("function", {}).get("arguments")
-        if isinstance(arguments, str):
-            try:
-                parsed = json.loads(arguments)
-            except json.JSONDecodeError:
-                return {}
-            return parsed if isinstance(parsed, dict) else {}
-        return arguments if isinstance(arguments, dict) else {}
-
-    @classmethod
-    def _summarize_tool_calls(cls, tool_calls: List[Dict]) -> str:
-        search_queries = []
-        tool_names = []
-
-        for tool_call in tool_calls:
-            name = cls._extract_tool_name(tool_call)
-            args = cls._extract_tool_arguments(tool_call)
-            query = str(args.get("query", "")).strip()
-
-            if name == "search_knowledge_base" and query:
-                if query not in search_queries:
-                    search_queries.append(query)
-            elif name and name not in tool_names:
-                tool_names.append(name)
-
-        if search_queries:
-            return f"检索关键词: {', '.join(search_queries)}"
-        if tool_names:
-            return f"调用了工具: {', '.join(tool_names)}"
-        return ""
-    
     def __init__(self, session_id: str = None, max_history: int = 20):
         """
         初始化会话
@@ -214,14 +174,11 @@ class Session:
                 if msg["role"] == "tool":
                     continue  # 跳过工具结果消息
                 entry = {"role": msg["role"]}
-                # 保留 content，若有 tool_calls 则只保留函数名摘要
                 if "content" in msg:
-                    entry["content"] = msg["content"]
-                if "tool_calls" in msg:
-                    # 简化为摘要
-                    summary = self._summarize_tool_calls(msg["tool_calls"])
-                    if summary:
-                        entry["content"] = (entry.get("content", "") or "") + f" [{summary}]"
+                    content = msg["content"]
+                    if msg["role"] == "assistant" and isinstance(content, str):
+                        content = content.removesuffix(_LEGACY_RETRIEVAL_LIMIT_SUFFIX)
+                    entry["content"] = content
                 result.append(entry)
             return result
 
