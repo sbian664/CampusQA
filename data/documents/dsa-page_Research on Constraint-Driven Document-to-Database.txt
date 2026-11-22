@@ -1,0 +1,42 @@
+dsa_page: Research on Constraint-Driven Document-to-Database Construction – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/research-on-constraint-drivendocument-to-database-construction/
+source: DSA
+
+headings:
+  - Research on Constraint-Driven Document-to-Database Construction
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Research on Constraint-Driven Document-to-Database Construction
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Zhengxuan
+  Abstract
+  In the era of comprehensive digitalization, relational databases serve as the foundational architecture for critical decision-making due to their strong consistency and rigorous transactional logic. However, over 80% of high-value information remains locked within unstructured or semi-structured documents. Traditional Large Language Model (LLM) based one-shot extraction methods focus inherently on local text spans, lacking global semantic awareness. This fundamental limitation leads to severe entity disambiguation failures, broken foreign key dependencies, and uncontrollable hallucinations, ultimately collapsing the logical foundation of the underlying data.
+  To bridge the gap between unstructured documents and relational databases, this research proposes a paradigm shift from simple “Information Extraction" to a rigorously formalized DataMosaic framework. This framework addresses the semantic validity challenge in system-level database construction by introducing a globally aware, extract-verify-iterate loop. The core mechanism encompasses semantic extraction anchored by data provenance, constraint-guided verification, and automated, cost-based repair. Furthermore, this research outlines an advanced roadmap for future technical innovations. Key explorations include integrating Small Language Models (SLMs) and DAG-based adaptive orchestration to reduce computational overhead, constructing domain-specific knowledge bases and multi-hop hallucination benchmarks, and employing visual-text cross-modal extraction to overcome complex document layouts. The proposed DataMosaic framework effectively overcomes the current bottlenecks of
+  LLMs in database construction, ensuring structural completeness and constraint adherence, thereby providing a robust logical foundation for downstream analysis.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. TANG, Nan
+  Co-Supervisor: Prof. LUO, Yuyu
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-149, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

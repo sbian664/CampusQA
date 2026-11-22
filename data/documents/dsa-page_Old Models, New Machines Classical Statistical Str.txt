@@ -1,0 +1,32 @@
+dsa_page: Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/27/old-models-new-machines-classical-statistical-structure-as-building-blocks-for-modern-llm-systems-from-copula-coupled-expert-routing-to-scalable-determinantal-data-selection/
+source: DSA
+
+headings:
+  - Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  - Abstract
+  - About the speaker
+  - Date
+  - Time
+  - Join Link
+
+text: >
+  DSA Seminar
+  Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  Share to
+  Abstract
+  The past few years have seen large language models achieve genuinely remarkable things, driven by a combination of scale, clever architecture, and an enormous amount of engineering. Yet comparatively less of the classical statistical machinery that once defined principled modelling has made its way into how these systems are built and understood. In this talk I argue that classical models, such as copulas, mixed-membership blockmodels, and determinantal point processes, are not relics but precisely the tools that can supply the mathematical structure modern LLM systems currently insufficient of. Rather than competing with the empirical strengths of large models, they complement them: they let us reason about why a system behaves as it does, impose useful structure by design, and turn choices that are often made heuristically into ones we can analyse. I sketch some exploratory research directions around this direction, and illustrate them with two examples: one at the level of the architecture, one at the level of the data.
+  Concretely, the first example uses a copula to couple how a Mixture-of-Experts model routes related tokens, injecting useful dependence while provably preserving each token's marginal routing behaviour, and therefore expert load balancing, for free. This potentially lets us shape the joint routing of tokens that ought to be handled together, without disturbing the carefully tuned per-token behaviour that keeps the model stable and efficient. The second recasts diverse training-data selection, classically a determinantal point process, as a spectral problem that scales near-linearly to millions of candidates, bringing a principled notion of diversity to a setting where selection is usually done by heuristic filtering or simple deduplication.
+  About the speaker
+  Richard Yi Da Xu is currently a Professor in the Department of Mathematics at Hong Kong Baptist University (HKBU). He has twenty years of research experience in Machine Learning and Artificial Intelligence. His current research pursuits encompass Bayesian Nonparametrics and Learning Theory. Beyond academia, Richard is also an entrepreneur, having founded an AI startup based at the Hong Kong Science and Technology Parks (HKSTP).
+  A prolific contributor to the scientific community, Richard's work has been found at leading machine learning journals such as JMLR, TMLR, JML, international conferences such as ICLR, AAAI, IJCAI, ECAI, ECCV, ACL, AI-STATS, and ICDM. He has also made significant contributions to prominent IEEE Transactions, including IEEE TNNLS, TIP, TSP, TKDE, MC, and T-Cybernetics. Since 2009, he has developed over 2,000 slides of machine learning doctoral training materials and videos, freely available online, to foster learning in the field.
+  During his long academic appoints in Australia, Richard's collaborative efforts spanned a diverse range of industries including finance, e-commerce, government, transportation, utilities, agriculture, communications, and the legal sector. He founded the Deep Learning Sydney meetup, growing it to a community of more than 4,800 members, making it one of the largest AI meetups in Australia. His expertise also extended to the international stage, where he represented Australia at the plenary of ISO JTC1 SC42, Artificial Intelligence.
+  Date
+  30 July 2026
+  Time
+  14:30:00 -
+  15:15:00
+  Join Link
+  Zoom Meeting ID: 635 003 6325
+  Tencent Meeting ID:
+  dsat

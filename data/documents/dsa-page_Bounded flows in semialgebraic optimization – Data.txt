@@ -1,0 +1,43 @@
+dsa_page: Bounded flows in semialgebraic optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/12/04/bounded-flows-in-semialgebraic-optimization/
+source: DSA
+
+headings:
+  - Bounded flows in semialgebraic optimization
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Bounded flows in semialgebraic optimization
+  Share to
+  ABSTRACT
+  Classical optimization theory often fails to explain the success of simple algorithms in data science and artificial intelligence due to its heavy reliance on assumptions (e.g., convexity, smoothness and coercivity) that are rarely satisfied or difficult to verify in practice. We seek to establish a new framework that can relax those assumptions or replace them with easily checkable ones, through innovative applications of tools from dynamical systems, semialgebraic geometry, and variational analysis. One of our main findings is that a broad class of optimization problems have bounded gradient flows, which is invaluable for landscape analysis, gradient dynamics, and first-order methods. In this talk, I will discuss both theoretical implications and computational advantages of this line of research, using examples and problems in data science and artificial intelligence such as matrix sensing and neural networks.
+  SPEAKER BIO
+  Xiaopeng LI
+  Columbia University
+  Xiaopeng Li is currently a fifth-year PhD candidate in the Department of Industrial Engineering and Operations Research at Columbia University, under the supervision of Prof. Cedric Josz. His research focuses on solving nonconvex nonsmooth optimization problems with first-order methods and their applications to data science. His work explores the intersection of variational analysis, dynamical systems and real algebraic geometry. Xiaopeng received his Bachelor’s degree in Mathematics in 2020 from the Chinese University of Hong Kong, Shenzhen.
+  Date
+  09 December 2024
+  Time
+  10:30:00 -
+  11:30:00
+  Location
+  E3-2F-201, Guangzhou Campus & Online
+  Join Link
+  Zoom Meeting ID:
+  989 6218 5809
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/eOC09jalnLmYreexJ0lwaA

@@ -1,0 +1,48 @@
+dsa_page: Efficient and Adaptive Gradient Boosted Decision Trees: System and Algorithm Co-design – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/16/efficient-and-adaptive-gradient-boosted-decision-trees-system-and-algorithm-co-design/
+source: DSA
+
+headings:
+  - Efficient and Adaptive Gradient Boosted Decision Trees: System and Algorithm Co-design
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Efficient and Adaptive Gradient Boosted Decision Trees: System and Algorithm Co-design
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Hanfeng LIU
+  ABSTRACT
+  Gradient Boosted Decision Trees (GBDTs) remain a central model family for tabular learning because they combine robust tree-based partitioning with additive functional optimization. Modern systems such as XGBoost, LightGBM, CatBoost, and GPU-based trainers have made GBDTs scalable and widely usable. Nevertheless, the standard training pipeline still reflects several restrictive assumptions: split search is usually designed around scalar-output statistics, fitted ensembles are often used only through their final scores, and split decisions optimize immediate gain.
+  This thesis studies how GBDTs can be made more efficient and adaptive through system and algorithm co-design. It develops three connected works. First, it presents a GPU-accelerated GBDT-MO system for multi-output learning, where vector-valued gradient and Hessian statistics require new histogram construction, memory layout, and multi-GPU aggregation strategies. Second, it presents GeoGBM, a residual geometry learning method for frozen GBDT teachers, where leaf paths, tree-level margins, disagreement, confidence, and support signals are used by a cross-fitted residual editor to improve reported test accuracy, AUC, and probability quality, with the most stable evidence in BCE. Third, it presents RLGBM, an accuracy-driven residual-intent policy that selects real split candidates during boosting; under the fixed
+  𝑇
+  = 10 main protocol across ten binary tabular datasets, the learned split policy improves test accuracy over controlled greedy and non-greedy baselines while identifying limitations from proxy mismatch, validation-based selection, and comparisons with mature library implementations.
+  Together, these studies show that improving GBDTs is not only a matter of faster kernels or larger benchmarks. The learning objective, split-search backend, tree representation, post-hoc prediction interface, decision policy, and execution strategy interact directly. By studying multi-output GPU training, residual-geometry editing of fitted ensembles, and learned split selection, this thesis argues that future GBDT systems should make these interfaces explicit and co-design them while preserving the practical strengths that make tree boosting effective for tabular data.
+  TEC
+  Chairperson: Prof Hai-Ning LIANG
+  Prime Supervisor: Prof Zeyi WEN
+  Co-Supervisor: Prof Qiong LUO
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Lei ZHU
+  Prof Zhidan LIU
+  Prof Shaohuai SHI
+  Date
+  02 July 2026
+  Time
+  15:30:00 -
+  17:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

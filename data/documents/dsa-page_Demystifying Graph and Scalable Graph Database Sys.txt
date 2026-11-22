@@ -1,0 +1,40 @@
+dsa_page: Demystifying Graph and Scalable Graph Database System: The TigerGraph Perspective – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/11/01/demystifying-graph-and-scalable-graph-database-system-the-tigergraph-perspective/
+source: DSA
+
+headings:
+  - Demystifying Graph and Scalable Graph Database System: The TigerGraph Perspective
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Demystifying Graph and Scalable Graph Database System: The TigerGraph Perspective
+  Share to
+  ABSTRACT
+  Gartner predicts that data and analytics innovations fueled by graph technology will increase 7x by 2025, and 30% of organizations worldwide will use graph databases technologies in the decision-making process by 2023. However, even though graph database technologies have been around for 15+ years, it has mostly been in the past till now as a niche play, limited to advanced R&D and early exploration on small datasets.
+  In this talk, I will share how a state-of-art scalable graph database like TigerGraph is crossing the chasm and becoming the next generation big data technology that enterprises can rely on for mission critical advanced analytics and graph machine learning use cases. I will cover latest progress in graph data model, graph query language, advanced graph analytics and graph machine learning and graph database benchmarking, as well as highly scalable MPP graph database architecture using TigerGraph as the example. In particular, I will dive deeper into how TigerGraph cracked the 36TB LDBC benchmark on a big graph consisting of 75B+ nodes and 500B+ edges.
+  SPEAKER BIO
+  Jay YU
+  VP Product and Innovation
+  TigerGraph
+  Dr. Jay Yu is the VP Product and Innovation at TigerGraph, the world’s most scalable native parallel graph database company. He is a hands-on full-stack innovator, strategic thinker, leader and evangelist for new technology and product, with 25+ years of experience covering a wide range of technology areas. Prior to TigerGraph, he was Distinguished Architect and Director at Intuit to drive enterprise data architecture and strategy, including graph technology adoption. He also worked as a Lead Developer on Teradata parallel object-relational DBMS engine, based on technologies he worked on and got acquired from UW-Madison’s Paradise project. He got a Ph.D. from University of Wisconsin - Madison's database systems research group and holds 29 granted patents.
+  Date
+  02 November 2022
+  Time
+  10:30:00 -
+  10:20:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  925 2974 8728
+  Passcode: 212004
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

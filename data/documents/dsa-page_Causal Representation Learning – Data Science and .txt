@@ -1,0 +1,38 @@
+dsa_page: Causal Representation Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/24/causal-representation-learning/
+source: DSA
+
+headings:
+  - Causal Representation Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Causal Representation Learning
+  Share to
+  ABSTRACT
+  Causal Representation Learning plays an important role in artificial intelligence. It help the machine learning models to understand the underling physical rules in the world from the high dimensional observational data. In this talk, we will introduce the basic understanding, the current challenges of causal representation learning. Then we will introduce the method, theoretical guarantee and applications about causal representation learning on 1) how to understanding the world? 2) how to apply it to the downstream tasks. Finally, we will introduce the potential future direction.
+  SPEAKER BIO
+  Mengyue YANG
+  University College London
+  Mengyue Yang is a doctoral student from University College London, supervised by Professor Jun Wang. Her research interests lie in causal inference and reinforcement learning. She has published multiple papers as the first author in top-tier conferences and journals in the field of machine learning. For more information, you can visit her personal webpage at https://ymy4323460.github.io/.
+  Date
+  25 March 2024
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  859 7773 5763
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

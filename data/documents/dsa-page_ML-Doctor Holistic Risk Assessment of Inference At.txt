@@ -1,0 +1,36 @@
+dsa_page: ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/ml-doctor-holistic-risk-assessment-of-inference-attacks-against-machine-learning-models/
+source: DSA
+
+headings:
+  - ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+  Abstract
+  Inference attacks against Machine Learning (ML) models allow adversaries to learn sensitive information about training data, model parameters, etc. While researchers have studied, in depth, several kinds of attacks, they have done so in isolation. As a result, we lack a comprehensive picture of the risks caused by the attacks, e.g., the different scenarios they can be applied to, the common factors that influence their performance, the relationship among them, or the effectiveness of possible defenses. In this paper, we fill this gap by presenting a first-of-its-kind holistic risk assessment of different inference attacks against machine learning models. We concentrate on four attacks -- namely, membership inference, model inversion, attribute inference, and model stealing -- and establish a threat model taxonomy.
+  Our extensive experimental evaluation, run on five model architectures and four image datasets, shows that the complexity of the training dataset plays an important role with respect to the attack's performance, while the effectiveness of model stealing and membership inference attacks are negatively correlated. We also show that defenses like DP-SGD and Knowledge Distillation can only mitigate some of the inference attacks. Our analysis relies on a modular re-usable software, ML-Doctor, which enables ML model owners to assess the risks of deploying their models, and equally serves as a benchmark tool for researchers and practitioners.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+  . Yugeng Liu, Rui Wen, Xinlei He, Ahmed Salem, Zhikun Zhang, Michael Backes, Emiliano De Cristofaro, Mario Fritz, and Yang Zhang.
+  Project Period
+  2021
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Benchmark, Inference Attack
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models | https://www.usenix.org/system/files/sec22summer_liu-yugeng.pdf

@@ -1,0 +1,41 @@
+dsa_page: Heterogeneity-Aware Automatic Parallelization and Scheduling for Large-Model Training: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/26/heterogeneity-aware-automatic-parallelization-and-scheduling-for-large-model-training-a-survey/
+source: DSA
+
+headings:
+  - Heterogeneity-Aware Automatic Parallelization and Scheduling for Large-Model Training: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Heterogeneity-Aware Automatic Parallelization and Scheduling for Large-Model Training: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. YIN, Yiming
+  Abstract
+  Large-model training is increasingly shaped by heterogeneity in model structure, data, and hardware resources. Classical distributed training systems and automatic parallelization methods often assume regular Transformer graphs, stable input shapes, and homogeneous GPU clusters. These assumptions become fragile for modular multimodal models, post-training workflows, variable-shaped data, rollout imbalance, and heterogeneous or geo-distributed clusters.
+  This survey reviews heterogeneity-aware automatic parallelization and scheduling for large-model training. It organizes recent systems along three axes: execution-graph heterogeneity, data heterogeneity, and hardware or cluster heterogeneity. Across these settings, efficient training requires joint reasoning about partitioning, placement, scheduling, data orchestration, communication, and cost modeling. The survey concludes by discussing open problems in joint planning and dynamic cost modeling.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. TANG, Jing
+  Examiner: Prof. WEN, Zeyi
+  Date
+  02 July 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

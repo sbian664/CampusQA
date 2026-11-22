@@ -1,0 +1,60 @@
+dsa_page: Diffusion Policies for Offline Reinforcement Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/diffusion-policies-for-offline-reinforcement-learning-2/
+source: DSA
+
+headings:
+  - Diffusion Policies for Offline Reinforcement Learning
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Diffusion Policies for Offline Reinforcement Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Linjiajie FANG
+  ABSTRACT
+  Reinforcement learning (RL) requires collecting data through interaction with the environment. However, online interaction with real-world systems—such as robot manipulation, autonomous driving, and medical treatment—is slow, expensive, or even impossible. A branch of RL, called offline reinforcement learning, promises to apply RL to real-world applications by learning from prior data, such as human demonstrations. However, learning entirely from offline data introduces new challenges: the prior data, such as human demonstration, are often suboptimal and cover only a small fraction of the state
+  −
+  action space. Learning policies that outperform the behavior policy requires evaluating actions not observed in the dataset. Without the data support, this evaluation often biases value estimates and makes the learned policies over-optimistic and unreliable.
+  To alleviate the problem of such overestimation of out-of-distribution actions, prior research of policy-regularized algorithm suggests regularizing the learned policy by limiting its deviation from the behavior policy. However, the behavior data is often mixed with policies of various qualities and thus is highly multi-modal. Simple models, such as Gaussian polices, fail to capture such property. To tackle these issues, we conduct research on using highly expressive diffusion models, which are effective in computer vision, as policy generators. Our research goes beyond just using diffusion models for behavior cloning. We introduce three innovative methodologies. First, we present
+  Diffusion Actor-Critic
+  , which directly models target policies as diffusion models based on theoretical findings; second, we propose
+  Quantized Diffusion Latent Control
+  , which simplifies continuous control into discrete latent control problems, while preserving the complexity of diffusion policies; lastly, we investigate to solve challenging real-world card games. We introduce DeepCard, an innovative framework that designed to tackle the challenges of traditional Chinese card games and achieve performance on par with skilled human players, which is tested by thousands of human players through online platform.
+  TEC
+  Chairperson: Prof Dirk KUTSCHER
+  Prime Supervisor: Prof Dong XIA
+  Co-Supervisor: Prof Wenjia WANG
+  Examiners:
+  Prof Zixin ZHONG
+  Prof Xinlei HE
+  Prof Ning CAI
+  Prof Xu HE
+  Date
+  22 September 2025
+  Time
+  13:30:00 -
+  15:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 94425600589
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/94425600589?pwd=L7Qp73yat6mKDWO6V1ZxuybBjqSOht.1

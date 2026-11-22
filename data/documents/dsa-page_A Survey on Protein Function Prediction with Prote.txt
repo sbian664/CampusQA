@@ -1,0 +1,42 @@
+dsa_page: A Survey on Protein Function Prediction with Protein-protein Interaction Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-protein-function-prediction-with-protein-protein-interaction-networks/
+source: DSA
+
+headings:
+  - A Survey on Protein Function Prediction with Protein-protein Interaction Networks
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Protein Function Prediction with Protein-protein Interaction Networks
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Zhuoyang CHEN
+  Abstract
+  Protein function prediction is a multi-label classification task. Protein-protein Interaction (PPI) networks are crucial for automatically predicting protein functions. These networks provide unique information into how proteins work cooperatively to perform a certain function, which is difficult to determine directly from protein sequences or structures. However, it is challenging to extract useful information embedded in the PPI networks. One of the difficulties is that PPI networks are incomplete and noisy, as some interactions are missing and could be incorrect, which requires advanced network processing techniques to obtain richer information. Another important problem is that PPI networks are heterophilic, meaning that connected proteins are likely to contain different sets of functions. Breaking the homophily assumption makes traditional Graph Neural Networks (GNNs) fail to generalize to the PPI networks for node classification, as many GNNs assume strong homophily. In addition, multiple types of PPI networks exist for the same set of proteins of a species. Facing these challenges, many methods have been proposed to effectively utilize PPI networks to predict protein functions. This survey studies the network processing and network aggregation strategies of existing network-based methods on protein function prediction, including GeneMANIA, Mashup, deepNF, etc. Most of them are multi-network methods that utilize various types of PPI networks with different strategies. Furthermore, we discuss a method that trains one single model for multiple species by gathering PPI networks across various species.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Qiong LUO
+  Co-Supervisor: Prof Weichuan YU
+  Examiner: Prof Yanlin ZHANG
+  Date
+  04 June 2024
+  Time
+  14:50:00 -
+  16:05:00
+  Location
+  E1-149
+  Join Link
+  Zoom Meeting ID:
+  896 0631 0295
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/89606310295?pwd=ik7j8n8DdTbtENDNTIwfX0cFyuPWt9.1

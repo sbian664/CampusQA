@@ -1,0 +1,41 @@
+dsa_page: Scalable Graph Processing Algorithms, Systems, and Impacts – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/27/scalable-graph-processing-algorithms-systems-and-impacts/
+source: DSA
+
+headings:
+  - Scalable Graph Processing Algorithms, Systems, and Impacts
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Scalable Graph Processing Algorithms, Systems, and Impacts
+  Share to
+  ABSTRACT
+  This talk will focus on scalable graph processing algorithms, systems, and their impacts. The talk will cover the increasing use of graphs to model complex relationships among entities in applications such as social networks, e-commerce transactions, and electronic payments. With graphs often containing hundreds of millions of edges and vertices, sophisticated analytics is required to gain valuable insights. Specifically, the talk will discuss several works related to fraud detection by path-based patterns, including the new GraphS system, a theoretical result, and efficiency speedup. The speaker will also highlight the significant impacts of their work, evidenced by 15 papers published in flagship conferences/journals and high citation numbers as well as follow-up works from research groups in world-leading universities (e.g., MIT). The talk will provide insights into the applications, challenges, algorithms, and contributions of each problem.
+  Overall, this talk will provide a comprehensive overview of scalable graph processing algorithms, systems, and their impacts, with a specific focus on path analysis and fraud detection. The audience will gain valuable insights into the challenges and applications of large-scale graph processing and the theoretical and practical solutions proposed in this field.
+  SPEAKER BIO
+  You PENG
+  Research Fellow
+  The University of New South Wales
+  Dr. Peng is a research fellow in the Data and Knowledge Research Group, School of Computer Science and Engineering of The University of New South Wales. He obtained his Ph.D. from The University of New South Wales in 2020 and received his bachelor’s degree from Tsinghua University in 2016.
+  His research interests lie in processing, managing, and analyzing big data, especially for complex graph/network and spatial data. His dedication to research has resulted in 16 conference/journal papers. Most of his research works were published in top-tier conferences (e.g., PVLDB, and IEEE ICDE) and journals (e.g., VLDBJ). He serves as a program committee member in many flagship conferences such as ACM VLDB 2023, and DASSFAA 2023. He is the Publication Chair of LSGDA 2020 (Tokyo).
+  Date
+  28 February 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  989 0698 6879
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

@@ -1,0 +1,42 @@
+dsa_page: GenAI in Education at UTS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/18/genai-in-education-at-uts/
+source: DSA
+
+headings:
+  - GenAI in Education at UTS
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  GenAI in Education at UTS
+  Share to
+  ABSTRACT
+  In this report, Dr. Huo will integrate the latest
+  LLM and AI technologies
+  to explore innovative directions in software engineering education and research, sharing cutting-edge achievements from her research team. She will also analyze how to expand academic questions into knowledge innovation, helping the audience grasp technological trends and key research breakthroughs. Additionally, Dr. Huo will draw on her
+  cross-cultural academic experience
+  to compare the educational objectives and evaluation mechanisms in higher education between China and abroad. Through real-world case studies, she will reveal career path selection strategies, providing insights to help students and faculty optimize their academic and professional planning. The report will conclude with an interactive Q&A session, where Dr. Huo will offer targeted suggestions to the audience based on his personal experiences in research, teaching and career development, and jointly explore how to achieve high-quality development during key growth stages.
+  SPEAKER BIO
+  A/Professor Angela Huo is the course director and the associate head for teaching and learning at the School of Computer Science in the Faculty of Engineering and Information Technology at the University of Technology Sydney (UTS). Her research focuses on utilizing AI and data analysis techniques to improve the efficiency and security of modern software systems. Her recent interest lies in recommendation system, anomaly detection and privacy-preserving through data mining and deep learning. Her papers have been published in highly ranked conferences and journals, such as Web Conference, AAAI, ICDE, Information Sciences, IEEE Trans. on Knowledge and Data Engineering, IEEE Trans. on Industrial Informatics and etc. She is also the program coordinator of Cybersecurity and Privacy and the site coordinator of the South Pacific Programming Contests (SPPC) region of the International Collegiate Programming Contest (ICPC).
+  Date
+  21 April 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  W1-102 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  960 1565 6632
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

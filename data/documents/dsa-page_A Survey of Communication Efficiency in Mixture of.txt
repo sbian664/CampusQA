@@ -1,0 +1,39 @@
+dsa_page: A Survey of Communication Efficiency in Mixture of Experts Systems: Foundations, Frontiers, and Future Outlook – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/a-survey-of-communication-efficiency-in-mixture-of-experts-systems-foundations-frontiers-and-future-outlook/
+source: DSA
+
+headings:
+  - A Survey of Communication Efficiency in Mixture of Experts Systems: Foundations, Frontiers, and Future Outlook
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Communication Efficiency in Mixture of Experts Systems: Foundations, Frontiers, and Future Outlook
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. PAN, Xinglin
+  Abstract
+  In recent years, Mixture of Experts (MoE) has become a prominent architectural choice for large-scale models, driven by its parameter scalability, conditional computation, and task specialization advantages. However, as the scale of parameters and deployment environments grows, MoE systems face increasing challenges in execution efficiency and scalability—particularly in distributed settings. Communication overhead introduced by expert parallelism and token routing had become a significant system bottleneck among these. To address this, communication-aware system optimization has emerged as a crucial and rapidly developing area of research. This survey presents a focused review of communication efficiency in MoE systems. We begin by outlining the architectural characteristics of MoE and analyzing the communication bottlenecks it introduces. We then systematically review recent research progress from three core system perspectives: overlapping communication and computation, optimizing All-to-All primitives, and balancing expert workloads across devices. We compare representative techniques for each dimension and summarize their application scenarios and performance trade-offs. Finally, we discuss current challenges and outline promising directions for future research in communication-efficient MoE system design.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. WANG Wei
+  Examiner: Prof. WEN Zeyi
+  Date
+  09 June 2025
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-147 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  983 5853 6058
+  Passcode: dsa2025

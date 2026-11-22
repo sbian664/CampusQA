@@ -1,0 +1,266 @@
+dsa_page: Course and Instructor Assignments – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/10/10/course-and-instructor-assignments/
+source: DSA
+
+headings:
+
+text: >
+  UG
+  Course and Instructor Assignments
+  Day: October 10, 2025
+  Browse: 761
+  Share to
+  Course–Instructor Mapping
+  Course Code
+  Course Title
+  Course coordination team
+  DSAA 1001
+  Introduction to Data Science and Analytics
+  Lei LI, Wei WANG, Yongqi ZHANG
+  Guoming TANG (Reviewer)
+  DSAA 1085
+  Probability and Statistics
+  Jianfeng SUN (BSBE)
+  Huayi DUAN
+  DSAA 2011
+  Machine Learning
+  Zixin ZHONG
+  Weikai YANG
+  DSAA 2012
+  Deep Learning
+  Zeke XIE
+  Zhijiang GUO
+  Chen LIANG (CMA)
+  DSAA 2031
+  Database Management Systems
+  Nan TANG
+  Lei LI (Reviewer)
+  DSAA 2042
+  Computer Architecture and Systems
+  Zeyi WEN
+  DSAA 2043
+  Design and Analysis of Algorithms
+  Yanlin ZHANG
+  Shangqi LU
+  DSAA 2044
+  Data Science Project
+  Zishuo DING
+  DSAA 2049
+  Advanced Programming Languages
+  Zishuo DING
+  DSAA 2088
+  Mathematics for Data Science
+  Ningning DING
+  Wenjia WANG
+  DSAA 3032
+  Introduction to High-Performance and Parallel Computing
+  Qiong LUO
+  Zeyi WEN
+  DSAA 3041
+  Advanced Algorithms
+  Shangqi LU,
+  Yanlin ZHANG
+  DSAA 3051
+  Introduction to Natural Language Processing and Knowledge Engineering
+  Jiaheng WEI
+  Zhijiang GUO (Reviewer)
+  DSAA 3052
+  Data Science for Computer Vision and Multimedia
+  ?
+  DSAA 3053
+  Introduction to Reinforcement Learning
+  Zixin ZHONG
+  DSAA 3055
+  Data Privacy and Security
+  Xinlei HE
+  Huayi DUAN (Reviewer)
+  DSAA 3070
+  Bayesian Models and Applications
+  ?
+  DSAA 3071
+  Theories in Computing
+  Jinguo LIU (AMAT)
+  DSAA 3072
+  Advanced Theories in Computing
+  ?
+  DSAA 3073
+  Theories in Data Science
+  Wei WANG
+  DSAA 3074
+  Deep Learning for Science
+  Yongqi ZHANG?
+  Yanlin ZHNG?
+  DSAA 4011
+  Advanced Machine Learning and Deep Learning
+  Yongqi ZHANG
+  DSAA 4012
+  Machine Learning Systems
+  Huayi DUAN
+  DSAA 4018
+  Data Science for Cross-disciplinary Applications
+  ?
+  DSAA 4019
+  Special Topics in Data Science
+  Yuyu LUO?
+  DSAA 4031
+  Data Management for Data Science
+  Jing TANG?
+  DSAA 4032
+  Complex Data Management
+  Nan TANG?
+  DSAA 4040
+  Cloud Computing and Big Data Systems
+  Guoming TANG
+  DSAA 4070
+  Data Science for Battery Technologies
+  ?
+  DSAA 4086
+  Introduction to Optimization
+  ?
+  DSAA 4591
+  Final Year Capstone Project
+  Instructor–Course Mapping
+  Instructor Name
+  VPTLO Course(s)
+  Hub Course(s)
+  Xiaowen CHU
+  ﻿
+  Ningning DING
+  UFUG 2103, DSAA 2088
+  ﻿
+  Zishuo DING
+  UFUG 2106, DSAA 2044
+  ﻿
+  Huayi DUAN
+  DSAA 1085?
+  DSAA 4012
+  Zhijiang GUO
+  DSAA 2012
+  DSAA 4011?
+  Jia LI
+  UFUG 2602
+  ﻿
+  Lei LI
+  DSAA 1001
+  ﻿
+  Shangqi LU
+  DSAA 2043
+  DSAA 3041
+  Qiong LUO
+  UFUG 2601, DSAA 2042?
+  DSAA 3032
+  Yuyu LUO
+  ﻿
+  DSAA 4019?
+  Nan TANG
+  DSAA 2031
+  DSAA 4032?
+  Guoming TANG
+  UFUG 1601
+  DSAA 4040
+  Jing TANG
+  ﻿
+  DSAA 4031?
+  Wei WANG
+  DSAA 1001
+  DSAA 3073
+  Wenjia WANG
+  DSAA 2088
+  ﻿
+  Jiaheng WEI
+  ﻿
+  DSAA 3051
+  Zeyi WEN
+  UFUG 2601
+  ﻿
+  Jun XIA
+  ﻿
+  Yanlin ZHANG
+  DSAA 2043
+  DSAA 3041, DSAA 3074?
+  Yongqi ZHANG
+  DSAA 1001
+  DSAA 3074? DSAA 4011?
+  Zixin ZHONG
+  DSAA 2011
+  DSAA 3053
+  Xinlei HE (Joint)
+  UFUG 2106
+  DSAA 3055
+  Zeke XIE (Joint)
+  UFUG 2104, DSAA 2012
+  ﻿
+  Weikai YANG (Joint)
+  UFUG 2601, DSAA 2011
+  Wei ZENG (Joint)
+  UFUG 1601
+  ﻿
+  Jianfeng SUN (BSBE)
+  DSAA 1085
+  Chen LIANG (CMA)
+  DSAA 2012
+  Jinguo LIU (AMAT)
+  DSAA 3071
+
+tables:
+  - Course Code | Course Title | Course coordination team
+  - DSAA 1001 | Introduction to Data Science and Analytics | Lei LI, Wei WANG, Yongqi ZHANG Guoming TANG (Reviewer)
+  - DSAA 1085 | Probability and Statistics | Jianfeng SUN (BSBE) Huayi DUAN
+  - DSAA 2011 | Machine Learning | Zixin ZHONG Weikai YANG
+  - DSAA 2012 | Deep Learning | Zeke XIE Zhijiang GUO Chen LIANG (CMA)
+  - DSAA 2031 | Database Management Systems | Nan TANG Lei LI (Reviewer)
+  - DSAA 2042 | Computer Architecture and Systems | Zeyi WEN
+  - DSAA 2043 | Design and Analysis of Algorithms | Yanlin ZHANG Shangqi LU
+  - DSAA 2044 | Data Science Project | Zishuo DING
+  - DSAA 2049 | Advanced Programming Languages | Zishuo DING
+  - DSAA 2088 | Mathematics for Data Science | Ningning DING Wenjia WANG
+  - DSAA 3032 | Introduction to High-Performance and Parallel Computing | Qiong LUO Zeyi WEN
+  - DSAA 3041 | Advanced Algorithms | Shangqi LU, Yanlin ZHANG
+  - DSAA 3051 | Introduction to Natural Language Processing and Knowledge Engineering | Jiaheng WEI Zhijiang GUO (Reviewer)
+  - DSAA 3052 | Data Science for Computer Vision and Multimedia | ?
+  - DSAA 3053 | Introduction to Reinforcement Learning | Zixin ZHONG
+  - DSAA 3055 | Data Privacy and Security | Xinlei HE Huayi DUAN (Reviewer)
+  - DSAA 3070 | Bayesian Models and Applications | ?
+  - DSAA 3071 | Theories in Computing | Jinguo LIU (AMAT)
+  - DSAA 3072 | Advanced Theories in Computing | ?
+  - DSAA 3073 | Theories in Data Science | Wei WANG
+  - DSAA 3074 | Deep Learning for Science | Yongqi ZHANG? Yanlin ZHNG?
+  - DSAA 4011 | Advanced Machine Learning and Deep Learning | Yongqi ZHANG
+  - DSAA 4012 | Machine Learning Systems | Huayi DUAN
+  - DSAA 4018 | Data Science for Cross-disciplinary Applications | ?
+  - DSAA 4019 | Special Topics in Data Science | Yuyu LUO?
+  - DSAA 4031 | Data Management for Data Science | Jing TANG?
+  - DSAA 4032 | Complex Data Management | Nan TANG?
+  - DSAA 4040 | Cloud Computing and Big Data Systems | Guoming TANG
+  - DSAA 4070 | Data Science for Battery Technologies | ?
+  - DSAA 4086 | Introduction to Optimization | ?
+  - DSAA 4591 | Final Year Capstone Project
+  - Instructor Name | VPTLO Course(s) | Hub Course(s)
+  - Xiaowen CHU | ﻿ | ﻿
+  - Ningning DING | UFUG 2103, DSAA 2088 | ﻿
+  - Zishuo DING | UFUG 2106, DSAA 2044 | ﻿
+  - Huayi DUAN | DSAA 1085? | DSAA 4012
+  - Zhijiang GUO | DSAA 2012 | DSAA 4011?
+  - Jia LI | UFUG 2602 | ﻿
+  - Lei LI | DSAA 1001 | ﻿
+  - Shangqi LU | DSAA 2043 | DSAA 3041
+  - Qiong LUO | UFUG 2601, DSAA 2042? | DSAA 3032
+  - Yuyu LUO | ﻿ | DSAA 4019?
+  - Nan TANG | DSAA 2031 | DSAA 4032?
+  - Guoming TANG | UFUG 1601 | DSAA 4040
+  - Jing TANG | ﻿ | DSAA 4031?
+  - Wei WANG | DSAA 1001 | DSAA 3073
+  - Wenjia WANG | DSAA 2088 | ﻿
+  - Jiaheng WEI | ﻿ | DSAA 3051
+  - Zeyi WEN | UFUG 2601 | ﻿
+  - Jun XIA | ﻿ | ﻿
+  - Yanlin ZHANG | DSAA 2043 | DSAA 3041, DSAA 3074?
+  - Yongqi ZHANG | DSAA 1001 | DSAA 3074? DSAA 4011?
+  - Zixin ZHONG | DSAA 2011 | DSAA 3053
+  - Xinlei HE (Joint) | UFUG 2106 | DSAA 3055
+  - Zeke XIE (Joint) | UFUG 2104, DSAA 2012 | ﻿
+  - Weikai YANG (Joint) | UFUG 2601, DSAA 2011
+  - Wei ZENG (Joint) | UFUG 1601 | ﻿
+  - Jianfeng SUN (BSBE) | DSAA 1085
+  - Chen LIANG (CMA) | DSAA 2012
+  - Jinguo LIU (AMAT) | DSAA 3071

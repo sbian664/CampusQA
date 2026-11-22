@@ -1,0 +1,36 @@
+dsa_page: Towards Better LLM-based Evaluations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/10/13/towards-better-llm-based-evaluations/
+source: DSA
+
+headings:
+  - Towards Better LLM-based Evaluations
+  - Abstract
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA & AI Joint Seminar
+  Towards Better LLM-based Evaluations
+  Share to
+  Abstract
+  This seminar explores recent advances and challenges in automatic text evaluation using Large Language Models (LLMs). We begin by outlining the historical development of automatic evaluation methods and examining the limitations of pointwise evaluation paradigms. Building on this, I will introduce a search-based pairwise evaluation framework, highlighting how the consistency of LLM judgments influences its performance.
+  Next, I will present our framework for quantifying and improving the logical consistency of LLM evaluations. In the third part, we will discuss the emerging role of multimodal LLMs as evaluators, and I will introduce our latest benchmark for assessing multimodal LLMs-as-Judges in the context of multimodal dialogue summarization.
+  Finally, I will conclude with a discussion of future research directions and open challenges in building reliable and consistent LLM-based evaluation systems.
+  SPEAKER BIO
+  Yinhong Liu is a final-year PhD student at the Language Technology Lab, University of Cambridge. His research focuses on Large Language Models (LLMs) and Machine Learning, particularly on post-training techniques such as preference modeling, alignment, and calibration, as well as evaluation and data synthesis.
+  His overarching goal is to advance artificial intelligence through the development of closed-loop frameworks that tightly integrate data synthesis, model training, and evaluation.
+  Yinhong has collaborated with industry leaders including Apple (Siri team), Microsoft Research (Efficient AI group), and Amazon AWS, and his work has been published at top-tier conferences such as ICML, NeurIPS, ACL, EMNLP, and NAACL.
+  Date
+  15 October 2025
+  Time
+  15:30:00 -
+  16:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: aidsa

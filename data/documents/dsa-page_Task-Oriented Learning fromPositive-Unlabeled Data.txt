@@ -1,0 +1,34 @@
+dsa_page: Task-Oriented Learning fromPositive-Unlabeled Data: Techniquesand Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/27/task-oriented-learning-frompositive-unlabeled-data-techniquesand-applications/
+source: DSA
+
+headings:
+  - Task-Oriented Learning fromPositive-Unlabeled Data: Techniquesand Applications
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Task-Oriented Learning fromPositive-Unlabeled Data: Techniquesand Applications
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Kexin SHI
+  Abstract
+  Positive-Unlabeled (PU) learning is a prevalent approach across various domains where only a subset of instances is labeled as positive, while the rest remain unlabeled. This thesis proposal explores the integration of PU learning in specific applications within recommender systems and bioinformatics. In recommender systems, PU learning faces challenges, including false negatives in model optimization for implicit collaborative filtering and the filter bubble effect. Conversely, in bioinformatics, the focus lies on large-scale gene or protein screening tasks, which is crucial for guiding wet-lab experiments effectively. This proposal outlines preliminary research in both fields, introducing innovative methodologies such as PDNS and Hard-BPR for addressing the false negative issue in recommender systems, alongside PractiCPP for facilitating computational screening of peptides in bioinformatics. Looking ahead, the focus will be on tackling the challenges associated with filter bubbles in recommender systems.
+  TPE Committee
+  Chair of Committee: Prof. Xiaowen CHU
+  Prime Supervisor: Prof. Wenjia WANG
+  Co-Supervisor: Prof. Xinzhou GUO
+  Examiner: Prof. Lei LI
+  Date
+  28 November 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-105

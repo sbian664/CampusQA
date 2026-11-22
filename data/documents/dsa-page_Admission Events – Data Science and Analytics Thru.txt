@@ -1,0 +1,97 @@
+dsa_page: Admission Events – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/phd-admission-events/
+source: DSA
+
+headings:
+  - Information Sessions for PG Programmes @ Changsha City
+  - INFH Summer Camp
+  - Information Sessions for PG Programmes @ Southeast University
+  - Information Sessions for PG Programmes @ Nanjing University
+  - Information Sessions for PG Programmes @ Guangzhou City
+  - DSA Thrust Information Sessions @ Shandong University
+  - DSA Thrust Information Sessions @ Dalian University of Technology
+  - INFH Information Sessions @ Harbin Institute of Technology, Shenzhen
+  - DSA Thrust Information Sessions @ East China Normal University
+  - DSA Thrust Information Sessions @ Tsinghua University
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  10
+  Dec 2024
+  /
+  20
+  Dec 2024
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Changsha City
+  湖南大学信息科学与工程学院624会议室，中南大学
+  19
+  Jul 2024
+  /
+  23
+  Jul 2024
+  Postgraduate Admissions
+  INFH Summer Camp
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  04
+  Jun 2024
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Southeast University
+  东南大学九龙湖校区教一202教室
+  18:30 - 20:15
+  03
+  Jun 2024
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Nanjing University
+  南京大学仙林校区十食堂就业中心307教室
+  18:30 - 20:20
+  25
+  May 2024
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Guangzhou City
+  广州大学城广州华工大学城中心酒店南华厅
+  14:00 - 16:00
+  23
+  May 2024
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Shandong University
+  山东大学青岛校区会文南楼A区就业中心二号宣讲厅
+  14:30 - 16:00
+  10
+  May 2024
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Dalian University of Technology
+  大连理工大学主校区研教楼308
+  15:30 - 17:00
+  28
+  Apr 2024
+  Postgraduate Admissions
+  INFH Information Sessions @ Harbin Institute of Technology, Shenzhen
+  哈尔滨工业大学深圳校区H栋主楼
+  18:30 - 20:50
+  25
+  Apr 2024
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ East China Normal University
+  华东师范大学普陀校区文附楼507
+  13:00 - 14:30
+  18
+  Apr 2024
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Tsinghua University
+  清华大学东主楼103
+  16:00 - 17:00
+
+links:
+  - https://dsa.hkust-gz.edu.cn/blog/2024/12/09/information-sessions-for-pg-programmes-hunan-u/ | https://dsa.hkust-gz.edu.cn/blog/2024/12/09/information-sessions-for-pg-programmes-hunan-u/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/07/18/information-hub-summer-camp/ | https://dsa.hkust-gz.edu.cn/blog/2024/07/18/information-hub-summer-camp/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/06/04/information-sessions-for-pg-programmes-southeast-university/ | https://dsa.hkust-gz.edu.cn/blog/2024/06/04/information-sessions-for-pg-programmes-southeast-university/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/06/03/information-sessions-for-pg-programmes-nanjing-university/ | https://dsa.hkust-gz.edu.cn/blog/2024/06/03/information-sessions-for-pg-programmes-nanjing-university/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/25/information-sessions-for-pg-programmes-guangzhou-city/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/25/information-sessions-for-pg-programmes-guangzhou-city/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/23/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%b1%b1%e4%b8%9c%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/23/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%b1%b1%e4%b8%9c%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/10/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%a4%a7%e8%bf%9e%e7%90%86%e5%b7%a5%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/10/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%a4%a7%e8%bf%9e%e7%90%86%e5%b7%a5%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+  - https://mp.weixin.qq.com/s/Nfy0YjKIBGLD17Ex2RWJbA | https://mp.weixin.qq.com/s/Nfy0YjKIBGLD17Ex2RWJbA
+  - https://dsa.hkust-gz.edu.cn/blog/2024/04/25/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8d%8e%e4%b8%9c%e5%b8%88%e8%8c%83%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/ | https://dsa.hkust-gz.edu.cn/blog/2024/04/25/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8d%8e%e4%b8%9c%e5%b8%88%e8%8c%83%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/04/18/dsa%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/ | https://dsa.hkust-gz.edu.cn/blog/2024/04/18/dsa%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/

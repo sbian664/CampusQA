@@ -1,0 +1,60 @@
+dsa_page: Mitigating Data Challenges in Sequential Recommender Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/27/mitigating-data-challenges-in-sequential-recommender-systems/
+source: DSA
+
+headings:
+  - Mitigating Data Challenges in Sequential Recommender Systems
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Mitigating Data Challenges in Sequential Recommender Systems
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Peilin ZHOU
+  ABSTRACT
+  Sequential Recommendation (SR) aims to predict a user’s next interaction given their historical behavior sequence and has become a core component of modern personalized services such as e-commerce, streaming platforms, and social media. By capturing short-term intents and dynamic preference shifts, SR provides finer-grained personalization than traditional static recommendation models. Despite progress driven by deep neural architectures—particularly Transformer-based methods that leverage self-attention to model long-range dependencies—real-world SR remains fundamentally challenging. Three persistent data-related issues continue to limit model reliability and generalization: (1)
+  data
+  noise
+  , where irrelevant or accidental interactions distort the learned preference patterns; (2)
+  data sparsity
+  , where limited user behavior restricts representation learning, especially in cold-start and long-tail scenarios; and (3)
+  data heterogeneity
+  , where side information such as product categories, descriptions, or images must be effectively utilized without overwhelming item ID signals. These challenges often co-occur and amplify one another, making SR highly sensitive to noise, prone to overfitting in sparse environments, and difficult to scale to rich multimodal inputs.
+  This thesis presents a series of principled and empirically validated frameworks to address these challenges. To combat noisy behaviors, we propose
+  AC-TSR
+  , a general attention calibration framework for Transformer-based SR models. AC-TSR introduces a spatial calibrator that refines attention weights using item order and distance, together with an adversarial calibrator that suppresses unreliable interactions by estimating their predictive contribution under perturbations. To alleviate data sparsity, we first perform a comprehensive benchmarking study of sequence-level augmentation strategies, revealing their standalone potential beyond contrastive learning. Motivated by these findings, we further develop
+  ECL-SR
+  , an equivariant contrastive learning framework that distinguishes between mild and invasive augmentations, enforcing invariance for preference-preserving transformations and equivariance for semantic-altering ones via a conditional discriminator. To address data heterogeneity, we propose
+  DIF-SR
+  , a decoupled attention architecture that defers side-information fusion to the attention layer and separates modality-specific attention paths, improving expressiveness and interpretability. Finally, we conduct a frontier exploration of integrating Large Vision-Language Models (LVLMs) into multimodal SR, constructing
+  MSRBench
+  and the Amazon Review Plus dataset to benchmark LVLM-based recommenders, item enhancers, and rerankers. Together, these contributions provide a comprehensive roadmap for building accurate, robust, and modality-aware sequential recommender systems under realistic data constraints.
+  TEC
+  Chairperson: Prof Mark Nicholas GRIMSHAW-AAGAARD
+  Prime Supervisor: Prof Sung Hun KIM
+  Co-Supervisor: Prof Raymond WONG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Jiaheng WEI
+  Prof Zeyu WANG
+  Prof Peilin ZHAO
+  Date
+  05 December 2025
+  Time
+  09:00:00 -
+  11:00:00
+  Location
+  E1-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

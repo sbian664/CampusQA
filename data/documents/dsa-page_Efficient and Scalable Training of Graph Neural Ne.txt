@@ -1,0 +1,39 @@
+dsa_page: Efficient and Scalable Training of Graph Neural Networks: A Literature Review – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/07/efficient-and-scalable-training-of-graph-neural-networks-a-literature-review/
+source: DSA
+
+headings:
+  - Efficient and Scalable Training of Graph Neural Networks: A Literature Review
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Efficient and Scalable Training of Graph Neural Networks: A Literature Review
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Xin
+  Abstract
+  Graph Neural Networks are popular these days due to their strong capability in modeling and predicting complex graph-structured data. However, real-world graphs are usually giant in nature, containing millions of nodes and billions of edges. Efficient training of GNNs on such giant graphs is a challenge. Recently, many research studies have been done that propose efficient and scalable solutions from different perspectives to address the challenge. The survey provides a structured review of these existing works, classifying them based on their position in the GNN training stack. This work also details current PhD progress as well as a general outline for the future.
+  PQE Committee
+  Chair of Committee: Prof. YI, Ke
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. WANG, Wenjia
+  Date
+  10 February 2025
+  Time
+  13:00:00 -
+  15:00:00
+  Location
+  Rm2408, CWB
+  Join Link
+  Zoom Meeting ID:
+  994 0102 0338
+  Passcode: dsa2025

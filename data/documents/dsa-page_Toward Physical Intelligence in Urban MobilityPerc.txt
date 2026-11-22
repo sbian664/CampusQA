@@ -1,0 +1,34 @@
+dsa_page: Toward Physical Intelligence in Urban Mobility:Perception, Route Planning, and Traffic SignalControl – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/toward-physical-intelligence-in-urban-mobilityperception-route-planning-and-traffic-signalcontrol/
+source: DSA
+
+headings:
+  - Toward Physical Intelligence in Urban Mobility:Perception, Route Planning, and Traffic SignalControl
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Toward Physical Intelligence in Urban Mobility:Perception, Route Planning, and Traffic SignalControl
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. MA, Haolun
+  Abstract
+  Urban mobility systems operate through continuous interaction between computation and the physical road network. Vehicles move through lanes, traffic signals regulate their movement, and sensing systems observe the resulting conditions. This feedback makes mobility intelligence more than a collection of prediction models: decisions depend on physical representations, and those decisions reshape the state that later models observe. This survey examines urban mobility as a physical-intelligence problem through three connected components: perception, route planning, and traffic signal control. Perception provides structured representations of roads, lanes, traffic conditions, or scenes. Route planning uses these representations to answer dynamic time-dependent path queries. Traffic signal control regulates intersections and changes queues, delays, and effective edge costs. The survey identifies a common interface problem across the three components: each layer needs information in a form that can be provided, updated, and reused by the next decision. On this basis, the dissertation is framed as a state-oriented mobility-intelligence stack. Its foundations are SIHO for reusable trajectory-level perception, DIGO for correctness-aware learned search-space reduction in dynamic routing, and SLight for policy-aware sharing across heterogeneous signalized intersections. Taken together, these foundations suggest a path toward urban mobility systems that maintain decision-relevant physical information rather than treating perception, routing, and control as isolated tasks.
+  PQE Committee
+  Chair: Prof. WANG, Wei
+  Prime Supervisor: Prof. LI, Lei
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  10 June 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-150, HKUST(GZ)

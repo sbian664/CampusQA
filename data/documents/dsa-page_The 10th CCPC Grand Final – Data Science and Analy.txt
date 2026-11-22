@@ -1,0 +1,29 @@
+dsa_page: The 10th CCPC Grand Final – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/24/competition-preview-the-10th-ccpc-grand-final-is-coming-soon/
+source: DSA
+
+headings:
+  - The 10th CCPC Grand Final
+  - Date
+  - Location
+  - Event Organizer
+  - LEARN MORE
+  - EVENT RECAP
+
+text: >
+  Competition
+  The 10th CCPC Grand Final
+  Share to
+  Date
+  09 May 2025
+  - 11 May 2025
+  Location
+  HKUST(GZ)
+  Event Organizer
+  HKUST(GZ)
+  LEARN MORE
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/KipuXbVhpKwJ_wFUW_qKWg
+  - EVENT RECAP | https://mp.weixin.qq.com/s/poud67BrWNYGlRrkLhb4nQ

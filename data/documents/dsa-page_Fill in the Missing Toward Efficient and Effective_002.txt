@@ -1,0 +1,34 @@
+dsa_page: Fill in the Missing: Toward Efficient and Effective Imputation of Large-Scale Incomplete Datasets – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/fill-in-the-missing-toward-efficient-and-effective-imputation-of-large-scale-incomplete-datasets/
+source: DSA
+
+headings:
+  - Fill in the Missing: Toward Efficient and Effective Imputation of Large-Scale Incomplete Datasets
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Fill in the Missing: Toward Efficient and Effective Imputation of Large-Scale Incomplete Datasets
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Jun WANG
+  Abstract
+  In the rapidly evolving landscape of data-driven industries, the ubiquitous missing values make the collected datasets incomplete, compromising their integrity and posing significant challenges to accurate downstream analysis and decision-making. This proposal systematically identifies three principal challenges in missing data imputation for large-scale incomplete datasets: the scalability limitations of deep generative imputation algorithms, the selection bias introduced by Missing Not At Random (MNAR) data, and the compromised performance of downstream tasks, such as classification, when faced with incomplete datasets.
+  To address these challenges, we present three methodological innovations. Firstly, the Scalable Imputation System (SCIS) estimates an appropriate sample size to speed up the training of deep generative imputation models under accuracy-guarantees for large-scale incomplete datasets. This breakthrough is particularly advantageous for large-scale applications where deep generative imputation models falter due to computational demands. Secondly, we introduce the novel Counterfactual Contrastive Learning (CounterCLR) framework, designed to combat the selection bias caused by MNAR data in recommender systems. By integrating a causality-based prediction network with a contrastive learning objective, CounterCLR effectively mitigates bias while improving the model’s generalization capabilities under sparse data. Lastly, we theoretically investigate the generalization error, robustness, and model calibration of square loss for classification tasks in the presence of fully observed data. This establishes a baseline performance and provides insights into model behavior under ideal conditions before extending our analysis to incomplete data scenarios.
+  Preliminary experiments are conducted to demonstrate the effectiveness of these methodologies. Comprehensive future work plans are also outlined to refine and validate these approaches further. By advancing the state of missing data imputation, this proposal aims to enhance the accuracy and reliability of data-driven decision-making across various sectors, ultimately contributing to more robust analytical practices in incomplete datasets.
+  TPE Committee
+  Chairperson: Prof. Xiaowen CHU
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiner: Prof Jia LI
+  Date
+  12 June 2024
+  Time
+  13:30:00 -
+  14:45:00
+  Location
+  E1-150

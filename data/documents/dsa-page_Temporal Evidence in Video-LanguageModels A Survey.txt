@@ -1,0 +1,42 @@
+dsa_page: Temporal Evidence in Video-LanguageModels: A Survey with Camera-MotionReasoning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/16/temporal-evidence-in-video-languagemodels-a-survey-with-camera-motionreasoning/
+source: DSA
+
+headings:
+  - Temporal Evidence in Video-LanguageModels: A Survey with Camera-MotionReasoning
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Temporal Evidence in Video-LanguageModels: A Survey with Camera-MotionReasoning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LIN, Zeteng
+  Abstract
+  Video-language models have improved rapidly on video question answering, captioning, temporal grounding, and long-video understanding. Their benchmark scores, however, do not always show whether the answer depended on the order of the frames. A question described as temporal may still be solved from one salient image, a language prior, or the wording of the answer options. This survey studies the evidence needed to support a stronger claim: that a model used information that exists only in the temporal development of a video.
+  The review connects three bodies of work. The first concerns the way video models represent motion and order, from spatiotemporal convolution and video transformers to instruction-tuned video-language models. The second concerns tasks and benchmarks for action, event order, duration, grounding, long-video reasoning, and cinematographic understanding. The third concerns diagnostic evaluation, including input ablation, frame shuffling, temporal reversal, prompt controls, and tests in which visual evidence conflicts with language cues. Across these areas, a recurring limitation is that ordinary accuracy combines genuine temporal reasoning with shortcuts that happen to produce the same answer.
+  Camera-motion reasoning is used as a running example because its temporal semantics are unusually clear. Reversing a pan-left clip should produce a pan-right label, while reversing a static shot should leave its label unchanged. This property supports pairwise tests of visual dependence, order sensitivity, reversal consistency, and evidence faithfulness. A short case study reports completed benchmark audits and data checks. It is included as preliminary evidence of research preparedness rather than as the main subject of the survey. The review concludes that temporal claims should be supported by controlled interventions as well as benchmark accuracy, and it identifies open problems in diagnostic benchmark design, cross-format evaluation, and evidence-grounded temporal reasoning.
+  PQE Committee
+  Chair: Prof. TANG, Nan (online)
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. CAI, Yujun (online)
+  Examiner: Prof. JIN, Tianyuan
+  Date
+  28 July 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-105, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  996 7724 0021
+  Tencent Meeting ID:
+  DSA

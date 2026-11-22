@@ -1,0 +1,39 @@
+dsa_page: Computational Algorithms for Single Cell Sequencing in Cancers – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/28/computational-algorithms-for-single-cell-sequencing-in-cancers/
+source: DSA
+
+headings:
+  - Computational Algorithms for Single Cell Sequencing in Cancers
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Computational Algorithms for Single Cell Sequencing in Cancers
+  Share to
+  ABSTRACT
+  Emerging research has unveiled the pivotal role of intra-tumor heterogeneity in driving cancer therapy resistance, recurrence, and patient outcomes. Precisely tailoring treatments for individual patients hinges on a deep understanding of subclone structures and their evolutionary histories, considering diverse factors at both DNA and RNA levels. The era of single-cell sequencing has ushered in a new imperative: accurately characterizing gene expression and somatic variants at single-cell resolution. This groundbreaking approach overcomes the limitations of traditional bulk sequencing, which often conceals rare subclones, and empowers the deciphering of intratumor heterogeneity, distinguishing unique tumor subclones, and tracing clonal lineages. This talk introduces computational algorithms for analyzing single-cell sequencing data in cancers. These encompass matrix factorization models for imputation, dimension reduction tailored for single-cell RNA data, as well as hierarchical clustering algorithm with graph entropy for single-cell omics profiles, all complemented by graph algorithm to resolve complex structural variations in genome. Together, these endeavors offer profound insights into the intricate dynamics of cancer evolution and hold the potential to revolutionize our comprehension of cancer, ultimately paving the way for more precise and effective treatments.
+  SPEAKER BIO
+  Lingxi CHEN
+  Postdoctoral Researcher
+  City University of Hong Kong
+  Dr. Lingxi Chen is a highly motivated researcher with a BSc in Computer Science from the University of Nottingham, an MSc in Web Science and Big Data Analytics from the University College London, and a Ph.D. in Computer Science from City University of Hong Kong. Her research primarily focuses on computational biology algorithms and platforms, specializing in genome structural aberrations, single-cell and spatial multi-omics analysis, AI-driven prognostics and diagnostics, and online biomedical platforms. She has published 16 SCI papers as the 1st, co-1st, or corresponding author, including high-impact journals such as Nature Communications, Nucleic Acids Research, Briefings in Bioinformatics, Clinical and Translational Medicine, etc. She is passionate about bridging computer science and artificial intelligence to address critical challenges in cancer and complex diseases.
+  Date
+  30 October 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  897 1733 6663
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

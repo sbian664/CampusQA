@@ -1,0 +1,35 @@
+dsa_page: Fluid-zang, NFT Collection Management System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/fluid-zang-nft-collection-management-system/
+source: DSA
+
+headings:
+  - Fluid-zang, NFT Collection Management System
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Fluid-zang, NFT Collection Management System
+  Abstract
+  NFT, as a main application scenario on the blockchain, has attracted much attention in recent years. In this project, we have developed a digital collection management platform based on blockchain namely Fluid-zang, which is a collection management system that supports digitalizing the collections into NFT-based tokens on a blockchain system. Collectors and users can use Fluid-zang to achieve digitalized storage of collections, traceability management, and online collection trading.
+  Video link
+  :
+  https://youtu.be/S2wGM9hYEzw
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-Present
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - https://youtu.be/S2wGM9hYEzw | https://youtu.be/S2wGM9hYEzw
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/blockchain/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

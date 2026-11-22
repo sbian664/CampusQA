@@ -1,0 +1,204 @@
+dsa_page: MPhil Students – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/students/
+source: DSA
+
+headings:
+  - MPhil Students
+  - 2023 Cohort
+  - 2022 Cohort
+  - 2020 Cohort
+
+text: >
+  MPhil Students
+  2023 Cohort
+  PIAO, Shiyuan
+  MPhil (DSA)
+  ZI, Chenyi
+  MPhil (DSA)
+  ZHENG, Zinan
+  MPhil (DSA)
+  SHENG, Qing
+  MPhil (DSA)
+  HUANG, Yue
+  MPhil (DSA)
+  LI, Junwei
+  MPhil (DSA)
+  HE, Jingwen
+  MPhil (DSA)
+  YUAN, Chaoyi
+  MPhil (DSA)
+  WANG, Yi
+  MPhil (DSA)
+  PAN, Zipei
+  MPhil (DSA)
+  ZHANG, Zihan
+  MPhil (DSA)
+  WENG, Cekai
+  MPhil (DSA)
+  ZHANG, Yue
+  MPhil (DSA)
+  XU, Yining
+  MPhil (DSA)
+  LI, Ruolan
+  MPhil (DSA)
+  ZHAO, Shuchang
+  MPhil (DSA)
+  LUO, Liping
+  MPhil (DSA)
+  ZHANG, Zhe
+  MPhil (DSA)
+  ZHONG, Jiatao
+  MPhil (DSA)
+  PAN, Doucheng
+  MPhil (DSA)
+  JIANG, Ziyu
+  MPhil (DSA)
+  LI, Junhao
+  MPhil (DSA)
+  ZHANG, Yunfan
+  MPhil (DSA)
+  CHEN, Xiangsen
+  MPhil (DSA)
+  CHEN, Haorong
+  MPhil (DSA)
+  WANG, Fan
+  MPhil (DSA)
+  XIAO, Yunxuan
+  MPhil (DSA)
+  LIAO, Xiangrong
+  MPhil (DSA)
+  LI, Chunting
+  MPhil (DSA)
+  LIU, Yingchen
+  MPhil (DSA)
+  YAN, Rudan
+  MPhil (DSA)
+  YOU, Huajie
+  MPhil (DSA)
+  WU, Duohan
+  MPhil (DSA)
+  HOU, Yusen
+  MPhil (DSA)
+  ZHOU, Jiayong
+  MPhil (DSA)
+  CHEN, Yitong
+  MPhil (DSA)
+  GONG, Gu
+  MPhil (DSA)
+  YU, Xiangrui
+  MPhil (DSA)
+  HUANG, Junlin
+  MPhil (DSA)
+  WANG, Rui
+  MPhil (DSA)
+  TANG, Zichen
+  MPhil (DSA)
+  CHEN, Yixiang
+  MPhil (DSA)
+  CHEN, Yuhan
+  MPhil (DSA)
+  FENG, Yutong
+  MPhil (DSA)
+  ZOU, Xingchen
+  MPhil (DSA)
+  LIU, Erdong
+  MPhil (DSA)
+  LUO, Gefeng
+  MPhil (DSA)
+  LAI, Sicong
+  MPhil (DSA)
+  HU, Yuehong
+  MPhil (DSA)
+  ZHOU, Jianxiang
+  MPhil (DSA)
+  ZHU, Yanchen
+  MPhil (DSA)
+  ZHONG, Siru
+  MPhil (DSA)
+  ZUO, Xin
+  MPhil (DSA)
+  DU, Shiyin
+  MPhil (DSA)
+  DAI, Yu
+  MPhil (DSA)
+  YAN, Siyu
+  MPhil (DSA)
+  JIANG, Runzhi
+  MPhil (DSA)
+  MA, Peixian
+  MPhil (DSA)
+  JIA, Minghan
+  MPhil (DSA)
+  GUO, Zhihan
+  MPhil (DSA)
+  ZHU, Yizhang
+  MPhil (DSA)
+  ZHOU, Xiaoyu
+  MPhil (DSA)
+  HUANG, Youliang
+  MPhil (DSA)
+  2022 Cohort
+  CHAN, Hiu Lam Jade
+  MPhil (DSA)
+  CHEN, Zhaoying
+  MPhil (DSA)
+  DENG, Mengyi
+  MPhil (DSA)
+  DU, Dayou
+  MPhil (DSA)
+  FANG, Wenjing
+  MPhil (DSA)
+  FANG, Xiao
+  MPhil (DSA)
+  GONG, Hanyu
+  MPhil (DSA)
+  GONG, Mingze
+  MPhil (DSA)
+  HUA, Fengrui
+  MPhil (DSA)
+  HUANG, Chang
+  MPhil (DSA)
+  KOU, Zhizhuo
+  MPhil (DSA)
+  LI, Jiawei
+  MPhil (DSA)
+  LI, Xiang
+  MPhil (DSA)
+  LIN, Zeteng
+  MPhil (DSA)
+  LU, Xiaohan
+  MPhil (DSA)
+  QU, Huaren
+  MPhil (DSA)
+  SONG, Cheng
+  MPhil (DSA)
+  WAN, Lei
+  MPhil (DSA)
+  WANG, Shuzheng
+  MPhil (DSA)
+  XU, Haotian
+  MPhil (DSA)
+  YANG, Jian
+  MPhil (DSA)
+  YANG, Siyuan
+  MPhil (DSA)
+  YUAN, Tong
+  MPhil (DSA)
+  ZENG, Lingfei
+  MPhil (DSA)
+  ZHANG, Wenqin
+  MPhil (DSA)
+  ZHENG, Chenghong
+  MPhil (DSA)
+  ZHU, Yanying
+  MPhil (DSA)
+  2020 Cohort
+  KONG, Wenzhi
+  MPhil (IIP-DSA)
+
+links:
+  - ZOU, Xingchen | https://xczou.top/Home.html
+  - HU, Yuehong | https://dejavu2021.github.io/
+  - ZHONG, Siru | https://github.com/siruzhong
+  - LIN, Zeteng | https://sites.google.com/view/zeteng-lin
+  - YANG, Jian | https://yangjianscut.github.io/

@@ -1,0 +1,46 @@
+dsa_page: Decoupling Tumor–Microenvironment Co-evolution via Spatial-temporal Transcriptomics Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/14/decoupling-tumor-microenvironment-co-evolution-via-spatial-temporal-transcriptomics-data/
+source: DSA
+
+headings:
+  - Decoupling Tumor–Microenvironment Co-evolution via Spatial-temporal Transcriptomics Data
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Decoupling Tumor–Microenvironment Co-evolution via Spatial-temporal Transcriptomics Data
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Xiaomeng ZHANG
+  TEC
+  Cancer is a dynamic ecosystem of diverse cell types, and tumor heterogeneity—across patients, over time within the same patient, and across regions of a single tumor—drives therapeutic resistance and recurrence. Glioblastoma (GB), the most malignant adult brain tumor, exemplifies this challenge. Despite uniform standards of treatment strategy, GBs harbor multiple phenotypic states at genomic, transcriptomic, and proteomic levels that promote themselves transitions to a more resistant state.
+  My PhD research examines two main sources of GB heterogeneity: tumor evolution and microenvironmental influence. Longitudinal and spatial data are analyzed to reveal mechanisms that shape cellular diversity over time and across space. First, we track phenotypic changes during GB evolution using longitudinal transcriptomics, with a special focus on splicing-related drivers. Strong links are observed between alternative splicing changes and recurrent tumor states, and splicing programs that likely drive a neuron-like phenotype after relapse are identified. This phenotype is associated with stronger neuronal interactions and increased chemoresistance. To identify regulators of these splicing changes, we further develop a computational pipeline to prioritize candidates and, with collaborators, validate their roles in promoting this state.
+  Second, the influence of the microenvironment on tumor heterogeneity is examined. In the first project, we integrate spatial information from spatial transcriptomics datasets and find that neuron-like tumor cells are enriched in regions with high neuronal content, suggesting microenvironmental promoters. Motivated by spatial patterns linked to specific tumor states, we develop a novel computational framework that quantifies niche effects on cellular expression, identifies cell-cell interactions associated with particular tumor phenotypes, and improves spot-level deconvolution by incorporating influences from neighboring cells.
+  Together, these studies dissect temporal and spatial determinants of tumor heterogeneity, especially for GBs. By integrating longitudinal, single-cell, and spatial transcriptomics with new computational methods and experimental validation, we reveal alternative splicing as a driver of post-recurrence neuronal-like states and map microenvironmental interactions that shape tumor phenotypes. This work provides mechanistic insight into chemoresistance and offers testable biomarkers and targets for precision therapies on cancers.
+  TEC
+  Chairperson: Prof Pan HUI
+  Prime Supervisor: Prof Jiguang WANG
+  Co-Supervisor: Prof Can YANG
+  Examiners:
+  Prof Yanlin ZHANG
+  Prof Jun XIA
+  Prof Qinglu ZENG
+  Prof Xiuxing WANG
+  Date
+  19 January 2026
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  Classroom 5501, HKUST
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

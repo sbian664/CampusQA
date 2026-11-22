@@ -1,0 +1,50 @@
+dsa_page: Intelligent Quantitative Investment Technologies Based on Knowledge Base – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/17/knowledge-graph-driven-quantitative-investment/
+source: DSA
+
+headings:
+  - Intelligent Quantitative Investment Technologies Based on Knowledge Base
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Publications
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Intelligent Quantitative Investment Technologies Based on Knowledge Base
+  Abstract
+  This project aims to establish an overall technical solution for intelligent quantitative investment based on financial knowledge mapping, make breakthroughs in key technologies such as financial knowledge extraction and updating, knowledge-centered intelligent energy investment, and interpretability of intelligent quantitative investment models, and apply the technology to typical scenarios of quantitative investment, so as to improve the accuracy and credibility of the application of artificial intelligence in the field of quantitative investment.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Publications
+  1. Triple-d: Denoising Distant Supervision for High-quality Data Creation. Xinyi Zhu, Yongqi Zhang, Lei Chen, and Kai Chen. ICDE 2024.
+  2.
+  HIT-An Effective Approach to Build a Dynamic Financial Knowledge Base
+  . Xinyi Zhu, Hao Xin, Yanyan Shen, and Lei Chen. DASFAA 2023.
+  3.
+  T-FinKB: A Platform of Temporal Financial Knowledge Base Construction
+  . Xinyi Zhu, Liping Wang, Hao Xin, Xiaohan Wang, Zhifeng Jia, Jiyao Wang, Chunming Ma, Yuxiang Zeng. ICDE 2023.
+  4.
+  TE-DyGE: Temporal Evolution-Enhanced Dynamic Graph Embedding Network
+  . Liping Wang, Yanyan Shen, and Lei Chen. DASFAA 2023.
+  5.
+  Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey.
+  Liping Wang, Jiawei Li, Lifan Zhao, Zhizhuo Kou, Xiaohan Wang, Xinyi Zhu, Hao Wang, Yanyan Shen, and Lei Chen. arxiv 2023.
+  Research Area
+  Sector-Specific Data Analytics
+  Keywords
+  Dynamic knowledge fusion,Dynamic knowledge graph representation,Explainable AI,Human-interacted knowledge extraction,Knowledge update,Knowledge-driven prediction model,Prediction model with incremental learning
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | http://lccpu22.cse.ust.hk:8003/new/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  - HIT-An Effective Approach to Build a Dynamic Financial Knowledge Base | https://link.springer.com/chapter/10.1007/978-3-031-30672-3_48
+  - T-FinKB: A Platform of Temporal Financial Knowledge Base Construction | https://ieeexplore.ieee.org/iel7/10184508/10184509/10184672.pdf
+  - TE-DyGE: Temporal Evolution-Enhanced Dynamic Graph Embedding Network | https://www.researchgate.net/publication/370044337_TE-DyGE_Temporal_Evolution-Enhanced_Dynamic_Graph_Embedding_Network
+  - Methods for Acquiring and Incorporating Knowledge into Stock Price Prediction: A Survey. | https://arxiv.org/pdf/2308.04947

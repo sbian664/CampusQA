@@ -1,0 +1,34 @@
+dsa_page: A Survey on Large Language Models ForData Cleaning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/a-survey-on-large-language-models-fordata-cleaning/
+source: DSA
+
+headings:
+  - A Survey on Large Language Models ForData Cleaning
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Large Language Models ForData Cleaning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LI Changlun
+  Abstract
+  Data cleaning is a critical prerequisite for reliable data analysis and machine learning, yet it often remains a labor-intensive and challenging process. The emergence of Large Language Models (LLMs) presents new opportunities to automate and enhance various data cleaning tasks. This survey provides a comprehensive overview of the application of LLMs to data cleaning. We begin by motivating the use of LLMs, contrasting their capabilities with traditional cleaning techniques. We then cover fundamental background concepts in both data cleaning and LLMs. The core of the survey explores how LLMs are being leveraged for specific cleaning tasks, including missing value imputation and data transformation, highlighting their ability to handle complex data types and infer contextual information. We discuss the significant advantages, such as improved automation and semantic understanding, alongside current challenges like computational cost, interpretability, and potential biases. Finally, we outline key promising future research directions, emphasizing AI agentic data cleaning, domain-specific LLM specialization, advanced human-computer interaction, and cost-effective data cleaning, which are poised to further revolutionize the field. This survey aims to synthesize the current landscape and inspire future work in harnessing LLMs for more intelligent and efficient data quality assurance.
+  PQE Committee
+  Chair of Committee: Prof. WANG Wei
+  Prime Supervisor: Prof. TANG Nan
+  Co-Supervisor: Prof. LUO Yuyu
+  Examiner: Prof. YANG Weikai
+  Date
+  11 June 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-148 (HKUST-GZ)

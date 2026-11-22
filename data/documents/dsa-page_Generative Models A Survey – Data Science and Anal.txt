@@ -1,0 +1,44 @@
+dsa_page: Generative Models: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/pqe-generative-models-a-survey/
+source: DSA
+
+headings:
+  - Generative Models: A Survey
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Audience
+
+text: >
+  PhD Qualifying-Exam
+  Generative Models: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Yihong LUO
+  Abstract
+  Generative models, thanks to deep neural networks, are an unsupervised learning paradigm capable of effectively learning from a large amount of unlabeled data. In recent years, generative models have achieved significant success in a wide range of real-world scenarios, including but not limited to image generation, image editing, and the creation of synthetic data for training discriminative models. There are a variety of generative models, including generative adversarial networks, variational autoencoders, normalizing flows, energy-based models, and diffusions. To this day, thanks to advancements in GPU computing power and algorithmic improvements, it is possible for us to generate images that are indistinguishable from real ones. However, different types of generative models have their own strengths and weaknesses. The key to further enhancing the capabilities of existing generative models lies in having a deep understanding of the existing models and knowing the characteristics of different generative models. In view of this, this article provides an overview of existing deep generative models. Specifically, we will delve into popular generative models and introduce some important variants of each type. Additionally, we detailed the strengths and weaknesses of each model. At the end of the survey, we make a brief summarize of each generative model. Moreover, we briefly introduce two new competitive models that we have recently designed in the field of generative models, aiming to overcome the limitations of existing generative models; as well as our outlook on future work.
+  Zoom Link
+  PQE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Dr. Jing TANG
+  Co-Supervisor: Dr. Mingming FAN
+  Examiner: Dr. Lei LI
+  Date
+  23 January 2024
+  Time
+  13:30:00 -
+  15:00:00
+  Location
+  E3-2F-201, Guangzhou Campus
+  Join Link
+  Zoom Meeting ID:
+  837 9508 2845
+  Passcode: dsa2024
+  Audience
+  All are welcome!
+
+links:
+  - Zoom Link | https://hkust-gz-edu-cn.zoom.us/j/83795082845?pwd=A3eBznbd5yZ6lGslYVELQToYftOeaY.1

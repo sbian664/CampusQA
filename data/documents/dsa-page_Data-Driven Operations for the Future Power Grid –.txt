@@ -1,0 +1,33 @@
+dsa_page: Data-Driven Operations for the Future Power Grid – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/17/data-driven-operations-for-the-future-power-grid/
+source: DSA
+
+headings:
+  - Data-Driven Operations for the Future Power Grid
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Data-Driven Operations for the Future Power Grid
+  Share to
+  ABSTRACT
+  Is artificial intelligence really required in the electricity sector? In this talk, we look at how AI techniques can aid the power grid transition by addressing the challenges posed by large-scale renewable energy integration. The efficiency of the power grid is specifically dependent on system operation and market design, and the stochastic nature of renewable generation fails the classical operation techniques and market designs. Fortunately, AI offers an intriguing solution for dealing with such failures by digitalizing the power grid. To that end, we will share three stories to show our AI-driven efforts toward a more efficient power grid. We begin with data acquisition and utilization in the power grid, which serves as the foundation for any AI method. We take user profiling as an example to show how privacy-preserving techniques can impact data utilization. The data-driven power system operation framework is then introduced, and the main challenges in designing an AI-aided toolbox are highlighted. Finally, using storage sharing in an industrial park as an example, we will briefly share our perspective on emerging business models in the electricity market.
+  SPEAKER BIO
+  Dr. Chenye Wu is the Assistant Dean for Education and an Assistant Professor at the School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen. In 2009, he earned his bachelor's degree in electronic engineering from Tsinghua University, and in 2013, he received his Ph.D. in computer science and engineering from Tsinghua University, where he was advised by Prof. Andrew Yao, the Turing Award laureate. From 2014 to 2016, he was a postdoc fellow at Berkeley hosted by Prof. Kameshwar Poolla and the late Prof. Pravin Varaiya. Dr. Wu has published more than 80 research papers in major journals and conferences in the field, such as IEEE Transactions on Power Systems, IEEE Transactions on Smart Grid, and IEEE Transactions on Sustainable Energy. Since February 2022, he has served on the IEEE Systems Journal Editorial Board. He is a co-recipient of three best paper awards, including the IEEE SmartGridComm 2012 best paper award and the IEEE PES General Meeting 2013 and 2020 best paper awards.
+  Date
+  19 February 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

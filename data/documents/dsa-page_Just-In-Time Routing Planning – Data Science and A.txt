@@ -1,0 +1,37 @@
+dsa_page: Just-In-Time Routing Planning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/just-in-time-routing-planning/
+source: DSA
+
+headings:
+  - Just-In-Time Routing Planning
+  - Abstract
+  - Project members
+  - Lei LI
+  - Xiaofang ZHOU
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Just-In-Time Routing Planning
+  Abstract
+  In this project, we revisit the problem of the current routing system in terms of prediction scalability and routing result optimality. Specifically, the current traffic prediction models are not suitable for large urban networks due to the incomplete information of traffic conditions. Besides, existing routing systems can only plan the routes based on the past traffic conditions and struggle to update the optimal route for vehicles in real-time. As a result, the actual route taken by vehicles is different from the ground-truth optimal path. Therefore, we propose a Just-In-Time Predictive Route Planning framework to tackle these two problems. Firstly, we propose a Travel Time Constrained Top-kn Shortest Path algorithm which pre-computes a set of candidate paths with several switch points. This empowers vehicles to continuously have the opportunity to switch to better paths taking into account real-time traffic condition changes. Moreover, we present a query-driven prediction paradigm with ellipse-based searching space estimation, along with an efficient multi-queries handling mechanism. This not only allows for targeted traffic prediction by prioritizing regions with valuable yet outdated traffic information, but also provides optimal results for multiple queries based on real-time traffic evolution. Evaluations on two real-life road networks demonstrate the effectiveness and efficiency of our framework and methods.
+  Project members
+  Lei LI
+  Assistant Professor
+  Xiaofang ZHOU
+  Chair Professor
+  Publications
+  A Just-In-Time Framework for Continuous Routing. Ziyi Liu, Lei Li, Mengxuan Zhang, Wen Hua, Xiaofang Zhou, and Xiao Fang Zhou. ICDE 2024
+  Project Period
+  2023 - Present
+  Research Area
+  Graph, Transportation
+  Keywords
+  Continuous, Diversified, Dynamic, Graph, Route Planning, Transportation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf | https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf

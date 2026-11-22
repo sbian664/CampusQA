@@ -1,0 +1,61 @@
+dsa_page: Data-driven AI & Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/data-driven-ai-machine-learning/
+source: DSA
+
+headings:
+  - A Co-training Approach for Noisy Time Series Learning
+  - A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  - All in One: Multi-Task Prompting for Graph Neural Networks
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation
+  - Auditing Membership Leakages of Multi-Exit Networks
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  - Data Acquisition
+  - Data Matching
+  - Data Poisoning Attacks Against Multimodal Encoders
+
+text: >
+  Search
+  No data.
+  A Co-training Approach for Noisy Time Series Learning
+  Jia LI, Fugee TSUNG
+  Co-training, Contrastive Learning, Noisy Data, Time Series
+  A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment
+  Jia LI
+  Fused Gromov-Wasserstein distance, knowledge graphs
+  A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  Xinlei HE
+  Hyperparameter Stealing, t-SNE
+  All in One: Multi-Task Prompting for Graph Neural Networks
+  Jia LI
+  graph neural networks, Pre-training, Prompt Tuning
+  Alleviating Over-smoothing for Unsupervised Sentence Representation
+  Jia LI
+  Pre-trained Language Models, Self-Contrastive Learning
+  Auditing Membership Leakages of Multi-Exit Networks
+  Xinlei HE
+  Membership Inference Attack, Multi-Exit Networks
+  Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  Xinlei HE
+  Contrastive Learning, Image Encoder, Model Stealing
+  Data Acquisition
+  Nan TANG, Yuyu LUO
+  acquisition, ML, training data
+  Data Matching
+  Nan TANG
+  AI, matching
+  Data Poisoning Attacks Against Multimodal Encoders
+  Xinlei HE
+  Multimodal, Poisoning
+
+links:
+  - A Co-training Approach for Noisy Time Series Learning Jia LI, Fugee TSUNG Co-training, Contrastive Learning, Noisy Data, Time Series | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-co-training-approach-for-noisy-time-series-learning/
+  - A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment Jia LI Fused Gromov-Wasserstein distance, knowledge graphs | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-fused-gromov-wasserstein-framework-for-unsupervised-knowledge-graph-entity-alignment/
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots Xinlei HE Hyperparameter Stealing, t-SNE | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-plot-is-worth-a-thousand-words-model-information-stealing-attacks-via-scientific-plots/
+  - All in One: Multi-Task Prompting for Graph Neural Networks Jia LI graph neural networks, Pre-training, Prompt Tuning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/all-in-one-multi-task-prompting-for-graph-neural-networks/
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation Jia LI Pre-trained Language Models, Self-Contrastive Learning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/alleviating-over-smoothing-for-unsupervised-sentence-representation/
+  - Auditing Membership Leakages of Multi-Exit Networks Xinlei HE Membership Inference Attack, Multi-Exit Networks | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/auditing-membership-leakages-of-multi-exit-networks/
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders Xinlei HE Contrastive Learning, Image Encoder, Model Stealing | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/cant-steal-cont-steal-contrastive-stealing-attacks-against-image-encoders/
+  - Data Acquisition Nan TANG, Yuyu LUO acquisition, ML, training data | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/data-acquisition/
+  - Data Matching Nan TANG AI, matching | https://dsa.hkust-gz.edu.cn/blog/2023/04/08/data-matching/
+  - Data Poisoning Attacks Against Multimodal Encoders Xinlei HE Multimodal, Poisoning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/data-poisoning-attacks-against-multimodal-encoders/

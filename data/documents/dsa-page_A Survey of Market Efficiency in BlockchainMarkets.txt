@@ -1,0 +1,34 @@
+dsa_page: A Survey of Market Efficiency in BlockchainMarkets – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/a-survey-of-market-efficiency-in-blockchainmarkets/
+source: DSA
+
+headings:
+  - A Survey of Market Efficiency in BlockchainMarkets
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Market Efficiency in BlockchainMarkets
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. WANG, Shuzheng
+  Abstract
+  Blockchain markets allocate blockspace, execute trades, and aggregate information through programmable mechanisms. Their public records make transactions, fees, states, traces, bids, liquidity positions, and settlement outcomes observable at scale, yet market efficiency in these systems cannot be inferred from observability alone. This survey studies blockchain-native markets as mechanism-mediated markets whose outcomes are shaped by protocol rules, strategic behavior, private information, liquidity conditions, and settlement design. It reviews three domains of market efficiency. In blockspace and builder markets, efficiency concerns the allocation of inclusion, ordering, and data-availability resources under transaction fee mechanisms, MEV, proposer-builder separation, private order flow, and builder concentration. In decentralized finance, efficiency concerns the interaction between trader-side execution quality and liquidity-provider welfare under AMMs, concentrated liquidity, arbitrage, sandwich attacks, routing frictions, and loss-versus-rebalancing. In event markets, efficiency concerns whether prices can serve as accurate and timely probabilities despite thin liquidity, CLOB microstructure, oracle resolution, and cross-market consistency constraints. Across these domains, the survey uses a mechanism–benchmark–friction–measurement framework to compare how different studies define efficient outcomes, identify deviations, and approximate those deviations from observable data. The resulting view is that blockchain transparency creates unusually rich measurement opportunities, but efficiency analysis still depends on carefully chosen benchmarks because many relevant alternatives to the observed outcome cannot be directly observed.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. TSUNG, Fu-Gee (online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  10 June 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-147, HKUST(GZ)

@@ -1,0 +1,40 @@
+dsa_page: Inference on Selected Subgroup: One Subgroup, Two Trials, and Three Evaluations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/10/inference-on-selected-subgroup-one-subgroup-two-trials-and-three-evaluations/
+source: DSA
+
+headings:
+  - Inference on Selected Subgroup: One Subgroup, Two Trials, and Three Evaluations
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Inference on Selected Subgroup: One Subgroup, Two Trials, and Three Evaluations
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  When a promising subgroup is identified from an unsuccessful trial with a broad target population, we often need to evaluate and possibly confirm the selected subgroup with a follow-up validation trial. A direct evaluation of the subgroup from the subjects in both trials is not recommended because of the risk of data snooping. An evaluation based solely on the validation trial is free of bias, but does not make full use of the data in the earlier trial. We show that it is possible to utilize data from both trials to improve the efficiency of post-selection subgroup evaluation. In particular, we propose a new resampling-based approach to quantify and remove selection bias and then to perform data combination from both trials for valid and efficient inference on selected subgroup. The proposed method is model-free and asymptotically sharp. We demonstrate the merit of the proposed method by revisiting the panitumumab trial and show how much data combination could help improve efficiency of clinical trials when a promising subgroup is identified post hoc from part of the data.
+  SPEAKER BIO
+  Xinzhou GUO
+  Assistant Professor
+  Hong Kong University of Science and Technology
+  Xinzhou Guo is an Assistant Professor in the Department of Mathematics at the Hong Kong University of Science and Technology. He received his B.S. in Applied Mathematics from Peking University and Ph.D. in Statistics from the University of Michigan. Prior to joining HKUST in 2021, he did a postdoc at Harvard University. His main research interests are subgroup analysis, resampling methods, precision medicine and regulatory decision-making. Rising Star Award and 2021 TPDS Best Paper Award. He also served as PC co-chair for WISE 2023.
+  Date
+  12 April 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  797-195-955
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,166 @@
+dsa_page: 2025 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/07/2025-cohort/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2025 Cohort
+  Day: January 7, 2026
+  Browse: 377
+  Share to
+  CHEN, Yiyun
+  PhD(DSA)
+  CHEN, Yongzhi
+  PhD(DSA)
+  CHEN, Yuhan
+  PhD(DSA)
+  CHEN, Zechao
+  PhD(DSA)
+  CHU, Hongru
+  PhD(DSA)
+  DI, Na
+  PhD(DSA)
+  DUAN, Hongyi
+  PhD(DSA)
+  FANG, Zheng
+  PhD(DSA)
+  GU, Yufei
+  PhD(DSA)
+  HAO, Chenxi
+  PhD(DSA)
+  HE, Yuhang
+  PhD(DSA)
+  HOU, Yusen
+  PhD(DSA)
+  HU, Chuhan
+  PhD(DSA)
+  HUANG, Guang
+  PhD(DSA)
+  HUANG, Junlin
+  PhD(DSA)
+  JIANG, Junjie
+  PhD(DSA)
+  JIAO, Xiaoqian
+  PhD(DSA)
+  LI, Cong
+  PhD(DSA)
+  LI, Junyi
+  PhD(DSA)
+  LI, Xin
+  PhD(DSA)
+  LI, Yifan
+  PhD(DSA)
+  LI, Yifan
+  PhD(DSA)
+  LI, Zhihui
+  PhD(DSA)
+  LI, Zhiwei
+  PhD(DSA)
+  LIANG, Zhuowen
+  PhD(DSA)
+  LIU, Jiyang
+  PhD(DSA)
+  LIU, Yuanbang
+  PhD(DSA)
+  PAN, Duyi
+  PhD(DSA)
+  PENG, Zhangyang
+  PhD(DSA)
+  PU, Yuhan
+  PhD(DSA)
+  QIAO, Jingbo
+  PhD(DSA)
+  RUAN, Chenxi
+  PhD(DSA)
+  TAN, Youshuai
+  PhD(DSA)
+  WANG, Fan
+  PhD(DSA)
+  WANG, Peisong
+  PhD(DSA)
+  WANG, Xiaotang
+  PhD(DSA)
+  WU, Fei
+  PhD(DSA)
+  WU, Yaohui
+  PhD(DSA)
+  WU, Yiwen
+  PhD(DSA)
+  XIAO, Ruiqiang
+  PhD(DSA)
+  XU, Jing
+  PhD(DSA)
+  YE, Fuda
+  PhD(DSA)
+  YOU, Huajie
+  PhD(DSA)
+  YU, Haitao
+  PhD(DSA)
+  ZHANG, Cheng
+  PhD(DSA)
+  ZHANG, Kaijie
+  PhD(DSA)
+  ZHANG, Teng
+  PhD(DSA)
+  ZHANG, Zongmin
+  PhD(DSA)
+  ZHENG, Zinan
+  PhD(DSA)
+  ZHOU, Hange
+  PhD(DSA)
+  ZHOU, Xinyu
+  PhD(DSA)
+  ZHOU, Zikai
+  PhD(DSA)
+  ZHU, Yanchen
+  PhD(DSA)
+  ZHU, Yizhang
+  PhD(DSA)
+  ZI, Chenyi
+  PhD(DSA)
+  ZOU, Jingyi
+  PhD(DSA)
+  ZOU, Xingchen
+  PhD(DSA)
+  SUN, Zihan
+  PhD(DSA)
+  WANG, Shuai
+  PhD(DSA)
+  SHUAI, Zhihao
+  PhD(DSA)
+  LI, Xin
+  PhD(DSA)
+  BAI, Xueyin
+  PhD(DSA)
+  GU, Cheng
+  PhD(DSA)
+  GUO, Zhiyu
+  PhD(DSA)
+  HE, Yuqiang
+  PhD(DSA)
+  HUANG, Yue
+  PhD(DSA)
+  LIU, Shiwen
+  PhD(DSA)
+  PANG, Zirui
+  PhD(DSA)
+  WANG, Haocheng
+  PhD(DSA)
+  XU, Mingjie
+  PhD(DSA)
+  XU, Minrui
+  PhD(DSA)
+  YANG, Hangyu
+  PhD(DSA)
+  YE, Feiye
+  PhD(DSA)
+  YU, Qihan
+  PhD(DSA)
+  YU, Yanlin
+  PhD(DSA)
+  ZHANG, Hengming
+  PhD(DSA)
+  LU, Chenyu
+  PhD(DSA)

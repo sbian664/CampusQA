@@ -1,0 +1,40 @@
+dsa_page: LLM Agents for Data Science Workflows: A Survey on Data Processing, Analysis, andReliable Execution – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/20/llm-agents-for-data-science-workflows-a-survey-on-data-processing-analysis-andreliable-execution/
+source: DSA
+
+headings:
+  - LLM Agents for Data Science Workflows: A Survey on Data Processing, Analysis, andReliable Execution
+  - Abstract
+  - PQE Committe
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  LLM Agents for Data Science Workflows: A Survey on Data Processing, Analysis, andReliable Execution
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. WU, Zuohan
+  Abstract
+  Data analysis is a sequence of decisions whose effects accumulate as data are cleaned, linked, transformed, and summarized. Large language models (LLMs) can reduce expert effort by interpreting ambiguous fields, generating code, and revising operations from execution results. These judgments become useful only within a compositional workflow, while successful execution does not establish their correctness or that of downstream operations. This survey examines two directions of integration. First, symbolic data systems invoke LLMs as semantic operators in query languages, processing pipelines, or database plans. Second, LLM-led workflows invoke symbolic systems to execute or verify generated actions. The comparison asks which side invokes the other and where the resulting LLM output is bound. It then identifies which failure becomes observable and what uncertainty remains. The gap between valid execution and valid analysis motivates ontology-backed symbolic layers that connect domain knowledge to analytical operations and execution evidence.
+  PQE Committe
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. ZHANG, Yongqi
+  Examiner: Prof. LUO, Yuyu
+  Date
+  31 July 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

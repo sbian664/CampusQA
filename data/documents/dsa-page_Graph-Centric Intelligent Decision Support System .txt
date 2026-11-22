@@ -1,0 +1,50 @@
+dsa_page: Graph-Centric Intelligent Decision Support System with Application in Inventory Management – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/14/graph-centric-intelligent-decision-support-system-with-application-in-inventory-management/
+source: DSA
+
+headings:
+  - Graph-Centric Intelligent Decision Support System with Application in Inventory Management
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Graph-Centric Intelligent Decision Support System with Application in Inventory Management
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Luxuan WANG
+  ABSTRACT
+  This thesis addresses the inadequacy of conventional decision support systems in managing the complexity of modern inventory management. These traditional systems, which rely on simplified models and structured data, often result in significant inefficiencies. To overcome these limitations, a novel, graph-centric intelligent decision support system is proposed.
+  The new framework has three core technical contributions. First, it utilizes Large Language Models (LLMs) to automatically construct a knowledge graph, which unifies heterogeneous data into a semantic whole. Second, it employs a self-supervised representation learning method, to capture complex temporal patterns from unlabeled time-series data. This avoids the ”false-negative” problem common in traditional methods. Finally, an End-to-End Inventory Replenishment Framework based on Temporal Graph Neural Networks is introduced. This integrates the structural and dynamic layers to predict future network states, infer unobserved production functions, and generate proactive, cost-optimized replenishment decisions.
+  Validated with large-scale, real-world datasets from semiconductor manufacturing and logistics, the integrated system demonstrates state-of-the-art performance, significantly outperforming existing baselines. This research presents a new paradigm for creating adaptive, data-driven decision support systems capable of managing the complexities of modern socio-technical systems.
+  TEC
+  Chairperson: Prof Hai-Ning LIANG
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Wenjia WANG
+  Examiners:
+  Prof Kaishun WU
+  Prof Lei ZHU
+  Prof Ruiting ZUO
+  Prof Zijun ZHANG
+  Date
+  14 August 2025
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E4-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 953 4380 9695
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

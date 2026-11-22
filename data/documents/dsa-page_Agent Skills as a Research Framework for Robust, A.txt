@@ -1,0 +1,34 @@
+dsa_page: Agent Skills as a Research Framework for Robust, Adaptive, andSelf-Improving LLM Agents – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/agent-skills-as-a-research-framework-for-robust-adaptive-andself-improving-llm-agents/
+source: DSA
+
+headings:
+  - Agent Skills as a Research Framework for Robust, Adaptive, andSelf-Improving LLM Agents
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Agent Skills as a Research Framework for Robust, Adaptive, andSelf-Improving LLM Agents
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. DENG, Mengyi
+  Abstract
+  Large language model agents increasingly operate through prompts, tools, memory, environments, evaluators, and user interaction loops rather than through a single model invocation. This critical survey argues that these mechanisms can be studied under a unified notion of agent skills: reusable procedural capabilities that determine how an agent reasons, invokes tools, interprets feedback, asks for missing information, and improves over time. The main research question is therefore not how to hand-engineer stronger scaffolds in isolation, but how to represent, route, evaluate, evolve, govern, and internalize skills so that agents remain robust and transferable under distribution shift. The survey synthesizes work on tool-using agents, prompt and scaffold design, harness and evaluation infrastructure, environment-grounded interaction, skill libraries, recursive skill evolution, skill internalization, uncertainty-aware clarification, and preference-based optimization. Clarification is treated as one concrete branch of this broader skill problem: a learnable information-seeking capability for resolving underspecified user intent. Across these branches, the central tension is between external modular skills, which are inspectable and updateable, and internalized skills, which reduce context overhead and retrieval error but are harder to audit. The report concludes with a PQE-oriented research agenda for self-evolving skill ecosystems, harness-driven agent learning, environment-grounded feedback, and uncertainty-aware skill selection.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WANG, Wei
+  Co-Supervisor: Prof. GUO, Zhijiang
+  Examiner: Prof. LI, Lei
+  Date
+  10 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-150, HKUST(GZ)

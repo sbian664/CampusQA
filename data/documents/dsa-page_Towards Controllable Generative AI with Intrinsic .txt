@@ -1,0 +1,32 @@
+dsa_page: Towards Controllable Generative AI with Intrinsic Reasoning Capabilities – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/20/towards-controllable-generative-ai-with-intrinsic-reasoning-capabilities/
+source: DSA
+
+headings:
+  - Towards Controllable Generative AI with Intrinsic Reasoning Capabilities
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Controllable Generative AI with Intrinsic Reasoning Capabilities
+  Share to
+  ABSTRACT
+  Generative AI has become a transformative paradigm that enables machines to produce high-quality content such as images, language, and audio. However, beyond creating charming and coherent outputs, these systems must reason — steering their generations to satisfy specific properties. For instance, in science and engineering, this capability could ensure that synthesized molecular structures obey physical constraints or that design blueprints meet safety standards. While sound reasoning techniques from classical symbolic AI can rigorously guarantee these properties, they are often computationally prohibitive and difficult to scale. As a result, many recent approaches rely on scalable yet unsound methods, such as chain-of-thought prompting, which prioritize efficiency over rigorous correctness. In this talk, I will discuss how to design tractable generative AI models as drop-in replacements of existing models like autoregressive Transformers and diffusion models, with the distinguishing capability of sound reasoning. I will demonstrate how such tractable generative models enable high-fidelity yet controllable generations in various domains, and highlight the importance of building generative models with intrinsic reasoning capabilities.
+  SPEAKER BIO
+  Anji Liu is a final-year Ph.D. candidate at the University of California, Los Angeles (UCLA), advised by Professor Guy Van den Broeck. His research interests include Tractable Deep Generative Models, Neurosymbolic learning, and Machine Learning in general. His papers have been recognized with oral and spotlight presentations at top-tier conferences such as NeurIPS, ICML, and ICLR. He won the best paper award in the TEACH workshop at ICML 2023.
+  Date
+  24 March 2025
+  Time
+  14:30:00 -
+  16:00:00
+  Join Link
+  Zoom Meeting ID:
+  955 7490 9954
+  Passcode: dsat
+  Email
+  dsat@hkust-gz.edu.cn

@@ -1,0 +1,48 @@
+dsa_page: NL2SQL – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/nl2sql/
+source: DSA
+
+headings:
+  - NL2SQL
+  - Abstract
+  - Project members
+  - Nan TANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  NL2SQL
+  Abstract
+  NL2SQL (Natural Language to Structured Query Language) translation is a task in natural language processing (NLP) that involves automatically converting natural language queries into SQL queries. This technology is used in database management systems to enable users to interact with databases using natural language queries instead of having to learn SQL. NL2SQL translation involves several sub-tasks, including natural language understanding, semantic parsing, and query generation. The ultimate goal of NL2SQL is to produce an accurate SQL query that accurately reflects the user’s intent and retrieves the desired information from the database.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Nan TANG
+  Associate Professor
+  Publications
+  1.
+  Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+  . Zihui Gu, Ju Fan,
+  Nan Tang
+  , Lei Cao,
+  Bowen Jia, Sam Madden, and Xiaoyong Du.
+  2.
+  PASTA: Table-Operations Aware Fact Verification via Sentence-Table Cloze Pre-training
+  . Zihui Gu, Ju Fan,
+  Nan Tang
+  , Preslav Nakov,
+  Xiaoman Zhao, and Xiaoyong Du.
+  Project Period
+  2022-Present
+  Research Area
+  AI for DB
+  Keywords
+  LLM, NL2SQL
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://nantang.github.io/projects/llmdb-nlsql/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning | https://dl.acm.org/doi/pdf/10.1145/3589292
+  - PASTA: Table-Operations Aware Fact Verification via Sentence-Table Cloze Pre-training | https://arxiv.org/pdf/2211.02816.pdf

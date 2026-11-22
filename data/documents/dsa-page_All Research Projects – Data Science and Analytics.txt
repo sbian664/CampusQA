@@ -1,0 +1,58 @@
+dsa_page: All Research Projects – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/all-research-projects/
+source: DSA
+
+headings:
+  - A Co-training Approach for Noisy Time Series Learning
+  - A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  - All in One: Multi-Task Prompting for Graph Neural Networks
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation
+  - Auditing Membership Leakages of Multi-Exit Networks
+  - Blockchain-based Smart Campus System
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  - Citamon, Digital Assets Sharing and Trading System
+
+text: >
+  Search
+  No data.
+  A Co-training Approach for Noisy Time Series Learning
+  Jia LI, Fugee TSUNG
+  Co-training, Contrastive Learning, Noisy Data, Time Series
+  A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment
+  Jia LI
+  Fused Gromov-Wasserstein distance, knowledge graphs
+  A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  Xinlei HE
+  Hyperparameter Stealing, t-SNE
+  Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  Qiong LUO
+  All in One: Multi-Task Prompting for Graph Neural Networks
+  Jia LI
+  graph neural networks, Pre-training, Prompt Tuning
+  Alleviating Over-smoothing for Unsupervised Sentence Representation
+  Jia LI
+  Pre-trained Language Models, Self-Contrastive Learning
+  Auditing Membership Leakages of Multi-Exit Networks
+  Xinlei HE
+  Membership Inference Attack, Multi-Exit Networks
+  Blockchain-based Smart Campus System
+  Lei CHEN
+  Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  Xinlei HE
+  Contrastive Learning, Image Encoder, Model Stealing
+  Citamon, Digital Assets Sharing and Trading System
+  Lei CHEN
+
+links:
+  - A Co-training Approach for Noisy Time Series Learning Jia LI, Fugee TSUNG Co-training, Contrastive Learning, Noisy Data, Time Series | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-co-training-approach-for-noisy-time-series-learning/
+  - A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment Jia LI Fused Gromov-Wasserstein distance, knowledge graphs | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-fused-gromov-wasserstein-framework-for-unsupervised-knowledge-graph-entity-alignment/
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots Xinlei HE Hyperparameter Stealing, t-SNE | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-plot-is-worth-a-thousand-words-model-information-stealing-attacks-via-scientific-plots/
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/accord-accelerating-big-data-applications-on-heterogeneous-processors/
+  - All in One: Multi-Task Prompting for Graph Neural Networks Jia LI graph neural networks, Pre-training, Prompt Tuning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/all-in-one-multi-task-prompting-for-graph-neural-networks/
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation Jia LI Pre-trained Language Models, Self-Contrastive Learning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/alleviating-over-smoothing-for-unsupervised-sentence-representation/
+  - Auditing Membership Leakages of Multi-Exit Networks Xinlei HE Membership Inference Attack, Multi-Exit Networks | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/auditing-membership-leakages-of-multi-exit-networks/
+  - Blockchain-based Smart Campus System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/blockchain-based-smart-campus-system/
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders Xinlei HE Contrastive Learning, Image Encoder, Model Stealing | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/cant-steal-cont-steal-contrastive-stealing-attacks-against-image-encoders/
+  - Citamon, Digital Assets Sharing and Trading System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/citamon-digital-assets-sharing-and-trading-system/

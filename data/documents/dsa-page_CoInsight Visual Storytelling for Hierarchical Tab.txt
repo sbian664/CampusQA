@@ -1,0 +1,35 @@
+dsa_page: CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/coinsight-visual-storytelling-for-hierarchical-tables-with-connected-insights/
+source: DSA
+
+headings:
+  - CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights
+  - Abstract
+  - Project members
+  - Yuyu LUO
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights
+  Abstract
+  Extracting data insights and generating visual data stories from tabular data are critical parts of data analysis. However, most existing studies primarily focus on tabular data stored as flat tables, typically without leveraging the relations between cells in the headers of hierarchical tables. When properly used, rich table headers can enable the extraction of many additional data stories. To assist analysts in visual data storytelling, an approach is needed to organize these data insights efficiently. In this work, we propose CoInsight, a system to facilitate visual storytelling for hierarchical tables by connecting insights. CoInsight extracts data insights from hierarchical tables and builds insight relations according to the structure of table headers. It further visualizes related data insights using a nested graph with edge bundling. We evaluate the CoInsight system through a usage scenario and a user experiment. The results demonstrate the utility and usability of CoInsight for converting data insights in hierarchical tables into visual data stories.
+  Project members
+  Yuyu LUO
+  Assistant Professor
+  Publications
+  CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights
+  . Guozheng Li, Runfei Li, Yunshan Feng, Yu Zhang, Yuyu Luo, and Chi Harold Liu.
+  Project Period
+  2024
+  Research Area
+  Data Visualization and Infographics
+  Keywords
+  data insight, hierarchical table, table data visualization, Tabular data, visual storytelling
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights | https://luoyuyu.vip/files/CoInsight_PVIS2024.pdf

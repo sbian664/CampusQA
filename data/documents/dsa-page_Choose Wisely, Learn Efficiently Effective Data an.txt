@@ -1,0 +1,53 @@
+dsa_page: Choose Wisely, Learn Efficiently: Effective Data and Model Selection Strategies for Efficient Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/10/14/choose-wisely-learn-efficiently-effective-data-and-model-selection-strategies-for-efficient-machine-learning/
+source: DSA
+
+headings:
+  - Choose Wisely, Learn Efficiently: Effective Data and Model Selection Strategies for Efficient Machine Learning
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Choose Wisely, Learn Efficiently: Effective Data and Model Selection Strategies for Efficient Machine Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Hanmo LIU
+  ABSTRACT
+  This thesis confronts the challenge of enhancing machine learning efficiency by establishing a symbiotic relationship between data and models through mutual selection. It diverges from traditional, unidirectional training pipelines by proposing a framework where models and data intelligently inform one another to optimize knowledge transfer and performance. The research is bifurcated into two primary streams. The first, data-to-model selection, introduces the Knowledge Benchmark Graph to leverage historical performance data, enabling the strategic selection of appropriate models for new datasets without exhaustive retraining. The second, model-to-data selection, presents novel methods for identifying and utilizing the most informative data subsets in complex learning environments. This includes EDSR (Effective Data Selection and Replay) for unsupervised continual learning, which prioritizes high-entropy data, and LTF (Learning Towards the Future) for dynamic temporal graphs, which manages evolving data distributions and emerging classes. Collectively, these methods advance a unified perspective on adaptive learning systems, demonstrating improvements in efficiency and knowledge retention while maintaining high performance.
+  TEC
+  Chairperson: Prof Sihong XIE
+  Prime Supervisor: Prof Can YANG
+  Co-Supervisor: Prof Lei CHEN
+  Examiners:
+  Prof Qiong LUO
+  Prof Yongqi ZHANG
+  Prof Guang ZHANG
+  Prof Xiaokui XIAO
+  Date
+  31 October 2025
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 99563115700
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/99563115700?pwd=KOuqq7YZSGoK4sJtPIpyEiXLqMXajd.1

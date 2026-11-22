@@ -1,0 +1,39 @@
+dsa_page: Embodied Agents for the Outdoor City Scene Understanding – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/12/embodied-agents-for-the-outdoor-city-scene-understanding/
+source: DSA
+
+headings:
+  - Embodied Agents for the Outdoor City Scene Understanding
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  Embodied Agents for the Outdoor City Scene Understanding
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr SUN Penglei
+  Abstract
+  Embodied Artificial Intelligence (AI) in outdoor city scenes has seen remarkable progress, enabling agents to interact with and navigate complex, dynamic real-world environments. This review focuses on the core perception algorithms underpinning these capabilities, crucial for perception and cognition abilities in the urban settings. We delve into the evolution of embodied perception, from detailed object recognition to large-scale environmental understanding. Key challenges are examined, including the persistent trade-off between fine-grained and broad perception, the demand for robust performance amidst unpredictable environmental factors (e.g.,adverse weather, variable lighting, dynamic obstacles), the complexities of multi-sensor fusion and multi-modal information processing, as well as significant computational demands and data scarcity. Methodologies to address these are analyzed, encompassing techniques for hierarchical scene representation, robust sensing strategies, advanced multi-modal fusion architectures, and the integration of large foundation models. The paper also surveys relevant real-world and simulation datasets vital for training and evaluation, alongside metrics used to assess perception performance in urban contexts. By synthesizing recent advancements, this review identifies current research gaps and proposes future directions to foster innovations in resilient and intelligent perception for embodied AI in outdoor city scenes.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. YANG Yang
+  Examiner: Prof. ZHANG Yongqi
+  Date
+  12 June 2025
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-103
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/95208376529?pwd=SziwKdp1muzeQTtLdhaJFLWAhmHh2Y.1

@@ -1,0 +1,39 @@
+dsa_page: Mine Gold in Your Data: Data-centric Learning in 3D Object Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/20/mine-gold-in-your-data-data-centric-learning-in-3d-object-detection/
+source: DSA
+
+headings:
+  - Mine Gold in Your Data: Data-centric Learning in 3D Object Detection
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Mine Gold in Your Data: Data-centric Learning in 3D Object Detection
+  Share to
+  ABSTRACT
+  In the era of data abundance, the challenge in 3D object detection is no longer just building deeper models but selecting the right data to train them. This talk will explore data-centric learning as a pivotal approach, addressing the critical question of which data to select to boost model performance and enhance generalization. We will present our recent works in this area, showcasing strategies for effective data selection and utilization in 3D object detection. The session will also highlight open questions and future directions, emphasizing the untapped potential in data-centric approaches for improving machine learning models.
+  SPEAKER BIO
+  Yadan LUO
+  Lecturer
+  University of Queensland
+  Yadan Luo is an ARC DECRA Fellow and Lecturer at the School of EECS, University of Queensland (UQ), Australia. Her research centers on improving the generalization capacity of machine learning models through domain adaptation, domain generalization, and active learning techniques. She has been an Area Chair for ACM MM and has contributed as a Program Committee member for major conferences such as CVPR, ICCV, ECCV, ICLR, and ICML. Yadan is a recipient of several accolades, including the Google PhD Fellowship, ICT Young Achiever, and Women in Technology (WiT) awards, alongside multiple research awards including the Best Student Paper from ACM Multimedia.
+  Date
+  22 November 2023
+  Time
+  13:30:00 -
+  14:30:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  815 7885 4797
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

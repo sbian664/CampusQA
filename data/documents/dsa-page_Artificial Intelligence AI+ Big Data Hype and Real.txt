@@ -1,0 +1,27 @@
+dsa_page: Artificial Intelligence (AI)+ Big Data: Hype and Reality – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/01/big-data-hype-and-reality/
+source: DSA
+
+headings:
+  - Artificial Intelligence (AI)+ Big Data: Hype and Reality
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Artificial Intelligence (AI)+ Big Data: Hype and Reality
+  Share to
+  ABSTRACT
+  Big Data became a hot topic about two decades ago in both industry and the research community. For the most part, those developments were initially triggered by the requirements of Web 2.0 (e-commerce and social media) companies. Both technical and non-technical issues continued to fuel the rapid pace of developments in the Big Data space. Open source and non-traditional software entities also played key roles in the latter. As it happens with any emerging technology, there was a fair amount of hype that accompanied the work being done in the name of Big Data. The set of clear-cut distinctions that were made initially between Big Data systems and traditional database management systems got blurred as the needs of the broader set of (real world) users and developers came into sharper focus, and the hype subsided. In the last decade, artificial intelligence (AI) has reemerged after having been out of fashion for a long time. Initially, it was fueled by developments around Deep Learning (DL). Of late, it is on fire with the popularity of Large Language Models (LLMs), and with the founding of startups like Anthropic, DeepSeek, OpenAI and xAI. Major vendors like Alibaba, AWS, Google, IBM, Meta and Nvidia have pivoted to focus on AI related work. In this talk, I will survey the developments in the AI and Big Data spaces and try to distill reality from the hype!
+  SPEAKER BIO
+  Dr. C. Mohan is currently a Distinguished Professor of Science at Hong Kong Baptist University, a Distinguished Visiting Professor at Tsinghua University in China, and a member of the inaugural Board of Governors of Digital University Kerala in India. He retired in 2020 from being an IBM Fellow at the IBM Almaden Research Center in Silicon Valley. He was an IBM researcher for 38.5 years in the database, blockchain, AI and related areas, impacting numerous IBM and non-IBM products, the research and academic communities, and standards, especially with his invention of the well-known ARIES family of database locking and recovery algorithms, and the Presumed Abort distributed commit protocol. This IBM (1997-2020), ACM (2002-) and IEEE (2002-) Fellow has also served as the IBM India Chief Scientist (2006-2009). In addition to receiving the ACM SIGMOD Edgar F. Codd Innovations Award (1996), the VLDB 10 Year Best Paper Award (1999) and numerous IBM awards, Mohan was elected to the United States and Indian National Academies of Engineering (2009). This Distinguished Alumnus of IIT Madras (1977) received his PhD at the University of Texas at Austin (1981). He is an inventor of 50 patents.
+  Date
+  10 December 2025
+  Time
+  16:00:00 -
+  17:30:00
+  Location
+  E1 102, HKUST(GZ)

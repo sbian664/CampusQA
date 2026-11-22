@@ -1,0 +1,33 @@
+fytgs_page: HKUST & HKUST(GZ) Virtual Fair on MPhil and PhD Studies
+url: https://fytgs.hkust-gz.edu.cn/discover/events/hkust-hkustgz-virtual-fair-on-mphil-and-phd-studies
+source: FYTGS
+
+headings:
+
+text: >
+  Embark on a journey of academic exploration at the
+  HKUST & HKUST(GZ) Virtual Fair on MPhil and PhD Studies
+  . This prestigious event offers a comprehensive platform to delve into the diverse array of postgraduate opportunities available at HKUST and HKUST(GZ). Engage in live chats to gather valuable insights, application tips, and study advice tailored to your academic aspirations.
+  The Virtual Fair will commence with an
+  introduction talk on research postgraduate studies at HKUST and HKUST(GZ)
+  ,
+  presented by
+  Prof. Charles W. W. NG
+  , Dean of HKUST Fok Yung Tung Graduate School and Vice-President for Graduate Support of HKUST(GZ). This session promises to provide the latest updates on academic developments and illuminate the path to a promising academic future.
+  More information and support about admissions
+  are available:
+  Firsthand and enriching research experiences
+  at HKUST(GZ) shared by
+  international students
+  Admission talks
+  covering program-specific details across
+  different disciplines
+  One-on-one live consultation
+  as well as
+  general and program-specific admission information
+  in individual virtual booths
+  Register Now!
+
+links:
+  - different disciplines | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog
+  - Register Now! | https://fytgs.hkust.edu.hk/virtualfair-reg

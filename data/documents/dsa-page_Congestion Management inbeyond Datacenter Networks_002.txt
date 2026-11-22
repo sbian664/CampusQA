@@ -1,0 +1,27 @@
+dsa_page: Congestion Management in/beyond Datacenter Networks: Pyrrha as a case – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/06/congestion-management-in-beyond-datacenter-networks-pyrrha-as-a-case/
+source: DSA
+
+headings:
+  - Congestion Management in/beyond Datacenter Networks: Pyrrha as a case
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Congestion Management in/beyond Datacenter Networks: Pyrrha as a case
+  Share to
+  ABSTRACT
+  Congestion management, including congestion control and flow control, plays a critical role in the performance of datacenter networks. Due to the growth of port bandwidth and the scale of data center applications, new opportunities appear in this classic research area. A large number of researches are published recently. In this talk, I will first briefly review the status quo. I will then present our recent progresses in this field, which stick to our own motto "Congestion Control is Dead, Long Live Flow Control". At last I will talk about possible future directions of congestion management, especially those beyond datacenter networks, e.g., inter-datacenter and intra-router networks，especially our new paper Pyrrha in NSDI 2025.
+  SPEAKER BIO
+  Chen Tian, is currently a professor and doctoral supervisor at the School of Computer Science, Nanjing University. In 2023, he was selected for the National Science Fund for Distinguished Young Scholars. His research expertise lies in computer networks and distributed systems. He has published more than 100 papers in top academic conferences and renowned international journals in the fields of computer networks and distributed systems, such as SIGCOMM, NSDI, OSDI, FAST, SIGMOD, PPoPP, and Eurosys. He proposed a congestion management concept centered on traffic control for next-generation data center networks, designed a stateful programmable network tester with independent intellectual property rights, led the realization of large-scale parallel acceleration of open-source network simulation software, and served as the rotating chairman of the OpenNetLab international network testbed.
+  Date
+  12 August 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-201, HKUST-GZ

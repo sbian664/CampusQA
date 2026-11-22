@@ -1,0 +1,44 @@
+dsa_page: A Survey on Efficient Large Language ModelServing System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/20/a-survey-on-efficient-large-language-modelserving-system/
+source: DSA
+
+headings:
+  - A Survey on Efficient Large Language ModelServing System
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Efficient Large Language ModelServing System
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Xuemei Peng
+  Abstract
+  Large Language Models (LLMs) have become ubiquitous in various applications, ranging from natural language processing to complex decision-making tasks. With their increasing prevalence, the need for an efficient LLM serving system is critical to ensure both optimal performance and effective resource utilization. This survey explores the latest techniques for optimizing LLM serving, offering a comprehensive overview that includes advancements in memory management, computation optimization, and the development of advanced LLM paradigms. We also present our attempts on improving LLM serving efficiency, featuring innovations such as dynamic request packaging, adaptive GPU resource allocation, and the strategic duplication and merging of pipelines. The experimental results that validate the effectiveness of our approach. Finally, we propose directions for future research in efficient LLM serving, with the goal of further enhancing performance and resource management.
+  PQE Committee
+  Chair of Committee: Prof. Xiaowen CHU
+  Prime Supervisor: Prof. Zeyi WEN
+  Co-Supervisor: Prof. Xinyu CHEN
+  Examiner: Prof. Zeke XIE
+  Date
+  27 November 2024
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E3-105
+  Join Link
+  Zoom Meeting ID:
+  945 2523 7448
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/94525237448?pwd=la3zJQEQTzDycqAUmdOvffEQ3dyEwX.1

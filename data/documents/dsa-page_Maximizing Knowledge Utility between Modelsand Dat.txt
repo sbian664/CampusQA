@@ -1,0 +1,34 @@
+dsa_page: Maximizing Knowledge Utility between Modelsand Data through Mutual Selection Strategies – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/maximizing-knowledge-utility-between-modelsand-data-through-mutual-selection-strategies/
+source: DSA
+
+headings:
+  - Maximizing Knowledge Utility between Modelsand Data through Mutual Selection Strategies
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Maximizing Knowledge Utility between Modelsand Data through Mutual Selection Strategies
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. LIU Hanmo
+  Abstract
+  This thesis investigates how to maximize the utility of knowledge transfer between models and data through mutual selection strategies. We explore two complementary directions: (1) selecting suitable models for a given dataset by leveraging structured prior knowledge, and (2) selecting informative data subsets for training or replay under challenging conditions such as heterogeneity, unsupervised learning, and data evolution. We present methods including the Knowledge Benchmark Graph for data-to-model selection, and EDSR and ILEAHE for model-to-data selection. We maximally utilized the knowledge such that the efficiency of both building and updating models are highly improved while minimally sacrificing effectiveness. Together, these contributions advance a unified view of adaptive selection-based learning systems.
+  TPE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. YANG Can
+  Co-Supervisor: Prof. CHEN Lei
+  Examiner: Prof. ZHANG Yongqi
+  Date
+  09 June 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-149 (HKUST-GZ)

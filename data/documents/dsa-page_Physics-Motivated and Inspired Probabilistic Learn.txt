@@ -1,0 +1,40 @@
+dsa_page: Physics-Motivated and Inspired Probabilistic Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/30/physics-motivated-and-inspired-probabilistic-learning/
+source: DSA
+
+headings:
+  - Physics-Motivated and Inspired Probabilistic Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA & AIoT Joint Seminar
+  Physics-Motivated and Inspired Probabilistic Learning
+  Share to
+  ABSTRACT
+  AI has emerged as the most transformative and revolutionary technique, reshaping many aspects of our lives. Its intersection with science, particularly physics, has opened new avenues for understanding our world and universe. This understanding is grounded in centuries of exploration by brilliant minds. Physics studies today predominantly rely on rigorous methods founded on universal physical laws. I will discuss integrating advanced learning techniques, notably Bayesian machine learning, into computational physics in this presentation. This integration is crucial in an interdisciplinary field that combines mathematics, physics, and computer science to address meaningful, real-world problems. As the first principle, physics offers novel techniques and insights for tackling complex tasks in complex, structured data analysis. I envision synergizing physics and probabilistic learning to create a formidable tool for exploring new frontiers.
+  SPEAKER BIO
+  Shibo LI
+  University of Utah
+  Shibo Li, a fifth-year Ph.D. candidate at the University of Utah, is affiliated with the Kahlert School of Computing (SoC) and the Scientific Computing and Imaging Institute (SCI). He earned his master's degree from the University of Pittsburgh and his bachelor's degree from the South China University of Technology. Shibo's research spans a range of topics, including Bayesian machine learning, approximate inference, interactive learning (encompassing Active Learning, Bandits, and Reinforcement Learning), and high-dimensional spatial-temporal modeling. His Ph.D. thesis focuses on multi-fidelity modeling and optimization in physical simulations. His works have been published in top-tier machine learning and data mining avenues, such as ICML, NeurIPS, ICLR, AISTATS, IJCAI, and CIKM. More information can be found on Shibo's page: https://imshibo.com/.
+  Date
+  01 February 2024
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  894 6977 7685
+  Passcode: iott
+  Event Organizer
+  Data Science and Analytics Thrust
+  Internet of Things Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  iott@hkust-gz.edu.cn

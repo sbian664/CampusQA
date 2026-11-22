@@ -1,0 +1,36 @@
+dsa_page: Deterministic Negative-Weight Shortest Paths in Nearly Linear Time – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/16/deterministic-negative-weight-shortest-paths-in-nearly-linear-time/
+source: DSA
+
+headings:
+  - Deterministic Negative-Weight Shortest Paths in Nearly Linear Time
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA Seminar
+  Deterministic Negative-Weight Shortest Paths in Nearly Linear Time
+  Share to
+  ABSTRACT
+  The textbook Dijkstra’s algorithm solves single-source shortest paths in nearly linear time, but only for graphs with non-negative edge weights.
+  For graphs with possibly negative weights, the textbook Bellman–Ford algorithm applies, but it requires quadratic time. Both algorithms are deterministic and were discovered in the 1950s–60s. Since then, people have repeatedly asked whether there exists a deterministic algorithm that achieves both (1) nearly linear time and (2) the ability to handle negative weights.
+  This problem has been actively researched but remained open for more than half a century, and we have finally resolved it with a positive
+  answer: we present the first deterministic nearly-linear-time algorithm for shortest paths with negative edge weights.
+  Before our work, recent years have seen major progress in developing randomized nearly-linear-time algorithms for this problem, but no deterministic algorithm with comparable performance existed, largely due to the inherently randomized component known as low-diameter decomposition. Our main technical contribution is a new structural primitive for directed graphs, called the path cover, which provides a powerful method for reducing problems on general directed graphs to acyclic ones, and serves as the deterministic analogue of the influential low-diameter decomposition.
+  SPEAKER BIO
+  Yonggang Jiang is a final-year PhD candidate at the Max Planck Institute for Informatics, advised by Danupon Nanongkai. His research focuses on fast graph algorithms, with an emphasis on derandomization, parallelization, and distributed computing. His work has appeared extensively in top venues such as STOC/FOCS/SODA. He received the SPAA Distinguished Paper Award and is a Google PhD Fellow.
+  Date
+  18 December 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1 102, HKUST-GZ
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

@@ -1,0 +1,52 @@
+dsa_page: Augmenting Financial Time Series Analysis with Large Models: Progressive Representations from Tokens to Visuals – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/18/augmenting-financial-time-series-analysis-with-large-models-progressive-representations-from-tokens-to-visuals/
+source: DSA
+
+headings:
+  - Augmenting Financial Time Series Analysis with Large Models: Progressive Representations from Tokens to Visuals
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Augmenting Financial Time Series Analysis with Large Models: Progressive Representations from Tokens to Visuals
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Jianing HAO
+  ABSTRACT
+  Financial Time Series (FTS) analysis forms the basis of quantitative investment and market research. Real-world financial markets are inherently multi-modal, encompassing not only numerical price sequences but also textual reports and visual charts. The recent emergence of Large Models (LMs) has introduced semantic reasoning capabilities, promising a shift from traditional black-box forecasting to a human-in-the-loop collaborative analysis. However, effectively integrating large models into real-world FTS analytical workflows requires bridging fundamental gaps among the core entities: multi-modal financial data, large models, and human analysts. This thesis addresses the
+  modality gap
+  arising from the mismatch between multi-modal financial data and the discrete token-based architectures of LMs; the
+  reasoning gap
+  that hinders human analysts from effectively interpreting massive multi-modal datasets; and the
+  cognition gap
+  where dense, complex model outputs fail to align with human intuition and interactive exploration needs.
+  To bridge these inherent gaps and align multi-modal financial data with human cognition, this thesis proposes a progressive representation framework. We systematically investigate the evolution of time-series representations from discrete tokens to relational structures, and ultimately to visual representations, through three interconnected studies. First, FinFlier successfully binds continuous time series dynamics with text by leveraging advanced prompt engineering techniques. This token-based representation and text-data binding enables the generation of financial narrative visualizations, thereby addressing the reasoning gaps for human analysts. Second, moving beyond linear token sequences, FinRipple utilizes time-varying knowledge graphs as representations. It explicitly models real-world markets and enables a comprehensive analysis of market interconnections, allowing both the large models and human analysts to transparently trace reasoning paths and understand how localized market events influence related entities. The third work, VisTR, leverages visualizations as time-series representations and aligns multi-modal inputs into a latent space through a fine-tuned multi-modal LLM. Visual representations naturally bridge the modality disconnect, make the reasoning paths transparent, and inherently match human cognitive intuition. Collectively, these three progressive works establish a robust, human-in-the-loop collaborative paradigm that significantly augments analytical capabilities and decision-making confidence in modern FTS analysis.
+  Finally, recognizing the inherent complexity of the finance domain, this thesis critically reflects on current limitations and outlines critical future directions. We highlight the urgent need to address the scarcity of high-quality multi-modal datasets, the technical challenges of modeling multivariate correlations, and the potential of expanding visual representations into broader downstream tasks and intelligent system-level frameworks.
+  TEC
+  Chairperson: Prof Pei Man James SHE
+  Prime Supervisor: Prof Wei ZENG
+  Co-Supervisor: Prof Guang ZHANG
+  Examiners:
+  Prof Yuyu LUO
+  Prof Qiong LUO
+  Prof Chao ZHANG
+  Prof Weidong HUANG
+  Date
+  10 April 2026
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,33 @@
+dsa_page: On Games with Conflicting Interests – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/14/on-games-with-conflicting-interests/
+source: DSA
+
+headings:
+  - On Games with Conflicting Interests
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  On Games with Conflicting Interests
+  Share to
+  ABSTRACT
+  To investigate differentiable games (that have strategy spaces in $\reals^n$), we decompose the game into components where the dynamic is well understood. We show that any differentiable game can be decomposed as a direct sum of three parts: the first decomposition as an exact potential part, a near vector potential part, and a non-strategic part; the second as a near potential part, an exact vector potential part, and a non-strategic part. A potential part coincides with potential games described by Monderer and Shapley (1996), known as pure cooperative games. A vector potential game on the other hand represents a game with purely conflicting interests. We show that the individual gradient field is divergence-free, in which case the gradient descent dynamic may either be divergent or recurrent. When the divergence-free game is finite, including harmonic games and important classes of zero-sum games, we show that optimistic variants of classical no-regret learning algorithms converge to an $\epsilon$-approximate Nash equilibrium at a rate of $O(1/\epsilon^2).
+  SPEAKER BIO
+  Baoxiang Wang is an assistant professor at School of Data Science, The Chinese University of Hong Kong, Shenzhen. Baoxiang works on reinforcement learning and learning theory, with some specific interests in game-theoretical settings. He obtained his Ph.D. in Computer Science and Engineering from The Chinese University of Hong Kong in 2020 under Siu On Chan and Andrej Bogdanov. Before that, he obtained his B.E. in Information Security from Shanghai Jiao Tong University in 2014. He publishes works in machine learning conferences like ICML, NeurIPS, ICLR, and some theory venues like ITCS and WINE.
+  Date
+  19 March 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

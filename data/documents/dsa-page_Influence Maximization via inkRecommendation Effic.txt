@@ -1,0 +1,44 @@
+dsa_page: Influence Maximization via inkRecommendation: Efficient Algorithms with Provable Guarantees – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/22/influence-maximization-via-inkrecommendation-efficient-algorithms-with-provable-guarantees/
+source: DSA
+
+headings:
+  - Influence Maximization via inkRecommendation: Efficient Algorithms with Provable Guarantees
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Influence Maximization via inkRecommendation: Efficient Algorithms with Provable Guarantees
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xiaolong CHEN
+  ABSTRACT
+  Influence Maximization (IM), aiming to select a certain number of nodes to maximize the expected number of influenced users, stands as a pivotal algorithmic problem within the domain of social network analysis, boasting considerable applicability across diverse sectors including viral marketing and political campaigning. Underscored by its practical utility and the profound complexities inherent in its resolution, IM has catalyzed two decades of scholarly examination. On the other hand, the emergence of recommendation systems in social media has triggered a line of research on strategic link insertion to augment information diffusion in networks. In this thesis, we delve into several problems to incorporate link recommendation with influence maximization, and propose efficient algorithms with provable approximation guarantees. Specifically, we commence by the influence maximization with augmentation (IMA) problem, which aims to insert a limited number of non-existing edges incident to the seed nodes such that the social influence of them is maximized. We notice that despite the changing topology, there is no need to update the estimator per iteration and we develop a submodular estimator that merely utilizes the samples from the original graph, which constitutes a scalable algorithm with provable guarantees. After that, we move from binary utility metric to distance-decaying metrics and study the distance-decaying influence maximization with augmentation (DIMA) problem, which is challenging since the insertion of probabilistic edges not only increase the number of reachable nodes but also changes the utility of nodes that are already reachable from the seeds. Subsequently, we consider the seeds to augment are inherently uncertain and propose efficient algorithms to recommend links for such uncertain seeds, which is a non-submodular optimization problem. To address this problem, we resort to the sandwich framework, and propose the upper and lower bounding functions for the optimization objective. For the maximization of the bounding functions, we propose efficient algorithms to provide guaranteed solutions. The effectiveness and efficiency of our algorithms are validated through extensive experiments on large-scale networks of up to billion-scale.
+  TEC
+  Chairperson: Prof Xin WANG
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Wei WANG
+  Examiners:
+  Prof Jia LI
+  Prof Lei LI
+  Prof Gareth TYSON
+  Prof Jianye YANG
+  Date
+  28 July 2026
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

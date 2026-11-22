@@ -1,0 +1,45 @@
+dsa_page: Advancing Human-Centric Autonomous Vehicles: From Human-like Driving to Intelligent Transportation Agents – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/advancing-human-centric-autonomous-vehicles-from-human-like-driving-to-intelligent-transportation-agents/
+source: DSA
+
+headings:
+  - Advancing Human-Centric Autonomous Vehicles: From Human-like Driving to Intelligent Transportation Agents
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  Advancing Human-Centric Autonomous Vehicles: From Human-like Driving to Intelligent Transportation Agents
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Xu HAN
+  Abstract
+  The rise of autonomous vehicles (AVs) is a groundbreaking milestone in transportation, promising increased safety and efficiency. However, integrating these systems into human environments requires designs that align with human needs and behaviors, beyond just technological advancements. This survey examines the development of human-centric AVs, focusing on human-like driving, configurable driving styles, foundational models, and intelligent transportation agents.
+  Human-centric AVs aim to understand and adapt to human behaviors, enhancing the driving experience rather than just replacing human drivers. Early AVs relied on sensors and computing power for basic automation. With advancements in machine learning and sensors, the focus shifted to adaptive solutions that mimic human perception and decision making. Despite these advancements, challenges remain in ensuring safe interactions between AVs and human-driven vehicles, and in balancing assertiveness with cautiousness in driving behavior.
+  This survey covers four main topics. The first topic, Human-like Driving, explores strategies to mimic human driving behaviors to improve AV predictability and sociability. The second topic, Configuring Driving Style, discusses customizing AV driving styles to match user preferences and environmental contexts. The third topic, Utilizing Foundation Models, looks at integrating advanced AI models to anticipate and adapt to complex human behaviors. The fourth topic, Intelligent Transportation Agents, examines the role of AVs in broader intelligent transportation systems, focusing on communication and interoperability.
+  The research aims to bridge the gap between current AV technology and a fully integrated, human-centric transportation system. By emphasizing human aspects of driving and interaction, this survey seeks to develop safer, more efficient, and user-friendly AVs. These advancements are essential for gaining user trust and acceptance, moving towards a future where autonomous and human-driven vehicles coexist seamlessly, promoting sustainable and accessible urban mobility.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Meixin ZHU
+  Examiner: Prof Jia LI
+  Date
+  04 June 2024
+  Time
+  08:30:00 -
+  09:45:00
+  Location
+  E1-147
+  Join Link
+  Zoom Meeting ID:
+  859 8114 6766
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/85981146766?pwd=ATm7YxPrCaPNDVadALrw0512dzdtOx.1

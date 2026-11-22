@@ -1,0 +1,29 @@
+dsa_page: Building a High-Availability and Path-Aware Internet with SCION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/30/building-a-high-availability-and-path-aware-internet-with-scion/
+source: DSA
+
+headings:
+  - Building a High-Availability and Path-Aware Internet with SCION
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Building a High-Availability and Path-Aware Internet with SCION
+  Share to
+  ABSTRACT
+  With the increase of safety-critical traffic on the Internet, a challenge is to provide high availability in the presence of adversarial components. The SCION next-generation network architecture has been explicitly designed for security and scalability, applying novel approaches for achieving resilient control-plane operation and inter-domain end-to-end communication in the presence of active attacks. SCION has been in production use for critical infrastructure communication since 2017, with expanding deployments and use cases since then. Operating side-by-side with today's Internet, SCION offers a communication fabric that is largely fault-independent from today's BGP-based infrastructure.
+  In this talk, we highlight use cases, technical and business aspects of SCION that provide security properties such as geo-fencing and path validation, and enable new business models for ISPs. We will also discuss interoperability, how the fault-independence with today's infrastructure is achieved, and how the deployment and co-existence with today's infrastructure is accomplished.
+  With the rapidly expanding SCION deployment, exciting research opportunities arise. For instance, how can we harness native multipath with dozens (and sometimes hundreds) of path options for enhancing the communication quality with respect to diverse metrics? How can we best provide feedback about network conditions that further facilitates path selection? How can we drive deployment to provide benefits to any application? The availability of SCION connectivity brings up these and many new questions -- opening up exciting paths for new explorations.
+  SPEAKER BIO
+  Adrian Perrig is a Professor at the Department of Computer Science at ETH Zürich, Switzerland, where he leads the network security group. He is also a co-founder of and board member at Anapaya Systems, and an advisor to Mysten Labs. He is a recipient of the ACM SIGSAC Outstanding Innovation Award, and is an ACM and IEEE Fellow. Adrian's research revolves around building secure systems -- in particular his group is working on the SCION next-generation Internet architecture.
+  Date
+  04 July 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  W2-201, HKUST-GZ

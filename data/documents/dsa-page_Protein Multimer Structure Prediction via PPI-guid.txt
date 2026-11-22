@@ -1,0 +1,35 @@
+dsa_page: Protein Multimer Structure Prediction via PPI-guided Prompt Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/protein-multimer-structure-prediction-via-ppi-guided-prompt-learning-jiali/
+source: DSA
+
+headings:
+  - Protein Multimer Structure Prediction via PPI-guided Prompt Learning
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Protein Multimer Structure Prediction via PPI-guided Prompt Learning
+  Abstract
+  Understanding the 3D structures of protein multimers is crucial, as they play a vital role in regulating various cellular processes. It has been empirically confirmed that the multimer structure prediction (MSP) can be well handled in a step-wise assembly fashion using provided dimer structures and predicted protein-protein interactions (PPIs). However, due to the biological gap in the formation of dimers and larger multimers, directly applying PPI prediction techniques can often cause a poor generalization to the MSP task. To address this challenge, we aim to extend the PPI knowledge to multimers of different scales (i.e., chain numbers). Specifically, we propose PromptMSP, a pre-training and Prompt tuning framework for Multimer Structure Prediction. First, we tailor the source and target tasks for effective PPI knowledge learning and efficient inference, respectively. We design PPI-inspired prompt learning to narrow the gaps of two task formats and generalize the PPI knowledge to multimers of different scales. We utilize the meta-learning approach to learn a reliable initialization of the prompt model, enabling our prompting framework to effectively adapt to limited data for large-scale multimers. Empirically, we achieve both significant accuracy (RMSD and TM-Score) and efficiency improvements compared to advanced MSP models. For instance, when both methods utilize AlphaFold-Multimer to prepare dimers, PromptMSP achieves a 21.43% improvement in TM-Score with only 0.5% of the running time compared to the competitive MoLPC baseline.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Protein Multimer Structure Prediction via PPI-guided Prompt Learning
+  . Ziqi Gao, Xiangguo Sun, Zijing Liu, Yu Li, Hong Cheng, and Jia Li.
+  Project Period
+  2024
+  Research Area
+  Data-driven AI
+  Keywords
+  docking path prediction, protein complex structure, prompt learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Protein Multimer Structure Prediction via PPI-guided Prompt Learning | https://openreview.net/forum?id=OHpvivXrQr

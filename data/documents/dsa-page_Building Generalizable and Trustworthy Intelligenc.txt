@@ -1,0 +1,112 @@
+dsa_page: Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/30/building-generalizable-and-trustworthy-intelligence-representations-robustness-and-grounding-in-the-foundation-model-era/
+source: DSA
+
+headings:
+  - Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  - Two Invited Talks & Panel Discussion
+  - Overview
+  - Program Schedule
+  - Morning Research Session
+  - Panel Discussion
+  - Panel Discussion Topics
+  - Invited Speakers
+  - Wei-Hong Li
+  - Nan Lu
+  - Organizers
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+
+text: >
+  DSA & AI Joint Seminar
+  Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  Share to
+  Two Invited Talks & Panel Discussion
+  Overview
+  This workshop brings together researchers working on generalizable representation learning, trustworthy AI, and grounded intelligence. The morning session features two invited research talks by scholars from the University of Bristol. The afternoon session is an invite-only panel discussion on how AI research agents and foundation models may reshape research careers, doctoral training, small-lab strategy, and cross-regional academic opportunities across Mainland China, Hong Kong, and the UK.
+  Program Schedule
+  Time
+  Session
+  Speaker / Format
+  10:00-10:05
+  Opening Remarks
+  Organizer
+  10:05-10:55
+  Invited Talk 1: From Universal Representations to Grounded Intelligence
+  Wei-Hong Li
+  10:55-11:05
+  Short Break / Transition
+  11:05-11:55
+  Invited Talk 2: When Data Lies: Building Trustworthy AI from Imperfect Information
+  Nan Lu
+  11:55-12:00
+  Morning Wrap-up
+  Organizer
+  12:00-14:00
+  Lunch Break / Informal Networking
+  14:00-16:00
+  Invite-only Panel Discussion: Research Careers in the Age of AI Research Agents
+  Moderated discussion
+  Morning Research Session
+  Invited Talk 1: From Universal Representations to Grounded Intelligence
+  Speaker: Wei-Hong LI
+  Invited Talk 2: When Data Lies: Building Trustworthy AI from Imperfect Information
+  Speaker: Nan LU
+  Panel Discussion
+  Title:
+  Research Careers in the Age of AI Research Agents
+  Participants:
+  Invited speakers and invited faculty members / postdoctoral researchers / and PhD students.
+  Panel Discussion Topics
+  What remains human when research becomes agentic?
+  : AI research agents may increasingly support literature search, code implementation, experiment iteration, result analysis, and writing. This topic examines what will define the value of a researcher when parts of the research workflow become automated.
+  Training PhD students in the AutoResearch era:
+  As experimentation and writing support become faster, doctoral training may need to place greater emphasis on problem formulation, research taste, critical judgment, experimental design, and independent thinking.
+  Small labs, big models, and early-career strategy:
+  Small research groups face both opportunities and pressure in the foundation model era. This topic focuses on how small teams can choose problems, build distinctive strengths, and remain competitive.
+  Academic opportunities across Mainland China, Hong Kong, and the UK:
+  The discussion will compare academic career paths, funding systems, talent programs, student recruitment, industry collaboration, and evaluation practices across different regions.
+  Invited Speakers
+  Wei-Hong Li
+  Lecturer (Assistant Professor), School of Computer Science, University of Bristol
+  Talk Title:
+  From Universal Representations to Grounded Intelligence
+  Abstract
+  Modern machine learning systems are often trained for individual tasks and domains, limiting their ability to generalize, adapt, and interact with the real world. In this talk, I will present a line of work aimed at building representations that are universal, structured, and grounded. I will begin with methods for universal representation learning across tasks, domains, time and disciplines, and show how shared structure enables efficient transfer and adaptation. I will then move to 3D-aware and geometry-guided multi-task learning, where explicit world structure provides strong inductive biases and supervision. Finally, I will present systems that connect representations to the physical and multimodal world, including language-guided 3D image compositing and action synthesis in 3D scenes. Overall, the talk argues that grounding representations in structure, geometry, and the physical world is key to building more general, robust, and controllable intelligent systems.
+  Bio
+  Wei-Hong Li is a Lecturer (Assistant Professor) within School of Computer Science at the University of Bristol and a member of ELLIS - the European Laboratory for Learning and Intelligent Systems. He obtained his PhD at the University of Edinburgh, supervised by Prof. Hakan Bilen and Prof. Timothy Hospedales. After PhD, he was a postdoc at the University of Edinburgh, working with Prof. Hakan Bilen and he was a SHIAE postdoctoral fellow within the MultiMedia Lab (MMLab) at the Chinese University of Hong Kong (CUHK), working with Prof. Xiangyu Yue. His research interests are in computer vision and machine learning, with a focus on universal representation learning, learning visual models from limited human supervision, 3D-aware modeling and multi-modal generative models. His PhD thesis was the only recipient of the BMVA Sullivan Doctoral Thesis Prize Runner-Up across the whole UK in 2022. His first-authored MTPSL paper is awarded the CVPR 2022 Best Paper Nominee. His another first-authored paper won the ICIG 2017 Best Paper Award. He serves as Area Chair at ICLR 2026 and NeurIPS 2026, and he received the Top Reviewer Award at NeurIPS 2023 and NeurIPS 2024.
+  Nan Lu
+  Lecturer
+  (Assistant Professor) in Artificial Intelligence, School of Computer Science, University of Bristol
+  Talk Title:
+  When Data Lies: Building Trustworthy AI from Imperfect Information
+  Abstract
+  Modern AI thrives on large models and massive datasets. Yet in many real-world domains, from healthcare records to social systems, labels are often missing, biased, or unreliable, and data evolves in messy, unpredictable ways. This raises a fundamental question: how can we build AI we can trust when the data itself cannot be trusted? In this talk, I will present a unified perspective on building trustworthy AI under imperfect information. We will explore how models can learn without explicit labels, adapt to distribution shifts, leverage decentralized unlabeled data in federated settings, and train reinforcement learning agents when reward signals are sparse or unreliable. Along the way, I will share recent advances from our research, discuss the key challenges that connect these problems, and highlight open questions that offer exciting opportunities for future research and collaboration.
+  Bio
+  Dr. Nan Lu is a Lecturer in Artificial Intelligence in the School of Computer Science at the University of Bristol, UK. She was a postdoctoral researcher in the Foundations of Machine Learning Systems Group at the University of Tubingen, Germany, working with Prof. Robert Williamson, and obtained her Ph.D. in Machine Learning from the University of Tokyo under the supervision of Prof. Masashi Sugiyama. Her research focuses on trustworthy AI, developing principled algorithms that remain reliable under data corruption and across diverse modalities, with applications in core AI areas such as computer vision and reinforcement learning, as well as real-world problems in healthcare and social data.
+  Organizers
+  Yingcong Chen, Assistant Professor, HKUST(GZ)
+  Zhijiang Guo, Assistant Professor, HKUST(GZ)
+  Hao Chen, Assistant Professor, HKUST
+  Date
+  02 July 2026
+  Time
+  10:00:00 -
+  16:00:00
+  Location
+  E1-147
+  Event Organizer
+  DSA &
+  AI
+
+tables:
+  - Time | Session | Speaker / Format
+  - 10:00-10:05 | Opening Remarks | Organizer
+  - 10:05-10:55 | Invited Talk 1: From Universal Representations to Grounded Intelligence | Wei-Hong Li
+  - 10:55-11:05 | Short Break / Transition
+  - 11:05-11:55 | Invited Talk 2: When Data Lies: Building Trustworthy AI from Imperfect Information | Nan Lu
+  - 11:55-12:00 | Morning Wrap-up | Organizer
+  - 12:00-14:00 | Lunch Break / Informal Networking
+  - 14:00-16:00 | Invite-only Panel Discussion: Research Careers in the Age of AI Research Agents | Moderated discussion

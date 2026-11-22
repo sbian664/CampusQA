@@ -1,0 +1,40 @@
+dsa_page: Long-query Optimization and Evidence Selection for Medical Evidence-grounded RAG: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/20/long-query-optimization-and-evidence-selection-for-medical-evidence-grounded-rag-a-survey/
+source: DSA
+
+headings:
+  - Long-query Optimization and Evidence Selection for Medical Evidence-grounded RAG: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Long-query Optimization and Evidence Selection for Medical Evidence-grounded RAG: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. GUO, Songyue
+  Abstract
+  Evidence-based medicine requires clinical decisions to be supported by relevant and trustworthy evidence. Retrieval-augmented generation (RAG) offers a practical way to connect medical questions with clinical guidelines, biomedical literature, structured knowledge, and patient-specific records, but its effectiveness depends on how the input question is represented and which retrieved evidence is ultimately given to the answer model. This survey reviews current research through these two stages. We first define a three-stage medical RAG pipeline consisting of query processing, evidence retrieval and selection, and evidence-grounded answer generation. We then organize query-side research into rewriting, expansion, decomposition, adaptive retrieval, and filtering, and organize evidence-side research into candidate retrieval, reranking, diversity-aware selection, set-level optimization, and gain-aware selection. Representative methods are discussed according to their objectives, mechanisms, and relationships to later work rather than as an isolated list. A short analysis identifies two recurring gaps: query transformations can lose clinically important constraints, and relevance-oriented retrieval does not guarantee a compact and sufficient evidence set. We conclude with four focused directions concerning faithful query representations, closed-loop retrieval, clinically informed evidence utility, and evidence-centered evaluation. The survey positions medical evidence-grounded RAG as a coordinated pipeline in which the query stage determines what can be found, the retrieval stage determines what evidence is available, and the answer stage determines how that evidence is used.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffery
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. ZHANG, Yongqi
+  Examiner: Prof. ZHU, Lei
+  Date
+  31 July 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

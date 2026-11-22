@@ -1,0 +1,15 @@
+fytgs_page: Other Guidelines (staff only)
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/other-guidelines-for-staffs
+source: FYTGS
+
+headings:
+
+text: >
+  Arrangement for Supporting Outside-time Research Postgraduates
+  Guidelines on RPg Students Sponsorship Agreement with Non-academic Institutions
+  Honorarium and Subsidy Arrangement for External Examiners to Attend PhD Thesis Examinations
+
+links:
+  - Arrangement for Supporting Outside-time Research Postgraduates | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/07/Arrangement-for-Supporting-Outside-time-Research-Postgraduates.pdf
+  - Guidelines on RPg Students Sponsorship Agreement with Non-academic Institutions | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/08/Guidelines-on-RPg-Students-Sponsorship-Agreement-with-Non-academic-Institutions.pdf
+  - Honorarium and Subsidy Arrangement for External Examiners to Attend PhD Thesis Examinations | https://fytgs.hkust-gz.edu.cn/EE-Honorarium-and-Subsidy-Arrangement

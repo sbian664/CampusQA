@@ -1,0 +1,39 @@
+dsa_page: Compression-Driven Optimization for Efficient Large Language Model Inference: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/compression-driven-optimization-for-efficient-large-language-model-inference-a-survey/
+source: DSA
+
+headings:
+  - Compression-Driven Optimization for Efficient Large Language Model Inference: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Compression-Driven Optimization for Efficient Large Language Model Inference: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. HUANG, Xinhao
+  Abstract
+  The inference efficiency of Large Language Models (LLMs) is significantly constrained by their inherent parameter redundancy, high computational complexity, and substantial memory consumption. Optimizing LLM inference is thus a critical research frontier in generative AI. While model compression is a pivotal approach to enhance efficiency, achieving an optimal balance between compression efficacy and model performance in resource-constrained environments remains an underexplored challenge. This survey provides a comprehensive and categorized review of state-of-the-art LLM compression techniques, focusing on four key dimensions: model weight compression, optimization of Key-Value (KV) cache during inference, dynamic compression ratio allocation strategies, and system-level performance tuning for LLM inference systems. Building on a comprehensive analysis of existing work, this survey proposes a novel research framework, encompassing four core components: “Fine-grained Low-Rank Decomposition,” “Efficient Attention Key-Value Cache,” and “Adaptive Budget Allocation.” This proposed framework aims to provide novel methods for efficient LLM inference and deployment in resource-constrained environments, thereby offering crucial support for the practical application of generative AI technologies across various critical domains.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. WEN Zeyi
+  Co-Supervisor: Prof. GAN Zecheng
+  Examiner: Prof. TANG Guoming
+  Date
+  09 June 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-147 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  948 2448 3923
+  Passcode: dsa2025

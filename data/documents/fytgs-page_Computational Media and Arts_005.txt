@@ -1,0 +1,320 @@
+fytgs_page: Computational Media and Arts
+url: https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Computational Media and Arts
+
+text: >
+  Postgraduate Programs 2023/24
+  Master of Philosophy and Doctor of Philosophy Programs in Computational Media and Arts
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Computational Media and Arts
+  Doctor of Philosophy in Computational Media and Arts
+  Program Short Name
+  MPhil(CMA)
+  PhD(CMA)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Computational Media and Arts Thrust Area
+  Information Hub
+  Program Advisor
+  Program Director:
+  Prof Kang ZHANG, Professor of Computational Media and Arts Thrust
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/
+  Enquiry
+  cmat@hkust-gz.edu.cn
+  INTRODUCTION
+  Computational Media and Arts (CMA) are ubiquities in our daily life and we see them in movies, games, museums, advertisements, news, and many other media experiences. The rapid development of information technology such as artificial intelligence, augmented reality, data science, drones, robots, new materials and displays and human-computer interaction has changed the landscape of computational media and arts. They can be used not only for entertainment but also for education. New opportunities within computational media and the arts emerge on a regular basis. AR-based and AI-generated art is gaining popularity and has shown great potential.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Computational Media and Arts aim to integrate art and technology for education and research. They will focus on the emotional appeal and visual communication using the latest technology such as augmented reality (AR), virtual reality (VR), AI-generated art, infographics and data visualization. They will promote the interplay of art and technology utilizing state-of-the-art technology in an effort to create social impact.
+  The MPhil Program aims to train students to gain knowledge and skills on computational media and arts such as 3D animation, studio art, computational art, games development, information art and so on. Students would be capable of creating computational media and arts using advanced technologies. An MPhil graduate should demonstrate sound working knowledge of related issues in the discipline so that he or she will be an expert in his/her expertise whether as an individual or as an employee.
+  The PhD Program aims to train students in acquiring the knowledge and skills to conduct original research related to computational media and arts. A PhD graduate will demonstrate mastery of knowledge in computational media and arts and will be able to generate new knowledge making a substantial scientific contribution to the discipline. Students’ original works will be exhibited at art galleries, auditoriums, museums and even within HKUST, and published in academic journals and conferences such as ACM SIGGRAPH, ACM CHI, IEEE VR, and IEEE VIS.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Demonstrate knowledge and skills of computational media and arts;
+  Master design and development methodologies and technologies for computational media and arts;
+  Utilize advanced technology for artistic creation; and
+  Demonstrate critical thinking, creativity, and communication skills essential for the discipline.
+  On successful completion of the PhD program, graduates will be able to:
+  Demonstrate superior knowledge and skills of computational media and arts;
+  Master a wide range of design and development methodologies and technologies for computational media and arts;
+  Utilize state-of-the-art technology for artistic creation;
+  Demonstrate superior critical thinking, creativity, and eloquent communication skills essential for the discipline; and
+  Conduct original research independently in the field of computational media and arts.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  All students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Information Hub and at least one Hub core course (2 credits) from other Hubs.
+  Information Hub Core Course
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take one required course and other elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. MPhil and PhD students must complete the CMA required course in the first year of their study and obtain a B+ or above. Students who cannot meet the B+ requirement have to retake the course in the second year. Only one Independent Study course may be used to satisfy the course requirements.
+  To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Required Course List
+  CMAA 5001
+  Foundations of Computational Media and Arts
+  3 Credit(s)
+  Description
+  This course introduces students to the conceptual fundamentals of computational media and arts, technologies behind computational media and arts, and software and hardware tools used in computational media and arts production. It will cover principles of visual communication, design aesthetics, image and video synthesis, audio editing, animation and game design, etc.
+  Sample Elective Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  CMAA 5002
+  Animation Art: From Concept to Production
+  3 Credit(s)
+  Description
+  From screenplay through post-production, students are immersed in the collaborative animation pipeline. In this course, students will utilize a variety of animation tools and techniques to tell a compelling story and experience the diverse roles within the animation industry through storyboarding, editing and completion of a short animated film.
+  CMAA 5007
+  Computational Approach to Chinese Calligraphy
+  3 Credit(s)
+  Description
+  This course covers the most fundamental knowledge and techniques of Chinese calligraphy and its important role in the modern technological advances. The history and various styles of calligraphy, history and principles of making rice paper, seal making and its role, and best-known calligraphers are introduced. Students will first learn and practice writing Chinese calligraphy on rice paper and then use deep learning tools to transfer interesting calligraphy styles. Students will develop projects, such as programming to generate or drive robots to write calligraphy. There will be guest lectures by well-known Chinese calligraphers and researchers in digitizing and modernizing Chinese calligraphy. A trip is planned to visit the best-known rice paper factory (红星宣纸厂) in Jingxian, Anhui, where all Four Treasures of calligraphy are located.
+  CMAA 5008
+  Visual Communication and Expression
+  3 Credit(s)
+  Description
+  This course focuses on the arts and design of visual communication and expression with emphasis on both theory and practice. Students will learn about the design principles and techniques in visual communication and expression, develop good visual senses and relevant research skills that can inspire and enrich the creative and production process of projects that enable students to communicate and express visually and effectively.
+  CMAA 5013
+  Interactive Storytelling
+  3 Credit(s)
+  Description
+  This course explores interactive storytelling as cinematic, narrative and interactive art forms. It focuses on the art and techniques of visual storytelling that can interact thematically with the audience in meaningful ways. Students will learn about the key aspects of filmmaking and can apply narrative and interactive principles to storytelling in playable media and platform.
+  CMAA 5014
+  Experimental 3D Rendering and Motion
+  3 Credit(s)
+  Description
+  This course examines the practice and theory of 3D computer graphics in the context of visual arts. Students will acquire the technical skills of both traditional 3D animation software programs as well as emerging real-time 3D engines, and gain a critical understanding of its technology and history. Technical instructions will be given to cover all aspects of 3D animation production, including modeling, texturing, shading, animation, lighting, and rendering. Both pioneering and emerging artists working with 3D computer images will be introduced. Lectures and discussions on other related media, including photography, film, sculpture, and installation art will also be included.
+  CMAA 5015
+  Interactive Art: Principles and Practice
+  3 Credit(s)
+  Description
+  This course serves as an introduction to understanding interactive art and the new media art scene in general. In addition to an overview of art history concerning active audience involvement in an artwork, the course will offer a practice-led approach allowing the students to experience modalities and challenges of interactive installations. Apart from hands-on program, the course contributes to critical thinking, reflection, contextualization, and understanding different types of audience interaction modes and interfaces. The core principles and methodologies of interaction design will be introduced. In addition to that, the problematics of preservation and also presentation of the interactive artworks in the exhibition space will be addressed.
+  CMAA 5016
+  Creative Coding
+  3 Credit(s)
+  Description
+  In this course students use well established creative coding frameworks, specifically designed for artists to program graphics, sound and interaction for generating creative work. Students will initially experiment with basic generative techniques for graphics and will then be introduced to genetic algorithms, simple machine learning for interaction, using robots to draw on paper, generating NFTs of the work they create and many more emerging technologies in order to express themselves creatively.
+  CMAA 5017
+  AR/VR/MR/XR: Concepts, Theory and Techniques
+  3 Credit(s)
+  Description
+  This course introduces students to the concepts, theories, and interaction techniques in AR/VR/MR/XR. It covers both the fundamental concepts and design theories and the state-of-the-art interaction techniques in the field. In addition, students will work independently or in teams to design, develop, and evaluate AR/VR/MR/XR prototypes. In sum, by the end of the class, students will have a solid grasp of the fundamental concepts, design principles and research gaps in AR/VR/MR/XR and gain hands-on experience in designing and evaluating AR/VR/MR/XR prototypes.
+  CMAA 5018
+  Assistive Technology Design based on Computational Media and Arts
+  3 Credit(s)
+  Description
+  This course introduces students to assistive technologies designed for people with different types of disabilities and the aging population. Students will learn how to leverage computational media and arts (e.g., VR/AR, AI-enabled interactive media and arts) to design assistive technologies to address accessibility challenges and
+  evaluate their performance and user experience with the target population.
+  CMAA 5019
+  Machine Learning for the Arts
+  3 Credit(s)
+  Description
+  As Machine Learning (ML) permeates numerous aspects of culture, industry, and scholarship, it is crucial for the next generation of computational artists to be ML-literate, possessing the ability to critically evaluate and apply this rapidly evolving technology. Through hands-on experience with cutting-edge ML tools, students will hone their skills in this domain and establish critical perspectives on the strengths and limitations of current methods. This course employs free, open-source ML toolkits, enabling students to become familiar with various classification and regression models, RNNs, Convolutional Neural Networks, Transfer Learning, large language models, Text-to-Image generators, and more, for the purpose of implementing art projects. Each week, pertinent computational artworks utilizing various techniques are introduced, analyzed, and discussed.
+  CMAA 5021
+  Creative Showcase Projects
+  3 Credit(s)
+  Description
+  Topics in aesthetic computing include generative art with focus on automatic generation of various styles of abstract art. Students engage in developing creative showcase projects, including program solving using visual languages, innovative visualization, generation of aesthetic images and digital art / AI art showcases. Assessment includes attendance in the class, technical presentations and report writing.
+  CMAA 5022
+  Social Media for Creatives
+  3 Credit(s)
+  Description
+  This course introduces art and media students to the various online social media platforms, as well as the fundamentals of producing artistic and creative media content in collaborative group projects. The course covers a wide range of interesting topics related to art and creativity techniques and functions on social media platforms, including but not limited to: digital storytelling, games and gamification, immersive art technologies, presentation, and advertisement. By the end of this course, students will have a better understanding of art and creativity on social media platforms.
+  CMAA 5023
+  Programming for Virtual and Augmented Reality
+  3 Credit(s)
+  Description
+  This course introduces students to programming skills and selected topics for virtual and augmented reality (VR and AR) projects. Students will initially learn basic programming skills relating to modelling, motion controllers, animation, rendering, navigation, networking using Unity3D. Next, students will be exposed to selected topics in VR and AR, including multi-modal interactions, collaborative interactions, visual perceptions in AR, etc. By the end of the course, students will be able to create their own interactive VR and AR creative applications as a course project (games, storytelling, VR experiences, etc.).
+  CMAA 5024
+  Virtual Reality for the Arts
+  3 Credit(s)
+  Description
+  This course focuses on creating art projects using virtual reality (VR) technology. Students learn the fundamentals of VR-related frameworks, tools, and hardware, with specific emphasis on using a game engine to create immersive content and interaction. Students also get familiar with the historical development and contemporary examples of VR art and relevant theoretical topics, including simulation, virtual body, spatial sound, etc. The course content will include lectures and tutorials, and will be supplemented by visiting speakers, discussions and readings to provide diverse perspectives. By the end of the course, students will complete a creative VR project either individually or in teams.
+  CMAA 5025
+  Computational Techniques for Sketch-based Creativity
+  3 Credit(s)
+  Description
+  This course provides an in-depth introduction to algorithms and interfaces that bridge sketching and modeling, with a particular focus on tools that support the conceptual design of shape and creation of artwork at a variety of scales. We will explore the full pipeline of concept to fabricated shape. Topics to be covered include: 2D and 3D representations, non-photorealistic rendering, sketch processing, image synthesis, sketch-based modelling, fabrication, pen and touch, and XR interfaces. We will also cover classic and cutting-edge papers published on top computer graphics and HCI venues. We will discuss how these techniques and systems benefit art and design, and vice versa.
+  CMAA 5026
+  Art-based Research Methodologies
+  3 Credit(s)
+  Description
+  The course provides an overview into the doctoral research processes and introduces research tools for conducting art-based research. The students will explore relevant literature, familiarize themselves with methodologies, and learn how to do critical analysis of artistic practices. The course will help students advance their art-based research and teach them how to approach their practice in a systematic way. The main outcome of the course is to apply the gained understanding in improving one's own research plan for guiding one's doctoral research and funding of it.
+  CMAA 6018
+  Independent Study
+  1-3 Credit(s)
+  Description
+  An independent research project carried out under the supervision of a faculty member.
+  DSAA 5009
+  Deep Learning in Data Science
+  3 Credit(s)
+  Description
+  In this course, theories, models, algorithms of deep learning and their application to data science will be introduced. The basics of machine learning will be reviewed at first, then some classical deep learning models will be discussed, including AlexNet, LeNet, CNN, RNN, LSTM, and Bert. In addition, some advanced deep learning techniques will also be studied, such as reinforcement learning, transfer learning and graph neural networks. Finally, end-to-end solutions to apply these techniques in data science applications will be discussed, including data preparation, data enhancement, data sampling and optimizing training and inference processes.
+  DSAA 5024
+  Data Exploration and Visualization
+  3 Credit(s)
+  Description
+  This course covers essential techniques for data exploration and visualization. Students will learn the iterative process of data preprocessing techniques for getting data into a usable format, exploratory data analysis (EDA) techniques for formulating suitable hypotheses and validating them, and specific techniques for domain-related data exploration and visualization such as high-dimensional, hierarchical, and geospatial data. The course uses programing languages such as python and tools like Tableau.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  INFH 6780
+  Career Development for Information Hub Students
+  1 Credit(s)
+  Description
+  This course aims at equipping RPg students of the Information Hub with the skills conducive to their professional career development. Students are required to attend the 3 hours' training focusing on personality self-exploration and discipline-specific training at the thrust level, and another 10 hours' training at the hub level, at their own choice. Graded PP, P or F.
+  Students are required to complete INFH 6780. The 1 credit earned from INFH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed INFH 6780 or other professional development courses offered by the University before may be exempted from taking INFH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Division of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  DLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Students who fail to satisfy the University's English language requirement are advised to complete LANG 5000 before enrolling for this course. Graded P or F.
+  Students are required to take DLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  CMAA 6101
+  Computational Media and Arts Program Seminar I
+  0 Credit(s)
+  Description
+  A regular series of seminars presenting research problems currently under investigation. Graded P or F.
+  CMAA 6102
+  Computational Media and Arts Program Seminar II
+  1 Credit(s)
+  Description
+  A regular series of seminars presenting research problems currently under investigation. Graded P or F.
+  Students are required to complete CMAA 6101 and CMAA 6102 in two terms. The credit earned cannot be counted toward the credit requirements.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  CMAA 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  CMAA 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in CMAA 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in CMAA 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB150
+  Application Deadlines
+  For 2023/24 Fall Term Intake (commencing in Sep 2023):
+  International students*
+  15 Jun 2023
+  Chinese students
+  15 Jul 2023
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

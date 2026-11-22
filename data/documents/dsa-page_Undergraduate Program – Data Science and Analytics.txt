@@ -1,0 +1,26 @@
+dsa_page: Undergraduate Program – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/
+source: DSA
+
+headings:
+
+text: >
+  BSc in Data Science and Big Data Technology
+  Program Overview
+  Program Requirements
+  Course Offerings & Syllabi
+  Course Dependency Diagram
+  HKUST(GZ) Undergraduate Course Catalog
+  HKUST(GZ) Undergraduate Student Handbook
+  HKUST(GZ) Undergraduate Education Structure
+  HKUST(GZ) Undergraduate Admissions
+
+links:
+  - BSc in Data Science and Big Data Technology | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/
+  - Program Overview | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/ug-program-catalog/
+  - Program Requirements | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/curriculum-requirements/
+  - Course Offerings & Syllabi | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/dsaa-course-syllabus/
+  - Course Dependency Diagram | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/course-diagram/
+  - HKUST(GZ) Undergraduate Course Catalog | https://ug-prog-crs.hkust-gz.edu.cn/
+  - HKUST(GZ) Undergraduate Student Handbook | https://vptlo.hkust-gz.edu.cn/ugeducation/
+  - HKUST(GZ) Undergraduate Admissions | https://ugadmissions.hkust-gz.edu.cn/en/

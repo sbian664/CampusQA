@@ -1,0 +1,34 @@
+dsa_page: Generative principal component analysis and fast diffusion sampling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/10/11/generative-principal-component-analysis-and-fast-diffusion-sampling/
+source: DSA
+
+headings:
+  - Generative principal component analysis and fast diffusion sampling
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Generative principal component analysis and fast diffusion sampling
+  Share to
+  ABSTRACT
+  In this talk, I will first briefly discuss the problem of principal component analysis with generative modeling assumptions. The key assumption is that the underlying signal lies near the range of a Lipschitz continuous generative model with bounded low-dimensional inputs. We propose a quadratic estimator, and show that it enjoys the optimal statistical rate. Moreover, we provide a variant of the classic power method, which projects the calculated data onto the range of the generative model during each iteration. We show that under suitable conditions, this method converges exponentially fast to a point achieving the above-mentioned statistical rate. We perform experiments on various image datasets to illustrate performance gains of our method to the classic power method and the truncated power method devised for sparse principal component analysis.
+  Next, I will briefly discuss our recent work on accelerating diffusion sampling with optimized time steps. Diffusion (generative) models (DMs) have shown remarkable performance in high-resolution image synthesis, but their sampling efficiency is still to be desired due to the typically large number of sampling steps. Recent advancements in high-order numerical ODE solvers for DMs have enabled the generation of high-quality images with much fewer sampling steps, but most sampling methods simply employ uniform time steps. To address this issue, we propose a general framework for designing an optimization problem that seeks more appropriate time steps for a specific numerical ODE solver for DMs. This optimization problem aims to minimize the distance between the ground-truth solution to the ODE and an approximate solution corresponding to the numerical solver. It can be efficiently solved using the constrained trust region method, taking less than 15 seconds. Our extensive experiments on both unconditional and conditional sampling using pixel- and latent-space DMs validate the effectiveness of the optimized time steps.
+  SPEAKER BIO
+  Zhaoqiang Liu is a professor at the School of Computer Science and Engineering, University of Electronic Science and Technology of China. Previously, he was a research fellow in the Department of Computer Science at the National University of Singapore (NUS) and an AI researcher at Huawei Noah's Ark Lab in Hong Kong. He earned his Ph.D. in Mathematics from NUS and he completed his B.Sc. in Mathematics at Tsinghua University. Currently, his main research interests include diffusion models, high-dimensional inverse problems, large language models, and deep reinforcement learning.
+  Date
+  16 October 2024
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

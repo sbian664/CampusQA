@@ -1,0 +1,35 @@
+dsa_page: Exploring Trustworthy Foundation Models under Imperfect Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/08/30/exploring-trustworthy-foundation-models-under-imperfect-data/
+source: DSA
+
+headings:
+  - Exploring Trustworthy Foundation Models under Imperfect Data
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Exploring Trustworthy Foundation Models under Imperfect Data
+  Share to
+  ABSTRACT
+  In the current landscape of machine learning, it is crucial to build trustworthy foundation models that can operate under imperfect conditions, since most real-world data, such as unexpected inputs, image artifacts, and adversarial inputs, are easily noisy. These models need to possess human-like capabilities to learn and reason in uncertainty. In this talk, I will focus on three recent research advancements, each shedding light on the reliability, robustness, and safety in this field. Specifically, the reliability will be explored through the enhancement of vision-language models by introducing negative labels, which effectively detect out-of-distribution samples. Meanwhile, robustness will be explored through our investigation into image interpolation using diffusion models, addressing the challenge of information loss to ensure consistency and quality of generated content. Then, safety will be highlighted by our study on hypnotizing large language models, DeepInception, which leverages the creation of a novel nested scenario to induce adaptive jailbreak behaviors, revealing vulnerabilities during interactive model engagement. Furthermore, I will introduce the newly established Trustworthy Machine Learning and Reasoning (TMLR) Group at Hong Kong Baptist University.
+  SPEAKER BIO
+  Bo HAN
+  Hong Kong Baptist University / RIKEN
+  Bo Han is an Assistant Professor in Machine Learning at Hong Kong Baptist University and a BAIHO Visiting Scientist at RIKEN AIP, where his research focuses on machine learning, deep learning, foundation models and their applications. He was a Visiting Research Scholar at MBZUAI MLD, a Visiting Faculty Researcher at Microsoft Research and Alibaba DAMO Academy, and a Postdoc Fellow at RIKEN AIP. He has co-authored two machine learning monographs by MIT Press and Springer Nature. He has served as Senior Area Chair of NeurIPS, and Area Chairs of NeurIPS, ICML and ICLR. He has also served as Action Editors of IEEE TPAMI, MLJ and JAIR, and Editorial Board Members of JMLR and MLJ. He received Outstanding Paper Award at NeurIPS, Most Influential Paper at NeurIPS, Notable Area Chair at NeurIPS, Outstanding Area Chair at ICLR, and Outstanding Associate Editor at IEEE TNNLS. He received the RGC Early CAREER Scheme, NSFC General Program, IJCAI Early Career Spotlight, RIKEN BAIHO Award, Dean's Award for Outstanding Achievement, Microsoft Research StarTrack Program, and Faculty Research Awards from ByteDance, Baidu, Alibaba and Tencent.
+  Date
+  04 September 2024
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E4-1F-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,38 @@
+dsa_page: Fast and Efficient Genome Analysis via New Algorithms and Architectures – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/08/fast-and-efficient-genome-analysis-via-new-algorithms-and-architectures/
+source: DSA
+
+headings:
+  - Fast and Efficient Genome Analysis via New Algorithms and Architectures
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Fast and Efficient Genome Analysis via New Algorithms and Architectures
+  Share to
+  ABSTRACT
+  Analyzing genomic data provides critical insights for understanding and treating diseases, outbreak tracing, evolutionary studies, agriculture, and many other areas of the life sciences and personalized medicine. Modern genome sequencing devices can rapidly generate large amounts of genomic data at a low cost. However, genome analysis is bottlenecked by the computational and data movement overheads of existing systems and algorithms, causing significant limitations in terms of speed, accuracy, application scope, and energy efficiency of the analysis. This talk will focus on designing algorithms and hardware to address these limitations.
+  First, I will discuss how to directly analyze the raw sequencing data produced as electrical signals without the costly translation of signals into DNA characters. To this end, I will present RawHash, a mechanism that effectively reduces the inherent noise in electrical signals to enable direct and quick analysis of raw sequencing data. By doing so, RawHash performs accurate, energy-efficient, and real-time genome analysis as the data streams from sequencing devices. I will also briefly discuss our ongoing efforts that build on RawHash.
+  Second, I will focus on substantially improving the speed and energy efficiency of a computationally costly machine learning (ML) technique used in many important genomics applications. I will introduce ApHMM, which resolves significant inefficiencies that make this ML technique costly on general-purpose processors by effectively co-designing both hardware and software. As a result, ApHMM achieves substantial improvements in speed and energy efficiency compared to CPUs and GPUs.
+  I will conclude by discussing future opportunities to enable new applications and to substantially improve performance and energy efficiency in genomic data analysis.
+  SPEAKER BIO
+  Can Firtina is a senior researcher in the SAFARI Research Group and a lecturer at ETH Zurich. He recently defended his PhD thesis in November 2024, advised by Prof. Onur Mutlu.
+  His research interests broadly span bioinformatics and computer architecture topics, including real-time, accurate, fast, and energy-efficient genome analysis, hardware-software co-design for accelerating bioinformatics workloads, and developing computational tools for genome editing. His research has been published in major bioinformatics and computer architecture venues.
+  Date
+  15 April 2025
+  Time
+  14:30:00 -
+  15:30:00
+  Join Link
+  Zoom Meeting ID: 980 6483 9816
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

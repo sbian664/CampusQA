@@ -1,0 +1,54 @@
+dsa_page: Generalizable and Robust Graph Learning for Scalable Protein-Protein Interaction Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/10/14/generalizable-and-robust-graph-learning-for-scalable-protein-protein-interaction-modeling/
+source: DSA
+
+headings:
+  - Generalizable and Robust Graph Learning for Scalable Protein-Protein Interaction Modeling
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Generalizable and Robust Graph Learning for Scalable Protein-Protein Interaction Modeling
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Ziqi GAO
+  ABSTRACT
+  Graph learning has emerged as a powerful tool for modeling biological systems, demonstrating high effectiveness in critical tasks such as Protein-Protein Interaction (PPI) prediction. However, the practical deployment of these models faces three fundamental challenges: (1) generalizability—models often struggle to predict interactions for novel proteins; (2) robustness—the instability of protein structures can significantly impact interaction results; and (3) scalability—existing methods are primarily restricted to binary protein interactions, overlooking the more complex and practical scenarios involving interactions among multiple proteins.
+  Our first framework, HIGH-PPI, revisits the natural hierarchical structure of the PPI problem and proposes a hierarchical graph learning framework that integrates protein structures and PPI network structures to better learn the interaction knowledge. HIGH-PPI has been proven to effectively enhance the generalization capability of PPI prediction in both ideal and adversarial noise scenarios. Subsequently, to address the challenge of poor generalization to unknown proteins, the model-agnostic framework L3-PPI was developed. It incorporates biologically grounded complementarity priors into PPI prediction. Furthermore, ATProt addresses the poor robustness resulting from protein structure flexibility during binding, and introduces an adversarial protein learning framework. This approach achieves highly robust predictions while maintaining expressive capacity. Finally, given the complexity and inherent difficulty of learning multiple PPI, PromptMSP expands binary PPI to multiple PPI scenarios from the perspective of knowledge progression. Extensive experiments across diverse benchmarks and downstream tasks in both binary and multiple PPI prediction validate the effectiveness of these approaches. Collectively, they aim to advance the frontier of graph learning-based PPI prediction toward greater generalization, robustness and scalability.
+  TEC
+  Chairperson: Prof Hui XIONG
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Yong HUANG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Yuyu LUO
+  Prof Xuming HU
+  Prof Shutao XIA
+  Date
+  15 October 2025
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 98214250966
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98214250966?pwd=e7drKazjZ7gEbbKNQbEvZn2asbJZvf.1

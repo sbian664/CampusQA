@@ -1,0 +1,45 @@
+dsa_page: Floating-Point Time Series Data Compression – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/17/floating-point-time-series-data-compression/
+source: DSA
+
+headings:
+  - Floating-Point Time Series Data Compression
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Email
+
+text: >
+  DSA Seminar
+  Floating-Point Time Series Data Compression
+  Share to
+  ABSTRACT
+  With the advancement of sensors and IoT technologies, massive floating-point time series data continues to be generated. Time series data typically requires compression before transmission and storage to reduce bandwidth consumption and storage occupancy, thereby improving transmission efficiency and query performance. General-purpose compression algorithms are unsuitable for streaming compression scenarios and exhibit slow compression efficiency, while XOR-based floating-point compression algorithms fail to adequately handle cases with fewer trailing zeros, resulting in suboptimal compression effectiveness. This presentation will introduce a series of lossless or error-bounded compression algorithms for floating-point time series data developed in recent years by Start Lab at Chongqing University. The related work has been published in prestigious venues including SIGMOD, VLDB, IoTJ, and the Journal of Software.
+  SPEAKER BIO
+  Ruiyuan Li
+  is an Associate Professor at the College of Computer Science, Chongqing University, and a recipient of Chongqing University’s
+  Most Popular Teacher Award among Students
+  . He was honored with the
+  Outstanding Doctoral Dissertation Award
+  from the Chinese Institute of Electronics. Previously, he served as the head of the
+  Spatio-Temporal Data Group
+  at JD City, where he led the development of the JUST (JD Urban Spatio-Temporal Data Engine), which has been applied in multiple national-level projects. Prior to joining JD, he conducted a four-year internship at the
+  Urban Computing Group
+  of Microsoft Research Asia (MSRA). He has published over 50 papers (including 20+ CCF-A publications) with 3,000+ citations on Google Scholar, and has filed 40+ patents (including one
+  Outstanding Chinese Patent Award
+  ). For his contributions to spatio-temporal data mining, he received the 2024
+  CCF Natural Science Third Prize
+  and the 2025
+  Emerging Scholar Award in Spatial Data Intelligence
+  . He is currently a Senior Member of the China Computer Federation (CCF) and an Outstanding Executive Committee Member of the CCF Database Technical Committee.
+  Date
+  23 April 2025
+  Time
+  09:20:00 -
+  10:20:00
+  Location
+  E4-102（HKUST-GZ)
+  Email
+  dsarpg@hkust-gz.edu.cn

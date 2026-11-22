@@ -1,0 +1,33 @@
+dsa_page: Toward Next-Generation Data Science Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/17/toward-next-generation-data-science-systems/
+source: DSA
+
+headings:
+  - Toward Next-Generation Data Science Systems
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Toward Next-Generation Data Science Systems
+  Share to
+  ABSTRACT
+  Data science systems—pandas, NumPy, Scikit-Learn, and others—form the core of how we process, analyze, and model data today. They are powerful, widely adopted, and deeply influential. But the landscape of data science is shifting, and these systems now face new demands that they were not originally designed for.
+  This talk explores what the next generation of data science systems will look like. Compared with the previous generation, these systems will differ in four fundamental ways.
+  (1) Scenario shift: these systems will not only serve human data scientists but will also become essential tools for LLM-based agents.
+  (2) Architecture shift: monolithic designs will evolve toward composable architectures that enable component and optimization reuse across systems.
+  (3) Technical shift: database techniques—long known for optimization and performance—will become more deeply integrated into the data science stack.
+  (4) Hardware shift: systems will increasingly run on heterogeneous hardware, including GPU, TPU, and Ascend.
+  These shifts open up a wide range of new research opportunities. In this talk, I will discuss several recent projects—Accio, ParSEval, and ConnectorX—and show how they bring over an order-of-magnitude improvement in performance, reusability, and capability for today’s data science software stack.
+  SPEAKER BIO
+  Jiannan Wang is an Associate Professor in the Department of Computer Science and Technology at Tsinghua University. His research centers on database and data science systems, aiming to build high-performance, easy-to-use, and intelligent software systems for data management, analytics, and AI. His research has been recognized with multiple honors, including the VLDB Best Experiments, Analysis & Benchmark Paper Award (2021), a CS-Can|Info-Can Outstanding Early Career Researcher Award (2020), an IEEE TCDE Rising Star Award (2018), an ACM SIGMOD Best Demonstration Award (2016), a Distinguished Dissertation Award from the China Computer Federation (2013), and a Google Ph.D. Fellowship (2011). He was a General Co-chair for VLDB 2023, a PhD Symposium Track Chair for ICDE 2022, an Associate Editor for VLDB 2021, and a core PC member for SIGMOD 2019.
+  Date
+  12 November 2025
+  Time
+  16:15:00 -
+  17:30:00
+  Location
+  E4 102, HKUST(GZ)

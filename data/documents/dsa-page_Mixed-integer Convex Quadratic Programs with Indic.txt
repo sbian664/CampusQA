@@ -1,0 +1,38 @@
+dsa_page: Mixed-integer Convex Quadratic Programs with Indicators: Theory, Algorithms, and Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/20/dsa%e7%a0%94%e8%ae%a8%e4%bc%9a-mixed-integer-convex-quadratic-programs-with-indicators/
+source: DSA
+
+headings:
+  - Mixed-integer Convex Quadratic Programs with Indicators: Theory, Algorithms, and Applications
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Mixed-integer Convex Quadratic Programs with Indicators: Theory, Algorithms, and Applications
+  Share to
+  ABSTRACT
+  The decision-making problems in which we minimize a convex quadratic loss function concerning continuous decision variables that are activated/deactivated by corresponding binary variables (MICQP) encompass a wide range of applications, from statistical learning to energy, finance, and logistics. However, due to the mixed-integer decision space and its nonlinearity, it is particularly challenging to study convex program approximations of MICQP and solve real-world problems efficiently. In the first half of this talk, I will first discuss the critical applications of MICQP, followed by a novel semidefinite programming approximation of MICQP, which gives the convex hull of the mixed-integer epigraph of MICQP and unifies several previously established results. In the second half, I will present a new class of algorithms for solving MICQP that significantly outperforms state-of-the-art methods.
+  SPEAKER BIO
+  Linchuan WEI
+  Northwestern University
+  Linchuan is a PhD Candidate in Operations Research at Northwestern University, advised by Prof. Simge Küçükyavuz. His research interests lie at the intersection of optimization, data science and operations, particularly to study tractable convex program approximations and efficient algorithms for mixed-integer nonlinear programs with applications in machine learning and operations. His research has been published in journals such as Mathematical Programming and Journal of Machine Learning Research. He won the Nemhauser Prize for Best Student Paper. Before coming to Northwestern, he received his Bachelor of Mathematics from the University of Waterloo.
+  Date
+  22 January 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  819 9694 4902
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

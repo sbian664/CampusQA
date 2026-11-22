@@ -1,0 +1,41 @@
+dsa_page: Reference Panel Guided 3D Genome Data Analysis – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/reference-panel-guided-topological-structure-annotation-of-hi-c-data/
+source: DSA
+
+headings:
+  - Reference Panel Guided 3D Genome Data Analysis
+  - Abstract
+  - Project members
+  - Yanlin ZHANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Reference Panel Guided 3D Genome Data Analysis
+  Abstract
+  The widespread usage of Hi-C has revealed the hierarchical structures of the genome, thereby deepening our understanding of the organization and function of 3D genomes. However, analyzing Hi-C data remains a challenging task, mainly due to the sequencing coverage of data produced in most Hi-C experiments is insufficient.
+  In this project, we proposed a reference panel enabled framework to tackle the data insufficiency issue in Hi-C data analysis. This pioneering approach represents the first instance of harnessing the vast amount of existing Hi-C datasets while analyzing a given study Hi-C dataset. Within this framework, we developed three applications to enhance a Hi-C contact map, annotate chromatin loops, and identify nested topologically associating domains (TADs) from insufficiently sequenced Hi-C data. Algorithms developed in this thesis leverage ideas from attention mechanisms, representation learning, dynamic programming, and non-parametric statistics. The introduction of a panel of reference Hi-C samples significantly improved prediction accuracy across three diverse Hi-C data analysis tasks under a wide spectrum of benchmarking scenarios. Applying our tools to Hi-C data from various cells deepened our understanding of the formation of TADs and chromatin loops, unraveling key insights into these essential genomic features.
+  Project members
+  Yanlin ZHANG
+  Assistant Professor
+  Publications
+  1.
+  Reference panel guided topological structure annotation of Hi-C data
+  . Yanlin Zhang, and Mathieu Blanchette.
+  2.
+  Reference panel-guided super-resolution inference of Hi-C data
+  . Yanlin Zhang, and Mathieu Blanchette.
+  Project Period
+  2022.12.1-2023.6.30
+  Research Area
+  Computational biology
+  Keywords
+  3D genome, attention mechanism, computational biology, deep learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  - Reference panel guided topological structure annotation of Hi-C data | https://www.nature.com/articles/s41467-022-35231-3
+  - Reference panel-guided super-resolution inference of Hi-C data | https://watermark.silverchair.com/btad266.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA6YwggOiBgkqhkiG9w0BBwagggOTMIIDjwIBADCCA4gGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM4o9xjjIBQhAwZ_eDAgEQgIIDWR8Qf8EgFn9Fh9MJuvrkLN7csTptMOt7rc1tcSJAonfjsNuCfmlf4AAfrDuQtYXXXnT9GiJNgfdX5-nplfLTBOS0b5NvJsrwa78SnflyLF-o2nOlAGt9RV58w1tmbnGp2jhCdAkbu8r1Ttj7mikpPL-bHA2tnlNLrRlgWsr14F_-ZR1Un8pLoaVmtoj75uJYLvffIaXKt5rFGpMyqHwT4h6LaFmWnpngqE3wEz3x9n5Ye_-U37VPfocLCFt07ExsKUXjiextgrEKaFfEC9oQLpBqZ_CsVsB3imCazeALUucT30lUOCwhl_dkNePd-Pgmbzw2GtROlMjt8sd-wGpSiETdI-V6O06iNScbJfYdPonBLE2SgUJi_26yNARL2R1B76z_MzjoXOSVFN8jhUY1Zdm4vzP9t4j1FWs7UCGNYE2HhgE5A2UcQHnkmaA2RKY_e9iJ46dXmCWamG59eJ1geVTNMVF-kzHiSZTx9DOP97Ot5FDwAR_qiSEC-cwe8FMvxUN4xKUlXLjCKmDrHQ9twHOBXw9KBhMwUqWUotcFpUbsW__xbGceOc7whfQQEAdOteiVgnNwI9chdfsaBRVL5c07-d9J7cV2L-3dPeCHPX0vq7Nf2DyYJwI65wCc30QiEIIpHMGpcJRK8E2F4Eqm_SLWHGgB3Lq1tFVo97meQzKqTLra7rRwJLcQUMBMYun6XfGTCxiOhtTcpMgFsyIHjfnBVAX1Z6GX2OWPSRZ52-L1QqolTwyiwZJcPAbkc2QvBPaGvaPvUrLOPj9TZNLHuomySFbc0N9eWvVNhMzFzlUfpbxlNDg51TUrWWdrUpukHFmT5lwSovY4XGZ06igjlgQdpMjX5LydSjQN9AF_12Iuk1__Bb0RnMgGEYs_Lexv1r8N-Rt6DeB7Tf2rIDSQYsq27hDduedy908QbbmDDbhNrCpcBTvrYKq4-xT5pdn9IBlqLOwrQkup3tk6QdfCi_L0gQCMWKmImT2SSydrwoQ7rxa7t_LbLyHkVvzDyflLTTj0xUvO5cbcf_7kVRrq3VMIszAJdEHOhIM_qRRzzoxD0iTD3NEBWpj80lUE9LD-fnMLtaSzY-2qHbEOTqlLmeTFa73ZALMLLacvUft6H7vdIR09d6K4NXBp

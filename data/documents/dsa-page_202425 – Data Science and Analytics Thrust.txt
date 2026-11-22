@@ -1,0 +1,109 @@
+dsa_page: 2024/25 – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/02/11/2024-25/
+source: DSA
+
+headings:
+  - 2024/25 Fall
+  - 2024/25 Spring
+  - 2024/25 Summer
+
+text: >
+  Course Syllabus
+  2024/25
+  Day: February 11, 2026
+  Browse: 1014
+  Share to
+  2024/25 Fall
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 1001
+  Introduction to Data Science and Analytics
+  LI, Jia,
+  LI, Lei,
+  WANG, Wei
+  PDF
+  DSAA 2043
+  Design and Analysis of Algorithms
+  TANG, Jing
+  PDF
+  2024/25 Spring
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 1001
+  Introduction to Data Science and Analytics
+  LI, Lei,
+  WANG, Wei,
+  ZHANG, Yongqi
+  PDF
+  DSAA 2011
+  Machine Learning
+  YANG, Weikai,
+  ZHONG, Zixin
+  PDF
+  DSAA 2031
+  Database Management Systems
+  TANG, Nan
+  PDF
+  DSAA 2043
+  Design and Analysis of Algorithms
+  WANG, Wei
+  ZHANG, Yanlin
+  PDF
+  2024/25 Summer
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 2011
+  Machine Learning
+  ZHONG, Zixin
+  PDF
+  DSAA 2012
+  Deep Learning
+  XIE, Zeke
+  PDF
+  DSAA 2088
+  Mathematics for Data Science
+  DING, Ningning,
+  WANG, Wenjia
+  PDF
+  Click to view the
+  Course Dependency Diagram
+  to understand the prerequisite relationships among courses and the recommended progression to higher-level subjects.
+  For syllabi of courses offered by other Course Offering Units, please refer to the
+  UG Course Syllabus page
+  .
+
+tables:
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 1001 | Introduction to Data Science and Analytics | LI, Jia, LI, Lei, WANG, Wei | PDF
+  - DSAA 2043 | Design and Analysis of Algorithms | TANG, Jing | PDF
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 1001 | Introduction to Data Science and Analytics | LI, Lei, WANG, Wei, ZHANG, Yongqi | PDF
+  - DSAA 2011 | Machine Learning | YANG, Weikai, ZHONG, Zixin | PDF
+  - DSAA 2031 | Database Management Systems | TANG, Nan | PDF
+  - DSAA 2043 | Design and Analysis of Algorithms | WANG, Wei ZHANG, Yanlin | PDF
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 2011 | Machine Learning | ZHONG, Zixin | PDF
+  - DSAA 2012 | Deep Learning | XIE, Zeke | PDF
+  - DSAA 2088 | Mathematics for Data Science | DING, Ningning, WANG, Wenjia | PDF
+
+links:
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA1001_Fall_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2043_Fall_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA1001_Spring_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2011-Spring_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2031_Spring_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2043_Spring_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2011-Summer_24-25.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2012-Summer_24-25_rev.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/DSAA2088-Summer_24-25.pdf
+  - Course Dependency Diagram | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/course-diagram/
+  - UG Course Syllabus page | https://www.hkust-gz.edu.cn/academics/academic-quality-manual/learning-resources-and-support/ug-course-syllabus-ug/

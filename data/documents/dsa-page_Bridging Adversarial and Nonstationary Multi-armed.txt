@@ -1,0 +1,40 @@
+dsa_page: Bridging Adversarial and Nonstationary Multi-armed Bandit – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/12/04/bridging-adversarial-and-nonstationary-multi-armed-bandit/
+source: DSA
+
+headings:
+  - Bridging Adversarial and Nonstationary Multi-armed Bandit
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Bridging Adversarial and Nonstationary Multi-armed Bandit
+  Share to
+  *Students who enroll in DSAA 6101 please attend the seminar in classroom.
+  ABSTRACT
+  In the multi-armed bandit framework, there are two formulations that are commonly employed to handle time-varying reward distributions: adversarial bandit and nonstationary bandit. Although their oracles, algorithms, and regret analysis differ significantly, we provide a unified formulation in this paper that smoothly bridges the two as special cases. The formulation uses an oracle that takes the best action sequences within a switch budget. Depending on the switch budget, it turns into the oracle in hindsight in the adversarial bandit and dynamic oracle in the nonstationary bandit. We provide algorithms that attain the optimal regret with the matching lower bound. The optimal regret displays distinct behavior in two regimes.
+  SPEAKER BIO
+  Hailun ZHANG
+  Assistant Professor
+  The Chinese University of Hong Kong
+  Dr. Hailun Zhang is an assistant professor in School of Data Science (SDS), The Chinese University of Hong Kong, Shenzhen. Before joining CUHKSZ, he is a Postdoc fellow in Department of Industrial Engineering and Decision Analytics at HKUST, where he obtained a Ph.D. degree in July 2018. His research interests lie in flexibility design, queuing networks, online algorithm design and supply chain management. Before HKUST, he received his bachelor and master's degree in Mathematics department from Peking University. He has published papers in top-tier journals like Operations Research, Management Science, Production and Operations Management, etc.
+  Date
+  06 December 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  898 8676 7639
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

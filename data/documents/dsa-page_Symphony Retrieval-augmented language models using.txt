@@ -1,0 +1,37 @@
+dsa_page: Symphony: Retrieval-augmented language models using multi-modal data lakes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/symphony-retrieval-augmented-language-models-using-multi-modal-data-lakes/
+source: DSA
+
+headings:
+  - Symphony: Retrieval-augmented language models using multi-modal data lakes
+  - Abstract
+  - Project members
+  - Nan TANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Symphony: Retrieval-augmented language models using multi-modal data lakes
+  Abstract
+  Multi-modal data lakes, which contain datasets in different formats such as text, tables, and knowledge graphs, have become increasingly popular for many organizations. Large language models, as generative models, cannot ensure the correctness of generative data. Given any natural language query, Symphony will first retrieve (possibly multiple) datasets from data lakes, which are then used for reasoning to answer the given query.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Nan TANG
+  Associate Professor
+  Publications
+  Symphony: Towards natural language query answering over multi-modal data lakes
+  . Zui Chen, Zihui Gu, Lei Cao, Ju Fan, Samuel Madden, and Nan Tang.
+  Project Period
+  2023-Present
+  Research Area
+  Data-driven AI
+  Keywords
+  LLM, multi-modal data lake, RAG
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://nantang.github.io/projects/llmdb-symphony/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - Symphony: Towards natural language query answering over multi-modal data lakes | https://nantang.github.io/research/pubs/cidr2023.pdf

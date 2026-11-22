@@ -1,0 +1,538 @@
+fytgs_page: Handbook for Taught Postgraduate Studies
+url: https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-taught-postgraduate-studies
+source: FYTGS
+
+headings:
+  - Handbook for Taught Postgraduate Studies HKUST(GZ) (2026-27)
+  - Preface
+  - University Governance
+  - Student Conduct and Academic Integrity
+  - The HKUST(GZ) Academic Honor Code
+  - Student Conduct
+  - Academic Integrity
+  - Policies and Regulations
+  - Policies and Practices Governing Research Activities
+  - Intellectual Property Policy
+  - Policies and Guidelines for Research Practices
+  - Admissions
+  - Admission Requirements
+  - Admissions Process
+  - Applicants from Hong Kong, Macao and Taiwan regions of China
+  - International Applicants
+  - Deferred Admission
+  - Re-admission
+  - Fees
+  - Tuition Fees
+  - Late Charges and Other Penalties
+  - Compulsory Medical Insurance
+  - Registration in Programs
+  - Maintaining Registration
+  - Double Registration
+  - Late Registration
+  - Mode of Study
+  - Normative Period of Study
+  - Leave from Study
+  - Off-campus Study Status
+  - Cross-campus Study Status
+  - Changes of Registration
+  - Registration Beyond Program Completion
+  - Withdrawal from the University
+  - Study Commitment
+  - Internship and Employment During Study
+  - Curriculum Requirements
+  - Medium of Instruction and Assessment
+  - Adherence to the Curriculum
+  - General Requirements of Taught Postgraduate Programs
+  - Postgraduate Diploma and Certificate Programs
+  - Course Registration
+  - Course Selection and Registration
+  - Credit Requirements
+  - Study Load
+  - Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  - Course Auditing
+  - Course Add/Drop and Course Withdrawal
+  - Academic Accommodations or Adjustments for Students with Special Educational Needs
+  - Course Substitution and Credit Transfer
+  - Course Substitution
+  - Credit Transfer
+  - Transfer of Course Grades and Credits on Resumption of Studies
+  - Course Grading
+  - Grades for Postgraduate Courses
+  - Assignment of Course Grades
+  - Grade Announcement
+  - Illness or Other Circumstances Affecting Assessment
+  - Grade Review
+  - Course Repeats
+  - Grade Averages
+  - Progression and Academic Standing
+  - Academic Standing
+  - Academic Leave and Academic Dismissal
+  - Graduation
+  - Degree Conferment by HKUST on Completion of Studies
+  - Graduation Grade Average (GGA)
+  - Graduation Approval
+  - Congregation
+  - Award Diploma
+  - Appeals and Grievance Channels
+  - Appeals
+  - Grievance Channels
+  - Glossary of Terms
+  - 1. Academic Terms
+  - 2. Academic Year
+  - 3. Academic Program
+  - 4. Academic Standing
+  - 5. Add/Drop Period
+  - 6. Award
+  - 7. Concentration
+  - 8. Course
+  - 9. Course Code
+  - 10. Course Offering Unit
+  - 11. Course Substitution
+  - 12. Credit Transfer
+  - 13. Credit Unit
+  - 14. Cumulative Grade Average (CGA)
+  - 15. Dean or the Dean’s Designee
+  - 16. Grade Points
+  - 17. Graduation Grade Average (GGA)
+  - 18. Hub/College
+  - 19. Registration
+  - 20. Study Load
+  - 21. Taught Postgraduate Programs
+  - 22. Term Grade Average (TGA)
+  - 23. Thrust/Base
+  - 24. Transcript
+
+text: >
+  Handbook for Taught Postgraduate Studies HKUST(GZ) (2026-27)
+  Preface
+  For the purpose of this Handbook,
+  - The Hong Kong University of Science and Technology (Guangzhou), will be referred to as the University, this University or HKUST(GZ), whereas
+  - The Hong Kong University of Science and Technology at Clear Water Bay, the HKSAR, will be referred to as HKUST.
+  This Handbook has been prepared with the purpose of helping students understand their rights and responsibilities as taught postgraduate (TPg) students at the Hong Kong University of Science and Technology (Guangzhou), and the policies related to various aspects of their studies. This Handbook should serve as a useful guide for TPg students throughout their course of study. Students are obliged to find out what they need to do or know about their program of study and the related University regulations.
+  This may also serve as a handy reference for faculty members and administrative staff who may need to advise students on procedural matters concerning postgraduate studies at the University.
+  The content of this Handbook may change from time to time to reflect the most updated information. Students should also refer to the Academic Regulations of the University for policies related to their study.
+  HKUST Fok Ying Tung Graduate School –
+  Guangzhou Office
+  August 2026
+  University Governance
+  The Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)) is a Mainland-Hong Kong cooperatively run university that implements academic education and has an independent legal status. It is jointly organized by Guangzhou University (GZU) and The Hong Kong University of Science and Technology (HKUST), under the support from Guangzhou Municipal Government, with reference to the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools and the Implementation Measures of the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools , and other relevant laws, regulations and administrative rules, with the additional premise of not violating Chapter 1141 of the Hong Kong Laws on The Hong Kong University of Science and Technology Ordinance and its relevant laws, regulations, and within the scope of the parties. HKUST(GZ) implements the principal responsibility system under the leadership of the
+  Governing Board
+  .
+  Student Conduct and Academic Integrity
+  The HKUST(GZ) Academic Honor Code
+  Honesty and integrity are central to the academic work of HKUST(GZ). Students of the University must observe and uphold the highest standards of academic integrity and honesty in all the work they do throughout their program of study.
+  As members of the University community, students have the responsibility to help maintain the academic reputation of HKUST(GZ) in its academic endeavors.
+  Sanctions will be imposed on students if they are found to have violated the regulations governing academic integrity and honesty.
+  Student Conduct
+  The University expects good conduct from its students and may take disciplinary action under the Regulations for Student Conduct against students, current or former, who are found, either individually or in aggregate with others, to have committed misconduct.
+  Academic Integrity
+  The University’s approach to academic misconduct, involving breaches of the Academic Honor Code and academic integrity, is fundamentally educational, striving to foster a strong ethical foundation among its students. The process for dealing with academic misconduct is designed to enable students to better understand the nature of academic misconduct and the high standards of academic integrity that are expected of them. The sanctions applied in confirmed cases of academic misconduct are intended to communicate to the University community that the University has zero tolerance towards breaches of academic integrity.
+  Policies and Regulations
+  For details on University policies and regulations governing student conduct, academic integrity and research conduct, please refer to:
+  Regulations for Student Conduct
+  Regulations for Student Academic Integrity
+  Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct
+  Policy on Research Conduct and Integrity
+  Policies and Practices Governing Research Activities
+  Intellectual Property Policy
+  The University has developed the Intellectual Property Policy and its constituent Guidelines to support the management, technology transfer and commercialization of intellectual property created by employees, students or others during their association with the University.
+  More information is available
+  here
+  .
+  Policies and Guidelines for Research Practices
+  The University community has a collective responsibility to ensure that proper research practices are carried out in accordance with both international and University standards and regulations at all times, to be vigilant in guarding against serious lapses, and to report violations if they occur.
+  More details on the policies and guidelines for research practices are available
+  here
+  .
+  Admissions
+  Admission Requirements
+  To qualify for admission to the University, applicants must meet (i)
+  the University admission requirements
+  ; (ii) the admission requirements of the program they are applying for; and (iii) the English language admission requirement.
+  University and program admission requirements are minimum requirements for admission. Meeting these minimum requirements does not guarantee admission. Applicants who possess other qualifications equivalent to the University requirements for admission may submit applications for consideration on the basis of individual merit.
+  Admissions Process
+  Applications for admission to postgraduate programs are normally invited from July in the previous year. Interested persons are strongly advised to apply well before the application closing dates. Application deadlines for individual programs may vary and should be checked prior to submitting an application. In order to allow sufficient time to obtain a student visa/entry permit, applicants are encouraged to submit their applications as early as possible.
+  Selected applicants may be invited for an admission interview. Successful applicants will receive an offer of admission from the HKUST Fok Ying Tung Graduate School, and may be required to satisfy specified conditions. Applicants receiving an offer will be expected to accept or decline by a specified date.
+  Detailed application procedures are available
+  here
+  .
+  Applicants from Hong Kong, Macao and Taiwan regions of China
+  The University welcomes applications from Hong Kong, Macao and Taiwan regions of China who are seeking admission at the postgraduate level.
+  Students are required to apply for HKUST(GZ) with valid Identity Card and Mainland Travel Permit. Admitted students shall enter the Chinese Mainland with valid Mainland Travel Permit. This is applicable to both degree and non-degree seeking students.
+  International Applicants
+  The University welcomes applications from all over the world who are seeking admission at the postgraduate level.
+  (i) Student Visa
+  All international students are required to obtain a student visa for studying at HKUST(GZ). This is applicable to both degree and non-degree seeking students.
+  General procedures for applying for China Visa as a new student please contact:
+  study@hkust-gz.edu.cn
+  .
+  (ii
+  ) Costs of Study
+  In addition to tuition fees, costs associated with staying in HKUST(GZ) mainly include accommodation, medical, visa and living expenses. International students should consider the financial aspects of their study before coming to HKUST(GZ).
+  (iii
+  ) Employment During Study
+  International students should note that they may only apply to take up on-campus part-time work, winter/summer work and study-related internship, subject to rules and conditions specified by the Government and the University. For details, please refer to the “Study Commitment” section of this Handbook.
+  Deferred Admission
+  Under special circumstances, students may apply in writing to the HKUST Fok Ying Tung Graduate School for deferred admission to a subsequent regular term. Requests will be considered on an individual basis by the relevant Hub/ Thrust, who will notify the applicant of the outcome. All approvals for deferred admission are valid for not more than two consecutive regular terms, after which re-application for admission to the University must be made.
+  Re-admission
+  Students who have withdrawn from the University may apply for admission into any program of study by following the regular admissions procedure. However, those who are required to withdraw from the University due to academic reasons or failure to meet the prescribed conditions set for re-enrollment at the end of an academic leave may not apply for re-admission into the same program of study.
+  For re-admitted students, course grades and credits taken within five years prior to re-admission and not used to earn any academic qualification at either the University, HKUST or elsewhere may be used to fulfill requirements of the new program of study, subject to approval of the Thrust.
+  Fees
+  Tuition Fees
+  Students are required to settle the tuition fee by the prescribed deadline. Tuition fee paid is refundable. Students on taught postgraduate programs who have to extend their study beyond the normative period of study may be required to pay a term-based fee, or they may need to pay additional fees based on the number of credits they enroll for the term concerned.
+  Late Charges and Other Penalties
+  Students may be required to pay late charges or subject to other penalties for failure to complete certain University procedures by stipulated deadlines. These include fines for overdue library books, and other administrative charges. Late charges and penalties are levied in accordance with the rules and regulations set by respective offices.
+  Compulsory Medical Insurance
+  The University policy stipulates that compulsory medical insurance is required for all registered international postgraduate students studying at HKUST(GZ) on student visa.
+  The compulsory medical insurance aims to provide better resources and safety net for international students in the event that they need prompt, appropriate and affordable medical services.
+  For more details about compulsory medical insurance, please consult Office of Student Affairs (OSA):
+  gzsmi@hkust-gz.edu.cn
+  .
+  Registration in Programs
+  Maintaining Registration
+  Program registration involves payment of tuition and other prescribed fees, and completion of the registration process. Failure to maintain registration in the program in any regular term will result in automatic withdrawal from the program and the University, unless a formal approval of Leave from Study has been obtained from the student’s Thrust. Moreover, students must be officially registered in their programs in the regular term when they are being considered for graduation from the programs concerned.
+  Double Registration
+  Unless prior permission from the Academic Registrar is obtained, students are not permitted to concurrently register for another program at this University or at another tertiary institution. If students are found to be registered elsewhere without seeking prior approval, they will normally be required to discontinue their study at this University.
+  Students who wish to apply for simultaneous registration should submit an “
+  Application for Double Registration
+  ” to the Academic Registry Services together with appropriate documentary evidence. Students will be notified of the result of the application in writing.
+  The restriction against double registration is not applicable to students of the University who have been approved to register on Cross-campus Study status at HKUST, or vice versa.
+  Late Registration
+  Postgraduate students admitted to the University in a particular academic year must complete registration in their programs by the end of the add/drop period in the Fall or Spring Term. Under special circumstances, students may apply in writing to the Academic Registry Services via the Thrust for late program registration for the term concerned.
+  Mode of Study
+  Most postgraduate programs are available in both full-time and part-time modes of study. Unless otherwise specified, the taught programs leading to doctoral and master’s degrees, postgraduate diplomas and postgraduate certificates are suitable for students interested in part-time study.
+  Postgraduate students may apply to their Thrust, prior to the beginning of any regular term, for transfer from full-time to part-time status or from part-time to full-time status. When such a transfer is allowed, the remaining program requirements will be determined.
+  Full-time students in taught programs are expected to be in attendance during those terms for which their programs are scheduled. For part-time students, attendance shall be as above except on a part-time basis as defined by the requirements of their programs of study.
+  Normative Period of Study
+  The normative period of study for the full-time taught master’s programs is one or two years as specified by individual programs. For part-time taught master’s programs, students may expect to take twice the time of full-time students.
+  The normative period of study for the part-time postgraduate diploma programs is one year and a half, whereas that for the part-time postgraduate certificate programs is one year. For the full-time postgraduate diploma programs, the normative period of study is half a year to one year.
+  The maximum time allowed for degree completion is five years for a master’s degree and eight years for a doctoral degree. The maximum period of study for a postgraduate diploma program is three years whereas that for a postgraduate certificate is two.
+  Time limits for part-time study are the same as for full-time study. The time limits are in effect whether or not the student is in continuous registration. That is, period of approved Leave from Study, and suspension period are also counted toward the maximum time allowed for program completion.
+  Leave from Study
+  Students are discouraged from interrupting their program of study. In exceptional circumstances with sufficient justification, students may apply for Leave from Study for one regular term, subject to approval of the Thrust. Applications for Leave from Study for two consecutive regular terms or more require the approval of the Dean or the Dean’s designee. Applications for Leave from Study for more than two consecutive regular terms will normally not be considered. Any exception to this rule requires provision of detailed justifications and relevant supporting documents (e.g. a study plan on resumption of study showing that the student can complete the program within the maximum period allowed) for the special approval of the Dean or the Dean’s designee.
+  The approved period of Leave from Study will be counted toward the time limit for completion of the program being pursued.
+  To apply for Leave from Study, students should submit an
+  “Application for Leave from Study”
+  together with the appropriate supporting documents to the Thrust for approval before the start of the proposed leave period.
+  Off-campus Study Status
+  Students under formal dual-degree programs may register on the “Off-campus Study” status at the University during the terms when they are pursuing dual-degree study at the host institutions.
+  Students with the “Off-campus Study” status will remain officially registered in their programs. They are allowed to register for or audit course(s), and may be considered for graduation from the programs concerned. They are not required to pay tuition fee at the University, not entitled to University student accommodation, and not eligible to receive any forms of financial assistance.
+  The off-campus study period should normally commence at the beginning of a term. For off-campus study commencing in the middle of a term, tuition fee paid for that term is not refundable or transferable. The period will be officially recorded on student’s academic transcript, and will count toward the maximum time allowed for program completion.
+  Students who wish to apply for the “Off-campus Study” status should approach the home Hub/ Thrust, prior to the commencement of the term when the “Off-campus Study” status will take effect.
+  Cross-campus Study Status
+  Students who are officially assigned by their thesis supervisors or Thrusts to enroll in course(s) or conduct study-related research across campuses are eligible to apply for registering on the “Cross-campus Study” status.
+  Registration should normally be on a term basis, with two months (half-term) as the minimum duration. Application for extension of one more term to a maximum total duration of one year may also be considered. Students should have normally completed no less than one year of study in the current program prior to their planned cross-campus study.
+  Students participating in cross-campus study shall be officially registered at the home campus as active students, and the period of physical cross-campus study will be recorded on their academic transcripts. The period of cross-campus study, not more than one year in principle, will count toward the maximum time allowed for program completion.
+  For inbound students under the “Cross-campus Study” status, they are required to officially register in at least one course at the host campus to maintain their program registration, in accordance with the requirements stipulated in the Academic Regulations Governing Postgraduate Studies (section 5.1). During the cross-campus study period at the host campus, students are not allowed to take up “Off-campus Study” involving a third educational institution or organization.
+  All courses taken with the course grades assigned by the host campus must be recorded and reflected on the students’ academic transcripts of the home campus and counted toward their grade average calculations, as appropriate. The credit transfer restrictions of the University and individual programs will not be applicable to courses taken under cross-campus study.
+  Students on the “Cross-campus Study” status shall pay tuition fees only to the home campus, with their host tuition being waived.
+  Students who wish to apply for the “Cross-campus Study” status should approach the home Hub /Thrust prior to the commencement of the term when the “Cross-campus Study” status will take effect.
+  Changes of Registration
+  A student may change from one program of study to another with the permission of the Thrust to which the student wishes to transfer. If a transfer is approved, that Thrust will determine which credits from the student's former program apply to the new program. Normally, the transfer will not be effected until the following regular term. Students who wish to transfer to another program of study in the middle of a term should obtain the prior approval of the Thrust and the Dean or the Dean’s designee. Unless there are extenuating circumstances, requests for program transfers to be effected in the middle of a term are not supported.
+  For students who have transferred from one program of study to another, the maximum time for program completion will be counted from the first day of registration at the University.
+  To apply for program transfer, students are required to submit an
+  “Application for Program Transfer/Change of Academic Load (for Postgraduate Students)”
+  to the receiving Thrust for consideration.
+  Registration Beyond Program Completion
+  Students who have completed their program requirements are not allowed to continue their registration for the same program of study in subsequent regular terms.
+  Withdrawal from the University
+  Students who withdraw, or are required to withdraw, from the University must complete clearance procedures as specified by the Academic Registrar.
+  To apply for withdrawal, students should complete and return the
+  “Application for Withdrawal of Study”
+  to the Academic Registry Services.
+  Study Commitment
+  Students admitted to a full-time program are expected to study full-time for their programs, and are cautioned that outside work commitments may impede their academic performance.
+  Internship and Employment During Study
+  During the Fall and Spring Terms, full-time taught postgraduate (TPg) students may engage in part-time employment for no more than 8 hours per week, 40 hours per month. International students may only take up on-campus employment with HKUST(GZ) internal offices/units or designated on-campus operators. No approval from the University is required.
+  During the Winter and Summer Terms, Chinese students may take up employment without any limit on the work hours and location.
+  Full-time TPg students, may take up study-related internship of no more than 40 hours per week throughout the year. Prior approval of the program director is required. For exceptional cases involving internship work of more than 40 hours per week, with strong justifications, case-by-case approval has to be obtained from the program director, Hub Dean, and the Guangzhou office of HKUST Fok Ying Tung Graduate School. This requirement does not apply to the guaranteed internship included in the program curriculum.
+  Students are strongly encouraged to discuss the study plans with their Program Directors who will provide advising and support where needed. Students should ensure that there is no conflict of interest with the studies and no breaching of University’s Intellectual Property Policy arising from the employment. Prior approval from Program Director has to be obtained if there is potential conflict of interest.
+  For international students wishing to take up employment or internship, they are reminded to observe and adhere to the relevant government policies and corresponding conditions attached to their student visa.
+  Curriculum Requirements
+  Medium of Instruction and Assessment
+  Unless otherwise approved by the Senate for a specific course or program of study, English is the medium of instruction and assessment at the University.
+  Adherence to the Curriculum
+  Each student enrolled in a specific program is subject to the requirements of the Thrust and the University. All postgraduate students must adhere to the curriculum of the year of entry throughout their program of study.
+  Students should ensure that they understand the curriculum requirements of their program and plan ahead to complete their program within the permitted duration of study. In case of deviations from Hub/ Thrust/ program requirements, approval must be obtained from the Dean or the Dean’s designee. Deviations from University requirements must be approved by the Guangzhou office of HKUST Fok Ying Tung Graduate School.
+  Thrusts should, as far as possible, deliver the curriculum advertised unless due to special circumstances, changes to the original curriculum are necessary or advantageous.
+  Detailed curriculum requirements for students admitted in different academic years are published in the
+  Postgraduate Program Catalog
+  .
+  General Requirements of Taught Postgraduate Programs
+  For Taught postgraduate programme, students must fulfill a minimum course requirement specified in the program descriptions in the
+  Postgraduate Program Catalog
+  . Students may also undertake a project under supervision of a faculty member. Projects require the submission of a written report, as specified by the Thrust, and carry a maximum of nine credits.
+  Postgraduate Diploma and Certificate Programs
+  Students on postgraduate diploma programs must fulfill a minimum coursework requirement of 15 credits. Those on postgraduate certificate programs must fulfill a minimum coursework requirement of eight credits.
+  Course Registration
+  Course Selection and Registration
+  Course registration deals with the selection of and registration in appropriate courses for a specific term. Course registration for a term requires approval from the Thrust. The student’s program registration will be revoked without formal registration in any course. Students should ensure that they have properly registered in the courses specified for a term. Students whose names are not on the class enrollment list will not be allowed to sit for examinations of the specific courses concerned and will not be awarded any grades for the courses.
+  Students should acquaint themselves with the general rules for postgraduate course registration and Thrust course requirements for the program. They should also read the course description and requirements carefully before selecting a course.
+  Credit Requirements
+  Credit requirements for postgraduate programs apply to course and project work.
+  For students on taught doctoral or master’s programs requiring 30 credits or above, unless restricted by program regulations, a maximum of nine credits of approved undergraduate courses at 4000-level may be used for postgraduate credit. Of the nine credits, no more than six may be from the student’s Thrust. For programs requiring fewer than 30 credits, a maximum of six credits of approved undergraduate courses at 4000-level may be used for postgraduate credit. Of the six credits, no more than three may be from the student’s Thrust.
+  For students on postgraduate diploma programs, unless restricted by program regulations, a maximum of three credits of approved undergraduate courses at 4000-level may be used for postgraduate credit. Students on postgraduate certificate programs are not allowed to use any undergraduate courses for postgraduate credit.
+  For all taught postgraduate programs, no more than 50% of the program requirements could be satisfied using credits earned from online courses and any other transfer credits granted.
+  Study Load
+  The normal study load for full-time students on taught master’s programs is twelve credits per regular term, with nine credits being the minimum. For part-time students, unless otherwise specified by program regulations, the maximum study load is eight credits per term.
+  The normal study load for students on part-time postgraduate diploma and postgraduate certificate programs is six credits for each regular term. Unless otherwise specified by program regulations, the maximum study load is eight credits per term. For full-time postgraduate diploma and postgraduate certificate programs, the minimum study load is nine credits per regular term.
+  Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  A course may require a certain general level of desired prior knowledge as background. Students should ensure that they have the necessary background to undertake a course, and may seek help from their Thrusts.
+  If a course designates other courses as its prerequisites, students must have taken and passed the prerequisites before they may enroll in the course, unless exemption is granted by the course offering Thrust. If a course designates other courses as its co-requisites, students must have taken the co-requisites prior to, or at the same time as, the specified course. Exemption from prerequisite or co-requisite requirements requires the approval of the instructor of the course concerned.
+  If a course has exclusions specified, students are not allowed to enroll in the course if they have already taken and passed any of the stated exclusions. Also, students are not allowed to enroll in a course together with any of its stated exclusions in the same term.
+  A co-listed course is a course offered under more than one course code. There may be different assessment schemes or assignments for the different course registrations, which will be explained to students at the beginning of the term. Students may enroll in and earn credits for only one of the co-listed versions of the course.
+  Course Auditing
+  With the permission of the course instructor, postgraduate students may enroll in a course as an auditor, who attends a course and participates in activities up to and including the writing of the final examination but not receiving a formal grade. Subject to satisfactory completion of requirements set by the course instructor, the course will be designated “AU” on the student’s transcript; otherwise the course will be removed from the registration record.
+  The credit load of audit courses is counted toward the study load of a student. Students on taught postgraduate programs are not allowed to audit courses without enrolling for normal coursework simultaneously in a regular term. Exceptions may be allowed for Summer and Winter Terms with the approval of the Program Director concerned.
+  For students who are on taught postgraduate programs which adopt a per-credit tuition fee, the tuition fee for the audit courses is the same as that of regular courses.
+  Course Add/Drop and Course Withdrawal
+  Students may make changes to their course registration during the add/drop period scheduled at the beginning of each term. Changes made in this period will not be reflected in the student’s record.
+  Requests to add or withdraw from courses after the add/drop period will not be accepted, except under extenuating circumstances beyond the control of the student. Students wishing to request for course add or withdrawal after the add/drop period will be required to provide the Thrust with full justification for making the application. The request has to be supported by the course instructor concerned, and endorsed by the Thrust Head, and the Dean or the Dean’s designee before it is forwarded to the Academic Registry Services for consideration.
+  If approval is granted for course withdrawal, the Withdrawal without Penalty Grade “W” will be recorded on the student’s transcript as the course grade. For students who are on taught postgraduate programs which adopt a per-credit tuition fee, there is no refund of the tuition fees paid for the withdrawn courses.
+  To apply for course add or withdrawal after the add/drop period, students are required to submit an “
+  Application for Class Enrollment/Withdrawal after Add/Drop Period
+  ”to the Thrust for approval.
+  Academic Accommodations or Adjustments for Students with Special Educational Needs
+  HKUST(GZ) is committed to providing equal educational opportunities to all students. Students with any learning difficulties may reach out to instructors and/or the Student Counseling Center for support. The Student Counseling Center provides a wide range of services and resources: (a) It coordinates with course instructors to provide reasonable academic accommodations or adjustments to courses for students with special educational needs (SEN) and/or temporary health conditions. Students may contact
+  counseling@hkust-gz.edu.cn
+  to arrange a confidential discussion regarding equitable access to the chosen program and reasonable accommodations; (b) It also provides personal counseling service for students who have concerns on their well-being and personal problems. Students may
+  make an online appointment
+  or contact
+  counseling@hkust-gz.edu.cn
+  to arrange a confidential discussion to get help and advice.
+  Course Substitution and Credit Transfer
+  Course Substitution
+  Course substitution may be granted if the student can provide evidence, such as a transcript and course syllabus, that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. The course taken previously should be equivalent to 4000-level or above. No credits will be given for the exempted course and the student will be required to take an approved alternative course to fulfill program requirements.
+  Applications for course substitution must be made to the Thrust during students’ first term of study after admission. Students on postgraduate diploma and postgraduate certificate programs must submit their applications within the first month after admission. The application must first be reviewed by the course instructor on the equivalency in course content and level; if supported, approval from the Thrust Head/ Program Director is required.
+  Credit Transfer
+  Credit transfer may be granted to students in recognition of studies completed elsewhere at an appropriate level as recognized by the University. Students applying for credit transfer must provide evidence, such as a transcript and course syllabus, to illustrate that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained.
+  Applications must be made to students’ Thrust during their first term after admission. Students on postgraduate diploma and postgraduate certificate programs must submit their application within the first month after admission. For students who complete studies elsewhere during their registration at HKUST(GZ), for example on an exchange program, applications must be submitted to the Thrust for approval within one month after students’ return to their study at HKUST(GZ). Late applications will not be considered.
+  Applications must first be reviewed by the course instructor; if supported, approval from the Thrust Head/Program Director is required. The number of transfer credits to be granted will be determined by the Thrust following a review of past academic records and the level of equivalence to the University courses concerned. Conditions on the granting of transfer credits to taught postgraduate students are as follows:
+  Credits earned at the undergraduate level can only be used for credit transfer purpose if the credits had not been used to earn another academic qualification, and that the course must be at 4000-level or above.
+  Notwithstanding the above, for postgraduate programs under Integrated Bachelor-Master Pathways requiring 30 credits or above, unless restricted by the respective program regulations defined otherwise, a maximum of nine credits earned at the undergraduate level can be used for credit transfer. For those programs requiring less than 30 credits, a maximum of six credits earned at the undergraduate level can be used for credit transfer.
+  Transfer credits cannot be granted in recognition of non-coursework experience or research work completed either at the University, at HKUST or at other institutions.
+  Credits for transfer must be at grade ‘B’ or above.
+  No more than half of the required coursework may be granted transfer credits.
+  Credits previously used to satisfy the requirements of other academic qualifications cannot be transferred. Exceptions will be given to students under Integrated Bachelor-Master Pathways. Please refer to point 2 above regarding the credit transfer arrangement.
+  Subject to the approval of the Thrust, credits earned from a postgraduate certificate or postgraduate diploma of the University may be transferred to its articulated postgraduate diploma or master’s degree program.
+  Transfer credits granted will not be included in the calculation of grade averages but the courses approved for credit transfer will be reflected on students’ transcripts.
+  Transfer of Course Grades and Credits on Resumption of Studies
+  Students who had previously withdrawn from their program of study at the University but who, after a period of time, are re-admitted to a program at the University, may be allowed to transfer their previous course grades and credits to the new program of study. Such a transfer of course grades and credits is restricted to courses which had been completed within five years prior to the resumption of study at the University. In addition, these credits must not have been used to earn any academic qualifications either at the University, at HKUST or elsewhere.
+  Course Grading
+  Grades for Postgraduate Courses
+  Students receive a grade for each course in which they are enrolled. Grades used in postgraduate courses are shown in the table below. For the purpose of calculating the grade averages, numerical grade points are assigned to each course grade, except AU, I, P, PP, T and W which are not included in the calculation of the grade averages.
+  Letter Grade
+  Grade Points
+  Definition
+  A+
+  A
+  A-
+  4.3
+  4.0
+  3.7
+  Excellent Performance
+  B+
+  B
+  3.3
+  3.0
+  Good Performance
+  B-
+  C+
+  C
+  2.7
+  2.3
+  2.0
+  Marginal Performance
+  F
+  (1)
+  0
+  Failure
+  Other Grades
+  Definition
+  AU
+  (2)
+  Audited
+  I
+  (3)
+  Incomplete
+  P
+  (4)
+  Pass, Ungraded
+  PP
+  (5)
+  Permitted to Proceed
+  T
+  Transferred
+  W
+  (6)
+  Withdrawal without Penalty
+  Notes:
+  A failed course (graded F) will not be credited toward a degree. The “F” grade, including that under the P/F grading system, will be included in the calculation of the grade averages.
+  The Audited (AU) grade will be assigned when an auditing student has completed, to the satisfaction of the instructor, any conditions established at registration as an auditor. If the conditions are not met, the course will be deleted from the student’s record.
+  An Incomplete (I) grade is used when work is necessarily delayed through no fault of the student, such as a medical problem or an equipment breakdown. This grade must be converted to a regular grade at least one working day before the start of the following regular term; otherwise, it is converted to an “F” grade. The “I” grade given to students on programs not following the regular term system must be converted to a regular grade within one month from the last day for grade reporting for courses, which is normally the sixth working day from the last day of examinations; otherwise, it is converted to an “F” grade.
+  The Pass, Ungraded (P) grade is given only under the P/F grading system for courses that are indicated in the course description in the Course Catalog that they will be graded as such.
+  When progress in thesis or project work is satisfactory but not scheduled for completion at the end of a regular term, the Permitted to Proceed (PP) grade is used.
+  The Withdrawal without Penalty (W) grade is given when a student is granted special approval for withdrawal from a course after the add/drop period.
+  Assignment of Course Grades
+  Grades with grade points assigned are the default grades for courses. Other grading scheme may only be used where this is approved for the course.
+  Grades given in each course are based on student performance in the final examination, tests, essays and reports, presentations and other forms of classroom participation, assignments, and laboratory exercises, although not all these elements may be present in each course. A failing grade in the laboratory component, if any, of a course may result in a failure in the whole course. The grading scheme for each course will be announced to the class at the beginning of the course.
+  Grade Announcement
+  After the examination period, students are required to check their own course grades which are available on the web-based Student Information System. Course grades will be posted on this web-based system as soon as they become available but not later than six working days from the last day of the examination period for the term.
+  Illness or Other Circumstances Affecting Assessment
+  If students wish the University to take into account medical reasons or some other extenuating circumstances beyond their control that have affected their performance in an examination, or ability to attend an examination, or to complete other assessment activities, they must report the circumstances of the case in writing and provide appropriate documentation to the Academic Registry Services within one week of the scheduled date of the assessment activity.
+  The Academic Registrar will review the case and make a recommendation to the relevant Dean or the Dean’s designee. The student will be notified of the result of the request within one week from the date the request is lodged with the Academic Registry Services. The make-up examination, if any, will be held within five weeks after the regular examination period. The format of the make-up examination will be decided by the course instructor concerned.
+  Grade Review
+  Students may apply for a grade review of a course in which they were enrolled in the term just completed. They should first discuss the matter with the course instructor as soon as the course grades are released. Where a clerical or administrative error has been made, the course offering Thrust will report the revised grade to the Academic Registry Services.
+  If the student’s concern remains unresolved after this informal discussion, the student may submit a request for a grade review to the head of the course offering Thrust in writing within two weeks from the day on which grades are released:
+  Stating the grounds for the request for review;
+  Describing the relevant facts; and
+  Providing supporting evidence.
+  If a review is granted, the Thrust Head will arrange for the review within three weeks after the release of the grade.
+  Requests for review of course grades should normally be resolved at the Thrust level. Students who wish to appeal against the decision of the Thrust must do so in writing to the Dean within two weeks of receiving the decision stating the grounds for the appeal. Upon receipt of the written appeal, the Dean will determine whether or not a further review of the grade should be granted and how the review will be conducted. The Dean’s decision is final.
+  Course Repeats
+  A course with a grade lower than C shall not be credited toward a program although it will be reflected in the student’s record. Only two courses (excluding audited courses) in a postgraduate program may be retaken, and unless otherwise specified, each may be repeated only once. The new grade obtained at the second attempt will replace the previous grade in the calculation of the grade averages.
+  Grade Averages
+  A grade average (GA) is the weighted average grade point obtained in a group of courses with letter grades where each course is given a weight equal to its credit value. Courses graded AU, I, P, PP, T or W are not included in the calculation.
+  There are three grade averages. The term grade average (TGA) is the grade average covering all courses taken in a specific term. The cumulative grade average (CGA) is based on all the courses taken by the student up to the time of calculation. Students’ TGA and CGA will be calculated at the end of each of the four terms. At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  Progression and Academic Standing
+  Academic Standing
+  The academic standing of all postgraduate students is reviewed at the end of each regular term and assessed by their Thrusts. Unsatisfactory performance may result in students being denied the opportunity to continue their studies.
+  In order for postgraduate students to attain good academic standing, they must, at the end of each regular term,
+  Obtain a cumulative grade average (CGA) of 2.850 or higher; and
+  Show a reasonable progress toward program completion.
+  Students who fail to maintain good academic standing in a regular term will be issued a letter of warning by the Thrust Head.
+  Academic Leave and Academic Dismissal
+  Students who fail to maintain good academic standing in two consecutive regular terms will have their records reviewed by Thrust and may be required to take academic leave and have their studies suspended. The academic leave will last from one to three regular terms during which students may apply for re-enrollment in their program of study at the end of their suspension. If this application for re-enrollment is approved, certain conditions may apply and the student must regain good academic standing in the regular term immediately following re-enrollment. Students will be dismissed from the University if the conditions are not met. If re-enrollment in the program is not granted by the expiry of the academic leave, the suspension will be converted to a dismissal from the University.
+  Graduation
+  Degree Conferment by HKUST on Completion of Studies
+  Students who have duly completed a postgraduate degree program at the University will, upon satisfying all academic and non-academic graduation requirements, be conferred a postgraduate degree by HKUST for the program of study. For the purpose of the said program of study, no separate degree will be conferred by the University.
+  Non-academic requirement includes, amongst others, the settlement of all fees or fines payable and that there is no serious case pending decision with the Student Disciplinary Committee.
+  To be considered for graduation, a TPg student must:
+  Complete the specific program requirements for graduation within the specified time limit;
+  Achieve a graduation grade average of at least 2.850 in the courses used to satisfy the program requirements.
+  Graduation Grade Average (GGA)
+  At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  If a student has taken more courses than required by the award, upon recommendation of the Thrust, certain courses included in the calculation of the CGA may be excluded from the GGA calculation to improve the GGA of the student. Otherwise, all courses taken will be included.
+  Graduation Approval
+  Students who have duly completed a recognized postgraduate degree program at the University and satisfied all graduation requirements will be assessed by the Hub Boards or their Postgraduate Studies Committees. HKUST(GZ) shall then submit a list of recommended degree conferees to HKUST for the consideration of the Senate of HKUST. Upon approval by the HKUST Senate of the said recommendations, eligible students of the University will be conferred a postgraduate degree by HKUST.
+  Congregation
+  The Congregation is the formal graduation ceremony held in Fall Term of each year. All graduates with degrees conferred in the academic year concerned will be invited to the ceremony.
+  Attendance at the Congregation is not compulsory. Graduates of postgraduate diploma and postgraduate certificate programs will not be invited to the graduation ceremony.
+  Award Diploma
+  Diplomas are distributed to graduates after the conferment of the award. Diplomas show in Chinese and English the following:
+  Name of the graduate as shown on the graduate’s Identity Card, with the surname capitalized and appearing first, followed by a comma and the given names;
+  Award title, which is normally shown the same as the program title, with no concentration given; and
+  The date of award conferment.
+  Appeals and Grievance Channels
+  Appeals
+  A student may make an appeal in writing to the Dean of the relevant Hub for matters related to his/her study.
+  Grievance Channels
+  If students have any grievance about their program or their study, channels are readily available to help them settle their grievance and alleviate their concerns.
+  When a student encounters any difficulty or has any concern that he/she feels should be conveyed to or discussed with the University, the first stop should normally be the Program Director. If this does not work or is not appropriate for some reasons, the next level for voicing grievance is to the Thrust Head. If the issue cannot be settled satisfactorily in the Thrust, the student may approach the Dean of the Hub for advice. In the event that the issue still cannot be resolved within the Hub, the next stop is the Guangzhou office of HKUST Fok Ying Tung Graduate School. If the issue-in-question involves existing academic policies, the matter may be referred to the Committee on Postgraduate Studies or Senate for consideration.
+  In general, if the grievance is of a personal nature, the student may consider talking to a student counselor of the Office of Student Affairs (OSA) for advice.
+  Glossary of Terms
+  1.
+  Academic Terms
+  There are four Academic Terms in each Academic Year, namely Fall (normally from early September to late December); Winter (normally January); Spring (normally from early February to late May); and Summer (normally from late June to mid-August). Fall and Spring Terms are considered as regular terms. For most students, attendance for Winter and Summer Terms is not required.
+  2.
+  Academic Year
+  The Academic Year of the University begins on 1 September and ends on 31 August of the following year.
+  3.
+  Academic Program
+  An academic program is an official program recognized by the University, which constitutes a carefully constructed set of academic requirements. Each program is given a unique program code. Unless specified otherwise, the term “program” refers to an academic program wherever it appears in this document.
+  4.
+  Academic Standing
+  Students’ academic standing is an indicator of their academic progress. Poor academic progress may result in students being denied the opportunity to continue their studies.
+  5.
+  Add/Drop Period
+  At the beginning of each term, there is an add/drop period in which students may make changes to their course registration. Changes made during the add/drop period will not appear in the students’ records. After the add/drop period, students are not permitted to add or drop courses for that term.
+  6.
+  Award
+  An Award is an academic qualification granted on the completion of the requirements for the award. The successful completion of an academic program is recognized by the award of a degree or other academic awards. The award title appears on the official diploma.
+  7.
+  Concentration
+  A concentration is a defined grouping of electives as stipulated in the program curriculum. Completion of concentration requirements will be formally noted on the student’s official transcript but not the diploma.
+  8.
+  Course
+  Courses are the basic unit of instruction from which programs of study are built. All courses are designated by a course code, course title, and credit units.
+  9.
+  Course Code
+  Each course is identified by a course code which comprises a four-letter code followed by a four-digit number code. The letter code denotes either the area/program of study or the course offering unit. The first digit of the number code indicates the academic level of the course while the last three digits represent a coding series of the course offering unit.
+  10.
+  Course Offering Unit
+  The course offering unit is the unit responsible for a course, normally a Thrust/Base/Pillar.
+  11.
+  Course Substitution
+  Students may be granted course substitution if they can provide evidence that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. No credits will be given for the exempted course, and the student will be required to take an approved alternative course to fulfill the credit requirements of the program of study.
+  12.
+  Credit Transfer
+  Subject to the academic regulations, credits may be transferred in recognition of studies completed successfully at an institution other than HKUST(GZ) to meet the requirements of an award.
+  13.
+  Credit Unit
+  Credit units are earned through the completion of coursework and other assessed learning activities. The requirements for an award normally include completion of a minimum number of credits.
+  14.
+  Cumulative Grade Average (CGA)
+  For each term a CGA is calculated for all the courses earning grade points completed since first registration as a postgraduate student up to that point, as follows:
+  Where Cj is the credit and Gj is the grade point earned in the j
+  th
+  course since first registration.
+  15.
+  Dean or the Dean’s Designee
+  Where approval of the Dean or the Dean’s designee is required, applications or requests should be directed to the Office of the Dean.
+  16.
+  Grade Points
+  Courses may be assessed for grade points. A table of grade points relative to letter grades is provided in the “Course Grading” section of this Handbook. Courses graded AU, I, P, PP, T or W do not count in the calculation of grade averages.
+  17.
+  Graduation Grade Average (GGA)
+  At graduation, a GGA will be calculated from the courses that are presented for an academic award. The GGA for all postgraduate programs must at least be 2.850.
+  18.
+  Hub/College
+  Postgraduates are registered in programs under one of the Hubs/ College.
+  19.
+  Registration
+  Registration includes registration in course(s) and registration in an academic program. Registration is confirmed only when students have completed the registration process and paid tuition and other prescribed fees of the term concerned.
+  20.
+  Study Load
+  Students’ study load is the total credits for which they are registered in a specific term.
+  21.
+  Taught Postgraduate Programs
+  The University offers the following types of taught postgraduate programs, namely Master of Business Administration (MBA), Master of Fine Arts (MFA) and Master of Science (MSc). All taught postgraduate programs normally have three requirements: courses, internship, and thesis (in the form of project).
+  22.
+  Term Grade Average (TGA)
+  For each term a TGA is calculated across all courses taken in that particular term, as follows:
+  Where Ci is the course credits and Gi is the grade point earned in the i
+  th
+  course in the term.
+  23.
+  Thrust/Base
+  A Thrust/Base, or any other academic unit of the University administering academic programs. A student’s Thrust/Base is the academic unit which offers the specific academic program that the student is enrolled.
+  24.
+  Transcript
+  Academic transcripts provide the full record of students’ academic results and performance.
+
+tables:
+  - Letter Grade | Grade Points | Definition
+  - A+ A A- | 4.3 4.0 3.7 | Excellent Performance
+  - B+ B | 3.3 3.0 | Good Performance
+  - B- C+ C | 2.7 2.3 2.0 | Marginal Performance
+  - F (1) | 0 | Failure
+  - Other Grades | Definition
+  - AU (2) | Audited
+  - I (3) | Incomplete
+  - P (4) | Pass, Ungraded
+  - PP (5) | Permitted to Proceed
+  - T | Transferred
+  - W (6) | Withdrawal without Penalty
+
+links:
+  - Governing Board | https://www.hkust-gz.edu.cn/about/governance/governing-bodies/governing-board/about-the-governing-board/
+  - Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=336&fileType=pdf&fileName=Regulations+for+Student+Conduct
+  - Regulations for Student Academic Integrity | https://document.hkust-gz.edu.cn/office/viewer?key=338&fileType=pdf&fileName=Regulations+for+Student+Academic+Integrity
+  - Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=341&fileType=pdf&fileName=Supplementary%20Implementation%20Rules%20for%20Regulations%20for%20Student%20Academic%20Integrity%20%26%20Regulations%20for%20Student%20Conduct
+  - Policy on Research Conduct and Integrity | https://rd.hkust-gz.edu.cn/wp-content/uploads/2023/09/HKUSTGZ-Policy-on-Research-Conduct-and-Integrity.pdf
+  - here | https://okt.hkust-gz.edu.cn/property/content
+  - here | https://rd.hkust-gz.edu.cn/guidelines-policies/guidelines/
+  - the University admission requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - here | https://fytgs.hkust-gz.edu.cn/admissions
+  - Postgraduate Program Catalog | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - make an online appointment | http://counsel.hkust-gz.edu.cn/

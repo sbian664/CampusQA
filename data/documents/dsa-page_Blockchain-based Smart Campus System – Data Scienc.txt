@@ -1,0 +1,37 @@
+dsa_page: Blockchain-based Smart Campus System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/blockchain-based-smart-campus-system/
+source: DSA
+
+headings:
+  - Blockchain-based Smart Campus System
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Blockchain-based Smart Campus System
+  Abstract
+  Smart campus utilizes devices and censors with smart technologies connected to the IoT and AI-driven. It provides new experiences and services for students and faculty on campus, such as academic information management, smart teaching, examination, efficient tuition payment, alumni social network management, etc.
+  However, the underlying data management system can easily become a bottleneck. Specifically, existing centralized database systems suffer from single-point failure, hard-to-do data provenance, vulnerability to malicious attacks, etc.
+  Thus, we focus on integrating smart campus features with smart contracts deployed on a blockchain system. Specifically, we plan to design and implement dedicated on-chain contracts to maintain the underlying data in different smart campus use cases. The functions include basic CRUD of data and digital asset ownership trading, renting, and provenance. We also plan to demonstrate our research outcomes on scaling the throughput of blockchain to make it comparable to the performance of existing campus data management systems. We then apply our specially designed index and optimized query processing mechanisms to blockchain data analysis to support and accelerate the functions of students’ academic history review, digital asset gallery, etc. Eventually, we aim to build a blockchain-based smart campus data management system.
+  Video link
+  :
+  https://b23.tv/BV1Fg411C7Dr
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-Present
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - https://b23.tv/BV1Fg411C7Dr | https://b23.tv/BV1Fg411C7Dr
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/blockchain/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

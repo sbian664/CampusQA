@@ -1,0 +1,53 @@
+dsa_page: Contributions to Offline Reinforcement Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/04/contributions-to-offline-reinforcement-learning/
+source: DSA
+
+headings:
+  - Contributions to Offline Reinforcement Learning
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Contributions to Offline Reinforcement Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Jing ZHANG
+  ABSTRACT
+  Reinforcement learning (RL) has achieved strong results in manipulation and goal-conditioned tasks, but its dependence on costly interactions limits broader use. Offline RL addresses this by learning policies from pre-collected data, extending RL’s applicability. However, the lack of online interaction introduces key challenges—most notably distribution shift and extrapolation errors during policy improvement—which cause standard RL methods to struggle. This thesis offers a concise overview of these core challenges and analyzes the key factors that must be addressed. I propose solutions for two critical issues: accurately estimating the behavior policy’s density and managing uncertainty in the Q-value function. Precise density estimation is crucial for controlling distribution shift between the behavior and learned policies. To achieve this, I propose using a GAN with a flow model as the generator to provide an explicit estimate of the behavior policy’s density, enabling direct support-based distribution consistency control. To reduce extrapolation errors in the Q-function, I focus on reliable uncertainty estimation. I address this by sampling from the behavior policy’s Q-value distribution, which is learned using an efficient, high-fidelity consistency model. Beyond general offline RL, I explore challenges specific to goal-conditioned tasks. From a probabilistic graphical model perspective, I argue that performance failures often arise from terminal-only rewards failing to propagate back to the start of the task. To address this, I propose using key waypoints along the trajectory to deliver reward signals. This approach preserves reward propagation without requiring explicit waypoint prediction—an especially hard problem in high-dimensional, continuous control settings. The proposed methods are supported by both theoretical analysis and experimental validation.
+  TEC
+  Chairperson: Prof Xudong WANG
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Molong DUAN
+  Examiners:
+  Prof Lei LI
+  Prof Yanlin ZHANG
+  Prof Ning CAI
+  Prof Wenlin DAI
+  Date
+  19 June 2025
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 989 0615 2647
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98906152647?pwd=Zds0a3ncGQF8qj77AMFwGNOObLZQn0.1

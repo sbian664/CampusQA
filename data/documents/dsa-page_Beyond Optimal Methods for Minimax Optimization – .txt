@@ -1,0 +1,27 @@
+dsa_page: Beyond Optimal Methods for Minimax Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/03/beyond-optimal-methods-for-minimax-optimization/
+source: DSA
+
+headings:
+  - Beyond Optimal Methods for Minimax Optimization
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Beyond Optimal Methods for Minimax Optimization
+  Share to
+  ABSTRACT
+  Minimax optimization has garnered significant attention in recent years due to its diverse applications in generative modeling, fairness-aware machine learning, game theory, and more. Various first- and second-order methods have been developed with "optimal" oracle complexities. This talk will introduce several novel methods that achieve even faster convergence rates or better computational complexities compared to the existing optimal methods by effectively incorporating curvature information and leveraging the min-max structure.
+  SPEAKER BIO
+  Chengchang Liu is currently a Ph.D candidate at the Chinese University of Hong Kong (CUHK), supervised by Prof. John C.S. Lui. His research interests include second-order optimization, distributed optimization, and quantum optimization. His research was awarded by COLT best student paper in 2025 and KDD best paper runner-up in 2022. His works have also been selected as oral or spotlight at ICLR and NeurIPS. He is the recipient of the NSFC basic research scheme for Ph.D student.
+  Date
+  04 November 2025
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  C2 108, HKUST(GZ)

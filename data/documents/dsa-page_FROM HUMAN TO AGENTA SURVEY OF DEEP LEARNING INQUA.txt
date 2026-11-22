@@ -1,0 +1,34 @@
+dsa_page: FROM HUMAN TO AGENT:A SURVEY OF DEEP LEARNING INQUANTITATIVE INVESTMENT – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/from-human-to-agenta-survey-of-deep-learning-inquantitative-investment/
+source: DSA
+
+headings:
+  - FROM HUMAN TO AGENT:A SURVEY OF DEEP LEARNING INQUANTITATIVE INVESTMENT
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  FROM HUMAN TO AGENT:A SURVEY OF DEEP LEARNING INQUANTITATIVE INVESTMENT
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr CAO Bokai
+  Abstract
+  Quantitative investment (quant) is an emerging, technology-driven approach in asset management, increasingly shaped by advancements in artificial intelligence. Recent advances in deep learning and large language models (LLMs) for quant finance have improved predictive modeling and enabled agent based automation, suggesting a potential paradigm shift in this field. In this survey, taking alpha strategy as a representative example, we explore how AI contributes to the quantitative investment pipeline. We first examine the early stage of quant research, centered on human-crafted features and traditional statistical models with an established alpha pipeline. We then discuss the rise of deep learning, which enabled scalable modeling across the entire pipeline from data processing to order execution. Building on this, we highlight the emerging role of LLMs in extending AI beyond prediction, empowering autonomous agents to process unstructured data, generate alphas, and support self-iterative workflows
+  PQE Committee
+  Chair of Committee: Prof. Xiaowen CHU
+  Prime Supervisor: Prof. Lionel M. NI
+  Co-Supervisor: Prof. Jian GUO
+  Examiner: Prof. Zeyi WEN
+  Date
+  11 June 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-147 (HKUST-GZ)

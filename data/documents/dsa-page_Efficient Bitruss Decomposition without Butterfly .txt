@@ -1,0 +1,30 @@
+dsa_page: Efficient Bitruss Decomposition without Butterfly Enumeration – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/25/efficient-bitruss-decomposition-without-butterfly-enumeration/
+source: DSA
+
+headings:
+  - Efficient Bitruss Decomposition without Butterfly Enumeration
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Efficient Bitruss Decomposition without Butterfly Enumeration
+  Share to
+  ABSTRACT
+  Mining cohesive subgraphs in bipartite graphs is of great importance to various real-world applications such as recommendation in e-commercial systems and fraud detections in social networks. In this talk, we will discuss the problem of Bitruss Decomposition of a given bipartite graph $G$. The goal is to compute, for each edge $e$, the largest value $k$ such that $e$ is still contained in a $k$-bitruss. Here, a $k$-bitruss is a maximal subgraph of $G$ such that every edge of it is contained in at least $k$ butterflies (i.e, $(2,2)$-cliques) in the subgraph. All the previous state-of-the-art solutions are based on the well-known Peeling Process framework and have to ``touch'' every butterfly in the graph $G$ for at least once, causing a $O(\ub_G)$ cost, where $\ub_G$ is the number of butterflies in $G$. In the worst case, $\ub_G$ can be as large as $O(m^2)$, where $m$ is the number of edges in $G$.
+  In this talk, I will show the first algorithm whose running time is bounded by $O(m^{1.5}\log m)$, significantly improving the state-of-the-art bound by roughly a factor of $O(\sqrt{m})$.
+  SPEAKER BIO
+  Junhao Gan is a senior lecturer in School of Computing and Information Systems (CIS) at The University of Melbourne (UoM). He is the coordinator of the Master of Information Technology (MIT) program at UoM and the lead of the research sub-group of Algorithms in CIS. Before joining the UoM, he was a post-doctoral research fellow in School of Information Technology and Electrical Engineering (ITEE) at The University of Queensland (UQ) from April 2017 to July 2018. He received his PhD degree in the same school at UQ in 2017.
+  Junhao’s research interests are in practical algorithms with non-trivial theoretical guarantees for solving problems on massive data.
+  Junhao has won several important awards and honours, including SIGMOD Best Paper Award 2015, CORE John Makepeace Bennett Award (Australasian Distinguished Doctoral Dissertation) 2018, ARC Discovery Early Career Researcher Award (DECRA) 2019, and Excellence in Research Award in School of CIS 2020. He is also a coach for International Collegiate Programing Contest (ICPC). He has coached four UoM student teams qualified for the ICPC World Finals in 2021, 2022, 2023 and 2025, respectively.
+  Date
+  26 September 2025
+  Time
+  10:45:00 -
+  11:45:00
+  Location
+  Lecture Hall C , HKUST-GZ

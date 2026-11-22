@@ -1,0 +1,26 @@
+fytgs_page: MoE Approves Two New MSc programs at HKUST(GZ)
+url: https://fytgs.hkust-gz.edu.cn/discover/news/two-msc-programs-approved-by-moe
+source: FYTGS
+
+headings:
+
+text: >
+  The Ministry of Education (MoE) approved the following two MSc programs in June 2023, with effective from Fall Term 2023/24.
+  - Master of Science in Data-Centric Artificial Intelligence Technology（理学硕士（大数据智能））
+  - Master of Science in Technology and Policy (理学硕士（科技与政策）)
+  Hub
+  Program
+  Award
+  Information Hub
+  Data-Centric Artificial Intelligence Technology
+  大数据智能
+  MSc
+  Society Hub
+  Technology and Policy
+  科技与政策
+  MSc
+
+tables:
+  - Hub | Program | Award
+  - Information Hub | Data-Centric Artificial Intelligence Technology | 大数据智能 | MSc
+  - Society Hub | Technology and Policy | 科技与政策 | MSc

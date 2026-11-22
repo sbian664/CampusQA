@@ -1,0 +1,34 @@
+dsa_page: A Survey on GPU Accelerated Machine Learning Operators – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/a-survey-on-gpu-accelerated-machine-learning-operators/
+source: DSA
+
+headings:
+  - A Survey on GPU Accelerated Machine Learning Operators
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on GPU Accelerated Machine Learning Operators
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LI Jihang
+  Abstract
+  The acceleration of machine learning (ML) workloads through specialized hardware has become a cornerstone of modern AI systems. Among available solutions, GPUs offer a compelling balance of programmability, parallelism, and performance, making them the dominant choice for training and inference across a wide spectrum of models—from decision trees to large-scale neural networks. This survey presents a comprehensive review of optimization techniques for GPU-accelerated machine learning operators. We examine this topic from multiple layers: algorithmic, scheduling, memory access, and kernel launch configuration. Our discussion covers both foundational operations, such as general matrix multiplication (GEMM), and specialized procedures like histogram building, which are critical in frameworks like GBDT and LLM inference engines. Through detailed case studies and performance benchmarks, we highlight how thoughtful integration of these techniques leads to significant gains over naïve implementations. The survey also examines the evolving ecosystem of hardware accelerators, supporting software stacks, and emerging best practices, offering a holistic perspective for practitioners and researchers alike.
+  PQE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. WEN Zeyi
+  Co-Supervisor: Prof. HUANG Jiayi
+  Examiner: Prof. WEI Jiaheng
+  Date
+  11 June 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-147 (HKUST-GZ)

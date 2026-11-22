@@ -1,0 +1,43 @@
+dsa_page: DSA Lunch Salon: Research Milestones and Notable Progress 2nd Session – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/12/dsa-lunch-salon-research-milestones-and-notable-progress-3/
+source: DSA
+
+headings:
+  - DSA Lunch Salon: Research Milestones and Notable Progress 2nd Session
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Audience
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Student Activities
+  DSA Lunch Salon: Research Milestones and Notable Progress 2nd Session
+  Share to
+  The DSA Lunch Salon will last for 1-1.5 hours, 4 PhD student speakers will talk about their recent publications in various research fields. They will not only present their research accomplishments, but to share the challenges they encountered, the strategies they employed to overcome them, and the valuable insights that may benefit the fellow students in their research journey. The presentation will be in English, food and beverage will be offered to audience as well.
+  Date
+  16 November 2023
+  Time
+  12:00:00 -
+  13:30:00
+  Location
+  E1-1F-122, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  RPG&TPG students of DSA Thrust
+  Prospective UG&PG students of DSA Thrust
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/czXhv_aJg7Km9zjDb63hqA
+  - REGISTER | https://www.wjx.top/vm/mBkKToS.aspx
+  - EVENT RECAP | https://mp.weixin.qq.com/s/dDcK7qQqih7hhR5wbhJ4Aw

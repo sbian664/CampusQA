@@ -1,0 +1,34 @@
+dsa_page: Kernel Learning Methods in Offline andOnline Settings – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/kernel-learning-methods-in-offline-andonline-settings/
+source: DSA
+
+headings:
+  - Kernel Learning Methods in Offline andOnline Settings
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Kernel Learning Methods in Offline andOnline Settings
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. HUANG Suizi
+  Abstract
+  Kernel learning methods are a pivotal component of machine learning, offering versatile frameworks for both offline and online learning paradigms. These methods can be categorized into offline learning, which typically involves batch processing of data, and online learning, which adapts dynamically to streaming data inputs. For the offline setting, we employ a gradient descent algorithm enhanced with an early stopping technique. Our focus is on deriving the convergence rates for uniformly convex loss functions within domains of low intrinsic dimensionality. In the online setting, we introduce a novel two-stage bandit algorithm tailored for multi-objective optimization tasks. Our algorithm demonstrates significant advantages and superior performance compared to traditional approaches through a series of simulations. This study highlights the potential and provides valuable insights of kernel-based learning methods to enhance both offline and online machine learning.
+  TPE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. WANG, Wenjia
+  Co-Supervisor: Prof. GUO, Xinzhou
+  Examiner: Prof. WEI Jiaheng
+  Date
+  11 June 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-147 (HKUST-GZ)

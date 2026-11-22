@@ -1,0 +1,33 @@
+dsa_page: Interpretable Graph Neural Networks: From Robust GNN Explanation Method to A General GNN Explainer with Pretraining – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/24/interpretable-graph-neural-networks-from-robust-gnn-explanation-method-to-a-general-gnn-explainer-with-pretraining/
+source: DSA
+
+headings:
+  - Interpretable Graph Neural Networks: From Robust GNN Explanation Method to A General GNN Explainer with Pretraining
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Interpretable Graph Neural Networks: From Robust GNN Explanation Method to A General GNN Explainer with Pretraining
+  Share to
+  ABSTRACT
+  Graph neural networks have achieved remarkable success in various applications, while their black-box nature hinders human from understanding the inner decision-making mechanism. To make GNN models transparent, GNN explanation method aims to identify an explanatory subgraph which contains the most informative components of the full graph. This talk will first systematically overview the leading GNN explanation methods, including the post-hoc methods and the intrinsic interpretable methods. Then, I will introduce our two recent works on this research topic. The first work designs a novel GNN explainer named V-InfoR to provide a more robust GNN explanation for the structurally corrupted graphs. To further provide a GNN explanation model that can be easily generalized to different types of graphs, a pre-training based interpretable GNN method named pi-GNN will be introduced in the second work. Finally, this talk provides a discussion over several future directions with promising research potential.
+  SPEAKER BIO
+  Senzhang Wang is a full Professor at the School of Computer Science and Engineering, Central South University. His main research interests include spatio-temporal data mining, graph data mining and urban computing. He has published more than 100 papers in the premier conferences and journals, including 50 CCF rank A papers and more than 30 IEEE/ACM transaction journal papers. One paper was awarded the “Best Student Paper Award” in ADMA2020, and one paper was nominated for the best paper in ICDM2021. He has led more than 10 research projects, including the National Natural Science Foundation of China (NSFC), “HongKong Scholars” postdoctoral program, CCF-Tencent Open Fund and CAAI-Huawei MindSpore Academic Award Fund. He was awarded the Second Prize of Natural Science Award of China Simulation Federation in 2022. Prof. Senzhang Wang serves as an editorial board member of several journals including Journal of Intelligent Science and Technology, Computer Engineering, Frontier of Big Data, and organized several special issues/workshops in top journals/conferences including ACM TIST, KDD, ICDM, IEEE Trans. on Big Data, and Remote Sensing.
+  Date
+  25 September 2024
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E4-1F-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

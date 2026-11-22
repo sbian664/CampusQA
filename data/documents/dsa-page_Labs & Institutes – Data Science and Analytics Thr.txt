@@ -1,0 +1,31 @@
+dsa_page: Labs & Institutes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/
+source: DSA
+
+headings:
+
+text: >
+  Big Data Institute Lab
+  CityMind Lab
+  Collaborative Interactive Visualization & Analysis Lab
+  Guangdong Provincial Key Lab of Integrated Communication, Sensing and Computation for Ubiquitous IoT
+  CreateLink Graph Data Joint-lab
+  High-Performance Machine Learning Laboratory
+  HKUST(GZ)-LBP Medical Data Intelligence Joint-Lab
+  HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health
+  Industrial Informatics and Intelligence Institute (Triple-i Institute)
+  Knowledge Graph Driven Quantitative Investment Fintech Lab
+  Metaverse Joint Innovation Laboratory
+
+links:
+  - Big Data Institute Lab | https://bdi.hkust.edu.hk/
+  - CityMind Lab | https://citymind.top/
+  - Collaborative Interactive Visualization & Analysis Lab | https://hkust-cival.com/
+  - Guangdong Provincial Key Lab of Integrated Communication, Sensing and Computation for Ubiquitous IoT | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2024/10/广东省通感算交叉融合泛在物联网重点实验室介绍手册.pdf
+  - CreateLink Graph Data Joint-lab | https://dsa.hkust-gz.edu.cn/research/labs-institutes/createlink-graph-data-joint-lab/
+  - High-Performance Machine Learning Laboratory | https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/
+  - HKUST(GZ)-LBP Medical Data Intelligence Joint-Lab | https://mdi.hkust-gz.edu.cn/index.html
+  - HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health | https://dsa.hkust-gz.edu.cn/research/labs-institutes/hkustgz-tencent-ssv-innovation-lab-for-inclusive-health/
+  - Industrial Informatics and Intelligence Institute (Triple-i Institute) | https://triplei.hkust-gz.edu.cn/
+  - Knowledge Graph Driven Quantitative Investment Fintech Lab | http://47.106.95.15/
+  - Metaverse Joint Innovation Laboratory | https://dsa.hkust-gz.edu.cn/research/labs-institutes/metaverse-joint-innovation-laboratory/

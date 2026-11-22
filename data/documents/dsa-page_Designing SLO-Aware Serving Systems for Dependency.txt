@@ -1,0 +1,34 @@
+dsa_page: Designing SLO-Aware Serving Systems for Dependency-Intensive Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/09/designing-slo-aware-serving-systems-for-dependency-intensive-applications/
+source: DSA
+
+headings:
+  - Designing SLO-Aware Serving Systems for Dependency-Intensive Applications
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Designing SLO-Aware Serving Systems for Dependency-Intensive Applications
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Exam
+  By Ms PENG, Xuemei
+  Abstract
+  Modern AI applications increasingly adopt dependency-intensive execution patterns, where requests trigger multi-stage pipelines composed of interconnected models, operators, and external tools. Unlike traditional single-model inference, such applications form complex task graphs whose critical paths, variable arrival patterns, and heterogeneous resource requirements make it fundamentally difficult to provide predictable performance under strict Service-Level Objectives (SLOs). Existing serving systems primarily focus on optimizing standalone model inference or homogeneous operator batches, but they overlook the end-to-end dependencies that shape queueing delays, batching opportunities, and GPU resource contention. As a result, they often fail to meet latency targets when requests interact through shared components or when upstream decisions affect downstream execution. This thesis proposal seeks to develop a unified framework for SLO-aware serving of dependency-intensive applications, combining graph-based workload modeling with adaptive scheduling mechanisms. The key idea is to jointly reason about dependency propagation, batching flexibility, execution deadlines, and GPU resource allocation, enabling the serving system to make globally informed decisions rather than isolated per-operator optimizations. This proposal explores three complementary directions: (1) Dependency-aware batching, which dynamically selects batching boundaries and batch sizes based on SLO slack and graph structure; (2) SLO-guided scheduling and resource allocation, which assigns GPU streams, SM shares, and execution priorities according to critical-path urgency; and (3) Graph-level admission and shaping policies, which reshape request arrival patterns to reduce tail latency while preserving throughput. By combining formal models, algorithm design, and system implementation, this work aims to deliver a serving framework that maintains high throughput while providing predictable SLO satisfaction for complex, multi-stage AI applications. The resulting system will help bridge the gap between the increasing structural complexity of AI applications and the need for reliable, efficient, and cost-effective deployment at scale.
+  TPE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. WEN, Zeyi
+  Co-Supervisor: Prof. CHEN, Xinyu
+  Examiner: Prof. XIE, Zeke
+  Date
+  10 December 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E3-201 (HKUST-GZ)

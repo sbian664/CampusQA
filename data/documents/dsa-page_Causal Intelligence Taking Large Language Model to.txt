@@ -1,0 +1,43 @@
+dsa_page: Causal Intelligence: Taking Large Language Model to the Next Level – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/26/causal-intelligence-taking-large-language-model-to-the-next-level/
+source: DSA
+
+headings:
+  - Causal Intelligence: Taking Large Language Model to the Next Level
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Causal Intelligence: Taking Large Language Model to the Next Level
+  Share to
+  ABSTRACT
+  This talk explores the latest advancements in LLM evaluation and enhancement. We will delve into advanced methodologies that fairly evaluate the capability of LLMs and push the boundaries of artificial intelligence by incorporating causal inference techniques. These techniques enable a deeper understanding of the underlying cause-and-effect relationships in textual data, leading to more robust and interpretable models for LLM alignment and complex reasoning, particularly when dealing with out-of-distribution data. The seminar will not only offer insights into the latest trends in LLM research applied to real-world scenarios but also emphasize the importance of explainability and causality in developing AI systems that can be fully leveraged in complex environments.
+  SPEAKER BIO
+  Linyi YANG
+  Westlake University
+  Linyi Yang is currently working at Westlake University as a Research Assistant Professor. He graduated with a Ph.D. from University College Dublin in 2021, under the supervision of Professor Barry Smyth (a Member of the Royal Irish Academy and a fellow of the European Coordinating Committee on AI). His research interests lie in LLMs, causal inference, and explainable artificial intelligence. He has been the only recipient of the Postdoc Representative at Westlake University in 2023, and the only recipient of the Outstanding Self-financed Chinese Students Abroad Scholarship (Category B) in Ireland awarded by the NSFC in 2021. He served as an Area Chair at EMNLP-22, and Senior Program Committee Member at IJCAI-23. Additionally, He has published over 40 articles in prestigious international conferences and journals, including 13 co-leading publications in high-ranked venues (9 CCF-A first-author Papers) with more than 3,400 citations, 7K GitHub stars, 1 national award, and 1 best paper nomination award.
+  Date
+  27 November 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  934 8184 1326
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/S2htbpW76-U8y7fI1NdfEw

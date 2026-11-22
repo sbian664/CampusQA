@@ -1,0 +1,34 @@
+dsa_page: Applications of Multiple Instance Learning in Computational Pathology: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/applications-of-multiple-instance-learning-in-computational-pathology-a-survey/
+source: DSA
+
+headings:
+  - Applications of Multiple Instance Learning in Computational Pathology: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Applications of Multiple Instance Learning in Computational Pathology: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. GUO Pengyu
+  Abstract
+  This survey reviews annotation-efficient strategies in computational pathology, with a focus on multiple-instance learning (MIL). We first outline the high cost of pixel-level labeling and summarize semi-supervised and weakly supervised alternatives. We then dissect the MIL pipeline—comparing explicit versus attention-based instance selection, detailing pooling and Transformer-based aggregation schemes, and formalizing three core down stream tasks (classification, weakly supervised segmentation, and continuous-value regression). Next, we examine how MIL enables multimodal fusion via both modality-alignment and modality-aggregation techniques that integrate histology with text, genomics, and clinical data. We then catalog key public datasets, highlight their slide-level annotation bias, and review standard evaluation metrics. Finally, we identify open challenges and sketch future directions, for example the adoption of multi-modal data. This roadmap aims to guide researchers toward robust, interpretable, and scalable MIL solutions for real-world pathology.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHEN Lei
+  Co-Supervisor: Prof. ZHANG Yongqi
+  Examiner: Prof. LI Lei
+  Date
+  09 June 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-149 (HKUST-GZ)

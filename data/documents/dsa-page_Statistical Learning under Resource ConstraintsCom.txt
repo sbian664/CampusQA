@@ -1,0 +1,45 @@
+dsa_page: Statistical Learning under Resource Constraints:Computation, Privacy, and Communication – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/statistical-learning-under-resource-constraintscomputation-privacy-and-communication/
+source: DSA
+
+headings:
+  - Statistical Learning under Resource Constraints:Computation, Privacy, and Communication
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Statistical Learning under Resource Constraints:Computation, Privacy, and Communication
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. XIANG, Xiaopeng
+  Abstract
+  Statistical learning has traditionally been studied under the assumption that computation is free, data is centralised, and privacy is irrelevant. None of these assumptions holds in contemporary practice. This survey examines how three types of resource constraint—computational, privacy, and communication—affect the statistical performance of learning algorithms, organised around a single evaluative question: how does imposing a constraint affect the statistical optimality of the resulting procedure, and how does that effect depend on the nature of the constraint?
+  Two case studies anchor the discussion. The first concerns scalable Gaussian process (GP) prediction under computational constraints: exact inference costs O(n3), and the literature asks whether cheaper approximations can retain the minimax-optimal L2 convergence rate of Stone (1982). For fixed support radius, Bevilacqua et al. (2019) and Wang and Jing (2022) have established sharp rate-preservation results; whether the rate is also preserved when the support radius shrinks with n—and what the associated computational savings are—is an active research direction. The second concerns best-arm identification (BAI) under privacy and communication constraints: ε-global differential privacy forces a replacement of the Kullback–Leibler divergence by a strictly smaller quantity for Bernoulli rewards (Jourdan and Azize, 2025), while quantized communication has been shown to impose surprisingly mild costs for some bandit objectives (Hanna et al., 2022) and more substantial floors in others (Acharya et al., 2020; Salgia and
+  Zhao, 2023).
+  Comparing the two case studies reveals a more nuanced picture than a clean “computation is free / privacy and communication are costly” dichotomy: computational constraints can be absorbed when the approximation is designed to interact gently with the relevant spectral content; privacy constraints in BAI have a precisely characterized, irreducible cost for Bernoulli rewards; communication costs are highly task-dependent, with both surprisingly mild and provably large floors in different regimes. The underlying tools—change-of-measure lower bounds, the data-processing inequality, and the duality between reproducing kernel Hilbert spaces and Sobolev spaces—are developed in a unified background section accessible to non-specialists.
+  Keywords
+  : resource constraints, Gaussian processes, scalable computation, fixed-domain asymptotics, differential privacy, best-arm identification, federated learning, quantized communication, minimax optimality.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. ZHONG, Zixin
+  Co-Supervisor: Prof. WANG, Wenjia (online)
+  Examiner: Prof. TANG, Guoming
+  Date
+  09 June 2026
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

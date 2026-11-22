@@ -1,0 +1,27 @@
+dsa_page: Towards Autonomous Scientific Agent Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/04/24/towards-autonomous-scientific-agent-systems/
+source: DSA
+
+headings:
+  - Towards Autonomous Scientific Agent Systems
+  - Abstract
+  - About the speaker
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Towards Autonomous Scientific Agent Systems
+  Share to
+  Abstract
+  Recent advances in large language models have created new opportunities for scientific discovery, but current systems still face a fundamental limitation. They are often good at describing scientific tasks, yet weak at reliably executing them. In this talk, we will discuss how to build scientific agent systems that move from human-guided workflows toward greater autonomy. The talk will focus on a unified view of scientific agents spanning both computational intelligence and experimental intelligence. I will present our work on a scientific agent hub that standardizes heterogeneous tools, codebases, and APIs into callable interfaces for large models. It enables more accurate tool use and more reliable end-to-end task execution in domain-specific agent systems, including multi-agent workflows for computational fluid dynamics and perovskite material discovery. In addition, we will discuss our recent efforts in embodied experimental intelligence to support long-horizon laboratory tasks.
+  About the speaker
+  Shimin Di is a Professor at Southeast University. He is a recipient of the National High-Level Young Talent Program, the Huawei Young Professor Award, the Xiaomi Young Scholar Award, and the Zijin Young Scholar Award. He received his B.S. in Applied Mathematics from Hunan University in 2016, and his M.Sc. and Ph.D. in Computer Science and Engineering from the Hong Kong University of Science and Technology (HKUST) in 2017 and 2022, respectively. After completing his Ph.D., he joined HKUST as a Postdoctoral Fellow. He later served as a Research Assistant Professor at HKUST from 2023 and joined Southeast University in 2025. His recent research focuses on agent systems and AI for Science. For his contributions to graph AI for science, he was nominated for the 2024 Hong Kong Academy of Sciences Young Scientist Award (Mathematics/Physics Track). He has published more than 30 CCF-A papers as first or corresponding author in leading venues such as ICML, ICLR, SIGKDD, and WWW, and serves on the inaugural editorial board of Innovation Informatics.
+  Date
+  28 April 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  Rm 101, W1, HKUST(GZ)

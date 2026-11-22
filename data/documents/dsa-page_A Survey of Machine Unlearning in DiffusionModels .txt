@@ -1,0 +1,37 @@
+dsa_page: A Survey of Machine Unlearning in DiffusionModels: Purposes and Methods – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/a-survey-of-machine-unlearning-in-diffusionmodels-purposes-and-methods/
+source: DSA
+
+headings:
+  - A Survey of Machine Unlearning in DiffusionModels: Purposes and Methods
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Machine Unlearning in DiffusionModels: Purposes and Methods
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. WEN, Siyuan
+  Abstract
+  While diffusion models have achieved unprecedented fidelity and diversity in image synthesis, their reliance on web-scale and uncurated training data has catalyzed significant legal and safety concerns regarding copyright infringement and the generation of harmful content. Machine unlearning has consequently emerged as a critical mechanism, enabling researchers to prevent the model from generating undesirable images. This thesis-style survey provides a comprehensive and critical review of machine unlearning methodologies specifically applied to diffusion models on image generation tasks.
+  According to the unlearning target, we categorize existing methodologies into two distinct paradigms: data unlearning, which aims to remove the influence of specific data on the diffusion model, and concept unlearning, which aims to prevent the model from generating target concepts. For each paradigm, we systematically analyze the mathematical formulation and state-of-the-art approaches. For data unlearning, the existing methods mainly focus on how to efficiently erase specific training samples using traditional machine unlearning techniques; for concept unlearning, the existing methods mainly focus on more diffusion-specific issues like off-manifold drift, text-image misalignment, and multi-concept entanglement.
+  Although significant progress has been made especially in the concept unlearning paradigm, current methodologies describe the same concept unlearning problem with various mathematical formulations. Moreover, similar forgetting techniques are proposed repeatedly for different purposes. To this end, this survey systematically reviews the diffusion unlearning works and provides a unified perspective on these techniques.
+  Finally, we discuss the open challenges and promising future directions in this rapidly evolving field.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. DING, Ningning
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. XIE, Zeke
+  Date
+  09 June 2026
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-150, HKUST(GZ)

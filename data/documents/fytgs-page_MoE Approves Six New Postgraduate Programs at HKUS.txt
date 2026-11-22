@@ -1,0 +1,44 @@
+fytgs_page: MoE Approves Six New Postgraduate Programs at HKUST(GZ)
+url: https://fytgs.hkust-gz.edu.cn/discover/news/rpg-and-tpg-programs-approved-by-moe
+source: FYTGS
+
+headings:
+
+text: >
+  The Ministry of Education (MoE) has approved the following Research and Taught Postgraduate programs in March 2025.
+  Research Programs:
+  - MPhil/PhD in Carbon Neutrality and Climate Chang（哲学硕士/哲学博士（碳中和与气候变化））
+  Taught Programs:
+  - Master of Fine Arts in Computational Arts（文学/艺术硕士（计算艺术））
+  - Master of Science in Smart Manufacturing（理学硕士 （智能制造））
+  - Master of Science in Carbon Neutrality and Green Finance（理学硕士（碳中和与绿色金融））
+  - Master of Business Administration in Innovation and Entrepreneurship（工商管理硕士（创新创业））
+  Hub
+  Program
+  Award
+  Information Hub
+  Computational Arts
+  计算艺术
+  MFA
+  Systems Hub
+  Smart Manufacturing
+  智能制造
+  MSc
+  Society Hub
+  Carbon Neutrality and Climate Change
+  碳中和与气候变化
+  MPhil/PhD
+  Carbon Neutrality and Green Finance
+  碳中和与绿色金融
+  MSc
+  Innovation and Entrepreneurship
+  创新创业工商管理
+  MBA
+
+tables:
+  - Hub | Program | Award
+  - Information Hub | Computational Arts | 计算艺术 | MFA
+  - Systems Hub | Smart Manufacturing | 智能制造 | MSc
+  - Society Hub | Carbon Neutrality and Climate Change | 碳中和与气候变化 | MPhil/PhD
+  - Carbon Neutrality and Green Finance | 碳中和与绿色金融 | MSc
+  - Innovation and Entrepreneurship | 创新创业工商管理 | MBA

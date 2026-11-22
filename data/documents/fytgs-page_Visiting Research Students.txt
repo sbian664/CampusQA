@@ -1,0 +1,73 @@
+fytgs_page: Visiting Research Students
+url: https://fytgs.hkust-gz.edu.cn/short-term/visiting-research-students
+source: FYTGS
+
+headings:
+  - Visiting Research Students
+  - Eligibility
+  - Application Procedures
+  - Fees
+  - Student Visa/Travel Permit
+  - Financial Assistance
+  - Accommodation
+
+text: >
+  Visiting Research Students
+  If you are currently studying in other institutions* and wish to do research study at HKUST(GZ) for a short period of time (one to six months), you may consider applying for enrolment as a Visiting Research Student. During your time at HKUST(GZ), you may extend your research period once if necessary. Besides gaining valuable research experience in a new environment, you may also enjoy a rewarding cultural exchange experience in Guangzhou, China.
+  *Please note that Visiting Research Student status is not applicable to students from HKUST, as such mobility follows the established Cross-campus Studies mechanism. For undergraduate students from HKUST, please contact the Office of Global Learning at HKUST at
+  study.abroad@ust.hk
+  . For postgraduate students from HKUST and HKUST(GZ), please contact the Global Learning Department at HKUST(GZ) at
+  ccsct@hkust-gz.edu.cn
+  .
+  Before you decide to apply, you are invited to browse the research output of our scholars:
+  Research Areas @ HKUST(GZ)
+  Eligibility
+  To be eligible for Visiting Research Study at HKUST(GZ), you should:
+  currently be a registered student at a recognized tertiary institution*
+  have an educational background deemed satisfactory by the Hub & Thrust as a Visiting Research Student; and
+  have gained agreement in advance from your home institution
+  *International students shall observe and abide by the corresponding China student visa regulations.
+  Application Procedures
+  Step 1
+  Identify the
+  Thrust Area
+  you are interested in
+  Seek agreement from an
+  HKUST(GZ) faculty member
+  to accept you as a visiting research student
+  Send "
+  Support from Home University/ Institution
+  " Form to your home institution to request for confirmation of support at HKUST(GZ) and upload to the application system
+  Step 2
+  Chinese students: submit an
+  online application
+  at least 2 months prior to the commencement date
+  International students: submit an
+  online application
+  at least 4 months prior to the commencement date
+  Step 3
+  After getting an offer:
+  Accept offer via the Online Admission System and
+  Arrange official transcripts and other necessary documentation to be sent directly by the issuing authorities by the deadline stipulated in the offer letter/ Document Checklist.
+  Step 4
+  Apply for student visa at the local Chinese embassy/consulate (for international students)
+  Step 5
+  Register as a Visiting Research Student at HKUST(GZ) enrolling in a 1-credit project course
+  Fees
+  Please visit
+  Fees
+  .
+  Student Visa/Travel Permit
+  All international students are required to enter China with the appropriate student visa. Considering the time needed for the international travel arrangement e.g. visa application, early application is highly recommended.
+  Students from Hong Kong, Macao and Taiwan regions are required to enter China’s mainland with Mainland Travel Permit for Hong Kong and Macau Residents and Mainland Travel Permit for Taiwan Residents, respectively.
+  Financial Assistance
+  Visiting Research Students are in general expected to have adequate financial means to support themselves. Allowance may be provided up to RMB 8000 per month (before tax), subject to the agreement of supervisor and the availability of funds.
+  Accommodation
+  Priority for university housing is given to the regular students. As such, please be prepared that you may have to arrange your own off-campus accommodation.
+
+links:
+  - Research Areas @ HKUST(GZ) | https://facultyprofiles.hkust-gz.edu.cn/
+  - Thrust Area | https://hkust-gz.edu.cn/academics/four-hubs
+  - Support from Home University/ Institution | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/01/PG0104_Support-from-Home-University-or-Institution1.pdf
+  - online application | https://pgoas.hkust-gz.edu.cn/
+  - Fees | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/scholarships-fees

@@ -1,0 +1,41 @@
+dsa_page: New Technology for Digital Economy – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/12/new-technology-for-digital-economy/
+source: DSA
+
+headings:
+  - New Technology for Digital Economy
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  New Technology for Digital Economy
+  Share to
+  ABSTRACT
+  The digital economy encompasses a dynamic economic landscape that interconnects individuals, businesses, devices, data, and processes through omni-channels. This domain is poised for exponential growth, driven by the advancement of technologies such as data analytics, artificial intelligence (AI), Internet of Things (IoT), blockchain, and virtual reality.
+  In this presentation, I will delve into my recent research focused on innovative technology in the digital economy. I aim to address a set of intriguing questions: How can AI and psychology collaborate to enhance Recommender Systems for Mental Health? What methodologies can we employ to assess driver risk and formulate customized insurance strategies? Will smart insurance policies induce behavioral changes among drivers, and if so, how? Lastly, what are the implications of 5G technology on consumer usage of mobile applications?
+  Join me as we explore these intriguing intersections of technology and economics, where innovation holds the key to transformative solutions.
+  SPEAKER BIO
+  Siyuan LIU
+  Associate Professor
+  Pennsylvania State University
+  Siyuan Liu is Dr. John Coyle Early Career Professor and Associate Professor of Information Systems at the Department of Supply Chain & Information Systems, Smeal College of Business, Pennsylvania State University. Dr. Liu’s research interests are in the intersection of computer science and business analytics with a focus on trajectory analytics and heterogeneous behavior models. His work has been published in prestigious journals including Management Science, Information Systems Research, Production and Operations Management, Nature Communications, INFORMS Journal on Computing, Transportation Research Part B: Methodological, Decision Support Systems, IEEE Transactions on Knowledge and Data Engineering, Information Sciences, IEEE Transactions on Big Data, IEEE Transactions on Multimedia, ACM Transactions on Knowledge Discovery from Data, and IEEE Transactions on Visualization & Computer Graphics. He received several awards including Dr. John Coyle Early Career Professorship in Supply Chain (2022-2025), Management Science Best Paper Award in Information Systems (Finalist) 2022, INFORMS Data Science Best Paper Award 2021, CPIC Research Achievement Award 2019, Marketing Science Institute Award 2017, Google Internet of Things Technology Research Award 2016, Google Faculty Research Award 2015, and USDOT National University Transportation Center for Safety Award 2015. He received his Ph.D. degree from the Department of Computer Science and Engineering at the Hong Kong University of Science and Technology.
+  Date
+  13 September 2023
+  Time
+  09:30:00 -
+  10:15:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  836 5487 9994
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

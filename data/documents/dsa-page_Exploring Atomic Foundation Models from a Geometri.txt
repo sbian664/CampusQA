@@ -1,0 +1,41 @@
+dsa_page: Exploring Atomic Foundation Models from a Geometric Perspective & Causal Discovery Techniques and Their Applications in Recommendation Algorithms – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/03/topic1-exploring-atomic-foundation-models-from-a-geometric-perspective-topic-2-causal-discovery-techniques-and-their-applications-in-recommendation-algorithms/
+source: DSA
+
+headings:
+  - Exploring Atomic Foundation Models from a Geometric Perspective & Causal Discovery Techniques and Their Applications in Recommendation Algorithms
+  - Topic1：Exploring Atomic Foundation Models from a Geometric Perspective
+  - ABSTRACT
+  - SPEAKER BIO
+  - Topic 2: Causal Discovery Techniques and Their Applications in Recommendation Algorithms
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Exploring Atomic Foundation Models from a Geometric Perspective & Causal Discovery Techniques and Their Applications in Recommendation Algorithms
+  Share to
+  Topic1：Exploring Atomic Foundation Models from a Geometric Perspective
+  ABSTRACT
+  Molecules, proteins, and crystals are fundamental forms of matter in the microscopic physical world. The accurate representation and efficient generation of atomic systems can provide critical support for numerous scientific tasks. Given the unique geometric conformations and dynamic laws of atomic systems, this report will explore and design atomic foundation models, generative algorithms, and efficient dynamic prediction methods from the perspectives of combinatorial, hierarchical, and symmetric geometry, drawing on the latest advancements in AI, including Transformer, diffusion models, and DPO alignment algorithms.
+  SPEAKER BIO
+  Prof HUANG, Wenbing is an Associate Professor and Doctoral Supervisor at the Gaoling School of Artificial Intelligence, Renmin University of China. He has been selected as a National High-Level Young Talent and a Beijing Science and Technology Rising Star. He has long been dedicated to the field of geometric deep learning, developing and enriching the theory and methods of graph neural networks, which has significantly advanced their application in challenging areas such as social network analysis, AI for Science, and embodied intelligence. He has published over 60 papers in top-tier AI conferences and journals such as NeurIPS, ICML, and ICLR, with over 10,000 citations on Google Scholar. He received the Outstanding Paper Nomination Award at ICLR 2023. He serves as an area chair for conferences such as NeurIPS, ICML, and ICLR, and is an executive editor of the Transactions on Machine Learning Research (TMLR).
+  Topic 2: Causal Discovery Techniques and Their Applications in Recommendation Algorithms
+  ABSTRACT
+  In recent years, causal inference techniques have garnered significant attention in the field of artificial intelligence. This presentation will focus on experimental design-based causal discovery methods. First, it will introduce how to construct theoretically guaranteed active causal discovery algorithms in multi-trust scenarios. Second, it will explore the intrinsic connection between active causal discovery problems and Markov decision processes, and introduce how to use reinforcement learning algorithms to design intervention mechanisms in active causal discovery. Finally, it will discuss the application of causal discovery techniques in the field of recommendation algorithms. The speaker hopes to engage with researchers in causal inference to explore the future prospects and main challenges in this field.
+  SPEAKER BIO
+  Prof CHEN, Xu is a Tenure-Track Associate Professor and Doctoral Supervisor at the Gaoling School of Artificial Intelligence, Renmin University of China. He is the principal investigator of the National Excellent Young Scientists Fund. He received his Ph.D. from Tsinghua University and has conducted research visits at the Georgia Institute of Technology (Georgia Tech) and served as a postdoctoral researcher at University College London (UCL). His main research areas include large models, recommendation systems, and causal inference. He has published over 70 papers in renowned international conferences and journals such as TheWebConf, SIGIR, KDD, ICML, NeurIPS, ICLR, and AIJ, with over 8,000 citations on Google Scholar. He has won multiple Best Paper Awards or nominations at international conferences (TheWebConf 2018, CIKM 2022 Resource, etc.) and has been awarded the CCF Natural Science Award (Second Class) and the CIPS Qian Weichang Youth Innovation Award. He is an editorial board member of the academic journal ACM Transactions on Recommender Systems (TORS).
+  Date
+  05 March 2025
+  Time
+  09:20:00 -
+  16:30:00
+  Location
+  E4-102 (HKUST-GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,32 @@
+fytgs_page: Program Types
+url: https://fytgs.hkust-gz.edu.cn/program-types
+source: FYTGS
+
+headings:
+  - Program Types
+  - 1. Research Postgraduate Programs (RPgs)
+  - 2. Taught Postgraduate Programs (TPgs)
+
+text: >
+  Program Types
+  HKUST(GZ) offers both research and taught postgraduate programs in a wide range of disciplines, leading to doctoral and master's degrees, and graduate diplomas.
+  1. Research Postgraduate Programs (RPgs)
+  RPgs involve the completion of coursework and independent research, and successful defense of thesis. The normative periods of study are as follows:
+  1.1 Doctor of Philosophy (PhD)
+  Full-time: 4 years in general; 3 years if a relevant research master’s degree was earned prior to entering the PhD program
+  Part-time: please consult individual programs/supervisors
+  1.2 Master of Philosophy (MPhil)
+  Full-time: 2 years
+  1.3 Hong Kong - Guangzhou Cross-Campus Study Opportunities
+  To encourage collaboration between HKUST(GZ) and HKUST, students have opportunities for cross-campus study and access to research facilities on another campus. Explore the areas of study at HKUST:
+  fytgs.hkust.edu.hk/programs
+  .
+  2. Taught Postgraduate Programs (TPgs)
+  TPgs require students to fulfill the coursework requirements and projects if any. The normative periods of study are as follows:
+  2.1 Master of Science (MSc), Master of Fine Arts (MFA)
+  Full-time: 2 years
+  2.2 Master of Business Administration (MBA)
+  Part-time: 2 years
+
+links:
+  - fytgs.hkust.edu.hk/programs | https://fytgs.hkust.edu.hk/programs

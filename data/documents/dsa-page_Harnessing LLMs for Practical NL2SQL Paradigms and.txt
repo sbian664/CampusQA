@@ -1,0 +1,39 @@
+dsa_page: Harnessing LLMs for Practical NL2SQL: Paradigms and Challenges – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/08/21/harnessing-llms-for-practical-nl2sql-paradigms-and-challenges/
+source: DSA
+
+headings:
+  - Harnessing LLMs for Practical NL2SQL: Paradigms and Challenges
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Harnessing LLMs for Practical NL2SQL: Paradigms and Challenges
+  Share to
+  ABSTRACT
+  With the advent of large language models (LLMs), numerous NL2SQL approaches have been proposed, demonstrating exceptional performance across various benchmarks. However, effectively harnessing LLMs for practical NL2SQL applications remains a challenging question due to the different requirements among applications, such as training data, computational resources, etc. In this talk, I will explore the potential paradigms for developing NL2SQL models tailored for real-world scenarios and examine representative approaches within each paradigm. Additionally, I will discuss the research challenges and future directions in this field.
+  SPEAKER BIO
+  Ju FAN
+  Professor
+  Renmin University of China
+  Ju FAN is a professor at Renmin University of China. He received his Ph.D. from Tsinghua University, and worked as a research fellow at National University of Singapore. His research interests are in general area of data management, and his current research focuses on building next-generation data preparation systems. He has published more than 60 papers at top conferences/journals, including SIGMOD, VLDB, ICDE and VLDB Journal. He is a publication chair for VLDB 2023/2024 and regularly serves as PC member for SIGMOD, VLDB and ICDE. He is also a recipient of ACM SIGMOD Research Highlight Award and ACM China Rising Star award.
+  Date
+  26 August 2024
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/otxaHsErLCIU2RB5MB6t2A

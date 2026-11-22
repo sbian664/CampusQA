@@ -1,0 +1,35 @@
+dsa_page: You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/you-only-prompt-once-on-the-capabilities-of-prompt-learning-on-large-language-models-to-tackle-toxic-content/
+source: DSA
+
+headings:
+  - You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content
+  Abstract
+  The spread of toxic content online is an important problem that has adverse effects on user experience online and in our society at large. Motivated by the importance and impact of the problem, research focuses on developing solutions to detect toxic content, usually leveraging machine learning (ML) models trained on human-annotated datasets. While these efforts are important, these models usually do not generalize well and they can not cope with new trends (e.g., the emergence of new toxic terms). Currently, we are witnessing a shift in the approach to tackling societal issues online, particularly leveraging large language models (LLMs) like GPT-3 or T5 that are trained on vast corpora and have strong generalizability. In this work, we investigate how we can use LLMs and prompt learning to tackle the problem of toxic content, particularly focusing on three tasks; 1) Toxicity Classification, 2) Toxic Span Detection, and 3) Detoxification. We perform an extensive evaluation over five model architectures and eight datasets demonstrating that LLMs with prompt learning can achieve similar or even better performance compared to models trained on these specific tasks. We find that prompt learning achieves around 10\% improvement in the toxicity classification task compared to the baselines, while for the toxic span detection task we find better performance to the best baseline (0.643 vs. 0.640 in terms of F1-score). Finally, for the detoxification task, we find that prompt learning can successfully reduce the average toxicity score (from 0.775 to 0.213) while preserving semantic meaning.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content
+  . Xinlei He, Savvas Zannettou, Yun Shen, and Yang Zhang.
+  Project Period
+  2024
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  LLM, Toxic Detection
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content | https://www.computer.org/csdl/proceedings-article/sp/2024/313000a061/1RjEayUL076

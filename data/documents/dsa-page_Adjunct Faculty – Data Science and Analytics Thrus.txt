@@ -1,0 +1,33 @@
+dsa_page: Adjunct Faculty – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/faculty/adjunct/
+source: DSA
+
+headings:
+  - Jiangchuan LIU
+  - Chen ZHANG
+  - Dian ZHANG
+  - Haodi ZHANG
+  - Foster Jia ZHANG
+  - Gang WANG
+
+text: >
+  Jiangchuan LIU
+  Adjunct Professor
+  Chen ZHANG
+  Associate Professor of Practice
+  Dian ZHANG
+  Adjunct Associate Professor
+  Haodi ZHANG
+  Adjunct Assistant Professor
+  Foster Jia ZHANG
+  Associate Professor of Practice
+  Gang WANG
+  Adjunct Professor
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jiangchuan/153 | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jiangchuan/153
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336 | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haodi/368 | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haodi/368
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-FosterJia/fosterjzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-FosterJia/fosterjzhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Gang/354 | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Gang/354

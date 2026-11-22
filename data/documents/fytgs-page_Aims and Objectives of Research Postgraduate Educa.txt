@@ -1,0 +1,21 @@
+fytgs_page: Aims and Objectives of Research Postgraduate Education
+url: https://fytgs.hkust-gz.edu.cn/aims-and-objectives-of-research-postgraduate-education
+source: FYTGS
+
+headings:
+
+text: >
+  Established under HKUST’s 2.0 vision of ‘Unified HKUST – Complementary Campuses’, HKUST(GZ) shares and extends HKUST’s core vision and mission
+  .
+  To achieve its
+  mission ‘to advance learning and knowledge through teaching and research, particularly at the postgraduate level’, HKUST
+  (GZ)
+  offers
+  cross-
+  disciplinary
+  postgraduate programs leading to research masters and doctoral degrees.
+  HKUST(GZ) aims to create an integrated platform for original research and practical problem-solving while nurturing innovative, international talent to drive technological and industrial development in the GBA and beyond. To this end, the University seeks to train its research postgraduates to develop sound research skills, to acquire the latest theoretical knowledge and become critical thinkers in their chosen cross-disciplinary fields of study, and to conduct enquiries in their areas of specialization in a professional, expert and ethical manner.
+  The Master of Philosophy (MPhil) and the Doctor of Philosophy (PhD) degrees involve the completion of coursework in addition to the preparation of research theses. The MPhil thesis reports work on a significant topic; the PhD dissertation entails original research that contributes to a specific field and expands the frontiers of knowledge.
+  The coursework and thesis components provide research postgraduate students with both generalist knowledge of their subject discipline and mastery of their specialized research areas within the University’s cross-disciplinary academic structure. Students are guided to organize, communicate and disseminate research results to both expert and lay audiences, in a coherent and professional manner.
+  On completion of their degrees, MPhil graduates will have attained advanced knowledge in their chosen fields of study, as well as training in research techniques for dealing with complex issues. They will also be prepared to pursue research degrees at the doctoral level.
+  PhD degree holders will leave the University with up-to-date expertise in their specialist areas, and superior understanding of research techniques for resolving scholarly and practical problems. They will also be prepared to embark on academic or professional careers, and to teach university-level courses in their areas of specialization.

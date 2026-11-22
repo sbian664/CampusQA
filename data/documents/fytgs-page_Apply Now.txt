@@ -1,0 +1,21 @@
+fytgs_page: Apply Now
+url: https://fytgs.hkust-gz.edu.cn/admissions/apply-now
+source: FYTGS
+
+headings:
+
+text: >
+  Step 1: Apply Online
+  Create an account at the Online Admission System
+  Submit your Online Application before the Application Deadlines
+  Pay Application Fee
+  Attend any interviews and tests you may have
+  Check for the email communications from us
+  Step 2: Check Your Application Status
+  Check for the admission offers (or other application status updates) at the Online Admission System from time to time
+  To apply for postgraduate study, please click
+  here
+  .
+
+links:
+  - here | https://pgoas.hkust-gz.edu.cn/

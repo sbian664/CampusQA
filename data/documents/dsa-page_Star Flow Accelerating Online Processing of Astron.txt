@@ -1,0 +1,57 @@
+dsa_page: Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/star-flow-accelerating-online-processing-of-astronomic-data-on-heterogeneous-processors/
+source: DSA
+
+headings:
+  - Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors
+  - Abstract
+  - Project members
+  - Qiong LUO
+  - Publications
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors
+  Abstract
+  Several new astronomy projects, including the Large Synoptic Survey Telescope (LSST) in the US, and the Ground-based Wide-Angle Cameras (GWAC) in China, are building either a single, large telescope or an array of smaller cameras to continuously observe a considerable portion of the sky. Once in operation, these instruments will produce observation images every few seconds. Furthermore, complex processing is required to catalog raw images online, and transient objects, such as stars that change positions or brightness, should be detected from the data instantly to enable timely follow-up observation. Consequently, accelerating the online processing of these data is crucial to meet the demands of these projects and to facilitate astronomic discoveries.
+  There have been initial studies on utilizing commodity computer processors such as multicore CPUs (Central Processing Units) and GPUs (Graphics Processing Units) to parallelize computation on astronomical data. However, the pipeline processing of camera data during normal observations is complex, involving image processing, astrometry computation, and database operations. As a result, parallelizing this pipeline remains a challenging open problem, especially in a heterogeneous environment with both multicore CPUs and GPUs. Moreover, recent developments in heterogeneous processors, such as the Intel Phi co-processors for the CPU, and the dynamic scheduling capabilities in NVIDIA Kepler GPUs to involve multiple CPU cores, pose interesting opportunities to parallel computing.
+  We propose Star Flow, an open-source software project that utilizes state-of-the-art many-core CPUs with their co-processors as well as GPUs to parallelize the processing pipeline of astronomical observation data. In Star Flow, we will tackle three major components in the processing pipeline: (1) source extraction, (2) image subtraction, and (3) cross match. In source extraction, the tabular attributes of hundreds of thousands of stars and galaxies are extracted from each observation image. Image subtraction and cross match are two alternatives of finding transient objects with the difference being whether the input are observation images or tabular data.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Qiong LUO
+  Professor
+  Publications
+  1.
+  Multi-Assignment Single Joins for Parallel Cross-Match of Astronomic Catalogs on Heterogeneous Clusters
+  . Xiaoying Jia, and Qiong Luo. SSDBM 2016: 12:1-12:12.
+  2.
+  Cross-Matching Large Astronomical Catalogs on Heterogeneous Clusters
+  . Xiaoying Jia, Qiong Luo, and Dongwei Fan. ICPADS 2015: 617-624.
+  3.
+  Accelerating astronomical source extraction with graphics processors
+  . Baoxue Zhao. MPhil Thesis, HKUST, Dec 2014.
+  4.
+  Parallelizing Astronomical Source Extraction on the GPU
+  . Baoxue Zhao, Qiong Luo, and Chao Wu. IEEE 9th International Conference on e-Science, Beijing, China, Oct 2013, pp 88-97.
+  5.
+  Accelerating Astronomical Image Subtraction on Heterogeneous Processors
+  . Yan Zhao, Qiong Luo, Senhong Wang, and Chao Wu. IEEE 9th International Conference on e-Science, Beijing, China, Oct 2013, pp 70-77.
+  6.
+  Accelerating In-Memory Cross Match of Astronomical Catalogs
+  . Senhong Wang, Yan Zhao, Qiong Luo, Chao Wu, and Yang Xv. IEEE 9th International Conference on e-Science, Beijing, China, Oct 2013, pp 326-333.
+  Project Period
+  2013-Present
+  Research Area
+  High-Performance Systems for Data Analytics
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/starflow/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  - Multi-Assignment Single Joins for Parallel Cross-Match of Astronomic Catalogs on Heterogeneous Clusters | https://cse.hkust.edu.hk/catalac/papers/masj_ssdbm2016.pdf
+  - Cross-Matching Large Astronomical Catalogs on Heterogeneous Clusters | http://www.cse.ust.hk/catalac/papers/crossmatch_icpads2015.pdf
+  - Accelerating astronomical source extraction with graphics processors | http://lbezone.ust.hk/bib/b1432227
+  - Parallelizing Astronomical Source Extraction on the GPU | http://www.cse.ust.hk/catalac/papers/source_extraction_escience2013.pdf
+  - Accelerating Astronomical Image Subtraction on Heterogeneous Processors | http://www.cse.ust.hk/catalac/papers/image_subtraction_escience2013.pdf
+  - Accelerating In-Memory Cross Match of Astronomical Catalogs | http://www.cse.ust.hk/catalac/papers/crossmatch_escience2013.pdf

@@ -1,0 +1,35 @@
+dsa_page: The Convergent Frontier: A Survey of DataVisualization, HCI, BCI, and AR/XR for Enhanced Human-Data Interaction – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/the-convergent-frontier-a-survey-of-datavisualization-hci-bci-and-ar-xr-for-enhanced-human-data-interaction/
+source: DSA
+
+headings:
+  - The Convergent Frontier: A Survey of DataVisualization, HCI, BCI, and AR/XR for Enhanced Human-Data Interaction
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  The Convergent Frontier: A Survey of DataVisualization, HCI, BCI, and AR/XR for Enhanced Human-Data Interaction
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss SHI Yao
+  Abstract
+  The exponential growth and increasing complexity of data in the 21st century present significant challenges for human comprehension and traditional interaction methods, necessitating innovative approaches to data exploration and insight generation. This survey explores the dynamic and rapidly evolving interdisciplinary frontier where Data Visualization, Human-Computer Interaction (HCI), Brain-Computer Interfaces (BCI), and Augmented/Extended Reality (AR/XR) converge. We begin by examining the foundational principles of Data Visualization and HCI that guide the design of effective and user centric systems. Subsequently, the survey delves into emerging modalities, detailing the potential of BCI to infer user cognitive and emotional states for implicit interaction and adaptive systems — including novel paradigms for generating visualizations directly from neural signals indicative of user intent or imagination. It further investigates how AR/XR technologies offer immersive, spatially-aware platforms for novel data representation and embodied interaction, for which systematic design frameworks for augmenting existing charts with virtual overlays are explored.
+  The core of this survey focuses on the synergistic integration of these fields, discussing motivations, opportunities, and concrete examples of systems that aim to create more intuitive, personalized, and impactful data engagement experiences. However, the realization of such sophisticated convergent systems is confronted by significant hardware, software, user experience (UX), and profound ethical challenges, particularly concerning data privacy, user agency, and algorithmic bias. Finally, this paper synthesizes identified research gaps—spanning explainable AI in XR, affective computing, accessibility, and the practicalities of BCI-XR integration—and outlines compelling future directions. These include the development of novel interaction paradigms, the critical need for holistic and ecologically valid evaluation methodologies, and the evolving role of Artificial Intelligence,
+  PQE Committee
+  Chair of Committee: Prof. WANG Wei
+  Prime Supervisor: Prof. LUO Yuyu
+  Co-Supervisor: Prof. TANG Nan
+  Examiner: Prof. ZHANG Yongqi
+  Date
+  11 June 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-148 (HKUST-GZ)

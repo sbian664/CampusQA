@@ -1,0 +1,33 @@
+dsa_page: Scalable Data Analytics — with Rigorous Privacy Guarantees – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/26/scalable-data-analytics-with-rigorous-privacy-guarantees/
+source: DSA
+
+headings:
+  - Scalable Data Analytics — with Rigorous Privacy Guarantees
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA & AI Joint Seminar
+  Scalable Data Analytics — with Rigorous Privacy Guarantees
+  Share to
+  ABSTRACT
+  The large-scale collection of personal data has become central to modern science and technology, with immense potential for discovery and societal benefit. Yet this data often contains highly sensitive information, and its scale poses significant efficiency challenges. Balancing the opportunities of data-driven insights with the need to safeguard individual privacy calls for new algorithmic foundations.
+  Differential privacy (DP) is now a widely adopted standard for rigorous privacy protection. It guarantees that the output of an algorithm changes very little when any single person’s data is modified, while still allowing for accurate population-level analysis.
+  In this talk, I will discuss recent advances in efficient differentially private algorithms, focusing on two key challenges: (1) optimizing the privacy–utility trade-off, and (2) maximizing algorithmic efficiency. I will highlight algorithms with nearly linear or linear running time, centered around fundamental frequency-based data analytics tasks.
+  SPEAKER BIO
+  Hao Wu is a William T. Tutte Postdoctoral Fellow at the University of Waterloo. Previously, he was a Postdoc at the University of Copenhagen, affiliated with the Basic Algorithms Research Copenhagen (BARC) group. He holds a PhD from the University of Melbourne, an MPhil from HKUST, and a BSc from Nankai University. His research lies at the intersection of sketching, graph theory, and privacy-preserving algorithms, with an emphasis on developing practical solutions with rigorous theoretical guarantees.
+  Date
+  01 April 2026
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 635 003 6325
+  Passcode: dsat

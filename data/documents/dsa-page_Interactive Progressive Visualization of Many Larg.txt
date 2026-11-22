@@ -1,0 +1,40 @@
+dsa_page: Interactive Progressive Visualization of Many Large-scale Time Series – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/16/interactive-progressive-visualization-of-many-large-scale-time-series/
+source: DSA
+
+headings:
+  - Interactive Progressive Visualization of Many Large-scale Time Series
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Interactive Progressive Visualization of Many Large-scale Time Series
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Time-series data—usually presented in the form of lines—plays an important role in many domains such as finance, meteorology, health, and urban informatics. Yet, little has been done to support interactive exploration of large-scale time-series data, which requires a clutter-free visual representation with low-latency interactions. Although line-based density plots can reduce visual clutter in line charts with a multitude of individual lines, they cannot be efficiently computed and are often perceived ambiguously. To address these challenges, we need to rethink the visualization pipeline and develop new systems that facilitates efficient interactive progressive visualization of large data stored in a database and enable interactive analysis of many time series with various interactions such as resizing, panning, zooming, and visual queries. Toward these goals I will present our recent work on developing systems to support interactive exploration of many large-scale time series and will demonstrate novel colorization methods for efficiently exploring line charts and density plots.
+  SPEAKER BIO
+  Yunhai WANG
+  Professor
+  Shandong University
+  Yunhai Wang is a Professor at Shandong University, China. He leads the interactive data exploration systems lab (https://ideaslab.wang/) with the mission of enhancing people's ability to understand data through the design of interactive systems for data visualization and analysis. He has published more than 70 papers in top venues for visualization, data management, and human computer interactions, such as ACM SIGMOD, ACM SIGCHI, IEEE VIS, and IEEE TVCG and received the best paper honorable mention awards in IEEE VIS’21 and ACM SIGCHI’21. He serves as the associate editor of Computer Graphics Forum, IEEE Computer Graphics and Applications, and Frontiers in Computer Science.
+  Date
+  18 October 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  865 4093 1016
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

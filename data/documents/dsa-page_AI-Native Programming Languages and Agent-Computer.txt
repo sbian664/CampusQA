@@ -1,0 +1,36 @@
+dsa_page: AI-Native Programming Languages and Agent-Computer Interfaces: Design Philosophy, Architec-ture, and the MoonBit Case Study – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/26/ai-native-programming-languages-and-agent-computer-interfaces-design-philosophy-architec-ture-and-the-moonbit-case-study/
+source: DSA
+
+headings:
+  - AI-Native Programming Languages and Agent-Computer Interfaces: Design Philosophy, Architec-ture, and the MoonBit Case Study
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  AI-Native Programming Languages and Agent-Computer Interfaces: Design Philosophy, Architec-ture, and the MoonBit Case Study
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr ZHANG Hongbo
+  Abstract
+  Large language models (LLMs) have begun to reshape software engineering, yet today’s languages, tools, and workflows were built for humans, not for AI codevelopers. This paper surveys and advances the emerging field of AI-native programming by (i) distilling design principles for languages and tooling that treat LLM-powered agents as first-class users, (ii) analysing recent progress in agent-computer interfaces (ACIs) that let an autonomous agent navigate, edit, compile, test, and deploy code safely, and (iii) presenting MoonBit—a modern language and vertically-integrated toolchain created from the ground up for human–AI collaboration—as a detailed case study.
+  We first identify core challenges—reliability of AI-generated code, scalable human+AI and AI+AI collaboration, and secure, deterministic execution environments—and derive six language-level pillars: flattened, unambiguous syntax; manifest static typing; built-in testability and traceability; sandboxed compilation targets (WebAssembly); concise, machine-readable diagnostics; and balanced human/machine orientation. We then map these pillars onto a holistic architecture that couples compiler, IDE, debugger, build system, and package manager through a unified ACI, enabling high-bandwidth, structured interaction loops between agents and the development environment.
+  Finally, we outline open research directions—including standardised ACI protocols, multi-agent division of labour, and AI-guided formal verification—that could generalise MoonBit’s lessons to future ecosystems. Together, the study provides a concrete roadmap for building languages and platforms where humans specify intent, AI writes and iterates on code, and integrated toolchains guarantee safety, speed, and maintainability.
+  PQE Committee
+  Chair of Committee: Prof. Xiaowen Chu
+  Prime Supervisor: Prof. Lionel M. Ni
+  Co-Supervisor: Prof. Harry Shum
+  Examiner: Prof. Qiong Luo
+  Date
+  02 July 2025
+  Time
+  14:00:00 -
+  15:30:00
+  Location
+  E3-201 (HKUST-GZ)

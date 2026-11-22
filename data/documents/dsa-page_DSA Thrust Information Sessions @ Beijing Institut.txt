@@ -1,0 +1,40 @@
+dsa_page: DSA Thrust Information Sessions @ Beijing Institute of Technology – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/12/dsa%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8c%97%e4%ba%ac%e7%90%86%e5%b7%a5%e5%a4%a7%e5%ad%a6%e4%b8%93/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Beijing Institute of Technology
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Beijing Institute of Technology
+  Share to
+  Date
+  15 April 2024
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  北京理工大学信息实验楼二层报告厅
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/roKQd_UphVCj89QZn4bfdg

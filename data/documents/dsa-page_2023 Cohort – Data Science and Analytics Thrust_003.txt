@@ -1,0 +1,143 @@
+dsa_page: 2023 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/26/2023-2/
+source: DSA
+
+headings:
+
+text: >
+  Master of Philosophy
+  2023 Cohort
+  Day: March 26, 2024
+  Browse: 569
+  Share to
+  PIAO, Shiyuan
+  MPhil (DSA)
+  ZI, Chenyi
+  MPhil (DSA)
+  ZHENG, Zinan
+  MPhil (DSA)
+  SHENG, Qing
+  MPhil (DSA)
+  HUANG, Yue
+  MPhil (DSA)
+  LI, Junwei
+  MPhil (DSA)
+  HE, Jingwen
+  MPhil (DSA)
+  YUAN, Chaoyi
+  MPhil (DSA)
+  WANG, Yi
+  MPhil (DSA)
+  PAN, Zipei
+  MPhil (DSA)
+  ZHANG, Zihan
+  MPhil (DSA)
+  WENG, Cekai
+  MPhil (DSA)
+  ZHANG, Yue
+  MPhil (DSA)
+  XU, Yining
+  MPhil (DSA)
+  LI, Ruolan
+  MPhil (DSA)
+  ZHAO, Shuchang
+  MPhil (DSA)
+  LUO, Liping
+  MPhil (DSA)
+  ZHANG, Zhe
+  MPhil (DSA)
+  ZHONG, Jiatao
+  MPhil (DSA)
+  PAN, Doucheng
+  MPhil (DSA)
+  JIANG, Ziyu
+  MPhil (DSA)
+  LI, Junhao
+  MPhil (DSA)
+  ZHANG, Yunfan
+  MPhil (DSA)
+  CHEN, Xiangsen
+  MPhil (DSA)
+  CHEN, Haorong
+  MPhil (DSA)
+  WANG, Fan
+  MPhil (DSA)
+  XIAO, Yunxuan
+  MPhil (DSA)
+  LIAO, Xiangrong
+  MPhil (DSA)
+  LI, Chunting
+  MPhil (DSA)
+  LIU, Yingchen
+  MPhil (DSA)
+  YAN, Rudan
+  MPhil (DSA)
+  YOU, Huajie
+  MPhil (DSA)
+  WU, Duohan
+  MPhil (DSA)
+  HOU, Yusen
+  MPhil (DSA)
+  ZHOU, Jiayong
+  MPhil (DSA)
+  CHEN, Yitong
+  MPhil (DSA)
+  GONG, Gu
+  MPhil (DSA)
+  YU, Xiangrui
+  MPhil (DSA)
+  HUANG, Junlin
+  MPhil (DSA)
+  WANG, Rui
+  MPhil (DSA)
+  TANG, Zichen
+  MPhil (DSA)
+  CHEN, Yixiang
+  MPhil (DSA)
+  CHEN, Yuhan
+  MPhil (DSA)
+  FENG, Yutong
+  MPhil (DSA)
+  ZOU, Xingchen
+  MPhil (DSA)
+  LIU, Erdong
+  MPhil (DSA)
+  LUO, Gefeng
+  MPhil (DSA)
+  LAI, Sicong
+  MPhil (DSA)
+  HU, Yuehong
+  MPhil (DSA)
+  ZHOU, Jianxiang
+  MPhil (DSA)
+  ZHU, Yanchen
+  MPhil (DSA)
+  ZHONG, Siru
+  MPhil (DSA)
+  ZUO, Xin
+  MPhil (DSA)
+  DU, Shiyin
+  MPhil (DSA)
+  DAI, Yu
+  MPhil (DSA)
+  YAN, Siyu
+  MPhil (DSA)
+  JIANG, Runzhi
+  MPhil (DSA)
+  MA, Peixian
+  MPhil (DSA)
+  JIA, Minghan
+  MPhil (DSA)
+  GUO, Zhihan
+  MPhil (DSA)
+  ZHU, Yizhang
+  MPhil (DSA)
+  ZHOU, Xiaoyu
+  MPhil (DSA)
+  HUANG, Youliang
+  MPhil (DSA)
+
+links:
+  - ZOU, Xingchen | https://xczou.top/Home.html
+  - HU, Yuehong | https://dejavu2021.github.io/
+  - ZHONG, Siru | https://github.com/siruzhong

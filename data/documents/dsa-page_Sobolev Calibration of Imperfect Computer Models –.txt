@@ -1,0 +1,36 @@
+dsa_page: Sobolev Calibration of Imperfect Computer Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/sobolev-calibration-of-imperfect-computer-models/
+source: DSA
+
+headings:
+  - Sobolev Calibration of Imperfect Computer Models
+  - Abstract
+  - Project members
+  - Wenjia WANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Sobolev Calibration of Imperfect Computer Models
+  Abstract
+  Calibration refers to the statistical estimation of unknown model parameters in computer experiments, such that computer experiments can match underlying physical systems. This work develops a new calibration method for imperfect computer models, Sobolev calibration, which can rule out calibration parameters that generate overfitting calibrated functions. We prove that the Sobolev calibration enjoys desired theoretical properties including fast convergence rate, asymptotic normality and semiparametric efficiency. We also demonstrate an interesting property that the Sobolev calibration can bridge the gap between two influential methods: L2 calibration and Kennedy and O’Hagan’s calibration. In addition to exploring the deterministic physical experiments, we theoretically justify that our method can transfer to the case when the physical process is indeed a Gaussian process, which follows the original idea of Kennedy and O’Hagan’s. Numerical simulations as well as a real-world example illustrate the competitive performance of the proposed method
+  Project members
+  Wenjia WANG
+  Assistant Professor
+  Publications
+  Sobolev Calibration of Imperfect Computer Models
+  . Wenjia Wang, and Qingwen Zhang.
+  Journal of the American Statistical Association.
+  Project Period
+  2024
+  Research Area
+  Statistical Learning and Modeling
+  Keywords
+  Computer experiments, Gaussian process, semiparametric efficiency, uncertainty quantification
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang
+  - Sobolev Calibration of Imperfect Computer Models | https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2340793

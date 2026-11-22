@@ -1,0 +1,27 @@
+dsa_page: Mechanical Fault Feature Extraction Theories and Methods – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/01/mechanical-fault-feature-extraction-theories-and-methods/
+source: DSA
+
+headings:
+  - Mechanical Fault Feature Extraction Theories and Methods
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Mechanical Fault Feature Extraction Theories and Methods
+  Share to
+  ABSTRACT
+  Fault feature extraction is the core technology of machine condition monitoring and fault diagnosis. Our group is committed to exploring the forefront of fault feature extraction. This talk will summarize our progress toward: 1) Research on Sparsity Measures and Complexity Measures: A generalized framework for classical sparsity measures has been proposed, which solves the common problem of sparsity measures in multiple fields; The design and theoretical proof of a new sparsity measure have solved the problem of designing a new sparsity measure; The "bilateral effect" of complexity measures has been discovered to solve the problem of distinguishing sparsity and complexity measures. 2) Explainable Optimization Weight Theory and Related Techniques: Optimization weight spectrum theory by using positive and negative optimization weights to identify faults and reference frequencies has been proposed; Differential mode decomposition breaks through the limitations of bandpass filtering such as wavelet transform, variational mode decomposition, empirical mode decomposition, sparse representation, etc., and reconstructs spectral line benchmarks, fault and noise signals, providing new ideas for the development of original decomposition algorithms in the field of machine fault diagnosis; Optimizing weight spectrum theory only requires FFT and convex optimization, highlighting the uniqueness of FFT in the field of machine fault diagnosis and facilitating the implementation of monitoring and diagnostic engineering. 3) Research on Interpretable Machine Degradation Assessment Optimization Models based on Spectral Amplitude Fusion Generalized Health Index: degradation properties such as state separability, degradation monotonicity, inter class distance and intra class distance, shape, trend, etc. have been used to describe entire machine life degradation process, and the signal-to-noise ratio of health index has been defined; The weighted sum of spectral amplitudes (such as frequency domain amplitudes or envelope spectral domain amplitudes) is defined as the generalized health index, and then related generalized health index weight convex optimization models have been derived based on degradation characteristics and sparse fault characteristics. Weight optimization models and optimized spectral amplitude weights have physical interpretability, and can simultaneously achieve the triple purpose of machine condition monitoring, fault diagnosis, and degradation assessment.
+  SPEAKER BIO
+  Dr. Dong Wang, a National Distinguished Young Expert, is a tenured associate professor at the Department of Industrial Engineering, School of Mechanical Engineering, Shanghai Jiao Tong University. Dedicated to fundamental research in intelligent maintenance, he has led 3 projects under the National Natural Science Foundation and a sub-project under national key R&D programs. He has proposed theories and methods for fault feature identification and localization separation, innovative concepts for designing novel fault features, optimized models for characterizing degradation properties, and theories and methods for the data-model linkage prediction of fault features, as well as stochastic programming decision models based on fault evolution. His research outcomes have been applied in collaborations with China State Shipbuilding, China Nuclear Power, China Aerospace, Lenovo, Huawei, Shanghai Electric, Shanghai Nuclear Engineering, Western Digital, and others. He has been honored with the Young Scientist Award by national social organizations, two first prizes, and one gold prize. He also received the "Outstanding Achievement Award" from Lenovo and has been featured in mainstream media such as People's Daily, People's Daily Online, and Xinhua Finance. He serves as an Associate Editor of Mechanical Systems and Signal Processing and as a Data Processing Topical Editor for IEEE Sensors Journal, an Area Editor for Journal of Reliability Science and Engineering, and Associate Editors for IEEE TIM, Measurement, and JDMD. Under his guidance, students have received the first National Natural Science Foundation Project for doctoral candidates, two Shanghai Jiao Tong University "Academic Star" nomination awards, and five national science and innovation special and first prizes, among other honors.
+  Date
+  02 December 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

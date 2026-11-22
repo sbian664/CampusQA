@@ -1,0 +1,41 @@
+dsa_page: Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/10/28/complexity-optimized-algorithms-for-large-scale-kernel-density-visualization/
+source: DSA
+
+headings:
+  - Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization
+  Share to
+  ABSTRACT
+  Data Visualization is an important field to discover hidden patterns from a dataset. Among most of the tools, Kernel Density Visualization (KDV) has been a de facto method for domain experts (e.g., criminologists, transportation experts, and epidemiologists) to analyze their location datasets. Some representative applications include crime hotspot detection, traffic accident hotspot detection, and disease outbreak detection. Due to the wide applicability of KDV, many scientific software packages, e.g., Scikit-learn and Scipy, visualization software packages, e.g., Deck.gl and Seaborn, and geographical software packages, e.g., QGIS and ArcGIS, can also support this tool. However, KDV is a computationally expensive tool, which is not scalable to large-scale datasets and high resolution sizes. Worse still, domain experts need to perform exploratory operations (e.g., zooming and panning) and adopt some advanced analytics, which involve computing multiple KDVs, in order to thoroughly understand their datasets. As such, the above off-the-shelf software packages cannot efficiently (or even feasibly) support this tool under big data settings. In this talk, I will first illustrate our efficient solutions to compute KDV and its variant (Spatiotemporal Kernel Density Visualization (STKDV)). Then, I will talk about our fast python library, LIBKDV, which is based on our efficient solutions. Next, I will discuss our
+  Hong Kong COVID-19 hotspot map
+  and
+  Macau COVID-19 hotspot map
+  , which are powered by our LIBKDV. Lastly, I will discuss some possible directions, including research and software development, of future work.
+  SPEAKER BIO
+  Tsz Nam Chan (Edison) is currently a Distinguished Professor in the database group of the Big Data Institute in Shenzhen University (SZU). His research interests are mainly in (1) spatiotemporal data management, (2) large-scale data visualization, and (3) large-scale geospatial analytics. He published several research papers in prestigious conferences and journals in both database and data mining areas, including SIGMOD, VLDB, ICDE, SIGKDD, and TKDE. Prior to joining the SZU, he was a Research Assistant Professor in the Hong Kong Baptist University from Sep 2020 to Aug 2023 and a postdoctoral researcher in the The University of Hong Kong from Sep 2018 to Aug 2020. He received the PhD degree in computing and the BEng degree in electronic and information engineering from The Hong Kong Polytechnic University in 2019 and 2014, respectively. He is an IEEE senior member and an ACM member.
+  Date
+  30 October 2024
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+
+links:
+  - Hong Kong COVID-19 hotspot map | https://covid19.comp.hkbu.edu.hk/
+  - Macau COVID-19 hotspot map | https://degroup.cis.um.edu.mo/covid-19/

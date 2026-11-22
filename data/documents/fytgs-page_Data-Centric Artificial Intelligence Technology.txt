@@ -1,0 +1,130 @@
+fytgs_page: Data-Centric Artificial Intelligence Technology
+url: https://fytgs.hkust-gz.edu.cn/programs/data-centric-artificial-intelligence-technology-4
+source: FYTGS
+
+headings:
+  - Master of Science Program in Data-Centric Artificial Intelligence Technology
+
+text: >
+  Postgraduate Programs 2026/27
+  Master of Science Program in Data-Centric Artificial Intelligence Technology
+  GENERAL INFORMATION
+  Award Title
+  Master of Science in Data-Centric Artificial Intelligence Technology
+  Program Short Name
+  MSc(DCAI)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  Full-time: 2 years
+  Part-time: 3 years
+  Program Fee
+  RMB 398,000
+  Offering Unit
+  Data Science and Analytics Thrust Area
+  Information Hub
+  Program Advisor
+  Program Director:
+  Prof Jing TANG, Assistant Professor of Data Science and Analytics
+  Website
+  https://msc-dcai.hkust-gz.edu.cn
+  Enquiry
+  mscdcai@hkust-gz.edu.cn
+  INTRODUCTION
+  The Master of Science (MSc) Program in Data-Centric Artificial Intelligence Technology is an elite program providing students with unparalleled academic experience through interplay of advanced domain knowledge and practice in big data and AI. Not only will the program teach students the state-of-the-art knowledge in big data and AI through courses delivered by world-class faculty of the University, but it will also offer students opportunities to work on industry level independent projects. In addition, students will be exposed to real-world industry problems and trained with hands-on experience and essential skillset to apply the cutting-edge knowledge learnt in the courses to tackle the contemporary technology problems facing the industry in the one-year mandatory internship.
+  Along with the exponential growth in volume and availability of data arising from various forms of new innovations and technologies like 5G, Internet of Things (IoT), mobile devices, etc., enterprises are seeking to leverage the power of data and analysis for driving their businesses strategies and operations, leading to continuous growing demands for highly qualified professionals in the field of data science and AI. This program aims to educate students with academic literacy in big data and AI as well as provide students hands-on experience to work on independent projects and internship in the industry. The program enables students to apply learning to practice, empowering them to be skilled technology leaders and successful big data and AI professionals in the fast-changing business environment.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Develop advanced knowledge and understanding on state-of-the-art big data and AI technologies and analysis methods, such as Data Mining, AI/ Deep Learning, Data Science and Engineering (Database, Hadoop, HDFS, MLOps), Algorithms, Probabilistic Graphical Models (GNN);
+  Perform various industry data analytics tasks using big data, AI, and computing techniques;
+  Exercise independent thinking and demonstrate critical analytical skills essential from the perspective of big data and AI;
+  Investigate existing problems in big data and AI and conduct original big data and AI research independently with in-depth knowledge and practical experience to solve the complex problems in industry; and
+  Apply a range of big data and AI knowledge and techniques effectively into practice in the academic field and industry for robust data analytics and applications.
+  CURRICULUM
+  Minimum Credit Requirement
+  39 credits
+  Credit Transfer
+  Subject to the approval of the Program Director and the University regulations governing credit transfer, a maximum of 9 credits can be transferred to the program.
+  Required Courses
+  4 credits
+  DSAA 6010
+  Industry Round Table
+  1 Credit(s)
+  Description
+  This course offers students opportunities to learn the possible industry topics and supervisors that they will work with during their internship. The goals are: (a) understand (i) problems in industry, (ii) existing data-sets, (iii) AI models, (iv) service scenario and KPI, (v) challenges; (b) propose industrial projects based on the understanding; and (c) matching for their industrial projects. This course is only available for MSc(DCAI) students. Graded P or F.
+  DSAA 6100
+  Practical Lab Course
+  3 Credit(s)
+  Description
+  This course will teach students practical programming and parallel processing skills on implementing various deep learning or machine learning models, starting from preparing data, feature selection to model choosing, hyperparameter tuning, and final result analysis and explaining. This course is only available for MSc(DCAI) students.
+  Elective Courses
+  21 credits
+  Students can take the following courses to meet the elective course requirement
+  • Any postgraduate elective courses offered by DSA
+  • A list of other elective courses offered at HKUST(GZ) in a particular year will be announced at the beginning of each intake.
+  Independent Project
+  6 credits
+  DSAA 6800
+  Independent Project
+  6 Credit(s)
+  Description
+  In this course, the student will work on a practical project. The independent project is related to real problems existing in data science and AI application domains. The student needs to conduct literature survey, method comparison, solution selection and implementation, experimental study and write the final report. The course will train students skills on proposing end-to-end solution for a realapplications problem. This course is only available for MSc(DCAI) students. Graded P or F.
+  Students are required to complete a six-month independent project on real-world industry problems. Each independent project will be supervised by one academic faculty member. The topics of the projects will come from industry with focus on data analytics. Full-time students are expected to complete the project in the second term of their first academic year. Part-time students are expected to complete the project in the second term of their second academic year.
+  Internship
+  8 credits
+  DSAA 6920
+  Industry Internship I
+  2 Credit(s)
+  Description
+  In this course, students will be trained in the industry. They will work under the guidance of their supervisors (industry and academia) to practice what they have learned in the program, and apply the data science and AI knowledge and techniques to various real-life problems. In Part I, students are required to complete an Open Topic report with oral examination on the scientific value, feasibility and technical challenges of the proposed topic. This course is only available for MSc(DCAI) students. Graded PP, P or F.
+  DSAA 6921
+  Industry Internship II
+  3 Credit(s)
+  Description
+  In this course, students will be trained in the industry. They will work under the guidance of their supervisors (industry and academia) to practice what they have learned in the program, and apply the data science and AI knowledge and techniques to various real-life problems. In Part II, students are required to complete an Intermediate report with oral examination on the student’s progress and industry collaboration progress. This course is only available for MSc(DCAI) students. Graded PP, P or F.
+  DSAA 6922
+  Industry Internship III
+  3 Credit(s)
+  Description
+  In this course, students will be trained in the industry. They will work under the guidance of their supervisors (industry and academia) to practice what they have learned in the program, and apply the data science and AI knowledge and techniques to various real-life problems. In Part III, students are required to complete a Final report with oral examination on the final output from the internship project and whether the student indeed knows how to apply AI techniques to concrete data science applications. This course is only available for MSc(DCAI) students. Graded PP, P or F.
+  Students are required to participate in a year-long internship in the industry arranged by the Program Office. Full-time students are expected to complete the internship in the second year of their study. Part-time students are expected to complete the internship in the third year of their study. Each internship will be supervised by one academic faculty member and one industry faculty member as a pair.
+  The internship consists of three parts. Students are required to pass oral examinations consisting of one Open Topic report, one Intermediate report and one Final report. Each oral presentation should normally take approximately 2 hours. The Open Topic will be examined based on the scientific value, feasibility and technical challenges of the proposed topic; the Intermediate report will assess the student’s progress and industry collaboration progress; the Final report will examine the final output from the internship project and whether the student indeed knows how to apply AI techniques to concrete data science applications.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  3. Additional Information
+  Candidates with the following qualifications are preferred:
+  • A good honors degree in Data Science or AI; or
+  • A good honors degree in a related discipline with 2 years’ experience in IT industry; or
+  • A good bachelor’s degree in Data Science or AI with 2 years’ experience in IT industry.
+  Candidates with Data Analytic background can also be considered.
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 300
+  Application Deadlines
+  For 2026/27 Fall Term Intake:
+  International students*
+  15 Jun 2026
+  Chinese students
+  15 Jul 2026
+  Application Open On
+  21 July 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://msc-dcai.hkust-gz.edu.cn | https://msc-dcai.hkust-gz.edu.cn
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

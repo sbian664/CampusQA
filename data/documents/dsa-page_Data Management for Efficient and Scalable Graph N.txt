@@ -1,0 +1,48 @@
+dsa_page: Data Management for Efficient and Scalable Graph Neural Network Training – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/14/data-management-for-efficient-and-scalable-graph-neural-network-training/
+source: DSA
+
+headings:
+  - Data Management for Efficient and Scalable Graph Neural Network Training
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Data Management for Efficient and Scalable Graph Neural Network Training
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xin ZHANG
+  ABSTRACT
+  Graph-structured data is prevalent in many real-world applications, and Graph Neural Networks (GNNs) have achieved state-of-the-art performance for learning from such data. However, scaling GNN training to large graphs remains challenging due to inefficiencies in data access, memory utilization, and hardware scheduling. In this thesis, we present a unified framework comprising three complementary solutions for efficient and scalable GNN training.
+  First, we introduce a feature-oriented sampling methodology to address the data access inefficiencies. This approach reverses the traditional mini-batch sampling paradigm by first sampling a block of node features and subsequently inducing the corresponding subgraph. This design effectively mitigates intensive random memory accesses, prevents the exponential growth of batch sizes, and speeds up the training procedure while maintaining accuracy.
+  Second, we propose DUCATI, a dual-cache training system, to fully exploit available GPU memory. DUCATI introduces a novel Adj-Cache to exploit the locality of the adjacency matrix. Furthermore, it features a workload-aware Dual-Cache Allocator that dynamically finds the best cache allocation plan under different settings. DUCATI outperforms state-of-the-art single-cache systems by better utilizing spare GPU memory on billion-scale graphs.
+  Finally, we develop MorphGL to overcome the performance bottlenecks caused by static workload-processor binding on modern CPU-GPU architectures. MorphGL introduces a collective batching design that adaptively dispatches the batch preparation workload to both processors, ensuring alignment with the running machine’s specific CPU-GPU configuration. By employing a Dual-Buffer Scheduling algorithm, it seamlessly orchestrates operations to maximize the utilization of CPU cores, PCIe bandwidth, and GPU computing capabilities.
+  Overall, this thesis systematically addresses the data management bottlenecks of mini-batch GNN training. By innovating at the algorithmic sampling level, the memory caching level, and the hardware scheduling level, the proposed works provide a comprehensive, efficient, and highly scalable solution for training GNNs on giant graphs.
+  TEC
+  Chairperson: Prof Yang YUE
+  Prime Supervisor: Prof Lei CHEN
+  Co-Supervisor: Prof Qiong LUO
+  Examiners:
+  Prof Sung Hun KIM
+  Prof Jiaheng WEI
+  Prof Guang ZHANG
+  Prof Zhiguo GONG
+  Date
+  06 July 2026
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

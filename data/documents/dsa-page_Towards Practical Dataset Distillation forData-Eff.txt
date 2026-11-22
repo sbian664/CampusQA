@@ -1,0 +1,44 @@
+dsa_page: Towards Practical Dataset Distillation forData-Efficient Neural Network Training – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/20/towards-practical-dataset-distillation-fordata-efficient-neural-network-training/
+source: DSA
+
+headings:
+  - Towards Practical Dataset Distillation forData-Efficient Neural Network Training
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Thesis Proposal Examination
+  Towards Practical Dataset Distillation forData-Efficient Neural Network Training
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Mingyang CHEN
+  Abstract
+  Dataset distillation has emerged as a promising technique to enhance the efficiency of training deep learning models by condensing original datasets into smaller, highly informative surrogate datasets. Despite significant progress, the practical implementation of dataset distillation still faces challenges, particularly in maintaining scalability, generalization capabilities, and efficient resource usage when dealing with large-scale, high-resolution datasets, which limits the widespread applicability of dataset distillation in real-world scenarios. This thesis aims to address these challenges by proposing innovative methods to improve the practicality and scalability of dataset distillation, focusing on optimization efficiency and data synthesis quality. To this end, we introduce an adversarial prediction-matching framework that enables effective single-level distillation optimization, and propose an influence-guided diffusion generation method that leverages the trajectory influence function to steer the diffusion process towards producing data with enhanced influence. Experimental results demonstrate significant improvements in distillation efficiency and superior performance on large datasets. Finally, we discuss the remaining challenges of diversity and distributional shift in distilled datasets, and outline promising directions for future research.
+  TPE Committee
+  Chair of Committee: Prof. Nan TANG
+  Prime Supervisor: Prof. Wei WANG
+  Co-Supervisor: Prof. Minhao CHENG
+  Examiner: Prof. Zishuo DING
+  Date
+  27 November 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-105
+  Join Link
+  Zoom Meeting ID:
+  934 4288 5204
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93442885204?pwd=p8nctkuSh0c8QRoycz5lBHGY8YP1PT.1

@@ -1,0 +1,46 @@
+dsa_page: User-Centric Research in Social-Information Systems – “It’s Not Just What You Know, But Who You Know.” – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/08/user-centric-research-in-social-information-systems-its-not-just-what-you-know-but-who-you-know/
+source: DSA
+
+headings:
+  - User-Centric Research in Social-Information Systems – “It’s Not Just What You Know, But Who You Know.”
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  User-Centric Research in Social-Information Systems – “It’s Not Just What You Know, But Who You Know.”
+  Share to
+  ABSTRACT
+  Language-related data have been extensively studied in Natural Language Processing (NLP) and Large Language Models (LLM). However, our recent studies demonstrate that people-related data are also valuable and, in some cases, critical for predicting and modeling social dynamics.
+  For example, the prediction of a person’s reaction to a received message has traditionally relied primarily on language-related data. Our research shows that incorporating people-related data—such as a person’s interests, activity patterns, and interactions with others—can significantly enhance the accuracy of these predictions. More importantly, when predicting a person’s reaction to a message on a new, unseen topic, it is essential to rely solely on people-related data and exclude language-related data (i.e., the content of messages) to avoid erroneous results.
+  We also find that it is possible to classify a person’s affiliation or opinion based exclusively on their social networking data. For instance, we can identify the political affiliation of politicians by analyzing their “following” relationships on X (formerly Twitter), without considering any user profile information or the content of their posts. This approach may lead to a promising new method for opinion measurement.
+  We call for increased study and attention to the networking aspects of social information systems. After all, a person’s decision or opinion is influenced not only by the content of the information they receive but also by the source of that information and their relationship with it.
+  SPEAKER BIO
+  I am a tenured full Professor at the Department of Computer Science, University College London (UCL). I am affiliated with the Centre for Artificial Intelligence and the Information and Decision Systems (IDS) Research Group. I am interested in a wide range of research topic related to network science and applied machine learning, including social network analysis, epidemic and information spreading, opinion measurement and modelling, cybersecurity, complex networks theory, and the Internet topology and routing. For more information, please visit
+  https://www.szhou.info/
+  .
+  Date
+  17 April 2025
+  - 08 April 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E1-102(HKUST-GZ)
+  Join Link
+  Zoom Meeting ID: 928 9299 3960
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+
+links:
+  - https://www.szhou.info/ | https://www.szhou.info/

@@ -1,0 +1,103 @@
+dsa_page: PhD Qualifying Exam – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/defenses/
+source: DSA
+
+headings:
+  - Data Management for Persistent LLM Agent Systems: A Survey of Artifacts, State, Reuse, and Governance
+  - Evidence Selection and Structured Reasoning forKnowledge-Intensive Multimodal Question Answering: A Survey
+  - Applications of AI Agents in Medical Benchmark Construction: A Survey
+  - LLM Agents for Data Science Workflows: A Survey on Data Processing, Analysis, andReliable Execution
+  - Long-query Optimization and Evidence Selection for Medical Evidence-grounded RAG: A Survey
+  - Temporal Evidence in Video-LanguageModels: A Survey with Camera-MotionReasoning
+  - Complex Retrieval Patterns in Biomedical Data: A Survey
+  - Heterogeneity-Aware Automatic Parallelization and Scheduling for Large-Model Training: A Survey
+  - The Unseen, The Unsaid: Power, Discourse, and Policy in China’s Digital Care Dilemma — Perspectives from Dementia Care on Social Media
+  - A Survey on Towards Genome Function Modeling from DNA Sequence and 3D Chromatin Structure
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  Data Management for Persistent LLM Agent Systems: A Survey of Artifacts, State, Reuse, and Governance
+  by Mr. XIAO, Qingfa
+  E3-201, HKUST-GZ
+  15:00 - 16:00
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  Evidence Selection and Structured Reasoning forKnowledge-Intensive Multimodal Question Answering: A Survey
+  By Mr. LIU, Bingcen
+  E3-201, HKUST(GZ)
+  13:00 - 14:00
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  Applications of AI Agents in Medical Benchmark Construction: A Survey
+  by Mr. HUANG, Feiyu
+  E3-201, HKUST(GZ)
+  10:00 - 11:00
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  LLM Agents for Data Science Workflows: A Survey on Data Processing, Analysis, andReliable Execution
+  by Mr. WU, Zuohan
+  E3-201, HKUST(GZ)
+  16:00 - 17:00
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  Long-query Optimization and Evidence Selection for Medical Evidence-grounded RAG: A Survey
+  by Mr. GUO, Songyue
+  E3-201, HKUST(GZ)
+  11:00 - 12:00
+  28
+  Jul 2026
+  PhD Qualifying-Exam
+  Temporal Evidence in Video-LanguageModels: A Survey with Camera-MotionReasoning
+  by Mr. LIN, Zeteng
+  E1-105, HKUST(GZ)
+  16:00 - 17:00
+  31
+  Jul 2026
+  PhD Qualifying-Exam
+  Complex Retrieval Patterns in Biomedical Data: A Survey
+  Mr. SU, Ri
+  E3-201, HKUST(GZ)
+  10:00 - 11:00
+  02
+  Jul 2026
+  PhD Qualifying-Exam
+  Heterogeneity-Aware Automatic Parallelization and Scheduling for Large-Model Training: A Survey
+  Mr. YIN, Yiming
+  E3-201, HKUST(GZ)
+  09:00 - 10:00
+  25
+  Jun 2026
+  PhD Qualifying-Exam
+  The Unseen, The Unsaid: Power, Discourse, and Policy in China’s Digital Care Dilemma — Perspectives from Dementia Care on Social Media
+  Ms. LUO, Yaqiong
+  E3-201, HKUST(GZ)
+  10:30 - 11:45
+  17
+  Jun 2026
+  PhD Qualifying-Exam
+  A Survey on Towards Genome Function Modeling from DNA Sequence and 3D Chromatin Structure
+  Mr. LONG, Weicai
+  W1-202, HKUST(GZ)
+  10:00 - 11:00
+
+links:
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/20/data-management-for-persistent-llm-agent-systems-a-survey-of-artifacts-state-reuse-and-governance/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/20/data-management-for-persistent-llm-agent-systems-a-survey-of-artifacts-state-reuse-and-governance/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/20/evidence-selection-and-structured-reasoning-forknowledge-intensive-multimodal-question-answering-a-survey/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/20/evidence-selection-and-structured-reasoning-forknowledge-intensive-multimodal-question-answering-a-survey/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/20/applications-of-ai-agents-in-medical-benchmark-construction-a-survey/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/20/applications-of-ai-agents-in-medical-benchmark-construction-a-survey/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/20/llm-agents-for-data-science-workflows-a-survey-on-data-processing-analysis-andreliable-execution/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/20/llm-agents-for-data-science-workflows-a-survey-on-data-processing-analysis-andreliable-execution/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/20/long-query-optimization-and-evidence-selection-for-medical-evidence-grounded-rag-a-survey/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/20/long-query-optimization-and-evidence-selection-for-medical-evidence-grounded-rag-a-survey/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/16/temporal-evidence-in-video-languagemodels-a-survey-with-camera-motionreasoning/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/16/temporal-evidence-in-video-languagemodels-a-survey-with-camera-motionreasoning/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/16/complex-retrieval-patterns-in-biomedical-data-asurvey/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/16/complex-retrieval-patterns-in-biomedical-data-asurvey/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/26/heterogeneity-aware-automatic-parallelization-and-scheduling-for-large-model-training-a-survey/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/26/heterogeneity-aware-automatic-parallelization-and-scheduling-for-large-model-training-a-survey/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/15/the-unseen-the-unsaid-power-discourse-and-policy-in-chinas-digital-care-dilemma-perspectives-from-dementia-care-on-social-media/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/15/the-unseen-the-unsaid-power-discourse-and-policy-in-chinas-digital-care-dilemma-perspectives-from-dementia-care-on-social-media/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/05/a-survey-on-towards-genome-function-modeling-from-dna-sequence-and-3d-chromatin-structure/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/05/a-survey-on-towards-genome-function-modeling-from-dna-sequence-and-3d-chromatin-structure/

@@ -1,0 +1,17 @@
+dsa_page: MPhil in Data Science and Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/
+source: DSA
+
+headings:
+
+text: >
+  MPhil in Data Science and Analytics
+  Program Overview
+  Admission Events
+  Explore MPhil Program
+
+links:
+  - MPhil in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/
+  - Program Overview | https://fytgs.hkust-gz.edu.cn/programs/2024-25/information-hub/data-science-and-analytics-3
+  - Admission Events | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/mphil-admission-events/
+  - Explore MPhil Program | https://vptlo.hkust-gz.edu.cn/rbm/

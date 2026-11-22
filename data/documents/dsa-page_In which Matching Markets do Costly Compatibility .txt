@@ -1,0 +1,40 @@
+dsa_page: In which Matching Markets do Costly Compatibility Inspections Lead to a Deadlock? – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/02/20/in-which-matching-markets-do-costly-compatibility-inspections-lead-to-a-deadlock/
+source: DSA
+
+headings:
+  - In which Matching Markets do Costly Compatibility Inspections Lead to a Deadlock?
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  In which Matching Markets do Costly Compatibility Inspections Lead to a Deadlock?
+  Share to
+  *Students who enroll in DSAA 6102 please attend the seminar in classroom.
+  ABSTRACT
+  A key feature of many real-world matching markets is congestion, i.e., market participants struggle to find match partners. We characterize congestion in a model of random matching markets where an agent pair must perform an inspection to verify compatibility prior to matching with each other. Motivated by the notion of regret-free stability, we assume agents are only willing to inspect their current favorite agent and will do so only if, upon a successful inspection, that match is guaranteed. We ask when, in large random two-sided markets, will information deadlocks arise in which many agents delay inspections indefinitely awaiting a match guarantee. The market consists of N women and αN men. We obtain a sharp characterization of the existence and size of information deadlock as a function of the men-to-women ratio α, women’s average size K of the consideration set, and an inspection’s success probability p, as N grows. Our analysis is inspired by the machinery of message passing and density evolution from statistical physics. We find a phase transition from a deadlock-free regime (where a vanishingly small fraction of agents are stuck waiting) to the information deadlock regime as we increase K, decrease α or decrease p. A number of market design insights emerge from our characterization, for example, the market connectivity K which maximizes the number of matches formed is that which causes the market to be at the phase boundary between the deadlock-free regime and the deadlock regime. Vertical differentiation between agents reduces deadlock, as does a willingness by agents to perform parallel inspections.
+  SPEAKER BIO
+  Prof Jiaqi LU
+  Assistant Professor
+  Chinese University of Hong Kong
+  Jiaqi Lu is an Assistant Professor in the School of Data Science and the School of Management and Economics at the Chinese University of Hong Kong, Shenzhen. She received her Ph.D. in Decision, Risk and Operations at Columbia Business School. Her research interest lies in the analysis, design and operation of large matching markets, such as dating markets, two-sided marketplaces, Carbon markets, etc.. Some of the techniques and tools used include applied probability, optimization, statistical physics, etc..
+  Date
+  21 February 2024
+  Time
+  10:00:00 -
+  10:50:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  842 2504 6668
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

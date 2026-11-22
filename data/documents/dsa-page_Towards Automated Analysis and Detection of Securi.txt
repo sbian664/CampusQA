@@ -1,0 +1,27 @@
+dsa_page: Towards Automated Analysis and Detection of Security Vulnerabilities for Open-Source Ecosystem – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/02/06/towards-automated-analysis-and-detection-of-security-vulnerabilities-for-open-source-ecosystem/
+source: DSA
+
+headings:
+  - Towards Automated Analysis and Detection of Security Vulnerabilities for Open-Source Ecosystem
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Towards Automated Analysis and Detection of Security Vulnerabilities for Open-Source Ecosystem
+  Share to
+  ABSTRACT
+  In recent years, with the rapid development of open-source technologies and the thriving open-source ecosystem, open-source software has become a critical choice for building software information systems and a key foundation for the growth of the digital economy. However, the number of disclosed security vulnerabilities in open-source software continues to rise, posing serious threats to the entire open-source ecosystem. This seminar provides an in-depth discussion of this issue and introduces a series of intelligent security threat analysis methods, covering multiple dimensions such as security threat assessment for known open-source vulnerabilities, intelligent localization of vulnerable functions, and intelligent matching of vulnerability patch code. These research outcomes have been successively accepted by top-tier conferences in the field of security and software engineering, including USENIX Security, ICSE, ASE, and ISSTA (won the ACM SIGSOFT Distinguished Paper Award), and hold significant value for ensuring the security and reliability of open-source software and its ecosystem.
+  SPEAKER BIO
+  Ming Wen, Master/PhD Supervisor, Associate Professor of Huazhong University of Science and Technology. He received his Ph.D. from the Department of Computer Science and Engineering at the Hong Kong University of Science and Technology. His research primarily focuses on open source software security, as well as the testing and analysis of foundational software. He has published over 70 papers in top tier conferences and journals, including USENIX Security, EuroSys, ASPLOS, OOPSLA, ICSE, ESEC/FSE, and ISSTA. He has led projects funded by the National Natural Science Foundation of China, including both Young Scientists Fund and General Program grants, as well as several industry academic collaboration projects. Dr. WEN serves as the committee member of the CCF Technical Committees on System Software and Software Engineering, and as a program committee member for multiple top tier international conferences. He has received several honors, including the "Huazhong Scholar" Outstanding Young Scholar Award, the 2023 ACM Rising Star Award (Wuhan Chapter), and was selected for the 7th Young Elite Scientists Sponsorship Program by the China Association for Science and Technology.
+  Date
+  10 February 2026
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Rm 101, W1, HKUST(GZ)

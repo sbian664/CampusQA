@@ -1,0 +1,181 @@
+dsa_page: Data Science and Analytics Thrust – DSA Thrust, HKUST(GZ)
+url: https://dsa.hkust-gz.edu.cn/
+source: DSA
+
+headings:
+  - WELCOME TO DSA THRUST
+  - Events
+  - One-Pass Bandit Learning for RLHF and Function Approximation
+  - Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  - Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  - HKUST(GZ)-CityUHK Joint Workshop on Frontier AI Research
+  - News
+  - DSA Year 3 student publishes research at leading AI conference ICLR
+  - Year 2 student publishes research at leading AI conference ICLR
+  - Prof Nan TANG is recognized as 2025 ACM Distinguished Member
+  - Degree Programs
+  - Undergraduate Program
+  - Taught Postgraduate Program
+  - Research Postgraduate Program
+  - Admissions
+  - Information Day for UG Admissions 2026
+  - Information Day for UG Admissions 2025
+  - Faculty & Research
+  - Faculty directory
+  - Cross-Disciplinary Focus Areas
+  - Research Infrastructure
+  - High-Performance Machine Learning Laboratory
+  - Industrial Informatics and Intelligence lnstitute (Triple-i Institute)
+  - CreateLink Graph Data Joint-lab
+  - Metaverse Joint Innovation Laboratory
+  - Study & Life@DSAT
+  - Video
+
+text: >
+  WELCOME TO DSA THRUST
+  Watch to Explore the DSA Thrust!
+  WELCOME TO DSA THRUST
+  Check Out the 2024 Doctoral Reports from the DSA Thrust!
+  WELCOME TO DSA THRUST
+  GOOD DATA BEATS OPINION
+  WELCOME TO DSA THRUST
+  WHERE DATA SPEAKS, DECISIONS FOLLOW
+  WELCOME TO DSA THRUST
+  DATA-DRIVEN DECISIONS, ANALYTICS IN ACTION
+  WELCOME TO DSA THRUST
+  DATA IS THE NEW OIL
+  Events
+  more
+  01
+  Sep 2026
+  30
+  Jul 2026
+  02
+  Jul 2026
+  28
+  May 2026
+  DSA Seminar
+  One-Pass Bandit Learning for RLHF and Function Approximation
+  E1-202 (HKUST-GZ)
+  DSA Seminar
+  Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  DSA & AI Joint Seminar
+  Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  E1-147
+  Workshop
+  HKUST(GZ)-CityUHK Joint Workshop on Frontier AI Research
+  Lecture Hall C
+  News
+  more
+  Research and Innovation
+  DSA Year 3 student publishes research at leading AI conference ICLR
+  February 12, 2026
+  Research and Innovation
+  Year 2 student publishes research at leading AI conference ICLR
+  February 12, 2026
+  Honors and Awards
+  Prof Nan TANG is recognized as 2025 ACM Distinguished Member
+  December 24, 2025
+  Degree Programs
+  more
+  Undergraduate Program
+  BSc in Data Science and Big Data Technology
+  Taught Postgraduate Program
+  MSc in Data-Centric Artificial Intelligence Technology
+  Research Postgraduate Program
+  MPhil in Data Science and Analytics
+  PhD in Data Science and Analytics
+  Admissions
+  more
+  02
+  Oct 2025
+  15
+  Jun 2025
+  30
+  Mar 2025
+  15
+  Dec 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2026
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  Faculty & Research
+  Related news
+  Faculty directory
+  Cross-Disciplinary Focus Areas
+  Research Infrastructure
+  more
+  High-Performance Machine Learning Laboratory
+  Industrial Informatics and Intelligence lnstitute (Triple-i Institute)
+  CreateLink Graph Data Joint-lab
+  Metaverse Joint Innovation Laboratory
+  Study & Life@DSAT
+  August 24, 2026
+  Insights into Academia & Tech: DSA Macao-Hong Kong Academic Tour
+  August 24, 2026
+  Messages from DSA Alumni
+  March 18, 2026
+  HKUST(GZ) HPC Team Reaches ASC26 Supercomputing Competition Finals for the First Time
+  Video
+  August 28, 2025
+  DSA Thrust Orientation 2025
+  August 25, 2025
+  DJI Visit 2025
+  August 4, 2025
+  Discovering Beijing: DSA Academic Tour 2025
+  July 21, 2025
+  Alumni Homecoming and New Chapter
+  June 13, 2025
+  DSA Thrust Prospectus Video 2025
+  February 9, 2024
+  Happy Loong Year! Best Wishes from the DSA Thrust
+  September 5, 2023
+  Welcome! PhD Student Orientation 2023 Recap
+  July 19, 2023
+  DSA Thrust Prospectus Video 2023
+
+links:
+  - Check Out the 2024 Doctoral Reports from the DSA Thrust! | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247492059&idx=1&sn=24317ea18c1b20961736afa433286962&chksm=c0b874ecba92f79f5fc433f01929e113ce281ddba6c80265582dfdb4a7a2bae0de7f2bb309d1&scene=0&xtrack=1&subscene=7&clicktime=1735786450&ascene=1&devicetype=iOS18.0&version=18003531&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&session_us=gh_702a752ec55c&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQEGqrC3oQ0MMLf%2Fcmunk5hRLmAQIE97dBBAEAAAAAAG2kJ0HwPw4AAAAOpnltbLcz9gKNyK89dVj0vPMHJtY8Z0fAMqC1eoeJYRHtq1vh2jBaMwU6JCkt8jy2a5l50IThdM4uyOVzHvaM%2FZn46lj3wv7419GreXz15wHm00wRhaJDE0wq%2B1NN0l8vFl58058fiMHnRUva2i8nGHpI0Q9SvQlPVU8vraVnPgRkDJAmSRIHZ4%2F%2BBFI8c30EHdpHEp44%2BNSgEaTDJgsp6YNFuO6bAVV3%2Fwz4kVYOAZWdXOjmDSbioex1mY27qmhEBwLq0i%2B0lFr7dgWXGWCZ&pass_ticket=m9IvnV4l6rLZxr0trl6HgxHUAV8YeXV8TTw1XJ6C8aAu23HOachz5EGrskk9ySoc&wx_header=3
+  - more | https://dsa.hkust-gz.edu.cn/news-events/seminars-and-workshops/
+  - DSA Seminar One-Pass Bandit Learning for RLHF and Function Approximation E1-202 (HKUST-GZ) | https://dsa.hkust-gz.edu.cn/blog/2026/08/31/one-pass-bandit-learning-for-rlhf-and-function-approximation/
+  - DSA Seminar Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection | https://dsa.hkust-gz.edu.cn/blog/2026/07/27/old-models-new-machines-classical-statistical-structure-as-building-blocks-for-modern-llm-systems-from-copula-coupled-expert-routing-to-scalable-determinantal-data-selection/
+  - DSA & AI Joint Seminar Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era E1-147 | https://dsa.hkust-gz.edu.cn/blog/2026/06/30/building-generalizable-and-trustworthy-intelligence-representations-robustness-and-grounding-in-the-foundation-model-era/
+  - Workshop HKUST(GZ)-CityUHK Joint Workshop on Frontier AI Research Lecture Hall C | https://dsa.hkust-gz.edu.cn/blog/2026/05/27/hkustgz-cityuhk-joint-workshop-on-frontier-ai-research/
+  - more | https://dsa.hkust-gz.edu.cn/news-events/news/
+  - https://mp.weixin.qq.com/s/tm_ZUdP79BlK6TkRY-x4VQ | https://mp.weixin.qq.com/s/tm_ZUdP79BlK6TkRY-x4VQ
+  - Research and Innovation | https://dsa.hkust-gz.edu.cn/blog/category/research-and-innovation
+  - https://mp.weixin.qq.com/s/VFChfCq2GQC7_ltqbW3QvQ | https://mp.weixin.qq.com/s/VFChfCq2GQC7_ltqbW3QvQ
+  - https://mp.weixin.qq.com/s/vimoi2a8QdUxUEe5G-LwAg | https://mp.weixin.qq.com/s/vimoi2a8QdUxUEe5G-LwAg
+  - Honors and Awards | https://dsa.hkust-gz.edu.cn/blog/category/honors-and-awards
+  - more | https://dsa.hkust-gz.edu.cn/programs
+  - Undergraduate Program BSc in Data Science and Big Data Technology | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/
+  - Taught Postgraduate Program MSc in Data-Centric Artificial Intelligence Technology | https://msc-dcai.hkust-gz.edu.cn/
+  - Research Postgraduate Program MPhil in Data Science and Analytics PhD in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/
+  - MPhil in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/
+  - PhD in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/
+  - more | https://dsa.hkust-gz.edu.cn/news-events/admissions/
+  - Undergraduate Admissions Information Day for UG Admissions 2026 No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ) | https://dsa.hkust-gz.edu.cn/blog/2025/09/23/information-day-for-ug-admissions-2026/
+  - Undergraduate Admissions Information Day for UG Admissions 2025 No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ) | https://dsa.hkust-gz.edu.cn/blog/2025/06/13/information-day-for-ug-admissions-2025/
+  - Undergraduate Admissions Information Day for UG Admissions 2025 No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ) | https://dsa.hkust-gz.edu.cn/blog/2025/03/18/information-day-for-ug-admissions-2024-2/
+  - Undergraduate Admissions Information Day for UG Admissions 2025 No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ) | https://dsa.hkust-gz.edu.cn/blog/2024/12/05/information-day-for-ug-admissions-2025-2/
+  - Related news | https://dsa.hkust-gz.edu.cn/news-events/news/related-news/
+  - Faculty directory | https://dsa.hkust-gz.edu.cn/people/faculty/
+  - Cross-Disciplinary Focus Areas | https://dsa.hkust-gz.edu.cn/research/research-projects/
+  - more | https://dsa.hkust-gz.edu.cn/research/labs-institutes/
+  - High-Performance Machine Learning Laboratory | https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/
+  - Industrial Informatics and Intelligence lnstitute (Triple-i Institute) | https://dsa.hkust-gz.edu.cn/research/labs-institutes/industrial-informatics-and-intelligence-institute-triple-i-institute/
+  - CreateLink Graph Data Joint-lab | https://dsa.hkust-gz.edu.cn/research/labs-institutes/createlink-graph-data-joint-lab/
+  - Metaverse Joint Innovation Laboratory | https://dsa.hkust-gz.edu.cn/research/labs-institutes/metaverse-joint-innovation-laboratory/
+  - https://mp.weixin.qq.com/s/AE2SeTm-pFPG0ZscHuHCLw | https://mp.weixin.qq.com/s/AE2SeTm-pFPG0ZscHuHCLw
+  - https://mp.weixin.qq.com/s/_Io_evzFUSGFEQfY3awCJg | https://mp.weixin.qq.com/s/_Io_evzFUSGFEQfY3awCJg
+  - https://mp.weixin.qq.com/s/vuwbkU-GBFMU2H5lSV7L-Q | https://mp.weixin.qq.com/s/vuwbkU-GBFMU2H5lSV7L-Q
+  - https://dsa.hkust-gz.edu.cn/blog/2024/02/09/%e9%be%99%e5%b9%b4%e5%a4%a7%e5%90%89-%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e5%ad%a6%e5%9f%9f%e6%8b%9c%e5%b9%b4%e8%a7%86%e9%a2%91%e6%9d%a5%e5%95%a6%ef%bc%81/ | https://dsa.hkust-gz.edu.cn/blog/2024/02/09/%e9%be%99%e5%b9%b4%e5%a4%a7%e5%90%89-%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e5%ad%a6%e5%9f%9f%e6%8b%9c%e5%b9%b4%e8%a7%86%e9%a2%91%e6%9d%a5%e5%95%a6%ef%bc%81/
+  - https://dsa.hkust-gz.edu.cn/blog/2023/09/05/welcome-to-dsa%ef%bc%81%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e5%ad%a6%e5%9f%9f%e5%8d%9a%e5%a3%ab%e8%bf%8e%e6%96%b0%e4%bc%9a%e7%b2%be%e5%bd%a9%e5%9b%9e%e9%a1%be/ | https://dsa.hkust-gz.edu.cn/blog/2023/09/05/welcome-to-dsa%ef%bc%81%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e5%ad%a6%e5%9f%9f%e5%8d%9a%e5%a3%ab%e8%bf%8e%e6%96%b0%e4%bc%9a%e7%b2%be%e5%bd%a9%e5%9b%9e%e9%a1%be/

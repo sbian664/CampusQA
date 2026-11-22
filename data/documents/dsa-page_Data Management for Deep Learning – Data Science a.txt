@@ -1,0 +1,34 @@
+dsa_page: Data Management for Deep Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/data-management-for-deep-learning/
+source: DSA
+
+headings:
+  - Data Management for Deep Learning
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Research Area
+
+text: >
+  Research Project
+  Data Management for Deep Learning
+  Abstract
+  Deep learning (DL) has recently revolutionized a broad spectrum of applications such as facial recognition, drug discovery, and decision-making. Despite the unprecedented success, model effectiveness and training efficiency are two critical factors limiting the applicability of DL techniques. To fill the gap, the DB4AI group led by Prof. Lei Chen is dedicated to investigating data management techniques to optimize DL models and systems. We are particularly interested in the following topics, including scalable GNN systems and the compilation of DL operators.
+  Figure 1
+  Representation learning over dynamic graphs is critical for many real-world applications, such as social network services and recommender systems. Temporal graph neural networks (T-GNNs) are powerful representation learning methods and have achieved remarkable effectiveness on continuous-time dynamic graphs. However, T-GNNs still suffer from high time complexity, which increases linearly with the number of timestamps and grows exponentially with the model depth, causing them not scalable to large dynamic graphs.
+  To address the above limitations, we propose Orca, a novel framework that accelerates T-GNN training by non-trivially caching and reusing intermediate embeddings. We design a brand new and optimal cache replacement algorithm. It not only improves the efficiency of training T-GNNs by maximizing the number of cache hits but also reduces the approximation errors by avoiding keeping and reusing extremely stale embeddings. Meanwhile, we develop profound theoretical analysis of the approximation error introduced by our reuse schemes and offer rigorous convergence guarantees.
+  Figure 2
+  Low inference latency is a desirable property for the deployment of DL models. Existing solutions either manually tune the kernel library or utilize search-based compilation to reduce operator latency. However, manual tuning requires significant engineering effort, and the huge search space makes the search cost of the search-based compilation unaffordable in some situations.
+  We propose ETO, a framework for speeding up DNN operator optimization based on reusing the information of performant tensor programs. Specifically, ETO defines conditions for information reuse between two operators. For operators satisfying the conditions, based on the performant tensor program information of one operator, ETO uses a reuse-based tuner to significantly prune the search space of the other one, and keeps optimization effectiveness at the same time. In this way, for a set of operators, ETO first determines the information reuse relationships among them to reduce the total search time needed, and then tunes the operators either by the backend compiler or by the reuse-based tuner accordingly. ETO further increases the reuse opportunities among the operators by injecting extra operators as bridges between two operators which do not satisfy the reuse conditions.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/db4ai/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

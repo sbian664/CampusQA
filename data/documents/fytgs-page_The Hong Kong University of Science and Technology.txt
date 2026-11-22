@@ -1,0 +1,78 @@
+fytgs_page: The Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)) Formally Established
+url: https://fytgs.hkust-gz.edu.cn/discover/news/the-hong-kong-university-of-science-and-technology-guangzhou-hkustgz-formally-established
+source: FYTGS
+
+headings:
+
+text: >
+  On June 29, 2022, the Ministry of Education (MoE) announced that it had approved the establishment of the Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)). 15 postgraduate programs (MPhil and PhD) are offered from September 2022.
+  Hub
+  Program
+  Award
+  Function Hub
+  Advanced Materials
+  先进材料
+  MPhil / PhD
+  Earth, Ocean and Atmospheric Sciences
+  地球与海洋大气科学
+  MPhil / PhD
+  Microelectronics
+  微电子
+  MPhil / PhD
+  Sustainable Energy and Environment
+  可持续能源与环境
+  MPhil / PhD
+  Information Hub
+  Artificial Intelligence
+  人工智能
+  MPhil / PhD
+  Data Science and Analytics
+  数据科学与分析
+  MPhil / PhD
+  Computational Media and Arts
+  计算媒体与艺术
+  MPhil / PhD
+  Internet of Things
+  物联网
+  MPhil / PhD
+  Systems Hub
+  Bioscience and Biomedical Engineering
+  生命科学与生物医学工程
+  MPhil / PhD
+  Intelligent Transportation
+  智能交通
+  MPhil / PhD
+  Robotics and Autonomous Systems
+  机器人与自主系统
+  MPhil / PhD
+  Smart Manufacturing
+  智能制造
+  MPhil / PhD
+  Society Hub
+  Financial Technology
+  金融科技
+  MPhil / PhD
+  Innovation, Policy and Entrepreneurship
+  创新创业与公共政策
+  MPhil / PhD
+  Urban Governance and Design
+  城市治理与设计
+  MPhil / PhD
+
+tables:
+  - Hub | Program | Award
+  - Function Hub | Advanced Materials | 先进材料 | MPhil / PhD
+  - Earth, Ocean and Atmospheric Sciences | 地球与海洋大气科学 | MPhil / PhD
+  - Microelectronics | 微电子 | MPhil / PhD
+  - Sustainable Energy and Environment | 可持续能源与环境 | MPhil / PhD
+  - Information Hub | Artificial Intelligence | 人工智能 | MPhil / PhD
+  - Data Science and Analytics | 数据科学与分析 | MPhil / PhD
+  - Computational Media and Arts | 计算媒体与艺术 | MPhil / PhD
+  - Internet of Things | 物联网 | MPhil / PhD
+  - Systems Hub | Bioscience and Biomedical Engineering | 生命科学与生物医学工程 | MPhil / PhD
+  - Intelligent Transportation | 智能交通 | MPhil / PhD
+  - Robotics and Autonomous Systems | 机器人与自主系统 | MPhil / PhD
+  - Smart Manufacturing | 智能制造 | MPhil / PhD
+  - Society Hub | Financial Technology | 金融科技 | MPhil / PhD
+  - Innovation, Policy and Entrepreneurship | 创新创业与公共政策 | MPhil / PhD
+  - Urban Governance and Design | 城市治理与设计 | MPhil / PhD

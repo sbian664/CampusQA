@@ -1,0 +1,42 @@
+dsa_page: Deep Learning Dynamics: A Scientific Approach – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/28/deep-learning-dynamics-a-scientific-approach/
+source: DSA
+
+headings:
+  - Deep Learning Dynamics: A Scientific Approach
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA & AI Joint Seminar
+  Deep Learning Dynamics: A Scientific Approach
+  Share to
+  ABSTRACT
+  In this talk, I will introduce my a series of works on understanding and improving deep learning via scientific principles and methodology. The success of deep learning depends on both neural networks and optimization dynamcis. I will visit several very foundamental issues in deep learning dynamics: (1) SGD Dynamics and how it selects flat minima; (2) Adam dynamics and how it explains the power of Adam; (3) improving deep learning from a optimization dynamical perspetive; (4) the overlooked pitfalls of weight decay and how to mitigate them; (5) a bridge between protein dynamics and deep learning dynamics. Through this talk, we will also see that scientific principles and theories can provide useful insights and tools for understanding and improving deep learning.
+  SPEAKER BIO
+  Zeke XIE
+  Senior Researcher
+  Baidu Research
+  Dr. Zeke Xie is a Senior Researcher at Baidu Research. Before that, he obtained Ph.D. and M.E. from The University of Tokyo. He was fortunate to be advised by Prof. Masashi Sugiyama (Director of RIKEN AIP) and Prof. Issei Sato. He was also affiliated with RIKEN AIP during the Ph.D. study. Before that, He obtained Bachelor of Science from University of Science and Technology of China.
+  His mission is to find a way towards Scientific AI. He desires to make AI more scientific by scientific principles and methodology. His research interests span from Theory-driven Fundamental AI to Lagre Models. He has published more than 10 papers in top conferences and journals, such as ICML, NeurIPS, ICLR, ICCV, and so on.
+  Date
+  30 November 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  840 7824 2864
+  Passcode: aidsa
+  Event Organizer
+  Data Science and Analytics Thrust
+  Artificial Intelligence Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  ait@hkust-gz.edu.cn

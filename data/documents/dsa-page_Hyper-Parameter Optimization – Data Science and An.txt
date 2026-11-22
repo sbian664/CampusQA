@@ -1,0 +1,40 @@
+dsa_page: Hyper-Parameter Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/hyper-parameter-optimization/
+source: DSA
+
+headings:
+  - Hyper-Parameter Optimization
+  - Abstract
+  - Project members
+  - Zeyi WEN
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Hyper-Parameter Optimization
+  Abstract
+  The quality of machine learning models largely depends on their hyper-parameter configurations. However, finding proper hyper-parameter configurations for machine learning algorithms/systems is challenging and requires much resources. This project aims to research on novel hyper-parameter optimization techniques to support efficient machine learning systems.
+  Project members
+  Zeyi WEN
+  Assistant Professor
+  Publications
+  1.
+  Efficient Hyperparameter Optimization with Adaptive Fidelity Identification
+  . Jiantong Jiang*, Zeyi Wen, Atif Mansoor, and Ajmal Saeed Mian. IEEE/CVPR 2024
+  2.
+  Enhancing the Performance of Bandit-based Hyperparameter Optimization
+  . Yile Chen, Zeyi Wen*, Jian Chen*, and Jin Huang.
+  Project Period
+  2022-Present
+  Research Area
+  Data-driven AI & Machine Learning、High-Performance Systems for Data Analytics
+  Keywords
+  Hyper-parameter Optimization, Machine Learning, Resource Efficiency
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  - Efficient Hyperparameter Optimization with Adaptive Fidelity Identification | https://zeyiwen.github.io/papers/fastbo_cvpr24.pdf
+  - Enhancing the Performance of Bandit-based Hyperparameter Optimization | https://zeyiwen.github.io/papers/hpo_resample-icde24.pdf

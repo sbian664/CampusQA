@@ -1,0 +1,51 @@
+dsa_page: Graph Proximity-Driven Learning Framework for Real-World Complex Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/08/graph-proximity-driven-learning-framework-for-real-world-complex-networks/
+source: DSA
+
+headings:
+  - Graph Proximity-Driven Learning Framework for Real-World Complex Networks
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+
+text: >
+  Final Defense
+  Graph Proximity-Driven Learning Framework for Real-World Complex Networks
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yifan SONG
+  ABSTRACT
+  Graph proximity is the fundamental computational primitive underlying graph representation learning. Standard proximity measures such as Personalized PageRank and the Katz index have proven effective on idealized static graphs, but they fail to capture the complexities inherent in real-world networks, where edges evolve over time, carry positive or negative semantics, and node features are frequently incomplete.
+  This thesis proposes a unified
+  Proximity Design Paradigm
+  that systematically addresses three key dimensions of real-world graph complexity through a principled three-step methodology:
+  diagnose
+  which complexity corrupts standard proximity,
+  design
+  a tailored proximity measure, and
+  deploy
+  it within a learning algorithm. First, we propose Temporal Preferential Attachment Similarity (TPA), a proximity measure for temporal graphs that captures co-activity patterns across temporal snapshots, and develop LTGE, a scalable embedding algorithm for graphs with billions of edges along with a provably bounded incremental update mechanism. Second, we define Signed Local Proximity (SLP) and Signed Global Proximity (SGP), which disentangle the influence of positive and negative edges through a novel combination of the Katz index and weak balance theory, and design SPGNN, a GNN framework that replaces adjacency based aggregation with signed proximity-based message passing. Third, we identify the structural overfitting problem in proximity-based diffusion for feature imputation and propose DART, a framework that decouples structural proximity estimation from semantic manifold learning through global structural augmentation and test-time distribution rectification.
+  Extensive experiments across multiple datasets demonstrate state-of-the-art performance on diverse tasks including future link prediction, signed recommendation, and node classification under missing features. Together, these contributions establish graph proximity as a unify ing design principle for building effective graph learning systems in complex real-world environments. Preliminary results on extending this paradigm to graph-based retrieval further suggest its broader applicability beyond learning.
+  TEC
+  Chairperson: Prof Xin WANG
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Jinglei YANG
+  Examiners:
+  Prof Qiong LUO
+  Prof Lei LI
+  Prof Xuechao WANG
+  Prof Fangyuan ZHANG
+  Date
+  18 May 2026
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E2-301, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust

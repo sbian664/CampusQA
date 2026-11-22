@@ -1,0 +1,39 @@
+dsa_page: Towards Providing Automated and Effective Support for Software DevOps – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/07/towards-providing-automated-and-effective-support-for-software-devops/
+source: DSA
+
+headings:
+  - Towards Providing Automated and Effective Support for Software DevOps
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Providing Automated and Effective Support for Software DevOps
+  Share to
+  ABSTRACT
+  Software DevOps is the process that integrates software development (Dev) and IT operations (Ops) to facilitate the software development life cycle. The advancement of technologies such as artificial intelligence (AI) has exposed new opportunities and challenges to providing automated and efficient support for DevOps. On the one hand, the vast amount of data in software repositories, as well as software practitioners' experience and knowledge, play a vital role in the process of DevOps. On the other hand, the challenge lies in effectively leveraging this wealth of information and knowledge and transforming it into automated tools.
+  In this seminar, I will present a series of my work on supporting the crucial activities in software DevOps with a focus on code suggestions. I will start by introducing the approaches focusing on the suggestions for logging code, including (1) improving the quality of software log messages from their root (i.e., software logging code), such as detecting unclear or buggy logging code, and (2) an automated approach that leverages the ordinal nature of log levels to make suggestions on choosing log levels. On top of the suggestions on logging code, I will then discuss (3) how the information in the existing code base can be leveraged to improve the performance of code suggestions in general.
+  SPEAKER BIO
+  Zhenhao Li is an incoming Assistant Professor at York University, Canada. Before that, he worked as a principal engineer at the Software Engineering Application Technology Laboratory, Huawei. His primary research interest is in software engineering, with a particular focus on building intelligent tools to support software DevOps. His research outcomes have been published in premier software engineering venues such as ICSE and ASE, as well as flagship journals such as TSE. He obtained his Ph.D. in Computer Science from Concordia University in 2022, and his Bachelor's degree from Harbin Institute of Technology in 2017. He is the recipient of the Doctoral Research Scholarship from the Fonds de recherche du Québec – Nature et technologies (FRQNT) and the ACM SIGSOFT Distinguished Paper Award at ICSE 2024. More information can be found at:
+  https://ginolzh.github.io/
+  .
+  Date
+  13 November 2024
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+
+links:
+  - https://ginolzh.github.io/ | https://ginolzh.github.io/

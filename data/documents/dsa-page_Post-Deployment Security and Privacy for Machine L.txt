@@ -1,0 +1,41 @@
+dsa_page: Post-Deployment Security and Privacy for Machine Learning and Data Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/04/16/post-deployment-security-and-privacy-for-machine-learning-and-data-systems/
+source: DSA
+
+headings:
+  - Post-Deployment Security and Privacy for Machine Learning and Data Systems
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Post-Deployment Security and Privacy for Machine Learning and Data Systems
+  Share to
+  TALK 1: Building Post-Deployment Safeguards for Digital Assets
+  TALK 2: SIGuard: Guarding Secure Inference with Post Data Privacy
+  ABSTRACT
+  TALK 1: Building Post-Deployment Safeguards for Digital Assets
+  Proprietary digital assets such as sensitive datasets and deep learning models are increasingly operated in untrusted environments, and thus they face persistent and unprecedented security risks. Developing effective safeguards post-deployment is inherently challenging due to two critical factors. On the one hand, retrofitting new safeguards into existing systems often encounters system-level constraints, which hinders their seamless integration. On the other hand, advanced safeguards are commonly frozen at the point of deployment. They often fail to adapt to dynamic requirements of real-world applications.
+  In this talk, we will showcase two recent system designs that advocate adaptive post-deployment protection for digital assets. First, we introduce THEMIS, a tool designed to protect the intellectual property of on-device deep learning models. THEMIS enables watermarking of untrainable and read-only models for deep learning powered mobile applications. Second, we present V-ORAM, a framework for switchable Oblivious RAM (ORAM) in encrypted cloud storage. V-ORAM allows encrypted storage systems to securely transform between ORAM schemes on the fly to accommodate dynamic workloads of data processing. Together, these efforts represent a paradigm shift toward defences that evolve post-deployment to maintain robust security and operational efficiency in real-world environments.
+  TALK 2: SIGuard: Guarding Secure Inference with Post Data Privacy
+  Secure inference is designed to enable encrypted machine learning model prediction over encrypted data. It will ease privacy concerns when models are deployed in Machine Learning as a Service. For efficiency, most of recent secure inference protocols are constructed using secure multi-party computation (MPC) techniques. However, MPC-based protocols do not hide information revealed from their output. In the context of secure inference, prediction outputs (i.e., inference results of encrypted user inputs and models) are revealed to the users. As a result, adversaries can compromise output privacy of secure inference, i.e., launching Membership Inference Attacks (MIAs) by querying encrypted models, just like MIAs in plaintext inference. In this talk, I will first share our observations on the vulnerability of MPC-based secure inference to MIAs, though it yields perturbed predictions due to approximations. Then I will report on our recent research effort in guarding the output privacy of secure inference from being exploited by MIAs. I will also discuss the future research along with the line of privacy-preserving machine learning and deep learning.
+  SPEAKER BIO
+  TALK 1:
+  Dr Xingliang YUAN
+  is an Associate Professor in the School of Computing and Information Systems, Program Director for the Master of Cyber Security at the University of Melbourne, and a Future Fellow of the Australian Research Council (ARC). Previously, he served as a faculty member at the Faculty of IT, Monash University (2017–2024). His research focuses on designing secure systems and protocols to protect digital assets in untrusted environments. His research has been supported by ARC, CSIRO, and the Australian Departments of Home Affairs, and Health and Aged Care. Dr. Yuan’s work is regularly published in major computer security and networked system venues. His contributions have earned him several honours, including the Dean’s Award for Excellence in Research for an ECR (2020), the Faculty Teaching Excellence Award (2021), and most recently, the Excellence in Engagement Award at UniMelb (2024). He is a co-recipient of the Sole Best Paper Award at ESORICS (2021) and an Honourable Mention Paper Award at USENIX Security (2025). Dr. Yuan serves on the editorial board of IEEE TDSC and IEEE TSC (Area Editor in Security, Privacy, and Trust), and as a General Chair for ICDCS’27 and RAID’25, a PC Chair for Lamps@CCS’24, SecTL@AsiaCCS’23, and NSS’22, and a Track Chair for ICDCS’24. He has also received the Notable Reviewers award recently at USENIX Security (2025).
+  TALK 2:
+  Dr Xiaoning (Maggie) LIU
+  is a Senior Lecturer and an ARC DECRA Fellow at the School of Computing Technologies, RMIT University, Australia. Her research interests include secure computation, machine learning security and privacy. Her current focus is on designing secure multiparty computation protocols to its applications in privacy-preserving machine learning. In the past few years, her work has appeared in prestigious venues in computer security, such as USENIX Security, NDSS, IEEE TDSC, TIFS. She is the recipient of the Best Paper Award of ESORICS 2021, the RMIT HDR Research Prize 2023, the RMIT STEM College Learning and Teaching Award for Excellence for Early Career Educator 2024. She has served on the technical program committee of USENIX Security, EuroS&P, CIKM, the program co-chair of LAMPS at CCS 2025, and Associate Editor of IEEE TSC. Her research has been supported by Australian Research Council and CSIRO.
+  Date
+  23 April 2026
+  Time
+  15:45:00 -
+  17:45:00
+  Location
+  W1-233， HKUST(GZ)
+
+links:
+  - Secure inference is designed to enable encrypted machine learning model prediction over encrypted data. It will ease privacy concerns when models are deployed in Machine Learning as a Service. For efficiency, most of recent secure inference protocols are constructed using secure multi-party computation (MPC) techniques. However, MPC-based protocols do not hide information revealed from their output. In the context of secure inference, prediction outputs (i.e., inference results of encrypted user inputs and models) are revealed to the users. As a result, adversaries can compromise output privacy of secure inference, i.e., launching Membership Inference Attacks (MIAs) by querying encrypted models, just like MIAs in plaintext inference. In this talk, I will first share our observations on the vulnerability of MPC-based secure inference to MIAs, though it yields perturbed predictions due to approximations. Then I will report on our recent research effort in guarding the output privacy of secure inference from being exploited by MIAs. I will also discuss the future research along with the line of privacy-preserving machine learning and deep learning. | https://careercenter.hkust-gz.edu.cn/

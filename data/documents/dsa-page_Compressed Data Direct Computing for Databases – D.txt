@@ -1,0 +1,45 @@
+dsa_page: Compressed Data Direct Computing for Databases – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/27/compressed-data-direct-computing-for-databases/
+source: DSA
+
+headings:
+  - Compressed Data Direct Computing for Databases
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Compressed Data Direct Computing for Databases
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  Today’s rapidly growing volumes of data pose pressing challenges to modern data management and analytics, in both space usage and computing time. This research proposes the idea of compressed data direct computing and the research framework of orthogonal processing.
+  In detail, we carry out research and obtain phased progress from three aspects:
+  1) direct computation model of compressed data based on grammatical rules,
+  2) new hardware acceleration and optimization for compressed data direct computing, and
+  3) universal compression embedding mechanism.
+  This report also discusses future research directions.
+  SPEAKER BIO
+  Feng ZHANG
+  Associate Professor
+  Renmin University of China
+  Feng Zhang is an Associate Professor at Renmin University of China. He received his PhD from Tsinghua University in 2017, and has been a visiting scholar at NCSU in 2016 and NUS in 2018. His research interests include databases and high-performance computing. He mainly studies high-performance direct computing on compression in data analytics and management. His papers are published in prestigious international conferences and journals including SIGMOD, VLDB, SC, USENIX ATC, ASPLOS, and NeurIPS. He got 2020 ACM SIGHPC China Rising Star Award and 2021 TPDS Best Paper Award. He also served as PC co-chair for WISE 2023.
+  Date
+  29 March 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  161-136-648
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

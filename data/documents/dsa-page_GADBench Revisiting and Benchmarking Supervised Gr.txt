@@ -1,0 +1,35 @@
+dsa_page: GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/gadbench-revisiting-and-benchmarking-supervised-graph-anomaly-detection/
+source: DSA
+
+headings:
+  - GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection
+  Abstract
+  With a long history of traditional Graph Anomaly Detection (GAD) algorithms and recently popular Graph Neural Networks (GNNs), it is still not clear (1) how they perform under a standard comprehensive setting, (2) whether GNNs can outperform traditional algorithms such as tree ensembles, and (3) how about their efficiency on large-scale graphs. In response, we introduce GADBench---a benchmark tool dedicated to supervised anomalous node detection in static graphs. GADBench facilitates a detailed comparison across 29 distinct models on ten real-world GAD datasets, encompassing thousands to millions (~6M) nodes. Our main finding is that tree ensembles with simple neighborhood aggregation can outperform the latest GNNs tailored for the GAD task. We shed light on the current progress of GAD, setting a robust groundwork for subsequent investigations in this domain. GADBench is open-sourced at https://github.com/squareRoot3/GADBench.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection
+  . Jianheng Tang, Fengrui Hua, Ziqi Gao, Peilin Zhao, and Jia Li.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  Graph Anomaly Detection, graph neural networks
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection | https://openreview.net/forum?id=U5uRXlLwnM

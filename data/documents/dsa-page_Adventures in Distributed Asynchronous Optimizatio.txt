@@ -1,0 +1,39 @@
+dsa_page: Adventures in Distributed Asynchronous Optimization and Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/26/adventures-in-distributed-asynchronous-optimization-and-learning/
+source: DSA
+
+headings:
+  - Adventures in Distributed Asynchronous Optimization and Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Adventures in Distributed Asynchronous Optimization and Learning
+  Share to
+  ABSTRACT
+  Many tasks in networked systems, such as federated learning, economic dispatch in power systems, and multi-robot coordination, can be formulated as distributed optimization or learning problems. When solving these problems, asynchronous algorithms often have enhanced efficiency, implementation flexibility, and robustness against single-node failures compared to their synchronous counterparts. However, existing asynchronous algorithms often use an upper bound on the information delays in the system to determine step-sizes. Not only are the delay bounds hard to obtain in advance, but they also result in unnecessarily small step-sizes and slow convergence. In this talk, I will share our recent efforts to address this issue. We first show that actual delays in the system can be easily acquired and adapt step-sizes to the actual delays to accelerate algorithm convergence. We also propose a class of asynchronous methods that can converge under a delay-free step-size condition. Compared to step-sizes relying on the delay bounds, our delay-adaptive and delay-free step-sizes are easier to determine, less conservative, and yield much faster convergence. These are significant departures from the state-of-the-art. Moreover, the ideas of adapting step-sizes to the actual delays and developing asynchronous schemes that can converge with delay-free step-size conditions are general. They may apply to a broad range of asynchronous algorithms.
+  SPEAKER BIO
+  Xuyang WU
+  Postdoctoral Researcher
+  KTH Royal Institute of Technology
+  Xuyang Wu received the B.S. degree in Information and Computing Science from Northwestern Polytechnical University, Xi’an, China, in 2015, and the Ph.D. degree in Communication and Information Systems from the University of Chinese Academy of Sciences, China, in 2020. He is currently a postdoctoral researcher at the division of decision and control, school of electrical engineering and computer science, KTH, working with Prof. Mikael Johansson and Prof. Sindri Magnusson. His research interests include distributed optimization and learning.
+  Date
+  27 September 2023
+  Time
+  09:30:00 -
+  11:00:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  884 2005 6226
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

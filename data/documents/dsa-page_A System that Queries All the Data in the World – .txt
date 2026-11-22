@@ -1,0 +1,30 @@
+dsa_page: A System that Queries All the Data in the World – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/24/a-system-that-queries-all-the-data-in-the-world/
+source: DSA
+
+headings:
+  - A System that Queries All the Data in the World
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Email
+
+text: >
+  DSA Seminar
+  A System that Queries All the Data in the World
+  Share to
+  ABSTRACT
+  In the era of information explosion, the diversity and complexity of data are increasing rapidly, making traditional databases insufficient to meet the growing demands of data analysts. This talk explores new methods of using large language models and other AI technologies to drive multimodal data querying. Large language models, with their powerful natural language processing capabilities, offer new perspectives for understanding and integrating these multimodal data. The talk will first outline the characteristics of multimodal data and its importance in modern data analysis. It will then detail the embedding and storage of multimodal data, the query language of the system, and query optimization methods, including strategies and advantages in handling tabular, textual, and image data.
+  SPEAKER BIO
+  Chengliang Chai is an Associate Professor in the Department of Computer Science at Beijing Institute of Technology. He received his Ph.D. from Tsinghua University. He has published over 50 papers in top international conferences in data mining and databases (CCF-A). He was awarded the Best Paper Award at SIGMOD 2023, the CCF Doctoral Dissertation Nomination Award, and the ACM China Doctoral Dissertation Nomination Award. He was also selected for the Forbes China 30 Under 30 list and has led several projects, including the National Natural Science Foundation of China and the Postdoctoral Innovation Talent Support Program.
+  Date
+  07 May 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102（HKUST-GZ)
+  Email
+  dsarpg@hkust-gz.edu.cn

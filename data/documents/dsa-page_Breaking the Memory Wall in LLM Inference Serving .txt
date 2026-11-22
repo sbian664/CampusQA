@@ -1,0 +1,42 @@
+dsa_page: Breaking the Memory Wall in LLM Inference Serving: A Survey of KV Cache Management Techniques – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/breaking-the-memory-wall-in-llm-inference-serving-a-survey-of-kv-cachemanagement-techniques/
+source: DSA
+
+headings:
+  - Breaking the Memory Wall in LLM Inference Serving: A Survey of KV Cache Management Techniques
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Breaking the Memory Wall in LLM Inference Serving: A Survey of KV Cache Management Techniques
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LIU, Xin
+  Abstract
+  Large language model (LLM) inference at scale is increasingly bounded by the key–value (KV) cache, which dominates GPU memory at long contexts and high concurrency and turns decoding into a memory-bandwidth problem. A growing body of work addresses this bottleneck by manipulating the KV cache directly: retaining or discarding entries, changing their numerical representation, moving them across the memory hierarchy, or reusing them across requests. This survey organizes that literature under a unified
+  framework built around three axes (operation target, layer of intervention, adaptivity), a four-family taxonomy (retention and structural compression, quantization and low-bit representation, placement and hierarchical management, cross-request reuse and sharing), and six recurring research issues spanning importance estimation under tiled kernels, layout regularity, the compatibility between per-request optimization and cross-request reuse, controllable capacity-quality-latency tradeoffs, integration with production serving stacks, and robustness to workload shifts. The survey traces the field across four eras, compares the families on cross-cutting deployability dimensions, and identifies the open directions that determine whether memory savings translate into usable serving capacity for longer contexts, higher concurrency, and larger effective workloads under fixed hardware budgets.
+  Additional Key Words and Phrases: LLM inference serving, KV cache, serving capacity, memory wall, KV compression, KV quantization, KV offloading, prefix caching
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. TANG, Guoming
+  Co-Supervisor: Prof. WEN, Zeyi
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  09 June 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

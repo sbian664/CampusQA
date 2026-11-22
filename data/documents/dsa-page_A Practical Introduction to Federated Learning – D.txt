@@ -1,0 +1,41 @@
+dsa_page: A Practical Introduction to Federated Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/03/06/a-practical-introduction-to-federated-learning/
+source: DSA
+
+headings:
+  - A Practical Introduction to Federated Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  A Practical Introduction to Federated Learning
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  As Internet users attach importance to their own privacy, and a number of laws and regulations go into effect in most countries, Internet products need to provide users with privacy protection. As one of the feasible solutions to provide such privacy protection, federated learning has rapidly gained popularity in both academia and industry in recent years.
+  In this talk, we will introduce our open-source programming/system framework for federated learning, called FederatedScope, our efforts on building it with the hope to make it usable and efficient, and related research topics. We will also show how to do the automatic hyperparameter tuning with federated learning to significantly save their efforts in practice. Then we dive into three parallel hot topics (if time allows), Personalized Federated Learning, Federated Graph Learning, and Attack in Federated Learning. For each of them, we will motivate it with real-world applications, illustrate the state-of-the-art methods, and discuss their pros and cons using concrete examples. As the last part, we will point out some future research directions.
+  SPEAKER BIO
+  Bolin DING
+  Research Scientist
+  Alibaba DAMO Academy
+  Dr. Bolin Ding is a research scientist in the Data Analytics and Intelligence Lab (DAIL) at Alibaba DAMO Academy. He completed his Ph.D. in Computer Science at University of Illinois at Urbana-Champaign, M.Phil. in Systems Engineering and Engineering Management at The Chinese University of Hong Kong, and B.S. in Math and Applied Mathematics at Renmin University of China. Prior to joining Alibaba, he worked as a researcher in Microsoft Research. His research focuses on privacy-preserving data management/ analytics/learning (e.g., federated learning), and making “systems” intelligent and efficient with machine learning and optimization techniques (e.g., AI4DB and EconML). He has published more than 80 papers in top conferences and journals in related areas, including SIGMOD, VLDB, ICDE, KDD, SODA, ICML, NeurIPS, ICLR, and CHI.
+  Date
+  08 March 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  849-376-925
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

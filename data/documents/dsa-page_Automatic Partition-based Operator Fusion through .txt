@@ -1,0 +1,39 @@
+dsa_page: Automatic Partition-based Operator Fusion through Layer by Layer Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/05/01/automatic-partition-based-operator-fusion-through-layer-by-layer-optimization/
+source: DSA
+
+headings:
+  - Automatic Partition-based Operator Fusion through Layer by Layer Optimization
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Automatic Partition-based Operator Fusion through Layer by Layer Optimization
+  Share to
+  ABSTRACT
+  This presentation studies fusion for deep neural networks in a just-in-time compilation framework. The framework considers both memory- and compute-bound tensor operators for fusion, and integrates graph-level node grouping and operator-level loop fusion closely, widening the fusion search space. The framework also enables the upward feedback from the downstream loop optimizer, enforcing the graph engine to regenerate partition patterns amenable to the downstream pass and thus resolving the scalability issue. Besides data locality, the framework also exploits the parallelism between independent tensor operators, further improving the performance of deep neural networks. Experimental results on training workloads show that the proposed framework can (1) outperform TensorFlow and XLA on GPUs, (2) and improve the performance of a vendor-provided deep learning framework on a domain-specific accelerator.
+  SPEAKER BIO
+  Jie ZHAO
+  Assistant Professor
+  PLA Information Engineering University
+  Jie Zhao obtained two PhD degrees, one in computer sciences from the PLA Information Engineering University in 2016, and the other in mathematics from PARKAS, a research group affiliated to the Département d'Informatique of École Normale Supérieure and INRIA Paris in 2018. He was a Lecturer (Assistant Professor) at the State Key Laboratory of Mathematical Engineering and Advanced Computing (SKL-MEAC) between July 2016 and December 2022, but he has quit this position and is looking for a new faculty position in international universities. His research interests include (1) code generation and optimization, (2) system software for deep learning, and (3) floating-point error analysis and repair. Jie published several papers as the first author in some premier compiler-related conferences and journals including PLDI, OSDI (conditionally accepted), MICRO, MLSys, PACT, CC, TACO, TOCS (accepted with minor revision). In particular, his MICRO-53 publication was nominated as one of the four best paper candidates in 2020. Jie Zhao also established good connections with the industry by having served or serving as (senior) consultants and visiting scholars for some China tech giants including Huawei Technologies, Alibaba Group and startups like Streaming Computing Co., Ltd.
+  Date
+  03 May 2023
+  Time
+  09:00:00 -
+  09:45:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  987 0930 6507
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

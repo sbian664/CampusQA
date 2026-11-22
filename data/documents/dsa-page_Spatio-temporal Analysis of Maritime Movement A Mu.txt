@@ -1,0 +1,58 @@
+dsa_page: Spatio-temporal Analysis of Maritime Movement: A Multi-Perspective Study on Vessel Trajectories – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/spatio-temporal-analysis-of-maritime-movement-a-multi-perspective-study-on-vessel-trajectories/
+source: DSA
+
+headings:
+  - Spatio-temporal Analysis of Maritime Movement: A Multi-Perspective Study on Vessel Trajectories
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Spatio-temporal Analysis of Maritime Movement: A Multi-Perspective Study on Vessel Trajectories
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Siya QIU
+  ABSTRACT
+  Trajectories are ubiquitous in our daily lives, such as people walking in a crowded space, cars driving along a pathway, and ships navigating to a commercial port. Understanding the trajectory of moving objects is critical in various real-world applications, such as autonomous navigation, social surveillance, and anomaly detection. While pedestrian and vehicle trajectory analysis have been widely studied, maritime vessel trajectories remain relatively underexplored, despite their global significance. Unlike land-based trajectories, maritime trajectories are not confined to predefined road networks and move more freely, presenting a stochastic trajectory style. In addition, they are less influenced by social interactions (e.g., ship-to-ship distance), as vessels are sparsely distributed over the ocean surface most of the time. Moreover, navigational data are scarce in lots of regions, requiring the trajectory analytical model to have strong adaptivity under limited data conditions. As one of the most common forms of transportation trajectories, maritime vessel trajectories are worth studying as a distinct category of trajectory.
+  In this thesis, we focus on three areas of maritime trajectory analysis, including trajectory prediction, which assists in route planning and collision avoidance; integration of trajectory segmentation and classification, which facilitates navigational activity recognition; and traffic flow prediction, which helps in traffic management.
+  Firstly, for vessel trajectory prediction, we introduce a novel spatio-temporal indexing method, namely ST-Shape, for the efficient retrieval of historical trajectories with similar spatio-temporal properties from large databases. We also propose a deep learning model named ST-SIP, which predicts trajectories based on the retrieved historical trajectories, without fixed road networks or dense social interactions.
+  Secondly, we propose an integrated method for trajectory segmentation and classification, enabling the discernment of distinct movement patterns within a trajectory and the identification of the specific activities the vessel is involved in. To address over-segmentation errors commonly seen in trajectory segmentation, we design a novel loss function, STMSE, that reduces frequent predicted label changes within short intervals, ensuring more accurate segmentation.
+  Thirdly, we propose a traffic flow prediction framework, named EAST, leveraging the powerful causal reasoning capabilities of large language models (LLMs). We convert the spatio-temporal traffic flow data into a sequence of frames, which serve as the intermediate modality between textual data, the type of data LLMs are trained on, and numerical data of traffic flow. The sequence of frames will guide LLMs to understand traffic flow data, then auto-regressively generate the traffic flow prediction.
+  Additionally, to address the lack of standardized maritime datasets issue, we construct three distinct datasets tailored to each of the three areas. These datasets are designed to reflect real-world maritime trajectory dynamics and support the evaluation of our proposed methods.
+  TEC
+  Chairperson: Prof Kang ZHANG
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Qiong LUO
+  Examiners:
+  Prof Lei LI
+  Prof Yuxuan LIANG
+  Prof Zhuoni ZHANG
+  Prof Hailong LIU
+  Date
+  19 September 2025
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 986 1250 7113
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98612507113?pwd=kdB83JqEQ9S3MRMGgYwJKmtRUgRubp.1

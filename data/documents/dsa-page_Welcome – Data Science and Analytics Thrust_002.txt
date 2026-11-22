@@ -1,0 +1,47 @@
+dsa_page: Welcome – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/
+source: DSA
+
+headings:
+  - Welcome from the Head
+  - Program Directors and Coordinators
+  - Jeffrey Xu YU
+  - Acting Head of the Data Science and Analytics Thrust
+  - BSc(DSBD) Program Director
+  - MPhil(DSA) Program Director
+  - PhD(DSA) Program Director
+  - Nan TANG
+  - Postgraduate Coordinator
+  - Jing TANG
+  - MSc(DCAI) Program Director
+  - Jia LI
+  - Undergraduate Coordinator
+
+text: >
+  Welcome from the Head
+  Welcome to the Data Science and Analytics Thrust! As the head of this dynamic and forward-thinking thrust, I am excited to lead a community of passionate educators, researchers, and students who are committed to pushing the boundaries of what is possible in the realm of data science.
+  Our thrust takes pride in its multidisciplinary approach, bringing together experts in statistics, machine learning, optimization, and related fields. Through rigorous academic programs, cutting-edge research initiatives, and practical applications, we aim to equip our students with the knowledge and skills to excel in the fast-paced and ever-evolving world of data.
+  At the core of our mission is a commitment to not only advance academic knowledge but also to address real-world challenges. We believe in the transformative power of data science to make a positive impact on society. Our dedicated faculty and talented students work collaboratively to unravel the complexities of data and leverage insights to solve problems and create innovative solutions.
+  I invite you to join us on this exciting journey as we explore the limitless possibilities that data science and analytics offer. Whether you are a student, faculty member, industry partner, or part of our extended community, together, we can shape the future and contribute meaningfully to the world through the lens of data.
+  Sincerely,
+  Jeffrey Xu YU
+  Acting Head
+  Data Science and Analytics Thrust
+  Program Directors and Coordinators
+  Jeffrey Xu YU
+  Acting Head of the Data Science and Analytics Thrust
+  BSc(DSBD) Program Director
+  MPhil(DSA) Program Director
+  PhD(DSA) Program Director
+  Nan TANG
+  Postgraduate Coordinator
+  Jing TANG
+  MSc(DCAI) Program Director
+  Jia LI
+  Undergraduate Coordinator
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee

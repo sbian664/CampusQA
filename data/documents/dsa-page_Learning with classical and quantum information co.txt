@@ -1,0 +1,30 @@
+dsa_page: Learning with classical and quantum information constraints – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/16/learning-with-classical-and-quantum-information-constraints/
+source: DSA
+
+headings:
+  - Learning with classical and quantum information constraints
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+
+text: >
+  Seminars and Workshops
+  Learning with classical and quantum information constraints
+  Share to
+  ABSTRACT
+  The seemingly distant fields of AI and quantum computing in fact face a common challenge: information constraints. In AI, practical concerns such as privacy, fairness, and limited computation resources restrict our ability to process information from data. In quantum computing, the physical limit of quantum devices poses a significant obstacle to achieving practical quantum advantage.
+  In this talk, I will show that these classical and quantum constraints can be understood through the same mathematical framework. First, I will introduce the classical problem of learning distributions under privacy or communication constraints in the distributed setting. Then, we discuss how the solution to this purely classical problem surprisingly resolves a fundamental problem in many-body quantum physics, dating back to the great physicist Pauli. Finally, I will show how such a unified perspective initiates one of the first works on adversarial robustness of quantum learning, addressing a critical challenge of noise resistance in quantum computing.
+  SPEAKER BIO
+  Yuhan Liu is currently a postdoctoral researcher at Rice University, hosted by Prof. Maryam Aliakbarpour, Nai-Hui Chia, and Vladimir Braverman. He obtained his M.S. and Ph.D. in Electrical and Computer Engineering from Cornell University in 2021 and 2024, respectively, advised by Prof. Jayadev Acharya. He obtained his B.Eng degree in Automation from Tsinghua University in 2018. His research interest lies statistical learning, differential privacy, information theory, and quantum computing. His awards include the Cornell Fellowship (2018) and the Information Theory and Applications Workshop Graduation Day Presentation Award (2024).
+  Date
+  20 January 2026
+  Time
+  12:30:00 -
+  14:00:00
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

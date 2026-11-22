@@ -1,0 +1,209 @@
+fytgs_page: Innovation and Entrepreneurship
+url: https://fytgs.hkust-gz.edu.cn/programs/innovation-and-entrepreneurship-2
+source: FYTGS
+
+headings:
+  - Master of Business Administration Program in Innovation and Entrepreneurship
+
+text: >
+  Postgraduate Programs 2026/27
+  Master of Business Administration Program in Innovation and Entrepreneurship
+  GENERAL INFORMATION
+  Award Title
+  Master of Business Administration in Innovation and Entrepreneurship
+  Program Short Name
+  MBA+
+  Mode of Study
+  Part-time
+  Normative Program Duration
+  2 Years
+  Program Fee
+  Please refer to the
+  Program's website
+  .
+  Offering Unit
+  Society Hub
+  Program Advisor
+  Program Director:
+  Prof Coco Dijia DU, Research Associate Professor of Carbon Neutrality and Climate Change
+  Website
+  https://soch.hkust-gz.edu.cn/programs/mba-program/
+  Enquiry
+  mbaplus@hkust-gz.edu.cn
+  INTRODUCTION
+  The University aims to contribute to the future of work, the future of living, and the future of people. In particular, the development of human capital (with entrepreneurial and design thinking skills) is important for these endeavors. Moreover, the Greater Bay Area is becoming an international center of innovation, which requires the establishment of an active ecosystem of both venture capital and entrepreneurship, as well as more talents with an open mind and creative thinking skills.
+  The Master of Business Administration Program in Innovation and Entrepreneurship at HKUST (GZ) intends to cultivate new generations of entrepreneurs, venture capitalists, and business leaders with a strong mindset of innovation and entrepreneurship, by providing a curriculum with insights from areas of business, science, and engineering as well as hands-on experience in venture capital investment and entrepreneurship.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Create or assess innovation and startup initiatives based on venture capital thinking and entrepreneurial design thinking;
+  Analyze business problems from each of the managerial disciplines of management education, and make integrated business decisions; and
+  Develop the skills to communicate clearly across multiple stakeholder groups and functional topics.
+  CURRICULUM
+  Minimum Credit Requirement
+  45 credits
+  Cross-disciplinary Core Course
+  2 credits
+  All students are required to complete UCMP 6030.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  Hub Core Courses
+  4 credits
+  Students are required to complete the Society Hub core course SOCH 5000.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  Students are also required to take one of the other Hub core courses:
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Accelerators on Data Analysis, Accounting and Python
+  3 credits
+  MBAX 5110
+  MBA Accelerator – Accounting
+  1 Credit(s)
+  Description
+  This pre-program course aims to provide elementary or refreshing knowledge in financial accounting, managerial accounting and finance to prepare students for the academic demands and rigor of MBA courses. The course will also cover the basic business concepts, financial statement analysis, cost classifications and how to do managerial decisions. Graded P or F.
+  MBAX 5120
+  MBA Accelerator – Python
+  1 Credit(s)
+  Description
+  This pre-program course aims to provide elementary or refreshing knowledge in technical skills to prepare students for the academic demands and rigor of MBA courses. Python is used for creating high-level abstractions for well-written and well-optimized frameworks, where business applications rely on. The course will cover Python programming language for developing business applications, the practical libraries and packages. Graded P or F.
+  MBAX 5130
+  MBA Accelerator – Data Analysis
+  1 Credit(s)
+  Description
+  This pre-program course aims to provide elementary or refreshing knowledge in quantitative and analysis hard skills to prepare students for the academic demands and rigor of MBA courses. It will cover data and variation, probability model and association between random variables at introductory level. Graded P or F.
+  Required Courses
+  13 credits
+  MBAX 5010
+  Financial Accounting Foundations
+  1 Credit(s)
+  Description
+  This course provides introduction to accounting concepts, preparation and interpretation of financial statements.
+  MBAX 5020
+  Managerial Microeconomics
+  1 Credit(s)
+  Description
+  This course uses economic analysis to analyze market demand and supply, examine strategic behavior, and investigate the impact of competition on decisions.
+  MBAX 5030
+  Corporate Finance
+  1 Credit(s)
+  Description
+  This course covers corporate finance topics, including valuation of cash flow streams, capital budgeting decisions and valuation of securities.
+  MBAX 5040
+  Information and Technology Management
+  1 Credit(s)
+  Description
+  This course provides a general manager's perspective on the strategic roles of information systems and technology in companies. It also discusses strategies on information systems and technology management.
+  MBAX 5050
+  Marketing Strategy and Policy
+  1 Credit(s)
+  Description
+  This course discusses how to develop strategic marketing objectives and implement marketing strategies through pricing, distribution channels, promotion, and new-product decisions.
+  MBAX 5060
+  Operations Management
+  1 Credit(s)
+  Description
+  This course investigates the management of business processes, including operations strategy, process analysis, inventory and revenue management, service management, and other important issues.
+  MBAX 5070
+  Strategic Management
+  1 Credit(s)
+  Description
+  This course will introduce major techniques and approaches to the development and implementation of corporate strategies. It will also discusses internal and external competitor analysis and evaluation of strategic options.
+  MBAX 5080
+  Strategy for Innovation and Entrepreneurship
+  2 Credit(s)
+  Description
+  This course utilizes both theory and best practices to help students become familiar with the development and implementation of innovative technology or business models. It also examines economics and strategies related to innovation and entrepreneurship.
+  MBAX 5090
+  Venture Capital Fundamentals
+  2 Credit(s)
+  Description
+  This course covers a comprehensive overview of the venture capital (VC) investment cycle from raising a VC fund, portfolio construction, opportunity assessment, deal valuation, deal structuring, corporate governance to harvesting investments.
+  MBAX 5100
+  Business Communication and Negotiation Skills
+  2 Credit(s)
+  Description
+  This course allows students to improve their ability to communicate efficiently and effectively as an entrepreneur, a venture capitalist, or a business leader. It also helps students to develop negotiation and dispute resolution skills through simulations.
+  Elective Courses
+  8 credits
+  i. X” Area Elective Courses
+  4-6 credits
+  Students should identify a non-business area “X” and take 2 related courses from the other Hubs/Schools, subject to approval by the Academic Director.
+  ii. Other Elective Courses
+  2-4 credits
+  Students can take electives offered by various Hubs, subject to approval by the Academic Director.
+  Project-based Modules
+  12 credits
+  Students are required to complete two project-based modules:
+  MBAX 6010
+  Apprenticeship Module on Entrepreneurship and Venture Capital
+  4 Credit(s)
+  Description
+  Students (in groups) select some existing startup companies in a particular area, conduct market and firm analysis, and evaluate investment opportunities from the venture capital perspective. At the end of the module, students will present their analysis to a panel of faculty and venture capitalists. Graded P or F.
+  MBAX 6020
+  Innovation and Entrepreneurship Lab
+  8 Credit(s)
+  Description
+  Built on their findings from MBAX 6010, students in this project-based module can choose multiple tracks: developing and implementing their startup initiatives, working together with one existing startup company, or making investments together with venture capital firms. Graded P or F.
+  Students are required to complete two project-based modules in Year 2. In MBAX 6010, students (in groups) will conduct market and firm analysis on selected startup companies, and evaluate investment opportunities from the venture capital perspective. Built on their findings from MBAX 6010, students in MBAX 6020 can choose multiple tracks: developing and implementing their startup initiatives, working together with an existing startup company, or making investments together with venture capital firms.
+  Career Activities
+  3 credits
+  MBAX 6100
+  MBA Career Development Program
+  3 Credit(s)
+  Description
+  Students are required to attend career-related workshops/seminars, and/or study tours organized by the program. Workshops and training sessions can keep students exposed to valuable career connections, abreast with the latest development in the commercial world. Through these career development activities, students will get to evaluate their own strengths and weaknesses, identify areas for improvement, collect feedback on interview techniques, further improve and formulate a personalized strategy to develop their career goals. Graded PP, P or F.
+  Students are required to attend career-related workshops/seminars, and/or study tours organized by the program.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  3. Additional Information
+  The program welcomes applicants who have the potential to initiate/assess startup ideas and desire to develop venture capital and entrepreneurial design thinking skills.
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 500
+  Application Deadlines
+  For 2026/27 Spring Term Intake:
+  International students*
+  30 Oct 2026
+  Chinese students
+  30 Nov 2026
+  Application Open On
+  21 Jul 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - Program's website | https://soch.hkust-gz.edu.cn/programs/mba-program/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

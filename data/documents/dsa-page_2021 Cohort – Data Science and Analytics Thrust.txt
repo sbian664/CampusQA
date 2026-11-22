@@ -1,0 +1,70 @@
+dsa_page: 2021 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/28/2021/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2021 Cohort
+  Day: March 28, 2024
+  Browse: 348
+  Share to
+  CHEN, Mingyang
+  PhD (IIP-DSA)
+  CHEN, Shi
+  PhD (IIP-DSA)
+  CHENG, Jiashun
+  PhD (IIP-DSA)
+  GAO, Shihong
+  PhD (IIP-DSA)
+  GAO, Ziqi
+  PhD (IIP-DSA)
+  HUANG, Bo
+  PhD (IIP-DSA)
+  JIANG, Jiahang
+  PhD (IIP-DSA)
+  JIANG, Yuxin
+  PhD (IIP-DSA)
+  LI, Ao
+  PhD (IIP-DSA)
+  LIU, Hanmo
+  PhD (IIP-DSA)
+  LIU, Yang
+  PhD (IIP-DSA)
+  LUO, Yihong
+  PhD (IIP-DSA)
+  LUO, Zihan
+  PhD (IIP-DSA)
+  QIU, Siya
+  PhD (IIP-DSA)
+  SHI, Kexin
+  PhD (IIP-DSA)
+  TANG, Jianheng
+  PhD (IIP-DSA)
+  TIAN, Anxin
+  PhD (IIP-DSA)
+  WANG, Luxuan
+  PhD (IIP-DSA)
+  XU, Tong
+  PhD (IIP-DSA)
+  XU, Zizhuo
+  PhD (IIP-DSA)
+  ZHANG, Jing
+  PhD (IIP-DSA)
+  ZHANG, Qingwen
+  PhD (IIP-DSA)
+  ZHANG, Xin
+  PhD (IIP-DSA)
+  ZHANG, Yun
+  PhD (IIP-DSA)
+  ZHOU, Xinjie
+  PhD (IIP-DSA)
+
+links:
+  - GAO, Ziqi | https://scholar.google.com.hk/citations?user=UHwNFy8AAAAJ&hl=zh-CN
+  - JIANG, Yuxin | https://yjiangcm.github.io/
+  - LIU, Yang | https://scholar.google.com/citations?hl=zh-CN&user=IWyM6l0AAAAJ
+  - TANG, Jianheng | https://squareroot3.github.io/
+  - XU, Tong | https://xutong.tech/
+  - ZHANG, Yun | http://yzhangjy.student.ust.hk/

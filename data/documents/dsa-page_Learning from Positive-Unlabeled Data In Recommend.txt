@@ -1,0 +1,42 @@
+dsa_page: Learning from Positive-Unlabeled Data in Recommender Systems and Bioinformatics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/learning-from-positive-unlabeled-data-in-recommender-systems-and-bioinformatics/
+source: DSA
+
+headings:
+  - Learning from Positive-Unlabeled Data in Recommender Systems and Bioinformatics
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Thesis Proposal Examination
+  Learning from Positive-Unlabeled Data in Recommender Systems and Bioinformatics
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Kexin SHI
+  Abstract
+  Positive-Unlabeled (PU) learning is a prevalent approach across various domains where only a subset of instances is labeled as positive, while the rest remain unlabeled. This thesis proposal delves into the application of PU learning in two distinct fields: recommender systems and bioinformatics. In recommender systems, PU learning encounters challenges with false negatives during model optimization and the filter bubble phenomenon, where algorithms selectively present information based on user preferences. Conversely, in bioinformatics, the focus lies on large-scale gene or protein screening tasks, crucial for guiding wet-lab experiments effectively. This proposal presents preliminary work in both domains, including the introduction of PDNS and Hard-BPR in recommender systems and PractiCPP in bioinformatics. Future directions include addressing the challenge posed by filter bubbles in recommender systems and exploring advanced hard sampling techniques for mitigating false negatives in biological PU data.
+  TPE Committee
+  Chairperson: Prof. Fugee TSUNG
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Xinzhou GUO
+  Examiner: Prof Lei LI
+  Date
+  12 June 2024
+  Time
+  09:50:00 -
+  11:05:00
+  Location
+  E1-150
+  Join Link
+  Zoom Meeting ID:
+  880 5959 6639
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/88059596639?pwd=wXGs6t74PcXDv9UMj2TVQKGoH80bKh.1

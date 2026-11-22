@@ -1,0 +1,44 @@
+dsa_page: Scalable Algorithms for Random-Walk Probability Estimation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/07/12/scalable-algorithms-for-random-walk-probability-estimation/
+source: DSA
+
+headings:
+  - Scalable Algorithms for Random-Walk Probability Estimation
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Scalable Algorithms for Random-Walk Probability Estimation
+  Share to
+  ABSTRACT
+  In the past decade, we have been experiencing a huge "Big Data" movement driven by the exponential blowup in data volumes. Algorithms that were once celebrated for their polynomial-time efficiency may no longer be adequate for solving today’s problems. Scalable algorithms, whose complexity is nearly linear or sublinear with respect to the problem size, are now in higher demand than ever before.
+  In this talk, I will introduce my research efforts aimed at designing scalable algorithms for computing random-walk probabilities on large graphs, a cornerstone problem and a critical algorithmic component in graph analysis. I will begin by providing an overview of sublinear-time algorithms and random-walk probability computations. Then, I will illustrate four different types of random-walk probability queries and summarize my contributions in achieving better complexity bounds for these four types of query problems. Next, I will describe several critical algorithmic techniques and demonstrate how to utilize these techniques to achieve my complexity results. Finally, I will discuss my future research plans, focusing on how these scalable algorithmic techniques can be adopted to advance data science research.
+  SPEAKER BIO
+  Hanzhi WANG
+  Renmin University
+  Hanzhi Wang recently obtained her PhD in Big Data Science and Engineering from Renmin University of China in May 2024, under the supervision of Professor Zhewei Wei. Her research interests lie in graph algorithms, with a particular focus on the design of provably good scalable algorithms for large graphs. She was a recipient of the 2021 Baidu Scholarship (awarded to 10 students worldwide) and the 2022 Microsoft Research PhD Fellowship (awarded to 12 students in the Asia-Pacific region). She has published in top venues in theoretical computer science (STOC), databases (SIGMOD, VLDB), and data mining (KDD). Previously, she received a B.E. in computer science and technology from Renmin University of China in 2019.
+  Date
+  16 July 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  E1--2F-201, HKUST(GZ) & Online
+  Join Link
+  Zoom Meeting ID:
+  990 2219 2875
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247488712&idx=1&sn=dedaae94d70038f6e7615562b4863ae5&chksm=c049cf9980cddf3be0e0809787fc1d639aed2d825f671340f16eac63187864391b279bec720a&scene=0&xtrack=1&subscene=7&clicktime=1721394082&ascene=1&devicetype=iOS17.2.1&version=18002f2c&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&session_us=gh_702a752ec55c&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQMAVn8JCTm5xHQKmWIBC5bRLoAQIE97dBBAEAAAAAADScMq7JxSsAAAAOpnltbLcz9gKNyK89dVj0Db%2FNsGQfFaSci2eU4XGJ8nrCJ1f1HS6GZ6%2BvayPgx5LLxpXArHxA2rgdqewMtyHe%2Bb%2BOSEc9YVB0XLyWvKbL5FJd1oTSIULe9mKq0KgLrelhFyma9b3fbFPraV8eu2jyfMilM%2FZrbA%2BFIzTf6F5CMWsxT5NiAxcCy2otTe2PEurkxA3JTpXFlVFphluesQwsbXLBsIqzs5fNllCfg%2Foe8ypAGILpJEFaMmESEFq%2FWm6Gk%2B2Bo1XWnNmeEb%2BcsNIHA0o%3D&pass_ticket=wcORfvbFiAprzMeaQnRGrSmJiGySpE%2BicidQW5v7zfDaMgHl2h6MiImdI3rPRYGV&wx_header=3

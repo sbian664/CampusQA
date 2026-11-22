@@ -1,0 +1,27 @@
+dsa_page: Protein and RNA Structure Prediction: Going Beyond AlphaFold – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/12/protein-and-rna-structure-prediction-going-beyond-alphafold/
+source: DSA
+
+headings:
+  - Protein and RNA Structure Prediction: Going Beyond AlphaFold
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Protein and RNA Structure Prediction: Going Beyond AlphaFold
+  Share to
+  ABSTRACT
+  While AlphaFold 2 significantly improved protein structure prediction accuracy, its performance is severely limited by the quality and quantity of natural homologous sequences of the target protein. The scarcity of natural homologs means only about one-third of the human proteome can be predicted with high confidence—a bottleneck that remains unaddressed in the AlphaFold 3 era. RNA structure prediction faces even greater challenges: due to extremely low sequence conservation, reliable homologous sequence search is nearly impossible when secondary structures are unknown. This seminar will present a novel strategy: **using laboratory-generated artificial homologous sequences to solve this core problem**. By combining artificial intelligence (AI) with high-throughput sequencing technology, we directionally create sequence variants with identical structural functions in the laboratory, providing critical "evolutionary information" for AI models and energy-based models. This method successfully bypasses reliance on natural homologous sequences, opening a new path for structure prediction of all proteins (especially the "dark proteome") and RNA.
+  SPEAKER BIO
+  Prof. Yaoqi Zhou is a globally renowned expert in structural bioinformatics. Prior to joining Shenzhen Bay Laboratory, he served as a Full Professor at Indiana University (USA) and a British-system Full Professor at Griffith University (Australia). His research has long focused on protein/RNA structure and function, with pioneering contributions that shaped the field: In 2009, he pioneered the use of shallow neural networks for continuous protein backbone dihedral angle prediction, laying the foundation for end-to-end protein structure prediction (a key precursor to the Nobel Prize-related work AlphaFold 2). In 2014, he developed the AI-driven protein sequence design methods SPIN/SPIN2, hailed as the "starting point of AI applications in protein design," which revolutionized research paradigms in the protein design field. His team has repeatedly ranked among the top in international protein/RNA structure and function prediction competitions. Prof. Zhou is also the author of the popular book *Departure: A Research Journey of Stepping Out of the Comfort Zone*. He has been recognized in the **Top 2% Global Scientists (Lifetime & Annual Impact Rankings)**, **China Highly Cited Researchers (Biology)**, and **ScholarGPS Top 0.3% Lifetime Impact List**, with over 20,000 citations and an H-index of 78 on Google Scholar. Since returning to China, he has secured major grants from the Ministry of Science and Technology, National Natural Science Foundation of China, and Guangdong Provincial Department of Science and Technology, and currently leads research on AI- and high-throughput experiment-based protein/RNA basic research, applications, and drug development/delivery.
+  Date
+  15 September 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  W1-222 , HKUST-GZ

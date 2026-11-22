@@ -1,0 +1,137 @@
+dsa_page: Program Overview – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/
+source: DSA
+
+headings:
+  - Award Title
+  - Mode of Study
+  - Teaching Language
+  - Duration
+  - Tuition Fee
+  - Fees and Scholarships
+  - Offering Unit
+  - Program Director
+  - Program Coordinator
+  - Curriculum Requirements: BSc in Data Science and Big Data Technology
+  - Student's Pathway Explore BSc in Data Science and Big Data
+  - Undergraduate Admissions for Students from Mainland China
+  - Undergraduate Admissions for Students from Hong Kong, Macao, and Taiwan
+  - Undergraduate Admissions for International Students
+  - Find Your Admissions Counselor
+
+text: >
+  General Information
+  Introduction
+  Leaning Outcome
+  Program of Study
+  Award Title
+  Bachelor of Science in Data Science and Big Data Technology
+  Mode of Study
+  Full-time
+  Teaching Language
+  English
+  Duration
+  4 years
+  Tuition Fee
+  RMB 50,000-100,000 per academic year
+  Fees and Scholarships
+  View
+  Offering Unit
+  Data Science and Analytics Thrust, Information Hub
+  Program Director
+  Jeffrey Xu YU, Professor of Data Science and Analytics Thrust
+  Program Coordinator
+  Jia LI, Assistant Professor of Data Science and Analytics Thrust
+  The Data Science and Big Data Technology undergraduate program is a core offering within the Data Science and Analytics thrust at The Hong Kong University of Science and Technology (Guangzhou). It was established in response to national strategic priorities and global technological advancements. As an interdisciplinary field integrating computer science, statistics, and mathematics, the program focuses on the fundamental theories and innovative applications of big data. It aims to address critical challenges across the entire data lifecycle, including acquisition, storage, analysis, mining, and security.
+  Leveraging the strategic advantages of the Greater Bay Area and its extensive industrial resources, DSA thrust integrates world-class research platforms, including the Guangdong Provincial Key Lab of Integrated Communication, Sensing and computation for Ubiquitous loT and the Guangzhou Key Laboratory of Big Data Intelligence, making significant breakthroughs in areas such as data-driven machine learning, high-performance data analytics systems, graph databases, and medical data intelligence.
+  The program boasts a distinguished international faculty team, including five national high-level talents, one ACM Fellow, four IEEE Fellows, and eight scholars ranked among Stanford’s top 2% of global scientists. Over the past year, the faculty has published more than 150 papers in top-tier journals and conferences and secured over 110 patents, providing students with strong academic support and innovative guidance.
+  With the rapid growth of the digital economy and the increasing demand for intelligent solutions across industries, professionals specializing in data science and big data technology have become an essential global resource. Graduates of this program will have diverse career pathways, including:
+  Industry Leaders: Driving digital transformation in technology, finance, healthcare, logistics, and other sectors as data scientists, algorithm engineers, and business intelligence analysts.
+  Research Innovators: Pursuing master’s and doctoral degrees at top global universities and research institutions, making contributions to cutting-edge fields such as artificial intelligence, IoT, and the metaverse.
+  Policy and Strategy Experts: Applying data-driven insights in government think tanks, smart city development, and sustainability initiatives, shaping policies and driving innovation.
+  Technology Transfer Specialists: Serving as a vital link between academia and industry, facilitating technological commercialization and industrial advancements through industry-academia collaboration.
+  Backed by HUKST and HKUST(GZ)’s global reputation, the industrial ecosystem of the Greater Bay Area, and strong partnerships with leading enterprises, this program offers exceptional opportunities for internships, employment, and entrepreneurship. Graduates will be well-positioned to lead in an era driven by data and innovation.
+  This program is designed to cultivate a new generation of interdisciplinary data science professionals with a global perspective and a strong sense of social responsibility.
+  Students will develop expertise in data modeling, algorithm design, machine learning, statistical inference, and large-scale data processing, equipping them with interdisciplinary analytical skills to tackle complex challenges in domains such as smart cities, intelligent manufacturing, financial technology, and artificial intelligence.
+  Through coursework and research practice, students will gain hands-on experience by participating in collaborative projects with leading enterprises such as Huawei, Tencent, and Alibaba. These real-world applications will enhance their ability to address practical problems.
+  Upon completing the program, students will be able to:
+  Explain data problems arising in different areas of science, technology, and the society. (Knowledge)
+  Model the problem with learned mathematics theories and models (Execution)
+  Apply different mathematical tools to model data problems in application areas. (Execution)
+  Design and implement efficient algorithms to model the data and solve the problem. (Execution)
+  Evaluate information and make independent judgements through constructing and inferencing with appropriate data models. (Judgement)
+  Communicate effectively about data science to both laymen and experts. (Communication)
+  Demonstrate self-direction in tackling and solving problems and act autonomously in planning and implementing tasks. (Autonomy)
+  Use a global perspective in conjunction with data analytic techniques to address issues of importance in science, technology, and the society. (International outlook)
+  120 credits are required for BSc in Data Science and Big Data Technology:
+  30 credits for University Common Core Courses
+  85 credits for Major Requirements, including:
+  31 credits for Fundamental Courses
+  3
+  0
+  credits for Major Required Courses
+  24
+  credits for Major Electives
+  Free Elective Courses can be used to fill in any shortfall in total credits
+  Curriculum Requirements: BSc in Data Science and Big Data Technology
+  Student's Pathway
+  Explore BSc in Data Science and Big Data
+  Mainland
+  Undergraduate Admissions for Students from Mainland China
+  招生方式：
+  高考提前批次录取，不设综合评价。
+  英语（外语）要求：
+  考生英语（外语）单科成绩≥120分
+  2024年本科招生的选科要求：
+  1）在“3+1+2”高考模式下的省市，要求考生首选物理，次选化学，其他科目不限。
+  2）在“3+3”高考模式下的省市，要求考生必选物理和化学，其他科目不限。
+  3）在传统文理分科的省市，要求考生必选理科。
+  香港科技大学（广州） 2024年本科新生奖助学金实施办法
+  香港科技大学（广州） 2024年学科竞赛类奖学金报名通知
+  Read the FAQs
+  HK, Macao & Taiwan
+  Undergraduate Admissions for Students from Hong Kong, Macao, and Taiwan
+  联考考生：
+  2024年港澳台生需通过“普通高校联合招收华侨港澳台学生(简称全国联招)”考试进入我校。
+  学测考生：
+  2024年台湾学生可通过台湾地区大学入学考试学科能力测试成绩以及我校面试进入我校。
+  香港科技大学（广州）2024年依据台湾地区学测成绩招收台湾高中毕业生简章
+  香港中学文凭考试HKDSE：
+  Hong Kong Diploma of Secondary Education Examination，香港学生可通过香港中学文凭考试成绩进入我校。
+  澳门保送生：
+  澳门学生可通过中国内地普通高校联合招收澳门保送生考试进入我校。
+  香港科技大学（广州） 2024年澳门保送生招生简章
+  International Students
+  Undergraduate Admissions for International Students
+  Admission Policies
+  Application Procedures
+  Documents Checklist
+  Read the FAQs
+  HKUST(GZ) Admissions open for International Students (Undergraduates) 2024
+  APPLY NOW
+  Admissions Counselor
+  Find Your Admissions Counselor
+  Undergraduate Admissions Office, HKUST (GZ)
+  Office: 1F, C1 Administration Building
+  Web:
+  https://ugadmissions.hkust-gz.edu.cn/en/contact/
+  Tel: (86) 020-88339116
+  Email: ugadmissions@hkust-gz.edu.cn
+  WeChat Official Account:
+
+links:
+  - View | https://ugadmissions.hkust-gz.edu.cn/en/scholarships/
+  - Curriculum Requirements: BSc in Data Science and Big Data Technology | https://document.hkust-gz.edu.cn/office/viewer?key=528&fileType=pdf&fileName=%E3%80%9012th%20CUS%20approve%E3%80%91Curriculum%20Requirements
+  - Student's Pathway | https://document.hkust-gz.edu.cn/office/viewer?key=527&fileType=pdf&fileName=%E3%80%9012th%20CUS%20approve%E3%80%91Student%E2%80%99s%20Pathway
+  - Explore BSc in Data Science and Big Data | https://ug-prog-crs.hkust-gz.edu.cn/
+  - 香港科技大学（广州） 2024年本科新生奖助学金实施办法 | https://ugadmissions.hkust-gz.edu.cn/en/scholarintro/?zss_id=8
+  - 香港科技大学（广州） 2024年学科竞赛类奖学金报名通知 | https://ugadmissions.hkust-gz.edu.cn/en/scholarintro/?zss_id=7
+  - Read the FAQs | https://ugadmissions.hkust-gz.edu.cn/zh-CN/apply/FAQs/?student_type=MainlandStudents
+  - 香港科技大学（广州）2024年依据台湾地区学测成绩招收台湾高中毕业生简章 | https://ugadmissions.hkust-gz.edu.cn/zh-CN/article/AdmissionPolicies/?zbid=11&student_type=HongKongMacaoTaiwan
+  - 香港科技大学（广州） 2024年澳门保送生招生简章 | https://ugadmissions.hkust-gz.edu.cn/zh-CN/article/AdmissionPolicies/?zbid=10&student_type=HongKongMacaoTaiwan
+  - Admission Policies | https://ugadmissions.hkust-gz.edu.cn/en/apply/AdmissionPolicies/?student_type=InternationalStudents
+  - Application Procedures | https://ugadmissions.hkust-gz.edu.cn/en/article/Others/?ztid=3&student_type=InternationalStudents
+  - Documents Checklist | https://ugadmissions.hkust-gz.edu.cn/en/article/Others/?ztid=4&student_type=InternationalStudents
+  - Read the FAQs | https://ugadmissions.hkust-gz.edu.cn/en/apply/FAQs/?student_type=InternationalStudents
+  - APPLY NOW | https://ugapply.hkust-gz.edu.cn/examinee-login?puzzle=%2F8sYOctzLBsID%2FLv5Ge0610eYoERdp6AJ9iUq5x8pKRkp2TO3RBnQKY53LWniF1%2FXR5igRF2noD9zDZ17n6C1TSVop4fqazP0GykZpMiWZT56WcBTe%2FET3qsPI7L%2BkB4
+  - https://ugadmissions.hkust-gz.edu.cn/en/contact/ | https://ugadmissions.hkust-gz.edu.cn/en/contact/

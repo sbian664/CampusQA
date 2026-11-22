@@ -1,0 +1,32 @@
+dsa_page: A SURVEY OF DATA REPRESENTATION FOR LARGE MODEL-BASED TIME-SERIES ANALYSIS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-of-data-representation-for-large-model-based-time-series-analysis/
+source: DSA
+
+headings:
+  - A SURVEY OF DATA REPRESENTATION FOR LARGE MODEL-BASED TIME-SERIES ANALYSIS
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY OF DATA REPRESENTATION FOR LARGE MODEL-BASED TIME-SERIES ANALYSIS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Jianing HAO
+  Abstract
+  Time-series data is prevalent across numerous real-world domains, including finance, climate, healthcare, and transportation. Time-series analysis is essential for comprehending the complexities inherent in these systems and applications. While Large Language Models (LLMs) have recently achieved significant advancements, the development of general foundation models targeted for time-series analysis remains in its nascent phase. Most existing large models often heavily rely on domain knowledge and extensive model tuning, primarily focusing on time-series forecasting tasks. Learning effective representations by extracting and inferring valuable information from diverse time-series data is crucial for performing downstream analysis tasks. This survey first categorizes and reviews current large models for time-series analysis according to different downstream analysis tasks. Within each category, we discuss both pre-training foundation models and methods adapting LLMs. Accordingly, we review state-of-the-art time-series representation learning methods in the context of large models, offering intuitions and insights into how these methods enhance the quality of learned representations. Finally, we outline several promising research directions to guide future studies in this evolving field.
+  PQE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Wei ZENG
+  Co-Supervisor: Prof Guang ZHANG
+  Examiner: Prof Lei LI
+  Date
+  04 June 2024
+  Time
+  13:30:00 -
+  14:45:00
+  Location
+  E1-149

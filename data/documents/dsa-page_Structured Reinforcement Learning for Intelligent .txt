@@ -1,0 +1,32 @@
+dsa_page: Structured Reinforcement Learning for Intelligent Decision-Making Networked Systems: Foundations and Practice – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/20/structured-reinforcement-learning-for-intelligent-decision-making-networked-systems-foundations-and-practice/
+source: DSA
+
+headings:
+  - Structured Reinforcement Learning for Intelligent Decision-Making Networked Systems: Foundations and Practice
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Email
+
+text: >
+  DSA & IoT Joint Seminar
+  Structured Reinforcement Learning for Intelligent Decision-Making Networked Systems: Foundations and Practice
+  Share to
+  ABSTRACT
+  A wide variety of real-world applications in next-generation intelligent decision-making networked systems, such as edge/cloud computing, autonomous driving and healthcare, involve complex resource-constrained sequential decision-making problems. Reinforcement learning (RL) has recently proven its worth in these domains and is beginning to show some success. However, model-based approaches are prone to system inaccuracies, and model-free methods suffer from the curse of dimensionality. These issues are further exacerbated when multiple coupled Markov Decision Processes (MDPs) are involved. To address these challenges, we advocate a Structured RL framework that leverages inherent problem structure encoded in these applications to design new learning architectures for improved sample efficiency and accelerated learning speed. Specifically, we model those resource-constrained sequential decision-making problems as a restless multi-armed bandits (RMAB) problem, which is provably computationally intractable. The unknown dynamics of those coupled MDPs in the RMAB further present significant hurdles for existing offline, index-based algorithms. To bridge this gap, we first propose novel low-complexity index policies to address dimensionality concerns, which are provably optimal. We then leverage these indices to develop index-aware RL algorithms to manage the exploration-exploitation tradeoff with provably sublinear learning regret guarantees. Finally, we demonstrate one practical application of our proposed structured RL framework in real-world domains, i.e., adaptive multi-user video streaming in the wireless edge, which underscores the significant potentials of structured RL in addressing complex and dynamic resource-constrained sequential decision-making problems.
+  SPEAKER BIO
+  Guojun Xiong is currently a postdoctoral fellow at Teamcore, Department of Computer Science, Harvard University. He obtained his Ph.D. in Data Science from the Department of Applied Mathematics and Statistics and the Department of Computer Science at Stony Brook University in 2024. His primary research interests include (i) online sequential decision making for intelligence decision-making networked systems, (ii) finite-time convergence and learning regret analysis for reinforcement learning, (iii) as well as decentralized optimization and multi-agent reinforcement learning. He is actively exploring broader social impacts for his research experience within Teamcore, particularly in healthcare and general social good. He has authored over 20 papers on top top-tier conferences and journals, including NeurIPS, ICML, AAAI, INFOCOM, AAMAS, ACM MobiHoc, IEEE/ACM TON, IEEE TWC, IEEE TSP.
+  Date
+  24 March 2025
+  Time
+  09:30:00 -
+  10:30:00
+  Join Link
+  Zoom Meeting ID:
+  997 7491 6263
+  Passcode: iotdsa
+  Email
+  dsat@hkust-gz.edu.cn

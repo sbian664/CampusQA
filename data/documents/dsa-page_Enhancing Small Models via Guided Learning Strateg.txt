@@ -1,0 +1,44 @@
+dsa_page: Enhancing Small Models via Guided Learning Strategies – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/14/enhancing-small-models-via-guided-learning-strategies/
+source: DSA
+
+headings:
+  - Enhancing Small Models via Guided Learning Strategies
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Enhancing Small Models via Guided Learning Strategies
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Bo HUANG
+  ABSTRACT
+  Modern deep learning models have achieved strong performance across computer vision and natural language processing, largely by relying on increasingly large models. Such large models are expensive to store and run, so many real applications must rely on small models, which typically lag behind their larger counterparts on important capabilities such as adversarial robustness, instruction following and alignment, and multi-step reasoning. Building a small model that is genuinely capable, in other words closing this capability gap, is therefore a central research problem. Training only on task data does not close the gap, so this thesis closes it by training a small model with guidance signals supplied by an external model, an approach we refer to as guided learning. We develop three such guided learning strategies, one for each capability. For accuracy and robustness, we propose Adaptive Adversarial Distillation (AdaAD), an adversarial distillation method that lets a small student inherit both clean accuracy and robustness from a robust teacher. For instruction following and alignment, we propose Evolution Strategy Optimization (ESO), which fine-tunes a small language model with a reward signal using an evolution strategy in place of standard reinforcement learning. For multi-step reasoning, we propose Subquestion-Driven Decomposition Distillation with Reinforcement Learning (SD2 -RL), which distills a teacher’s reasoning as explicit subquestion decompositions and refines the model with reinforcement learning. Experiments across image classification, language generation, and reasoning tasks show that each method substantially improves the small model on its targeted capability over strong baselines. Taken together, these results position guided learning as a general and effective strategy for building capable small models across vision and language.
+  TEC
+  Chairperson: Prof Jishan HU
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Minhao CHENG
+  Examiners:
+  Prof Zishuo DING
+  Prof Juan DU
+  Prof Yutao YUE
+  Prof Xu CHEN
+  Date
+  18 August 2026
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

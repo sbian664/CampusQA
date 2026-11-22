@@ -1,0 +1,32 @@
+dsa_page: Graph Traversal and Shortest Paths on GPUs: A Comprehensive Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/graph-traversal-and-shortest-paths-on-gpus-a-comprehensive-survey/
+source: DSA
+
+headings:
+  - Graph Traversal and Shortest Paths on GPUs: A Comprehensive Survey
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Graph Traversal and Shortest Paths on GPUs: A Comprehensive Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Weile LUO
+  Abstract
+  In the era of big data, graph-based models have become essential for understanding complex systems across diverse sectors, from social interactions to transportation networks and biological pathways. The processing of massive graphs with billions of vertices and edges presents significant computational hurdles, spurring interest in GPU acceleration. This literature review investigates the advancements in GPU-accelerated graph traversal and shortest path algorithms, emphasizing the impact of the Hopper architecture on performance optimization. It delves into key aspects such as efficient data organization, memory access strategies, workload distribution, and GPU-specific programming techniques. The review also assesses current challenges, like irregular memory access and scalability issues, and proposes future research directions to further improve algorithm efficiency and broaden their applicability. By offering a comprehensive yet focused perspective on the subject, this article aims to guide researchers in navigating the evolving landscape of GPU-accelerated graph processing.
+  PQE Committee
+  Chairperson: Prof. Wei WANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Hongyuan LIU
+  Examiner: Prof Yanlin ZHANG
+  Date
+  04 June 2024
+  Time
+  16:10:00 -
+  17:25:00
+  Location
+  E1-150

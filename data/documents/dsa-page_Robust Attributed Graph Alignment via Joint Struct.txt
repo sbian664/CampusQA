@@ -1,0 +1,39 @@
+dsa_page: Robust Attributed Graph Alignment via Joint Structure Learning and Optimal Transport – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/robust-attributed-graph-alignment-via-joint-structure-learning-and-optimal-transport/
+source: DSA
+
+headings:
+  - Robust Attributed Graph Alignment via Joint Structure Learning and Optimal Transport
+  - Abstract
+  - Project members
+  - Fugee TSUNG
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Robust Attributed Graph Alignment via Joint Structure Learning and Optimal Transport
+  Abstract
+  Graph alignment, which aims at identifying corresponding entities across multiple networks, has been widely applied in various domains. As the graphs to be aligned are usually constructed from different sources, the inconsistency issues of structures and features between two graphs are ubiquitous in real-world applications. Most existing methods follow the "embed-then-cross-compare" paradigm which computes node embeddings in each graph and then processes node correspondences based on cross-graph embedding comparison. However, we find these methods are unstable and sub-optimal when structure or feature inconsistency appears. To this end, we propose SLOTAlign, an unsupervised graph alignment framework that jointly performs Structure Learning and Optimal Transport Alignment. We convert graph alignment to an optimal transport problem between two intra-graph matrices without the requirement of cross-graph comparison. We further incorporate multi-view structure learning to enhance graph representation power and reduce the effect of structure and feature inconsistency inherited across graphs. Moreover, an alternating scheme based algorithm has been developed to address the joint optimization problem in SLOTAlign and the provable convergence result are also established. Finally, we conduct extensive experiments on six unsupervised graph alignment datasets and the DBP15K knowledge graph (KG) alignment benchmark dataset. The proposed SLOTAlign shows superior performance and strongest robustness over seven unsupervised graph alignment methods and five specialized KG alignment methods.
+  Project members
+  Fugee TSUNG
+  Chair Professor
+  Jia LI
+  Associate Professor
+  Publications
+  Robust Attributed Graph Alignment via Joint Structure Learning and Optimal Transport
+  . Jianheng Tang, Weiqi Zhang, Jiajin Li, Kangfei Zhao, Fugee Tsung, and Jia Li.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  Graph alignment, Optimal transport, Structure learning, Unsupervised Learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Robust Attributed Graph Alignment via Joint Structure Learning and Optimal Transport | https://ieeexplore.ieee.org/document/10184815

@@ -1,0 +1,59 @@
+dsa_page: Machine Learning under Scarcity: Addressing Data Scarcity in Tabular Models and Computational Scarcity in Statistical Estimation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/06/machine-learning-under-scarcity-addressing-data-scarcity-in-tabular-models-and-computational-scarcity-in-statistical-estimation/
+source: DSA
+
+headings:
+  - Machine Learning under Scarcity: Addressing Data Scarcity in Tabular Models and Computational Scarcity in Statistical Estimation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Machine Learning under Scarcity: Addressing Data Scarcity in Tabular Models and Computational Scarcity in Statistical Estimation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Ruoxue LIU
+  ABSTRACT
+  Modeling tabular data remains a critical challenge, primarily due to fundamental issues of scarcity. This thesis presents a multi-faceted investigation into robust and efficient machine learning, unified by this central theme, tackling two primary forms: data scarcity and computational scarcity.
+  To address data scarcity, two novel frameworks are developed. For tabular few-shot learning where all classes have severely limited training data (e.g., 5-shot or 1-shot), we introduce D2R2 (Diffusion-based Representation with Random Distance Matching). D2R2 pioneers a conditional diffusion model to learn robust semantic representations from unlabeled data. For imbalanced classification, where minority classes are vastly outnumbered by majority classes, we propose Invertible TabMap. This self-supervised framework learns an imbalance-robust latent space and utilizes an invertible network to achieve high-quality minority class synthesis.
+  The thesis then addresses computational scarcity by tackling the fundamental inefficiency of nested simulation. Standard estimation methods in this domain are limited to a slow
+  O
+  (Γ
+  −
+  1
+  /
+  3 ) convergence rate. We establish a unifying theoretical framework: Least Squares Estimation (LSE) on a sieve. We then derive the precise conditions under which this framework achieves the optimal Monte Carlo convergence rate of
+  O
+  (Γ
+  −
+  1
+  /
+  2 ).
+  Collectively, these contributions provide novel practical solutions for data scarcity in the tabular domain and advance the fundamental theoretical for overcoming computational scarcity in complex statistical estimation.
+  TEC
+  Chairperson: Prof Clea Theresa VON CHAMIER-WAITE
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Yuan YAO
+  Examiners:
+  Prof Zixin ZHONG
+  Prof Zeyi WEN
+  Prof Zhuoni ZHANG
+  Prof Siyuan GONG
+  Date
+  07 January 2026
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

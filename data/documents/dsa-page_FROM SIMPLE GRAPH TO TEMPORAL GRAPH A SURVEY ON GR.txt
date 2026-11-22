@@ -1,0 +1,42 @@
+dsa_page: FROM SIMPLE GRAPH TO TEMPORAL GRAPH: A SURVEY ON GRAPH EMBEDDING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/from-simple-graph-to-temporal-graph-a-survey-on-graph-embedding/
+source: DSA
+
+headings:
+  - FROM SIMPLE GRAPH TO TEMPORAL GRAPH: A SURVEY ON GRAPH EMBEDDING
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  FROM SIMPLE GRAPH TO TEMPORAL GRAPH: A SURVEY ON GRAPH EMBEDDING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Yifan SONG
+  Abstract
+  Graph embedding has emerged as a pivotal area of research in recent times, which is an important technique for transmuting graph data into compact and low-dimensional vectors while preserving its topological structure. In this survey, we furnish an exhaustive review of graph embedding techniques, starting with simple graph embedding methods, which aims to embed the graph without timestamp. We categorize simple graph embedding methods into three class: those predicated on random walk strategies, those reliant on matrix factorization, and those employing neural network-based frameworks. For each category, we elucidate their inherent strengths and limitations. Subsequently, we provide a review of temporal graph embedding methods that have attracted attention in recent years. We classify existing temporal graph embedding methods into GNN-based and non-GNN-based methods, and similarly analyze their advantages and disadvantages. By examining the challenges and potential future directions, this survey aims to impart a comprehensive understanding of the graph embedding domain and guide future research endeavors.
+  PQE Committee
+  Chairperson: Prof. Fugee TSUNG
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Jinglei YANG
+  Examiner: Prof Lei LI
+  Date
+  04 June 2024
+  Time
+  09:50:00 -
+  11:05:00
+  Location
+  E1-148
+  Join Link
+  Zoom Meeting ID:
+  872 2650 2674
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/87226502674?pwd=pVEDpBd0NW9KklFS1eXljuWcLbUFHB.1

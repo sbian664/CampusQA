@@ -1,0 +1,40 @@
+dsa_page: Graph Problem Reasoning and Large Language Models: A Comprehensive Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/graph-problem-reasoning-and-large-language-models-a-comprehensive-survey/
+source: DSA
+
+headings:
+  - Graph Problem Reasoning and Large Language Models: A Comprehensive Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Graph Problem Reasoning and Large Language Models: A Comprehensive Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Qifan
+  Abstract
+  The intersection of Large Language Models (LLMs) and graph problem reasoning has rapidly emerged as a vibrant research area, driven by the unique advantages of graph problems in probing, evaluating, and enhancing the complex reasoning capabilities of modern AI systems. Graph problems offer arbitrary scalability in difficulty, inherently long-context structures, deterministic verifiability, and rich cross-domain transferability—properties that make them ideal testbeds for LLM reasoning. This survey provides a comprehensive review of recent progress at this intersection, organized along two complementary trajectories: LLM for Graph, which investigates how LLMs can be applied to solve graph algorithmic problems through prompting strategies, code generation, and multi-agent collaboration; and Graph for LLM, which explores how graph problem data can serve as high-quality reasoning corpora to enhance the general reasoning abilities of LLMs via continued pretraining and fine-tuning. We systematically categorize existing benchmarks, methods, and training paradigms, critically analyze their strengths and limitations, and identify key open challenges and promising future directions in this rapidly evolving field.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. TANG, Jing
+  Examiner: Prof. ZHANG, Yanlin
+  Date
+  09 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-149, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

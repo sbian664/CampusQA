@@ -1,0 +1,34 @@
+dsa_page: ACCELERATING SPARSE COMPUTING ONGPUS: FROM GRAPH NEURAL NETWORKS TOLARGE LANGUAGE MODELS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/accelerating-sparse-computing-ongpus-from-graph-neural-networks-tolarge-language-models/
+source: DSA
+
+headings:
+  - ACCELERATING SPARSE COMPUTING ONGPUS: FROM GRAPH NEURAL NETWORKS TOLARGE LANGUAGE MODELS
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  ACCELERATING SPARSE COMPUTING ONGPUS: FROM GRAPH NEURAL NETWORKS TOLARGE LANGUAGE MODELS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By FAN Ruibo
+  Abstract
+  Sparse computing has become increasingly critical in modern artificial intelligence applications, from Graph Neural Networks (GNNs) to Large Language Models (LLMs). This thesis proposal presents a comprehensive research program addressing the fundamental challenges of accelerating sparse matrix operations on Graphics Processing Units (GPUs). The research tackles three key problems across the spectrum of sparse computing applications: efficient GNN training through hybrid-parallel algorithms, general sparse matrix multiplication using Tensor Cores, and low-level sparsity acceleration for LLM inference. The proposed work builds upon three published contributions: HP-SpMM for GNN acceleration, DTC-SpMM for general Tensor Core-based sparse computing, and SpInfer for sparse LLM inference. These works demonstrate significant performance improvements and establish new state-of-the-art results across diverse application domains. The research addresses critical gaps in current sparse computing techniques, particularly the challenge of efficiently utilizing modern GPU architectures for sparse operations while maintaining both performance and memory efficiency.
+  TPE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. WANG Wei
+  Examiner: Prof. WEN Zeyi
+  Date
+  09 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-147 (HKUST-GZ)

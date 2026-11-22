@@ -1,0 +1,32 @@
+dsa_page: Enhancing Multivariate Time Series Analysis with Structural Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/enhancing-multivariate-time-series-analysis-with-structural-modeling/
+source: DSA
+
+headings:
+  - Enhancing Multivariate Time Series Analysis with Structural Modeling
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Enhancing Multivariate Time Series Analysis with Structural Modeling
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Weiqi ZHANG
+  Abstract
+  The application of multivariate time series is extensive and ubiquitous, particularly in industrial scenarios where it is used to characterize the real-time operational status of systems. In the era of big data, the rapid advancement of technologies like data collection and storage has significantly increased the volume and dimensions of multivariate time series data. While the rich information of data provides opportunities for system modeling, it also introduces new challenges. Specifically, existing methods often emphasize modeling and mining temporal patterns within individual samples, paying insufficient attention to the complex patterns between samples. Additionally, they tend to overlook the intricate relationships among multiple variables. This lack of comprehensive modeling for time series data leads to incomplete insights.
+  To address these challenges, this paper proposes two structural modeling approaches: sample-wise structure modeling and variable-wise structure modeling. Through two specific projects, the paper examines the feasibility of these approaches in enhancing time series analysis tasks. In the first project, prototypes are used to describe the semantic structure of hidden space. A robust and effective representation learning framework is achieved through co-training based multi-view contrastive learning, guided by hidden space alignment. The second project utilizes a graph structure to represent variable-wise dependencies within multivariate time series, where node features denote time series signals, and edges describe multivariate relationships. Assuming known variable-wise dependencies, this project introduces a novel graph neural network structure to perform multivariate time series missing data imputation using the Dirichlet energy maintenance principle. These projects offer novel and efficient solutions to enhancing various multivariate time series analysis tasks from the perspective of structural modeling.
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Jia LI
+  Examiner: Prof Wenjia WANG
+  Date
+  13 June 2024
+  Time
+  11:10:00 -
+  12:25:00
+  Location
+  E1-149

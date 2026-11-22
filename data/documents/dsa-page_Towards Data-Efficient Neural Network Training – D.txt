@@ -1,0 +1,48 @@
+dsa_page: Towards Data-Efficient Neural Network Training – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/16/towards-data-efficient-neural-network-training/
+source: DSA
+
+headings:
+  - Towards Data-Efficient Neural Network Training
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Towards Data-Efficient Neural Network Training
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jiahang JIANG
+  ABSTRACT
+  The remarkable success of deep learning is driven not only by the advanced model architectures but also increasingly by direct manipulation of datasets to enhance prediction accuracy, training efficiency, and model generalization. However, contemporary neural network training paradigms face fundamental bottlenecks across the data scales. Training large-scale datasets typically requires tremendous computational resources and raises social problems related to privacy and copyright when raw data is used directly. Conversely, limited or sparse datasets often lack sufficient task-specific information, leaving resulting models susceptible to overfitting and limited generalization performance.
+  To address these challenges, this thesis systematically explores three core methodologies: dataset distillation, embedding refinement, and data augmentation. Each is tailored to address distinct downstream challenges, contributing to the advancement of both theoretical understanding and practical application.
+  First, we investigate self-supervised dataset distillation for large-scale dataset pre-training. Through empirical and theoretical analysis of gradient variance, we propose Diversity-Driven Trajectory Matching (DTM). Integrating expert alignment with peer-induced contrastive signals, DTM fosters broader parameter exploration, yielding robust condensed data.
+  Second, we address the limitations of ID-centric embeddings in sequential recommendation systems, a domain typically characterized by highly sparse user-item interactions. We introduce MDR, a novel MLP-driven refinement mechanism that enriches item embeddings with critical feature interactions.
+  Third, we bridge a critical gap in random smoothing data augmentation, a potent yet understudied regularization approach for overfitting prevention in both data-abundant and data-scarce regimes. We propose an adaptive framework leveraging convolution-based smoothing kernels. This enables optimal convergence rate in Sobolev spaces of low intrinsic dimension and mixed smoothness.
+  TEC
+  Chairperson: Prof Ge Lin KAN
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Jia LI
+  Examiners:
+  Prof Ning CAI
+  Prof Lei LI
+  Prof Zeyi WEN
+  Prof Qian XIAO
+  Date
+  17 December 2025
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E2-301, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

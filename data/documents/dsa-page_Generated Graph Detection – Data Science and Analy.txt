@@ -1,0 +1,35 @@
+dsa_page: Generated Graph Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/generated-graph-detection/
+source: DSA
+
+headings:
+  - Generated Graph Detection
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Generated Graph Detection
+  Abstract
+  Graph generative models become increasingly effective for data distribution approximation and data augmentation. While they have aroused public concerns about their malicious misuses or misinformation broadcasts, just as what Deepfake visual and auditory media has been delivering to society. Hence it is essential to regulate the prevalence of generated graphs. To tackle this problem, we pioneer the formulation of the generated graph detection problem to distinguish generated graphs from real ones. We propose the first framework to systematically investigate a set of sophisticated models and their performance in four classification scenarios. Each scenario switches between seen and unseen datasets/generators during testing to get closer to real-world settings and progressively challenge the classifiers. Extensive experiments evidence that all the models are qualified for generated graph detection, with specific models having advantages in specific scenarios. Resulting from the validated generality and oblivion of the classifiers to unseen datasets/generators, we draw a safe conclusion that our solution can sustain for a decent while to curb generated graph misuses.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  Generated Graph Detection
+  . Yihan Ma, Zhikun Zhang, Ning Yu, Xinlei He, Michael Backes, Yun Shen, and Yang Zhang.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  AIGC Attribution, AIGC Detection, Generative Graph Neural Networks
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - Generated Graph Detection | https://openreview.net/forum?id=8gU_8IdHN9g

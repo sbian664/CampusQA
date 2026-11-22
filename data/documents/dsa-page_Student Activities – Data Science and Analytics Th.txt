@@ -1,0 +1,95 @@
+dsa_page: Student Activities – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/student-activities/
+source: DSA
+
+headings:
+  - DSA Lunch Salon
+  - DSA Table Talks - ICLR & ICML Session
+  - DSA Poster Pop-Up
+  - DSA Excellence Awards Ceremony 2025
+  - DSA Gathering-Code New Adventure
+  - DSA Gathering-Alumni Homecoming and New Chapter
+  - DSA Academic Tour - Hong Kong Session
+  - The 10th CCPC Grand Final
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  23
+  Jun 2026
+  Research Salon
+  DSA Lunch Salon
+  C2-102
+  12:00 - 13:30
+  25
+  May 2026
+  DSA Table Talks
+  DSA Table Talks - ICLR & ICML Session
+  E4-101, HKUST(GZ)
+  19:00 - 20:00
+  12
+  May 2026
+  Research Salon
+  DSA Poster Pop-Up
+  E2-5F, HKUST(GZ)
+  13:00 - 14:00
+  05
+  Mar 2026
+  DSA Gathering
+  DSA Excellence Awards Ceremony 2025
+  C2-102, HKUST(GZ)
+  12:00 - 14:00
+  24
+  Nov 2025
+  Research Salon
+  DSA Poster Pop-Up
+  E1-5F
+  13:00 - 14:00
+  28
+  Aug 2025
+  DSA Gathering
+  DSA Gathering-Code New Adventure
+  C2-102
+  13:45 - 17:00
+  12
+  Jul 2025
+  DSA Gathering
+  DSA Gathering-Alumni Homecoming and New Chapter
+  C2-102, HKUST(GZ)
+  14:00 - 16:00
+  02
+  Jul 2025
+  /
+  05
+  Jul 2025
+  Student Activities
+  DSA Academic Tour - Hong Kong Session
+  Hong Kong
+  05
+  Jun 2025
+  Student Activities
+  DSA Poster Pop-Up
+  E1-5F, Big Data Institute
+  10:00 - 17:00
+  09
+  May 2025
+  /
+  11
+  May 2025
+  Competition
+  The 10th CCPC Grand Final
+  HKUST(GZ)
+
+links:
+  - https://mp.weixin.qq.com/s/uBuI82YRPfkbO4cmSI1Zjg | https://mp.weixin.qq.com/s/uBuI82YRPfkbO4cmSI1Zjg
+  - https://dsa.hkust-gz.edu.cn/blog/2026/05/20/dsa-table-talks/ | https://dsa.hkust-gz.edu.cn/blog/2026/05/20/dsa-table-talks/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/05/11/dsa-poster-pop-up-4/ | https://dsa.hkust-gz.edu.cn/blog/2026/05/11/dsa-poster-pop-up-4/
+  - https://mp.weixin.qq.com/s/J4WYB1pshndspgr9SeTR5w | https://mp.weixin.qq.com/s/J4WYB1pshndspgr9SeTR5w
+  - https://dsa.hkust-gz.edu.cn/blog/2025/11/27/dsa-poster-pop-up-3/ | https://dsa.hkust-gz.edu.cn/blog/2025/11/27/dsa-poster-pop-up-3/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/08/26/dsa-gathering-code-new-adventure/ | https://dsa.hkust-gz.edu.cn/blog/2025/08/26/dsa-gathering-code-new-adventure/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/07/22/dsa-gathering-alumni-homecoming-and-new-chapter/ | https://dsa.hkust-gz.edu.cn/blog/2025/07/22/dsa-gathering-alumni-homecoming-and-new-chapter/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/07/18/dsa-academic-tour-hong-kong-session/ | https://dsa.hkust-gz.edu.cn/blog/2025/07/18/dsa-academic-tour-hong-kong-session/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/06/03/dsa-poster-pop-up/ | https://dsa.hkust-gz.edu.cn/blog/2025/06/03/dsa-poster-pop-up/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/04/24/competition-preview-the-10th-ccpc-grand-final-is-coming-soon/ | https://dsa.hkust-gz.edu.cn/blog/2025/04/24/competition-preview-the-10th-ccpc-grand-final-is-coming-soon/

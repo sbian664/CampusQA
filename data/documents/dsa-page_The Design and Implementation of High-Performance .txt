@@ -1,0 +1,39 @@
+dsa_page: The Design and Implementation of High-Performance Storage Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/12/09/the-design-and-implementation-of-high-performance-storage-systems/
+source: DSA
+
+headings:
+  - The Design and Implementation of High-Performance Storage Systems
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  The Design and Implementation of High-Performance Storage Systems
+  Share to
+  ABSTRACT
+  The performance of the storage and network hardware has been surging in recent years, and this change shifts the performance bottleneck from the hardware to the software. This talk will introduce our efforts to efficient storage software designs on fast storage and network hardware. I will start with a crash-consistent storage protocol that offers fast local and network storage access over the PCIe bus and RDMA network. Then, I will show a storage stack architecture design that separates the storage ordering guarantees and hence enables ordered and concurrent data transfers. Lastly, I will present SuperFS, our file system that demonstrates high performance efficiency. SuperFS ranked 1st in 2022 IO500 10-node metadata performance within our lab’s cluster and 1st in 2023 IO500 research overall performance when deployed in Pengcheng Laboratory.
+  SPEAKER BIO
+  Xiaojian LIAO
+  Postdoctoral Researcher
+  Tsinghua University
+  Xiaojian Liao is now a postdoctoral researcher in the Department of Computer Science and Technology, Tsinghua University. He obtained Ph.D. degree from Tsinghua University in 2022, advised by Prof. Jiwu Shu and Youyou Lu. His primary research focus revolves around storage systems, with an emphasis on designing efficient system software for new storage and network hardware. He published several papers in top-tier conferences and journals, including OSDI, SOSP, USENIX ATC, EuroSys, FAST, ACM TOS, etc. He developed SuperFS, a high-performance file system that won the first place in the 2022 IO500 10-node metadata performance, and the first place in 2023 IO500 research overall performance when deployed in Pengcheng laboratory. He received 2022 ACM ChinaSys Doctoral Dissertation Award, ByteDance Scholarship, etc. He is supported by National Natural Science Foundation of China (youth program), China Postdoctoral Science Foundation (general program), etc.
+  Date
+  11 December 2023
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  841 2078 6461
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

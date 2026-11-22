@@ -1,0 +1,39 @@
+dsa_page: Machine Learning with Biomedical Ontologies – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/01/machine-learning-with-biomedical-ontologies/
+source: DSA
+
+headings:
+  - Machine Learning with Biomedical Ontologies
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Machine Learning with Biomedical Ontologies
+  Share to
+  ABSTRACT
+  Ontologies are widely used in biological and biomedical research to formalize and constrain the relations between biomedical entities. It is critical to make use of knowledge in ontologies when building predictive models, in particular when available data is limited or the prediction problem is sufficiently complex. Ontology embeddings can be used to introduce background knowledge into machine learning models, axioms in ontologies can be used as constraints that reduce search space, and some embeddings allow neural networks to compute entailments and enable zero-shot learning. I will discuss methods for embedding Semantic Web ontologies in the Web Ontology Language (OWL), outline some of their formal properties that relate them to model and proof theory, and show how they can be used in machine learning in the biomedical domain.
+  SPEAKER BIO
+  Robert HOEHNDORF
+  Associate Professor
+  King Abdullah University of Science and Technology
+  Robert is an Associate Professor in Computer Science at King Abdullah University of Science and Technology in Thuwal where he is the PI of the Bio-Ontology Research Group (BORG) and Interim Associate Director of the Computational Bioscience Research Center. Prior to joining KAUST, Robert held research positions at the Max Planck Institute for Evolutionary Anthropology, the European Bioinformatics Institute, University of Cambridge, and Aberystwyth University. He earned his PhD degree in Computer Science from the University of Leipzig. Robert's research focuses on the development and application of knowledge-based algorithms in biology and biomedicine. In bioinformatics, Robert focuses on bio-ontologies and data integration, protein function prediction, and developing models for investigating genotype-phenotype relations. In computer science, his interests lie in Semantic Web technologies and neuro-symbolic methods that combine formal logic and machine learning. Robert has published over 150 papers in journals and international conferences. Robert is Editor in Chief of the Journal of Biomedical Semantics and Associate Editor of BMC Bioinformatics, Applied Ontology, and PLoS ONE, and regularly organizes and co-organizes workshops and conferences in the area of bioinformatics, data integration, and bio-ontologies.
+  Date
+  03 February 2023
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  951 1872 9639
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

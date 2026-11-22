@@ -1,0 +1,40 @@
+dsa_page: Evidence Selection and Structured Reasoning forKnowledge-Intensive Multimodal Question Answering: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/20/evidence-selection-and-structured-reasoning-forknowledge-intensive-multimodal-question-answering-a-survey/
+source: DSA
+
+headings:
+  - Evidence Selection and Structured Reasoning forKnowledge-Intensive Multimodal Question Answering: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Evidence Selection and Structured Reasoning forKnowledge-Intensive Multimodal Question Answering: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LIU, Bingcen
+  Abstract
+  Knowledge-intensive multimodal question answering (KI-MQA) requires systems to connect visual observations with external knowledge and multi-step inference. This survey argues that reliable KI-MQA depends on jointly designing evidence selection and structured reasoning. Relevant context may be incomplete or useless, while fluent reasoning traces may remain unsupported or post hoc. We organize evidence-selection methods by source, operation, and decision signal, and reasoning methods by representation, control strategy, and grounding strength. The literature shows a shift from fixed retrieval and static reasoning toward question-conditioned visual compression, answer-aware retrieval, reflective filtering, and adaptive tool use. Yet retrieval recall, visible rationales, and source attribution remain incomplete proxies for reliability. Emerging research directions point toward an evidence-state perspective that explicitly models selected evidence, claim dependencies, provenance, unresolved needs, and source reliability to enable more reliable multimodal reasoning.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. ZHANG, Yongqi
+  Examiner: Prof. ZHU, Lei
+  Date
+  31 July 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

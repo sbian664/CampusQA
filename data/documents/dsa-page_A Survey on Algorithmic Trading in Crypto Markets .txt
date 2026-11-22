@@ -1,0 +1,34 @@
+dsa_page: A Survey on Algorithmic Trading in Crypto Markets – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/a-survey-on-algorithmic-trading-in-crypto-markets/
+source: DSA
+
+headings:
+  - A Survey on Algorithmic Trading in Crypto Markets
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Algorithmic Trading in Crypto Markets
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. XU, Haotian
+  Abstract
+  Crypto markets trade digital assets on two kinds of venue: centralized exchanges (CEX) that match orders on a limit order book, and decentralized exchanges (DEX) that settle trades on an on-chain smart contract. Each kind of venue has its own body of algorithmictrading research, and a third body studies algorithms that trade on both venues at once. In this survey, we investigate algorithmic-trading research across three settings. First, on the decentralized exchange, we examine the adversarial use of maximal extractable value (MEV) through sandwich attacks, and the benign use through arbitrage and route finding across hundreds of pools. Then, on the centralized exchange, we cover prediction, market making, and trade execution at the sub-second scale, with factor construction and portfolio decisions at the minute scale and above. Finally, for cross-venue trading, we trace information flow from DEX to CEX through price discovery, and value flow from CEX to DEX through arbitrage and loss-versus-rebalancing (LVR).
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. TSUNG, Fu-Gee (online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  10 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-147, HKUST(GZ)

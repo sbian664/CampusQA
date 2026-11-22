@@ -1,0 +1,43 @@
+dsa_page: Policy Learning in Adaptive Experiments – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/01/policy-learning-in-adaptive-experiments/
+source: DSA
+
+headings:
+  - Policy Learning in Adaptive Experiments
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Policy Learning in Adaptive Experiments
+  Share to
+  ABSTRACT
+  Learning optimal policies from historical data enables personalization in a variety of domains across healthcare, digital recommendations, and online education. Recently, there has been increasing attention on adaptive experiments (for example, contextual bandits), which allow for progressively updating data-collection rules to identify good treatment assignment policies. However, most existing contextual bandit algorithms are geared towards maximizing the operational performance during the experiment, while the optimality of the learned policy is yet to be guaranteed, especially when outcome models are misspecified.
+  Conversely, non-adaptive experiments, known as randomized controlled trials (RCT), guarantee to identify the best policy in large samples but can be prohibitively costly or even unethical in some cases. We propose to address this policy learning problem from two perspectives:
+  Offline policy learning using adaptively collected data. We seek to make the fullest use of such data, which is increasingly prevalent due to the popularity of adaptive designs, so as to learn a policy—without doing new experiments—that yields the best outcome for each individual. We show that our algorithm is robust to model misspecification and achieves the minimax optimality, even when the data is collected by an original experiment with diminishing exploration.
+  Online contextual bandit algorithm tailored to policy learning. We seek to design a practical contextual bandit algorithm to collect “relevant” data for policy learning, such that our algorithm guarantees to learn the optimal policy at a faster rate than RCT in many instances. We also show that our algorithm can be flexibly adapted to optimize the performance during the experiment (a.k.a. cumulative regret minimization) with minimax optimality guarantees.
+  The talk is based on joint works with Susan Athey, Emma Brunskill, Sanath Krishnamurthy, Zhimei Ren, and Zhengyuan Zhou.
+  SPEAKER BIO
+  Ruohan ZHAN
+  Assistant Professor
+  Hong Kong University of Science and Technology
+  Ruohan Zhan is an assistant professor of Industrial Engineering and Decision Analytics at the Hong Kong University of Science and Technology. Her research develops methods to innovate data-driven decision making using tools from causal inference, statistics, and machine learning, with particular interest in problems from platform operations and economics. Previously, she received her BS in mathematics from Peking University (2017), her MS in statistics and PhD in computational and applied mathematics from Stanford University (2021), where her doctoral research was advised by Susan Athey. She was a postdoc fellow at Stanford Graduate School of Business (2022). She has also spent the summers of 2019 and 2020 at Google Research and have worked full-time at Kuaishou Technology during 2021-2022.
+  Date
+  03 April 2023
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  934-494-410
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

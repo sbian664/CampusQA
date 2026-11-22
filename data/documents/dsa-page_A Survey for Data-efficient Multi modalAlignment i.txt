@@ -1,0 +1,34 @@
+dsa_page: A Survey for Data-efficient Multi modalAlignment in Pathology Area:Models and Challenges – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-for-data-efficient-multi-modalalignment-in-pathology-areamodels-and-challenges/
+source: DSA
+
+headings:
+  - A Survey for Data-efficient Multi modalAlignment in Pathology Area:Models and Challenges
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey for Data-efficient Multi modalAlignment in Pathology Area:Models and Challenges
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LONG Hanlin
+  Abstract
+  This survey provides a examination of multi-modal alignment (MMA) in the pathology domain, highlighting its potential to advance pathological research and practice by integrating diverse data modalities such as histological images, diagnostic texts, and genetic features. We first introduce the fundamental concepts of MMA and its applications in pathology. Then, we review representative works in this field, analyzing their methodologies, datasets, performance levels, and benchmark results. Furthermore, we explore data-efficient MMA approaches and the challenges they face in the pathological domain, including data scarcity and domain-specific adaptation needs. Finally, we propose future research directions aimed at addressing these challenges and enhancing the effectiveness of pathology MMA models. Our analysis reveals that while pathology MMA holds significant promise, the development of more efficient and tailored methods is essential to overcome current limitations and bridge the gap between current capabilities and the demands of real-world medical applications.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHEN Lei
+  Co-Supervisor: Prof . TANG Jing
+  Examiner: Prof. LI Lei
+  Date
+  09 June 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-149 (HKUST-GZ)

@@ -1,0 +1,41 @@
+dsa_page: Advancing Sociological Analysis through Self-supervised Hypergraph Representation Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/06/advancing-sociological-analysis-through-self-supervised-hypergraph-representation-learning/
+source: DSA
+
+headings:
+  - Advancing Sociological Analysis through Self-supervised Hypergraph Representation Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Advancing Sociological Analysis through Self-supervised Hypergraph Representation Learning
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Modern sociology has profoundly uncovered many convincing social criteria for behavioural analysis. Unfortunately, many of them are too subjective to be measured and very challenging to be presented in online social networks (OSNs) for the large data volume and complicated environments to be explored. On the other hand, data mining techniques can better ﬁnd data patterns but many of them leave behind unnatural understanding to humans. Although there are some works trying to integrate social observations for speciﬁc tasks, they are still hard to be applied to more general cases.
+  In this talk, I will present our recent work with a fundamental methodology to support the further fusion of data mining techniques and sociological behavioural criteria. We go beyond traditional pair-wise relations and explore richer patterns under various sociological criteria; We propose a novel hypergraph-based neural network to learn social inﬂuence ﬂowing. The neural network can be learned via a task-free method, making our model very ﬂexible to support various data mining tasks and sociological analysis; We also propose both qualitative and quantitive solutions to effectively evaluate the most common sociological criteria like social conformity, social equivalence, environmental evolving and social polarization. Our extensive experiments show that our framework can better support both data mining tasks for online user behaviours and sociological analysis.
+  SPEAKER BIO
+  Xiangguo SUN
+  Postdoctoral Research Fellow
+  Chinese University of Hong Kong
+  Dr. Xiangguo Sun is now working as a postdoctoral research fellow at the Chinese University of Hong Kong. He was recognized as the "Social Computing Rising Star” from the China Association for Artificial Intelligence (CAAI) in 2023. Before that, he studied at Zhejiang Lab as a visiting researcher hosted by Chief Scientist Prof. Hongyang Chen and received his Ph.D. from Southeast University under the supervision of Prof. Bo Liu. During his Ph.D. study, he worked as a research intern at Microsoft Research Asia, and also studied as a joint Ph.D. student at The University of Queensland hosted by ARC Future Fellow Prof. Hongzhi Yin. His research interests include social computing and network learning. He was the winner of the Best Research Paper Award at KDD’23, which is also the first time a university from Hong Kong received this award in KDD history. https://xgsun.mysxl.cn/
+  Date
+  08 November 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  857 0285 8833
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

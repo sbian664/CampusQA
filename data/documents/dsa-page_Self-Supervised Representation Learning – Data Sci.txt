@@ -1,0 +1,40 @@
+dsa_page: Self-Supervised Representation Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/self-supervised-representation-learning/
+source: DSA
+
+headings:
+  - Self-Supervised Representation Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Self-Supervised Representation Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Xiasi WANG
+  Abstract
+  The effectiveness of deep supervised learning heavily depends on the availability of large amounts of labeled data, which can be expensive to obtain. As a subset of unsupervised learning, self-supervised learning (SSL) has recently garnered significant attention due to its remarkable ability to learn useful features from large collections of unlabeled data. This survey provides a comprehensive review of various SSL methods with a specific focus on computer vision (CV). The reviewed SSL methods are categorized into three types based on their respective pretext tasks. In addition, the multi-view learning framework within the SSL is reviewed and discussed. Based on this framework, a novel method is proposed for learning minimal sufficient representation. Finally, future research directions of SSL are discussed.
+  PQE Committee
+  Chairperson: Dr Xin WANG(AI)
+  Committee Members:
+  Prof. Yuan YAO (Prime Supervisor)
+  Prof. Lianwen ZHANG (Co-Supervisor)
+  Dr. Wenjia WANG (DSA)
+  Date
+  26 October 2023
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID: 863 0445 5450
+  Passcode: 2023
+  Email
+  dsarpg@hkust-gz.edu.cn

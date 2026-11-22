@@ -1,0 +1,40 @@
+dsa_page: Towards Diverse, Informative and Robust Natural Language Generation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/12/02/towards-diverse-informative-and-robust-natural-language-generation/
+source: DSA
+
+headings:
+  - Towards Diverse, Informative and Robust Natural Language Generation
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Diverse, Informative and Robust Natural Language Generation
+  Share to
+  ABSTRACT
+  Deep neural networks have shown remarkable effectiveness in natural language generation (NLG) tasks (e.g., text continuation and dialog generation). However, there is still a noticeable quality difference between human-written and machine-generated text. Current NLG models often produce text that lacks diversity and information, and they are incapable of achieving robust performance in low-resource data settings.
+  In this talk, I will present my efforts towards developing new principled modeling and learning frameworks for human-like text generation. First, I will present a new framework that learns with a semantic latent space for generating diverse text. Different formulations and training methods can be instantiated to learn a proper semantic latent space and obtain significant improvements in diversity. Next, I will introduce our research on exploring and exploiting useful knowledge for informative text generation. Third, I will present a unified view of data augmentation for the purpose of building robust generation models. It allows us to formulate the problem of data augmentation for general text generation models without any use of augmented data mapping functions. Finally, I will conclude with a blueprint for the next-level NLG systems.
+  SPEAKER BIO
+  Wei BI
+  Principal Researcher
+  Tencent AI Lab
+  Dr. BI Wei is a principal researcher at Tencent AI Lab. She received her Ph.D. in Computer Science and Engineering from the Hong Kong University of Science and Technology in 2015. She is an awardee of the Google Ph.D. Fellowship in 2013 and the Google Anita Borg Scholarship in 2014. Her research interests lie in the broad areas of machine learning, natural language processing, and artificial intelligence. In particular, she is interested in developing principles, methodologies, and AI systems to learn with rich content (data, knowledge, symbolic rules, rewards, etc.), and their applications in natural language generation. Her proposed models have been deployed to support many Tencent's products, including dialog systems, virtual humans, and Tencent games.
+  Date
+  05 December 2022
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  950 5762 1601
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

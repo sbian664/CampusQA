@@ -1,0 +1,40 @@
+dsa_page: Algorithms for Combinatorial and Corrupted Bandits, and Beyond – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/07/22/algorithms-for-combinatorial-and-corrupted-bandits-and-beyond/
+source: DSA
+
+headings:
+  - Algorithms for Combinatorial and Corrupted Bandits, and Beyond
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Algorithms for Combinatorial and Corrupted Bandits, and Beyond
+  Share to
+  ABSTRACT
+  The multi-armed bandit problem (MAB) is a popular model for online decision making that elucidates the dilemma between exploration and exploitation. In this talk, I will discuss several generalizations of the standard MAB problem. Firstly, the prevalence of online recommender systems motivates us to revisit the cascading bandit model, an instance of a combinatorial bandit model. The second topic concerns stochastic bandits with adversarially corrupted observations. For both scenarios, we provide analysis of efficient algorithms and show that they almost match their lower bounds. This talk will also discuss some of my current and future works including risk-aware bandits, bandits applied to wireless communications, and gradient bandit algorithms.
+  SPEAKER BIO
+  Zixin ZHONG
+  Postdoctoral Fellow
+  University of Alberta
+  Zixin Zhong was born in China in 1995. She is a postdoctoral fellow at the Department of Computing Science of the University of Alberta and is supervised by Prof. Csaba Szepesvári. Dr. Zhong received her PhD degree from the Department of Mathematics of the National University of Singapore (NUS) in October 2021 and won the Louis Chen Hsiao Yun Best Dissertation Prize, which is awarded annually to the NUS student with the best Ph.D. thesis in mathematics and its applications. Zixin was privileged to be supervised by Prof. Vincent Y. F. Tan and Prof. Wang Chi Cheung during her PhD study and she worked with them as a research fellow between June 2021 and July 2022.
+  Dr. Zhong’s research interests are in reinforcement learning, online machine learning and, in particular, multi-armed bandits. Her work has been presented at top machine learning (ML) conferences including ICML and AISTATS, and in top ML journals such as the Journal of Machine Learning Research (JMLR). She also serves as a reviewer for several conferences and journals including (in alphabetical order) AISTATS, ICLR, ICML, NeurIPS, TIT, TSP, and TMLR. She was recognized as a top reviewer for NeurIPS 2022.
+  Date
+  24 July 2023
+  Time
+  10:30:00 -
+  12:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  881 3813 3624
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

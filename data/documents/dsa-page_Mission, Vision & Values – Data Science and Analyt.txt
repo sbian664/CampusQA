@@ -1,0 +1,30 @@
+dsa_page: Mission, Vision & Values – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/mission-vision-values/
+source: DSA
+
+headings:
+  - Our Mission
+  - Our Vision
+  - Our Values
+
+text: >
+  Our Mission
+  Data Science and Analytics Thrust is dedicated to cultivating a dynamic learning environment that empowers students with the knowledge, skills, and ethical values necessary to excel in the rapidly evolving field of data science. Our mission involves fostering interdisciplinary collaboration, advancing cutting-edge research, and promoting data-driven decision-making to address complex challenges and create positive societal impact. Through rigorous academic programs, innovative research endeavors, and meaningful engagement with industry and community partners, we aim to shape the future of data science and analytics and empower our graduates to drive innovation and transformation across diverse domains.
+  Our Vision
+  We envision a future where data-driven insights and technologies drive positive change, addressing pressing challenges in areas such as healthcare, sustainability, finance, and social justice. By nurturing a culture of curiosity, collaboration, and ethical responsibility, we aspire to empower our students and faculty to push the boundaries of knowledge, foster innovation, and contribute meaningfully to the advancement of data science and analytics for the betterment of society.
+  Our Values
+  ● EXCELLENCE
+  : We are committed to maintaining the highest standards of academic and research excellence in the field of data science and analytics.
+  ● INNOVATION
+  : We embrace a culture of continuous innovation, encouraging creative thinking and pushing the boundaries of what is possible.
+  ● ETHICAL RESPONSIBILITY
+  : We uphold ethical values in our research, education, and engagement activities, ensuring the responsible and ethical use of data.
+  ● INTERDISCIPLINARY COLLABORATION
+  : We foster collaboration among experts in statistics, machine learning, optimization, and related fields to create a multidisciplinary approach that enriches our understanding and application of data science.
+  ● SOCIETAL IMPACT
+  : We are dedicated to addressing real-world challenges, making a positive impact on society, and contributing to the betterment of global and local communities.
+  ● COMMUNITY ENGAGEMENT
+  : We actively engage with industry partners, community stakeholders, and diverse perspectives to enrich the learning experience and enhance the relevance of our research.
+  ● CONTINUOUS LEARNING
+  : We encourage a culture of lifelong learning, providing opportunities for students and faculty to stay abreast of the latest advancements and trends in the dynamic field of data science.
+  By aligning with these values, Data Science and Analytics Thrust aims to cultivate a community that not only excels academically but also makes enduring contributions to the advancement of data science for the greater good.

@@ -1,0 +1,92 @@
+dsa_page: 2022 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/28/2022-2/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2022 Cohort
+  Day: March 28, 2024
+  Browse: 652
+  Share to
+  CHEN, Lin
+  PhD (DSA)
+  CHEN, Nuo
+  PhD (DSA)
+  CHEN, Xiaolong
+  PhD (DSA)
+  CHEN, Zhuoyang
+  PhD (DSA)
+  FAN, Ruibo
+  PhD (DSA)
+  HAN, Xu
+  PhD (DSA)
+  HAO, Jianing
+  PhD (DSA)
+  HUANG, Suizi
+  PhD (DSA)
+  HUANG, Yongzhi
+  PhD (DSA)
+  JIANG, Juyong
+  PhD (DSA)
+  LI, Guanghua
+  PhD (DSA)
+  LI, Zhihao
+  PhD (DSA)
+  LIU, Hanfeng
+  PhD (DSA)
+  LIU, Yuchen
+  PhD (DSA)
+  LUO, Weile
+  PhD (DSA)
+  MA, Chunming
+  PhD (DSA)
+  NIU, Yifan
+  PhD (DSA)
+  QIU, Minghui
+  PhD (DSA)
+  SONG, Yifan
+  PhD (DSA)
+  TANG, Song
+  PhD (DSA)
+  WANG, Liping
+  PhD (DSA)
+  WANG, Ruoqi
+  PhD (DSA)
+  YANG, Mingyu
+  PhD (DSA)
+  YE, Jiexia
+  PhD (DSA)
+  ZHANG, Jiawen
+  PhD (DSA)
+  ZHANG, Lingzheng
+  PhD (DSA)
+  ZHOU, Peilin
+  PhD (DSA)
+  ZHU, Xinyi
+  PhD (DSA)
+  ZHU, Zhenyi
+  PhD (DSA)
+  FU, Yihao
+  PhD (DSA)
+  LI, Chuyi
+  PhD (DSA)
+  PENG, Xuemei
+  PhD (DSA)
+  WANG, Hao
+  PhD (DSA)
+  YU, Holam
+  PhD (DSA)
+
+links:
+  - CHEN, Nuo | https://nuochenpku.github.io/
+  - CHEN, Xiaolong | https://chenxlong.top/about/
+  - CHEN, Zhuoyang | https://www.linkedin.com/in/zhuoyang-chen-b9b4011a1/
+  - HAO, Jianing | https://catherinehao.github.io/
+  - HUANG, Yongzhi | https://www.huangyongzhi.com.cn/
+  - LI, Zhihao | https://www.lizhihao.me/
+  - LUO, Weile | https://luowle.tech/
+  - NIU, Yifan | https://nyf0808.github.io/
+  - WANG, Ruoqi | https://wang-rq.github.io/
+  - ZHANG, Jiawen | https://imjiawen.com/

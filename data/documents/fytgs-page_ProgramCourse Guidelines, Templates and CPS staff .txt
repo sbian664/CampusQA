@@ -1,0 +1,58 @@
+fytgs_page: Program/Course Guidelines, Templates and CPS (staff only)
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/guidelines
+source: FYTGS
+
+headings:
+
+text: >
+  Program/Course Proposal Submission
+  Approval of Postgraduate Programs and Courses
+  Guiding Principles for the Development of TPg Programs
+  Framework for Postgraduate Non-degree Qualifications
+  Policy on Fee, Revenue Contribution and Remuneration for TPg Programs
+  (
+  Attachment 1
+  ,
+  Attachment 2
+  )
+  Credit Transfer Arrangement under the Integrated Bachelor-Master Pathway
+  (
+  Sample Intention Form
+  )
+  Offering of Special Topics Courses
+  Program Forms
+  Introduction of a PG Program
+  (New)
+  Introduction of a PG Program – Details of the Proposed Program
+  (New)
+  Introduction of a PG Program – Annex 1 (Projected Income and Expenditure Statement)
+  (New)
+  Changes to an Existing PG Program
+  (New)
+  Suspension/Closure of a PG Program
+  (New)
+  Course Forms
+  Introduction of a PG Course
+  (New)
+  Change/Deletion of a PG Course
+  (New)
+  Committee on Postgraduate Studies (CPS)
+
+links:
+  - Approval of Postgraduate Programs and Courses | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/06/Approval-of-Postgraduate-Programs-and-Courses.pdf
+  - Guiding Principles for the Development of TPg Programs | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/09/Guiding-Principles-for-the-Development-of-Taught-Postgraduate-Programs.pdf
+  - Framework for Postgraduate Non-degree Qualifications | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/11/Framework-for-Postgraduate-Non-degree-Qualifications.pdf
+  - Policy on Fee, Revenue Contribution and Remuneration for TPg Programs | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/08/Policy-on-Fee-Revenue-Contribution-and-Remuneration-for-TPg-Programs_202608.pdf
+  - Attachment 1 | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/08/Attachment-1.docx
+  - Attachment 2 | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/08/Attachment-2.docx
+  - Credit Transfer Arrangement under the Integrated Bachelor-Master Pathway | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/07/1.2-Guidelines_on_Integrated_Bachelor_Master_Pathway.pdf
+  - Sample Intention Form | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/05/Sample-intention-form-for-Integrated-Bachelor-Master-Pathway-GZ_May-2024.pdf
+  - Offering of Special Topics Courses | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/04/1.3-Offering_of_Special_Topics_Courses.pdf
+  - Introduction of a PG Program | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_Program_new_Introduction_202607.docx
+  - Introduction of a PG Program – Details of the Proposed Program | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_program_new_Attachment_202607.docx
+  - Introduction of a PG Program – Annex 1 (Projected Income and Expenditure Statement) | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Introduction-of-a-PG-Program-–-Annex-1-Projected-Income-and-Expenditure-Statement.xlsx
+  - Changes to an Existing PG Program | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_Program_change_202607.docx
+  - Suspension/Closure of a PG Program | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_Program_deletion_202607.docx
+  - Introduction of a PG Course | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_Course_new_202607.docx
+  - Change/Deletion of a PG Course | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/PG_Course_change_delete_202607.docx
+  - Committee on Postgraduate Studies (CPS) | https://fytgs.hkust-gz.edu.cn/internal-resources/guidelines/committee-on-postgraduate-study-cps

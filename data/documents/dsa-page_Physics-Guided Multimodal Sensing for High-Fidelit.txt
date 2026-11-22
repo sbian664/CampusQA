@@ -1,0 +1,57 @@
+dsa_page: Physics-Guided Multimodal Sensing for High-Fidelity Physical World Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/physics-guided-multimodal-sensing-for-high-fidelity-physical-world-modeling/
+source: DSA
+
+headings:
+  - Physics-Guided Multimodal Sensing for High-Fidelity Physical World Modeling
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Physics-Guided Multimodal Sensing for High-Fidelity Physical World Modeling
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Lin CHEN
+  ABSTRACT
+  High-fidelity modeling of the physical world—capturing the intricate dynamics of human states, interactions, and environmental changes—is a cornerstone of modern data science and ubiquitous computing. However, raw sensory signals are often ambiguous, sparse, and heavily coupled with environmental noise, making physical reconstruction a highly ill-posed inverse problem. This thesis proposes a unified paradigm of
+  Physics-Guided Multimodal Sensing
+  , which integrates fundamental physical laws, structural priors, and cross-modal knowledge transfer to reconstruct precise physical representations from heterogeneous data sources.
+  We validate this framework through three progressive studies that scale outward from the fundamental human unit, to human-environment interaction, and finally to complex macro-scale natural systems:
+  -
+  Micro-Scale Human Modeling (Sensing Life in Stillness):
+  Our journey begins at the micro-scale, focusing on the human body itself. To address the motion-dependency of RF-sensing, we leverage a cross-modal training strategy where high-fidelity visual information guides a radar-based model to capture subtle biomechanical vibrations. By injecting physical constraints into this vision-to-radar knowledge transfer, we achieve unified 3D human mesh reconstruction using only a single mmWave radar. This effectively allows us to “see” life in apparent stillness, providing a foundation for contactless rehabilitation and physiological monitoring.
+  -
+  Spatial-Scale Interaction Modeling (Wandatch):
+  Scaling outward from the body to the peripersonal space, we explore how humans interact with their immediate surroundings. To enable precise, infrastructure-free control, we present Wandatch. This work models the geometric relationship between users and Internet of Things (IoT) devices by fusing acoustic ranging and inertial signals from commodity smartwatches and speakers. Through physics-driven kinematic and acoustic localization, we reconstruct high precision interaction rays, demonstrating that multi-source coordination can create seamless point-to-command interfaces without dense instrumentation.
+  -
+  Macro-Scale Environmental Modeling (RainSeer):
+  Finally, we scale our physics-guided sensing paradigm to chaotic, large-scale natural environments. To tackle the non-linear complexity of meteorological systems, we present RainSeer. By embedding spatiotemporal physical priors—such as advection-driven propagation and structural alignment—into a deep learning model that integrates weather radar echoes and ground station observations, we achieve fine-grained reconstruction of kilometer-level rainfall fields. This proves the scalability and generalizability of our physics-guided approach, extending it from micro-vibrations to planetary-scale phenomena.
+  Collectively, these works demonstrate that embedding physical laws into data-driven models fundamentally bridges the gap between raw, low-dimensional wireless signals and the high dimensional, complex physical reality.
+  TEC
+  Chairperson: Prof Ge Lin KAN
+  Prime Supervisor: Prof Kaishun WU
+  Co-Supervisor: Prof Yicong CHEN
+  Examiners:
+  Prof Yanlin ZHANG
+  Prof Yuxuan LIANG
+  Prof Mingming FAN
+  Prof Xu CHEN
+  Date
+  03 June 2026
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E3-202, HKUST(GZ)
+  Event Organizer
+  Data Science ana Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

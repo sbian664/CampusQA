@@ -1,0 +1,27 @@
+dsa_page: Robust Self-Supervised Learning with Applications in Multiple Domains – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/27/robust-self-supervised-learning-with-applications-in-multiple-domains/
+source: DSA
+
+headings:
+  - Robust Self-Supervised Learning with Applications in Multiple Domains
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Robust Self-Supervised Learning with Applications in Multiple Domains
+  Share to
+  ABSTRACT
+  The rapid advancement of self-supervised learning, particularly contrastive learning, has enabled remarkable progress in visual representation learning without relying on manual annotations. However, existing contrastive learning frameworks face critical challenges such as overfitting in high-dimensional spaces, false negative pairs, and the difficulty of capturing consistent relational structures across data. These issues limit the robustness and generalization capability of contrastive models, especially when applied to complex real-world tasks. To address these challenges, this talk presents a series of methodological innovations aimed at improving the reliability of contrastive learning. Specifically, we will introduce low-dimensional contrastive learning to mitigate the curse of dimensionality, a large-margin contrastive learning approach with distance polarization regularization to enhance discrimination, and a high-order difference regularization technique based on cross total variation to capture consistent relational patterns. Building on these advances, we will further demonstrate their practical impact across multiple application domains, including zero-shot recognition, multi-view learning, and few-shot learning with long-tailed labels. Together, these contributions pave the way toward more robust, generalizable, and application-ready self-supervised learning systems.
+  SPEAKER BIO
+  Shuo Chen is currently an Associate Professor in the School of Intelligence Science and Technology at Nanjing University. Before that, he was a Postdoctoral Researcher and Research Scientist at RIKEN Center for Advanced Intelligence Project (RIKEN-AIP) Japan from 2020 to 2024. He received his doctoral degree from Nanjing University of Science and Technology in 2020, and he was a CSC visiting student at the University of Pittsburgh USA from 2018 to 2019. His research interests mainly include machine learning and pattern recognition, in particular, self-supervised learning and metric learning. He has published more than 50 technical papers at top-tier conferences such as NeurIPS, ICML, ICLR, CVPR, etc., and prominent journals such as IEEE T-PAMI, IEEE T-IP, IEEE T-NNLS, etc. He has served as the Area Chair (AC) or Senior Area Chair (SAC) of NeurIPS, ICML, ICLR, CVPR, ECCV, AAAI, and IJCAI over 20 times, and also served as the Action Editor (AE) for several journals such as Neural Network. He won the Excellent Achievement Award of RIKEN, the Excellent Doctoral Dissertation Award of Chinese Institute of Electronics (CIE), and the Excellent Doctoral Dissertation Nomination of Chinese Association for Artificial Intelligence (CAAI).
+  Date
+  31 March 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  Rm 101, W1, HKUST(GZ)

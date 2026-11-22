@@ -1,0 +1,34 @@
+dsa_page: A Survey on Ground-level Visual Geolocalization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/a-survey-on-ground-level-visual-geolocalization/
+source: DSA
+
+headings:
+  - A Survey on Ground-level Visual Geolocalization
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Ground-level Visual Geolocalization
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss LI Ling
+  Abstract
+  Ground-level Visual Geolocalization seeks to determine the geographic location of an image based solely on its visual content. While early methods relied on recognition-based techniques such as image classification and retrieval, recent advances have introduced models that incorporate contextual understanding and reasoning. This survey provides a comprehensive overview tracing the evolution from handcrafted features and deep learning models to recent reasoning-driven frameworks powered by large vision-language models (LVLMs). We categorize existing approaches into classification-based, retrieval-based, reasoning-based, and hybrid methods, providing an overview of their methodological characteristics and representative techniques. We also examine recent trends in both dataset construction and modeling frameworks, highlighting the need for high-quality, reasoning-compatible data and the growing role of LVLMs in inference and training. Finally, we outline open challenges and future directions focused on scalable data curation, effective training strategies, and the design of geolocalization systems that are accurate, interpretable, and robust across real-world conditions.
+  PQE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. WEI Jiaheng
+  Co-Supervisor: Prof. TSUNG Fugee
+  Examiner: Prof. LIANG Yuxuan
+  Date
+  11 June 2025
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-147 (HKUST-GZ)

@@ -1,0 +1,31 @@
+dsa_page: Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/%e5%b7%a5%e4%b8%9a%e5%9c%ba%e6%99%af%e4%b8%8b%e5%9f%ba%e4%ba%8e%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e7%9a%84%e6%97%b6%e9%97%b4%e5%ba%8f%e5%88%97%e5%bc%82%e5%b8%b8%e7%9b%91%e6%b5%8b%e4%b8%8e%e8%af%8a/
+source: DSA
+
+headings:
+  - Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios
+  - Abstract
+  - Project members
+  - Fugee TSUNG
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios
+  Abstract
+  With the development of digital transformation in the industry, time series data under industrial scenarios presents characteristics of high dimensionality, large volume, and strong nonlinearity, which brings enormous challenges for industrial system anomaly monitoring, detection, and diagnosis. Deep learning-based time series anomaly detection models have been developed in recent years. However, the current research does not utilize the rich domain prior knowledge in industrial scenarios when performing anomaly monitoring and poorly models the temporal autocorrelation among time-series data. Besides, black-box models such as deep learning have low interpretability, making it challenging to accurately locate and trace anomalies in industrial deployment. This project will propose a new framework for industrial time series anomaly detection and diagnosis based on the above gaps. Specifically, the project first incorporates domain expert knowledge into anomaly measurement-oriented model design and models the temporal correlation of anomaly scores based on statistical process control to give accurate anomaly determinations. Further, the project will learn causality in deep learning models based on data augmentation strategies to achieve anomaly localization and diagnosis. The project will give a professional, efficient, stable, and interpretable solution for time series anomaly detection and diagnosis under industrial scenarios through an innovative framework design.
+  Technology Roadmap
+  Project members
+  Fugee TSUNG
+  Chair Professor
+  Project Period
+  2024/1/1-2027/12/31
+  Research Area
+  Industrial and Business Analytics, Statistical Learning and Modeling, Data-driven AI & Machine Learning
+  Keywords
+  Data-Driven Process modeling; Industrial Data Analytics; Anomaly Detection and Diagnosis; Time Series Data Stream
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season

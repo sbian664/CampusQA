@@ -1,0 +1,43 @@
+dsa_page: DSA Thrust Information Sessions @ Renmin University of China – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/dsa%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e4%b8%ad%e5%9b%bd%e4%ba%ba%e6%b0%91%e5%a4%a7%e5%ad%a6%e4%b8%93/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Renmin University of China
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Renmin University of China
+  Share to
+  Date
+  16 April 2024
+  Time
+  18:00:00 -
+  19:30:00
+  Location
+  中国人民大学信息楼四层报告厅
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/1zBoUxnUyB0ABOCMEyNMZw?poc_token=HNgzHmajn8Sw0nN6BclUcOxRgp2rSALPOez8fYeg
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

@@ -1,0 +1,35 @@
+dsa_page: The Language of Dynamics:Learning Neural Representations of Time Series Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/19/the-language-of-dynamicslearning-neural-representations-of-time-series-data/
+source: DSA
+
+headings:
+  - The Language of Dynamics:Learning Neural Representations of Time Series Data
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  The Language of Dynamics:Learning Neural Representations of Time Series Data
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Exam
+  By Mr ZHONG,
+  Siru
+  Abstract
+  Learning neural representations of time series data treats temporal observations as a language,one spoken not by people but by physical systems.This survey examines the landscape of temporal representation learning through five lenses:tokenization,the definition of a dynamical vocabulary;architectural evolution from recurrent to attention-based and neuro-cognitive designs;spatiotemporal extensions with emphasis on earth science;agent-oriented world models progressing from passive forecasting to active decision-making;and neuro-cognitive perspectives that connect predictive coding,neural manifolds,and hippocampal replay to artificial temporal intelligence.Foundation models represent a prominent paradigm within this landscape,but they are not its entirety;we trace a broader arc from classical statistical methods through deep learning architectures to the emergent frontier of large-scale pretrained models.We identify critical bottlenecks.Time series benchmarks are orders of magnitude smaller than their NLP counterparts.Evaluation protocols remain simple,static,and blind to exogenous variables that shape real-world dynamics.The gap between correlation-based forecasting and causal understanding persists.We argue that the path forward lies in neuro-cognitively grounded representation learning at the scale of earth system science,where extreme events,multi-scale dynamics,and physical constraints converge to test whether learned representations can genuinely speak the language of dynamics.
+  TPE Committee
+  Chair: Prof. Jeffrey Xu Yu
+  Prime Supervisor: Prof. Yuxuan Liang
+  Co-Supervisor: Prof. Yang Yue
+  Examiner: Prof. Jia Li
+  Date
+  20 May 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201 (HKUST-GZ)
