@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Dou Shen
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Executive Vice President, Baidu | H-Index: 28

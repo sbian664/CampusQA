@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Tao MEI
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Vice President with JD.com and the Deputy | Managing Director of JD AI Research | H-Index: 78

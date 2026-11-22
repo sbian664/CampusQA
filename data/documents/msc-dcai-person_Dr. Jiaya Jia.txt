@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Jiaya Jia
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Founder and Chairman, SmartMore | H-Index: 79

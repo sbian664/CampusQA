@@ -1,0 +1,209 @@
+msc_dcai_page: HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/
+source: MSc DCAI
+
+headings:
+  - Master of Science in Data-Centric Artificial Intelligence Technology (MSc DCAI)
+  - Study Flow in MSc DCAI
+  - Courses
+  - Yuxuan LIANG
+  - Assistant Professor
+  - Jiaheng WEI
+  - Lei ZHU
+  - Zixin ZHONG
+  - Yongqi ZHANG
+  - Yanlin ZHANG
+  - Wei ZENG
+  - Weikai YANG
+  - Zeke XIE
+  - Jun XIA
+  - Dr. Zhengyou ZHANG
+  - Dr. Jiaya Jia
+  - Dr. Tao MEI
+  - Dr. Dacheng Tao
+  - Dr. Dou Shen
+  - Dr. Jieping Ye
+  - Dr. Hang Li
+  - Dr. Jing Xiao
+  - Alumni Outcome
+
+text: >
+  Master of Science in Data-Centric Artificial Intelligence Technology
+  (MSc DCAI)
+  MSc DCAI
+  Program
+  Introduction
+  General Information on MSc DCAI
+  Master of Science in Data-Centric Artificial Intelligence Technology (MSc DCAI)
+  Full-time and Part-time
+  » Duration
+  Full-time: 2 yrs
+  Part-time: 3 yrs
+  » Total no. of credits
+  39 credits/program
+  » Medium of Instruction
+  English
+  Face-to-face mode of delivery
+  (*Some courses may be delivered in mixed mode to allow in-need students to attend the courses
+  via real-time online mode.)
+  Degree awarded
+  Master of Science (MSc), The Hong Kong University of Science and Technology
+  Program Features
+  The MSc in Data-Centric Artificial Intelligence Technology (MSc DCAI) program at the Hong Kong
+  University of Science and
+  Technology (Guangzhou) is
+  the first MSc program in Asia to implement a dual
+  supervision system and to provide each student with a year-long internship in industry.
+  A year-long internship
+  at a variety of prestigious
+  organizations or companies around the world, such as Alibaba, Huawei, MSRA, Samsung, NAVER, etc.
+  Dual supervision system
+  allows each student to have an
+  academic supervisor from HKUST & HKUST (GZ), and an industrial supervisor including vice
+  presidents, chief scientists, and directors of leading technology enterprises.
+  Program Objectives
+  Educate students with academic literacy in
+  big data and AI.
+  Provide students with hands-on experience to work on
+  industry-level independent projects and
+  internships
+  under the guidance of technology leaders from leading enterprises worldwide.
+  Enables students to apply learning to practice, empowering students to be skilled
+  technology
+  leaders and successful big data and AI professionals
+  in the fast-changing business environment.
+  Intended Learning Outcomes
+  Develop advanced knowledge and understanding of
+  state-of-the-art big data and AI technologies
+  and analysis methods
+  , such as Data Mining, AI/ Deep Learning, Data Science and Engineering
+  (Database, Hadoop, HDFS, MLOps), Algorithms, Probabilistic Graphical Models (GNN).
+  Perform various industry
+  data analytics tasks
+  using big data, AI, and computing techniques.
+  Exercise independent thinking and demonstrate critical analytical skills essential from
+  the
+  perspective of big data and AI
+  .
+  Investigate existing problems in big data and AI and conduct original big data and AI research
+  independently with in-depth knowledge and practical experience to
+  solve complex problems in the
+  industry
+  .
+  Apply a range of big data and AI knowledge and techniques effectively into
+  practice in the
+  academic field and industry
+  for robust data analytics and applications.
+  MSc DCAI
+  Curriculum
+  Study Flow in MSc DCAI
+  Timeline
+  Study Path (Full-time)
+  Study Path (Part-time)
+  View More
+  Courses
+  Compulsory Courses
+  Elective Courses (Partial)
+  View More
+  MSc DCAI
+  Our People
+  Academia Supervisors
+  Industrial Supervisors
+  Yuxuan LIANG
+  Assistant Professor
+  Thrust of Intelligent Transportation
+  Thrust of Data Science and Analytics
+  Jiaheng WEI
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Lei ZHU
+  Assistant Professor
+  Thrust of Robotics and Autonomous Systems
+  Thrust of Data Science and Analytics
+  Zixin ZHONG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Yongqi ZHANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Yanlin ZHANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Wei ZENG
+  Assistant Professor
+  Thrust of Computational Media and Arts
+  Thrust of Data Science and Analytics
+  Weikai YANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Computational Media and Arts
+  Zeke XIE
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Artificial Intelligence
+  Jun XIA
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  View More
+  Dr. Zhengyou ZHANG
+  Director of Robotics X, Tencent
+  H-Index: 99
+  Dr. Jiaya Jia
+  Founder and Chairman, SmartMore
+  H-Index: 79
+  Dr. Tao MEI
+  Vice President with JD.com and the Deputy
+  Managing Director of JD AI Research
+  H-Index: 78
+  Dr. Dacheng Tao
+  Senior VP, JD.com
+  H-Index: 133
+  Dr. Dou Shen
+  Executive Vice President, Baidu
+  H-Index: 28
+  Dr. Jieping Ye
+  Vice President and Chief Scientist, Beike
+  H-Index: 84
+  Dr. Hang Li
+  Director of AI Lab, ByteDance, Toutiao
+  H-Index: 69
+  Dr. Jing Xiao
+  Group Chief Scientist, Ping An Insurance
+  Company of China, Ltd
+  H-Index: 43
+  View More
+  Alumni Outcome
+  MSc DCAI
+  Cutting-edge Industrial Projects-based Lecture Series
+  View More
+  信息枢纽卓越系列讲座之二十四| 特邀嘉宾：腾讯AI Lab姚建华博士
+  信息枢纽卓越系列讲座之二十三| 特邀嘉宾：香港科技大学李默教授
+  Life @ HKUST(GZ)
+  HKUST(GZ) Campus
+  Sports Hall
+  Dormitory
+
+links:
+  - View More | https://msc-dcai.hkust-gz.edu.cn/curriculum/
+  - Yuxuan LIANG Assistant Professor Thrust of Intelligent Transportation Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang
+  - Jiaheng WEI Assistant Professor Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei
+  - Lei ZHU Assistant Professor Thrust of Robotics and Autonomous Systems Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu
+  - Zixin ZHONG Assistant Professor Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong
+  - Yongqi ZHANG Assistant Professor Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  - Yanlin ZHANG Assistant Professor Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  - Wei ZENG Assistant Professor Thrust of Computational Media and Arts Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng
+  - Weikai YANG Assistant Professor Thrust of Data Science and Analytics Thrust of Computational Media and Arts | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang
+  - Zeke XIE Assistant Professor Thrust of Data Science and Analytics Thrust of Artificial Intelligence | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie
+  - Jun XIA Assistant Professor Thrust of Data Science and Analytics | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia
+  - View More | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/
+  - View More | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+  - Alumni Outcome | https://msc-dcai.hkust-gz.edu.cn/curriculum/alumni-outcome/
+  - View More | https://msc-dcai.hkust-gz.edu.cn/category/seminar-series/
+  - https://mp.weixin.qq.com/s/9N4EYfSpZSxJNCJeD0GcjA | https://mp.weixin.qq.com/s/9N4EYfSpZSxJNCJeD0GcjA
+  - https://mp.weixin.qq.com/s/7ReuVffOBiitZceSk3pcjw | https://mp.weixin.qq.com/s/7ReuVffOBiitZceSk3pcjw
+  - https://mp.weixin.qq.com/s/co9pRhIk_U2xPE121tPTCw | https://mp.weixin.qq.com/s/co9pRhIk_U2xPE121tPTCw
+  - https://mp.weixin.qq.com/s/fetRkBQQngx2ADbMXkrXbw | https://mp.weixin.qq.com/s/fetRkBQQngx2ADbMXkrXbw
+  - Life @ HKUST(GZ) | https://www.hkust-gz.edu.cn/campus-life/
+  - HKUST(GZ) Campus | https://www.hkust-gz.edu.cn/about/campus-design/
+  - Sports Hall | https://www.hkust-gz.edu.cn/campus-life/facilities-services/sports-facilities/
+  - Dormitory | https://www.hkust-gz.edu.cn/campus-life/facilities-services/student-dormitories/
