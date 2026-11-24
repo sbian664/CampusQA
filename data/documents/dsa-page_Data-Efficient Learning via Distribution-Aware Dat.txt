@@ -1,0 +1,47 @@
+dsa_page: Data-Efficient Learning via Distribution-Aware Data Compression – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/18/data-efficient-learning-via-distribution-aware-data-compression/
+source: DSA
+
+headings:
+  - Data-Efficient Learning via Distribution-Aware Data Compression
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Data-Efficient Learning via Distribution-Aware Data Compression
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Mingyang CHEN
+  ABSTRACT
+  The rapid scaling of modern machine learning systems has shifted the central challenge from model design to data utilization. While ever-larger datasets have driven remarkable performance gains, training on full-scale data collections is increasingly costly and often unnecessary due to redundancy and uneven distributional structure. This thesis investigates
+  data-efficient learning
+  via data compression
+  , seeking principled mechanisms for reducing training data while preserving learning effectiveness. We advocate a distribution-aware perspective in which compressed data are evaluated not merely by how well they resemble the original dataset, but by how effectively they preserve the training utility of the full dataset. Concretely, this thesis develops three complementary studies spanning data synthesis, generation, and selection. First, we propose Adversarial Prediction Matching, a scalable formulation of dataset distillation that aligns prediction behavior between models trained on compressed and full datasets, achieving state-of-the-art performance with reduced memory overhead. Second, we introduce Influence-Guided Diffusion, a generative distillation paradigm that integrates influence-based guidance into diffusion sampling, enabling training-effective data generation in high-resolution regimes. Third, we establish Diffusion Reconstruction Deviation as a likelihood-sensitive criterion for core-set selection, providing a theoretically grounded and interpretable mechanism that achieves near full-dataset performance using substantially fewer samples on large-scale benchmarks. Together, these studies demonstrate that learning effectiveness is closely tied to how data are positioned within the underlying distribution, and that carefully modeled data compression can preserve much of the training utility of full datasets. By unifying synthesis, generation, and selection under a distribution-aware framework, this thesis provides both theoretical insights and practical tools for scalable and sustainable machine learning under limited data budgets.
+  TEC
+  Chairperson: Prof Pan HUI
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Minhao CHENG
+  Examiners:
+  Prof Zishuo DING
+  Prof Qiong LUO
+  Prof Zixuan YUAN
+  Prof Yifei ZHANG
+  Date
+  09 April 2026
+  Time
+  13:00:00 -
+  15:00:00
+  Location
+  E3-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

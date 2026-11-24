@@ -1,0 +1,34 @@
+dsa_page: Fine-grained Text-Visualization Integration:Enhancing Data Communication – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/fine-grained-text-visualization-integrationenhancing-data-communication/
+source: DSA
+
+headings:
+  - Fine-grained Text-Visualization Integration:Enhancing Data Communication
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Fine-grained Text-Visualization Integration:Enhancing Data Communication
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. WANG Liangwei
+  Abstract
+  Effective data communication hinges on the seamless integration of textual descriptions and visual representations. While numerous methods exist, a systematic understanding of fine-grained, element level coordination remains underdeveloped. This survey proposes a structured framework to analyze Visualization-Text Interplay (VTI) across three key paradigms: semantic linking, visualization-grounded text generation, and language-driven visualization synthesis. Through a 4W1H analytical lens, we review 33 representative systems from top-tier venues, examining their user motivations, scenarios, construction workflows, interaction mechanisms, and implementation strategies. Our findings reveal recurring design patterns and technical gaps that hinder broader adoption. We conclude by outlining directions for future research, calling for context-aware frameworks and multimodal models that can reason about semantic correspondences across modalities with greater flexibility and fidelity
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. TSUNG Fugee
+  Co-Supervisor: Prof. LUO Yuyu
+  Examiner: Prof. YANG Weikai
+  Date
+  11 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-148 (HKUST-GZ)

@@ -1,0 +1,34 @@
+dsa_page: Beyond Gaussian Likelihood: A Review of Generalized Gaussian Processes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/25/beyond-gaussian-likelihood-a-review-of-generalized-gaussian-processes/
+source: DSA
+
+headings:
+  - Beyond Gaussian Likelihood: A Review of Generalized Gaussian Processes
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Beyond Gaussian Likelihood: A Review of Generalized Gaussian Processes
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms LU, Xiaohan
+  Abstract
+  Gaussian processes (GPs) constitute a fundamental tool in Bayesian nonparametric modeling, offering closed-form inference under Gaussian likelihoods and benefiting from strong theoretical guarantees. However, this conjugacy assumption restricts their applicability to a limited range of data types. To overcome these constraints, generalized Gaussian processes (GGPs) have been developed, extending GPs to settings with non-Gaussian likelihoods. This survey traces the evolution of GGP methodologies, from early approximation-based techniques to recent advances in scalable and flexible inference. Rather than merely cataloging existing methods, we synthesize these developments into a unified framework that emphasizes the core statistical–computational trade-offs arising from the loss of conjugacy. We examine how these trade-offs emerge across different inference strategies, interact with structural and scalability extensions, and contribute to persistent challenges in practical applications. Finally, we contend that future progress in GGP research hinges on unified inference frameworks that can systematically reconcile flexibility, accuracy, and computational efficiency
+  PQE Committee
+  Chair of Committee: Prof. WANG, Xin
+  Prime Supervisor: Prof. WANG, Wenjia
+  Co-Supervisor: Prof. ZHONG, Zixin
+  Examiner: Prof. LI, Lei
+  Date
+  10 October 2025
+  Time
+  16:30:00 -
+  17:30:00
+  Location
+  E3-201 (HKUST-GZ)

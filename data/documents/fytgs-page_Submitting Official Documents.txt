@@ -1,0 +1,126 @@
+fytgs_page: Submitting Official Documents
+url: https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/submitting-official-documents
+source: FYTGS
+
+headings:
+  - Documents Checklist
+  - Degree Certificate
+  - Official Transcripts
+  - Grading System of Home Institution
+  - Proof of English Proficiency
+  - Acceptable Means for Submission
+  - Electronic Materials (most preferrable)
+  - Hardcopy Materials
+  - Tips
+
+text: >
+  Documents Checklist
+  Please prepare your documents for qualification verification referring to your checklist in the
+  Online Admission System
+  and the specific requirements below.
+  NOTE:
+  If the original documents are NOT in English or Chinese,
+  please send us the notarized English or Chinese translation. We understand that the notary/ governmental authority may not provide the direct delivery service to the third party, you can mail the documents to us.
+  Degree Certificate
+  Please provide your degree certificate or letter of graduation certification according to your state of graduation as follows:
+  Degree Certificate
+  (for graduates)
+  Degree Certificate should be provided by a
+  certified true copy of the degree certificate/ diploma.
+  (NOT required for submission if the degree award is explicitly specified in the transcript)
+  Alternatively, applicants from China’s mainland can provide Online Verification Report of Higher Education Degree Certificate (中国高等教育学位在线验证报告) issued by the
+  CHSI (中国高等教育学生信息网)
+  .
+  Letter of graduation certification
+  (for final year student)
+  Final year students with confirmed degree awards, but without available degree certificates/diplomas before HKUST(GZ) commences, may submit a graduation certification letter as proof. The letter should be issued by a central unit (e.g. Registry or equivalent) of your home institution.
+  The letter should include the following:
+  • Your name and identification information (e.g. date of birth, ID no., etc)
+  • The degree you will be awarded
+  • The date of conferment and (if applicable) award classification
+  • Letterhead of your home institution
+  • The name and position of the person authorized to issue the certificate
+  • Official stamp of your home institution
+  NOTE：For degrees from countries that do not follow the bachelor-master-doctoral system
+  , diploma supplement or other official document showing that the degree is at, or above bachelor’s degree level is required for submission.
+  Official Transcripts
+  Transcripts should be issued by a central unit (e.g. Registry or equivalent) of your home institution.
+  Alternatively, applicants from China’s mainland can provide Verification Report of China Higher Education Student’s Academic Transcript (中国高等学校学生成绩验证报告) issued by
+  CHSI (中国高等教育学生信息网)
+  .
+  Grading System of Home Institution
+  The explanation of the grading system is normally included on your final transcript. If not, please provide
+  a letter of GPA certification
+  issued by a central unit of your home institution (e.g. Registry or equivalent).
+  Alternatively, you can calculate your final GPA/grade/score and request your home institution to certify with official stamp and signature that it is accurate and complete.
+  Proof of English Proficiency
+  Please be advised to
+  arrange electronic score reports
+  sent directly by the issuing authority, and make sure that the qualified scores to be sent
+  have been entered
+  in the system before submitting the scores.
+  IELTS
+  • Name of institution:
+  The Hong Kong University of Science and Technology (Guangzhou)
+  • Name of department: Other departments(E results required Duxue Road Nansha District)
+  TOEFL
+  • DI Code: D315
+  Note:
+  1. You are not required to take the English Proficiency Test if you obtained a bachelor's degree (equivalent or above) from an institution where the medium of instruction was English.
+  2. As issuing authorities will not send reports for expired scores, it is important to arrange official reports to be sent
+  before the test score expires
+  , even if an admission offer has not been made.
+  Acceptable Means for Submission
+  Please provide your documents using one of the following means by the deadline stipulated in the offer letter.
+  ATTENTION:
+  Do NOT send us irreplaceable originals
+  . Please note that all documents submitted will NOT be returned.
+  Electronic Materials (most preferrable)
+  Please send the official electronic documents to
+  pgdocgz@hkust-gz.edu.cn
+  quoting your application number and applied program,
+  directly by the central unit
+  (e.g. Registry, Archives Department or equivalent) of your institution,
+  or via designated secure websites
+  (e.g.
+  CHSI (中国高等教育学生信息网)
+  ,
+  CSCSE (教育部留服认证)
+  , 可信电子成绩单, Gradintelligence, My eQuals, etc.)
+  .
+  Hardcopy Materials
+  If any electronic material is not available,
+  an official hard copy*
+  can be also accepted:
+  *An official hard copy is
+  i. a hard copy sent directly by your home institution to us, or
+  ii. hard copy in an envelope sealed and stamped by the institution (acceptable only if the issuing authority does not provide direct delivery service)
+  .
+  Please send to the following address with a mailing cover
+  stating your application number and program:
+  Mailing address in English
+  Postgraduate Outreach and Admissions
+  HKUST Fok Ying Tung Graduate School (Guangzhou)
+  The Hong Kong University of Science and Technology (Guangzhou)
+  No. 1 Duxue Road, Nansha District, Guangzhou City, Guangdong Province, P. R. China
+  P.C.: 511453
+  Tel.: +86-020-88331234
+  *
+  It is recommended to use SF Express (NOT SF Cityrush) or EMS to send hardcopy materials.
+  Mailing address in Chinese
+  收件人：研究生招生录取办公室
+  地址：广东省广州市南沙区东涌镇笃学路1号香港科技大学（广州）6A栋118铺菜鸟驿站
+  电话号码: +86-020-88331234
+  *
+  建议使用顺丰快递（非顺丰同城）或中国邮政寄速递送纸质材料
+  Tips
+  After submitting the documents, please check the most up-to-date document receipt status at the document checklist in the Online Admission System and take note of our remarks.
+  The document verification process may last long (around 10 working days) due to the excessive workload. If the document receipt status is not updated 7 days after the expected receipt date, please double check with the issuing authority or courier service provider and ensure that the mailing address is correct.
+
+tables:
+  - IELTS • Name of institution: The Hong Kong University of Science and Technology (Guangzhou) • Name of department: Other departments(E results required Duxue Road Nansha District) | TOEFL • DI Code: D315
+
+links:
+  - Online Admission System | https://fytgs.hkust-gz.edu.cn/admissions/apply-now
+  - CHSI (中国高等教育学生信息网) | https://www.chsi.com.cn/
+  - CSCSE (教育部留服认证) | https://portal.cscse.edu.cn/

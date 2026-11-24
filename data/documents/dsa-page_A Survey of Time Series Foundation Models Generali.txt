@@ -1,0 +1,43 @@
+dsa_page: A Survey of Time Series Foundation Models: Generalizing Time Series Representation with Large Language Model – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-of-time-series-foundation-models-generalizing-time-series-representation-with-large-language-model/
+source: DSA
+
+headings:
+  - A Survey of Time Series Foundation Models: Generalizing Time Series Representation with Large Language Model
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Time Series Foundation Models: Generalizing Time Series Representation with Large Language Model
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Jiexia YE
+  Abstract
+  Time series data are ubiquitous across various domains, making time series analysis critically important. Traditional time series models are task-specific, featuring singular functionality and limited generalization capacity. Recently, large language foundation models have unveiled their remarkable capabilities for cross-task transferability, zero-shot/few-shot learning, and decision-making explainability. This success has sparked interest in the exploration of foundation models to solve multiple time series challenges simultaneously. There are two main research lines, namely
+  pre-training foundation models from scratch for time series
+  and
+  adapting large language
+  foundation models for time series
+  . They both contribute to the development of a unified model that is highly generalizable, ersatile, and comprehensible for time series analysis. This survey offers a 3E analytical framework for comprehensive examination of related research. Specifically, we examine existing works from three dimensions, namely
+  Effectiveness
+  ,
+  Efficiency
+  and
+  Explainability
+  . In each dimension, we focus on discussing how related works devise tailored solution by considering unique challenges in the realm of time series.Furthermore, we provide a domain taxonomy to help followers keep up with the domain-specific advancements. In addition, we introduce extensive resources to facilitate the field’s development, including datasets, open-source, time series libraries. A GitHub repository is also maintained for resource updates (https://github.com/start2020/Awesome-TimeSeries-LLM-FM).
+  PQE Committee
+  Chairperson: Prof. Wei WANG
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Jia LI
+  Examiner: Prof Yuxuan LIANG
+  Date
+  04 June 2024
+  Time
+  14:50:00 -
+  16:05:00
+  Location
+  E1-147

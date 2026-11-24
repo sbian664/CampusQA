@@ -1,0 +1,55 @@
+dsa_page: Dynamical System Learning via Geometric Graph Neural Networks and Transformers – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/03/7913/
+source: DSA
+
+headings:
+  - Dynamical System Learning via Geometric Graph Neural Networks and Transformers
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Dynamical System Learning via Geometric Graph Neural Networks and Transformers
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yang LIU
+  ABSTRACT
+  Accurate modeling of dynamical systems, spanning molecular interactions to global weather patterns, is advancing fields like drug discovery, urban planning, and climate resilience. Traditional physics-based simulations, such as numerical weather prediction (NWP) and density functional theory (DFT), generally face prohibitive computational costs. Although data-driven models like graph neural networks (GNNs) and Transformers offer efficient solutions, they often neglect physical laws, such as continuity, symmetry, and geometric consistency, leading to unphysical predictions. Equivariant neural networks partially address these gaps by encoding symmetries, yet critical challenges persist: handling discrete symmetries in bounded systems, capturing second-order dynamics, eliminating spherical distortions, and modeling interactions between vector and scalar fields.
+  In this thesis, we introduce four frameworks to resolve these challenges. SEGNO unifies equivariant GNNs with neural ODEs to model continuous second-order trajectories (e.g., acceleration) in molecular and motion systems. DEGNN generalizes equivariance to discrete symmetries (e.g., highway reflections) via permutation-invariant message passing. CirT eliminates planar distortions in climate modeling through latitude-aligned circular patches and Fourier-based attention. EIMP disentangles interactions between rotation-equivariant vectors (e.g., wind) and invariant scalars (e.g., temperature) using symmetr-preserving dual embeddings.
+  Extensive experiments across molecular dynamics, traffic trajectories, and global climate systems validate the frameworks. SEGNO demonstrates superior trajectory accuracy in molecular dynamics and motion capture. DEGNN generalizes to unobserved orientations in traffic and molecular interfaces. CirT achieves state-of-the-art subseasonal forecasting with minimal polar distortions. EIMP aligns predictions with physical transformations for meteorological variables. Collectively, these models establish that embedding geometric principles, continuity, symmetry, spherical geometry, and field interactions into neural architectures ensures physically consistent and generalizable predictions across diverse dynamical systems.
+  TEC
+  Chairperson: Prof Mark Nicholas GRIMSHAW-AAGAARD
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiners:
+  Prof Qiong LUO
+  Prof Shangqi LU
+  Prof Jiaqiang HUANG
+  Prof Wenbing HUANG
+  Date
+  06 June 2025
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 965 0939 5528
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/96509395528?pwd=rQBJNPZCo6IGbSJqedhUVK7474vbxZ.1

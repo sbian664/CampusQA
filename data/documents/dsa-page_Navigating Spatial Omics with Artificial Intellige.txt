@@ -1,0 +1,41 @@
+dsa_page: Navigating Spatial Omics with Artificial Intelligence – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/26/navigating-spatial-omics-with-artificial-intelligence/
+source: DSA
+
+headings:
+  - Navigating Spatial Omics with Artificial Intelligence
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA & BSBE Joint Seminar
+  Navigating Spatial Omics with Artificial Intelligence
+  Share to
+  ABSTRACT
+  The emerging field of spatial omics, featured by high-resolution spatially-resolved transcriptomics and proteomics, offers unprecedented opportunities for investigating the organizations of molecules and cells in their native contexts. The voluminous and complex nature of the data necessitates the applications of artificial intelligence methods. This presentation will explore research projects that employ both supervised and unsupervised learning methods to decode the complex spatial omics data. Disease-relevant biological insights can be extracted from these AI-driven methodologies to inform future diagnostics and therapeutics. These efforts highlight the potential of broader applications of artificial intelligence tools to spatial omics in advancing the frontiers of biomedical research.
+  SPEAKER BIO
+  Zhenqin WU
+  Research Scientist
+  Enable Medicine
+  Dr. Zhenqin Wu is a research scientist at Enable Medicine, and he works on the development of novel computational tools to understand and interpret spatial omics. Zhenqin obtained his Ph.D. at Stanford University, advised by Prof. James Zou and Dr. Vijay Pande, during which he worked on artificial intelligence applications in various fields of computational biology.
+  Date
+  27 November 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  835 7465 8868
+  Passcode: dsabsbe
+  Event Organizer
+  Data Science and Analytics Thrust
+  Bioscience and Biomedical Engineering Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  bsbe@hkust-gz.edu.cn

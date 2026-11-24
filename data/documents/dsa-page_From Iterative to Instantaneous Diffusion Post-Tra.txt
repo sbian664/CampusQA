@@ -1,0 +1,42 @@
+dsa_page: From Iterative to Instantaneous: Diffusion Post-Training for Real-Time High-Quality Generation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/30/from-iterative-to-instantaneous-diffusion-post-training-for-real-time-high-quality-generation/
+source: DSA
+
+headings:
+  - From Iterative to Instantaneous: Diffusion Post-Training for Real-Time High-Quality Generation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+
+text: >
+  Final Defense
+  From Iterative to Instantaneous: Diffusion Post-Training for Real-Time High-Quality Generation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yihong LUO
+  ABSTRACT
+  Diffusion models have become the state-of-the-art paradigm for high-quality content generation, but their practical application is severely limited by the slow, iterative sampling process, which incurs substantial computational costs. This thesis focuses on "diffusion post-training," a series of innovative techniques based on post-training powerful pre-trained diffusion models for acceleration, enabling real-time, high-quality, and controllable generation. We aim to break the inherent trade-offs between generation speed and quality, enabling accelerated models can be applied in real-world tasks with strongperformance and versatility
+  This work presents three core contributions. First, to address the challenge of one-step generation, we propose YOSO (You Only Sample Once), a novel self-cooperative diffusion GAN hybrid model. By smoothing the adversarial divergence through a mechanism where the generator learns from its own refined outputs, YOSO achieves stable training and state-of-the-art performance in one-step text-to-image synthesis, effectively combining the speed of GANs with the quality of diffusion models.
+  Second, for scenarios requiring a better balance between speed and quality, we introduce TDM (Trajectory Distribution Matching) for few-step generation. TDM unifies trajectory distillation and distribution matching by aligning the student model’s generation trajectory with the teacher’s at the distribution level. This data-free approach not only achieves remarkable training efficiency but also produces results that surpass the original multi-step teacher model. Furthermore, we develop TDM-unify, which supports flexible, deterministic sampling across a variable number of steps.
+  Third, to enhance the versatility of accelerated models, we propose JDM (Joint Distribution Matching) for one-step controllable generation. JDM minimizes the reverse Kullback-Leibler (KL) divergence between joint image-condition distributions, which decouples fidelity learning from condition learning. This asymmetric framework uniquely enables a one-step student model to learn new controls (e.g., ControlNet, human feedback) that were unknown to the original teacher model, bypassing the need for costly retraining and re-distillation.
+  Collectively, the methods proposed in this thesis significantly advance the field of generative AI by making high-fidelity, real-time, and controllable content creation more efficient, accessible, and practical for real-world applications.
+  TEC
+  Chairperson: Prof Gareth TYSON
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Mingming FAN
+  Examiners:
+  Prof Lei LI
+  Prof Lei ZHU
+  Prof Yutao YUE
+  Prof Qian LIU
+  Date
+  30 January 2026
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E2-601, HKUST(GZ)

@@ -1,0 +1,19 @@
+fytgs_page: Conflict of Interest
+url: https://fytgs.hkust-gz.edu.cn/guidelines/conflict-of-interest
+source: FYTGS
+
+headings:
+
+text: >
+  1. A conflict of interest arises where the private interests of a staff member compete or conflict with the interests of the public body (i.e. the University in the current context) or his official duties. It is the responsibility of the staff members to avoid engaging in situations that may lead to or involve in any conflict of interest, whether it is actual, potential or perceived, and irrespective of whether it is direct or indirect.
+  2. In the context of student admission, a conflict of interest may arise where, for instance, a staff member who is involved in the admission process has a personal relationship with an applicant or with anyone connected to an applicant, or anyone to whom he owes a favor or is obligated in any way. Common examples include a member of the staff's immediate family, his/her spouse/partner, siblings, children or any other person with close relationship to him/her is seeking admission to the University; or a candidate is considered for admission to a postgraduate position funded by an external organization which is connected to the staff involved in the admission process or the candidate. Further, whilst the mere fact that an applicant used to be, or is, a student of a faculty may not in itself constitute a conflict, in cases where, for instance, a staff member is more acquainted with a particular applicant or certain applicants when compared to other students as a whole due to (a) his/her attendance at social activities with the applicant(s) (such as sports, games or outside-classroom gatherings), or (b) other engagement(s), such acquaintance which goes beyond usual teaching duties may give rise to a need to declare.
+  3. The above is a non-exhaustive list of examples as it is impossible to specify all scenarios where a conflict may arise. It is the responsibility of the staff member to be alert where a conflict may arise, be it actual, potential or perceived, and have it disclosed prior to his/her participation in the admission process.
+  4. In the event a conflict of interest arises, the staff member should immediately make full disclosure in writing to the chairperson of the selection board using the
+  Declaration Form for Conflict of Interest for Postgraduate Admissions
+  . A declaration of conflict/acquaintance does not necessarily preclude a staff member from participating in the admission process.
+  5. The duly signed Declaration Form should be submitted to HKUST(GZ) FYTGS at pgadmitgz@hkust-gz.edu.cn for review.
+  6.If any staff member is unsure whether his current/previous relationship or acquaintance with any applicant or persons connected thereto constitute a conflict of interest, please seek advice from the chairperson of the selection board.
+  7. On receiving the duly signed Declaration Form, FYTGS(GZ) shall review the situation and decide on a case-by-case basis as to whether or not the circumstances/relationship warrants a recusal, as well as the appropriate arrangement, such as excluding the staff member from participating in any stage of a student admission exercise. The completed Declaration Form will be kept for record of all the disclosures by FYTGS(GZ).
+
+links:
+  - Declaration Form for Conflict of Interest for Postgraduate Admissions | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/01/Declaration-of-Conflict-of-Interest-for-RPg.pdf

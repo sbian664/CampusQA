@@ -1,0 +1,88 @@
+msc_dcai_page: Academic Supervisor – 第 2 页 – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/
+source: MSc DCAI
+
+headings:
+  - Our People
+  - Yuyu LUO
+  - Assistant Professor
+  - Shangqi LU
+  - Lei LI
+  - Jia LI
+  - Xinlei HE
+  - Zhijiang GUO
+  - Huayi DUAN
+  - Juan DU
+  - Zishuo DING
+  - Ningning DING
+  - Fu-Gee TSUNG
+  - Chair Professor
+  - Jing TANG
+  - Program Director
+
+text: >
+  Our People
+  Academic Supervisor
+  Yuyu LUO
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Shangqi LU
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Lei LI
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Intelligent Transportation
+  Jia LI
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Division of Emerging Interdisciplinary Areas
+  Xinlei HE
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Internet of Things
+  Zhijiang GUO
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Huayi DUAN
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Juan DU
+  Assistant Professor
+  Thrust of Smart Manufacturing
+  Thrust of Data Science and Analytics
+  Zishuo DING
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Ningning DING
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Internet of Things
+  Fu-Gee TSUNG
+  Chair Professor
+  Thrust of Data Science and Analytics
+  Dept of Industrial Engineering and Decision Analytics
+  Jing TANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Program Director
+  MSC DCAI
+  1
+  2
+  3
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  - https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/ | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/
+  - 3 | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/

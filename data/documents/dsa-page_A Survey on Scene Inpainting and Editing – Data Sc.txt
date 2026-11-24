@@ -1,0 +1,34 @@
+dsa_page: A Survey on Scene Inpainting and Editing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/09/a-survey-on-scene-inpainting-and-editing/
+source: DSA
+
+headings:
+  - A Survey on Scene Inpainting and Editing
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Scene Inpainting and Editing
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms PAN,Jingyi
+  Abstract
+  Generative models have become an important tool in AI-generated content (AIGC). Scene inpainting and editing play key roles in AIGC, allowing modification and generation of content in images, videos, and 3D scenes. Recent advances in diffusion models and neural 3D representations, such as NeRF and 3D Gaussian Splatting, have enabled significant progress in reconstructing and editing complex scenes. This survey provides an overview of the field, covering basic concepts such as 3D representations, diffusion models, and optimization paradigms. We categorize existing works into four areas: image-, video-, and neural 3D-based scene inpainting and editing, and 3D reconstruction and generation. We review the strengths and limitations of current methods, with particular attention to the relatively underexplored area of 3D scene inpainting and editing. Key challenges include multi-view consistency, geometry-texture misalignment, and precise control over edits. We also discuss emerging trends, including feed-forward and generalizable pipelines, and the use of 2D generative priors to guide 3D inpainting and editing. Finally, we outline potential research directions, emphasizing the need for unified frameworks, efficient feed-forward architectures for scenes and human avatars, and improved multi-modal control
+  PQE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. LUO, Qiong
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. YU, Xu Jeffrey
+  Date
+  10 December 2025
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E3-201 (HKUST-GZ)

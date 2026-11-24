@@ -1,0 +1,35 @@
+dsa_page: Citamon, Digital Assets Sharing and Trading System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/citamon-digital-assets-sharing-and-trading-system/
+source: DSA
+
+headings:
+  - Citamon, Digital Assets Sharing and Trading System
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Citamon, Digital Assets Sharing and Trading System
+  Abstract
+  With the rapid development of the digital economy, people have a clear understanding of digital assets such as copyright, data ownership, and privacy. Meanwhile, the demand for digital asset ownership and use-right trading is growing. Besides, in the context of the new journey of building a socialist modern country in an all-around way, the national economic cycle continues to expand, and the interaction between individuals, organizations, schools, and academic institutions is increasingly frequent. The use and transaction of digital assets involved are huge in scale, rich in categories, and complex in structure, making issues related to the protection of digital assets’ rights and interests more prominent. To overcome the drawbacks of traditional centralized systems, including the complexity of right recognition, high cost and low efficiency of rights protection, and the hardness of protecting the rights and interests of individual owners, in this project, we design and develop a blockchain-based digital asset trading platform, especially for the academic digital asset (e.g., papers and datasets) to enable researchers to share their research results with the protection of their rights on the digital assets.
+  Video link
+  :
+  https://www.bilibili.com/video/BV18R4y1W7Uq?t=6.5
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-Present
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - https://www.bilibili.com/video/BV18R4y1W7Uq?t=6.5 | https://www.bilibili.com/video/BV18R4y1W7Uq?t=6.5
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/blockchain/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

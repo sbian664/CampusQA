@@ -1,0 +1,38 @@
+dsa_page: Computational 3D Genomics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/05/17/computational-3d-genomics/
+source: DSA
+
+headings:
+  - Computational 3D Genomics
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Computational 3D Genomics
+  Share to
+  ABSTRACT
+  The ever-increasing application of high-throughput omics assays in biology has led to a greater need for computational methods to effectively organize and interpret the complex results of biological experiments. Biologists cannot fully understand, for example, a genome sequence without appropriate computational tools. We, computer scientists, have made unprecedented contributions to the field of biology and healthcare. We made significant progress in structural biology by using graph neural networks to model protein structures and design drugs, and in gene regularization by using language models to model DNA sequences. Despite these achievements, there remains a vast amount of diverse data that requires analysis.
+  I aim to introduce the recent progress in computational 3D genomics in this seminar. Firstly, I will introduce a novel and foundational framework that I proposed for analyzing 3D genomics data, highlighting its three applications. Subsequently, I will delve into the principal approach of modeling 3D genomics data and elucidate how interaction frequencies can be inferred using Markov Chain Monte Carlo (MCMC) sampling. Finally, I will provide a concise overview of my recent contribution to citizen science as a computational 3D genomics researcher.
+  SPEAKER BIO
+  Yanlin ZHANG
+  Yanlin Zhang is a PH.D. candidate in the School of Computer Science at McGill University, under the guidance of Prof. Mathieu Blanchette. The government of Quebec funds his research. He obtained his Bachelor’s degree in Computer Science from the City University of Hong Kong in 2015. He also worked at Indiana University as a research assistant in 2014. His research lies broadly in computational biology with a recent focus on applied machine learning and genomics. His work on developing and applying the reference panel enabled data analytics framework significantly advances the state-of-the-art in computational 3D genomics. He has published papers in high-impact journals and conferences such as Nature Communications, Cell Reports, and the ISMB/ECCB conference. His research findings have a broad impact and have been covered by media outlets including BBC Future, and ScienceDaily.
+  Date
+  19 May 2023
+  Time
+  10:30:00 -
+  11:15:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  972 2237 8023
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

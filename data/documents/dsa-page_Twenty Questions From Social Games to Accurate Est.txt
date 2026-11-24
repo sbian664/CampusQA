@@ -1,0 +1,27 @@
+dsa_page: Twenty Questions: From Social Games to Accurate Estimation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/20/twenty-questions-from-social-games-to-accurate-estimation/
+source: DSA
+
+headings:
+  - Twenty Questions: From Social Games to Accurate Estimation
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Twenty Questions: From Social Games to Accurate Estimation
+  Share to
+  ABSTRACT
+  We establish fundamental limits on estimation accuracy for the noisy 20 questions problem with measurement- dependent noise and introduce optimal non-adaptive procedures that achieve these limits. The minimal achievable resolution is defined as the absolute difference between the estimated and the true locations of a target over a unit cube, given a finite number of queries constrained by the excess-resolution probability. Inspired by the relationship between the 20 questions problem and the channel coding problem, we derive non-asymptotic bounds on the minimal achievable resolution to estimate the target location. Furthermore, applying the Berry–Esseen theorem to our non- asymptotic bounds, we obtain a second-order asymptotic approxi- mation to the achievable resolution of optimal non-adaptive query procedures with a finite number of queries subject to the excess- resolution probability constraint. We specialize our second-order results to measurement-dependent versions of several channel models including the binary symmetric, the binary erasure and the binary Z- channels. As a complement, we establish a second- order asymptotic achievability bound for adaptive querying and use this to bound the benefit of adaptive querying.
+  SPEAKER BIO
+  Lin Zhou received the B.E. degree in information engineering from Shanghai Jiao Tong University in 2014 and the Ph.D. degree in electrical and computer engineering from the National University of Singapore in 2018. He is currently an Associate Professor in the School of Automation and Intelligent Manufacturing, Southern University of Science and Technology, Shenzhen, China. Previously, he was an Associate Professor in the School of Cyber Science and Technology, Beihang University, Beijing, China and a Research Fellow with the Department of Electrical Engineering and Computer Science, University of Michigan, Ann Arbor, MI, USA. His research interests include information theory, statistical inference, physical layer security, and wireless communications. He has authored two research monographs in the Foundations and Trends in Communications and Information Theory Series (NOW Publishers), and a book in the Textbooks in Telecommunication Engineering Series (Springer Publisher). He was recognized as the Young Scholar of the Chinese Information Theory Society in 2022. He has served as TPC members for flagship conferences including IEEE ISIT, SSP, ICCC and is currently serving as an Editor for IEEE Transactions on Communications.
+  Date
+  28 April 2026
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Rm 101, W1, HKUST(GZ)

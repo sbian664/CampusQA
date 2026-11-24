@@ -1,0 +1,30 @@
+dsa_page: Global Algorithms for Mean-Variance Optimization in Markov Decision Processes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/20/global-algorithms-for-mean-variance-optimization-in-markov-decision-processes/
+source: DSA
+
+headings:
+  - Global Algorithms for Mean-Variance Optimization in Markov Decision Processes
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Email
+
+text: >
+  DSA Seminar
+  Global Algorithms for Mean-Variance Optimization in Markov Decision Processes
+  Share to
+  ABSTRACT
+  Dynamic optimization of mean and variance in Markov decision processes (MDPs) is a long-standing challenge caused by the failure of dynamic programming. It can be widely applied to risk or safety control and optimization in many engineering fields, such as portfolio management in finance and safety control of renewable energy. In this talk, we introduce a new approach to finding the globally optimal policy for combined metrics of steady-state mean and variance in an infinite-horizon undiscounted MDP. By introducing the concepts of pseudo mean and pseudo variance, we convert the original problem to a bilevel MDP problem, where the inner one is a standard MDP optimizing pseudo mean-variance, and the outer one is a single-parameter selection problem optimizing pseudo mean. We use the sensitivity analysis of MDPs to derive the properties of this bilevel problem and develop a global algorithm to solve it. To the best of our knowledge, our algorithm is the first that efficiently finds the globally optimal policy of mean-variance optimization in MDPs. Our results are also valid for solely minimizing the variance metrics and can shed light on solving other varied forms of mean-variance MDPs.
+  SPEAKER BIO
+  Li Xia is a Professor with the School of Business, Sun Yat-Sen University, Guangzhou, China. He received the bachelor's and Ph.D. degrees in control theory from Tsinghua University, Beijing, China, in 2002 and 2007, respectively. Before joining Sun Yan-Sen University, he worked at IBM Research China, the King Abdullah University of Science and Technology, and Tsinghua University. His research interests include methodology research in Markov decision processes, reinforcement learning, queueing theory, stochastic games, and application research in energy, finance, logistics, etc. He serves/served as an Associate Editor of journals, including IEEE Transactions on Automation Science and Engineering, Discrete Event Dynamic Systems, etc.
+  Date
+  26 March 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102（HKUST-GZ)
+  Email
+  dsarpg@hkust-gz.edu.cn

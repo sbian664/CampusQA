@@ -1,0 +1,58 @@
+dsa_page: A SURVEY ON APPROACHES FORSOLVING ENTITY MATCHINGPROBLEMS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/27/a-survey-on-approaches-forsolving-entity-matchingproblems/
+source: DSA
+
+headings:
+  - A SURVEY ON APPROACHES FORSOLVING ENTITY MATCHINGPROBLEMS
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY ON APPROACHES FORSOLVING ENTITY MATCHINGPROBLEMS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Yihao FU
+  Abstract
+  Entity matching (EM) is a fundamental task in data integration and information retrieval,
+  aimed at identifying and aligning entities across heterogeneous datasets. This survey categorizes the diverse methodologies employed in entity matching into four primary approaches:
+  rule-based methods, crowdsourcing techniques, traditional machine learning algorithms, and
+  deep learning frameworks.
+  The rule-based approach relies on predefined heuristics and expert knowledge to formulate
+  matching rules. While this method can achieve high precision in specific domains, it often
+  lacks scalability and adaptability when faced with new or evolving datasets. Consequently,
+  rule-based systems may struggle to maintain performance as the complexity of data increases.
+  In contrast, crowdsourcing leverages the collective intelligence of a diverse group of users
+  to validate and refine entity matches. This approach offers significant flexibility and can
+  adapt to various contexts, making it particularly useful in dynamic environments. However,
+  crowdsourced data may exhibit inconsistencies in quality due to varying levels of expertise
+  among contributors.
+  Traditional machine learning methods employ labeled training data to learn patterns for
+  entity matching. These techniques strike a balance between accuracy and generalizability,
+  allowing for the development of models that can handle a range of matching scenarios.
+  Nonetheless, they often require extensive feature engineering and may not fully capture the
+  complex relationships inherent in the data.
+  Deep learning techniques have recently emerged as powerful alternatives, utilizing neural
+  networks to automate feature extraction and model intricate entity relationships. These
+  methods have demonstrated superior performance on large-scale datasets and can effectively
+  handle unstructured data. However, deep learning approaches typically demand substantial computational resources and large volumes of training data, which may pose challenges for
+  smaller organizations or less resource-intensive applications.
+  This survey provides a comprehensive overview of these methodologies, highlighting their
+  strengths and limitations, and discusses future directions for research in entity matching.
+  PQE Committee
+  Chair of Committee: Prof. Nan TANG
+  Prime Supervisor: Prof. Wei WANG
+  Co-Supervisor: Prof. Wenjia WANG
+  Examiner: Prof. Zishuo DING
+  Date
+  27 November 2024
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E3-105

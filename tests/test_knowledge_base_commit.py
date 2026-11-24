@@ -1,3 +1,4 @@
+import math
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -25,6 +26,26 @@ class FailingAddStore:
 
 
 class KnowledgeBaseCommitTests(unittest.TestCase):
+    def test_bm25_matching_term_has_a_positive_length_independent_floor(self):
+        kb = KnowledgeBase.__new__(KnowledgeBase)
+        kb._bm25_corpus = ["target", "unrelated"]
+        kb._bm25_avgdl = 1.0
+        kb._bm25_doc_freq = {"target": 1}
+        text = "target " + "unrelated " * 999
+
+        score = kb._bm25_score("target", text)
+
+        idf = math.log(2)
+        original = idf * 2.5 / (1 + 1.5 * (0.25 + 0.75 * 1000))
+        self.assertAlmostEqual(score, original + 0.10 * idf)
+
+    def test_bm25_unmatched_term_still_contributes_zero(self):
+        kb = KnowledgeBase.__new__(KnowledgeBase)
+        kb._chunk_texts = {"one": "target", "two": "unrelated"}
+        kb._rebuild_bm25()
+
+        self.assertEqual(kb._bm25_score("target", "unrelated"), 0.0)
+
     def test_prepared_chunk_metadata_omits_missing_document_id(self):
         with TemporaryDirectory() as temp_dir:
             file_path = str(Path(temp_dir) / "guide.md")

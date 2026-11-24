@@ -1,0 +1,46 @@
+dsa_page: Toward Generalizable and Trustworthy Foundation Models for Time-Series Analysis – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/18/toward-generalizable-and-trustworthy-foundation-models-for-time-series-analysis/
+source: DSA
+
+headings:
+  - Toward Generalizable and Trustworthy Foundation Models for Time-Series Analysis
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Toward Generalizable and Trustworthy Foundation Models for Time-Series Analysis
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Jiawen ZHANG
+  ABSTRACT
+  Time-series data are pervasive in scientific, industrial, and societal applications, yet their real-world complexity poses fundamental challenges to modern machine learning systems. Recent advances in foundation models have opened a promising path toward more general-purpose time-series learning, but they still face important limitations in evaluation, generalization, and trustworthiness. This thesis studies how to advance time-series models toward more general, robust, and practically deployable solutions under complex data scenarios.
+  The thesis is organized around three complementary themes: measuring model capability, modeling challenging temporal settings, and making such models more trustworthy. First, it examines the evaluation of time-series models across diverse forecasting scenarios and highlights the need for broader and more diagnostic assessment beyond conventional benchmark settings. Second, it investigates key challenges that hinder generalization in practice, including varied prediction horizons, domain variability, and irregularly sampled observations, and develops methods that improve model adaptability under these conditions. Third, it studies the trustworthiness of time-series foundation models through the lens of adversarial robustness, uncovering forecasting-specific vulnerability patterns and showing that effective and transferable defenses can improve robustness even in zero-shot settings.
+  The results of this thesis indicate that progress in time-series foundation models cannot be defined by predictive accuracy alone. Rather, it calls for a more principled framework that jointly considers how model capability is evaluated, how models are designed to better support generalization across complex temporal settings, and how reliability is maintained under distribution shift and adversarial risk. By integrating these perspectives, this thesis contributes to the development of time-series foundation models that are both generalizable and trustworthy.
+  TEC
+  Chairperson: Prof Kang ZHANG
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Xiaofang ZHOU
+  Examiners:
+  Prof Yuxuan LIANG
+  Prof Yuyu LUO
+  Prof Mingming FAN
+  Prof Chenjuan GUO
+  Date
+  01 April 2026
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E4-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

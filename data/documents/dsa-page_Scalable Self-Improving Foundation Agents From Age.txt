@@ -1,0 +1,39 @@
+dsa_page: Scalable Self-Improving Foundation Agents: From Agent Generation to Environmental Scaling and Long-Horizon Evolution – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/scalable-self-improving-foundation-agents-from-agent-generation-to-environmental-scaling-and-long-horizon-evolution/
+source: DSA
+
+headings:
+  - Scalable Self-Improving Foundation Agents: From Agent Generation to Environmental Scaling and Long-Horizon Evolution
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Scalable Self-Improving Foundation Agents: From Agent Generation to Environmental Scaling and Long-Horizon Evolution
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Jiayi
+  Abstract
+  Foundation agents extend large language models from passive text generators into systems that plan, call tools, coordinate modules, maintain memory, and act in external environments. Yet most current agents remain static: prompts and workflows are hand-engineered, evaluation is concentrated on fixed benchmarks, and improvement mechanisms are short-horizon or task-specific. This survey argues that scalable self-improving foundation agents require progress along three coupled stages. Agent generation makes prompts, workflows, sub-agents, reasoning structures, and tool-use policies automatically constructible from execution feedback. Environmental scaling provides diverse, executable, and verifiable feedback beyond fixed benchmark instances, by generating heterogeneous environments and verifiable interaction worlds rather than only more rollouts. Long-horizon evolution turns accumulated histories into structured state that can revise memory, reward, policy, and the improvement mechanism itself. We review recent progress along these three stages, identify open challenges in feedback reliability, environment validity, long-horizon credit assignment, reward hacking, memory drift, and governance, and outline a dissertation agenda that connects agent generation, environmental scaling, and long-horizon evolution into a cumulative research program toward generalizable foundation agents.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. LUO, Yuyu
+  Co-Supervisor: Prof. LIU, Bang
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-149, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  933 7726 8600
+  Passcode: dsa2026

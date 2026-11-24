@@ -1,0 +1,28 @@
+dsa_page: A Case of Redesigning Networking: The 18-Year Journey of Named Data Networking – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/17/a-case-of-redesigning-networking-the-18-year-journey-of-named-data-networking/
+source: DSA
+
+headings:
+  - A Case of Redesigning Networking: The 18-Year Journey of Named Data Networking
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  A Case of Redesigning Networking: The 18-Year Journey of Named Data Networking
+  Share to
+  ABSTRACT
+  The Internet has massively evolved since the 1960s and achieved great success. However, its core design, the IP networking model, has changed little in the last 60 years. About 18 years ago, some system and networking architects started to rethink and redesign the Internet. One interesting observation is that the IP model is now the critical mismatch. We no longer care where the data is (which server), only what it is (the webpage, video, or update we want), and this shift calls for a data-centric model. Named Data Networking (NDN) is one key example of this effort. In this talk, as a deep involver, I will share the 18-year journey of NDN from my vantage point, tracing its arc from the initial academic enthusiasm, through the quiet years of focused engineering, to its current real-world deployment in millions of connected cars.
+  SPEAKER BIO
+  Teng Liang is an Associate Researcher in Peng Cheng Laboratory. He received his Ph.D. in Computer Science at the University of Arizona. His research interests lies in Computer Networking. He is a long contributer in Named Data Networking, including forwarding, application and deployment.
+  Date
+  11 November 2025
+  - 18 November 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

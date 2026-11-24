@@ -1,0 +1,44 @@
+dsa_page: Trustworthy Machine Learning under Imperfect Data: Data Collection, Data Curation, and Robust Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/28/trustworthy-machine-learning-under-imperfect-data-data-collection-data-curation-and-robust-learning/
+source: DSA
+
+headings:
+  - Trustworthy Machine Learning under Imperfect Data: Data Collection, Data Curation, and Robust Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Trustworthy Machine Learning under Imperfect Data: Data Collection, Data Curation, and Robust Learning
+  Share to
+  ABSTRACT
+  As a "garbage-in-garbage-out" system, the effectiveness of the built machine learning models inherently depends on reliable datasets. Many mainstream ML algorithms would require quality supervision as an essential part of the data. Nonetheless, in practice, high-quality supervision is rarely available, and practitioners often need to learn with a large quantity of inaccurate annotation or supervision. This is a pervasive challenge that we frequently encounter in different domains. This presentation delineates my approaches to trustworthy machine learning models when confronted with imperfect real-world data, including (1) High-quality data collection: I will discuss techniques for assessing the quality of collected data without ground truth, thus ensuring the reliability of the dataset. (2) Data curation: I will present our efforts in diagnosing and curating imperfect collected data for trustworthy model training. (3) Robust learning: I will present strategies to shield models from the deleterious effects of flawed data, thereby preserving reliability and performance.
+  SPEAKER BIO
+  Jiaheng WEI
+  Senior Research Scientist Manager
+  Accenture AI Research
+  Jiaheng Wei is currently a senior research scientist manager at Accenture AI Research, USA, the world's leading consulting company. He is also a final year Computer Science Ph.D. candidate at the University of California, Santa Cruz (2019 - 2024 June). Previously, he completed a Master of Data Science degree at Brown University and received a Bachelor’s degree in Honors Math (数学试验班) and Honors Youth (少年班) from Xi’an Jiaotong University. His main research interest is trustworthy machine learning under real-world constraints. He published 8 first-authored papers on the top-tier conferences (ICML, ICLR, ECCV, AISTATS, KDD, etc), including one oral selection (top 2%) at ICML. In the industry, Jiaheng was a student researcher at the Google Brain team two times and also worked as a research intern in the ByteDance AI Lab. He was offered the Top Minds (天才少年) position at Huawei with the highest rank.
+  Date
+  28 May 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  896 0811 9255
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/_ok_PD9rDiMIPMfH7vKQNw

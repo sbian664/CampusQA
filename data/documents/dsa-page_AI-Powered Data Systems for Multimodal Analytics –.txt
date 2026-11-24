@@ -1,0 +1,33 @@
+dsa_page: AI-Powered Data Systems for Multimodal Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/28/ai-powered-data-systems-for-multimodal-analytics/
+source: DSA
+
+headings:
+  - AI-Powered Data Systems for Multimodal Analytics
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Seminars and Workshops
+  AI-Powered Data Systems for Multimodal Analytics
+  Share to
+  ABSTRACT
+  We live in a world overflowing with data, and the emergence of AI, such as Large Language Models (LLMs), is revolutionizing data analytics. However, directly using AI to process massive and complex data is neither effective nor scalable.
+  In this talk, I share my work on building AI-native systems to analyze multimodal data at scale, focusing on tables and complex documents. On one hand, when analyzing tables, AI is often used to prepare data, such as cleaning and enriching, and this becomes prohibitively expensive when the data scale is large. I present a set of database techniques to support scalable AI computations without sacrificing accuracy. On the other hand, when analyzing documents, current approaches typically treat them as plain text and ignore underlying structures, leading to limited accuracy and performance. In this regard, I present our work called data structuring that explores varying degrees of structures in unstructured documents and uses them to optimize query processing for efficient document analytics. Finally, I’ll share my vision for building data systems for multimodal analytics, including aspects of trustworthy systems, optimization with hardware, and co-optimization among different data modalities.
+  SPEAKER BIO
+  Yiming Lin is a postdoctoral researcher at the University of California, Berkeley, and he received his Ph.D. from the University of California, Irvine. His research interests span document analytics, query processing and optimization, and data preparation, with a current focus on building data systems for multimodal analytics powered by AI. His work has had real-world impact: document analytics help public defenders, journalists, and the California Police Department process over 30,000 pages. His efforts on scalable table ingestion drive multiple high-quality smart space applications, and have been deployed at six sites for five years, including universities, industries, nursing homes, and the U.S. Navy. He has a number of publications and serves on the program committees of the premier database conferences VLDB, SIGMOD, and ICDE.
+  Date
+  06 February 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-314
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

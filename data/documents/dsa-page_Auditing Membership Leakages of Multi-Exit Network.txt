@@ -1,0 +1,36 @@
+dsa_page: Auditing Membership Leakages of Multi-Exit Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/auditing-membership-leakages-of-multi-exit-networks/
+source: DSA
+
+headings:
+  - Auditing Membership Leakages of Multi-Exit Networks
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Auditing Membership Leakages of Multi-Exit Networks
+  Abstract
+  Relying on the fact that not all inputs require the same amount of computation to yield a confident prediction, multi-exit networks are gaining attention as a prominent approach for pushing the limits of efficient deployment. Multi-exit networks endow a backbone model with early exits, allowing to obtain predictions at intermediate layers of the model and thus save computation time and/or energy. However, current various designs of multi-exit networks are only considered to achieve the best trade-off between resource usage efficiency and prediction accuracy, the privacy risks stemming from them have never been explored. This prompts the need for a comprehensive investigation of privacy risks in multi-exit networks.
+  In this paper, we perform the first privacy analysis of multi-exit networks through the lens of membership leakages. In particular, we first leverage the existing attack methodologies to quantify the multi-exit networks' vulnerability to membership leakages. Our experimental results show that multi-exit networks are less vulnerable to membership leakages and the exit (number and depth) attached to the backbone model is highly correlated with the attack performance. Furthermore, we propose a hybrid attack that exploits the exit information to improve the performance of existing attacks. We evaluate membership leakage threat caused by our hybrid attack under three different adversarial setups, ultimately arriving at a model-free and data-free adversary. These results clearly demonstrate that our hybrid attacks are very broadly applicable, thereby the corresponding risks are much more severe than shown by existing membership inference attacks. We further present a defense mechanism called TimeGuard specifically for multi-exit networks and show that TimeGuard mitigates the newly proposed attacks perfectly.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  Auditing Membership Leakages of Multi-Exit Networks
+  . Zheng Li, Yiyong Liu, Xinlei He, Ning Yu, Michael Backes, and Yang Zhang.
+  Project Period
+  2022
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Membership Inference Attack, Multi-Exit Networks
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - Auditing Membership Leakages of Multi-Exit Networks | https://dl.acm.org/doi/abs/10.1145/3548606.3559359

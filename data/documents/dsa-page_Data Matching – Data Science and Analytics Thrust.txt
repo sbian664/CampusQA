@@ -1,0 +1,62 @@
+dsa_page: Data Matching – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/08/data-matching/
+source: DSA
+
+headings:
+  - Data Matching
+  - Abstract
+  - Project members
+  - Nan TANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Data Matching
+  Abstract
+  Data matching generally refers to the process of deciding whether two data elements are the “same” (a.k.a. a match) or not, where each data element could be of different classes such as string, tuple, column, and so on. Data matching is a key concept in data integration and data preparation that includes a wide spectrum of tasks. In this paper, we consider seven common data matching tasks, namely entity matching, entity linking, entity alignment, string matching, column type annotation, schema matching, and ontology matching.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Nan TANG
+  Associate Professor
+  Publications
+  1.
+  Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration
+  . Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, Guoliang Li, Xiaoyong Du, Xiaofeng Jia, and Song Gao.
+  2.
+  DADER: Hands-Off Entity Resolution with Domain Adaptation
+  . Jianhong Tu, Xiaoyue Han, Ju Fan, Nan Tang, Chengliang Chai, Guoliang Li, and Xiaoyong Du.
+  3.
+  Domain Adaptation for Deep Entity Resolution
+  . Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, Chengliang Chai, Guoliang Li, Ruixue Fan, and Xiaoyong Du.
+  4.
+  Deep Learning for Blocking in Entity Matching: A Design Space Exploration
+  . Saravanan Thirumuruganathan, Han Li, Nan Tang, Mourad Ouzzani, Yash Govind, Derek Paulsen, Glenn Fung, and AnHai Doan.
+  5.
+  Distributed Representations of Tuples for Entity Resolution
+  . Muhammad Ebraheem, Saravanan Thirumuruganathan, Shafiq Joty, Mourad Ouzzani, and Nan Tang.
+  6.
+  Synthesizing Entity Matching Rules by Examples
+  . Rohit Singh, Venkata Vamsikrishna Meduri, Ahmed Elmagarmid, Samuel Madden, Paolo Papotti, Jorge-Arnulfo Quiané-Ruiz, Armando Solar-Lezama, and Nan Tang.
+  7.
+  Generating Concise Entity Matching Rules
+  . Rohit Singh, Vamsi Meduri, Ahmed Elmagarmid, Samuel Madden, Paolo Papotti, Jorge-Arnulfo Quiané-Ruiz, Armando Solar-Lezama, and Nan Tang.
+  Project Period
+  2022-Present
+  Research Area
+  AI for DB
+  Keywords
+  AI, matching
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://nantang.github.io/projects/dataprep-matching/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration | https://dl.acm.org/doi/pdf/10.1145/3588938?casa_token=gDtfqOM3KCsAAAAA:gB_kNfU3ZHG5nh7u6bbU7e5RfyyBOuOETGMFFJ4r5o7MXZVenssXb97UDTN7OhjdsUjjK5Fi-ZIPVvIw
+  - DADER: Hands-Off Entity Resolution with Domain Adaptation | https://dl.acm.org/doi/pdf/10.14778/3554821.3554870?casa_token=pMXJIkaIo0QAAAAA:m-TJ3fcR4oiY1Ll0tfglIBb9fqwdvbvdVe5PhgfFRS9jEbwlUbn15zdqOizy-PyP22Gca9hn_DW1aCV8
+  - Domain Adaptation for Deep Entity Resolution | https://dl.acm.org/doi/pdf/10.1145/3514221.3517870?casa_token=kkxQ7vQeeCQAAAAA:g0kKQsyQRS_F-j8GmJpeDnh_HIijl-IMPHEGCdZexlGCzuNU3Oxx97br9sELoFfSgP14LcEGQaoOKOHm
+  - Deep Learning for Blocking in Entity Matching: A Design Space Exploration | https://dl.acm.org/doi/pdf/10.14778/3476249.3476294?casa_token=iDvu4VNKdEYAAAAA:LuJQunx2N8NWVJnfGjXIksJiaZjq-ObxdpYcu8ClQbmbEWL4eFaTAvYokRYavF-zOCG0IKPNVaEMLRST
+  - Distributed Representations of Tuples for Entity Resolution | https://www.vldb.org/pvldb/vol11/p1454-ebraheem.pdf
+  - Synthesizing Entity Matching Rules by Examples | https://dl.acm.org/doi/pdf/10.14778/3149193.3149199?casa_token=SEISc9zK8QoAAAAA:9xWmr4FiANPJiMeA75jLb98-4l4xM2tu8lrqzbvoluj5mZ2CpH2kCy66yVXTRkRT8TuEITHDA6DlCI3g
+  - Generating Concise Entity Matching Rules | https://dl.acm.org/doi/pdf/10.1145/3035918.3058739?casa_token=JOvesxDtLJwAAAAA:kHRqHvxVj8OBThLGMaoCE_YFomVIPw_WPH57lKlsSLqV_IyuEXYvGSPvGCpywj-xNfu-GG9t2XpiO8T2

@@ -1,0 +1,35 @@
+dsa_page: Hierarchical graph learning for protein–protein interaction – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/hierarchical-graph-learning-for-protein-protein-interaction/
+source: DSA
+
+headings:
+  - Hierarchical graph learning for protein–protein interaction
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Hierarchical graph learning for protein–protein interaction
+  Abstract
+  Protein-Protein Interactions (PPIs) are fundamental means of functions and signalings in biological systems. The massive growth in demand and cost associated with experimental PPI studies calls for computational tools for automated prediction and understanding of PPIs. Despite recent progress, in silico methods remain inadequate in modeling the natural PPI hierarchy. Here we present a double-viewed hierarchical graph learning model, HIGH-PPI, to predict PPIs and extrapolate the molecular details involved. In this model, we create a hierarchical graph, in which a node in the PPI network (top outside-of-protein view) is a protein graph (bottom inside-of-protein view). In the bottom view, a group of chemically relevant descriptors, instead of the protein sequences, are used to better capture the structure-function relationship of the protein. HIGH-PPI examines both outside-of-protein and inside-of-protein of the human interactome to establish a robust machine understanding of PPIs. This model demonstrates high accuracy and robustness in predicting PPIs. Moreover, HIGH-PPI can interpret the modes of action of PPIs by identifying important binding and catalytic sites precisely. Overall, “HIGH-PPI [https://github.com/zqgao22/HIGH-PPI]” is a domain-knowledge-driven and interpretable framework for PPI prediction studies.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Hierarchical graph learning for protein–protein interaction
+  . Ziqi Gao, Chenran Jiang, Jiawen Zhang, Xiaosen Jiang, Lanqing Li, Peilin Zhao, Huanming Yang, Yong Huang, and Jia Li.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  HIGH-PPI, Protein-Protein Interactions
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Hierarchical graph learning for protein–protein interaction | https://www.nature.com/articles/s41467-023-36736-1

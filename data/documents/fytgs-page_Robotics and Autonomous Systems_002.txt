@@ -1,0 +1,280 @@
+fytgs_page: Robotics and Autonomous Systems
+url: https://fytgs.hkust-gz.edu.cn/programs/robotics-and-autonomous-systems-4
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Robotics and Autonomous Systems
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Robotics and Autonomous Systems
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Robotics and Autonomous Systems
+  Doctor of Philosophy in Robotics and Autonomous Systems
+  Program Short Name
+  MPhil(ROAS)
+  PhD(ROAS)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Robotics and Autonomous Systems Thrust Area
+  Systems Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Lei ZHU, Assistant Professor of Robotics and Autonomous Systems
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  Enquiry
+  roas@hkust-gz.edu.cn
+  INTRODUCTION
+  Robotics is a transdisciplinary branch of engineering and science that deals with the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information processing. An autonomous system is a system that performs tasks with a high degree of autonomy (without external influence). Designing and managing Robotics and Autonomous Systems requires diverse skills from various engineering disciplines such as electronics, mechatronics, control and signal processing together with state-of-the-art computer science such as software architecture, algorithms and data structures or artificial intelligence.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Robotics and Autonomous Systems aim to provide well-rounded education as well as rigorous research training to prepare students to become versatile and knowledgeable professionals, with the broad fields of robotics engineering as a major focus, together with connections to theoretical and applied mechanics, optimization, communication, information theory, machine learning, computing, mathematics and signal processing.
+  MPhil graduates should be able to demonstrate mastery of knowledge in design, construction, operation, and management of robots, and develop innovative solutions required by the emerging global industry in Robotics and Autonomous Systems (ROAS), and across many other sectors where ROAS skills are applicable.
+  PhD graduates should be capable of conducting high-quality original research, creating new knowledge, deriving valuable insights, and making tangible impacts on academia and the field.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Acquire broad knowledge of programming and algorithms, systems development techniques, as well as digital technology that form the basis for designing computers and embedded systems;
+  Analyze and model systems that contain both software, hardware and mechanics;
+  Demonstrate a detailed knowledge of their areas of specialization and convey the results of their research in a clear and effective manner;
+  Conduct original research in the field of robotics and provide scientific contribution to the discipline;
+  Translate and transform fundamental research insights effectively into practical applications; and
+  Equip themselves with interdisciplinary skill-sets that help them develop into capable independent researchers for academia and industry.
+  On successful completion of the PhD program, graduates will be able to:
+  Gain an in-depth understanding of programming and algorithms, electronics and sensors, digital technology, control systems, and mechanisms used in robotics;
+  Demonstrate a broad knowledge of computer architecture and digital systems, management and analysis of robotics systems, and how machines can interpret surroundings, act intelligently and adapt;
+  Construct and control robotics systems that integrate different software, hardware and mechanics, and programing in different languages for different applications;
+  Design and conduct high-quality independent research and make an original contribution to knowledge in the field of robotics;
+  Communicate the results of their research to others in a clear and effective manner;
+  Teach courses in the areas of specialization at the undergraduate level; and
+  Equip themselves with interdisciplinary skill-sets that can evolve over time to suit the ever-evolving industry.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Systems Hub and at least one Hub core course (2 credits) from other Hubs.
+  Systems Hub Core Course
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  ROAS 5500
+  Mechatronics Design
+  3 Credit(s)
+  Description
+  This course introduces the essential fundamentals, including modeling, sensing, signal transmission and conversion, actuation, control, simulation, and implementation technologies used within the mechatronics design for robots and autonomous systems. It will give a holistic view of advanced automation technologies in industrial applications, taking electric vehicles and robots as examples. Also, this course will provide the essential skills to design intelligent mechatronics systems, and students will be allocated Arduino and STM32 development kits to participate in mechatronics design in the course project. Through this course, students can enhance their understanding of the cross-disciplinary integration and systematic optimization of mechatronics systems involving the knowledge of mechanics, electronics, control engineering, and computer science.
+  ROAS 5600
+  Introduction to Discrete Event Systems
+  3 Credit(s)
+  Description
+  This course aims to provide an introduction to the fundamental knowledge of physical systems modeled with discrete state space and event driven transitions. Discrete Event Systems (DES) arise in the modeling of many engineering domains, such as automated manufacturing systems, communication networks, software systems, process control systems, and transportation systems. This course will introduce a unified modeling framework and emphasize the analysis and control of DES. Basics of automata and language theory are presented first as mathematical preliminaries. Then comes a detailed treatment of state estimation, diagnosis, security and supervisory control theory of DES based on automata model. Topics of other DES models like Petri nets, timed and hybrid automata are also covered towards the end of the course.
+  ROAS 5700
+  Robot Motion Planning and Control
+  3 Credit(s)
+  Description
+  This course introduces the advanced methodologies in the context of motion planning and control for robotics and autonomous systems. Various methodologies are introduced, including search-based methods, grid-based methods, sampling-based methods, optimization-based methods, learning-based methods, etc. In general, this course covers modern approaches, deep theory, and good practice envisions. In addition to the fundamental knowledge in motion planning and control, the students will also have the opportunity to discover and learn cutting-edge methodologies in the related field, aligning with the substantial developments in robotics, autonomous driving, UAVs, etc.
+  ROAS 5800
+  Physical-based Vision for Robot and Autonomous Driving
+  3 Credit(s)
+  Description
+  Light traveling in the 3D world interacts with the scene through intricate processes before being captured by a camera. These processes result in the dazzling effects like color and shading, complex surface and material appearance, different weathering, just to name a few. Physics based vision aims to invert the processes to recover the scene properties, such as shape, reflectance, light distribution, medium properties, etc., from the images by modelling and analyzing the imaging process to extract desired features or information. This course introduces the advanced methodologies in the context of physical-based vision for robotics and autonomous systems. We will introduce diverse techniques, covering from traditional methods based on hand-crafted features to recent deep learning methods. Apart from the fundamental knowledge in physical-based vision, the students will also have opportunities to discover and learn cutting-edge methodologies in popular physical-based vision topics (i.e., bad-weather restoration, shadow detection and removal, specular highlight detection and removal, intrinsic image decomposition, reflection detection and removal, and so on) of the physical-based vision, aligning with the substantial developments in robotics, autonomous driving, UAVs, etc.
+  ROAS 5900
+  Analytical Methods in Human Factors Research
+  3 Credit(s)
+  Description
+  The course will cover a wide range of analytical methods used in human factors research domain. The students will gain an understanding of the procedures, objectives and limitations of different research methods. The course will also include four case studies so that students would gain first-hand experience in applying the methods in real projects. These contents are required for research investigating users’ behaviors.
+  ROAS 5910
+  Engineering Psychology and Transportation Applications
+  3 Credit(s)
+  Description
+  The course will cover a wide range of engineering psychology topics as well as how the research in these directions can affect policies and regulations in vehicle design and surface transportation. The students will gain an understanding of the characteristics and limitations of human beings from engineering psychology perspectives of view and how the design of traffic control devices, the roadway, the in-vehicle devices, regulations and traffic rules can be affected by the research in these directions.
+  ROAS 6000
+  Special Topics in Robotics
+  3 Credit(s)
+  Description
+  Selected topics in robotics of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  AIAA 5023
+  Foundations of Deep Neural Networks
+  3 Credit(s)
+  Description
+  This course helps students to get basic knowledge about deep neural networks, helping them to understand basic concepts, capabilities and challenges of deep neural networks.
+  AIAA 5026
+  Computer Vision and Its Applications
+  3 Credit(s)
+  Description
+  This course covers popular topics in computer vision, which includes high-level tasks like image classification, object detection, image segmentation, and low-level tasks like image generation, image enhancement, image-to-image translation, etc.
+  AIAA 5027
+  Deep Learning for Visual Intelligence: Trends and Challenges
+  3 Credit(s)
+  Description
+  This is a task-oriented yet interaction-based course, which aims to scrutinize the recent trends and challenges in visual intelligence tasks (high- and low-level vision tasks). This course will follow the way of flipped-classroom manner where the lecturer teaches the basics; meanwhile, the students will also be focused on active discussions, presentations (lecturing), and hands-on research projects under the guidance of the lecturer in the whole semester. Through this course, students will be equipped with the capability to critically challenge the existing methodologies/techniques and hopefully make breakthroughs in some new research directions.
+  INTR 5300
+  Nonlinear Control Systems
+  3 Credit(s)
+  Description
+  This course introduces methods for analysis and control design of nonlinear systems, which have a wide range of engineering applications including transportation, robotics, biology, energy, and manufacturing systems. The course includes: 1) Mathematical models of nonlinear systems, and fundamental differences between the behavior of linear and nonlinear systems, equilibrium, limit cycles and general invariant sets. 2) Phase plane analysis, Lyapunov stability, Input-to-state stability, Input-output stability, and approximation methods. 3) Feedback linearization and nonlinear control design tools, including Lyapunov-based control and Backstepping. From learning the nonlinear phenomena to understanding the mathematical properties and then analyzing system behaviors, students will be able to grasp the fundamental concepts and advanced tools that are useful in the analysis of nonlinear systems. The control design tools for nonlinear systems from feedback linearization to advanced backstepping control are covered in this course. Students will be proficient in skills of independently assessing the advantages and disadvantages of different nonlinear methods, make a qualified choice of method for analysis and design of nonlinear control systems that arise from various research areas.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  SYSH 6780
+  Career Development for Systems Hub Research Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research students with the skills conducive to their professional career development. Students will attend the training focusing on personality self-exploration and program-specific training at the Thrust level, and another training at the Hub level. Graded PP, P or F.
+  Students are required to complete SYSH 6780. The 1 credit earned from SYSH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed SYSH 6780 or other equivalent professional development courses offered by the University before may be exempted from taking SYSH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  ROAS 6800
+  Seminar in Robotics and Autonomous Systems
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass ROAS 6800 at least twice, and present at least one seminar during their study, in addition to the oral defense of their MPhil thesis. Part-time students must take and pass ROAS 6800 at least once, and present at least one seminar during their study, counting the oral defense of their MPhil thesis.
+  PhD:
+  Full-time students must take and pass ROAS 6800 at least four times, and present at least two seminars during their study, in addition to the oral defense of their PhD thesis. Part-time students and students entering with an HKUST MPhil degree must take and pass ROAS 6800 at least twice, and present at least one seminar during their study, counting the oral defense of their PhD thesis.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  ROAS 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  ROAS 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in ROAS 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in ROAS 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  - roas@hkust-gz.edu.cn | http://roas@hkust-gz.edu.cn
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

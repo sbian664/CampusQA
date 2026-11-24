@@ -1,0 +1,35 @@
+dsa_page: Spica: A Decentralized File Sharing System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/spica-a-decentralized-file-sharing-system/
+source: DSA
+
+headings:
+  - Spica: A Decentralized File Sharing System
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Spica: A Decentralized File Sharing System
+  Abstract
+  Spica is a decentralized file-sharing system based on a distributed network. With Spica, user files can be stored securely and redundantly on different users' PC devices and mobile devices. At the same time, the traceability of files on Spica is ensured through blockchain technology.
+  Video link
+  :
+  https://youtu.be/t9AtJ4tENu8
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-Present
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - https://youtu.be/t9AtJ4tENu8 | https://youtu.be/t9AtJ4tENu8
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/blockchain/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

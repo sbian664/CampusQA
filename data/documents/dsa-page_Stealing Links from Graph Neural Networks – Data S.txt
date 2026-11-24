@@ -1,0 +1,35 @@
+dsa_page: Stealing Links from Graph Neural Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/stealing-links-from-graph-neural-networks/
+source: DSA
+
+headings:
+  - Stealing Links from Graph Neural Networks
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Stealing Links from Graph Neural Networks
+  Abstract
+  Graph data, such as chemical networks and social networks, may be deemed confidential/private because the data owner often spends lots of resources collecting the data or the data contains sensitive information, e.g., social relationships. Recently, neural networks were extended to graph data, which are known as graph neural networks (GNNs). Due to their superior performance, GNNs have many applications, such as healthcare analytics, recommender systems, and fraud detection. In this work, we propose the first attacks to steal a graph from the outputs of a GNN model that is trained on the graph. Specifically, given a black-box access to a GNN model, our attacks can infer whether there exists a link between any pair of nodes in the graph used to train the model. We call our attacks link stealing attacks. We propose a threat model to systematically characterize an adversary's background knowledge along three dimensions which in total leads to a comprehensive taxonomy of 8 different link stealing attacks. We propose multiple novel methods to realize these 8 attacks. Extensive experiments on 8 real-world datasets show that our attacks are effective at stealing links, e.g., AUC (area under the ROC curve) is above 0.95 in multiple cases. Our results indicate that the outputs of a GNN model reveal rich information about the structure of the graph used to train the model.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  Stealing Links from Graph Neural Networks
+  . Xinlei He, Jinyuan Jia, Michael Backes, Neil Zhenqiang Gong, and Yang Zhang.
+  Project Period
+  2021
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Graph Neural Network, Link Stealing Attack
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - Stealing Links from Graph Neural Networks | https://www.usenix.org/system/files/sec21summer_he.pdf

@@ -1,0 +1,40 @@
+dsa_page: Advances in Long-tail Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/04/advances-in-long-tail-learning/
+source: DSA
+
+headings:
+  - Advances in Long-tail Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Advances in Long-tail Learning
+  Share to
+  *Students who enroll in DSAA 6102 please attend the seminar in classroom.
+  ABSTRACT
+  In the realm of deep learning research and applications, we often encounter the challenge of long-tailed data distribution, a very common appearance of data imbalance. Long-tail learning aims to address this challenge by improving model performance on minority classes without heavily sacrifying the performance on majority classes. In recent years, significant strides have been made in the field of long-tail learning, which have not only broadened our understanding of how deep learning models can be adapted to work with imbalanced datasets, but also introduced innovative strategies for enhancing model robustness and generalization in such scenarios. This talk will explore the cutting-edge advancements in long-tail learning, focusing on novel methodologies and algorithms that are pushing the boundaries of what's possible in handling the complexities of long-tailed data.
+  SPEAKER BIO
+  Yang LU
+  Assistant Professor
+  Xiamen University
+  Yang Lu, Ph.D., is currently an Assistant Professor in the Department of Computer Science and Technology at Xiamen University's School of Informatics. He earned his bachelor's and master's degrees in Software Engineering from the University of Macau in 2012 and 2014, respectively. In 2019, he obtained his Ph.D. in Computer Science from Hong Kong Baptist University. He has published over 30 high-quality papers, with many appearing in top-tier machine learning journals (JCR Q1) such as IEEE TNNLS and IEEE TCYB, and leading AI conferences (CCF-A) like CVPR, ICCV, IJCAI, and AAAI. He has spearheaded several projects, including ones funded by the National Natural Science Foundation General and Youth Project, the Fujian Provincial Natural Science Foundation, and the Zhejiang Laboratory Open Project. His primary research areas include deep learning, long-tailed learning, federated learning, label-noise learning among others.
+  Date
+  06 March 2024
+  Time
+  10:00:00 -
+  10:50:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  825 7712 7172
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

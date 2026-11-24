@@ -1,0 +1,38 @@
+dsa_page: New Data Structures on Graph and Geometric Data with Theoretical Guarantees – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/14/new-data-structures-on-graph-and-geometric-data-with-theoretical-guarantees/
+source: DSA
+
+headings:
+  - New Data Structures on Graph and Geometric Data with Theoretical Guarantees
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  New Data Structures on Graph and Geometric Data with Theoretical Guarantees
+  Share to
+  ABSTRACT
+  Modern data management systems are founded on advanced data structures and algorithms, engineered to enable efficient query processing and extract valuable insights. In this presentation, I will first delve into my academic investigations, addressing data structure problems on graph and geometric data. Topics will include dynamic approximate triangle counting, partial order multiway search, and keyword search with structured constraints. Transitioning from theory to practice, the discussion will shift to my professional experiences at Huawei, where I concentrated on the development and optimization of vector databases. Lastly, this talk will explore several promising research directions in the fields of vector databases and dynamic subgraph counting and sampling.
+  SPEAKER BIO
+  Dr. Shangqi LU
+  Research engineer at Huawei
+  Shangqi Lu received his Ph.D. in Computer Science & Engineering from the Chinese University of Hong Kong before becoming a research engineer at Huawei. He has a strong passion for designing practical algorithms on massive datasets while also ensuring non-trivial theoretical guarantees. His focus lies in the areas of database query processing, high-dimensional computational geometry, information retrieval, and machine learning.
+  Date
+  15 March 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  814 8019 8512
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

@@ -1,0 +1,12 @@
+fytgs_page: Overview
+url: https://fytgs.hkust-gz.edu.cn/about-us/overview
+source: FYTGS
+
+headings:
+  - HKUST Fok Ying Tung Graduate School - Guangzhou Office
+
+text: >
+  HKUST Fok Ying Tung Graduate School -
+  Guangzhou Office
+  The HKUST Fok Ying Tung Graduate School (FYTGS), is the university-wide office to oversee the entire administrative scope for postgraduate (PG) education at both HKUST and HKUST(GZ). The Guangzhou office of the HKUST Fok Ying Tung Graduate School is responsible for the HKUST(GZ) PG programs.
+  To achieve true and effective integration across the campuses in overseeing and supporting the development and delivery of PG education under the “Unified HKUST, Complementary Campuses” framework, FYTGS partners with academic units and other stakeholders on both campuses to ensure consistent policy and quality control over all PG programs. This includes coordinating student recruitment and admission, as well as providing all-round oversight on PG students’ qualifications, graduation, and any other areas related to PG affairs.

@@ -1,0 +1,34 @@
+dsa_page: Novel Representation Learning Frameworks for Tabular Data and a Unifying Theory for Optimal Nested Simulation. – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/18/novel-representation-learning-frameworks-for-tabular-data-and-a-unifying-theory-for-optimal-nested-simulation/
+source: DSA
+
+headings:
+  - Novel Representation Learning Frameworks for Tabular Data and a Unifying Theory for Optimal Nested Simulation.
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Novel Representation Learning Frameworks for Tabular Data and a Unifying Theory for Optimal Nested Simulation.
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms LIU Ruoxue
+  Abstract
+  Please refer to the proposal.
+  TPE Committee
+  Chair of Committee: Prof. WANG, Wei
+  Prime Supervisor: Prof. WANG, Wenjia
+  Co-Supervisor: Prof. YAO, Yuan
+  Examiner: Prof. LI, Lei
+  Date
+  18 August 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E4-202 (HKUST-GZ)

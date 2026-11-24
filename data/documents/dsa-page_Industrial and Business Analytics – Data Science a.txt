@@ -1,0 +1,41 @@
+dsa_page: Industrial and Business Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/industrial-and-business-analytics/
+source: DSA
+
+headings:
+  - Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  - Small Defect Inspection for Product Quality Control
+  - Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions
+  - Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios
+  - 基于工业智能的FPC板质量检测系统研发与产业化
+  - 智慧型陶瓷产线管理与分析平台的研究及产业化/基于大数据分析与机器学习的多阶段工序智能监控与优化
+
+text: >
+  Search
+  No data.
+  Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  Fugee TSUNG
+  Data Circulation, Data Privacy, Data Sharing, Data Space, Industrial Operations, Supply Chain
+  Small Defect Inspection for Product Quality Control
+  Fugee TSUNG, Yingcong CHEN
+  Anomaly Detection, Computer Vision, Quality Control, Unsupervised Learning
+  Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions
+  Wenjia WANG
+  convergence rate, kernel ridge regression, nested simulation, smoothness
+  Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios
+  Fugee TSUNG
+  Data-Driven Process modeling; Industrial Data Analytics; Anomaly Detection and Diagnosis; Time Series Data Stream
+  基于工业智能的FPC板质量检测系统研发与产业化
+  Fugee TSUNG, Jia LI, Lei ZHU
+  Anomaly Detection, Computer Vision, Quality Control, Reinforcement learning
+  智慧型陶瓷产线管理与分析平台的研究及产业化/基于大数据分析与机器学习的多阶段工序智能监控与优化
+  Fugee TSUNG
+  Anomaly Detection, Optimization, Process Control, Regression, Time Series
+
+links:
+  - Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area Fugee TSUNG Data Circulation, Data Privacy, Data Sharing, Data Space, Industrial Operations, Supply Chain | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/construction-of-cross-border-industrial-data-circulation-and-sharing-platform-in-the-greater-bay-area/
+  - Small Defect Inspection for Product Quality Control Fugee TSUNG, Yingcong CHEN Anomaly Detection, Computer Vision, Quality Control, Unsupervised Learning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/small-defect-inspection-for-product-quality-control/
+  - Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions Wenjia WANG convergence rate, kernel ridge regression, nested simulation, smoothness | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/smooth-nested-simulation-bridging-cubic-and-square-root-convergence-rates-in-high-dimensions/
+  - Time Series Anomaly Detection and Diagnosis Based on Deep Learning in Industrial Scenarios Fugee TSUNG Data-Driven Process modeling; Industrial Data Analytics; Anomaly Detection and Diagnosis; Time Series Data Stream | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/%e5%b7%a5%e4%b8%9a%e5%9c%ba%e6%99%af%e4%b8%8b%e5%9f%ba%e4%ba%8e%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e7%9a%84%e6%97%b6%e9%97%b4%e5%ba%8f%e5%88%97%e5%bc%82%e5%b8%b8%e7%9b%91%e6%b5%8b%e4%b8%8e%e8%af%8a/
+  - 基于工业智能的FPC板质量检测系统研发与产业化 Fugee TSUNG, Jia LI, Lei ZHU Anomaly Detection, Computer Vision, Quality Control, Reinforcement learning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/%e5%9f%ba%e4%ba%8e%e5%b7%a5%e4%b8%9a%e6%99%ba%e8%83%bd%e7%9a%84fpc%e6%9d%bf%e8%b4%a8%e9%87%8f%e6%a3%80%e6%b5%8b%e7%b3%bb%e7%bb%9f%e7%a0%94%e5%8f%91%e4%b8%8e%e4%ba%a7%e4%b8%9a%e5%8c%96/
+  - 智慧型陶瓷产线管理与分析平台的研究及产业化/基于大数据分析与机器学习的多阶段工序智能监控与优化 Fugee TSUNG Anomaly Detection, Optimization, Process Control, Regression, Time Series | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/%e6%99%ba%e6%85%a7%e5%9e%8b%e9%99%b6%e7%93%b7%e4%ba%a7%e7%ba%bf%e7%ae%a1%e7%90%86%e4%b8%8e%e5%88%86%e6%9e%90%e5%b9%b3%e5%8f%b0%e7%9a%84%e7%a0%94%e7%a9%b6%e5%8f%8a%e4%ba%a7%e4%b8%9a%e5%8c%96-%e5%9f%ba/

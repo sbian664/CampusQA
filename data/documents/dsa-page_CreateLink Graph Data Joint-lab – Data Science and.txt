@@ -1,0 +1,67 @@
+dsa_page: CreateLink Graph Data Joint-lab – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/createlink-graph-data-joint-lab/
+source: DSA
+
+headings:
+  - News
+  - Galaxybase Paper Accepted at VLDB!
+  - WAIC 2023 Opens in Shanghai: Dr. Jia Li Presents at Graph Technology Forum
+  - CreateLink Graph Data Joint-lab Established to Boost Collaboration Between HKUST(GZ) and Industry
+  - Lab Directors
+  - Lei CHEN
+  - Jia LI
+  - Chen ZHANG
+
+text: >
+  Lab Overview
+  Lab Members
+  Research Projects
+  Publications
+  Join us
+  https://dsa.hkust-gz.edu.cn/wp-content/uploads/2024/04/Graph-data-lab-video.m4v
+  CreateLink Graph Data joint-lab, committed to building a world-class innovation hub in the field of graph technology. Graph technology is a fundamental key technique for conducting data association analysis and leveraging the network effects of data value. The laboratory possesses rich scientific and educational resources, as well as graph database platforms and infrastructure. It focuses on researching trillion-scale graph neural network computational frameworks, time-series graph processing for massive data, and transaction and performance optimization for distributed native graph databases, offering students the opportunity to deeply study cutting-edge graph technologies.
+  EXPLORE CREATELINK
+  Jan 2024:
+  《图数据库：理论与实践 》
+  . Chen ZHANG, Jing WU, Yan ZHOU
+  June 2024:
+  Galaxybase: A High Performance Native Distributed Graph Database for HTAP
+  . Bing TONG, Yan ZHOU, Chen ZHANG, Jianheng TANG, Jing TANG, Leihong YANG, Qiye LI, Zhongxin BAO, Jia LI, Lei CHEN
+  We are actively recruiting talented individuals to join our team. Open positions include opportunities for PhD students, Postdocs, and Research Assistants. If you are passionate about high-performance machine learning and eager to make meaningful contributions to the field, we welcome you to explore opportunities within our dynamic and collaborative research environment.
+  News
+  Galaxybase Paper Accepted at VLDB!
+  July 10, 2024
+  WAIC 2023 Opens in Shanghai: Dr. Jia Li Presents at Graph Technology Forum
+  July 8, 2023
+  CreateLink Graph Data Joint-lab Established to Boost Collaboration Between HKUST(GZ) and Industry
+  March 30, 2023
+  Lab Overview
+  Lab Members
+  Publications
+  Lab Directors
+  Lei CHEN
+  Director
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Jia LI
+  Co-Director
+  Assistant Professor
+  DSA Thrust, HKUST(GZ)
+  Chen ZHANG
+  Associate Director
+  Associate Professor of Practice
+  DSA Thrust, HKUST(GZ)
+  Bing TONG
+  Engineer
+  PhD student
+  DSA Thrust, HKUST(GZ)
+
+links:
+  - EXPLORE CREATELINK | https://www.galaxybase.com/
+  - 《图数据库：理论与实践 》 | https://www.galaxybase.com/book
+  - Galaxybase: A High Performance Native Distributed Graph Database for HTAP | https://www.sohu.com/a/791921358_121129964
+  - WAIC 2023 Opens in Shanghai: Dr. Jia Li Presents at Graph Technology Forum July 8, 2023 | https://mp.weixin.qq.com/s/kQ0fQ4HYOhnTG1SceAsOkg
+  - CreateLink Graph Data Joint-lab Established to Boost Collaboration Between HKUST(GZ) and Industry March 30, 2023 | https://infh.hkust-gz.edu.cn/blog/2023/03/30/%e6%a0%a1%e4%bc%81%e6%90%ba%e6%89%8b%ef%bc%8c%e4%bb%a5%e5%9b%be%e4%b8%ba%e5%8a%9b%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e5%88%9b%e9%82%bb%e5%9b%be%e6%95%b0%e6%8d%ae/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang

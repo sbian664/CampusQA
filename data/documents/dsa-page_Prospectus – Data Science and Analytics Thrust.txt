@@ -1,0 +1,46 @@
+dsa_page: Prospectus – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/prospectus/
+source: DSA
+
+headings:
+  - Brochure
+  - Undergraduate Curriculum of DSA Thrust 2026
+  - Overview of DSA Thrust and Degree Programs 2026
+  - Faculty Profile of DSA Thrust 2026
+  - HKUST&HKUST(GZ) PG Prospectus 2026-27
+  - HKUST(GZ) PG Prospectus and Booklets
+  - HKUST(GZ) Prospectus Brochure 2024
+  - Video
+  - DSA Thrust Prospectus Video 2025
+  - DSA Thrust Prospectus Video 2023
+  - INFH Prospectus Video 2023
+  - HKUST(GZ) Prospectus Video 2023
+
+text: >
+  Brochure
+  Undergraduate Curriculum of DSA Thrust 2026
+  published by DSA Thrust
+  Overview of DSA Thrust and Degree Programs 2026
+  published by DSA Thrust
+  Faculty Profile of DSA Thrust 2026
+  published by DSA Thrust
+  HKUST&HKUST(GZ) PG Prospectus 2026-27
+  published by FYTGS
+  HKUST(GZ) PG Prospectus and Booklets
+  published by FYTGS
+  HKUST(GZ) Prospectus Brochure 2024
+  published by PAD
+  Video
+  DSA Thrust Prospectus Video 2025
+  DSA Thrust Prospectus Video 2023
+  INFH Prospectus Video 2023
+  HKUST(GZ) Prospectus Video 2023
+
+links:
+  - Undergraduate Curriculum of DSA Thrust 2026 published by DSA Thrust | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/05/本科培养方案折页_阅读版.pdf
+  - Overview of DSA Thrust and Degree Programs 2026 published by DSA Thrust | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/05/DSA学域宣传册20260409.pdf
+  - Faculty Profile of DSA Thrust 2026 published by DSA Thrust | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/05/DSA-Faculty.pdf
+  - HKUST&HKUST(GZ) PG Prospectus 2026-27 published by FYTGS | https://ebookshelf.hkust.edu.hk/flippingbook/G23589_HK_Prospectus_2025/14-15/
+  - HKUST(GZ) PG Prospectus and Booklets published by FYTGS | https://fytgs.hkust-gz.edu.cn/admissions/pg-prospectus-and-booklets
+  - HKUST(GZ) Prospectus Brochure 2024 published by PAD | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2024/06/港科大（广州）介绍手册_截至2024年5月.pdf
+  - INFH Prospectus Video 2023 | https://infh.hkust-gz.edu.cn/blog/2022/01/14/%e4%bf%a1%e6%81%af%e6%9e%a2%e7%ba%bd%e6%ad%a3%e5%bc%8f%e5%ae%a3%e4%bc%a0%e7%89%87/

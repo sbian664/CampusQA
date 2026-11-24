@@ -1,0 +1,44 @@
+dsa_page: Data Management for Persistent LLM Agent Systems: A Survey of Artifacts, State, Reuse, and Governance – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/20/data-management-for-persistent-llm-agent-systems-a-survey-of-artifacts-state-reuse-and-governance/
+source: DSA
+
+headings:
+  - Data Management for Persistent LLM Agent Systems: A Survey of Artifacts, State, Reuse, and Governance
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Data Management for Persistent LLM Agent Systems: A Survey of Artifacts, State, Reuse, and Governance
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. XIAO, Qingfa
+  Abstract
+  Persistent LLM-agent systems execute sequences of related tasks and retain queries, tables, tool results, claims, evidence, summaries, reports, memories, skills, and workflow state across runs. Once such an object crosses an agent, module, storage, or execution boundary, a later consumer must determine what the object denotes, which dependencies produced it, whether those dependencies remain current, and whether it satisfies the consumer’s requirements. Existing surveys organize workflow, memory, communication, protocol, provenance, and database support as separate subsystems whose mechanisms use different managed objects, correctness predicates, and decision horizons. This survey develops a common data-management view of these cross-boundary information artifacts.
+  We connect database foundations and agent-centric architectures with research on workflows, memory, skills, communication, protocols, provenance, and catalogues. The literature is organized by four operational object classes and an eight-stage lifecycle spanning identity, persistence and versioning, validation and invalidation, consumer matching, representation and transformation, placement and materialization, reuse or recomputation, and governance. This analysis separates four frequently conflated decisions: relevance-based memory retrieval versus validity-based artifact eligibility; procedural adaptation versus historical-result reuse; communication routing or compression versus cross-run representation and placement; and provenance capture versus execution authorization.
+  The synthesis positions
+  Data Management for Persistent LLM Agent Systems
+  as a database research area. Its central open problem is artifact admissibility under evolution: given a historical artifact, a versioned dependency state, and a consumer contract, determine whether the artifact remains valid and satisfies current scope, evidence, quality, and policy requirements. Identity and lineage establish the decision basis; representation and placement follow admissibility; governance propagates across derivations; and evaluation requires repeated workloads with controlled changes, explicit contracts, and executable validity oracles.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. ZHANG, Yongqi
+  Examiner: Prof. TANG, JING
+  Date
+  31 July 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E3-201, HKUST-GZ
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

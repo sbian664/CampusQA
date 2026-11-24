@@ -1,0 +1,29 @@
+dsa_page: Crowd4U (Crowdsourcing for Utility) – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/crowd4u-crowdsourcing-for-utility/
+source: DSA
+
+headings:
+  - Crowd4U (Crowdsourcing for Utility)
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Research Area
+
+text: >
+  Research Project
+  Crowd4U (Crowdsourcing for Utility)
+  Abstract
+  The Crowd4U (Crowdsourcing for Utility) serves as a project of the CSE department at HKUST, which works on research related to optimizing the utility of human-involved crowdsourcing for various applications with platform design. Led by Prof. Lei Chen, Crowd4U is motivated by the increasing demand to incorporate human intelligence and artificial intelligence, i.e., exploiting the merits of crowds so that tiny human efforts can greatly improve the power of machine algorithms.
+  By building the on-campus crowdsourcing platform Gmission to engage students and staff in crowdsourcing tasks, Prof. Chen’s team can gather a large amount of data for various crowdsourcing tasks such as clustering and classification. To further improve the labeling accuracy, the platform can embed mining algorithms for tasks including the selection of outstanding workers and matching workers with the tasks that they are adept at. In addition, novel tasks that are new to everyone appear in large quantities in the booming digital world. To fully explore the potential of crowds, Prof. Chen’s team proposes algorithms that can serve as teachers to train the workers, such that with fixed effects of workers, the overall accuracy of crowdsourcing tasks can be improved. Specifically, the mining algorithms can discover the relationship between different task categories and recommend most suitable tasks for workers to conducted after learning a small set of example tasks.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/stc/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

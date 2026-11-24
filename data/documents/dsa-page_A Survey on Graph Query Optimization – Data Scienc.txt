@@ -1,0 +1,43 @@
+dsa_page: A Survey on Graph Query Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-graph-query-optimization/
+source: DSA
+
+headings:
+  - A Survey on Graph Query Optimization
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Graph Query Optimization
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Guanghua LI
+  Abstract
+  Graph queries typically consist of subgraph matching, i.e., matching a pattern graph in a data graph, and several other operations such as filtering, aggregation and ordering. A graph query can be answered with different query plans and its performance varies by the query plan. Therefore, graph query optimization, in which query plans are generated and selected, is important for the query performance.
+  In this survey, we investigate representative methods of graph query optimization. As these methods mostly focus on optimizing subgraph matching, we categorize them into three groups: (1) query optimization in subgraph matching algorithms, (2) subgraph query optimization in relational query engines, and (3) graph-native query optimization for complex graph queries. We further investigate a learning-based join-order optimizer. For each existing method, we analyze three aspects, including optimization rules, cost models and search strategies.
+  PQE Committee
+  Chairperson: Prof. Lei CHEN
+  Prime Supervisor: Prof Qiong LUO
+  Co-Supervisor: Prof Wei ZHANG
+  Examiner: Prof Zeyi WEN
+  Date
+  04 June 2024
+  Time
+  11:10:00 -
+  12:25:00
+  Location
+  E1-147
+  Join Link
+  Zoom Meeting ID:
+  890 1614 5801
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/89016145801?pwd=qEyZW2yTnqmI90Jg7FAggf94F2YPev.1

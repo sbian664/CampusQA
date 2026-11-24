@@ -1,0 +1,50 @@
+dsa_page: BRIDGING CLASSIFICATION AND GENERATION: FROM NEURAL COLLAPSE INIMBALANCED CLASSIFICATION TO DISCRIMINATIVE-DRIVEN IMAGE GENERATION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/19/bridging-classification-and-generation-from-neural-collapse-inimbalanced-classification-to-discriminative-driven-image-generation/
+source: DSA
+
+headings:
+  - BRIDGING CLASSIFICATION AND GENERATION: FROM NEURAL COLLAPSE INIMBALANCED CLASSIFICATION TO DISCRIMINATIVE-DRIVEN IMAGE GENERATION
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  BRIDGING CLASSIFICATION AND GENERATION: FROM NEURAL COLLAPSE INIMBALANCED CLASSIFICATION TO DISCRIMINATIVE-DRIVEN IMAGE GENERATION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Xuantong LIU
+  Abstract
+  Deep learning models have demonstrated remarkable success in both classification and generation tasks; meanwhile, their behavior under imbalanced data distributions and their ability to adapt to new tasks remain active areas of research. In this report, we address two
+  fundamental challenges: improving model performance under long-tailed distributions and
+  leveraging discriminative models for generative tasks. First, we explore the phenomenon
+  of Neural Collapse in deep learning and investigate its role in mitigating the challenges of
+  long-tailed classification. By explicitly inducing Neural Collapse during training, we show
+  that deep neural networks can achieve significantly improved discriminative performance on
+  imbalanced datasets. Second, we propose a novel, training-free framework for conditional
+  image generation by reversing discriminative vision-language models. Our approach demonstrates how these models can be effectively repurposed for generative tasks, bypassing the
+  need for additional training. These two lines of research offer complementary perspectives
+  on understanding and enhancing model behavior. Finally, we outline future work exploring
+  the design space of language models in image generation, motivated by the observation that
+  language models are optimized with classification objectives, providing a natural bridge to
+  generative tasks through their learned representations.
+  TPE Committee
+  Chair of Committee: Prof. YI, Ke
+  Prime Supervisor: Prof. YAO, Yuan
+  Co-Supervisor: Prof. ZHANG, Nevin L
+  Examiner: Prof. WANG, Wenjia
+  Date
+  28 February 2025
+  Time
+  14:00:00 -
+  15:30:00
+  Location
+  2408，CWB
+  Join Link
+  Zoom Meeting ID: 916 7560 4302
+  Passcode: dsa2025

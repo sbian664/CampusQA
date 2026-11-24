@@ -1,0 +1,33 @@
+dsa_page: A Survey on Astronomical Data Reconstruction – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-astronomical-data-reconstruction/
+source: DSA
+
+headings:
+  - A Survey on Astronomical Data Reconstruction
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Astronomical Data Reconstruction
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Ruoqi WANG
+  Abstract
+  Radio telescopes, or radio interferometers, collect signals from the sky and produce visibility data of celestial objects. Subsequently, astronomers study images derived from these raw observational data for scientific discoveries. However, raw visibility data are sparse and noisy, and images constructed from these visibility data are dominated by artifacts. Therefore, either the visibility data or the imaging results must be reconstructed to produce high-quality images for scientific studies.
+  In this survey, we review and categorize existing research on radio interferometric data (either raw visibility data or imaging results) reconstruction based on the prior knowledge used: one category includes non-learning methods that utilize existing human assumptions, and the other is learning-based methods that leverage data-derived priors. In more detail, non-learning methods include iterative and statistical algorithms. These methods are efficient but their reliance on human assumptions limits their performance due to constrained priors. In contrast, learning-based methods, including deep generative models and regression models, can learn from a diverse range of data. They perform well on reconstruction quality but require large training datasets and incur big computational cost due to the unique form of visibility measurement data. Furthermore, we evaluate and analyze representative methods from each category based on data efficiency, computational efficiency, fidelity, robustness, and generalizability, and discuss possible improvements.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Qiong LUO
+  Co-Supervisor: Prof Hao CHEN
+  Examiner: Prof Wei ZENG
+  Date
+  04 June 2024
+  Time
+  16:10:00 -
+  17:25:00
+  Location
+  E1-149

@@ -1,0 +1,42 @@
+dsa_page: DSA Table Talks – ICLR & ICML Session – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/20/dsa-table-talks/
+source: DSA
+
+headings:
+  - DSA Table Talks - ICLR & ICML Session
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Student Activities
+  DSA Table Talks - ICLR & ICML Session
+  Share to
+  Dear DSA Faculty and Students,
+  We are excited to invite you to the next DSA Table Talks on May 25 – a relaxed, low‑pressure academic gathering built around real conversations, not lectures.
+  What is it?
+  A multi‑table, free‑flowing discussion session. Five of our PhD students, who recently attended ICLR 2026 and will attend ICML 2026, will each host a small table. They’ll briefly share their takeaways, then open the floor for questions, debate, and brainstorming – with you at the center. You are not just an audience. You can move between tables, jump into topics that interest you, leave whenever you want, and talk as much (or as little) as you like.
+  When & Where
+  Monday, May 25, 2026, 19:00 – 20:00 in E4‑101. No registration needed.
+  Why join?
+  Get unfiltered, honest insights from peers who just returned from top conferences
+  Ask “stupid” questions in a safe, informal setting
+  Discover research directions you hadn’t considered
+  Meet new people without awkward networking scripts
+  Just show up, grab a snack, pick a table, and start talking. We look forward to seeing you there – let’s chat, exchange ideas, and inspire each other!
+  For any enquiries, please contact the Chair Mr. Zhuowen LIANG at
+  zliang321@connect.hkust-gz.edu.cn
+  . Thank you!
+  Date
+  25 May 2026
+  Time
+  19:00:00 -
+  20:00:00
+  Location
+  E4-101, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

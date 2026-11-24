@@ -1,0 +1,7 @@
+msc_dcai_page: Xiaowen CHU
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/
+supervisor_type: academic
+role: Acting Thrust Head
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu
+responsibilities: Thrust of Artificial Intelligence

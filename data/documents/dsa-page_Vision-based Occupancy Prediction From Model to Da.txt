@@ -1,0 +1,32 @@
+dsa_page: Vision-based Occupancy Prediction: From Model to Dataset – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/vision-based-occupancy-prediction-from-model-to-dataset/
+source: DSA
+
+headings:
+  - Vision-based Occupancy Prediction: From Model to Dataset
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Vision-based Occupancy Prediction: From Model to Dataset
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Song TANG
+  Abstract
+  Autonomous driving technology has significantly advanced, with occupancy prediction being crucial for vehicle navigation and obstacle avoidance. This review focuses on vision based occupancy prediction methods, which offer a cost-effective alternative to LiDARbased and multi-modal approaches. We examine the historical context and define the tasks of vision-based occupancy prediction, discussing key challenges such as annotation difficulties and computational demands. Various methodologies are analyzed, including enhanced feature representation techniques like BEV-based, TPV-based, and voxel-based models, alongside efficient network architectures and cost-effective labeling techniques. The paper also reviews real-world and simulation-based datasets essential for training and evaluating these models, and discusses the metrics used to assess their performance. By synthesizing recent advancements, this review identifies current gaps and proposes future research directions to promote innovations in vision-based occupancy prediction for autonomous driving.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Lin WANG
+  Examiner: Prof Zeyi WEN
+  Date
+  05 June 2024
+  Time
+  13:30:00 -
+  14:45:00
+  Location
+  E1-147

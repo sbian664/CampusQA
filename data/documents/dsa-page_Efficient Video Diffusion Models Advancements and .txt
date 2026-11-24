@@ -1,0 +1,34 @@
+dsa_page: Efficient Video Diffusion Models: Advancements and Challenges – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/efficient-video-diffusion-models-advancements-and-challenges/
+source: DSA
+
+headings:
+  - Efficient Video Diffusion Models: Advancements and Challenges
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Efficient Video Diffusion Models: Advancements and Challenges
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. SHAO, Shitong
+  Abstract
+  Video diffusion models have rapidly become the dominant paradigm for high-fidelity generative video synthesis, but their practical deployment remains constrained by severe inference costs. Compared with image generation, video synthesis compounds computation across spatial-temporal token growth and iterative denoising, making attention and memory traffic major bottlenecks in real-world settings. This survey provides a systematic and deployment-oriented review of efficient video diffusion models. We propose a unified categorization that organizes existing methods into four classes of main paradigms, including step distillation, efficient attention, model compression, and cache/trajectory optimization. Building on this categorization, we respectively analyze algorithmic trends of these four paradigms and examine how different design choices target two core objectives: reducing the number of function evaluations and minimizing per-step overhead. Finally, we discuss open challenges and future directions, including quality preservation under composite acceleration, hardware-software co-design, robust real-time long-horizon generation, and open infrastructure for standardized evaluation. To the best of our knowledge, our work is the first comprehensive survey on efficient video diffusion models, offering researchers and engineers a structured overview of the field and its emerging research directions.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. XIE, Zeke
+  Co-Supervisor: Prof. WU, Kaishun
+  Examiner: Prof. WEN, Zeyi
+  Date
+  09 June 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-150, HKUST(GZ)

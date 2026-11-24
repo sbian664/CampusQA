@@ -1,0 +1,390 @@
+fytgs_page: Internet of Things
+url: https://fytgs.hkust-gz.edu.cn/programs/internet-of-things-5
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Internet of Things
+
+text: >
+  Postgraduate Programs 2026/27
+  Master of Philosophy and Doctor of Philosophy Programs in Internet of Things
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Internet of Things
+  Doctor of Philosophy in Internet of Things
+  Program Short Name
+  MPhil(IoT)
+  PhD(IoT)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Internet of Things Thrust Area
+  Information Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Lingjie DUAN, Professor of Internet of Things
+  Website
+  https://iott.hkust-gz.edu.cn/
+  Enquiry
+  iott@hkust-gz.edu.cn
+  INTRODUCTION
+  Internet of Things (IoT) is among the pillars in the “Internet Plus” action plan in China, presented in the Chinese Government’s work report in 2015. The Internet of Things Thrust Area under the Information Hub at HKUST(GZ) is established to grow HKUST’s strength in wireless communications and networking, and to contribute to the nation’s drive to become a world leader in IoT, covering research areas such as wireless communications, smart cities, digital healthcare, machine learning and optimization, web science, computer networking, social computing, privacy and security, and the wider societal aspects of IoT. The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Internet of Things are offered as an integral part of the endeavor to become a world-renowned IoT research center with the mission to advance applied research in IoT as well as fundamental research relevant to the application areas.
+  The MPhil Program aims to train students in conducting independent and interdisciplinary research in IoT. An MPhil graduate is expected to demonstrate sound knowledge in the discipline and the ability to synthesize and create new knowledge, and make a contribution to the field.
+  The PhD Program aims to train students in conducting original research in IoT, and to cultivate independent, interdisciplinary, and innovative thinking that is essential for a successful career in IoT-related industry and/or academia. A PhD graduate is expected to demonstrate mastery of knowledge in the chosen discipline and the ability to synthesize and create new knowledge, making an original and substantial scientific contribution to the discipline.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Demonstrate sound knowledge of the literature and a comprehensive understanding of scientific methods and techniques relevant to IoT;
+  Demonstrate practical skills in building IoT systems;
+  Critically apply theories, methodologies, and knowledge to address fundamental questions in IoT;
+  Independently pursue research and innovation of significance in IoT applications; and
+  Demonstrate skills in oral and written communication sufficient for a professional career.
+  On successful completion of the PhD program, graduates will be able to:
+  Demonstrate mastery of knowledge of the literature and a comprehensive understanding of scientific research relevant to IoT;
+  Demonstrate theoretical skills in understanding IoT research;
+  Critically evaluate theories, methodologies, and knowledge to address fundamental research questions in IoT;
+  Independently conduct original research and make significant scientific contributions to the IoT discipline; and
+  Demonstrate competent skills in oral and written communication for the dissemination of thesis results in the scientific community.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Information Hub and at least one Hub core course (2 credits) from other Hubs.
+  Information Hub Core Course
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take one IOTA course and other elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. Only one Independent Study course may be used to satisfy the course requirements.
+  To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  IOTA 5001
+  Social and Web Computing
+  3 Credit(s)
+  Description
+  This course will introduce students to the fundamentals of Social and Web Computing, as well as providing detailed coverage of recent research in this space. It will consist of two major parts. First, students will learn about fundamental social computing theories, alongside computational methodologies that can be used to understand human interactions online. Second, students will be exposed to a range of recent applied research that has employed these methodologies. There will be an empirical focus in the course, and students will be exposed to a range of measurement research capturing how social and web systems work in-the-wild. Students will learn about social network analysis and relevant APIs, alongside related aspects of the Web, user privacy and online advertisement.
+  IOTA 5002
+  Data-driven Modeling: Learning from Sensor Data
+  3 Credit(s)
+  Description
+  Data-driven modeling is revolutionizing the modeling and predicting of complex systems. This cross-disciplinary course will introduce methodologies for integrating time-series analysis, machine learning, engineering mathematics, and mathematical physics, into data-driven methods for inferring and building models from data. At the end of the course, students are expected to understand the principles and methods of extracting patterns and models from data and making effective predictions, and to have hands-on implementations with Python/Matlab.
+  In-class lab demonstrations will also be provided.
+  IOTA 5003
+  Wireless Connectivity for Mobile Autonomous Things
+  3 Credit(s)
+  Description
+  This course aims to develop students’ fundamental understanding of the application scenarios, challenges, and solutions of wireless connectivity in various systems involving autonomous things, and under possible mobility. Topics covered include fundamentals of digital communications, future wireless connectivity requirements, and various solutions to the unique challenges such as dynamic propagation environment, scalability, complexity, and heterogeneity.
+  IOTA 5004
+  Introduction to Scientific Machine Learning for Science and Engineering Applications
+  3 Credit(s)
+  Description
+  Scientific Machine Learning (SciML) = Scientific Computing + Machine Learning. Machine Learning and deep learning techniques have emerged to revolutionize conventional methods of scientific computing and discovery (such as modeling, solving differential equations, parameter estimation, equation discovery, etc.), crafting a new generation of machine learning methods for complex applications across science and engineering. This course will introduce thisnewly emerged paradigm and research trend, including topics of physics-informed neural networks (PINN), neural operators, governing equation discovery, and differentiable physics, etc. The course is designed as a project-oriented one, bridging practice and theory, aiming for real-world problems. At the end of the course, students are expected to understand the principles and methods of SciML, and to have hands-on implementations with Python.
+  IOTA 5005
+  Introduction to Energy Harvesting Technology
+  3 Credit(s)
+  Description
+  The distributed power supply for millions and billions of remote & off-grid electronics (such as wireless IOT node sensors) is challenging. Harvesting sustainable energy from the ambient environment provides the possibility of designing battery-free devices. This course will introduce the vibration energy harvesting technology developed in the past two decades to students. As the fundamentals, commonly used energy transduction mechanisms will be first introduced to the students. The students will also learn various modeling methods, including lumped parameter modeling, equivalent circuit modeling, and finite element modeling.
+  IOTA 5006
+  Distributed Systems: Concepts and Applications
+  3 Credit(s)
+  Description
+  This course teaches the design and implementation of efficient, scalable, and fault-tolerant distributed systems. Topics include models for distributed communication and computing, synchronization, and consensus algorithms. The course will also cover relevant applications, including platforms for distributed Machine Learning such as Ray, and large-scale data and stream processing systems such as Apache Flink and Google Dataflow.
+  IOTA 5007
+  Introduction to Data Processing in Array-structured Systems
+  3 Credit(s)
+  Description
+  This course provides a comprehensive overview of array processing techniques and their applications in various fields, including wireless communications, radio astronomy, biomedical imaging, and audio and speech signal processing. Students will explore topics such as wave propagation, data modeling, matrix decomposition, adaptive filtering, beamforming, direction finding, microphone and radar array processing, factor analysis, and biomedical array processing. The course emphasizes the interdisciplinary nature of array processing and its relevance in the context of IoT, preparing students to be equipped with the knowledge and skills necessary to analyze and process data from array-structured systems, contributing to advancements in array processing across diverse domains.
+  IOTA 5008
+  Assistive Technology Design based on Computational Media and Arts
+  3 Credit(s)
+  Description
+  This course teaches students the design and evaluation of novel smart assistive technologies for people with disabilities (e.g., blind, deaf, motor-impaired) and the aging population. Students will learn user-centered methods to identify true user needs and design smart assistive technologies that leverage immersive media (e.g., VR/AR/MR) or AIoT (e.g., AI, mobile and wearable sensing). Moreover, students will also learn how to evaluate the performance and user experience of such assistive technologies.
+  IOTA 5009
+  AR/VR/MR/XR: Concepts, Theory, and Techniques
+  3 Credit(s)
+  IOTA 5102
+  Fundamentals of Localization Technologies
+  3 Credit(s)
+  IOTA 5104
+  Fundamentals of Discrete-Time Signal Processing
+  3 Credit(s)
+  Description
+  This course introduces students to the fundamentals of discrete-time signal processing, for both linear time invariant (LTI) and non-LTI systems. For LTI systems, the topics include the sampling theorem, Fourier transform, convolution, and spectrum analysis, which lays the foundation for OFDM in wireless communications. Advanced topics will also be covered for time-variant systems, such as Heisenberg transform, Wigner distribution and Fractional Fourier transform, and their applications in radar, sonar and the OTFS modulation in wireless communications.
+  IOTA 5105
+  Fundamentals of Wireless Communications
+  3 Credit(s)
+  Description
+  This course lays theoretical foundation for students with general EE background to pursue research advances involving wireless communication-based systems, e.g., 4G/5G mobile communication, IoT and WLAN. In this course, concepts of wireless channels, its modelling as well as channel capacity for point-to-point/multi-user/MMO communications will be systematically introduced. Along with understanding of these theories, the principles and state-of-the-art technologies to combat fading and interference including general diversity techniques, OFDM, and multiple access schemes will be conveyed. Finally, a few advanced topics for 5G-and beyond (B5G) communication system design will be briefly introduced, such as massive MIMO and reconfigurable intelligent surface (RIS).
+  IOTA 5106
+  Introduction to Communication Networks
+  3 Credit(s)
+  Description
+  This course introduces students to different types of communication networks, with a focus on Internet technologies. Topics covered include error control, flow control, medium access control, routing, congestion control, packet scheduling, queueing theory, and network optimization. The course will provide students with the fundamental knowledge required to understand, analyze, and optimize the performance of communication networks. It is suitable for students who do not have an existing background in communication networks.
+  IOTA 5107
+  Advanced Networked Systems for AI and Multimedia Systems
+  3 Credit(s)
+  Description
+  This course focuses on relevant current research topics in Networked Systems such as Networking for AI, Multimedia Communication, Data-Center Networks, Software-Defined Networking, Dataplane Programmability, Information-Centric Networking, Quantum Internet Communication, Privacy Preserving Communication, Constrained (IoT) Networks. This course will provide a structured introduction to the state-of-the-art and recent research in the field of networked systems. It will further introduce students to recent development efforts in the academic community as well as in Internet standardization.
+  IOTA 5108
+  Incremental Learning and Adaptive Signal Processing
+  3 Credit(s)
+  Description
+  This course aims to develop students’ fundamental understanding of the theory and application of incremental learning and adaptive signal processing. Topics covered in this course include Wiener filter, least mean squares (LMS), recursive least squares (RLS), the Kalman filter, classification, parameter learning, neural network and deep learning.
+  IOTA 5109
+  Wireless Sensor and Actuator Networks Toward Swarm Intelligence
+  3 Credit(s)
+  Description
+  This course teaches the basic concepts of wireless sensor and actuator networks (WSANs), and how swarm intelligence is applied over WSAN. The course content includes the typical architecture of the hardware WSAN devices, the general communication mechanism and examples of applications using WSANs to realize swarm intelligence.
+  IOTA 5201
+  Reinforcement Learning for Intelligent Decision Making
+  3 Credit(s)
+  Description
+  This course offers a comprehensive introduction to Reinforcement Learning (RL), building a foundation from core concepts like Markov Decision Processes (MDPs) and dynamic programming to advanced algorithms such as policy gradients and actor-critic methods (PPO, DDPG). It progresses to modern topics including Multi-Agent Reinforcement Learning (MARL), making it ideal for students across engineering and science disciplines looking to apply RL in their research.
+  IOTA 5202
+  Efficient Machine Learning for Resource Constrained Environments
+  3 Credit(s)
+  Description
+  This course explores cutting-edge techniques for creating efficient machine-learning models to address the growing demand for real-time decision-making and localized processing across diverse application fields, including IoT/robotics/smart manufacturing systems and beyond. Key topics include model compression, pruning, quantization, neural architecture search, knowledge distillation, on-device fine-tuning, transfer learning, application-specific acceleration techniques, etc. Through hands-on projects, students will learn to optimize and adapt deep learning models for resource-constrained devices while maintaining accuracy and performance.
+  IOTA 5501
+  Convex and Nonconvex Optimization I
+  3 Credit(s)
+  Description
+  This course covers fundamental theory, algorithms, and applications for convex and nonconvex optimization, including: 1) Theory: convex sets, convex functions, optimization problems and optimality conditions, convex optimization problems, geometric programming, duality, Lagrange multiplier theory; 2) Algorithms: disciplined convex programming, numerical linear algebra, unconstrained minimization, minimization over a convex set, equality constrained minimization, inequality constrained minimization; 3) Applications: approximation (regression), statistical estimation, geometric problems, classification, etc.
+  IOTA 5502
+  Convex and Nonconvex Optimization II
+  3 Credit(s)
+  Description
+  This course covers advanced theory, algorithms, and applications for convex and nonconvex optimization, including: subgradient methods, localization methods, decomposition methods, proximal methods, alternating direction methods of multipliers, conjugate direction methods, successive approximation methods, convex-cardinality problems, low-rank optimization problems, neural networks, semidefinite programming and relaxation, robust optimization, discrete optimization, stochastic optimization, etc.
+  IOTA 5503
+  Cybersecurity and Privacy
+  3 Credit(s)
+  Description
+  This course covers fundamental aspects of cybersecurity and privacy. The course will equip students with the ability to understand and analyze security technologies. This course will then explain how these technologies are used and deployed in practical real-world environments, before exploring how recent attacks have discovered new vulnerabilities. The course will emphasize the value of empirical observations and give students insight into how these vulnerabilities can be measured in-the-wild. This course is ideal for students who are interested in understanding cybersecurity risks in a broad range of technologies.
+  IOTA 5504
+  Approximate Computing - Introduction to Numerical Analysis
+  3 Credit(s)
+  Description
+  This course is an introduction to the algorithms that use numerical approximation (as opposed to symbolic manipulations) for the problems of mathematical analysis. The course will help students develop a basic understanding of numerical algorithms and the skills to implement algorithms to solve mathematical problems on the computer.
+  IOTA 5505
+  Statistical Inference for Machine Learning and Signal Processing
+  3 Credit(s)
+  Description
+  This course introduces the fundamentals and advanced topics of statistics that cover multivariate distribution along with dimension-reduction techniques, concentration inequalities, performance metrics for statistical learning, and applications in statistical signal processing, including estimation theory and methods, detection theory and methods, and selected advanced algorithms such as Markov Chain Monte Carlo (MCMC) and expectation maximization (EM), etc.
+  IOTA 6900
+  Independent Study
+  1-3 Credit(s)
+  Description
+  An independent research project carried out under the supervision of a faculty member on an Internet of Things topic.
+  IOTA 6910
+  Special Topics in Internet of Things
+  3 Credit(s)
+  Description
+  Advanced topics in Internet of Things(IoT): IoT in finance; IoT in manufacturing; IoT in healthcare; IoT in security and privacy; IoT in digital society; ethical issues in IoT and digital society ethics; modeling and optimization for IoT; signal processing for IoT. The course may be repeated for credit if different topics are studied.
+  AIAA 5024
+  Advanced Deep Learning
+  3 Credit(s)
+  Description
+  This course covers recent developments in deep learning. Topics include meta learning, model compression, federated learning, representation learning, explainable AI, adversarial attack and defense, and advances in deep learning theory.
+  AIAA 5025
+  Deep Reinforcement Learning
+  3 Credit(s)
+  Description
+  This course covers recent developments in deep reinforcement learning. Topics include reinforcement learning basics, deep Q-learning, policy gradients, actor-critic algorithms, model-based reinforcement learning, imitation learning, inverse reinforcement learning, hierarchical reinforcement learning, and multi-agent reinforcement learning.
+  AIAA 5030
+  Foundations of Data Mining
+  3 Credit(s)
+  Description
+  This course will introduce the fundamental principles, uses, and technical details of data mining techniques by lectures and real-world case studies. The emphasis is on understanding the basic data mining techniques and their applications. We will discuss the mechanics of how data analytics techniques work as is necessary to understand the fundamental concepts and real-world applications.
+  DSAA 5002
+  Data Mining and Knowledge Discovery in Data Science
+  3 Credit(s)
+  Description
+  With more and more data available, data mining and knowledge discovery has become a major field of research and applications in data science. Aimed at extracting useful and interesting knowledge from large data repositories such as databases, scientific data, social media and the Web, data mining and knowledge discovery integrates techniques from the fields of database, statistics and AI.
+  DSAA 5020
+  Foundation of Data Science and Analytics
+  3 Credit(s)
+  Description
+  This course will introduce fundamentals techniques for data science and analytics. Specifically, it will teach students how to clean the data, how to integrate data and how to store the data. On top of these, it will also teach students knowledge to conduct data analysis, such as Bayes rule and connection to inference, linear approximation and its polynomial and high dimensional extensions, principal component analysis and dimension reduction. In addition, it will also cover advanced data analytics topics including data governance, data explanation, data privacy and data fairness.
+  DSAA 5024
+  Data Exploration and Visualization
+  3 Credit(s)
+  Description
+  This course covers essential techniques for data exploration and visualization. Students will learn the iterative process of data preprocessing techniques for getting data into a usable format, exploratory data analysis (EDA) techniques for formulating suitable hypotheses and validating them, and specific techniques for domain-related data exploration and visualization such as high-dimensional, hierarchical, and geospatial data. The course uses programing languages such as python and tools like Tableau.
+  IPEN 5500
+  Science, Technology and Innovation Policy
+  3 Credit(s)
+  Description
+  The course introduces the conceptualizations of innovation policy and its instruments. It also develops evaluation methods to analyze the effects of these policy instruments and policy mixes. Cases of conceptual and empirical studies focus on the issues of innovation funding schemes and publicly funded science systems.
+  UGOD 5010
+  Science of Cities
+  3 Credit(s)
+  Description
+  The course aims to provide a comprehensive understanding of the city and the system of cities, the challenges faced by cities, especially the rapidly-developing large cities, and the key tools for interventions in response to critical pressures linked to economic development, urbanization, globalization, migration, social inclusion, climate change, resource efficiency, technology etc.
+  UGOD 5060
+  Urban Data Analytics
+  3 Credit(s)
+  Description
+  Over recent years, the way data are used to understand urban system has changed dramatically. Cities are constantly adapting to incorporate new technology, and urban social life increasingly occurs in digital environments and continues to be mediated by digital systems, producing urban data not only in volume but also in form (i.e. text, image, audio, and video). This course delves into the challenges and opportunities of using new and emerging forms of data to study cities.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  INFH 6780
+  Career Development for Information Hub Students
+  1 Credit(s)
+  Description
+  This course aims at equipping RPg students of the Information Hub with the skills conducive to their professional career development. Students are required to attend the 3 hours' training focusing on personality self-exploration and discipline-specific training at the thrust level, and another 10 hours' training at the hub level, at their own choice. Graded PP, P or F.
+  Students are required to complete INFH 6780. The 1 credit earned from INFH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed INFH 6780 or other professional development courses offered by the University before may be exempted from taking INFH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  IOTA 6101
+  Internet of Things Seminar I
+  0 Credit(s)
+  Description
+  A series of regular seminars presented by postgraduate students, faculty, and guest speakers on IoT-related research problems currently under investigation. Students are expected to attend regularly. Graded P or F.
+  IOTA 6102
+  Internet of Things Seminar II
+  1 Credit(s)
+  Description
+  A series of regular seminars presented by postgraduate students, faculty, and guest speakers on IoT-related research problems currently under investigation. Students are expected to attend regularly. Continuation of IOTA 6101. Graded P or F.
+  Students are required to complete IOTA 6101 and IOTA 6102 in two terms. The credit earned cannot be counted toward the credit requirements.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  IOTA 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  IOTA 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in IOTA 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in IOTA 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://iott.hkust-gz.edu.cn/ | https://iott.hkust-gz.edu.cn/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

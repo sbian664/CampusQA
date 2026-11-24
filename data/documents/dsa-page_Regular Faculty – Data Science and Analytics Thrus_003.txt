@@ -1,0 +1,169 @@
+dsa_page: Regular Faculty – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/faculty/
+source: DSA
+
+headings:
+  - Jeffrey Xu YU
+  - Lionel Ming-Shuan NI
+  - Ting Chuen PONG
+  - Lei CHEN
+  - Kaishun WU
+  - Wei WANG
+  - Nan TANG
+  - Xiaowen CHU
+  - Fugee TSUNG
+  - Qiong LUO
+  - Sung Hun KIM
+  - Jia LI
+  - Jing TANG
+  - Wei ZENG
+  - Zishuo DING
+  - Ningning DING
+  - Huayi DUAN
+  - Juan DU
+  - Tianyuan JIN
+  - Zhijiang GUO
+  - Yuwen HUANG
+  - Lei LI
+  - Yuxuan LIANG
+  - Shangqi LU
+  - Yuyu LUO
+  - Guoming TANG
+  - Jiaheng WEI
+  - Zeyi WEN
+  - Jun XIA
+  - Zeke XIE
+  - Weikai YANG
+  - Yanlin ZHANG
+  - Yongqi ZHANG
+  - Zixin ZHONG
+  - Lei ZHU
+  - Lorraine Yuxin ZHANG
+
+text: >
+  Jeffrey Xu YU
+  Professor
+  Acting Head of the Data Science and Analytics Thrust
+  Lionel Ming-Shuan NI
+  Chair Professor
+  President
+  IEEE Fellow
+  Ting Chuen PONG
+  Professor
+  Vice-President (Administration & Business)
+  Lei CHEN
+  Chair Professor
+  Dean of the Information Hub
+  ACM Fellow, IEEE Fellow
+  Kaishun WU
+  Professor
+  Associate Vice-President (Research)
+  IEEE Fellow
+  Wei WANG
+  Professor
+  Associate Dean of the Information Hub
+  Nan TANG
+  Associate Professor
+  Associate Dean of the Information Hub
+  Xiaowen CHU
+  Professor
+  Acting Head of the Artificial Intelligence Thrust
+  IEEE Fellow
+  Fugee TSUNG
+  Chair Professor
+  IAQ Academician
+  ASA Fellow
+  ASQ Fellow
+  IISE Fellow
+  Qiong LUO
+  Professor
+  Sung Hun KIM
+  Associate Professor
+  Jia LI
+  Associate Professor
+  Jing TANG
+  Associate Professor
+  Wei ZENG
+  Associate Professor
+  Zishuo DING
+  Assistant Professor
+  Ningning DING
+  Assistant Professor
+  Huayi DUAN
+  Assistant Professor
+  Juan DU
+  Assistant Professor
+  Tianyuan JIN
+  Assistant Professor
+  Zhijiang GUO
+  Assistant Professor
+  Yuwen HUANG
+  Assistant Professor
+  Lei LI
+  Assistant Professor
+  Yuxuan LIANG
+  Assistant Professor
+  Shangqi LU
+  Assistant Professor
+  Yuyu LUO
+  Assistant Professor
+  Guoming TANG
+  Assistant Professor
+  Jiaheng WEI
+  Assistant Professor
+  Zeyi WEN
+  Assistant Professor
+  Jun XIA
+  Assistant Professor
+  Zeke XIE
+  Assistant Professor
+  Weikai YANG
+  Assistant Professor
+  Yanlin ZHANG
+  Assistant Professor
+  Yongqi ZHANG
+  Assistant Professor
+  Zixin ZHONG
+  Assistant Professor
+  Lei ZHU
+  Assistant Professor
+  Lorraine Yuxin ZHANG
+  Lecturer II
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TINGCHUEN/tcpong | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TINGCHUEN/tcpong
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIN-Tianyuan/tianyuanjin | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIN-Tianyuan/tianyuanjin
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuwen/yuwenhuang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuwen/yuwenhuang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yuxin/yuxinz | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yuxin/yuxinz

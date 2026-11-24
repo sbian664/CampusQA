@@ -1,0 +1,44 @@
+dsa_page: Advanced Training Strategies for Classical Machine Learning and Their Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/14/advanced-training-strategies-for-classical-machine-learning-and-their-applications/
+source: DSA
+
+headings:
+  - Advanced Training Strategies for Classical Machine Learning and Their Applications
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Advanced Training Strategies for Classical Machine Learning and Their Applications
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr LIU Hanfeng
+  Abstract
+  Conventional machine learning algorithms such as Support Vector Machines (SVMs) and Gradient Boosting Decision Trees (GBDTs) remain essential for many applications due to their interpretability, theoretical guarantees, and effectiveness on structured data. However, these methods face critical scalability challenges that limit their deployment in modern large-scale scenarios. This thesis proposal presents a systematic investigation into advanced training strategies that revitalize conventional algorithms through algorithmic innovation, systems optimization, and automated design while preserving their fundamental advantages.
+  We propose four interconnected contributions that establish a unified framework for scaling conventional machine learning. GPU-GBDT-MO addresses multi-output gradient boosting through comprehensive GPU acceleration strategies featuring fused histogram construction and adaptive algorithm selection. The system achieves 30× to 190× speedup over CPU baselines and 1.7× to 170× speedup across multiple GPUs while maintaining model quality. TemplateGBM explores automated GBDT generation through template-based structural constraints and reinforcement learning approaches.
+  MoE-SVM introduces a Mixture-of-Experts architecture that decomposes large-scale SVM optimization into specialized expert subproblems through entropy-based routing mechanisms, achieving 10-50× training speedup while maintaining competitive accuracy on datasets with millions of examples. ABSA-SVM validates this approach through successful application to Aspect-Based Sentiment Analysis, demonstrating that accelerated conventional methods can match transformer-based F1 scores while providing 5-10×faster inference.
+  The research demonstrates three key innovations: conditional computation paradigms that reduce average computational workload through intelligent data routing, specialized GPU optimizations that regularize irregular memory access patterns characteristic of conventional algorithms, and automated design approaches that reduce manual intervention while maintaining interpretability. Comprehensive evaluation across diverse datasets and applications validates the effectiveness of these strategies.
+  Keywords:
+  Machine Learning Acceleration, Support Vector Machines, Gradient Boosting Decision Trees, GPU Computing, Multi-output Learning.
+  TPE Committee
+  Chair of Committee: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WEN, Zeyi
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. LI, Lei
+  Date
+  25 July 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201(HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  948 1524 3861
+  Passcode: dsa2025

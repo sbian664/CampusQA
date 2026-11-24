@@ -1,0 +1,34 @@
+dsa_page: Lightweight Large Language Models: A Survey of Model Compression and Efficiency Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/lightweight-large-language-models-a-survey-of-model-compression-and-efficiency-optimization/
+source: DSA
+
+headings:
+  - Lightweight Large Language Models: A Survey of Model Compression and Efficiency Optimization
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Lightweight Large Language Models: A Survey of Model Compression and Efficiency Optimization
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss DONG Peijie
+  Abstract
+  Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, revolutionizing natural language processing and artificial intelligence. However, their unprecedented model sizes, often reaching hundreds of billions of parameters, pose significant challenges in terms of computational resources, memory requirements, and deployment costs. This has created an urgent need for efficient model compression techniques. This survey presents a comprehensive analysis of modern model compression techniques for LLMs, with a particular focus on five key methodologies: quantization, pruning, singular value decomposition (SVD), knowledge distillation (KD), and neural architecture search (NAS). We systematically review the recent advancements in these areas, with particular emphasis on quantization and pruning techniques, while also providing a general overview of SVD, KD, and NAS approaches. For each methodology, we mainly review its representative algorithms, practical implementations, and impact on model efficiency. We analyze the development trends and representative algorithms in each category, offering insights into their relative strengths, limitations, and potential future directions. Through this survey, we aim to provide valuable insights into the landscape of LLM compression techniques and illuminate promising research directions. We maintain comprehensive curated lists of research papers and resources focused on Quantization1 and Pruning2 techniques.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. HE Junxian
+  Examiner: Prof. WEI Jiaheng
+  Date
+  10 June 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-149 (HKUST-GZ)

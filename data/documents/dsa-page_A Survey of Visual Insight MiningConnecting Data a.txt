@@ -1,0 +1,39 @@
+dsa_page: A Survey of Visual Insight Mining:Connecting Data and Insights via Visualization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-of-visual-insight-miningconnecting-data-and-insights-via-visualization/
+source: DSA
+
+headings:
+  - A Survey of Visual Insight Mining:Connecting Data and Insights via Visualization
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Visual Insight Mining:Connecting Data and Insights via Visualization
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LIAN, Yijie
+  Abstract
+  Insight mining transforms complex data into actionable knowledge, enabling effective decision-making across diverse domains. Given the richness and interpretative power of visualizations, visual insight mining - the process of extracting meaningful insights from raw data through intuitive visual representations - has become increasingly vital. This survey systematically reviews the current landscape of visual insight mining, addressing the critical questions:
+  “How can visualizations be generated from data?”
+  and
+  “How can
+  insights be extracted from visualizations?”
+  . Specifically, we delve into six distinct tasks (, task decomposition, visualization generation, visualization recommendation, chart parsing, chart question answering, and insight generation) in the process of visual insight mining, and provide a comprehensive analysis of rule-based, learning-based, and large-model-based methods for each task. Based on the survey, we discuss current research challenges and outline future opportunities. By viewing visualization as a bridge in the data-to-insight path, this survey offers a structured foundation for further exploration in visual insight mining.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. LUO Qiong
+  Co-Supervisor: Prof. ZENG Wei
+  Examiner: Prof. WEN Zeyi
+  Date
+  10 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-149 (HKUST-GZ)

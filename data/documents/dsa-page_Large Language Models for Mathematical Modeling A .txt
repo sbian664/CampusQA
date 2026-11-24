@@ -1,0 +1,36 @@
+dsa_page: Large Language Models for Mathematical Modeling: A Literature Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/large-language-models-for-mathematical-modeling-a-literature-survey/
+source: DSA
+
+headings:
+  - Large Language Models for Mathematical Modeling: A Literature Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Large Language Models for Mathematical Modeling: A Literature Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. WU, Xiaojun
+  Abstract
+  Large language models (LLMs) are increasingly used to translate natural language descriptions of real-world problems into mathematical formulations, computational procedures, and written solution reports. This review synthesizes a focused source-bounded corpus of four core works: Mamo, ModelingAgent, MM-Agent, and a DeepSeek-R1 dissertation on supply-chain operations research. It situates these works against the broader practice of contest-style mathematical modeling, where teams must choose assumptions, select methods, compute results, and communicate them in a research-style report. It also integrates adjacent AI literature on four major modeling domains: differential equations, operations research optimization, data science, and multi-criteria decision making. The review is bounded by source materials and bibliographic entries traceable to project BibTeX, bibliography, PDF, or LaTeX files. It does not introduce unverified external references.
+  The literature shows a clear shift from answer-oriented mathematical reasoning benchmarks toward process-oriented evaluation of modeling. Mamo uses solvers to isolate formulation quality from downstream computation, while ModelingAgent and MM-Agent expand the task to open-ended competition-style modeling that requires problem analysis, assumption design, method retrieval, tool use, computation, and report generation. Adjacent method-domain works provide important capabilities, but they mostly focus on method formalization, algorithmic performance, or task automation; this review reframes them as components of a larger modeling workflow. Across these works, the central finding is that LLM-for-mathematical-modeling should be evaluated as an integrated workflow rather than as a single-step reasoning task. Future research should prioritize traceable formulation, method-aware harnesses, human-calibrated evaluation, uncertainty-aware tool use, and reproducible benchmark protocols.
+  Keywords: large language models; mathematical modeling; LLM agents; operations research; benchmark evaluation; solver verification
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. GUO, Jian (Online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  09 June 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-150, HKUST(GZ)

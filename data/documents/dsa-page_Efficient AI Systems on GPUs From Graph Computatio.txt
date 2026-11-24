@@ -1,0 +1,66 @@
+dsa_page: Efficient AI Systems on GPUs: From Graph Computation to LLM Inference – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/09/efficient-ai-systems-on-gpus-from-graph-computation-to-llm-inference/
+source: DSA
+
+headings:
+  - Efficient AI Systems on GPUs: From Graph Computation to LLM Inference
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Efficient AI Systems on GPUs: From Graph Computation to LLM Inference
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Ruibo FAN
+  ABSTRACT
+  The rapid scaling of AI has made efficient GPU execution a central systems challenge. From graph neural network training to large language model inference, modern workloads increasingly demand both high arithmetic throughput and efficient movement of structured data. Modern GPUs deliver massive peak throughput via specialized Tensor Cores, yet a persistent gap remains between this hardware capability and the actual performance of AI workloads.
+  This dissertation identifies two forms of software-side irregularity driving this gap.
+  Spatial
+  irregularity
+  , the non-uniform distribution of meaningful computation across data elements, creates a
+  Computing Pattern Mismatch
+  for sparse graphs and pruned models.
+  Numerical irregularity
+  , the concentration of values within narrow magnitude ranges, creates a
+  Precision Mismatch
+  where tensors underutilize their storage formats. We demonstrate that both mismatches can be resolved through
+  hardware-aware design
+  : co-designing data formats and execution strategies with the GPU memory hierarchy and execution model.
+  This principle is developed through four GPU systems spanning graph neural networks (GNNs) and large language models (LLMs).
+  HP-GNN
+  introduces runtime-adaptive hybrid parallelism to accelerate sparse GNN operators on CUDA cores.
+  DTC-SpMM
+  extends this approach to Tensor Cores, mapping unstructured sparse matrices efficiently using a format co-designed with TC tile geometry.
+  SpInfer
+  accelerates unstructured-sparse LLM inference byreplacing per-element indices with TC-aligned bitmap encoding, outperforming dense cuBLAS across practical sparsity ranges.
+  ZipServ
+  exploits BF16 weight redundancy via a fixed-length, TC-aligned format that decompresses on-the-fly into registers, achieving lossless compression and significant throughput gains.
+  Collectively, these systems establish a central insight: closing the software-hardware gap requires representing irregular workloads in forms that are both mathematically compact and directly executable by hardware. This hardware-aware representation principle unifies efficient AI systems from graph computation to LLM serving.
+  TEC
+  Chairperson: Prof Liuqing YANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Wei WANG
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Zeyi WEN
+  Prof Xinyu CHENG
+  Prof Yuedong XU
+  Date
+  04 June 2026
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

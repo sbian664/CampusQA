@@ -1,0 +1,35 @@
+dsa_page: Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/construction-of-cross-border-industrial-data-circulation-and-sharing-platform-in-the-greater-bay-area/
+source: DSA
+
+headings:
+  - Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  - Abstract
+  - Project members
+  - Fugee TSUNG
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  Abstract
+  This project aims to explore the establishment of cross-border industrial data circulation and sharing in GBA, using data spaces, blockchain, data visualization, and privacy computing. The goal is to develop a comprehensive data circulation and sharing solution tailored to industrial operations, logistics and supply chain. The specific research objectives are as follows:
+  Conduct an analysis of data circulation and sharing regulations from a global, Chinese, and Greater Bay Area perspective, culminating in a policy interpretation report.
+  Explore research and analysis of domestic and international next-generation internet technologies under data space, as well as privacy protection and privacy-enhancing technologies in the context of data circulation and sharing. This research will result in a comprehensive research report.
+  Propose a comprehensive solution for data circulation and sharing, tailored to the Greater Bay Area, by integrating the analysis of current data sharing regulations, technologies, and applications. This solution will be grounded in the research expertise of the project team in the aforementioned areas, and an experimental testbed will be established. Specifically, we'll first explore how blockchain technology can bolster the security and transparency of cross-border industrial data transactions, tailored to the Greater Bay Area's needs. Then, we will focus on preserving industrial data privacy using visualization techniques, with a case study in the Greater Bay Area. Finally, we will delve into practical applications of data circulation in industries like industrial operations, green energy, and supply chains within the Greater Bay Area.
+  Develop exemplary cases in data space technologies and new paradigms and models for data circulation and sharing, to respond to the needs of industrial operations, logistics and supply chain in the Greater Bay Area.
+  The “Rules + Management + Technology” Architecture under a Data Cross-Border Scenario
+  Project members
+  Fugee TSUNG
+  Chair Professor
+  Project Period
+  2024/1/15/-2026/1/14
+  Research Area
+  Industrial and Business Analytics, Security and Privacy, Data Visualization and Infographics
+  Keywords
+  Data Circulation, Data Privacy, Data Sharing, Data Space, Industrial Operations, Supply Chain
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season

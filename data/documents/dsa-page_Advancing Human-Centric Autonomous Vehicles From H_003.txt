@@ -1,0 +1,35 @@
+dsa_page: Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/advancing-human-centric-autonomous-vehicles-from-human-like-driving-to-large-language-model-based-workflow/
+source: DSA
+
+headings:
+  - Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. HAN Xu
+  Abstract
+  The rise of autonomous vehicles (AVs) is a groundbreaking milestone in transportation, promising increased safety and efficiency. However, integrating these systems into human environments requires designs that align with human needs and behaviors, beyond just technological advancements. This thesis proposal examines the development of human-centricAVs, focusing on human-like driving, configurable driving styles, foundational models, and intelligent transportation agents.
+  Human-centric AVs aim to understand and adapt to human behaviors, enhancing the driving experience rather than just replacing human drivers. Early AVs relied on sensors and computing power for basic automation. With advancements in machine learning and sensors, the focus shifted to adaptive solutions that mimic human perception and decision making. Despite these advancements, challenges remain in ensuring safe interactions between AVs and human-driven vehicles, and in balancing assertiveness with cautiousness indriving behavior.
+  TPE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. ZHU Meixin
+  Examiner: Prof. WEI Jiaheng
+  Date
+  09 June 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-147 (HKUST-GZ)

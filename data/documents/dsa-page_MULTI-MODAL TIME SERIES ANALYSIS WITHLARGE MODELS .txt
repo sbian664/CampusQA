@@ -1,0 +1,34 @@
+dsa_page: MULTI-MODAL TIME SERIES ANALYSIS WITHLARGE MODELS: REPRESENTATION,ADAPTATION, AND APPLICATIONS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/multi-modal-time-series-analysis-withlarge-models-representationadaptation-and-applications-2/
+source: DSA
+
+headings:
+  - MULTI-MODAL TIME SERIES ANALYSIS WITHLARGE MODELS: REPRESENTATION,ADAPTATION, AND APPLICATIONS
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  MULTI-MODAL TIME SERIES ANALYSIS WITHLARGE MODELS: REPRESENTATION,ADAPTATION, AND APPLICATIONS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Miss HAO Jianing
+  Abstract
+  Time-series data is prevalent across numerous real-world domains, including finance, cli mate, healthcare, and transportation. In practice, time series are often associated with ex ternal multi-modal contexts beyond their temporal dynamics. With the emergence of large models, a critical challenge has arisen: determining appropriate representations for multimodal time-series analysis, especially when adapting large models for effective multimodal integration and diverse downstream tasks. To address this challenge, I systematically explore three progressive studies, each examining different representations (from token to visual representation), adaptation strategies (from prompting to fine-tuning), and downstream applications (from financial narrative visualization generation to interactive data exploration). First, FinFlier represents both time series and text as tokens, enabling LLMs to generate precise text-data binding for financial narrative visualization generation. Second, FinRipple advances the representation by transforming financial time series into embeddings while structuring textual information as time-varying knowledge graphs, effectively capturing complex market interconnections and ripple effects. The
+  TPE Committee
+  Chair of Committee: Prof. HUANG Weidong Tony
+  Prime Supervisor: Prof. ZENG Wei
+  Co-Supervisor: Prof. ZHANG Guang
+  Examiner: Prof. TANG Guoming
+  Date
+  10 June 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-147 (HKUST-GZ)

@@ -1,0 +1,58 @@
+dsa_page: Graph-based Anomaly Detection, Similarity Computation, and Reasoning Exploration – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/05/30/graph-based-anomaly-detection-similarity-computation-and-reasoning-exploration/
+source: DSA
+
+headings:
+  - Graph-based Anomaly Detection, Similarity Computation, and Reasoning Exploration
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Graph-based Anomaly Detection, Similarity Computation, and Reasoning Exploration
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jianheng TANG
+  ABSTRACT
+  Anomaly detection and similarity computation are fundamental tasks in data mining, but the heterogeneous, relational-centric, and non-Euclidean nature of graphs presents unique challenges. This thesis explores novel approaches to both problems in the context of graph data, and further extends to a recent frontier: leveraging large language models for graph reasoning.
+  The first part addresses graph-based anomaly detection through two complementary perspectives. We first develop a theoretical framework analyzing anomalies through graph spectral theory, revealing a characteristic “right-shift” phenomenon where anomalous nodes redistribute spectral energy to higher frequencies. This insight drives our Beta Wavelet Graph Neural Network with specialized spectral band-pass filters to better capture anomalous patterns. We then establish GADBench, a comprehensive benchmarking framework that evaluates 29 algorithms across diverse datasets, yielding surprising findings: traditional tree ensembles with simple neighborhood aggregation often outperform specialized GNNs in performance, robustness, and computational efficiency.
+  The second part develops three frameworks addressing critical limitations in current graph-based similarity computation approaches. For node-level similarities, SLOTAlign tackles structure and feature inconsistencies in unsupervised graph alignment through joint structural learning and optimal transport, with provable convergence and robustness guarantees. FGWEA advances entity alignment in knowledge graphs by effectively combining structural and semantic information through the Fused Gromov-Wasserstein distance, demonstrating superior performance on cross-lingual and cross-source datasets. For graph-level similarities, we confront the fundamental efficiency-accuracy tradeoff in Graph Edit Distance computation. FGWAlign reformulates Graph Edit Distance computation via optimal transport, reducing computational errors by 80% while achieving up to 60
+  ×
+  speedup compared to existing learning-based approaches.
+  The third part explores the emerging intersection of graphs and LLMs. We develop GraphArena, a rigorous framework spanning four polynomial-time and six NP-complete graph problems that overcomes limitations of existing evaluation approaches through realistic graph collection, comprehensive tasks selection, and rigorous path-based evaluation. Our assessment of state-of-the-art LLMs reveals significant performance degradation on complex structures and prevalent hallucination issues. We investigate enhancement strategies including chain-of-thought prompting, instruction tuning, code writing, and computational scaling, each demonstrating unique strengths and limitations.
+  TEC
+  Chairperson: Prof Hai-Ning LIANG
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Xiaofang ZHOU
+  Examiners:
+  Prof Nan TANG
+  Prof Yongqi ZHANG
+  Prof Enyan DAI
+  Prof Ronghua LI
+  Date
+  03 June 2025
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 968 7439 2918
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/96874392918?pwd=S7Le457SQer7jrK4obEBWw6kUbCsOv.1

@@ -1,0 +1,45 @@
+dsa_page: Global Routing Optimization in Road Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/global-routing-optimization-in-road-networks/
+source: DSA
+
+headings:
+  - Global Routing Optimization in Road Networks
+  - Abstract
+  - Project members
+  - Lei LI
+  - Xiaofang ZHOU
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Global Routing Optimization in Road Networks
+  Abstract
+  Route planning plays an increasingly important role in our society, and the routing results, which are the paths that vehicles actually travel in a road network, which inﬂuence the trafﬁc condition naturally. However, the existing routing algorithms cannot consider the routing results and their inﬂuence simultaneously, so trafﬁc congestion could be created when many vehicles are directed to follow similar routes. In this paper, we propose the Global Routing Optimization problem that aims to minimize trafﬁc congestion by continuously evaluating trafﬁc conditions for a set of routing tasks. It is non-trivial to achieve this global optimization goal, as routing and trafﬁc condition evaluation is both time-consuming and interdependent. To break this dependency, we propose a global routing optimization paradigm that can evaluate the routing results’ inﬂuence on the trafﬁc condition, and then plan the routes accordingly. To implement it, we ﬁrst propose a serial model to optimize the next route, followed by a batch model to improve processing efﬁciency. After that, an iterative model is proposed to further optimize route qualities. Extensive experiments on large real-world networks with synthetic and real workloads validate the effectiveness and efﬁciency of our methods.
+  Project members
+  Lei LI
+  Assistant Professor
+  Xiaofang ZHOU
+  Chair Professor
+  Publications
+  1.
+  Global Routing Optimization In Road Networks
+  .
+  Yehong Xu,
+  Lei L
+  i, Mengxuan Zhang, Zizhuo Xu, and Xiaofang Zhou.
+  ICDE 2023.
+  2. Global Optimal Travel Planning for Massive Travel Queries in Road Network
+  Project Period
+  2023 - Present
+  Research Area
+  Graph, Transportation
+  Keywords
+  Graph, Index, Road Network, Route Planning, Shortest Path, Transportation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf | https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf
+  - Global Routing Optimization In Road Networks | https://drive.google.com/file/d/1RnMbHxPuJsDAuVwskAOeXIGo7IdU0m9c/view

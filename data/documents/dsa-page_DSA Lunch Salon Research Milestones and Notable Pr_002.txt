@@ -1,0 +1,42 @@
+dsa_page: DSA Lunch Salon: Research Milestones and Notable Progress 4th Session – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/10/dsa-lunch-salon-research-milestones-and-notable-progress/
+source: DSA
+
+headings:
+  - DSA Lunch Salon: Research Milestones and Notable Progress 4th Session
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Audience
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Research Salon
+  DSA Lunch Salon: Research Milestones and Notable Progress 4th Session
+  Share to
+  Date
+  15 March 2024
+  Time
+  12:00:00 -
+  13:30:00
+  Location
+  E1-1F-122, HKUST(GZ)
+  Event Organizer
+  DSA Postgraduate Committee
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  RPG&TPG students of DSA Thrust
+  Prospective UG&PG students of DSA Thrust
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/XhST3IaiZd1fdjBostmKlg
+  - REGISTER | https://www.wjx.top/vm/wvMfyt2.aspx
+  - EVENT RECAP | https://mp.weixin.qq.com/s/1_m9qRL_kBlB68k94isSLQ

@@ -1,0 +1,39 @@
+dsa_page: Data-driven Energy Systems: Applications, Platforms, and Benchmarking – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/31/data-driven-energy-systems-applications-platforms-and-benchmarking/
+source: DSA
+
+headings:
+  - Data-driven Energy Systems: Applications, Platforms, and Benchmarking
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Data-driven Energy Systems: Applications, Platforms, and Benchmarking
+  Share to
+  ABSTRACT
+  The traditional way to control energy systems is by strategies based on principles of physics. Now there is a transformation where the decision-making is driven by information and data technologies. In this talk, we will briefly review some data-driven applications. With an increasing number of applications, a new challenge is to support such applications at scale. The main problem is how to handle various levels of heterogeneities in different energy systems so that data and machine learning models can be used with minimal human involvement. We present our recent works to automatically translate data into standards and extract data under various local data conventions; as well as schemes to evaluate appropriate machine learning models at scale. We are working with the Electrical and Mechanical Services Department (EMSD) of the Hong Kong government to benchmark data and machine learning models, in the hope to accelerate AI deployment in the campaign towards a smart city and a green city.
+  SPEAKER BIO
+  Dan WANG
+  Professor
+  The Hong Kong Polytechnic University
+  Dan Wang is a professor in the Department of Computing, The Hong Kong Polytechnic University. His research interests lie in the interdiscipline area of smart energy systems and in networking systems in general. He publishes in ACM eEnergy and ACM Buildsys, and he won the best papers in both conferences. He is currently an executive member of ACM SIGEnergy and the steering committee chair of ACM eEnergy. He was a General co-chair and a TPC co-chair of ACM eEnergy. He is an advisor of EMSD, the Hong Kong SAR government. He has extensive experience in applied research and his research results have been adopted by industry, including Huawei, IBM, Henderson, etc.
+  Date
+  02 November 2023
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-1F-102, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  839 7608 5593
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

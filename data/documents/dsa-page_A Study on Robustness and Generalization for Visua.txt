@@ -1,0 +1,34 @@
+dsa_page: A Study on Robustness and Generalization for Visual and Multimodal Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/25/a-study-on-robustness-and-generalization-for-visual-and-multimodal-learning/
+source: DSA
+
+headings:
+  - A Study on Robustness and Generalization for Visual and Multimodal Learning
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  A Study on Robustness and Generalization for Visual and Multimodal Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Examination
+  By Mr WANG, Xiasi
+  Abstract
+  Recent advances in visual and multimodal learning have achieved impressive performance on standard benchmarks, yet their reliability in real-world applications is challenged by issues of robustness and generalization. This thesis addresses these challenges through three integral pillars of reliable deep learning: (1) robustness to adversarial attacks, (2) adaptation to domain shift and unseen categories, and (3) generalization via representation learning. First, we identify a previously overlooked vulnerability in Vision-Language Models (VLMs)—their susceptibility to adversarial manipulation of inference efficiency. We introduce VLMInferSlow, a black-box evaluation framework for assessing such efficiency robustness. Second, we address the problem of open-set domain adaptation, where models encounter both distribution shifts and unknown categories. We develop Activate and Adapt (ADA), a two-stage framework that adapts models to classify known categories while identifying unknown ones. Third, we propose Multi-View Entropy Bottleneck (MVEB), an objective for self-supervised learning that improves generalization by learning minimal sufficient representations through the elimination of superfluous information between views. Collectively, these works provide multifaceted solutions for building more reliable visual and multimodal learning systems.
+  TPE Committee
+  Chair of Committee: Prof. Sihong Xie
+  Prime Supervisor: Prof. Yuan Yao
+  Co-Supervisor: Prof. Nevin L. Zhang
+  Examiner: Prof. Wenjia Wang
+  Date
+  25 September 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  W2-202 (HKUST-GZ)

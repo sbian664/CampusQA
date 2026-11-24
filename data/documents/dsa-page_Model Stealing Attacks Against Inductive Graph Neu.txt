@@ -1,0 +1,35 @@
+dsa_page: Model Stealing Attacks Against Inductive Graph Neural Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/model-stealing-attacks-against-inductive-graph-neural-networks/
+source: DSA
+
+headings:
+  - Model Stealing Attacks Against Inductive Graph Neural Networks
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Model Stealing Attacks Against Inductive Graph Neural Networks
+  Abstract
+  Many real-world data come in the form of graphs. Graph neural networks (GNNs), a new family of machine learning (ML) models, have been proposed to fully leverage graph data to build powerful applications. In particular, the inductive GNNs, which can generalize to unseen data, become mainstream in this direction. Machine learning models have shown great potential in various tasks and have been deployed in many real-world scenarios. To train a good model, a large amount of data as well as computational resources are needed, leading to valuable intellectual property. Previous research has shown that ML models are prone to model stealing attacks, which aim to steal the functionality of the target models. However, most of them focus on the models trained with images and texts. On the other hand, little attention has been paid to models trained with graph data, i.e., GNNs. In this paper, we fill the gap by proposing the first model stealing attacks against inductive GNNs. We systematically define the threat model and propose six attacks based on the adversary's background knowledge and the responses of the target models. Our evaluation on six benchmark datasets shows that the proposed model stealing attacks against GNNs achieve promising performance.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  Model Stealing Attacks Against Inductive Graph Neural Networks
+  . Yun Shen, Xinlei He, Yufei Han, and Yang Zhang.
+  Project Period
+  2022
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Graph Neural Network, Model Stealing Attack
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - Model Stealing Attacks Against Inductive Graph Neural Networks | https://www.computer.org/csdl/proceedings-article/sp/2022/131600b031/1FlQwoy12IU

@@ -1,0 +1,41 @@
+dsa_page: Efficient and Scalable Systems for End-to-end Computing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/11/efficient-and-scalable-systems-for-end-to-end-computing/
+source: DSA
+
+headings:
+  - Efficient and Scalable Systems for End-to-end Computing
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Efficient and Scalable Systems for End-to-end Computing
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  The emergence of high-speed networks and the exponential growth in internet-connected and embedded devices is pioneering a new era of ubiquitous computing. As we near the end of Moore's Law, while simultaneously dealing with phenomenal growth of data volumes and velocities, there is a rapidly growing need to make use of parallel and distributed systems, from the edge devices near data sources, and on premises clusters, through to specialized accelerators, supercomputers, and public clouds. Fortunately, high-speed networks and virtualization platforms make it possible for applications to be executed anywhere, where data is generated, cycles are freely available, or computation is cheap. However, due to the heterogeneity (in terms of hardware and interfaces), highly scalable, and geographically distributed nature of modern applications, it is increasingly challenging for developers to develop general solutions, provision infrastructures, and optimize their applications.
+  To address these challenges we need to rethink programming paradigms and develop new systems that simplify development, offload the burden of infrastructure management, and enable portability across heterogeneous systems such that developers can focus on the problems unique to their applications. Toward these goals I will present recent work on developing systems to support parallel programming in Python and distributed function execution across heterogeneous compute resources.
+  SPEAKER BIO
+  Zhuozhao LI
+  Assistant Professor
+  Southern University of Science and Technology
+  Zhuozhao Li is an Assistant Professor in the Department of Computer Science and Engineering at Southern University of Science and Technology. He was a Postdoctoral Scholar at the University of Chicago and received his Ph.D. in Computer Science at the University of Virginia. His research interests span the broad areas of High-performance Computing, Distributed Systems, and Cloud Computing, with the emphasis on developing working prototypes for real-world problems and designing the foundation methodologies to optimize system performance for efficient computing. His research was in the Best Paper Finalist at ACM HPDC’19.
+  Date
+  13 September 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  814 8512 7383
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

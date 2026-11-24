@@ -1,0 +1,45 @@
+dsa_page: Empowering Large Language Models with Graph Learning Techniques – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/01/02/empowering-large-language-models-with-graph-learning-techniques/
+source: DSA
+
+headings:
+  - Empowering Large Language Models with Graph Learning Techniques
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Empowering Large Language Models with Graph Learning Techniques
+  Share to
+  ABSTRACT
+  Large Language Models have become transformative tools at the forefront of artificial general intelligence. As a group specializing in computation and learning on graphs, we explore how graph-based methodologies can augment LLM capabilities and advance the AGI pipeline. In this talk, I will mainly present two recent works.
+  First, I will discuss our work on developing more expressive learnable position encodings for LLMs by integrating positional encodings with token representations. These positional encodings follow the principles of rotational equivariance rooted in graph and geometric learning. Our method enables LLMs to better handle arithmetic tasks and long-range reasoning, areas where traditional sequential encodings often struggle to capture complex token relationships.
+  Second, I will introduce our research on Knowledge Graph-based Retrieval-Augmented Generation. This work investigates the trade-off between retrieval effectiveness and computational efficiency. We demonstrate that a lightweight model, employing encoded directional structural distances and parallel triple scoring, achieves superior accuracy and speed. The size of the retrieved subgraphs can be flexibly adjusted to align with the query's requirements and the downstream LLM's capabilities.
+  If time permits, I will also briefly highlight our investigations into state-space models, including challenges like recency bias and oversmoothing in the Mamba model. Relevant publications include:
+  Rethinking Addressing in Language Models via Contextualized Equivariant Positional Encoding, Zhu et al., 2024 (to appear in arxiv)
+  Simple is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation, Li et al., arxiv 2024
+  Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing, Wang et al., 2024 (to appear in arxiv)
+  SPEAKER BIO
+  Pan Li
+  Assistant Professor
+  Georgia Tech
+  Pan Li is an assistant professor at Georgia Tech. ECE department as an assistant professor and an affiliated assistant professor at Purdue CS. Pan's research interest lies broadly in the area of machine learning and computation with graph data. Pan Li's work has been recognized by several awards including NSF Early Career Award, several industry research awards from Meta, JPMorgan, Sony, Amazon, the Best Paper award at the Learning on Graph Conference 2022 and the Best Paper award nomination at the Web Conference 2021.
+  Date
+  08 January 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  W4-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  914 0056 4983
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

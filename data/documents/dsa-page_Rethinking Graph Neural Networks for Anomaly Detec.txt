@@ -1,0 +1,35 @@
+dsa_page: Rethinking Graph Neural Networks for Anomaly Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/rethinking-graph-neural-networks-for-anomaly-detection/
+source: DSA
+
+headings:
+  - Rethinking Graph Neural Networks for Anomaly Detection
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Rethinking Graph Neural Networks for Anomaly Detection
+  Abstract
+  components for GNN design is to select a tailored spectral filter, we take the first step towards analyzing anomalies via the lens of the graph spectrum. Our crucial observation is the existence of anomalies will lead to the ‘right-shift’ phenomenon, that is, the spectral energy distribution concentrates less on low frequencies and more on high frequencies. This fact motivates us to propose the Beta Wavelet Graph Neural Network (BWGNN). Indeed, BWGNN has spectral and spatial localized band-pass filters to better handle the ‘right-shift’ phenomenon in anomalies. We demonstrate the effectiveness of BWGNN on four large-scale anomaly detection datasets. Our code and data are released at https://github.com/squareRoot3/Rethinking-Anomaly-Detection.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Rethinking Graph Neural Networks for Anomaly Detection
+  . Jianheng Tang, Jiajin Li, Ziqi Gao, and Jia Li.
+  Project Period
+  2022
+  Research Area
+  Data-driven AI
+  Keywords
+  Anomaly Detection, graph neural networks
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Rethinking Graph Neural Networks for Anomaly Detection | https://proceedings.mlr.press/v162/tang22b.html

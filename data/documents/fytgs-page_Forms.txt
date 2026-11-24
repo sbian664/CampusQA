@@ -1,0 +1,54 @@
+fytgs_page: Forms
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/useful-forms
+source: FYTGS
+
+headings:
+  - Postgraduate Admissions
+  - Employment and Internship
+  - Thesis Examination
+  - Off-campus Research
+  - Overseas Research Award (ORA)
+  - Annual Leave/ Special Leave
+  - Program Planning cum Thesis Supervision Committee (PPTSC)
+  - Outside-time Research Postgraduates Financial Support
+
+text: >
+  Postgraduate Admissions
+  Self-financing Applicant Consent Form
+  Providing Postgraduate Studentship (PGS) from External Funding
+  Support from Home University or Institution
+  Request for Extension of PG Visiting Research Period
+  Declaration of Conflict of Interest for Postgraduate Admissions
+  RPg Sponsorship Undertaking Form
+  Request for Special Approval for Program Registration (for HKUST(GZ) Graduates)
+  Employment and Internship
+  RPg Employment/Internship Application Form
+  Thesis Examination
+  Chairperson's Report on Thesis Examination (for RPg Students)
+  Off-campus Research
+  Application Form
+  Overseas Research Award (ORA)
+  Application Form
+  Summary Report
+  Annual Leave/ Special Leave
+  Application Form
+  Program Planning cum Thesis Supervision Committee (PPTSC)
+  Proposed Program Planning cum Thesis Supervision Committee
+  Outside-time Research Postgraduates Financial Support
+
+links:
+  - Self-financing Applicant Consent Form | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0101_Self-financing-Applicant-Consent-Form.pdf
+  - Providing Postgraduate Studentship (PGS) from External Funding | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0102_Providing-Postgraduate-Studentship-PGS-from-External-Funding.pdf
+  - Support from Home University or Institution | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0104_Support-from-Home-University-or-Institution.pdf
+  - Request for Extension of PG Visiting Research Period | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0105_Request-for-Extension-of-PG-Visiting-Research-Period.pdf
+  - Declaration of Conflict of Interest for Postgraduate Admissions | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0106_Declaration-of-Conflict-of-Interest-for-RPg-V2.pdf
+  - RPg Sponsorship Undertaking Form | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0107_RPg-Sponsorship-Undertaking-Form.pdf
+  - Request for Special Approval for Program Registration (for HKUST(GZ) Graduates) | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/02/PG0109_Request-for-Special-Approval-for-Program-Registration-for-HKUSTGZ-Graduates.pdf
+  - RPg Employment/Internship Application Form | https://fytgs.hkust-gz.edu.cn/pg0202_rPg-employment-application-form
+  - Chairperson's Report on Thesis Examination (for RPg Students) | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/08/PG0204_Chairpersons-Report-on-Thesis-Examination_202411.pdf
+  - Application Form | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/11/PG0201_Off-campus-Research-Status-Application-Form_241029.pdf
+  - Application Form | https://fytgs.hkust-gz.edu.cn/ora-application form
+  - Summary Report | https://fytgs.hkust-gz.edu.cn/ora-summary report
+  - Application Form | https://eform.hkust-gz.edu.cn/bpm/YZSoft/forms/Post.aspx?pn=Application_For_PG_leave
+  - Proposed Program Planning cum Thesis Supervision Committee | https://eform.hkust-gz.edu.cn/BPM/YZSoft/Forms/Post.aspx?pn=PPTSC
+  - Outside-time Research Postgraduates Financial Support | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/08/Outside-time-Research-Postgraduates-Financial-Support.pdf

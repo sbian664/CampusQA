@@ -1,0 +1,40 @@
+dsa_page: Big Data Analytics in Healthcare – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/31/big-data-analytics-in-healthcare/
+source: DSA
+
+headings:
+  - Big Data Analytics in Healthcare
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Big Data Analytics in Healthcare
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  The healthcare industry has continuously generated large amounts of data, including electronic medical records (EMRs), medical imaging, lab tests, and wearable medical monitoring device data streams. The use of big data analysis techniques in healthcare can enable a smarter healthcare system and bring a lot of positive and life-saving outcomes. However, the management and processing of healthcare data are challenging due to various factors that are inherent in the data itself such as high complexity, irregularity, sparsity and privacy etc. In this talk, I shall discuss the problems and challenges we face in designing algorithms and systems for healthcare data analytics. I shall next discuss several detailed solutions for cleaning, integrating and analyzing (multi-modal) healthcare data as parts of an end-to-end engine that has been designed for facilitating a more effective healthcare.
+  SPEAKER BIO
+  Meihui ZHANG
+  Professor
+  Beijing Institute of Technology
+  Meihui is currently a professor at Beijing Institute of Technology (BIT). Before joining BIT, she was an Assistant Professor at the Singapore University of Technology and Design. She obtained her PhD from the National University of Singapore. Her main research interests include Big Data Management and Analytics, Modern Database Systems, Blockchain Systems and AI. She won the 2020 VLDB Early Career Research Contribution Award and 2019 CCF-IEEE CS Young Scientist Award. She is also a co-author of the VLDB 2019 Best Paper, ICDE 2018 Best Paper Runner Up, and 2019 ACM SIGMOD Highlight Award paper. Meihui has served/serves as a Research Track Associate Editor of VLDB 2018, 2019, 2020, 2023, ACM SIGMOD 2021, SIGMOD 2023, and IEEE ICDE 2018, 2022, 2023. She is serving as a co PC-chair of VLDB 2024. She is serving as Associate Editor for IEEE Transactions on Knowledge and Data Engineering (TKDE) and Survey Track Editor of Distributed and Parallel Databases. She is a trustee of VLDB endowment.
+  Date
+  01 November 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  831 1644 3188
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,152 @@
+dsa_page: 2024 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/05/2024-cohort/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2024 Cohort
+  Day: September 5, 2024
+  Browse: 1038
+  Share to
+  CHAN, Ka Ho
+  PhD(DSA)
+  DENG, Hengwei
+  PhD(DSA)
+  DENG, Mengyi
+  PhD(DSA)
+  FANG, Yuanyuan
+  PhD(DSA)
+  FENG, Junning
+  PhD(DSA)
+  GUO, Songyue
+  PhD(DSA)
+  HAN, Junjie
+  PhD(DSA)
+  HU, Jiaxi
+  PhD(DSA)
+  HU, Zhuangfei
+  PhD(DSA)
+  HUA, Fengrui
+  PhD(DSA)
+  HUANG, Feiyu
+  PhD(DSA)
+  JING, Liuchang
+  PhD(DSA)
+  KANG, Xueze
+  PhD(DSA)
+  LI, Binhong
+  PhD(DSA)
+  LI, Boyan
+  PhD(DSA)
+  LI, Xiang
+  PhD(DSA)
+  LIAO, Chengxi
+  PhD(DSA)
+  LIN, Haiqi
+  PhD(DSA)
+  LIN, Xiaotian
+  PhD(DSA)
+  LIN, Zeteng
+  PhD(DSA)
+  LIU, Bingcen
+  PhD(DSA)
+  LIU, Jiaqi
+  PhD(DSA)
+  LIU, Siyi
+  PhD(DSA)
+  LIU, Xin
+  PhD(DSA)
+  LIU, Yule
+  PhD(DSA)
+  LONG, Weicai
+  PhD(DSA)
+  LU, Xiaohan
+  PhD(DSA)
+  LUO, Yaqiong
+  PhD(DSA)
+  LUO, Yuxiang
+  PhD(DSA)
+  MA, Haolun
+  PhD(DSA)
+  PAN, Jingyi
+  PhD(DSA)
+  PENG, Miao
+  PhD(DSA)
+  QIU, Runwen
+  PhD(DSA)
+  SHAO, Shitong
+  PhD(DSA)
+  SHEN, Shuyu
+  PhD(DSA)
+  SU, Houcheng
+  PhD(DSA)
+  SU, Ri
+  PhD(DSA)
+  SUN, Zhen
+  PhD(DSA)
+  TAO, Xingjian
+  PhD(DSA)
+  WANG, Rui
+  PhD(DSA)
+  WANG, Shuzheng
+  PhD(DSA)
+  WANG, Xin
+  PhD(DSA)
+  WANG, Ziwei
+  PhD(DSA)
+  WEN, Siyuan
+  PhD(DSA)
+  WU, Guoli
+  PhD(DSA)
+  WU, Xiaojun
+  PhD(DSA)
+  WU, Zuohan
+  PhD(DSA)
+  XIA, Wenxuan
+  PhD(DSA)
+  XIANG, Guangyu
+  PhD(DSA)
+  XIANG, Xiaopeng
+  PhD(DSA)
+  XIAO, Qingfa
+  PhD(DSA)
+  XIE, Sirui
+  PhD(DSA)
+  XIE, Yupeng
+  PhD(DSA)
+  XU, Haotian
+  PhD(DSA)
+  YANG, Haowen
+  PhD(DSA)
+  YANG, Ruijia
+  PhD(DSA)
+  YIN, Yiming
+  PhD(DSA)
+  YU, Yongzi
+  PhD(DSA)
+  YUAN, Tong
+  PhD(DSA)
+  ZENG, Jiahao
+  PhD(DSA)
+  ZHANG, Haohan
+  PhD(DSA)
+  ZHANG, Jiayi
+  PhD(DSA)
+  ZHANG, Junxiang
+  PhD(DSA)
+  ZHANG, Kunming
+  PhD(DSA)
+  ZHANG, Qifan
+  PhD(DSA)
+  ZHANG, Rui
+  PhD(DSA)
+  ZHANG, Yuting
+  PhD(DSA)
+  ZHANG, Zhengxuan
+  PhD(DSA)
+  ZHAO, Jiayi
+  PhD(DSA)
+  ZHONG, Siru
+  PhD(DSA)

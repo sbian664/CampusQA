@@ -1,0 +1,34 @@
+dsa_page: Towards Eﬀcient Fine-Tune: System-Level Optimizations and Low-Rank Adaptation for Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/27/towards-e%ef%ac%80cient-fine-tune-system-level-optimizations-and-low-rank-adaptation-for-large-language-models/
+source: DSA
+
+headings:
+  - Towards Eﬀcient Fine-Tune: System-Level Optimizations and Low-Rank Adaptation for Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Towards Eﬀcient Fine-Tune: System-Level Optimizations and Low-Rank Adaptation for Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr ZHANG, Longteng
+  Abstract
+  The rapid scaling of Large Language Models (LLMs) has brought unprecedented advances in language understanding, generation, and reasoning, but at the cost of soaring computational, memory, and energy demands. To address these challenges, two complementary research trajectories have emerged: (1) system-level efficiency techniques, such as advanced parallelism, mixed-precision arithmetic, and memory optimizations, and (2) parameter-efficient fine-tuning (PEFT) algorithms, notably Low-Rank Adaptation (LoRA) and its variants, which drastically reduce the number of trainable parameters while maintaining competitive accuracy. Despite rich progress, the literature remains fragmented, with limited interaction between algorithmic and system-level innovations. This survey bridges the gap by providing an integrated analysis of efficiency techniques for LLMs, using LLAMA-7B as a running example. We dissect the end-to-end computation and memory flow of Transformer-based LLMs, review mainstream system optimizations, introduce a unified taxonomy of PEFT algorithms with an emphasis on LoRA and its extensions, and survey emerging system support for LoRA-based adaptation. Our contributions include: (1) a synthesis of over 130 papers from both algorithmic and system perspectives,(2) a unified analytical framework linking LoRA’s low-rank updates to intrinsic-dimension theory, (3) a comparative evaluation of LoRA variants across diverse benchmarks, and (4) practical guidelines for configuring PEFT and system techniques under hardware and latency constraints. This survey serves as both a tutorial for newcomers and a reference for practitioners aiming to make large language models smaller, faster, and more accessible.
+  PQE Committee
+  Chair of Committee: Prof. WANG, Wei
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. CHEN, Huangxun
+  Date
+  02 July 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E3-201 (HKUST-GZ)

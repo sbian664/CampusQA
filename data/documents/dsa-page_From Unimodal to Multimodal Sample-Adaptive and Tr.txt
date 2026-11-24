@@ -1,0 +1,46 @@
+dsa_page: From Unimodal to Multimodal: Sample-Adaptive and Transferable Representation Learning for Robust Medical Time Series Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/23/from-unimodal-to-multimodal-sample-adaptive-and-transferable-representation-learning-for-robust-medical-time-series-modeling/
+source: DSA
+
+headings:
+  - From Unimodal to Multimodal: Sample-Adaptive and Transferable Representation Learning for Robust Medical Time Series Modeling
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  From Unimodal to Multimodal: Sample-Adaptive and Transferable Representation Learning for Robust Medical Time Series Modeling
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Jiexia YE
+  ABSTRACT
+  Medical time-series data provide critical temporal evidence for clinical diagnosis, patient monitoring, and decision support. Recent advances in deep learning and multimodal learning have substantially improved medical time-series modeling. However, increasing model capacity, introducing more complex architectures, or incorporating additional modalities does not necessarily lead to stronger generalization. Models that perform well on curated benchmarks may remain vulnerable to data heterogeneity, modality discrepancy, and label scarcity in real-world clinical scenarios. A fundamental limitation is that many existing approaches rely on uniform representation pipelines, fixed modality roles, and static coordination strategies, despite substantial sample-level variations in signal characteristics, semantic evidence, and modality contributions. Label scarcity further strengthens the need for adaptivity: when annotated samples are limited, models must fully exploit the diagnostic evidence contained in each sample and effectively reuse knowledge learned from label-rich datasets, tasks, and modalities. This thesis addresses these challenges through Sample-Adaptive Representation Learning, which adaptively constructs diagnostic representations according to sample-specific signal characteristics, semantic evidence, and modality contributions, while facilitating knowledge reuse across heterogeneous datasets, tasks, and modalities.
+  Following a progressive trajectory from unimodal to multimodal modeling, this thesis investigates sample adaptivity at the segment, semantic, and modality levels. First, MedSpaformer introduces Segment-Adaptive Representation Learning for unimodal medical time series. Its multi-granularity cross-channel sparse attention mechanism identifies and refines diagnostically informative temporal segments, while unified signal and label-semantic spaces accommodate heterogeneous input structures and label sets. This design supports effective supervised modeling and enables knowledge reuse through few-shot and zero-shot transfer across datasets and diseases, thereby reducing reliance on extensive annotations in new clinical settings. Second, MedualTime develops Semantic-Adaptive Representation Learning for medical time series-text modeling. A dual-adapter language model constructs complementary temporal-primary and textual-primary representations, preserving modality-specific semantics while incorporating evidence from the other modality. This design mitigates semantic imbalance between complementary temporal and textual evidence, allowing the model to adaptively exploit the diagnostic value of each modality for individual samples while supporting few-shot transfer from label-rich coarse-grained tasks to label-scarce fine-grained diagnostic tasks. Third, MedTVL explores Modality-Adaptive Representation Learning for medical time series-vision-language modeling. It combines text-guided temporal and visual pathways with instance-dependent expert routing, enabling adaptive cross-modal coordination tailored to individual diagnostic patterns. Multimodal contrastive learning further exploits the natural correspondence between temporal signals and their visual representations to learn transferable representations without requiring additional annotations.
+  Extensive experiments across multiple physiological signal datasets demonstrate that the proposed approaches consistently improve supervised representation learning and support knowledge reuse under label-scarce conditions through few-shot transfer, zero-shot diagnosis, unsupervised learning, and multimodal contrastive learning, as appropriate to each study. Collectively, these findings establish Sample-Adaptive Representation Learning as a unifying methodology for learning medical time-series representations that are effective within individual datasets, robust to heterogeneous clinical conditions, and transferable across datasets and tasks. This thesis thereby provides a methodological foundation for developing adaptive, robust, and generalizable medical intelligence for real-world clinical practice.
+  TEC
+  Chairperson: Prof Zhenglong GU
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Lei ZHU
+  Prof Yingcong CHEN
+  Prof Ling YIN
+  Date
+  17 August 2026
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,42 @@
+dsa_page: Revisiting, Rethinking, and Benchmarking Deep Time Series Forecasting – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/revisiting-rethinking-and-benchmarking-deep-time-series-forecasting/
+source: DSA
+
+headings:
+  - Revisiting, Rethinking, and Benchmarking Deep Time Series Forecasting
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  Revisiting, Rethinking, and Benchmarking Deep Time Series Forecasting
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Jiawen ZHANG
+  Abstract
+  The ubiquitous proliferation of sensor technologies and digitization processes has rendered time series data an indispensable asset across numerous domains. This data, methodically collected and indexed over time, plays a pivotal role in diverse analytical strategies employed in fields ranging from economic forecasting to scientific research and engineering. This survey provides a comprehensive examination of the evolution and current trends in deep time series forecasting, contrasting traditional methodologies with modern deep learning approaches. We deconstruct current deep learning methods into three key dimensions: neural network architecture, probabilistic estimation techniques, and training strategies. Significant gaps in existing research are identified, and in response, we introduce ProbTS—a robust research toolkit crafted to benchmark, analyze, and evaluate various forecasting models. Through extensive experimentation, this tool reveals intriguing insights and highlights promising research directions. By offering a thorough literature review and empirical analysis, this survey aims to inspire and propel future research in time series forecasting.
+  PQE Committee
+  Chairperson: Prof. Fugee TSUNG
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Xiaofang ZHOU
+  Examiner: Prof Yuyu LUO
+  Date
+  07 June 2024
+  Time
+  10:00:00 -
+  11:30:00
+  Location
+  E3-201
+  Join Link
+  Zoom Meeting ID:
+  898 1299 3983
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/89812993983?pwd=R4Sj9mfye71orHZLYgR8xfq3L606jI.1

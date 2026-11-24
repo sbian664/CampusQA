@@ -1,0 +1,36 @@
+dsa_page: Neural Information Retrievaland Beyond – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/neural-information-retrievaland-beyond/
+source: DSA
+
+headings:
+  - Neural Information Retrievaland Beyond
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Neural Information Retrievaland Beyond
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. ZHOU Jiawei
+  Abstract
+  For decades, information retrieval (IR) has been fundamental in helping people access knowledge. As data volumes grow beyond human capacity, retrieval systems have become indispensable.
+  However, we are now witnessing a fundamental shift. With the emergence of large language models (LLMs) such as ChatGPT, Claude, and DeepSeek, retrieval is no longer designed solely for human users. Increasingly, LLM-based AI systems act as autonomous agents, performing tasks on behalf of people. These systems depend on retrieval not just to deliver results to users, but to gather and ground information for reasoning, content generation, and decision-making. This has given rise to a new paradigm: retrieval-augmented generation (RAG), where retrieval serves as the memory and knowledge interface for AI.
+  This thesis investigates retrieval for both human users and AI systems. I begin by examining retrieval systems tailored for human-facing applications, with an emphasis on pre-training, transparency, multi-modal data. Building on this foundation, I analyze the emerging gap between user-oriented retrieval and AI-oriented retrieval, highlighting the limitations of current methods when integrated into LLM pipelines. Finally,I propose to explore how retrieval systems can be explicitly redesigned to support AIagents—improving factuality, adaptability, and efficiency in end-to-end tasks.
+  TPE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. CHEN Lei
+  Co-Supervisor: Prof. TSUNG Fugee
+  Examiner: Prof. LIANG Yuxuan
+  Date
+  10 June 2025
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-147 (HKUST-GZ)

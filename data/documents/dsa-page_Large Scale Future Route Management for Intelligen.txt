@@ -1,0 +1,56 @@
+dsa_page: Large Scale Future Route Management for Intelligent Transportation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/27/large-scale-future-route-management-for-intelligent-transportation/
+source: DSA
+
+headings:
+  - Large Scale Future Route Management for Intelligent Transportation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Large Scale Future Route Management for Intelligent Transportation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Zizhuo XU
+  ABSTRACT
+  Intelligent transportation systems are crucial for modern smart cities, with vehicle navigation systems playing a key role in shaping traffic flow. The rapid development of GPS technology and self-driving vehicles has led to the increasing availability of the future route data, which refers to a sequence of road segments with associated departure times. This data represents the recommended routes that users are expected to follow in the near future but are not currently traveling on the road network. This thesis aims to explore the value of future route data by developing an efficient and accurate
+  future route data management system
+  , with applications in traffic prediction, route planning, traffic signal control, digital twin, and other related problems.
+  The primary challenges addressed in this work include: (1) Given a road network and a set of future route data, accurately and efficiently estimating future traffic conditions at different timestamps across all road segments; (2) Managing continuous updates to future route data, such as the appearance of new routes, trip cancellations, or reroutes, and efficiently querying and updating the affected estimated future traffic conditions; (3) Effectively integrating the estimated future traffic conditions into real-time transportation applications, such as route planning and traffic signal control, to enhance the performance under dynamic and evolving traffic conditions.
+  To overcome these challenges, this thesis proposes the following techniques: (1) The
+  macroscopic traffic simulation algorithm
+  . Unlike fine-grained simulation algorithms, which calculate the driving behavior of each vehicle every second, this algorithm uses a priority queue and route labels to maintain the correct order of vehicle movements. It then combines this approach with lightweight machine learning models to predict the travel time for each vehicle on each road segment, based on static road features and dynamic traffic flow. This method enables accurate and efficient estimation of future traffic conditions, providing fine-grained traffic predictions at a significantly lower computational cost compared to microscopic simulations and deep-learning-based frameworks. (2) An incremental
+  route-record index structure
+  is introduced to efficiently manage frequent route changes without the need for complete recalibration. In the macroscopic traffic simulation algorithm, the entry and exit times of vehicles on each road segment, along with corresponding traffic flow, are stored in the
+  route-record index structure
+  . When a route update occurs, this structure allows for the efficient identification and updating of the affected records. Additionally, pruning techniques, such as early termination, are employed to estimate the scope of the update and prevent unnecessary recalculations. (3) This thesis explores how future route data can be integrated into reinforcement learning-based traffic signal control. By ensuring both efficiency and accuracy, the
+  future route data management system
+  can provides the near-future traffic conditions. This enables the RL algorithm to make more reliable decisions that combine future information, and reducing congestion and improving traffic flow efficiency.
+  TEC
+  Chairperson: Prof Hai-Ning LIANG
+  Prime Supervisor: Prof Lei LI
+  Co-Supervisor: Prof Xiaofang ZHOU
+  Examiners:
+  Prof Qiong LUO
+  Prof Zeyi WEN
+  Prof Shuai JIA
+  Prof Zhifeng BAO
+  Date
+  29 January 2026
+  Time
+  09:00:00 -
+  11:00:00
+  Location
+  E2-301, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

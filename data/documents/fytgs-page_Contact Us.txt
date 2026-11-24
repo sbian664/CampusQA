@@ -1,0 +1,22 @@
+fytgs_page: Contact Us
+url: https://fytgs.hkust-gz.edu.cn/about-us/contact-us
+source: FYTGS
+
+headings:
+  - Send us a Message
+  - You are a current student at HKUST(GZ).
+  - You are planning to study at HKUST(GZ) and would like to have more information.
+  - You have obtained an application number via the Online Admission System and would like to follow up on your application.
+  - You are invited to complete an online reference report for your student and would like to enquire about the process.
+
+text: >
+  Send us a Message
+  Please select one which best describes your status and provide us with your application number if you’ve started your application:
+  You are a current student at HKUST(GZ).
+  Current Student
+  You are planning to study at HKUST(GZ) and would like to have more information.
+  Prospective Student
+  You have obtained an application number via the Online Admission System and would like to follow up on your application.
+  Current Applicant
+  You are invited to complete an online reference report for your student and would like to enquire about the process.
+  Referee

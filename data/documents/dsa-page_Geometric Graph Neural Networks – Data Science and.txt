@@ -1,0 +1,40 @@
+dsa_page: Geometric Graph Neural Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/03/20/geometric-graph-neural-networks/
+source: DSA
+
+headings:
+  - Geometric Graph Neural Networks
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Geometric Graph Neural Networks
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  Geometric machine learning aims to generalize neural networks or other machine learning models to non-Euclidean domains such as graphs or manifolds. Recently, Geometric Graph Neural Networks (GGNNs) have become powerful tools for modeling graph data with geometric information and have demonstrated their potential to advance scientific fields, such as particle motion modeling, molecular dynamics, protein folding, etc. The most crucial challenge in modeling geometric information is how to incorporate principles from geometry, topology, and other mathematical fields, such as geometric symmetry and equivariance, to improve the generalization ability of current GNN models, which can understand complex data with geometric characteristics, such as position, force, and velocity. In this talk, I will briefly introduce the latest progress in GGNNs and our exploration to solve scientific problems.
+  SPEAKER BIO
+  Yu RONG
+  Senior Researcher
+  Tencent AI Lab
+  Yu Rong is a senior researcher of Machine Learning Center in Tencent AI Lab. He received this B.E. degree from Sun Yat-sen University, Guangzhou, China in 2012 and the Ph.D. degree from The Chinese University of Hong Kong in 2016. He joined Tencent AI Lab in June 2017. In Tencent AI Lab, he is working on building the large-scale graph learning framework and explore the potential applications of deep graph learning models for tasks such as drug discovery, physical system modeling and social recommendation. He has published over 50 papers on machine learning and data mining top conferences and has got the champion of NeurIPS 2022 Open Catalyst Challenge as the team leader. In addition to research activities, he has successfully organized several academic events such as Deep Graph Learning tutorials at KDD 2020 and TheWebConf 2020.
+  Date
+  22 March 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  937-497-350
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

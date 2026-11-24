@@ -1,0 +1,39 @@
+dsa_page: Efficient KV Cache Management in Large LanguageModel Serving: A Lifecycle-Oriented Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/09/efficient-kv-cache-management-in-large-languagemodel-serving-a-lifecycle-oriented-survey/
+source: DSA
+
+headings:
+  - Efficient KV Cache Management in Large LanguageModel Serving: A Lifecycle-Oriented Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Efficient KV Cache Management in Large LanguageModel Serving: A Lifecycle-Oriented Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LI Zeyu
+  Abstract
+  As LLMs become integral to cloud services and intelligent applications, efficient serving has become a key system-level priority. Among the various system bottlenecks, KV cache management has emerged as a critical challenge, as it enables inference acceleration by reusing previously KV cache. However, the KV cache size grows rapidly with increasing sequence length, model depth, concurrency, and conversation turns, posing significant challenges to memory capacity, scheduling, and system scalability.
+  In this survey, we introduce a lifecycle-oriented taxonomy for KV cache management, categorizing existing techniques according to three key stages: Creation, Reuse, and Eviction. In the Creation stage, we review methods for KV cache compression, memory allocation, offloading and distributed placement, and usage-efficient attention kernels. In the Reuse stage, we summarize recent advances in cache-aware scheduling, semantic and prefix-based retrieval, and storage & fetch across heterogeneous and distributed memory. In the Eviction stage, we discuss both traditional cache policies and specialized strategies tailored to KV cache management in LLM serving. Through this taxonomy, we find that KV cache management remains an underexplored area, with many open challenges and opportunities for optimization. We hope this survey helps the community better organise existing work, identify key bottlenecks, and inspire future research on efficient KV cache management in LLM serving.
+  PQE Committee
+  Chair of Committee: Prof. WANG, Wei
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. CHEN, Xinyu
+  Examiner: Prof. WEN, Zeyi
+  Date
+  17 July 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E3-201 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID: 974 5070 8751
+  Passcode: dsa2025

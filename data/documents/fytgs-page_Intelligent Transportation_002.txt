@@ -1,0 +1,315 @@
+fytgs_page: Intelligent Transportation
+url: https://fytgs.hkust-gz.edu.cn/programs/intelligent-transportation-4
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Intelligent Transportation
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Intelligent Transportation
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Intelligent Transportation
+  Doctor of Philosophy in Intelligent Transportation
+  Program Short Name
+  MPhil(INTR)
+  PhD(INTR)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Intelligent Transportation Thrust Area
+  Systems Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Huan YU,
+  Assistant Professor of Intelligent Transportation
+  Assistant Professor of Robotics and Autonomous Systems
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/
+  Enquiry
+  Intr@hkust-gz.edu.cn
+  INTRODUCTION
+  Since early 1990's, Intelligent Transportation Systems (ITS) have been evolving in developed countries to cope with transportation problems such as traffic congestion and road safety issues caused by a growing population and continuous urban development. ITS combines leading-edge information and communication technologies used in transportation and traffic management systems to improve the safety, efficiency, and sustainability of transportation networks, reduce traffic congestion and enhance drivers’ and passengers’ experiences.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Intelligent Transportation aim to provide a well-rounded education as well as rigorous research training to prepare students to become versatile and knowledgeable professionals in intelligent transportation engineering and technologies. Areas of research may include acquisition, analysis and applications of traffic big data; shared mobility, mobility as a service (MaaS); analysis, modelling, and optimization of transportation system with connected and autonomous vehicles (CAV); testbed and traffic simulation of connected and autonomous vehicles (CAV); operations and management of urban rail transit systems; safety and security of unmanned aerial vehicle (UAV); green aviation technologies; automated port operations and shipping logistics.
+  MPhil graduates should be able to demonstrate a good mastery of knowledge in transportation technology, system design and public policy aspects, making contributions to the industry.
+  PhD graduates should be capable of conducting high-quality original research, creating new knowledge, deriving valuable insights, and making tangible impacts to academia and the field.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Demonstrate mastery of knowledge in traffic management systems and transportation engineering and technologies;
+  Identify scientific and engineering significances in intelligent transportation technologies including computational and analytic models, tools, solutions, and techniques;
+  Demonstrate critical thinking and analytical skills that are essential for traffic management;
+  Translate and transform fundamental research insights effectively into practical applications in industry; and
+  Apply cross-disciplinary knowledge and skills to enhance the transportation systems and develop new technologies.
+  On successful completion of the PhD program, graduates will be able to:
+  Demonstrate mastery of knowledge in traffic management systems and transportation engineering and technologies;
+  Identify scientific and engineering significances in intelligent transportation technologies including computational and analytic models, tools, solutions, and techniques;
+  Demonstrate critical thinking and analytical skills that are essential for traffic management;
+  Conduct high-quality original research independently in areas of transportation engineering and technology and provide substantial scientific contribution to the discipline;
+  Translate and transform fundamental research insights effectively in academic fields and industry; and
+  Apply cross-disciplinary knowledge and skills to enhance the transportation systems and develop new technologies.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Systems Hub and at least one Hub core course (2 credits) from other Hubs.
+  Systems Hub Core Course
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  INTR 5100
+  Traffic Flow Theory
+  3 Credit(s)
+  Description
+  Emergent innovations in autonomy, connectivity and shared mobility are revolutionizing vehicular traffic systems. Developing comprehensive and systematic understandings of traffic dynamics is essential to drive these innovations to reinvent transportation systems. The course covers different aspects of vehicular traffic flow dynamics and how to describe and simulate them with mathematical models. This course starts with how to obtain and interpret traffic flow data, the basis of any quantitative traffic modeling. The second and main part of this course introduces different approaches and models to mathematically describe vehicular traffic flow, and their application in simulation from microscopic to macroscopic level. The last part of this course introduces major applications of traffic flow theory including traffic flow management schemes, mix-autonomy traffic flow modeling and advanced control and sensing strategies by connected and automated vehicles.
+  INTR 5110
+  Urban Transportation Network Modeling
+  3 Credit(s)
+  Description
+  This course discusses formulations and algorithms of finding equilibrium flow patterns through transportation networks to assess the network performance and providing foresights into the future dynamics, then explores policies, designs, and strategies to improve the system performance. Emphasis is placed on the understanding of the paradigm of equilibrium analysis of transportation systems. Topics discussed in the class include static user equilibrium, system optimum, market- based instruments for congestion management, bi-level programming models, bottleneck models dynamic network modeling, and the implications of emerging technologies on the analyses of transportation networks.
+  INTR 5120
+  Optimization Methods for Transport and Logistics Management
+  3 Credit(s)
+  Description
+  This course will introduce important optimization problems arising from transport and logistics management, including network flow problems, routing and scheduling problems, and problems involving uncertainty. It will focus on modeling techniques and solution methodology for problem solving. Theoretical and operational insights into the problems will also be discussed. The goal of the course is to train students to a level of technical competency to formulate and solve related optimization problems that they may encounter in both research and real-life.
+  INTR 5130
+  Traffic Control and Simulation
+  3 Credit(s)
+  Description
+  This course will introduce traffic control system concepts, components, algorithms, and tools for evaluating their effectiveness. With the instruction, assignments, and projects in this course, students are expected to learn about traffic system control devices, working principles, and popular algorithms. Additionally, the VISSIM traffic simulation package will be introduced in greater detail so that students can use it for evaluating the performance of traffic operation plans.
+  INTR 5200
+  Emerging Mobility and Multimodal Freight Systems
+  3 Credit(s)
+  Description
+  Intelligent Transportation Systems (ITS) apply a variety of technologies to monitor, evaluate, and manage transportation systems to enhance their efficiency, safety, and sustainability. This postgraduate-level course introduces the basic functional components in ITS and how they are designed and operated to manage multi-modal transportation systems, including both passenger and freight transportation systems and infrastructure. The course topics cover the following three main parts: (i) Emerging vehicle technologies and mobility services, data management, and institutional issues; (ii) Multi-modal freight operations and management in road, rail, maritime and inter-modal systems; (iii) Analytical methods including fundamentals of system analysis, risk and regression analysis, network flow optimization and algorithm design, etc.
+  INTR 5210
+  Game Theoretical Methods in Transportation
+  3 Credit(s)
+  Description
+  This postgraduate-level course introduces how game-theoretical methods are used to model strategic behaviors and to support decision making in transportation systems. Fundamental knowledge in game theory and mechanism design, including different game representations, equilibrium concepts and information asymmetry will first be covered. Variational inequality will then be introduced, with an emphasize of its importance in determining equilibrium solutions for transportation network models.
+  INTR 5220
+  Wireless Connectivity for Mobile Autonomous Things
+  3 Credit(s)
+  Description
+  This course aims to develop students’ fundamental understanding of the application scenarios, challenges, and solutions of wireless connectivity in various systems involving autonomous things, and under possible mobility. Topics covered include fundamentals of digital communications, future wireless connectivity requirements, and various solutions to the unique challenges such as dynamic propagation environment, scalability, complexity, and heterogeneity.
+  INTR 5230
+  Data-driven Methods in Transportation
+  3 Credit(s)
+  Description
+  This course will introduce modern concepts, algorithms, and tools for data-driven transportation modeling and optimization. By taking this course, students will have the chance to master emerging data-driven methods for transportation systems modeling and optimization.
+  INTR 5240
+  The Principle and Application of Intelligent Connected Vehicle
+  3 Credit(s)
+  Description
+  Intelligent connected vehicles (ICVs) are believed to change people’s life in the near future by making the transportation safer, cleaner and more comfortable. Although many prototypes of ICVs have been developed to prove the concept of autonomous driving and the feasibility of improving traffic efficiency, there still exists a significant gap before achieving mass production of high-level ICVs. This course aims to present an overview of both the state of the art and future perspectives of key technologies that are needed for future ICVs. Through the study of this course, students will understand and master the basic concepts, key technologies and applications of ICV, and initially learn and master the ability to use that knowledge to solve practical problems, especially in cross-disciplinary communication and transportation context.
+  INTR 5250
+  Artificial Intelligence in Transportation
+  3 Credit(s)
+  Description
+  The course aims to help students master the basic concepts and research methods of Artificial Intelligence (AI) and machine learning, understand future development trends, and lay the foundation for further research in leveraging machine learning and AI in transportation research. Through the study of this course, students will understand and master the basic concepts, ideas and methods of AI and related machine learning techniques, and initially learn and master the ability to use those machine learning techniques to solve practical problems, especially in transportation context.
+  INTR 5260
+  Engineering Psychology and Transportation Applications
+  3 Credit(s)
+  Description
+  The course will cover a wide range of engineering psychology topics as well as how the research in these directions can affect policies and regulations in vehicle design and surface transportation. The students will gain an understanding of the characteristics and limitations of human beings from engineering psychology perspectives of view and how the design of traffic control devices, the roadway, the in-vehicle devices, regulations and traffic rules can be affected by the research in these directions.
+  INTR 5300
+  Nonlinear Control Systems
+  3 Credit(s)
+  Description
+  This course introduces methods for analysis and control design of nonlinear systems, which have a wide range of engineering applications including transportation, robotics, biology, energy, and manufacturing systems. The course includes: 1) Mathematical models of nonlinear systems, and fundamental differences between the behavior of linear and nonlinear systems, equilibrium, limit cycles and general invariant sets. 2) Phase plane analysis, Lyapunov stability, Input-to-state stability, Input-output stability, and approximation methods. 3) Feedback linearization and nonlinear control design tools, including Lyapunov-based control and Backstepping. From learning the nonlinear phenomena to understanding the mathematical properties and then analyzing system behaviors, students will be able to grasp the fundamental concepts and advanced tools that are useful in the analysis of nonlinear systems. The control design tools for nonlinear systems from feedback linearization to advanced backstepping control are covered in this course. Students will be proficient in skills of independently assessing the advantages and disadvantages of different nonlinear methods, make a qualified choice of method for analysis and design of nonlinear control systems that arise from various research areas.
+  INTR 5310
+  Theory and Application of Linear Optimization
+  3 Credit(s)
+  Description
+  This course will explore the fundamental theories and methodologies of linear optimization and demonstrate how these techniques can be used to solve practical optimization problems. Two typical linear optimization techniques, linear programming and integer programming, will be introduced and discussed. The first part, linear programming, explores the simplex algorithm and the duality theory that act as the cornerstones of modern linear optimization solvers. The second part, integer programming, covers a broader range of topics in both methodology and applications, including problem modeling, model analysis, and decomposition- and relaxation-based solution methods. Implementation issues and industry cases will also be discussed.
+  INTR 5320
+  Incremental Learning and Adaptive Signal Processing
+  3 Credit(s)
+  Description
+  This course aims to develop students’ fundamental understanding of the theory and application of incremental learning and adaptive signal processing. Topics covered in this course include Wiener filter, least mean squares (LMS), recursive least squares (RLS), the Kalman filter, classification, parameter learning, neural network and deep learning.
+  INTR 5330
+  Analytical Methods in Human Factors Research
+  3 Credit(s)
+  Description
+  The course will cover a wide range of analytical methods used in human factors research domain. The students will gain an understanding of the procedures, objectives and limitations of different research methods. The course will also include four case studies so that students would gain first-hand experience in applying the methods in real projects. These contents are required for research investigating users’ behaviors.
+  INTR 5400
+  Logistics Systems Analysis: Modeling, Optimization and Algorithms
+  3 Credit(s)
+  Description
+  This postgraduate level course aims to introduce practical modeling methods based on theories and principles in applied mathematics, operations research, and management science for solving the planning, design and evaluation of complex transportation systems, including both passenger logistics and freight distribution systems. This course will cover the three major aspects: inventory management, network design and flow optimization, as well as facility location in a logistical system. It introduces fundamental concepts, model formulation, optimization techniques, as well as solution algorithms (including stochastic process, network/graphic representation, classic OR problems, formulation of optimization problems, exact solution methods, meta heuristics, continuous approximation, etc.). It will also cover practical solution approaches that reduce cumbersome details of transportation systems into models with a manageable number of parameters and decision variables. A variety of perspectives and techniques to both classic problems and recent advances will be presented along with ways to compare their performance.
+  INTR 5500
+  Multi-modal Freight Transportation System and Infrastructure
+  3 Credit(s)
+  Description
+  This course aims to introduce multi-modal (rail, road, waterway, etc.) freight transportation operations and infrastructure systems. It comprises four inter-connected parts: 1) introduce basic modal-specific concepts and industry development; 2) explain widely used modeling techniques used in the multi-modal and inter-modal freight systems; 3) introduce transportation infrastructure management for different modes; and 4) apply the methodologies to emerging high-profile transportation research topics (e.g., resilience planning) through a term project.
+  INTR 6000
+  Special Topics in Intelligent Transportation
+  3 Credit(s)
+  Description
+  Selected topics in intelligent transportation of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  SYSH 6780
+  Career Development for Systems Hub Research Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research students with the skills conducive to their professional career development. Students will attend the training focusing on personality self-exploration and program-specific training at the Thrust level, and another training at the Hub level. Graded PP, P or F.
+  Students are required to complete SYSH 6780. The 1 credit earned from SYSH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed SYSH 6780 or other equivalent professional development courses offered by the University before may be exempted from taking SYSH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  INTR 6800
+  Seminar in Intelligent Transportation
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass INTR 6800 at least twice, and present at least one seminar during their study, in addition to the oral defense of their MPhil thesis. Part-time students must take and pass INTR 6800 at least once, and present at least one seminar during their study, counting the oral defense of their MPhil thesis.
+  PhD:
+  Full-time students must take and pass INTR 6800 at least four times, and present at least two seminars during their study, in addition to the oral defense of their PhD thesis. Part-time students and students entering with an HKUST MPhil degree must take and pass INTR 6800 at least twice, and present at least one seminar during their study, counting the oral defense of their PhD thesis.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  INTR 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  INTR 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in INTR 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in INTR 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/
+  - Intr@hkust-gz.edu.cn | https://fytgs.hkust-gz.edu.cn/programs/Intr@hkust-gz.edu.cn
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

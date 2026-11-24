@@ -1,0 +1,37 @@
+dsa_page: Attribute-Filtering Approximate Nearest Neighbor Search in Vector Databases – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/attribute-filtering-approximate-nearest-neighbor-search-in-vector-databases/
+source: DSA
+
+headings:
+  - Attribute-Filtering Approximate Nearest Neighbor Search in Vector Databases
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Attribute-Filtering Approximate Nearest Neighbor Search in Vector Databases
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. YANG Mingyu
+  Abstract
+  Real-world high-dimensional embeddings usually associate extra numerical attributes and keywords in vector databases. Attribute-filtering approximate
+  k
+  nearest neighbor (AFAKNN) search for high-dimensional vectors has recently received widespread attention from industry and academia. Compared with traditional vector similarity search, AFAKNN requires additional attribute value restrictions, such as querying the most similar vector to a given item embedding whose price is within a specified range. Existing AFAKNN search solutions are mainly based on proximity graphs, the core algorithm in vector databases. This proposal starts from the basic strategy of using proximity graphs to answer AFAKNN queries, and studies the two specific queries: range-filtering approximate nearest neighbor search (RFAKNN) search and label-filtering approximate nearest neighbor search (LFAKNN) search. This proposal not only highlights the key ideas of the algorithm but also empha sizes the challenges in AFAKNN search. This proposal also summarizes our proposed methods with the experimental results under different problem settings. Eventually,
+  we investigate the limitations of current approaches and propose future research directions.
+  TPE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. WANG Wei
+  Co-Supervisor: Prof. LI Lei
+  Examiner: Prof. DING Zishuo
+  Date
+  10 June 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-149 (HKUST-GZ)

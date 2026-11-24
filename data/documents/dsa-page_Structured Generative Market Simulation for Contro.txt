@@ -1,0 +1,40 @@
+dsa_page: Structured Generative Market Simulation for Controllable Financial Stress Testing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/05/structured-generative-market-simulation-for-controllable-financial-stress-testing/
+source: DSA
+
+headings:
+  - Structured Generative Market Simulation for Controllable Financial Stress Testing
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Structured Generative Market Simulation for Controllable Financial Stress Testing
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Exam
+  By Mr. CAO,Bokai
+  Abstract
+  Online financial systems for stock prediction, portfolio optimization, and algorithmic trading must remain robust to rare and volatile market events. However, historical records often fail to capture diverse and unprecedented risks, limiting the effectiveness of systematic stress testing. To address this challenge, this dissertation develops the Financial Wind Tunnel framework, progressing from retrieval-augmented sequence-level simulation (FWT), to relation-guided cross-sectional joint generation (R-FWT), and finally to anchored controllable stress scenario generation (RF-FWT). FWT incorporates a retrieval mechanism that conditions diffusion models on relevant historical support environments to improve sequence-level generation under sparse and volatile regimes. To preserve cross-asset dependencies under market stress, R-FWT introduces relational sparse attention guided by dynamic multi-view graphs, enabling the modeling of regime-dependent co-movements. RF-FWT further introduces an anchored factor latent space to support targeted market- and sector-level stress controls. The empirical evaluation assesses sequence fidelity, cross-sectional consistency, tail-event simulation, control satisfaction, and downstream robustness. Together, these components provide a principled framework for stress testing and robust financial modeling.
+  TPE Committee
+  Chair: Prof. LUO, Qiong
+  Prime Supervisor: Prof. NI, Lionel. M
+  Co-Supervisor: Prof. GUO, Jian(Online)
+  Examiner: Prof. WEN, Zeyi
+  Date
+  17 June 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  W1-202, HKUST-GZ
+  Join Link
+  Zoom Meeting ID:
+  976 2563 5094
+  Tencent Meeting ID:
+  dsa2026

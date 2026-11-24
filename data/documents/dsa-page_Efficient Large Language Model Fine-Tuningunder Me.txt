@@ -1,0 +1,35 @@
+dsa_page: Efficient Large Language Model Fine-Tuningunder Memory Constraints: A Survey of Heterogeneous System Designs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/efficient-large-language-model-fine-tuningunder-memory-constraints-a-survey-of-heterogeneous-system-designs/
+source: DSA
+
+headings:
+  - Efficient Large Language Model Fine-Tuningunder Memory Constraints: A Survey of Heterogeneous System Designs
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Efficient Large Language Model Fine-Tuningunder Memory Constraints: A Survey of Heterogeneous System Designs
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. YANG, Ruijia
+  Abstract
+  Large language models (LLMs) are increasingly adapted through fine-tuning rather than training from scratch, but full-parameter fine-tuning remains difficult under practical memory constraints. The training footprint includes not only model parameters, but also gradients, optimizer states, activations, and temporary tensors. As model sizes, sequence lengths, and batch sizes grow, these states easily exceed the capacity of a single GPU and often stress even multi-GPU servers. At the same time, modern platforms provide a heterogeneous memory hierarchy consisting of GPU memory, CPU memory, and NVMe storage. This creates both an opportunity and a challenge: training states can be moved beyond GPU memory, but doing so introduces transfer latency, bandwidth contention, optimizer-placement decisions, and runtime scheduling complexity.
+  This PQE survey studies efficient LLM fine-tuning under memory constraints from the perspective of heterogeneous system design. It first formulates the memory anatomy of full-parameter fine-tuning and reviews major memory-saving techniques, including parameter-efficient and quantized fine-tuning, activation checkpointing and rematerialization, distributed sharding, and CPU/NVMe offloading. It then argues that memory reduction alone is insufficient: once training states leave GPU memory, system efficiency depends on whether data movement and host-side optimizer updates can be overlapped with useful GPU computation. The survey therefore analyzes runtime co-design along several axes, including scheduling granularity, computation–communication overlap, optimizer update semantics, memory layout, I/O paths, and kernel-level temporary memory reduction.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WEN, Zeyi
+  Co-Supervisor: Prof. LI, Lei
+  Examiner: Prof. TANG, Guoming
+  Date
+  10 June 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-150, HKUST(GZ)

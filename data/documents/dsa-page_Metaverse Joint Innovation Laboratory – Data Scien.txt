@@ -1,0 +1,71 @@
+dsa_page: Metaverse Joint Innovation Laboratory – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/metaverse-joint-innovation-laboratory/
+source: DSA
+
+headings:
+  - News
+  - Metaverse Joint Innovation Lab Showcases VR Drone Project at Youth Tech Roadshow
+  - Patriotism and Innovation: HKUST(GZ) Integrates Ideological and Patriotic Education into the Metaverse
+  - Data Center for HPC/AI and Metaverse Joint Innovation Lab Officially Launched
+  - Metaverse Joint Innovation Lab Established: HKUST(GZ) Collaborates Deeply with Guangzhou Mobile
+  - Lab Directors
+  - Lei CHEN
+
+text: >
+  Lab Overview
+  Lab Members
+  Research Projects
+  Publications
+  Join us
+  The laboratory, with "Metaverse + Education" as its core application direction, is committed to promoting the innovative process of "Metaverse integration of industry, academia, and research". Driven by this mission, our goal is to create a Metaverse Workshops platform. This platform is a Metaverse virtual maker space integrating seminar teaching, social interaction, experimental simulation, and content creation. Based on this platform, we will conduct research on: (1) Digital human technology based on large-scale model intelligent agents, (2) Multisensory human-computer interaction technology in virtual space, (3) Virtual embodiment technology based on real-time collection of human body data, (4) Metaverse content generation technology based on artificial intelligence, and (5) Social adaptability research on Metaverse teaching.
+  《元莱飞训超越现实》
+  元莱飞训项目是香港科技大学（广州）元宇宙联合创新实验室的红鸟硕士项目，即通过VR技术打造无人机虚拟仿真平台，模拟紧急险情情况下的无人机操作，从而减少对真实无人机的依赖。这一创新减少了物理资源的消耗和环境影响。元宇宙联合创新实验室团队中有一名信息枢纽的博士生，四名来自不同学域的红鸟硕士以及两名实验室研究员，他们研究方向包括多模态反馈，用户生理反应监控，数字人教学以及元宇宙于教育的应用探索。整合不同方向的研究，元莱飞训期望能为元宇宙的教学场景提供更多实践经验。
+  News
+  Metaverse Joint Innovation Lab Showcases VR Drone Project at Youth Tech Roadshow
+  May 8, 2024
+  Patriotism and Innovation: HKUST(GZ) Integrates Ideological and Patriotic Education into the Metaverse
+  October 1, 2023
+  Data Center for HPC/AI and Metaverse Joint Innovation Lab Officially Launched
+  September 8, 2023
+  Metaverse Joint Innovation Lab Established: HKUST(GZ) Collaborates Deeply with Guangzhou Mobile
+  March 22, 2023
+  Lab Overview
+  Lab Members
+  Research Projects
+  Lab Directors
+  Lei CHEN
+  Director
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Chunming MA
+  Phd student
+  DSA Thrust, HKUST(GZ)
+  Lizhenghe CHEN
+  Research Assistant
+  DSA Thrust, HKUST(GZ)
+  Yonghui Lai
+  Research Assistant
+  DSA Thrust, HKUST(GZ)
+  Xianpeng WANG
+  Intern
+  DSA Thrust, HKUST(GZ)
+  Dawei XIONG
+  MPhil student
+  DSA Thrust, HKUST(GZ)
+  Wenqi ZHENG
+  MPhil student
+  DSA Thrust, HKUST(GZ)
+  Junwei LI
+  MPhil student
+  DSA Thrust, HKUST(GZ)
+  Cekai Weng
+  MPhil student
+  DSA Thrust, HKUST(GZ)
+
+links:
+  - 《元莱飞训超越现实》 | https://huacheng.gz-cmc.com/pages/2024/05/12/SF119648439c062bb0b7434d0e982230.html?channel=weixin
+  - Metaverse Joint Innovation Lab Showcases VR Drone Project at Youth Tech Roadshow May 8, 2024 | https://mp.weixin.qq.com/s?__biz=MjM5MjMyNzgxNg==&mid=2650565599&idx=1&sn=d311b3ecd5539f954f9597daed6fce6e&chksm=bf7a2fd974aa82b0139b965086e3694d2a7dd3f817a69d19da2eda9d117efd1304096979d732&scene=27
+  - Patriotism and Innovation: HKUST(GZ) Integrates Ideological and Patriotic Education into the Metaverse October 1, 2023 | https://www.hkust-gz.edu.cn/zh/2023/10/01/%e8%bf%99%e7%be%a4%e6%b8%af%e7%a7%91%e5%b9%bf%e4%ba%ba%ef%bc%8c%e5%9c%a8%e5%85%83%e5%ae%87%e5%ae%99%e9%87%8c%e5%bc%80%e5%b1%95%e7%88%b1%e5%9b%bd%e4%b8%bb%e4%b9%89%e6%95%99%e8%82%b2/
+  - Data Center for HPC/AI and Metaverse Joint Innovation Lab Officially Launched September 8, 2023 | https://www.hkust-gz.edu.cn/2023/09/08/%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e4%b8%8e%e5%b9%bf%e4%b8%9c%e7%a7%bb%e5%8a%a8%e8%9e%8d%e5%90%88%e6%99%ba%e7%ae%97%e4%b8%ad%e5%bf%83%e6%9a%a8%e5%85%83%e5%ae%87%e5%ae%99/%20
+  - Metaverse Joint Innovation Lab Established: HKUST(GZ) Collaborates Deeply with Guangzhou Mobile March 22, 2023 | https://www.hkust-gz.edu.cn/2023/03/22/%e5%85%83%e5%ae%87%e5%ae%99%e8%81%94%e5%90%88%e5%88%9b%e6%96%b0%e5%ae%9e%e9%aa%8c%e5%ae%a4%e6%88%90%e7%ab%8b%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e4%b8%8e%e5%b9%bf/%20
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

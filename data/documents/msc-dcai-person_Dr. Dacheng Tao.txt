@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Dacheng Tao
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Senior VP, JD.com | H-Index: 133

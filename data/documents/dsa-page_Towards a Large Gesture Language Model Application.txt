@@ -1,0 +1,34 @@
+dsa_page: Towards a Large Gesture Language Model: Applications and Challenges – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/towards-a-large-gesture-language-model-applications-and-challenges/
+source: DSA
+
+headings:
+  - Towards a Large Gesture Language Model: Applications and Challenges
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Towards a Large Gesture Language Model: Applications and Challenges
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Minghui QIU
+  Abstract
+  The widespread success of Large Language Models has garnered significant attention across various domains. In a similar vein, gesture language, as a form of human communication, holds immense potential to enhance our daily lives. This survey aims to explore the concept of constructing a large gesture language model. Broadly, the survey is divided into two parts.
+  The first part entails a comprehensive review of the gesture recognition system, encompassing its applications, technological advancements in sensing modalities, and implementation. For instance, the review highlights the applications of gesture recognition in fields such as rehabilitation, prosthesis control, human-machine interface, and sign language recognition, underscoring the potential benefits of a large gesture language model in these areas. Additionally, it examines the advancements in sensing modalities for wearable devices, including electrical, mechanical, acoustical and optical, which are crucial for accurately interpreting a wide range of gestures. This analysis further underscores the substantial potential for developing a large gesture language model while also shedding light on the associated data challenges.
+  In the second part, the survey recognizes the opportunities on wearable devices and successful technologies, and proposes to address the data challenges through two key steps. Firstly, it suggests expanding the data volume with gamified crowdsourcing to ensure a diverse and comprehensive dataset for training the large gesture language model. Secondly, the survey advocates resolving the heterogeneity problems through transfer learning, multimodal co-learning, and multitask learning. These approaches are identified as crucial for enhancing data quality, improving model accuracy, and addressing issues related to diverse and nuanced gestures.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Kaishun WU
+  Co-Supervisor: Prof Mingming FAN
+  Examiner: Prof Yanlin ZHANG
+  Date
+  05 June 2024
+  Time
+  09:50:00 -
+  11:05:00
+  Location
+  E1-147

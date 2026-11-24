@@ -1,0 +1,87 @@
+fytgs_page: Online Systems
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/online-systems
+source: FYTGS
+
+headings:
+  - Student Information System
+  - Professional Development Course System
+  - Annual Progress Reporting System
+  - Thesis Examination System
+  - PhD Qualifying Examination Management System
+  - Quarterly Progress Evaluation System
+
+text: >
+  Student Information System
+  The Student Information System (SIS) enables students to:
+  Maintain and view academic records
+  Access and update personal particulars
+  Enroll in classes
+  Consult class and examination timetables
+  Check if there is any outstanding fees to be settled
+  View report showing their academic progress
+  Submit the Notice of Intention Form to take Thesis Examination
+  Please visit here：
+  Student Information System
+  Professional Development Course System
+  The Professional Development Course (PDC) System has been designed to help students enroll in PDC activities, view the PDC requirements and track their progress in fulfilling the PDC requirements.
+  Please find below useful guides for your reference:
+  System User Guide (
+  Staff
+  /
+  Student
+  )
+  FAQ (
+  Staff
+  /
+  Student
+  )
+  CITI Program User Guide
+  Please visit here：
+  Professional Development Course System
+  Annual Progress Reporting System
+  All RPg students are required to submit an annual written review of their study progress and study plan. The annual progress reporting system will be open in April/May for access.
+  Users can refer to below User Guide and FAQ for details:
+  For Staff
+  For Student
+  Please visit here：
+  Annual Progress Reporting System
+  Thesis Examination System
+  The Thesis Examination System is designed to support the following functions:
+  Workflow from submission of the Notice of Intention Form to take Thesis Examination from the students to approval from Thrust, Hub and FYTGS(GZ)
+  Maintenance of the Notice of Intention Form to take Thesis Examination
+  Sending notifications (including scheduled reminders) to examination panel members, administrators and students
+  Auto-posting of the thesis examination details to the University Calendar
+  Queries and data download functions
+  Please visit here：
+  Thesis Examination System
+  PhD Qualifying Examination Management System
+  Please visit here：
+  PhD Qualifying Examination Management System
+  Quarterly Progress Evaluation System
+  System User Guide (
+  Faculty
+  /
+  Student
+  /
+  Admin
+  )
+  Please visit here:
+  Quarterly Progress Evaluation System
+
+links:
+  - Student Information System | https://sisp.hkust-gz.edu.cn/gzsisp/signon.html
+  - Staff | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2023/07/System-User-Guide-staff.pdf
+  - Student | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/09/pdc_student_user_guide.pdf
+  - Staff | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2023/07/PDC-FAQ-staff.pdf
+  - Student | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2024/09/pdc_student_faq.pdf
+  - CITI Program User Guide | https://rd.hkust-gz.edu.cn/wp-content/uploads/2024/02/CITI-Program-User-Guide-V1.3.pptx
+  - Professional Development Course System | https://pdc.hkust-gz.edu.cn
+  - For Staff | https://fytgs.hkust-gz.edu.cn/APR-Userguide-FAQ_for-staff
+  - For Student | https://fytgs.hkust-gz.edu.cn/APR-Userguide-FAQ_for-std
+  - Annual Progress Reporting System | https://apr.hkust-gz.edu.cn/
+  - Thesis Examination System | https://thesisexam.hkust-gz.edu.cn
+  - PhD Qualifying Examination Management System | https://pqe.hkust-gz.edu.cn
+  - Faculty | https://fytgs.hkust-gz.edu.cn/User-Guide-for-QPE-System-Faculty
+  - Student | https://fytgs.hkust-gz.edu.cn/User-Guide-for-QPE-System-Student
+  - Admin | https://fytgs.hkust-gz.edu.cn/User-Guide-for-QPE-System-Admin
+  - Quarterly Progress Evaluation System | https://qpe.hkust-gz.edu.cn/

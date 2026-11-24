@@ -1,0 +1,38 @@
+dsa_page: Principled Exploration in Sequential Decision Making – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/16/principled-exploration-in-sequential-decision-making/
+source: DSA
+
+headings:
+  - Principled Exploration in Sequential Decision Making
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Principled Exploration in Sequential Decision Making
+  Share to
+  ABSTRACT
+  Interactive Machine Learning (IML) possesses the unique capability to harness feedback from interactions, making it indispensable in a wide array of real-world sequential decision-making applications. However, a significant challenge, known as the "exploitation and exploration dilemma," prominently arises within sequential decision-making. In this context, learners must not only exploit current information but also explore to uncover potential knowledge for long-term gains. Despite decades of research yielding a rich landscape of algorithms, frameworks, and theories for effectively utilizing collected data to train machine learning models, a fundamental question has remained largely unaddressed: How can IML models systematically make principled exploration for long-term benefits, alongside the full exploitation of current data? In this report, I will motivate the exploration strategies by human principles in sequential decision-making and present our research efforts in developing principled exploration strategies in IML systems with theoretical performance guarantees and real-world applications.
+  SPEAKER BIO
+  Yikun BAN
+  University of Illinois at Urbana–Champaign
+  Yikun Ban is a Ph.D. candidate in the Department of Computer Science at the University of Illinois at Urbana–Champaign. He is a member of DAIS (Data and Information Systems) Research Lab. He received his M.CS. degree from Peking University in 2019 and B.Eng. degree from Wuhan University in 2016. His research interests lie in multi-armed bandits/Reinforcement Learning to design and develop principled exploration strategies in sequential decision-making. He has published more than 10 papers at top conferences in Machine Learning and Data Mining (e.g., NeurIPS, ICLR, KDD, WWW, AAAI) and has been a reviewer or program committee member of mainstream machine learning journals and conferences. He was an applied scientist intern at Amazon Web Service, and his research works have been powering primary applications in Amazon and Instacart.
+  Date
+  18 January 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  W4-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  810 6409 3689
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

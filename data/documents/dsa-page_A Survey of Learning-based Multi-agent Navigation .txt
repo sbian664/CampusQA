@@ -1,0 +1,42 @@
+dsa_page: A Survey of Learning-based Multi-agent Navigation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-of-learning-based-multi-agent-navigation/
+source: DSA
+
+headings:
+  - A Survey of Learning-based Multi-agent Navigation
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Learning-based Multi-agent Navigation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss HUANG Yunjie
+  Abstract
+  Multi-Agent Path Finding (MAPF) asks a team of robots to reach individual goals without collisions—an operation that underpins warehouse fulfilment, traffic coordination, and swarm robotics. Classical search planners such as A*, Conflict-Based Search, and their bounded-optimal extensions guarantee short paths, yet their running time and memory grow steeply with agent density, map size, and partial observability. As fleets scale into the hundreds, these costs hinder real-time deployment and motivate alternative approaches.
+  Reinforcement learning (RL) offers a complementary route: by training decentralised policies from experience, agents can react on-the-fly instead of exhaustively enumerating the joint state space. Recent work enriches RL with imitation, heuristic guidance, graph neural reasoning, and hierarchical abstractions, extending learned navigation from small grids to continuous, dynamics-aware domains. At the same time, GPU-based simulators such as Isaac Gym, ROS-integrated Gazebo, and lightweight benchmarks like VMAS and POGEMA provide the large-batch roll-outs needed to refine and test these methods under realistic sensing and actuation constraints.
+  This survey organises the field along four themes—classical planners, RL founda tions, learning-centric MAPF algorithms, and evaluation tool-chains—highlighting key advances, open safety and energy challenges, and the prospects for hybrid solutions that blend RL adaptability with search guarantees.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. LI Lei
+  Co-Supervisor: Prof. LI Haoang
+  Examiner: Prof. LIANG Yuxuan
+  Date
+  09 June 2025
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-147 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  981 0920 8770
+  Tencent Meeting ID:
+  dsa2025

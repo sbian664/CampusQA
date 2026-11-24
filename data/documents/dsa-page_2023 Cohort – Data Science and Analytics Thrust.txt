@@ -1,0 +1,114 @@
+dsa_page: 2023 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/28/2023-3/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2023 Cohort
+  Day: March 28, 2024
+  Browse: 590
+  Share to
+  CAO, Bokai
+  PhD (DSA)
+  CHEN, Minping
+  PhD (DSA)
+  DING, Xiaorui
+  PhD (DSA)
+  DONG, Peijie
+  PhD (DSA)
+  GUO, Pengyu
+  PhD (DSA)
+  HE, Yanji
+  PhD (DSA)
+  HUANG, Yunjie
+  PhD (DSA)
+  LI, Jihang
+  PhD (DSA)
+  LI, Ling
+  PhD (DSA)
+  LI, Yin
+  PhD (DSA)
+  LI, Yuhan
+  PhD (DSA)
+  LI, Zeyu
+  PhD (DSA)
+  LIAN, Yijie
+  PhD (DSA)
+  LIN, Teng
+  PhD (DSA)
+  LIN, Xinyi
+  PhD (DSA)
+  LINGHU, Han
+  PhD (DSA)
+  LIU, Xiang
+  PhD (DSA)
+  LIU, Xinyu
+  PhD (DSA)
+  LONG, Hanlin
+  PhD (DSA)
+  LUO, Tianqi
+  PhD (DSA)
+  MAI, Changkai
+  PhD (DSA)
+  PAN, Xinglin
+  PhD (DSA)
+  SHI, Xinran
+  PhD (DSA)
+  SHI, Yao
+  PhD (DSA)
+  SONG, Haoze
+  PhD (DSA)
+  SUN, Penglei
+  PhD (DSA)
+  TONG, Bing
+  PhD (DSA)
+  WANG, Liangwei
+  PhD (DSA)
+  WEN, Biaolin
+  PhD (DSA)
+  WEN, Yufei
+  PhD (DSA)
+  WU, Ruizhong
+  PhD (DSA)
+  XU, Yuebin
+  PhD (DSA)
+  YANG, Chenyu
+  PhD (DSA)
+  YANG, Zhicheng
+  PhD (DSA)
+  YIN, Hongbo
+  PhD (DSA)
+  ZENG, Xingchen
+  PhD (DSA)
+  ZHANG, Longteng
+  PhD (DSA)
+  ZHANG, Xinwei
+  PhD (DSA)
+  ZHAO, Haihong
+  PhD (DSA)
+  ZHAO, Wenxin
+  PhD (DSA)
+  ZHOU, Wanyun
+  PhD (DSA)
+  ZHU, Jiayi
+  PhD (DSA)
+  JIANG, Gongyao
+  PhD (DSA)
+  CHEN, Aochuan
+  PhD (DSA)
+  LI, Changlun
+  PhD (DSA)
+  LIU, Hongbin
+  PhD (DSA)
+  HUANG, Xinhao
+  PhD (DSA)
+
+links:
+  - DONG, Peijie | https://pprp.github.io/
+  - LI, Yuhan | https://yhleeee.github.io/
+  - LI, Zeyu | https://github.com/GaleSeLee
+  - LIU, Xiang | https://dominic789654.notion.site/Xiang-Liu-dbfd0c32ac634066992a20b717925eb9
+  - ZHAO, Haihong | https://haihongzhao.com/
+  - CHEN, Aochuan | https://openreview.net/profile?id=~Aochuan_Chen1

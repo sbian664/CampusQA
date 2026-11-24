@@ -1,0 +1,36 @@
+dsa_page: Neural operators for accelerating scientific simulations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/neural-operators-for-accelerating-scientific-simulations/
+source: DSA
+
+headings:
+  - Neural operators for accelerating scientific simulations
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Neural operators for accelerating scientific simulations
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. SONG, Haoze
+  Abstract
+  Scientific simulations are foundational to engineering, physics, and climate modeling, but their computational demands hinder real-time applications and large-scale experimentation. Traditional solvers like finite element or finite difference methods suffer from high latency and poor scalability, especially in multi-physics and multi-scale systems. Neural Operators (NOs) have emerged as a transformative paradigm by learning mappings between function spaces, thereby enabling rapid, accurate, and generalizable surrogate models for standard simulations.
+  This survey offers a systematic exploration of neural operators, including foundational architectures such as Deep Operator Networks (DeepONet) and Kernel Integral Operators, and their various extensions. Their universal approximation properties are completely discussed. Furthermore, diverse applications of neural operators in forward modeling (e.g., fluid dynamics, weather forecasting), inverse problems (e.g., wave scattering, geophysical exploration), design optimization (e.g., structural dynamics), and uncertainty quantification are introduced to provide a complete application picture to readers. In practice, they demonstrate orders-of-magnitude speedups, from 26,000× [41] to 700,000× [79] in large-scale cases, while preserving or enhancing predictive fidelity.
+  By bridging physics-based modeling and modern machine learning, neural operators offer a promising, unified framework for real-time, multi-scale, and multi-physics simulation. The survey concludes by highlighting current limitations such as data dependency and lack of interpretability, and outlines future research directions in generalization, hybrid modeling, and physical alignment.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. WANG Wei
+  Co-Supervisor: Prof. LAI Zhilu
+  Examiner: Prof. DING Zishuo
+  Date
+  10 June 2025
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-150 (HKUST-GZ)

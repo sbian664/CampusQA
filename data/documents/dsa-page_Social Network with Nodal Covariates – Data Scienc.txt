@@ -1,0 +1,39 @@
+dsa_page: Social Network with Nodal Covariates – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/01/02/social-network-with-nodal-covariates/
+source: DSA
+
+headings:
+  - Social Network with Nodal Covariates
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Social Network with Nodal Covariates
+  Share to
+  ABSTRACT
+  Social network data usually captures the connections between subjects, which are represented by 0/1 values. Together with the connections, usually we also observe the information about each subject. For example, on a social platform (say weibo), we can observe user interactions and also the users’ tags and microblogs. A natural question arises: when we combine network and covariates together, what can we do and what’s the improvement? In this talk, I will discuss two cases: how the covariates help on the community detection in social network; and how the social network help us to recover significant covariates, with interpretable results. We have designed easy-to-implement and robust algorithms, with delicate theoretical results. Numerical results are promising.
+  SPEAKER BIO
+  Wanjie Wang
+  Assistant Professor
+  National University of Singapore (NUS)
+  Dr. Wanjie Wang is an Assistant Professor in the Department of Statistics and Data Science at the National University of Singapore (NUS). She earned her Ph.D. in Statistics from Carnegie Mellon University in 2014. Following her doctoral studies, she completed a two-year postdoctoral fellowship in Statistics and Biostatistics at the University of Pennsylvania before joining NUS in 2016. Dr. Wang’s research focuses on high-dimensional statistics, social network analysis, and spectral methods, with applications spanning psychology, genetics, and genomics. Her work aims to bridge theoretical advancements with practical solutions to address complex challenges in these interdisciplinary fields.
+  Date
+  02 January 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E3-1F-105, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  989 5645 6604
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

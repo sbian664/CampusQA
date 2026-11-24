@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Zhengyou ZHANG
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Director of Robotics X, Tencent | H-Index: 99

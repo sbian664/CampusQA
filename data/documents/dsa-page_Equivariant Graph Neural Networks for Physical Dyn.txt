@@ -1,0 +1,33 @@
+dsa_page: Equivariant Graph Neural Networks for Physical Dynamical System Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/equivariant-graph-neural-networks-for-physical-dynamical-system-modeling/
+source: DSA
+
+headings:
+  - Equivariant Graph Neural Networks for Physical Dynamical System Modeling
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Equivariant Graph Neural Networks for Physical Dynamical System Modeling
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Yang LIU
+  Introduction
+  Precise modeling of physical dynamics is a fundamental task in numerous applications. For example, understanding crowd (i.s., a group of pedestrians) dynamics is essential for public safety, urban planning, and architecture design [1–3]. In scientific domains, simulating molecular dynamics is pivotal in material science [4, 5], drug discovery [6], and protein folding [7]. These systems have complex latent behavior patterns (e.g., agents’intentions or physical laws), making closed-form solutions difficult. Consequently, the object interactions are either intractable (e.g., social interactions among pedestrians) [8] or with high computation complexity (e.g., forces between atoms) [9]. In particular, the core aspect of their behavior forecasting is representing and reasoning the interactions among system objects. To achieve this, multiple Graph Neural Networks (GNNs) [10–13] have been proposed for learning interactions of various physical systems such as crowds, particles, and molecules. They represent system objects as nodes, physical relations as edges, and their interactions as the message passing thereon.
+  Physical dynamics often exhibit inherent symmetries. For instance, vehicles tend to follow similar behavioral patterns on highways with lanes moving in opposite directions, while the trajectories of molecules display invariance when subjected to rotations or reflections, a property termed rotational and reflectional equivariance, respectively. Regardless of such inductive bias, current methods such as GNS [11] and Transformer [14] fail to generalize to unobserved directions. Considering highway vehicle dynamics, if training data are in a downward direction, GNS can predict well during testing when the vehicles are in the same direction but perform poorly if the vehicles are from the bottom up. This observation implies that conventional GNNs are insufficient for capturing the true dynamics and tend to overfit the observed trajectories. Therefore, geometrically equivariant graph neural networks [15] have been proposed to leverage symmetry as an inductive bias to efficiently model physical dynamics. They force their outputs to be strictly equivariant under a given group, e.g., SE(3) (rotation and ranslation) [16, 17] and E(3) [18, 19](rotation, translation, and reflection).
+  TPE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiner: Prof Zeyi WEN
+  Date
+  12 June 2024
+  Time
+  14:50:00 -
+  16:05:00
+  Location
+  E1-150

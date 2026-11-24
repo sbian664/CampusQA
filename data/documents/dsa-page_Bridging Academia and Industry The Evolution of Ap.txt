@@ -1,0 +1,40 @@
+dsa_page: Bridging Academia and Industry: The Evolution of Applying Decision Intelligence Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/07/25/bridging-academia-and-industry-the-evolution-of-applying-decision-intelligence-optimization/
+source: DSA
+
+headings:
+  - Bridging Academia and Industry: The Evolution of Applying Decision Intelligence Optimization
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Bridging Academia and Industry: The Evolution of Applying Decision Intelligence Optimization
+  Share to
+  ABSTRACT
+  The development of enterprise informatization in China has been ongoing for over 20 years and has achieved significant accomplishments. In recent years, an increasing number of businesses have started to prioritize decision intelligence optimization algorithms. These algorithms can help optimize resource utilization, efficiently schedule tasks and work sequences, improve productivity and production capacity, while reducing costs and enhancing business planning and decision-making processes, thereby enhancing operational efficiency and competitiveness.
+  However, the application of decision intelligence optimization algorithms faces challenges, with the primary challenge being the strong demand for algorithm customization. This entails the need to develop algorithms tailored to the specific circumstances of each enterprise, resulting in increased development costs and time requirements, along with high expectations for the abilities of algorithm developers. This impedes the application and adoption of decision algorithms in enterprises.
+  The speaker has over a decade of research and practical experience in the field of decision optimization and has been devoted to exploring cost-effective and efficient approaches to providing high-quality decision optimization algorithms for logistics and manufacturing enterprises. The speaker constantly seeks effective methods to translate research achievements into practical productivity, bridging the gap between academia and industry. The presentation will introduce the speaker's research interests, technical approaches, academic research, and practical accomplishments. The speaker will also present their algorithmic products, Domain Solvers, developed to address the challenge of customization in decision optimization algorithms, and share successful experiences of its application.
+  Lastly, the speaker will outline his development plan for the next five years, focusing on academic research, decision algorithm platforms, scenario repositories, instance data centers, decision algorithm products, and market-oriented companies.
+  SPEAKER BIO
+  Hu QIN
+  Professor
+  Huazhong University of Science and Technology
+  Dr. Hu Qin is a professor and doctoral supervisor at the School of Management, Huazhong University of Science and Technology. He obtained his doctoral degree in 2011 from the Department of Management Sciences at City University of Hong Kong. He holds bachelor's and master's degrees from the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, earned in 2002 and 2005 respectively. His research interests primarily lie in data, algorithms, and decision-making, with specific focuses on decision intelligence optimization in manufacturing and logistics, data-driven optimization methods, large-scale problem algorithm design, and applications of operations research.
+  Dr. Hu Qin has successfully completed two projects funded by the National Natural Science Foundation of China and is currently leading another project as the principal investigator. He has published over 60 papers (including accepted papers) in international journals and conferences. In 2018, he secured first place in the JD.com Global Operations Research and Optimization Challenge (Urban Logistics Vehicle Intelligent Scheduling). In 2020, Dr. Hu Qin was honored with the Outstanding University Collaboration Project Award by Huawei Noah's Ark Lab.
+  Committed to bridging the gap between scientific research and enterprise practices, Dr. Hu Qin actively applies his research outcomes to practical business scenarios, striving to transform scientific and technological achievements into tangible productivity. He has led and completed many collaborative projects with esteemed companies, including Huawei Technologies Co., Ltd., SF Express Co., Ltd., Midea Group, Sany Heavy Industry, Walmart China, Blue Moon Co., Ltd., and Guangzhou Procter & Gamble Co., Ltd.
+  In order to popularize and share knowledge related to decision intelligence optimization and associated technologies, Dr. Hu Qin established the WeChat public account "Data Magician" in 2017, which currently has over 64,000 followers.
+  Date
+  26 July 2023
+  Time
+  13:30:00 -
+  15:00:00
+  Location
+  E1-1F-148, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

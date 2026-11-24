@@ -1,0 +1,33 @@
+dsa_page: Designing Database Systems with Provable Performance Guarantees – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/11/designing-database-systems-with-provable-performance-guarantees/
+source: DSA
+
+headings:
+  - Designing Database Systems with Provable Performance Guarantees
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA Seminar
+  Designing Database Systems with Provable Performance Guarantees
+  Share to
+  ABSTRACT
+  Modern database workloads demand predictable performance. A system that works well on average is not enough: users and applications need to trust that the system will not occasionally make catastrophically bad choices. This calls for principled approaches that offer provable guarantees on performance.
+  In this talk, I present two lines of work that bridge theory and practice to bring such guarantees into database systems. First, I show how to derive tight upper bounds on query result sizes from lightweight statistics. These bounds allow query optimizers to rule out plans that could lead to catastrophic performance, for instance by allocating insufficient resources for a computation. Second, I discuss dynamic algorithms for maintaining query results under updates, motivated by applications such as real-time dashboards and streaming analytics where full recomputation is too expensive. These algorithms offer provable trade-offs between preprocessing, update, and query time, enabling predictable performance even under adversarial workloads. I conclude by outlining future directions, including applying these tools to provide cost guarantees for emerging workloads driven by autonomous agents.
+  SPEAKER BIO
+  Haozhe Zhang is a Postdoctoral Researcher at the University of Zurich working with Professor Dan Olteanu. His research bridges database systems and theory, focusing on query optimization with provable guarantees and incremental view maintenance under updates. His work on pessimistic cardinality estimation received the SIGMOD 2025 Best Paper Award, and his earlier work on worst-case optimal triangle maintenance received the ICDT 2019 Best Paper Award. He obtained his PhD from the University of Oxford in 2023.
+  Date
+  18 March 2026
+  Time
+  10:00:00 -
+  11:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

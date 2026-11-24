@@ -1,0 +1,43 @@
+dsa_page: Towards Evolutionary Multi-task Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/08/02/towards-evolutionary-multi-task-optimization/
+source: DSA
+
+headings:
+  - Towards Evolutionary Multi-task Optimization
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  DSA Seminar
+  Towards Evolutionary Multi-task Optimization
+  Share to
+  ABSTRACT
+  Evolutionary algorithms (EAs) typically start the search from scratch by assuming no prior knowledge about the task being solved, and their capabilities usually do not improve upon past problem-solving experiences. In contrast, humans routinely make use of the knowledge learnt and accumulated from the past to facilitate dealing with a new task, which provides an effective way to solve problems in practice as real-world problems seldom exist in isolation. Similarly, practical artificial systems like optimizers will often handle a large number of problems in their lifetime, many of which may share certain domain-specific similarities. This motivates the design of advanced optimizers which can leverage on what has been solved before to facilitate solving new tasks. In this talk, I will present recent advances in the field of evolutionary computation under the theme of evolutionary multi-task optimization via automatic knowledge transfer. Particularly, I will describe a general workflow of evolutionary multi-task optimization, which is followed by specific evolutionary multitasking algorithms for both continuous and combinatorial optimizations. Potential research directions towards advanced evolutionary multitasking design will also be covered.
+  SPEAKER BIO
+  Dr. Liang Feng received the Ph.D. degree from the School of Computer Engineering, Nanyang Technological University, Singapore, in 2014. He is a Professor at the College of Computer Science, Chongqing University, China. His research interests mainly include Computational and Artificial Intelligence, Memetic Computing, Big Data Optimization and Learning, and Transfer Learning and Optimization. He has been honored with the 2019 IEEE Transactions on Evolutionary Computation Outstanding Paper Award, the 2023 IEEE Transactions on Emerging Topics in Computational Intelligence Outstanding Paper Award, and the 2024 IEEE Computational Intelligence Magazine Outstanding Paper Award. He is Associate Editor of the IEEE Transactions on Evolutionary Computation, IEEE Transactions on Emerging Topics in Computational Intelligence, IEEE Computational Intelligence Magazine, Memetic Computing, etc. He is also the founding Chair of the IEEE CIS Intelligent Systems Applications Technical Committee Task Force on Transfer Learning and Transfer Optimization.
+  Date
+  06 August 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-2F-201, HKUST(GZ) & Online
+  Join Link
+  Zoom Meeting ID:
+  951 6972 5380
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/95169725380?pwd=396M111UcqLVhb9NdvJ4aYTTiqkw9X.1

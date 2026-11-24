@@ -1,0 +1,45 @@
+dsa_page: Learning Based Distributed Tracking – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/23/learning-based-distributed-tracking/
+source: DSA
+
+headings:
+  - Learning Based Distributed Tracking
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Learning Based Distributed Tracking
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Inspired by the great success of machine learning in the past decade, people have been thinking about the possibility of improving the theoretical results by exploring data distribution. In this talk, we revisit a fundamental problem called Distributed Tracking (DT) under an assumption that the data follows a certain (known or unknown) distribution, and propose a number of data-dependent algorithms with improved theoretical bounds.
+  Informally, in the DT problem, there is a coordinator and k players, where the coordinator holds a threshold N and each player has a counter. At each time stamp, at most one counter can be increased by one. The job of the coordinator is to capture the exact moment when the sum of all these k counters reaches N. The goal is to minimise the communication cost.
+  While our first type of algorithms assumes the concrete data distribution is known in advance, our second type of algorithms can learn the distribution on the fly. Both of the algorithms achieve a communication cost bounded by O(k log log N) with high probability, improving the state-of-the-art data-independent bound O(k log (N/k)). We further propose a number of implementation optimisation heuristics to improve both efficiency and robustness of the algorithms.
+  According to an extensive experimental study, the results show that the communication cost of our algorithms is as least as 20% of that of the state-of-the-art algorithms.
+  SPEAKER BIO
+  Junhao GAN
+  Senior Lecturer
+  The University of Melbourne
+  Junhao Gan is a senior lecturer in School of Computing and Information Systems (CIS) at The University of Melbourne (UoM). Before joining the UoM, he was a post-doctoral research fellow in School of Information Technology and Electrical Engineering (ITEE) at The University of Queensland (UQ) from April 2017 to July 2018. He received his PhD degree in the same school at UQ in 2017, and obtained his bachelor and master degrees at Sun Yat-Sen University in 2011 and 2013, respectively.
+  Junhao’s research interests are in practical algorithms with non-trivial theoretical guarantees for solving problems on massive data.
+  Junhao has won a number of important awards and honours, including SIGMOD Best Paper Award 2015, CORE John Makepeace Bennett Award (Australasian Distinguished Doctoral Dissertation) 2018, ARC Discovery Early Career Researcher Award (DECRA) 2019, and Excellence in Research Award in School of CIS 2020. He is also a coach of three teams qualified for the ICPC World Finals 2020, 2021 and 2022.
+  Date
+  25 October 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  899 2620 9198
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

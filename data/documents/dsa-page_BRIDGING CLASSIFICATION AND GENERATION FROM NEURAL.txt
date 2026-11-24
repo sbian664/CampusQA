@@ -1,0 +1,55 @@
+dsa_page: Bridging Classification and Generation: From Neural Collapse in Imbalanced Classification to Discriminative-driven Image Generation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/25/bridging-classification-and-generation-from-neural-collapse-in-imbalanced-classification-to-discriminative-driven-image-generation/
+source: DSA
+
+headings:
+  - Bridging Classification and Generation: From Neural Collapse in Imbalanced Classification to Discriminative-driven Image Generation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Bridging Classification and Generation: From Neural Collapse in Imbalanced Classification to Discriminative-driven Image Generation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Xuantong LIU
+  ABSTRACT
+  Deep learning models have demonstrated remarkable success in both classification and generation tasks; meanwhile, their behavior under imbalanced data distributions and their ability to adapt to new tasks remain active areas of research. This thesis investigates the intersection of discriminative learning and generative modeling, intending to bridge the gap between classification and generation under practical and theoretical constraints. We identify three core challenges: (1) learning robust representations under imbalanced class distributions in deep classification models; (2) improving controllability in conditional generative modeling; and (3) developing a unified generative paradigm that works across modalities such as language and vision. To address these challenges, we present three contributions. First, we explore the phenomenon of
+  Neural Collapse
+  and propose a method to explicitly induce it in long-tailed classification tasks. This approach enhances generalization by enforcing geometric structure in the learned representations. Second, we propose a training-free framework for controllable image generation by inverting a pre-trained vision-language model. This method leverages the strong alignment capabilities of discriminative models to guide image synthesis, achieving strong controllability without generative training. Third, we perform a systematic exploration of applying autoregressive language models to image generation. We investigate the key factors such as tokenization methods, scan patterns, scaling behavior, and vocabulary design, and show that next-token prediction—a language modeling paradigm—can surprisingly yield state-of-the-art performance in image generation. Together, these contributions provide a unified perspective on how discriminative structures and objectives can inform and improve generative modeling, and lay the groundwork for building more generalizable, controllable, and unified deep learning systems.
+  TEC
+  Chairperson: Prof Mark Nicholas GRIMSHAW-AAGAARD
+  Prime Supervisor: Prof Yuan YAO
+  Co-Supervisor: Prof Nevin Lianwen ZHANG
+  Examiners:
+  Prof Qiong LUO
+  Prof Lei LI
+  Prof Menglin YANG
+  Prof Zenglin XU
+  Date
+  22 April 2025
+  Time
+  15:00:00 -
+  17:00:00
+  Location
+  W3-105, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 93921426405
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93921426405?pwd=h3CdFdJUSDf5WMlNVRGQPcNMc5A1P1.1

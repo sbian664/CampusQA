@@ -1,0 +1,30 @@
+dsa_page: Random Smoothing Regularization in Kernel Gradient Descent Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/random-smoothing-regularization-in-kernel-gradient-descent-learning/
+source: DSA
+
+headings:
+  - Random Smoothing Regularization in Kernel Gradient Descent Learning
+  - Abstract
+  - Project members
+  - Wenjia WANG
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Random Smoothing Regularization in Kernel Gradient Descent Learning
+  Abstract
+  Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized features. Despite its success in various applications, there has been a lack of systematic study on the regularization ability of random smoothing. In this paper, we aim to bridge this gap by presenting a framework for random smoothing regularization that can adaptively and effectively learn a wide range of ground truth functions belonging to the classical Sobolev spaces. Specifically, we investigate two underlying function spaces: the Sobolev space of low intrinsic dimension, which includes the Sobolev space in $D$-dimensional Euclidean space or low-dimensional sub-manifolds as special cases, and the mixed smooth Sobolev space with a tensor structure. By using random smoothing regularization as novel convolution-based smoothing kernels, we can attain optimal convergence rates in these cases using a kernel gradient descent algorithm, either with early stopping or weight decay. It is noteworthy that our estimator can adapt to the structural assumptions of the underlying data and avoid the curse of dimensionality. This is achieved through various choices of injected noise distributions such as Gaussian, Laplace, or general polynomial noises, allowing for broad adaptation to the aforementioned structural assumptions of the underlying data. The convergence rate depends only on the effective dimension, which may be significantly smaller than the actual data dimension. We conduct numerical experiments on simulated data to validate our theoretical results.
+  Project members
+  Wenjia WANG
+  Assistant Professor
+  Project Period
+  2024
+  Research Area
+  Data-driven AI & Machine Learning
+  Keywords
+  early stopping, kernel methods, Random smoothing
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang

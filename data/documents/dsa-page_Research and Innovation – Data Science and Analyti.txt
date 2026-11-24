@@ -1,0 +1,81 @@
+dsa_page: Research and Innovation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/category/research-and-innovation/
+source: DSA
+
+headings:
+  - DSA Year 3 student publishes research at leading AI conference ICLR
+  - Year 2 student publishes research at leading AI conference ICLR
+  - Dr. Zishuo Ding Receives 2025 CCF-Baidu Pinecone Fund
+  - Dr. Zishuo Ding Receives 2025 CCF-Huawei Poplar Forest Fund for Software Engineering Specialization
+  - 11 DSA Thrust Professors Recognized Among World's Top 2% Scientists in 2025
+  - Congratulations | Dr. Yuyu Luo Receives the 2025 Yunfan Award at WAIC
+  - DSA HPML Lab Recognized with ICDCS 2025 Outstanding Paper Award
+  - Paper Highlights | 20 Papers from DSA Thrust Accepted to CVPR 2025 and ICML 2025
+  - Dr. Ningning Ding Receives 2025 CCF-DiDi GAIA Collaborative Research Funds for Young Scholars
+  - Best Paper Award at IISE 2025 in Quality Engineering
+  - DSA Thrust Secures Six Spots at CASE 2025
+  - Dr. Nan Tang Receives 2025 CCF-Huawei Populus Euphratica Innovation Research Funding for Database Research
+  - Paper Spotlight | 7 Paper Acceptances at ICDE 2025
+  - Research Highlight | Dr. Yuyu Luo’s Team Presents Alpha-SQL at ICML 2025
+  - Second-Year Undergrad Publishes Paper at Top AI Conference ICLR
+  - Paper Highlights: 29 PapersAccepted at NeurIPS, EMNLP, and VIS 2024!
+  - Dr. Yongqi Zhang Receives 2024 CAAI-Lenovo Lantian Research Fund Support
+  - Dr. Zeke Xie Receives 2024 CCF-Baidu Open Fund Support
+
+text: >
+  DSA Year 3 student publishes research at leading AI conference ICLR
+  February 12, 2026
+  Year 2 student publishes research at leading AI conference ICLR
+  February 12, 2026
+  Dr. Zishuo Ding Receives 2025 CCF-Baidu Pinecone Fund
+  September 30, 2025
+  Dr. Zishuo Ding Receives 2025 CCF-Huawei Poplar Forest Fund for Software Engineering Specialization
+  September 30, 2025
+  11 DSA Thrust Professors Recognized Among World's Top 2% Scientists in 2025
+  September 30, 2025
+  Congratulations | Dr. Yuyu Luo Receives the 2025 Yunfan Award at WAIC
+  July 29, 2025
+  DSA HPML Lab Recognized with ICDCS 2025 Outstanding Paper Award
+  July 24, 2025
+  Paper Highlights | 20 Papers from DSA Thrust Accepted to CVPR 2025 and ICML 2025
+  June 20, 2025
+  Dr. Ningning Ding Receives 2025 CCF-DiDi GAIA Collaborative Research Funds for Young Scholars
+  June 18, 2025
+  Best Paper Award at IISE 2025 in Quality Engineering
+  June 11, 2025
+  DSA Thrust Secures Six Spots at CASE 2025
+  June 10, 2025
+  Dr. Nan Tang Receives 2025 CCF-Huawei Populus Euphratica Innovation Research Funding for Database Research
+  May 27, 2025
+  Paper Spotlight | 7 Paper Acceptances at ICDE 2025
+  May 26, 2025
+  Research Highlight | Dr. Yuyu Luo’s Team Presents Alpha-SQL at ICML 2025
+  May 15, 2025
+  Second-Year Undergrad Publishes Paper at Top AI Conference ICLR
+  February 26, 2025
+  Paper Highlights: 29 PapersAccepted at NeurIPS, EMNLP, and VIS 2024!
+  January 2, 2025
+  Dr. Yongqi Zhang Receives 2024 CAAI-Lenovo Lantian Research Fund Support
+  December 4, 2024
+  Dr. Zeke Xie Receives 2024 CCF-Baidu Open Fund Support
+  October 22, 2024
+
+links:
+  - https://mp.weixin.qq.com/s/tm_ZUdP79BlK6TkRY-x4VQ | https://mp.weixin.qq.com/s/tm_ZUdP79BlK6TkRY-x4VQ
+  - https://mp.weixin.qq.com/s/VFChfCq2GQC7_ltqbW3QvQ | https://mp.weixin.qq.com/s/VFChfCq2GQC7_ltqbW3QvQ
+  - https://mp.weixin.qq.com/s/gPx3rGGL0EsqI_Us99hO9w | https://mp.weixin.qq.com/s/gPx3rGGL0EsqI_Us99hO9w
+  - https://mp.weixin.qq.com/s/BbRoxOWVuyrH6jxnMEa3Bw | https://mp.weixin.qq.com/s/BbRoxOWVuyrH6jxnMEa3Bw
+  - https://mp.weixin.qq.com/s/QwtcDfhj5ynSb0aBViOUtQ | https://mp.weixin.qq.com/s/QwtcDfhj5ynSb0aBViOUtQ
+  - https://mp.weixin.qq.com/s/PLc3Z0XQZEgim2Ilh-aXAg | https://mp.weixin.qq.com/s/PLc3Z0XQZEgim2Ilh-aXAg
+  - https://mp.weixin.qq.com/s/o16r7Jv9_s4DmbC6-xcZ5A | https://mp.weixin.qq.com/s/o16r7Jv9_s4DmbC6-xcZ5A
+  - https://mp.weixin.qq.com/s/QkZlCFZyeZvxOvXoZaKICw | https://mp.weixin.qq.com/s/QkZlCFZyeZvxOvXoZaKICw
+  - https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&tempkey=MTMyN19LWXptVXBrazNaVkV2bkNLTzZLeXZsYnY5RmNXNDh0cjZTLWlIbnRZUDFCR3BKZUo5QmlYaUxaX05JRWUwYno4RjlFRXBISENjVXgtMHVoUmFxUUVBX0s1NkhKeGZsMVhPTllJUXRpbDBLWVA2a1RKbm5KNF9LYkY1YUNING9yUVpUeV9VajZOaEJMRFd6bVJESWFoZlc2ZkZJaF9sNmJrQUtQMUxnfn4%3D&chksm=407047e483251d23ccb08e9e641fc11eaef05994901cba674dbbe978b88e9ca7546882d2ece3&mpshare=1&scene=1&srcid=0619woVzVqgCEikYyjHEg7Xk&sharer_shareinfo=fb6a661981fa04cbd25450bf1989accc&sharer_shareinfo_first=fb6a661981fa04cbd25450bf1989accc | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&tempkey=MTMyN19LWXptVXBrazNaVkV2bkNLTzZLeXZsYnY5RmNXNDh0cjZTLWlIbnRZUDFCR3BKZUo5QmlYaUxaX05JRWUwYno4RjlFRXBISENjVXgtMHVoUmFxUUVBX0s1NkhKeGZsMVhPTllJUXRpbDBLWVA2a1RKbm5KNF9LYkY1YUNING9yUVpUeV9VajZOaEJMRFd6bVJESWFoZlc2ZkZJaF9sNmJrQUtQMUxnfn4%3D&chksm=407047e483251d23ccb08e9e641fc11eaef05994901cba674dbbe978b88e9ca7546882d2ece3&mpshare=1&scene=1&srcid=0619woVzVqgCEikYyjHEg7Xk&sharer_shareinfo=fb6a661981fa04cbd25450bf1989accc&sharer_shareinfo_first=fb6a661981fa04cbd25450bf1989accc
+  - https://mp.weixin.qq.com/s/E45jthbsrhkhk9ZOUNqL-A | https://mp.weixin.qq.com/s/E45jthbsrhkhk9ZOUNqL-A
+  - https://mp.weixin.qq.com/s/w_Sv6iZAekZgyE8-ZH67iA | https://mp.weixin.qq.com/s/w_Sv6iZAekZgyE8-ZH67iA
+  - https://mp.weixin.qq.com/s/HZ3Xeg3s5AbRFRRqhywkAQ | https://mp.weixin.qq.com/s/HZ3Xeg3s5AbRFRRqhywkAQ
+  - https://mp.weixin.qq.com/s/W1gEMFraW6JtlDQ9TydHIw | https://mp.weixin.qq.com/s/W1gEMFraW6JtlDQ9TydHIw
+  - https://mp.weixin.qq.com/s/7OkIyhiSpqh25uJjRQpDfA | https://mp.weixin.qq.com/s/7OkIyhiSpqh25uJjRQpDfA
+  - https://mp.weixin.qq.com/s/gHu6k9fKINbqNUKz6z1fYg | https://mp.weixin.qq.com/s/gHu6k9fKINbqNUKz6z1fYg
+  - https://mp.weixin.qq.com/s/LOiajp2HUI-pQJHH6ulaOA | https://mp.weixin.qq.com/s/LOiajp2HUI-pQJHH6ulaOA
+  - https://mp.weixin.qq.com/s/X1f1LKciflw3Hk0z5LMq9w | https://mp.weixin.qq.com/s/X1f1LKciflw3Hk0z5LMq9w
+  - https://mp.weixin.qq.com/s/ptCIACSDT41ra8t01oYWmA | https://mp.weixin.qq.com/s/ptCIACSDT41ra8t01oYWmA

@@ -1,0 +1,33 @@
+fytgs_page: After Getting an Offer
+url: https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer
+source: FYTGS
+
+headings:
+  - Step 1 Accept the Admission Offer Online
+  - Step 2 Begin the Student Visa Application (for International Students)
+  - Step 3 Submit Documents to Verify Your Qualification
+  - Step 4 Program Registration with HKUST(GZ)
+  - Step 5 On-campus Registration and New Students Welcome Week at HKUST(GZ)
+
+text: >
+  Congratulations on receiving your offer! Accept the offer now and get prepared for your study journey at HKUST(GZ)!
+  Step 1 Accept the Admission Offer Online
+  Confirm the offer and pay the first payment to confirm your acceptance.
+  Tip: Offers are only considered accepted when both online acceptance and first payment are completed.
+  Step 2 Begin the Student Visa Application (for International Students)
+  Apply for the Student Visa (X visa) upon receiving the paper admission notice and JW 202/201 Form. All international students are required to obtain a student visa from the local Chinese embassy or consulate to enter China.
+  Learn more
+  Step 3 Submit Documents to Verify Your Qualification
+  Arrange official transcripts and other necessary documentation to be sent directly by the issuing authorities by the deadline stipulated in the offer letter/ Document Checklist.
+  Learn more
+  Step 4 Program Registration with HKUST(GZ)
+  Check out the invitation for program registration and complete it according to the instructions. It is expected to be conducted in mid-August for Fall entry or mid-January for Spring entry.
+  Step 5 On-campus Registration and New Students Welcome Week at HKUST(GZ)
+  Check out the invitation for on-campus registration and arrive at the campus on time with the required documents according to the instructions. All students shall complete the on-campus registration and attend the Welcome Week as announced.
+  * For applicants who wish to transfer archive(档案), please contact
+  armd@hkust-gz.edu.cn
+  .
+
+links:
+  - Learn more | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home/
+  - Learn more | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/submitting-official-documents/

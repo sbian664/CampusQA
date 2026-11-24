@@ -1,0 +1,39 @@
+dsa_page: AI-Network Systems with Strategic Agents – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/13/ai-network-systems-with-strategic-agents/
+source: DSA
+
+headings:
+  - AI-Network Systems with Strategic Agents
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  AI-Network Systems with Strategic Agents
+  Share to
+  ABSTRACT
+  In the rapidly evolving landscape of artificial intelligence (AI), the intricate interplay of AI technology, human engagement, and networking dynamics brings forth a mosaic of challenges and opportunities. The complex coupling of AI and network systems is apparent in several areas. For example, in federated learning setups, distributed AI nodes form a network to collaboratively train machine learning models; Internet of Things (IoT) networks connect numerous devices that collect massive data, enabling AI-driven analytics. While the literature has made significant strides in algorithmic enhancements to AI and network performance, there remain understudied challenges tied to human participation, encompassing factors like the willingness to participate, strategic self-interest, and the handling of private and dynamic information. In this talk, I will focus on the interdisciplinary area involving AI, network systems, and network economics to address these challenges, and highlight human-aware optimization in AI-network systems to enhance efficiency, privacy, and social welfare. Specifically, I will introduce network mechanism designs tailored for federated learning and unlearning frameworks, as well as IoT systems.
+  SPEAKER BIO
+  Ningning DING
+  Postdoctoral Scholar
+  Northwestern University
+  Ningning Ding is a Postdoctoral Scholar with the Department of Electrical and Computer Engineering, Northwestern University, USA. She received her Ph.D. degree in information engineering at The Chinese University of Hong Kong, Hong Kong in 2022, and the B.S. degree in information science and engineering from Southeast University, Nanjing, China, in 2018. Her primary research interests include artificial intelligence, network systems, and network economics, with current emphasis on network mechanism design for federated learning and unlearning, distributed coded machine learning, and IoT systems. Her work has been published in prestigious journals and conferences, including IEEE Journal on Selected Areas in Communications (JSAC), IEEE Transactions on Mobile Computing (TMC), ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc), IEEE International Conference on Computer Communications (INFOCOM), IEEE Global Communications Conference (GLOBECOM), and IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt).
+  Date
+  15 November 2023
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  848 4220 7190
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

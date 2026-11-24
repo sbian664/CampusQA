@@ -1,0 +1,32 @@
+dsa_page: Proximity Graph-based High-dimensional Approximate Nearest Neighbor Search: From Theory to Practice – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/proximity-graph-based-high-dimensional-approximate-nearest-neighbor-search-from-theory-to-practice/
+source: DSA
+
+headings:
+  - Proximity Graph-based High-dimensional Approximate Nearest Neighbor Search: From Theory to Practice
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Proximity Graph-based High-dimensional Approximate Nearest Neighbor Search: From Theory to Practice
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Mingyu YANG
+  Abstract
+  With the rapid development of machine learning techniques and large language models, vector databases, as databases for managing and retrieving high-dimensional vector data, have garnered widespread attention. The applications of vector databases are particularly significant in areas such as recommendation systems, data mining, multimedia data retrieval, and RAGs (Retrieval-Augmented Generation) for large language models. The essence of vector databases lies in efficiently implementing similarity search for high-dimensional data. Therefore, numerous indexes for vector similarity search have been proposed. Among the various indexes, methods based on proximity graphs (PGs) significantly outperform others in terms of retrieval efficiency and represent the current state-of-the-art vector similarity search algorithm which also serves as the core index in numerous vector databases. This survey focuses on the theoretical background of proximity graphs, as well as a variety of construction strategies for different proximity graphs, along with their corresponding search, insertion, and deletion algorithms. Additionally, this survey also analyzes the integration of proximity graphs with other high-dimensional vector similarity search algorithms. Finally, this survey discusses the potential research direction of proximity graph-based vector database index.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Lei LI
+  Examiner: Prof Xinlei HE
+  Date
+  04 June 2024
+  Time
+  11:10:00 -
+  12:25:00
+  Location
+  E1-149

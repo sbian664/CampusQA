@@ -1,0 +1,57 @@
+dsa_page: Cohesive Subgraph Analysis in Complex Graphs: Efficient Algorithms for Dynamic, Temporal, and Distributed Scenarios – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/22/cohesive-subgraph-analysis-in-complex-graphs-efficient-algorithms-for-dynamic-temporal-and-distributed-scenarios/
+source: DSA
+
+headings:
+  - Cohesive Subgraph Analysis in Complex Graphs: Efficient Algorithms for Dynamic, Temporal, and Distributed Scenarios
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Cohesive Subgraph Analysis in Complex Graphs: Efficient Algorithms for Dynamic, Temporal, and Distributed Scenarios
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Anxin TIAN
+  ABSTRACT
+  Cohesive subgraph analysis serves as a fundamental tool for understanding the organization and evolution of complex networks. While extensive research has been conducted on static and undirected networks, the challenges of handling dynamic directed graphs, temporal bipartite networks, and distributed scenarios remain largely unexplored. This thesis addresses these challenges by developing efficient algorithms and novel indexing techniques for three critical problems: maximal D-truss maintenance in dynamic directed graphs, temporal core analysis in bipartite networks and distributed D-truss computation on large directed graphs.
+  For the dynamic D-truss problem, we first establish theoretical bounds on the structural changes of D-truss under edge updates, providing the foundation for efficient maintenance strategies. We propose an order-based D-Index structure that effectively captures the hierarchical relationships among edges based on their cycle and flow triangle counts. Building upon this index, we develop batch-update algorithms that significantly reduce the maintenance cost by processing multiple updates simultaneously. Our experimental results on real-world networks demonstrate that the proposed solution achieves up to 10x speedup compared to state-of-the-art approaches while maintaining optimal space complexity.
+  To address temporal bipartite core analysis, we introduce a novel temporal containment property for (𝛼, 𝛽)-cores and formalize it through a DAG-based hierarchy. Based on this theoretical framework, we design a superior-optimized index structure that achieves both space efficiency and query performance guarantees. The index supports efficient retrieval of temporal cores within arbitrary time windows and can be dynamically maintained with logarithmic update complexity. Extensive experiments on eight real-world temporal bipartite networks verify the effectiveness of our approach, showing consistent query time under 100ms even for graphs with millions of edges.
+  Though the D-truss decomposition is effective for revealing the cycle-flow relationships in directed graphs, its single-machine solutions are far from scalable for real-world large graphs. For proposing efficient distributed solutions for D-truss decomposition, first, we introduce a converge-based algorithm that computes trussness pairs iteratively to a fixed point. Then, we utilize the peel idea and propose a batch-peel algorithm, which spares the extra overhead. For addressing the bottleneck of communication cost, we propose triangle-related acceleration and the type-aware balanced partitioner. Finally, we present the stratified local-peel method that reduces considerable communication overhead.
+  Our proposed methods advance the existing state-of-the-art solutions in dynamic, temporal, and distributed scenarios, offering both theoretical foundations and practical tools for real-world applications.
+  TEC
+  Chairperson: Prof Mark Nicholas GRIMSHAW-AAGAARD
+  Prime Supervisor: Prof Lei CHEN
+  Co-Supervisor: Prof Can YANG
+  Examiners:
+  Prof Lei LI
+  Prof Wenjia WANG
+  Prof Xiaofang ZHOU
+  Prof Zhiguo GONG
+  Date
+  25 July 2025
+  Time
+  15:30:00 -
+  17:30:00
+  Location
+  E4-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 99824505391
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | http://E4-201, HKUST(GZ) /; https://hkust-gz-edu-cn.zoom.us/j/99824505391?pwd=ZRWol7DGWdBk8zbaUj8ZB3FOU5kqiT.1

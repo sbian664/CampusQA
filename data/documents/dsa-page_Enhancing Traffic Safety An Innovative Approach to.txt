@@ -1,0 +1,41 @@
+dsa_page: Enhancing Traffic Safety: An Innovative Approach to Addressing Violations in Motion – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/04/enhancing-traffic-safety-an-innovative-approach-to-addressing-violations-in-motion/
+source: DSA
+
+headings:
+  - Enhancing Traffic Safety: An Innovative Approach to Addressing Violations in Motion
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Enhancing Traffic Safety: An Innovative Approach to Addressing Violations in Motion
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Traffic violations pose significant threats to public safety, including issues such as unfasten seatbelts and mobile phone use while driving. Traditional solutions rely on fixed cameras installed on traffic poles to monitor and analyze images, aiming to detect abnormal driving behavior. However, drivers often exhibit improved compliance with traffic rules when they approach known locations with fixed law enforcement devices.
+  This presentation introduces an innovative solution that involves deploying on-vehicle enforcement devices on law enforcement vehicles to address violations that occur while vehicles are in motion. Additionally, the speaker will discuss the challenges encountered when implementing this system in real-world projects, highlighting the potential benefits of this novel approach to enhancing traffic safety.
+  SPEAKER BIO
+  Louis Xinmin TANG
+  Senior Director
+  SenseTime Group
+  Dr. Louis, Xinmin Tang graduated from the Chinese University of Hong Kong with a PhD degree in Computer Science and Engineering. His research fields include Information Security, Big Data, Machine Learning, and Computer Vision. Dr. Tang has more than 15 years’ experience in product development and end-to-end innovative solutions delivery. He led and participated in more than 60 patents and has been recognized as a high-level overseas talent in Shenzhen, China. Currently, he worked in SenseTime Group as the Senior Director.
+  Date
+  06 September 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  829 9532 3290
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

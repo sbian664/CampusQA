@@ -1,0 +1,34 @@
+dsa_page: Similarity Representation and Efficient Indexing in Vector Databases for Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/similarity-representation-and-efficient-indexing-in-vector-databases-for-language-models/
+source: DSA
+
+headings:
+  - Similarity Representation and Efficient Indexing in Vector Databases for Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Similarity Representation and Efficient Indexing in Vector Databases for Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. QIU, Runwen
+  Abstract
+  Vector databases play a central role in Retrieval-Augmented Generation (RAG) systems by enabling efficient similarity search over large document collections. Since both queries and documents are typically textual, retrieval must accurately model semantic similarity between them, which is inherently challenging. In practical RAG systems, corpora often contain millions or even billions of documents, making exhaustive similarity computation computationally prohibitive and causing unacceptable query latency. Consequently, two key components have become central to modern vector databases: similarity representation and efficient indexing. Although both topics have been extensively studied in the AI and database communities, existing surveys usually discuss them separately and rarely analyze them from the perspective of RAG. Therefore, this survey provides a systematic overview of similarity representation and efficient indexing techniques for vector databases in RAG systems. We categorize existing methods into sparse and dense paradigms based on whether document representations are sparse or dense vectors. In addition, we discuss several open challenges in building efficient and downstream-aware vector databases.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. CHEN, Wei
+  Examiner: Prof. DING, Ningning
+  Date
+  10 June 2026
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-148, HKUST(GZ)

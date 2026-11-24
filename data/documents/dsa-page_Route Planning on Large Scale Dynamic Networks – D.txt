@@ -1,0 +1,60 @@
+dsa_page: Route Planning on Large Scale Dynamic Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/route-planning-on-large-scale-dynamic-networks/
+source: DSA
+
+headings:
+  - Route Planning on Large Scale Dynamic Networks
+  - Abstract
+  - Project members
+  - Lei LI
+  - Xiaofang ZHOU
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Route Planning on Large Scale Dynamic Networks
+  Abstract
+  Using indexes to find the shortest path can increase query efficiency thousands of times faster than the search-based methods. However, as the networks keep evolving in both the topology and edge weights, these indexes require time-consuming maintenance / re-construction, which stops them from applicable in practice, especially when the network large. This project aims to adapt the path indexes to large networks in the dynamic environments. Theoretically, this project reveals the relation between the graph partitioning / hierarchical partitioning and the path indexing, identifies the partition index strategies for index correctness guarantee, index maintenance meta-methods for all structures, and finally thoroughly decouple the partitioned dynamic methods into the previous three dimensions. Practically, it can serve as a guideline to form any partitioned path index according to the dynamic environment, application purposes, and network structure. As the evidence of the partitioned index theory, several new index structures are proposed based on it. Finally, this project further improves the system throughput by improving the index availability. In summary, this project is the key to efficiency for pathfinding.
+  Project members
+  Lei LI
+  Assistant Professor
+  Xiaofang ZHOU
+  Chair Professor
+  Publications
+  1. Scalable Distance Labeling Maintenance and Construction for Dynamic Small-World Networks.
+  Xinjie Zhou, Mengxuan Zhang,
+  Lei Li
+  , and Xiaofang Zhou.
+  ICDE 2024
+  2.
+  Parallel Hub Labeling Maintenance with High Efficiency in Dynamic Small-World Networks
+  .
+  Mengxuan Zhang,
+  Lei Li
+  , Goce Trajcevski, Andreas Zufle, and Xiaofang Zhou.
+  TKDE 2023
+  3.
+  A Universal Scheme for Partitioned Dynamic Shortest Path Index
+  . Mengxuan Zhang, Xinjie Zhou, Lei Li, Ziyi Liu, Goce Trajcevski, Yan Huang, and Xiaofang Zhou.
+  4. High Throughput Shortest Path Query Processing for Dynamic Road Networks
+  5. Partitioned Dynamic Hub Labeling for Large Road Networks
+  6. I/O-Efficient Multi-Criteria Shortest Paths Query Processing on Large Graphs.
+  Xinjie Zhou, Kai Huang,
+  Lei Li
+  , Mengxuan Zhang, and Xiaofang Zhou.
+  TKDE 2024
+  Project Period
+  2023 - Present
+  Research Area
+  Graph, Transportation
+  Keywords
+  Graph, Index, Road Network, Route Planning, Shortest Path, Transportation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf | https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf
+  - Parallel Hub Labeling Maintenance with High Efficiency in Dynamic Small-World Networks | https://drive.google.com/file/d/1CPRFeG-qOR6pn8Qyvr96OM3DXjMAfDjT/view
+  - A Universal Scheme for Partitioned Dynamic Shortest Path Index | https://arxiv.org/pdf/2310.08213.pdf

@@ -1,0 +1,38 @@
+dsa_page: Natural Robustness of Machine Learning in the Open World – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/11/15/natural-robustness-of-machine-learning-in-the-open-world/
+source: DSA
+
+headings:
+  - Natural Robustness of Machine Learning in the Open World
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Natural Robustness of Machine Learning in the Open World
+  Share to
+  ABSTRACT
+  Modern machine learning techniques have demonstrated their excellent capabilities in many areas like computer vision and natural language processing. Despite the human-surpassing performance in experimental settings, many research works have revealed the vulnerability of machine learning models caused by the violation of fundamental assumptions in real-world applications. Such issues significantly hinder the applicability and reliability of machine learning. This motivates the need to preserve model performance under naturally induced data corruptions or alterations across the machine learning pipeline, termed Natural Robustness. Under this concept, this talk will first investigate two naturally occurring issues: label corruption and distribution shift, which lie in the subarea of weakly supervised learning and open-world machine learning respectively. Then, I will discuss how to explore the value of out-of-distribution examples during training. Concretely, I will present three recent results in natural robustness: 1) Disagreement is not necessary for clean sample selection in the presence of label noise. 2) Decoupling the logit magnitude from the optimization can mitigate the overconfidence issue of neural networks. 3) Out-of-distribution examples can be beneficial to model robustness.
+  SPEAKER BIO
+  Hongxin WEI
+  Nanyang Technological University
+  Hongxin Wei is a final-year Ph.D. candidate from Nanyang Technological University, supervised by Prof. Bo An. He is currently a visiting scholar at the University of Wisconsin-Madison, working with Prof. Sharon Li. He received his B.E. from Huazhong University of Science and Technology in 2016. His research interests include topics in machine learning and algorithms, such as open-world machine learning, robust deep learning, and weakly supervised learning.
+  Date
+  17 November 2022
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  983 5877 3397
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

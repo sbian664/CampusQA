@@ -1,0 +1,33 @@
+dsa_page: High Performance Stream Processing in All Ways – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/22/high-performance-stream-processing-in-all-ways/
+source: DSA
+
+headings:
+  - High Performance Stream Processing in All Ways
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  High Performance Stream Processing in All Ways
+  Share to
+  ABSTRACT
+  Stream processing has been an active research field for more than 20 years, but it is now witnessing its prime time. In recent years, many stream processing systems have been proposed and successfully deployed at a large scale. Despite the past successes, the potential benefits of stream processing systems are limited by several fundamental issues including poor utilization of novel hardware and inadequate support of novel stream applications. In this talk, I will introduce our recent research efforts (i) on the hardware side to build hardware-conscious stream processing systems that efficiently utilizing hardware architectures such as NUMA, GPU, and mobile CPUs, and (ii) on the application side to build specialized stream processing systems to enable novel stream applications such as transactional stream processing, stateful stream compression and so on.
+  SPEAKER BIO
+  Shuhao Zhang is a Full Professor at Huazhong University of Science and Technology (HUST). Previously, he was an Assistant Professor at Nanyang Technological University (NTU), Singapore, and a postdoctoral researcher at Technische Universität Berlin (TU-Berlin), where he worked with Prof. Volker Markl. He earned his PhD from the National University of Singapore (NUS), supervised by Prof. Bingsheng He, and his BEng from NTU, Singapore. Shuhao's research focuses on designing high-performance database systems and big data frameworks optimized for modern hardware, including NUMA multicore architectures, GPUs, and mobile CPUs. He has a particular emphasis on streaming systems, vector data management, and their intersection with advanced AI technologies. His work has been published in leading database and systems venues, such as SIGMOD, VLDB, ICDE, NeurIPS, SC, USENIX ATC, IEEE TPDS, IEEE TKDE, and Nature Communications. He has also open-sourced several of the systems he developed, including MorphStream (ICDE'17, SIGMOD'19, ICDE'20, SIGMOD'23, VLDBJ'23) and AllianceDB (SIGMOD'21, SIGMOD'24, SIGMOD'25).
+  Date
+  27 November 2024
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

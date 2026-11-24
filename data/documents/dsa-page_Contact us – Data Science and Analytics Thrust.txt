@@ -1,0 +1,27 @@
+dsa_page: Contact us – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/contact-us/
+source: DSA
+
+headings:
+  - CONTACT US
+  - CONNECT WITH US
+
+text: >
+  CONTACT US
+  Data Science and Analytics Thrust Office
+  Room:
+  E3-2F-230
+  Address:
+  No.1 Duxue Road, Nansha District, Guangzhou City, Guangdong Province, P.R.China
+  Postal code:
+  511453
+  Email:
+  dsat@hkust-gz.edu.cn
+  CONNECT WITH US
+  wechat
+  xhs
+  zhihu
+
+links:
+  - xhs | https://www.xiaohongshu.com/user/profile/63760ff00000000024015433?xhsshare=WeixinSession&appuid=5db197d200000000010058a3&apptime=1706251603&wechatWid=0de2fdbc9f4c91aaac1a23aac3f76b39&wechatOrigin=menu
+  - zhihu | https://www.zhihu.com/org/shu-ju-ke-xue-yu-fen-xi-xue-yu-hkust-gz/posts?utm_id=0

@@ -1,0 +1,34 @@
+dsa_page: A Survey on Cluster Resource Scheduling for Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/09/a-survey-on-cluster-resource-scheduling-for-large-language-models/
+source: DSA
+
+headings:
+  - A Survey on Cluster Resource Scheduling for Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Cluster Resource Scheduling for Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LIU, Hongbin
+  Abstract
+  The transition from traditional deep learning to Large Language Models (LLMs) has fundamentally redefined the requirements for distributed system infrastructure. Resource scheduling, once primarily concerned with fairness and job packing, must now navigate the extreme scale, memory intensity, and complex dependencies unique to Generative AI. This survey presents a systematic taxonomy of LLM resource scheduling, tracing its evolution from general-purpose cluster managers to specialized, fine grained orchestration engines. We organize the state-ofthe-art into three distinct paradigms: Training, Inference Engine Optimization, and ClusterLevel Serving. For training, we analyze strategies for automated 3D parallelism and topologyaware placement that maximize hardware utilization (MFU) while ensuring fault tolerance for month-long jobs. At the inference engine level (Micro-Scheduling), we dissect innovations in memory management (e.g., PagedAttention) and flow control (e.g., continuous batching) designed to dismantle the KV cache memory wall. For cluster-level serving (Macro-Scheduling), we explore architectures for disaggregated serving, prefix caching, and multi-tenant LoRA orchestration that balance the conflicting demands of throughput and latency. Finally, we identify the open challenges of training-inference co-location, serverless LLMs, and the scheduling of complex AI agents, charting the path toward a unified ”AI Operating System.
+  PQE Committee
+  Chair of Committee: Prof. LUO, Qiong
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. CUI, Ying (Online)
+  Examiner: Prof. WEN, Zeyi
+  Date
+  10 December 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201 (HKUST-GZ)

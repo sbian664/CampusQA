@@ -1,0 +1,40 @@
+dsa_page: Web3 Metaverse: A User’s Perspective – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/20/web3-metaverse-a-users-perspective/
+source: DSA
+
+headings:
+  - Web3 Metaverse: A User's Perspective
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Web3 Metaverse: A User's Perspective
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  Metaverse became a topic of public concern in late 2021. However, a little-known fact is that the term “metaverse” has been widely used in the Web3 community since 2017, when its members started to advertise their vision of the decentralized virtual world. In this talk, the speaker will present the community, layers, recent developments, and future trends for the Web3 metaverse. The speaker will first review the history of metaverse development and introduce the different views from multiple research communities to clarify the importance of Web3 research in this area. Afterward, the speaker will study industrial Web3 metaverse cases, including land projects and profile picture NFT projects, to motivate future directions. Furthermore, the speaker will present recent research outcomes from a user’s perspective.
+  SPEAKER BIO
+  Wei CAI
+  Assistant Professor
+  The Chinese University of Hong Kong, Shenzhen
+  Prof. Wei Cai is currently an assistant professor of Electrical and Computer Engineering at the School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen. He is serving as the director of the Human-Cloud Systems Laboratory, as well as the director of the CUHK(SZ)-White Matrix Joint Metaverse Laboratory. Wei received Ph.D., M.Sc., and B.Eng. from The University of British Columbia, Seoul National University, and Xiamen University in 2016, 2011, and 2008, respectively. Dr. Cai has co-authored more than 100 journal and conference papers in the area of distributed/decentralized systems and interactive multimedia. His recent research interests are mainly in the topic of the human-centered metaverse, including Web3/blockchain, digital games, DeFi/GameFi, UGC/AIGC, and computational art. He is now serving as the associate editor for IEEE Transactions on Cloud Computing, Program Co-Chair of ACM NOSSDAV’23, TPC members for top conferences including ACM MM, MMSys, NOSSDAV, GameSys, and guest editors for many leading journals including ACM TOMM, IEEE Multimedia, TNSE, TCSS, etc. He is also an executive committee member of the China Computer Federation (CCF) Computational Art Committee, Technical Committee on Human-Computer Interaction, and Technical Committee on Blockchain. He was a recipient of 6 best paper awards.
+  Date
+  22 February 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  552-216-967
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,34 @@
+dsa_page: Applications of Alternative Knowledge inFinancial Forecasting: A Survey from DeepLearning to LLM Era – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/20/applications-of-alternative-knowledge-infinancial-forecasting-a-survey-from-deeplearning-to-llm-era/
+source: DSA
+
+headings:
+  - Applications of Alternative Knowledge inFinancial Forecasting: A Survey from DeepLearning to LLM Era
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Applications of Alternative Knowledge inFinancial Forecasting: A Survey from DeepLearning to LLM Era
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Hao Wang
+  Abstract
+  This survey explores the evolving role of alternative knowledge in financial forecasting, highlighting both established techniques and the latest advancements enabled by large language models (LLMs). First, we introduce statistical methods, which evolved with machine learning and deep learning approaches that leveraged textual and structured alternative data to capture complex relationships. Second, we review key methods of incorporating LLMs in financial prediction tasks, particularly for encoding alternative knowledge, handling temporal and multimodal data, and providing human-readable explanations through techniques like Retrieval-Augmented Generation (RAG). We analyze common challenges, such as LLMs’hallucination and latency issues, especially relevant in high-frequency trading contexts. Finally, we discuss directions for future research, including improving the integration of alternative data in LLMs through techniques like knowledge distillation, advancing explainability, and enhancing data security.
+  PQE Committee
+  Chair of Committee: Prof. Nan TANG
+  Prime Supervisor: Prof. Lei CHEN
+  Co-Supervisor: Prof. Jing TANG
+  Examiner: Prof. Zixin ZHONG
+  Date
+  27 November 2024
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E3-105

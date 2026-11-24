@@ -1,0 +1,66 @@
+dsa_page: 2022 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/05/2022-cohort/
+source: DSA
+
+headings:
+
+text: >
+  Alumni
+  2022 Cohort
+  Day: September 5, 2024
+  Browse: 646
+  Share to
+  CHAN, Hiu Lam Jade
+  MPhil(DSA)
+  DENG, Mengyi
+  MPhil(DSA)
+  DU, Dayou
+  MPhil(DSA)
+  FANG, Xiao
+  MPhil(DSA)
+  GONG, Hanyu
+  MPhil(DSA)
+  GONG, Mingze
+  MPhil(DSA)
+  HUA, Fengrui
+  MPhil(DSA)
+  HUANG, Chang
+  MPhil(DSA)
+  KOU, Zhizhuo
+  MPhil(DSA)
+  LI, Jiawei
+  MPhil(DSA)
+  LI, Xiang
+  MPhil(DSA)
+  LIN, Zeteng
+  MPhil(DSA)
+  LU, Xiaohan
+  MPhil(DSA)
+  QU, Huaren
+  MPhil(DSA)
+  SONG, Cheng
+  MPhil(DSA)
+  WAN, Lei
+  MPhil(DSA)
+  WANG, Shuzheng
+  MPhil(DSA)
+  XU, Haotian
+  MPhil(DSA)
+  YANG, Siyuan
+  MPhil(DSA)
+  YUAN, Tong
+  MPhil(DSA)
+  ZHANG, Wenqin
+  MPhil(DSA)
+  ZHENG, Chenghong
+  MPhil(DSA)
+  ZHU, Yanying
+  MPhil(DSA)
+  YANG, Jian
+  MPhil(DSA)
+  CHEN, Nuo
+  PhD(DSA)
+  HAN, Xu
+  PhD(DSA)
+  ZHOU, Peilin
+  PhD(DSA)

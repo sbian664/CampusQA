@@ -1,0 +1,56 @@
+dsa_page: Task-Oriented Learning from Positive-Unlabeled Data: Addressing Imbalance, Bias, and Uncertainty – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/30/task-oriented-learning-from-positive-unlabeled-data-addressing-imbalance-bias-and-uncertainty/
+source: DSA
+
+headings:
+  - Task-Oriented Learning from Positive-Unlabeled Data: Addressing Imbalance, Bias, and Uncertainty
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Task-Oriented Learning from Positive-Unlabeled Data: Addressing Imbalance, Bias, and Uncertainty
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Kexin SHI
+  ABSTRACT
+  This thesis explores the complexities of learning from Positive-Unlabeled (PU) data, where only positive instances are labeled, and the remainder are unlabeled. PU learning faces unique challenges due to domain-specific imbalances, biases, and uncertainties. Despite progress in PU learning, general-purpose methods often fall short in real-world applications due to their limited adaptability to task-specific objectives. This research emphasizes the need for strategies that effectively manage diverse data characteristics, such as varying degrees of class imbalance and bias, to develop data-driven solutions. To address these issues, this thesis proposes three novel frameworks, each specifically designed to enhance PU learning under distinct task settings.
+  In the domain of bioinformatics, PractiCPP is developed to predict cell-penetrating peptides (CPPs)—a task marked by an extreme scarcity of experimentally validated positive samples and a large pool of unlabeled candidates. Recognizing the inadequacy of conventional balanced binary classifiers, PractiCPP constructs PU datasets from scratch and applies hard negative sampling to iteratively extract informative examples from the unlabeled pool for model training. Combined with advanced feature extraction techniques, this tailored strategy significantly enhances predictive precision and facilitates the discovery of novel CPPs.
+  In implicit collaborative filtering, PU data is characterized by exposure bias: observed positive interactions reflect only what users have been exposed to, while the unlabeled pool likely contains many unobserved yet relevant items—i.e., potential positives. However, traditional methods often treat all unlabeled interactions as negatives, introducing bias into the learning process. To address this, Hard-BPR refines Bayesian Personalized Ranking by incorporating uncertainty into preference estimation, enabling the model to differentiate between true negatives and latent positives. This leads to more accurate and robust recommendations that better capture users’hidden interests.
+  Further, in dynamic and interactive sequential recommendation settings, the limitations of such PU data are further amplified: user preferences shift over time, yet the available positive samples are both biased and temporally outdated, failing to capture evolving interests. To address this, BRAVE is proposed as a model-based offline reinforcement learning framework that embraces the uncertainty inherent in PU data to drive exploration. This exploration-driven strategy alleviates filter bubbles, promotes recommendation diversity, and enhances long-term user satisfaction and engagement.
+  TEC
+  Chairperson: Prof Dirk KUTSCHER
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Xinzhou GUO
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Lei LI
+  Prof Zecheng GAN
+  Prof Yaping WANG
+  Date
+  29 May 2025
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 997 9627 3840
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/99796273840?pwd=jb2PLR1ur4TKywQ1ECxvaJJENxgYM2.1

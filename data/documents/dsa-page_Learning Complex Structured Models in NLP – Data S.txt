@@ -1,0 +1,39 @@
+dsa_page: Learning Complex Structured Models in NLP – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/03/01/learning-complex-structured-models-in-nlp-2/
+source: DSA
+
+headings:
+  - Learning Complex Structured Models in NLP
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Learning Complex Structured Models in NLP
+  Share to
+  ABSTRACT
+  Researchers are increasingly applying deep representation learning to these problems, but the structured component of these approaches is usually quite simplistic. In many applications, we could predict each sub-component of the structured output independently given the inputs. However, this may have substantially lower accuracy than an approach that models the interactions between the structured outputs. Due to the exponentially-large space of candidate outputs, it is computational challenging to jointly predict all components of the structured outputs. I work on how to model complex structured outputs and faster approximate inference for structured tasks. In my work, we use a neural network trained to approximate structured argmax inference with respect to energy functions. This network outputs continuous values that we treat as the output structure. In our method, the time complexity for the inference is linear with the label set size. “Inference networks” achieves a better speed/accuracy/search error trade-off than gradient descent, while also being faster than exact inference at similar accuracy levels. I have worked on several NLP tasks, including multi-label classification, part-of-speech tagging, named entity recognition, story generation, and non-autoregressive machine translation. The methods can be applied to a larger set of applications, especially more text-based generation tasks.
+  SPEAKER BIO
+  Lifu TU
+  Research Scientist
+  Salesforce AI Research
+  Lifu Tu is now a research scientist at Salesforce AI Research. He obtained his Ph.D. student at TTI-Chicago, a philanthropically endowed academic computer science institute located on the University of Chicago campus. His research interest is on deep learning approaches for natural language processing, especially with a particular interest in structured approaches to text generation. He also has done some work on model robustness and representation learning.
+  Date
+  03 March 2023
+  Time
+  10:30:00 -
+  11:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  961 6054 3607
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

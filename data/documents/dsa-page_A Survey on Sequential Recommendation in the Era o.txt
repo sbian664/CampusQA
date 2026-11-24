@@ -1,0 +1,48 @@
+dsa_page: A Survey on Sequential Recommendation in the Era of Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-sequential-recommendation-in-the-era-of-large-language-models/
+source: DSA
+
+headings:
+  - A Survey on Sequential Recommendation in the Era of Large Language Models
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Sequential Recommendation in the Era of Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Peilin ZHOU
+  Abstract
+  Sequential recommendation systems aim to predict the next item a user will interact with based on their historical interaction sequence. Traditional models, including recurrent neural networks (RNNs) and attention mechanisms, often fail to fully capture the complex semantic information inherent in user behavior sequences. The emergence of large language models (LLMs) such as GPT-3.5 and GPT-4 has introduced transformative capabilities to this domain, leveraging vast pre-trained knowledge and superior contextual understanding. These models enhance sequential recommendation systems in multiple ways: serving as
+  feature extractors
+  to provide rich semantic embeddings, acting as
+  data augmentors
+  to generate synthetic user behavior data, and functioning as direct
+  sequential recommenders
+  capable of understanding and generating interaction sequences. This survey comprehensively reviews the integration of LLMs into sequential recommendation, exploring their applications, methodologies, and the current state of research. Additionally, it addresses the challenges and outlines potential future research directions in this rapidly evolving field. By synthesizing recent advancements and identifying existing gaps, this survey aims to provide a foundational roadmap for future investigations into LLM-empowered sequential recommendation systems.
+  PQE Committee
+  Chairperson: Prof. Xiaowen CHU
+  Prime Supervisor: Prof Sung Hun KIM
+  Co-Supervisor: Prof Raymond WONG
+  Examiner: Prof Wei ZENG
+  Date
+  04 June 2024
+  Time
+  11:10:00 -
+  12:25:00
+  Location
+  E1-150
+  Join Link
+  Zoom Meeting ID:
+  886 6058 7134
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/88660587134?pwd=80caINV3Tof9UdCASPUkkEzovc1wxY.1

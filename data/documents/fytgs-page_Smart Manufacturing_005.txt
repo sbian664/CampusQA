@@ -1,0 +1,274 @@
+fytgs_page: Smart Manufacturing
+url: https://fytgs.hkust-gz.edu.cn/programs/smart-manufacturing-3
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Smart Manufacturing
+
+text: >
+  Postgraduate Programs 2024/25
+  Master of Philosophy and Doctor of Philosophy Programs in Smart Manufacturing
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Smart Manufacturing
+  Doctor of Philosophy in Smart Manufacturing
+  Program Short Name
+  MPhil(SMMG)
+  PhD(SMMG)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Smart Manufacturing Thrust Area
+  Systems Hub
+  Program Advisor
+  Program Director:
+  Prof Ajay JONEJA, Professor of Industrial Engineering and Decision Analytics, and Integrative Systems and Design
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  Enquiry
+  smmg@hkust-gz.edu.cn
+  INTRODUCTION
+  Smart Manufacturing refers to fully-integrated and collaborative manufacturing systems that respond in real time to meet changing demands and conditions in a smart factory, a supply network, and/or customer needs. It is about the use of real-time data and cutting-edge technologies to support factories to make effective and accurate engineering decisions and create highly differentiated, cost-effective and competitive products that match the market needs.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Smart Manufacturing aim to provide students with a detailed understanding of each level of manufacturing process, combining skills in mathematics, science and business to prepare them in developing innovative ways of systems design and product production. The program design focuses on providing fundamental knowledge as well as hands-on training in the curriculum. Students graduated from the program will be versatile and well-equipped to derive valuable insights and make sound decisions in manufacturing. The programs will also offer new pedagogical training to prepare research students with specialized and transferrable skills to cope with new manufacturing engineering settings.
+  A graduate of the MPhil Program should be able to demonstrate a good mastery of knowledge in process engineering, system design and management aspects of manufacturing; establish competitive advantages for the company; and formulate strategies to meet new challenges in manufacturing.
+  A graduate of the PhD Program should be capable of conducting high-quality original research, creating new knowledge, showing valuable insights and making significant contribution to academia and the field of manufacturing.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Model a manufacturing system in order to create a formal process for characterizing manufacturing performance;
+  Demonstrate a broad based knowledge and process capability of various smart manufacturing technologies and production processes;
+  Demonstrate critical thinking and analytical skills and apply them to manufacturing engineering;
+  Conduct original research in areas of manufacturing and systems engineering and provide scientific contribution to the discipline;
+  Translate and transform fundamental research insights effectively into practical applications in industry; and
+  Apply cross-disciplinary knowledge and skills in data analytics, real-time sensing, and optimal planning to improve manufacturing process capabilities.
+  On successful completion of the PhD program, graduates will be able to:
+  Model a manufacturing system in order to create a formal process for characterizing manufacturing performance;
+  Demonstrate a broad based knowledge and process capability of various smart manufacturing technologies and production processes;
+  Find optimal solutions to models of manufacturing systems in specific disciplinary contexts;
+  Demonstrate critical thinking and analytical skills and apply them to manufacturing engineering;
+  Conduct high-quality original research independently in areas of manufacturing and systems engineering and provide substantial scientific contribution to the discipline;
+  Translate and transform fundamental research insights effectively in academic fields and industry; and
+  Apply cross-disciplinary knowledge and skills in data analytics, real-time sensing, and optimal planning to improve manufacturing process capabilities.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Systems Hub and at least one Hub core course (2 credits) from other Hubs.
+  Systems Hub Core Course
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  SMMG 5100
+  Microelectromechanical Systems (MEMS) Fabrication Technology
+  3 Credit(s)
+  Description
+  This course covers the foundations of today’s microfabrication technologies. Topics include lithography, etching, surface micromachining technology, bulk micromachining, microsystem integration, device design, and mask layout. Special topics of the examples of MEMS applications will also be discussed.
+  SMMG 5200
+  Global Manufacturing
+  3 Credit(s)
+  Description
+  Topics include globalization and manufacturing paradigms, product-process-business integration, product invention strategy, customized, personalized and reconfigurable products, mass production and lean production, mathematical analysis of mass customization, traditional manufacturing systems, reconfigurable manufacturing systems, reconfigurable machines, system configuration analysis, responsive business models, enterprise globalization strategies, and the global integrated enterprise.
+  SMMG 5300
+  Nanotechnology: Fundamentals and Applications
+  3 Credit(s)
+  Description
+  This course introduces the basics of nanofabrication and nanocharacterization methods as well as typical applications of nanotechnology in commercial products.
+  SMMG 5400
+  Design for Additive Manufacturing
+  3 Credit(s)
+  Description
+  This course provides knowledge and skills on how to develop, optimize, and implement different design strategies in additive manufacturing (AM). Through hands-on instructional activities and case studies, students will learn to select the appropriate AM technologies for specific design-manufacturing applications; explain challenges in design and manufacturing and provide solutions; identify and utilize proper software tools to analyze and evaluate designs; and design parts that fully leverage the strengths of AM.
+  SMMG 5500
+  Additive Manufacturing Fundamentals
+  3 Credit(s)
+  Description
+  This course aims to introduce the fundamentals of various additive manufacturing techniques, including fused deposition modeling (FDM), two-photon lithography, stereolithography (SLA), etc. The additive manufacturing process (FDM or SLA as an example) will be illustrated by actual model design, system setup and fabrication of parts.
+  SMMG 5600
+  Fundamental Theories and Algorithms of CAD/CAM
+  3 Credit(s)
+  Description
+  This course covers topics such as curves and surfaces, geometric modeling basics, data structures in CAD/CAM, optimization, multi-axis path planning in NC machining and additive manufacturing, and projects. In addition to lectures, a 3-hour lab in SolidWorks and MATLAB programming will be offered.
+  SMMG 5700
+  Fundamentals in Metal Processing
+  3 Credit(s)
+  Description
+  This course introduces a wide range of manufacturing processes for metal materials, including machining, casting, 3D printing, and heat treatment; and explains the fundamental and practical aspects of manufacturing at scale. For each process, this course explains the underlying physical principles, provides several examples and demonstrations. The course concludes with a perspective on sustainability and the worldwide trajectory of metal manufacturing.
+  SMMG 5800
+  Industrial Automation and Analytics
+  3 Credit(s)
+  Description
+  Industrial automation and analytics embrace a wide range of subject matters and draws from several quite distinct disciplines. This course introduces basic concepts and applications that are useful for understanding the insight of industrial automation and analytics, such as the impact on advanced manufacturing. The main focuses include basic programming for robotics, applications of programmable logic control, sensor technology and its application in complex systems, and advanced analytics for manufacturing. The data analytics will cover some basic machine learning modeling, such as predictive modeling, forecasting, neural network, segmentation, and anomaly detection, as well as their applications in process monitoring and control for advanced manufacturing processes (additive manufacturing).
+  SMMG 5900
+  Advanced Metal Additive Manufacturing
+  3 Credit(s)
+  Description
+  This course provides students with the latest knowledge and skills for metal additive manufacturing (AM) techniques and implications, as well as the fundamental understanding of process-structure-property relationships in material processing using AM.
+  SMMG 6000
+  Special Topics in Smart Manufacturing
+  3 Credit(s)
+  Description
+  Selected topics in smart manufacturing of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  SYSH 6780
+  Career Development for Systems Hub Research Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research students with the skills conducive to their professional career development. Students will attend the training focusing on personality self-exploration and program-specific training at the Thrust level, and another training at the Hub level. Graded PP, P or F.
+  Students are required to complete SYSH 6780. The 1 credit earned from SYSH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed SYSH 6780 or other equivalent professional development courses offered by the University before may be exempted from taking SYSH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  SMMG 6800
+  Seminar in Smart Manufacturing
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass SMMG 6800 at least twice, and present at least one seminar during their study, in addition to the oral defense of their MPhil thesis. Part-time students must take and pass SMMG 6800 at least once, and present at least one seminar during their study, counting the oral defense of their MPhil thesis.
+  PhD:
+  Full-time students must take and pass SMMG 6800 at least four times, and present at least two seminars during their study, in addition to the oral defense of their PhD thesis. Part-time students and students entering with an HKUST MPhil degree must take and pass SMMG 6800 at least twice, and present at least one seminar during their study, counting the oral defense of their PhD thesis.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  SMMG 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  SMMG 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in SMMG 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in SMMG 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

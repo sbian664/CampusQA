@@ -1,0 +1,47 @@
+fytgs_page: Fees for Accommodation
+url: https://fytgs.hkust-gz.edu.cn/uncategorized/fees-for-on-campus-accommodation
+source: FYTGS
+
+headings:
+
+text: >
+  All rates below apply to both local (including Hong Kong; Macau; Taiwan and overseas Chinese) and international students.
+  Postgraduate Students
+  Items
+  Rates (RMB Yuan)
+  8 rooms apartment,
+  including ADA 7 rooms apartment
+  · CNY 6,960/year per room
+  · CNY 580/month per room
+  6 rooms apartment
+  · CNY 7,560/year per room
+  · CNY 630/month per room
+  Studio,
+  including ADA studio
+  · CNY 10,200/year per studio
+  · CNY 850/month per studio
+  1 room suite,
+  including ADA suite
+  · CNY 13,200/year per suite
+  · CNY 1,100/month per suite
+  Visiting Students
+  Items
+  Rates (RMB Yuan)
+  8 rooms apartment,
+  including ADA 7 rooms apartment
+  · CNY 580/ month per room
+  6 rooms apartment
+  · CNY 630/month per room
+  You may liaise with our Student Quarter Working Team (GZ) at
+  studentquarter@hkust-gz.edu.cn
+  on your special request regarding the housing.
+
+tables:
+  - Items | Rates (RMB Yuan)
+  - 8 rooms apartment, including ADA 7 rooms apartment | · CNY 6,960/year per room · CNY 580/month per room
+  - 6 rooms apartment | · CNY 7,560/year per room · CNY 630/month per room
+  - Studio, including ADA studio | · CNY 10,200/year per studio · CNY 850/month per studio
+  - 1 room suite, including ADA suite | · CNY 13,200/year per suite · CNY 1,100/month per suite
+  - Items | Rates (RMB Yuan)
+  - 8 rooms apartment, including ADA 7 rooms apartment | · CNY 580/ month per room
+  - 6 rooms apartment | · CNY 630/month per room

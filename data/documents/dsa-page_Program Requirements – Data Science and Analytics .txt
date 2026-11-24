@@ -1,0 +1,21 @@
+dsa_page: Program Requirements – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/curriculum-requirements/
+source: DSA
+
+headings:
+  - For students admitted in 2025-26
+  - For students admitted in 2024-25
+  - For students admitted in 2023-24
+
+text: >
+  For students admitted in 2025-26
+  November 6, 2025
+  For students admitted in 2024-25
+  November 6, 2025
+  For students admitted in 2023-24
+  November 6, 2025
+
+links:
+  - https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/BSc-in-DSBD-2025-cohort-and-onwards.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/BSc-in-DSBD-2025-cohort-and-onwards.pdf
+  - https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Appendix-7-–-program-change-proposal-for-BSc-in-DSBD-2024-cohort-and-onwards.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Appendix-7-–-program-change-proposal-for-BSc-in-DSBD-2024-cohort-and-onwards.pdf
+  - https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Curriculum-Requirements-2023-24-Intake.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Curriculum-Requirements-2023-24-Intake.pdf

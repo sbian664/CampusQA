@@ -1,0 +1,33 @@
+dsa_page: Trustworthy Online Learning for Networked Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/10/21/trustworthy-online-learning-for-networked-systems/
+source: DSA
+
+headings:
+  - Trustworthy Online Learning for Networked Systems
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Trustworthy Online Learning for Networked Systems
+  Share to
+  ABSTRACT
+  In the age of ubiquitous connectivity, networked systems, from data networks to edge/mobile/cloud computing, have reached unprecedented complexity and scale. Traditional methods for network control and resource allocation, often based on static models, struggle with the dynamic nature of modern networks. Machine learning, with its ability to refine models over time, emerges as a transformative solution. In this talk, I will introduce my research on developing efficient, scalable, and trustworthy online learning algorithms for learning-enabled networked systems, focusing on two critical challenges, scalability and trustworthiness. For scalability, as the size and complexity of networked systems increase, the learning efficiency tends to decrease significantly. I will introduce my combinatorial online learning approaches with theoretical guarantees, demonstrating their effectiveness in real-world systems like wireless and social networks. For trustworthiness, I will delve into the unreliable behavior of devices in networked systems, showcasing my findings on the vulnerabilities of existing multi-agent online learning algorithms. Finally, I will discuss how trustworthy online learning can reshape network intelligence, driving more adaptive, resilient, and secure systems.
+  SPEAKER BIO
+  Jinhang Zuo is an Assistant Professor in the Department of Computer Science at City University of Hong Kong. He was a joint postdoc at University of Massachusetts Amherst and California Institute of Technology. He received his Ph.D. from Carnegie Mellon University in 2022. His main research interests include online learning, networked systems, and resource allocation. He was a recipient of the CDS Postdoctoral Fellowship from UMass Amherst, ACM SIGMETRICS 2022 Best Poster Award, and Carnegie Institute of Technology Dean’s Fellowship. His papers have been published in machine learning and networking venues, including NeurIPS, ICML, AISTATS, AAAI, INFOCOM, MobiHoc, SIGMETRICS, and JSAC.
+  Date
+  23 October 2024
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

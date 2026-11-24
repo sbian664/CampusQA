@@ -1,0 +1,354 @@
+fytgs_page: Advanced Materials
+url: https://fytgs.hkust-gz.edu.cn/programs/advanced-materials-4
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Advanced Materials
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Advanced Materials
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Advanced Materials
+  Doctor of Philosophy in Advanced Materials
+  Program Short Name
+  MPhil(AMAT)
+  PhD(AMAT)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Advanced Materials Thrust Area
+  Function Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Yang HUANG, Assistant Professor of Advanced Materials
+  Website
+  https://amat.hkust-gz.edu.cn/
+  Enquiry
+  amat@hkust-gz.edu.cn
+  INTRODUCTION
+  Advanced Materials are concerned with the structure and properties of materials which are enablers for technological innovation in biomedical devices, new energy, sustainable environment and new transportation. New materials developments have led to recent breakthroughs in “meta materials”, nanotechnology and biomimetics, etc.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Advanced Materials aim to provide rigorous training in both fundamental investigation of mesoscopic and atomic-scale mechanisms and related novel nanostructures, as well as engineering our original research results in various areas such as biomedicals, functional polymers, and smart meta-materials. New pedagogical training will be provided so that research students can acquire specialized and transferrable skills in new materials engineering that serve the related industries.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Identify scientific and engineering significances in new materials design/discovery;
+  Engage critical thinking skills that are essential for materials science and engineering;
+  Apply a range of qualitative and quantitative research methods for conducting basic or applied research in materials discovery; and
+  Demonstrate effective communication skills in reporting research findings.
+  On successful completion of the PhD program, graduates will be able to:
+  Identify scientific and engineering significances in new materials design/discovery and new processes particularly structure property relationships;
+  Engage critical thinking skills that are essential for materials science and engineering;
+  Apply a range of qualitative and quantitative research methods for conducting original research in materials discovery and innovation; and
+  Demonstrate independent and critical communication skills in reporting scientific findings.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Function Hub and at least one Hub core course (2 credits) from other Hubs.
+  Function Hub Core Course
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  Other Hub Core Courses
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  FUNH 5100
+  Introduction to Materials Informatics
+  3 Credit(s)
+  Description
+  Materials informatics integrates materials science and engineering with artificial intelligence (AI), machine learning (ML), and database to accelerate the innovation in the whole materials development continuum and to speed up the process from data to material knowledge. This course will introduce essential and fundamental AI
+  and ML knowledge and algorithms through vivid and practical examples from materials science and engineering.Notably, this course is designed for students whose majors are not in mathematics or computer science but other broader fields, such as materials science and engineering, mechanics science and engineering, physics, and chemistry. This course will empower those with limited knowledge of statistics, probability, and optimization to learn Materials Informatics without difficulty.
+  AMAT 5200
+  Machine Learning for Materials Science
+  3 Credit(s)
+  Description
+  This course aims to provide students training with a convergence of the two disciplines of Materials Science and Machine Learning (ML). We will start from machine learning basics, its mathematical foundations, then move on to modern machine learning methods for materials science problems and hands-on study with Python. Particularly, students will learn about how to combine the data-driven ML techniques with existing knowledge of materials science to give reliable physical predictions. Various case studies will be discussed, with real-world materials science applications.
+  AMAT 5215
+  Mathematical Models for Interdisciplinary Sciences
+  3 Credit(s)
+  Description
+  Abstracting the essential components and mechanisms from a natural system to create a mathematical model, capable of being analyzed using various formal mathematical methods, is arguably the most crucial yet least comprehended task in applied mathematics. This course tackles a range of problems without any preconceived notions of applying a specific solution method. The topics will cover areas from materials and physical sciences, biology, economics, engineering, and social sciences.
+  AMAT 5230
+  Introduction to Metamaterials and Metasurfaces
+  3 Credit(s)
+  Description
+  This course will provide practial knowledge on metamaterials and metasurfaces to graduate students. We will start from the physics of acoustic and electromagnetic waves, and then we will discuss conventional materials. From the discussion, we will understand the limits of conventional materials due to the weak wave-matter interactions. Then, we will discuss how we can customize the wave-matter interactions and bypass natural limits through various metamaterials and metasurfaces. In particular, students will learn how to design interesting metamaterial and metasurface devices, such as "invisable" cloaks, negative-refraction metalens, and absorbing “black holes”, especially with the finite element method.
+  AMAT 5250
+  Mathematical Methods for Materials Science and Engineering
+  3 Credit(s)
+  Description
+  This course will focus on mathematical methods, with specific concern about construction, analysis, and interpretation of mathematical models that shed light on significant problems in materials science and engineering. There are many courses that present collection of math techniques, but this course will be different: typically, we will use a “case-study” approach, i.e., select a series of important scientific problems, whose solution will involve some useful mathematics. We will start with the scientific background, then formulate relevant mathematical problem with care. The formulation step is usually more challenging than just learning the mathematics. Through the case studies, useful math techniques will be introduced naturally. Some typical case studies include: collective motions and aggregations, heat conduction and elasticity of materials, charge transport, plasmonic effects and bio-chemical kinetics, etc.
+  AMAT 5315
+  Modern Scientific Computing
+  3 Credit(s)
+  Description
+  This is an introductory course about computational methods for physical systems such as quantum physics, spin glass et al. It requires knowledge about linear algebra and familiarity of any programming language. The course covers not only computational methods related to matrix/tensor computation, differential programming, and combinatorial optimization, but also techniques related to CUDA programming and the Julia programming language.
+  AMAT 5330
+  Finite Element Modeling and Wave-matter Interactions
+  3 Credit(s)
+  Description
+  This course will provide practical knowledge about finite element modeling and various wave-matter interactions to postgraduate students. We will start from the basic aspects of finite element modeling, then we will discuss how to use finite element modeling to treat various wave-matter interactions. From the discussion, we will understand the limits of using natural conventional materials to control waves. Then, we will discuss how we can customize the wave-matter interactions and bypass natural limits through metamaterials, with the help of finite element modeling. In particular, students will learn about how to analyze and replicate various interesting metamaterial devices in recent published works, such as metalens, “black holes”, and topological metamaterials, with finite element modeling. Finally, students will also have the opportunities to design their own metamaterial devices under guidance.
+  AMAT 5430
+  Introduction to Photonic Crystals and Modeling
+  3 Credit(s)
+  Description
+  This course provides an introduction to the fascinating field of photonic crystals, which are artificial structures that manipulate and control the flow of light. Students will learn about the fundamental principles of photonic crystals, and also their design, fabrication, and characterization. The course will cover the theoretical and experimental aspects of photonic crystals, as well as their practical applications in various industries. Topics to be covered include the electromagnetic theory of periodic structures, band structure and photonic band gaps, optical properties of photonic crystals, fabrication techniques, and the latest advancements in the field. Students will also have the opportunity to explore case studies and practical design of photonic crystals. By the end of the course, students will have a solid understanding of the principles and applications of photonic crystals, and will be equipped with the knowledge to pursue further studies or careers in this exciting and rapidly evolving field.
+  AMAT 5500
+  Advanced Optics
+  3 Credit(s)
+  Description
+  Optics as one of the key branches of physics, plays an essential role in our daily life. In this course, we will present comprehensive aspects of modern optics, covering geometrical optics, wave optics, crystal optics, quantum optics and metasurfaces optics. We will highlight novel optical applications in quantum information science, atomic and molecule physics, precision metrology and materials sciences.
+  AMAT 5520
+  Introduction to Atomic Physics
+  3 Credit(s)
+  Description
+  Atomic physics provides a foundation for understanding the fundamental nature of matter and the physical processes that govern our world. This course will introduce a broad range of topics in atomic physics, including atomic structures, atomic spectra, laser cooling and trapping, atomic collisions and applications of atomic physics in other fields, such as quantum metrology, quantum simulation and quantum information.
+  AMAT 5540
+  Introduction to Low-Dimensional Materials
+  3 Credit(s)
+  Description
+  This course emphasizes the critical role of nanotechnology in the modern technology, focusing on the distinctive properties of low-dimensional nanomaterials and nanostructures across one to three dimensions. It encompasses their classification, fabrication methods, and varied applications in photonics, sensors, catalysis, energy storage, etc. By offering a comprehensive overview, the course will help students to conduct research in nanotechnology.
+  AMAT 5560
+  Modern Optical Spectroscopy and Microscopy
+  3 Credit(s)
+  Description
+  This course presents a survey of experimental and theoretical methods of optical spectroscopy and microscopy, as used in modern materials research. The course topics include classical and quantum descriptions of the interaction of radiation and matter, experimental methods of optical spectroscopy and microscopy. Qualitative and quantitative aspects of the subject are illustrated with examples, including application of linear and nonlinear spectroscopies and microscopies to the study of molecular dynamics and solid-state physics.
+  AMAT 5600
+  Solid State Physics and Quantum Materials
+  3 Credit(s)
+  Description
+  This is an introductory course for postgraduate students with materials science background. Basic topics of solid state physics including electronic band structure, phonons, electron interactions and spin correlations will be covered. In addition, modern topics of high temperature superconductors, topological electrons, spin liquids and low dimensional systems will be introduced, providing a beginner’s guide to quantum materials.
+  AMAT 5660
+  Modern Spectroscopic Methods for Condensed Matter Physics
+  3 Credit(s)
+  Description
+  This is an introductory course for postgraduate students with materials science background. The development of advanced spectroscopy techniques for materials physics and condensed matter physics research will be introduced. This course will cover four major topics: X-ray spectrscopy, neutron and electron scattering, photoemission spectroscopy and scanning probe spectroscopy. The fundamental physics of each technique together with the research frontier will be introduced. This course will serve as a beginner’s guide for modern spectroscopic methods.
+  AMAT 5677
+  Surfaces and Interfaces of Materials
+  3 Credit(s)
+  Description
+  Surfaces and Interfaces not only determine the properties of many systems but also provide opportunities to create new structured materials for advanced applications. This course is designed for students to understand the origin of interfacial phenomena (e.g., wetting, spreading, emulsification, capillary action, electric double layer, and heterojunction) and their impact on material structure and properties.
+  AMAT 5678
+  Structure-property Relationship of Advanced Polymer Materials
+  3 Credit(s)
+  Description
+  This course is designed for understanding the correlation between molecular structure, chain conformation, condensed structure, physical properties, and mixing thermodynamics. The knowledge learned in the course will equip students with the rationale to design polymer materials for various applications with advanced mechanical, optical, thermal, electrical, and/or magnetic properties.
+  AMAT 5700
+  High-throughput Experimental Processing for New Materials Development
+  4 Credit(s)
+  Description
+  High-throughput experimental methods together with material-based modelling will be introduced for the accelerated discovery of new materials. We will use case studies ranging from polymer synthesis, polymer fabrication to illustrate how the properties such as optical, electronic, mechanical, thermal and others are related to the structures of the materials for use in energy, transportation and biotechnology.
+  The students can then appreciate the high-throughput experimental methods to real-world materials discovery and characterization problems.
+  AMAT 5750
+  Statistical Thermodynamics of Chain Molecules
+  4 Credit(s)
+  Description
+  This course will introduce the statistical models to describe the equilibrium and dynamics of polymer chains in equilibrium. First, various models of polymer chains in statics (or equilibrium) will be described. Then the statics of polymer chain in solution will be introduced. Finally, the non-equilibrium polymer chain dynamics will be introduced through molecular dynamics simulation of various ensembles.
+  AMAT 5800
+  Characterization and Processing of Functional Materials
+  4 Credit(s)
+  Description
+  This course covers the fundamental concepts that govern the properties of some functional materials which are important to current technologies. It will also cover the experimental tools to characterize these properties. Focus will be on peculiar property of these functional materials, for example, electrical properties of perovskites in terms of piezoelectricity, pyroelectricity and ferroelectricity. Materials formulation and fabrications will be described and limitations of the materials and processing of these functional materials will be highlighted from the perspective of new materials requirement and industry demands.
+  AMAT 5850
+  Molecular Dynamics Simulations for Biomolecules
+  3 Credit(s)
+  Description
+  Molecular dynamics simulation provides the evolution of the system at the atomistic level. As a computational microscope, molecular dynamics simulation has attracted unprecedented attention and rendered a wide range of applications in current scientific and industrial research, particularly for biomolecular systems. This course will introduce an overview of the molecular dynamics simulation, then describe the principles underlying this advanced technique, and discuss its applications in studying the structure and dynamics of biomolecules, such as proteins and nucleic acids.
+  AMAT 5860
+  Introduction to Molecular Biophysics
+  3 Credit(s)
+  Description
+  Biophysics lies at the interface among biology, physics and chemistry. The physical properties of biomolecules are responsible for the molecular characteristics of biological processes. Understanding how these biomolecules operate in life activities demands investigations through multidisciplinary approaches, including determinations of the atomic structures, characterizations of the kinetics and energy, constructions of the theories and models, etc. This course will offer an overview of the biomolecular structures and the physicochemical mechanisms for organizing these structures, then describe the methods for characterizing the structure and dynamics of biomolecules, and discuss the “structure-function” relationship in molecular biology.
+  AMAT 5900
+  Molecular Physics and Optoelectronic Processes
+  3 Credit(s)
+  Description
+  This course will cover the physics of the electronic structure of pi-conjugated materials and their neutral, excited and charged states (excitons, polarons), their optical properties (absorption, emission), photophysical processes, photochemistry, energy transfer and charge transport. It will introduce the principles of design and operation of molecular based light emitting devices, solar cells etc. as well as providing an introduction to device fabrication and device engineering for maximum performance and lifetime.
+  AMAT 5910
+  Compound Semiconductor Materials Technology
+  3 Credit(s)
+  Description
+  Compound semiconductor materials have been deeply integrated in various gadgets nowadays, shaping the new world in an unimaginable way. Understanding compound semiconductor materials is critical as one of the first steps towards understanding how the advanced technology evolves continuously, from the past to the future. This course aims to introduce an overview of compound semiconductor materials, linking the fundamental physics, materials and devices to the point where the students can specialize and assist them in their supervised research. The course contains fundamentals of semiconductor physics and semiconductor
+  specifics including technologically relevant materials and their properties, doping and defects and heterostructures. General and detailed discussions on linking materials and devices for applications will be covered at the later stage in the course.
+  AMAT 5950
+  The Physics of Photon Energy Conversion
+  3 Credit(s)
+  Description
+  Photon energy conversion is a key research area of renewable energy which produces electricity and chemical fuel from the sunlight or artificial light and photo sensing. However, this research area presents major material challenges, both in terms of electronic kinetics and thermodynamics. This course will introduce the major research area of photon energy conversion applications: photovoltaic, photochemical fuels and photodetectors; then introduce the operation of solar cells, solar fuels and photodetectors, and their underlying mechanisms in terms of device physics, photophysics and related quantum physics.
+  AMAT 5996
+  Modern Quantum Mechanics
+  3 Credit(s)
+  Description
+  Quantum mechanics is considered the most fundamental theory for understanding our world. It has been used in many areas, including the prediction of material properties, the establishment of quantum computing devices, and the prediction of phase transitions. This course introduces quantum mechanics with modern language, which covers Chapters 1-5, 7 of J.J. Sakurai's famous book "Modern Quantum Mechanics": fundamental concepts, quantum dynamics, theory of angular momentum, symmetry in quantum mechanics, and approximation methods and identical particles.
+  AMAT 6900
+  Independent Study
+  1-3 Credit(s)
+  Description
+  An independent study on selected topics carried out under the supervision of a faculty member.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  FUNH 6770
+  Professional Development for Function Hub
+  1 Credit(s)
+  Description
+  This course aims at providing research postgraduate students basic training in scientific ethics in research studies in advanced materials, sustainable energy and environment, earth, ocean and atmospheric sciences and microelectronics, research management, professional career development, and related professional skills. Guest speakers from various professional areas will be invited to share their career paths in professional career developments. Students will have chances to connect to talents in various professional areas. Graded PP, P or F.
+  Students are required to complete FUNH 6770. The 1 credit earned from
+  FUNH 6770
+  cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed
+  FUNH 6770
+  or other similar professional development courses offered by the University before may be exempted from taking
+  FUNH 6770
+  , subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  FUNH 6800
+  Function Hub Seminar
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass FUNH 6800 in at least two terms.
+  PhD:
+  Full-time students must take and pass FUNH 6800 in at least four terms.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  AMAT 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  AMAT 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in AMAT 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in AMAT 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://amat.hkust-gz.edu.cn/ | https://amat.hkust-gz.edu.cn/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

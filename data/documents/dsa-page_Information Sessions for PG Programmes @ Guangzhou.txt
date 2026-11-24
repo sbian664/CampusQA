@@ -1,0 +1,43 @@
+dsa_page: Information Sessions for PG Programmes @ Guangzhou City – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/25/information-sessions-for-pg-programmes-guangzhou-city/
+source: DSA
+
+headings:
+  - Information Sessions for PG Programmes @ Guangzhou City
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Guangzhou City
+  Share to
+  Date
+  25 May 2024
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  广州大学城广州华工大学城中心酒店南华厅
+  Event Organizer
+  HKUST Fok Ying Tung Graduate School (Guangzhou)
+  Email
+  pgadmitgz@hkust-gz.edu.cn
+  Program
+  MPhil Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG Students - Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487820&idx=1&sn=0339a3eac1e5a6e963a74b021b7fa2f1&chksm=c1d772aff6a0fbb94b9647bb99db54eddf74d65a19402ba482e73eebf75e9f59b33c49c27fd3&token=1405682611&lang=en_US
+  - REGISTER | https://www.wjx.top/vm/e4Rhv1h.aspx

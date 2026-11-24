@@ -1,0 +1,40 @@
+dsa_page: Managing and Exploring GPS Trajectories – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/24/managing-and-exploring-gps-trajectories/
+source: DSA
+
+headings:
+  - Managing and Exploring GPS Trajectories
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Managing and Exploring GPS Trajectories
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  The increasing importance of location-based services and the widespread availability of GPS data have led to significant attention being paid to GPS trajectory management and learning in recent years. Trajectory management involves the efficient storage, retrieval, and processing of GPS trajectories, while trajectory learning aims to extract valuable insights and knowledge from these trajectories. In this research talk, we will present our work on GPS trajectory management and learning. Specifically, we propose a comprehensive framework for compressing GPS trajectories. Given that GPS trajectories can be vast in size and may contain redundant information, our framework addresses these issues by reducing the storage and retrieval costs associated with processing large amounts of trajectory data.
+  SPEAKER BIO
+  Baihua ZHENG
+  Professor
+  Singapore Management University
+  Prof. Baihua Zheng received her bachelor degree in computer science and Engineering from Zhejiang University in 1999 and the PhD degree in Computer Science from Hong Kong University of Science & Technology in 2003. She is currently a Professor in the School of Computing and Information Systems, Singapore Management University. Her research interests include mobile/pervasive computing, spatial databases, and big data analytics. Prof. Zheng has published more than 160 research papers in refereed journals and conferences including SIGMOD, VLDB, KDD, SIGIR, AAAI, IJCAI, Ubicomp, ICDE, TODS, TKDE, and VLDBJ.
+  Date
+  26 April 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  395-847-426
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

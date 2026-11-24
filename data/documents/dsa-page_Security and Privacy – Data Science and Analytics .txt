@@ -1,0 +1,61 @@
+dsa_page: Security and Privacy – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/security-and-privacy/
+source: DSA
+
+headings:
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  - Auditing Membership Leakages of Multi-Exit Networks
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  - Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  - Data Poisoning Attacks Against Multimodal Encoders
+  - DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network
+  - Generated Graph Detection
+  - ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+  - Model Stealing Attacks Against Inductive Graph Neural Networks
+  - On the Evolution of (Hateful) Memes by Means of Multimodal Contrastive Learning
+
+text: >
+  Search
+  No data.
+  A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots
+  Xinlei HE
+  Hyperparameter Stealing, t-SNE
+  Auditing Membership Leakages of Multi-Exit Networks
+  Xinlei HE
+  Membership Inference Attack, Multi-Exit Networks
+  Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders
+  Xinlei HE
+  Contrastive Learning, Image Encoder, Model Stealing
+  Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area
+  Fugee TSUNG
+  Data Circulation, Data Privacy, Data Sharing, Data Space, Industrial Operations, Supply Chain
+  Data Poisoning Attacks Against Multimodal Encoders
+  Xinlei HE
+  Multimodal, Poisoning
+  DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network
+  Xinlei HE
+  Dating Apps, Malicious Account Detection, Social Network
+  Generated Graph Detection
+  Xinlei HE
+  AIGC Attribution, AIGC Detection, Generative Graph Neural Networks
+  ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+  Xinlei HE
+  Benchmark, Inference Attack
+  Model Stealing Attacks Against Inductive Graph Neural Networks
+  Xinlei HE
+  Graph Neural Network, Model Stealing Attack
+  On the Evolution of (Hateful) Memes by Means of Multimodal Contrastive Learning
+  Xinlei HE
+  Contrastive Learning, Memes, Multimodal
+
+links:
+  - A Plot is Worth a Thousand Words: Model Information Stealing Attacks via Scientific Plots Xinlei HE Hyperparameter Stealing, t-SNE | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/a-plot-is-worth-a-thousand-words-model-information-stealing-attacks-via-scientific-plots/
+  - Auditing Membership Leakages of Multi-Exit Networks Xinlei HE Membership Inference Attack, Multi-Exit Networks | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/auditing-membership-leakages-of-multi-exit-networks/
+  - Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders Xinlei HE Contrastive Learning, Image Encoder, Model Stealing | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/cant-steal-cont-steal-contrastive-stealing-attacks-against-image-encoders/
+  - Construction of Cross-Border Industrial Data Circulation and Sharing Platform in the Greater Bay Area Fugee TSUNG Data Circulation, Data Privacy, Data Sharing, Data Space, Industrial Operations, Supply Chain | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/construction-of-cross-border-industrial-data-circulation-and-sharing-platform-in-the-greater-bay-area/
+  - Data Poisoning Attacks Against Multimodal Encoders Xinlei HE Multimodal, Poisoning | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/data-poisoning-attacks-against-multimodal-encoders/
+  - DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network Xinlei HE Dating Apps, Malicious Account Detection, Social Network | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/datingsec-detecting-malicious-accounts-in-dating-apps-using-a-content-based-attention-network/
+  - Generated Graph Detection Xinlei HE AIGC Attribution, AIGC Detection, Generative Graph Neural Networks | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/generated-graph-detection/
+  - ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models Xinlei HE Benchmark, Inference Attack | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/ml-doctor-holistic-risk-assessment-of-inference-attacks-against-machine-learning-models/
+  - Model Stealing Attacks Against Inductive Graph Neural Networks Xinlei HE Graph Neural Network, Model Stealing Attack | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/model-stealing-attacks-against-inductive-graph-neural-networks/
+  - On the Evolution of (Hateful) Memes by Means of Multimodal Contrastive Learning Xinlei HE Contrastive Learning, Memes, Multimodal | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/on-the-evolution-of-hateful-memes-by-means-of-multimodal-contrastive-learning/

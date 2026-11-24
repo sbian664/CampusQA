@@ -1,0 +1,42 @@
+dsa_page: Information Sessions for PG Programmes @ Southeast University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/04/information-sessions-for-pg-programmes-southeast-university/
+source: DSA
+
+headings:
+  - Information Sessions for PG Programmes @ Southeast University
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Southeast University
+  Share to
+  Date
+  04 June 2024
+  Time
+  18:30:00 -
+  20:15:00
+  Location
+  东南大学九龙湖校区教一202教室
+  Event Organizer
+  HKUST Fok Ying Tung Graduate School (Guangzhou)
+  Email
+  pgadmitgz@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG Students - Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/TLizQyCOmZm_ienyoY77Lg
+  - REGISTER | https://www.wjx.top/vm/QWctXIQ.aspx

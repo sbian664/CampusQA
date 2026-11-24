@@ -1,0 +1,123 @@
+dsa_page: DSA Research Experiences for Undergraduates (REU) – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/27/dsa-research-experiences-for-undergraduates-reu/
+source: DSA
+
+headings:
+  - 1 . Introduction
+  - 2. Program Overview
+  - 2.1 Program Tracks
+  - 2.2 Eligibility
+  - 3. Faculty Participation
+  - 4. Program Timeline
+  - 5. Resources
+  - 6. Contacts
+  - Supplementary Documents
+  - 🟢 Research Opportunity Available
+  - 🔴 DSA-REU Project Filled
+
+text: >
+  DSA-REU
+  DSA Research Experiences for Undergraduates (REU)
+  Day: February 27, 2025
+  Browse: 7316
+  Share to
+  1
+  .
+  Introduction
+  The Data Science and Analytics (DSA) Thrust at HKUST(GZ) is pleased to introduce the Research Experiences for Undergraduates (REU) Program. This program provides students with practical research experience in data science, machine learning, AI, and analytics.
+  2. Program Overview
+  2.1 Program Tracks
+  The DSA-REU program offers flexible research opportunities for students and faculty. Students can participate in various formats:
+  Full-Year Research Program (8–12 months) allows students to balance research with their academic studies.
+  Summer/Winter Internship (8-10 weeks) is a more intensive short-term opportunity.
+  Custom Research Duration may be set based on faculty needs and student availability.
+  In line with the University's Work-Study Program guidelines, the workload is designed to be flexible and will not interfere with students' studies. Students may work up to 8 hours per week (40 hours per month), with the possibility of additional hours during breaks based on project needs.
+  2.2 Eligibility
+  ✅ Primary Candidates: Priority will be accorded to undergraduate students in their second year or higher.
+  ✅ Sophomore Applicants: All Year 2 students are required to formally declare the BSc in DSBD during the major selection period. Non-compliance will result in the discontinuation of stipend payments.
+  ✅ First-Year Applicants: Year 1 students may only be considered upon submission of a compelling justification that clearly demonstrates both a robust foundational knowledge and a strong academic motivation.
+  ✅ Upper-Level Students: Eligibility for third- and fourth-year students is restricted exclusively to those enrolled in the BSc in DSBD program
+  🎓 Academic Standards: A minimum Cumulative Grade Average (CGA) of 3.0 (or equivalent) is recommended.
+  💻 Technical Proficiency: Competency in programming and data analysis tools such as Python, C/C++, R, SQL, or similar technologies is preferred.
+  3. Faculty Participation
+  Faculty mentors will guide students throughout their research. They will propose research projects, train students in necessary techniques, and supervise their progress. Mentors are responsible for providing feedback, tracking attendance and work hours, and encouraging research dissemination, such as presenting findings at conferences.
+  4.
+  Program Timeline
+  The program follows a flexible schedule based on faculty availability and project needs. The timeline includes several key phases:
+  Phase
+  Description
+  Faculty Mentor Registration
+  Faculty mentors submit research project proposals.
+  Work-Study Position Setup
+  Approved research projects are designated as work-study positions, and the available research assistant positions will be announced to all undergraduate students via email.
+  Research Exposure & Meetings
+  Faculty mentors conduct pre-application research exposure sessions to introduce prospective applicants to the research topics and work environment.
+  Student Applications & Selection
+  Students submit the
+  REU Application Form
+  , along with a CV and academic transcript. Faculty mentors review applications and select students (max. 2 students per project) based on suitability and research interests.
+  Research Agreement
+  Selected students and faculty mentors sign the
+  Research Agreement Form
+  , and submit it to
+  dsbd@hkust-gz.edu.cn
+  . Participation in the DSA-REU will be confirmed via email once endorsed.
+  Monthly Progress Checks and Payment
+  Students provide regular updates on the research progress during monthly meetings with faculty mentors. At the end of each month, students and faculty mentors submit the signed
+  Monthly Attendance Sheet
+  to
+  dsbd@hkust-gz.edu.cn
+  for payment processing.
+  6-Month Symposium
+  Faculty mentors assess and provide feedback on student research progress.
+  Final Report Submission
+  Students submit final research reports for mentor review.
+  Presentation & Publication
+  Students have the opportunity to submit research reports or papers to journals/conferences and compete for DSA research awards. Award recipients will receive travel grants and funding support from the DSA Thrust for international academic conference participation.
+  5. Resources
+  💰
+  Financial Support
+  : Students will be paid through the University’s Work-Study Program. The hourly rate is RMB 25 (pre-tax), and students are paid based on verified work hours.
+  💻
+  Computing & Data Resources
+  : Students will have access to high-performance computing and cloud platforms to support their research.
+  🌐
+  Academic & Industry Insights
+  : Students can attend seminars, workshops, and industry visits for learning and networking opportunities.
+  6. Contacts
+  Email: dsbd@hkust-gz.edu.cn
+  Supplementary Documents
+  1.
+  DSA_REU_Research Project (for Mentors)
+  2.
+  DSA_REU_Application Form (for Students)
+  3.
+  DSA_REU_Research Agreement Form (for Mentors&Studens)
+  4.
+  DSA_REU_Monthly Work-Study Program Attendance Sheet (For Mentors)
+  🟢
+  Research Opportunity Available
+  Click here to view available DSA-REU Research Assistant positions
+  🔴
+  DSA-REU Project Filled
+  Click to see faculty with matched student RA positions
+
+tables:
+  - Phase | Description
+  - Faculty Mentor Registration | Faculty mentors submit research project proposals.
+  - Work-Study Position Setup | Approved research projects are designated as work-study positions, and the available research assistant positions will be announced to all undergraduate students via email.
+  - Research Exposure & Meetings | Faculty mentors conduct pre-application research exposure sessions to introduce prospective applicants to the research topics and work environment.
+  - Student Applications & Selection | Students submit the REU Application Form , along with a CV and academic transcript. Faculty mentors review applications and select students (max. 2 students per project) based on suitability and research interests.
+  - Research Agreement | Selected students and faculty mentors sign the Research Agreement Form , and submit it to dsbd@hkust-gz.edu.cn . Participation in the DSA-REU will be confirmed via email once endorsed.
+  - Monthly Progress Checks and Payment | Students provide regular updates on the research progress during monthly meetings with faculty mentors. At the end of each month, students and faculty mentors submit the signed Monthly Attendance Sheet to dsbd@hkust-gz.edu.cn for payment processing.
+  - 6-Month Symposium | Faculty mentors assess and provide feedback on student research progress.
+  - Final Report Submission | Students submit final research reports for mentor review.
+  - Presentation & Publication | Students have the opportunity to submit research reports or papers to journals/conferences and compete for DSA research awards. Award recipients will receive travel grants and funding support from the DSA Thrust for international academic conference participation.
+
+links:
+  - REU Application Form | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/02/DSA_REU_Student-Application-Form-for-Students.docx
+  - Research Agreement Form | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/DSA_REU_Research-Agreement-Form-for-MentorsStudens-本科生科研实践计划《科研确认书》（导师与学生）-1.docx
+  - Monthly Attendance Sheet | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/02/DSA_REU_Monthly-Work-Study-Program-Attendance-Sheet.docx
+  - DSA_REU_Research Project (for Mentors) | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/02/DSA_REU_Research-Project-for-Mentors.docx
+  - Click here to view available DSA-REU Research Assistant positions | https://dsa.hkust-gz.edu.cn/blog/2025/02/28/%f0%9f%9f%a2research-opportunity-available/
+  - 🔴 | https://dsa.hkust-gz.edu.cn/blog/2025/04/08/dsa-reu-project-filled/

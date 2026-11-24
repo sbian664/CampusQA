@@ -1,0 +1,35 @@
+dsa_page: Test-Time Poisoning Attacks Against Test-Time Adaptation Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/test-time-poisoning-attacks-against-test-time-adaptation-models/
+source: DSA
+
+headings:
+  - Test-Time Poisoning Attacks Against Test-Time Adaptation Models
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Test-Time Poisoning Attacks Against Test-Time Adaptation Models
+  Abstract
+  Deploying machine learning (ML) models in the wild is challenging as it suffers from distribution shifts, where the model trained on an original domain cannot generalize well to unforeseen diverse transfer domains. To address this challenge, several test-time adaptation (TTA) methods have been proposed to improve the generalization ability of the target pre-trained models under test data to cope with the shifted distribution. The success of TTA can be credited to the continuous fine-tuning of the target model according to the distributional hint from the test samples during test time. Despite being powerful, it also opens a new attack surface, i.e., test-time poisoning attacks, which are substantially different from previous poisoning attacks that occur during the training time of ML models (i.e., adversaries cannot intervene in the training process). In this paper, we perform the first test-time poisoning attack against four mainstream TTA methods, including TTT, DUA, TENT, and RPL. Concretely, we generate poisoned samples based on the surrogate models and feed them to the target TTA models. Experimental results show that the TTA methods are generally vulnerable to test-time poisoning attacks. For instance, the adversary can feed as few as 10 poisoned samples to degrade the performance of the target model from 76.20% to 41.83%. Our results demonstrate that TTA algorithms lacking a rigorous security assessment are unsuitable for deployment in real-life scenarios. As such, we advocate for the integration of defenses against test-time poisoning attacks into the design of TTA methods.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  Test-Time Poisoning Attacks Against Test-Time Adaptation Models
+  . Tianshuo Cong, Xinlei He, Yun Shen, and Yang Zhang.
+  Project Period
+  2024
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Adversarial Example, Poisoning, Test-Time Adaptation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - Test-Time Poisoning Attacks Against Test-Time Adaptation Models | https://www.computer.org/csdl/proceedings-article/sp/2024/313000a072/1RjEaHVnA64

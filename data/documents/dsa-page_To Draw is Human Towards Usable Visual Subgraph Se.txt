@@ -1,0 +1,42 @@
+dsa_page: To Draw is Human: Towards Usable Visual Subgraph Search – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/11/16/to-draw-is-human-towards-usable-visual-subgraph-search/
+source: DSA
+
+headings:
+  - To Draw is Human: Towards Usable Visual Subgraph Search
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  To Draw is Human: Towards Usable Visual Subgraph Search
+  Share to
+  ABSTRACT
+  Law is not primarily for lawyers or judges - it applies to everyone. However, most people are unable to comprehend legal language on their own. Data management tools, like law, are no more primarily for database experts and administrators. However, query languages - the primary means to access data residing in databases - prevent diverse end user who are not proficient in these languages to take advantage of these tools for their tasks.
+  Visual query interfaces (VQI) are designed to alleviate the access challenge by enabling end users to access and search data through interactive construction of queries without resorting to any query languages. Given the ubiquity of graphs to model data in a wide variety of domains, in this talk we narrate our 14-years odyssey to rethink efficient and user-friendly subgraph search in the presence of VQI. We present two streams of research that exploits the central role of VQI in subgraph search. First, we present the paradigm of plug-and-play VQI, as it stands today, that addresses some of the limitations of existing classical VQIs by constructing it for a graph repository in a data-driven manner. Second, given a classical or plug-and-play VQI we present research that blends visual subgraph query formulation with query processing leading to superior system response time and usability of graph databases.
+  Both these two directions of research depart from long-standing classical paradigm of query formulation and processing. Since the inception of VQI, traditionally they are manually constructed by programmers. Similarly, since the inception of database technology several decades ago, the classical paradigm of database querying has always been served “neat”. That is, query formulation and query processing are treated as two independent activities and they were seldom “stirred” or “blended”.
+  SPEAKER BIO
+  Sourav S. Bhowmick
+  Associate Professor
+  Nanyang Technological University
+  Prof. Sourav S. Bhowmick is an Associate Professor in the School of Computer Science and Engineering (SCSE), Nanyang Technological University, Singapore. His core research expertise is in data management, human-data interaction, and data analytics.
+  His research has appeared in premium venues such as ACM SIGMOD, VLDB, and VLDB Journal. He is co-recipient of Best Paper Awards in ACM CIKM 2004, ACM BCB 2011, and VLDB 2021 for work on mining structural evolution of tree-structured data, generating functional summaries, and scalable attributed network embedding, respectively. He has been a tutorial speaker for several venues including SIGMOD and VLDB. Sourav is serving as a member of the SIGMOD Executive Committee, a regular member of the PVLDB advisory board, and a co-lead in the committee for Diversity and Inclusion in Database Conference Venues. He is a co-recipient of several service awards including VLDB Service Award in 2018, Distinguished AE Award in SIGMOD 2021 and VLDB 2022, and Distinguished Reviewer Award in 2020. He was inducted into Distinguished Members of the ACM in 2020. Sourav is a strong advocate of research that directly or indirectly impacts end users.
+  Date
+  17 November 2022
+  Time
+  09:00:00 -
+  10:20:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  925 2974 8728
+  Passcode: 212004
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

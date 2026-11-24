@@ -1,0 +1,39 @@
+dsa_page: Efcientand Scalable Training of Graph Neural Networks at Scale – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/17/efcientand-scalable-training-of-graph-neural-networks-at-scale/
+source: DSA
+
+headings:
+  - Efcientand Scalable Training of Graph Neural Networks at Scale
+  - Abstrac t
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Efcientand Scalable Training of Graph Neural Networks at Scale
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr ZHANG Xin
+  Abstrac
+  t
+  Graph Neural Networks are popular these days due to their strong capability in modeling and predicting complex graph-structured data. However, real-world graphs are usually giant in nature, containing millions of nodes and billions of edges. Efficient training of GNNs on such giant graphs is a challenge. Recently, many research studies have been done that propose improvements from different perspectives to address the challenge. However, we observe two significant gaps that hinder the efficient and scalable training of GNNs at scale. In this paper, we first provide a structured review of these existing works and categorize them based on their position in the GNN training stack, namely the graph sampling algorithm and the GNN training system. Then, we analyze the shortcomings of existing work and propose our solutions, namely (1) a scalable graph sampling algorithm called feature-oriented sampling and (2) an efficient GNN training system called DUCATI to address them. This paper also provides the future plan for the remainder of the final thesis.
+  TPE Committee
+  Chair of Committee: Prof. WANG, Wei
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. LI, Jia
+  Date
+  30 June 2025
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  4475 (HKUST)
+  Join Link
+  Zoom Meeting ID: 965 3668 1416
+  Passcode: dsa2025

@@ -1,0 +1,71 @@
+dsa_page: Fast Distance for Approximate NearestNeighbor Search: A Unified Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/fast-distance-for-approximate-nearestneighbor-search-a-unified-survey/
+source: DSA
+
+headings:
+  - Fast Distance for Approximate NearestNeighbor Search: A Unified Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Fast Distance for Approximate NearestNeighbor Search: A Unified Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. JING, Liuchang
+  Abstract
+  Approximate nearest neighbor search (ANNS) is a core primitive in large-scale retrieval,
+  recommendation, and RAG. Among various ANNS methods, the
+  distance computation
+  ,
+  which evaluates the similarity between a query and every candidate vector, is prohibitively
+  expensive and shown to be the critical performance bottleneck. Two complementary
+  families of techniques are proposed to accelerate this step:
+  Fast Distance Calculation
+  (
+  FDCal
+  ) methods, which compress database vectors via vector quantization to enable
+  cheap approximate distance lookups; and
+  Fast Distance Comparison
+  (
+  FDCom
+  ) methods,
+  which compute bounds on approximation distances to prune unpromising candidates
+  before any expensive computation. In this survey, we introduce a
+  unified interval
+  estimate framework
+  in which both families produce bounds [
+  δ
+  ˆ
+  −
+  , δ
+  ˆ+] on true distance
+  with reliability
+  ρ
+  and cost
+  C
+  . The (bound, reliability, cost) triple (
+  ε, ρ, C
+  ) unifies their
+  design tradeoffs and reveals FDCal as a constrained special case of FDCom that explicitly
+  minimizes the approximation error
+  ε
+  . Then we present taxonomies for both families and
+  their integration with ANNS indexes.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WANG, Wei
+  Co-Supervisor: Prof. LI, Lei
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  10 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-150, HKUST(GZ)

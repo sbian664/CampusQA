@@ -1,0 +1,33 @@
+dsa_page: Prediction Theory for Gaussian Process Regression – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/07/prediction-theory-for-gaussian-process-regression/
+source: DSA
+
+headings:
+  - Prediction Theory for Gaussian Process Regression
+  - Abstract
+  - Project members
+  - Wenjia WANG
+  - Publications
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Prediction Theory for Gaussian Process Regression
+  Abstract
+  Gaussian process regression is widely used in many fields, for example, machine learning, reinforcement learning and uncertainty quantification. The goal of Gaussian process regression is to recover an underlying function based on noisy observations. As a Bayesian machine learning method, the key idea of Gaussian process regression is to impose a probabilistic structure, which is a Gaussian process, on the underlying truth. Based on this assumption, the conditional distribution at each unobserved point in the interested domain is normal with explicit mean and variance. The conditional mean provides a natural predictor of the function value, and the pointwise confidence interval constructed based on the conditional variance can be used for statistical uncertainty quantification.
+  In a series of works, we derive non-asymptotic lower and upper error bounds of the (simple) kriging predictor under a uniform metric and Lp metric. The kriging predictor can be mis-specified, and the observations can have noise. In particular, we show that if the design is quasi-uniform and an oversmoothed correlation function is used, the upper bound and lower bound coincide, up to a constant multiplier. The optimal rate has been achieved in this scenario. As an application of our results, we apply our theory to machine learning. Although Bayesian optimization is widely used in areas including deep neural networks and reinforcement learning, uncertainty quantification of the outputs is rarely studied in the literature. We propose a novel approach to assess the output uncertainty of Bayesian optimization. To the best of our knowledge, this is the first result of this kind. Our theory also provides a unified uncertainty quantification framework for all existing sequential sampling policies and stopping criteria.
+  Project members
+  Wenjia WANG
+  Assistant Professor
+  Publications
+  Gaussian process regression: Optimality, robustness, and relationship with kernel ridge regression
+  . Wenjia Wang, and Bing-Yi Jing.
+  Project Period
+  2022
+  Research Area
+  Data-driven AI & Machine Learning、Statistical Learning and Modeling
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang
+  - Gaussian process regression: Optimality, robustness, and relationship with kernel ridge regression | https://dl.acm.org/doi/pdf/10.5555/3586589.3586782

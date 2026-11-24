@@ -1,0 +1,30 @@
+dsa_page: Towards Trustworthy Control for Networked Systems in the AI Era – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/02/towards-trustworthy-control-for-networked-systems-in-the-ai-era/
+source: DSA
+
+headings:
+  - Towards Trustworthy Control for Networked Systems in the AI Era
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Trustworthy Control for Networked Systems in the AI Era
+  Share to
+  ABSTRACT
+  In today’s AI-driven landscape, managing large-scale networked systems such as power grids, transportation networks, or communication infrastructures requires new control strategies that balance performance with reliability. AI offers powerful tools, like predictive models, to enhance decision-making in these systems. However, it also introduces challenges of uncertainties in predictions. This talk presents ways to designing distributed controllers that integrate AI-driven predictions while ensuring trustworthy operation. We begin with an overview of classic results, such as the Linear Quadratic Regulator (LQR) with predictions. Then, we introduce PredSLS, a framework that synthesizes closed-loop controllers using an affine feedback structure that combines real-time state feedback with future predictions for distributed control. A critical challenge emerges from prediction errors of AI tools, which can propagate through the network and degrade performance, particularly in decentralized settings. Unlike existing methods that often assume perfect predictions, our approach explicitly accounts for these inaccuracies. Through theoretical analysis and empirical studies, we identify an optimal degree of decentralization as a "sweet spot" where the system balances the advantages of local data sharing with the need to minimize the impact of prediction errors. Through this talk, we will demonstrate using real-world examples to how to deliver scalable, robust, and computationally efficient control, addressing the trust challenges posed by AI in networked systems.
+  SPEAKER BIO
+  Tongxin Li is a tenure-track assistant professor in the School of Data Science (SDS), The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen). Prior to joining SDS, he received his Ph.D. degree from the California Institute of Technology (Caltech) in Computing and Mathematical Sciences in 2022. During his Ph.D., He interned as an applied scientist at AWS security in the summers of 2020 and 2021. His research interests focus on interdisciplinary topics in machine learning, control, and optimization, with applications to power systems. He has participated in various projects on power systems in collaboration with NREL, Pasadena Water and Power, and Caltech Facilities. He is a recipient of the 2021 Explorer Grants from the Resnick Sustainability Institute and 2022 ACM SIGEnergy Doctoral Dissertation Award (honorable mention).
+  Date
+  09 April 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102（HKUST-GZ)
+  Email
+  dsarpg@hkust-gz.edu.cn

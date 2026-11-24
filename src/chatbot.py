@@ -6,12 +6,13 @@ import time
 from copy import deepcopy
 from src.errors import ContextLimitError
 from src.index_state import retrieval_guard
+from src.tool_context import EVIDENCE_PREFIX, compact_document_message, shrink_document_message
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
 from src.agent_finalization import build_final_answer_messages, sanitize_tool_protocol_text, stream_cleaned_answer
-from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, FINISH_RETRIEVAL_TOOL, ToolHandler
+from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, FINISH_RETRIEVAL_TOOL, DOCUMENT_TOOL_NAMES, ToolHandler, format_search_results
 from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
@@ -43,6 +44,7 @@ class AgentLoopState:
     total_tool_calls: int = 0
     past_queries: List[str] = field(default_factory=list)     # L3 重复检测
     past_searches: List[Dict] = field(default_factory=list)   # query + filters + top_k
+    past_document_calls: set = field(default_factory=set)
     entity_scope: Optional[str] = None
     consecutive_empty: int = 0                                  # L4 零结果熔断
     consecutive_low_score: int = 0                              # L5 低分熔断
@@ -323,11 +325,11 @@ class Chatbot:
                 return self._build_result(response, handler, state, "low_score_fuse")
 
             # ── 预检查：L6 Token 预算裁剪 ──
-            messages = self._trim_context_if_needed(messages, tools=decision_tools)
+            decision_messages = self._trim_context_if_needed(messages, tools=decision_tools)
 
             # ── 调用 LLM（带工具定义）──
             response = self.client.send_message_with_tools(
-                messages, tools=decision_tools,
+                decision_messages, tools=decision_tools,
                 max_tokens=min(512, getattr(self, 'max_tokens', MAX_TOKENS)) if streaming else getattr(self, 'max_tokens', MAX_TOKENS),
                 **({"cancel_event": cancel_event} if streaming else {}),
             )
@@ -353,10 +355,13 @@ class Chatbot:
                     return self._build_result(final, handler, state, "stop")
                 return self._build_result(response, handler, state, "stop")
 
-            if streaming and any(
+            finish_requested = streaming and any(
                 tc.get("function", {}).get("name") == "finish_retrieval"
                 for tc in response.tool_calls
-            ):
+            )
+            pending_calls = [tc for tc in response.tool_calls
+                             if not (streaming and tc.get("function", {}).get("name") == "finish_retrieval")]
+            if finish_requested and not pending_calls:
                 final = self._call_llm_forced_text(messages, state, on_delta=on_delta, cancel_event=cancel_event)
                 return self._build_result(final, handler, state, "stop")
 
@@ -364,7 +369,7 @@ class Chatbot:
             # 过滤空 function name 的异常调用
             valid_calls = []
             bad_calls = []
-            for tc in response.tool_calls:
+            for tc in pending_calls:
                 name = tc.get("function", {}).get("name", "")
                 if name:
                     valid_calls.append(tc)
@@ -420,6 +425,7 @@ class Chatbot:
 
             tool_results = []
             for tc in valid_calls:
+                search_hits = []
                 func = tc.get("function", {})
                 tool_name = func.get("name", "")
                 arguments = func.get("arguments", {})
@@ -434,79 +440,89 @@ class Chatbot:
                     response_final = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
                     return self._build_result(response_final, handler, state, "max_tool_calls")
 
-                # L3: 重复查询检测
-                arguments_dict = arguments if isinstance(arguments, dict) else {}
-                arguments_dict = dict(arguments_dict)
-                arguments_dict["entity_scope"] = state.entity_scope or "multiple"
-                arguments = arguments_dict
-                query = arguments_dict.get("query", "") if isinstance(arguments, dict) else str(arguments)
-                search_top_k = self._normalize_search_top_k(arguments_dict.get("top_k", 3))
-                search_filters = arguments_dict.get("filters", {})
-                if not isinstance(search_filters, dict):
-                    search_filters = {}
-                # Resolve inherited intent before duplicate detection, exactly
-                # as execution does. Invalid arguments must not enter history:
-                # otherwise a corrected retry could be falsely blocked.
-                rerank_error = None
-                try:
-                    rerank_query, rerank_query_source = handler._resolve_rerank_query(arguments_dict)
-                except ValueError as error:
-                    rerank_error = str(error)
-                if rerank_error:
-                    tool_result_text = handler.execute(tool_name, arguments)
-                elif self._is_duplicate_search(
-                    query,
-                    search_top_k,
-                    search_filters,
-                    state.past_searches,
-                    rerank_query_source,
-                    rerank_query,
-                    state.entity_scope or "multiple",
-                ):
-                    tool_result_text = (
-                        f"[DUPLICATE] 你已用高度相似的查询 \"{query[:50]}...\" 搜索过。"
-                        "请换不同的关键词、角度，或基于已有结果回答。"
+                if tool_name in DOCUMENT_TOOL_NAMES:
+                    tool_result_text = self._execute_document_tool(
+                        handler, tool_name, arguments, state, on_status, cancel_event,
                     )
-                    print(f"  ⚠️ 重复查询已拦截: {query[:60]}")
                 else:
-                    state.past_queries.append(query)
-                    state.past_searches.append({
-                        "query": query,
-                        "top_k": search_top_k,
-                        "filters": search_filters,
-                        "rerank_query_source": rerank_query_source,
-                        "rerank_query": rerank_query,
-                        "entity_scope": state.entity_scope or "multiple",
-                    })
-                    # 执行工具
-                    if cancel_event is not None and cancel_event.is_set():
-                        raise RuntimeError("generation cancelled")
-                    if on_status and tool_name == "search_knowledge_base":
-                        on_status("searching", {"query": str(query)[:80], "search_count": len(handler.get_call_log()) + 1})
-                    tool_result_text = handler.execute(tool_name, arguments)
-                    self._update_fuse_counters(state, tool_result_text)
-                    # 彩色日志输出
-                    result_count = self._count_results(tool_result_text)
-                    top_score = self._extract_top_score(tool_result_text)
-                    print(f"  🔍 {tool_name}(\"{query[:50]}\") → {result_count}条, top={top_score:.2f}" if top_score is not None else f"  🔍 {tool_name}(\"{query[:50]}\")")
+                    # L3: 重复查询检测
+                    arguments_dict = arguments if isinstance(arguments, dict) else {}
+                    arguments_dict = dict(arguments_dict)
+                    arguments_dict["entity_scope"] = state.entity_scope or "multiple"
+                    arguments = arguments_dict
+                    query = arguments_dict.get("query", "") if isinstance(arguments, dict) else str(arguments)
+                    search_top_k = self._normalize_search_top_k(arguments_dict.get("top_k", 3))
+                    search_filters = arguments_dict.get("filters", {})
+                    if not isinstance(search_filters, dict):
+                        search_filters = {}
+                    # Resolve inherited intent before duplicate detection, exactly
+                    # as execution does. Invalid arguments must not enter history:
+                    # otherwise a corrected retry could be falsely blocked.
+                    rerank_error = None
+                    try:
+                        rerank_query, rerank_query_source = handler._resolve_rerank_query(arguments_dict)
+                    except ValueError as error:
+                        rerank_error = str(error)
+                    if rerank_error:
+                        tool_result_text = handler.execute(tool_name, arguments)
+                    elif self._is_duplicate_search(
+                        query,
+                        search_top_k,
+                        search_filters,
+                        state.past_searches,
+                        rerank_query_source,
+                        rerank_query,
+                        state.entity_scope or "multiple",
+                    ):
+                        tool_result_text = (
+                            f"[DUPLICATE] 你已用高度相似的查询 \"{query[:50]}...\" 搜索过。"
+                            "请换不同的关键词、角度，或基于已有结果回答。"
+                        )
+                        print(f"  ⚠️ 重复查询已拦截: {query[:60]}")
+                    else:
+                        state.past_queries.append(query)
+                        state.past_searches.append({
+                            "query": query,
+                            "top_k": search_top_k,
+                            "filters": search_filters,
+                            "rerank_query_source": rerank_query_source,
+                            "rerank_query": rerank_query,
+                            "entity_scope": state.entity_scope or "multiple",
+                        })
+                        # 执行工具
+                        if cancel_event is not None and cancel_event.is_set():
+                            raise RuntimeError("generation cancelled")
+                        if on_status and tool_name == "search_knowledge_base":
+                            on_status("searching", {"query": str(query)[:80], "search_count": len(handler.get_call_log()) + 1})
+                        tool_result_text = handler.execute(tool_name, arguments)
+                        search_hits = handler.last_search_hits
+                        self._update_fuse_counters(state, tool_result_text)
+                        # 彩色日志输出
+                        result_count = self._count_results(tool_result_text)
+                        top_score = self._extract_top_score(tool_result_text)
+                        print(f"  🔍 {tool_name}(\"{query[:50]}\") → {result_count}条, top={top_score:.2f}" if top_score is not None else f"  🔍 {tool_name}(\"{query[:50]}\")")
 
-                tool_results.append({
+                tool_message = {
                     "role": "tool",
                     "tool_call_id": tc.get("id", ""),
                     "name": tool_name,
                     "content": tool_result_text,
-                })
+                }
+                if search_hits:
+                    tool_message["_search_hits"] = search_hits
+                tool_results.append(tool_message)
 
             messages.extend(tool_results)
+            if finish_requested:
+                # A model may batch reading and finishing. Execute evidence
+                # calls first; never discard them just because finish is present.
+                final = self._call_llm_forced_text(messages, state, on_status=on_status,
+                                                   on_delta=on_delta, cancel_event=cancel_event)
+                return self._build_result(final, handler, state, "stop")
 
         # ── 达到 LLM 轮次上限 ──
         final = self._call_llm_forced_text(messages, state, on_status=on_status, on_delta=on_delta, cancel_event=cancel_event)
-        result = self._build_result(final, handler, state, "max_rounds")
-        limit_note = "\n\n[已达到检索轮次上限，以上回答基于现有检索结果]"
-        if on_delta:
-            on_delta(limit_note)
-        result.content += limit_note
-        return result
+        return self._build_result(final, handler, state, "max_rounds")
 
     # ═══════════════════════════════════════════════════════════
     #  Agent Loop 辅助方法
@@ -515,7 +531,7 @@ class Chatbot:
     def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState,
                               on_status=None, on_delta=None, cancel_event=None) -> LLMResponse:
         """强制文本模式调用（不带 tools），用于熔断后获取最终回答"""
-        final_messages = self._trim_context_if_needed(build_final_answer_messages(self._trim_context_if_needed(messages)))
+        final_messages = self._trim_context_if_needed(build_final_answer_messages(messages))
         if cancel_event is not None and cancel_event.is_set():
             raise RuntimeError("generation cancelled")
         if on_delta:
@@ -554,6 +570,32 @@ class Chatbot:
             state.total_completion_tokens += response.usage.get("completion_tokens", 0)
 
     # ---- L3: 重复查询检测 ----
+
+    @staticmethod
+    def _execute_document_tool(handler, tool_name, arguments, state, on_status, cancel_event):
+        if cancel_event is not None and cancel_event.is_set():
+            raise RuntimeError("generation cancelled")
+        if not isinstance(arguments, dict):
+            return handler.execute(tool_name, arguments)
+        key = (tool_name, json.dumps(arguments, sort_keys=True, ensure_ascii=False))
+        if key in state.past_document_calls:
+            return "[DUPLICATE] 已执行相同文档操作。请使用返回的 next_cursor 续页，或调整条件；不要重复读取同一页。"
+        state.past_document_calls.add(key)
+        if on_status:
+            # Reuse the existing stage so deployed clients need no SSE changes.
+            label = "筛选文档目录" if tool_name == "find_documents" else "读取已定位文档"
+            filters = arguments.get("filters", {})
+            if tool_name == "find_documents" and isinstance(filters, dict):
+                terms = [str(filters[key]) for key in ("filename_contains", "title_contains", "source_contains") if key in filters]
+                if terms:
+                    label += "：" + " / ".join(terms)
+            on_status("searching", {"query": label[:80], "search_count": len(handler.get_call_log()) + 1})
+        result = handler.execute(tool_name, arguments)
+        # Catalog pages have no semantic score. A successful page must never
+        # trip the search low-score fuse, even when its match count is zero.
+        if not result.startswith("[ERROR]"):
+            state.consecutive_empty = state.consecutive_low_score = 0
+        return result
 
     @staticmethod
     def _normalize_search_top_k(top_k: object) -> int:
@@ -704,10 +746,20 @@ class Chatbot:
                         AGENT_MODEL_MAX_CONTEXT - getattr(self, 'max_tokens', MAX_TOKENS) - overhead)
         def fits():
             return self._estimate_tokens({'messages': trimmed, 'tools': tools or []}) <= threshold
+        # Lossless compaction precedes both history removal and result clipping.
+        document_messages = []
+        search_hits_by_message = {}
+        for message in trimmed:
+            hits = message.pop("_search_hits", None)
+            if hits:
+                search_hits_by_message[id(message)] = hits
+            kind = compact_document_message(message)
+            if kind:
+                document_messages.append((kind, message))
         def real_user(message):
             content = str(message.get('content') or '')
             return message.get('role') == 'user' and not content.startswith((
-                '[系统提示]', '[知识库检索结果]', '检索预算已经用完。'))
+                '[系统提示]', '[知识库检索结果]', '检索预算已经用完。', '检索阶段已结束。'))
         # Drop whole old exchanges, preserving assistant calls and their results.
         while not fits():
             starts = [i for i, m in enumerate(trimmed) if real_user(m)]
@@ -715,15 +767,56 @@ class Chatbot:
                 break
             trimmed[starts[0]:starts[1]] = [m for m in trimmed[starts[0]:starts[1]]
                 if str(m.get('content') or '').startswith('[知识库检索结果]')]
-        # Compress results without removing tool messages or breaking call IDs.
+        surviving_ids = {id(message) for message in trimmed}
+        document_messages = [(kind, message) for kind, message in document_messages if id(message) in surviving_ids]
+        document_ids = {id(message) for _, message in document_messages}
+        search_messages = [(message, search_hits_by_message[id(message)]) for message in trimmed
+                           if id(message) in search_hits_by_message]
+
+        def search_excerpt(message, hits, keep):
+            prefix = EVIDENCE_PREFIX if message.get("role") != "tool" else ""
+            summary = f"[检索结果已压缩] 当前上下文保留 {keep}/{len(hits)} 个直接命中。"
+            if keep == 0:
+                return prefix + summary
+            text = format_search_results(hits[:keep])
+            if prefix:
+                text = sanitize_tool_protocol_text(text)
+            return prefix + text + "\n\n" + summary
+
+        # Shed optional neighbor context from earlier calls first.
+        for message, hits in search_messages:
+            if fits():
+                break
+            content = search_excerpt(message, hits, len(hits))
+            if len(content.encode("utf-8")) < len(message["content"].encode("utf-8")):
+                message["content"] = content
+
+        # Ordinary excerpts can be shortened without removing ranked hits.
         for message in trimmed:
             if fits():
                 break
             content = str(message.get('content') or '')
+            if id(message) in document_ids or id(message) in search_hits_by_message:
+                continue
             if message.get('role') == 'tool' or content.startswith('[知识库检索结果]'):
                 while not fits() and len(content) > 32:
                     content = content[:max(16, len(content) // 2)]
                     message['content'] = content + '\n[检索结果已压缩]'
+        # Within each search, drop the lowest-ranked whole hit first.
+        # Move on to newer calls only after exhausting older ones.
+        for message, hits in search_messages:
+            for keep in range(len(hits) - 1, -1, -1):
+                if fits():
+                    break
+                message["content"] = search_excerpt(message, hits, keep)
+        # Preserve full catalog rows ahead of long bodies. If even the compact
+        # catalog cannot fit, retain valid JSON, original totals/cursors and an
+        # explicit omitted-row count instead of silently severing a page.
+        for kind in ('read_documents', 'find_documents'):
+            for current_kind, message in document_messages:
+                if current_kind == kind:
+                    while not fits() and shrink_document_message(message):
+                        pass
         if not fits():
             raise ContextLimitError('输入超出模型上下文预算，请缩短当前输入或降低输出长度后重试')
         return trimmed

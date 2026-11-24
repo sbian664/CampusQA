@@ -1,0 +1,273 @@
+fytgs_page: Carbon Neutrality and Climate Change
+url: https://fytgs.hkust-gz.edu.cn/programs/carbon-neutrality-and-climate-change
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Carbon Neutrality and Climate Change
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Carbon Neutrality and Climate Change
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Carbon Neutrality and Climate Change
+  Doctor of Philosophy in Carbon Neutrality and Climate Change
+  Program Short Name
+  MPhil(CNCC)
+  PhD(CNCC)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Carbon Neutrality and Climate Change Thrust Area
+  Society Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Luoye CHEN, Assistant Professor of Carbon Neutrality and Climate Change
+  Website
+  https://soch.hkust-gz.edu.cn/academics/cncc/
+  Enquiry
+  cnccrpg@hkust-gz.edu.cn
+  INTRODUCTION
+  The Master of Philosophy and Doctor of Philosophy Programs in Carbon Neutrality and Climate Change offer specialized training to tackle and adapt to the challenges of climate change that arise due to the transition towards a low-carbon society. The energy shift necessitates the creation of a broad array of transitions which will require the development of an extensive range of new technologies, sustainable policies and innovative solutions. This huge change will have far-reaching implications for many areas over the coming decades. We seek to educate students and provide them with state-of-the-art knowledge and comprehension of carbon neutrality and how it relates to finance, policy and environmental science.
+  The programs focus on advanced research with an aim to place graduates in the academia, research institutes, and industrial jobs that appreciate research capability and quality.
+  The MPhil/PhD programs will furnish students with project-based training to prepare them for inclusion in an exclusive cohort of carbon and engineering professionals equipped with work readiness skills and a comprehension of the low-carbon economy. The programs’ credentials are comparable to those of MPhil/PhD programs offered by leading universities in Europe and the United States.
+  This MPhil/PhD(CNCC) program will be the first of its kind in Asia, emphasizing carbon neutrality and climate change. Students will gain the knowledge, expertise, and assurance necessary to emerge as pioneers in carbon neutral tactics and sustainable development.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Gain a comprehensive understanding of the scientific, economic, and social factors affecting climate change and the shift toward low-carbon society;
+  Design and execute research projects that utilize advanced methodologies to make a meaningful contribution to existing knowledge in the field of carbon neutrality and climate change;
+  Effectively communicate research findings to specialized audiences such as policymakers, industry leaders, and academics;
+  Engage in interdisciplinary collaboration to devise and test solutions for climate change mitigation and carbon neutrality, with a focus on stakeholder engagement; and
+  Utilize the acquired knowledge to develop a foundational research portfolio suitable for further academic or industry research pursuits.
+  On successful completion of the PhD program, graduates will be able to:
+  Demonstrate an in-depth and nuanced understanding of the scientific, economic, and social factors driving climate change and the transition to carbon neutrality at local, regional and global scales;
+  Independently design, develop, and conduct complex research initiatives that employ cutting-edge methodologies, aiming to fill knowledge gaps and advance the field of carbon neutrality and climate change;
+  Master the communication of research findings to a wide range of audiences, including policymakers, industry leaders, academics, and the general public;
+  Lead interdisciplinary research teams to create innovative solutions for climate change mitigation and carbon neutrality, incorporating a broad array of stakeholder needs and perspectives;
+  Analyze the ethical and social implications of different approaches to climate change adaptation and mitigation; and
+  Develop a high level of expertise in addressing urgent challenges in climate change and sustainability, suitable for academic, governmental, or industrial research environments.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 credits
+  Students are required to complete at least one Hub core course (2 credits) from the Society Hub and at least one Hub course (2 credits) from other Hubs.
+  Society Hub Core Course
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take a required course and other elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Required Course List
+  CNCC 5100
+  Carbon Neutrality and Climate Change
+  3 Credit(s)
+  Description
+  This course explores the concepts of climate neutrality and climate change from a multidisciplinary perspective. The course covers the scientific, technological, economic, political, and social aspects of climate neutrality and climate change, including mitigation and adaptation strategies, carbon accounting, renewable energy, energy efficiency, carbon markets, climate policy, and international climate negotiations. The course also examines the ethical and justice dimensions of climate change, including the distributional impacts of climate policies and the responsibilities of different actors in addressing climate change. By the end of the course, students will have a comprehensive understanding of the challenges and opportunities of achieving climate neutrality and addressing climate change, as well as the skills to engage in cutting-edge research in this field.
+  Sample Elective Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but are not limited to courses and areas listed below.
+  CNCC 5200
+  Climate Change: Science and Governance
+  3 Credit(s)
+  Description
+  This course prepares students to acquire the basic knowledge of climate change, which sits on the intersection of science and governance. It will review some of the scientific facts of climate change and contrast the scientific research findings with climate governance status. Case study on transforming to a low carbon society will be conducted in later part of the course. Aspects to consider include both scientific support and governance complexity of the low carbon city idea. Students are expected to build their own analysis of the climate change issue at the end of the course.
+  CNCC 5300
+  Policy and Technology for Carbon Neutrality
+  3 Credit(s)
+  Description
+  All industries in China are actively taking effective actions to develop new and clean technologies in order to achieve the carbon peak and neutrality goal of shouldering the common destiny of human beings. This course examines the scientific, technological, and policy approaches that China and the rest of the world can take to achieve carbon peak and carbon neutrality.
+  CNCC 5400
+  Environmental Economics and Sustainable Development
+  3 Credit(s)
+  Description
+  This is a graduate-level interdisciplinary course focusing on the economics of environmental and sustainable development problems and the solutions to those problems. Students will learn to use tools from applied economics and relevant disciplines to better understand and evaluate a series of current policy questions, such as air and water pollution, climate change, environmental amenities, agricultural production, ecosystem services, and biodiversity.
+  CNCC 5500
+  Carbon Capture and Removal Technologies
+  3 Credit(s)
+  Description
+  This course is designed for students who are interested in advancing their knowledge and research skills in the area of carbon capture and storage (CCS) and cleaner fossil energy. The course will cover the latest advances in CCS and cleaner fossil energy technologies, policies, and practices, and their potential to mitigate climate change and promote sustainable energy development. Throughout the course, students will engage in critical analysis of the scientific literature, case studies, and policy debates related to CCS and cleaner fossil energy. They will also have the opportunity to develop their research skills by conducting independent research on a topic related to CCS and cleaner fossil energy, and presenting their findings to the class.
+  CNCC 5600
+  Energy Economics and Policy
+  3 Credit(s)
+  Description
+  This course provides an in-depth examination of the economics and policy issues surrounding energy. Topics include energy demand and supply, market structures, renewable energy technologies, fossil fuels, energy security, climate change, transportation, innovation, and policy analysis. Students will also participate in a research project to apply their knowledge to real-world scenarios.
+  CNCC 5700
+  Energy Systems and Policy
+  3 Credit(s)
+  Description
+  This course explores the challenges associated with climate change, energy and environmental policies from multiple perspectives, disciplines and scales. Students will examine the evolving science and policy of climate change, observe the conflicts between energy companies and interest groups in China, discuss technology innovations and its impact on reducing greenhouse gases emission.
+  CNCC 5800
+  Climate Innovation: Policy and Development
+  3 Credit(s)
+  Description
+  Climate innovation, driven by technological innovation and system change, has the potential to be a disruptive force in combating global challenges. This course will cover policy issues of cleantech development and introduce students to both incentives and challenges of climate investment. Through lectures, discussions, and case studies, students will explore how policy and financial instruments can influence the development of clean technologies.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Unless clearly demonstrating sufficient knowledge in the area, students entering the MPhil or PhD Program are required to take the following course in the first regular term of study:
+  CNCC 5120
+  Data Science for Carbon Neutrality Studies
+  3 Credit(s)
+  Description
+  This course introduces students to the application of data science techniques in the context of achieving carbon neutrality. The course covers various data-driven approaches to understanding, quantifying, and mitigating carbon emissions across different sectors, such as energy, transportation, buildings, and land use. Students will learn to collect, process, analyze, and visualize large-scale datasets related to carbon emissions, and develop predictive models and optimization techniques to support decision-making processes aimed at reducing carbon footprints. The course will also explore the role of data science in informing climate change mitigation policies and strategies at local, regional, and global scales.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10 hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective departments. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  SOCH 6780
+  Professional Development in Innovation, Technology, and Social Responsibility
+  1 Credit(s)
+  Description
+  This one credit course is intended to provide basic professional training to research postgraduate students in the Society Hub. The course will begin with lectures and a workshop on ethics in research. Students will be asked to focus on a particular theme of their choice that links technological innovation to various social and policy issues, conduct analysis and present their findings. They will also need to work in a team and learn to effectively communicate their ideas in informal and formal settings. Graded PP, P or F.
+  Students are required to complete SOCH 6780. The 1 credit earned from SOCH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed SOCH 6780 or other professional development courses offered by the University before may be exempted from taking SOCH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  CNCC 6900
+  CNCC Program Seminar I
+  1 Credit(s)
+  Description
+  This course is expected to expose the RPg students to the current carbon neutrality and climate change research and development, and provide them with opportunities to make social contacts with the speakers in environmental and climate change communities. This course will be an essential part of training for our RPg students. Graded P or F.
+  CNCC 6910
+  CNCC Program Seminar II
+  1 Credit(s)
+  Description
+  This course is expected to expose the RPg students to the current carbon neutrality and climate change research and development, and provide them with opportunities to make social contacts with the speakers inenvironmental and climate change communities. This course will be an essential part of training for our RPg students. Seminar II is an extension of Seminar I. While the overall design of the seminar course looks essentially the same, topics covered and guests invited will be differentiated. Graded P or F.
+  CNCC 6900 and CNCC 6910 will be offered in different terms. Students are required to complete CNCC 6900 and CNCC 6910 in two terms. The credits earned cannot be counted toward the credit requirements.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  CNCC 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by supervisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  CNCC 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by supervisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  i. Registration in CNCC 6990; and
+  ii. Presentation and oral defense of the MPhil thesis.
+  PhD:
+  i. Registration in CNCC 7990; and
+  ii. Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB 150
+  Application Open On
+  2 April 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://soch.hkust-gz.edu.cn/academics/cncc/ | https://soch.hkust-gz.edu.cn/academics/cncc/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

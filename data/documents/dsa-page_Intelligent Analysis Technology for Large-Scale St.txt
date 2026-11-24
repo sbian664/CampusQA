@@ -1,0 +1,27 @@
+dsa_page: Intelligent Analysis Technology for Large-Scale Structured Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/13/intelligent-analysis-technology-for-large-scale-structured-data/
+source: DSA
+
+headings:
+  - Intelligent Analysis Technology for Large-Scale Structured Data
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Intelligent Analysis Technology for Large-Scale Structured Data
+  Share to
+  ABSTRACT
+  Structured data analytics is a key technology for enabling intelligent database systems. Traditional approaches to structured data mainly focus on aggregation-based analysis, which are difficult to extend to modern predictive analytics tasks and lack scalability. Meanwhile, deep learning has achieved remarkable success in multimedia intelligence. However, directly feeding large-scale structured data into deep learning models introduces several challenges, including high feature dimensionality and complex relationships, sparse data with limited information content, and substantial training overhead. To address these challenges, this talk focuses on novel deep learning–based methods for structured data analytics. Specifically, it examines three key aspects: feature selection, model construction, and performance optimization. The talk introduces several innovative techniques—including automated feature regularization methods, knowledge-driven analytical models, and hybrid parallel training strategies—to enable efficient and intelligent analysis of structured data.
+  SPEAKER BIO
+  Zhaojing Luo is a Professor at School of Artificial Intelligent in Beijing Institute of Technology, and a recipient of a national-level young talent program in China. He received his Ph.D. from the National University of Singapore (NUS) in 2019. His research interests include big data analytics, structured data analytics, artificial intelligence, knowledge-driven machine and deep learning, model regularization, and large-scale data analytics systems. He has published extensively in top-tier venues such as SIGMOD, VLDB, ICDE, and IEEE TKDE, etc. He has received several prestigious awards, including the SIGMOD Systems Award (2024), the IEEE ICDE Best Paper Runner-Up Award (2018), the BDCAT Best Paper Award (2016), and the Second Prize of the CCF Science and Technology Award (Natural Science Category). He contributed to the development of the Apache SINGA distributed deep learning platform, which has become an Apache Top-Level Project. The platform has been recognized as one of the world’s top machine learning frameworks and has been deployed in more than a dozen companies and institutions, including NetEase, Singapore General Hospital, and Citigroup.
+  Date
+  17 March 2026
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Rm 101, W1, HKUST(GZ)

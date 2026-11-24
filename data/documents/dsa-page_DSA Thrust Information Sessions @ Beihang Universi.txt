@@ -1,0 +1,43 @@
+dsa_page: DSA Thrust Information Sessions @ Beihang University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/17/dsa%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8c%97%e4%ba%ac%e8%88%aa%e7%a9%ba%e8%88%aa%e5%a4%a9%e5%a4%a7/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Beihang University
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Beihang University
+  Share to
+  Date
+  17 April 2024
+  Time
+  15:00:00 -
+  16:30:00
+  Location
+  北京航空航天大学主南教学楼201
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/PGvCfVF6yKJMSNKReVzg2w
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

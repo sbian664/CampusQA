@@ -1,0 +1,34 @@
+dsa_page: A SURVEY ON INFLUENCE MAXIMIZATION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-influence-maximization/
+source: DSA
+
+headings:
+  - A SURVEY ON INFLUENCE MAXIMIZATION
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY ON INFLUENCE MAXIMIZATION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Xiaolong CHEN
+  Abstract
+  Influence Maximization (IM) stands as a pivotal algorithmic problem within the domain of social network analysis, boasting considerable applicability across diverse sectors including, but not limited to, viral marketing and political campaigning. The IM problem aims to identify a set of
+  k
+  nodes to maximize the expected number of influenced users.The significance of IM, underscored by its practical utility and the profound complexities inherent in its resolution, has catalyzed two decades of scholarly examination. In this survey, we examine a diverse range of current research on IM through an algorithmic lens. Specifically, We commence by delineating the established diffusion paradigms that simulate the mechanisms of information propagation, thereby underpinning the conceptual edifice of IM. Then we delve into the core algorithms that constitute the main thrust of IM research. Subsequently, we introduce a meticulously crafted taxonomy thatcategorizes the myriad of nuanced extensions that have emerged from the traditional IM problem. Finally, to conclude this survey, we outline prospective trajectories for future inquiry within this dynamic field of study.
+  PQE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Jing TANG
+  Co-Supervisor: Prof Wei WANG
+  Examiner: Prof Xinlei HE
+  Date
+  04 June 2024
+  Time
+  08:30:00 -
+  09:45:00
+  Location
+  E1-149

@@ -1,0 +1,75 @@
+dsa_page: Accord: Accelerating Big Data Applications on Heterogeneous Processors – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/accord-accelerating-big-data-applications-on-heterogeneous-processors/
+source: DSA
+
+headings:
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  - Abstract
+  - Project members
+  - Qiong LUO
+  - Publications
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  Abstract
+  Many applications require fast access, processing, and analytics of their big data, for example, millions of image files, tables containing hundreds of millions of rows, and billion-edge graphs. With the rapid advances of hardware technologies, these applications run on powerful servers with heterogeneous processors, computer clusters, and cloud computing platforms. However, the data handling and processing is often not in accordance with the underlying hardware resources. Therefore, we proposed to develop software techniques that accelerate these applications by utilizing their hardware resources effectively. In particular, we work on data-parallel primitives as well as parallel algorithms on graph analytics and relational queries. The processors we consider include multicore CPUs, Intel Knights Landing (KNL) processors, and GPUs.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Qiong LUO
+  Professor
+  Publications
+  1.
+  Accelerating Truss Decomposition on Heterogeneous Processors
+  . Yulin Che, Zhuohang Lai, Shixuan Sun, Yue Wang, and Qiong Luo. Proc. VLDB Endow. 13(10): 1751-1764 (2020).
+  2.
+  DIESEL: A Dataset-Based Distributed Storage and Caching System for Large-Scale Deep Learning Training
+  . Lipeng Wang, Songgao Ye, Baichen Yang, Youyou Lu, Hequan Zhang, Shengen Yan, and Qiong Luo. ICPP 2020: 20:1-20:11.
+  3.
+  In-Memory Subgraph Matching: An In-depth Study
+  . Shixuan Sun, and Qiong Luo. SIGMOD Conference 2020: 1083-1098.
+  4.
+  Efficient Parallel Subgraph Enumeration on a Single Machine
+  . Shixuan Sun, Yulin Che, Lipeng Wang, and Qiong Luo. ICDE 2019: 232-243.
+  5.
+  Scaling Up Subgraph Query Processing with Efficient Subgraph Matching
+  . Shixuan Sun, and Qiong Luo. ICDE 2019: 220-231.
+  6.
+  Accelerating All-Edge Common Neighbor Counting on Three Processors
+  . Yulin Che, Zhuohang Lai, Shixuan Sun, Qiong Luo, and Yue Wang. ICPP 2019: 42:1-42:10.
+  7.
+  Efficient Data-Parallel Primitives on Heterogeneous Systems
+  . Zhuohang Lai, Qiong Luo, and Xiaolong Xie. ICPP 2019: 74:1-74:10.
+  8.
+  Parallelizing Recursive Backtracking Based Subgraph Matching on a Single Machine
+  . Shixuan Sun, and Qiong Luo. ICPADS 2018: 42-50.
+  9.
+  Revisiting Multi-pass Scatter and Gather on GPUs
+  . Zhuohang Lai, Qiong Luo, and Xiaoying Jia. CPP 2018: 25:1-25:11.
+  10.
+  Parallelizing Pruning-based Graph Structural Clustering
+  . Yulin Che, Shixuan Sun, and Qiong Luo. ICPP 2018: 77:1-77:10.
+  11.
+  Betweenness Centrality Revisited on Four Processors
+  . Lipeng Wang, Xiaoying Jia, and Qiong Luo. ICPADS 2017: 614-623.
+  Project Period
+  2017-Present
+  Research Area
+  High-Performance Systems for Data Analytics
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/rapids/accord.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  - Accelerating Truss Decomposition on Heterogeneous Processors | http://www.vldb.org/pvldb/vol13/p1751-che.pdf
+  - DIESEL: A Dataset-Based Distributed Storage and Caching System for Large-Scale Deep Learning Training | https://doi.org/10.1145/3404397.3404472
+  - In-Memory Subgraph Matching: An In-depth Study | https://doi.org/10.1145/3318464.3380581
+  - Efficient Parallel Subgraph Enumeration on a Single Machine | https://doi.org/10.1109/ICDE.2019.00029
+  - Scaling Up Subgraph Query Processing with Efficient Subgraph Matching | https://doi.org/10.1109/ICDE.2019.00028
+  - Accelerating All-Edge Common Neighbor Counting on Three Processors | https://doi.org/10.1145/3337821.3337917
+  - Efficient Data-Parallel Primitives on Heterogeneous Systems | https://doi.org/10.1145/3337821.3337920
+  - Parallelizing Recursive Backtracking Based Subgraph Matching on a Single Machine | https://doi.org/10.1109/PADSW.2018.8644869
+  - Revisiting Multi-pass Scatter and Gather on GPUs | https://doi.org/10.1145/3225058.3225095
+  - Parallelizing Pruning-based Graph Structural Clustering | https://doi.org/10.1145/3225058.3225063
+  - Betweenness Centrality Revisited on Four Processors | https://doi.org/10.1109/ICPADS.2017.00085

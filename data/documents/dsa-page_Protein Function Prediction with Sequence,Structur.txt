@@ -1,0 +1,37 @@
+dsa_page: Protein Function Prediction with Sequence,Structure, and Protein-Protein Interaction Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/multi-modal-time-series-analysis-withlarge-models-representationadaptation-and-applications/
+source: DSA
+
+headings:
+  - Protein Function Prediction with Sequence,Structure, and Protein-Protein Interaction Networks
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Protein Function Prediction with Sequence,Structure, and Protein-Protein Interaction Networks
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. CHEN Zhuoyang
+  Abstract
+  Protein function prediction is a multi-label classification task. This task is essential in bioinformatics, as understanding protein functions aids in elucidating biological processes and supports applications such as drug design. Traditional methods rely on sequence align ment, but recent advances in protein structure prediction and protein-protein interaction (PPI) network analysis offer new opportunities to enhance prediction accuracy. Integrating information from different sources can provide a more comprehensive understanding of protein functions, as each data source offers unique insights that can complement the others. However, this integration is challenging due to the heterogeneity of data sources. Sequence, structure, and PPI network data are often in different formats and scales, and with varying levels of noise, making it difficult to directly combine them for accuracy im provement. Additionally, the computational complexity increases with the integration of more data sources, requiring more efficient algorithms and computational resources.
+  To understand the complementary value of structure data, we perform a benchmark study on applying various structure alignment methods to infer protein function compared to sequence alignment methods. We identify factors that affect accuracy between choosing sequence and structure alignment. We also test the running time and memory consumption of existing methods.
+  Next, to effectively integrate different information, we propose a feature selection model called DualNetGO. We compare different network embedding methods and feature fusion strategies on various PPI networks. We demonstrate that our model is efficient in time and effective in accuracy performance. We also investigate the impact of different data sources.
+  In the future, we will explore how to leverage evolution information, through data augmentation on protein sequence with traditional and pLM-aided strategies, to gain performance improvement in protein function prediction and potentially other tasks.
+  TPE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. LUO Qiong
+  Co-Supervisor: Prof. YU Weichuan
+  Examiner: Prof. ZHANG Yanlin
+  Date
+  10 June 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-149 (HKUST-GZ)

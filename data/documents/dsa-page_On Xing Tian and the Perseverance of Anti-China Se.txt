@@ -1,0 +1,35 @@
+dsa_page: On Xing Tian and the Perseverance of Anti-China Sentiment Online – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/on-xing-tian-and-the-perseverance-of-anti-china-sentiment-online/
+source: DSA
+
+headings:
+  - On Xing Tian and the Perseverance of Anti-China Sentiment Online
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  On Xing Tian and the Perseverance of Anti-China Sentiment Online
+  Abstract
+  Sinophobia, anti-Chinese sentiment, has existed on the Web for a long time. The outbreak of COVID-19 and the extended quarantine has further amplified it. However, we lack a quantitative understanding of the cause of Sinophobia as well as how it evolves over time. In this paper, we conduct a largescale longitudinal measurement of Sinophobia, between 2016 and 2021, on two mainstream and fringe Web communities. By analyzing 8B posts from Reddit and 206M posts from 4chan’s /pol/, we investigate the origins, evolution, and content of Sinophobia. We find that, anti-Chinese content may be evoked by political events not directly related to China, e.g., the U.S. withdrawal from the Paris Agreement. And during the COVID-19 pandemic, daily usage of Sinophobic slurs has significantly increased even with the hate-speech ban policy. We also show that the semantic meaning of the words “China” and “Chinese” are shifting towards Sinophobic slurs with the rise of COVID-19 and remain the same in the pandemic period. We further use topic modeling to show the topics of Sinophobic discussion are pretty diverse and broad. We find that both Web communities share some common Sinophobic topics like ethnics, economics and commerce, weapons and military, foreign relations, etc. However, compared to 4chan’s /pol/, more daily life-related topics including food, game, and stock are found in Reddit. Our finding also reveals that the topics related to COVID-19 and blaming the Chinese government are more prevalent in the pandemic period. To the best of our knowledge, this paper is the longest quantitative measurement of Sinophobia.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  On Xing Tian and the Perseverance of Anti-China Sentiment Online
+  . Xinyue Shen, Xinlei He, Michael Backes, Jeremy Blackburn, Savvas Zannettou, and Yang Zhang.
+  Project Period
+  2022
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Hate Speech, Social Media
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - On Xing Tian and the Perseverance of Anti-China Sentiment Online | https://ojs.aaai.org/index.php/ICWSM/article/view/19348

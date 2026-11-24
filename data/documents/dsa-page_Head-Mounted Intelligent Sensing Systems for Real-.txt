@@ -1,0 +1,46 @@
+dsa_page: Head-Mounted Intelligent Sensing Systems for Real-World Health Monitoring – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/23/head-mounted-intelligent-sensing-systems-for-real-world-health-monitoring/
+source: DSA
+
+headings:
+  - Head-Mounted Intelligent Sensing Systems for Real-World Health Monitoring
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Head-Mounted Intelligent Sensing Systems for Real-World Health Monitoring
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yongzhi HUANG
+  ABSTRACT
+  Head-mounted devices such as headphones and face masks are worn close to physiologically informative sites, including the ear canal and respiratory microenvironment. Yet turning everyday devices into reliable health sensors is difficult: target signals are weak, transient, and individualized, while measurements are confounded by audio content, anatomy, device response, motion, fit, material drift, body loading, and wireless multipath. This dissertation investigates how head-mounted platforms can become practical, low-burden, personalized health-sensing interfaces through physics-guided modeling, self-referenced sensing, and deployment-aware system design.
+  It presents three integrated systems. EarCSI reconstructs user-specific ear-canal acoustic geometry and reflective behavior from passive broadband audio on commodity headphones, enabling fine-grained detection of tympanic membrane changes without per-user supervised training. EarLog repurposes ordinary playback as an opportunistic physiological probe, estimates a content-conditioned no-reflex baseline, and verifies acoustic-reflex residuals to support individualized listening-load logging. MaskTag extends the approach beyond earables with a passive mask-valve interface that combines humidity-sensitive materials, self-referenced RF resonances, wide-angle readability, and multi-user tag separation to track respiratory humidity during dynamic wear.
+  Across these systems, the dissertation advances a common principle: reliable head-mounted health sensing should construct stable reference observables that factor out device, content, body, and environment-induced confounders before physiological inference, rather than rely on raw-signal classification or fixed thresholds alone. Evaluations across commercial headphones, human participants, real playback, long-duration use, and dynamic mask-wearing scenarios demonstrate continuous, in-situ, personalized measurement of auditory and respiratory health states. The results establish a broader path for embedding health sensing in everyday headworn objects with minimal user intervention, bridging controlled clinical measurement and longitudinal real-world health awareness.
+  TEC
+  Chairperson: Prof Kang ZHANG
+  Prime Supervisor: Prof Kaishun WU
+  Co-Supervisor: Prof Yunda WANG
+  Examiners:
+  Prof Jun WU
+  Prof Yuyu LUO
+  Prof Lei LI
+  Prof Zhetao LI
+  Date
+  17 August 2026
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

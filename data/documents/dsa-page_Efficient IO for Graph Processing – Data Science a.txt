@@ -1,0 +1,39 @@
+dsa_page: Efficient IO for Graph Processing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/01/02/efficient-io-for-graph-processing/
+source: DSA
+
+headings:
+  - Efficient IO for Graph Processing
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Efficient IO for Graph Processing
+  Share to
+  ABSTRACT
+  Graphs are widely used in many domains because it can flexibly express the relations among entities as edges. However, such flexibility also leads to random data access and poor IO performance since the basic operation of graph processing is to access the neighbors of a node, which are usually randomly scattered. Here, I will share how to tailor system designs to improve IO efficiency for graph processing systems. I will cover three typical computing scenarios, i.e., in-memory graph processing, disk-based graph processing, and distributed graph processing, and present the core challenges and key techniques for each scenario, e.g., cache miss and prefetch for in-memory processing, read amplification and data packing for disk-based processing, and network communication and computation push for distributed processing.
+  SPEAKER BIO
+  Yan Xiao
+  Research Scientist
+  CPII, Hong Kong
+  Dr. Yan is a research scientist at Centre for Perceptual and Interactive Intelligence (CPII), Hong Kong. He received his PhD degree on Computer Science and Engineering from the Chinese University of Hong Kong. His research interests are machine learning systems and database systems, including graph processing systems, graph learning systems, vector databases, model training and inference systems. He has worked with top companies including Meta, AWS, Huawei, and Alibaba for system development and won Track 2 of The Billion-scale Approximate Nearest Neighbor Search Challenge at NeurIPS’21.
+  Date
+  06 January 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  985 0373 6391
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

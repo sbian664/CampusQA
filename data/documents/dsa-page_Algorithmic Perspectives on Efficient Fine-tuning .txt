@@ -1,0 +1,49 @@
+dsa_page: Algorithmic Perspectives on Efficient Fine-tuning of Large Language Models: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/algorithmic-perspectives-on-efficient-fine-tuning-of-large-language-models-a-survey/
+source: DSA
+
+headings:
+  - Algorithmic Perspectives on Efficient Fine-tuning of Large Language Models: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+
+text: >
+  PhD Qualifying-Exam
+  Algorithmic Perspectives on Efficient Fine-tuning of Large Language Models: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss CHEN, Minping
+  Abstract
+  In recent years, the evolution of artificial intelligence has been marked by the rise of universal foundation models, with large language models (LLMs) leading the way. These models have demonstrated remarkable performance across diverse natural language tasks, including document understanding, complex reasoning, and code generation, et al. Despite their strong generalization abilities enabled by zero-shot learning, fine-tuning remains crucial for adapting LLMs to complex, domain-specific tasks. However, as model sizes grow, the resource demands of fine-tuning present significant challenges. This survey provides a comprehensive review of recent advances in efficient LLM fine-tuning, categorizing existing approaches into parameter efficient fine-tuning (PEFT) and memory-efficient fine-tuning. PEFT techniques aim to update a small subset of model parameters, thereby reducing memory overhead for gradient storage, while memory-efficient methods optimize memory usage across model weights, activations, and gradients. In addition, we introduce two novel methods: the
+  L
+  ow-
+  o
+  rder
+  H
+  ybrid
+  O
+  ptimizer (LoHO) and
+  Lo
+  w-
+  R
+  ank based
+  E
+  fficient
+  M
+  ask
+  L
+  earning (LoReML). LoHO mitigates the accuracy degradation and slow convergence typically associated with zeroth-order optimization, while LoReML eliminates the need for manual parameter selection and reduces the high cost of mask learning in existing masking-based methods. The experiments validate the effectiveness of our proposed approaches. Finally, we conclude with a discussion of future directions in the pursuit of efficient fine-tuning for LLMs.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. WEN Zeyi
+  Co-Supervisor: Prof. TANG Guoming
+  Examiner: Prof. DING Ningning
+  Date
+  09 June 2025
+  Time
+  15:00:00 -
+  00:00:00

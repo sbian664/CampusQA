@@ -1,0 +1,42 @@
+dsa_page: OFFLINE REINFORCEMENT LEARNING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/offline-reinforcement-learning/
+source: DSA
+
+headings:
+  - OFFLINE REINFORCEMENT LEARNING
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Thesis Proposal Examination
+  OFFLINE REINFORCEMENT LEARNING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Jing ZHANG
+  Abstract
+  Reinforcement learning (RL) has achieved remarkable success in various manipulation and goal-conditioned tasks. However, the high cost of interaction has limited the potential of RL. Offline reinforcement learning focuses on learning valuable policies from pre-collected data, thereby extending the application of RL to numerous fields. Nevertheless, the absence of online interaction poses significant obstacles to the performance of offline RL algorithms. The primary challenges in learning a policy from a static dataset involve distribution shifts and extrapolation errors during policy exploration. And these problems have made most RL methods struggle in offline scenarios. This proposal aims to provide a concise overview of the key challenges encountered in offline RL and offers a brief analysis of the crucial aspects that need to be addressed. Furthermore, we will discuss potential solutions to overcome these challenges and explore perspectives on unresolved issues in the field.
+  TPE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Molong DUAN
+  Examiner: Prof Yanlin ZHANG
+  Date
+  12 June 2024
+  Time
+  08:30:00 -
+  09:45:00
+  Location
+  E1-150
+  Join Link
+  Zoom Meeting ID:
+  817 4906 0902
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/81749060902?pwd=h9sbk18MwAefKWObILPRaH9LlNBC19.1

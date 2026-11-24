@@ -1,0 +1,44 @@
+dsa_page: Towards Enhancing Model Capability via LeveragingExternal Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/20/towards-enhancing-model-capability-via-leveragingexternal-models/
+source: DSA
+
+headings:
+  - Towards Enhancing Model Capability via LeveragingExternal Models
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Thesis Proposal Examination
+  Towards Enhancing Model Capability via LeveragingExternal Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Bo HUANG
+  Abstract
+  Artificial intelligence models based on deep learning have demonstrated remarkable performance across various tasks. However, significant challenges remain, particularly in robustness, instruction-following, and reasoning ability. This thesis proposal explores the potential of leveraging external models to enhance the capability of the target model. Specifically, we review and categorize three key roles that external models can play in enhancing model capabilities: knowledge teacher, feedback provider, and data enhancer. We then introduce our proposed methods that harness these roles to improve model performance, focusing on boosting robustness, facilitating instruction-following ability, and enhancing pairwise data. Our experimental results demonstrate the effectiveness of these approaches in addressing specific challenges and achieving significant improvements in task performance. Finally, we discuss the open challenges and propose future research directions.
+  TPE Committee
+  Chair of Committee: Prof. Nan TANG
+  Prime Supervisor: Prof. Wei WANG
+  Co-Supervisor: Prof. Minhao CHENG
+  Examiner: Prof. Zishuo DING
+  Date
+  27 November 2024
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E3-105
+  Join Link
+  Zoom Meeting ID:
+  939 9625 2396
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93996252396?pwd=GyizBxLPdnkankvpapcpP4MxPA2TO0.1

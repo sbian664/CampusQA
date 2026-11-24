@@ -1,0 +1,42 @@
+dsa_page: A SURVEY ON LLM AGENTS FOR CODE GENERATION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/09/a-survey-on-llm-agents-for-code-generation/
+source: DSA
+
+headings:
+  - A SURVEY ON LLM AGENTS FOR CODE GENERATION
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY ON LLM AGENTS FOR CODE GENERATION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr CHEN,Aochuan
+  Abstract
+  The application of Large Language Models (LLMs) in software engineering has shifted from static text generation to the development of autonomous agents capable of sensing, planning, and acting. This survey provides a comprehensive review of LLM Agents for Code Generation, distinguishing these systems from traditional generative models through their integration of iterative reasoning, persistent memory, external tool usage, and collaborative architectures. We propose a taxonomic framework for current methodologies, categorizing them into four engineering pillars:
+  workflow optimization
+  strategies that enforce rigorous logic over probabilistic generation;
+  structured memory systems
+  that bridge context window limitations;
+  executable tool integration
+  that grounds generation in reality; and
+  multi-agent collaboration
+  frameworks that distribute cognitive load across specialized roles. Furthermore, we analyze the evolution of evaluation benchmarks from function-level synthesis to repository-scale engineering tasks. The survey concludes by identifying critical architectural bottlenecks, offering aroadmap for future research in robust agentic systems
+  PQE Committee
+  Chair of Committee: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. LUO, Qiong
+  Date
+  10 December 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E3-201 (HKUST-GZ)

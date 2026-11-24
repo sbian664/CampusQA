@@ -1,0 +1,49 @@
+dsa_page: A Survey for Knowledge Distillation in Image Classification – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/a-survey-for-knowledge-distillation-in-image-classification/
+source: DSA
+
+headings:
+  - A Survey for Knowledge Distillation in Image Classification
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Email
+  - Audience
+
+text: >
+  PhD Qualifying-Exam
+  A Survey for Knowledge Distillation in Image Classification
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Bo HUANG
+  Abstract
+  The advent of deep learning has revolutionized various domains, including computer vision, natural language processing, etc. However, the deployment of large deep neural networks is often constrained by their extensive resource requirements, particularly in edge computing scenarios. Knowledge distillation emerges as an effective solution to this problem by enabling the training of compact yet high-performing student models through transferring knowledge from larger teacher models. This survey provides a comprehensive review of knowledge distillation techniques, emphasizing their effectiveness in model compression and architectural flexibility, which is crucial for adapting to diverse deployment environments.
+  The survey reviews the evolution of knowledge distillation from logits-based methods to advanced relational approaches and points out the importance of transferring not just knowledge but also adversarial robustness to protect compact models against attacks in real-world applications. It also discusses the capacity gap challenge and presents various strategies to mitigate this issue.
+  Additionally, the survey investigates the effectiveness of knowledge distillation from the perspectives of multi-view data characterization and variance reduction, providing deep insights into the methodology’s success. Finally, the survey outlines potential research directions, aiming to guide future advancements in this field of knowledge distillation.
+  Zoom Link
+  PQE Committee
+  Chairperson: Dr. Nan TANG
+  Prime Supervisor: Prof. Wei WANG
+  Co-Supervisor: Dr. Minhao CHENG
+  Examiner: Dr. Wenjia WANG
+  Date
+  23 January 2024
+  Time
+  10:00:00 -
+  11:30:00
+  Location
+  E3-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  875 8964 8454
+  Passcode: dsa2024
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  All are welcome!
+
+links:
+  - Zoom Link | https://hkust-gz-edu-cn.zoom.us/j/87589648454?pwd=MPzArxgWapEGnuIDo7tqjXqLmyc0jL.1

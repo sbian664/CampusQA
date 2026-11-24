@@ -1,0 +1,39 @@
+dsa_page: Towards privacy-preserving distributed machine learning systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/08/28/towards-privacy-preserving-distributed-machine-learning-systems/
+source: DSA
+
+headings:
+  - Towards privacy-preserving distributed machine learning systems
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Towards privacy-preserving distributed machine learning systems
+  Share to
+  ABSTRACT
+  With the rapid advancement of sensing and communication technologies, the Internet of Things (IoT) is evolving into a global data generation infrastructure. To fully leverage the vast quantities of data produced by IoT for enhanced system intelligence, machine learning and inference on IoT data at both the edge and the core (i.e., cloud) are imperative. However, the widespread data collection and processing raise significant privacy concerns. Although various privacy preservation mechanisms have been designed in the context of conventional cloud computing, they may not be well-suited for the IoT due to the resource constraints at the IoT edge. Simultaneously, the advancement of blockchain technology and decentralized applications within Web 3.0 introduces new data generation and computing infrastructures, presenting additional challenges for distributed machine learning and inference.
+  In this talk, I will present four privacy-preserving mechanisms for the learning and inference phases. The first three approaches are computationally lightweight and can be executed by resource-limited edge devices, including smartphones and even mote-class sensor nodes. The last approach introduces a practical one-shot federated learning system for Web 3.0. Extensive performance evaluations on multiple datasets and real implementation demonstrate the effectiveness and efficiency of these approaches in protecting data privacy while maintaining learning and inference performance.
+  SPEAKER BIO
+  Linshan JIANG
+  National University of Singapore
+  Dr. Linshan Jiang is currently a Research Fellow at Institute of Data Science, National University of Singapore. He obtained his Ph.D. degree in computer science and engineering from Nanyang Technological University, Singapore in 2022. Previously, He received his B.Eng. degree from Department of Communication engineering, Southern University of Science and Technology, China. He has published several papers on the top conference of CPS-IoT and AI. His research interests focus on the privacy and security in the distributed AI system, including federated/collaborative machine learning, blockchain-enabled AI and resilient AIoT system.
+  Date
+  29 August 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  Lecture Room, E2-6F, Guangdong Province Key Laboratory ICSC-IOT, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  247-745-640
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/qgSJXylm-sVOcTXZ0Udj6A

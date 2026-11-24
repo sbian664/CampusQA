@@ -1,0 +1,34 @@
+dsa_page: A Survey on Graph-Enhanced Retrieval-Augmented Generation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-on-graph-enhanced-retrieval-augmented-generation/
+source: DSA
+
+headings:
+  - A Survey on Graph-Enhanced Retrieval-Augmented Generation
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Graph-Enhanced Retrieval-Augmented Generation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. TONG Bing
+  Abstract
+  Large Language Models (LLMs) have demonstrated impressive performance across a wide range of natural language processing tasks. However, they continue to suffer from key limitations, including hallucinations and a lack of up-to-date or domain-specific knowledge. Retrieval-Augmented Generation (RAG) frameworks mitigate these issues by incorporating external knowledge sources, yet conventional RAG systems often rely on flat document representations, which lack explicit semantic relationships and hinder deep reasoning. To address these shortcomings, recent approaches have proposed integrating structured graph representations into the RAG pipeline, giving rise to a new class of systems known as GraphRAG. In this survey, we categorize GraphRAG systems into three core components: knowledge organization, knowledge retrieval, and knowledge integration. We analyze how each component contributes to more reliable and interpretable generation. Furthermore, we provide an in depth review of three representative systems—GraphRAG (Microsoft), LightRAG, and FastRAG—highlighting their architectures, innovations, and trade-offs. This survey aims to consolidate the emerging landscape of graph-based RAG methods and offers insights for future research and deployment in knowledge-intensive domains.
+  PQE Committee
+  Chair of Committee: Prof. CHEN Lei
+  Prime Supervisor: Prof. LI Jia
+  Co-Supervisor: Prof. ZHANG Chen
+  Examiner: Prof. TANG Jing
+  Date
+  09 June 2025
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-149 (HKUST-GZ)

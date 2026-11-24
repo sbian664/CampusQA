@@ -1,0 +1,52 @@
+dsa_page: Exploring Information Flow through Graphic Causal Networks for Multivariate Time Series Anomaly Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/07/15/exploring-information-flow-through-graphic-causal-networks-for-multivariate-time-series-anomaly-detection/
+source: DSA
+
+headings:
+  - Exploring Information Flow through Graphic Causal Networks for Multivariate Time Series Anomaly Detection
+  - Abstract
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Exploring Information Flow through Graphic Causal Networks for Multivariate Time Series Anomaly Detection
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Botao WANG
+  Abstract
+  Multivariate time series is a common data format within complex systems. Its lack of patterns and difficulty in reconstruction make it challenging for representation learning. To address these challenges in real-world datasets, this thesis proposes a graphic causal information flow discovery framework for anomaly detection in multivariate time series, utilizing graph neural networks (GNNs) with a self-training algorithm to uncover nonlinear interdependencies within complex systems.
+  First, we quantify the effect of pseudo labeling on the error bound and convergence properties of GNNs. We propose a cautious plug-in strategy that iteratively pseudo-labels the top-k confident samples. We demonstrate the effectiveness and robustness of this strategy, successfully overcoming degradation problems.
+  Second, to avoid correlation-based relationship discovery, we introduce causal inference into GNNs to enhance their message-passing capabilities. We estimate cause-effect relationships through conditional entropy and iteratively modify the causal structure accordingly. Our experiments show the superiority of this method in link prediction, and the explicit causal structure also improves node classification across various baselines.
+  Third, we construct a robust anomaly detection framework for time series. We compare an attention-based encoder-decoder network with principal component analysis, constructing principal and residual latent spaces based on attention scores without reconstruction. Our experiments demonstrate the effectiveness of monitoring both spaces for anomaly detection.
+  Finally, all the modules are integrated into a comprehensive framework featuring a graph attention network with iterative causal structure learning. We verify the framework on open-source datasets, demonstrating its superiority in anomaly detection for multivariate time series.
+  TEC
+  Chairperson: Prof Sihong Sean XIE
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Wenjia WANG
+  Examiners:
+  Prof Xiaobei SHEN
+  Prof Jia LI
+  Prof Jing TANG
+  Prof Yutao YUE
+  Date
+  19 July 2024
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E3-201, GZ Campus
+  Join Link
+  Zoom Meeting ID:
+  81424941950
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/81424941950?pwd=179bTjes5iXyTO5qe39ye69p867BRH.1

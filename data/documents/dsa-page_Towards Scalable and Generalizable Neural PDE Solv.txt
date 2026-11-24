@@ -1,0 +1,46 @@
+dsa_page: Towards Scalable and Generalizable Neural PDE Solvers: Learning Across Scales, Geometries, and Physics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/04/21/towards-scalable-and-generalizable-neural-pde-solvers-learning-across-scales-geometries-and-physics/
+source: DSA
+
+headings:
+  - Towards Scalable and Generalizable Neural PDE Solvers: Learning Across Scales, Geometries, and Physics
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Towards Scalable and Generalizable Neural PDE Solvers: Learning Across Scales, Geometries, and Physics
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Zhihao LI
+  ABSTRACT
+  Partial differential equations (PDEs) underlie a broad class of scientific and engineering phenomena, yet practical deployment increasingly demands neural solvers that remain accurate across heterogeneous geometries, efficient across resolutions, and reliable under physically constrained reconstruction. A central difficulty is that existing learning-based PDE approaches are commonly designed for a specific operating regime: architectures optimized for regular grids transfer poorly to irregular domains, single-resolution models struggle with multiscale dynamics and solver efficiency, and purely data-driven reconstruction methods often fail to maintain physically meaningful structures. Consequently, scalability and generalization tend to be pursued independently rather than within a unified framework.
+  This thesis addresses this gap under a single overarching objective: constructing scalable and generalizable neural PDE solvers by learning across scales, geometries, and physics. To enhance generalization on complex domains, geometry-aware neural operators are developed via multi-graph learning and mesh-agnostic representations, enabling robust modeling on irregular geometries and across diverse discretizations. To advance scalability for large and multiscale problems, multiresolution neural operators and neural preconditioning strategies are introduced, integrating operator learning with coarse-to-fine error correction and efficient iterative solving. To improve reconstruction fidelity, a physics-consistent generative refinement framework is proposed, casting high-resolution PDE recovery as a multiscale residual correction process guided by data consistency and lightweight physical constraints.
+  Collectively, these contributions establish a structured learning paradigm for neural PDE solving, wherein geometry awareness, multiscale computation, and physics consistency are treated as complementary design principles rather than independent choices. This perspective moves neural PDE solvers toward broader applicability in scientific computing and lays a foundation for future unified PDE learning systems.
+  TEC
+  Chairperson: Prof Ingeborg DR. REICHLE
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Zhilu LAI
+  Examiners:
+  Prof Ningning DING
+  Prof Zishuo DING
+  Prof Yang XIANG
+  Prof Chunwei TIAN
+  Date
+  15 May 2026
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

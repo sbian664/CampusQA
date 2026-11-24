@@ -1,0 +1,40 @@
+dsa_page: Simple is Enough: A Cascade Approximation for Attention-Based Satisficing Choice Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/18/simple-is-enough-a-cascade-approximation-for-attention-based-satisficing-choice-models/
+source: DSA
+
+headings:
+  - Simple is Enough: A Cascade Approximation for Attention-Based Satisficing Choice Models
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Simple is Enough: A Cascade Approximation for Attention-Based Satisficing Choice Models
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Empirical evidence suggests that consumers commonly focus their attention on a subset of available products and evaluate them in batches to identify a satisfactory option. To capture this phenomenon, we introduce the Attention-Based Satisficing choice rule, which encompasses special cases such as the Sequential MNL (e.g., Gao et al. 2021), Click-Based MNL (e.g., Aouad et al. 2019), and Random Consideration Set models (e.g., Gallego and Li 2017). Through an empirical investigation employing data sourced from Expedia, we provide evidence that special cases of the proposed model might exhibit a notable advantage in terms of predictive accuracy when compared to the mixed MNL. Notwithstanding the NP-hardness of finding the revenue-maximizing assortment and estimating certain parameters for the proposed model, we demonstrate that it can be approximated by a simple Cascade model (e.g., Kempe and Mahdian 2008) with substantially few parameters. Specifically, we establish that the overall likelihood of purchasing from any given assortment under the proposed model can be estimated within a certain range, multiplied by that in the Cascade model; moreover, by utilizing the readily computable optimal assortment derived from the approximated model as a heuristic, the worst-case revenue given partial information is consistently at least a tightly predetermined constant (3/8) of that obtained from an optimized assortment under the best parameter configuration. Finally, based on the technique established in this study, we also extend the analysis to explore the constrained assortment optimization problem, the categorized attention-based assortment optimization problem, and the joint assortment and pricing problem.
+  SPEAKER BIO
+  Gao PIN
+  Assistant Professor
+  The Chinese University of Hong Kong, Shenzhen
+  Gao Pin is currently an assistant professor at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. He received a B.S. in physics from Wuhan University in 2013 and a M.Phil. in physics from Hong Kong University of Science and Technology (HKUST) in 2015, after which he worked in industry for two years. In 2021, he received a Ph.D. in Industry Engineering and Decision Analytics from HKUST. Dr. Gao's current research interests include revenue management and operations management.
+  Date
+  20 September 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  853 1469 7418
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

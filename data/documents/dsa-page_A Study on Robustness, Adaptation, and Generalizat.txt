@@ -1,0 +1,44 @@
+dsa_page: A Study on Robustness, Adaptation, and Generalization for Visual and Multimodal Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/16/a-study-on-robustness-adaptation-and-generalization-for-visual-and-multimodal-learning/
+source: DSA
+
+headings:
+  - A Study on Robustness, Adaptation, and Generalization for Visual and Multimodal Learning
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  A Study on Robustness, Adaptation, and Generalization for Visual and Multimodal Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xiasi WANG
+  ABSTRACT
+  Recent advances in visual and multimodal learning have demonstrated impressive performance on diverse tasks. However, their reliability in real-world scenarios remains challenged by issues of robustness, adaptation, and generalization. In this thesis, we tackle these challenges by establishing four integral pillars of reliable deep learning: (1) robustness against adversarial attacks, (2) adaptation to sequential data streams, (3) resilience to domain shift and unseen categories, and (4) enhanced generalization via self-supervised learning. First, we identify a critical vulnerability in vision-language models (VLMs): their susceptibility to adversarial manipulation of inference efficiency. We propose a black-box evaluation framework to assess this efficiency robustness, establishing a new dimension for VLM safety. Second, we find that VLMs exhibit limited adaptability to evolving data streams. We explore long-tailed class incremental learning within the VLM framework and introduce a method to address the dual challenges of catastrophic forgetting and data imbalance. Third, we examine visual models’ failures on out-of distribution samples. We tackle the open-set domain adaptation challenge, where both distribution shift and unknown classes appear in the target domain, and develop a two-stage framework that adapts the model to classify known classes while detecting unknown ones. Fourth, we revisit self-supervised pretraining in computer vision and design a novel objective to enhance the generalizability of pre-trained models. Collectively, these contributions form a unified framework for advancing robustness, adaptation, and generalization, facilitating more trustworthy visual and multimodal intelligence.
+  TEC
+  Chairperson: Prof Sihong XIE
+  Prime Supervisor: Prof Yuan YAO
+  Co-Supervisor: Prof Nevin Lianwen ZHANG
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Wenjia WANG
+  Prof Ruiting ZUO
+  Prof Man LI
+  Date
+  17 December 2025
+  Time
+  15:00:00 -
+  17:00:00
+  Location
+  E1-319, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

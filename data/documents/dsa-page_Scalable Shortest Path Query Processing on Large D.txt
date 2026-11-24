@@ -1,0 +1,96 @@
+dsa_page: Scalable Shortest Path Query Processing on Large Dynamic Graphs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/03/scalable-shortest-path-query-processing-on-large-dynamic-graphs/
+source: DSA
+
+headings:
+  - Scalable Shortest Path Query Processing on Large Dynamic Graphs
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Scalable Shortest Path Query Processing on Large Dynamic Graphs
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jianheng TANG
+  ABSTRACT
+  Given a graph and two vertices
+  s
+  and
+  t
+  , the
+  Shortest Path (SP)
+  query aims to return a path between
+  s
+  and
+  t
+  with the minimum path length (
+  e.g.,
+  minimum travel time on road networks, minimum propagation time on communication networks, etc.). It is a fundamental operation in a wide range of graph-based applications such as GPS navigation, k-nearest neighbor search, communication routing, link analysis, and so on. Despite significant research and advancements in shortest path algorithms over the years, there are two challenges limiting real-world applications: (1) real-world networks are inherently dynamic. The edge weights, such as travel time on road networks or bandwidth on communication networks, usually evolve over time due to traffic accidents or connection fluctuation; (2) the large size of graphs, combined with the high volume of shortest path queries, challenges the scalability of existing solutions. For example,
+  location-based
+  services (LBSs)
+  generate millions of queries per second in our daily life, necessitating high-throughput shortest path query processing on large dynamic road networks. Communication routing and link analysis on social media platforms demand real-time shortest path query processing on dynamic networks with millions to billions of edges. These challenges necessitate shortest path algorithms that can efficiently process queries, quickly adapt to dynamic updates, and scale to large networks. Motivated by these, we study efficient and scalable shortest path query processing on large dynamic networks to address the issues of dynamics and scalability encountered in real-world applications.
+  Our first work studies a universal scheme for dynamic partitioned shortest path indexes. Graph partitioning is widely used to scale up shortest path algorithms for faster query processing or larger graph sizes. Besides, it also facilitates parallelization among subgraphs and speeds up index maintenance, making the
+  Partitioned Shortest Path (PSP)
+  index a promising solution to address the dynamics and scalability issues simultaneously. However, the PSP index has never been systematically investigated and theoretically analyzed, and few studies have explored its index maintenance in dynamic networks. To this end, we propose a universal scheme with three dimensions (partition method, PSP strategy, and SP algorithm) for the PSP index, and put forward two novel PSP strategies to improve the index update efficiency. Extensive experiments validate the effectiveness of the proposed techniques, with valuable guidance provided on the PSP index design.
+  Our second work investigates scalable distance labeling maintenance and construction for dynamic small-world networks. Small-world networks (
+  e.g.,
+  social networks, communication networks,
+  etc.
+  ) typically have two characteristics: they are large in size and evolve continuously over time. However, existing solutions either address the first characteristic or the second, but not both. To this end, we adopt the Core-Tree index, known for its exceptional scalability and high query efficiency, as the underlying SP index, and put forward efficient index maintenance and construction methods to tackle both the dynamicity and scalability issues of small-world networks. Experiments demonstrate the superiority of our methods over the state-of-the-art in terms of indexing, updating, and scalability.
+  Our third work studies
+  High Throughput Shortest Path query processing (HTSP)
+  problem on dynamic road networks. With the increasing utilization of LBSs, SP query processing on road networks has three tendencies: massive queries, dynamic traffic, and large network size. However, existing solutions can hardly handle these three tendencies due to either slow query efficiency or poor dynamic adaptation. To address this, we propose two novel dynamic PSP indexes called
+  Partitioned Multi-stage Hub Labeling (PMHL)
+  and
+  Post-partitioned Multi-stage Hub Labeling (PostMHL)
+  to achieve fast index maintenance and consecutive query efficiency improvement during index maintenance, exploiting the availability of various SP indexes in terms of temporal dimension for high throughput. Experiments show that our methods outperform the state-of-the-art by up to two orders of magnitude in query throughput.
+  Our fourth work revisits the
+  HTSP
+  problem and further optimizes query throughput on large dynamic road networks. Although existing solutions alleviate this problem by efficient query processing or rapid index maintenance, they overlook the fact that partial dynamic updates cannot affect all SP queries, missing opportunities to leverage the unaffected index for higher throughput. To this end, we propose a novel spatial-temporal optimized framework called
+  VPSP
+  to further exploit the availability of SP index during index maintenance from a perspective of the spatial dimension for enhanced throughput. In particular, we first provide a theoretical analysis of unaffected queries and propose a
+  two-phase index validation
+  algorithm to efficiently identify them. Based on this, we introduce the
+  VPSP
+  framework with
+  Validation-based Partitioned Labeling (VPL)
+  as the SP index and adopting a novel
+  rotating update schedule
+  to maximize unaffected query number. Experiments on real-world datasets demonstrate that our solution significantly outperforms the state-of-the-art in query throughput, achieving improvements of up to two orders of magnitude.
+  TEC
+  Chairperson: Prof Mark Nicholas GRIMSHAW-AAGAARD
+  Prime Supervisor: Prof Lei LI
+  Co-Supervisor: Prof Xiaofang ZHOU
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Zeyi WEN
+  Prof Shuai JIA
+  Prof Jianzhong QI
+  Date
+  04 June 2025
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 983 9921 4492
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98399214492?pwd=Z8Vxz4FLzaMkTApAavdI1sPNvqsA1t.1

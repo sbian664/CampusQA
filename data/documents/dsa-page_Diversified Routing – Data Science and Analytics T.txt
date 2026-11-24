@@ -1,0 +1,41 @@
+dsa_page: Diversified Routing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/diversified-routing/
+source: DSA
+
+headings:
+  - Diversified Routing
+  - Abstract
+  - Project members
+  - Lei LI
+  - Xiaofang ZHOU
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Diversified Routing
+  Abstract
+  Route planning is ubiquitous and has a profound impact on our daily life. However, the existing path algorithms tend to produce similar paths between similar OD (Origin-Destination) pairs because they optimize query results without considering their influence on the whole network, which further introduces congestions. Therefore, we investigate the problem of diversifying the top-k paths between an OD pair such that their similarities are under a threshold while their total length is minimal. However, the current solutions all depend on the expensive graph traversal which is too slow to apply in practice. Therefore, we first propose an edge deviation and concatenation-based method to avoid the expensive graph search in path enumeration. After that, we dive into the path relations and propose a path similarity computation method with constant complexity, and propose a pruning technique to improve efficiency. Finally, we provide the completeness and efficiency-oriented solutions to further accelerate the query answering. Evaluations on the real-life road networks demonstrate the effectiveness and efficiency of our algorithm over the state-of-the-art.
+  Project members
+  Lei LI
+  Assistant Professor
+  Xiaofang ZHOU
+  Chair Professor
+  Publications
+  1.
+  Diversified Top-𝑘 Route Planning in Road Network
+  . Zihan Luo, Lei Li, Mengxuan Zhang, Wen Hua, Yehong Xu, and Xiaofang Zhou. VLDB 2022.
+  2. Hybrid Diversified Routing System
+  Project Period
+  2022-Present
+  Research Area
+  Graph, Transportation
+  Keywords
+  Diversified, Graph, KSP, Path Enumeration, Route Planning, Transportation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf | https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf
+  - Diversified Top-𝑘 Route Planning in Road Network | https://www.vldb.org/pvldb/vol15/p3199-luo.pdf

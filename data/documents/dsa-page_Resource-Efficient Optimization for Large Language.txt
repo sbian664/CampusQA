@@ -1,0 +1,49 @@
+dsa_page: Resource-Efficient Optimization for Large Language Model Adaptation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/22/resource-efficient-optimization-for-large-language-model-adaptation/
+source: DSA
+
+headings:
+  - Resource-Efficient Optimization for Large Language Model Adaptation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Resource-Efficient Optimization for Large Language Model Adaptation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Minping CHEN
+  ABSTRACT
+  Large language models (LLMs) have become a general foundation for natural language understanding, generation, reasoning, and decision-making tasks. However, adapting LLMs to downstream tasks, domains, instructions, preferences, or verifiable objectives remains expensive. Full fine-tuning requires substantial memory for parameters, gradients, optimizer states, and activations, while reinforcement learning based post-training further introduces costly rollout generation, reward computation, and repeated evaluation. As a result, practical LLM adaptation is often constrained by limited trainable-parameter, memory, and time budgets.
+  This thesis studies resource-efficient optimization for LLM adaptation from a selective resource-allocation perspective. Instead of reducing computation uniformly, it asks where expensive adaptation resources should be spent to obtain the highest optimization value. This viewpoint leads to three connected research questions: under a trainable-parameter budget, which parameters should be updated; under a memory budget, where should exact first-order gradients be used; and under a time budget, which reinforcement learning hyperparameter configurations should receive high-fidelity evaluation.
+  To address the trainable-parameter bottleneck, this thesis proposes Low-Rank based Efficient Mask Learning (LoReML), an adaptive masking-based parameter-efficient fine-tuning method. LoReML learns task-specific parameter masks through low-rank decomposition and matrix reconstruction, converts the learned update into a binary mask, and uses the reconstructed update as a warm start for sparse fine-tuning. This design avoids dense mask parameters and expensive full fine-tuning during mask discovery, while preserving the storage and deployment advantages of sparse parameter updates. Experiments show that LoReML improves mask quality and achieves strong performance with substantially lower memory and computation cost.
+  To address the memory bottleneck, this thesis proposes Low-order Hybrid Optimizer (LoHO), a memory-aware optimizer that combines zeroth-order and first-order optimization. LoHO allocates accurate first-order gradients to selected layers or selected parameters inside layers, while using memory-light zeroth-order updates for the remaining parameters. Through inter-layer and intra-layer hybrid optimization, together with customized learning rates for the two optimizers, LoHO converts otherwise unused memory in inference-level zeroth-order finetuning into better optimization quality. The results demonstrate improved accuracy and convergence over pure zeroth-order fine-tuning under realistic single-GPU memory constraints.
+  To address the time bottleneck in LLM reinforcement learning (RL), this thesis proposes Joint Fidelity Hyperparameter Optimization (JF-HPO). JF-HPO treats both model size and training budget as fidelity dimensions, using proxy models, partial training, dynamics-aware early stopping, and a registry-based checkpointing mechanism to improve efficiency during hyperparameter search. This framework reserves expensive high-fidelity evaluations for promising configurations and makes hyperparameter optimization more feasible for RL post-training. Across diverse tasks, JF-HPO improves search efficiency and achieves better (in most cases) or comparable performance under fixed time budgets.
+  Overall, this thesis shows that scalable LLM adaptation can be improved by replacing uniformly expensive training with selective computation. By allocating trainable parameters, gradient accuracy, and high-fidelity evaluations more carefully, the proposed methods provide a coherent path toward effective LLM adaptation under realistic resource constraints.
+  TEC
+  Chairperson: Prof Xudong WANG
+  Prime Supervisor: Prof Zeyi WEN
+  Co-Supervisor: Prof Guomong TANG
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Lei LI
+  Prof Xinyu CHEN
+  Prof Shaohuai SHI
+  Date
+  13 August 2026
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

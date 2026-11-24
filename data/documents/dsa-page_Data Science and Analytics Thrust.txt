@@ -1,0 +1,35 @@
+dsa_page: Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/7965/
+source: DSA
+
+headings:
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. LI Guanghua
+  Abstract
+  Graphs and vectors are two data models frequently used in data analytics. Graphs represent structured data and emphasize the relationship between data items, while vectors represent unstructured data and contain the semantic information. Queries on both data models are time-consuming, due to computation complexity and costly distance calculation, respectively. We propose to support both graphs and vectors and enable hybrid processing of graph queries and vector similarity search in a unified GPU-accelerated in-memory system.
+  We first propose a tensor-based prototype for graph queries. Tensors are multi-dimensional arrays, and have been utilized as data units in deep learning frameworks such as Tensor Flow and PyTorch. Through tensors, these frameworks encapsulate optimized hardware dependent code for automatic performance wimprovement on modern processors. Inspired by this practice, we explore how to utilize tensors to efficiently process graph queries. Specifically, we design a succinct storage format for tensors to represent graph topology effectively and compose graph query operations using tensor computation.
+  We have developed TenGraph, our PyTorch-based prototype, and evaluated it on graph query benchmark workloads in comparison with a variety of CPU- and GPU-based systems. Our experimental results show that TenGraph not only achieves a speedup of 50-100 times on the GPU over the CPU but also outperforms the other CPU- and GPU-based systems significantly. However, the PyTorch-based graph query engine still has its limitations. Because of the lack of an efficient tensor operator for segmented set intersection in PyTorch, TenGraph can not fully efficiently support batched edge existence checking and queries on graph patterns with cycles. We propose to extend PyTorch with a new tensor operator segment_isin and utilize it to achieve efficient cyclic graph pattern matching. We will also explore implementing the graph-based approximate nearest neighbor search (ANNS) on tensor operators. We propose to add another new tensor operator rowwise_topk to support ANNS. We will implement joint queries that involve graph pattern matching and vector similarity search. We will also explore how to support graph edge insertion and deletion in TenGraph.
+  We propose to follow the architecture of composable databases and partial query evaluation, as adopted by an existing system, BOSS, to further extend our TenGraph system by integrating the cuVS library. Since both tensors and the basic data units in cuVS support cuda_array_interface, data conversion between PyTorch and cuVS will be zero-copy. We propose to explore the possible optimizations for deeper integration of graph and vector query processing after we combine TenGraph and cuVS.
+  TPE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. LUO Qiong
+  Co-Supervisor: Prof. ZHANG Wei
+  Examiner: Prof. DING Ningning
+  Date
+  09 June 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-147 (HKUST-GZ

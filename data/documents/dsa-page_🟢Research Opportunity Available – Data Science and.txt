@@ -1,0 +1,168 @@
+dsa_page: 🟢Research Opportunity Available – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/28/research-opportunity-available/
+source: DSA
+
+headings:
+
+text: >
+  DSA-REU
+  🟢Research Opportunity Available
+  Day: February 28, 2025
+  Browse: 1975
+  Share to
+  [NEW]
+  Project Title
+  :
+  Discrete Spatiotemporal Data Extension for PostgreSQL
+  Faculty Mentor
+  :
+  Prof. Lei Li
+  [NEW]
+  Project Title
+  :
+  Large Scale Graph Data Processing Implementation
+  Faculty Mentor
+  :
+  Prof. Lei Li
+  [NEW]
+  Project Title
+  :
+  Navigation System Optimization Implementation
+  Faculty Mentor
+  :
+  Prof. Lei Li
+  [NEW]
+  Project Title
+  :
+  Efficient and Controllable AIGC with Diffusion Models
+  Faculty Mentor
+  :
+  Prof. Zeke Xie
+  Project Title
+  :
+  AI & Graph Learning: Unlocking the Power of Networks
+  Faculty Mentor
+  :
+  Prof. Yongqi Zhang
+  Project Title
+  :
+  Retrieval Augmented Generation Behind Wearable Devices
+  Faculty Mentor
+  :
+  Prof. Yongqi Zhang
+  Project Title
+  :
+  DeepSeek-V3 Inference Efficiency Optimization
+  Faculty Mentor
+  :
+  Prof. Zeyi Wen
+  Project Title
+  :
+  Green GPU Computing for Large-Scale LLM Inferences
+  Faculty Mentor
+  :
+  Prof. Guoming Tang
+  Project Title
+  :
+  Introducing LLMs to Building Energy Modeling
+  Faculty Mentor
+  :
+  Prof. Guoming Tang
+  Project Title
+  :
+  Human-AI Collaborative Sample Selection Framework
+  Faculty Mentor
+  :
+  Prof. Weikai Yang
+  Project Title
+  :
+  Pictorial Chart Understanding
+  Faculty Mentor
+  :
+  Prof. Weikai Yang
+  Project Title
+  :
+  Exploration the brain activities during memory retrieval
+  Faculty Mentor
+  :
+  Prof. Zixin Zhong
+  Project Title
+  :
+  Reinforcement learning: theory and application
+  Faculty Mentor
+  :
+  Prof. Zixin Zhong
+  Project Title
+  :
+  Exploring Vision-Language Models for Spatio-Temporal Data Prediction
+  Faculty Mentor
+  :
+  Prof. Yuxuan Liang
+  Project Title
+  :
+  Enhancing Spatial Awareness in Multi-agent Networks for Urban Applications
+  Faculty Mentor
+  :
+  Prof. Yuxuan Liang
+  Project Title
+  :
+  Efficient Hyperparameter Optimization for LLM Inference
+  Faculty Mentor
+  :
+  Prof. Zeyi Wen
+  Project Title
+  :
+  Exploring Reasoning Models as Textual World Models
+  Faculty Mentor
+  :
+  Prof. Yuyu Luo
+  Project Title
+  :
+  LinguaSQL: Unlocking NL2SQL Potential Through Multilingual and Multi-Dialect Prompting
+  Faculty Mentor
+  :
+  Prof. Yuyu Luo
+  Project Title
+  :
+  Enhancing Natural Language Querying for Structured and Unstructured Data via Deep Reasoning Models
+  Faculty Mentor
+  :
+  Prof. Wei Wang
+  Project Title
+  :
+  Generative Models for Relational Datasets
+  Faculty Mentor
+  :
+  Prof. Wei Wang
+
+links:
+  - Discrete Spatiotemporal Data Extension for PostgreSQL | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/Discrete-Spatiotemporal-Data-Extension-for-PostgreSQL.pdf
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/13/guoming-tang/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/13/guoming-tang/
+  - Prof. Lei Li | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/lei-li/
+  - Large Scale Graph Data Processing Implementation | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/Graph-Data-Query-Implementation.pdf
+  - Navigation System Optimization Implementation | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/Navigation-System-Optimization-Implementation.pdf
+  - Efficient and Controllable AIGC with Diffusion Models | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/DSA_REU_Research-Project_Zeke-Xie.pdf
+  - Prof. Zeke Xie | https://dsa.hkust-gz.edu.cn/blog/2024/06/18/zeke-xie/
+  - AI & Graph Learning: Unlocking the Power of Networks | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yongqi-Zhang_graph-learning.pdf
+  - Prof. Yongqi Zhang | https://dsa.hkust-gz.edu.cn/blog/2024/07/04/yongqi-zhang/
+  - Retrieval Augmented Generation Behind Wearable Devices | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yongqi-Zhang_KDD-Cup-MM-RAG.pdf
+  - https://dsa.hkust-gz.edu.cn/blog/2024/03/12/zeyi-wen/ | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/zeyi-wen/
+  - DeepSeek-V3 Inference Efficiency Optimization | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zeyi-Wen_DeepSeek-V3.pdf
+  - Green GPU Computing for Large-Scale LLM Inferences | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project-_GuomingTang_Green-GPU-Computing-for-Large-Scale-LLM-Inferences.pdf
+  - Introducing LLMs to Building Energy Modeling | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_GuomingTang.pdf
+  - Human-AI Collaborative Sample Selection Framework | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Weikai_LLM-Human-Collaborative_Data_Sampling.pdf
+  - Prof. Weikai Yang | https://dsa.hkust-gz.edu.cn/blog/2024/07/11/yang-weikai/
+  - Pictorial Chart Understanding | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Weikai_Fancy_Chart_QA.pdf
+  - Exploration the brain activities during memory retrieval | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zixin-Zhong_psychology.pdf
+  - Prof. Zixin Zhong | https://dsa.hkust-gz.edu.cn/blog/2024/07/11/zixin-zhong/
+  - Reinforcement learning: theory and application | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zixin-Zhong_rl.pdf
+  - Exploring Vision-Language Models for Spatio-Temporal Data Prediction | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project-Yuxuan-Liang-Exploring-Vision-Language-Models.pdf
+  - Prof. Yuxuan Liang | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/yuxuan-liang/
+  - Enhancing Spatial Awareness in Multi-agent Networks for Urban Applications | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project-Yuxuan-Liang-Enhancing-Spatial-Awareness.pdf
+  - Efficient Hyperparameter Optimization for LLM Inference | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zeyi-Wen.pdf
+  - Exploring Reasoning Models as Textual World Models | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yuyu-Luo_Exploring-Reasoning-Models-as-Textual-World-Models.pdf
+  - Prof. Yuyu Luo | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/yuyu-luo/
+  - LinguaSQL: Unlocking NL2SQL Potential Through Multilingual and Multi-Dialect Prompting | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yuyu-Luo_LinguaSQL.pdf
+  - Enhancing Natural Language Querying for Structured and Unstructured Data via Deep Reasoning Models | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Wei-Wang_LLM.pdf
+  - Prof. Wei Wang | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/wei-wang/
+  - Generative Models for Relational Datasets | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Wei-Wang_GenModel.pdf

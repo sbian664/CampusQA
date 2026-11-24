@@ -1,0 +1,48 @@
+dsa_page: DSA Lunch Salon: Research Milestones and Notable Progress 3rd Session – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/26/dsa-lunch-salon-special-session/
+source: DSA
+
+headings:
+  - DSA Lunch Salon: Research Milestones and Notable Progress 3rd Session
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Audience
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Student Activities
+  DSA Lunch Salon: Research Milestones and Notable Progress 3rd Session
+  Share to
+  The Salon will consist of (1) the Awarding Ceremony of 2023 DSA Excellent Research Award, (2) the showcase of selected awardees and (3) a Lucky Draw for the Chinese New Year gifts. The selection process for the Awards is carefully organized by DSA Postgraduate Committee and 10 students are invited to appear with the Prizes designation.
+  After the ceremony, we will have 4 awardees of the top prizes “Excellent Research Prize” and “Merit Prize” as speakers to share their research milestones and notable progress in 2023. Food and beverage will be offered as well.
+  Kindly note that the event is only open to HKUST(GZ) students. Due to limited space, we strongly encourage you to scan the QR code in the poster to register asap if you are interested.
+  *A confirmation email will be sent by
+  Jan 29
+  th
+  to successful registered audience only.
+  Date
+  31 January 2024
+  Time
+  12:00:00 -
+  13:30:00
+  Location
+  E1-1F-122, HKUST(GZ)
+  Event Organizer
+  DSA Postgraduate Committee
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  HKUST(GZ) students
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/Huf0FHHrluZQA96nPWYNeg
+  - REGISTER | https://www.wjx.top/vm/Qj4r5IA.aspx
+  - EVENT RECAP | https://mp.weixin.qq.com/s/4fQ8iXofvXm8pOAPpTnHcw

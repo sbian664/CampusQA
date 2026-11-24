@@ -1,0 +1,27 @@
+dsa_page: From Recall to Reason: Unlocking the Cognitive Core of Foundation Agents – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/09/practical-real-world-reinforcement-learning-via-entropy-regularization/
+source: DSA
+
+headings:
+  - From Recall to Reason: Unlocking the Cognitive Core of Foundation Agents
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  From Recall to Reason: Unlocking the Cognitive Core of Foundation Agents
+  Share to
+  ABSTRACT
+  Foundation agents, built on the backbone of large language models, are evolving from passive responders to active thinkers—autonomously remembering, reasoning, and improving across tasks and domains. Yet two cognitive capabilities remain crucial bottlenecks: how they remember and how they think. In this talk, I present a cognitive-inspired framework for understanding and architecting foundation agents, and focus on two core pillars—memory and reasoning—through the lens of our recent advances. 1) R3Mem introduces reversible memory compression to balance long-term retention with precise retrieval, enabling LLM agents to recall extended histories and interact coherently across long horizons. 2) System-1.5 Reasoning breaks the dichotomy between fast heuristics and slow deliberation by creating dynamic shortcuts in latent space. It achieves CoT-level reasoning with up to 20× faster inference, bridging System-1 speed and System-2 depth. These systems pave the way for scalable, human-aligned foundation agents with enduring memory and adaptive reasoning.
+  SPEAKER BIO
+  Foundation agents, built on the backbone of large language models, are evolving from passive responders to active thinkers—autonomously remembering, reasoning, and improving across tasks and domains. Yet two cognitive capabilities remain crucial bottlenecks: how they remember and how they think. In this talk, I present a cognitive-inspired framework for understanding and architecting foundation agents, and focus on two core pillars—memory and reasoning—through the lens of our recent advances. 1) R3Mem introduces reversible memory compression to balance long-term retention with precise retrieval, enabling LLM agents to recall extended histories and interact coherently across long horizons. 2) System-1.5 Reasoning breaks the dichotomy between fast heuristics and slow deliberation by creating dynamic shortcuts in latent space. It achieves CoT-level reasoning with up to 20× faster inference, bridging System-1 speed and System-2 depth. These systems pave the way for scalable, human-aligned foundation agents with enduring memory and adaptive reasoning.
+  Date
+  23 July 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  W1-201, HKUST-GZ

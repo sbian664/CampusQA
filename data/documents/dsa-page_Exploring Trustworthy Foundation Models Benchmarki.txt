@@ -1,0 +1,27 @@
+dsa_page: Exploring Trustworthy Foundation Models: Benchmarking, Finetuning and Reasoning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/12/exploring-trustworthy-foundation-models-benchmarking-finetuning-and-reasoning/
+source: DSA
+
+headings:
+  - Exploring Trustworthy Foundation Models: Benchmarking, Finetuning and Reasoning
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Exploring Trustworthy Foundation Models: Benchmarking, Finetuning and Reasoning
+  Share to
+  ABSTRACT
+  In the current landscape of machine learning, where foundation models must navigate imperfect real-world conditions such as noisy data and unexpected inputs, ensuring their trustworthiness through rigorous benchmarking, safety-focused finetuning, and robust reasoning is more critical than ever. In this talk, I will focus on three recent research advancements that collectively advance these dimensions, offering a comprehensive approach to building trustworthy foundation models. For benchmarking, I will introduce CounterAnimal, a dataset designed to systematically evaluate CLIP’s vulnerability to realistic spurious correlations, revealing that scaling models or data quality can mitigate these biases, yet scaling data alone does not effectively address them. Transitioning to finetuning, we delve deep into the process of unlearning undesirable model behaviors. We propose a general framework to examine and understand the limitations of current unlearning methods and suggest enhanced revisions for more effective unlearning. Furthermore, addressing reasoning, we investigate the reasoning robustness under noisy rationales by constructing the NoRa dataset and propose contrastive denoising with noisy chain-of-thought, a method that markedly improves denoising-reasoning capabilities by contrasting noisy inputs with minimal clean supervision.
+  SPEAKER BIO
+  Bo Han is currently an Associate Professor in Machine Learning and a Director of Trustworthy Machine Learning and Reasoning Group at Hong Kong Baptist University, and a BAIHO Visiting Scientist of Imperfect Information Learning Team at RIKEN Center for Advanced Intelligence Project (RIKEN AIP), where his research focuses on machine learning, deep learning, foundation models, and their applications. He was a Visiting Research Scholar at MBZUAI MLD (2024), a Visiting Faculty Researcher at Microsoft Research (2022), and a Postdoc Fellow at RIKEN AIP (2019-2020). He received his Ph.D. degree in Computer Science from University of Technology Sydney (2015-2019). He has co-authored three machine learning monographs, including Machine Learning with Noisy Labels (MIT Press), Trustworthy Machine Learning under Imperfect Data (Springer Nature), and Trustworthy Machine Learning from Data to Models (Foundations and Trends). He has served as Senior Area Chair of NeurIPS, and Area Chairs of NeurIPS, ICML and ICLR. He has also served as Associate Editors of IEEE TPAMI, MLJ and JAIR, and Editorial Board Members of JMLR and MLJ. He received paper awards, including Outstanding Paper Award at NeurIPS, Most Influential Paper at NeurIPS, and Outstanding Student Paper Award at NeurIPS Workshop. He received the RGC Early CAREER Scheme, IEEE AI's 10 to Watch Award, IJCAI Early Career Spotlight, INNS Aharon Katzir Young Investigator Award, RIKEN BAIHO Award, Dean's Award for Outstanding Achievement, and Microsoft Research StarTrack Scholars Program.
+  Date
+  16 September 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

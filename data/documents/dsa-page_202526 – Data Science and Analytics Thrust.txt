@@ -1,0 +1,197 @@
+dsa_page: 2025/26 – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/02/11/2025-26-2/
+source: DSA
+
+headings:
+  - 2025/26 Fall
+  - 2025/26 Spring
+  - 2025/26 Summer
+
+text: >
+  Course Syllabus
+  2025/26
+  Day: February 11, 2026
+  Browse: 1887
+  Share to
+  2025/26 Fall
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 1001
+  Introduction to Data Science and Analytics
+  LI, Lei,
+  WANG, Wei,
+  ZHANG, Yongqi
+  PDF
+  DSAA 2011
+  Machine Learning
+  ZHONG, Zixin
+  PDF
+  DSAA 2012
+  Deep Learning
+  GUO, Zhijiang
+  PDF
+  DSAA 2043
+  Design and Analysis of Algorithms
+  ZHANG, Yanlin,
+  LU, Shangqi
+  PDF
+  DSAA 2044
+  Data Science Project
+  DING, Zishuo
+  PDF
+  DSAA 2088
+  Mathematics for Data Science
+  DING, Ningning,
+  WANG, Wenjia
+  PDF
+  DSAA 3032
+  Introduction to High-Performance and
+  Parallel Computing
+  LUO, Qiong
+  PDF
+  DSAA 3051
+  Introduction to Natural Language
+  Processing and Knowledge Engineering
+  WEI, Jiaheng
+  PDF
+  2025/26 Spring
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 1085
+  Probability and Statistics
+  SUN, Jianfeng
+  PDF
+  DSAA 2011
+  Machine Learning
+  YANG, Weikai,
+  ZHONG, Zixin
+  PDF
+  DSAA 2012
+  Deep Learning
+  LIANG, Chen
+  PDF
+  DSAA 2031
+  Database Management Systems
+  TANG, Nan
+  PDF
+  DSAA 2043
+  Design and Analysis of Algorithms
+  ZHANG, Yanlin
+  PDF
+  DSAA 3041
+  Advanced Algorithms
+  LU, Shangqi
+  PDF
+  DSAA 3053
+  Introduction to Reinforcement Learning
+  ZHONG, Zixin
+  PDF
+  DSAA 3071
+  Theories in Computing
+  LU, Shangqi,
+  WANG, Wei
+  PDF
+  DSAA 4040
+  Cloud Computing and Big Data Systems
+  TANG, Guoming
+  PDF
+  DSAA 4086
+  Introduction to Optimization
+  CUI, Ying
+  PDF
+  2025/26 Summer
+  Click to Expand / Collapse
+  Course Code
+  Course Title
+  Instructor(s)
+  Course Syllabus
+  DSAA 1001
+  Introduction to Data Science and Analytics
+  LI, Lei,
+  WANG, Wei,
+  ZHANG, Yongqi
+  PDF
+  DSAA 2011
+  Machine Learning
+  WEI, Jiaheng
+  PDF
+  DSAA 2042
+  Computer Architecture and Systems
+  WEN, Zeyi
+  PDF
+  DSAA 3073
+  Theories in Data Science
+  WANG, Wei
+  PDF
+  DSAA 4012
+  Machine Learning Systems
+  DUAN, Huayi
+  PDF
+  Note: DSAA4012 requires DSAA2011 and DSAA2042 as prerequisites. Since DSAA4012 covers only a limited portion of architecture and operating system content, students who have not completed DSAA2042 may request a requisite waiver to take DSAA4012 alone, or to take DSAA2042 and DSAA4012 concurrently.
+  Click to view the
+  Course Dependency Diagram
+  to understand the prerequisite relationships among courses and the recommended progression to higher-level subjects.
+  For syllabi of courses offered by other Course Offering Units, please refer to the
+  UG Course Syllabus page
+  .
+
+tables:
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 1001 | Introduction to Data Science and Analytics | LI, Lei, WANG, Wei, ZHANG, Yongqi | PDF
+  - DSAA 2011 | Machine Learning | ZHONG, Zixin | PDF
+  - DSAA 2012 | Deep Learning | GUO, Zhijiang | PDF
+  - DSAA 2043 | Design and Analysis of Algorithms | ZHANG, Yanlin, LU, Shangqi | PDF
+  - DSAA 2044 | Data Science Project | DING, Zishuo | PDF
+  - DSAA 2088 | Mathematics for Data Science | DING, Ningning, WANG, Wenjia | PDF
+  - DSAA 3032 | Introduction to High-Performance and Parallel Computing | LUO, Qiong | PDF
+  - DSAA 3051 | Introduction to Natural Language Processing and Knowledge Engineering | WEI, Jiaheng | PDF
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 1085 | Probability and Statistics | SUN, Jianfeng | PDF
+  - DSAA 2011 | Machine Learning | YANG, Weikai, ZHONG, Zixin | PDF
+  - DSAA 2012 | Deep Learning | LIANG, Chen | PDF
+  - DSAA 2031 | Database Management Systems | TANG, Nan | PDF
+  - DSAA 2043 | Design and Analysis of Algorithms | ZHANG, Yanlin | PDF
+  - DSAA 3041 | Advanced Algorithms | LU, Shangqi | PDF
+  - DSAA 3053 | Introduction to Reinforcement Learning | ZHONG, Zixin | PDF
+  - DSAA 3071 | Theories in Computing | LU, Shangqi, WANG, Wei | PDF
+  - DSAA 4040 | Cloud Computing and Big Data Systems | TANG, Guoming | PDF
+  - DSAA 4086 | Introduction to Optimization | CUI, Ying | PDF
+  - Course Code | Course Title | Instructor(s) | Course Syllabus
+  - DSAA 1001 | Introduction to Data Science and Analytics | LI, Lei, WANG, Wei, ZHANG, Yongqi | PDF
+  - DSAA 2011 | Machine Learning | WEI, Jiaheng | PDF
+  - DSAA 2042 | Computer Architecture and Systems | WEN, Zeyi | PDF
+  - DSAA 3073 | Theories in Data Science | WANG, Wei | PDF
+  - DSAA 4012 | Machine Learning Systems | DUAN, Huayi | PDF
+
+links:
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-1001_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-2011_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-2012_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-2043_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-2044_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-2088_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-3032_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA-3051_Fall-2526.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/05/ug_course_syllabus_DSAA1085_Probability_and_Statistics-26.03.26.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA2011_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/03/ug_spring-2526_DSAA2012_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA-2031_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA2043_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA3041_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA3053_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA3071_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA4040_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_spring-2526_DSAA4086_course_syllabus.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/05/ug_course_syllabus_DSAA1001-Summer.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA2011-Summer.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA2042-Summer.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/08/ug_course_syllabus_DSAA3073-Summer_revised-assessment.pdf
+  - PDF | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/01/ug_course_syllabus_DSAA4012-Summer.pdf
+  - Course Dependency Diagram | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/course-diagram/
+  - UG Course Syllabus page | https://www.hkust-gz.edu.cn/academics/academic-quality-manual/learning-resources-and-support/ug-course-syllabus-ug/

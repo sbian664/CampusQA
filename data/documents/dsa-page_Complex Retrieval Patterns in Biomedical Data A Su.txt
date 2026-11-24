@@ -1,0 +1,46 @@
+dsa_page: Complex Retrieval Patterns in Biomedical Data: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/16/complex-retrieval-patterns-in-biomedical-data-asurvey/
+source: DSA
+
+headings:
+  - Complex Retrieval Patterns in Biomedical Data: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Complex Retrieval Patterns in Biomedical Data: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. SU, Ri
+  Abstract
+  Biomedical retrieval becomes structurally complex when the evidence required by a task cannot be represented by one predefined candidate. The complexity appears first in text retrieval. Specific-domain evidence question answering (QA) may require several source spans whose value depends on relation direction, polarity, population, evidential role, and the evidence already selected. A high-ranking passage may be relevant yet redundant, incomplete, contradictory, or insufficient. Medical image retrieval exposes a second form of complexity across radiology and pathology. Depending on the question, the task-valid return object may be a bounded image, lesion, examination, volume, multiscale region, whole slide, or an image–text match. These objects preserve different anatomy, morphology, spatial context, and cross-modal correspondence.
+  Both settings violate a hidden assumption in the usual query–candidate–ranking workflow: the indexed unit, the returned object, and the evaluation unit are treated as if they were the same object. This survey examines what changes when they are not. It first reviews probative evidence-set construction in specific-domain QA, where source-grounded candidates play state-dependent roles. It then reviews evidence-unit expressivity in medical image retrieval, where local or single-image representations may need to be composed into lesions, examinations, volumes, regions, slides, or grounded image–text results. A third sub-point, valid evaluation, separates candidate access from set support, stopping, spatial fidelity, downstream utility, robustness, and cost. The central claim is that a biomedical retrieval method should be judged by the task validity of its returned evidence object, not only by item-level similarity. Fixed-unit top-k retrieval remains the null model, and additional structure is warranted only when it improves a declared endpoint under matched conditions.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. LI, Jia (online)
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  31 July 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  983 9073 2945
+  Passcode: DSA
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

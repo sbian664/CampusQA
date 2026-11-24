@@ -1,0 +1,42 @@
+fytgs_page: HKUST 2.0
+url: https://fytgs.hkust-gz.edu.cn/hkust-2-0
+source: FYTGS
+
+headings:
+  - HKUST 2.0 - Converging Creative Minds, Empowering a Better Future
+  - Pioneering Academic Structure Drives Pioneering Education
+
+text: >
+  HKUST 2.0 - Converging Creative Minds, Empowering a Better Future
+  The postgraduate education in HKUST is buttressed with a distinct academic structure which is underpinned by the rich heritage of research excellence and hallmarked by cutting edge innovation.
+  For over three decades, HKUST has developed world-class strengths in four Schools which comprise solid and well-defined disciplines in Divisions/Departments. Academy of Interdisciplinary Studies (AIS), previously the Interdisciplinary Programs Office (IPO) has been serving as a platform for interdisciplinary endeavors in emerging areas. On this strong and disciplinary foundation, HKUST(GZ) will chart new territories through the four Hubs which serve as a nexus among disciplines. Under each Hub are the Thrust Areas which represent the key emerging areas for research foci. The Hub structure strives to cut across disciplinary and organizational boundaries, encourage synergy, and create holistic knowledge.
+  Carrying the mission to advance knowledge and learning, HKUST is ushering in a new era of HKUST 2.0 with HKUST (GZ).
+  Embarked on the HKUST 2.0 and founded on our uniquely pioneering academic structure, HKUST is well-poised to implement its vision in a dual framework for disciplinary and cross-disciplinary pursuits under the “
+  Unified HKUST, Complementary Campuses
+  ” framework. The breadth of contemporary scholarship and the ever more complex problems facing society have called for both curiosity-driven and mission-motivated research. Under this framework, while HKUST and HKUST(GZ) are financially and legally separate entities, they are closely linked and synergistic academically. A comprehensive range of postgraduate degree programs have been developed under two distinct approaches.
+  Pioneering Academic Structure Drives Pioneering Education
+  We are proud to trail-blaze the dual framework for
+  a) Solid and disciplinary based programs in Schools/AIS at HKUST in concert with
+  b) Thematic cross-disciplinary programs in the non-conventional Hubs at HKUST(GZ).
+  There would be no overlapping; but synergy between the two types of postgraduate programs: one conducts in-depth investigation into disciplinary knowledge for new discovery under the blue-sky unrestricted framework; while another generates brand new innovative solutions to imminent global issues with cross-disciplinary angles. They are complementary in addressing new frontiers and world-wide challenges to advance humanity.
+  Under the common academic framework, all programs are developed and aligned to avoid duplication. The University’s quality assurance mechanisms apply to programs at both HKUST and HKUST(GZ) to ensure academic rigor and consistency of standards, from admission to thesis and examination requirements. To enhance cross-campus collaboration, opportunities will be provided for Dual Degree programs, joint thesis supervision, course sharing, and access to research facilities.
+  HKUST and HKUST(GZ)
+  Founded in 1991 and located at Clear Water Bay, Hong Kong,
+  the Hong Kong University of Science and Technology (HKUST)
+  has been at the forefront of advancing learning and knowledge through teaching and research, linked with the development of the wider society. It is wholly committed to its mission of social and economic development of Hong Kong through nurturing talents.
+  Officially opened in September 2022 and located in Nansha, Guangzhou,
+  the Hong Kong University of Science and Technology (Guangzhou)
+  , is well poised to expand HKUST’s vision in education, innovation and knowledge transfer to the Greater Bay Area and beyond. While the two universities are separate legal and financial entities, HKUST(GZ) shares the same vision, mission and values with HKUST, which transcend the far-reaching.
+  If you wish to learn more, please visit:
+  Study@HKUST
+  Study@HKUST(GZ)
+
+tables:
+  - HKUST and HKUST(GZ)
+  - Founded in 1991 and located at Clear Water Bay, Hong Kong, the Hong Kong University of Science and Technology (HKUST) has been at the forefront of advancing learning and knowledge through teaching and research, linked with the development of the wider society. It is wholly committed to its mission of social and economic development of Hong Kong through nurturing talents. Officially opened in September 2022 and located in Nansha, Guangzhou, the Hong Kong University of Science and Technology (Guangzhou) , is well poised to expand HKUST’s vision in education, innovation and knowledge transfer to the Greater Bay Area and beyond. While the two universities are separate legal and financial entities, HKUST(GZ) shares the same vision, mission and values with HKUST, which transcend the far-reaching.
+
+links:
+  - the Hong Kong University of Science and Technology (HKUST) | https://hkust.edu.hk/
+  - the Hong Kong University of Science and Technology (Guangzhou) | https://hkust-gz.edu.cn/
+  - Study@HKUST | https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/online-application
+  - Study@HKUST(GZ) | https://fytgs.hkust-gz.edu.cn/how-apply

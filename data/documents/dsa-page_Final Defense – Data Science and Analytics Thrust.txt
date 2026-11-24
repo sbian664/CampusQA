@@ -1,0 +1,103 @@
+dsa_page: Final Defense – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/defenses/final-defense/
+source: DSA
+
+headings:
+  - Kernel Learning Methods in Offline and Online Settings
+  - Enhancing Small Models via Guided Learning Strategies
+  - Towards Generalizable and Efficient Graph Foundation Models with Large Language Models
+  - Multi-Granularity Dynamic Modeling for Complex Time Series Systems
+  - Head-Mounted Intelligent Sensing Systems for Real-World Health Monitoring
+  - From Unimodal to Multimodal: Sample-Adaptive and Transferable Representation Learning for Robust Medical Time Series Modeling
+  - Protein Function Prediction with Sequence, Structure, and Protein-Protein Interaction Information
+  - Robust and Efficient Astronomical Data Reconstruction and Analysis
+  - Resource-Efficient Optimization for Large Language Model Adaptation
+  - Towards Efficient Distributed Training Systems for Sparse Mixture-of-Experts
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  19
+  Aug 2026
+  Final Defense
+  Kernel Learning Methods in Offline and Online Settings
+  Ms. Suizi HUANG
+  E3-201, HKUST(GZ)
+  14:00 - 16:00
+  18
+  Aug 2026
+  Final Defense
+  Enhancing Small Models via Guided Learning Strategies
+  Mr. Bo HUANG
+  E3-202, HKUST(GZ)
+  10:00 - 12:00
+  17
+  Aug 2026
+  Final Defense
+  Towards Generalizable and Efficient Graph Foundation Models with Large Language Models
+  Mr. Yuhan LI
+  E3-202, HKUST(GZ)
+  16:00 - 18:00
+  17
+  Aug 2026
+  Final Defense
+  Multi-Granularity Dynamic Modeling for Complex Time Series Systems
+  Mr. Lingzheng ZHANG
+  E3-201, HKUST(GZ)
+  14:30 - 16:30
+  17
+  Aug 2026
+  Final Defense
+  Head-Mounted Intelligent Sensing Systems for Real-World Health Monitoring
+  Mr. Yongzhi HUANG
+  E3-202, HKUST(GZ)
+  10:00 - 12:00
+  17
+  Aug 2026
+  Final Defense
+  From Unimodal to Multimodal: Sample-Adaptive and Transferable Representation Learning for Robust Medical Time Series Modeling
+  Ms. Jiexia YE
+  E3-201, HKUST(GZ)
+  09:30 - 11:30
+  14
+  Aug 2026
+  Final Defense
+  Protein Function Prediction with Sequence, Structure, and Protein-Protein Interaction Information
+  Mr. Zhuoyang CHEN
+  E3-201, HKUST(GZ)
+  10:00 - 12:00
+  14
+  Aug 2026
+  Final Defense
+  Robust and Efficient Astronomical Data Reconstruction and Analysis
+  Ms. Ruoqi WANG
+  E3-201, HKUST(GZ)
+  08:00 - 10:00
+  13
+  Aug 2026
+  Final Defense
+  Resource-Efficient Optimization for Large Language Model Adaptation
+  Ms. Minping CHEN
+  E3-201, HKUST(GZ)
+  10:00 - 12:00
+  11
+  Aug 2026
+  Final Defense
+  Towards Efficient Distributed Training Systems for Sparse Mixture-of-Experts
+  Mr. Xinglin PAN
+  E3-201, HKUST(GZ)
+  10:30 - 12:30
+
+links:
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/23/kernel-learning-methods-in-offline-and-online-settings/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/23/kernel-learning-methods-in-offline-and-online-settings/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/14/enhancing-small-models-via-guided-learning-strategies/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/14/enhancing-small-models-via-guided-learning-strategies/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/08/11/towards-generalizable-and-efficient-graph-foundation-models-with-large-language-models/ | https://dsa.hkust-gz.edu.cn/blog/2026/08/11/towards-generalizable-and-efficient-graph-foundation-models-with-large-language-models/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/23/multi-granularity-dynamic-modeling-for-complex-time-series-systems/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/23/multi-granularity-dynamic-modeling-for-complex-time-series-systems/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/23/head-mounted-intelligent-sensing-systems-for-real-world-health-monitoring/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/23/head-mounted-intelligent-sensing-systems-for-real-world-health-monitoring/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/23/from-unimodal-to-multimodal-sample-adaptive-and-transferable-representation-learning-for-robust-medical-time-series-modeling/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/23/from-unimodal-to-multimodal-sample-adaptive-and-transferable-representation-learning-for-robust-medical-time-series-modeling/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/22/protein-function-prediction-with-sequence-structure-and-protein-protein-interaction-information/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/22/protein-function-prediction-with-sequence-structure-and-protein-protein-interaction-information/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/08/12/robust-and-efficient-astronomical-data-reconstruction-and-analysis/ | https://dsa.hkust-gz.edu.cn/blog/2026/08/12/robust-and-efficient-astronomical-data-reconstruction-and-analysis/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/22/resource-efficient-optimization-for-large-language-model-adaptation/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/22/resource-efficient-optimization-for-large-language-model-adaptation/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/23/towards-efficient-distributed-training-systems-for-sparse-mixture-of-experts/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/23/towards-efficient-distributed-training-systems-for-sparse-mixture-of-experts/

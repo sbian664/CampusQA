@@ -1,0 +1,39 @@
+dsa_page: A SURVEY ON SYSTEM-LEVEL KV CACHE MANAGEMENT FOR SCALABLE LLM INFERENCE – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/a-survey-on-system-level-kv-cache-management-for-scalable-llm-inference/
+source: DSA
+
+headings:
+  - A SURVEY ON SYSTEM-LEVEL KV CACHE MANAGEMENT FOR SCALABLE LLM INFERENCE
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY ON SYSTEM-LEVEL KV CACHE MANAGEMENT FOR SCALABLE LLM INFERENCE
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr.GAO, Shihong
+  Abstract
+  Large Language Models (LLMs) have transformed artificial intelligence, excelling in tasks like natural language understanding, question answering, and code generation, and driving applications such as chatbots and search engines. Central to these applications are LLM inference serving systems. And these systems rely on the KV cache, which which stores reusable key-value vectors, to minimize redundant computation. However, the memory-intensive nature of the KV cache, especially in high-concurrency or long-context scenarios, poses a significant change to the scalability. This survey reviews system-level KV cache management techniques aimed at enhancing scalable LLM inference performance. Specifically, I categorize existing methods into three areas: KV cache storage layout management, KV cache storage location management, and KV cache storage lifespan management. I also highlight ongoing research progress and outline potential future directions, providing a comprehensive overview of this pivotal field in LLM systems research.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. YANG, Can
+  Co-Supervisor: Prof. CHEN, Lei
+  Examiner: Prof. ZHANG Yongqi
+  Date
+  09 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-149 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  968 5741 3836
+  Passcode: dsa2025

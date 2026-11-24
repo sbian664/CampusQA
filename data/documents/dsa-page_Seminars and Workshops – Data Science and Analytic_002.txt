@@ -1,0 +1,94 @@
+dsa_page: Seminars and Workshops – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/
+source: DSA
+
+headings:
+  - One-Pass Bandit Learning for RLHF and Function Approximation
+  - Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  - Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  - HKUST(GZ)-CityUHK Joint Workshop on Frontier AI Research
+  - Towards Autonomous Scientific Agent Systems
+  - Towards Better Time Series Intelligence in the Foundation Model Era: From a Data-Centric Lens
+  - Post-Deployment Security and Privacy for Machine Learning and Data Systems
+  - Robust Self-Supervised Learning with Applications in Multiple Domains
+  - Scalable Data Analytics — with Rigorous Privacy Guarantees
+  - Efficient, Trusted, and Practical Automated Reasoning
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  01
+  Sep 2026
+  /
+  02
+  Sep 2026
+  DSA Seminar
+  One-Pass Bandit Learning for RLHF and Function Approximation
+  E1-202 (HKUST-GZ)
+  30
+  Jul 2026
+  DSA Seminar
+  Old Models, New Machines: Classical Statistical Structure as Building Blocks for Modern LLM Systems: From Copula-Coupled Expert Routing to Scalable Determinantal Data Selection
+  14:30 - 15:15
+  02
+  Jul 2026
+  DSA & AI Joint Seminar
+  Building Generalizable and Trustworthy Intelligence-Representations, Robustness, and Grounding in the Foundation Model Era
+  E1-147
+  10:00 - 16:00
+  28
+  May 2026
+  Workshop
+  HKUST(GZ)-CityUHK Joint Workshop on Frontier AI Research
+  Lecture Hall C
+  10:00 - 12:00
+  28
+  Apr 2026
+  DSA Seminar
+  Towards Autonomous Scientific Agent Systems
+  Rm 101, W1, HKUST(GZ)
+  11:00 - 12:00
+  21
+  Apr 2026
+  DSA Seminar
+  Towards Better Time Series Intelligence in the Foundation Model Era: From a Data-Centric Lens
+  Rm 101, W1, HKUST(GZ)
+  11:00 - 12:00
+  23
+  Apr 2026
+  DSA Seminar
+  Post-Deployment Security and Privacy for Machine Learning and Data Systems
+  W1-233， HKUST(GZ)
+  15:45 - 17:45
+  31
+  Mar 2026
+  DSA Seminar
+  Robust Self-Supervised Learning with Applications in Multiple Domains
+  Rm 101, W1, HKUST(GZ)
+  11:00 - 12:00
+  01
+  Apr 2026
+  DSA & AI Joint Seminar
+  Scalable Data Analytics — with Rigorous Privacy Guarantees
+  E1-201, HKUST(GZ)
+  14:00 - 15:00
+  30
+  Mar 2026
+  DSA Seminar
+  Efficient, Trusted, and Practical Automated Reasoning
+  E3-201, HKUST(GZ)
+  09:30 - 10:30
+
+links:
+  - https://dsa.hkust-gz.edu.cn/blog/2026/08/31/one-pass-bandit-learning-for-rlhf-and-function-approximation/ | https://dsa.hkust-gz.edu.cn/blog/2026/08/31/one-pass-bandit-learning-for-rlhf-and-function-approximation/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/07/27/old-models-new-machines-classical-statistical-structure-as-building-blocks-for-modern-llm-systems-from-copula-coupled-expert-routing-to-scalable-determinantal-data-selection/ | https://dsa.hkust-gz.edu.cn/blog/2026/07/27/old-models-new-machines-classical-statistical-structure-as-building-blocks-for-modern-llm-systems-from-copula-coupled-expert-routing-to-scalable-determinantal-data-selection/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/30/building-generalizable-and-trustworthy-intelligence-representations-robustness-and-grounding-in-the-foundation-model-era/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/30/building-generalizable-and-trustworthy-intelligence-representations-robustness-and-grounding-in-the-foundation-model-era/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/05/27/hkustgz-cityuhk-joint-workshop-on-frontier-ai-research/ | https://dsa.hkust-gz.edu.cn/blog/2026/05/27/hkustgz-cityuhk-joint-workshop-on-frontier-ai-research/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/04/24/towards-autonomous-scientific-agent-systems/ | https://dsa.hkust-gz.edu.cn/blog/2026/04/24/towards-autonomous-scientific-agent-systems/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/04/21/towards-better-time-series-intelligence-in-the-foundation-model-era-from-a-data-centric-lens/ | https://dsa.hkust-gz.edu.cn/blog/2026/04/21/towards-better-time-series-intelligence-in-the-foundation-model-era-from-a-data-centric-lens/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/04/16/post-deployment-security-and-privacy-for-machine-learning-and-data-systems/ | https://dsa.hkust-gz.edu.cn/blog/2026/04/16/post-deployment-security-and-privacy-for-machine-learning-and-data-systems/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/03/27/robust-self-supervised-learning-with-applications-in-multiple-domains/ | https://dsa.hkust-gz.edu.cn/blog/2026/03/27/robust-self-supervised-learning-with-applications-in-multiple-domains/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/03/26/scalable-data-analytics-with-rigorous-privacy-guarantees/ | https://dsa.hkust-gz.edu.cn/blog/2026/03/26/scalable-data-analytics-with-rigorous-privacy-guarantees/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/03/26/efficient-trusted-and-practical-automated-reasoning/ | https://dsa.hkust-gz.edu.cn/blog/2026/03/26/efficient-trusted-and-practical-automated-reasoning/

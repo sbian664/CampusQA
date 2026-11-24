@@ -1,0 +1,54 @@
+dsa_page: Knowledge Distillation for Generative Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/03/knowledge-distillation-for-generative-models/
+source: DSA
+
+headings:
+  - Knowledge Distillation for Generative Models
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Knowledge Distillation for Generative Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yun ZHANG
+  ABSTRACT
+  This thesis investigates and introduces novel Knowledge Distillation techniques tailored for deep generative models. State-of-the-art generative models in domains such as image generation and text generation (Large Language Models) achieve impressive performance, but their substantial size and computational requirements pose significant challenges for practical deployment, particularly in resource-constrained environments. Knowledge Distillation, a model compression technique that transfers knowledge from a large teacher model to a compact student model, offers a potential solution. However, traditional KD methods, primarily designed for discriminative tasks, face unique challenges when applied to generative tasks, such as capturing complex distributional properties, ensuring global consistency, and effectively leveraging the teacher’s “dark knowledge” from continuous outputs rather than simply probabilities.
+  To address these challenges, this thesis introduces several KD strategies. For Image Super-Resolution models, we propose Data Augmentations empowered KD (AugKD), which leverages auxiliary distillation samples generated through data augmentations and incorporates label consistency regularization to more effectively utilize the teacher’s distributional information. Additionally, we introduce Multi-granularity Mixture of Priors KD (MiPKD), which transfers teacher knowledge at multiple granularities using feature and block prior mixers, exhibiting consistent superiority across different compression settings and model architectures. For Large Language Model distillation, we propose a Multi-Granularity Semantic Revision framework, including a sequence-level correction and re-generation (SCRG) strategy, a token-level Distribution-Adaptive Clipping Kullback-Leibler (DAC-KL) loss function, and span-level correlation consistency. Experimental results on multiple LLM pairs validate the effectiveness of these methods, showing significant performance improvements for student models compared to existing approaches.
+  TEC
+  Chairperson: Prof Xin WANG
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Molong DUAN
+  Examiners:
+  Prof Jiaheng WEI
+  Prof Lei ZHU
+  Prof Ning CAI
+  Prof Wenlin DAI
+  Date
+  04 June 2025
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 967 6312 2530
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/96763122530?pwd=6UmiJoaW23QS8lM2it3GdSBSYfVrpq.1

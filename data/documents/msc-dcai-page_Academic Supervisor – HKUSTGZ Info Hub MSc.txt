@@ -1,0 +1,83 @@
+msc_dcai_page: Academic Supervisor – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/
+source: MSc DCAI
+
+headings:
+  - Our People
+  - Yuxuan LIANG
+  - Assistant Professor
+  - Jiaheng WEI
+  - Lei ZHU
+  - Zixin ZHONG
+  - Yongqi ZHANG
+  - Yanlin ZHANG
+  - Wei ZENG
+  - Weikai YANG
+  - Zeke XIE
+  - Jun XIA
+  - Zeyi WEN
+  - Guoming TANG
+
+text: >
+  Our People
+  Academic Supervisor
+  Yuxuan LIANG
+  Assistant Professor
+  Thrust of Intelligent Transportation
+  Thrust of Data Science and Analytics
+  Jiaheng WEI
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Lei ZHU
+  Assistant Professor
+  Thrust of Robotics and Autonomous Systems
+  Thrust of Data Science and Analytics
+  Zixin ZHONG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Yongqi ZHANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Yanlin ZHANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Wei ZENG
+  Assistant Professor
+  Thrust of Computational Media and Arts
+  Thrust of Data Science and Analytics
+  Weikai YANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Computational Media and Arts
+  Zeke XIE
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Thrust of Artificial Intelligence
+  Jun XIA
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Zeyi WEN
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  Guoming TANG
+  Assistant Professor
+  Thrust of Data Science and Analytics
+  1
+  2
+  3
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang
+  - 2 | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/
+  - 3 | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/

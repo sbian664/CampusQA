@@ -1,0 +1,39 @@
+dsa_page: Data-Centric Explainable Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/10/31/data-centric-explainable-machine-learning/
+source: DSA
+
+headings:
+  - Data-Centric Explainable Machine Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Data-Centric Explainable Machine Learning
+  Share to
+  ABSTRACT
+  The quality of training data is crucial to the success of supervised and semi-supervised learning. Errors in data have long been known to limit the performance of machine learning models. This talk presents the motivation and major challenges of data quality diagnosis and improvement. With that perspective, I will then discuss some of our explainable machine learning efforts from the data perspective: 1) analyzing and correcting poor annotation quality, 2) resolving the poor coverage of the training data caused by dataset bias, 3) enriching training data by fusing multimodal information.
+  SPEAKER BIO
+  Shixia LIU
+  Professor
+  Tsinghua University
+  Shixia Liu is a professor at Tsinghua University. Her research interests include explainable machine learning, visual text analytics, and text mining. Shixia was elevated to an IEEE Fellow in 2021 and induced into IEEE Visualization Academy in 2020. She is an associate editor-in-chief of IEEE Transactions on Visualization and Computer Graphics and is an associate editor of Artificial Intelligence, IEEE Transactions on Big Data, and ACM Transactions on Intelligent Systems and Technology. She was one of the Papers Co-Chairs of IEEE VIS (VAST) 2016 and 2017 and is in the steering committee of IEEE VIS (2020-2023).
+  Date
+  01 November 2022
+  Time
+  10:30:00 -
+  11:30:00
+  Location
+  Online
+  Join Link
+  Tencent Meeting ID:
+  929-782-795
+  Passcode: 011122
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

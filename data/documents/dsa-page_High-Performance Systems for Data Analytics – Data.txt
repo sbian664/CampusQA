@@ -1,0 +1,58 @@
+dsa_page: High-Performance Systems for Data Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/high-performance-systems-for-data-analytics/
+source: DSA
+
+headings:
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  - Diversified Routing
+  - Efficient Machine Learning on GPUs
+  - GALLOP: GPU Acceleration for Genomics Applications
+  - Global Routing Optimization in Road Networks
+  - Hyper-Parameter Optimization
+  - Just-In-Time Routing Planning
+  - Large Scale Macrosopic Traffic Simulation for Routing Management
+  - Privacy Preserved and Efficient Bayesian Network Training and Inference
+  - Resource Efficient LLM Fine-tuning and Serving
+
+text: >
+  Search
+  No data.
+  Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  Qiong LUO
+  Diversified Routing
+  Lei LI, Xiaofang ZHOU
+  Diversified, Graph, KSP, Path Enumeration, Route Planning, Transportation
+  Efficient Machine Learning on GPUs
+  Zeyi WEN
+  Efficiency, GPUs, Inference, Machine Learning, Training
+  GALLOP: GPU Acceleration for Genomics Applications
+  Qiong LUO
+  Global Routing Optimization in Road Networks
+  Lei LI, Xiaofang ZHOU
+  Graph, Index, Road Network, Route Planning, Shortest Path, Transportation
+  Hyper-Parameter Optimization
+  Zeyi WEN
+  Hyper-parameter Optimization, Machine Learning, Resource Efficiency
+  Just-In-Time Routing Planning
+  Lei LI, Xiaofang ZHOU
+  Continuous, Diversified, Dynamic, Graph, Route Planning, Transportation
+  Large Scale Macrosopic Traffic Simulation for Routing Management
+  Lei LI, Xiaofang ZHOU
+  Graph, Traffic Prediction, Traffic Simulation, Trajectory, Transportation
+  Privacy Preserved and Efficient Bayesian Network Training and Inference
+  Zeyi WEN
+  Resource Efficient LLM Fine-tuning and Serving
+  Zeyi WEN
+  Efficiency, Fine-tuning, Large Language Models, Model Serving
+
+links:
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/accord-accelerating-big-data-applications-on-heterogeneous-processors/
+  - Diversified Routing Lei LI, Xiaofang ZHOU Diversified, Graph, KSP, Path Enumeration, Route Planning, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/diversified-routing/
+  - Efficient Machine Learning on GPUs Zeyi WEN Efficiency, GPUs, Inference, Machine Learning, Training | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/efficient-machine-learning-on-gpus/
+  - GALLOP: GPU Acceleration for Genomics Applications Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/gallop-gpu-acceleration-for-genomics-applications/
+  - Global Routing Optimization in Road Networks Lei LI, Xiaofang ZHOU Graph, Index, Road Network, Route Planning, Shortest Path, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/global-routing-optimization-in-road-networks/
+  - Hyper-Parameter Optimization Zeyi WEN Hyper-parameter Optimization, Machine Learning, Resource Efficiency | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/hyper-parameter-optimization/
+  - Just-In-Time Routing Planning Lei LI, Xiaofang ZHOU Continuous, Diversified, Dynamic, Graph, Route Planning, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/just-in-time-routing-planning/
+  - Large Scale Macrosopic Traffic Simulation for Routing Management Lei LI, Xiaofang ZHOU Graph, Traffic Prediction, Traffic Simulation, Trajectory, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/large-scale-macrosopic-traffic-simulation-for-routing-management/
+  - Privacy Preserved and Efficient Bayesian Network Training and Inference Zeyi WEN | https://dsa.hkust-gz.edu.cn/blog/2024/04/14/privacy-preserved-and-efficient-bayesian-network-training-and-inference/
+  - Resource Efficient LLM Fine-tuning and Serving Zeyi WEN Efficiency, Fine-tuning, Large Language Models, Model Serving | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/resource-efficient-llm-fine-tuning-and-serving/

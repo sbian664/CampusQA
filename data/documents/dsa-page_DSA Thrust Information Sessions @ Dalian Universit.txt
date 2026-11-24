@@ -1,0 +1,50 @@
+dsa_page: DSA Thrust Information Sessions @ Dalian University of Technology – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/10/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%a4%a7%e8%bf%9e%e7%90%86%e5%b7%a5%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Dalian University of Technology
+  - Date
+  - Time
+  - Location
+  - Speaker
+  - Jing TANG
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Dalian University of Technology
+  Share to
+  Date
+  10 May 2024
+  Time
+  15:30:00 -
+  17:00:00
+  Location
+  大连理工大学主校区研教楼308
+  Speaker
+  Jing TANG
+  Associate Professor
+  Profile
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG students-Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang
+  - LEARN MORE | https://mp.weixin.qq.com/s/D4IzfrcpfBU6GzLaSb3pDQ
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

@@ -1,0 +1,55 @@
+dsa_page: Advancing Federated Learning: Model Training, Fine-Tuning and Collaboration – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/25/advancing-federated-learning-model-training-fine-tuning-and-collaboration/
+source: DSA
+
+headings:
+  - Advancing Federated Learning: Model Training, Fine-Tuning and Collaboration
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Advancing Federated Learning: Model Training, Fine-Tuning and Collaboration
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Ao LI
+  ABSTRACT
+  Federated Learning (FL) is a decentralized machine learning framework that enables multiple clients to collaboratively solve tasks without sharing their raw data. It was originally introduced to leverage distributed information across clients for training a global model, with data heterogeneity and high communication costs being the primary concerns. Recently, with the rapid development of Pre-Trained Models (PTMs), there is a growing need for federated fine-tuning to efficiently adapt PTMs to downstream tasks using distributed, task-oriented datasets. However, since PTMs often encapsulate substantial proprietary knowledge, model privacy has emerged as an additional critical concern alongside data privacy. Nowadays, advancements in computational and storage capabilities have made it increasingly feasible to deploy large language models (LLMs) on edge devices. In scenarios involving complex tasks that demand the integration of diverse capabilities, a pressing research challenge is how to effectively coordinate heterogeneous clients within a federated framework to enable collaborative problem solving.
+  Our fisrt work, FedDAD, considers the problem of unsupervised deep anomaly detection (DAD) in an FL setting with noisy and heterogeneous data. It leverages a small public dataset on the server as a shared normal anchor in the latent space to releive the data heterogeneity problem, improving anomaly identification capability across clients. When combined with PTMs, our second work GenFFT introduces a hybrid sharing mechanism that combines parameter sharing and knowledge sharing to protect model privacy. GenFFT suggests using a lightweight substitute model, rather than sharing the entire PTMs, during the training process, together with the generation modules that are alternatively updated by the server and clients to promote information exchange. When clients possess private models with distinct capabilities, complex tasks can be solved through a federated collaboration framework without further parameter updates, which requires the server to generate a plan that effectively coordinates their cooperation. As the server always fails to generate the optimal plan on the first attempt, we propose COP, a novel client-oriented planning framework that refines the initial plan before execution based on three specifically desinged principles: solvability, completeness, and non-redundancy, thus enables the collaborative resolution of complex tasks while preserving both data and model privacy.
+  Extensive experiments across a variety of datasets demonstrate that our proposed methods are broadly effective: whether federated training of small models from scratch, federated fine-tuning of large pre-trained models, or purely federated collaboration for inference, each approach achieves strong Performance while preserving data privacy across diverse tasks.
+  TEC
+  Chairperson: Prof Hai-Ning LIANG
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Songze LI
+  Examiners:
+  Prof Wei WANG
+  Prof Wei ZENG
+  Prof Ruiting ZUO
+  Prof Hong ZHANG
+  Date
+  14 August 2025
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E4-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 920 3919 8492
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/92039198492?pwd=ToOo0a3cFlCgljTa56w9OqNJQFXREg.1

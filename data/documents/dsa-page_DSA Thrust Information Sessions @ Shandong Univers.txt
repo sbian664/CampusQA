@@ -1,0 +1,50 @@
+dsa_page: DSA Thrust Information Sessions @ Shandong University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/23/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%b1%b1%e4%b8%9c%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Shandong University
+  - Date
+  - Time
+  - Location
+  - Speaker
+  - Yuyu LUO
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Shandong University
+  Share to
+  Date
+  23 May 2024
+  Time
+  14:30:00 -
+  16:00:00
+  Location
+  山东大学青岛校区会文南楼A区就业中心二号宣讲厅
+  Speaker
+  Yuyu LUO
+  Assistant Professor
+  Profile
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG students-Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - LEARN MORE | https://mp.weixin.qq.com/s/eQJQDcNRSpR0u_VXOXwRfA
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

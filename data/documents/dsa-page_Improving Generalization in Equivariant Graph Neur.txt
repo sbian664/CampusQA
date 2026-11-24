@@ -1,0 +1,39 @@
+dsa_page: Improving Generalization in Equivariant Graph Neural Networks with Physical Inductive Biases – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/improving-generalization-in-equivariant-graph-neural-networks-with-physical-inductive-biases/
+source: DSA
+
+headings:
+  - Improving Generalization in Equivariant Graph Neural Networks with Physical Inductive Biases
+  - Abstract
+  - Project members
+  - Jia LI
+  - Fugee TSUNG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Improving Generalization in Equivariant Graph Neural Networks with Physical Inductive Biases
+  Abstract
+  Graph Neural Networks (GNNs) with equivariant properties have emerged as powerful tools for modeling complex dynamics of multi-object physical systems. However, their generalization ability is limited by the inadequate consideration of physical inductive biases: (1) Existing studies overlook the continuity of transitions among system states, opting to employ several discrete transformation layers to learn the direct mapping between two adjacent states; (2) Most models only account for first-order velocity information, despite the fact that many physical systems are governed by second-order motion laws. To incorporate these inductive biases, we propose the Second-order Equivariant Graph Neural Ordinary Differential Equation (SEGNO). Specifically, we show how the second-order continuity can be incorporated into GNNs while maintaining the equivariant property. Furthermore, we offer theoretical insights into SEGNO, highlighting that it can learn a unique trajectory between adjacent states, which is crucial for model generalization. Additionally, we prove that the discrepancy between this learned trajectory of SEGNO and the true trajectory is bounded. Extensive experiments on complex dynamical systems including molecular dynamics and motion capture demonstrate that our model yields a significant improvement over the state-of-the-art baselines.
+  Project members
+  Jia LI
+  Associate Professor
+  Fugee TSUNG
+  Chair Professor
+  Publications
+  SEGNO: Generalizing Equivariant Graph Neural Networks with Physical Inductive Biases
+  . Yang Liu, Jiashun Cheng, Haihong Zhao, Tingyang Xu, Peilin Zhao, Fugee Tsung, Jia Li, and Yu Rong.
+  Project Period
+  2024
+  Research Area
+  Data-driven AI
+  Keywords
+  Equivariant Graph Neural Network, Graph Neural Network
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - SEGNO: Generalizing Equivariant Graph Neural Networks with Physical Inductive Biases | https://openreview.net/forum?id=3oTPsORaDH

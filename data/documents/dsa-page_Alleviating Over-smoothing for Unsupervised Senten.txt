@@ -1,0 +1,35 @@
+dsa_page: Alleviating Over-smoothing for Unsupervised Sentence Representation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/alleviating-over-smoothing-for-unsupervised-sentence-representation/
+source: DSA
+
+headings:
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Alleviating Over-smoothing for Unsupervised Sentence Representation
+  Abstract
+  Currently, learning better unsupervised sentence representations is the pursuit of many natural language processing communities. Lots of approaches based on pre-trained language models (PLMs) and contrastive learning have achieved promising results on this task. Experimentally, we observe that the over-smoothing problem reduces the capacity of these powerful PLMs, leading to sub-optimal sentence representations. In this paper, we present a Simple method named Self-Contrastive Learning (SSCL) to alleviate this issue, which samples negatives from PLMs intermediate layers, improving the quality of the sentence representation. Our proposed method is quite simple and can be easily extended to various state-of-the-art models for performance boosting, which can be seen as a plug-and-play contrastive framework for learning unsupervised sentence representation. Extensive results prove that SSCL brings the superior performance improvements of different strong baselines (e.g., BERT and SimCSE) on Semantic Textual Similarity and Transfer datasets.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Alleviating Over-smoothing for Unsupervised Sentence Representation
+  . Nuo Chen, Linjun Shou, Jian Pei, Ming Gong, Bowen Cao, Jianhui Chang, Jia Li, and Daxin Jiang.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  Pre-trained Language Models, Self-Contrastive Learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Alleviating Over-smoothing for Unsupervised Sentence Representation | https://aclanthology.org/2023.acl-long.197/

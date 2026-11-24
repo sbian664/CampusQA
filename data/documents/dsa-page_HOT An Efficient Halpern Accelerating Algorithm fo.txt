@@ -1,0 +1,30 @@
+dsa_page: HOT: An Efficient Halpern Accelerating Algorithm for Optimal Transport Problems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/02/hot-an-efficient-halpern-accelerating-algorithm-for-optimal-transport-problems/
+source: DSA
+
+headings:
+  - HOT: An Efficient Halpern Accelerating Algorithm for Optimal Transport Problems
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Email
+
+text: >
+  DSA Seminar
+  HOT: An Efficient Halpern Accelerating Algorithm for Optimal Transport Problems
+  Share to
+  ABSTRACT
+  This talk introduces an efficient HOT algorithm for solving the optimal transport (OT) problems with finite supports. We particularly focus on an efficient implementation of the HOT algorithm for the case where the supports are in $\mathbb{R}^2$ with ground distances calculated by $L_2^2$-norm. Specifically, we design a Halpern accelerating algorithm to solve the equivalent reduced model of the discrete OT problem. Moreover, we derive a novel procedure to solve the involved linear systems in the HOT algorithm in linear time complexity. Consequently, we can obtain an $\varepsilon$-approximate solution to the optimal transport problem with $M$ supports in $O(M^{1.5}/\varepsilon)$ flops, which significantly improves the best-known computational complexity. We further propose an efficient procedure to recover an optimal transport plan for the original OT problem based on a solution to the reduced model, thereby overcoming the limitations of the reduced OT model in applications that require the transport map. We will present numerical results to show the superior performance of the HOT algorithm compared to existing state-of-the-art algorithms for solving the OT problems.
+  SPEAKER BIO
+  Yancheng Yuan is an Assistant Professor at the Department of Applied Mathematics, The Hong Kong Polytechnic University. His research focuses on continuous optimization, the mathematical foundation of data science, and data-driven applications. His research has been published in prestigious academic journals and conferences, including Journal of Machine Learning Research, SIAM Journal on Optimization, Mathematical Programming Computation, NeurIPS, ICML, ICLR,WWW, SIGIR, ACL. His papers have been selected in Best Paper Award Finalist of ACM WWW 2021 and ACM SIGIR 2024.
+  Date
+  08 April 2025
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1,201 (HKUST-GZ)
+  Email
+  dsat@hkust-gz.edu.cn

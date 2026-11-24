@@ -1,0 +1,52 @@
+dsa_page: IMPROVING COMPUTER EXPERIMENTS IN COMPLEX STOCHASTIC SYSTEMS WITH NON-PARAMETRIC LEARNING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/improving-computer-experiments-in-complex-stochastic-systems-with-non-parametric-learning/
+source: DSA
+
+headings:
+  - IMPROVING COMPUTER EXPERIMENTS IN COMPLEX STOCHASTIC SYSTEMS WITH NON-PARAMETRIC LEARNING
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Thesis Proposal Examination
+  IMPROVING COMPUTER EXPERIMENTS IN COMPLEX STOCHASTIC SYSTEMS WITH NON-PARAMETRIC LEARNING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Qingwen ZHANG
+  Abstract
+  Computer experiments utilize computer technology to conduct mathematical modeling and predict the behavior of real-world systems. With advancements in computing capabilities, researchers and engineers can now comprehensively analyze and research a wide range of real-world problems using computer experiments. Accurate predictions from computer experiments are vital for making informed decisions, and have widely applications in both natural sciences and human systems.
+  When the computer model is build upon a physical nature system, an important problem is estimating the unknown calibration parameter under model discrepancy. In chapter 2, we develop a new calibration method for imperfect computer models named Sobolevcalibration. Compared with existing works, our calibration method can rule out calibration parameters that generate overfitting calibrated functions and bridge the gap between two influential methods:
+  L
+  2 calibration and Kennedy and O’Hagan’s calibration. We prove that the Sobolev calibration enjoys desired theoretical properties including fast convergence rate, asymptotic normality and semiparametric efficiency. Numerical simulations as well as a real-world example illustrate the competitive performance of the proposed method.
+  Furthermore, computer models also act as surrogate models for unknown functions in stochastic systems, aiding decision-making. We specifically focus on the contextual bandit problem, an important online decision-making problem with applications in various human systems such as economics, psychology, and healthcare. In chapter 3, we consider two significant challenges for contextual bandit framework: high-dimensional covariates and the necessity for nonparametric models to accurately reflect the complex relationships between rewards and covariates. We propose a new contextual bandit algorithm based on a sparse additive reward model that addresses both challenges via: (i) a double penalization method for nonparametric reward function estimation, and (ii) an epoch-based structure that effectively balances exploration and exploitation. We prove that the cumulative regret of our algorithm is sublinear in the time horizon
+  T
+  and grows linearly with the logarithm of the covariate dimensionality log(
+  d
+  ). To our knowledge, this represents the first regret bound with polylogarithmic growth in
+  d
+  for nonparametric contextual bandits with high-dimensional covariates. Through extensive numerical experiments, we show our algorithm’s superior performance in high-dimensional settings compared to existing algorithms. In chapter 4, we focus on fairness-aware learning and summarize existing research and their limitations. We plan to address the discussed challenges and propose a more general framework for fairness-aware contextual bandit problem with solid theoretical guarantees in the remainder of this thesis.
+  TPE Committee
+  Chairperson: Prof. Fugee TSUNG
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Yuan YAO
+  Examiner: Prof Xinlei HE
+  Date
+  13 June 2024
+  Time
+  16:10:00 -
+  17:25:00
+  Location
+  E1-149
+  Join Link
+  Zoom Meeting ID:
+  871 8169 2040
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/87181692040?pwd=ZkaZCFpMJns0dTRFAUjPKdhtGOz6td.1

@@ -1,0 +1,34 @@
+dsa_page: Agentic Quantitative Trading: A Survey of Workflows, Systems, and Evaluation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/agentic-quantitative-trading-a-survey-of-workflows-systems-and-evaluation/
+source: DSA
+
+headings:
+  - Agentic Quantitative Trading: A Survey of Workflows, Systems, and Evaluation
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Agentic Quantitative Trading: A Survey of Workflows, Systems, and Evaluation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. HUA, Fengrui
+  Abstract
+  Quantitative trading is increasingly moving beyond isolated predictive models toward more integrated, agent-driven workflows. Recent progress in large language models, autonomous agents, and tool-augmented AI has made it possible to automate not only signal generation but also broader stages of the quantitative trading pipeline. This survey reviews the emerging literature on agentic workflows in quantitative trading, with a particular focus on factor mining, model training and prediction, portfolio optimization, order execution, and workflow-level monitoring and adaptation. Unlike existing surveys organized around model families or broad financial agent applications, we adopt a workflow-centric perspective to analyze how agents support multi-stage coordination, iterative refinement, and end-to-end automation in quantitative trading. We also discuss the current limitations of agentic trading workflows, including evaluation, robustness, market realism, and practical deployment constraints, and outline future directions toward trustworthy end-to-end agentic trading systems.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. GUO, Jian (Online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  09 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-150, HKUST(GZ)

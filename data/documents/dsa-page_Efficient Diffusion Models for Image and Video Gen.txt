@@ -1,0 +1,35 @@
+dsa_page: Efficient Diffusion Models for Image and Video Generation: A Systems Perspective – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/05/efficient-diffusion-models-for-image-and-video-generation-a-systems-perspective/
+source: DSA
+
+headings:
+  - Efficient Diffusion Models for Image and Video Generation: A Systems Perspective
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Efficient Diffusion Models for Image and Video Generation: A Systems Perspective
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. KANG, Xueze
+  Abstract
+  This survey studies efficient diffusion models for image and video generation from a systems perspective. Diffusion models have become a dominant paradigm for visual generation, but their iterative denoising process, large conditional backbones, long visual token sequences, and modular deployment workflows create substantial compute and memory costs. Rather than treating efficiency only as an algorithmic problem, this survey emphasizes how acceleration techniques interact with the full execution lifecycle of modern diffusion systems.
+  The survey reviews diffusion mechanisms, flow matching, latent diffusion, diffusion transformers, video latent diffusion, and representative large-scale visual generation systems. It then organizes system-level acceleration into parallel computation, training systems, post-training systems, and serving systems. Across these stages, the main observation is that practical diffusion efficiency depends on end-to-end co-design: reducing FLOPs or sampling steps is useful, but real speedup also requires kernel support, communication-aware parallelism, memory management, scheduling policy, workload-aware serving, and quality preservation. The survey concludes by identifying open problems in diffusion serving, hardware-executable sparse attention, and long-context video generation.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. ZHANG, Yanlin
+  Date
+  17 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  W1-202, HKUST(GZ)

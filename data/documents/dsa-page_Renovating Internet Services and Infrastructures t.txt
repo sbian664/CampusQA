@@ -1,0 +1,37 @@
+dsa_page: Renovating Internet Services and Infrastructures to Empower End Users – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/05/renovating-internet-services-and-infrastructures-to-empower-end-users/
+source: DSA
+
+headings:
+  - Renovating Internet Services and Infrastructures to Empower End Users
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Renovating Internet Services and Infrastructures to Empower End Users
+  Share to
+  ABSTRACT
+  The modern life runs on a multitude of Internet applications. However, the underlying services and infrastructures enabling these applications often receive less attention, despite the immense pressures they face from rapid user growth and increased application reliance. My research focuses on renovating these services and infrastructures to adapt to evolving demands in security, privacy, reliability, and performance.
+  This talk will explore key challenges that end users directly encounter in the complex online ecosystem, such as security vulnerabilities, privacy erosion, and resource inefficiencies. For instance, while IoT devices enhance user experiences, they also expand the attack surface, increasing security risks. At the same time, the growing reliance on online services generates vast amounts of user data, making data management increasingly problematic as analytics systems push the boundaries of privacy exploitation. Moreover, users now have more resources, e.g., computational and bandwidth. Yet, these assets remain underutilized.
+  I will present innovative solutions to these pressing issues, showcasing how thoughtful system renovations can empower end users while enhancing the resilience and efficiency of Internet services.
+  SPEAKER BIO
+  Yunming Xiao is a Research Fellow at the University of Michigan working with Ang Chen. He received his Ph.D. in Computer Science from Northwestern University in 2024, advised by Aleksandar Kuzmanovic. Before that, he received B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019. He has interned at Google, Hewlett Packard Labs, and Nokia Bell Labs, and was a visiting student at KAUST.
+  His research interests lie in computer networks and systems, with a focus on enhancing the security, privacy, and reliability of Internet services and infrastructures. He has authored publications in leading conferences such as SIGCOMM, NSDI, SIGMETRICS, EuroSys, USENIX ATC, CoNEXT, and WWW, as well as journal articles in TWEB and JSAC. Some of his work has been deployed at scale in production environments, and his work has received the Best Student Paper Award from EuroSys.
+  Date
+  10 March 2025
+  Time
+  09:30:00 -
+  10:30:00
+  Join Link
+  Zoom Meeting ID: 924 4361 9056
+  Passcode: dsaiot
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

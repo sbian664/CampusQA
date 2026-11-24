@@ -1,0 +1,46 @@
+dsa_page: Enhancing Diffusion Sampling and Deciphering Self-Supervised Learning through Architectural Investigation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/08/16/enhancing-diffusion-sampling-and-deciphering-self-supervised-learning-through-architectural-investigation/
+source: DSA
+
+headings:
+  - Enhancing Diffusion Sampling and Deciphering Self-Supervised Learning through Architectural Investigation
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Final Defense
+  Enhancing Diffusion Sampling and Deciphering Self-Supervised Learning through Architectural Investigation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jiajun MA
+  ABSTRACT
+  Neural networks have excelled in complex unsupervised tasks, including high-quality sample generation using diffusion models and semantic feature extraction through self-supervised learning (SSL) models. Both diffusion models and SSL have shown impressive performances in their respective objectives: generating high-quality samples and learning representations. Extensive efforts have been dedicated to enhancing the quality of diffusion generation and gaining a deeper understanding of SSL. Additionally, researchers are exploring the synergies between diffusion and SSL models. However, the intricate nature of these models presents challenges for interpreting them, identifying bottlenecks, and proposing designs for consistent improvements.
+  In our research, we conduct an in-depth analysis of diffusion and SSL models, identifying existing bottlenecks. This analysis motivates the development of consistent and efficient designs to enhance diffusion generation performance and improve the quality of SSL-learned features. Moreover, we investigate the mutual benefits between diffusion and SSL models by leveraging SSL to guide diffusion for zero-shot sampling.
+  In our research on diffusion models, we comprehensively investigated both the classifier guided sampling process and diffusion UNet architectures. For the classifier-guided sampling process, we proposed key designs, including classifier smoothness and adjusted guidance direction, to facilitate high-quality sampling. As a result, we integrated off-the-shelf ResNet classifiers into the diffusion sampling, achieving a remarkable improvement in FID from 5.91 to 2.19 on the ImageNet dataset. Regarding the diffusion UNet architectures, we identified a bottleneck effect in the existing skip-connection design, introducing excessive noise into the sampling process. We introduced a simple and training-free method called Skip-Tuning to address this issue. This method effectively prevents noise contamination in the generated samples, resulting in significant enhancements with nearly 100% improvement in FID compared to the baseline.
+  In our SSL research, we provide architectural insights into the projection head design within SSL and introduce a universal design called Representation Evaluation Design (RED). This design consistently enhances the downstream performance of various SSL models, such as SimCLR, MoCo-V2, and SimSiam. Furthermore, we apply SSL methodologies in the field of biology and develop CellContrast, a SSL method that effectively learns the spatial information of single-cell genetic data. CellContrast outperforms related supervised learning methods by a significant margin in downstream tasks. Leveraging our deep insights, we investigate the mutual benefits between SSL and diffusion models. Specifically, we utilize the text-image aligned SSL model CLIP to guide diffusion for zero-shot generation without additional training. Our methodology is more sampling-efficient compared to previous approaches.
+  TEC
+  Chairperson: Prof Xin WANG
+  Prime Supervisor: Prof Yuan YAO
+  Co-Supervisor: Prof Wenjia WANG
+  Examiners:
+  Prof Haihui SHEN
+  Prof Xiaowen CHU
+  Prof Jia LI
+  Prof Zeyu WANG
+  Date
+  19 August 2024
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  W4-202
+  Join Link
+  Zoom Meeting ID:
+  935 6167 5307
+  Passcode: dsa2024

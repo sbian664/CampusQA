@@ -1,0 +1,143 @@
+fytgs_page: Computational Arts
+url: https://fytgs.hkust-gz.edu.cn/programs/computational-arts
+source: FYTGS
+
+headings:
+  - Master of Fine Arts Program in Computational Arts
+
+text: >
+  Postgraduate Programs 2026/27
+  Master of Fine Arts Program in Computational Arts
+  GENERAL INFORMATION
+  Award Title
+  Master of Fine Arts in Computational Arts
+  Program Short Name
+  MFA(CA)
+  Mode of Study
+  Full-time
+  Normative Program Duration
+  Full-time: 2 years
+  Program Fee
+  RMB 360,000
+  Offering Unit
+  Computational Media and Arts Thrust Area
+  Information Hub
+  Program Advisor
+  Program Director: Prof. Theo Papatheodorou, Senior Lecturer of Computational Media and Arts
+  Website
+  https://mfa-ca.hkust-gz.edu.cn/
+  Enquiry
+  mfa-ca@hkust-gz.edu.cn
+  INTRODUCTION
+  The Master of Fine Arts in Computational Arts is a rigorous professional program offering first rate education and training in the practice, theory, and technology of computational arts. Artistic education is in growing demand and increasingly recognized as a crucial factor in driving innovation and creativity in society. One example is the flourishing and fruitful STEAM movement in recent years which promotes the integration of Art into the traditional STEM fields. Technology oriented institutions like MIT are strong advocates and supporters of this effort. Many fields in society today are facing increasing challenges that require novel and unconventional ways of visualizing, conceiving, planning, and problem-solving, which are exactly the core of an art education. The creative skills and methods provided by a fine arts degree not only prepare aspiring professional artists, but can also benefit the science, technology, business, and public sectors by training students to become future creative leaders and collaborators.
+  With growing demands from the ever expanding artistic and creative industries including visual arts, video games, virtual and augmented reality, digital content, film production, hybrid and immersive performances, and other emerging areas of art, design, media, and entertainment for artists and creative technologists, computational arts is an emerging interdisciplinary field of study and practice within the arts and academia, bringing together knowledge and creativity from computer science and fine arts.
+  The Master of Fine Arts (MFA) degree is an international standard professional degree for educating aspiring artists, designers, or other professional practitioners in the visual and performing arts field. General MFA degrees have been successfully offered for many decades by top universities like Stanford, Yale, Columbia, Chicago, UC Berkeley, UCLA, Duke, Oxford, UCL, Goldsmiths, Royal College of Arts, among many others.
+  The MFA is a professional degree with high artistic standards, professionalism, and selectivity, targeting those with an outstanding arts portfolio and a clear artistic career path in mind. The students of the MFA program will come from a strong academic background of fine arts, design, technology, and music. Graduates from other disciplines would also be welcome as long as they fulfill the entry criteria (ex. extensive portfolio).
+  The program will provide skill training in the key areas of computational media and arts, such as creative coding, 3D animation, game design, virtual and augmented reality, electronic sound, digital fabrication, network culture, etc. It will also offer abundant opportunities for exploring emerging technologies, interdisciplinary practice, theory literacy, idea exchange, and artistic discourse. The rich offering and artistic community of this program will also be beneficial to the entire HKUST(GZ) by enriching the artistic and cultural environment of the university and local communities.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Gain proficiency in a set of technologies and media in computational arts, including but not limited to creative coding, 3D animation, game design, electronic music composition, physical computing / electronics, VR and AR experience design, etc;
+  Use computational methods to generate thoughtful artistic output for media arts exhibitions, screenings, and distributions in galleries, museums, art spaces, festivals, performances, public spaces, print media, mobile devices, game consoles, and virtual and online environments
+  Conceive, plan, and realize complex computational arts projects either independently or collaboratively;
+  Provide critical assessment and analysis for existing media arts and design projects;
+  Reflect on computation in terms of its wider cultural effects, and understand the way in which art provides rigorous ways of thinking;
+  Demonstrate fluency in relevant concepts, theories, histories, and examples related to contemporary media arts and technology;
+  Develop an individualized methodology and sustainable practice for a professional career in computational media arts and design;
+  Communicate the thinking behind their practice effectively both in speaking and writing; and
+  Project manage, develop and deliver ambitious computational art projects.
+  CURRICULUM
+  Minimum Credit Requirement
+  58 credits
+  Core Courses
+  6 credits
+  CMAA 5016
+  Creative Coding
+  3 Credit(s)
+  Description
+  In this course students use well established creative coding frameworks, specifically designed for artists to program graphics, sound and interaction for generating creative work. Students will initially experiment with basic generative techniques for graphics and will then be introduced to genetic algorithms, simple machine learning for interaction, using robots to draw on paper, generating NFTs of the work they create and many more emerging technologies in order to express themselves creatively.
+  CMAA 5033
+  Computational Media and Arts Theory I
+  3 Credit(s)
+  Description
+  This course delves into the critical exploration of cultural and philosophical theories that underpin the evolving landscape of computational media arts. It immerses students in relevant readings and discussions, providing them with a deep understanding of the complex interplay between humanities, science, technology, culture, and art. Through the examination of key texts and critical debates, students will engage with concepts that shape the field, such as digital aesthetics, media archaeology, cybernetics, posthumanism, and the impact of technology on society.
+  Elective Courses
+  24 credits
+  Students may take any CMAA postgraduate courses as electives. Students may take up to 6 credits of courses from other Thrusts, subject to prior approval of the Program Director.
+  Group Critique
+  3 credits
+  CMAA 6020
+  Group Critique
+  1 Credit(s)
+  Description
+  Group Critique fosters critical thinking and collaborative engagement among students. In this course, participants engage in a structured environment where they present their ongoing computational arts projects for peer review and feedback. Through constructive discussions and critiques, students learn to evaluate and analyze their work within the context of contemporary media arts, technology, and cultural discourse. They develop the essential skills of articulating their artistic intentions, receiving constructive criticism, and providing thoughtful assessments of their peers' projects. Group Critique serves as a vital forum for refining ideas, enhancing artistic practices, and cultivating a deeper understanding of the role of computation in art and culture. Students are required to take this course in each regular term and for at least three terms. Graded PP, P or F.
+  Students are required to take CMAA 6020 in regular terms. They must complete CMAA 6020 for at least three terms.
+  Internship
+  8 credits
+  CMAA 6700
+  Internship in Computational Arts I
+  4 Credit(s)
+  Description
+  The guaranteed internship offers students the opportunity to further explore their creative boundaries in an alternative environment within the realm of computational media arts. The internship empowers students to embark on artistic journeys in a context beyond the regular learning environment within academic institutions, providing fresh guidance and new resources to experiment with new ideas, technologies, and processes. This course is the first part of the 6-month guaranteed internship. Graded P or F.
+  CMAA 6701
+  Internship in Computational Arts II
+  4 Credit(s)
+  Description
+  The guaranteed internship offers students the opportunity to further explore their creative boundaries in an alternative environment within the realm of computational media arts. The internship empowers students to embark on artistic journeys in a context beyond the regular learning environment within academic institutions, providing fresh guidance and new resources to experiment with new ideas, technologies, and processes. This course is the second part of the 6-month guaranteed internship. Graded P or F.
+  Students are required to take a 6-month guaranteed internship, including CMAA 6700 and CMAA 6701.
+  Thesis Project
+  17 credits
+  CMAA 6991
+  MFA Thesis Project I
+  6 Credit(s)
+  Description
+  The MFA Thesis Project in Computational Arts is a culmination of the student's creative and technical journey, embodying their unique vision at the intersection of art and technology. This intensive project requires students to conceptualize and realize a significant piece of work that pushes the boundaries of digital art, integrating coding, digital media, and interactive technologies. Guided by faculty mentors, students will demonstrate mastery in their chosen area, be it interactive installations, digital fabrication, VR/AR experiences, or generative art, culminating in a public exhibition and a comprehensive written thesis that contextualizes their work within contemporary artistic discourse. In Part I, students will establish a direction in their practice and do an extensive literature review of their specific field. Graded P or F.
+  CMAA 6992
+  MFA Thesis Project II
+  9 Credit(s)
+  Description
+  The MFA Thesis Project in Computational Arts is a culmination of the student's creative and technical journey, embodying their unique vision at the intersection of art and technology. This intensive project requires students to conceptualize and realize a significant piece of work that pushes the boundaries of digital art, integrating coding, digital media, and interactive technologies. Guided by faculty mentors, students will demonstrate mastery in their chosen area, be it interactive installations, digital fabrication, VR/AR experiences, or generative art, culminating in a public exhibition and a comprehensive written thesis that contextualizes their work within contemporary artistic discourse. In Part II, students will have to plan how to showcase their work and develop a narrative about how their work fits in the current computational arts context. Graded P or F.
+  CMAA 6993
+  MFA Thesis Exhibition
+  2 Credit(s)
+  Description
+  This is a capstone course designed for students in the Master of Fine Arts in Computational Arts program, focusing on the practical and organizational aspects of staging an exhibition. This course offers hands-on experience in exhibition planning, space management, curation, and publicity, providing students with the necessary skills to effectively showcase their computational art projects. Through this immersive experience, students will learn to navigate the complexities of exhibition design, from conceptualization to execution, ensuring their artistic visions are communicated effectively to the public. This course does not center on creating artworks; instead, it emphasizes the behind-the-scenes processes essential for successful art exhibitions. Graded P or F.
+  Students are required to complete an MFA Thesis Project in Computational Arts in Year 2 under the guidance of faculty supervisors. This involves establishing a direction and conducting an extensive literature review of their specific field in CMAA 6991, planning how to showcase their work and developing a narrative about their work in CMAA 6992, and focusing on the practical and organizational aspects of staging an exhibition in CMAA 6993.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  3. Program-specific Admission Requirements
+  Applicants are required to submit a portfolio in PDF format or website consisting of creative work.
+  4. Additional Information
+  Acceptable forms of the portfolio include, but are not limited to:
+  − Interactive media, sound, installations, generative work, games, photography, film, web-based work, real-time projects, and/or other creative outputs.
+  − Industry experience (i.e. games industry, digital agency), which resulted in significant contributions to creative work with proper credits assigned.
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 300
+  Application Deadlines
+  For 2026/27 Fall Term Intake:
+  International students*
+  15 Jun 2026
+  Chinese students
+  15 Jul 2026
+  Application Open On
+  1 Oct 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://mfa-ca.hkust-gz.edu.cn/ | https://mfa-ca.hkust-gz.edu.cn/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

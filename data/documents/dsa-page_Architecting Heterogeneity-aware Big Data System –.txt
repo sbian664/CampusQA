@@ -1,0 +1,40 @@
+dsa_page: Architecting Heterogeneity-aware Big Data System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/22/dsa%e7%a0%94%e8%ae%a8%e4%bc%9a-architecting-heterogeneity-aware-big-data-system/
+source: DSA
+
+headings:
+  - Architecting Heterogeneity-aware Big Data System
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Architecting Heterogeneity-aware Big Data System
+  Share to
+  *Students who enroll in DSAA 6102 please attend the seminar in classroom.
+  ABSTRACT
+  With the rapid development of hardware, many modern computing hardware (e.g., GPU, DPU, FPGA) have been widely used in the production environment of the leading IT companies, e.g., Google, ByteDance. However, all the existing big data systems (e.g, Spark, Hive) are architected with “CPU is the first-class citizen”. Thus, it is an opportunity to build a heterogeneity-aware big data system. In this talk, I will first share our experiences to build big data processing systems on CPU-GPU co-processors, then highlight the research challenges and opening problems to architect heterogeneity-native system.
+  SPEAKER BIO
+  Bo TANG
+  Assistant Professor
+  Southern University of Science and Technology
+  Dr. Bo Tang is an assistant professor in Southern University of Science and Technology (SUSTech). He is leading the Database Research Group in SUSTech. His research always published in top-tier data management conferences and journals (e.g., SIGMOD, PVLDB, VLDBJ). Some of them have been widely used in industry products, e.g., Microsoft Excel, ByteDance VeDB. He won ACM SIGMOD China rising star, three times Huawei Spark awards (for OS and DB challenging problems), and Shenzhen Outstanding Teacher award, etc.
+  Date
+  24 January 2024
+  Time
+  10:00:00 -
+  10:50:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  880 9481 5438
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

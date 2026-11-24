@@ -1,0 +1,38 @@
+dsa_page: DRIVING QUANTITATIVE INVESTMENT TONEW PARADIGM: END-TO-END MODELINGAND FOUNDATION MODELING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/driving-quantitative-investment-tonew-paradigm-end-to-end-modelingand-foundation-modeling/
+source: DSA
+
+headings:
+  - DRIVING QUANTITATIVE INVESTMENT TONEW PARADIGM: END-TO-END MODELINGAND FOUNDATION MODELING
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  DRIVING QUANTITATIVE INVESTMENT TONEW PARADIGM: END-TO-END MODELINGAND FOUNDATION MODELING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms LIN, Xinyi
+  Abstract
+  Quantitative investing has long been dominated by a fragmented, multi-stage pipeline encompassing data processing, alpha mining, portfolio optimization, and execution. While this modular approach offers high interpretability and risk control, it suffers from inconsistent optimization objectives between stages, accumulated errors, and a profound lack of generalizability, forcing researchers into siloed, task-specific modeling. This survey charts the emergence of a powerful paradigm shift away from this fragmentation towards unification. We provide a systematic synthesis of the two primary research thrusts driving this evolution:
+  End-to-End (E2E)
+  systems and
+  Quant Foundation Models
+  . First, we review the progression from classical pipeline methods to integrated E2E models that jointly optimize the entire investment process, from raw data to trading decisions. Second, we explore the ambitious frontier of FFMs, which aim to create a general-purpose financial intelligence by pre-training on vast, cross-domain market data. These advancements not as isolated techniques, but as part of a fundamental movement towards building unified, scalable, and data-driven investment systems. Finally, we outline a comprehensive roadmap for future research, highlighting the critical challenges and opportunities in data representation, optimization, pre-training paradigms, and model architecture that will shape the next generation of quantitative finance.
+  PQE Committee
+  Chair of Committee: Prof. Xiaowen Chu
+  Prime Supervisor: Prof. Lionel M. Ni
+  Co-Supervisor: Prof. Harry Heung-Yeung SHUM
+  Examiner: Prof. Qiong Luo
+  Date
+  18 September 2025
+  Time
+  16:30:00 -
+  17:30:00
+  Location
+  W2-202 (HKUST-GZ)

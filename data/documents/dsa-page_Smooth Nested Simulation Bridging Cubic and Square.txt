@@ -1,0 +1,37 @@
+dsa_page: Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/smooth-nested-simulation-bridging-cubic-and-square-root-convergence-rates-in-high-dimensions/
+source: DSA
+
+headings:
+  - Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions
+  - Abstract
+  - Project members
+  - Wenjia WANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions
+  Abstract
+  Nested simulation concerns estimating functionals of a conditional expectation via simulation. In this paper, we propose a new method based on kernel ridge regression to exploit the smoothness of the conditional expectation as a function of the multidimensional conditioning variable. Asymptotic analysis shows that the proposed method can effectively alleviate the curse of dimensionality on the convergence rate as the simulation budget increases, provided that the conditional expectation is sufficiently smooth. The smoothness bridges the gap between the cubic root convergence rate (that is, the optimal rate for the standard nested simulation) and the square root convergence rate (that is, the canonical rate for the standard Monte Carlo simulation). We demonstrate the performance of the proposed method via numerical examples from portfolio risk management and input uncertainty quantification.
+  Project members
+  Wenjia WANG
+  Assistant Professor
+  Publications
+  Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions
+  .
+  Wenjia Wang, Yanyuan Wang, and Xiaowei Zhang.
+  Management Science.
+  Project Period
+  2023
+  Research Area
+  Operations Research
+  Keywords
+  convergence rate, kernel ridge regression, nested simulation, smoothness
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wenjia/wenjiawang
+  - Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions | https://arxiv.org/pdf/2201.02958.pdf

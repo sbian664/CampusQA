@@ -1,0 +1,39 @@
+dsa_page: Robustness of Autonomous Driving Systems: From Design, Evaluation, to Testing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/11/21/robustness-of-autonomous-driving-systems-from-design-evaluation-to-testing/
+source: DSA
+
+headings:
+  - Robustness of Autonomous Driving Systems: From Design, Evaluation, to Testing
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Robustness of Autonomous Driving Systems: From Design, Evaluation, to Testing
+  Share to
+  ABSTRACT
+  Robustness of autonomous driving systems is the ability to handle various uncertainties on the road, which is essential to achieve full autonomy of autonomous vehicles. In this talk, we will comprehensively examine the uncertainties in autonomous driving systems, brought by the vulnerabilities from hardware, software, human, and environment. We will then discuss the possible countermeasures to improve the robustness of autonomous driving systems from the perspectives of design, evaluation, and testing.
+  SPEAKER BIO
+  Jianping WANG
+  Professor
+  City University of Hong Kong
+  Prof. Jianping Wang is currently a professor in the Department of Computer Science and assistant provost (strategic planning and quality assurance) at the City University of Hong Kong. Her research interests are resource allocation and system dependability in Autonomous Driving, Networking Systems, Edge Computing, and Cloud Computing. Her research has been supported by various funding agencies and industry companies. She is a panel member in the RGC Engineering panel and a council member in the Hong Kong Institute of Science. She has been serving or served as an associate editor for several prestigious IEEE transactions/journals such as IEEE Transactions on Parallel and Distributed Systems, IEEE Transactions on Cloud Computing, IEEE Transactions on Mobile Computing, IEEE Internet of Things Journal.
+  Date
+  22 November 2022
+  Time
+  10:30:00 -
+  11:30:00
+  Location
+  Online
+  Join Link
+  Tencent Meeting ID:
+  860-353-312
+  Passcode: 221122
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

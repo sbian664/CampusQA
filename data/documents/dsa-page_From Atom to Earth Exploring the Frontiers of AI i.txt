@@ -1,0 +1,38 @@
+dsa_page: From Atom to Earth: Exploring the Frontiers of AI in Science – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/02/21/from-atom-to-earth-exploring-the-frontiers-of-ai-in-science/
+source: DSA
+
+headings:
+  - From Atom to Earth: Exploring the Frontiers of AI in Science
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  From Atom to Earth: Exploring the Frontiers of AI in Science
+  Share to
+  ABSTRACT
+  In this talk, Dr. Zhu will explore the artificial intelligence's transformative impact across diverse scientific fields, spanning from the molecular intricacies of biology to the grandeur of earth science. He will illustrate how AI will revolutionize molecular biology labs, sharpens cryo-electron microscopy (cryoEM) to reveal structural biology with unparalleled precision, uncovers the earth's subsurface mysteries, and enhances primate welfare through behavior assessments. Dr. Zhu's talk will succinctly highlight AI's critical role in propelling scientific advancements, nurturing cross-disciplinary partnerships, and heralding a new era of innovation that bridges the microcosmic details of atoms with the expansive complexities of our planet.
+  SPEAKER BIO
+  YiXin ZHU
+  PKU CoRe Lab
+  Dr. Yixin Zhu received a Ph.D. degree from the University of California, Los Angeles (UCLA) in 2018, where he was advised by Prof. Zhu Song-Chun. His research focuses on building interactive AI by integrating high-level common sense (functionality, affordance, physics, causality, intent) with raw sensory inputs (pixels and haptic signals) to enable richer representation and cognitive reasoning on objects, scenes, shapes, numbers, and agents. Dr. Zhu directs the PKU CoRe Lab, where he works on abstract reasoning, visually grounded reasoning, and interactive reasoning.
+  Date
+  22 February 2024
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  820 0085 1145
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

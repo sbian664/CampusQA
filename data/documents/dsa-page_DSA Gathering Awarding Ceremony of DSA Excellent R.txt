@@ -1,0 +1,29 @@
+dsa_page: DSA Gathering: Awarding Ceremony of DSA Excellent Research Award – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/28/celebrate-the-year-of-snake-awarding-ceremony-of-dsa-excellent-research-award/
+source: DSA
+
+headings:
+  - DSA Gathering: Awarding Ceremony of DSA Excellent Research Award
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - EVENT RECAP
+
+text: >
+  DSA Gathering
+  DSA Gathering: Awarding Ceremony of DSA Excellent Research Award
+  Share to
+  Date
+  12 February 2025
+  Time
+  13:00:00 -
+  15:00:00
+  Location
+  W4-102
+  Event Organizer
+  Data Science and Analytics Thrust
+  EVENT RECAP
+
+links:
+  - EVENT RECAP | https://mp.weixin.qq.com/s/RjjZP3eeabXim1TNVdsr9g

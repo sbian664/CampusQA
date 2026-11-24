@@ -1,0 +1,579 @@
+dsa_page: PhD Students – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/students/doctor-of-philosophy/
+source: DSA
+
+headings:
+  - PhD Students
+  - 2025 Cohort
+  - 2024 Cohort
+  - 2023 Cohort
+  - 2022 Cohort
+  - 2021 Cohort
+  - 2020 Cohort
+  - 2019 Cohort
+
+text: >
+  PhD Students
+  2025 Cohort
+  CHEN, Yiyun
+  PhD(DSA)
+  CHEN, Yongzhi
+  PhD(DSA)
+  CHEN, Yuhan
+  PhD(DSA)
+  CHEN, Zechao
+  PhD(DSA)
+  CHU, Hongru
+  PhD(DSA)
+  DI, Na
+  PhD(DSA)
+  DUAN, Hongyi
+  PhD(DSA)
+  FANG, Zheng
+  PhD(DSA)
+  GU, Yufei
+  PhD(DSA)
+  HAO, Chenxi
+  PhD(DSA)
+  HE, Yuhang
+  PhD(DSA)
+  HOU, Yusen
+  PhD(DSA)
+  HU, Chuhan
+  PhD(DSA)
+  HUANG, Guang
+  PhD(DSA)
+  HUANG, Junlin
+  PhD(DSA)
+  JIANG, Junjie
+  PhD(DSA)
+  JIAO, Xiaoqian
+  PhD(DSA)
+  LI, Cong
+  PhD(DSA)
+  LI, Junyi
+  PhD(DSA)
+  LI, Xin
+  PhD(DSA)
+  LI, Yifan
+  PhD(DSA)
+  LI, Yifan
+  PhD(DSA)
+  LI, Zhihui
+  PhD(DSA)
+  LI, Zhiwei
+  PhD(DSA)
+  LIANG, Zhuowen
+  PhD(DSA)
+  LIU, Jiyang
+  PhD(DSA)
+  LIU, Yuanbang
+  PhD(DSA)
+  PAN, Duyi
+  PhD(DSA)
+  PENG, Zhangyang
+  PhD(DSA)
+  PU, Yuhan
+  PhD(DSA)
+  QIAO, Jingbo
+  PhD(DSA)
+  RUAN, Chenxi
+  PhD(DSA)
+  TAN, Youshuai
+  PhD(DSA)
+  WANG, Fan
+  PhD(DSA)
+  WANG, Peisong
+  PhD(DSA)
+  WANG, Xiaotang
+  PhD(DSA)
+  WU, Fei
+  PhD(DSA)
+  WU, Yaohui
+  PhD(DSA)
+  WU, Yiwen
+  PhD(DSA)
+  XIAO, Ruiqiang
+  PhD(DSA)
+  XU, Jing
+  PhD(DSA)
+  YE, Fuda
+  PhD(DSA)
+  YOU, Huajie
+  PhD(DSA)
+  YU, Haitao
+  PhD(DSA)
+  ZHANG, Cheng
+  PhD(DSA)
+  ZHANG, Kaijie
+  PhD(DSA)
+  ZHANG, Teng
+  PhD(DSA)
+  ZHANG, Zongmin
+  PhD(DSA)
+  ZHENG, Zinan
+  PhD(DSA)
+  ZHOU, Hange
+  PhD(DSA)
+  ZHOU, Xinyu
+  PhD(DSA)
+  ZHOU, Zikai
+  PhD(DSA)
+  ZHU, Yanchen
+  PhD(DSA)
+  ZHU, Yizhang
+  PhD(DSA)
+  ZI, Chenyi
+  PhD(DSA)
+  ZOU, Jingyi
+  PhD(DSA)
+  ZOU, Xingchen
+  PhD(DSA)
+  SUN, Zihan
+  PhD(DSA)
+  WANG, Shuai
+  PhD(DSA)
+  SHUAI, Zhihao
+  PhD(DSA)
+  LI, Xin
+  PhD(DSA)
+  BAI, Xueyin
+  PhD(DSA)
+  GU, Cheng
+  PhD(DSA)
+  GUO, Zhiyu
+  PhD(DSA)
+  HE, Yuqiang
+  PhD(DSA)
+  HUANG, Yue
+  PhD(DSA)
+  LIU, Shiwen
+  PhD(DSA)
+  PANG, Zirui
+  PhD(DSA)
+  WANG, Haocheng
+  PhD(DSA)
+  XU, Mingjie
+  PhD(DSA)
+  XU, Minrui
+  PhD(DSA)
+  YANG, Hangyu
+  PhD(DSA)
+  YE, Feiye
+  PhD(DSA)
+  YU, Qihan
+  PhD(DSA)
+  YU, Yanlin
+  PhD(DSA)
+  ZHANG, Hengming
+  PhD(DSA)
+  LU, Chenyu
+  PhD(DSA)
+  2024 Cohort
+  CHAN, Ka Ho
+  PhD(DSA)
+  DENG, Hengwei
+  PhD(DSA)
+  DENG, Mengyi
+  PhD(DSA)
+  FANG, Yuanyuan
+  PhD(DSA)
+  FENG, Junning
+  PhD(DSA)
+  GUO, Songyue
+  PhD(DSA)
+  HAN, Junjie
+  PhD(DSA)
+  HU, Jiaxi
+  PhD(DSA)
+  HU, Zhuangfei
+  PhD(DSA)
+  HUA, Fengrui
+  PhD(DSA)
+  HUANG, Feiyu
+  PhD(DSA)
+  JING, Liuchang
+  PhD(DSA)
+  KANG, Xueze
+  PhD(DSA)
+  LI, Binhong
+  PhD(DSA)
+  LI, Boyan
+  PhD(DSA)
+  LI, Xiang
+  PhD(DSA)
+  LIAO, Chengxi
+  PhD(DSA)
+  LIN, Haiqi
+  PhD(DSA)
+  LIN, Xiaotian
+  PhD(DSA)
+  LIN, Zeteng
+  PhD(DSA)
+  LIU, Bingcen
+  PhD(DSA)
+  LIU, Jiaqi
+  PhD(DSA)
+  LIU, Siyi
+  PhD(DSA)
+  LIU, Xin
+  PhD(DSA)
+  LIU, Yule
+  PhD(DSA)
+  LONG, Weicai
+  PhD(DSA)
+  LU, Xiaohan
+  PhD(DSA)
+  LUO, Yaqiong
+  PhD(DSA)
+  LUO, Yuxiang
+  PhD(DSA)
+  MA, Haolun
+  PhD(DSA)
+  PAN, Jingyi
+  PhD(DSA)
+  PENG, Miao
+  PhD(DSA)
+  QIU, Runwen
+  PhD(DSA)
+  SHAO, Shitong
+  PhD(DSA)
+  SHEN, Shuyu
+  PhD(DSA)
+  SU, Houcheng
+  PhD(DSA)
+  SU, Ri
+  PhD(DSA)
+  SUN, Zhen
+  PhD(DSA)
+  TAO, Xingjian
+  PhD(DSA)
+  WANG, Rui
+  PhD(DSA)
+  WANG, Shuzheng
+  PhD(DSA)
+  WANG, Xin
+  PhD(DSA)
+  WANG, Ziwei
+  PhD(DSA)
+  WEN, Siyuan
+  PhD(DSA)
+  WU, Guoli
+  PhD(DSA)
+  WU, Xiaojun
+  PhD(DSA)
+  WU, Zuohan
+  PhD(DSA)
+  XIA, Wenxuan
+  PhD(DSA)
+  XIANG, Guangyu
+  PhD(DSA)
+  XIANG, Xiaopeng
+  PhD(DSA)
+  XIAO, Qingfa
+  PhD(DSA)
+  XIE, Sirui
+  PhD(DSA)
+  XIE, Yupeng
+  PhD(DSA)
+  XU, Haotian
+  PhD(DSA)
+  YANG, Haowen
+  PhD(DSA)
+  YANG, Ruijia
+  PhD(DSA)
+  YIN, Yiming
+  PhD(DSA)
+  YU, Yongzi
+  PhD(DSA)
+  YUAN, Tong
+  PhD(DSA)
+  ZENG, Jiahao
+  PhD(DSA)
+  ZHANG, Haohan
+  PhD(DSA)
+  ZHANG, Jiayi
+  PhD(DSA)
+  ZHANG, Junxiang
+  PhD(DSA)
+  ZHANG, Kunming
+  PhD(DSA)
+  ZHANG, Qifan
+  PhD(DSA)
+  ZHANG, Rui
+  PhD(DSA)
+  ZHANG, Yuting
+  PhD(DSA)
+  ZHANG, Zhengxuan
+  PhD(DSA)
+  ZHAO, Jiayi
+  PhD(DSA)
+  ZHONG, Siru
+  PhD(DSA)
+  2023 Cohort
+  CAO, Bokai
+  PhD (DSA)
+  CHEN, Minping
+  PhD (DSA)
+  DING, Xiaorui
+  PhD (DSA)
+  DONG, Peijie
+  PhD (DSA)
+  GUO, Pengyu
+  PhD (DSA)
+  HE, Yanji
+  PhD (DSA)
+  HUANG, Yunjie
+  PhD (DSA)
+  LI, Jihang
+  PhD (DSA)
+  LI, Ling
+  PhD (DSA)
+  LI, Yin
+  PhD (DSA)
+  LI, Yuhan
+  PhD (DSA)
+  LI, Zeyu
+  PhD (DSA)
+  LIAN, Yijie
+  PhD (DSA)
+  LIN, Teng
+  PhD (DSA)
+  LIN, Xinyi
+  PhD (DSA)
+  LINGHU, Han
+  PhD (DSA)
+  LIU, Xiang
+  PhD (DSA)
+  LIU, Xinyu
+  PhD (DSA)
+  LONG, Hanlin
+  PhD (DSA)
+  LUO, Tianqi
+  PhD (DSA)
+  MAI, Changkai
+  PhD (DSA)
+  PAN, Xinglin
+  PhD (DSA)
+  SHI, Xinran
+  PhD (DSA)
+  SHI, Yao
+  PhD (DSA)
+  SONG, Haoze
+  PhD (DSA)
+  SUN, Penglei
+  PhD (DSA)
+  TONG, Bing
+  PhD (DSA)
+  WANG, Liangwei
+  PhD (DSA)
+  WEN, Biaolin
+  PhD (DSA)
+  WEN, Yufei
+  PhD (DSA)
+  WU, Ruizhong
+  PhD (DSA)
+  XU, Yuebin
+  PhD (DSA)
+  YANG, Chenyu
+  PhD (DSA)
+  YANG, Zhicheng
+  PhD (DSA)
+  YIN, Hongbo
+  PhD (DSA)
+  ZENG, Xingchen
+  PhD (DSA)
+  ZHANG, Longteng
+  PhD (DSA)
+  ZHANG, Xinwei
+  PhD (DSA)
+  ZHAO, Haihong
+  PhD (DSA)
+  ZHAO, Wenxin
+  PhD (DSA)
+  ZHOU, Wanyun
+  PhD (DSA)
+  ZHU, Jiayi
+  PhD (DSA)
+  JIANG, Gongyao
+  PhD (DSA)
+  CHEN, Aochuan
+  PhD (DSA)
+  LI, Changlun
+  PhD (DSA)
+  LIU, Hongbin
+  PhD (DSA)
+  HUANG, Xinhao
+  PhD (DSA)
+  2022 Cohort
+  CHEN, Lin
+  PhD (DSA)
+  CHEN, Nuo
+  PhD (DSA)
+  CHEN, Xiaolong
+  PhD (DSA)
+  CHEN, Zhuoyang
+  PhD (DSA)
+  FAN, Ruibo
+  PhD (DSA)
+  HAN, Xu
+  PhD (DSA)
+  HAO, Jianing
+  PhD (DSA)
+  HUANG, Suizi
+  PhD (DSA)
+  HUANG, Yongzhi
+  PhD (DSA)
+  JIANG, Juyong
+  PhD (DSA)
+  LI, Guanghua
+  PhD (DSA)
+  LI, Zhihao
+  PhD (DSA)
+  LIU, Hanfeng
+  PhD (DSA)
+  LIU, Yuchen
+  PhD (DSA)
+  LUO, Weile
+  PhD (DSA)
+  MA, Chunming
+  PhD (DSA)
+  NIU, Yifan
+  PhD (DSA)
+  QIU, Minghui
+  PhD (DSA)
+  SONG, Yifan
+  PhD (DSA)
+  TANG, Song
+  PhD (DSA)
+  WANG, Liping
+  PhD (DSA)
+  WANG, Ruoqi
+  PhD (DSA)
+  YANG, Mingyu
+  PhD (DSA)
+  YE, Jiexia
+  PhD (DSA)
+  ZHANG, Jiawen
+  PhD (DSA)
+  ZHANG, Lingzheng
+  PhD (DSA)
+  ZHOU, Peilin
+  PhD (DSA)
+  ZHU, Xinyi
+  PhD (DSA)
+  ZHU, Zhenyi
+  PhD (DSA)
+  FU, Yihao
+  PhD (DSA)
+  LI, Chuyi
+  PhD (DSA)
+  PENG, Xuemei
+  PhD (DSA)
+  WANG, Hao
+  PhD (DSA)
+  YU, Holam
+  PhD (DSA)
+  2021 Cohort
+  CHEN, Mingyang
+  PhD (IIP-DSA)
+  CHEN, Shi
+  PhD (IIP-DSA)
+  CHENG, Jiashun
+  PhD (IIP-DSA)
+  GAO, Shihong
+  PhD (IIP-DSA)
+  GAO, Ziqi
+  PhD (IIP-DSA)
+  HUANG, Bo
+  PhD (IIP-DSA)
+  JIANG, Jiahang
+  PhD (IIP-DSA)
+  JIANG, Yuxin
+  PhD (IIP-DSA)
+  LI, Ao
+  PhD (IIP-DSA)
+  LIU, Hanmo
+  PhD (IIP-DSA)
+  LIU, Yang
+  PhD (IIP-DSA)
+  LUO, Yihong
+  PhD (IIP-DSA)
+  LUO, Zihan
+  PhD (IIP-DSA)
+  QIU, Siya
+  PhD (IIP-DSA)
+  SHI, Kexin
+  PhD (IIP-DSA)
+  TANG, Jianheng
+  PhD (IIP-DSA)
+  TIAN, Anxin
+  PhD (IIP-DSA)
+  WANG, Luxuan
+  PhD (IIP-DSA)
+  XU, Tong
+  PhD (IIP-DSA)
+  XU, Zizhuo
+  PhD (IIP-DSA)
+  ZHANG, Jing
+  PhD (IIP-DSA)
+  ZHANG, Qingwen
+  PhD (IIP-DSA)
+  ZHANG, Xin
+  PhD (IIP-DSA)
+  ZHANG, Yun
+  PhD (IIP-DSA)
+  ZHOU, Xinjie
+  PhD (IIP-DSA)
+  2020 Cohort
+  FANG, Linjiajie
+  PhD (IIP-DSA)
+  GUO, Yue
+  PhD (IIP-DSA)
+  JIA, Zhifeng
+  PhD (IIP-DSA)
+  LI, Ran
+  PhD (IIP-DSA)
+  LIU, Ruoxue
+  PhD (IIP-DSA)
+  LIU, Xuantong
+  PhD (IIP-DSA)
+  WANG, Xiasi
+  PhD (IIP-DSA)
+  ZHANG, Xiaomeng
+  PhD (IIP-DSA)
+  ZHANG, Hongbo
+  PhD (IIP-DSA)
+  WEN, Lei
+  PhD (IIP-DSA)
+  ZHOU, Jiawei
+  PhD (IIP-DSA)
+  2019 Cohort
+  WANG, Qiyue
+  PhD (IIP-DSA)
+
+links:
+  - DONG, Peijie | https://pprp.github.io/
+  - LI, Yuhan | https://yhleeee.github.io/
+  - LI, Zeyu | https://github.com/GaleSeLee
+  - LIU, Xiang | https://dominic789654.notion.site/Xiang-Liu-dbfd0c32ac634066992a20b717925eb9
+  - ZHAO, Haihong | https://haihongzhao.com/
+  - CHEN, Aochuan | https://openreview.net/profile?id=~Aochuan_Chen1
+  - CHEN, Nuo | https://nuochenpku.github.io/
+  - CHEN, Xiaolong | https://chenxlong.top/about/
+  - CHEN, Zhuoyang | https://www.linkedin.com/in/zhuoyang-chen-b9b4011a1/
+  - HAO, Jianing | https://catherinehao.github.io/
+  - HUANG, Yongzhi | https://www.huangyongzhi.com.cn/
+  - LI, Zhihao | https://www.lizhihao.me/
+  - LUO, Weile | https://luowle.tech/
+  - NIU, Yifan | https://nyf0808.github.io/
+  - WANG, Ruoqi | https://wang-rq.github.io/
+  - ZHANG, Jiawen | https://imjiawen.com/
+  - GAO, Ziqi | https://scholar.google.com.hk/citations?user=UHwNFy8AAAAJ&hl=zh-CN
+  - JIANG, Yuxin | https://yjiangcm.github.io/
+  - LIU, Yang | https://scholar.google.com/citations?hl=zh-CN&user=IWyM6l0AAAAJ
+  - TANG, Jianheng | https://squareroot3.github.io/
+  - XU, Tong | https://xutong.tech/
+  - ZHANG, Yun | http://yzhangjy.student.ust.hk/
+  - JIA, Zhifeng | http://fergusjzf.com/
+  - ZHOU, Jiawei | https://jzhoubu.github.io/

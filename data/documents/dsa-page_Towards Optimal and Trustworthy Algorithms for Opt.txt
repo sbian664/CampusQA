@@ -1,0 +1,38 @@
+dsa_page: Towards Optimal and Trustworthy Algorithms for Optimization in Games – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/05/05/towards-optimal-and-trustworthy-algorithms-for-optimization-in-games/
+source: DSA
+
+headings:
+  - Towards Optimal and Trustworthy Algorithms for Optimization in Games
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Optimal and Trustworthy Algorithms for Optimization in Games
+  Share to
+  ABSTRACT
+  Machine learning applications have brought about new optimization challenges, particularly in the area of trustworthy machine learning, which requires gametheoretical formulations to seek equilibrium. Furthermore, these large-scale problems demand adaptive methods such as Adam and AdaGrad to adjust step sizes without granular knowledge of the loss functions. In this talk, I will present new algorithms that address both these quests.
+  First, I will analyze the limitations of Stochastic Gradient Descent (SGD) and demonstrate the advantages of adaptive methods under the lack of problem information. Second, I will introduce min-max optimization problems and present a series of simple algorithms. Third, I will discuss the non-convergence issues of existing adaptive methods in non-convex min-max optimization and showcase near-optimal and tuning-free algorithms. Finally, I will outline future directions that aim to deliver trustworthy algorithms for multi-agent systems.
+  SPEAKER BIO
+  Junchi YANG
+  Junchi Yang is currently a Ph.D. candidate in the Department of Computer Science at ETH Zurich, under the guidance of Niao He. He obtained his Master's degree in Industrial Engineering from the University of Illinois Urbana- Champaign in 2020, and his Bachelor's degree in Applied Mathematics and Economics from UCLA in 2017. His research interests focus on the intersection of machine learning, optimization, and game theory, with the goal of developing intelligent systems capable of making better decisions in complex, real-world scenarios.
+  Date
+  08 May 2023
+  Time
+  20:00:00 -
+  20:45:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  936 5719 1378
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

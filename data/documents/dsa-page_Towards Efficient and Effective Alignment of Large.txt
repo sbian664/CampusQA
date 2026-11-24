@@ -1,0 +1,57 @@
+dsa_page: Towards Efficient and Effective Alignment of Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/05/21/towards-efficient-and-effective-alignment-of-large-language-models/
+source: DSA
+
+headings:
+  - Towards Efficient and Effective Alignment of Large Language Models
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Towards Efficient and Effective Alignment of Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yuxin JIANG
+  ABSTRACT
+  Large language models (LLMs) exhibit remarkable capabilities across diverse tasks, yet aligning them efficiently and effectively with human expectations remains a critical challenge. This thesis advances LLM alignment by introducing novel methodologies in data collection, training, and evaluation.
+  We first address alignment data collection. Existing approaches rely heavily on manually curated datasets or proprietary models. To overcome these limitations, we propose Lion, an adversarial distillation framework that iteratively refines training data by identifying and generating challenging instructions, enabling state-of-the-art zero-shot reasoning. Additionally, we introduce Web Reconstruction (WebR), a fully automated framework that synthesizes instruction-tuning data directly from raw web documents, significantly improving data diversity and scalability over existing synthetic data methods.
+  Next, we enhance alignment training through novel optimization techniques. We develop Learning to Edit (LTE), a framework that enables LLMs to efficiently integrate new knowledge while preserving existing information. LTE leverages meta-learning to improve both real-time and batch knowledge updates. Furthermore, we introduce Bridging and Modeling Correlations (BMC), a refinement of Direct Preference Optimization (DPO) that explicitly captures token-level correlations in preference data, leading to superior alignment across QA and mathematical reasoning tasks.
+  Finally, we tackle the challenge of evaluating alignment. Existing benchmarks emphasize response quality but overlook adherence to specific constraints. To bridge this gap, we introduce FollowBench, a multi-level, fine-grained benchmark assessing LLMs’ ability to follow complex constraints across diverse instruction types. Our results expose key weaknesses in current models’ constraint adherence, offering insights for future improvements.
+  This thesis makes fundamental contributions to LLM alignment by pioneering novel strategies for data synthesis, training optimization, and evaluation. These advancements enhance efficiency, adaptability, and rigor, paving the way for safer and more controllable AI systems.
+  TEC
+  Chairperson: Prof Yutao YUE
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Jiaqiang HUANG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Zhijiang GUO
+  Prof Xuming HU
+  Prof Cuiyun GAO
+  Date
+  03 June 2025
+  Time
+  15:00:00 -
+  17:00:00
+  Location
+  E1-103, GZ Campus
+  Join Link
+  Zoom Meeting ID: 979 9061 2387
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/97990612387?pwd=5cxwDXz33aeGP3Ba5z9wB2akxSnaVR.1

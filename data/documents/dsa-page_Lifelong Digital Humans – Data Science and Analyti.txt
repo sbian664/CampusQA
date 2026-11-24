@@ -1,0 +1,27 @@
+dsa_page: Lifelong Digital Humans – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/09/lifelong-digital-humans/
+source: DSA
+
+headings:
+  - Lifelong Digital Humans
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Lifelong Digital Humans
+  Share to
+  ABSTRACT
+  The latest work from the Endless AI Lab focuses on four core problems of 3D digital humans: representation (Feat2GS,CVPR'25),reconstruction (PuzzleAvatar, SIGGRAPH'25), generation (ChatGarment, CVPR'25), and animation (ETCH, ICCV'25). With the paradigm shift brought by foundation models, we envision the future of "Digital Human 2.0." The ability of foundation models to effectively digest and absorb unstructured data enables the processing of "multi-modal private unstructured data over years," paving the way for "digital immortality."
+  SPEAKER BIO
+  Yuliang Xiu is an Assistant Professor at Westlake University and the principal investigator of Endless AI Lab. He earned his Ph.D. from the Max Planck Institute for Intelligent Systems (MPI-IS) under Michael J. Black. His research focuses on digital humans, 3D vision, graphics, and virtual reality. He has published over 20 papers in top journals and conferences in vision, graphics, and machine learning, including TOG, SIGGRAPH, TPAMI, CVPR, ICCV, NeurIPS, and ICLR, with more than 2,600 citations on Google Scholar. He has interned at industry research institutions such as Meta, Unisoft, and Light Chaser Animation. His lead open-source projects have garnered over 13,000 stars on GitHub. He serves as area chair for several top conferences (ICLR'26, CVPR’26, ICCV’25, 3DV’25, WACV’25). He has received the Best Show Award at SIGGRAPH 2020 Real-Time Live, the China Excellent Open Source Project Award, and the CSIG 2025 Academic Rising Star Award. His representative works ICON and ECON were featured by The NYTimes during coverage of the 2022 World Cup and the 2023 Super Bowl, aiding in highlight replays and tactical analysis.
+  Date
+  09 September 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

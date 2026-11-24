@@ -1,0 +1,58 @@
+dsa_page: A Survey on Large Language Models for Code Generation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-large-language-models-for-code-generation/
+source: DSA
+
+headings:
+  - A Survey on Large Language Models for Code Generation
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Large Language Models for Code Generation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Juyong JIANG
+  Abstract
+  Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions. This burgeoning field has captured significant interest from both academic researchers and industry professionals due to its practical significance in software development,
+  e.g., GitHub Copilot
+  . Despite the active exploration of LLMs for a variety of code tasks, either from the perspective of natural language processing (NLP) or software engineering (SE) or both, there is a noticeable absence of a comprehensive and up-to-date literature review dedicated to LLM for code generation. In this survey, we aim to bridge this gap by providing a systematic literature review that serves as a valuable reference for researchers investigating the cutting-edge progress in LLMs for code generation. We introduce a taxonomy to categorize and discuss the recent developments in LLMs for code generation, covering aspects such as data curation, latest topics, evaluation methods, and real-world applications. In addition, we present a historical overview of the evolution of LLMs for code generation and offer an empirical comparison using the widely recognized HumanEval benchmark to highlight the progressive enhancements in LLM capabilities for code generation. We identify critical challenges and promising opportunities regarding the gap between academia and practical development.Furthermore, we have established a dedicated resource website (https://codellm.github.io) to continuously document and disseminate the most recent advances in the field.
+  CCS Concepts: •
+  General and reference
+  →
+  Surveys and overviews
+  ; •
+  Software and its engineering
+  →
+  Software development techniques
+  ; •
+  Computing methodologies
+  →
+  Artificial intelligence
+  .
+  Additional Key Words and Phrases: Large Language Models, Code Large Language Models, Code Generation
+  PQE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Sung Hun KIM
+  Co-Supervisor: Prof Jiasi SHEN
+  Examiner: Prof Wenjia WANG
+  Date
+  05 June 2024
+  Time
+  11:10:00 -
+  12:25:00
+  Location
+  E4, 201 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  936 1117 3363
+  Passcode: dsa2025
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93611173363?pwd=2HaOncTFZAw8t02mMDizMyxbYFFg7x.1

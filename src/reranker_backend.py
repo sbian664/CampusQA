@@ -9,7 +9,7 @@ from src.inference_runtime import configure_torch_threads
 def validate_onnx_artifact(model_path: str, file_name: str) -> Path:
     root = Path(model_path).resolve()
     relative = Path(file_name)
-    if relative.is_absolute() or ".." in relative.parts or relative.suffix != ".onnx":
+    if relative.anchor or ".." in relative.parts or relative.suffix != ".onnx":
         raise ValueError("RERANKER_ONNX_FILE must be a relative .onnx path inside the model directory")
     path = (root / relative).resolve()
     if root not in path.parents or not path.is_file():

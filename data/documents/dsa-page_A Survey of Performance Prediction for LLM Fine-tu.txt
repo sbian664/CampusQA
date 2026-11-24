@@ -1,0 +1,35 @@
+dsa_page: A Survey of Performance Prediction for LLM Fine-tuning:From Early Stopping to Decision-oriented Post-training – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/a-survey-of-performance-prediction-for-llm-fine-tuningfrom-early-stopping-to-decision-oriented-post-training/
+source: DSA
+
+headings:
+  - A Survey of Performance Prediction for LLM Fine-tuning:From Early Stopping to Decision-oriented Post-training
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Performance Prediction for LLM Fine-tuning:From Early Stopping to Decision-oriented Post-training
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LUO, Yuxiang
+  Abstract
+  Machine learning training has long been an expensive and uncertain investment: substantial computation is often required before one can determine whether a model, dataset, hyperparameter configuration, or training strategy is worth pursuing. Early stopping and learning-curve extrapolation were among the earliest responses to this problem, using partial training trajectories to avoid unnecessary computation or predict final performance. This idea later expanded into multi-fidelity optimization, neural architecture search, proxy-based evaluation, and dataset-level quality assessment. With the rise of foundation models, especially large language model fine-tuning, the problem has become more important and more complex, as final performance depends on the interaction among the base model, training data, objective, optimizer, and evaluation metric.
+  This survey reviews the development of performance prediction for machine learning training, from early stopping to foundation model fine-tuning. It organizes existing methods under a unified information-and-decision perspective, comparing curve-based, multi-fidelity, proxy-based, data-quality-based, early-dynamics-based, and hybrid diagnostic approaches. Beyond summarizing methods, the survey discusses why prediction should be understood as partial information acquisition under computational constraints, where some uncertainty is reducible through additional observation while some may be intrinsic to the task. This perspective motivates a broader view of predictability, decision-sensitive evaluation, and future directions such as relative data valuation, few-shot prediction without heavy meta-learning, agentic training-decision systems, and policy-level resource allocation under uncertainty.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. TANG, Nan
+  Co-Supervisor: Prof. LUO, Yuyu
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-150, HKUST(GZ)

@@ -1,0 +1,34 @@
+dsa_page: A survey of Human-AI Interaction for Personalized – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/27/a-survey-of-human-ai-interaction-for-personalized/
+source: DSA
+
+headings:
+  - A survey of Human-AI Interaction for Personalized
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A survey of Human-AI Interaction for Personalized
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Chuyi LI
+  Abstract
+  Personalized itinerary recommendation has emerged as a key application of AI within the travel and tourism industry, leveraging user-specific data to create customized travel plans. The rise of Human-AI interaction has significantly enhanced the ability of recommendation systems to provide nuanced, user-centered travel suggestions. While these AI techniques have shown promise in other fields, their integration into personalized itinerary planning is still developing, with most existing systems relying on a combination of rule-based methods and recommendation algorithms. Effective integration of LLMs, KGs, and RAG enables systems to interpret complex geospatial and user preference data, adapt in real time, and offer highly relevant recommendations for each individual. This survey presents a comprehensive review of Human-AI interaction techniques in personalized itinerary recommendation, organized by key technological approaches and methods. First, we define the core concepts and explore various personalized recommendation tasks relevant to itinerary planning. We then categorize and examine the major methods used in these tasks, including content-based, collaborative filtering, and hybrid recommendation systems. Additionally, we review state-of-the-art Human AI collaboration techniques that support itinerary recommendation, detailing the roles of LLMs, KGs, and RAG in enhancing geospatial information processing and user interaction. Finally, we identify several promising research directions, aiming to guide future work in this evolving field and unlock new potential for AI-driven, user-centric itinerary planning systems.
+  PQE Committee
+  Chair of Committee: Prof. Qiong LUO
+  Prime Supervisor: Prof. Lei LI
+  Co-Supervisor: Prof. Wei ZENG
+  Examiner: Prof. Zeyi WEN
+  Date
+  06 December 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-201

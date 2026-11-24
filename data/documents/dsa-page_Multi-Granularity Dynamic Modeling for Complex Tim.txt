@@ -1,0 +1,47 @@
+dsa_page: Multi-Granularity Dynamic Modeling for Complex Time Series Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/23/multi-granularity-dynamic-modeling-for-complex-time-series-systems/
+source: DSA
+
+headings:
+  - Multi-Granularity Dynamic Modeling for Complex Time Series Systems
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Multi-Granularity Dynamic Modeling for Complex Time Series Systems
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Lingzheng ZHANG
+  ABSTRACT
+  Complex time series systems arise in transaction markets, event-driven environments, industrial operations, and many other real-world applications, where temporal observations are shaped by heterogeneous external influences and evolving internal mechanisms. Their dynamics may manifest as asynchronous interactions across data domains, discriminative evidence distributed over multiple temporal granularities, or transitions among latent operating regimes. Reliable modeling of such systems therefore requires both the alignment of heterogeneous temporal information and the characterization of intrinsic dynamics within the observed process. This thesis develops these two complementary directions through four studies.
+  The first direction investigates cross-domain alignment. SCAlign addresses transaction event prediction under price commitment policies by constructing multi-scale prototypes of historical and observable future price dynamics, aligning them with consumer event representations, and adaptively integrating the aligned information through a mixture-of-experts mechanism. METP extends this perspective to temporal point processes influenced by external covariates. It extracts periodic structures, constructs multi-granularity covariate representations, calibrates lagged effects through prior-guided causal attention, and integrates the aligned covariates with historical event embeddings for conditional intensity estimation and event-time prediction.
+  The second direction focuses on intrinsic dynamics modeling. GadMIL formulates time series classification as a granularity-aware multi-instance learning problem. It constructs hierarchical instance bags across temporal resolutions, identifies sparse and input-dependent cross-granularity associations, and adaptively combines granularity-specific decisions. In this way, GadMIL characterizes how discriminative temporal evidence is organized and related within a sequence. DSKN further advances from observable evidence to latent evolution mechanisms. By integrating Koopman operator theory with a mixture-of-experts architecture, it represents non-stationary nonlinear evolution through a bank of switchable local linear operators selected by a spectrum-aware router.
+  Experiments on proprietary and public datasets covering transaction events, temporal point processes, univariate and multivariate time series classification demonstrate the effectiveness of the proposed methods in predictive performance and model interpretability. The resulting models provide explicit evidence at the temporal-scale, instance-association, and dynamic-regime levels. Together, these studies establish a coherent framework for modeling complex time series systems through cross-domain temporal alignment and intrinsic dynamics modeling.
+  TEC
+  Chairperson: Prof Danny Hin Kwok TSANG
+  Prime Supervisor: Prof Yuxuan LIANG
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Wei ZENG
+  Prof Yingcong CHEN
+  Prof Xiaobei SHEN
+  Date
+  17 August 2026
+  Time
+  14:30:00 -
+  16:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,33 @@
+dsa_page: AI-friendly code representation in an era of LLMs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/11/ai-friendly-code-representation-in-an-era-of-llms/
+source: DSA
+
+headings:
+  - AI-friendly code representation in an era of LLMs
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA Seminar
+  AI-friendly code representation in an era of LLMs
+  Share to
+  ABSTRACT
+  As we enter the era of Large Language Models (LLMs), AI has emerged as an important practitioner in software development. However, our current ecosystem remains human-centric, overlooking this critical new audience. Most notably, programming languages are optimized for human readability, a design choice that inadvertently inflates computational costs and exhausts LLM token budgets.
+  In this seminar, I will present my research on AI-friendly code representation, which aims to maximize AI productivity through AI-native language design. My work explores this paradigm across three layers: format, syntax, and semantics. By revealing the hidden costs of human-centric design and the performance gains offered by AI-specific optimizations, this line of works paves the way toward an AI-native software development ecosystem.
+  SPEAKER BIO
+  Zhensu Sun is a final-year PhD student at Singapore Management University, advised by Prof. David Lo. His research centers on intelligent software engineering, aiming to bridge the gap between AI and the current human-centric software development ecosystem. His work has been published in top-tier conferences and journals, including ICSE, ASE, FSE, ISSTA, and TOSEM. His contributions have been recognized with three ACM SIGSOFT Distinguished Paper Award (one at ISSTA 2024 and two at ICSE 2026) and a Distinguished Paper Nomination (ICSE 2022). His research has also earned the highly selective ByteDance Scholarship (2024).
+  Date
+  18 March 2026
+  Time
+  14:30:00 -
+  16:00:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

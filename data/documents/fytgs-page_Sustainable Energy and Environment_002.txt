@@ -1,0 +1,336 @@
+fytgs_page: Sustainable Energy and Environment
+url: https://fytgs.hkust-gz.edu.cn/programs/sustainable-energy-and-environment-4
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Sustainable Energy and Environment
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Sustainable Energy and Environment
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Sustainable Energy and Environment
+  Doctor of Philosophy in Sustainable Energy and Environment
+  Program Short Name
+  MPhil(SEE)
+  PhD(SEE)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Sustainable Energy and Environment Thrust Area
+  Function Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Jiaqiang HUANG, Assistant Professor of Sustainable Energy and Environment
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/function-hub/sustainable-energy-and-environment/
+  Enquiry
+  see@hkust-gz.edu.cn
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Identify scientific and engineering significances in various sustainable energy technologies and their environmental impact;
+  Apply a range of qualitative and quantitative research methods for conducting basic or applied research or development in sustainable energy technologies;
+  Transfer applied research insights and innovative ideas effectively and develop them into new domain knowledge or engineering prototypes; and
+  Demonstrate independent and critical thinking, and develop an innovative spirit and a global vision in the field.
+  On successful completion of the PhD program, graduates will be able to:
+  Identify scientific and engineering significances in various sustainable energy technologies and their environmental impact;
+  Apply a range of qualitative and quantitative research methods for conducting cutting-edge research in sustainable energy technologies or disruptive technology innovation;
+  Transfer fundamental research insights and innovative ideas effectively and develop them into new domain knowledge and engineering prototypes; and
+  Demonstrate independent and critical thinking, and develop a growth mindset, an innovative spirit, and a global vision in the field.
+  INTRODUCTION
+  Innovative sustainable energy technologies with minimal environmental impact will act as a catalyst to trigger breakthrough development in many fields, ranging from greener aviation, to safer electric vehicles, to longer endurance of 3C products. Studies in sustainable energy technologies focus on cutting-edge research in the related cross-disciplines, including sustainable energy harvesting and conversion technologies; high-performance energy storage systems and electric vehicles; smart energy distribution, intelligent energy systems and energy saving strategies; hydrogen and electrolyzers; bioenergy, bio-inspired propulsion and energy systems, and lifecycle analysis and recovery of energy system.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Sustainable Energy and Environment aim to provide solid education and rigorous research training in sustainable energy technologies, as well as prototyping and transferring original research results on our campuses as living lab and to industrial collaborators. The programs will also offer dynamic pedagogical training to equip students with competitive and transferrable skills in sustainable energy technologies that serve regional and national industries with a global vision.
+  An MPhil graduate is expected to demonstrate domain knowledge and to synthesize and create new technology or method, contributing to the field.
+  A PhD graduate is expected to demonstrate mastery of knowledge in the chosen discipline and to synthesize and create new knowledge, making an original and substantial contribution to the discipline.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Function Hub and at least one Hub core course (2 credits) from other Hubs.
+  Function Hub Core Course
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  Other Hub Core Courses
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  SEEN 5010
+  Experiment Design and Analysis
+  3 Credit(s)
+  Description
+  This course aims to introduce principles in the design of experimental research and practical skills in the statistical analysis of results. Topics will include construction of research hypotheses, principles of statistical inference, confidence interval estimation, and differences in statistical approaches in the trials setting. It will also introduce students to skills and tools for optimal experimental design, experimental data extraction, validation, comparison and uncertainty analysis.
+  SEEN 5020
+  Design and Optimization of Energy Systems
+  3 Credit(s)
+  Description
+  This course aims to introduce techniques for the architecture design, optimization modelling and the economic evaluation of industrial processes and energy systems and to develop the skills required to identify the opportunity and implement optimization-based decision support tools in energy processes and systems. It covers the problem statement, modeling of processes and systems, solving methods for the simulation and the single and multi-objective optimization strategies. Topics cover process systems engineering, process and system modelling and simulation, economic evaluation, optimization strategies, and data reconciliation.
+  SEEN 5030
+  Battery Sustainability
+  3 Credit(s)
+  Description
+  Rechargeable batteries, as one of the most versatile energy storage technologies, play a central role in the ongoing transition from fossil fuel to renewable energy. This course will focus on the environmental footprint, sustainability, and the diagnostics of batteries. History, fundamental science, and cutting-edge research will be covered in the lectures.
+  SEEN 5040
+  Modeling and Simulation of Complex Energy Systems
+  3 Credit(s)
+  Description
+  The subject of transport phenomena includes three closely related topics: fluid dynamics, heat transfer, and mass transfer. Fluid dynamics involves the transport of momentum, heat transfer deals with the transport of energy, and mass transfer is concerned with the transport of mass of various chemical species. In this course, we study these three transport phenomena together. This course will also introduce various solution methods and software tools to tackle the transport phenomena equations in the form of coupled differential equations. Transport phenomena applications in several example systems (e.g., chemical and electrochemical reactors, fuel cells and batteries) will be highlighted.
+  SEEN 5060
+  Greenhouse Gas, Air Pollutant Emissions and Mitigation
+  3 Credit(s)
+  Description
+  The aims of this course are to assist students understand emission characteristics of greenhouse gas and air pollutants and their sources, how to characterize and quantify emissions for diverse source sectors, and how to mitigate greenhouse gas and air pollutant emissions. The topics will include: the introduction of greenhouse gases and air pollutants; the characteristics of sector-based greenhouse gas and air pollutant emission sources, sampling and measurement techniques, and commonly used bottom-up estimation methods for major sectors such as energy, industry, transportation, households, and others; the uncertainty and validation of bottom-up emission inventory; the application of big data and innovative methodologies to emission inventory development; and major strategies and green technologies for mitigating greenhouse gas and air pollutant emissions.
+  SEEN 5090
+  Physical Chemistry of Advanced Energy Materials
+  3 Credit(s)
+  Description
+  The development of sustainable energy heavily relies on the advancements of corresponding key energy materials. The material’s quality and system stability are closely determined by the related physical chemistry process. This course introduces main concepts and practical application of thermodynamics and kinetics of the key energy materials. It includes basic laws of classical and irreversible thermodynamics, phase equilibria, theory of solutions, chemical reaction thermodynamics and kinetics, surface phenomena, diffusion etc. This course would provide students with insights and deep understandings of the physical chemistry aspects of materials and enable the students to conduct energy material syntheses and energy system experiments with advanced thermodynamic and kinetic foundations.
+  SEEN 5100
+  Hydrogen Energy and Fuel Cell
+  3 Credit(s)
+  Description
+  This course covers hydrogen properties, use and safety, fuel cell technology and its systems, fuel cell engine design and safety, and design and maintenance of a heavy-duty fuel cell engine. The different types of fuel cells and hybrid electric vehicles are presented. The system descriptions and maintenance procedures focus on proton-exchange membrane (PEM) fuel cells with respect to heavy-duty transit applications. The PEM fuel cell engine was chosen as it is the most promising for automotive applications, and its transit application is currently the most advanced.
+  SEEN 5110
+  Global Energy and Environment Policy
+  3 Credit(s)
+  Description
+  This course systematically introduces world energy system and the energy transition, together with theoretical and practical understanding of how energy policies are designed, shaped, advocated and implemented. Trends and projections of global energy will be evaluated, including key technologies, investment trends and subsidy policies. Afterwards, case-based teaching will be given to understand the drivers and constraints associated with national energy policy decision-making. Finally, regional and global energy policies and associated stakeholders will be discussed.
+  SEEN 5120
+  Lifecycle Energy and Economic Analytics
+  3 Credit(s)
+  Description
+  This course aims to introduce the Life Cycle Assessment (LCA) of integrated ‘source-grid-load-storage’ multi-energy system frameworks. Environmental impacts will be specifically analyzed, associated with the entire life cycle of a particular product or process. Introduction to Techno-Economic Analysis (TEA) will be given for evaluating the economic performance of a specific technology. Three different LCA approaches are introduced, i.e., attributional LCA, consequential LCA, and a hybrid (benchmarking) LCA approach. Physical meaning andcalculation approach of multiple indexes will be holistically introduced, including net direct energy consumption,levelized cost of energy, net present value, discounted payback time, LCA carbon emission, and so on. Afterwards,different application scenarios (like PV, wind turbine, battery, latent heat storages, and integrated PV-battery-building-grid systems) of LCA approach will be given to help students to learn how to apply the approach forlifecycle energy and economic analytics.
+  SEEN 5130
+  Green Building in Sustainable Development
+  3 Credit(s)
+  Description
+  This course is to systematically and comprehensively introduce energy consumption and carbon emission in buildings. Heat transfer mechanism and thermodynamics in HVAC will be introduced. Effective solutions on how to achieve low-carbon buildings will be introduced, such as energy-saving in green building technologies (active and passive strategies), distributed renewable energy systems, energy storages (thermal/ electrical/hydrogen), building energy conversion and management. Techno-economic-environmental analysis will be introduced, together with lifecycle carbon quantification and carbon reduction.
+  SEEN 5140
+  Digitalization and Intelligence of Integrated Building Energy Systems
+  3 Credit(s)
+  Description
+  This course aims to introduce the current situation on biologically inspired intelligence in smart buildings. Students will be well trained to conduct statistical analysis and programming experiments; to learn the principles of Artificial Neural Network, fuzzy logic, optimization algorithms and their applications to engineering problems. Technologies for the building role transition from traditional consumers towards prosumers will be comprehensively introduced through ‘source-grid-demand-storage-usage’. Peer-to-peer energy trading, cost-benefit business models and internet of energy things will be introduced. Lastly, in order to guarantee the power supply reliability during extreme weather or war period, energy resilience of distributed energy supply systems will be introduced. Multi-disciplinary areas will be involved in this subject, like fundamentals of artificial intelligence, thermodynamics, heating, ventilation and air conditioning, system modelling and simulation, renewable energy, energy economics, energy policy, and so on.
+  SEEN 5150
+  Kinetic Energy Harvesting and Conversion
+  3 Credit(s)
+  Description
+  The course will discuss kinetic energy harvesting devices and systems, including: Principles of energy harvesting from wind, wave, water flow, vibration, and human motion; Architectures and design; Mechanism, electromechanical modeling and analysis of electromagnetic, piezoelectric, triboelectric, electrostatic generators; Lab experiments; Wind turbines and fluid-structure interaction; Fundamentals of vibration; Control and power conditioning circuits; Performance evaluation and optimization; Potential applications and sensing.
+  SEEN 5160
+  Integration Study of Energy, Transportation, Information and Humanity
+  3 Credit(s)
+  Description
+  From the view of integration and digitalization, this course aims to paint a picture of what could happen next in industrial development. It will integrate digital technology and power electronics technology to develop energy digitization and promote the energy revolution. Specifically, this course introduces the evolution from industry 1.0 to 5.0, solar power and storage system, data center and AI server power supply, intelligent and electrified transportation, smart charging network and policy, etc.
+  SEEN 5170
+  Electric Drives and Control Techniques
+  3 Credit(s)
+  Description
+  Electric drives are power units of electric vehicles, robotics, more electric aircraft, etc. Precise control of electric drives determines the dynamic performance in positioning, speed regulation, and torque generation. This course will give a comprehensive introduction to electric drive structures and control techniques.
+  SEEN 5180
+  Advanced Thermal Management for Electronics and Power Batteries
+  3 Credit(s)
+  Description
+  This course introduces concepts in the thermal management of electronics systems and power batteries. Traditional and innovative methods for heat dissipation from electronic systems, and assessment of these methods over a range of applications and scales, will be covered. Novel ultrathin flexible vapor chamber heat spreaders and microchannel heat sinks will be introduced and discussed. Some special emphasis is given to industry applications to discuss thermal management trends.
+  SEEN 5190
+  Carbon Capture and Utilization
+  3 Credit(s)
+  Description
+  This course provides a comprehensive overview of the technologies and strategies involved in capturing and converting carbon dioxide (CO₂) from industrial processes and the atmosphere. Students will explore the science behind carbon capture methods and emerging technologies for converting CO₂ into valuable products. The course also covers the economic, environmental, and policy considerations driving the development and deployment of carbon capture and conversion systems.
+  SEEN 5200
+  Air Quality Models and Application
+  3 Credit(s)
+  Description
+  This course provides a comprehensive exploration of commonly used air quality models and their innovative applications in air quality management. It covers numerical air quality models and statistical modeling frameworks, with a focus on key techniques such as emission processing, meteorological modeling, dispersion modeling, photochemical air quality modeling and receptor models. The course highlights recent advancements in AI for air quality modeling and analysis. Through case studies, students can explore real-world applications such as air quality forecasting, pollution source identification, control strategy formulation, and health risk assessment. The course equips students with technical skills to address air pollution challenges and improve policy and public health outcomes.
+  SEEN 5210
+  Energy Materials and Systems
+  3 Credit(s)
+  Description
+  Materials are critical for the developments of advanced energy systems, which play a pivotal role towards the sustainable, carbon-neutral future. This course will introduce the working principles of a few energy systems such as fossil fuel, renewable energies, batteries, and supercapacitors. Special focus will be placed on the material aspects of these energy systems through the interrelationships of composition, processing, structure, properties, and performance.
+  SEEN 5310
+  Bio-inspired Energy Systems
+  3 Credit(s)
+  Description
+  This course aims to introduce energy technologies that are inspired by bio systems and those that can be potentially applied in bio systems. Bio-inspired energy technologies such as biomimetic functional surfaces, bioinspired energy conversion or fuel production, and bionic energy and mass transport and distribution will be covered. Meanwhile, the applications of advanced energy technologies in bio systems such as bio-compatible energy systems, energy supply for artificial skeleton, and self-powered bio sensing will be reviewed.
+  SEEN 5320
+  Machine Learning in Advanced Energy Systems
+  3 Credit(s)
+  Description
+  The course aims to introduce main machine learning techniques and their applications in energy systems. The topics will include: 1) the basic concept of machine learning, big data, and energy system; 2) both basic and the state-of-the-art techniques in machine learning; 3) the application of machine learning in energy systems, especially for power systems and smart grids. The goal of the course is to prepare the students for careers in energy and artificial intelligence related areas by teaching data-driven perspective.
+  SEEN 5330
+  Electrical Power Systems
+  3 Credit(s)
+  Description
+  This course aims to introduce electrical power systems and electrical to mechanical energy conversion, which has become increasingly important as a way of transmitting and transforming energy in industrial, military and transportation uses. It focuses on the power storage, transmission, and conversion as well as control technologies in sustainable energy systems and electric transportation systems including electrical and hybrid electric cars. It covers fundamentals energy handling electric circuits, power electronic circuits such as inverters, and electromechanical apparatus, modeling of power systems, and control and management in power systems.
+  SEEN 5360
+  Inorganic Photovoltaic Materials and Devices
+  3 Credit(s)
+  Description
+  Photovoltaic plays a critical role in harvesting solar energy and secures our future sustainable and carbon-neutral society. This course introduces the mainstream photovoltaic technologies specially focused on the ones based on inorganic materials. It covers the fundamental operation and design principles for inorganic photovoltaics, technological challenges, and applications. It also provides the
+  students with the future technological trend and basic knowledge as well as visions in the research and development of inorganic materials based photovoltaic technologies.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  FUNH 6770
+  Professional Development for Function Hub
+  1 Credit(s)
+  Description
+  This course aims at providing research postgraduate students basic training in scientific ethics in research studies in advanced materials, sustainable energy and environment, earth, ocean and atmospheric sciences and microelectronics, research management, professional career development, and related professional skills. Guest speakers from various professional areas will be invited to share their career paths in professional career developments. Students will have chances to connect to talents in various professional areas. Graded PP, P or F.
+  Students are required to complete FUNH 6770. The 1 credit earned from
+  FUNH 6770
+  cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed
+  FUNH 6770
+  or other similar professional development courses offered by the University before may be exempted from taking
+  FUNH 6770
+  , subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  FUNH 6800
+  Function Hub Seminar
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass FUNH 6800 in at least two terms.
+  PhD:
+  Full-time students must take and pass FUNH 6800 in at least four terms.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  SEEN 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  SEEN 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in SEEN 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in SEEN 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/function-hub/sustainable-energy-and-environment/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/function-hub/sustainable-energy-and-environment/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

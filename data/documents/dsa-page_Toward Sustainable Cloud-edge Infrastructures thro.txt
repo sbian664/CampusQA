@@ -1,0 +1,41 @@
+dsa_page: Toward Sustainable Cloud-edge Infrastructures through Data-driven Power Management – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/28/toward-sustainable-cloud-edge-infrastructures-through-data-driven-power-management/
+source: DSA
+
+headings:
+  - Toward Sustainable Cloud-edge Infrastructures through Data-driven Power Management
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Toward Sustainable Cloud-edge Infrastructures through Data-driven Power Management
+  Share to
+  ABSTRACT
+  Cloud and edge infrastructures, particularly data centers and base stations, are the essential facilities that support cloud/edge computing and are crucial in providing cloud/edge services in the digital transformation era. However, their ultra-high power consumption and carbon emissions have caused global concerns and significant financial burdens to operators. In this talk, the speaker will provide unique data-driven solutions that address power management challenges in energy/carbon-intensive cloud-edge facilities, including fine-grained power measurement, cost-efficient power scheduling, and elastic power configuration. This talk will also discuss new attempts to develop next-generation sustainable cloud-edge infrastructures.
+  SPEAKER BIO
+  Guoming TANG
+  Associate Professor
+  National University of Defense Technology
+  Guoming Tang is currently an Associate Professor at the National University of Defense Technology, Changsha, Hunan, China. He received the Ph.D. degree in Computer Science from University of Victoria in 2017, and the Bachelor's and Master's degrees from National University of Defense Technology in 2010 and 2012, respectively. From 2019 to 2021, he worked as a postdoctoral researcher at the Peng Cheng National Laboratory and University of Cambridge, respectively. He was also a visiting research scholar at theUniversity of Waterloo in 2016. His research mainly focuses on green/sustainable computing and cloud-edge computing, where he has published over 80 papers, including those on top-tier journals (such as TON, JSAC, TPDS, TC, TCC etc.) and prestigious conferences (such as INFOCOM, ICDCS, Middleware, CIKM, e-Energy etc.). He received supports from the National Natural Science Foundation of China and the Natural Science Foundation of Hunan Provence for Excellent Youth. He is the winner of CCF-Tencent Distinguished Innovation Research Award in 2020 and Distinguished Paper Award of UIC 2022.
+  Date
+  02 March 2023
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  997 4046 3656
+  Passcode: dsaiot
+  Event Organizer
+  Data Science and Analytics Thrust
+  Internet of Things Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  iott@hkust-gz.edu.cn
