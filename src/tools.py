@@ -360,6 +360,7 @@ class ToolHandler:
         self.turn_id = turn_id
         self.user_query = str(user_query or "").strip()
         self.call_log: List[Dict] = []  # 工具调用日志
+        self.last_search_hits: List[Dict] = []
         self._pending_trace: Dict = {}
 
     @retrieval_guard
@@ -376,6 +377,7 @@ class ToolHandler:
         """
         start_time = time.time()
         self._pending_trace = {}
+        self.last_search_hits = []
 
         try:
             if not isinstance(arguments, dict):
@@ -563,6 +565,8 @@ class ToolHandler:
 
         self._mark_trace_anchors(results)
         self._mark_trace_anchors(bm25_results)
+        # Keep the original ranked matches ahead of neighbor expansion and merging.
+        self.last_search_hits = [dict(item) for item in (*results, *bm25_results)]
 
         # ── 相邻分块合并 ──
         if hasattr(self.kb, "expand_adjacent_chunks"):

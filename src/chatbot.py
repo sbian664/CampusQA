@@ -5,13 +5,13 @@ import json
 import time
 from copy import deepcopy
 from src.errors import ContextLimitError
-from src.tool_context import compact_document_message, shrink_document_message
+from src.tool_context import EVIDENCE_PREFIX, compact_document_message, shrink_document_message
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
 from src.llm_client import create_llm_client, LLMResponse
 from src.agent_finalization import build_final_answer_messages, sanitize_tool_protocol_text, stream_cleaned_answer
-from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, FINISH_RETRIEVAL_TOOL, DOCUMENT_TOOL_NAMES, ToolHandler
+from src.tools import SEARCH_KB_TOOL, AGENT_TOOLS, FINISH_RETRIEVAL_TOOL, DOCUMENT_TOOL_NAMES, ToolHandler, format_search_results
 from src.reranker import search_with_optional_rerank
 from config import (
     SYSTEM_PROMPT,
@@ -312,11 +312,11 @@ class Chatbot:
                 return self._build_result(response, handler, state, "low_score_fuse")
 
             # ── 预检查：L6 Token 预算裁剪 ──
-            messages = self._trim_context_if_needed(messages, tools=decision_tools)
+            decision_messages = self._trim_context_if_needed(messages, tools=decision_tools)
 
             # ── 调用 LLM（带工具定义）──
             response = self.client.send_message_with_tools(
-                messages, tools=decision_tools,
+                decision_messages, tools=decision_tools,
                 max_tokens=min(512, getattr(self, 'max_tokens', MAX_TOKENS)) if streaming else getattr(self, 'max_tokens', MAX_TOKENS),
                 **({"cancel_event": cancel_event} if streaming else {}),
             )
@@ -400,6 +400,7 @@ class Chatbot:
 
             tool_results = []
             for tc in valid_calls:
+                search_hits = []
                 func = tc.get("function", {})
                 tool_name = func.get("name", "")
                 arguments = func.get("arguments", {})
@@ -455,18 +456,22 @@ class Chatbot:
                         if on_status and tool_name == "search_knowledge_base":
                             on_status("searching", {"query": str(query)[:80], "search_count": len(handler.get_call_log()) + 1})
                         tool_result_text = handler.execute(tool_name, arguments)
+                        search_hits = handler.last_search_hits
                         self._update_fuse_counters(state, tool_result_text)
                         # 彩色日志输出
                         result_count = self._count_results(tool_result_text)
                         top_score = self._extract_top_score(tool_result_text)
                         print(f"  🔍 {tool_name}(\"{query[:50]}\") → {result_count}条, top={top_score:.2f}" if top_score is not None else f"  🔍 {tool_name}(\"{query[:50]}\")")
 
-                tool_results.append({
+                tool_message = {
                     "role": "tool",
                     "tool_call_id": tc.get("id", ""),
                     "name": tool_name,
                     "content": tool_result_text,
-                })
+                }
+                if search_hits:
+                    tool_message["_search_hits"] = search_hits
+                tool_results.append(tool_message)
 
             messages.extend(tool_results)
             if finish_requested:
@@ -487,7 +492,7 @@ class Chatbot:
     def _call_llm_forced_text(self, messages: List[Dict], state: AgentLoopState,
                               on_status=None, on_delta=None, cancel_event=None) -> LLMResponse:
         """强制文本模式调用（不带 tools），用于熔断后获取最终回答"""
-        final_messages = self._trim_context_if_needed(build_final_answer_messages(self._trim_context_if_needed(messages)))
+        final_messages = self._trim_context_if_needed(build_final_answer_messages(messages))
         if cancel_event is not None and cancel_event.is_set():
             raise RuntimeError("generation cancelled")
         if on_delta:
@@ -713,7 +718,11 @@ class Chatbot:
             return self._estimate_tokens({'messages': trimmed, 'tools': tools or []}) <= threshold
         # Lossless compaction precedes both history removal and result clipping.
         document_messages = []
+        search_hits_by_message = {}
         for message in trimmed:
+            hits = message.pop("_search_hits", None)
+            if hits:
+                search_hits_by_message[id(message)] = hits
             kind = compact_document_message(message)
             if kind:
                 document_messages.append((kind, message))
@@ -731,17 +740,45 @@ class Chatbot:
         surviving_ids = {id(message) for message in trimmed}
         document_messages = [(kind, message) for kind, message in document_messages if id(message) in surviving_ids]
         document_ids = {id(message) for _, message in document_messages}
-        # Compress ordinary excerpts first; never cut document JSON as text.
+        search_messages = [(message, search_hits_by_message[id(message)]) for message in trimmed
+                           if id(message) in search_hits_by_message]
+
+        def search_excerpt(message, hits, keep):
+            prefix = EVIDENCE_PREFIX if message.get("role") != "tool" else ""
+            summary = f"[检索结果已压缩] 当前上下文保留 {keep}/{len(hits)} 个直接命中。"
+            if keep == 0:
+                return prefix + summary
+            text = format_search_results(hits[:keep])
+            if prefix:
+                text = sanitize_tool_protocol_text(text)
+            return prefix + text + "\n\n" + summary
+
+        # Shed optional neighbor context from earlier calls first.
+        for message, hits in search_messages:
+            if fits():
+                break
+            content = search_excerpt(message, hits, len(hits))
+            if len(content.encode("utf-8")) < len(message["content"].encode("utf-8")):
+                message["content"] = content
+
+        # Ordinary excerpts can be shortened without removing ranked hits.
         for message in trimmed:
             if fits():
                 break
             content = str(message.get('content') or '')
-            if id(message) in document_ids:
+            if id(message) in document_ids or id(message) in search_hits_by_message:
                 continue
             if message.get('role') == 'tool' or content.startswith('[知识库检索结果]'):
                 while not fits() and len(content) > 32:
                     content = content[:max(16, len(content) // 2)]
                     message['content'] = content + '\n[检索结果已压缩]'
+        # Within each search, drop the lowest-ranked whole hit first.
+        # Move on to newer calls only after exhausting older ones.
+        for message, hits in search_messages:
+            for keep in range(len(hits) - 1, -1, -1):
+                if fits():
+                    break
+                message["content"] = search_excerpt(message, hits, keep)
         # Preserve full catalog rows ahead of long bodies. If even the compact
         # catalog cannot fit, retain valid JSON, original totals/cursors and an
         # explicit omitted-row count instead of silently severing a page.

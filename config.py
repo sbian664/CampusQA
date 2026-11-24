@@ -112,15 +112,16 @@ OPENAI_EMBEDDINGS_MODEL = os.getenv("OPENAI_EMBEDDINGS_MODEL", "text-embedding-3
 # 混合检索（BM25 + 向量）
 HYBRID_SEARCH_ENABLED = True   # 是否启用混合检索
 BM25_WEIGHT = 0.25              # BM25 权重（0~1），剩余为向量权重
+BM25_MATCH_FLOOR = 0.10         # BM25+：仅对命中词增加的归一化词频贡献
 
 # CrossEncoder 重排（请求级开关；模型首次使用时懒加载）
 RERANKER_AVAILABLE = os.getenv("RERANKER_AVAILABLE", "true").lower() in ("1", "true", "yes")
 RERANKER_MODEL = os.getenv(
-    "RERANKER_MODEL", "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+    "RERANKER_MODEL", "unicamp-dl/mMiniLM-L6-v2-mmarco-v2"
 )
 RERANKER_MODEL_PATH = os.getenv(
     "RERANKER_MODEL_PATH",
-    os.path.join(DATA_DIR, "reranker", "mmarco-mMiniLMv2-L12-H384-v1"),
+    os.path.join(DATA_DIR, "reranker", "mMiniLM-L6-v2-mmarco-v2"),
 )
 RERANKER_AUTO_DOWNLOAD = os.getenv("RERANKER_AUTO_DOWNLOAD", "true").lower() in (
     "1",
@@ -128,7 +129,7 @@ RERANKER_AUTO_DOWNLOAD = os.getenv("RERANKER_AUTO_DOWNLOAD", "true").lower() in 
     "yes",
 )
 RERANKER_CANDIDATE_K = int(os.getenv("RERANKER_CANDIDATE_K", "30"))
-RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "16"))
+RERANKER_BATCH_SIZE = int(os.getenv("RERANKER_BATCH_SIZE", "4"))
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "512"))
 
 # 上下文检索增强 — 嵌入前为分块添加文档/章节前缀
@@ -170,8 +171,9 @@ AGENT_MAX_LLM_ROUNDS = 5        # L1: 最大 LLM 对话轮次
 AGENT_MAX_TOTAL_TOOL_CALLS = 10 # L2: 累计工具调用上限
 AGENT_DUPLICATE_THRESHOLD = 0.85# L3: 重复查询 Jaccard 相似度阈值
 AGENT_LOW_SCORE_THRESHOLD = 0.4 # L5: 低分熔断阈值（连续 3 次低于此分则熔断）
-AGENT_CONTEXT_RATIO = 0.8       # L6: Token 预算告警比例（占模型上下文的 80%）
-AGENT_MODEL_MAX_CONTEXT = 32000 # DeepSeek-chat 上下文窗口（保守估计）
+AGENT_CONTEXT_RATIO = 0.8       # L6: 输入预算占比
+# 以请求 JSON 的 UTF-8 字节数保守估算，默认输入上限约为 128 KB。
+AGENT_MODEL_MAX_CONTEXT = int(os.getenv("AGENT_MODEL_MAX_CONTEXT", "160000"))
 AGENT_SEARCH_TOP_K_MAX = 30     # Agent 单次知识库检索的最大返回块数
 
 # 分块合并（相邻同类 chunk 合并为更大上下文块）
@@ -194,6 +196,7 @@ AGENT_SYSTEM_PROMPT = """你是 CampusQA 的知识库问答助手。缺少其他
 
 ## 3. 查询策略
 提取有区分度的实体、属性和限定条件，保持查询简洁，不复制冗长整句。人名、房间号、建筑编号等保持完整，可用英文双引号包裹精确实体。
+询问某学域或机构的人员名单时，优先用 find_documents 定位该机构发布的名录，例如 Faculty、People 或师资队伍，再用 read_documents 核对归属和分页。找不到名录时，再用语义检索补充。
 语义检索单实体通常先取 top_k<=3，多实体通常从 5 开始。query 用于召回；独立完整问题可用 rerank_query_source=user_query，追问/子问题通常用 search_query，必要时用 custom 与 rerank_query。
 结果不足时，可换同义词或中英文、调整英文姓名词序，采用资料中的规范名称，调整粒度、过滤条件或 top_k；不臆造过滤条件，不重复没有变化的操作。
 

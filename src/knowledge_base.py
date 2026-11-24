@@ -31,6 +31,7 @@ from config import (
     VECTOR_STORE,
     HYBRID_SEARCH_ENABLED,
     BM25_WEIGHT,
+    BM25_MATCH_FLOOR,
     SEMANTIC_CHUNKING,
     CONTEXT_ENRICHMENT_ENABLED,
     CONTEXT_ENRICHMENT_TEMPLATE,
@@ -977,7 +978,7 @@ class KnowledgeBase:
 
     def _bm25_score(self, query: str, document: str,
                     query_tokens: List[str] = None) -> float:
-        """计算单文档的 BM25 分数"""
+        """计算单个分块的 BM25+ 分数。"""
         if not self._bm25_corpus:
             return 0.0
 
@@ -991,15 +992,16 @@ class KnowledgeBase:
 
         score = 0.0
         for token in query_tokens:
+            tf = doc_tokens.count(token)
+            if tf == 0:
+                continue
             df = self._bm25_doc_freq.get(token, 0)
             if df == 0:
                 continue
             idf = math.log((N - df + 0.5) / (df + 0.5) + 1)
-            tf = doc_tokens.count(token)
             numerator = tf * (k1 + 1)
             denominator = tf + k1 * (1 - b + b * doc_len / avgdl)
-            term_score = idf * numerator / denominator
-            score += term_score
+            score += idf * (numerator / denominator + BM25_MATCH_FLOOR)
 
         return score
 

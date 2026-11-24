@@ -109,10 +109,13 @@ def build_final_answer_messages(messages: List[Dict]) -> List[Dict]:
             cleaned.append({"role": "system", "content": content})
         elif role == "tool":
             if content:
-                cleaned.append({
+                result = {
                     "role": "user",
                     "content": f"[知识库检索结果]\n{content}",
-                })
+                }
+                if "_search_hits" in message:
+                    result["_search_hits"] = message["_search_hits"]
+                cleaned.append(result)
         elif role in {"user", "assistant"}:
             if content:
                 cleaned.append({"role": role, "content": content})
