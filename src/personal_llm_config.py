@@ -6,9 +6,10 @@ from src.user_llm_config import normalize_llm_config
 
 
 class PersonalLLMConfigStore:
-    def __init__(self, users, encryption_key=None):
+    def __init__(self, users, encryption_key=None, *, cloudbase_config=None):
         self.users = users
         self.encryption_key = encryption_key
+        self.cloudbase_config = normalize_llm_config(cloudbase_config) if cloudbase_config else None
         with users.connect() as db:
             db.execute('''CREATE TABLE IF NOT EXISTS user_llm_configs (
                 user_id TEXT PRIMARY KEY, source TEXT NOT NULL DEFAULT 'server',
@@ -36,7 +37,8 @@ class PersonalLLMConfigStore:
     def public_config(self, user_id):
         row = self._row(user_id) or {}
         return {key: row.get(key, '') for key in ('provider', 'model', 'base_url')} | {
-            'source': row.get('source', 'server'), 'has_api_key': bool(row.get('encrypted_api_key'))}
+            'source': row.get('source', 'server'), 'has_api_key': bool(row.get('encrypted_api_key')),
+            'cloudbase_available': self.cloudbase_config is not None}
 
     def resolve(self, user_id, payload):
         incoming = dict(payload)
@@ -53,12 +55,15 @@ class PersonalLLMConfigStore:
 
     def save(self, user_id, payload):
         source = payload.get('source', 'personal')
-        if source not in {'server', 'personal'}:
-            raise ValueError('模型来源必须为 server 或 personal')
-        # Switching to server keeps the personal configuration until explicitly deleted.
-        if source == 'server':
+        if source not in {'server', 'personal', 'cloudbase'}:
+            raise ValueError('模型来源必须为 server、personal 或 cloudbase')
+        if source == 'cloudbase' and self.cloudbase_config is None:
+            raise ValueError('CloudBase 模型服务未配置')
+        # Selecting a managed source keeps the encrypted personal configuration.
+        if source != 'personal':
             with self.users.connect() as db:
-                db.execute("INSERT INTO user_llm_configs(user_id, source) VALUES (?, 'server') ON CONFLICT(user_id) DO UPDATE SET source='server'", (user_id,))
+                db.execute("""INSERT INTO user_llm_configs(user_id, source) VALUES (?, ?)
+                           ON CONFLICT(user_id) DO UPDATE SET source=excluded.source""", (user_id, source))
             return self.public_config(user_id)
         config = self.resolve(user_id, payload)
         encrypted = self._cipher().encrypt(config['api_key'].encode()).decode()
@@ -78,4 +83,8 @@ class PersonalLLMConfigStore:
         row = self._row(user_id)
         if not row or row['source'] == 'server':
             return dict(server_config)
+        if row['source'] == 'cloudbase':
+            if self.cloudbase_config is None:
+                raise ValueError('CloudBase 模型服务未配置')
+            return dict(self.cloudbase_config)
         return normalize_llm_config({key: row[key] for key in ('provider', 'model', 'base_url')} | {'api_key': self._decrypt(row)})

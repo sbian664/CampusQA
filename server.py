@@ -143,7 +143,16 @@ app.add_middleware(
 
 _admin_control_store = create_default_admin_store(DATA_DIR)
 _user_store = UserStore(_admin_control_store.db_path)
-_personal_llm_store = PersonalLLMConfigStore(_user_store)
+_cloudbase_base_url = os.getenv("CAMPUSQA_CLOUDBASE_BASE_URL", "").strip()
+_personal_llm_store = PersonalLLMConfigStore(
+    _user_store,
+    cloudbase_config={
+        "provider": "custom",
+        "model": os.getenv("CAMPUSQA_CLOUDBASE_MODEL", "hy4").strip() or "hy4",
+        "base_url": _cloudbase_base_url,
+        "api_key": os.getenv("CAMPUSQA_CLOUDBASE_BRIDGE_TOKEN", ""),
+    } if _cloudbase_base_url else None,
+)
 _chat_metrics = ChatMetrics(Path(DATA_DIR) / "cache" / "chat_metrics.sqlite3")
 _chat_metrics.recover_interrupted()
 _admin_job_manager = AdminJobManager(_admin_control_store)
