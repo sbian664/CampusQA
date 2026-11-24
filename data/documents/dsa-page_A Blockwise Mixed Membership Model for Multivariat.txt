@@ -1,0 +1,27 @@
+dsa_page: A Blockwise Mixed Membership Model for Multivariate Longitudinal Data: Discovering Clinical Heterogeneity and Identifying Parkinson’s Disease Subtypes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/30/a-blockwise-mixed-membership-model-for-multivariate-longitudinal-data-discovering-clinical-heterogeneity-and-identifying-parkinsons-disease-subtypes/
+source: DSA
+
+headings:
+  - A Blockwise Mixed Membership Model for Multivariate Longitudinal Data: Discovering Clinical Heterogeneity and Identifying Parkinson's Disease Subtypes
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  A Blockwise Mixed Membership Model for Multivariate Longitudinal Data: Discovering Clinical Heterogeneity and Identifying Parkinson's Disease Subtypes
+  Share to
+  ABSTRACT
+  Current diagnosis and prognosis for Parkinson's disease (PD) face formidable challenges due to the heterogeneous nature of the disease course, including that (i) the impairment severity varies hugely between patients, (ii) whether a symptom occur independently or co-occurs with related symptoms differs significantly, and (iii) repeated symptom measurements exhibit substantial temporal dependence. To tackle these challenges, we propose a novel blockwise mixed membership model (BM$^3$) to systematically unveil between-patient, between-symptom, and between-time clinical heterogeneity within PD. The key idea behind BM$^3$ is to partition multivariate longitudinal measurements into distinct blocks, enabling measurements within each block to share a common latent membership while allowing latent memberships to vary across blocks. Consequently, the heterogeneous PD-related measurements across time are divided into clinically homogeneous blocks consisting of correlated symptoms and consecutive time. From the analysis of Parkinson's Progression Markers Initiative data ($n=1,531$), we discover three typical disease profiles (stages), four symptom groups (i.e., autonomic function, tremor, left-side and right-side motor function), and two periods, advancing the comprehension of PD heterogeneity. Moreover, we identify several clinically meaningful PD subtypes by summarizing the blockwise latent memberships, paving the way for developing more precise and targeted therapies to benefit patients. Our findings are validated using external variables, successfully reproduced in validation datasets, and compared with existing methods. Theoretical results of model identifiability further ensure the reliability and reproducibility of latent structure discovery in PD.
+  SPEAKER BIO
+  Kai Kang is an Associate Professor at the School of Mathematics, Sun Yat-sen University. He received his bachelor’s degree in Mathematics and Computational Science from Sun Yat-sen University in 2015, and his Ph.D. in Statistics from the Chinese University of Hong Kong in 2020. He conducted postdoctoral research at Columbia University from 2020 to 2022. He joined the School of Mathematics at Sun Yat-sen University in July 2022. His research interests include latent variable models, joint modeling of longitudinal and survival data, and Bayesian analysis. He has published as first or corresponding author in leading journals such as Annals of Applied Statistics, Biometrics, Journal of Computational and Graphical Statistics, Journal of Multivariate Analysis, and Statistics in Medicine.
+  Date
+  03 February 2026
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Rm 101, W1, HKUST(GZ)

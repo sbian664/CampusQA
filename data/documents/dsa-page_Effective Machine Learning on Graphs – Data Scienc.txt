@@ -1,0 +1,42 @@
+dsa_page: Effective Machine Learning on Graphs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/05/04/effective-machine-learning-on-graphs/
+source: DSA
+
+headings:
+  - Effective Machine Learning on Graphs
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Effective Machine Learning on Graphs
+  Share to
+  ABSTRACT
+  Graphs are ubiquitous in many practical settings, e.g., social networks, financial systems, transportation planning, online shopping recommendation, etc. Graph Neural Networks (GNNs) are the state-of-the-art approach for machine learning from graph data, but they have yet to reach the successes of deep learning in natural language processing and computer vision. The challenges are rooted in the high irregularity and connectivity of graph data. In this seminar, I introduce the efforts that I made to improve the machine learning on graphs.
+  Typically, a graph neural network has to experience the following stages until being applied to a task: graph data preparation, model design, model training, and model deployments. To enhance the effectiveness of neural networks on graphs, we need to achieve different desiderata in different stages of a graph neural network's lifecycle. In my research, I completed multiple research works that contribute to more effective graph machine learning in different stages as a whole.
+  In this seminar, I mainly introduce five of my research works in detail. The first three are the data augmentation method on the static and temporal graph learning. They are not only the first data augmentation methods for graph learning, but also significantly enhance the effectiveness of graph neural networks without any inference costs. These works provide the essential solutions for the effective graph learning especially when the labeled data is scarce. The latter two research work is focused on the graph model design. One proposes a time-aware sampling method for temporal graph networks to utilize the most valuable features in the historical data for making accurate predictions on the temporal graph. The other proposes a detached architecture to explicitly encode the graph topology and node features separately.
+  Finally, I will introduce some future work on the graph machine learning, including Scalable Graph Machine Learning, Graph Learning with Different Kinds of Data, and Graph Machine Learning for Science.
+  SPEAKER BIO
+  Yiwei WANG
+  Applied Scientist
+  Amazon Inc
+  Yiwei Wang is currently an Applied Scientist at Amazon Inc. He received his Ph.D. in Computer Science at National University of Singapore, where he was fortunate to be advised by Prof. Bryan Hooi. Prior to this, he obtained the Master of Philosophy (MPhil) degree from The Hong Kong University of Science and Technology and Bachelor degree from Southeast University. His research interests include graph machine learning, natural language understanding, computer vision, and data mining. His recent research is focused on scalable graph machine learning and accountable natural language understanding.
+  Date
+  06 May 2023
+  Time
+  09:00:00 -
+  09:45:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  981 8926 9956
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

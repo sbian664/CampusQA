@@ -1,0 +1,47 @@
+dsa_page: Applications of AI Agents in Medical Benchmark Construction: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/20/applications-of-ai-agents-in-medical-benchmark-construction-a-survey/
+source: DSA
+
+headings:
+  - Applications of AI Agents in Medical Benchmark Construction: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Applications of AI Agents in Medical Benchmark Construction: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. HUANG, Feiyu
+  Abstract
+  Medical large language models and multimodal models are developing faster than conventional evaluation resources can be designed, clinically validated, and refreshed. Recent work therefore uses language-model agents, retrieval systems, programmatic tools, and human review to automate benchmark construction. These systems can retrieve medical evidence, transform guidelines or patient data into test items, construct reference answers and rubrics, verify candidates, and maintain updated evaluation sets. However, automation also introduces a circularity risk when similar models generate, validate, answer, and grade the same benchmark.
+  This survey reviews the use of language-model agents, tools, and human oversight to construct clinically grounded, reliable, and continuously maintainable medical benchmarks. Its primary scope is agents for medical benchmark construction; benchmarks that merely evaluate medical agents are treated as an adjacent topic. We first introduce benchmark and agent foundations, then organize construction methods around source grounding, item generation, reference construction, verification, and maintenance. Representative systems span clinical guidelines, physician discussions, electronic health records, medical dialogue, time series, three-dimensional imaging, and procedural video.
+  The literature suggests three conclusions. First, agents are most useful when they orchestrate external evidence and deterministic tools rather than generate questions from parametric knowledge alone. Second, benchmark scale does not guarantee benchmark validity: reliable construction requires provenance, independent verification, clinically meaningful coverage, and explicit human oversight. Third, maintenance and version-to-version comparability remain less developed than item generation. Based on these gaps, the survey outlines future research on provenance-constrained generation, heterogeneous verification, risk-based clinician review, and living medical benchmarks.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. LI, Jia (online)
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  31 July 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  924 8770 6343
+  Passcode: DSA
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

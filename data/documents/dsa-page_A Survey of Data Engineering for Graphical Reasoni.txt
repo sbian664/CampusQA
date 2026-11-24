@@ -1,0 +1,34 @@
+dsa_page: A Survey of Data Engineering for Graphical Reasoning in Multimodal Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-of-data-engineering-for-graphical-reasoning-in-multimodal-large-language-models/
+source: DSA
+
+headings:
+  - A Survey of Data Engineering for Graphical Reasoning in Multimodal Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Data Engineering for Graphical Reasoning in Multimodal Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr ZENG, Xingchen
+  Abstract
+  Multimodal Large Language Models (MLLMs) have demonstrated graphical reasoning ability in understanding and generating visual representations like charts and diagrams. Developing this capability relies on extensive, high-quality multimodal training datasets. However, data engineering for these datasets, including collection, augmentation, and filtering, presents significant challenges. Real-world graphics often lack essential metadata (e.g., underlying data tables), hindering accurate training instance synthesis. Conversely, synthetic data via LLM-powered code generation offers a robust alternative by providing inherent metadata and enabling complex data creation. The proliferation of diverse real-world and synthetic datasets has created a fragmented landscape, complicating researchers’ efforts. This survey addresses this by providing a comprehensive overview and structured understanding of data engineering methodologies for MLLM graphical reasoning. It examines current practices, discusses their strengths and weaknesses, and derives future research directions.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. ZENG Wei
+  Co-Supervisor: Prof. WANG Wei
+  Examiner: Prof. YANG Weikai
+  Date
+  10 June 2025
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-149 (HKUST-GZ)

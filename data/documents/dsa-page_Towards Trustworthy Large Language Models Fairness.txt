@@ -1,0 +1,56 @@
+dsa_page: Towards Trustworthy Large Language Models: Fairness, Robustness, and Reliability – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/24/towards-trustworthy-large-language-models-fairness-robustness-and-reliability-2/
+source: DSA
+
+headings:
+  - Towards Trustworthy Large Language Models: Fairness, Robustness, and Reliability
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Towards Trustworthy Large Language Models: Fairness, Robustness, and Reliability
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Yue GUO
+  ABSTRACT
+  Large Language Models (LLMs) have achieved remarkable success in natural language processing (NLP), demonstrating unprecedented capabilities across diverse tasks and applications. However, their trustworthiness remains a critical concern, particularly as they are deployed in high-stakes domains like finance, law, and healthcare. This thesis addresses the trustworthiness of LLMs, defined as their alignment with human values and societal expectations, encompassing fairness, robustness, and reliability.
+  We begin by tackling the issue of fairness, where LLMs often inherit societal biases from training data, leading to discriminatory outputs. To mitigate this, we propose Auto-Debias, a novel method that uses cloze-style prompts and equalizing loss to identify and reduce gender and racial biases without compromising model performance. Next, we focus on enhancing robustness by investigating LLMs’ vulnerability to temporal distribution shifts in financial text classification. We introduce a method combining out-of-distribution detection with autoregressive time series modeling, which mitigates performance degradation caused by such shifts. Additionally, we address reliability by improving weak-to-strong generalization. We propose an unsupervised reliability-aware alignment method that reduces error propagation from weak supervision, improving model accuracy and robustness.
+  Finally, we evaluate LLMs’ trustworthiness in the economics and finance domain, introducing a new task, EconNLI, and a dedicated dataset to assess economic reasoning and truthfulness. Our findings reveal that while advanced models like GPT-4 outperform open-source alternatives, they still exhibit shortcomings such as hallucinations and reasoning errors, underscoring the importance of rigorous evaluation.
+  This thesis makes key contributions to advancing trustworthy LLMs by proposing novel methodologies to mitigate bias, enhance robustness under distribution shifts, and improve alignment reliability. These contributions are validated through extensive experiments, providing practical solutions and insights for the safe and effective deployment of LLMs in real-world applications.
+  TEC
+  Chairperson: Prof Jishan HU
+  Prime Supervisor: Prof Yi YANG
+  Co-Supervisor: Prof Yangqiu SONG
+  Examiners:
+  Prof Shuai WANG
+  Prof Jia LI
+  Prof Zeke XIE
+  Prof Wenjie LI
+  Date
+  24 February 2025
+  Time
+  16:00:00 -
+  18:00:00
+  Location
+  4472 (Lift 25-26), HKUST
+  Join Link
+  Zoom Meeting ID: 936 1632 0694
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93616320694?pwd=gXzCxpsLi05TaiIsT6cf2U5q1n2aKW.1

@@ -1,0 +1,7 @@
+msc_dcai_page: Fu-Gee TSUNG
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/
+supervisor_type: academic
+role: Chair Professor
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+responsibilities: Thrust of Data Science and Analytics | Dept of Industrial Engineering and Decision Analytics

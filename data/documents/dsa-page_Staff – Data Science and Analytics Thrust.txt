@@ -1,0 +1,46 @@
+dsa_page: Staff – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/staff/
+source: DSA
+
+headings:
+  - Hellen Tong CHEN
+  - Cathy Yun MIAO
+  - Scarlett Sijia PENG
+  - Julie Qifang ZHONG
+  - Gabrielle Yongjia GUO
+  - Vera Wei ZHANG
+  - Huiqi MAI
+  - Angelina Anqi LI
+  - Ellie Yu JIANG
+  - Licai LIU
+
+text: >
+  Hellen Tong CHEN
+  Team Coordination; Faculty Affairs; Talent Scheme & Government-funded Research Project; Academic Visit and Event; Budgeting and Financial Affairs
+  dsat@hkust-gz.edu.cn
+  Cathy Yun MIAO
+  BSc(DSBD) Program Administration, Academic & Program Support
+  dsbd@hkust-gz.edu.cn
+  Scarlett Sijia PENG
+  RPG Admissions, Outreach and Program Promotion; Student Financial Affairs; New Student Registration; Progression Exams & Graduation
+  dsarpg@hkust-gz.edu.cn
+  Julie Qifang ZHONG
+  RPG Academic Registry and Student Record, Procurement and Assets Management
+  dsarpg@hkust-gz.edu.cn
+  Gabrielle Yongjia GUO
+  Industrial Collaborations; RA Management; Publication and Achievement Publicity; Research Travel Grant (PG)
+  dsat@hkust-gz.edu.cn
+  Vera Wei ZHANG
+  MSc(DCAI) Program Administration, Promotion and Student Affairs
+  mscdcai@hkust-gz.edu.cn
+  Huiqi MAI
+  MSc(DCAI) Program Administration, Promotion and Student Affairs
+  mscdcai@hkust-gz.edu.cn
+  Angelina Anqi LI
+  Publicity & Promotion; Event Support (Seminar, Workshop,Conference, ect); PG Program-Academic Request; PG Program-Course Enrollment
+  dsarpg@hkust-gz.edu.cn
+  Ellie Yu JIANG
+  BSc(DSBD) Program Administration, Student Affairs
+  dsbd@hkust-gz.edu.cn
+  Licai LIU
+  Technician

@@ -1,0 +1,38 @@
+dsa_page: Multivariate Poisson Intensity Estimation via Low-Rank Tensor Decomposition – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/11/multivariate-poisson-intensity-estimation-via-low-rank-tensor-decomposition/
+source: DSA
+
+headings:
+  - Multivariate Poisson Intensity Estimation via Low-Rank Tensor Decomposition
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Multivariate Poisson Intensity Estimation via Low-Rank Tensor Decomposition
+  Share to
+  ABSTRACT
+  In this talk, we introduce novel matrix- and tensor-based methods for estimating multivariate intensity functions in spatial point processes. By projecting a multivariate function onto a finite-dimensional tensor product subspace, we obtain a coefficient matrix or tensor with approximately low-rank structure, which we exploit via low-rank matrix or tensor decomposition. Compared to traditional nonparametric approaches, our methods significantly reduce estimation variance and improve estimation accuracy both theoretically and numerically. We develop theoretical tools to justify the statistical performance of our methods. This work represents the first application of matrix or tensor decompositions for intensity function estimation in spatial point processes. Extensive numerical results support our theoretical findings and demonstrate the effectiveness of our methods.
+  SPEAKER BIO
+  Haotian Xu is a Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick. Previously, he held postdoctoral researcher positions at the Pennsylvania State University and at the University of Warwick. In 2021, he completed his Ph.D. in Statistics at the University of Geneva. His research interests include nonparametric estimation in high-dimensional settings, change point detection and inference, and high-dimensional inference under temporal dependence and contamination.
+  Date
+  17 March 2025
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  E4-201 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  986 0892 5537
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

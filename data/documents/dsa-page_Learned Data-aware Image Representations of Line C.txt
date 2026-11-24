@@ -1,0 +1,40 @@
+dsa_page: Learned Data-aware Image Representations of Line Charts for Similarity Search – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/learned-data-aware-image-representations-of-line-charts-for-similarity-search/
+source: DSA
+
+headings:
+  - Learned Data-aware Image Representations of Line Charts for Similarity Search
+  - Abstract
+  - Project members
+  - Yuyu LUO
+  - Nan TANG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Learned Data-aware Image Representations of Line Charts for Similarity Search
+  Abstract
+  Finding line-chart images similar to a given line-chart image query is a common task in data exploration and image query systems, e.g., finding similar trends in stock markets or medical Electroencephalography images. The state-of-the-art approaches consider either data-level similarity (when the underlying data is present) or image-level similarity (when the underlying data is absent).
+  In this paper, we study the scenario that during query time, only line-chart images are available. Our goal is to train a neural network that can turn these line-chart images into representations that are aware of the data used to generate these line charts, so as to learn better representations. Our key idea is that we can collect both data and line-chart images to learn such a neural network (at training step), while during query (or inference) time, we support the case that only line-chart images are provided. To this end, we present LineNet, a Vision Transformer-based Triplet Autoencoder model to learn data-aware image representations of line charts for similarity search. We design a novel pseudo labels selection mechanism to guide LineNet to capture both data-aware and image-level similarity of line charts. We further propose a diversified training samples selection strategy to optimize the learning process and improve the performance. We conduct both quantitative evaluation and case studies, showing that LineNet significantly outperforms the state-of-the-art methods for searching similar line-chart images.
+  Project members
+  Yuyu LUO
+  Assistant Professor
+  Nan TANG
+  Associate Professor
+  Publications
+  Learned Data-aware Image Representations of Line Charts for Similarity Search
+  . Yuyu Luo, Yihui Zhou, Nan Tang, Guoliang Li, Chengliang Chai, and Leixian Shen.
+  Project Period
+  2023
+  Research Area
+  Data Visualization and Infographics
+  Keywords
+  learned representations, line charts, similarity search, triplets selection
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - Learned Data-aware Image Representations of Line Charts for Similarity Search | https://luoyuyu.vip/files/SIGMOD2023-LineNet.pdf

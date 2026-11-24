@@ -1,0 +1,45 @@
+dsa_page: SpectraAI: AI-Driven Protein Identification from Mass Spectrometry Data in Proteomics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/12/10/spectraai-ai-driven-protein-identification-from-mass-spectrometry-data-in-proteomics/
+source: DSA
+
+headings:
+  - SpectraAI: AI-Driven Protein Identification from Mass Spectrometry Data in Proteomics
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  SpectraAI: AI-Driven Protein Identification from Mass Spectrometry Data in Proteomics
+  Share to
+  ABSTRACT
+  Accurate identification of proteins is crucial for uncovering their complex roles in biological systems, with peptide sequencing being a key step in this process. The two primary methods for peptide sequencing are database search and de novo sequencing. Database search achieves high accuracy by matching experimental spectra with peptide sequences in a database, but it cannot identify novel peptides, modified peptides, or mutated peptides not present in the database. On the other hand, de novo sequencing does not rely on a pre-built database, enabling the discovery of novel protein sequences; however, its accuracy is generally lower. In this talk, I will introduce a series of our works towards accurate protein identification using advanced AI techniques: 1. AdaNovo, a de novo sequencing algorithm designed for post-translational modifications (PTMs) identification; 2. SearchNovo, which enhances de novo sequencing using database search; 3. NovoBench, the first comprehensive deep learning benchmark for de novo sequencing methods; and 4. UltraProt, the first large-scale foundation model for mass spectrometry-based proteomics, which has achieved AlphaFold-level performance advancements in protein identification. Finally, I will share insights and future perspectives on AI in biomolecule identification.
+  SPEAKER BIO
+  Jun Xia
+  Joint Ph.D. student,
+  Westlake University and Zhejiang University
+  Jun Xia is a joint Ph.D. student at Westlake University and Zhejiang University, specializing in machine learning and AI for life science, advised by Chair Prof. Stan Z. Li (IEEE Fellow).
+  He has ever visited Prof. Fabian Theis' group at TUM & Helmholtz and Prof. Matthias Mann's group at Max Planck Institute of Biochemistry. Jun has authored 37 papers in top-tier AI venues, including ICML, NeurIPS, ICLR, and CVPR, with 12 as the first author and 3 as the corresponding author, amassing over 1,500 citations on Google Scholar. One of Jun’s first-author works was recognized as the Most Influential Paper of WWW 2022 by PaperDigest, and five of his works have been presented as Oral/Spotlight at prestigious conferences such as ICML, NeurIPS, CVPR, and AAAI. Jun has received several distinguished awards, including the Fundamental Research Project for Young Ph.D. Students from NSFC, the CIE-Tencent Doctoral Research Incentive Project, Rising Star in AI (30 young AI researchers worldwide selected by KAUST), the Westlake President Award and National Scholarship at Zhejiang University.
+  Date
+  11 December 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  982 5985 3020
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/O8D-u_O9goZ_DmlqXqzJKw

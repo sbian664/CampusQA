@@ -1,0 +1,43 @@
+dsa_page: Spatial Audio, Spatial Audio-Visual and Visual Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/10/09/spatial-audio-spatial-audio-visual-and-visual-learning/
+source: DSA
+
+headings:
+  - Spatial Audio, Spatial Audio-Visual and Visual Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Spatial Audio, Spatial Audio-Visual and Visual Learning
+  Share to
+  ABSTRACT
+  We human beings extensively use both audio and visual information to perceive the physical world. Despite the ubiquity of audio-visual signal co-existence, existing research dominantly focuses on visual signal, leaving the acoustic counterpart research has lagged far behind. One important contributing reason for this trend is that acoustic signals can be easily converted into 2D images with transforms such as short time Fourier transform. In this talk, I would first address the research question: is treating spatial acoustic signals as 2D images optimal. I will explore how to design novel neural networks to directly learn from audio raw waveform (not 2D image) or continuously model spatial acoustic effects (ICML-21, AISTATS-23, ICML-24). Furthermore, I will show an audio-visual multimodal learning framework where audio-vision is weakly-correlated, reflecting real-scenarios such as gas-leak (WACV-24). I will also present a visual topological learning framework in embodied AI (RSS-23). Finally, I conclude by discussing several potential research directions.
+  SPEAKER BIO
+  Yuhang HE
+  University of Oxford
+  Yuhang He is a final-year Ph.D. student in Computer Science, University of Oxford. Prior to his Ph.D. journey, he has had several years' industrial research experience in companies like Baidu. During his Ph.D. study, he completed two internships, one in Mitsubishi Electric Research Lab (MERL) and the other one in Microsoft, Munich, Germany. He has publications in top-tier conferences like ICML, AISTATS, RSS, WACV. His research interest currently lies in audio-vision-X multimodal spatial intelligence learning, with the ultimate goal of achieving (or even surpassing) human-level spatial intelligence. He incorporates practical applications and theoretical analysis in his research. In his spare time, he enjoys running marathons and practicing street photography.
+  Date
+  11 October 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-2F-202, Guangzhou Campus
+  Join Link
+  Zoom Meeting ID:
+  962 2017 7186
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/le_NeHwX9vtvyDsUSq7l6Q

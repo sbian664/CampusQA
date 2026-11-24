@@ -1,0 +1,39 @@
+dsa_page: Handling Missing Data via Max-Entropy Regularized Graph Autoencoder – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/handling-missing-data-via-max-entropy-regularized-graph-autoencoder/
+source: DSA
+
+headings:
+  - Handling Missing Data via Max-Entropy Regularized Graph Autoencoder
+  - Abstract
+  - Project members
+  - Jia LI
+  - Fugee TSUNG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Handling Missing Data via Max-Entropy Regularized Graph Autoencoder
+  Abstract
+  Graph neural networks (GNNs) are popular weapons for modeling relational data. Existing GNNs are not specified for attribute-incomplete graphs, making missing attribute imputation a burning issue. Until recently, many works notice that GNNs are coupled with spectral concentration, which means the spectrum obtained by GNNs concentrates on a local part in spectral domain, e.g., low-frequency due to oversmoothing issue. As a consequence, GNNs may be seriously flawed for reconstructing graph attributes as graph spectral concentration tends to cause a low imputation precision. In this work, we present a regularized graph autoencoder for graph attribute imputation, named MEGAE, which aims at mitigating spectral concentration problem by maximizing the graph spectral entropy. Notably, we first present the method for estimating graph spectral entropy without the eigen-decomposition of Laplacian matrix and provide the theoretical upper error bound. A maximum entropy regularization then acts in the latent space, which directly increases the graph spectral entropy. Extensive experiments show that MEGAE outperforms all the other state-of-the-art imputation methods on a variety of benchmark datasets.
+  Project members
+  Jia LI
+  Associate Professor
+  Fugee TSUNG
+  Chair Professor
+  Publications
+  Handling Missing Data via Max-Entropy Regularized Graph Autoencoder
+  . Ziqi Gao, Yifan Niu, Jiashun Cheng, Jianheng Tang, Lanqing Li, Tingyang Xu, Peilin Zhao, Fugee Tsung, and Jia Li.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  ML: Graph-based Machine Learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - Handling Missing Data via Max-Entropy Regularized Graph Autoencoder | https://ojs.aaai.org/index.php/AAAI/article/view/25928

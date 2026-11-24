@@ -1,0 +1,34 @@
+dsa_page: Efficient Filtered Approximate K-Nearest Neighbor Search over Query Predicate-InducedSearch Spaces – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/efficient-filtered-approximate-k-nearest-neighbor-search-over-query-predicate-inducedsearch-spaces/
+source: DSA
+
+headings:
+  - Efficient Filtered Approximate K-Nearest Neighbor Search over Query Predicate-InducedSearch Spaces
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Efficient Filtered Approximate K-Nearest Neighbor Search over Query Predicate-InducedSearch Spaces
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. XIA, Wenxuan
+  Abstract
+  Filtered approximate K-nearest neighbor (AKNN) search in high-dimensional spaces increasingly serves applications in which a query carries not only a vector but also a structured predicate, such as a label set or a numerical range. The valid search space is then induced by the predicate and can be sparse, scattered, or entirely unknown when the index is built. The family-specific properties that unfiltered vector indexes rely on, such as the monotonic search property of proximity graphs or the clustering hypothesis of IVF indexes, do not necessarily continue to hold on the filter-induced subset in the worst case. This survey examines how the filtered AKNN literature addresses this central problem, and at what build, query, and space cost. The surveyed methods converge on three strategies. Predicate-side structure exploitation restricts the predicate family to one with exploitable structure and builds a subset of sub-indexes according to the structure to serve queries within this predicate family. Index-side reinforcement modifies the distance function, edge-pruning rule, or edge density of a single index so that the family’s property extends from the dataset to the filter-induced subset under explicit conditions. Query-time adaptation instruments the search to detect failure of the normal index search path and switch to a fallback path. The survey closes with open problems on per-query hardness modelling beyond global selectivity and on streaming maintenance of filtered AKNN search indexes under vector and attribute updates.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WANG, Wei
+  Co-Supervisor: Prof. LI, Lei
+  Examiner: Prof. WEN, Zeyi
+  Date
+  10 June 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-150, HKUST(GZ)

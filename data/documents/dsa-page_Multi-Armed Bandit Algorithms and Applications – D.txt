@@ -1,0 +1,42 @@
+dsa_page: Multi-Armed Bandit Algorithms and Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/multi-armed-bandit-algorithms-and-applications/
+source: DSA
+
+headings:
+  - Multi-Armed Bandit Algorithms and Applications
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  Multi-Armed Bandit Algorithms and Applications
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. Suizi HUANG
+  Abstract
+  The multi-armed bandit (MAB) problem is a fundamental problem in decision theory and operations research. It involves a sequential decision-making process in order to maximize the expected reward in the long term. The main challenge is to balance the exploration of new options and the exploitation of known options. In recent years, the MAB problem has gained significant attention in both academia and industry due to its strong ability to make decisions under uncertainty. One of the extensions to the traditional MAB problem is the contextual bandit (CB) problem, where additional contextual information is available to help with the decision-making process. In this survey, we provide a comprehensive overview of different algorithms that have been developed for both non-contextual and contextual MAB problems by discussing the strengths and weaknesses of each algorithm and providing insights into the theoretical guarantees. We also present various real-life applications and provide the potential future directions.
+  PQE Committee
+  Chairperson: Prof. Xiaowen CHU
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Xinzhou GUO
+  Examiner: Prof Wei ZENG
+  Date
+  04 June 2024
+  Time
+  09:50:00 -
+  11:05:00
+  Location
+  E1-150
+  Join Link
+  Zoom Meeting ID:
+  867 2625 2251
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/86726252251?pwd=3ViggInFbwQt8ziVQbCx6aPlOF06Vt.1

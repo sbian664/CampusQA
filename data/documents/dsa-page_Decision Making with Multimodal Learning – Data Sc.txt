@@ -1,0 +1,44 @@
+dsa_page: Decision Making with Multimodal Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/29/decision-making-with-multimodal-learning/
+source: DSA
+
+headings:
+  - Decision Making with Multimodal Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - LEARN MORE
+
+text: >
+  DSA Seminar
+  Decision Making with Multimodal Learning
+  Share to
+  ABSTRACT
+  With the advent of multimodal large (language) models (MMLMs), a new paradigm in decision-making research has emerged, where multimodal learning can potentially enhance an AI agent's robustness, generality, and learning efficiency in decision-making. This presentation will first introduce my past research achievements, covering deep reinforcement learning (DRL) and multi-agent systems. Then we will discuss my current research agenda, focusing on developing multi-modal decision-making systems that leverage the strengths of these advanced technologies to address complex, dynamic, and interactive environments. By bridging my past and present research and highlighting the synergy between these advanced AI technologies, the presentation aims to showcase novel methodologies for building decision-making systems capable of operating in complex and dynamic environments.
+  SPEAKER BIO
+  Zheng TIAN
+  Assistant Professor
+  ShanghaiTech University
+  Zheng Tian obtained his PhD from University College London (UCL). During his PhD studies, Zheng primarily researched multi-agent systems, reinforcement learning, and generative models, with multiple research works published in top international conferences such as NeurIPS, ICLR, AAAI, IJCAI, and CoRL. Zheng is also a key member of the UCL team for the ExIt project, which was independently developed alongside Google's DeepMind AlphaGo algorithm. Zheng has served as a Program Committee (PC) member for renowned international conferences including NeurIPS, ICLR, AAAI, and IJCAI, and as a reviewer for several prestigious international journals and conferences, including ACM Computing Surveys and Frontiers of Computer Science.
+  Date
+  30 May 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  W2-2F-201, HKUST(GZ) & Online
+  Join Link
+  Zoom Meeting ID:
+  829 0430 5958
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487863&idx=1&sn=3a2df48615795845d7185983a8c264cd&chksm=c1d77294f6a0fb8281845fbe941dd4d072e838af7def604513e2110b3eb85880787c837f1149&token=368370198&lang=en_US

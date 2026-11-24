@@ -1,0 +1,123 @@
+fytgs_page: Technology and Policy
+url: https://fytgs.hkust-gz.edu.cn/programs/technology-and-policy-2
+source: FYTGS
+
+headings:
+  - Master of Science Program in Technology and Policy
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Science Program in Technology and Policy
+  GENERAL INFORMATION
+  Award Title
+  Master of Science in Technology and Policy
+  Program Short Name
+  MSc(TP)
+  Mode of Study
+  Full-time
+  Normative Program Duration
+  Full-time: 2 years
+  Program Fee
+  Please refer to the
+  Program's website
+  .
+  Offering Unit
+  Innovation, Policy and Entrepreneurship Thrust Area
+  Society Hub
+  Program Advisor
+  Program Director:
+  Prof Coco Dijia DU, Research Associate Professor of Carbon Neutrality and Climate Change
+  Website
+  https://soch.hkust-gz.edu.cn/academics/ipe/msc-programs/
+  Enquiry
+  mstp@hkust-gz.edu.cn
+  INTRODUCTION
+  Master of Science in Technology and Policy (MSc (TP)) program will provide professional training to cope with the rapid development in technology-related sectors. In many areas, public policies play a fundamental role in shaping the development, application, and market. We seek to train students and equip them with cutting-edge knowledge in technology sectors and bridge the divide between industries and government. The rigorous two-year program will provide skill-based training in the uses of analytic methods for public policy and the development of expertise in best policy practices, comparable to MSc (TP) degrees offered by leading universities in Europe, the United States. This will be the first program in Greater China that offers a Master's program focusing on technology and policy. Students will acquire the knowledge, skills, and confidence to be leaders in government, business, and NGOs to shape public policies of technology, to guide and nurture technologies that change our society.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Identify key development and trends in technology sector;
+  Define and analyze complex problems in the development and application of disruptive technologies, and design original and innovative solutions for business and government;
+  Understand policymaking in technology development and innovation and contribute to policy development through the applications of evidence-based approaches; and
+  Communicate effectively with other professionals in a diverse range of task environment.
+  CURRICULUM
+  Minimum Credit Requirement
+  48 credits
+  Credit Transfer
+  Subject to the approval of the Program Director, students may apply for credit transfer or course substitution of no more than 12 credits.
+  Core Courses
+  21 credits
+  IPEN 5110
+  Foundation in Public Policy
+  3 credits
+  Description
+  The course will provide an advanced foundation in the study and practice of public policy at the level required for graduate study. The course will cover both the historic foundations of policy studies, as well as emerging approaches and directions. As the study of public policy is inherently interdisciplinary, it will include perspectives from political science, public policy, economics, business and other aspects of social science. It will take a broad view of public policy, including taking up some of the core literature on public management and public administration.
+  or PPOL 5110
+  Foundation in Public Policy
+  3 credits
+  Description
+  This course is required for all first-year MPhil/PhD students in Public Policy. The course will provide an advanced foundation in the study and practice of public policy at the level required for graduate study. The course will cover both the historic foundations of policy studies, as well as emerging approaches and directions. As the study of public policy is inherently interdisciplinary, it will include perspectives from political science, public policy, economics, business and other aspects of social science. It will take a broad view of public policy, including taking up some of the core literature on public management and public administration.
+  IPEN 5130
+  Economics of Technology Innovation and Entrepreneurship
+  3 credits
+  Description
+  This course introduces the economics of technology innovation and entrepreneurship through the combined perspectives of microeconomics and macroeconomics. It covers microeconomic core modules concerning consumers, firms, markets, and governments, as well as macroeconomic core modules on economic growth associated with entrepreneurship and innovation.
+  IPEN 5150
+  Policy Analysis for Technology and Innovation
+  3 credits
+  Description
+  Technological innovation is increasingly the source of sustainable competitive advantage for firms worldwide. This course introduces a grounding in the field of technology and innovation, with an emphasis on economic policy and business strategy. The course will be highly interactive and apply multiple disciplines including economics, management, law and public policy.
+  IPEN 5160
+  Big Data Applications for Business and Government
+  3 credits
+  Description
+  This course will cover the key concepts and technologies of big data and data analysis, with a focus on the application of big data in formulating business strategies and policies, and related research issues on how big data affects the direction of business and policy development. The course will provide students with practical training on big data and data analysis based on real-world business or policy issues, ranging from collecting and preprocessing to organizing and analyzing large-scale data.
+  IPEN 5180
+  Disruptive Technology and Society
+  3 credits
+  Description
+  This course gives students a broad introduction to the key disruptive technologies, such as mobile internet, AI, and robotics, that have transformed our society. We will examine the practical applications of these technologies and discuss their socioeconomic impacts and policy responses. We will also look at the potential for businesses and governments to harness these disruptive technologies to deliver new services or improve existing ones and enhance value in public and private sectors.
+  IPEN 6110
+  Capstone Project
+  6 credits
+  Description
+  This course consists of 6 credits and will last for two regular terms. In the first term, students learn and integrate the latest technology topics through seminars,lectures, and workshops. After completing four micro-policy analysis reports, students can familiarize themselves with technology policy hot spots and policy analysis tools, as well as the cooperation skills and role division among the groups. In the second term, they will complete group projects on selected topics for science and technology policy under the supervision offaculty members. The participation of the university’s internal community and external organizations in these projects will be highly encouraged. The university will be responsible for the control, management and evaluation of the project. Students will exercise their teamwork skills, analyze science and technology policy issues and develop concise reports of their findings and recommendations. They should write the paper acting as an assistant to a particular decision-maker in a government, nonprofit organization, business or private sector. This course is for MSc(TP) students only. May be graded PP.
+  Elective Courses
+  27 credits
+  Students can take the following courses to meet the elective course requirement:
+  • Any postgraduate elective courses offered by IPE
+  • Any postgraduate elective courses offered by PPOL
+  • A list of other elective courses offered at either HKUST or HKUST(GZ) in a particular year will be announced at the beginning of each intake.
+  Additional coursework may be required as part of the program preparation.
+  Remarks
+  Students who are interested to spend one to two regular terms studying at HKUST are required to submit an application in their first year of study, and priority for approval will be given in consideration of their academic performance and career plan.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 250
+  Application Deadlines
+  For 2025/26 Fall Term Intake (commencing in Sep 2025):
+  International students*
+  15 Jun 2025
+  Chinese students
+  15 Jul 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - Program's website | https://soch.hkust-gz.edu.cn/academics/ipe/msc-programs/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

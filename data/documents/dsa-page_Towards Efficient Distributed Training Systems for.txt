@@ -1,0 +1,46 @@
+dsa_page: Towards Efficient Distributed Training Systems for Sparse Mixture-of-Experts – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/23/towards-efficient-distributed-training-systems-for-sparse-mixture-of-experts/
+source: DSA
+
+headings:
+  - Towards Efficient Distributed Training Systems for Sparse Mixture-of-Experts
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Towards Efficient Distributed Training Systems for Sparse Mixture-of-Experts
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xinglin PAN
+  ABSTRACT
+  The rapid scaling of large language models has made efficient distributed execution a central systems challenge. While Mixture-of-Experts (MoE) architectures successfully expand model capacity without proportionally increasing compute costs, training these massive models on GPU clusters exposes a severe communication bottleneck driven by complex hybrid parallelism. Standard systems treat intra-node and inter-node collectives as rigid sequential barriers and transmit tensors at full precision regardless of data redundancy. This structural inefficiency forces high-performance GPUs to idle during data movement, consuming huge transfer time and strictly limiting practical scalability. Consequently, computation and network scheduling tend to be pursued independently rather than within a unified framework.
+  This thesis addresses this gap under a single overarching objective: constructing scalable and efficient MoE training systems by systematically co-scheduling execution and eliminating communication redundancy. This principle is developed through three system layers spanning the training stack. First, Parm introduces runtime-adaptive execution schedules that pipeline intranode and inter-node communication during the forward pass, using a lightweight optimizer to bypass redundant operations. Second, FSMoE extends this co-scheduling to both forward and backward passes through unified online profiling, adaptively partitioning gradients to fold aggregation directly into the communication overlap without resource contention. Finally, ZipCCL addresses the physical limits of network bandwidth by exploiting numerical redundancy, utilizing hardware-aware exponent coding and layout-optimized GPU kernels to deliver lossless compressed communication collectives.
+  Collectively, these contributions establish a central insight: overcoming the communication bottleneck in large-scale MoE training requires an integrated approach where analytical performance modeling guides both temporal scheduling and spatial data compression. This unified perspective moves distributed training systems beyond naive serialization, providing an effective and highly scalable path for deploying next-generation foundation models on various GPU infrastructure.
+  TEC
+  Chairperson: Prof Liuqing YANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Wei WANG
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Guoming TANG
+  Prof Jiayi HUANG
+  Prof Chuan WU
+  Date
+  11 August 2026
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

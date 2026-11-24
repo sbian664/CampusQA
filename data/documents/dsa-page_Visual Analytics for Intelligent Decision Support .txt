@@ -1,0 +1,43 @@
+dsa_page: Visual Analytics for Intelligent Decision Support – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/29/visual-analytics-for-intelligent-decision-support/
+source: DSA
+
+headings:
+  - Visual Analytics for Intelligent Decision Support
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - Audience
+
+text: >
+  DSA Seminar
+  Visual Analytics for Intelligent Decision Support
+  Share to
+  *Students who enroll in DSAA 6102 please attend the seminar in classroom.
+  ABSTRACT
+  In recent years, the widespread application of data analysis techniques has enabled the inspection, understanding, and prediction of the behaviors of individuals and groups within massive datasets, which has provided new insights for human understanding of society and the world and for optimizing social governance. However, the black-box nature of automated analysis models has limited users' understanding of the mechanisms and predictions of the models, thereby affecting trust in the models. This talk will tackle the challenges in decision support and explore how visual analysis approaches can help decision-makers build and optimize models. Additionally, we will discuss how these approaches can assist in making decisions based on model predictions.
+  SPEAKER BIO
+  Yuxin MA
+  Associate Professor
+  Southern University of Science and Technology
+  Yuxin Ma is a tenure-track Associate Professor in the Department of Computer Science and Engineering at Southern University of Science and Technology (SUSTech), China. He received B.Eng. and Ph.D. from Zhejiang University, China, supervised by Prof. Wei Chen. Before joining SUSTech, he worked as a Postdoctoral Research Associate at VADER Lab, CIDSE, Arizona State University. His primary research interests are in the areas of visualization and visual analytics, focusing on explainable AI, high-dimensional data, and spatiotemporal data. His work has been published in various top venues in visualization and human-computer interaction (IEEE TVCG, IEEE VIS, ACM CHI, etc.) and recognized through Honorable Mention Awards at ACM CHI (2022) and CVMJ (2018) as well as an IEEE VAST Challenge award (2023). He has served as a program committee member and reviewer for major conferences and journals in visualization, human-computer interaction, and artificial intelligence. He is a Young Advisory Board member of the Visual Informatics journal.
+  Date
+  31 January 2024
+  Time
+  10:00:00 -
+  10:50:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  898 0964 8760
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  *Students who enroll in DSAA 6102 please attend the seminar in classroom.

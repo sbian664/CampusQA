@@ -1,0 +1,37 @@
+dsa_page: Large Scale Macrosopic Traffic Simulation for Routing Management – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/large-scale-macrosopic-traffic-simulation-for-routing-management/
+source: DSA
+
+headings:
+  - Large Scale Macrosopic Traffic Simulation for Routing Management
+  - Abstract
+  - Project members
+  - Lei LI
+  - Xiaofang ZHOU
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Large Scale Macrosopic Traffic Simulation for Routing Management
+  Abstract
+  Route planning and navigation systems have played an increasingly important role in our society and have a growing impact on transportation systems. The current system takes the traffic prediction as input and optimizes the routes individually. However, such a paradigm could generate congestion and deteriorate traffic conditions because the routing algorithms are not aware of their results’ influence on the traffic flow. Therefore, in this paper, we identify this flaw in the current paradigm and propose a route data management system to evaluate the influence of the routing results and help improve future downstream tasks. Specifically, we first formulate traffic evaluation as a clear traffic-aware network time calibration problem and propose a simulation-based method to evaluate hundreds of thousands of routes efficiently. To support route updates on the evaluation results, we propose an RR-Index to support high throughput of route insertion, deletion, and temporal update. After that, we propose several techniques like influence terminate condition, propagation merge and ordering, and parallel processing to make it efficient enough to work in real life. Evaluations on real-world road networks verify the necessity, effectiveness, and efficiency of our methods.
+  Project members
+  Lei LI
+  Assistant Professor
+  Xiaofang ZHOU
+  Chair Professor
+  Publications
+  Managing the Future: Route Planning Influence Evaluation in Transportation Systems. Zizhuo Xu, Lei Li, Mengxuan Zhang, Yehong Xu, Xiaofang Zhou, and Xiao fang Zhou. ICDE 2024
+  Project Period
+  2023 - Present
+  Research Area
+  Graph, Transportation
+  Keywords
+  Graph, Traffic Prediction, Traffic Simulation, Trajectory, Transportation
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli
+  - https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf | https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaofang-zhou-zxf

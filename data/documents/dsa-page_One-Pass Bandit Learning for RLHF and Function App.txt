@@ -1,0 +1,28 @@
+dsa_page: One-Pass Bandit Learning for RLHF and Function Approximation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/08/31/one-pass-bandit-learning-for-rlhf-and-function-approximation/
+source: DSA
+
+headings:
+  - One-Pass Bandit Learning for RLHF and Function Approximation
+  - Abstract
+  - About the speaker
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  One-Pass Bandit Learning for RLHF and Function Approximation
+  Share to
+  Abstract
+  Bandit models are a key framework for designing algorithms in interactive decision-making. While stochastic linear bandits are well-studied, real-world complexities have led to important extensions like generalized linear bandits (GLB) with nonlinear link functions, and heavy-tailed linear bandits (HvLB) to handle heavy-tailed noise. While optimal regret bounds have been established, existing algorithms are computationally impractical, requiring full data storage and repeated passes over all historical data. In this talk, I will introduce a "one-pass" method based on the Online Mirror Descent framework, a textbook-standard approach for regret optimization whereas we here use it as a statistical estimator. This approach achieves O(1) per-round computational cost while preserving optimal regret for GLB and HvLB. Then I will discuss extensions to online RL theory: (i) RL with multinomial logit function approximation, and (ii) RLHF with on-policy active data collection.
+  About the speaker
+  Peng Zhao is a tenure-track associate professor at the School of Artificial Intelligence, Nanjing University. He is also a member of the Learning and Mining from Data (LAMDA) Group. His research focuses on the theoretical foundations of machine learning, including online learning, optimization, and reinforcement learning theory. He has published more than 60 academic papers in leading journals and conferences, including JMLR, COLT, ICML, and NeurIPS. He serves as an action editor for Machine Learning (Springer) and Frontiers of Computer Science, and also serves as an area chair for ICML/NeurIPS/ICLR. He was selected for the CCF Outstanding Doctoral Dissertation Award and received the Xiaomi Young Scholars Science and Technology Innovation Award.
+  Date
+  01 September 2026
+  - 02 September 2026
+  Time
+  09:10:00 -
+  10:10:00
+  Location
+  E1-202 (HKUST-GZ)

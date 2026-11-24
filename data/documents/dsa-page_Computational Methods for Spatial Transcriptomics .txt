@@ -1,0 +1,36 @@
+dsa_page: Computational Methods for Spatial Transcriptomics: A Modeling-Oriented Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/05/computational-methods-for-spatial-transcriptomics-a-modeling-oriented-survey/
+source: DSA
+
+headings:
+  - Computational Methods for Spatial Transcriptomics: A Modeling-Oriented Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Computational Methods for Spatial Transcriptomics: A Modeling-Oriented Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. FENG, Junning
+  Abstract
+  Spatial transcriptomics (ST) enables gene-expression profiling in situ, restoring the spatial context that tissue dissociation irreversibly discards: a cell’s anatomical position, its local neighborhood composition, and the contact-dependent signals that collectively shape its transcriptional state. This capability has driven the development of diverse computational tasks, including spatial domain identification, spatially variable gene detection, cell-type deconvolution, and microenvironmental niche analysis. However, translating these high-dimensional data into robust biological insights presents significant computational challenges. ST datasets are inherently sparse, spatially autocorrelated, often multimodal, and subject to strong platform-specific biases, typically in the absence of definitive ground truth.
+  This survey reviews computational methods for spatial transcriptomics from a modeling-oriented perspective, spanning all major computational task families within a unified analytical framework. Methods are evaluated according to the biological or statistical objects they formalize and the assumptions required for their interpretability. This perspective surfaces cross-task methodological tensions, including conflicts between spatial-dependence modeling and independent-sample assumptions or between representational flexibility and biological interpretability, and provides principled criteria for method selection across different data and hypothesis regimes. The review covers spatial domain and variable gene detection, cell-type deconvolution, ligand-receptor communication and niche modeling, representation learning and foundation models, spatial gene program extraction, and counterfactual perturbation modeling.
+  Through this framework, we identify a conceptual progression in the field, moving from the descriptive mapping of tissue architecture through the learning of reusable, context-aware representations to predictive, perturbation-oriented modeling, and characterize the methodological trade-offs that accompany each transition. Against this progression, five structural gaps stand out: the separation between spatial domain inference and gene-level explanation; the lack of gene-level representations that encode niche-conditioned function; the difficulty of validating transferable spatial representations across organs, platforms, resolutions, and disease states; the absence of stable spatial gene program vocabularies for cross-cohort comparison; and the limited evidence base for uncertainty-aware spatial perturbation modeling. Closing these gaps requires an analytical stance that foregrounds modeling assumptions and evidential limits alongside algorithmic performance, a reorientation that motivates the framework employed throughout this survey.
+  PQE Committee
+  Chair: Prof. WANG, Wei
+  Prime Supervisor: Prof. ZHANG, Yanlin
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. LI, Lei
+  Date
+  10 June 2026
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-150, HKUST(GZ)

@@ -1,0 +1,91 @@
+dsa_page: Undergraduate Admissions – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/admissions/undergraduate-admissions/
+source: DSA
+
+headings:
+  - Information Day for UG Admissions 2026
+  - Information Day for UG Admissions 2025
+  - Information Day for UG Admissions 2024
+  - Information Sessions for UG Admissions 2024 @ Beijing City
+
+text: >
+  Keyword
+  Speaker
+  Search
+  Explore Events for Undergraduate Admissions
+  No events.
+  02
+  Oct 2025
+  Undergraduate Admissions
+  Information Day for UG Admissions 2026
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  13:00 - 18:00
+  15
+  Jun 2025
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  08:30 - 16:00
+  30
+  Mar 2025
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  09:00 - 17:00
+  15
+  Dec 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2025
+  No.1 Du Xue Rd, Nansha District, Guangzhou, HKUST(GZ)
+  09:00 - 17:00
+  16
+  Jun 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2024
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  13:00 - 18:00
+  19
+  May 2024
+  /
+  26
+  May 2024
+  Undergraduate Admissions
+  Information Sessions for UG Admissions 2024 @ Beijing City
+  北京交通大学，线上直播，北京联合大学北四环校区体育场 ，北京对外经济贸易大学南门宁远楼广场
+  01
+  May 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2024
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  13:30 - 17:00
+  24
+  Mar 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2024
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  13:30 - 17:00
+  04
+  Feb 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2024
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  13:30 - 17:45
+  28
+  Jan 2024
+  Undergraduate Admissions
+  Information Day for UG Admissions 2024
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  13:30 - 17:45
+
+links:
+  - Explore Events for Undergraduate Admissions | https://ugadmissions.hkust-gz.edu.cn/zh-CN/activity/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/09/23/information-day-for-ug-admissions-2026/ | https://dsa.hkust-gz.edu.cn/blog/2025/09/23/information-day-for-ug-admissions-2026/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/06/13/information-day-for-ug-admissions-2025/ | https://dsa.hkust-gz.edu.cn/blog/2025/06/13/information-day-for-ug-admissions-2025/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/03/18/information-day-for-ug-admissions-2024-2/ | https://dsa.hkust-gz.edu.cn/blog/2025/03/18/information-day-for-ug-admissions-2024-2/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/12/05/information-day-for-ug-admissions-2025-2/ | https://dsa.hkust-gz.edu.cn/blog/2024/12/05/information-day-for-ug-admissions-2025-2/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/06/05/information-day-for-ug-admissions-2024/ | https://dsa.hkust-gz.edu.cn/blog/2024/06/05/information-day-for-ug-admissions-2024/
+  - https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487820&idx=2&sn=f9fd623b7cb0e57b8eb69257dd4c5ced&chksm=c1d772aff6a0fbb960e0a1429ef479022d0829568d1c4b7f8b4b2aff21a7deb8a072fb7c6746&token=1405682611&lang=en_US | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487820&idx=2&sn=f9fd623b7cb0e57b8eb69257dd4c5ced&chksm=c1d772aff6a0fbb960e0a1429ef479022d0829568d1c4b7f8b4b2aff21a7deb8a072fb7c6746&token=1405682611&lang=en_US
+  - https://dsa.hkust-gz.edu.cn/blog/2024/04/18/%e6%9c%ac%e7%a7%91%e6%8b%9b%e7%94%9f-i-5%e6%9c%88%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/ | https://dsa.hkust-gz.edu.cn/blog/2024/04/18/%e6%9c%ac%e7%a7%91%e6%8b%9b%e7%94%9f-i-5%e6%9c%88%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/03/12/3%e6%9c%8824%e6%97%a5%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/ | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/3%e6%9c%8824%e6%97%a5%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/02/04/test/ | https://dsa.hkust-gz.edu.cn/blog/2024/02/04/test/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/01/18/1%e6%9c%8828%e6%97%a5%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/ | https://dsa.hkust-gz.edu.cn/blog/2024/01/18/1%e6%9c%8828%e6%97%a5%e5%ae%b6%e9%95%bf%e6%8e%a5%e5%be%85%e6%97%a5/

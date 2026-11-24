@@ -1,0 +1,264 @@
+fytgs_page: Bioscience and Biomedical Engineering
+url: https://fytgs.hkust-gz.edu.cn/programs/bioscience-and-biomedical-engineering-2
+source: FYTGS
+
+headings:
+
+text: >
+  Postgraduate Programs 2022/23
+  Master of Philosophy and Doctor of Philosophy Programs in Bioscience and Biomedical Engineering
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Bioscience and Biomedical Engineering
+  Doctor of Philosophy in Bioscience and Biomedical Engineering
+  Program Short Name
+  MPhil(BSBE)
+  PhD(BSBE)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Bioscience and Biomedical Engineering Thrust Area
+  Systems Hub
+  Program Advisor
+  Program Director:
+  Prof Robert Z. QI, Professor of Bioscience and Biomedical Engineering
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  Enquiry
+  bsbe@hkust-gz.edu.cn
+  INTRODUCTION
+  Bioscience is a diverse but often converging field of study that applies knowledge to develop biological solutions to sustain, restore, and improve the quality of life for humans, plants, and animals. Biomedical Engineering is the application of engineering principles and design concepts to biology and medicine for advanced healthcare in diagnostics, monitoring, and therapy. Bioscience and Biomedical Engineering are strongly interdisciplinary which involve Physics, Chemistry, Biology, Mathematics, IT and Computer Science.
+  The Master of Philosophy (MPhil) and Doctor of Philosophy (PhD) Programs in Bioscience and Biomedical Engineering aim to provide a well-rounded education as well as rigorous research training to prepare students to become versatile and knowledgeable professionals. Areas of research include regenerative medicine and tissue engineering, molecular and cell biology, precision medicine, plant biology, Chinese medicine, healthy aging, biostatistics, bioinformatics and data mining.
+  MPhil graduates should possess a good mastery of knowledge in bioscience and biomedical technologies, be able to apply engineering principles to solve problems in medicine and biology, and generate novel solutions.
+  PhD graduates should be capable of conducting high-quality original research, creating new knowledge, deriving valuable insights, and making tangible impacts in academia and the field.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Demonstrate the breadth of knowledge across the field of bioscience and biomedical engineering;
+  Show mastery of knowledge in their areas of specialization and convey the results of their research to people in the profession or an audience in a clear, succinct and effective manner;
+  Design and conduct original research and effectively apply their research to solving problems in bioscience and biomedical engineering; and
+  Integrate the basic concepts of biotechnology and experimentation to engage in hands-on practices for implementation of such techniques to facilitate the development of biotechnology industry.
+  On successful completion of the PhD program, graduates will be able to:
+  Exhibit graduate-level mastery of basic theoretical knowledge and experimental methods in bioscience and biomedical engineering, as well as advanced expertise within the chosen specialty;
+  Formulate a hypothesis and conduct original research using appropriate tools and techniques within their focused area of study to test the hypothesis;
+  Master the analytical and methodological skills needed to evaluate and conduct research;
+  Draw on previously published work to independently design and execute new experiments with a high degree of sophistication; and
+  Teach courses in the areas of specialization at the undergraduate level.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  All students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Systems Hub and at least one Hub core course (2 credits) from other Hubs.
+  Systems Hub Core Course
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take elective courses to form an individualized curriculum relevant to the cross-disciplinary thesis research. To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Sample Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  BSBE 5100
+  Data-driven Cancer Research and Precision Medicine
+  3 Credit(s)
+  Description
+  This course covers emerging topics of big data analytics in cancer research. It will introduce the genetic basis of human cancer including mechanisms of mutations, mutation burden in cancer immunotherapy, integration of omics data, statistical method in differential gene expression, gene set enrichment analysis and so on. This course will also focus on the principles and applications of modern cancer therapeutic approaches and cutting-edge research in immunology. In addition, this course will discuss current practice of precision medicine and future developments.
+  BSBE 5200
+  Principles of Neuroscience and Related Diseases
+  3 Credit(s)
+  Description
+  This course covers the basic knowledge of nervous system, and the clinical manifestation, anatomy, physiology, pathophysiology, diagnosis, and treatment of common nervous system diseases, with focus on the underlying molecular mechanism of the diseases and treatments.
+  BSBE 5300
+  Brain and Behavior
+  3 Credit(s)
+  Description
+  This course covers the basic knowledge of neuroscience, including neuronal communications in the brain, the fundamental information and electrophysiological properties of neurons, neuroanatomy, psychopharmacology, and how the activity of neurons and neural circuits, together with chemical systems in the brains, yield emotion, motivated behaviors, learning and memory.
+  BSBE 5400
+  Fundamentals of Light Microscopy and Electronic Imaging
+  3 Credit(s)
+  Description
+  The goal of this course is to provide a fundamental introduction to light microscopy and electronic imaging. In the past 20 years, much has happened to light microscopy into the forefront of biomedical research methodologies. Topics to be covered include principles and practice of optical imaging, light and color, the point spread function and resolution, phase contrast microscopy and darkfield microscopy, differential interference contrast microscopy, fluorescence microscopy, confocal laser scanning microscopy, two-photon excitation fluorescence microscopy, super resolution imaging, imaging living cells with the microscope, digital imaging introduction and noise, digital image processing and other related topics.
+  BSBE 5500
+  Principles of Biomaterials, Drug Delivery and Tissue Engineering
+  3 Credit(s)
+  Description
+  This course covers the basic knowledge of biomaterials, drug delivery and tissue engineering: natural biomaterials, synthetic biomaterials, biomaterials for drug delivery, biomaterials for tissue engineering, biomaterial formulations (nanoparticles, nanofibers and microspheres), biocompatibility, biodegradability, with focus on the structure-function of the biomaterials and how to develop biomaterials for a variety of biomedical applications.
+  BSBE 5600
+  Biosignal Processing
+  3 Credit(s)
+  Description
+  This course covers the principles, implementation and applications of signal processing methods in biological research and biomedical engineering. Through a series of case studies and projects, the course will provide opportunities to acquire practical knowledge and skills of data analysis. General concepts of signals and systems, and a brief tutorial of MATLAB will be introduced at the beginning. Then data acquisition, filtering, coding, feature extraction, statistical inference, pattern classification, and modeling will be covered with emphasis on applications in real-world data. This course also includes a topic about neural signal processing.
+  BSBE 6000
+  Special Topics in Bioscience
+  3 Credit(s)
+  Description
+  Selected topics in bioscience of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  AMAT 5200
+  Machine Learning for Materials Science
+  3 Credit(s)
+  Description
+  This course aims to provide students training with a convergence of the two disciplines of Materials Science and Machine Learning (ML). We will start from machine learning basics, its mathematical foundations, then move on to modern machine learning methods for materials science problems and hands-on study with Python. Particularly, students will learn about how to combine the data-driven ML techniques with existing knowledge of materials science to give reliable physical predictions. Various case studies will be discussed, with real-world materials science applications.
+  AMAT 5250
+  Mathematical Methods for Materials Science and Engineering
+  3 Credit(s)
+  Description
+  This course will focus on mathematical methods, with specific concern about construction, analysis, and interpretation of mathematical models that shed light on significant problems in materials science and engineering. There are many courses that present collection of math techniques, but this course will be different: typically, we will use a “case-study” approach, i.e., select a series of important scientific problems, whose solution will involve some useful mathematics. We will start with the scientific background, then formulate relevant mathematical problem with care. The formulation step is usually more challenging than just learning the mathematics. Through the case studies, useful math techniques will be introduced naturally. Some typical case studies include: collective motions and aggregations, heat conduction and elasticity of materials, charge transport, plasmonic effects and bio-chemical kinetics, etc.
+  AMAT 5900
+  Molecular Physics and Optoelectronic Processes
+  3 Credit(s)
+  Description
+  This course will cover the physics of the electronic structure of pi-conjugated materials and their neutral, excited and charged states (excitons, polarons), their optical properties (absorption, emission), photophysical processes, photochemistry, energy transfer and charge transport. It will introduce the principles of design and operation of molecular based light emitting devices, solar cells etc. as well as providing an introduction to device fabrication and device engineering for maximum performance and lifetime.
+  DSAA 5002
+  Data Mining and Knowledge Discovery in Data Science
+  3 Credit(s)
+  Description
+  With more and more data available, data mining and knowledge discovery has become a major field of research and applications in data science. Aimed at extracting useful and interesting knowledge from large data repositories such as databases, scientific data, social media and the Web, data mining and knowledge discovery integrates techniques from the fields of database, statistics and AI.
+  DSAA 5009
+  Deep Learning in Data Science
+  3 Credit(s)
+  Description
+  In this course, theories, models, algorithms of deep learning and their application to data science will be introduced. The basics of machine learning will be reviewed at first, then some classical deep learning models will be discussed, including AlexNet, LeNet, CNN, RNN, LSTM, and Bert. In addition, some advanced deep learning techniques will also be studied, such as reinforcement learning, transfer learning and graph neural networks. Finally, end-to-end solutions to apply these techniques in data science applications will be discussed, including data preparation, data enhancement, data sampling and optimizing training and inference processes.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  SYSH 6780
+  Career Development for Systems Hub Research Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research students with the skills conducive to their professional career development. Students will attend the training focusing on personality self-exploration and program-specific training at the Thrust level, and another training at the Hub level. Graded PP, P or F.
+  Students are required to complete SYSH 6780. The 1 credit earned from SYSH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed SYSH 6780 or other equivalent professional development courses offered by the University before may be exempted from taking SYSH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Division of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  LANG 5001
+  Postgraduate English for Engineering Research Studies
+  1 Credit(s)
+  Description
+  This course aims to help research students in engineering communicate their research effectively. It highlights the characteristics of academic discourse, and provides training in the production of research-type documents, including abstracts, journal papers and theses. The course also gives extensive practice in the presentation and seminar skills necessary for academic study. Students who fail to fulfill the spoken English language requirement of the University are advised to take LANG 5000 before enrolling for this course (for students admitted in 2009/10 and onwards). Graded P or F.
+  LANG 5002
+  Postgraduate English for Business and Social Science Studies
+  1 Credit(s)
+  Description
+  This course is intended to provide RPG students of SBM and SOSC with essential training in academic writing, speaking and critical reading relevant to the study of a research postgraduate degree. Students who fail to fulfill the Spoken English language requirement of the University are advised to take LANG 5000 before enrolling for this course (for students admitted in 2009/10 and onwards). Graded P or F.
+  LANG 5010
+  Postgraduate English for Science Studies
+  1 Credit(s)
+  Description
+  This course teaches common skills postgraduate science students need to write and speak about their research. The course is compulsory for all RPG students of SSCI (for students admitted in 2012/13 and onwards). Students who fail to fulfill the English language requirement of the University are advised to take LANG 5000 before enrolling for this course (for students admitted in 2009/10 and onwards). Graded P or F.
+  Students are required to take one of the above three courses. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  BSBE 6800
+  Seminar in Bioscience and Biomedical Engineering
+  0 Credit(s)
+  Description
+  Seminar topics presented by students, faculty and guest speakers. Students are expected to attend regularly and demonstrate proficiency in presentation in accordance with the program requirements. Graded P or F.
+  MPhil:
+  Full-time students must take and pass BSBE 6800 at least twice, and present at least one seminar during their study, in addition to the oral defense of their MPhil thesis. Part-time students must take and pass BSBE 6800 at least once, and present at least one seminar during their study, counting the oral defense of their MPhil thesis.
+  PhD:
+  Full-time students must take and pass BSBE 6800 at least four times, and present at least two seminars during their study, in addition to the oral defense of their PhD thesis. Part-time students and students entering with an HKUST MPhil degree must take and pass BSBE 6800 at least twice, and present at least one seminar during their study, counting the oral defense of their PhD thesis.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  BSBE 6900
+  MPhil Thesis Research
+  0 Credit(s)
+  BSBE 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in BSBE 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in BSBE 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Applicants seeking admission to a master's degree program should have obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification;
+  Applicants seeking admission to a doctoral degree program should have obtained a bachelor’s degree with a proven record of outstanding performance from a recognized institution; or presented evidence of satisfactory work at the postgraduate level on a full-time basis for at least one year, or on a part-time basis for at least two years.
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements

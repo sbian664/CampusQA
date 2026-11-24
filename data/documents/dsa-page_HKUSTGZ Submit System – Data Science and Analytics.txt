@@ -1,0 +1,42 @@
+dsa_page: HKUST(GZ) Submit System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/05/dsa-assignment-submission-and-grading-system/
+source: DSA
+
+headings:
+  - Current available features include
+  - Features to be added
+  - Detailed information (See the draft detailed documentations)
+
+text: >
+  DSA Teaching
+  HKUST(GZ) Submit System
+  Day: November 5, 2025
+  Browse: 433
+  Share to
+  Faculty members who are interested in learning more or adopting the system are welcome to contact us.
+  The system was co-developed by Prof. Zishuo DING and a team of PhD and UG students. If you have any comments, suggestions, or feature requests, please feel free to share them with us. We plan to add more practical functions (e.g., detecting the proportion of AI-generated content).
+  Over the past two years, several colleagues in our thrust have developed various AI-based teaching tools. We also plan to integrate these into this platform in the future.
+  — Wei WANG
+  The submit system is created by professors and students at DSA for typical CS style courses. The aim is to provide a modern system (i.e., not canvas) with advanced features for course instructors to manage assessments (assignment, lab, and project) submission, marking, feedback, and analytics).
+  Current available features include
+  • Flexible student and TA management. E.g., pool students of all sessions together, so that an assessment only needs to be published once.
+  • Flexible assessment management:
+  – Codes submission (currently support .cpp and .py) and pdf submission (for QA types of questions)
+  – Flexible submission mode. E.g., auto-testing-and-mark-display (ojstyle), unlimited submission before deadline, etc.
+  – Advanced functionalities. E.g., plagaraism detection (across sesssions!), AI-based auto-marking and auto-commenting (provide auto feedback to students) as well as manual feedback (by TAs).
+  Features to be added
+  • AIGC content detection
+  • Mark to letter grade conversion and statistics reporting
+  • You name it 🙂
+  Detailed information (See the draft detailed documentations)
+  •
+  Teacher's Manual.pdf
+  •
+  Admin's Manual.pdf
+  •
+  Auto Test Configuration User Guide.pdf
+
+links:
+  - Teacher's Manual.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Teachers-Manual.pdf
+  - Admin's Manual.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Admins-Manual.pdf
+  - Auto Test Configuration User Guide.pdf | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/11/Auto-Test-Configuration-User-Guide.pdf

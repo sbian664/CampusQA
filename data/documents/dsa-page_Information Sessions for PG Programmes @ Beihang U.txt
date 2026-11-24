@@ -1,0 +1,50 @@
+dsa_page: Information Sessions for PG Programmes @ Beihang University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/06/information-sessions-for-pg-programmes-beihang-university/
+source: DSA
+
+headings:
+  - Information Sessions for PG Programmes @ Beihang University
+  - Date
+  - Time
+  - Location
+  - Speaker
+  - Yongqi ZHANG
+  - Zishuo DING
+  - Event Organizer
+  - Email
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Beihang University
+  Share to
+  Date
+  11 September 2024
+  Time
+  18:30:00 -
+  20:00:00
+  Location
+  北京航空航天大学 学院路校区 新主楼F座F101教室
+  Speaker
+  Yongqi ZHANG
+  Assistant Professor
+  Profile
+  Zishuo DING
+  Assistant Professor
+  Profile
+  Event Organizer
+  Information Hub
+  Email
+  infh@hkust-gz.edu.cn
+  Audience
+  PG Students - Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+  - LEARN MORE | https://mp.weixin.qq.com/s/Goj0zPEuBrS81uMQbtWhKQ
+  - REGISTER | https://qnr.hkust-gz.edu.cn/vm/tQHHzUg.aspx

@@ -1,0 +1,40 @@
+dsa_page: Automated Graph Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/13/automated-graph-machine-learning/
+source: DSA
+
+headings:
+  - Automated Graph Machine Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Automated Graph Machine Learning
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Graph neural networks (GNNs) have emerged as the dominant approach for graph machine learning. However, most GNNs are manually designed, requiring extensive human effort and lacking adaptivity. Over the past few years, there has been a significant surge of interest in automated graph machine learning, which aims to combine the power of AutoML and GNNs. This field has demonstrated impressive capabilities in enhancing the adaptability and generalizability of graph machine learning techniques. In this presentation, I will provide a concise overview of automated graph machine learning. Additionally, I will delve into the details of our recent research endeavors in graph neural architecture search, which currently stands as the most influential and promising area within automated graph machine learning. Specifically, I will discuss various aspects of graph neural architecture search, such as modeling diverse graph structures, scalability to large graphs, generalization under distribution shifts, and robustness to adversarial attacks. Moreover, I will introduce AutoGL, the first open-source library developed exclusively for automated graph machine learning.
+  SPEAKER BIO
+  Ziwei ZHANG
+  Postdoctoral Researcher
+  Tsinghua University
+  Dr Ziwei Zhang received his Ph.D. in 2021 from the Department of Computer Science and Technology at Tsinghua University. Currently, he is a postdoctoral researcher in the same department. His research primarily focuses on machine learning on graphs, including graph neural networks (GNNs), network embedding, and automated graph machine learning. He has published over 40 papers in esteemed conferences and journals, including KDD, ICML, NeurIPS, AAAI, IJCAI, and TKDE. Notably, he has been honored with the China National Postdoctoral Program for Innovative Talents, CAAI Outstanding Doctoral Dissertation Honorable Mention, and AI 2000 Most Influential Scholar Award Honorable Mention.
+  Date
+  15 November 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  830 3215 6907
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

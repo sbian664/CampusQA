@@ -1,0 +1,34 @@
+dsa_page: Towards Persistent Growth: A Survey on Self-Evolving Agents from a Lifelong Learning Perspective – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/05/towards-persistent-growth-a-survey-on-self-evolving-agents-from-a-lifelong-learning-perspective/
+source: DSA
+
+headings:
+  - Towards Persistent Growth: A Survey on Self-Evolving Agents from a Lifelong Learning Perspective
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Towards Persistent Growth: A Survey on Self-Evolving Agents from a Lifelong Learning Perspective
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms.YU, Yongzi
+  Abstract
+  Large language model (LLM) agents can plan, use tools, maintain memory, and interact with external environments. As agent systems become increasingly autonomous, recent surveys have begun to examine the emerging topic of self-evolving agents. However, the scope of self-evolution remains broad and is often conflated with self-improvement. An agent may improve its performance through reflection, search, or retry within a single task, without acquiring capabilities that persist beyond the current episode. This PQE survey studies self-evolving agents from a lifelong learning perspective. It defines self-evolution as the process through which interaction-derived experience produces persistent, reusable, and behaviorally consequential capability changes across episodes. Based on this definition, the survey introduces a persistent growth loop that connects interaction, feedback-guided updates, validation, and persistent integration. It also organizes existing methods into four functional pathways: Consolidative, Feedback-Adaptive, Expansive, and Reconfigurative Self-Evolution. The survey further discusses how self-evolving agents should be evaluated beyond static task performance. Longitudinal evaluation is needed to measure sustained adaptation, retention, transfer, robustness, and safety over time. Finally, the survey identifies open challenges in long-horizon feedback, stability and plasticity, cross-component interference, scalable evaluation, and industrial deployment.
+  PQE Committee
+  Chair: Prof. LUO, Qiong
+  Prime Supervisor: Prof. LIANG, Yuxuan (online)
+  Co-Supervisor: Prof. TSUNG, Fu-Gee (online)
+  Examiner: Prof. DING, Ningning
+  Date
+  17 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  W1-202, HKUST(GZ)

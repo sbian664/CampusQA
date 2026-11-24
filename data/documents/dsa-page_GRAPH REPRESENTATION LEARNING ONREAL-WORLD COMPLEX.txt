@@ -1,0 +1,34 @@
+dsa_page: GRAPH REPRESENTATION LEARNING ONREAL-WORLD COMPLEX NETWORKS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/15/graph-representation-learning-onreal-world-complex-networks/
+source: DSA
+
+headings:
+  - GRAPH REPRESENTATION LEARNING ONREAL-WORLD COMPLEX NETWORKS
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  GRAPH REPRESENTATION LEARNING ONREAL-WORLD COMPLEX NETWORKS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr SONG Yifan
+  Abstract
+  Graph Representation Learning (GRL) has become a fundamental approach for analyzing complex networks. However, a significant gap exists between the capabilities of traditional GRL models and the multifaceted challenges presented by real-world networks. This thesis proposal identifies three critical challenges in dealing with real-world complex graphs: scale and dynamics, data incompleteness, and graphs with negative feedback. To address these challenges, we propose a novel and effective solution for each. First, to tackle the challenge of scale and dynamics, we introduce LTGE (Large-scale Temporal Graph Embedding). This method employs a novel temporal similarity matrix factorization technique to efficiently capture temporal dynamics at an unprecedented scale, successfully generating embeddings for graphs with over a billion edges. Additionally, we develop LTGEInc, an incremental update algorithm with provable error bounds, which enables rapid adaptation to evolving graph structures. Second, to address data incompleteness, a pervasive issue that severely degrades Graph Neural Network (GNN) performance, we propose DDFI (Diverse and Distribution-aware Missing Feature Imputation). DDFI uniquely combines feature propagation with a Graph Masked Autoencoder and introduces a two-step inference process to mitigate feature distribution shifts in inductive learning settings. Its effectiveness is validated on multiple public datasets, as well as on a newly collected real-world benchmark dataset with naturally missing features, referred to as Sailing. Finally, to model graphs with negative feedback, we develop SPGNN (Signed Proximity-based Graph Neural Network) for signed graph recommendation. SPGNN introduces novel Signed Local and Global Proximity metrics alongside a Spectral Feature Initialization strategy, replacing standard GNN convolutions to better capture the nuanced structural information of signed graphs. This approach achieves state-of-the-art performance on multiple benchmark datasets. In summary, building upon the current preliminary results and findings, we expect to create a cohesive toolkit that advances GRL towards scalable, robust, and semantically faithful modeling of real-world complex networks, supported by principled theory and reproducible benchmarks.
+  TPE Committee
+  Chair of Committee: Prof. FAN, Mingming
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. YANG, Jinglei
+  Examiner: Prof. DING, Ningning
+  Date
+  29 August 2025
+  Time
+  10:30:00 -
+  11:30:00
+  Location
+  E3-201 (HKUST-GZ)

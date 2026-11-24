@@ -1,0 +1,13 @@
+dsa_page: Zishuo Ding – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/12/zishuo-ding/
+source: DSA
+
+headings:
+
+text: >
+  Author
+  Zishuo Ding
+  Day: April 12, 2024
+  Browse: 710
+  Share to
+  Zishuo Ding is currently a postdoctoral researcher at the University of Waterloo. His research focuses on leveraging intelligent approaches (e.g., ML/DL/LLMs) to enhance various software engineering tasks. His research interests include optimizing natural language processing techniques for software engineering applications, which will be the focus of this talk, as well as software performance engineering for large-scale systems. Zishuo's work has been published in prestigious software engineering venues such as ICSE, ESEC/FSE, ASE, EMSE, and TOSEM. He received the ACM SIGSOFT Distinguished Paper Award at ICSE 2020. Zishuo obtained his Ph.D. from the University of Waterloo under the guidance of Weiyi Shang. More information about Zishuo's work can be found at https://ece.uwaterloo.ca/~z8ding/.

@@ -1,0 +1,38 @@
+dsa_page: The Unseen, The Unsaid: Power, Discourse, and Policy in China’s Digital Care Dilemma — Perspectives from Dementia Care on Social Media – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/15/the-unseen-the-unsaid-power-discourse-and-policy-in-chinas-digital-care-dilemma-perspectives-from-dementia-care-on-social-media/
+source: DSA
+
+headings:
+  - The Unseen, The Unsaid: Power, Discourse, and Policy in China’s Digital Care Dilemma — Perspectives from Dementia Care on Social Media
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  The Unseen, The Unsaid: Power, Discourse, and Policy in China’s Digital Care Dilemma — Perspectives from Dementia Care on Social Media
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. LUO, Yaqiong
+  Abstract
+  The dementia care crisis in China is extensively narrated on social media. Existing literature has described caregiving predicaments and proposed policy recommendations. These efforts have advanced the field, yet they share an unexamined assumption: that caregiving discourse on social media neutrally reflects reality. This paper fundamentally rejects that assumption.
+  A critical review of the literature at the intersection of Foucauldian discourse analysis, computational methods, and policy studies reveals a structured pattern of visibility and exclusion. Caregiving narratives on Chinese social media follow specific discursive formation rules—rules that systematically determine which experiences can be spoken, by whom, and under what conditions. As a result, caregiver exhaustion becomes highly visible, while other experiences—the end-of-life experiences of dementia patients, hidden violence in caregiving, the abandoned self—are structurally excluded from public discussion.
+  Drawing on Foucault, this paper maintains that such exclusion is not mere silence or omission. Silence is a necessary product of discursive formation. What remains unsaid is not due to a lack of willingness or ability to speak, but because the dominant discourse—organized around keywords such as "family responsibility," "medical progress," and "suggestions for improvement"—provides no available speaking positions, genres, or legitimacy for these experiences. The literature has largely failed to treat this discursive machinery as an object of empirical inquiry.
+  Methodologically, the review identifies a persistent gap. While Foucauldian analysis offers powerful critical tools, few studies have proposed generalizable frameworks for translating discursive boundaries into computable feature engineering. This gap is not merely technical. It limits the capacity of empirical research to render discursive power observable, measurable, and criticizable—to transform power analysis from a philosophical proposition into an empirical object.
+  The policy implications are uncomfortable. Current policy debates rest on a filtered empirical base. Policymakers make decisions based on caregiving experiences that are permitted to be spoken, without knowledge of which experiences have already been excluded from public discussion. This paper does not offer another policy checklist. Instead, it concludes that the existing policy literature has largely overlooked a more fundamental question: if the "reality" on which policy is based is itself a product of discursive power, in what sense do current policy responses constitute complicity rather than solution?
+  PQE Committee
+  Chair: Prof. TSUNG, Fugee(Onsite)
+  Prime Supervisor: Prof. WU, Kaishun(Onsite)
+  Co-Supervisor: Prof. XU, Kewei(Onsite)
+  Examiner: Prof. ZHU, Lei(Onsite)
+  Date
+  25 June 2026
+  Time
+  10:30:00 -
+  11:45:00
+  Location
+  E3-201, HKUST(GZ)

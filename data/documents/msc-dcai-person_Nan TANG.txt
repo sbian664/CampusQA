@@ -1,0 +1,7 @@
+msc_dcai_page: Nan TANG
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/
+supervisor_type: academic
+role: Associate Professor
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+responsibilities: Thrust of Data Science and Analytics

@@ -1,0 +1,36 @@
+dsa_page: Small Defect Inspection for Product Quality Control – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/small-defect-inspection-for-product-quality-control/
+source: DSA
+
+headings:
+  - Small Defect Inspection for Product Quality Control
+  - Abstract
+  - Project members
+  - Fugee TSUNG
+  - Yingcong CHEN
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Small Defect Inspection for Product Quality Control
+  Abstract
+  缺陷检查是智能制造中一项重要但具有挑战性的任务。近年，业界采用了不同的计算机视觉方法来进行缺陷的视觉检查。因为缺陷是小而不明显的物体，且由于缺陷数量和收集稳定性的限制，收集缺陷样本可能会很困难。我们的目标是设计一个统一的光学系统来收集高质量的工业图像，并提出统一的无监督学习检测产品上的各种小缺陷进行质量检验的方法。
+  项目验收视频
+  main structure of the detection network
+  Project members
+  Fugee TSUNG
+  Chair Professor
+  Yingcong CHEN
+  Assistant Professor
+  Project Period
+  2022/8/1-2023/7/31
+  Research Area
+  Industrial and Business Analytics, Data-driven AI & Machine Learning
+  Keywords
+  Anomaly Detection, Computer Vision, Quality Control, Unsupervised Learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yingcong/yingcongchen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yingcong/yingcongchen

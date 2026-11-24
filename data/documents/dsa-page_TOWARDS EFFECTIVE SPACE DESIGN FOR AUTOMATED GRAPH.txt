@@ -1,0 +1,47 @@
+dsa_page: TOWARDS EFFECTIVE SPACE DESIGN FOR AUTOMATED GRAPH NEURAL NETWORKS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/05/towards-effective-space-design-for-automated-graph-neural-networks/
+source: DSA
+
+headings:
+  - TOWARDS EFFECTIVE SPACE DESIGN FOR AUTOMATED GRAPH NEURAL NETWORKS
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  TOWARDS EFFECTIVE SPACE DESIGN FOR AUTOMATED GRAPH NEURAL NETWORKS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Zhili WANG
+  ABSTRACT
+  Please refer to the thesis.
+  TEC
+  Chairperson: Prof Xudong WANG
+  Prime Supervisor: Prof Can YANG
+  Co-Supervisor: Prof Wei WANG
+  Examiners:
+  Prof Lei CHEN
+  Prof Xiaofang ZHOU
+  Prof Wenjia WANG
+  Prof Haibo HU
+  Date
+  22 November 2024
+  Time
+  16:00:00 -
+  18:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 933 5753 4887
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/93357534887?pwd=o5qALTLHEkyZnQ0pgt9EUOrzOW01i5

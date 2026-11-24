@@ -1,0 +1,50 @@
+dsa_page: Enhancing Multivariate Time Series Analysis with Structure Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/07/25/enhancing-multivariate-time-series-analysis-with-structure-learning/
+source: DSA
+
+headings:
+  - Enhancing Multivariate Time Series Analysis with Structure Learning
+  - Abstract
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Enhancing Multivariate Time Series Analysis with Structure Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Weiqi ZHANG
+  Abstract
+  The application of multivariate time series analysis is extensive and ubiquitous, particularly in industrial scenarios where it characterizes the real-time operational status of systems. In the era of big data, advancements in data collection and storage technologies have significantly increased the volume and dimensions of multivariate time series data. While the rich information of data provides opportunities for system modeling, it also introduces new challenges. Specifically, existing methods often focus on modeling and extracting temporal patterns within individual samples, neglecting the complex patterns between samples and the intricate dependency relationships among multiple variables. This lack of comprehensive modeling for time series data results in incomplete insights.
+  To address these challenges, this thesis proposes two novel structure learning approaches: sample-wise structure learning and variable-wise structure learning. Through three specific studies, this thesis explores the feasibility and effectiveness of these structure learning based approaches in enhancing time series analysis tasks. The first study investigates the sample-wise structure learning framework, where prototypes are used to describe the semantic structure of hidden space. A robust and effective representation learning framework is achieved through the co-training based contrastive learning, guided by multi-view hidden space alignment. For variable-wise structure learning, the subsequent two studies utilize graph structures to represent dependencies among variables within multivariate time series. Specifically, node attributes denote time series signals, and edges describe multivariate relationships. By leveraging prior human knowledge to establish known variable-wise dependencies, the second study discusses the prevalent ”draft-then-refine” imputation paradigm and introduces a novel graph neural network structure for multivariate time series missing data imputation using the graph Dirichlet energy maintenance principle. Recognizing that prior knowledge is not always available, the third study investigates learning variable-wise dependencies in a data-driven manner. The learned graph structure is employed as a powerful tool to enhance real-time monitoring and anomaly detection in multivariate time series systems.
+  This thesis provides novel solutions to enhance multivariate time series analysis from the perspective of structure learning. The superiority of the proposed methods is demonstrated through extensive experiments on various real-world datasets.
+  TEC
+  Chairperson: Prof Ying CUI
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Jia LI
+  Examiners:
+  Prof Xiaobei SHEN
+  Prof Wei ZENG
+  Prof Jia LI
+  Prof Wenjia WANG
+  Date
+  30 July 2024
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E3-201
+  Join Link
+  Zoom Meeting ID:
+  896 0063 7276
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/89600637276?pwd=Jjg7kgmyxpnxQJtbjRIyJvRyaiXovu.1

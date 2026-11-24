@@ -1,0 +1,34 @@
+dsa_page: A Survey of Reasoning in Continuous Latent Spacefor Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/a-survey-of-reasoning-in-continuous-latent-spacefor-large-language-models/
+source: DSA
+
+headings:
+  - A Survey of Reasoning in Continuous Latent Spacefor Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Reasoning in Continuous Latent Spacefor Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr.HE Yanji
+  Abstract
+  Large Language Models (LLMs) have achieved remarkable success in natural language processing, yet their reasoning capabilities remain fundamentally constrained by the sequential and discrete nature of language generation. This survey presents a comprehensive analysis of latent reasoning methods that perform computation in continuous representation spaces, offering a promising alternative to traditional Chain-of-Thought (CoT) approaches. The survey systematically organizes existing work into two primary categories: discrete token strategies that employ symbolic markers to guide internal computation, and continuous token methodologies that leverage high-dimensional embeddings for implicit reasoning. Additionally, the survey examines internal mechanisms through structural approaches (exploiting architectural properties like depth and recurrence) and representational strategies (encoding reasoning directly in hidden states). Our analysis reveals that while latent reasoning methods demonstrate significant computational efficiency gains and access to non-linguistic forms of reasoning, they currently underperform explicit approaches on complex benchmarks. Critical challenges include limited generalization capabilities, interpretability deficits, and the lack of training paradigms specifically designed for non-linguistic reasoning. This survey unifies disparate research threads under a coherent theoretical framework, providing insights into the fundamental trade-offs between computational efficiency and reasoning capability, and charting future directions for developing reasoning systems that transcend the limitations of natural language.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. WANG Wei
+  Co-Supervisor: Prof. WEI Jiaheng
+  Examiner: Prof. DING Ningning
+  Date
+  10 June 2025
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-149 (HKUST-GZ)

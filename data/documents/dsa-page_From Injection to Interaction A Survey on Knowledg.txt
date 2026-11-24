@@ -1,0 +1,34 @@
+dsa_page: From Injection to Interaction: A Survey on Knowledge Graph-Augmented LLM Reasoning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/from-injection-to-interaction-a-survey-on-knowledge-graph-augmented-llm-reasoning/
+source: DSA
+
+headings:
+  - From Injection to Interaction: A Survey on Knowledge Graph-Augmented LLM Reasoning
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  From Injection to Interaction: A Survey on Knowledge Graph-Augmented LLM Reasoning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss ZHAO, Wenxin
+  Abstract
+  In recent years, Large Language Models (LLMs) have achieved remarkable success across a wide range of natural language understanding and generation tasks. Despite their impressive capabilities, LLMs often struggle with factual reliability and logical consistency, particularly in knowledge-intensive settings. This is largely due to their reliance on parametric memory, which cannot be easily updated or externally verified once training is complete. As a result, LLMs are prone to hallucinations and limited in their ability to reason over structured, domain-specific information. These challenges underscore the growing need to integrate LLMs with external symbolic resources, such as knowledge graphs (KGs), which offer explicit, structured representations of real-world facts. This survey provides a comprehensive overview of KG-enhanced LLM methods, highlighting recent progress, categorizing mainstream approaches, and identifying open research challenges. Through asystematic comparative analysis, it uncovers new insights and offers a fresh perspective on the integration of LLMs and knowledge graphs, laying the groundwork for future research into more reliable, interpretable, and knowledge-aware AI systems.
+  PQE Committee
+  Chair of Committee: Prof. TANG Nan
+  Prime Supervisor: Prof. CHEN Lei
+  Co-Supervisor: Prof. ZHANG Yongqi
+  Examiner: Prof. ZHANG Yanlin
+  Date
+  09 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-149 (HKUST-GZ)

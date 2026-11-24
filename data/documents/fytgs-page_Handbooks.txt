@@ -1,0 +1,1004 @@
+fytgs_page: Handbooks
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/handbooks
+source: FYTGS
+
+headings:
+  - Handbook for Research Postgraduate Studies HKUST(GZ) (2022-23) (Pilot)
+  - Preface
+  - HKUST Fok Ying Tung Graduate School December 2022
+  - University Governance
+  - Student Conduct and Academic Integrity
+  - The HKUST(GZ) Academic Honor Code
+  - Student Conduct
+  - Academic Integrity
+  - Policies and Regulations
+  - Policies and Practices Governing Research Activities
+  - Admissions
+  - Admission Requirements
+  - Admissions Process
+  - Applicants from Hong Kong, Macao and Taiwan regions of China
+  - International Applicants
+  - Deferred Admission
+  - Re-admission
+  - Fees
+  - Tuition Fees
+  - Late Charges and Other Penalties
+  - Compulsory Medical Insurance
+  - Scholarships
+  - Postgraduate Studentships
+  - Overseas Research Award
+  - Registration in Programs
+  - Maintaining Registration
+  - Double Registration
+  - Late Registration
+  - Mode of Study
+  - Normative Period of Study
+  - Residency Requirements
+  - Leave from Study
+  - Retention of Student Status
+  - Continuing Student Status
+  - Off-campus Study Status
+  - Off-campus Research Status
+  - Changes of Registration
+  - Registration Beyond Program Completion
+  - Withdrawal from the University
+  - Study Commitment
+  - Internship and Employment During Study
+  - Annual Leave
+  - Curriculum Requirements
+  - Medium of Instruction and Assessment
+  - Adherence to the Curriculum
+  - General Requirements of Research Postgraduate Programs
+  - Spoken English Test for New Research Postgraduate Students
+  - English Language Enhancement Courses
+  - Professional Development Courses
+  - RPgs as Graduate Teaching Assistants
+  - Thesis Research
+  - PhD Qualifying Examination
+  - Guide on Thesis Supervision
+  - Guidelines on Thesis Preparation
+  - Guidelines on MPhil Thesis Examination Committees
+  - Guidelines on PhD Thesis Examination Committees
+  - Guidelines for Scheduling, Preparing for and Executing MPhil Thesis Examinations
+  - Guidelines for Scheduling, Preparing for and Executing PhD Thesis Examinations
+  - Guidelines on Conducting MPhil and PhD Thesis Examinations
+  - Course Registration
+  - Course Selection and Registration
+  - Credit Requirements
+  - Study Load
+  - Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  - Course Auditing
+  - Course Add/Drop and Course Withdrawal
+  - Academic Accommodations or Adjustments for Students with Special Educational Needs
+  - Course Substitution and Credit Transfer
+  - Course Substitution
+  - Credit Transfer
+  - Transfer of Course Grades and Credits on Resumption of Studies
+  - Course Grading
+  - Grades for Postgraduate Courses
+  - Assignment of Course Grades
+  - Grade Announcement
+  - Illness or Other Circumstances Affecting Assessment
+  - Grade Review
+  - Course Repeats
+  - Grade Averages
+  - Progression and Academic Standing
+  - Academic Standing
+  - Academic Leave and Academic Dismissal
+  - Annual Progress Reports
+  - Graduation
+  - Graduation on Completion of Studies
+  - Graduation Grade Average (GGA)
+  - Graduation Approval
+  - Conferment of Awards
+  - Congregation
+  - Award Diploma
+  - Appeals and Grievance Channels
+  - Appeals
+  - Grievance Channels
+  - Glossary of Terms
+  - 1. Academic Terms
+  - 2. Academic Year
+  - 3. Academic Program
+  - 4. Academic Standing
+  - 5. Add/Drop Period
+  - 6. Award
+  - 7. Concentration
+  - 8. Course
+  - 9. Course Code
+  - 10. Course Offering Unit
+  - 11. Course Substitution
+  - 12. Course Vector and Credits
+  - 13. Credit Transfer
+  - 14. Cumulative Grade Average (CGA)
+  - 15. Dean or the Dean’s Designee
+  - 16. Degrees
+  - 17. Grade Points
+  - 18. Graduation Grade Average (GGA)
+  - 19. Hub/ College
+  - 20. Registration
+  - 21. Research Postgraduate Programs
+  - 22. Study Load
+  - 23. Taught Postgraduate Programs
+  - 24. Term Grade Average (TGA)
+  - 25. Thrust/ Division
+  - 26. Transcript
+  - 27. University
+
+text: >
+  Handbook for Research Postgraduate Studies HKUST(GZ) (2022-23) (Pilot)
+  Preface
+  This Handbook has been prepared with the purpose of helping students understand their rights and responsibilities as research postgraduate (RPg) students at The Hong Kong University of Science and Technology (Guangzhou), and the policies related to various aspects of their studies. This Handbook should serve as a useful guide for RPg students throughout their course of study. Students are obliged to find out what they need to do or know about their program of study and the related University regulations.
+  This may also serve as a handy reference for faculty members and administrative staff who may need to advise students on procedural matters concerning postgraduate studies at the University.
+  The content of this Handbook may change from time to time to reflect the most updated information. Students should also refer to the Academic Regulations of the University for policies related to their study.
+  HKUST Fok Ying Tung Graduate School
+  December 2022
+  University Governance
+  The Hong Kong University of Science and Technology (Guangzhou) (HKUST (GZ)) is a Mainland-Hong Kong cooperatively run university that implements academic education and has an independent legal status. It is jointly organized by Guangzhou University (GZU) and The Hong Kong University of Science and Technology (HKUST), under the support from Guangzhou Municipal Government, with reference to the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools and the Implementation Measures of the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools , and other relevant laws, regulations and administrative rules, with the additional premise of not violating Chapter 1141 of the Hong Kong Laws on The Hong Kong University of Science and Technology Ordinance and its relevant laws, regulations, and within the scope of the parties. HKUST(GZ) implements the principal responsibility system under the leadership of the Governing Board.
+  Student Conduct and Academic Integrity
+  The HKUST(GZ) Academic Honor Code
+  Honesty and integrity are central to the academic work of HKUST(GZ). Students of the University must observe and uphold the highest standards of academic integrity and honesty in all the work they do throughout their program of study.
+  As members of the University community, students have the responsibility to help maintain the academic reputation of HKUST(GZ) in its academic endeavors.
+  Sanctions will be imposed on students if they are found to have violated the regulations governing academic integrity and honesty.
+  Student Conduct
+  The University expects good conduct from students. The University may take disciplinary action against a student who violates rules and regulations for good conduct, or the instructions of authorized persons and bodies responsible for ensuring good conduct, or where a student commits any misconduct.
+  Academic Integrity
+  The University’s approach to cases of academic misconduct is fundamentally educational. The process for dealing with these cases is designed to enable students to better understand the nature of academic misconduct and the high standards of academic integrity that are expected. The sanctions available in confirmed cases of misconduct are intended to signal the importance that the University places on maintaining these high standards and to communicate this to students.
+  Academic misconduct includes, but is not limited to:
+  Cheating: conduct designed to mislead those responsible for making a judgment on a student’s academic performance or standing, including:
+  Unauthorized conveyance or receipt of examination or test questions;
+  The giving, receiving or utilizing of unauthorized information or assistance in completing an assignment, test or examination;
+  Breaches of the regulations for examinations set out in the Annex;
+  Impersonating another student or allowing oneself to be impersonated by another student in participating in a test or examination;
+  Submission of academic work containing purported statements of fact or references to sources that have been fabricated;
+  Presenting for credit work that has already been accepted for credit in another course.
+  Plagiarism: the presentation of work which originates from other sources, including the work of other students, as the student’s own work, without appropriate attribution to the source.
+  Policies and Regulations
+  For details on University policies and regulations governing student conduct, academic integrity and research conduct, please refer to:
+  Regulations for Student Conduct and Academic Integrity
+  Procedural Framework Governing Violations of Academic Integrity
+  Policy on Research Conduct and Integrity
+  Policies and Practices Governing Research Activities
+  Admissions
+  Admission Requirements
+  To qualify for admission to the University, applicants must meet (i) the University admission requirements; (ii) the admission requirements of the program they are applying for; and (iii) the English language admission requirement.
+  University and program admission requirements are minimum requirements for admission. Meeting these minimum requirements does not guarantee admission. Applicants who possess other qualifications equivalent to the University requirements for admission may submit applications for consideration on the basis of individual merit.
+  Admissions Process
+  Applications for admission to postgraduate programs in Fall Term of the year are normally invited from September in the previous year. Interested persons are strongly advised to apply well before the application closing dates. Application deadlines for individual programs may vary and should be checked prior to submitting an application. In order to allow sufficient time to obtain a student visa/entry permit, applicants are encouraged to submit their applications as early as possible.
+  Selected applicants may be invited for an admission interview. Successful applicants will receive an offer of admission from the HKUST Fok Ying Tung Graduate School, and may be required to satisfy specified conditions. Applicants receiving an offer will be expected to accept or decline by a specified date.
+  Applicants from Hong Kong, Macao and Taiwan regions of China
+  The University welcomes applications from Hong Kong, Macao and Taiwan regions of China who are seeking admission at the postgraduate level.
+  Students are required to apply for HKUST(GZ) with valid Identity Card and Mainland Travel Permit. Admitted students shall enter China’s mainland with valid Mainland Travel Permit. This is applicable to both degree and non-degree seeking students.
+  International Applicants
+  The University welcomes applications from all over the world who are seeking admission at the postgraduate level.
+  (i) Student Visa
+  All international students are required to obtain a student visa for studying at HKUST(GZ). This is applicable to both degree and non-degree seeking students.
+  General procedures for applying for China Visa as a new student are available here.
+  (ii
+  ) Costs of Study
+  In addition to tuition fees, costs associated with staying in HKUST(GZ) mainly include accommodation, medical, visa and living expenses. International students should consider the financial aspects of their study before coming to HKUST(GZ).
+  (iii
+  ) Employment During Study
+  International students should note that, full-time MPhil and PhD students should not take up any employment outside their research studies. They may only apply to take up on-campus part-time work, summer work and study-related internship, subject to rules and conditions specified by the Government and the University. For details, please refer to the “Study Commitment” section of this Handbook.
+  Deferred Admission
+  Under special circumstances, students may apply in writing to the HKUST Fok Ying Tung Graduate School for deferred admission to a subsequent regular term. Requests will be considered on an individual basis by the relevant Hub/ College/ Thrust/ Division, who will notify the applicant of the outcome. All approvals for deferred admission are valid for not more than two consecutive regular terms, after which re-application for admission to the University must be made.
+  Re-admission
+  Students who have withdrawn from the University may apply for admission into any program of study by following the regular admissions procedure. However, those who are required to withdraw from the University due to academic reasons or failure to meet the prescribed conditions set for re-enrollment at the end of an academic leave may not apply for re-admission into the same program of study.
+  For re-admitted students, course grades and credits taken within five years prior to re-admission and not used to earn any academic qualification at the University or elsewhere may be used to fulfill requirements of the new program of study, subject to approval of the Thrust/ Division.
+  Fees
+  Tuition Fees
+  Students are required to settle the tuition fee in full by the prescribed deadline. Tuition fee paid is refundable.
+  Late Charges and Other Penalties
+  Students may be required to pay late charges or subject to other penalties for failure to complete certain University procedures by stipulated deadlines. These include fines for overdue library books, and other administrative charges. Late charges and penalties are imposed in accordance with the rules and regulations set by respective offices.
+  Compulsory Medical Insurance
+  The University policy stipulates that compulsory medical insurance is required for all registered international postgraduate students studying at HKUST(GZ) on student visa.
+  The compulsory medical insurance aims to provide better resources and safety net for international students in the event that they need prompt, appropriate and affordable medical services.
+  For more details about compulsory medical insurance, please consult Office of Student Affairs (OSA).
+  Scholarships
+  Postgraduate Studentships
+  Postgraduate Studentships (PGSs) are a form of financial support provided to full-time research postgraduate (RPg) students to ensure that they do not need to be concerned with looking for other sources of income to support themselves. Being full-time PhD/MPhil students, PGS recipients are required to act as Graduate Teaching Assistants (GTAs). GTA engagement is an integral part of the RPg training and not an employment. As such, PGS should not be mistaken as the remuneration for GTA duties. Given that students receiving PGSs do not enter an employer-employee relationship with the University, the PGS award is not taxable income.
+  PGSs given are based on academic merit, English language proficiency, and the suitability of the RPg students for the program of study.
+  The PGS rate is reviewed annually and may be adjusted.
+  For details, please refer to the Terms and Conditions of Postgraduate Studentships.
+  Overseas Research Award
+  The Overseas Research Award (ORA) for PhD Students aims to enrich students’ research experience by providing them with exposure to a foreign culture and environment, and widening their circle of professional contacts, so as to better prepare students for their future careers.
+  Details of the award are provided in the Terms and Conditions of the scheme. Applications should be submitted to student's home Thrust. Upon return, the award recipient will need to submit an activity report covering work done and professional activities participated in during the attachment period.
+  Interested students can approach their home Thrust for more details.
+  Registration in Programs
+  Maintaining Registration
+  Program registration involves payment of tuition and other prescribed fees, and completion of the registration process. Failure to maintain registration in the program in any regular term will result in automatic withdrawal from the program and the University, unless a formal approval of Leave from Study has been obtained from the student’s Thrust/ Division. Moreover, students must be officially registered in their programs in the regular term when they are being considered for graduation from the programs concerned.
+  Double Registration
+  Unless prior permission from the Academic Registry is obtained, students are not permitted to concurrently register for another program at this University or at another tertiary institution. If students are found to be registered elsewhere without seeking prior approval, they will normally be required to discontinue their studies at this University
+  Students who wish to apply for simultaneous registration should submit an
+  “Application for Double Registration”
+  to th
+  e
+  Academic Registry together with appropriate documentary evidence. Students will be notified of the result of the application in writing.
+  Late Registration
+  Postgraduate students admitted to the University in a particular academic year must complete registration in their programs by the end of the add/drop period in the Fall or Spring Term. Under special circumstances, students may apply in writing to the Academic Registry via the Thrust/ Division for late program registration for the term concerned.
+  Mode of Study
+  Most postgraduate programs are available in both full-time and part-time modes of study. The MPhil and PhD are research degrees, and students in some disciplines may be required to participate in research on a full-time basis.
+  Postgraduate students may apply to their Thrust/ Division, prior to the beginning of any regular term, for transfer from full-time to part-time status or from part-time to full-time status. When such a transfer is allowed, the remaining program requirements will be determined.
+  Full-time students in MPhil and PhD programs are expected to be in attendance on a year-round basis. For part-time students, attendance shall be as above except on a part-time basis as defined by the requirements of their programs of study.
+  Normative Period of Study
+  The normative period of study for completing a PhD degree in full-time mode is four years after the first degree with a reduction of one year if a relevant research postgraduate degree is earned prior to entering the PhD program. For an MPhil degree in full-time mode, the normative period of study is two years.
+  The maximum time allowed for program completion is five years for a master’s degree and eight years for a doctoral degree. Time limits for part-time study are the same as for full-time study. The time limits are in effect whether or not the student is in continuous registration. That is, period of approved Leave from Study, and suspension period are also counted toward the maximum time allowed for program completion.
+  Residency Requirements
+  Full-time research postgraduate students are required to be on campus full-time and consequently in such geographical proximity as to be able to participate fully in University activities associated with the program. Residency provides students with an opportunity to become immersed in the intellectual environment of the University. Also included in residency are periods during which students’ research requires off-campus field or non-HKUST(GZ) laboratory work. The residency requirement stipulates the minimum period of study that a research postgraduate student needs to be effectively enrolled in a program before the student can be considered for program completion.
+  The residency requirement for a full-time MPhil degree is two regular terms; and that for a full-time PhD degree is three regular terms if a relevant research master’s degree is earned prior to entering the PhD program, but four regular terms if only a first degree is earned prior to entering the PhD program.
+  A regular term of residency of a part-time student counts as a one-half regular term of residency. Students who have not completed their thesis work should continue registration on a full- or part-time basis, without interruption.
+  Leave from Study
+  Students are discouraged from interrupting their program of study. In exceptional circumstances with sufficient justification, students may apply for Leave from Study for one regular term, subject to approval of the Thrust/ Division. Applications for Leave from Study for two consecutive regular terms or more require the approval of the Dean or the Dean’s designee. Applications for Leave from Study for more than two consecutive regular terms will normally not be considered. Any exception to this rule requires provision of detailed justifications and relevant supporting documents (e.g. a study plan on resumption of study showing that the student can complete the program within the maximum period allowed) for the special approval of the Dean or the Dean’s designee.
+  The approved period of Leave from Study will be counted toward the time limit for completion of the program being pursued.
+  To apply for Leave from Study, students should submit an “Application for Leave from Study” together with the appropriate supporting documents to the Thrust/ Division for approval before the start of the proposed leave period.
+  Retention of Student Status
+  Research postgraduate students who submit their theses for examination at least four weeks before the commencement of the following regular term, and who are unable to sit for their thesis examinations before the start of the following regular term through no fault of their own, are allowed to retain their student status for a period not longer than four weeks into the following regular term.
+  Those students whose date of submission of thesis copies for examination falls short of the four-week period prior to the start of a regular term are not eligible to apply for retention of student status.
+  Students are required to submit an “Application for Retention of Student Status (for Research Postgraduates)” to the Academic Registry within two weeks after they have submitted their thesis copies to Thrusts/ Divisions for examination purpose.
+  During this four-week non-fee paying period, these students are still regarded as students of the University and are entitled to normal student services. However, they are not entitled to receive Postgraduate Studentships nor to University student accommodation.
+  The respective thesis examinations should be held within the first three weeks of the following regular term, leaving at least one week for the candidates to submit the final version of their theses. In the event that students are unable to submit their final theses before the end of the four-week period, they are required to register as regular students to maintain their student status. They have to complete program and course registration, and pay the tuition for the term concerned.
+  Continuing Student Status
+  Research postgraduate students who are studying beyond the normative period of study and in their final stage of thesis writing may apply to register as Continuing Student, and pay a reduced tuition fee equivalent to a quarter of the full-time tuition fee. Their previous mode of study, whether full-time or part-time before changing to Continuing Student status, will remain unchanged. The application “Application for Continuing Student Status of Research Postgraduate Students”, duly considered and endorsed by the thesis supervisor(s), and Thrust/ Division Head or PG Coordinator, has to reach the Academic Registry at least four weeks before the start of the term the Continuing Student status is to be effected.
+  Continuing Students, regardless of their mode of study, are not eligible to receive any forms of financial assistance, including but not limited to Postgraduate Studentship and Postgraduate Research Assistantship, regardless of the source of funding, and are not entitled to University student accommodation. There is no time limit for research postgraduates to register as Continuing Student. However, the maximum time allowed for program completion still holds. Once having registered for the Continuing Student status, students are not allowed to change back to regular student status.
+  Off-campus Study Status
+  Students under formal dual-degree programs may register on the “Off-campus Study” status at HKUST(GZ) during the terms when they are pursuing dual-degree study at the host institutions.
+  Students with the “Off-campus Study” status will remain officially registered in their programs. They are allowed to register for or audit course(s), and may be considered for graduation from the programs concerned. They are not required to pay tuition fee at HKUST(GZ), not entitled to University student accommodation, and not eligible to receive any forms of financial assistance, including but not limited to Postgraduate Studentship and Postgraduate Research Assistantship, regardless of the source of funding.
+  The off-campus study period should normally commence at the beginning of a term. For off-campus study commencing in the middle of a term, tuition fee paid for that term is not refundable or transferable. The period will be officially recorded on student’s academic transcript, and will count toward the residency requirements of research postgraduate programs, as well as the maximum time allowed for program completion.
+  Students who wish to apply for the “Off-campus Study” status should approach the home Hub/ College/ Thrust/ Division prior to the commencement of the term when the “Off-campus Study” status will take effect.
+  Off-campus Research Status
+  Research postgraduate students who are officially assigned by their thesis supervisors to conduct study-related research in other institutions are eligible for registering on the “Off-campus Research” status.
+  Students approved to hold the “Off-campus Research” status remain officially registered in their programs. They are required to pay tuition fee at HKUST(GZ), and are allowed to register for or audit course(s). They enjoy all the rights as other full-time RPg students studying on campus, including Postgraduate Studentship, group travel insurance, and student accommodation, where appropriate. They are governed by all HKUST(GZ) regulations and policies relevant and applicable to RPg students. They may be considered for graduation from the program concerned.
+  The off-campus research period will be officially recorded on student’s academic transcript, and will count toward the residency requirements of research postgraduate programs, as well as the maximum time allowed for program completion.
+  Students who wish to apply for the off-campus research status are required to submit an “
+  Application for Off-Campus Research Status”
+  to the Thrust/ Division for approval prior to the commencement of the off-campus research.
+  Changes of Registration
+  A student may change from one program of study to another with the permission of the Thrust/ Division to which the student wishes to transfer. If a transfer is approved, that Thrust/ Division will determine which credits from the student's former program apply to the new program. Normally, the transfer will not be effected until the following regular term. Students who wish to transfer to another program of study in the middle of a term should obtain the prior approval of the Thrust/ Division and the Dean or the Dean’s designee. Unless there are extenuating circumstances, requests for program transfers to be effected in the middle of a term are not supported.
+  For students who have transferred from one program of study to another, the maximum time for program completion will be counted from the first day of registration at the University.
+  To apply for program transfer, students are required to submit an “Application for Program Transfer/Change of Academic Load (for Postgraduate Students)” to the receiving Thrust/ Division for consideration.
+  Registration Beyond Program Completion
+  Students who have completed their program requirements are not allowed to continue their registration for the same program of study in subsequent regular terms.
+  Withdrawal from the University
+  Students who withdraw, or are required to withdraw, from the University must complete clearance procedures as specified by the Academic Registry.
+  To apply for withdrawal, students should complete and return the “Application for Withdrawal of Study” to the Academic Registry.
+  Study Commitment
+  Students admitted to a full-time program are expected to study full-time for their programs, and are cautioned that outside work commitments may impede their academic performance.
+  Full-time research postgraduate (RPg) students are provided with Postgraduate Studentships to ensure that they do not need to be concerned with looking for other sources of income to support themselves. Although study-related work or internship may be desirable experiences to have, they may not be critical to the studies being pursued. Full-time RPg students should devote full efforts to their studies.
+  Internship and Employment During Study
+  All full-time MPhil and PhD students should not take up any employment outside their research studies regardless of whether or not they are receiving Postgraduate Studentship (PGS) awards.
+  During the Fall and Spring Terms, full-time research postgraduate (RPg) students, are not allowed to engage in any full-time or part-time employment with the University or any other employer. The only exception is that full-time RPg students who are not receiving PGS, may apply for taking up no more than 8 hours per week, 40 hours per month of on-campus part-time work, subject to the prior approval of their thesis supervisors, the Thrust/ Division PG Coordinator, the Dean of the Hub/ College, and the HKUST Fok Ying Tung Graduate School (FYTGS).
+  During the Summer Term, with the prior approval of the thesis supervisor(s), the Thrust/ Division PG Coordinator, the Dean of the Hub/ College, and FYTGS, RPg students may engage in full-time research assistantship (RA) work within the University. In such cases, the PGS will be temporarily suspended during the period of employment as research assistants. Students who wish to take up an RA appointment should seek the prior approval of FYTGS via their Thrust/ Division before they commit themselves for Summer RA work.
+  Full-time RPg students wishing to engage in study-related internship are required to obtain prior approval. The thesis supervisor(s) and the Thrust/ Division PG Coordinator may approve internship of no more than 40 hours per week. For exceptional cases involving internship work of more than 40 hours per week, with strong justifications, case-by-case approval has to be obtained from the thesis supervisor(s), the Thrust/ Division PG Coordinator, Dean of the Hub/ College, and FYTGS.
+  For international students wishing to take up employment or internship, they are reminded to observe and adhere to the relevant government policies and corresponding conditions attached to their student visa.
+  Annual Leave
+  With the prior approval of the Thrust/ Division, full-time research postgraduate students may have up to 21 calendar days’ leave in an academic year (1 September to 31 August). This leave is inclusive of Saturdays, Sundays and public holidays that lie within the leave period. Those who arrive late will have their annual leave pro-rated.
+  Unused leave for one year cannot be carried forward to the next academic year. The decision on whether or not a leave request should be granted rests jointly with the thesis supervisor(s) of the student and the PG Coordinator.
+  Curriculum Requirements
+  Medium of Instruction and Assessment
+  Unless otherwise approved by the Senate for a specific course or program of study, English is the medium of instruction and assessment at the University. It is, therefore, crucial for research postgraduate students to possess an adequate level of English proficiency in order to (a) become more effective learners in their respective disciplines through the medium of English; (b) be able to disseminate their research effectively to an English-speaking audience and readership; and (c) enhance their educational and career prospects.
+  Adherence to the Curriculum
+  Each student enrolled in a specific program is subject to the requirements of the Thrust/ Division and the University. All postgraduate students must adhere to the curriculum of the year of entry throughout their program of study.
+  Students should ensure that they understand the curriculum requirements of their program and plan ahead to complete their program within the permitted duration of study. In case of deviations from Hub/ College/ Thrust/ Division/ program requirements, approval must be obtained from the Dean or the Dean’s designee. Deviations from University requirements must be approved by the HKUST Fok Ying Tung Graduate School.
+  Thrusts/ Divisions should, as far as possible, deliver the curriculum advertised unless due to special circumstances, changes to the original curriculum are necessary or advantageous.
+  Detailed curriculum requirements for students admitted in different academic years are published in the
+  Postgraduate Program Catalog
+  .
+  General Requirements of Research Postgraduate Programs
+  Spoken English Test for New Research Postgraduate Students
+  In order to ensure research postgraduate (RPg) students have the oral and aural skills for effective postgraduate studies and classroom teaching, before the start of their first term of study at HKUST(GZ), all new full-time RPg students are required to take a spoken English test, the English Language Proficiency Assessment (ELPA), administered by the Center for Language Education.
+  ELPA provides a useful assessment of the spoken English ability of those whose mother tongue or first language is not English, to determine if they can effectively perform Graduate Teaching Assistant (GTA) duties in English. The work of GTAs is an integral part of the training for all full-time RPg students. The duties assigned to GTAs may include direct class interaction with undergraduate (UG) students in the conduct of tutorials, assistance in laboratory sessions, and/or engagement in other UG class activities. It is important that RPg students who perform GTA duties have an adequate mastery of spoken English.
+  For more information concerning the design of ELPA, how to register a timeslot for the test, and how native English speakers can apply for exemption, please click
+  here
+  .
+  English Language Enhancement Courses
+  Students who failed to attain Level 4 in the ELPA Speaking Test or take the test in their first term of study at the University are required to take LANG 5000 Foundation in Listening and Speaking for Postgraduate Students until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. Students who obtained a score below Level 4 in the ELPA Speaking Test would not be allowed to serve as graduate teaching assistants until they have passed LANG 5000.
+  Thrusts/ Divisions may link the performance of LANG 5000 with the Postgraduate Studentship (PGS) rate. Students failing LANG 5000 may receive a 25% reduction in PGS.
+  In addition, some programs require their students to take and pass additional language courses as part of the program requirements.
+  Professional Development Courses
+  To enhance the educational experience of research postgraduate (RPg) students, the University has introduced a Professional Development Course (PDC) to provide them with a comprehensive set of essential transferable skills to enhance their personal growth and career development.
+  All RPg students (both full-time and part-time) are required to take two PDCs as part of their program requirements.
+  The University-level PDC, PDEV 6770 Professional Development for Research Postgraduate Students, is a course which is composed of a series of workshops and modules that must be attended before completion of RPg studies. Professional development training includes the themes of Professional Conduct, Communication Skills, Research Competency, Entrepreneurship, Self-Management, and Career Development.
+  To further prepare RPg students to excel in their future career, Hubs/ College have introduced discipline-specific PDCs to equip students with the knowledge and skills required for the development and advancement of their professional career inside and outside academia. In general, the course comprises at least 13 hours of activities in the form of workshops or seminars delivered by faculty members, guest speakers, or service units of the University.
+  RPgs as Graduate Teaching Assistants
+  The work of graduate teaching assistants (GTAs) is an integral part of the training for all full-time research postgraduate (RPg) students regardless whether they are recipients of Postgraduate Studentships or scholarships. It helps prepare them for teaching-related work they need to undertake.
+  To strengthen students’ competence in teaching, all full-time RPg students admitted in 2019/20 and thereafter are required to complete PDEV 6800 Introduction to Teaching and Learning in Higher Education, a course designed to equip students with basic teaching skills and provide them with practical opportunities to apply their knowledge and skills in teaching. The course comprises two parts. Students will complete a 10-hour training offered by the Office of Education Policy and Quality Assurance (EPQ) for Part 1, and perform instructional delivery to be assigned by the respective Thrusts/ Divisions for Part 2. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms.
+  RPg students may be assigned GTA duties during the course of study at the University. Such duties may include marking and grading of assignments, helping course instructors conduct tutorials and/or laboratory sessions, answering questions/queries from students, and/or helping prepare class materials among other tasks. These assignments are limited to 36 effective hours per month on average. “Effective hours” include both contact hours and preparation time. In the case of research-related duties, if the duties performed by an RPg are directly related to his/her own thesis research or project, the 36-hour limit should not apply.
+  For this kind of work, students need to have a thorough understanding of the subject area being dealt with. They are also exposed to varied situations where they can acquire and improve transferable skills which will be useful to them in the long term. The range of skills involved includes time management, communication skills, group discussion techniques, techniques for conducting materials or information searches, writing skill, critical thinking skills and organization skills.
+  Graduate Teaching Assistant Coordinators (TACs) are experienced GTAs chosen by Thrusts/ Divisions to work as a bridge between GTAs, the Thrust/ Division/ Hub/ College and the University; their job is to help co-ordinate GTA-related matters.
+  Newly-admitted international RPg students who are unfamiliar with the local environment will normally not be assigned any GTA duties during their first term of study at the University.
+  Thesis Research
+  Research postgraduate (RPg) programs focus on original research by the students. In addition to coursework requirements, RPg students will undertake thesis research under the direction of their thesis supervisors.
+  Please refer to the following guidelines on thesis research for details:
+  Guide on Thesis Supervision
+  Guidelines on Thesis Preparation
+  Guidelines on MPhil Thesis Examination Committees
+  Guidelines on PhD Thesis Examination Committees
+  Guidelines for Scheduling, Preparing for and Executing MPhil Thesis Examinations
+  Guidelines for Scheduling, Preparing for and Executing PhD Thesis Examinations
+  Guidelines on Conducting MPhil and PhD Thesis Examinations
+  PhD Qualifying Examination
+  Students enrolled in PhD programs are required to pass a qualifying examination within a stipulated period in order to obtain PhD candidacy. The qualifying examination may be conducted through the oral or written mode, or both. Those who fail the qualifying examination after two attempts are not allowed to continue with their doctoral studies. Individual programs may have stipulations concerning the timeframe that students should take the qualifying examination and when the qualifying examination should be retaken in the case of failure in the first attempt.
+  Guide on Thesis Supervision
+  A. Appointment of the Thesis Supervisor
+  Assignment. Each research postgraduate (RPg) student will be assigned two thesis supervisors from different disciplines, who will oversee the student’s research from the time the student embarks on his/her research.
+  Prime supervisor. The prime thesis supervisor must be a full-time permanent member of the HKUST(GZ) academic faculty.
+  Co-supervisor
+  A non-academic professional or an academic member carrying a title of, e.g., Visiting or Adjunct faculty, Research Assistant Professor, or Visiting Scholar, may help supervise the research work of an RPg student, but only as a co-supervisor.
+  Appointment of a non-academic professional as a co-supervisor requires approval from the HKUST Fok Ying Tung Graduate School (FYTGS).
+  Sabbatical leave. When a thesis supervisor goes on sabbatical leave, he/she will usually continue to supervise his/her students through various means.
+  Vacancy. In the case of a thesis supervisor leaving the University, another member on the Program Planning cum Thesis Supervision Committee should be appointed as a temporary thesis supervisor until a replacement thesis supervisor has been identified.
+  Change. If, after sincere effort, a good working relationship fails to develop and the student and/or the thesis supervisor believe that, for this reason, satisfactory study progress cannot be made, either party may approach the PG Coordinator for advice. The PG Coordinator should, in consultation with the Thrust/ Division Head/ Dean of the relevant Hub/ College, consider the matter carefully. If appropriate, the PG Coordinator may recommend a change of the thesis supervisor.
+  B. Program Planning cum Thesis Supervision Committee
+  Each student will have a Program Planning cum Thesis Supervision Committee (PPTSC) to determine the curriculum requirements and supervise the thesis research.
+  This Committee consists of at least four members which include both of the thesis supervisors and the committee chair. There must be at least one member from each of the four Hubs. To derive the maximum synergy, the committee may also include faculty member(s) from HKUST and/or external members, in addition to faculty members at HKUST(GZ).
+  For all students, the PPTSC should be formed within the first year of study as soon as practicable.
+  The formation of a PPTSC is initiated jointly by the thesis supervisors. The student may be consulted in the process. The proposed membership should be endorsed by the Dean of the respective Hub before seeking approval from the Dean of HKUST Fok Ying Tung Graduate School (FYTGS). Upon approval, the Dean of the respective Hub will appoint the committee members.
+  For both MPhil and PhD PPTSCs, at least one committee member must normally have had experience, at the University or elsewhere, as the designated supervisor of the thesis research work of at least two RPg students who have successfully completed their degrees.
+  For PhD PPTSCs, at least one member of the committee must normally have had experience, at the University or elsewhere, in the supervision of at least one PhD student who has successfully completed the degree.
+  Members on a PPTSC usually have research expertise relevant to the student’s area of research.
+  PPTSC or a sub-committee should meet regularly with the student to ensure that the student’s academic and research progress is satisfactory. Where applicable, the sub-committee consists of at least both of the thesis supervisors and a sub-committee chair. The student, the thesis supervisors and the PPTSC (or its sub-committee) are required to complete an annual progress report which serves to document the study progress of the student.
+  When a thesis supervisor goes on sabbatical leave, he/she will usually continue to supervise his/her students through various means. In the case of a thesis supervisor leaving the University, another member on the PPTSC should be appointed as a temporary thesis supervisor until a replacement thesis supervisor has been identified.
+  ​
+  C. Joint Supervision with Non-academic Institutions
+  The joint supervision of RPg students by academic institutions and the corporate sector is a universal trend with multiple, wide-ranging benefits that HKUST(GZ) seeks to foster. The principles, limitations and framework for joint supervision of RPg students by the corporate sector and the University are provided in the “
+  Guidelines on Joint Supervision of RPgs with Non-academic Institutions
+  ”.
+  D. Supervisor-Student Relationships
+  Responsibilities of Thesis Supervisors
+  To ensure high quality in both the student’s research and his/her learning experience, thesis supervisors should provide advice, guidance and support at every stage. Specifically, thesis supervisors are expected to:
+  Provide guidance about the nature of research, the standard expected, the planning of the research program, the review of literature, the selection of coursework, and appropriate training in research techniques;
+  Establish, at the beginning of the student’s research, a framework for supervision, including arrangements for regular meetings. The stages of progress the student is expected to have completed at various points should also be agreed on;
+  Meet with the student regularly following the agreed schedules and with a clear agenda, and be accessible to the student at other appropriate times when he/she may need advice;
+  Ensure that the student’s research:
+  Falls within his/her own area of expertise;
+  Can be completed with the resources available;
+  Can be completed within the prescribed period of study; and
+  Is suitable for the degree program the student aims to undertake.
+  If applicable, discuss any potential physical hazards involved in the research work and how these can best be dealt with, ensuring that safety procedures are followed;
+  Provide advice on the publication of research work, ensuring that attribution is discussed before publication;
+  Deal promptly with any research problems the student may encounter;
+  Adhere to the schedule for submission of the annual progress report;
+  Advise the student promptly of unsatisfactory progress with regard to any aspect of his/her study, and put this advice in writing if such unsatisfactory progress is considered likely to interfere with satisfactory completion of the research by the agreed deadline;
+  Guide the student in the preparation of the thesis and the thesis examination;
+  Identify prospective examiners for the student’s Thesis Examination Committee;
+  Treat the student professionally, ensuring proper credit for his/her work;
+  Be on the lookout for signs of behavioral changes, stress and depression, including absence from classes, laboratory sessions or appointments with no prior notification, reclusion, or erratic behavior in the student being supervised. The Thrust/ Division Head and PG Coordinator should be notified if any of the above behavior has been observed or reported. If necessary, the student should be referred to the Office of Student Affairs (OSA) for professional advice; and
+  Ensure that replacement supervision is available to the student during any significant period of absence.
+  Responsibilities of Students
+  RPg students are expected to:
+  Discuss with the thesis supervisor(s) and PPTSC the type and scope of guidance he/she needs, and agree on regular meeting times;
+  Take the initiative in raising problems or difficulties with the thesis supervisor(s), however elementary they may seem, before they become serious;
+  Attend supervisory meetings well prepared and with a clear agenda for the meeting;
+  Be accessible to the thesis supervisor(s) and/or PPTSC or during the course of study;
+  Make satisfactory academic and research progress following the advice of the thesis supervisor(s) and PPTSC;
+  Discuss with and obtain the approval of the thesis supervisor(s) regarding any changes in the direction of his/her research focus and its implications;
+  Provide a brief self-evaluation summary report to be attached to the annual progress report for submission through the thesis supervisor(s) as part of the annual review process;
+  Ensure that the thesis is completed and submitted within the period stipulated by the University for assessment;
+  Abide by the rules and regulations governing postgraduate studies of the University; and
+  Ensure that all work done by others used in the thesis is properly acknowledged.
+  Relationship between Thesis Supervisors and Students
+  Mutual respect and open communication are the foundation of a good relationship between the thesis supervisor(s) and the student. Both parties must strive to express respect and communicate clearly and honestly with each other.
+  To avoid unnecessary disruption, the student and the thesis supervisor(s) should inform the other party as soon as they are aware of a possible change in their status, e.g. a student plans to withdraw from the program of study, or a thesis supervisor may take sabbatical leave.
+  If, after sincere effort, a good working relationship has failed to develop and the student and/or the thesis supervisor(s) believe that, for this reason, satisfactory study progress cannot be made, either party may approach the PG Coordinator for advice. The PG Coordinator should, in consultation with the Thrust/ Division Head/ Dean of the relevant Hub/ College, consider the matter carefully. If appropriate, the PG Coordinator may recommend a change of the thesis supervisor.
+  Guidelines on Thesis Preparation
+  A. Introduction
+  The guidelines in this document seek to ensure that theses are presented in a form suitable for library cataloging, preserving and access by users. The thesis will take its place in the library as a product of original thinking, research, and writing; its form must be comparable to other published works.
+  These guidelines cover the general rules of format and appearance. For content requirements, students should consult their Program Planning cum Thesis Supervision Committee (PPTSC).
+  It is the student’s responsibility to follow the requirements presented here. Thesis copies that do not meet these requirements will not be accepted.
+  Because of changes in requirements over time, students should not use existing library or Thrust/ Division copies of theses as examples of current proper format.
+  B. Originality
+  An MPhil thesis shall
+  Consist of the student’s own account of his/her investigations;
+  Be either a record of original work or an ordered, critical and thorough exposition of existing knowledge,
+  Be an integrated whole, presenting a coherent argument;
+  Give a critical assessment of the relevant literature, describe the method of research and its findings, and discuss those findings; and
+  Include a full bibliography.
+  A PhD thesis shall
+  Consist of the student’s own account of his/her investigations
+  Make original, distinct contribution(s) to our knowledge of the subject and afford evidence or originality by the discovery of new facts and/or by the exercise of independent critical power;
+  Be an integrated whole with a coherent argument;
+  Give a critical assessment of the relevant literature, describe the method of research and its findings, and discuss those findings, particularly with regard to how these findings appear to the candidate to have advanced the study of the subject;
+  Include a full bibliography; and
+  Be of a standard to merit publication in whole, in part or in a revised form (for example, as a monograph or as a number of articles in learned journals).
+  C. Components
+  Order. A thesis should contain the following parts in the order shown:
+  Title page, containing in this order:
+  Thesis title
+  Full name of the candidate
+  Degree for which the thesis is submitted
+  Name of the University
+  Month and year of submission
+  Authorization page
+  Signature page
+  Acknowledgments
+  Table of contents
+  Lists of figures and tables
+  Abstract
+  Thesis body
+  Bibliography
+  Appendices and other addenda, if any.
+  Authorization page. On this page, students authorize the University to lend or reproduce the thesis.
+  The copyright of the thesis as a literary work vests in its author (the student).
+  The authorization gives HKUST(GZ) Library a non-exclusive right to make it available for scholarly research.
+  Signature page. This page provides signatures of the thesis supervisor(s) and Thrust/ Division Head confirming that the thesis is satisfactory.
+  Acknowledgments
+  The student is required to declare, in this section, the extent to which assistance has been given by his/her faculty and staff, fellow students, external bodies or others in the collection of materials and data, the design and construction of apparatus, the performance of experiments, the analysis of data, and the preparation of the thesis (including editorial help). In addition, it is appropriate to recognize the supervision and advice given by the thesis supervisor(s) and members of PPTSC.
+  Abstract
+  Every copy of the thesis must have an English abstract, being a concise summary of the thesis, in 300 words or less.
+  Bibliography
+  The list of sources and references used should be presented in a standard format appropriate to the discipline; formatting should be consistent throughout.
+  Sample pages of both MPhil and PhD theses are provided here (
+  MPhil
+  /
+  PhD
+  ), with specific instructions for formatting page content (centering, spacing, etc.).
+  D. Language, Style and Format
+  Language
+  Theses should be written in English.
+  Pagination
+  All pages, starting with the Title page should be numbered.
+  All page numbers should be centered, at the bottom of each page.
+  Page numbers of materials preceding the body of the text should be in small Roman numerals.
+  Page numbers of the text, beginning with the first page of the first chapter and continuing through the bibliography, including any pages with tables, maps, figures, photographs, etc., and any subsequent appendices, should be in Arabic numerals.
+  Start a new page after each chapter or section but not after a sub-section.
+  Note: That means the Title page will be page i; the first page of the first chapter will be page 1.
+  Format
+  A conventional font, size 12-point, 10 to 12 characters per inch must be used.
+  One-and-a-half line spacing should be used throughout the thesis, except for abstracts, indented quotations or footnotes where single line spacing may be used.
+  All margins—top, bottom, sides—should be consistently 25mm (or no more than 30mm) in width. The same margin should be used throughout a thesis. Exceptionally, margins of a different size may be used when the nature of the thesis requires it.
+  Footnotes
+  Footnotes may be placed at the bottom of the page, at the end of each chapter or after the end of the thesis body.
+  Like references, footnotes should be presented in a standard format appropriate to the discipline.
+  Both the position and format of footnotes should be consistent throughout the thesis.
+  Appendices
+  The format of each appended item should be consistent with the nature of that item, whether text, diagram, figure, etc., and should follow the guidelines for that item as listed here.
+  Figures, Tables and Illustrations
+  Figures, tables, graphs, etc., should be positioned according to the scientific publication conventions of the discipline, e.g., interspersed in text or collected at the end of chapters. Charts, graphs, maps, and tables that are larger than a standard page should be provided as appendices.
+  Photographs/Images
+  High contrast photos should be used because they reproduce well. Photographs with a glossy finish and those with dark backgrounds should be avoided.
+  Images should be dense enough to provide 300 ppi for printing and 72 dpi for viewing.
+  Additional Materials
+  Raw files, datasets, media files, and high resolution photographs/images of any format can be included.
+  Note: Students should get approval from their Thrust/ Division Head before deviating from any of the above requirements concerning paper size, font, margins, etc.
+  E. Creating PDF files
+  Theses must be submitted in PDF format. Providing a properly generated PDF file ensures the manuscript can be read using different platforms (Windows, Mac, etc.), that it displays as intended, and that it can be readily indexed.
+  Before submitting the PDF file, please ensure the following using the HKUST(GZ) E-thesis PDF Preflight application:
+  All fonts should be embedded.
+  Image resolution should be dense enough to provide 300 ppi for printing and 72 dpi for viewing.
+  The final thesis should be submitted as a single PDF file.
+  PDF files should NOT be encrypted, as text cannot be extracted from encrypted PDFs for full text indexing or storage. Encrypted PDF files will NOT be accepted.
+  F. Thesis Submission Protocol
+  The final thesis must be free from typographical, grammatical and other errors when submitted to the Thesis Submission System. In particular, the thesis supervisor(s) and the Thrust/ Division Head should not sign off on the final thesis that is not, to the best of their knowledge, free of errors.
+  For examination purpose, sufficient hard or electronic thesis copies are to be submitted to the Thrust/ Division at least four weeks before the thesis examination. The number of copies required will depend on the number of examiners.
+  Students should submit the draft thesis to the iThenticate platform for originality check. The draft thesis together with the iThenticate report should be submitted to the Thrust/ Division no less than four weeks before the thesis examination.
+  On successful completion of the thesis examination, and after any required corrections, students must submit a copy of the final thesis (either hard/electronic) to their Thrust/ Division, which will arrange for the appropriate signatures of approval to be obtained.
+  For final theses which have been graded “Passed subject to minor corrections” or “Passed subject to major corrections”, students are required to submit the thesis for originality check via iThenticate. The iThenticate report should be handed in to the thesis supervisor(s), and the Thesis Examination Committee if applicable, for review and endorsement via their Thrust/ Division.
+  The Thrust/ Division will then return the signed Signature Page to the candidate.
+  The candidate will upload and submit the Signature Page and the Authorization Page as a PDF file and the final thesis as another PDF file to the University’s Thesis Submission System. The candidate does not need to replace the two unsigned pages in the thesis PDF with the scanned signature pages. The final thesis will be forwarded to the thesis supervisor(s) for approval via the Thesis Submission System.
+  G. Copyright
+  According to the University’s Intellectual Property Policy, students shall own the copyright in respect of their written coursework, theses, papers and publications themselves as a whole as literary works.
+  H. Thesis Binding
+  Students may wish to keep personal copies of their thesis. They may arrange for such copies on their own and at their own expense. In any case, the binding of the thesis must correspond with the University regulations.
+  Guidelines on MPhil Thesis Examination Committees
+  A. Appointment
+  Upon the recommendation of the Program Planning cum Thesis Supervision Committee of the candidate being examined, the Thrust/ Division Head shall appoint an MPhil Thesis Examination Committee (TEC) to examine the candidate who has expressed the intention of defending the thesis.
+  B. Composition
+  An MPhil TEC shall consist of at least three faculty members, including:
+  A Chairperson;
+  The thesis supervisor(s); and
+  One other faculty member.
+  All members of the MPhil TEC are voting examiners and must be present throughout the examination.
+  If the composition of the proposed membership of an MPhil TEC varies from the above requirements, approval of the HKUST Fok Ying Tung Graduate School (FYTGS) must be sought, via the Hub/ College, in advance. In case an external examiner is approved for appointment, the external examiner can attend the examination either in person or remotely via online platforms such as Zoom.
+  C. Duties
+  Chairperson
+  During the examination. The Chairperson must ensure that:
+  The examination is conducted in accordance with the regulations and requirements of the University, and in a fair and unprejudiced manner.
+  The questions addressed to the candidate are fair and clearly expressed.
+  The examiners are all given sufficient opportunity to ask questions, and the candidate is given sufficient opportunity to respond to the questions.
+  There is sufficient opportunity for questions from the floor to be addressed to the candidate.
+  The recommendations of individual examiners are carefully considered, such that an overall recommendation may be arrived at in a fair and unprejudiced manner.
+  The final recommendation of the TEC reflects the majority view of the examiners.
+  The final recommendation of the TEC conforms to the regulations of the University that govern thesis examinations.
+  Authority to cancel. The Chairperson may cancel a scheduled thesis examination if on the day of the thesis examination,
+  There is no sign of the candidate 15 minutes after the scheduled time of commencement of the thesis examination; or
+  There is no show of an examiner 15 minutes after the scheduled time of commencement of the thesis examination.
+  Reports
+  Report on Thesis Examination Result. Toward the end of the thesis examination, the Chairperson is required to (i) collect Part 2 of the “Report on Thesis Examination Result for Research Postgraduate Degrees” from all the examiners; (ii) complete Part 3 and Part 4.1 of the report, with the assistance of the examiners; and forward the complete set of documents to the Thrust/ Division Head or to the thesis supervisor(s), as appropriate. For details, please refer to Section C of “Guidelines on Conducting MPhil and PhD Thesis Examinations”.
+  Chairperson’s Report on Thesis Examination. The Chairperson is also required to submit an online “Chairperson’s Report on Thesis Examination” to FYTGS within one week from the date of the thesis examination, reporting any irregularities observed during the conduct of the thesis examination.
+  Examiners
+  Before and during the examination.
+  Examiners must thoroughly read the thesis prior to the examination, and must critically assess the quality of the research, the originality of the thesis and its impact on the field of study. Examiners shall review the iThenticate report, and consider whether the submitted thesis achieves an acceptable Similarity Index (SI) and recommend for amendments to the thesis as needed.
+  Examiners should prepare questions and discussion materials, to be asked of the candidate during the thesis examination.
+  As a result of reading the thesis and assessing the performance of the candidate in the examination, the examiners must be satisfied that:
+  The candidate has clearly demonstrated the ability and skills to conduct an intellectual study, and to arrive independently at a successful conclusion.
+  The thesis represents either the candidate’s own original contribution to the discipline or a well-organized and critical exposition of existing knowledge.
+  The candidate, both verbally and in writing, is able to present his/her thesis clearly, systematically, and coherently.
+  The candidate has convincingly and lucidly defended his/her thesis.
+  To arrive at a final assessment of the quality of the thesis and the performance of the candidate, the examiners, in open consultation with the Chairperson, must jointly arrive at a recommendation which reflects the majority view. The examiners then adopt the majority decision.
+  Reports
+  Each examiner must submit Part 2 of the “Report on Thesis Examination Result for Research Postgraduate Degrees” to the Chairperson at the end of the thesis examination.
+  The examiners should assist the Chairperson to prepare the “Report on Thesis Examination Result for Research Postgraduate Degrees” recommending the outcome of their assessment of the thesis examination.
+  Guidelines on PhD Thesis Examination Committees
+  A. Appointment
+  Upon the recommendations of the Thrust and the Hub, the HKUST Fok Ying Tung Graduate School (FYTGS) shall appoint a PhD Thesis Examination Committee (TEC) to examine the candidate who has expressed the intention of defending his/her thesis.
+  B. Composition
+  A PhD TEC shall consist of:
+  A Chairperson from outside the student’s major Thrust;
+  The thesis supervisor(s);
+  Two faculty members, in addition to the thesis supervisor(s), from the student’s major Thrust;
+  One faculty member, other than the thesis supervisor(s), from outside the student's Thrust, including faculty members from both HKUST(GZ) and HKUST with joint appointment/affiliated titles, who do not have joint appointments and/or affiliated titles in the student’s Thrust; and
+  One examiner external to the University who has expertise in the field being examined and holds the rank of Associate Professor or above. Any deviations from the requirements above such as an external examiner from the industry should be reviewed by the PG Committee and approved by the Thrust Head.
+  The Chairperson from outside the student’s Thrust is selected by the Hub from a pool of faculty holding the rank of Associate Professor or above. He/she should have had experience in the conduct of PhD thesis examinations.
+  The external examiner should normally be professionally detached from the thesis supervisor(s), the student and the University.
+  A person who has engaged in close research collaboration with the thesis supervisor(s) or the student within five years prior to the thesis examination, including advisor/advisee relationship in research studies, and joint work in research projects or co-authored publications, should not serve as an external examiner.
+  A person who has been on the teaching staff of HKUST(GZ), even in a visiting or adjunct faculty capacity, within the past three years, or who will join the University service before the assessment is completed, is not eligible for appointment as an external examiner.
+  HKUST faculty members with joint appointment/affiliated titles in HKUST(GZ) cannot serve as external examiner.
+  Other than the thesis supervisor(s), at least two other examiners (including the external examiner) must hold the rank of Associate Professor or above. If a thesis supervisor holds the rank of Professor, at least one other examiner must hold the rank of Professor and be present at the thesis examination, and one other examiner must hold the rank of Associate Professor or above.
+  If the composition of the proposed membership of a PhD TEC varies from the above requirements, approval of FYTGS must be sought in advance.
+  C. Duties
+  Voting. There are at least six voting examiners on a PhD TEC, four internal and one external to the University. The Chairperson presides over the examination, but is not one of the voting members.
+  Attendance. The Chairperson and all examiners must be present throughout the thesis examination. The external examiner can attend the examination either in person or remotely via online platforms such as Zoom.
+  Chairperson
+  The Chairperson is expected to have skimmed through the thesis to have a rough understanding of the structure and organization of the thesis.
+  During the examination, the Chairperson shall ensure that:
+  The examination is conducted in accordance with the regulations and requirements of the University, and in a fair and unprejudiced manner.
+  The questions addressed to the candidate are fair and clearly expressed.
+  3.2.3. The examiners are all given sufficient opportunity to ask questions and the candidate is given sufficient opportunity to respond to the questions.
+  There is sufficient opportunity of questions from the floor addressed to the candidate.
+  The recommendations of individual examiners are carefully considered, such that an overall recommendation may be arrived at in a fair and unprejudiced manner.
+  The final recommendation of the TEC reflects the majority view of the examiners.
+  The final recommendation of the TEC conforms to the regulations of the University that govern thesis examinations.
+  Authority to cancel. The Chairperson may cancel a scheduled thesis examination if, on the day of the thesis examination,
+  There is no sign of the candidate 15 minutes after the scheduled time of commencement of the thesis examination; or
+  There is no show of an examiner 15 minutes after the scheduled time of commencement of the thesis examination.
+  Reports
+  Report on Thesis Examination Result. Toward the end of the thesis examination, the Chairperson is required to (i) collect Part 2 of the “Report on Thesis Examination Result for Research Postgraduate Degrees” from all the examiners, and (ii) complete Part 3 and Part 4.1 of the report, with the assistance of the examiners. The complete set of documents should be forwarded to the Thrust Head or the thesis supervisor(s) as appropriate. For details, please refer to Section C of “Guidelines on Conducting MPhil and PhD Thesis Examinations".
+  Chairperson’s Report on Thesis Examination. The Chairperson is also required to submit an online “Chairperson’s Report on Thesis Examination” to FYTGS within one week from the date of the thesis examination, reporting any irregularities observed during the conduct of the thesis examination.
+  Examiners
+  Before and during the examination
+  Examiners must thoroughly read the thesis prior to the examination, and must critically assess the quality of the research, the originality of the thesis and its impact on the field of study. Examiners shall review the iThenticate report, consider whether the submitted thesis achieves an acceptable Similarity Index (SI) and recommend for amendments to the thesis as needed.
+  Examiners should prepare questions and discussion materials, to be asked of the candidate in the thesis examination.
+  As a result of the reading of the thesis and the performance of the candidate in the examination, the examiners must be satisfied that:
+  The candidate has clearly demonstrated the ability and skills to conduct a major intellectual study, and arrive independently at a successful conclusion.
+  The thesis represents the candidate’s own significant and original contribution to the discipline that is publishable in major international journals.
+  The candidate, both verbally and in writing, is able to present the thesis clearly, systematically, and coherently.
+  The candidate has convincingly and lucidly defended the thesis.
+  To arrive at a final assessment of the quality of the thesis and the performance of the candidate, the examiners, in open consultation with the Chairperson, must jointly arrive at a recommendation which reflects the majority view. The examiners then adopt the majority decision.
+  Reports
+  Both internal and external examiners must each submit Part 2 of the “Report on Thesis Examination Result for Research Postgraduate Degrees” to the Chairperson at the end of the thesis examination.
+  The examiners should assist the Chairperson to prepare the “Report on Thesis Examination Result for Research Postgraduate Degrees” recommending the outcome of their assessment of the thesis examination.
+  External Examiner
+  The external examiner has all the duties and responsibilities of the other local examiners.
+  Guidelines for Scheduling, Preparing for and Executing MPhil Thesis Examinations
+  A. Student Responsibilities
+  Scheduling. In consultation with the supervisor(s), the MPhil student must propose a date for the thesis examination before a Thesis Examination Committee (TEC). The date must meet the following requirements:
+  By the proposed examination date, the student will have completed all coursework requirements for the degree.
+  The online proforma indicating the proposed examination date as described below must be submitted at least six weeks in advance. Inadequate notice served for taking the thesis examination will result in postponement of the thesis examination.
+  The examination should not be scheduled on a Sunday or public holiday in order to encourage the participation of members of the University community.
+  Avoid scheduling a thesis examination toward the end of a term, in order to allow sufficient time for revisions and other post-examination arrangements to avoid unnecessary delay in graduation.
+  Form submission. The student must submit an online proforma via the Thesis Examination System of the Student Information System (SIS), accessible via
+  Student Intranet
+  (. These are the requirements:
+  The proforma must be submitted to supervisor(s) and Thrust/ Division for approval no less than six weeks before the proposed examination date.
+  HKUST Fok Ying Tung Graduate School (FYTGS) will review the information provided in the proforma to ensure that the arrangements of the thesis examination conform to the University guidelines. If deviations are identified, postponement or withdrawal of the thesis examination (regardless of whether the student has duly submitted the thesis or not) will be requested/required until the clearance of FYTGS has been sought.
+  Thesis Submission. Students are required to submit the thesis copies to the
+  iThenticate
+  platform for originality check. The
+  iThenticate
+  report together with sufficient hard or electronic thesis copies ready for examination purpose should be submitted to the Thrust/ Division no less than four weeks before the thesis examination. Students failing to deliver these copies before the submission deadline may be required to postpone the thesis examination.
+  B. Supervisor Responsibilities
+  Patent Protection. If the contents of the thesis involve commercially sensitive information, the thesis supervisor(s) is/are advised to approach the Center for Technology Transfer well in advance to discuss the possibility of obtaining patent protection before the Thrust/ Division announces the thesis examination to the public.
+  Originality Check. As students are required to submit the thesis copies to the
+  iThenticate
+  platform for originality check, supervisors should advise students on whether it is appropriate to exclude bibliography and works cited including students' own previously published papers from the checking.
+  C. Thrust/ Divi
+  s
+  ion Responsibilities
+  Thesis examination committee (TEC). The Thrust/ Division is responsible for identifying examiners to serve on the examination committee following the “Guidelines on MPhil Thesis Examination Committees”, for checking the availability of examiners, and making appointments with them. Liaison with examiners to make arrangements for the thesis examination should not be done by the candidate being examined.
+  TEC confirmation. Upon approval of the TEC membership, an email notification will be issued normally no less than four weeks before the examination date.
+  Receipt of thesis copies. The Thrust/ Division should confirm and record the actual date of receipt of the thesis copies in the Thesis Examination System.
+  Thesis distribution. The Thrust/ Division should immediately distribute the thesis copies and the
+  iThenticate
+  report to the following and record the actual dispatch date in the Thesis Examination System:
+  Chairperson and members of the MPhil TEC, such that members are given sufficient time to review the thesis.
+  A thesis copy will be made available at the Thrust/ Division for perusal by faculty, students, other University members, and members of the public.
+  Announcements
+  After receipt of the thesis copies has been entered in the Thesis Examination System, announcements will be automatically posted on the Thesis Defense Calendar. Other forms of posting, such as emails and/or posters, should also be made as appropriate.
+  At least one working day before the thesis examination is held, the Thrust/ Division is required to ensure that an email reminder is sent to members of the MPhil TEC, specifying the date, time and venue of the thesis examination.
+  D. Safety Assessment
+  Upon receiving the proforma via the Thesis Examination System, the Department of Health Safety and Environment (HSE) will conduct risk assessment. HSE will notify the student if a safety check is required.
+  E. Changes to Approved Proforma
+  After the proforma has been approved, any changes initiated by the Thrust/ Division, student’s supervisor(s), or student must be approved by FYTGS before the changes can be effected.
+  ​F. Further Enquiries
+  All enquiries regarding the arrangements for scheduling MPhil thesis examinations, should be submitted to the Thrust/ Division.
+  Guidelines for Scheduling, Preparing for and Executing PhD Thesis Examinations
+  A. Student Responsibilities
+  Scheduling. In consultation with the supervisor(s), the PhD student must propose a date for the thesis examination before a Thesis Examination Committee (TEC). The date must meet the following requirements:
+  By the proposed examination date, the student will have completed all coursework requirements for the degree.
+  The online proforma indicating the proposed examination date as described below must be submitted at least six weeks in advance. Inadequate notice served for taking the thesis examination will result in postponement of the thesis examination.
+  The examination should not be scheduled on a Sunday or public holiday in order to encourage the participation of members of the University community.
+  Avoid scheduling a thesis examination toward the end of a term, in order to allow sufficient time for revisions and other post-examination arrangements to avoid unnecessary delay in graduation.
+  Form submission. The student must submit an online proforma via the Thesis Examination System of the Student Information System (SIS), accessible via Student Intranet. The proforma must be submitted to supervisor(s) and Thrust for endorsement no less than six weeks before the proposed examination date.
+  Thesis submission. Students are required to submit the thesis copies to the iThenticate platform for originality check. The iThenticate report together with sufficient hard or electronic thesis copies ready for examination purpose should be submitted to the Thrust no less than four weeks before the thesis examination. Students failing to deliver these copies before the submission deadline may be required to postpone the thesis examination.
+  B. Supervisor Responsibilities
+  Patent protection. If the contents of the thesis involve commercially sensitive information, the thesis supervisor(s) is/are advised to approach the Center for Technology Transfer well in advance to discuss the possibility of obtaining patent protection before the Thrust announces the thesis examination to the public.
+  Originality Check. As students are required to submit the thesis copies to the
+  iThenticate
+  platform for originality check, supervisors should advise students on whether it is appropriate to exclude bibliography and works cited including the students' own previously published papers from the checking.
+  C. Thrust/Hub Responsibilities
+  Thesis examination committee (TEC). The Hub and Thrust is responsible for identifying examiners to serve on the examination committee following the “Guidelines on PhD Thesis Examination Committees”. The Thrust is also responsible for checking the availability of examiners, and making appointments with them. The proposed membership must be approved by the HKUST Fok Ying Tung Graduate School (FYTGS).
+  Liaison with examiners to make arrangements for the thesis examination should not be done by the candidate being examined.
+  Approval from FYTGS on the proposed membership of the TEC should be sought no less than four weeks before the proposed examination date.
+  If a Chairperson or examiner declines the appointment to serve on the TEC, the Hub/ Thrust is responsible for nominating a replacement Chairperson/examiner for the consideration of FYTGS as soon as possible. FYTGS may request the thesis examination to be postponed if the time allowed for the replacement Chairperson/examiner to review the student’s thesis prior to the thesis examination is considered insufficient.
+  Receipt of thesis copies. The Thrust should confirm and record the actual date of receipt of the thesis copies in the Thesis Examination System.
+  Thesis distribution. The Thrust should immediately distribute the thesis copies and the iThenticate report to the following and record the actual dispatch date in the Thesis Examination System:
+  Chairperson and members of the PhD TEC, such that members are given sufficient time to review the thesis.
+  A thesis copy will be made available at the Thrust for perusal by faculty, students, other University members, and members of the public.
+  Announcements. After receipt of the thesis copies has been entered in the Thesis Examination System, announcements will be automatically posted on the Thesis Defense Calendar. Other forms of posting, such as emails and/or posters, should also be made as appropriate.
+  TEC appointment. Upon approval of the TEC membership and students’ submission of the thesis copies for examination purpose, the Thrust will formally issue an appointment to the Chairperson and examiners of the TEC.
+  Email reminder. At least one working day before the thesis examination is held, the Thrust is required to send an email reminder to members of the PhD TEC and relevant parties of the Hub/ Thrust, specifying the TEC membership and details of the thesis examination.
+  D. FYTGS Responsibilities
+  After the Thrust Head and the Dean or the Dean’s designee have endorsed the proposed membership of the TEC, the proforma will be forwarded to FYTGS for approval.
+  TEC membership. FYTGS will check the proposed TEC membership to ensure that it complies with the “
+  Guidelines on PhD Thesis Examination Committees
+  ”.
+  If the proposed membership is in line with the guidelines, a confirmation email will be sent to the student, copying the thesis supervisor(s), the Thrust and the Hub, normally no less than four weeks before the examination date.
+  If deviations from the University guidelines are identified, postponement or withdrawal of the thesis examination (regardless of whether the student has duly submitted the thesis or not) will be requested/required until the clearance and approval of FYTGS has been sought.
+  E. Safety Assessment
+  Upon receiving the proforma via the Thesis Examination System, the Department of Health Safety and Environment (HSE) will conduct risk assessment. HSE will notify the student if a safety check is required.
+  F. Changes to Approved Proforma
+  After the proforma has been approved, any changes initiated by the Thrust, student’s supervisor(s), or student must be approved by FYTGS before the changes can be effected. ​
+  G. Further Enquiries
+  All enquiries regarding the arrangements for scheduling PhD thesis examinations, should be submitted to the Thrust.
+  Guidelines on Conducting MPhil and PhD Thesis Examinations
+  A. Introduction
+  The thesis examination is mandatory for those enrolled in research postgraduate programs. It is conducted by a Thesis Examination Committee (TEC).
+  An MPhil TEC normally consists of at least three faculty members. One is the thesis supervisor; if there are two thesis supervisors, they will both be on the committee, which will then comprise four members. Of the other two members, one is appointed as Chairperson. All three (or four) are voting members.
+  A PhD TEC normally consists of a Chairperson and at least five voting examiners. The examiners include the thesis supervisor(s), two faculty members from the candidate’s major Thrust/ Division, one faculty member from outside the Thrust/ Division, and one faculty external to the University who has expertise in the field being examined.
+  B. Protocol
+  A thesis examination takes place in a single session, comprising four parts. The first two parts are open to all members of the University and to Thrust/ Division’s guests. The third part is closed to all but the candidate and the TEC, and the fourth is a closed session of the TEC in the absence of the candidate.
+  The first part is an oral presentation by the candidate, emphasizing the major elements of the research and the results obtained. The candidate is expected to apportion no more than 60 minutes for the presentation.
+  The second part is an open questioning session, involving the TEC members, and others in attendance. During this part of the examination, all questions are addressed through the Chairperson, and any dialogue is limited to the candidate and the individual questioner.
+  The third part is a closed session involving a less formal discussion between the candidate and the TEC. Other than the candidate and the TEC, other persons are not ordinarily allowed to attend this part. However, in exceptional circumstances, with the prior agreement of the candidate, the thesis supervisor(s) and the TEC Chairperson, other persons may be allowed to attend as observers. It should be noted that observers are not permitted to participate in the examination or attempt to influence the examiners in their assessment of the thesis examination. At the end of this part of the examination, the candidate and any observers must leave the examination venue.
+  The fourth and final part is a closed session involving only the TEC, who then assess the quality of the thesis, and the performance of the candidate during the examination. In arriving at a decision, the votes of members of the TEC carry equal weight.
+  The TEC will convey the outcome of the thesis examination to the student immediately after the thesis examination. The outcome will be recorded in a proforma report, the “Report on Thesis Examination Results for Research Postgraduate Degrees”, as described below.
+  C. Reports
+  Report on Thesis Examination Results for Research Postgraduate Degrees
+  The examination result will be reported in a proforma entitled “Report on Thesis Examination Results for Research Postgraduate Degrees” and submitted by the TEC Chairperson.
+  This Report comprises several parts, to be completed by the examiners. Some parts need to be completed before the examination.
+  The TEC Chairperson shall collect Part 2 of the report from all the examiners and complete Part 3 and Part 4.1 of the report.
+  The report must include all comments that the TEC or the Chairperson wishes to make on the conducting of the examination, the quality of the thesis, the contribution of the thesis to the field of study, the performance and competency of the candidate in the thesis examination, and any other remarks relating to the thesis and the examination.
+  All TEC members must sign the report.
+  The TEC Chairperson shall return the completed form to Thrust/ Division for further follow up, as described below.
+  Chairperson’s Report on Thesis Examination
+  The Chairperson is also required to submit an online “Chairperson’s Report on Thesis Examination” to the HKUST Fok Ying Tung Graduate School (FYTGS) within one week from the date of the thesis examination, reporting any irregularities observed during the conduct of the thesis examination.
+  D. Outcomes
+  A thesis examination, whether MPhil or PhD, will have one of the following results:
+  Passed;
+  Passed subject to minor corrections;
+  Passed subject to major corrections;
+  Failed but may be resubmitted; or
+  Failed.
+  The protocols for handling each outcome are described below.
+  Passed
+  Procedure. The Chairperson will forward the completed “Report on Thesis Examination Results for Research Postgraduate Degrees”, together with the final thesis, to the head of the candidate’s Thrust/ Division. After signing the report, the Thrust/ Division Head will forward it to the Dean or the Dean’s designee for endorsement. Finally, the Thrust/ Division will forward it to the Academic Registry for action and record.
+  Thesis submission deadline. If a thesis has been graded “Passed”, the candidate must, within one week of the date of the thesis examination, submit an electronic copy of the final thesis, together with the electronic copy of the authorization page containing the student’s signature, and a signature page containing signatures of the thesis supervisor(s) and Thrust/ Division Head, to the University’s Thesis Submission System.
+  Passed subject to minor corrections
+  Procedure. In this case, the Chairperson should pass the entire set of documents to the thesis supervisor(s) who should keep the report until the candidate has submitted a revised thesis to his/her satisfaction before the deadline as described below. The full set of documents, with the final thesis, should then be forwarded to the Thrust/ Division Head and the Dean or the Dean’s designee for endorsement before passing to the Academic Registry for action and record.
+  Thesis submission deadline. In this case, the final thesis and the iThenticate report must be submitted within three months from the date of the thesis examination, or a date specified by the TEC, whichever is earlier. The iThenticate report should be handed in to the supervisor(s), via the Thrust/ Division for review and endorsement.
+  The thesis supervisor(s) will record whether the corrections are satisfactory in the “Report on Thesis Examination Results for Research Postgraduate Degrees”.
+  Upon approving the thesis, the supervisor(s) will forward the signed report, together with the final thesis, to the Thrust/ Division to obtain signatures of Thrust/ Division Head.
+  Candidates should allow sufficient time for the above approval processes.
+  Finally, the candidate must submit an electronic copy of the final thesis, with the electronic copy of the authorization page containing the student’s signature and the appropriate signatures of approval, to the University’s Thesis Submission System.
+  Passed subject to major corrections
+  Procedure. In this case, the Chairperson should pass the entire set of documents to the thesis supervisor(s) who should keep the report until the candidate has submitted a revised thesis approved by the TEC before the deadline as described below. The full set of documents, with the final thesis, should then be forwarded to the Thrust/ Division Head and the Dean or the Dean’s designee for endorsement before passing to the Academic Registry for action and record.
+  Thesis submission deadline. In this case, the final thesis and the iThenticate report must be submitted within 12 months from the date of the thesis examination, or a date specified by the TEC, whichever is earlier. The iThenticate report should be handed in to the TEC via the Thrust/ Division for review and endorsement.
+  The revised thesis requires the approval of the full TEC.
+  The TEC may recommend that a re-examination be held before a final assessment is arrived at. If a re-examination is required, the TEC membership should be the same as that for the first examination, unless otherwise recommended by the Thrust/ Division or FYTGS. In this case, the protocol is repeated, as for the first examination.
+  The TEC will need to indicate whether the major corrections are satisfactory by completing the “Report on Thesis Examination Results for Research Postgraduate Degrees”. If the members are satisfied with the revised thesis, the final thesis must be submitted, with the electronic copy of the authorization page containing the student’s signature and the appropriate signatures of approval, to the University’s Thesis Submission System.
+  Failed but may be resubmitted
+  In this case, the Chairperson should forward the duly completed “Report on Thesis Examination Results for Research Postgraduate Degrees” to the head of the candidate’s Thrust/ Division. After signing the report, the Thrust/ Division Head will forward it to the Dean or the Dean’s designee for endorsement.
+  Procedure. The result “Failed but may be re-submitted” requires that the entire examination process be repeated, including the re-establishment of a TEC.
+  The TEC membership may or may not be the same as that for the first examination.
+  Failure in the second attempt of thesis examination will result in the automatic withdrawal of the candidate from the program of study and termination of registration at the University.
+  Timeline. At least six months should pass before the second thesis examination. The protocol is repeated, as for the first examination.
+  Failed
+  In this case, the candidate is automatically withdrawn from the program of study and his/her registration at the University is terminated.
+  E. Submission of Final Thesis
+  Thesis copy. On successful completion of the thesis examination, and after any required corrections, a candidate must submit a copy of the thesis (either hard or electronic) to the Thrust/ Division.
+  For final theses which have been graded “Passed subject to minor corrections” or “Passed subject to major corrections”, students are required to submit the thesis for originality check via iThenticate. The iThenticate report should be handed in to their thesis supervisor(s), and the Thesis Examination Committee if applicable, for review and endorsement via their Thrust/ Division.
+  The Thrust/ Division will arrange for the appropriate signatures of approval to be obtained, and then return the signed copy to the candidate. The candidate will upload and submit the Signature Page and the Authorization Page as a PDF file and the final thesis as another PDF file to the University’s Thesis Submission System. The candidate does not need to replace the two unsigned pages in the thesis PDF with the scanned signature pages. The candidate will receive email acknowledgement of successful upload. The final thesis will be forwarded to the thesis supervisor(s) for approval via the Thesis Submission System.
+  Note: Candidates should allow sufficient time for the thesis supervisor(s) to check and verify their final version of the thesis, and for the Thrust/ Division to obtain signatures of approval before the submission deadline.
+  The “
+  Report on Thesis Examination Results for Research Postgraduate Degrees
+  ” will be submitted by the Thrust/ Division to the Academic Registry.
+  Other documents
+  . Candidates are also required to submit
+  other documents
+  to the Thrust/ Division together with the final thesis. Details are available on the FYTGS website.
+  Failure to meet submission deadline
+  . If a candidate fails to submit the final thesis before his/her specific deadline, the candidate will be deemed to have failed to meet the thesis examination requirements of the University and to have failed the requirements of the degree program being pursued. If the candidate fails to meet the deadline in submitting the final thesis, and the delay is no fault of the candidate, the candidate may appeal for an exception to the above rules in a written letter. The appeal must be supported by the thesis supervisor(s) and PG Coordinator of the Thrust/ Division, and endorsed by the relevant Hub/ College. It should then be submitted to FYTGS for further arrangements.
+  Course Registration
+  Course Selection and Registration
+  Course registration deals with the selection of and registration in appropriate courses for a specific term. Course registration for a term requires approval from the Thrust
+  /
+  Division. The student’s program registration will be revoked without formal registration in any course. Students should ensure that they have properly registered in the courses specified for a term. Students whose names are not on the class enrollment list will not be allowed to sit for examinations of the specific courses concerned and will not be awarded any grades for the courses.
+  Students should acquaint themselves with the general rules for postgraduate course registration and Thrust/ Division course requirements for the program. They should also refer to the
+  Postgraduate Course Catalog
+  and read the course description and requirements carefully before selecting a course.
+  Research postgraduate students should ensure that they enroll in the appropriate thesis research course when they begin their thesis research work. They should continue to enroll in the thesis research course until they have submitted their theses.
+  Credit Requirements
+  Credit requirements for postgraduate programs apply to course and project work, not to MPhil and PhD thesis research.
+  For students on research postgraduate programs, unless restricted by program regulations, a maximum of six credits of approved undergraduate courses at 4000-level may be used for postgraduate credit. Of the six credits, no more than three may be from the student’s Thrust/ Division.
+  For all research postgraduate programs, no more than 50% of the program requirements could be satisfied using credits earned from online courses.
+  Study Load
+  The normal study load of full-time research degree students is ten credits per regular term whereas the maximum study load for those in part-time mode is eight.
+  Students registered as Continuing Student can only enroll in the thesis research course.
+  Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  A course may require a certain general level of desired prior knowledge as background. Students should ensure that they have the necessary background to undertake a course, and may seek help from their Thrusts/ Divisions.
+  If a course designates other courses as its prerequisites, students must have taken and passed the prerequisites before they may enroll in the course, unless exemption is granted by the course offering Unit. If a course designates other courses as its co-requisites, students must have taken the co-requisites prior to, or at the same time as, the specified course. Exemption from prerequisite or co-requisite requirements requires the approval of the instructor of the course concerned.
+  If a course has exclusions specified, students are not allowed to enroll in the course if they have already taken and passed any of the stated exclusions. Also, students are not allowed to enroll in a course together with any of its stated exclusions in the same term.
+  A co-listed course is a course offered under more than one course code. There may be different assessment schemes or assignments for the different course registrations, which will be explained to students at the beginning of the term. Students may enroll in and earn credits for only one of the co-listed versions of the course.
+  Course Auditing
+  With the permission of the course instructor, postgraduate students may enroll in a course as an auditor, who attends a course and participates in activities up to and including the writing of the final examination but not receiving a formal grade. Subject to satisfactory completion of requirements set by the course instructor, the course will be designated “AU” on the student’s transcript; otherwise the course will be removed from the registration record. The credit load of audit courses is counted toward the study load of a student.
+  Course Add/Drop and Course Withdrawal
+  Students may make changes to their course registration during the add/drop period scheduled at the beginning of each term. Changes made in this period will not be reflected in the student’s record.
+  Requests to add or withdraw from courses after the add/drop period will not be accepted, except under extenuating circumstances beyond the control of the student. Students wishing to request for course add or withdrawal after the add/drop period will be required to provide the Thrust/ Division with full justification for making the application. The request has to be supported by the course instructor concerned, and endorsed by the Thrust
+  / Division
+  Head, and the Dean or the Dean’s designee before it is forwarded to the Academic Registry for consideration. If approval is granted for course withdrawal, the Withdrawal without Penalty Grade “W” will be recorded on the student’s transcript as the course grade.
+  To apply for course add or withdrawal after the add/drop period, students are required to submit an “Application for Class Enrollment/Withdrawal after Add/Drop Period” to the Thrust/ Division for approval.
+  Academic Accommodations or Adjustments for Students with Special Educational Needs
+  HKUST(GZ) is committed to providing equal educational opportunities to all students. Students with any learning difficulties may reach out to instructors and/or the Student Counseling Center for support. The Student Counseling Center provides a wide range of services and resources: (a) It coordinates with course instructors to provide reasonable academic accommodations or adjustments to courses for
+  students with special educational needs (SEN)
+  and/or temporary health conditions. Students may contact (counselgz@ust.hk) to arrange a confidential discussion regarding equitable access to the chosen program and reasonable accommodations; (b) It also provides personal counselling service for students who have concerns on their well-being and personal problems. Students may
+  make an online appointment
+  or contact (counselgz@ust.hk) to arrange a confidential discussion to get help and advice.
+  Course Substitution and Credit Transfer
+  Course Substitution
+  Course substitution may be granted if the student can provide evidence, such as a transcript and course syllabus, that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. The course taken previously should be equivalent to 4000-level or above. No credits will be given for the exempted course and the student will be required to take an approved alternative course to fulfill program requirements.
+  Applications for course substitution must be made to the Thrust/ Division during students’ first term of study after admission. The application must first be reviewed by the course instructor on the equivalency in course content and level; if supported, approval from the Thrust/ Division Head/PG Coordinator is required.
+  Credit Transfer
+  Credit transfer may be granted to students in recognition of studies completed elsewhere at an appropriate level as recognized by the University. Students applying for credit transfer must provide evidence, such as a transcript and course syllabus, to illustrate that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained.
+  Applications must be made to students’ Thrust/ Division during their first term after admission. For students who complete studies elsewhere during their registration at HKUST(GZ), for example on an exchange program, applications must be submitted to the Thrust/ Division for approval within one month after students’ return to their study at HKUST(GZ). Late applications will not be considered.
+  Applications must first be reviewed by the course instructor; if supported, approval from the Thrust/ Division Head/PG Coordinator is required. The number of transfer credits to be granted will be determined by the Thrust/ Division following a review of past academic records and the level of equivalence to HKUST(GZ) courses concerned. Conditions on the granting of transfer credits to research postgraduate students are as follows:
+  Credits earned at the undergraduate level can only be used for credit transfer purpose if the credits had not been used to earn another academic qualification, and that the course must be at 4000-level or above.
+  Notwithstanding the above, for postgraduate programs under Integrated Bachelor-Master Pathways requiring 30 credits or above, unless restricted by the respective program regulations defined otherwise, a maximum of nine credits earned at the undergraduate level can be used for credit transfer. For those programs requiring less than 30 credits, a maximum of six credits earned at the undergraduate level can be used for credit transfer.
+  Transfer credits cannot be granted in recognition of non-coursework experience or research work completed either at the University or at other institutions.
+  Credits for transfer must be at grade ‘B’ or above.
+  Transfer credits granted will not be included in the calculation of grade averages but the courses approved for credit transfer will be reflected on students’ transcripts.
+  Transfer of Course Grades and Credits on Resumption of Studies
+  Students who have previously withdrawn from their program of study at the University but who, after a period of time, are re-admitted to a program at the University, may be allowed to transfer their previous course grades and credits to the new program of study. Such a transfer of course grades and credits is restricted to courses which have been completed within five years prior to the resumption of study at the University. In addition, these credits must not have been used to earn any academic qualifications either at the University or elsewhere.
+  Course Grading
+  Grades for Postgraduate Courses
+  Students receive a grade for each course in which they are enrolled. Grades used in postgraduate courses are shown in the table below. For the purpose of calculating the grade averages, numerical grade points are assigned to each course grade, except HP/P/LP/U/Y, AU, I, P, PP, T and W which are not included in the calculation of the grade averages.
+  Letter Grade
+  Grade Points
+  Definition
+  A+
+  A
+  A-
+  4.3
+  4.0
+  3.7
+  Excellent Performance
+  B+
+  B
+  3.3
+  3.0
+  Good Performance
+  B-
+  C+
+  C
+  2.7
+  2.3
+  2.0
+  Marginal Performance
+  F
+  (1)
+  0
+  Failure
+  HP/P/LP/U/Y Grade(2)
+  Definition
+  HP
+  High Pass
+  P
+  Pass
+  LP
+  Low Pass
+  U
+  (3)
+  Unsatisfactory
+  Y
+  (4)
+  Incomplete
+  Other Grades
+  Definition
+  AU
+  (5)
+  Audited
+  I
+  (6)
+  Incomplete
+  P
+  (7)
+  Pass, Ungraded
+  PP
+  (8)
+  Permitted to Proceed
+  T
+  Transferred
+  W
+  (9)
+  Withdrawal without Penalty
+  Notes:
+  A failed course (graded F) will not be credited toward a degree. The “F” grade, including that under the P/F grading system, will be included in the calculation of the grade averages.
+  The HP/P/LP/U/Y grade is for use exclusively on courses of the Doctor of Business Administration and Executive Master of Business Administration programs.
+  An Unsatisfactory (U) grade will not be credited toward a degree.
+  An Incomplete (Y) grade is used when there is initial delay in coursework. This grade must be converted to a regular grade within a specified deadline; otherwise it will be converted to a “U” grade.
+  The Audited (AU) grade will be assigned when an auditing student has completed, to the satisfaction of the instructor, any conditions established at registration as an auditor. If the conditions are not met, the course will be deleted from the student’s record.
+  An Incomplete (I) grade is used when work is necessarily delayed through no fault of the student, such as a medical problem or an equipment breakdown. This grade must be converted to a regular grade at least one working day before the start of the following regular term; otherwise it is converted to an “F” grade. The “I” grade given to students on programs not following the regular term system must be converted to a regular grade within one month from the last day for grade reporting for courses, which is normally the sixth working day from the last day of examinations. Otherwise it is converted to an “F” grade.
+  The Pass, Ungraded (P) grade is given only under the P/F grading system for courses that are indicated in the course description in the Course Catalog that they will be graded as such.
+  When progress in thesis or project work is satisfactory but not scheduled for completion at the end of a regular term, the Permitted to Proceed (PP) grade is used.
+  The Withdrawal without Penalty (W) grade is given when a student is granted special approval for withdrawal from a course after the add/drop period.
+  Assignment of Course Grades
+  Grades with grade points assigned are the default grades for courses. Other grading scheme may only be used where this is approved for the course.
+  Grades given in each course are based on student performance in the final examination, tests, essays and reports, presentations and other forms of classroom participation, assignments, and laboratory exercises, although not all these elements may be present in each course. A failing grade in the laboratory component, if any, of a course may result in a failure in the whole course. The grading scheme for each course will be announced to the class at the beginning of the course.
+  Grade Announcement
+  After the examination period, students are required to check their own course grades which are available on the web-based Student Information System. Course grades will be posted on this web-based system as soon as they become available but not later than six working days from the last day of the examination period for the term.
+  Illness or Other Circumstances Affecting Assessment
+  If students wish the University to take into account medical reasons or some other extenuating circumstances beyond their control that have affected their performance in an examination, or ability to attend an examination, or to complete other assessment activities, they must report the circumstances of the case in writing and provide appropriate documentation to the Academic Registry within one week of the scheduled date of the assessment activity.
+  The Academic Registrar will review the case and make a recommendation to the relevant Dean or the Dean’s designee. The student will be notified of the result of the request within one week from the date the request is lodged with the Academic Registry. A make-up examination, if any, will be held within five weeks after the regular examination period. The format of the make-up examination will be decided by the course instructor concerned.
+  Grade Review
+  Students may apply for a grade review of a course in which they were enrolled in the term just completed. They should first discuss the matter with the course instructor as soon as the course grades are released. Where a clerical or administrative error has been made, the course offering unit will report the revised grade to the Academic Registry.
+  If the student’s concern remains unresolved after this informal discussion, the student may submit a request for a grade review to the head of the course offering unit in writing within two weeks from the day on which grades are released:
+  Stating the grounds for the request for review;
+  Describing the relevant facts; and
+  Providing supporting evidence.
+  If a review is granted, the Thrust/ Division Head will arrange for the review within three weeks after the release of the grade.
+  Requests for review of course grades should normally be resolved at the Thrust/ Division level. Students who wish to appeal against the decision of the Thrust/ Division must do so in writing to the Dean within two weeks of receiving the decision stating the grounds for the appeal. Upon receipt of the written appeal, the Dean will determine whether or not a further review of the grade should be granted and how the review will be conducted. The Dean’s decision is final.
+  Course Repeats
+  A course with a grade lower than C shall not be credited toward a program although it will be reflected in the student’s record. Only two courses (excluding audited courses) in a postgraduate program may be retaken, and unless otherwise specified, each may be repeated only once. The new grade obtained at the second attempt will replace the previous grade in the calculation of the grade averages.
+  Grade Averages
+  A grade average (GA) is the weighted average grade point obtained in a group of courses with letter grades where each course is given a weight equal to its credit value. Courses graded HP/P/LP/U/Y, AU, I, P, PP, T or W are not included in the calculation.
+  There are three grade averages. The term grade average (TGA) is the grade average covering all courses taken in a specific term. The cumulative grade average (CGA) is based on all the courses taken by the student up to the time of calculation. Students’ TGA and CGA will be calculated at the end of each of the four terms. At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  Progression and Academic Standing
+  Academic Standing
+  The academic standing of all postgraduate students is reviewed at the end of each regular term and assessed by their Thrusts/ Divisions. Unsatisfactory performance may result in students being denied the opportunity to continue their studies.
+  In order for postgraduate students to attain good academic standing, they must, at the end of each regular term,
+  Obtain a cumulative grade average (CGA) of 2.850 or higher; and
+  Show a reasonable progress toward program completion.
+  Students who fail to maintain good academic standing in a regular term will be issued a letter of warning by the Thrust/ Division Head.
+  Academic Leave and Academic Dismissal
+  Students who fail to maintain good academic standing in two consecutive regular terms will have their records reviewed by the Thrust/ Division and may be required to take academic leave and have their study suspended. The academic leave will last from one to three regular terms during which students may apply for re-enrollment in their program of study at the end of their suspension. If this application for re-enrollment is approved, certain conditions may apply and the student must regain good academic standing in the regular term immediately following re-enrollment. Students will be dismissed from the University if the conditions are not met. If re-enrollment in the program is not granted by the expiry of the academic leave, the suspension will be converted to a dismissal from the University.
+  Annual Progress Reports
+  All research postgraduate students are required to submit by the end of June every year a written review of their study progress in the past twelve months, and describe their study plan for the twelve months ahead, using an online system designed for this purpose.
+  The progress report will be read by members of the Program Planning cum Thesis Supervision Committee (PPTSC) and their evaluation will be discussed with the student concerned. The progress report will also be reviewed by the PG Coordinator of the Thrust/ Division, and necessary action may be taken to address issues of concern.
+  Students who fail to submit the duly completed and approved report form by the stipulated deadline may not be allowed to register for their program of study in the following year. The HKUST Fok Ying Tung Graduate School will not be able to process Postgraduate Studentships arrangement (if applicable) for cases where the annual progress report is not available.
+  Details of the annual progress reporting exercise is as follows:
+  In April/May each year, the annual progress reporting system will be open for access via the
+  Student Intranet
+  .
+  The first part of the report form is to be completed by the student who should enclose a brief self-assessment summary report at the time the report form is submitted to the thesis supervisor(s). The second part is an assessment of the work done by the student as well as the progress made since the previous report by the thesis supervisor(s) and PPTSC.
+  One of the main purposes of the annual progress report is to allow thesis supervisors to advise students on their research progress and expectations of PPTSC. Students will be given the chance to view the report, and the thesis supervisors are required to discuss the content of the report with their students. Thesis supervisors should note that terminating the study of a student due to poor performance or slow progress without prior written warning may constitute student grievance.
+  Should a particular student’s progress be found to be unsatisfactory or very unsatisfactory, the Thrust/ Division is requested to issue a warning letter to the student specifying the expectations and the courses of action for performance improvement. The warning letter should also stipulate the possible consequences, such as reduction or suspension of Postgraduate Studentships, if the improvement is not satisfactory. A copy of the warning letter should be forwarded to the Academic Registry for record purpose.
+  Graduation
+  Graduation on Completion of Studies
+  When students have completed, or are registered in courses that will complete, the academic and non-academic requirements for an award, they will be included in the list of pending graduates. The non-academic requirement includes the settlement of all fees or fines payable and that there is no serious case pending decision with the Student Disciplinary Committee.
+  To be considered for graduation, an MPhil or PhD student must:
+  Complete the specific program requirements for graduation within the specified time limit;
+  Achieve a graduation grade average of at least 2.850 in the courses used to satisfy the program requirements;
+  Attain a pass in the thesis examination; and
+  Meet the residency requirements of the program.
+  Graduation Grade Average (GGA)
+  At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  If a student has taken more courses than required by the award, upon recommendation of the Thrust/ Division, certain courses included in the calculation of the CGA may be excluded from the GGA calculation to improve the GGA of the student. Otherwise, all courses taken will be included.
+  Graduation Approval
+  Endorsement by Hub/ College Boards or their Postgraduate Studies Committees is required to confirm the graduation list and any special recommendations by Thrusts/ Divisions for program completion. Thrust/ Division and Hub/ College recommendations are then considered and approved by the Committee on Postgraduate Studies, as delegated by the Senate.
+  Conferment of Awards
+  Awards are conferred on students on the date designated by the Senate. The official diploma is issued only after the conferment of the awards.
+  Congregation
+  The Congregation is the formal graduation ceremony at which students are conferred their awards by the Chancellor or other officers of the University as stipulated in the University Statues. This graduation ceremony is held in Fall Term of each year at a time and place determined by the University.
+  Attendance at the Congregation is not compulsory. The award will be conferred
+  in absentia
+  to those graduands who are not present at the ceremony.
+  Award Diploma
+  Diplomas are distributed to graduates after the conferment of the award. Diplomas show in Chinese and English the following:
+  Name of the graduate as shown on the graduate’s Identity Card, with the surname capitalized and appearing first, followed by a comma and the given names;
+  Award title, which is normally shown the same as the program title, with no concentration given; and
+  The date of award conferment.
+  Appeals and Grievance Channels
+  Appeals
+  A student may make an appeal in writing to the Dean of the relevant Hub/ College for matters related to his/her study.
+  Grievance Channels
+  If students have any grievance about their program, their thesis work, their study or supervision arrangements, channels are readily available to help them settle their grievance and alleviate their concerns.
+  When a student encounters any difficulty or has any concern that he/she feels should be conveyed to or discussed with the University, the first stop should normally be the PG Coordinator. If this does not work or is not appropriate for some reasons, the next level for voicing grievance is to the Thrust/ Division Head. If the issue cannot be settled satisfactorily in the Thrust/ Division, the student may approach the Dean of the Hub/ College for advice. In the event that the issue still cannot be resolved within the Hub/ College, the next stop is the HKUST Fok Ying Tung Graduate School. If the issue-in-question involves existing academic policies, the matter may be referred to the Committee on Postgraduate Studies or Senate for consideration.
+  In general, if the grievance is of a personal nature, the student may consider talking to a student counselor of the Office of Student Affairs (OSA) for advice.
+  Glossary of Terms
+  1. Academic Terms
+  There are three Academic Terms in each Academic Year, namely Fall (normally from early September to late December); Spring (normally from early February to late May); and Summer (normally from late June to mid-August). Fall and Spring Terms are considered as regular terms. For most students, attendance for Summer Term is not required.
+  2. Academic Year
+  The Academic Year of the University begins on 1 September and ends on 31 August of the following year.
+  3. Academic Program
+  An academic program is an official program recognized by the University, which constitutes a carefully constructed set of academic requirements. Each program is given a unique program code. Unless specified otherwise, the term “program” refers to an academic program wherever it appears in this document.
+  4. Academic Standing
+  Students’ academic standing is an indicator of their academic progress. Poor academic progress may result in students being denied the opportunity to continue their studies.
+  5. Add/Drop Period
+  At the beginning of each term, there is an add/drop period in which students may make changes to their course registration. Changes made during the add/drop period will not appear in the students’ records. After the add/drop period, students are not permitted to add or drop courses for that term.
+  6. Award
+  An Award is an academic qualification granted by the University Senate on the completion of the requirements for the award. The successful completion of an academic program is recognized by the award of a degree or other academic awards. The award title appears on the official diploma.
+  7. Concentration
+  A concentration is a defined grouping of electives as stipulated in the program curriculum. Completion of concentration requirements will be formally noted on the student’s official transcript but not the diploma.
+  8. Course
+  Courses are the basic unit of instruction from which programs of study are built. All courses are designated by a course code, course title, and vector.
+  9. Course Code
+  Each course is identified by a course code which comprises a four-letter code followed by a four-digit number code. The letter code denotes either the area/program of study or the course offering unit. The first digit of the number code indicates the academic level of the course while the last three digits represent a Thrust/ Division coding series.
+  10. Course Offering Unit
+  The course offering unit is the unit responsible for a course, normally a Thrust/ Division.
+  11. Course Substitution
+  Students may be granted course substitution if they can provide evidence that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. No credits will be given for the exempted course, and the student will be required to take an approved alternative course to fulfill the credit requirements of the program of study.
+  12. Course Vector and Credits
+  Each course is assigned a course vector which indicates the number of instructional hours required and credits to be earned through the completion of coursework and other assessed learning activities. The requirements for an award normally include completion of a minimum number of credits.
+  13. Credit Transfer
+  Subject to the academic regulations, credits may be transferred in recognition of studies completed successfully at an institution other than HKUST(GZ) to meet the requirements of an HKUST award.
+  14. Cumulative Grade Average (CGA)
+  For each term a CGA is calculated for all the courses earning grade points completed since first registration as a postgraduate student up to that point, as follows:
+  Where Cj is the credit and Gj is the grade point earned in the jth course since first registration.
+  15. Dean or the Dean’s Designee
+  Where approval of the Dean or the Dean’s designee is required, applications or requests should be directed to the Office of the Dean or the Associate Dean (Postgraduate).
+  16. Degrees
+  The University Senate awards nine types of postgraduate degrees: Doctor of Philosophy (PhD), Master of Philosophy (MPhil), Doctor of Business Administration (DBA), Executive Master of Business Administration (EMBA), Master of Arts (MA), Master of Business Administration (MBA), Master of Public Management (MPM), Master of Public Policy (MPP) and Master of Science (MSc).
+  17. Grade Points
+  Courses may be assessed for grade points. A table of grade points relative to letter grades is provided in the Academic Regulations (section 7.1). Courses graded HP/P/LP/U/Y, AU, I, P, PP, T or W do not count in the calculation of grade averages.
+  18. Graduation Grade Average (GGA)
+  At graduation, a GGA will be calculated from the courses that are presented for an academic award. The GGA for all postgraduate programs must at least be 2.850.
+  19. Hub/ College
+  Postgraduates are registered in programs under one of the Hubs/ College.
+  20. Registration
+  Registration includes registration in course(s) and registration in an academic program. Registration is confirmed only when students have completed the registration process and paid tuition and other prescribed fees of the term concerned.
+  21. Research Postgraduate Programs
+  The University offers two types of research postgraduate programs, namely Master of Philosophy (MPhil), and Doctor of Philosophy (PhD). MPhil programs are normally several terms in duration and require a combination of coursework and independent research; whereas PhD programs are normally several years in duration and require a combination of coursework and independent research, with major emphasis placed on research.
+  22. Study Load
+  Students’ study load is the total credits for which they are registered in a specific term.
+  23. Taught Postgraduate Programs
+  The University offers nine types of taught postgraduate programs, namely Doctor of Business Administration (DBA), Executive Master of Business Administration (EMBA), Master of Arts (MA), Master of Business Administration (MBA), Master of Public Management (MPM), Master of Public Policy (MPP), Master of Science (MSc), Postgraduate Diploma (PGD) and Postgraduate Certificate (PGC). Programs leading to a taught postgraduate award usually only require the completion of coursework, except for DBA which requires a combination of coursework and independent research.
+  24. Term Grade Average (TGA)
+  For each term a TGA is calculated across all courses taken in that particular term, as follows:
+  Where Ci is the course credits and Gi is the grade point earned in the ith course in the term.
+  25. Thrust/ Division
+  An academic Thrust/ Division, or any other academic unit of the University administering academic programs. A student’s Thrust/ Division is the academic unit which offers the specific academic program that the student is enrolled.
+  26. Transcript
+  Academic transcripts provide the full record of students’ academic results and performance.
+  27. University
+  The Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)).
+
+tables:
+  - Letter Grade | Grade Points | Definition
+  - A+ A A- | 4.3 4.0 3.7 | Excellent Performance
+  - B+ B | 3.3 3.0 | Good Performance
+  - B- C+ C | 2.7 2.3 2.0 | Marginal Performance
+  - F (1) | 0 | Failure
+  - HP/P/LP/U/Y Grade(2) | Definition
+  - HP | High Pass
+  - P | Pass
+  - LP | Low Pass
+  - U (3) | Unsatisfactory
+  - Y (4) | Incomplete
+  - Other Grades | Definition
+  - AU (5) | Audited
+  - I (6) | Incomplete
+  - P (7) | Pass, Ungraded
+  - PP (8) | Permitted to Proceed
+  - T | Transferred
+  - W (9) | Withdrawal without Penalty
+
+links:
+  - Postgraduate Program Catalog | https://prog-crs.hkust.edu.hk/pgprog
+  - here | https://hkust-gz.edu.cn/sites/gz.prod01.ust.hk/files/pdf/2022-2023%20ELPA%20Test%20introduction.pdf
+  - Guidelines on Joint Supervision of RPgs with Non-academic Institutions | https://fytgs.hkust.edu.hk/sites/default/files/imce/joint_supervision_nonacademic_guidelines.pdf
+  - MPhil | https://fytgs.hkust.edu.hk/sites/default/files/imce/thesis_sample_page_mphil.pdf
+  - PhD | https://fytgs.hkust.edu.hk/sites/default/files/imce/thesis_sample_page_phd.pdf
+  - Student Intranet | https://myportal.hkust-gz.edu.cn/
+  - other documents | https://fytgs.hkust.edu.hk/student-guidelines-forms
+  - Postgraduate Course Catalog | https://prog-crs.hkust.edu.hk/pgcourse
+  - students with special educational needs (SEN) | http://sen.hkust.edu.hk/
+  - make an online appointment | https://sso.hkust-gz.edu.cn/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dcounsel.client%26redirect_uri%3Dhttps%253A%252F%252Fcounsel.hkust-gz.edu.cn%252Fschool%252Fsso%252Fhkust.htm%26response_type%3Dcode%26scope%3Dopenid%2520profile%26response_mode%3Dquery%26code_challenge%3DVDtDPi7HHqpnTRpWLmxcjQW5al6SMacchuRkYxrWIi4%26code_challenge_method%3DS256

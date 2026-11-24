@@ -1,0 +1,53 @@
+dsa_page: Undergraduate Visiting Student Program (Regular Term) – 2025-26 Academic Year – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/19/undergraduate-visiting-student-program-regular-term-2025-26-academic-year/
+source: DSA
+
+headings:
+  - I. Core Program Information
+  - II. Application Portal & Required Materials
+  - III. Application Process
+  - I V. Key Timeline for 25/26 Spring Term
+
+text: >
+  未分类
+  Undergraduate Visiting Student Program (Regular Term) - 2025-26 Academic Year
+  Day: December 19, 2025
+  Browse: 1204
+  Share to
+  Undergraduate Visiting Student Program (UGVS Program), this non-degree initiative is tailored for UG students from non-exchange partner institutions and aims to provide diverse learning opportunities for outstanding students worldwide. Below is an overview of the program, including key specifications and application arrangements:
+  I. Core Program Information
+  1. Program Type: Non-degree program for the regular term (Fall or Spring), exclusively open to undergraduate students from non-exchange partner institutions.
+  2. Mode of Study: Full-time
+  3. Length of Study: One regular term (either Fall or Spring)
+  4. Program Completion: By coursework only
+  5. Course and Credits:
+  • Enrollment in credit-bearing courses offered by HKUST(GZ), as approved by the course offering unit(s).
+  • Credit range: 3–15 credits per term (note: students must enroll in courses totaling no less than 3 credits.)
+  6. Eligibility Criteria:
+  • Currently registered as an undergraduate student at a recognized tertiary institution, and
+  • Obtain prior written consent from a HKUST(GZ) faculty member before applying, and
+  • Meet the academic standards specified by the host Thrust/Hub that accepts the student as an undergraduate visiting student, and
+  • Secure official approval from their home institution (a templated support form is provided below)
+  • For non-native English speakers or students not studying at an English-medium institution: Meet HKUST(GZ)’s English Language Admission Requirement (i.e., IELTS 6.0+, TOEFL 80+, or Duolingo 125+).
+  7. Program Fees:
+  • Application Fee: RMB 400 per application (non-refundable, regardless of admission outcome)
+  • Tuition Fee: RMB 5,500 per credit
+  8. Accommodation: University-arranged accommodation will be provided, with fees in accordance with HKUST(GZ)’s regulations for visiting students.
+  II. Application Portal & Required Materials
+  1. Application Portal: Applications must be submitted through the ESA system.
+  2. Required Application Materials:
+  Applicants are required to upload the following documents via ESA system. Additional supplementary materials may be requested by the host Thrust, as needed:
+  1) Identity Document
+  2) Download "Support from Home University/ Institution" form, complete it, and then upload it to the ESA system.
+  3) Written consent from the supporting HKUST(GZ) faculty member (either a signed formal statement letter or a dated email from the faculty’s official HKUST(GZ) email address confirming support for the UGVS Program)
+  4) Official or certified academic transcripts from the home institution (covering all completed coursework to date)
+  5) Proof of English Proficiency (if applicable, as per eligibility criteria)
+  III. Application Process
+  1. The host Thrust shall first set up a dedicated program entry for the UGVS Program in the ESA system. Once the program entry has been set up in the ESA system, please notify ESA at ESA@hkust-gz.edu.cn.
+  2. After confirming the applicant’s eligibility and faculty support, the host Thrust shall direct the applicant to submit the application materials through the designated program entry in the ESA system.
+  3. The applicant must complete the online submission of all required materials via the ESA system and settle the application fee as per the system prompts.
+  4. The application will be reviewed by Thrust admin staff and endorsed by the Thrust Head before submission to the Global Learning Department for final verification and confirmation.
+  I
+  V. Key Timeline for 25/26 Spring Term
+  Application Deadline:
+  10 January 2026

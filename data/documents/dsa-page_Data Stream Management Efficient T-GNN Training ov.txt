@@ -1,0 +1,39 @@
+dsa_page: Data Stream Management: Efficient T-GNN Training over Large-Scale Dynamic Graphs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/22/data-stream-management-efficient-t-gnn-training-over-large-scale-dynamic-graphs/
+source: DSA
+
+headings:
+  - Data Stream Management: Efficient T-GNN Training over Large-Scale Dynamic Graphs
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Data Stream Management: Efficient T-GNN Training over Large-Scale Dynamic Graphs
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr GAO Shihong
+  Abstract
+  Temporal Graph Neural Networks (T-GNNs) have become the de facto solution for representation learning on dynamic graphs, enabling state-of-the-art performance on tasks such as temporal link prediction and recommendation. However, existing T-GNN training pipelines suffer from scalability issues due to ill-suited batching and high input data loading costs, which severely limit their efficiency on large-scale graphs. This thesis proposal addresses both these bottlenecks with two complementary system prototypes. First, we propose ETC, a generic framework that introduces a theoretically grounded batch splitting algorithm and a three-step deduplication policy to improve computation throughput and reduce I/O overhead. Second, we present SIMPLE, a dynamic data placement system that maintains a GPU buffer for frequently accessed inputs, optimizing data reuse through an interval selection algorithm with approximation guarantees. Together, ETC and SIMPLE significantly accelerate T-GNN training, achieving up to 62.4× speedup over state-of-theart baselines while preserving model accuracy, as demonstrated by extensive experiments on real-world datasets.
+  TPE Committee
+  Chair of Committee: Prof. ZHOU, Xiaofang(Online)
+  Prime Supervisor: Prof. YANG, Can (Online)
+  Co-Supervisor: Prof. CHEN, Lei
+  Examiner: Prof. ZHANG, Yongqi
+  Date
+  04 August 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E3-201 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  971 7136 0711
+  Passcode: dsa2025

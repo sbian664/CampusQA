@@ -1,0 +1,18 @@
+dsa_page: HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/hkustgz-tencent-ssv-innovation-lab-for-inclusive-health/
+source: DSA
+
+headings:
+  - Lab Overview
+  - News
+  - HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health to Focus on Social Sustainable Development
+
+text: >
+  Lab Overview
+  HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health focuses on topics such as "Standardization of Medical Open Data and Crowdsourced Research", "Research on Large Language Model in Healthcare Management" and "Research on Data Management Applications for Family and Community Doctors". The aim is to explore new paradigms of integration between healthcare and technology, leveraging technology to support social welfare and address issues of sustainable social development.
+  News
+  HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health to Focus on Social Sustainable Development
+  December 4, 2023
+
+links:
+  - HKUST(GZ)-Tencent SSV Innovation Lab for Inclusive Health to Focus on Social Sustainable Development December 4, 2023 | https://rd.hkust-gz.edu.cn/blog/2023/12/%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e6%90%ba%e6%89%8b%e8%85%be%e8%ae%af%e6%8f%ad%e7%89%8c%e8%81%94%e5%90%88%e5%ae%9e%e9%aa%8c%e5%ae%a4%ef%bc%8c%e5%85%b3%e6%b3%a8%e7%a4%be/

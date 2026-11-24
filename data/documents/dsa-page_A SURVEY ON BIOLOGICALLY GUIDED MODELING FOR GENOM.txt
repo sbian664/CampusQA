@@ -1,0 +1,40 @@
+dsa_page: A SURVEY ON BIOLOGICALLY GUIDED MODELING FOR GENOMIC SELECTION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/a-survey-on-biologically-guided-modeling-for-genomic-selection/
+source: DSA
+
+headings:
+  - A SURVEY ON BIOLOGICALLY GUIDED MODELING FOR GENOMIC SELECTION
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  A SURVEY ON BIOLOGICALLY GUIDED MODELING FOR GENOMIC SELECTION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. SU, Houcheng
+  Abstract
+  Genomic selection has become an important data-driven paradigm for modern breeding by using genome-wide molecular markers to predict phenotypes or genomic estimated breeding values before complete phenotypic evaluation is available. Classical statistical models, such as GBLUP, rrBLUP, and Bayesian regression, provide stable and effective baselines, but they are often limited by additive assumptions, compressed genomic representations, and weak capacity to model nonlinear genotype–phenotype relationships. Recent deep learning methods have introduced more expressive architectures for genomic prediction, including convolutional neural networks, recurrent models, Transformer-based models, and multi-omics neural networks. However, their practical effectiveness is constrained by small sample sizes, high-dimensional SNP inputs, heterogeneous data sources, distribution shifts across populations and environments, and limited biological interpretability.
+  This survey reviews genomic selection methods from traditional statistical modeling to modern deep genomic prediction, with a particular focus on biologically guided modeling. We first introduce the background of genotype–phenotype prediction and the foundations of genomic selection. We then summarize statistical, machine learning, and deep learning methods for genomic prediction, and analyze their assumptions, strengths, and limitations. Based on these limitations, we discuss the need for biologically guided genomic representation learning, where association-derived priors, chromosome-aware architectures, long-range interaction modeling, and biological interpretability are incorporated into model design. We further discuss the transition from SNP-only genomic prediction to multi-omics genomic selection, where reliable and reproducible bioinformatics workflows become essential for integrating genotype, transcriptomic, metabolomic, environmental, and phenotypic data. Finally, we outline future directions, including generalized genomic selection, collaborative and federated genomic selection, multi-omics prediction, and biology-aware foundation models for breeding.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. ZHANG, Yanlin
+  Co-Supervisor: Prof. CHEN, Jintai (online)
+  Examiner: Prof. YANG, Weikai
+  Date
+  10 June 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  921 3155 8387
+  Passcode: dsa2026

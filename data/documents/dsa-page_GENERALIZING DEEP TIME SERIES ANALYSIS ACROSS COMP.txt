@@ -1,0 +1,39 @@
+dsa_page: GENERALIZING DEEP TIME SERIES ANALYSIS ACROSS COMPLEX DATA SCENARIOS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/25/generalizing-deep-time-series-analysis-across-complex-data-scenarios/
+source: DSA
+
+headings:
+  - GENERALIZING DEEP TIME SERIES ANALYSIS ACROSS COMPLEX DATA SCENARIOS
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  GENERALIZING DEEP TIME SERIES ANALYSIS ACROSS COMPLEX DATA SCENARIOS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. ZHANG, Jiawen
+  Abstract
+  The rapid expansion of sensor technologies and digital processes has led to a surge in time series data across numerous fields. Yet, analyzing this data remains difficult due to its complexity, high dimensionality, and non-stationary nature. While deep learning has shown promise, its application to time series analysis, particularly in complex, real-world settings, remains limited. This proposal aims to develop more generalizable deep learning methods for time series analysis, focusing on key challenges such as varied forecasting horizons, irregular sampling, and domain shifts. To ground this work, we have systematically evaluated existing approaches, highlighting their strengths and limitations, and built a comprehensive benchmarking toolkit for consistent evaluation across diverse scenarios. Drawing on these insights, we propose new methodologies to improve forecasting accuracy across horizons, better handle irregular data, and enhance cross-domain adaptability. Our work combines a critical review of the literature, methodological innovation, and rigorous experimentation to demonstrate the practical value of these contributions. Finally, we outline a clear plan for future research directions, aiming to further push the boundaries of generalization and robustness in deep time series analysis.
+  TPE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. ZHOU, Xiaofang
+  Examiner: Prof. ZHONG, Zixin
+  Date
+  03 April 2025
+  Time
+  14:30:00 -
+  16:00:00
+  Location
+  E3 201(HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  966 3876 5297
+  Passcode: dsa2025

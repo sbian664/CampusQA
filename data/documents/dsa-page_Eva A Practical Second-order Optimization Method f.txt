@@ -1,0 +1,40 @@
+dsa_page: Eva: A Practical Second-order Optimization Method for Training Deep Neural Networks – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/10/10/eva-a-practical-second-order-optimization-method-for-training-deep-neural-networks/
+source: DSA
+
+headings:
+  - Eva: A Practical Second-order Optimization Method for Training Deep Neural Networks
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Eva: A Practical Second-order Optimization Method for Training Deep Neural Networks
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  Second-order optimization algorithms exhibit excellent convergence properties for training deep learning models but often incur significant computation and memory overheads. This can result in lower training efficiency than the first-order counterparts such as stochastic gradient descent (SGD). In this talk, I will introduce one of our recent works, Eva, a memory- and time-efficient second-order algorithm that has two novel techniques: 1) we construct the second-order information with the Kronecker factorization of small stochastic vectors over a mini-batch of training data to reduce memory consumption, and 2) we derive an efficient update formula without explicitly computing the inverse of matrices using the Sherman-Morrison formula. Eva can also be extended as a general vectorized approximation framework to improve the computing and memory efficiency of two existing second-order algorithms (FOOF and Shampoo) without affecting their convergence performance. Extensive experimental results on different models and datasets show that Eva reduces the end-to-end training time up to 2.05x and 2.42x compared to first-order SGD and second-order algorithms (K-FAC and Shampoo), respectively.
+  SPEAKER BIO
+  Shaohuai SHI
+  Assistant Professor
+  Harbin Institute of Technology, Shenzhen
+  Dr. Shaohuai Shi is currently an Assistant Professor with the School of Computer Science and Technology at Harbin Institute of Technology, Shenzhen. Dr. Shi was awarded Excellent Young Scholars (Overseas) from National Science Foundation of China (NSFC) 2022. Prior to that, he was a Research Assistant Professor at The Hong Kong University of Science and Technology. He received his Ph.D. degree, master’s degree, and bachelor’s degree from Hong Kong Baptist University in 2020, Harbin Institute of Technology in 2013, and South China University of Technology in 2010, respectively. His current research interests focus on distributed machine learning systems. He has published over 30 peer-reviewed papers in top-tier venues such as IEEE TPDS, IEEE INFOCOM, ICLR, AAAI, MLSys, IEEE ICDCS, etc. His research papers have received over 2000 citations and an H-index of 21 according to Google Scholar. He won the Best Paper Award in IEEE INFOCOM 2021 and IEEE DataCom 2018.
+  Date
+  11 October 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  873 4676 7689
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

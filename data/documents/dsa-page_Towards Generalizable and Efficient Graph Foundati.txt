@@ -1,0 +1,56 @@
+dsa_page: Towards Generalizable and Efficient Graph Foundation Models with Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/08/11/towards-generalizable-and-efficient-graph-foundation-models-with-large-language-models/
+source: DSA
+
+headings:
+  - Towards Generalizable and Efficient Graph Foundation Models with Large Language Models
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Towards Generalizable and Efficient Graph Foundation Models with Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Yuhan LI
+  ABSTRACT
+  Graphs support applications from recommender systems and social networks to knowledge graphs and scientific discovery. Conventional graph models, however, are usually tied to one dataset, feature space, and task. They therefore struggle with unseen graphs, incompatible attributes and labels, costly pre-training, and applications requiring language-level reasoning. This thesis studies how language models can support graph foundation models (GFMs) by managing structural and semantic information across the model lifecycle.
+  The thesis first surveys Graph–LLM methods by the role of the language model and identifies obstacles to generalization and efficiency.
+  ZeroG
+  aligns node attributes and class descriptions in a shared language space and combines them with graph structure, enabling cross-dataset zero-shot node classification across disjoint feature and label spaces.
+  GLBench
+  standardizes comparisons on text-attributed node classification and shows that in-domain accuracy does not guarantee transferability, that structure and semantics are complementary, and that larger models do not reliably improve graph performance within the tested configurations.
+  DCGFM
+  selects informative pre-training subgraphs through model-agnostic hard pruning and model-aware soft pruning, reducing backbone pre-training cost while maintaining competitive average performance on two GFM backbones. Finally,
+  G-Refer
+  retrieves structural and semantic signals from interaction graphs, translates them into text, and adapts an LLM to generate retrieval-conditioned recommendation explanations.
+  Together, these contributions follow the principles
+  align, evaluate, select, and retrieve
+  , spanning representation, training data, and inference context. Experiments in the evaluated text-attributed graph and recommendation settings clarify when language supports transfer and how selective use of graph information can improve efficiency and downstream adaptation.
+  TEC
+  Chairperson: Prof Hao LIU
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Yangqiu SONG
+  Examiners:
+  Prof Zishuo DING
+  Prof Jeffrey Xu YU
+  Prof Menglin YANG
+  Prof Chen MA
+  Date
+  17 August 2026
+  Time
+  16:00:00 -
+  18:00:00
+  Location
+  E3-202, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

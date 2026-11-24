@@ -1,0 +1,34 @@
+dsa_page: A Survey of AI-Assisted Code Generation inIndustrial Automation: Bridging Human, AI, and Machinery – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/a-survey-of-ai-assisted-code-generation-inindustrial-automation-bridging-human-ai-and-machinery/
+source: DSA
+
+headings:
+  - A Survey of AI-Assisted Code Generation inIndustrial Automation: Bridging Human, AI, and Machinery
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of AI-Assisted Code Generation inIndustrial Automation: Bridging Human, AI, and Machinery
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LI Yin
+  Abstract
+  As large language models (LLMs) and retrieval-augmented generation (RAG) techniques continue to evolve, their application to industrial automation has opened promising new avenues for intelligent code generation. This survey synthesizes current research and practices around three critical pillars—code generation, verification, and interpretation— highlighting both advances and ongoing challenges in translating natural language instructions into safe, reliable, and comprehensible industrial control logic. From the MCCoder system’s holistic workflow to emerging work on small language models and multimodal RAG, we explore how these AI-driven approaches are shaping future-ready solutions. Our findings emphasize that in industrial automation, code generation is not an isolated task but, together with its associated verification and interpretation work, forms a crucial bridge that integrates human expertise, AI reasoning, and real-world machinery to ensure these systems are not only efficient and innovative but also verifiable, and transparent.
+  PQE Committee
+  Chair of Committee: Prof. CHU Xiaowen
+  Prime Supervisor: Prof. TSUNG Fugee
+  Co-Supervisor: Prof. ZENG Wei
+  Examiner: Prof. LIANG Yuxuan
+  Date
+  09 June 2025
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-147 (HKUST-GZ)

@@ -1,0 +1,20 @@
+fytgs_page: Partnerships and Collaborations
+url: https://fytgs.hkust-gz.edu.cn/partnerships-and-collaborations
+source: FYTGS
+
+headings:
+
+text: >
+  HKUST(GZ)-IDEA PhD Co-Supervision Scheme
+  The Hong Kong University of Science and Technology (Guangzhou) (“HKSTU(GZ)”) and the International Digital Economy Academy (“IDEA”) signed an agreement of PhD Co-Supervision Scheme on 4
+  th
+  July, 2022.
+  The application for 2024-25 Fall Term admissions (commencing in Sep 2024) is now open, focusing on AI, digital economy, and other frontier research areas. We aim to develop our strengths in the field of AI quantitative investment, AI financial grand model, blockchain technology, computer vision, drone control technology, etc. We are committed to bringing up extraordinary scientists with entrepreneurship and developing future technology leadership.
+  For program enquiries, please contact:
+  phdrecruiting@idea.edu.cn
+  More details, please click
+  here
+  .
+
+links:
+  - here | https://www.idea.edu.cn/news/6103.html

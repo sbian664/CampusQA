@@ -1,0 +1,38 @@
+dsa_page: 2020 Cohort – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/26/2020-2/
+source: DSA
+
+headings:
+
+text: >
+  Doctor of Philosophy
+  2020 Cohort
+  Day: March 26, 2024
+  Browse: 426
+  Share to
+  FANG, Linjiajie
+  PhD (IIP-DSA)
+  GUO, Yue
+  PhD (IIP-DSA)
+  JIA, Zhifeng
+  PhD (IIP-DSA)
+  LI, Ran
+  PhD (IIP-DSA)
+  LIU, Ruoxue
+  PhD (IIP-DSA)
+  LIU, Xuantong
+  PhD (IIP-DSA)
+  WANG, Xiasi
+  PhD (IIP-DSA)
+  ZHANG, Xiaomeng
+  PhD (IIP-DSA)
+  ZHANG, Hongbo
+  PhD (IIP-DSA)
+  WEN, Lei
+  PhD (IIP-DSA)
+  ZHOU, Jiawei
+  PhD (IIP-DSA)
+
+links:
+  - JIA, Zhifeng | http://fergusjzf.com/
+  - ZHOU, Jiawei | https://jzhoubu.github.io/

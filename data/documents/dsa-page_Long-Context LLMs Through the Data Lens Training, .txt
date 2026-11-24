@@ -1,0 +1,40 @@
+dsa_page: Long-Context LLMs Through the Data Lens: Training, ReaLong-Context LLMs Through the Data Lens: Training, Reasoning, and Evaluation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/long-context-llms-through-the-data-lens-training-realong-context-llms-through-the-data-lens-training-reasoning-and-evaluation/
+source: DSA
+
+headings:
+  - Long-Context LLMs Through the Data Lens: Training, ReaLong-Context LLMs Through the Data Lens: Training, Reasoning, and Evaluation
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Long-Context LLMs Through the Data Lens: Training, ReaLong-Context LLMs Through the Data Lens: Training, Reasoning, and Evaluation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. PENG, Miao
+  Abstract
+  Large language models have rapidly expanded their context windows from 4K to over 1M tokens, yet the ability to effectively utilize long contexts—particularly for complex reasoning and agentic tasks—has not scaled proportionally. In this survey, we provide a systematic review of training data strategies for long-context LLMs through a data-centric lens, with reasoning and agentic capabilities as the target. We organize the long-context training pipeline into three stages—pretraining (coverage-driven), midtraining (capability-driven), and post-training (reasoning-driven)—and examine how data design philosophy evolves across them. For pretraining, we review data collection strategies, length-aware quality filtering, domain mixing, and curriculum design for extending context length at scale. For midtraining, we identify two complementary data construction routes (natural reformulation and synthetic proxy tasks) targeting three training signals: retrieval precision, information densification, and reasoning depth, and argue that effective agent behavior emerges from deliberate data design as a co-development objective. For post-training, we characterize canonical long-context task forms, review task-oriented data synthesis strategies that serve both SFT and RL, and discuss training recipes including reward design and RL algorithms tailored to long-context reasoning. We further examine evaluation benchmarks with emphasis on the gap between retrieval-oriented and reasoning-oriented assessment, and highlight the under-explored dimension of knowledge reliability. Finally, we outline open challenges including data efficiency, scaling laws, and evaluation standardization. By consolidating recent advances under a unified data-centric framework targeting reasoning and agentic capabilities, we aim to provide a useful reference for researchers and engineers.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. LI, Jia
+  Co-Supervisor: Prof. TSUNG, Fu-Gee (online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  10 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  933 4511 6271
+  Tencent Meeting ID:
+  dsa2026

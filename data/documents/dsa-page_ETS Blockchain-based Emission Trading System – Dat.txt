@@ -1,0 +1,34 @@
+dsa_page: ETS: Blockchain-based Emission Trading System – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/ets-blockchain-based-emission-trading-system/
+source: DSA
+
+headings:
+  - ETS: Blockchain-based Emission Trading System
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  ETS: Blockchain-based Emission Trading System
+  Abstract
+  Recently, more and more countries and regions have joined the tide of carbon neutrality and announced the completion of the net-zero emission target by the middle of this century to achieve the temperature control target of the Paris Agreement. Therefore, the management and trading of carbon emissions allowance have become important and corresponding policies and platforms have been successively launched by various countries. In particular, the premise of carbon emission allowances trading is the voluntary or compulsory commitment of emission allowance restrictions by market entities. Due to the possible mismatch between the carbon emission allowances assigned to the company and its actual emissions requirement, allowances flow and exchange in the international and domestic markets result in economic benefits for various entities. Driven by such profit, it can promote the continuous optimization of the industrial structure of enterprises and enhance the reduction of greenhouse gas emissions on a global scale, achieving the goal of protecting the environment. In this project, we propose establishing a novel blockchain application in the carbon emission allowance management and trading scenario. We aim to build a consortium chain consisting of numerous enterprises and (government) organizations solving the single point of failure problem. Meanwhile, different organizational structures can join the global carbon trading market through the alliance chain and share data through the alliance chain channel. Convenient cross-border transactions are conducive to the establishment of a worldwide market. Similarly, with the demand for data security and privacy issues, we will consider privacy-preserving mechanisms to protect the transfer of assets, such as the ring signature and the zero-knowledge proof.
+  Fig 1. ETS Project screenshot
+  Fig 2. ETS Project screenshot
+  Fig 3. ETS Project screenshot
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-Present
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/blockchain/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

@@ -1,0 +1,40 @@
+dsa_page: Graph Convolutional Networks: Theory and Fundamentals – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/03/13/graph-convolutional-networks-theory-and-fundamentals/
+source: DSA
+
+headings:
+  - Graph Convolutional Networks: Theory and Fundamentals
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Graph Convolutional Networks: Theory and Fundamentals
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  In recent years, research on analyzing and mining graph data by machine learning methods has received increasing attention due to the significant expressive power of graph-structured data. Graph Neural Networks(GNNs), a family of deep learning-based methods for processing graph data, have shown excellent performance in many fields and have become a widely used method for graph analysis. Among them, spectral-based GNNs are an important class of methods that design and learn different graph convolutions in the Laplacian spectral domain with good theoretical guarantees and interpretability. In this talk, we will introduce relevant tasks and some frontier applications of GNNs. Then we will discuss the theoretical foundation of spectral-based graph neural networks in terms of graph Fourier transform, design of graph convolution, and polynomial approximation of graph filters. Finally, we will introduce some work we have done in spectral-based graph neural networks and offer an outlook for future work.
+  SPEAKER BIO
+  Zhewei WEI
+  Professor
+  Renmin University of China
+  Zhewei Wei is a Professor at the Gaoling School of Artificial Intelligence, Renmin University of China. He received his BSc at the School of Mathematical Sciences, Peking University, in 2008 and his Ph.D. at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology, in 2012. After that, he worked as a Postdoc at MADALGO, Aarhus University, from 2012 to 2014. He joined Renmin University of China and worked as Associate Professor since 2014, and was promoted to professor in 2019. He joined the Gaoling School of Artificial Intelligence in 2020. He has published over 60 papers in top conferences and journals (e.g., SIGMOD, VLDB, ICML, NeurIPS, KDD, SODA) in the database, theoretical computing, data mining, machine learning, etc. He received the Alberto Mendelzon PODS 2022 Test of Time Award and served as the chair of PODS, ICDT, the field chair of ICML, NeurIPS, WWW, and the young scientist of Pengcheng Lab, Guangzhou, China. His Ph.D. students were awarded Baidu Scholarship 2021 (10 worldwide) and Microsoft Scholar 2022 (12 in Asia Pacific).
+  Date
+  15 March 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  695-330-273
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

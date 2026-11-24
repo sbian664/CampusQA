@@ -1,0 +1,98 @@
+dsa_page: Admission Events – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/mphil-admission-events/
+source: DSA
+
+headings:
+  - Information Sessions for PG Programmes @ Guangzhou City
+  - Information Session for MPhil Programmes
+  - Information Sessions for MPhil Programmes @ Hunan Province
+  - Information Sessions for MPhil Programmes @ Northeast China
+  - Information Sessions for MPhil Programmes @ Suzhou City
+  - Open Day for MPhil Programmes
+  - China Education Expo for MPhil Programmes @ Beijing City
+  - China Education Expo for MPhil Programmes @ Chengdu City
+  - China Education Expo for MPhil Programmes @ Guangzhou City
+  - China Education Expo for MPhil Programmes @ Shanghai City
+
+text: >
+  Keyword
+  Speaker
+  Search
+  Find More Events for MPhil Admissions
+  No events.
+  25
+  May 2024
+  Postgraduate Admissions
+  Information Sessions for PG Programmes @ Guangzhou City
+  广州大学城广州华工大学城中心酒店南华厅
+  14:00 - 16:00
+  24
+  Apr 2024
+  Postgraduate Admissions
+  Information Session for MPhil Programmes
+  Online
+  16:30 - 17:00
+  21
+  Apr 2024
+  /
+  22
+  Apr 2024
+  Postgraduate Admissions
+  Information Sessions for MPhil Programmes @ Hunan Province
+  Hunan University, Central South University
+  09
+  Apr 2024
+  /
+  13
+  Apr 2024
+  Postgraduate Admissions
+  Information Sessions for MPhil Programmes @ Northeast China
+  Harbin Institute of Technology, Dalian University of Technology, Jilin University
+  05
+  Mar 2024
+  /
+  06
+  Mar 2024
+  Postgraduate Admissions
+  Information Sessions for MPhil Programmes @ Suzhou City
+  Suzhou, Jiangsu
+  31
+  Jan 2024
+  Postgraduate Admissions
+  Open Day for MPhil Programmes
+  Guangzhou Campus and Online
+  09:30 - 17:30
+  27
+  Oct 2023
+  Postgraduate Admissions
+  China Education Expo for MPhil Programmes @ Beijing City
+  北京国家会议中心一层1号馆-讲座室
+  10:35 - 11:05
+  26
+  Oct 2023
+  Postgraduate Admissions
+  China Education Expo for MPhil Programmes @ Chengdu City
+  成都世外桃源酒店三层 - 水仙厅
+  12:50 - 13:20
+  24
+  Oct 2023
+  Postgraduate Admissions
+  China Education Expo for MPhil Programmes @ Guangzhou City
+  广州越秀国际会议中心一层 - 讲座室
+  13:25 - 13:55
+  22
+  Oct 2023
+  Postgraduate Admissions
+  China Education Expo for MPhil Programmes @ Shanghai City
+  上海世博展览馆地下一层4-1号馆 - 讲座室
+  11:40 - 12:10
+
+links:
+  - Find More Events for MPhil Admissions | https://vptlo.hkust-gz.edu.cn/rbm/
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/25/information-sessions-for-pg-programmes-guangzhou-city/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/25/information-sessions-for-pg-programmes-guangzhou-city/
+  - https://mp.weixin.qq.com/s/Yn0Q7fuT2FmMaKOAQt2IPQ | https://mp.weixin.qq.com/s/Yn0Q7fuT2FmMaKOAQt2IPQ
+  - https://mp.weixin.qq.com/s/wNph9trztY9i-kqEGjbE4w | https://mp.weixin.qq.com/s/wNph9trztY9i-kqEGjbE4w
+  - https://mp.weixin.qq.com/s/nnAJbVNxQSliaupz31DRxA | https://mp.weixin.qq.com/s/nnAJbVNxQSliaupz31DRxA
+  - https://mp.weixin.qq.com/s/5km13lkHlGULeTiLOnQpKA | https://mp.weixin.qq.com/s/5km13lkHlGULeTiLOnQpKA
+  - https://dsa.hkust-gz.edu.cn/blog/2024/01/12/%e7%ba%a2%e9%b8%9f%e7%a1%95%e5%a3%ab%e7%8f%ad%e6%a0%a1%e5%9b%ad%e5%bc%80%e6%94%be%e6%97%a5/ | https://dsa.hkust-gz.edu.cn/blog/2024/01/12/%e7%ba%a2%e9%b8%9f%e7%a1%95%e5%a3%ab%e7%8f%ad%e6%a0%a1%e5%9b%ad%e5%bc%80%e6%94%be%e6%97%a5/
+  - https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg%3D%3D&mid=2247486626&idx=1&sn=9a8d584e2e3db43fd7d8488baff0a2fc&scene=45 | https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg%3D%3D&mid=2247486626&idx=1&sn=9a8d584e2e3db43fd7d8488baff0a2fc&scene=45

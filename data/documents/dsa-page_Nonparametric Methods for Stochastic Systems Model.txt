@@ -1,0 +1,64 @@
+dsa_page: Nonparametric Methods for Stochastic Systems: Model Calibration and Online Decision-Making – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/25/nonparametric-methods-for-stochastic-systems-model-calibration-and-online-decision-making/
+source: DSA
+
+headings:
+  - Nonparametric Methods for Stochastic Systems: Model Calibration and Online Decision-Making
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Nonparametric Methods for Stochastic Systems: Model Calibration and Online Decision-Making
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Qingwen ZHANG
+  ABSTRACT
+  Modern stochastic systems, from computer simulations to real-time decision platforms, increasingly rely on flexible statistical methods that can adapt to complex, high-dimensional data without restrictive parametric assumptions. Nonparametric approaches have emerged as powerful tools for such challenges, offering robustness and scalability. This dissertation focuses on two problems in this domain: (1) improving model calibration for imperfect computer simulations, and (2) developing robust and efficient methods for online decision-making with high-dimensional covariates and fairness constraints.
+  For model calibration of imperfect computer simulations, we propose Sobolev calibration, a flexible nonparametric framework that minimizes discrepancies measured by reproducing kernel Hilbert space (RKHS) norm. Our approach addresses the potential overfitting problem in existing methods while establishing a novel theoretical connection between the classic
+  L
+  2 calibration and Kennedy-O’Hagan’s calibration. The proposed method achieves fast convergence rate, asymptotic normality, and semiparametric efficiency, and is supported by empirical validation.
+  In online decision-making, we tackle two challenges in contextual bandits. First, we propose an algorithm for non-parametric and high-dimensional settings using sparse additive models, which achieves sublinear regret with only polylogarithmic dependence on covariate dimensionality. This is the first such result for nonparametric contextual bandits. We also establish a lower bound, with the gap to the upper bound vanishing as smoothness increases. Second, we introduce a uniform
+  δ
+  -fairness constraint and design contextual bandit algorithms for linear and smooth reward functions to ensure equitable treatment among competing arms while maintaining decision efficiency. Our fair algorithms achieve near-optimal regret bounds in both parametric and nonparametric settings, representing the first systematic treatment of fairness in adversarial environments. Crucially, we expose the fragility of standard fair algorithms, proving that even
+  O
+  e(1) reward corruption can induce persistent unfairness and Ω(
+  T
+  ) regret. To address this, we develop robust variants that preserve fairness guarantees under attacks, with tight minimax regret bounds that adapt to corruption budgets.
+  The thesis makes three primary contributions: (1) a theoretically-grounded calibration framework that improves existing approaches; (2) novel bandit algorithms that overcome dimensionality challenges under nonparametric modeling; and (3) the first attack-resistant fairness guarantees for contextual bandits in both parametric and nonparametric regimes. These advancements are validated through rigorous theoretical analysis and extensive numerical experiments.
+  TEC
+  Chairperson: Prof Gareth John TYSON
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Yuan YAO
+  Examiners:
+  Prof Lei LI
+  Prof Zeyi WEN
+  Prof Xiaowei ZHANG
+  Prof Jun LUO
+  Date
+  15 August 2025
+  Time
+  15:00:00 -
+  17:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 953 4380 9695
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/92307374180?pwd=Ab95oMq3gP3Vv0TqmtzdgwbB38sXU2.1

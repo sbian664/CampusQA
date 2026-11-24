@@ -1,0 +1,50 @@
+dsa_page: Data-effective and data-efficient ML – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/data-effective-and-data-efficient-ml/
+source: DSA
+
+headings:
+  - Data-effective and data-efficient ML
+  - Abstract
+  - Project members
+  - Nan TANG
+  - Yuyu LUO
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Data-effective and data-efficient ML
+  Abstract
+  Data-effective machine learning (ML) (a.k.a. data-centric AI) aims at obtaining high-quality training data to release the value of AI, because it is well-known that dirty data may severely degrade the performance of ML models. Data-efficient ML focuses on making the training process more efficient. A commonly used strategy is to select a core subset of training data (or coreset) to represent the entire dataset such that ML models trained on the coreset can achieve similar performance to the ML models trained on the entire dataset. Apparently, users desire both data-effective ML (for training better ML models) and data-efficient ML (for saving training cost).
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Nan TANG
+  Associate Professor
+  Yuyu LUO
+  Assistant Professor
+  Publications
+  1.
+  GoodCore: Data-effective and Data-efficient Machine Learning through Coreset Selection over Incomplete Data
+  . Chengliang Chai, Jiabin Liu, Nan Tang, Ju Fan, Dongjing Miao, Jiayi Wang, Yuyu Luo, and Guoliang Li.
+  2.
+  Efficient Coreset Selection with Cluster-based Methods
+  . Chengliang Chai, Jiayi Wang, Nan Tang, Ye Yuan, Jiabin Liu, Yuhao Deng, and Guoren Wang.
+  3.
+  Coresets over Multiple Tables for Feature-rich and Data-efficient Machine Learning
+  . Jiayi Wang, Chengliang Chai, Nan Tang, Jiabin Liu, and Guoliang Li.
+  Project Period
+  2023-Present
+  Research Area
+  Data-centric AI
+  Keywords
+  data quality, data-centric AI
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://nantang.github.io/projects/dcai-coresets/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - GoodCore: Data-effective and Data-efficient Machine Learning through Coreset Selection over Incomplete Data | https://dl.acm.org/doi/pdf/10.1145/3589302
+  - Efficient Coreset Selection with Cluster-based Methods | https://dl.acm.org/doi/pdf/10.1145/3580305.3599326?casa_token=vVj9smXcL-0AAAAA:LsoBhBN52G75vwo6thoBSYH1G0d1lgHTOfRtOXkvCJ8zFhjWA7ruXahmSMcw6FwBe_zZwwYreVK8xEWT
+  - Coresets over Multiple Tables for Feature-rich and Data-efficient Machine Learning | https://dl.acm.org/doi/pdf/10.14778/3561261.3561267?casa_token=wOh3sUPLcYgAAAAA:EQTf4vrsC0EMQ29gehIMXbqHB8i6hqTFIpPsrvPGXK3hhyOglMmcc6ypyoNNwiqU6MF85mfVz2Zi9ydo

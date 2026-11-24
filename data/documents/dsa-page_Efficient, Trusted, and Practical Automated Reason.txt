@@ -1,0 +1,33 @@
+dsa_page: Efficient, Trusted, and Practical Automated Reasoning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/26/efficient-trusted-and-practical-automated-reasoning/
+source: DSA
+
+headings:
+  - Efficient, Trusted, and Practical Automated Reasoning
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA Seminar
+  Efficient, Trusted, and Practical Automated Reasoning
+  Share to
+  ABSTRACT
+  Automated reasoning lies at the intersection of AI and formal methods, serving as a foundation for verifying hardware, accelerating software development, and securing large-scale cloud systems. Over decades, real-world applications have transformed automated reasoning into a core technology, yet scalability and reliability remain fundamental challenges due to computational complexity and subtle correctness flaws.
+  In this talk, I present research aimed at advancing efficient and trusted automated reasoning from both theoretical and practical perspectives, while extending its impact to emerging domains. First, I introduce a randomized approximate counting algorithm that balances estimation error and solves 23% of instances that were previously out of reach for the state of the art. Second, I present the first formally certified approximate counter that ensures provably reliable model counts via a static proof in Isabelle/HOL and dynamic per-run validation, establishing a new approach to verifying randomized algorithms. Finally, I show how automated reasoning benefits emerging domains: in machine learning, we developed an efficient certified verifier for binarized neural networks that achieves a 218× speedup over existing methods, enabling the first practical certified neural network verification.
+  SPEAKER BIO
+  Jiong Yang is a PhD student in the School of Computer Science at the Georgia Institute of Technology, advised by Kuldeep S. Meel. His research advances automated reasoning from both theoretical and practical perspectives, with the goal of developing efficient, trusted, and practical reasoning techniques. His work has been recognized with Distinguished Paper Awards at CAV 2023 and 2024, as well as Best Student Paper Runner-Up Awards at SAT 2024 and 2025.
+  Date
+  30 March 2026
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  E3-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

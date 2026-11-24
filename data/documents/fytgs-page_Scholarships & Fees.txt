@@ -1,0 +1,51 @@
+fytgs_page: Scholarships & Fees
+url: https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/scholarships-fees
+source: FYTGS
+
+headings:
+  - Postgraduate Studentship (PGS)
+  - Application Fees
+  - Tuition Fees
+  - Fees for Accommodation
+
+text: >
+  Postgraduate Studentship (PGS)
+  CNY 10,000 per month, up to 2 years for full-time MPhil students
+  CNY 15,000 per month, up to 4 years for full-time PhD students
+  For more details about PGS, please refer to
+  Terms and Conditions of Postgraduate Studentships
+  .
+  Application Fees
+  Research Postgraduate Programs (MPhil or PhD)
+  CNY 150
+  Taught Postgraduate Programs (MSc, MFA, MBA)
+  Fees vary for each program. Please refer to
+  fytgs.hkust-gz.edu.cn/programs
+  (“Application”) for details.
+  Visiting Postgraduate Students
+  CNY 250 per application
+  Visiting Research Students
+  CNY 250 per application
+  Tuition Fees
+  Research Postgraduate Programs (with PGS) Full-time
+  CNY 40,000 per academic year
+  CNY 60,000 per academic year (for the 2027/28 intake and thereafter)
+  Research Postgraduate Programs (self-financing) Full-time/Part-time
+  CNY 150,000 per academic year
+  Taught Postgraduate Programs
+  Fees vary for each program. Please refer to
+  fytgs.hkust-gz.edu.cn/programs
+  (“General Information”) for details.
+  Visiting Postgraduate Students
+  Taught Postgraduate Courses: Charged on a per-credit basis. Please check with the respective Program Offices for details.
+  Research Postgraduate Courses: CNY 7,500 per credit
+  Visiting Research Students
+  CNY 1,800 per credit
+  Fees for Accommodation
+  Any enquiries please contact the Student Quarter Working Team (GZ) at
+  studentquarter@hkust-gz.edu.cn
+  .
+
+links:
+  - Terms and Conditions of Postgraduate Studentships | https://fytgs.hkust-gz.edu.cn/pgs
+  - fytgs.hkust-gz.edu.cn/programs | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/

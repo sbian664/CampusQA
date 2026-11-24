@@ -1,0 +1,43 @@
+dsa_page: Bridging the Gap between LLM Capabilities andTrustworthy Deployment – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/05/bridging-the-gap-between-llm-capabilities-andtrustworthy-deployment/
+source: DSA
+
+headings:
+  - Bridging the Gap between LLM Capabilities andTrustworthy Deployment
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Bridging the Gap between LLM Capabilities andTrustworthy Deployment
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Exam
+  By Mr. HE, Yanji
+  Abstract
+  Large Language Models (LLMs) have demonstrated remarkable capabilities across natural language understanding, reasoning, and generation, yet a persistent gap between model competence and trustworthy deployment limits their adoption in consequential domains. This thesis proposal argues that the central barrier is the misalignment between internal model competence and externally observable behavior, which manifests across generation, decision-making, and inference. We present three interconnected studies that address complementary dimensions of this challenge through a unifying principle: replacing implicit trust in LLM behavior with explicit, externally verifiable contracts.
+  First, DocFollow introduces a comprehensive benchmark of 2,436 expert-validated instances across 5 domains and 20 subdomains for evaluating hierarchical constraint adherence in long-form generation. A reliability-grounded evaluation protocol decomposes assessment into atomic-level classification tasks—Named Entity Recognition and Relation Extraction—whose accuracy is empirically validated against human experts (ICC = 0.86). Systematic evaluation of 13 state-of-the-art LLMs reveals consistent granularity-dependent degradation: performance drops from 57–95% on document-level constraints to 16–61% on entity-level constraints, indicating architectural rather than scaling limitations.
+  Second, IDEA (Interpretable and Editable Decision-Making Framework) addresses the trust deficit in LLM-based decision-making by externalizing model knowledge into an interpretable logistic model over semantically meaningful binary factors. Two technical innovations—joint Expectation-Maximization estimation of verbal-to-numerical mappings and decision parameters, and correlated Monte Carlo sampling preserving factor dependencies—enable calibrated probabilities and quantitative human-AI collaboration through direct parameter editing with mathematical guarantees. IDEA with Qwen-3-32B (78.6%) outperforms both DeepSeek-R1 (68.1%) and GPT-5.2 (77.9%), while achieving perfect factor exclusion (ERR = 1.00) and exact calibration (relative error = 0.00).
+  Third, Batch Cascade provides provable, user-controllable accuracy guarantees for large-scale multi-model semantic filtering through a three-tier architecture with two-stage sequential Conformal Risk Control calibration. Under a strict data-splitting protocol ensuring batch-level exchangeability, the system satisfies an additive risk bound E[Rtotal] ⩽ α1 + α2 + β3. On FEVER (165K samples), this architecture compresses large-model invocations to 1.5% while maintaining 92.8% accuracy.
+  Together, these three works establish externally verifiable contracts—constraint specifications for generation, auditable parameters for decisions, and statistical guarantees for inference—toward bridging the gap between LLM capabilities and trustworthy deployment.
+  TPE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WANG, Wei
+  Co-Supervisor: Prof. WEI, Jiaheng(online)
+  Examiner: Prof. LI, Lei
+  Date
+  10 June 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-150, HKUST-GZ
+  Join Link
+  Zoom Meeting ID:
+  951 5646 6947
+  Passcode: dsa2026

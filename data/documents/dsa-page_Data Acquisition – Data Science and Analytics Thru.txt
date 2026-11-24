@@ -1,0 +1,46 @@
+dsa_page: Data Acquisition – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/data-acquisition/
+source: DSA
+
+headings:
+  - Data Acquisition
+  - Abstract
+  - Project members
+  - Nan TANG
+  - Yuyu LUO
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Data Acquisition
+  Abstract
+  In many supervised ML projects, the main bottleneck is the lack of sufficient labeled train data (a.k.a. data-centric ML), not which ML models to use and how to optimize these models (a.k.a. model-centric ML), especially for ML practitioners. The process of getting more labeled data is known as data acquisition, which is categorized into two classes: human-in-the-loop and automatic data acquisition. Human-in-the-loop data acquisition includes weak supervision where users need to define rules (e.g., Snorkel, data programming), and crowd- and expert-sourcing. Automatic data acquisition uses automatic methods to obtain more train data.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Nan TANG
+  Associate Professor
+  Yuyu LUO
+  Assistant Professor
+  Publications
+  1.
+  Selective Data Acquisition in the Wild for Model Charging
+  . Chengliang Chai, Jiabin, Nan Tang, Guoliang Li, and Yuyu Luo.
+  2.
+  Automatic Data Acquisition for Deep Learning
+  . Jiabin Liu, Fu Zhu, Chengliang Chai, Yuyu Luo, and Nan Tang.
+  Project Period
+  2022-Present
+  Research Area
+  Data-centric AI
+  Keywords
+  acquisition, ML, training data
+
+links:
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://nantang.github.io/projects/dcai-acquisition/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo
+  - Selective Data Acquisition in the Wild for Model Charging | https://dl.acm.org/doi/pdf/10.14778/3523210.3523223?casa_token=qbdd8sop56UAAAAA:Fdt8tjfRdlJ_8AYTNgLxjkc3Mk0086cRIgOh70OTGX67cmufz-e6ufaaivMeGUJA5TTQEPrI8YvEyBH7
+  - Automatic Data Acquisition for Deep Learning | https://dl.acm.org/doi/pdf/10.14778/3476311.3476333?casa_token=7AMGgeAqgEcAAAAA:sWrPE-1V8wjYGCzpUNevPnFrs_1kG-MLQrBWTQyZOJW1x621Q6Bo12M68N1fQKe8pt9biVlrxaKK_6pe

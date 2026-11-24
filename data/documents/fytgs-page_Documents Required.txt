@@ -1,0 +1,57 @@
+fytgs_page: Documents Required
+url: https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/documents-required
+source: FYTGS
+
+headings:
+  - Documents Required
+  - a. Identity Document
+  - b. Official Transcripts and Degree Certificates of Academic Qualification
+  - c. Institution Grading System
+  - d. Proof of English Proficiency
+  - e. Public Exam Score Reports
+  - f. Proposed Research Plan and Past Research Experience (for application to Research Postgraduate Programs)
+  - g. Academic References
+  - Smart Tips: What if some of the above documents are not yet available?
+
+text: >
+  Documents Required
+  Prepare the documents listed below, which are useful for evaluating your application. Scan and upload the following documents to the Online Admission System. No need to send the paper documents to us by mail at the application stage.
+  a. Identity Document
+  Applicants from China’s mainland: valid Mainland ID Card
+  Applicants from Hong Kong, Macao and Taiwan regions of China: ID Card and Mainland Travel Permit
+  International Applicants: valid Passport
+  b. Official Transcripts and Degree Certificates of Academic Qualification
+  To cover the full tertiary education history
+  Latest transcript if the degree program is not yet completed
+  Final transcript and degree certificate for a completed program
+  c. Institution Grading System
+  To show the transcript legends/ keys/ grading scales; normally found at the back of the transcript or student handbook
+  d. Proof of English Proficiency
+  TOEFL/IELTS (Academic Module) score report, if available; or
+  An official letter confirming that you obtained your bachelor's degree from an institution where the medium of instruction is English
+  Not required if your first language is English
+  e. Public Exam Score Reports
+  Required only if there is a
+  Program-Specific Requirement
+  on public examination achievements, e.g. GMAT, GRE
+  f. Proposed Research Plan and Past Research Experience (for application to Research Postgraduate Programs)
+  Experience or participation in research projects
+  Proposed research topic and plan for research
+  Please refer to the
+  Online Admission System
+  for details
+  g. Academic References
+  Nominate 2-5 referees to support your application
+  The referees will be invited by email to complete a reference report online
+  Smart Tips: What if some of the above documents are not yet available?
+  Documents which are expected to be available after application submission:
+  Provide the expected date which you will receive the result and fill in the result in the Online Admission System when it is available
+  Documents which are available after getting the offer:
+  Send the official documents to substantiate your qualifications, click
+  here
+  for details
+
+links:
+  - Program-Specific Requirement | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - Online Admission System | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/submitting-official-documents/

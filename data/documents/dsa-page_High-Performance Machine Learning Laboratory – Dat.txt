@@ -1,0 +1,438 @@
+dsa_page: High-Performance Machine Learning Laboratory – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/
+source: DSA
+
+headings:
+  - Lab Directors
+  - Xiaowen CHU
+  - Qiong LUO
+  - Zeyi WEN
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  - Efficient Machine Learning on GPUs
+  - GALLOP: GPU Acceleration for Genomics Applications
+  - Hyper-Parameter Optimization
+  - Privacy Preserved and Efficient Bayesian Network Training and Inference
+  - Resource Efficient LLM Fine-tuning and Serving
+  - Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors
+
+text: >
+  Lab Overview
+  Lab Members
+  Research Projects
+  Publications
+  Join us
+  The High-Performance Machine Learning (HPML) Laboratory focuses on developing fast and resource-efficient machine learning algorithms using high-performance computing techniques. Our research concentrates on two primary areas:
+  High-Performance Machine Learning Systems
+  Efficient Machine Learning Algorithms
+  Collaborating closely with the HPC platform team at HKUST(GZ), our lab is equipped with state-of-the-art computing resources, enabling us to undertake ambitious research endeavors.
+  Furthermore, our lab is supported by multiple competitive research grants, including funding from prestigious institutions such as the National Natural Science Foundation of China (NSFC) and the China Computer Federation (CCF). These grants not only validate the importance of our research but also provide the financial backing necessary to drive innovation and make significant contributions to the field of machine learning.
+  Through our interdisciplinary approach and dedication to excellence, the HPML Laboratory is poised to continue making breakthroughs that push the boundaries of what is possible in high-performance machine learning.
+  We have a track record of publications in top-tier conferences and journals. Some recent achievements include:
+  April
+  2025:
+  The
+  paper “
+  SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs
+  ” has
+  received
+  the
+  Best Paper Award
+  of
+  EuroSys 2025
+  . Congratulatios to Mr. Ruibo FAN and all co-authors!
+  March
+  2025:
+  T
+  wo
+  papers “
+  Mitigating Contention in Stream Multiprocessors for Pipelined Mixture of Experts: An SM-Aware Scheduling Approach
+  ” and "Mast: Efficient Training of Mixture-of-Experts Transformers with Task Pipelining and Ordering" ha
+  ve
+  been accepted by
+  ICDCS
+  2025
+  . Congratulatios to Mr.
+  Xinglin PAN
+  and all co-authors! (
+  104
+  papers were accepted out of
+  529
+  submissions)
+  Jan
+  202
+  5
+  :
+  The
+  paper “
+  SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs
+  ” has been accepted by
+  EuroSys 202
+  5
+  . Congratulatios to Mr. Ruibo FAN and all co-authors!
+  (30 papers were accepted out of 367 new submissions in this Fall Submission round)
+  Jan
+  202
+  5
+  :
+  Th
+  ree
+  papers got accepted by
+  ICLR 2025
+  : “
+  STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs
+  ”, "
+  Hot-pluggable Federated Learning: Bridging General and Personalized FL via Dynamic Selection
+  ", and “
+  The Lottery LLM Hypothesis, Rethinking What Abilities Should LLM Compression Preserve?
+  " (Blogpost Track). Congratulations to Mr. Peijie DONG
+  , Dr. Zhenheng TANG, and
+  all co-authors!
+  Dec 2024:
+  The
+  paper “
+  ParZC: Parametric Zero-Cost Proxies for Efficient NAS
+  ” has been accepted by
+  AAAI
+  2025
+  and selected for oral presentation
+  . Congratulations to Mr.
+  Peijie DONG
+  and all co-authors! (600 oral presentations out of 30
+  32
+  accepted papers out of 12,957 submissions)
+  Dec
+  2024:
+  The
+  paper “
+  FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models
+  ” has been accepted by
+  ACM ASPLOS 202
+  5
+  . Congratulations to Mr.
+  Xinglin PAN and all co-authors
+  !
+  Sept 2024: The paper “
+  FuseFL: One-Shot Federated Learning through the Lens of Causality with Progressive Model Fusion
+  ” has been accepted by
+  NeurIPS 2024
+  as a
+  spotlight
+  .
+  Two papers “
+  Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models
+  ” and “
+  Should We Really Edit Language Models? On the Evaluation of Edited Language Models
+  ” has been accepted by
+  NeurIPS 2024
+  .
+  Sept 2024: Two papers “
+  LongGenBench: Long-context Generation Benchmark
+  ” and "
+  LPZero: Language Model Zero-cost Proxy Search from Zero
+  " have been accepted by
+  EMNLP Findings 2024
+  .
+  July 2024: The paper “
+  3D Question Answering for City Scene Understanding
+  ” has been accepted by
+  ACM International Conference on Multimedia 2024
+  .
+  July 2024: The paper “
+  Multi-Task Domain Adaptation for Language Grounding with 3D Objects
+  ” has been accepted by
+  ECCV 2024
+  .
+  May 2024: The paper “
+  BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation
+  ” has been accepted by
+  ACL 2024
+  , and the paper "
+  Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing
+  " has been accepted by
+  ACL Findings 2024
+  .
+  May 2024: The paper “
+  Pruner-Zero: Evolving Symbolic Pruning Metric From Scratch for Large Language Models
+  ” was accepted by
+  ICML 2024
+  .
+  May 2024: The paper on
+  PGM inference acceleration
+  was accepted by
+  USENIX ATC'24
+  .
+  March 2024: The paper “
+  DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multiplication with Tensor Cores
+  ” was accepted by
+  ACM ASPLOS 2024
+  .
+  Feb 2024: The paper “
+  FedImpro: Measuring and Improving Client Update in Federated Learning
+  ,” has been accepted by
+  ICLR 2024
+  .
+  Feb 2024: The paper on
+  Hyper-parameter Optimization with Adaptive Fidelity
+  was accepted by
+  CVPR'24
+  .
+  Feb 2024: The paper “
+  ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling
+  ” has been accepted by
+  EuroSys 2024
+  .
+  Jan 2024: The paper on
+  Bandit-based Hyperparameter Optimization
+  was accepted by
+  ICDE'24
+  .
+  Dec 2023: The paper “
+  Benchmarking and Dissecting the Nvidia Hopper GPU Architecture
+  ” has been accepted by
+  IEEE IPDPS 2024
+  .
+  Dec 2023: The paper “
+  CF-NeRF: Camera Parameter Free Neural Radiance Fields with Incremental Learning
+  ” has been accepted by
+  AAAI 2024
+  .
+  Dec 2023: Two papers “
+  Parm: Efficient Training of Large Sparsely-Activated Models with Dedicated Schedules
+  ” and "
+  Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference
+  " have been accepted by
+  IEEE INFOCOM 2024
+  .
+  Nov 2023: The paper “
+  Asteroid: Resource-Efficient Hybrid Pipeline Parallelism for Collaborative DNN Training on Heterogeneous Edge Devices
+  ” has been conditionally accepted by
+  ACM Mobicom 2024
+  .
+  May 2023: ] The paper “
+  Adaprop: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning
+  ” has been accepted by
+  ACM KDD 2023
+  .
+  April 2023: Two papers “
+  Evaluation and Optimization of Gradient Compression for Distributed Deep Learning
+  ” and “
+  Accelerating Distributed Deep Learning with Fine-Grained All-Reduce Pipelining
+  ” have been accepted by
+  IEEE ICDCS 2023
+  .
+  March 2023: The paper “
+  Improving Fairness in Coexisting 5G and Wi-Fi Network on Unlicensed Band with URLLC
+  ” has been accepted by
+  IEEE/ACM IWQoS 2023
+  .
+  Jan 2023: The paper “
+  Fast Sparse GPU Kernels for Accelerated Training of Graph Neural Networks
+  ” has been accepted by
+  IEEE IPDPS 2023
+  .
+  Dec 2022: The paper “
+  GossipFL: A Decentralized Federated Learning Framework with Sparsified and Adaptive Communication
+  ” has been accepted by
+  IEEE TPDS
+  .
+  Dec 2022: The paper “
+  PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining
+  ” has been accepted by
+  IEEE INFOCOM 2023
+  .
+  Nov 2022: Two papers “
+  Rethinking Disparity: A depth range free Multi-View Stereo based on Disparity
+  ” and "
+  NAS-LID: Efficient Neural Architecture Search with Local Intrinsic Dimension
+  " have been accepted by
+  AAAI 2023
+  .
+  May 2021: The paper “
+  Exploiting Simultaneous Communications to Accelerate Data Parallel Distributed Deep Learning
+  ” has received the
+  Best Paper Award
+  of
+  IEEE INFOCOM 2021
+  . A preprint can be found at
+  arXiv
+  .
+  April 2021: The paper “
+  BU-Trace: A Permissionless Mobile System for Privacy-Preserving Intelligent Contact Tracing
+  ” has received the
+  Best Paper Award
+  of
+  the 2021 International Workshop on Mobile Ubiquitous Systems and Technologies
+  , collated with
+  DASFAA 2021
+  . A preprint can be found at
+  arXiv
+  .
+  For more information, please visit the homepages of
+  Prof. Xiaowen CHU
+  ,
+  Prof. Qiong LUO
+  and
+  Prof. Zeyi Wen
+  .
+  We are actively recruiting talented individuals to join our team. Open positions include opportunities for PhD students, Postdocs, and Research Assistants. If you are passionate about high-performance machine learning and eager to make meaningful contributions to the field, we welcome you to explore opportunities within our dynamic and collaborative research environment.
+  Lab Overview
+  Lab Members
+  Research Projects
+  Publications
+  Join us
+  Lab Directors
+  Xiaowen CHU
+  Professor
+  Qiong LUO
+  Professor
+  Zeyi WEN
+  Assistant Professor
+  Xu HAN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Weile LUO
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Ruibo FAN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Song TANG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Wanyun ZHOU
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Xinglin PAN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Longteng ZHANG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Peijie DONG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Penglei SUN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Xiang LIU
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Zeyu LI
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Hongbin LIU
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Zhuoyang CHEN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Guanghua LI
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Ruoqi WANG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Yijie LIAN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Xinran SHI
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Jiayi ZHU
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Gongyao JIANG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Xuemei PENG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Jihang LI
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Minping CHEN
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Yuebin XU
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Xinhao HUANG
+  PhD student
+  DSA Thrust, HKUST(GZ)
+  Tong YUAN
+  MPhil student
+  DSA Thrust, HKUST(GZ)
+  Zhenheng TANG
+  Intern
+  DSA Thrust, HKUST(GZ)
+  Accord: Accelerating Big Data Applications on Heterogeneous Processors
+  Qiong LUO
+  Efficient Machine Learning on GPUs
+  Zeyi WEN
+  Efficiency, GPUs, Inference, Machine Learning, Training
+  GALLOP: GPU Acceleration for Genomics Applications
+  Qiong LUO
+  Hyper-Parameter Optimization
+  Zeyi WEN
+  Hyper-parameter Optimization, Machine Learning, Resource Efficiency
+  Privacy Preserved and Efficient Bayesian Network Training and Inference
+  Zeyi WEN
+  Resource Efficient LLM Fine-tuning and Serving
+  Zeyi WEN
+  Efficiency, Fine-tuning, Large Language Models, Model Serving
+  Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors
+  Qiong LUO
+
+links:
+  - SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs | https://dl.acm.org/doi/10.1145/3689031.3717481
+  - STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs | https://arxiv.org/pdf/2408.01803
+  - Hot-pluggable Federated Learning: Bridging General and Personalized FL via Dynamic Selection | https://openreview.net/pdf?id=B8akWa62Da
+  - The Lottery LLM Hypothesis, Rethinking What Abilities Should LLM Compression Preserve? | https://arxiv.org/pdf/2502.17535
+  - ParZC: Parametric Zero-Cost Proxies for Efficient NAS | https://ojs.aaai.org/index.php/AAAI/article/view/33793/35948
+  - FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models | https://arxiv.org/pdf/2501.10714
+  - FuseFL: One-Shot Federated Learning through the Lens of Causality with Progressive Model Fusion | http://Lab Overview Lab Members Research Projects Publications Join us  The High-Performance Machine Learning (HPML) Laboratory focuses on developing fast and resource-efficient machine learning algorithms using high-performance computing techniques. Our research concentrates on two primary areas:  High-Performance Machine Learning Systems Efficient Machine Learning Algorithms  Collaborating closely with the HPC platform team at HKUST(GZ), our lab is equipped with state-of-the-art computing resources, enabling us to undertake ambitious research endeavors. Our resources include:  19,152 Intel CPUs 2,560 AMD CPUs 1,728 Kunpeng CPUs 528 Nvidia A800 and H100 GPUs 64 Nvidia A30 GPUs 64 Ascend 910 Pro AI Processors 6,573 TB of HDDs 309 TB of SSDs  These formidable computing assets empower us to tackle complex problems in machine learning with unprecedented scale and efficiency. Furthermore, our lab is supported by multiple competitive research grants, including funding from prestigious institutions such as the National Natural Science Foundation of China (NSFC) and the China Computer Federation (CCF). These grants not only validate the importance of our research but also provide the financial backing necessary to drive innovation and make significant contributions to the field of machine learning. Through our interdisciplinary approach and dedication to excellence, the HPML Laboratory is poised to continue making breakthroughs that push the boundaries of what is possible in high-performance machine learning.       We have a track record of publications in top-tier conferences and journals. Some recent achievements include:  Sept 2024: The paper “FuseFL: One-Shot Federated Learning through the Lens of Causality with Progressive Model Fusion” has been accepted by NeurIPS 2024 as a spotlight.  [26 Sept 2024] The paper “Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models” has been accepted by NeurIPS 2024. Congratulations to Mr. Peijie DONG and all co-authors! [26 Sept 2024] The paper “Should We Really Edit Language Models? On the Evaluation of Edited Language Models” has been accepted by NeurIPS 2024. Congratulations to Mr. Qi LI and all co-authors! [20 Sept 2024] Two papers “LongGenBench: Long-context Generation Benchmark” and "LPZero: Language Model Zero-cost Proxy Search from Zero" have been accepted by EMNLP Findings 2024. Congratulations to Mr. Xiang LIU and Mr. Peijie Dong and all co-authors! [16 July 2024] The paper “3D Question Answering for City Scene Understanding” has been accepted by ACM International Conference on Multimedia 2024. Congratulations to Mr. Penglei Sun again! [1 July 2024] The paper “Multi-Task Domain Adaptation for Language Grounding with 3D Objects” has been accepted by ECCV 2024. Congratulations to Mr. Penglei Sun!  May 2024: The paper “BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation” has been accepted by ACL 2024, and the paper "Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing" has been accepted by ACL Findings 2024. May 2024: The paper “Pruner-Zero: Evolving Symbolic Pruning Metric From Scratch for Large Language Models” was accepted by ICML 2024. May 2024: The paper on PGM inference acceleration was accepted by USENIX ATC'24. March 2024: The paper “DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multiplication with Tensor Cores” was accepted by ACM ASPLOS 2024. Feb 2024: The paper “FedImpro: Measuring and Improving Client Update in Federated Learning,” has been accepted by ICLR 2024. Feb 2024: The paper on Hyper-parameter Optimization with Adaptive Fidelity was accepted by CVPR'24. Feb 2024: The paper “ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling” has been accepted by EuroSys 2024. Jan 2024: The paper on Bandit-based Hyperparameter Optimization was accepted by ICDE'24. Dec 2023: The paper “Benchmarking and Dissecting the Nvidia Hopper GPU Architecture” has been accepted by IEEE IPDPS 2024. Dec 2023: The paper “CF-NeRF: Camera Parameter Free Neural Radiance Fields with Incremental Learning” has been accepted by AAAI 2024. Dec 2023: Two papers “Parm: Efficient Training of Large Sparsely-Activated Models with Dedicated Schedules” and "Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference" have been accepted by IEEE INFOCOM 2024. Nov 2023: The paper “Asteroid: Resource-Efficient Hybrid Pipeline Parallelism for Collaborative DNN Training on Heterogeneous Edge Devices” has been conditionally accepted by ACM Mobicom 2024. May 2023: ] The paper “Adaprop: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning” has been accepted by ACM KDD 2023. April 2023: Two papers “Evaluation and Optimization of Gradient Compression for Distributed Deep Learning” and “Accelerating Distributed Deep Learning with Fine-Grained All-Reduce Pipelining” have been accepted by IEEE ICDCS 2023. March 2023: The paper “Improving Fairness in Coexisting 5G and Wi-Fi Network on Unlicensed Band with URLLC” has been accepted by IEEE/ACM IWQoS 2023. Jan 2023: The paper “Fast Sparse GPU Kernels for Accelerated Training of Graph Neural Networks” has been accepted by IEEE IPDPS 2023. Dec 2022: The paper “GossipFL: A Decentralized Federated Learning Framework with Sparsified and Adaptive Communication” has been accepted by IEEE TPDS. Dec 2022: The paper “PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining” has been accepted by IEEE INFOCOM 2023. Nov 2022: Two papers “Rethinking Disparity: A depth range free Multi-View Stereo based on Disparity” and "NAS-LID: Efficient Neural Architecture Search with Local Intrinsic Dimension" have been accepted by AAAI 2023. May 2021: The paper “Exploiting Simultaneous Communications to Accelerate Data Parallel Distributed Deep Learning” has received the Best Paper Award of IEEE INFOCOM 2021. A preprint can be found at arXiv. April 2021: The paper “BU-Trace: A Permissionless Mobile System for Privacy-Preserving Intelligent Contact Tracing” has received the Best Paper Award of the 2021 International Workshop on Mobile Ubiquitous Systems and Technologies, collated with DASFAA 2021. A preprint can be found at arXiv.  For more information, please visit the homepages of Prof. Xiaowen CHU, Prof. Qiong LUO  and Prof. Zeyi Wen.  We are actively recruiting talented individuals to join our team. Open positions include opportunities for PhD students, Postdocs, and Research Assistants. If you are passionate about high-performance machine learning and eager to make meaningful contributions to the field, we welcome you to explore opportunities within our dynamic and collaborative research environment.
+  - Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models | https://neurips.cc/virtual/2024/poster/93422
+  - Should We Really Edit Language Models? On the Evaluation of Edited Language Models | https://arxiv.org/pdf/2410.18785
+  - LongGenBench: Long-context Generation Benchmark | https://arxiv.org/pdf/2410.04199
+  - LPZero: Language Model Zero-cost Proxy Search from Zero | https://arxiv.org/pdf/2410.04808
+  - 3D Question Answering for City Scene Understanding | https://arxiv.org/pdf/2407.17398
+  - Multi-Task Domain Adaptation for Language Grounding with 3D Objects | https://arxiv.org/pdf/2407.02846
+  - BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation | https://arxiv.org/pdf/2402.10631
+  - Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing | https://aclanthology.org/2024.findings-acl.323.pdf
+  - Pruner-Zero: Evolving Symbolic Pruning Metric From Scratch for Large Language Models | https://arxiv.org/pdf/2406.02924
+  - DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multiplication with Tensor Cores | https://dl.acm.org/doi/pdf/10.1145/3620666.3651378
+  - FedImpro: Measuring and Improving Client Update in Federated Learning | https://arxiv.org/pdf/2402.07011
+  - ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling | https://dl.acm.org/doi/pdf/10.1145/3627703.3650083
+  - Benchmarking and Dissecting the Nvidia Hopper GPU Architecture | https://arxiv.org/pdf/2402.13499
+  - CF-NeRF: Camera Parameter Free Neural Radiance Fields with Incremental Learning | https://ojs.aaai.org/index.php/AAAI/article/download/28464/28903
+  - Parm: Efficient Training of Large Sparsely-Activated Models with Dedicated Schedules | https://arxiv.org/pdf/2407.00599
+  - Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference | http://brandonye.tech/publication/galaxy/
+  - Asteroid: Resource-Efficient Hybrid Pipeline Parallelism for Collaborative DNN Training on Heterogeneous Edge Devices | http://brandonye.tech/publication/asteroid/
+  - Adaprop: Learning Adaptive Propagation for Graph Neural Network based Knowledge Graph Reasoning | https://dl.acm.org/doi/pdf/10.1145/3580305.3599404
+  - Evaluation and Optimization of Gradient Compression for Distributed Deep Learning | https://ieeexplore.ieee.org/iel7/10272385/10272393/10272442.pdf
+  - Accelerating Distributed Deep Learning with Fine-Grained All-Reduce Pipelining | https://ieeexplore.ieee.org/iel7/10272385/10272393/10272398.pdf
+  - Improving Fairness in Coexisting 5G and Wi-Fi Network on Unlicensed Band with URLLC | https://ieeexplore.ieee.org/iel7/10188660/10188690/10188806.pdf
+  - Fast Sparse GPU Kernels for Accelerated Training of Graph Neural Networks | https://ieeexplore.ieee.org/iel7/10177277/10177383/10177444.pdf
+  - GossipFL: A Decentralized Federated Learning Framework with Sparsified and Adaptive Communication | https://ieeexplore.ieee.org/iel7/71/4359390/09996127.pdf
+  - PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining | https://ieeexplore.ieee.org/iel7/10228851/10228852/10228874.pdf
+  - Rethinking Disparity: A depth range free Multi-View Stereo based on Disparity | https://ojs.aaai.org/index.php/AAAI/article/view/25413/25185
+  - NAS-LID: Efficient Neural Architecture Search with Local Intrinsic Dimension | https://ojs.aaai.org/index.php/AAAI/article/download/25949/25721
+  - Exploiting Simultaneous Communications to Accelerate Data Parallel Distributed Deep Learning | https://ieeexplore.ieee.org/iel7/9488422/9488423/09488803.pdf
+  - arXiv | https://www.comp.hkbu.edu.hk/~chxw/papers/infocom2021.pdf
+  - BU-Trace: A Permissionless Mobile System for Privacy-Preserving Intelligent Contact Tracing | https://arxiv.org/pdf/2101.09653
+  - arXiv | https://arxiv.org/abs/2101.09653
+  - Prof. Xiaowen CHU | https://sites.google.com/view/chuxiaowen/
+  - Prof. Qiong LUO | https://cse.hkust.edu.hk/~luo/
+  - Prof. Zeyi Wen | https://zeyiwen.github.io/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi
+  - Peijie DONG | https://github.com/pprp
+  - Xiang LIU | https://dominic789654.notion.site/Xiang-Liu-dbfd0c32ac634066992a20b717925eb9
+  - Accord: Accelerating Big Data Applications on Heterogeneous Processors Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/accord-accelerating-big-data-applications-on-heterogeneous-processors/
+  - Efficient Machine Learning on GPUs Zeyi WEN Efficiency, GPUs, Inference, Machine Learning, Training | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/efficient-machine-learning-on-gpus/
+  - GALLOP: GPU Acceleration for Genomics Applications Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/gallop-gpu-acceleration-for-genomics-applications/
+  - Hyper-Parameter Optimization Zeyi WEN Hyper-parameter Optimization, Machine Learning, Resource Efficiency | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/hyper-parameter-optimization/
+  - Privacy Preserved and Efficient Bayesian Network Training and Inference Zeyi WEN | https://dsa.hkust-gz.edu.cn/blog/2024/04/14/privacy-preserved-and-efficient-bayesian-network-training-and-inference/
+  - Resource Efficient LLM Fine-tuning and Serving Zeyi WEN Efficiency, Fine-tuning, Large Language Models, Model Serving | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/resource-efficient-llm-fine-tuning-and-serving/
+  - Star Flow: Accelerating Online Processing of Astronomic Data on Heterogeneous Processors Qiong LUO | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/star-flow-accelerating-online-processing-of-astronomic-data-on-heterogeneous-processors/

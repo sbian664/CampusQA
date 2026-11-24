@@ -1,0 +1,38 @@
+dsa_page: MatrixOne: A Cloud Native HTASP Database – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/09/25/matrixone-a-cloud-native-htasp-database/
+source: DSA
+
+headings:
+  - MatrixOne: A Cloud Native HTASP Database
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  MatrixOne: A Cloud Native HTASP Database
+  Share to
+  * Students who enroll in DSAA 6101 must attend the seminar in classroom.
+  ABSTRACT
+  The cloud environment markedly differs from traditional on-premise data centers. For database designers, the cloud presents a myriad of opportunities and challenges. Matrix Origin has developed the MatrixOne database from ground up for the cloud, to leverage these unique advantages. We will delve into the architecture and the rationale behind the design choices of the MatrixOne database. Additionally, we will discuss some of the advanced features of MatrixOne and the innovative solutions it offers.
+  SPEAKER BIO
+  Feng TIAN
+  Dr Feng Tian received his doctor's degree from University of Wisconsin, Madison. He has since been working with many database and storage companies including Microsoft, Greenplum, VMware, Datrium, VitesseData and Snowflake. Feng joined MatrixOrigin as CTO in 2022.
+  Date
+  27 September 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  846 9718 2305
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

@@ -1,0 +1,44 @@
+dsa_page: Accelerating Hybrid Queries in Vector Databases – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/08/accelerating-hybrid-queries-in-vector-databases/
+source: DSA
+
+headings:
+  - Accelerating Hybrid Queries in Vector Databases
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Accelerating Hybrid Queries in Vector Databases
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Mingyu YANG
+  ABSTRACT
+  Vector databases have become essential infrastructure for modern AI systems, powering applications from image retrieval to retrieval-augmented generation in large language models. While these systems excel at high-dimensional vector similarity search, emerging workloads increasingly demand hybrid queries that combine vector retrieval with complex metadata constraints, including numerical ranges and categorical labels. Efficient processing of such queries remains a fundamental challenge: selective filtering can degrade the performance of conventional vector indexes by orders of magnitude. This thesis presents a unified three-layer framework for accelerating hybrid queries in vector databases, addressing the problem at the operator, algorithm, and system levels. At the operator level, we introduce Data-Driven Distance Computation (DDC) and Minimized Residual Quantization (MRQ). DDC replaces random projection with learned PCA-based projections and data-driven correction, achieving 1.6×–2.1× speedup over state-of-the-art methods. MRQ fuses projection with quantization to enable arbitrary compression ratios, delivering up to 3× faster search than existing approaches. At the algorithm level, we develop the elastic factor concept to model hybrid query efficiency and propose Elastic Segment Graph (ESG) for range-filtered search, reducing required sub-index traversals from 𝑂(log 𝑁) to at most two and achieving 1.5×–6× performance gains. At the system level, we formalize the Elastic Index Selection (ELI) problem for label-based filtering, prove its NP-completeness, and design near-optimal greedy algorithms that achieve 10×–800× speedups over state-of-the-art techniques. Collectively, these contributions establish a principled end-to-end framework for hybrid query acceleration, advancing both the theoretical foundations and practical efficiency of vector databases. The techniques are index-agnostic, integrate seamlessly into existing systems, and address real-world deployment challenges across diverse application domains.
+  TEC
+  Chairperson: Prof Yue Kuen KWOK
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Lei LI
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Shangqi LU
+  Prof Xinhu ZHENG
+  Prof Jianye YANG
+  Date
+  29 May 2026
+  Time
+  13:00:00 -
+  15:00:00
+  Location
+  E1-319, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

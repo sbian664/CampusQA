@@ -1,0 +1,39 @@
+dsa_page: Efficient Operators for Big Distributed Graphs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/05/07/efficient-operators-for-big-distributed-graphs/
+source: DSA
+
+headings:
+  - Efficient Operators for Big Distributed Graphs
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  Efficient Operators for Big Distributed Graphs
+  Abstract
+  As a part of the CSE department at HKUST, the Big Graph group conducts research on efficient algorithms for big and distributed graphs. These projects are motivated by newly arising techniques and systems that leverage modern hardware capabilities to realize distributed in-memory data processing, such as Apache Spark.
+  Figure 1 The architecture of Apache Spark by AltexSoft.
+  In the collaboration with Huawei, Prof. Chen’s team utilizes the efficient neighbor aggregation operation in the GraphX library to build multiple commonly used operators for big graphs in a dynamic scenario. Specifically, the team designs an incremental SSSP (single source shortest path) algorithm that can maintain the shortest paths for a fixed starting point. This algorithm can benefit applications such as map navigation. For social networks, the team designs the incremental version of several community detection methods, to keep track of all communities in the dynamic social network. The results can be used to analyze social behaviors and relationships. For recommendation systems, the team designs a distributed and incremental SimRank algorithm to monitor similar nodes in a dynamic graph. The results can help recommend similar products in an online shopping website or similar posts in a social platform.
+  Figure 2 The communities detected in a football network, and an exmple of SimRank computation.
+  Figure 3 The illustration of distributed label propagation.
+  Instead of building efficient high-level algorithms, Prof. Chen’s team also works on low-level building blocks that are frequently used in those algorithms. For example, the team builds an efficient multi-hop neighbor query operator based on Spark. It runs 6 – 14 times faster than the original Spark SQL query on billion-edge graphs.
+  Figure 4 An example of k-hop neighbor query.
+  Read about Prof. Lei Chen’s
+  Big Graph projects
+  .
+  Project members
+  Lei CHEN
+  Group Head
+  Chair Professor
+  DSA Thrust, HKUST(GZ)
+  Project Period
+  2018-2023
+  Research Area
+  Sector-Specific Data Analytics
+
+links:
+  - Big Graph projects | https://cse.hkust.edu.hk/biggraph/index.html
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen

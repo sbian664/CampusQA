@@ -1,0 +1,59 @@
+dsa_page: Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/07/25/advancing-human-centric-autonomous-vehicles-from-human-like-driving-to-large-language-model-based-workflow-2/
+source: DSA
+
+headings:
+  - Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Advancing Human-Centric Autonomous Vehicles: From Human-Like Driving to Large Language Model-Based Workflow
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xu HAN
+  ABSTRACT
+  The rise of autonomous vehicles (AVs) is a groundbreaking milestone in transportation, promising increased safety and efficiency. However, it may still take decades to achieve fully automated road transportation, and integrating these systems into human environments requires designs that align with human needs and behaviors, beyond just technological advancements. Human-centric AVs aim to understand and adapt to human behaviors, enhancing the driving experience rather than just replacing human drivers. Early AVs relied on sensors and computing power for basic automation. With advancements in machine learning and sensors, the focus shifted to adaptive solutions that mimic human perception and decision-making. Despite these advancements, challenges remain in ensuring safe interactions between AVs and human-driven vehicles, and in balancing assertiveness with cautiousness in driving behavior.
+  This thesis addresses critical gaps in human-centric AV technology by advancing four interconnected research thrusts: human-like driving, tunable driving behavior, automated decision-making workflows, and style-customized policy generation.
+  First, the proposed EnsembleFollower framework is a hierarchical, reinforcement learning (RL)-based system enhancing human-like AV car-following (CF). It uses a high-level RL agent to dynamically select or blend outputs from an ensemble of low-level CF models based on real-time traffic states. This leverages complementary model strengths while mitigating individual weaknesses. Closed-loop simulation feedback reduces accumulated errors, and jerk constraints ensure smooth accelerations/decelerations. Experiments demonstrate it effectively mimics average human driving behavior across diverse urban and highway scenarios.
+  Second, we introduce the Editable Behavior Generation (EBG) model, addressing limitations in current Adaptive Cruise Control (ACC) systems that rely on static parameters, disregarding diverse driver preferences and causing dissatisfaction. EBG uses Long Short-Term Memory (LSTM)/Transformer architectures to generate personalized, socially-aware driving trajectories based on user-defined discourtesy levels, derived from real-world CF data. We propose a novel discourtesy labeling framework and courtesy loss function to enforce desired behavior. Experiments using HighD, ExiD, and Waymo datasets show EBG captures varied styles while improving speed/spacing accuracy, enabling future driving systems better aligned with individual preferences and social norms.
+  Third, we design AutoReward, an automated framework using large language models (LLMs) to overcome the challenge of manually creating complex reward functions for RL in autonomous driving. AutoReward automates code generation by analyzing simulation environments and decomposing high-level driving goals into sub-tasks, enhanced by Chain-of-Thought (CoT) reasoning. Operating in a closed loop, it generates a reward function, tests an RL agent with it, and refines the function based on performance feedback. This minimizes human oversight and intensive LLM calls, improving scalability and engineering efficiency. Experiments show AutoReward boosts driving agent success rates by 15–30% and generalizes well across tasks and algorithms compared to manual designs.
+  Fourth, the proposed Words2Wheels framework introduces a novel, fully automated pipeline for customizing AV driving styles directly from natural language commands, addressing key limitations of prior data-driven and foundation model approaches. Central to this framework is the Style Reward—a textual abstraction of driving style that bridges user intent and learned driving policy. This intermediate representation enables efficient retrieval and zero-shot generalization of Style Policies without requiring user driving data. By leveraging the reasoning capabilities of LLMs and Retrieval-Augmented Generation (RAG), Words2Wheels adaptively interprets commands, selects quantitative evaluation metrics, and ensures style fidelity. The system also incorporates a continually evolving Driving Style Database and a Statistical Evaluation module, enabling dynamic enrichment of styles and robust policy validation. Together, these components support precise, personalized driving behavior and unlock scalable, preference-aware AV deployment across diverse user profiles and scenarios.
+  Collectively, these frameworks enhance the predictability, personalization, scalability, and interactivity of AV while prioritizing human comfort and interpretability. By harmonizing technical robustness with social intelligence, this research fosters safer co-existence between autonomous and human-driven vehicles and advances user trust through intuitive interactions, contributing to sustainable transportation futures with human-centric AVs.
+  TEC
+  Chairperson: Prof Mingming FAN
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Meixin ZHU
+  Examiners:
+  Prof Kaishun WU
+  Prof Jiaheng WEI
+  Prof Xudong WANG
+  External Examiner: Prof Xuting DUAN
+  Date
+  14 August 2025
+  Time
+  09:00:00 -
+  11:00:00
+  Location
+  E3-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 985 2601 0282
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98526010282?pwd=gLvCmkWbW3cwpzTK4F2jysccG446Ob.1

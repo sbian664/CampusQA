@@ -1,0 +1,46 @@
+dsa_page: Towards Commercial Wi-Fi Integrated Sensing and Communication (ISAC) – Making Your Wi-Fi Do More Than Just Connect to the Internet – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/29/towards-commercial-wi-fi-integrated-sensing-and-communication-isac-making-your-wi-fi-do-more-than-just-connect-to-the-internet/
+source: DSA
+
+headings:
+  - Towards Commercial Wi-Fi Integrated Sensing and Communication (ISAC) - Making Your Wi-Fi Do More Than Just Connect to the Internet
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  DSA Seminar
+  Towards Commercial Wi-Fi Integrated Sensing and Communication (ISAC) - Making Your Wi-Fi Do More Than Just Connect to the Internet
+  Share to
+  ABSTRACT
+  With the widespread deployment of Wi-Fi and advancements in Wi-Fi sensing technologies, it has become essential to enable commercial Wi-Fi devices to support both sensing and communication functionalities, leading to Wi-Fi Integrated Sensing and Communication (ISAC). However, unlike the sensing-communication integration framework commonly proposed in communication engineering, achieving ISAC with commercial Wi-Fi faces two major challenges. First, the inherent nature of Wi-Fi communication results in a multi-static (i.e., separate transmitter and receiver) system setup, which is incompatible with the monostatic (i.e., combined transmitter and receiver) approach typically used in RF sensing (radar), introducing significant error factors that affect sensing accuracy. Second, ISAC must adhere to commercial Wi-Fi standards to maintain high communication quality, meaning that specially designed waveforms (e.g., modulation schemes) cannot be employed, and sensing utility must be maximized using the existing Wi-Fi waveforms. In this talk, we will introduce a revolutionary approach to fundamentally improve Wi-Fi hardware for integrated sensing and communication. We will present our progress along this path, summarized as "two and a half steps": 1) hardware innovation for monostatic Wi-Fi sensing, 1.5) an evolutionary solution for multi-user Wi-Fi sensing, and 2) a groundbreaking approach for single-link multi-user sensing with commercial Wi-Fi.
+  SPEAKER BIO
+  Dr. Jun Luo is a Professor at Nanyang Technological University, Singapore, and an IEEE Fellow. For over 20 years, he has been engaged in research on wireless sensing, deep learning, and integrated computing systems. He has led numerous national and corporate research projects, including Singapore's Ministry of Education Tier 2 projects and collaborations with BMW, SAP, and CSIJRI. His work has made significant contributions to the development and practical application of mobile computing, ubiquitous computing, and intelligent sensing technologies. Dr. Luo has published over 160 papers in major international conferences and journals such as MobiCom, CCS, CVPR/ICCV, SenSys, S&P, INFOCOM, UbiComp, ToN, and TMC. Two of his papers have been cited over 1,000 times, and his total citations exceed 10,000 on Google Scholar. For more information, please visit his homepage:
+  https://personal.ntu.edu.sg/junluo/
+  .
+  Date
+  11 October 2024
+  Time
+  15:00:00 -
+  16:30:00
+  Location
+  E2-6F, Guangdong Province Key Laboratory ICSC-OT
+  Join Link
+  Zoom Meeting ID:
+  952 2894 9077
+  Passcode: 2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - https://personal.ntu.edu.sg/junluo/ | https://personal.ntu.edu.sg/junluo/
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/95228949077?pwd=0HNjMVObysOgHR3bSVeeaMPTZxaK9Z.1

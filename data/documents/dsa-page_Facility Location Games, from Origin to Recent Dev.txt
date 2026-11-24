@@ -1,0 +1,32 @@
+dsa_page: Facility Location Games, from Origin to Recent Development – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/26/facility-location-games-from-origin-to-recent-development/
+source: DSA
+
+headings:
+  - Facility Location Games, from Origin to Recent Development
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Facility Location Games, from Origin to Recent Development
+  Share to
+  ABSTRACT
+  Mechanism Design, as one of the important areas in algorithmic game theory, can be classified into two categories: with money and without money. Facility location game is one of the mostly studied problem in mechanism design without money. Procaccia and Tennenholtz proposed and studied the problem back in 2009, where there are n agents on a line and the government will build a facility in a certain location given the agents reported information on their positions. Since every agent wants the facility to be closer to her, the government wants to make sure truth-telling is the best strategy for every agent while achieving some optimization objective. Since then, some bounds on the approximation ratios of the truthful mechanisms have been improved and new models are proposed. In this talk, we will briefly explain the story of the classic model and emphasize on the recent development on new models proposed by us and other groups.
+  SPEAKER BIO
+  Minming Li is a Professor in Department of Computer Science, City University of Hong Kong. He received his Ph. D. and B.E. degree in the Department of Computer Science and Technology at Tsinghua University in 2006 and 2002 respectively. His research interests include algorithmic game theory, combinatorial optimization and algorithm design and analysis for scheduling problems. He has been consistently working on the theoretical aspects of computer science with a wide scope of application background. The full publication can be found at
+  https://dblp.org/pid/78/6881.html
+  . Minming is serving as associate editors for a number of journals including Omega, Journal of Scheduling and Journal of Combinatorial Optimization. He has organized conferences COCOA 2016, FAW 2020, ISAAC 2020 as PC chairs. He has also served as chairperson of ACM Hong Kong Chapter from 2016 to 2018. He was a recipient of Teaching Excellence Award given by City University of Hong Kong and Outstanding Supervisor Award. Currently he is ACM Distinguished Speaker.
+  Date
+  30 September 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)
+
+links:
+  - https://dblp.org/pid/78/6881.html | https://dblp.org/pid/78/6881.html

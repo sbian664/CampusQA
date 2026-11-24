@@ -1,0 +1,329 @@
+dsa_page: Alumni – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/people/alumni/
+source: DSA
+
+headings:
+  - 2021 Cohort
+  - 2022 Cohort
+  - 2020 Cohort
+  - 2023 Cohort
+
+text: >
+  2021 Cohort
+  LIU, Yang
+  PhD(IIP-DSA)
+  TANG, Jianheng
+  PhD(IIP-DSA)
+  ZHOU, Xinjie
+  PhD(IIP-DSA)
+  CHENG, Jiashun
+  PhD(IIP-DSA)
+  SHI, Kexin
+  PhD(IIP-DSA)
+  JIANG, Yuxin
+  PhD(IIP-DSA)
+  ZHANG, Yun
+  PhD(IIP-DSA)
+  ZHANG, Jing
+  PhD(IIP-DSA)
+  TIAN, Anxin
+  PhD(IIP-DSA)
+  LI, Ao
+  PhD(IIP-DSA)
+  WANG, Luxuan
+  PhD(IIP-DSA)
+  ZHANG, Qingwen
+  PhD(IIP-DSA)
+  QIU, Siya
+  PhD(IIP-DSA)
+  GAO, Shihong
+  PhD(IIP-DSA)
+  GAO, Ziqi
+  PhD(IIP-DSA)
+  LIU, Hanmo
+  PhD(IIP-DSA)
+  2022 Cohort
+  CHAN, Hiu Lam Jade
+  MPhil(DSA)
+  DENG, Mengyi
+  MPhil(DSA)
+  DU, Dayou
+  MPhil(DSA)
+  FANG, Xiao
+  MPhil(DSA)
+  GONG, Hanyu
+  MPhil(DSA)
+  GONG, Mingze
+  MPhil(DSA)
+  HUA, Fengrui
+  MPhil(DSA)
+  HUANG, Chang
+  MPhil(DSA)
+  KOU, Zhizhuo
+  MPhil(DSA)
+  LI, Jiawei
+  MPhil(DSA)
+  LI, Xiang
+  MPhil(DSA)
+  LIN, Zeteng
+  MPhil(DSA)
+  LU, Xiaohan
+  MPhil(DSA)
+  QU, Huaren
+  MPhil(DSA)
+  SONG, Cheng
+  MPhil(DSA)
+  WAN, Lei
+  MPhil(DSA)
+  WANG, Shuzheng
+  MPhil(DSA)
+  XU, Haotian
+  MPhil(DSA)
+  YANG, Siyuan
+  MPhil(DSA)
+  YUAN, Tong
+  MPhil(DSA)
+  ZHANG, Wenqin
+  MPhil(DSA)
+  ZHENG, Chenghong
+  MPhil(DSA)
+  ZHU, Yanying
+  MPhil(DSA)
+  YANG, Jian
+  MPhil(DSA)
+  CHEN, Nuo
+  PhD(DSA)
+  HAN, Xu
+  PhD(DSA)
+  ZHOU, Peilin
+  PhD(DSA)
+  2020 Cohort
+  KONG, Wenzhi
+  MPhil(IIP-DSA)
+  LI, Xujia
+  PhD(IIP-DSA)
+  LIU, Honghao
+  MPhil(IIP-DSA)
+  MA, Jiajun
+  PhD(IIP-DSA)
+  MENG, Zihan
+  MPhil(IIP-DSA)
+  WANG, Botao
+  PhD(IIP-DSA)
+  WANG, Jun
+  PhD(IIP-DSA)
+  WANG, Zhili
+  PhD(IIP-DSA)
+  WU, Yingxian
+  MPhil(IIP-DSA)
+  ZHANG, Weiqi
+  PhD(IIP-DSA)
+  GUO, Yue
+  PhD(IIP-DSA)
+  FANG, Linjiajie
+  PhD(IIP-DSA)
+  2023 Cohort
+  LI, Yanting
+  MSc (DCAI)
+  GAN, Wenxi
+  MSc (DCAI)
+  LIU, Kainan
+  MSc (DCAI)
+  ZHOU, Fucheng
+  MSc (DCAI)
+  BIAN, Gelin
+  MSc (DCAI)
+  MIAO, Jingyuan
+  MSc (DCAI)
+  OUYANG, Xi
+  MSc (DCAI)
+  YE, Liwei
+  MSc (DCAI)
+  ZOU, Tao
+  MSc (DCAI)
+  XING, Daiyan
+  MSc (DCAI)
+  WANG, Tianyi
+  MSc (DCAI)
+  CHENG, Jinliang
+  MSc (DCAI)
+  GUO, Chumeng
+  MSc (DCAI)
+  GAO, Jiaxiang
+  MSc (DCAI)
+  ZHANG, Ruiming
+  MSc (DCAI)
+  SHI, Jiyuan
+  MSc (DCAI)
+  LIU, Yike
+  MSc (DCAI)
+  ZHENG, Hanwen
+  MSc (DCAI)
+  HONG, Yiyun
+  MSc (DCAI)
+  YAO, Yao
+  MSc (DCAI)
+  ZHAO, Jiajun
+  MSc (DCAI)
+  CHEN, Yuan
+  MSc (DCAI)
+  PENG, Siqi
+  MSc (DCAI)
+  SONG, Mingqian
+  MSc (DCAI)
+  ZHANG, Sihao
+  MSc (DCAI)
+  PENG, Yiyang
+  MSc (DCAI)
+  XU, Hang
+  MSc (DCAI)
+  SHI, Yutong
+  MSc (DCAI)
+  ZHANG, Kaiqi
+  MSc (DCAI)
+  TANG, Zitian
+  MSc (DCAI)
+  JIANG, Zhuoyang
+  MSc (DCAI)
+  CHENG, Xiyao
+  MSc (DCAI)
+  GAO, Chao
+  MSc (DCAI)
+  LIN, Zhihao
+  MSc (DCAI)
+  LIU, Ruining
+  MSc (DCAI)
+  ZHONG, Yingbei
+  MSc (DCAI)
+  HAN, Zeyu
+  MSc (DCAI)
+  FENG, Pinqi
+  MSc (DCAI)
+  JIANG, Na
+  MSc (DCAI)
+  WANG, Kaibo
+  MSc (DCAI)
+  WU, Fei
+  MSc (DCAI)
+  YANG, Yao
+  MSc (DCAI)
+  ZHOU, Haohui
+  MSc (DCAI)
+  GAO, Zhenye
+  MSc (DCAI)
+  LIANG, Deqi
+  MSc (DCAI)
+  CHEN, Taiyu
+  MSc (DCAI)
+  CHEN, Mengyu
+  MSc (DCAI)
+  HUANG, Ruixuan
+  MSc (DCAI)
+  XIONG, Chengyuan
+  MSc (DCAI)
+  RUAN, Zhuofan
+  MSc (DCAI)
+  HUANG, Yongjia
+  MSc (DCAI)
+  DONG, Huanchen
+  MSc (DCAI)
+  CHEN, Tianhao
+  MSc (DCAI)
+  CHEN, Haorong
+  MPhil (DSA)
+  CHEN, Xiangsen
+  MPhil (DSA)
+  CHEN, Yitong
+  MPhil (DSA)
+  CHEN, Yixiang
+  MPhil (DSA)
+  CHEN, Yuhan
+  MPhil (DSA)
+  DAI, Yu
+  MPhil (DSA)
+  FENG, Yutong
+  MPhil (DSA)
+  GUO, Zhihan
+  MPhil (DSA)
+  HE, Jingwen
+  MPhil (DSA)
+  HOU, Yusen
+  MPhil (DSA)
+  HU, Yuehong
+  MPhil (DSA)
+  HUANG, Junlin
+  MPhil (DSA)
+  HUANG, Youliang
+  MPhil (DSA)
+  HUANG, Yue
+  MPhil (DSA)
+  JIA Minghan
+  MPhil (DSA)
+  JIANG, Ruizhi
+  MPhil (DSA)
+  JIANG, Ziyu
+  MPhil (DSA)
+  LAI, Sicong
+  MPhil (DSA)
+  LI, Chunting
+  MPhil (DSA)
+  LI, Junhao
+  MPhil (DSA)
+  LI, Junwei
+  MPhil (DSA)
+  LI, Ruolan
+  MPhil (DSA)
+  LIU, Erdong
+  MPhil (DSA)
+  LIU, Yingchen
+  MPhil (DSA)
+  LUO, Liping
+  MPhil (DSA)
+  MA, Peixian
+  MPhil (DSA)
+  PAN, Doucheng
+  MPhil (DSA)
+  PAN, Zipei
+  MPhil (DSA)
+  PIAO, Shiyuan
+  MPhil (DSA)
+  TANG, Zichen
+  MPhil (DSA)
+  WANG, Fan
+  MPhil (DSA)
+  WANG, Rui
+  MPhil (DSA)
+  XIAO, Yunxuan
+  MPhil (DSA)
+  XU, Yining
+  MPhil (DSA)
+  YAN, Rudan
+  MPhil (DSA)
+  YAN, Siyu
+  MPhil (DSA)
+  YOU, Huajie
+  MPhil (DSA)
+  YU, Xiangrui
+  MPhil (DSA)
+  YUAN, Chaoyi
+  MPhil (DSA)
+  ZHANG, Yunfan
+  MPhil (DSA)
+  ZHANG, Zhe
+  MPhil (DSA)
+  ZHAO, Shuchang
+  MPhil (DSA)
+  ZHENG, Zinan
+  MPhil (DSA)
+  ZHONG, Siru
+  MPhil (DSA)
+  ZHU, Yanchen
+  MPhil (DSA)
+  ZHU, Yizhang
+  MPhil (DSA)
+  ZI, Chenyi
+  MPhil (DSA)
+  ZOU, Xingchen
+  MPhil (DSA)
+  ZUO, Xin
+  MPhil (DSA)

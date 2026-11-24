@@ -1,0 +1,41 @@
+dsa_page: PHM of Complex Engineering Systems-Methods and Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/16/phm-of-complex-engineering-systems-methods-and-applications/
+source: DSA
+
+headings:
+  - PHM of Complex Engineering Systems-Methods and Applications
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  PHM of Complex Engineering Systems-Methods and Applications
+  Share to
+  ABSTRACT
+  Prognostics and Health Management (PHM) is an important research direction in reliability engineering. With the large-scale deployment of sensors and the maturity of big data technology, PHM has been more and more widely used in complex engineering systems, and it has produced significant social and economic benefits. PHM generally includes the key tasks such as anomaly detection, fault diagnosis, health assessment, and remaining useful life (RUL) prediction. The new generation of machine learning methods represented by deep learning has played a central role in promoting the development of PHM in the big data environment. This report takes high-speed train key components and subsystems as examples, and presents the latest developments in our laboratory. These new methods have a certain degree of versatility, and can be extended to the key components of other types of engineering systems.
+  预测与健康管理(PHM)是可靠性工程的一个重要研究方向。随着传感器的大规模部署与大数据技术的日趋成熟，PHM在复杂工程系统中得到了愈加广泛的应用，同时也产生了显著的社会经济效益。PHM一般包括异常检测、故障诊断、健康评估、剩余可用寿命（RUL）预测等关键任务。以深度学习为代表的新一代人工智能方法对大数据环境下的PHM发展起到了核心推动作用。本报告以高铁、航空关键子系统与核心零部件为例，介绍了实验室在PHM方法研究上的最新进展。这些新方法具备一定的通用性，可探索在其他重点装备上的研发和应用。
+  SPEAKER BIO
+  Yanfu LI
+  Professor
+  Tsinghua University
+  Dr. Yan-Fu Li, is currently a full professor in Industrial Engineering Department, Director of the Institute for Quality & Reliability in Tsinghua University, China. His research areas mainly include system reliability and PHM with the applications onto railway systems, telecom systems, etc. Dr. Li has published more than 90 high quality international journal papers. He is elected as the Highly Cited Chinese Researcher 2019-2022 by Elsevier and Top 2% Scientists Worldwide 2022 by Stanford University. He has won multiple national society and international society search awards. He is currently an Associate Editor of IEEE Transactions on Reliability and Reliability Engineering & System Safety, a senior member of IEEE and IISE. He is a vice president of the System Reliability Chapter of System Engineering Society of China.
+  李彦夫，清华大学质量与可靠性研究院院长、清华大学工业工程系长聘教授。2011-2016年任教于法国巴黎中央理工与高等电力学院。长期致力于工业大数据分析、系统可靠性、预测性维护(PdM)理论与方法的研究。发表高水平期刊论文100余篇，代表性著作发表在《IEEE Transactions》系列、《IISE Transactions》等国际著名期刊，其中ESI高被引6篇，2019-2023年连续入选爱斯维尔中国高被引学者榜单，2020-2022连续入选美国斯坦福大学发布的全球前2%顶尖科学家榜单。出版专著2部，编著教材2部，授权发明专利11项。主持国家自然科学基金重点项目、国家重点研发计划课题以及市场监管总局委托项目。与华为、南方电网等头部企业长期合作，多项研究成果企业应用转化。获得中国运筹学会应用奖、省部级科技进步二等奖1项，以及多项国际国内学会论文奖项。服务质量强国战略，开展质量政策研究，多项资政报告成果被市场监管总局、全国人大财经委等部门采纳。担任可靠性旗舰期刊《Reliability Engineering & Systems Safety》和《IEEE Transactions on Reliability》副主编、中国检验检测学会常务委员、中国系统工程学会系统可靠性专委会副主任委员、第四、五届中国质量奖评审专家。
+  Date
+  19 January 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  W1-2F-223, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  883 8089 7049
+  Passcode: dsa2024
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

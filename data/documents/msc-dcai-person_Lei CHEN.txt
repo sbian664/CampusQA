@@ -1,0 +1,7 @@
+msc_dcai_page: Lei CHEN
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/
+supervisor_type: academic
+role: Dean
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+responsibilities: Information Hub | Thrust of Artificial Inteligence | Thrust of Data Science and Analytics

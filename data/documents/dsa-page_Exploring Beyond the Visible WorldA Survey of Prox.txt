@@ -1,0 +1,35 @@
+dsa_page: Exploring Beyond the Visible World:A Survey of Proximal Hyperspectral Imaging – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/exploring-beyond-the-visible-worlda-survey-of-proximal-hyperspectral-imaging/
+source: DSA
+
+headings:
+  - Exploring Beyond the Visible World:A Survey of Proximal Hyperspectral Imaging
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Exploring Beyond the Visible World:A Survey of Proximal Hyperspectral Imaging
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr WEN, Yufei
+  Abstract
+  Hyperspectral Imaging (HSI) captures a complete reflectance spectrum for every pixel by sampling hundreds of narrowly spaced, contiguous wavelength bands. The resulting high resolution spectra serve as unique, material-specific fingerprints, enabling reliable identification and quantitative analysis of substances that are invisible to conventional broadband RGB or multispectral sensors. This survey provides a comprehensive overview of general purpose HSI with a special focus on proximal hyperspectral imaging (proximal HSI)—the acquisition of spectral data in controlled environments such as laboratory, clinical, and in dustrial settings. Proximal HSI has emerged as a promising tool for fine-grained material discrimination, defect detection, and physiological assessment, offering significant advan tages over traditional imaging systems. However, its widespread adoption is hindered by challenges such as sensor diversity, environmental variability, limited annotated datasets, and scalability issues.
+  The survey revisits the fundamental principles of HSI, detailing acquisition architectures, signal-processing pipelines, and deep learning-based feature extraction techniques. It also highlights the broad applications of proximal HSI across industrial inspection, agriculture, food quality, cultural heritage preservation, and medical diagnostics. Despite the considerable progress, persistent challenges remain, particularly in terms of data efficiencyand cross-domain generalization. The paper concludes by discussing emerging research directions, including physics-aware foundation models, source-free and continual domain adaptation, label-efficient learning, and human-centered HSI. These advancements are crucial for advancing the practical deployment of proximal HSI technologies and ensuring their impact across various domains.
+  PQE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. WU, Kaishun
+  Co-Supervisor: Prof. CHEN, Jintai
+  Examiner: Prof. YANG, Weikai
+  Date
+  19 September 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  W1-202 (HKUST-GZ)

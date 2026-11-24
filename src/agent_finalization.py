@@ -6,11 +6,13 @@ import html
 import re
 from copy import deepcopy
 from typing import Dict, List
+from src.tool_context import compact_document_message
 
 
 FINAL_ANSWER_INSTRUCTION = (
-    "检索预算已经用完。现在禁止调用任何工具，也不要输出 DSML、XML 或其他工具调用标记。"
-    "请只根据已有检索结果直接回答用户；如果证据不足，请明确说明信息不足。"
+    "检索阶段已结束。现在禁止调用任何工具，也不要输出 DSML、XML 或其他工具调用标记。"
+    "依据已有资料直接回答，目录可支持其名称、编号和文档计数，正文支持其中的属性。"
+    "仅对确实缺少或被省略的所问证据说明限制，证据充分的部分正常回答。"
     "只输出面向用户的自然语言答案，不要描述内部检索过程。"
 )
 
@@ -99,16 +101,21 @@ def build_final_answer_messages(messages: List[Dict]) -> List[Dict]:
     cleaned: List[Dict] = []
     for message in messages:
         role = message.get("role")
-        content = sanitize_tool_protocol_text(message.get("content"))
+        evidence = dict(message)
+        content = (evidence["content"] if compact_document_message(evidence)
+                   else sanitize_tool_protocol_text(message.get("content")))
 
         if role == "system":
             cleaned.append({"role": "system", "content": content})
         elif role == "tool":
             if content:
-                cleaned.append({
+                result = {
                     "role": "user",
                     "content": f"[知识库检索结果]\n{content}",
-                })
+                }
+                if "_search_hits" in message:
+                    result["_search_hits"] = message["_search_hits"]
+                cleaned.append(result)
         elif role in {"user", "assistant"}:
             if content:
                 cleaned.append({"role": role, "content": content})

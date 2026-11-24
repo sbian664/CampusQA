@@ -1,0 +1,40 @@
+dsa_page: A Survey on LLM Routing: Objectives,Methods, and Evaluation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/a-survey-on-llm-routing-objectivesmethods-and-evaluation/
+source: DSA
+
+headings:
+  - A Survey on LLM Routing: Objectives,Methods, and Evaluation
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on LLM Routing: Objectives,Methods, and Evaluation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZENG, Jiahao
+  Abstract
+  Large language models (LLMs) are now used in many applications, but they often vary substantially across key dimensions such as capability, cost, and latency. As a result, using a single fixed model for all inputs is often suboptimal. Simple queries may be answered well by smaller and cheaper models, while complex queries may require stronger models with better reasoning ability or domain knowledge. LLM routing addresses this problem by adaptively selecting the most suitable model for each input according to the needs of the application. This survey provides a structured review of LLM routing as a decision-making problem over heterogeneous models. We discuss how routing systems define their objectives, how they make modelselection decisions, and how they are evaluated in existing benchmarks. We also discuss open challenges that remain underexplored. By organizing existing work around objectives, methods, and evaluation, this survey aims to clarify the current design space of LLM routing and identify future opportunities for building more efficient and flexible LLM systems.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. DING, Ningning
+  Co-Supervisor: Prof. WEN, Zeyi
+  Examiner: Prof. ZHANG, Yanlin
+  Date
+  09 June 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

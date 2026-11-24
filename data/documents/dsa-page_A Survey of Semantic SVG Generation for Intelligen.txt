@@ -1,0 +1,44 @@
+dsa_page: A Survey of Semantic SVG Generation for IntelligentVisual Authoring – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/a-survey-of-semantic-svg-generation-for-intelligentvisual-authoring/
+source: DSA
+
+headings:
+  - A Survey of Semantic SVG Generation for IntelligentVisual Authoring
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Semantic SVG Generation for IntelligentVisual Authoring
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. XU, Jing
+  Abstract
+  Scalable Vector Graphics (SVG) serve simultaneously as rendered images and editable source code. This dual nature makes SVG a promising representation for visual content authoring, because visual artifacts can be generated, recovered, and manipulated as structured documents with source-level structure, not fixed pixels alone. Such a representation enables fine-grained editing, component reuse, animation control, and seamless integration with downstream design and authoring work-flows. However, producing a visually plausible SVG is usually insufficient. A generated SVG may consist of thousands of anonymous paths, losing editable text and object identity, or becoming fragile even under a small local edit. In other words, it may be visually adequate yet structurally opaque, making downstream manipulation difficult. This limitation highlights a recurring appearance–structure gap in authoring-oriented SVG generation, where rendered similarity underdetermines source utility. When downstream workflows require editing, reuse, verification, animation, or data binding, methods must consider meaningful objects, reusable components, editable primitives, and stable structural relations in addition to visual appearance. This survey reviews SVG generation methods that are relevant to authoring workflows through the lens of this gap. We cover methods that create or recover SVGs from text prompts, raster images, sketches, and examples. To enable systematic comparison, we organize prior work with a faceted taxonomy rather than a strict hierarchy: entry condition or task, operational source unit, generation mechanism, feedback or evaluation signal, and authoring affordance or output contract. Here,
+  semantic refers to operation-relevant source structure, not only object-category labels. Based on
+  this review, we identify four directions for advancing authoring-oriented semantic SVG generation
+  when downstream workflows require editing or reuse: render–DOM–language grounding, structure-aware training objectives and rewards, workflow-level benchmarks, and robust SVG recovery from
+  real-world visual inputs.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. YANG, Weikai
+  Co-Supervisor: Prof. LUO, Yuyu
+  Examiner: Prof. TANG, Guoming
+  Date
+  09 June 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

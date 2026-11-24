@@ -1,0 +1,40 @@
+dsa_page: 基于工业智能的FPC板质量检测系统研发与产业化 – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/%e5%9f%ba%e4%ba%8e%e5%b7%a5%e4%b8%9a%e6%99%ba%e8%83%bd%e7%9a%84fpc%e6%9d%bf%e8%b4%a8%e9%87%8f%e6%a3%80%e6%b5%8b%e7%b3%bb%e7%bb%9f%e7%a0%94%e5%8f%91%e4%b8%8e%e4%ba%a7%e4%b8%9a%e5%8c%96/
+source: DSA
+
+headings:
+  - 基于工业智能的FPC板质量检测系统研发与产业化
+  - Abstract
+  - Project members
+  - Fugee TSUNG
+  - Jia LI
+  - Lei ZHU
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  基于工业智能的FPC板质量检测系统研发与产业化
+  Abstract
+  针对 FPC 板检测设备误杀率过高,研究基于深度学习的智能检测方法，解决检测模型复用难题，应用语义树将 FPC 图像分解至各级可复用单元，通过对各级单元的缺陷判识降低整体识别复杂度;设计串联模型组应用方法，将前列判定的缺陷数据经后列模型复核修正，降低缺陷判定误杀率;收集并建立 FPC 缺陷样本和标注数据针对数据同质化严重情况，研究数据增强方法，提升检测模型的泛化能力，根据新类型缺陷对现有类型隶属度低特点，研究新类型缺判定方法和识别模型增强方法;研制 FPC 板缺陷检测测试平台，平台集成 FPC 板扫描、图像采集、模板设定、缺陷在线检测功能，通过测试平台评估检测方法可行性和智能算法的有效性。项目研制测试平台一台、检测算法误杀率小于 70%。
+  基于YOLOv7的网络结构图
+  FPC 板质量检测平台结构
+  Project members
+  Fugee TSUNG
+  Chair Professor
+  Jia LI
+  Associate Professor
+  Lei ZHU
+  Assistant Professor
+  Project Period
+  2023/12/31-2026/12/31
+  Research Area
+  Industrial and Business Analytics, Data-driven AI & Machine Learning
+  Keywords
+  Anomaly Detection, Computer Vision, Quality Control, Reinforcement learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/leejia | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/leejia
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu

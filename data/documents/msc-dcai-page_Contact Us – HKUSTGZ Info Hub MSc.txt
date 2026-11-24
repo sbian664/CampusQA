@@ -1,0 +1,31 @@
+msc_dcai_page: Contact Us – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/contact-us/
+source: MSc DCAI
+
+headings:
+  - Contact Us
+
+text: >
+  Contact Us
+  Academic Supervisor
+  Contact Us
+  Connect With Us:
+  MSc DCAI Program
+  mscdcai@hkust-gz.edu.cn
+  HKUST (GZ) Information Hub
+  微 信
+  港科广丨大数据智能理学硕士项目
+  微 信
+  港科大广州 | 信息枢纽
+  微 博
+  港科大广州 | 信息枢纽
+  小红书
+  港科大广州 | 信息枢纽
+  B站
+  港科大广州 | 信息枢纽
+  Facebook
+  HKUSTGZINFH
+  领 英
+  港科大 (广州) 信息枢纽
+  微 信
+  港科大广州 | 数据科学与分析

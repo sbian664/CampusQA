@@ -1,0 +1,17 @@
+fytgs_page: PG Prospectus and Booklets
+url: https://fytgs.hkust-gz.edu.cn/admissions/pg-prospectus-and-booklets
+source: FYTGS
+
+headings:
+
+text: >
+  none
+
+links:
+  - https://ebookshelf.hkust-gz.edu.cn/external/pdf/web/viewer.html?file=/file/Postgraduate-Prospectus-2026-27.pdf | https://ebookshelf.hkust-gz.edu.cn/external/pdf/web/viewer.html?file=/file/Postgraduate-Prospectus-2026-27.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Submit-Your-Application-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Submit-Your-Application-2027-28.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Function-Hub-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Function-Hub-2027-28.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Information-Hub-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Information-Hub-2027-28.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Systems-Hub-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Systems-Hub-2027-28.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Society-Hub-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Postgraduate-Programs-Society-Hub-2027-28.pdf
+  - https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Red-Bird-MPhil-Program-2027-28.pdf | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/07/Red-Bird-MPhil-Program-2027-28.pdf

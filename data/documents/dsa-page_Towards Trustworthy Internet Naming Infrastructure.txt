@@ -1,0 +1,35 @@
+dsa_page: Towards Trustworthy Internet Naming Infrastructure – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/03/towards-trustworthy-internet-naming-infrastructure/
+source: DSA
+
+headings:
+  - Towards Trustworthy Internet Naming Infrastructure
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Trustworthy Internet Naming Infrastructure
+  Share to
+  ABSTRACT
+  Almost every online activity starts with a query to the Domain Name System (DNS), a foundational component of the Internet. Given its critical role, DNS has been a prime target for cyberattacks, which can lead to Internet-wide outages and compromise various online systems. In this talk, I will present our research on tackling fundamental security challenges faced by modern DNS, focusing on the systematic analysis and mitigation of denial-of-service vulnerabilities inherent to its design. In addition, I will chart a path towards achieving a trustworthy domain name infrastructure and, by extension, a trustworthy Internet at large.
+  SPEAKER BIO
+  Huayi Duan is a senior researcher at ETH Zurich, working as part of the NetSec group led by Prof. Adrian Perrig. He received both his PhD and BSc from City University of Hong Kong. His research interests span network security, applied cryptography, confidential computing, and decentralised technologies. As the principal investigator or co-PI on several funded projects, he is currently leading efforts to build a secure and reliable naming system for both today’s and future Internet. His work has been published at major networking and security conferences such as NSDI, SIGCOMM, SOSP, CCS, USENIX Security, and NDSS.
+  Date
+  05 March 2025
+  Time
+  15:30:00 -
+  16:30:00
+  Join Link
+  Zoom Meeting ID:
+  960 3964 7791
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

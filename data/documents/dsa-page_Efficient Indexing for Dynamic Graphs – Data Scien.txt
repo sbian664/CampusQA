@@ -1,0 +1,42 @@
+dsa_page: Efficient Indexing for Dynamic Graphs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/13/efficient-indexing-for-dynamic-graphs/
+source: DSA
+
+headings:
+  - Efficient Indexing for Dynamic Graphs
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Efficient Indexing for Dynamic Graphs
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  We consider designing efficient index schemes for graph problems under the dynamic setting. Many index-based algorithms discard the dynamic nature of graphs, while real-world graphs are dynamically changing. We will present two of our recent research on graph clustering and personalized PageRank query processing.
+  Graph clustering is a fundamental data mining task that clusters vertices into different groups. The structural graph clustering algorithm (SCAN) is a widely used graph clustering algorithm that derives not only clustering results but also special roles of vertices like hubs and outliers. This work considers structural graph clustering on dynamic graphs under Jaccard similarity. The state-of-the-art index-based solution focuses on static graphs and incurs prohibitive update costs to maintain indices. Lately, an efficient approximate dynamic structural graph clustering algorithm DynStrClu under Jaccard similarity has been proposed. However, their solution needs to fix input parameters, while SCAN parameter settings usually need to be fine-tuned to achieve good clustering results. We present a study on devising effective index structures for the SCAN algorithm on dynamic graphs.
+  Personalized PageRank (PPR) is a fundamental proximity measure in graph mining. The single-source PPR (SSPPR) query is important in graph data analysis. Since computing an exact SSPPR query answer is prohibitive, most existing solutions turn to approximate queries with guarantees. The state-of-the-art solutions for approximate SSPPR queries are index-based and mainly focus on static graphs, while real-world graphs are usually dynamically changing. However, existing index-update schemes cannot achieve a sub-linear update time. Motivated by this, we present an efficient indexing scheme for single-source PPR queries on evolving graphs.
+  SPEAKER BIO
+  Sibo WANG
+  Assistant Professor
+  The Chinese University of Hong Kong
+  Sibo Wang joined the Department of Systems Engineering and Engineering Management at The Chinese University of Hong Kong as an Assistant Professor in Dec 2018. He received his B.E. in Software Engineering in 2011 from Fudan University and his Ph.D. in Computer Science in 2016 from Nanyang Technological University. His main research area is database and data mining, especially big data analytics and processing, graph mining, and graph representation learning. Most of his research works have been published in top conferences (like SIGMOD, VLDB, SIGKDD, and ICDE) and top journals (like TODS, VLDBJ, and TKDE). His professional services include Workshop Chair at ICDE 2022 Conference, Program Committee for prestigious conferences like VLDB 2020-2023, SIGKDD 2019-2023, WWW2020-2023, ICDE 2021-2023, and so on. He also served as a peer reviewer in journals like TODS, TKDE, VLDBJ, TOIS, and TKDD.
+  Date
+  15 February 2023
+  Time
+  15:30:00 -
+  16:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  759-876-367
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

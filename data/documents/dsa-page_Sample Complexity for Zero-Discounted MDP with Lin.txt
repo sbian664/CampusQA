@@ -1,0 +1,27 @@
+dsa_page: Sample Complexity for Zero-Discounted MDP with Linear / Logistic Function Approximation and connections to RLHF – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/01/09/sample-complexity-for-zero-discounted-mdp-with-linear-logistic-function-approximation-and-connections-to-rlhf/
+source: DSA
+
+headings:
+  - Sample Complexity for Zero-Discounted MDP with Linear / Logistic Function Approximation and connections to RLHF
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  Seminars and Workshops
+  Sample Complexity for Zero-Discounted MDP with Linear / Logistic Function Approximation and connections to RLHF
+  Share to
+  ABSTRACT
+  I will discuss ideas behind algorithms that achieve nontrivial sample complexity guarantees for 0-discounted MDPs with linear/ logistic function approximation, a.k.a. stochastic contextual linear / logistic contextual bandits, including a deterministic UCB-like algorithm and a computationally efficient Thompson Sampling variant. Finally I'll discuss if sigmoid function, which is widely used in RLHF, is a good choice for modelling human preference, in this special case.
+  SPEAKER BIO
+  Mr. Shuai Liu is a PhD student in the Computing Science department at University of Alberta, co-supervised by Dr. Csaba Szepesvári and Dr. Xiaoqi Tan. His current research interest lies in reinforcement learning theory (policy gradient methods), bandit algorithms and optimization. Before that, he obtained his MSc in Computing Science at University of Alberta under the supervision of Dr. Szepesvári and obtained a Bachelor's degree in Computer Science at the Harbin Institute of Technology.
+  Date
+  13 January 2026
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  W1-202, HKUST(GZ)

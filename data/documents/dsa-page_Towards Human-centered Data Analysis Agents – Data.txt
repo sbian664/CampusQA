@@ -1,0 +1,41 @@
+dsa_page: Towards Human-centered Data Analysis Agents – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/towards-human-centered-data-analysis-agents/
+source: DSA
+
+headings:
+  - Towards Human-centered Data Analysis Agents
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Towards Human-centered Data Analysis Agents
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. SHEN, Shuyu
+  Abstract
+  While large language models have improved natural language interfaces for business intelligence, most data analysis agents still rely on a one-shot generation paradigm. Consequently, when errors occur, they cascade through the analytical pipeline without giving users a clear mechanism to intervene. The core limitation lies in the collaboration structure rather than generation quality: users need sustained engagement to inspect, clarify, and revise the agent’s decisions in real time.
+  To address this, this thesis proposes a three-stage collaboration framework categorized by the user’s role: an input stage for refining under-specified goals into clear analytical intent, a processing stage for aligning this intent with executable queries, and an output stage for validating and repairing results. We implement this framework through three studies. VisDebugger supports the output stage via a mixed-initiative debugging tool for visualizations. QueryClarifier handles the processing stage by identifying and resolving semantic ambiguities during query generation. Finally, a third study targets the input stage, guiding users to construct viable analysis paths from high-level business goals.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. LUO, Yuyu
+  Co-Supervisor: Prof. YANG, Weikai
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-149, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

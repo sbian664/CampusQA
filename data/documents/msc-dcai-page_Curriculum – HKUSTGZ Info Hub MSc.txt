@@ -1,0 +1,94 @@
+msc_dcai_page: Curriculum – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/curriculum/
+source: MSc DCAI
+
+headings:
+  - Curriculum
+
+text: >
+  Curriculum
+  Academic Supervisor
+  CURRICULUM
+  Study Flow in MSc DCAI (For 2026/2027 intake and onward)
+  CURRICULUM
+  Courses
+  Compulsory Courses
+  Credit(s)
+  Independent Project
+  6
+  Industry Round Table
+  1
+  Industry Internship Ⅰ
+  2
+  Industry Internship Ⅱ
+  3
+  Industry Internship Ⅲ
+  3
+  Elective Courses (Partial)
+  21 Credits for MSc DCAI
+  Data Mining and Knowledge Discovery in Data Science
+  3
+  Automatic Machine Learning
+  3
+  Deep Learning in Data Science
+  3
+  Advanced Database Management for Data Science
+  3
+  Advanced Machine Learning
+  3
+  Parallel Programming for Data Science and Analytics
+  3
+  Foundation of Data Science and Analytics
+  3
+  Data Science Computing
+  3
+  Data Analysis and Privacy Protection in Blockchain
+  3
+  Data Exploration and Visualization
+  3
+  Spatio-Temporal Data Analysis
+  3
+  Introduction to Graph Learning
+  3
+  Special Topics
+  3
+  Practical Lab Course
+  3
+  One other course from Info Hub (Artificial Intelligence, Data Science and Analytics, and Internet of things)
+  3
+  Independent Project （6 Credits）
+  6-month duration.
+  The topics of projects will be given by industry partners.
+  Each independent project will be supervised by one faculty member at HKUST/ HKUST (GZ) and one industry faculty member as a pair.
+  Industry Internship （8 Credits）
+  1-year duration,
+  The 8-credit internship consists of three parts (Credits: 2:3:3). The first part is for passing the Open Project Report, the second part is for passing the Intermediate Report, and the third part is for passing the Final Report.
+  Each independent project will be supervised by one faculty member at HKUST/ HKUST (GZ) and one industry faculty member as a pair.
+
+tables:
+  - Compulsory Courses | Credit(s)
+  - Independent Project | 6
+  - Industry Round Table | 1
+  - Industry Internship Ⅰ | 2
+  - Industry Internship Ⅱ | 3
+  - Industry Internship Ⅲ | 3
+  - Elective Courses (Partial) | 21 Credits for MSc DCAI
+  - Data Mining and Knowledge Discovery in Data Science | 3
+  - Automatic Machine Learning | 3
+  - Deep Learning in Data Science | 3
+  - Advanced Database Management for Data Science | 3
+  - Advanced Machine Learning | 3
+  - Parallel Programming for Data Science and Analytics | 3
+  - Foundation of Data Science and Analytics | 3
+  - Data Science Computing | 3
+  - Data Analysis and Privacy Protection in Blockchain | 3
+  - Data Exploration and Visualization | 3
+  - Spatio-Temporal Data Analysis | 3
+  - Introduction to Graph Learning | 3
+  - Special Topics | 3
+  - Practical Lab Course | 3
+  - One other course from Info Hub (Artificial Intelligence, Data Science and Analytics, and Internet of things) | 3
+  - Independent Project （6 Credits）
+  - 6-month duration. The topics of projects will be given by industry partners. Each independent project will be supervised by one faculty member at HKUST/ HKUST (GZ) and one industry faculty member as a pair.
+  - Industry Internship （8 Credits）
+  - 1-year duration, The 8-credit internship consists of three parts (Credits: 2:3:3). The first part is for passing the Open Project Report, the second part is for passing the Intermediate Report, and the third part is for passing the Final Report. Each independent project will be supervised by one faculty member at HKUST/ HKUST (GZ) and one industry faculty member as a pair.

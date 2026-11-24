@@ -1,0 +1,34 @@
+dsa_page: Retrieval-Preserving Hybrid Sequence Models: A Critical Survey and Research Agenda on Memory Allocation, Alignment, and Adaptive State – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/retrieval-preserving-hybrid-sequence-models-a-critical-survey-and-research-agenda-on-memory-allocation-alignment-and-adaptive-state/
+source: DSA
+
+headings:
+  - Retrieval-Preserving Hybrid Sequence Models: A Critical Survey and Research Agenda on Memory Allocation, Alignment, and Adaptive State
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Retrieval-Preserving Hybrid Sequence Models: A Critical Survey and Research Agenda on Memory Allocation, Alignment, and Adaptive State
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. HU, Zhuangfei
+  Abstract
+  Efficient long-context sequence models are increasingly memory-allocation systems. This survey studies retrieval-preserving hybrid memory allocation, where modern sequence models coordinate several memory forms: explicit Transformer key–value evidence, compressed recurrent or state-space state, sparse or local access bandwidth, online-updated associative memory, and external or archival stores. The central distinction is between context access, where a model must retrieve specific prior evidence, and state evolution, where it must update a compact latent description over time. This distinction makes retrieval preservation a technical constraint rather than only a benchmark preference. Hybrid architectures and transfer/alignment methods are surveyed as attempts to allocate memory functions across layers, heads, routes, objectives, and serving-time cache policies. Our preliminary work, AnchorPACT, studies post-construction mismatch in sparse Transformer–SSM conversion and provides controlled cross-probe evidence that scaffold selection must be complemented by alignment contracts for retained anchors, replacement bodies, and residual pathways. The survey then identifies three connected open problems that shape our research agenda: retrieval-anchor identification, retrieval-aware residual flow, and adaptive active-state expansion.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. ZHANG, Yongqi
+  Co-Supervisor: Prof. LI, Jia
+  Examiner: Prof. ZHANG, Yanlin
+  Date
+  10 June 2026
+  Time
+  09:00:00 -
+  10:00:00
+  Location
+  E1-148, HKUST(GZ)

@@ -1,0 +1,41 @@
+dsa_page: From Chinese Clinical Narratives to Causal-Ready Cohorts: A Pipeline Survey on Pancreatic Cancer EHR Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/from-chinese-clinical-narratives-to-causal-ready-cohorts-a-pipeline-survey-on-pancreatic-cancer-ehr-analytics/
+source: DSA
+
+headings:
+  - From Chinese Clinical Narratives to Causal-Ready Cohorts: A Pipeline Survey on Pancreatic Cancer EHR Analytics
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  From Chinese Clinical Narratives to Causal-Ready Cohorts: A Pipeline Survey on Pancreatic Cancer EHR Analytics
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Ms. FANG, Yuanyuan
+  Abstract
+  Pancreatic ductal adenocarcinoma (PDAC) remains one of the deadliest malignancies worldwide, with a 5-year survival rate below 10% [1-2]. Electronic health records (EHRs) offer an unprecedented opportunity to study this disease at scale, yet extracting structured, analysis-ready data from heterogeneous clinical narratives poses fundamental challenges that span natural language processing, missing data statistics, and clinical informatics. This survey presents a unified treatment of the methodological pipeline required to transform raw PDAC clinical text into causally interpretable analytical datasets.
+  We organize the literature along four interconnected stages: (1) Information Extraction from unstructured clinical notes, covering rule-based, dictionary-based, and large language model (LLM)-assisted approaches; (2) Missing Data Imputation for sparsely sampled laboratory time series, with emphasis on physiologically informed strategies such as the ClinDiff-Gated architecture for bilirubin-linked biomarkers; (3) Specialized Extraction Tasks, particularly TNM staging inference via multi-agent collaborative frameworks (DPSRMAC-TNM); and (4) Downstream Analytical Readiness including foundation model deployment for clinical NLP and causal inference frameworks for treatment effect estimation in observational cohorts.
+  This survey asks a central question: how can heterogeneous Chinese PDAC EHR data be transformed into reliable, auditable, and causally usable research cohorts? We answer this by reviewing a pipeline that combines clinical NLP, physiologically informed imputation, automated TNM staging, and uncertainty-aware downstream analysis. For each stage, we review theoretical foundations necessary for non-specialist readers, compare competing methods through systematic tables, and identify unresolved research gaps. We argue that the most impactful advances will emerge not from isolated improvements to individual stages, but from end-to-end pipeline design where extraction uncertainty propagates to imputation strategy, imputation quality constrains downstream analytical reliability, and causal reasoning corrects for the biases inherent in observational EHR data. We conclude with two concrete dissertation aims—(1) auditable clinical information extraction and TNM staging, and (2) uncertainty-aware imputation and causal-ready cohort construction—plus long-term extensions motivated by real-world PDAC cohort constraints.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. WU, Kaishun
+  Co-Supervisor: Prof. CHEN, Jintai (online)
+  Examiner: Prof. YANG, Weikai
+  Date
+  10 June 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  942 4998 9266
+  Passcode: dsa2026

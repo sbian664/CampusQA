@@ -1,0 +1,40 @@
+dsa_page: Towards Automatic Data Visualization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2022/11/28/towards-automatic-data-visualization/
+source: DSA
+
+headings:
+  - Towards Automatic Data Visualization
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA & CMA Joint Seminar
+  Towards Automatic Data Visualization
+  Share to
+  ABSTRACT
+  Data visualization is an effective means to derive behind-the-scenes insights, communicate findings, and make decisions in modern business intelligence and successful data science. However, it is rather hard for ordinary users to create good visualizations and discover valuable insights without days of training or relying on technical experts. Given this context, I focus on Automatic Data Visualization (AutoVIS) during my PhD career, which aims to automatically generate and recommend good visualizations to help users effectively and efficiently explore and understand massive data. Specifically, I develop an end-to-end automatic data visualization system called DeepEye to help users derive meaningful visualizations from datasets effortlessly. My philosophy for building DeepEye is “DeepEye = AutoVIS + User Intent + Cleaned Data”. In this talk, I will introduce how to automate the visualization processing to automatically create high-quality visualizations (i.e., perfectly conveying insights) without human involvement. Second, I will introduce how to capture user intent in the AutoVIS pipeline to satisfy users' needs better. Third, since visualizations generated from dirty data may mislead the users in understanding the data, I will introduce how DeepEye can progressively improve the visualization quality with minimal human involvement. Finally, I will demonstrate the DeepEye system and describe our future work.
+  SPEAKER BIO
+  Yuyu LUO
+  Tsinghua University
+  Yuyu Luo is a fifth-year PhD candidate in the Department of Computer Science at Tsinghua University, supervised by Prof. Guoliang Li. His research falls in the emerging area of "Automatic Data Visualization" by building systems to automate the data visualization pipeline, i.e., helping people see and understand data more easily and effectively.
+  Date
+  29 November 2022
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  996 0556 4770
+  Passcode: 202211
+  Event Organizer
+  Data Science and Analytics Thrust
+  Computational Media and Arts Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  cmat@hkust-gz.edu.cn

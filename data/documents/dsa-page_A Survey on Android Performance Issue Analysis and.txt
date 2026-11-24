@@ -1,0 +1,35 @@
+dsa_page: A Survey on Android Performance Issue Analysis and Detection – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/a-survey-on-android-performance-issue-analysis-and-detection/
+source: DSA
+
+headings:
+  - A Survey on Android Performance Issue Analysis and Detection
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Android Performance Issue Analysis and Detection
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LI, Zhengquan
+  Abstract
+  This survey studies Android performance issue analysis and detection. The central challenge is to identify, explain, and mitigate performance problems that affect Android applications across diverse devices, operating environments, workloads, and user interactions.
+  The survey first motivates the problem and analyzes the characteristics of Android performance issues, including their symptoms, root causes, manifestation conditions, and evaluation criteria. It then reviews representative methods for performance analysis and detection, followed by recent progress in automated Android bug reproduction frameworks. Based on the limitations of existing work, the survey discusses research attempts and identifies future research directions.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. DING, Zishuo
+  Co-Supervisor: Prof. ZENG, Wei
+  Examiner: Prof. YANG, Weikai
+  Date
+  10 June 2026
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-147, HKUST(GZ)

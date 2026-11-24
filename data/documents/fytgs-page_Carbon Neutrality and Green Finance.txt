@@ -1,0 +1,134 @@
+fytgs_page: Carbon Neutrality and Green Finance
+url: https://fytgs.hkust-gz.edu.cn/programs/carbon-neutrality-and-green-finance-2
+source: FYTGS
+
+headings:
+  - Master of Science Program in Carbon Neutrality and Green Finance
+
+text: >
+  Postgraduate Programs 2026/27
+  Master of Science Program in Carbon Neutrality and Green Finance
+  GENERAL INFORMATION
+  Award Title
+  Master of Science in Carbon Neutrality and Green Finance
+  Program Short Name
+  MSc(CNGF)
+  Mode of Study
+  Full-time
+  Normative Program Duration
+  Full-time: 2 years
+  Program Fee
+  Please refer to the
+  Program's website
+  .
+  Offering Unit
+  Carbon Neutrality and Climate Change Thrust Area
+  Society Hub
+  Program Advisor
+  Program Director:
+  Prof Coco Dijia DU, Research Associate Professor of Carbon Neutrality and Climate Change
+  Website
+  https://soch.hkust-gz.edu.cn/academics/cncc/msc-programs/
+  Enquiry
+  msc-cngf@hkust-gz.edu.cn
+  INTRODUCTION
+  The global urgency to address climate change underscores the intertwined goals of carbon neutrality and green finance. With 138 countries committing to carbon neutrality and the rise of sustainable financial tools, the convergence of environmental stewardship and financial innovation has become paramount. China, as the world's leading energy consumer and producer, responsible for 28% of global CO2 emissions, has embarked on ambitious targets to peak emissions by 2030 and attain carbon neutrality by 2060. The Greater Bay Area, endowed with industrial, technological, and financial prowess, stands as a key driver of this transformation.
+  The dual challenges of transitioning to carbon neutrality and fostering green finance in China necessitate specialized skills and expertise. The “2022 Global Green Skills Report” by LinkedIn reveals an acute shortage of professionals in carbon neutrality and sustainable finance, with a notable talent gap anticipated in the future. HKUST(GZ) epitomizes a forward-thinking educational approach, employing its cross-disciplinary framework to augment the established HKUST. As part of the Greater Bay Area’s master plan, it acts as a nexus for talent across Hong Kong, Macao, and Guangdong Province, and fortifies Hong Kong’s high-tech manufacturing through mainland connections. The Carbon Neutrality and Climate Change (CNCC) Thrust, within the Society Hub, dedicates itself to national imperatives, leadership development, and climate change mitigation, emphasizing virtues such as integrity, creativity, and social responsibility.
+  The unique Master’s program in Carbon Neutrality and Green Finance (CNGF) at HKUST(GZ) is meticulously crafted to equip students with both technological and financial knowledge to meet this multifaceted challenge. CNGF is seeking to bridge the significant talent gap in the interdisciplinary field by offering electives in the field of green finance and ESG. Utilizing the Greater Bay Area’s distinctive assets, the program will equip students to navigate the scientific and financial dimensions of carbon neutrality. Graduates will be poised to innovate in climate solutions, shape new financial products, and play a decisive role in realizing China’s carbon neutrality targets, thus contributing to global sustainability.
+  The MSc program in Carbon Neutrality and Green Finance combines financial expertise with knowledge of the obstacles involved in shifting towards a low-carbon economy. This significant shift will necessitate innovative financial instruments and will impact markets, companies, and investors profoundly. Taught in English, the program prepares the next wave of financial professionals for the energy transition, ensuring the financial industry's long-term alignment with environmental needs. Students in this MSc will join an elite group skilled in environmental, social, and governance (ESG) factors in financial decisions. Our electives in green finance and ESG add a unique dimension, enhancing understanding of climate change solutions within societal, technological, political, and financial contexts.
+  The program is ideal for those who want to pursue a career in local, national and international climate policy; businesses and industries focused on climate change innovations, technologies, climate finance; or in academia with a focus on carbon neutrality technologies and finance research. Students also benefit from opportunities to undertake work placements in the Greater Bay Area, including HK, Guangzhou, and Jiangmen.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Acquire a holistic understanding of climate change, carbon neutrality, green finance, and ESG at multiple scales, ranging from local to global;
+  Engage practically with industry and research institutions and apply their knowledge and skills to address real-world challenges in the industry and research sectors, leveraging their hands-on experience gained from the comprehensive internships;
+  Cultivate readiness for a variety of professional roles in the emerging sectors of carbon neutrality, green finance, and ESG, bolstered by targeted career development activities;
+  Integrate and employ knowledge from various disciplines to formulate innovative solutions in the field of carbon neutrality and green finance; and
+  Develop foundational research skills for further academic pursuits or specialized roles requiring rigorous research capabilities.
+  CURRICULUM
+  Minimum Credit Requirement
+  34 credits
+  Credit Transfer
+  Subject to the approval of the Program Director, students who have taken equivalent courses at other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 12 credits.
+  Core Courses
+  10 credits
+  CNGF 5000
+  Foundation in Green and Sustainable Finance
+  3 Credit(s)
+  Description
+  This course will provide an advanced foundation in the study and practice of green finance at the level required for postgraduate studies. As the field of green finance is inherently interdisciplinary, the course will take a broad view of green finance and include perspectives from public policy, climate risks and management, environmental science and governance, finance and other aspects in related areas. It will elaborate core concepts in green finance and explain their evolution as well as the reasons behind. It will also delve into the policies and practices of green finance from an international comparative perspective. Carbon trading and carbon neutrality, as the hot pursed topics related to green finance, will also be covered. Gaps for strengthening the green finance system will be critically discussed calling for reflections and actions at the end of the course.
+  CNGF 5010
+  Green Technology and Innovation
+  3 Credit(s)
+  Description
+  This course delves into the multifaceted realm of Green Technology and Innovation (GTI), exploring its significance in today's world. Through examining innovation systems, economic policies, and global disparities, we analyze the transition from fossil fuels to renewable energy sources like wind, solar, and hydroelectric power. Additionally, we scrutinize the pivotal roles of lithium batteries, electric vehicles, and industry choices in shaping sustainable development.
+  CNGF 5020
+  Environmental Modeling and Big Data Analytics
+  3 Credit(s)
+  Description
+  This course equips students with knowledge and skills to leverage big data for environmental modeling and decision-making in the context of carbon neutrality. Through lectures, case studies, and projects, students learn cutting-edge statistical and computational tools to process, analyze, and visualize large-scale environmental datasets, and apply these techniques to real-world problems related to climate change mitigation, renewable energy, and sustainable land use.
+  CNGF 6030
+  Career Fair Workshop
+  1 Credit(s)
+  Description
+  This course offers students the chance to acquire essential career readiness skills and knowledge. These workshops are facilitated by the faculty members of CNCC Thrust and cover a wide range of topics, such as resume writing techniques, effective strategies for navigating career fairs, and exploring different career path options, among others. Graded P or F.
+  Elective Courses
+  15 credits
+  Students can take the following courses to meet the elective course requirement:
+  • Any postgraduate elective courses offered by CNCC
+  • A list of other postgraduate elective courses offered at HKUST(GZ) in a particular year will be announced at the beginning of each intake
+  Additional coursework may be required as part of the program preparation.
+  Project
+  3 credits
+  CNGF 6980
+  Independent Project
+  3 Credit(s)
+  Description
+  Independent project in a designated subject under direct guidance of a faculty member to provide students the advanced knowledge and research skill sets on a topic of Carbon Neutrality and Green Finance. Required readings, tutorial discussions, and submission of report(s) will be used for assessment. The course may be repeated for credit if different topics are studied. Graded P or F.
+  Students are required to complete a one-term independent project on real-world industry problems. Each independent project will be supervised by one faculty member at HKUST(GZ). The topics of the projects will come from industry with focus on carbon neutrality or green finance. Students are expected to complete the project in the first term of their second academic year.
+  Internship
+  6 credits
+  CNGF 6050
+  Internship I
+  3 Credit(s)
+  Description
+  This course is the first part of a 6-month mandatory and guaranteed internship. It provides students with the opportunity to gain practical experience in the industry, applying the knowledge and skills acquired throughout their academic program. Under the guidance of both academic supervisors and industry mentors, students will work on real-world projects related to carbon neutrality and green finance. This hands-on experience will enable students to develop a deeper understanding of how their expertise can be applied to address various climate change challenges faced by organizations. Throughout the internship, students will enhance their problem-solving abilities, professional communication skills, and industry-specific knowledge, preparing them for successful careers in the field of sustainable finance and environmental management.
+  CNGF 6051
+  Internship II
+  3 Credit(s)
+  Description
+  This course is the second part of a 6-month mandatory and guaranteed internship. It is an advanced industry training course that builds upon the knowledge and experience gained in CNGF 6050 Internship I. In this course, students will continue to work under the guidance of their academic supervisors and industry mentors to tackle more complex, real-world problems related to carbon neutrality and green finance. This course emphasizes the refinement of research skills, critical thinking, and professional development, preparing students to become leaders in the field of sustainable finance and environmental management.
+  Students are required to complete a guaranteed internship with a duration of 6 months. Each internship will be supervised by one academic supervisor at HKUST(GZ) and one industrial supervisor as a pair.
+  Students are required to complete internship reports consisting of two parts. Students are required to pass oral examinations consisting of one Open Topic Report and one Final Report. Each oral presentation should normally take approximately 1 hour. The Open Topic Report will be examined based on the scientific value, feasibility and technical challenges of the proposed topic. The Final Report will examine the industry collaboration progress, final output from the internship and gains of the students.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 250
+  Application Deadlines
+  For 2026/27 Fall Term Intake (commencing in Sep 2026):
+  International students*
+  15 Jun 2026
+  Chinese students
+  15 Jul 2026
+  Application Open On
+  21 July 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - Program's website | https://soch.hkust-gz.edu.cn/academics/cncc/msc-programs/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

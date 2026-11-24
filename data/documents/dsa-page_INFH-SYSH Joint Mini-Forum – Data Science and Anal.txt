@@ -1,0 +1,37 @@
+dsa_page: INFH-SYSH Joint Mini-Forum – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/29/infh-sysh-joint-mini-forum/
+source: DSA
+
+headings:
+  - INFH-SYSH Joint Mini-Forum
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - LEARN MORE
+  - EVENT RECAP
+
+text: >
+  Forum
+  INFH-SYSH Joint Mini-Forum
+  Share to
+  Date
+  22 April 2024
+  Time
+  14:00:00 -
+  17:00:00
+  Location
+  C2-1F-102, HKUST(GZ)
+  Event Organizer
+  Information Hub
+  Systems Hub
+  Email
+  infh@hkust-gz.edu.cn
+  sysh@hkust-gz.edu.cn
+  LEARN MORE
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/NTRCKABnEKPMxXP0lKFWrA
+  - EVENT RECAP | https://mp.weixin.qq.com/s/rqHD_wUKPTRknpQ7gMNM-A

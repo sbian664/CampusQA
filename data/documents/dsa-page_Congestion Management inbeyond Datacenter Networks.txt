@@ -1,0 +1,28 @@
+dsa_page: Congestion Management in/beyond Datacenter Networks: Pyrrha as a case – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/29/congestion-management-in-beyond-datacenter-networks-pyrrha-as-a-case-2/
+source: DSA
+
+headings:
+  - Congestion Management in/beyond Datacenter Networks: Pyrrha as a case
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Congestion Management in/beyond Datacenter Networks: Pyrrha as a case
+  Share to
+  ABSTRACT
+  Network data are often visualized as node-link diagrams to help people make sense of them. However, the same network can be visualized in different ways by simply changing the layout, and different layouts affect human network comprehension differently. As a result, a number of quality metrics have been proposed to ensure the generated visualizations are easy to read and understand. Among those metrics, edge crossings have been identified as the most important factor with the greatest negative impact on visualization users. Subsequently, much effort has been devoted to crossing minimization in visualization design. However, crossing minimization is a difficult problem both in algorithm design and implementation. A question has long been asked: is it possible to achieve comparable or even better visualization quality without minimizing the number of crossings?
+  In this talk, Dr. Huang will introduce his empirical research that led to a positive answer to this question and the discovery of a new quality metric: crossing angle. His work revealed that crossings may not be as bad as we normally think. He will demonstrate that visualizations with large-angle crossings can be as good as those without crossings, and that the negative impact of crossings can be reduced by increasing crossing angles.
+  SPEAKER BIO
+  Dr. Tony Huang is an Associate Professor at the University of Technology Sydney, Australia. He received his PhD in computer science from the University of Sydney. His main research interests are in Human-Computer Interaction and Visual Perception. He is an author of over 150 publications in these areas. His research has been supported by various funding agencies, with a total value of over $3 million.
+  Date
+  02 September 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

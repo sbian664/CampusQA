@@ -1,0 +1,69 @@
+dsa_page: Unlocking LLM Potential: Investigating Graph Problems and Mathematical Reasoning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/03/unlocking-llm-potential-investigating-graph-problems-and-mathematical-reasoning/
+source: DSA
+
+headings:
+  - Unlocking LLM Potential: Investigating Graph Problems and Mathematical Reasoning
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Unlocking LLM Potential: Investigating Graph Problems and Mathematical Reasoning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Nuo CHEN
+  ABSTRACT
+  Large language models (LLMs) excel at pattern matching but still struggle with rigorous reasoning. To systematically unlock their latent potential, we address key challenges in mathematical and graph-based reasoning, including: enabling large language models (LLMs) to perform self-reflection and calibration for better problem-solving, overcoming data scarcity, leveraging reinforcement learning to enhance reasoning capabilities, and bridging graph problem reasoning with general reasoning to improve overall LLM performance.
+  First, we propose
+  IMR-TIP
+  (Improving Math Reasoning with Tool-augmented Interleaf Prompting), an interactive reasoning framework that empowers LLMs to self-reflect and invoke external tools for solving mathematical problems. We further introduce
+  MathOctopus
+  , a multilingual mathematical reasoning model capable of addressing problems in over ten languages. To enhance generalization, we design a controllable math data generation method, significantly improving LLMs’ performance in mathematical tasks.
+  Having stabilised mathematical reasoning, we turn to structure as a catalyst for general reasoning. Graphs offer a universal abstraction, so we build
+  GraphWiz
+  , the first LLM fine-tuned specifically on graph computational problems. Its success motivates a larger vision: if graphs embody relations underlying many tasks, then pre-training on rich graph reasoning should lift performance everywhere. We curate
+  GraphPile
+  , a large, diverse corpus of graph-centric problems and tutorials, and pre-train
+  GraphMind
+  . Empirically,
+  GraphMind
+  transfers its relational bias to out-of-domain benchmarks, outperforming vanilla LLMs across arithmetic, commonsense, and program synthesis. Finally, we close the loop at the reward level.We propose
+  Graph-PRM
+  , a process-level reward model that grades each reasoning step by graph-problem correctness. Reinforcement learning with GraphPRM further sharpens both mathematical and graph reasoning, confirming our hypothesis that structured rewards amplify structured pre-training.
+  TEC
+  Chairperson: Prof Xin WANG
+  Prime Supervisor: Prof Jia LI
+  Co-Supervisor: Prof Yangqiu SONG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Wenjia WANG
+  Prof Enyan DAI
+  Prof Xu CHEN
+  Date
+  05 June 2025
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 968 3773 6868
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/96837736868?pwd=xupwCaZLL818wLNQbRp4iVmh4x2gbn.1

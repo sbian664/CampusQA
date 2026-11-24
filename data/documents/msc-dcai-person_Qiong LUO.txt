@@ -1,0 +1,7 @@
+msc_dcai_page: Qiong LUO
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/
+supervisor_type: academic
+role: Professor
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+responsibilities: Thrust of Data Science and Analytics

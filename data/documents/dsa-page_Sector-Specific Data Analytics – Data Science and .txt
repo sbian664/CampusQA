@@ -1,0 +1,54 @@
+dsa_page: Sector-Specific Data Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/research/research-projects/sector-specific-data-analytics/
+source: DSA
+
+headings:
+  - Blockchain-based Smart Campus System
+  - Citamon, Digital Assets Sharing and Trading System
+  - Crowd4U (Crowdsourcing for Utility)
+  - Data Management for Deep Learning
+  - Diversified Routing
+  - Efficient Operators for Big Distributed Graphs
+  - ETS: Blockchain-based Emission Trading System
+  - Fluid-zang, NFT Collection Management System
+  - Global Routing Optimization in Road Networks
+  - Intelligent Quantitative Investment Technologies Based on Knowledge Base
+
+text: >
+  Search
+  No data.
+  Blockchain-based Smart Campus System
+  Lei CHEN
+  Citamon, Digital Assets Sharing and Trading System
+  Lei CHEN
+  Crowd4U (Crowdsourcing for Utility)
+  Lei CHEN
+  Data Management for Deep Learning
+  Lei CHEN
+  Diversified Routing
+  Lei LI, Xiaofang ZHOU
+  Diversified, Graph, KSP, Path Enumeration, Route Planning, Transportation
+  Efficient Operators for Big Distributed Graphs
+  Lei CHEN
+  ETS: Blockchain-based Emission Trading System
+  Lei CHEN
+  Fluid-zang, NFT Collection Management System
+  Lei CHEN
+  Global Routing Optimization in Road Networks
+  Lei LI, Xiaofang ZHOU
+  Graph, Index, Road Network, Route Planning, Shortest Path, Transportation
+  Intelligent Quantitative Investment Technologies Based on Knowledge Base
+  Lei CHEN
+  Dynamic knowledge fusion,Dynamic knowledge graph representation,Explainable AI,Human-interacted knowledge extraction,Knowledge update,Knowledge-driven prediction model,Prediction model with incremental learning
+
+links:
+  - Blockchain-based Smart Campus System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/blockchain-based-smart-campus-system/
+  - Citamon, Digital Assets Sharing and Trading System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/citamon-digital-assets-sharing-and-trading-system/
+  - Crowd4U (Crowdsourcing for Utility) Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/crowd4u-crowdsourcing-for-utility/
+  - Data Management for Deep Learning Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/data-management-for-deep-learning/
+  - Diversified Routing Lei LI, Xiaofang ZHOU Diversified, Graph, KSP, Path Enumeration, Route Planning, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/diversified-routing/
+  - Efficient Operators for Big Distributed Graphs Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/efficient-operators-for-big-distributed-graphs/
+  - ETS: Blockchain-based Emission Trading System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/ets-blockchain-based-emission-trading-system/
+  - Fluid-zang, NFT Collection Management System Lei CHEN | https://dsa.hkust-gz.edu.cn/blog/2024/05/07/fluid-zang-nft-collection-management-system/
+  - Global Routing Optimization in Road Networks Lei LI, Xiaofang ZHOU Graph, Index, Road Network, Route Planning, Shortest Path, Transportation | https://dsa.hkust-gz.edu.cn/blog/2024/04/08/global-routing-optimization-in-road-networks/
+  - Intelligent Quantitative Investment Technologies Based on Knowledge Base Lei CHEN Dynamic knowledge fusion,Dynamic knowledge graph representation,Explainable AI,Human-interacted knowledge extraction,Knowledge update,Knowledge-driven prediction model,Prediction model with incremental learning | https://dsa.hkust-gz.edu.cn/blog/2024/04/17/knowledge-graph-driven-quantitative-investment/

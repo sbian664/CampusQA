@@ -1,0 +1,52 @@
+dsa_page: Time-Sensitive Multimodal Retrieval-Augmented Generation(TS-MRAG) – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/04/24/time-sensitive-multimodal-retrieval-augmented-generationts-mrag/
+source: DSA
+
+headings:
+  - Time-Sensitive Multimodal Retrieval-Augmented Generation(TS-MRAG)
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Time-Sensitive Multimodal Retrieval-Augmented Generation(TS-MRAG)
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  Thesis Proposal Exam
+  By Mr JIA, Zhifeng
+  Abstract
+  Retrieval-Augmented Generation (RAG) systems increasingly operate over multimodal, temporally evolving evidence spanning text,tables,images, audio, and video. Yet existing RAG pipelines treat temporal expressions as ordinary tokens during retrieval and lack mechanisms to keep underlying knowledge representations current. This thesis addresses a central research question:
+  how can we design RAG systems that respect temporal and numerical constraints,
+  efficiently update knowledge as data evolves, and retrieve evidence satisfying both semantic
+  relevance and structured predicates for time-sensitive multimodal question answering?
+  We present three core contributions for this problem. First, we propose
+  SIT
+  (Selective Incremental Training), a method for dynamic knowledge graph (KG) embedding that identifies the subset of entities most affected by newly arriving triples through influence propagation analysis and selectively updates only their embeddings. Second, we introduce
+  AIR
+  (Adaptive Incremental Embedding Updating), a framework that extends SIT with adaptive propagation depth selection, entity-specific learning rate scheduling, and change-magnitude-aware regularization. Third, we develop
+  AQCache
+  , a cache-accelerated filter-based vector search system for efficient RAG that addresses two critical bottlenecks in mainstream pipelines:
+  computational
+  redundancy
+  and
+  round redundancy
+  ,by introducing an adaptive historical query cache grounded in Hypervolume Subset Selection (HSSP)that reuses verified retrieval results across constraintcompatible queries with formal diversity guarantees.
+  Building on these components, we outline the
+  TS-MRAG
+  integration framework as proposed future work—a constraint-first, freshness-aware multimodal RAG pipeline that unifies incremental knowledge updating,temporal query parsing, dual-axis temporal indexing, and numerical/temporal answer verification.
+  TPE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. ZHANG, Qian
+  Examiner: Prof. LI, Jia
+  Date
+  28 April 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  W1-102 (HKUST-GZ)

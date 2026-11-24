@@ -1,0 +1,36 @@
+dsa_page: TOWARDS BETTER REASONING WITH LARGELANGUAGE MODELS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/towards-better-reasoning-with-largelanguage-models/
+source: DSA
+
+headings:
+  - TOWARDS BETTER REASONING WITH LARGELANGUAGE MODELS
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  TOWARDS BETTER REASONING WITH LARGELANGUAGE MODELS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr YANG, Zhicheng
+  Abstract
+  The journey toward creating artificial intelligence that mirrors human cognition necessitates a shift from fast, intuitive "System 1" thinking to deliberate, logical "System 2" reasoning. While foundational Large Language Models (LLMs) have demonstrated remarkable proficiency in System 1 tasks, their application in complex problem-solving, such as mathematical deduction and intricate coding, highlights a critical deficiency in deep, step-by-step reasoning. This survey provides a comprehensive analysis of the evolution and current state of reasoning LLMs, models specifically designed to emulate System 2 capabilities.
+  This survey first trace the developmental path from foundational LLMs to early reasoning oriented technologies, exploring the key innovations that enabled this transition, such as the introduction of external tools and structured prompting techniques. I then delve into the core architectural features, training methodologies, and optimization techniques employed in the construction of state-of-the-art reasoning LLMs, including a detailed examination of pre-training objectives and fine-tuning strategies that enhance logical coherence.
+  The survey provides a detailed taxonomy of different reasoning paradigms, including chain-of-thought, tree-of-thought, and other advanced methods, while also examining their practical applications and observed performance across various domains. I also consider the critical aspect of evaluation, discussing new benchmarks and metrics specifically designed to assess System 2 reasoning abilities beyond traditional accuracy scores. Finally, we discuss the current challenges and outline promising future directions for research in the field of System 2 LLMs, including the integration of symbolic reasoning and the development of more robust self-correction mechanisms. This work serves as a valuable resource for researchers and practitioners seeking to understand the landscape of reasoning LLMs and their potential to unlock more robust and human-like AI capabilities.
+  PQE Committee
+  Chair of Committee: Prof. LUO, Qiong
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. WANG, Yiwei
+  Examiner: Prof. WEI, Jiaheng
+  Date
+  19 September 2025
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  W1-222 (HKUST-GZ)

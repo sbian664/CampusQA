@@ -1,0 +1,41 @@
+dsa_page: Join us – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/join-us/
+source: DSA
+
+headings:
+  - Job Openings
+
+text: >
+  All
+  Academic
+  Non-academic
+  Search
+  Job Openings
+  no data.
+  join-us
+  50
+  Job ID
+  Employment Category
+  Posting Title
+  6568
+  Academic
+  Senior Lecturer/ Lecturer I / Lecturer II
+  Apply
+  6052
+  Academic
+  Post-doctoral Fellow
+  Apply
+  5645
+  Academic
+  Faculty Positions
+  Apply
+  5639
+  Academic
+  Post-doctoral Fellow
+  Apply
+
+links:
+  - Senior Lecturer/ Lecturer I / Lecturer II | https://career.hkust-gz.edu.cn/en/job-detail?jobId=1161
+  - Post-doctoral Fellow | https://career.hkust-gz.edu.cn/en/job-detail?jobId=66
+  - Faculty Positions | https://career.hkust-gz.edu.cn/en/job-detail?jobId=52
+  - Post-doctoral Fellow | https://career.hkust-gz.edu.cn/en/job-detail?jobId=46

@@ -1,0 +1,42 @@
+dsa_page: INFH Information Sessions @ Jilin University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/11/infh-information-sessions-jilin-university/
+source: DSA
+
+headings:
+  - INFH Information Sessions @ Jilin University
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - EVENT RECAP
+
+text: >
+  Postgraduate Admissions
+  INFH Information Sessions @ Jilin University
+  Share to
+  Date
+  11 April 2024
+  Time
+  18:30:00 -
+  20:00:00
+  Location
+  吉林大学南岭校区逸夫楼A307
+  Event Organizer
+  Information Hub
+  Email
+  infhpgadmit@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG Students - Prospective
+  LEARN MORE
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/YK7XAkA_6ZcyjPScTQWOOQ
+  - EVENT RECAP | https://mp.weixin.qq.com/s/9nv4KvaJAfoxsQHze8UJEA

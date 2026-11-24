@@ -1,0 +1,37 @@
+dsa_page: A Survey on the Data and Content Safety ofGenerative AI Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/a-survey-on-the-data-and-content-safety-ofgenerative-ai-models/
+source: DSA
+
+headings:
+  - A Survey on the Data and Content Safety ofGenerative AI Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on the Data and Content Safety ofGenerative AI Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LIU, Yule
+  Abstract
+  This survey studies the content and data security of generative models that produce text, images, video, and increasingly physical actions. When such a model is examined on its own, the questions concern training- and alignment-data memorization, membership inference, machine unlearning, jailbreaks against the safety alignment meant to constrain it, and the extent to which image and video generators can be driven to produce unsafe content.
+  Once that model becomes the perception-and-planning core of an agent or a robot, a manipulated input is no longer a bad sentence but a wrong action, one that can be physical and irreversible. The further stages introduced by image-to-3D pipelines and generative world models extend rather than replace the previous concerns.
+  A third set of questions arises from outside the model and its operator: data owners, platforms, and regulators must prove what a model was trained on, attribute generated content, keep watermarks from being forged or stripped, and hold the field to standardized benchmarks rather than ad-hoc claims.
+  We place every line of work in one threat model, indexed by attacker access (black-box, score-level, white-box, supply-chain) and pipeline stage (pre-training, SFT, preference alignment, inference, generated content, physical execution). A recurring observation across these three settings is that the same attack primitives (input perturbations, prompt manipulations, and supply-chain interventions) resurface in each, so a model that is safe in isolation can still fail the moment it acts or is audited. We conclude with the open problems this joint view exposes: verifiable safety for tool-using agents, leakage audits for preference data, watermark provenance for video and 3D, and physical-safety envelopes for embodied policies.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. WEI, Jiaheng
+  Co-Supervisor: Prof. CHU, Xiaowen
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-150, HKUST(GZ)

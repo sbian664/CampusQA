@@ -1,0 +1,27 @@
+dsa_page: Efficient LLM Agents: Algorithms, Systems, and Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/02/27/efficient-llm-agents-algorithms-systems-and-applications/
+source: DSA
+
+headings:
+  - Efficient LLM Agents: Algorithms, Systems, and Applications
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Efficient LLM Agents: Algorithms, Systems, and Applications
+  Share to
+  ABSTRACT
+  Execution efficiency has become a key bottleneck to the real-world deployment of LLM agents. This talk focuses on efficient LLM agents, covering both system and algorithm design, and then presents practical applications in the healthcare domain. First, we introduce Maze, a distributed agent system designed for efficient deployment and scheduling over distributed clusters. Maze enables fine-grained, task-level management of agent execution. Compared with mainstream agent frameworks, Maze reduces average serving latency by up to 75% across diverse workloads. Second, we present AutoTool, which addresses the high overhead of tool use in agent execution. AutoTool exploits inertia patterns across tool-calling sequences and uses graph-based optimization to accelerate tool invocation. Without degrading task quality, it reduces token cost by more than 25%. Finally, we discuss applications of LLM agents in healthcare and highlight their practical value as well as key open challenges in real-world deployment.
+  SPEAKER BIO
+  Qinbin Li is a Professor at Huazhong University of Science and Technology, and a recipient of a national-level young talent program. His research focuses on distributed learning and large-model systems. He has been listed multiple times among the world’s top 2% scientists. His honors include the Google PhD Fellowship, VLDB Best Research Paper nomination, SIGMOD Best Artifact nomination, TPDS Best Paper Award, and PREMIA Best Student Paper Gold Award. His work has received over 7,000 Google Scholar citations, including more than 1,500 citations each for three first-author papers. His open-source systems have accumulated more than 3,000 stars and 500 forks on GitHub.
+  Date
+  03 March 2026
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Rm 101, W1, HKUST(GZ)

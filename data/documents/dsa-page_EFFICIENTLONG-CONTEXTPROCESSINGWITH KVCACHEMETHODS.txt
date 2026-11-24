@@ -1,0 +1,41 @@
+dsa_page: EFFICIENTLONG-CONTEXTPROCESSINGWITH KVCACHE:METHODS,CHALLENGES,AND FUTUREDIRECTIONS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/11/efficientlong-contextprocessingwith-kvcachemethodschallengesand-futuredirections/
+source: DSA
+
+headings:
+  - EFFICIENTLONG-CONTEXTPROCESSINGWITH KVCACHE:METHODS,CHALLENGES,AND FUTUREDIRECTIONS
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  EFFICIENTLONG-CONTEXTPROCESSINGWITH KVCACHE:METHODS,CHALLENGES,AND FUTUREDIRECTIONS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Xiang LIU
+  Abstract
+  Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, but processing long text sequences presents significant computational and memory challenges. The Key-Value (KV) Cache, which stores intermediate attention computations to avoid redundant calculations during autoregressive generation, is a critical component where optimization can substantially improve efficiency. This thesis presents a comprehensive survey of KV Cache optimization techniques and introduces novel methods for enhancing long-context processing in LLMs.
+  We begin by analyzing the fundamental challenges in KV Cache management, establishing a formal problem definition that highlights the linear growth of memory requirements with sequence length and the quadratic computational complexity of attention mechanisms. We then propose a systematic taxonomy of KV Cache optimization approaches, categorizing them into KV Cache Selection (static and dynamic methods), KV Cache Budget Allocation (layer-wise and head-wise strategies), and examining their theoretical foundations and practical implementations.
+  Our research makes three significant contributions to the field. First, we introduce LongGenBench, a novel benchmark specifically designed to evaluate long-context generation capabilities beyond mere information retrieval. Second, we propose ChunkKV, asemantic-aware compression framework that preserves contextual integrity by treating semantically coherent token groups as fundamental compression units. Third, through extensive experimental analysis, we provide a comprehensive evaluation of how different compression techniques affect various model capabilities, revealing task-dependent sensitivity patterns and demonstrating that arithmetic reasoning tasks are particularly vulnerable to compression artifacts.
+  Our findings suggest that while significant progress has been made in improving longcontext processing efficiency, future innovations should focus on task-adaptive compression strategies, compression-aware training techniques, and theoretical frameworks for understanding performance bounds under different optimization constraints.
+  PQE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. HU, Xuming
+  Examiner: Prof. WEN, Zeyi
+  Date
+  26 March 2025
+  Time
+  15:30:00 -
+  17:00:00
+  Location
+  E4, 201(HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  936 1117 3363

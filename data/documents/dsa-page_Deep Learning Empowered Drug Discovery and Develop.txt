@@ -1,0 +1,27 @@
+dsa_page: Deep Learning Empowered Drug Discovery and Development – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/10/17/deep-learning-empowered-drug-discovery-and-development/
+source: DSA
+
+headings:
+  - Deep Learning Empowered Drug Discovery and Development
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Deep Learning Empowered Drug Discovery and Development
+  Share to
+  ABSTRACT
+  Drug design and development is a lengthy and costly process involving multiple complex stages, from molecular discovery to clinical trials. Artificial intelligence (AI) technologies have shown great potential to significantly accelerate this process and reduce costs. In the early stages of drug discovery, the goal is to identify molecules with desired pharmacological properties. This talk will explore the latest drug design methodologies, including continuous-space deep generative models and discrete-space drug design path search algorithms. These advanced AI tools can efficiently explore the chemical space, predict the activity and safety of novel compounds, and optimize candidate drug designs to meet specific therapeutic requirements. Furthermore, in the later stages of drug development, the focus shifts to clinical trials, which are critical for assessing a drug's safety and efficacy in humans. To improve the success rate and efficiency of clinical trials, this talk will introduce a series of cutting-edge trustworthy methods, including interpretable and uncertainty-aware clinical trial design and prediction techniques. These approaches not only simulate real-world clinical trial processes but also help scientists better understand potential risks and benefits, enabling more informed decision-making.
+  SPEAKER BIO
+  Dr. Tianfan Fu is currently an Associate Professor at the School of Computer Science and Technology, Nanjing University. His research focuses on AI for Drug Discovery (AI4Drug) and AI for Science (AI4Science). He received his B.S. and M.S. degrees from the Department of Computer Science and Technology at Shanghai Jiao Tong University and his Ph.D. from the School of Computational Science and Engineering at the Georgia Institute of Technology, USA. He previously served as a tenure-track Assistant Professor in the Department of Computer Science at Rensselaer Polytechnic Institute, USA. He joined Nanjing University in December 2024 and was selected for a national-level youth talent program. He has published over 40 peer-reviewed papers in prestigious journals and conferences such as Nature, Nature Chemical Biology, Nature Machine Intelligence, Nature Scientific Data, Foundations and Trends in Machine Learning, ICML, ICLR, NeurIPS, KDD, and TKDE. His work has been widely cited by researchers worldwide (over 5,000 citations on Google Scholar), including scholars from renowned institutions such as Stanford, MIT, Harvard, Yale, and Princeton, as well as over 20 members of national academies of sciences/engineering and more than 50 AAAI/ACM/IEEE Fellows from China, the US, the UK, Canada, and Europe. His research has been applied in several biopharmaceutical companies. He also co-organized the first three AI for Science workshops.
+  Date
+  21 October 2025
+  Time
+  11:00:00 -
+  11:00:00
+  Location
+  Lecture Hall C, HKUST(GZ)

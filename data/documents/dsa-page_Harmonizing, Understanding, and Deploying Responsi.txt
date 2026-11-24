@@ -1,0 +1,35 @@
+dsa_page: Harmonizing, Understanding, and Deploying Responsible AI – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/04/11/harmonizing-understanding-and-deploying-responsible-ai/
+source: DSA
+
+headings:
+  - Harmonizing, Understanding, and Deploying Responsible AI
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Harmonizing, Understanding, and Deploying Responsible AI
+  Share to
+  ABSTRACT
+  Artificial Intelligence (AI) has demonstrated remarkable potential for tackling grand challenges in human society. Yet, building an integrative Responsible AI system that is comprehensively aligned with multifaceted human values—rather than a single one—remains a major challenge in earning people’s trust, particularly in high-stakes domains like healthcare. To address the challenge, my vision is to harmonize, understand, and deploy Responsible AI: optimizing AI systems that balance real-world constraints in computational accessibility, data privacy, security, and ethical norms through use-inspired threat analysis and integrative ethical learning algorithms. Pursuing this vision, I developed privacy-preserving algorithms that are harmonized with high accessibility to edge devices, fairness to individuals, and security of ML systems. My work also systematically analyzed the multifaceted trust risks associated with model compression and fine-tuning toward edge and personalized use cases. Additionally, I explored Responsible AI techniques for in-home dementia prevention and diagnosis, expanding the time and space boundaries of dementia healthcare for socially isolated older adults. My work lays the foundation for Responsible AI algorithm, evaluation, and deployment, paving the future path toward reliable, verifiable, and effective AI in healthcare and beyond.
+  SPEAKER BIO
+  Junyuan Hong is a postdoctoral fellow at the Institute for Foundations of Machine Learning (IFML) and the Wireless Networking and Communications Group (WNCG) at UT Austin. His research focuses on advancing Responsible AI for Healthcare. His recent work addressed pressing challenges in Responsible AI, such as data privacy, fairness, and security. In 2024, he was recognized as an MLCommons Rising Star and a finalist for the VLDB Best Paper Award. Additionally, his work on safeguarding data privacy in financial analysis won the third-place finish in the U.S. PETs (Privacy-Enhancing Technologies) Prize Challenge and was highlighted by the White House and MSU Research & Innovation Oﬃce in 2023. Beyond research, he actively served as lead chair organizer for Federated-Learning and GenAI-for-Health workshops at top-tier data mining and machine learning conferences (KDD and NeurIPS), and a mentor in the Responsible AI for Ukraine program.
+  Date
+  16 April 2025
+  Time
+  09:30:00 -
+  10:30:00
+  Join Link
+  Zoom Meeting ID:
+  980 2146 9915
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

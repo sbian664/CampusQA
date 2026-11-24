@@ -1,0 +1,32 @@
+dsa_page: TOWARDS THE ENHANCEMENT OF LARGE LANGUAGE MODELS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/towards-the-enhancement-of-large-language-models/
+source: DSA
+
+headings:
+  - TOWARDS THE ENHANCEMENT OF LARGE LANGUAGE MODELS
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  TOWARDS THE ENHANCEMENT OF LARGE LANGUAGE MODELS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Yuxin JIANG
+  Abstract
+  Large language models (LLMs) are gaining increasing popularity in both academia and industry, owing to their unprecedented performance in various applications. However, the inherent complexity of LLMs poses significant challenges in effectively enhancing their capabilities. The intricate architectures and the vast amount of data required for training add layers of difficulty to optimizing these models. To systematically address these challenges, we categorize the LLM ecosystem into three critical stages within its development pipeline: construction; utilization and augmentation; and evaluation. This framework not only highlights the key areas for innovation but also underscores the importance of interdisciplinary collaboration in overcoming the complexities associated with LLMs. To this end, we introduce our proposed methods in different stages and present the experimental results obtained. Eventually, we explore the prevailing challenges and outline the most encouraging paths for future research.
+  TPE Committee
+  Chairperson: Prof Xiaowen CHU
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Jiaqiang HUANG
+  Examiner: Prof Wenjia WANG
+  Date
+  12 June 2024
+  Time
+  14:50:00 -
+  16:05:00
+  Location
+  E1-149

@@ -1,0 +1,35 @@
+dsa_page: FROM STRUCTURAL SIMILARITY TO INFORMATIONFIDELITY: A NEW PARADIGM FOR EVALUATING TABLE RECOGNITION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/25/from-structural-similarity-to-informationfidelity-a-new-paradigm-for-evaluating-table-recognition/
+source: DSA
+
+headings:
+  - FROM STRUCTURAL SIMILARITY TO INFORMATIONFIDELITY: A NEW PARADIGM FOR EVALUATING TABLE RECOGNITION
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  FROM STRUCTURAL SIMILARITY TO INFORMATIONFIDELITY: A NEW PARADIGM FOR EVALUATING TABLE RECOGNITION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LIU, Yuchen
+  Abstract
+  Accurate table recognition (TR) is a critical prerequisite for unlocking structured knowledge from the vast repositories of digital documents, a task of increasing importance in the era of Large Language Models. However, progress in the field is hindered by a fundamental flaw in its evaluation methodologies. Widely adopted metrics, such as Tree-Edit-Distance-based Similarity (TEDS) and Grid Table Similarity (GriTS), are designed to measure structural similarity. This review critically argues that structural similarity serves as an imperfect proxy for the true objective: the preservation of information fidelity. This discrepancy leads to a systemic “Fidelity Gap,” where models can achieve high evaluation scores while producing outputs with catastrophic, information-destroying errors, such as cell misalignments. To address this, we first provide a comprehensive survey of the architectural evolution of TR models, contextualizing the challenges of evaluation. We then conduct a deep, critical history of evaluation metrics, deconstructing the the oretical underpinnings of similarity-based approaches and revealing their inherent limitations. Finally, we propose a necessary paradigm shift towards directly quantifying information fidelity. We introduce a conceptual framework for this new paradigm and present the Table Fidelity Evaluation Metric (TFEM)—a concrete instantiation based on optimal transport—as a case study. Through extensive empirical evidence, including its stronger correlation with downstream task performance, we validate the superiority of the fidelity-oriented approach. This review advocates for the adoption of information fidelity as the new standard, providing a more accurate compass to guide the future development of truly trustworthy table recognition systems.
+  PQE Committee
+  Chair of Committee: Prof. DUAN, Lingjie（Online）
+  Prime Supervisor: Prof. CHEN, Lei (Online)
+  Co-Supervisor: Prof. LUO, Yuyu (Onsite)
+  Examiner: Prof. DING, Ningning (Onsite)
+  Date
+  26 September 2025
+  - 25 September 2025
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  W3-105

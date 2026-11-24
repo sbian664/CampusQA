@@ -1,0 +1,48 @@
+dsa_page: Protein Function Prediction with Sequence, Structure, and Protein-Protein Interaction Information – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/07/22/protein-function-prediction-with-sequence-structure-and-protein-protein-interaction-information/
+source: DSA
+
+headings:
+  - Protein Function Prediction with Sequence, Structure, and Protein-Protein Interaction Information
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Protein Function Prediction with Sequence, Structure, and Protein-Protein Interaction Information
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Zhuoyang CHEN
+  ABSTRACT
+  Protein function prediction is a cornerstone of computational biology, as elucidating the functional roles of proteins is fundamental to understanding biological processes and enabling applications ranging from enzyme engineering to drug discovery. Despite decades of research, the vast majority of known proteins remain unannotated, as experimental characterization is laborious, costly, and time-consuming. Computational approaches have traditionally relied on sequence homology, but the recent breakthroughs in protein structure prediction and the accumulation of protein-protein interaction (PPI) data have opened new avenues for improving prediction accuracy. However, integrating these heterogeneous data sources—sequences, structures, and PPI networks—poses significant challenges. These modalities differ in representation, scale, and noise characteristics, and indiscriminate fusion can introduce redundancy or amplify noise rather than enhance signal. This thesis demonstrates that integrating sequence, structure, and protein-protein interaction information improves protein function prediction accuracy through suitable integration strategies adapted to data sources and prediction tasks.
+  This thesis presents a systematic progression from comparative analysis to selective integration to unified generation, addressing the challenge of protein function prediction through three interconnected studies. First, to establish the complementary value of structural information to the sequence information, we conduct a comparative study of protein structure alignment tools against sequence alignment methods on protein function prediction. We identify critical factors affecting accuracy—including the loss of sidechain information in structure-based methods, the sensitivity to flexible regions, and the impact of partial alignment mechanisms—while evaluating computational efficiency across methods. This analysis establishes when and why structure outperforms sequence, providing a foundation for subsequent integration efforts.
+  Building upon these insights, we develop DualNetGO, a dual-network feature selection framework that judiciously combines graph embeddings from multiple PPI networks with protein attribute features. Rather than concatenating all available features, DualNetGO employs a classifier-selector architecture to identify optimal feature subsets, demonstrating that selective integration substantially outperforms indiscriminate fusion such as concatenation and enumeration across all features. We show that the model is robust to the choice of embedding methods and achieves superior accuracy with reduced computational cost.
+  Finally, we advance beyond discrete feature selection to unified cross-modal alignment with ProtBLIP2-SST, a framework that integrates protein sequence and structure with free-text functional descriptions through a two-stage retrieval-and-generation pipeline. By treating function prediction as protein-to-text captioning, our model generates open-ended annotations that capture molecular function, subcellular localization, and homology context in a single output with integrated structure and sequence data, outperforming sequence-only, structure-only, and sequence–text alignment baselines.
+  Collectively, these works establish a coherent methodology: from understanding when structure complements sequence, to selectively fusing network and attribute features, to seamlessly aligning sequence, structure, and text for flexible, interpretable protein function annotation. We demonstrate that integrating sequence, structure, and PPI information improves protein function prediction when governed by selective, integrated, and context-aware strategies rather than naive aggregation.
+  TEC
+  Chairperson: Prof Ingeborg Dr. REICHLE
+  Prime Supervisor: Prof Qiong LUO
+  Co-Supervisor: Prof Weichuan YU
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Yanlin ZHANG
+  Prof Qiaojin LIN
+  Prof Xiaodong FANG
+  Date
+  14 August 2026
+  Time
+  10:00:00 -
+  12:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

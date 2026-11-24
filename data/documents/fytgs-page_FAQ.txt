@@ -1,0 +1,182 @@
+fytgs_page: FAQ
+url: https://fytgs.hkust-gz.edu.cn/admissions/faq
+source: FYTGS
+
+headings:
+  - Admission
+  - Program and Study
+  - What are the differences between research postgraduate programs & taught postgraduate programs?
+  - Can I work and study at the same time as a full-time research postgraduate student?
+  - How to apply for MPhil programs offered in Thrusts?
+  - Application Procedures
+  - I am currently a final year undergraduate student, can I apply now?
+  - What should I do if my IELTS/TOEFL (or another public examination) result is not yet available?
+  - Can I apply for more than one postgraduate program?
+  - Is there any difference if I apply to programs of HKUST(GZ) as an international applicant?
+  - How can I identify a supervisor(s) before submitting the application for the research postgraduate studies?
+  - Online Admission System
+  - Can I make changes to my application after submission?
+  - What if I forget my login password in the Admission System?
+  - I cannot upload the supporting documents. What should I do?
+  - Can I update/ delete supporting documents after submitting the application?
+  - I have submitted my application already. Can I still change my program choice?
+  - Referees
+  - Will the University accept reference report or letter submitted by hard copy or mail?
+  - Why my referees cannot receive the invitation from the University?
+  - How can I know if the University has received the reference report?
+  - I have provided a wrong email address of the referee. What should I do?
+  - When should my referees submit the reference report?
+  - Admission Results
+  - When will I be notified of an admission offer?
+  - How can applicants obtain information regarding the applications results?
+  - Funding
+  - How much is the non-refundable application fee for MPhil/PhD/TPg program? How can I settle the payment?
+  - How can I apply for the Postgraduate Studentship?
+  - Do I still need to pay the tuition fee if I receive the Postgraduate Studentship? (for MPhil/PhD)
+  - Offer Acceptance
+  - Supporting Documents
+  - What does it mean by official certified true copies?
+  - My official supporting document is not in English. What should I do?
+  - Can I arrange electronic transcript for qualification verification?
+  - What are the University Codes for TOEFL and IELTS?
+  - How long will the verification work take?
+  - Others
+  - Do applicants need to participate in any interviews or tests?
+  - How can I apply for a refund for the paid tuition if I cannot enroll at HKUST(GZ)?
+  - What steps should I take if I want to process the transfer of my archive (档案) and the transfer of my Party or Youth league organizational affiliations?
+
+text: >
+  Admission
+  Program and Study
+  What are the differences between research postgraduate programs & taught postgraduate programs?
+  MPhil and PhD programs are research postgraduate programs (RPg) which involve intense research work and preparation of a thesis under the guidance of a supervisor.
+  Taught postgraduate programs (TPg) lead to MBA, MA, MSc and MFA degrees. TPg programs place more emphasis on coursework and are generally more career-oriented than RPg programs.
+  Can I work and study at the same time as a full-time research postgraduate student?
+  All full-time MPhil and PhD students should not take up any employment on top of their research studies.
+  How to apply for MPhil programs offered in Thrusts?
+  Please apply for the Master of Philosophy (General) in the system. Students are admitted centrally through University based admission to the Master of Philosophy (General) Program. By end of Fall Term, students will declare to enter one of the 16 Master of Philosophy programs offered by the Thrusts.
+  Application Procedures
+  I am currently a final year undergraduate student, can I apply now?
+  Yes. Please first submit your latest transcript online for assessment.
+  Programs may extend conditional offers to selected applicants before the required qualifications are obtained.
+  If you receive a conditional offer, you are required to submit the official final transcripts and degree certificates for verification when available.
+  What should I do if my IELTS/TOEFL (or another public examination) result is not yet available?
+  State your scheduled test dates in the online application.
+  Update the test record and upload the score report once the result is available.
+  The test score is an essential factor in assessing your application. You are highly recommended to take relevant test and upload score report as soon as possible.
+  Can I apply for more than one postgraduate program?
+  Yes. Applicants may submit more than one application. However, we see the advantage of staying focused and getting prepared accordingly.
+  You need to submit an application, pay application fee, upload supporting documents and invite referees for each program you apply.
+  Is there any difference if I apply to programs of HKUST(GZ) as an international applicant?
+  No. Application procedures and admission requirements are the same for all applicants of HKUST(GZ).
+  International students are required to apply for China Student Visa issued by the local embassy/consulate of China. Apply for the Student Visa (X visa) upon receiving the paper admission notice and JW 202/201 Form. All international students are required to obtain a student visa from the local Chinese embassy or consulate to enter China. Learn more
+  here
+  .
+  Tip: Students from Hong Kong, Macao and Taiwan must hold a valid Mainland Travel Permit.
+  Please contact us at
+  pgadmitgz@hkust-gz.edu.cn
+  if you have any further inquiries.
+  How can I identify a supervisor(s) before submitting the application for the research postgraduate studies?
+  You are advised to look into our faculty/supervisor list under each Thrust at
+  https://facultyprofiles.hkust-gz.edu.cn/
+  and explore if there is a match with your research interest.
+  Online Admission System
+  Can I make changes to my application after submission?
+  After submissions, only the following changes are allowed:
+  Change personal contact details,
+  Input final GPA/average mark after program completion,
+  Add new scores of IELTS/TOEFL or other public examinations which are not available earlier,
+  Upload supporting documents, and
+  Invite referees.
+  What if I forget my login password in the Admission System?
+  Click “Forgot password/username” on the login page and follow the procedures.
+  Be sure to add "pgoasgz@hkust-gz.edu.cn" in your email address book so that you will not miss our email notification.
+  I cannot upload the supporting documents. What should I do?
+  Use another internet browser and disable any pop-up blocker.
+  Can I update/ delete supporting documents after submitting the application?
+  Supporting documents cannot be deleted after your application is submitted.
+  You may upload the new version of your documents with clear indication in the file name.
+  I have submitted my application already. Can I still change my program choice?
+  Changing program choice is not allowed after submission.
+  You will need to submit and pay for another online application for the right program choice.
+  Referees
+  Will the University accept reference report or letter submitted by hard copy or mail?
+  We only consider reference report/letters received via the online system. Please let us know in case your referee needs assistance in online submission.
+  Why my referees cannot receive the invitation from the University?
+  Check if the referee’s email address is input correctly.
+  Ask your referee to check his/her junk/spam mail folder.
+  Make use of the "Resend" button to send another invitation to your referee.
+  How can I know if the University has received the reference report?
+  If the referee's report has been received, the status will display "Reference report received" under the “References” page in the Online Admission System.
+  I have provided a wrong email address of the referee. What should I do?
+  Please “add a referee” in the system, invite the same referee but use the correct email address.
+  If your referee has already submitted the online reference report for you with the correct email address, please ignore any related system-generated email reminder.
+  When should my referees submit the reference report?
+  We expect referees to send us the referee report online within 14 days of the invitation.
+  Admission Results
+  When will I be notified of an admission offer?
+  Successful applicants will receive an email notification. Please log in to the Online Admission System to keep track of your application status and outcome. For instance, unsuccessful applicants who seek admission in Fall term will normally be notified in the summer before program commencement.
+  For details please contact the program directly (see contact information at
+  fytgs.hkust-gz.edu.cn/programs
+  under “General Information” tab of individual program page).
+  How can applicants obtain information regarding the applications results?
+  All information regarding the progress of the application will be reflected in the Online Admission System, please login to the OAS for the latest admission updates from time to time.
+  For admission results enquiry please contact the program directly (see contact information at
+  fytgs.hkust-gz.edu.cn/programs
+  under “General Information” tab of individual program page).
+  Funding
+  How much is the non-refundable application fee for MPhil/PhD/TPg program? How can I settle the payment?
+  CNY150 per MPhil/PhD program.
+  Fees vary for each TPg program. Please refer to
+  fytgs.hkust-gz.edu.cn/programs
+  (“Application”) for details.
+  Please settle the application fee online by
+  Alipay (China) / WeChat Pay (China)
+  UnionPay
+  VISA / Mastercard / JCB / Diners Club
+  How can I apply for the Postgraduate Studentship?
+  All full-time MPhil/PhD students are automatically considered for the Postgraduate Studentship (PGS). No separate application is required.
+  Do I still need to pay the tuition fee if I receive the Postgraduate Studentship? (for MPhil/PhD)
+  Yes.
+  Offer Acceptance
+  Supporting Documents
+  What does it mean by official certified true copies?
+  Copies officially imprinted, signed and certified by the issuing authority concerned.
+  My official supporting document is not in English. What should I do?
+  Please send us the notarized English or Chinese translation. We understand that the notary/ governmental authority may not provide the direct delivery service to the third party, you can mail the documents to us.
+  Can I arrange electronic transcript for qualification verification?
+  Yes, we prefer official electronic documents shared directly by the issuing authorities whenever possible.
+  Please request the central unit (e.g. Registry) of your home institution to send the electronic documents (quoting your application number and applied program if possible) to
+  pgdocgz@hkust-gz.edu.cn
+  .
+  Email attachments sent by the applicant which are NOT retrievable from designated secure websites will not be accepted.
+  What are the University Codes for TOEFL and IELTS?
+  The codes below apply to all PG programs:
+  TOEFL
+  (Test of English as a Foreign Language)
+  DI Code: D315
+  IELTS
+  (International English Language Testing System)
+  Name of institution: The Hong Kong University of Science and Technology (Guangzhou)
+  Name of department: Other departments (E results required Duxue Road Nansha District)
+  How long will the verification work take?
+  Normally, the document verification process may last around 10 working days.
+  Others
+  Do applicants need to participate in any interviews or tests?
+  Yes, shortlisted applicants will be invited to participate in an admissions interview(s) and/or test(s).
+  How can I apply for a refund for the paid tuition if I cannot enroll at HKUST(GZ)?
+  Applicants shall decide on requesting the first payment refund before the program commencement,
+  Click "Decline" in the Online Admission System,
+  You will receive a system-generated email with instructions on submitting your application materials,
+  Refund applications will be processed in the middle of each month, and the internal processing will take approximately four weeks,
+  In accordance with local government regulations, we will refund 90% of the prepaid tuition fees.
+  What steps should I take if I want to process the transfer of my archive (档案) and the transfer of my Party or Youth league organizational affiliations?
+  If you wish to handle the transfer of your archive, please contact armd@hkust-gz.edu.cn. For the transfer of Party organization relations, please contact ocpcc@hkust-gz.edu.cn. And for the transfer of Youth league organization relations, please contact cylc2024@hkust-gz.edu.cn.
+
+links:
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home/
+  - https://facultyprofiles.hkust-gz.edu.cn/ | https://facultyprofiles.hkust-gz.edu.cn/
+  - fytgs.hkust-gz.edu.cn/programs | https://fytgs.hkust-gz.edu.cn/programs
+  - fytgs.hkust-gz.edu.cn/programs | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/
+  - TOEFL | https://www.ets.org/toefl
+  - IELTS | https://www.ielts.org/

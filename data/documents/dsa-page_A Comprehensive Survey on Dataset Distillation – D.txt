@@ -1,0 +1,47 @@
+dsa_page: A Comprehensive Survey on Dataset Distillation – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/a-comprehensive-survey-on-dataset-distillation/
+source: DSA
+
+headings:
+  - A Comprehensive Survey on Dataset Distillation
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Email
+  - Audience
+
+text: >
+  PhD Qualifying-Exam
+  A Comprehensive Survey on Dataset Distillation
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Mingyang CHEN
+  Abstract
+  Dataset distillation, a technique for synthesizing compact datasets from larger ones while main-training similar performance, has gained significant momentum in various research domains. This surge, however, has led to a diverse and expansive range of methods and applications, creating a complex landscape that can be challenging to navigate. This paper addresses this complexity by offering a detailed review of dataset distillation (DD) methodologies, We present a structured taxonomy of DD approaches, categorizing them into meta-learning and imitation-based frame-works, further dividing each into sub-groups like backpropagating through time (BPTT), kernel ridge regression (KRR), gradient-matching, trajectory-matching, feature-distribution-matching, and prediction-matching methods. Additionally, we explore enhancement techniques that can be integrated into these frameworks as plug-and-play modules, The paper investigates the scope of DD across various data modalities, including images, graphs, and text, and applications such as continual learning, neural architecture search, and privacy, We then detail the standard experimental setups and protocols for evaluating DD methods, focusing on metrics such as accuracy, transfer-ability, time efficiency, and scalability. We finally conclude by highlighting the current challenges in DD and proposing promising directions for future research, providing a comprehensive guide to the burgeoning field of dataset distillation.
+  Zoom Link
+  PQE Committee
+  Chairperson: Dr. Nan TANG
+  Prime Supervisor: Prof. Wei WANG
+  Co-Supervisor: Dr. Minhao CHENG
+  Examiner: Dr. Wenjia WANG
+  Date
+  23 January 2024
+  Time
+  11:00:00 -
+  12:30:00
+  Location
+  E3-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  817 4646 0181
+  Passcode: dsa2024
+  Email
+  dsarpg@hkust-gz.edu.cn
+  Audience
+  All are welcome!
+
+links:
+  - Zoom Link | https://hkust-gz-edu-cn.zoom.us/j/81746460181?pwd=It3B3QKDDiyHJUnTgQyNl8wBFIxri4.1

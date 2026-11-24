@@ -1,0 +1,50 @@
+dsa_page: APPLIED RESEARCH OF GRAPH NEURAL NETWORKS FROM THE PERSPECTIVE OF EFFECTIVENESS, EFFICIENCY, AND EXPLAINABILITY – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/07/15/applied-research-of-graph-neural-networks-from-the-perspective-of-effectiveness-efficiency-and-explainability/
+source: DSA
+
+headings:
+  - APPLIED RESEARCH OF GRAPH NEURAL NETWORKS FROM THE PERSPECTIVE OF EFFECTIVENESS, EFFICIENCY, AND EXPLAINABILITY
+  - Abstract
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  APPLIED RESEARCH OF GRAPH NEURAL NETWORKS FROM THE PERSPECTIVE OF EFFECTIVENESS, EFFICIENCY, AND EXPLAINABILITY
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Xujia LI
+  Abstract
+  Nowadays, graph-structured data is extensively utilized in a multitude of domains, encompassing intelligent recommendation systems, financial fraud detection, traffic flow optimization, etc. The advent of Graph Neural Networks (GNNs) has further propelled the advancement of these research areas. However, the applicability of these models in real-world scenarios often falls short due to non-ideal training environments compared to the academic benchmarks, resulting in performance degradation. This shortfall can be attributed to a myriad of factors, including the imbalance in data distribution, the inferior generalization capacity, the noise in labeled data, and the black-box nature of neural networks. There is a pressing need to address these challenges to augment the effectiveness, efficiency, and explainability of GNNs in real-world contexts.
+  This thesis presents a novel GNN framework, TripleE-GNN, with more than ten specific novel techniques, which can be categorized into sampling-based methods, resourcesharing methods, and GNN explanation methods. The framework and each method have been intensively evaluated across four practical problems: graph anomaly detection, anti-money laundering, graph-based dynamic advertising, and knowledge-graph-enhanced recommendation.
+  The thesis follows a structure where it first outlines the three essential requirements of effectiveness, efficiency, and explainability, laying the groundwork for our exploring GNNs in real-world applications. Subsequently, we present our insights and methodology of TripleE-GNN with its technique pool. Adhering to this general framework, we propose four detailed models corresponding to the four applied research problems, analyzing how our solutions augment the effectiveness, efficiency, and explainability of GNNs.
+  TEC
+  Chairperson: Prof Pan HUI
+  Prime Supervisor: Prof Lei CHEN
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiners:
+  Prof Jing QIU
+  Prof Jing TANG
+  Prof Jia LI
+  Prof Xin WANG
+  Date
+  19 July 2024
+  Time
+  13:30:00 -
+  15:30:00
+  Location
+  W1-102, GZ Campus
+  Join Link
+  Zoom Meeting ID:
+  82505387557
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/82505387557?pwd=E3T5YzQAgm9GgePc3KmF4X49blxsr5.1

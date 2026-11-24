@@ -1,0 +1,43 @@
+dsa_page: SPARSE MATRIX-MATRIX MULTIPLICATION ON GPUS: A COMPREHENSIVE SURVEY – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/sparse-matrix-matrix-multiplication-on-gpus-a-comprehensive-survey/
+source: DSA
+
+headings:
+  - SPARSE MATRIX-MATRIX MULTIPLICATION ON GPUS: A COMPREHENSIVE SURVEY
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - JOIN ONLINE
+
+text: >
+  PhD Qualifying-Exam
+  SPARSE MATRIX-MATRIX MULTIPLICATION ON GPUS: A COMPREHENSIVE SURVEY
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Ruibo FAN
+  Abstract
+  Sparse Matrix-Matrix Multiplication (SpMM) is a fundamental operation in many scientific and machine learning applications, particularly within Graph Neural Networks (GNNs), Convolutional Neural Networks (CNNs), and Large Language Models (LLMs). Efficient SpMM is critical due to the large-scale and high sparsity of the matrices involved in these applications. This survey provides a comprehensive overview of state-of-the-art techniques for optimizing SpMM on GPUs, highlighting advancements in memory access optimization, workload balancing, compiler optimizations, Tensor Core utilization, matrix reordering, and adaptive frameworks.
+  Performance evaluations conducted on Nvidia’s RTX 3090 and RTX 4090 GPUs reveal significant performance gains with Tensor Core-based implementations, particularly with advanced methods like DTC-SpMM. These results emphasize the importance of specialized hardware and sophisticated optimization strategies in achieving high performance for SpMM operations. Our in-depth analysis distills the essential advancements and challenges in GPU-accelerated SpMM, paving the way for innovative future research in this critical field.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Xiaowen CHU
+  Co-Supervisor: Prof Wei WANG
+  Examiner: Prof Zeyi WEN
+  Date
+  04 June 2024
+  Time
+  13:30:00 -
+  14:45:00
+  Location
+  E1-150
+  Join Link
+  Zoom Meeting ID:
+  863 2469 1073
+  Passcode: dsa2024
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/86324691073?pwd=bgC7oXRDJV5eG8PLlKBNd6dGyRoxaY.1

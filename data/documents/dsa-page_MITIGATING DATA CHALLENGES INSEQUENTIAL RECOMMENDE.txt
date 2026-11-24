@@ -1,0 +1,34 @@
+dsa_page: MITIGATING DATA CHALLENGES INSEQUENTIAL RECOMMENDER SYSTEMS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/mitigating-data-challenges-insequential-recommender-systems/
+source: DSA
+
+headings:
+  - MITIGATING DATA CHALLENGES INSEQUENTIAL RECOMMENDER SYSTEMS
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  MITIGATING DATA CHALLENGES INSEQUENTIAL RECOMMENDER SYSTEMS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. ZHOU Peilin
+  Abstract
+  Sequential recommender (SR) systems play a vital role in modeling user behavior for next item prediction based on historical interaction sequences. Despite the recent advances brought by attention-based architectures, practical SR applications continue to face three major data challenges: heterogeneity, sparsity, and noise. This proposal addresses these issues through a series of targeted solutions. To mitigate heterogeneity, we propose DIF-SR, which decouples the integration of item attributes within the attention mechanism, improving expressiveness and interpretability. To tackle sparsity, we present ECL-SR, a novel contrastive learning framework that distinguishes between mild and invasive augmentations, learning invariance to the former and equivariance to the latter. This strategy enhances semantic alignment without over-smoothing the learned representations. To handle noise, we introduce AC-TSR, which calibrates attention weights using spatial and adversarial mechanisms to reduce the impact of spurious behaviors. Looking ahead, we plan to incorporate Large Language Models (LLMs) and Vision Language Models (VLMs) to further enhance representation learning through semantic and multi-modal understanding. This proposal lays out a comprehensive path to addressing key data challenges in sequential recommendation, advancing the robustness, scalability, and interpretability of modern SR systems.
+  TPE Committee
+  Chair of Committee: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. KIM, Sung Hun
+  Co-Supervisor: Prof. WONG, Raymond
+  Examiner: Prof. WEI, Jiaheng
+  Date
+  11 June 2025
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-147 (HKUST-GZ)

@@ -1,0 +1,7 @@
+msc_dcai_page: Zishuo DING
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/
+supervisor_type: academic
+role: Assistant Professor
+profile_url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding
+responsibilities: Thrust of Data Science and Analytics

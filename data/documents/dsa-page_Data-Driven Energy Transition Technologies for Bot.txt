@@ -1,0 +1,39 @@
+dsa_page: Data-Driven Energy Transition Technologies for Both Supply and Demand Sides – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/16/data-driven-energy-transition-technologies-for-both-supply-and-demand-sides/
+source: DSA
+
+headings:
+  - Data-Driven Energy Transition Technologies for Both Supply and Demand Sides
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Data-Driven Energy Transition Technologies for Both Supply and Demand Sides
+  Share to
+  ABSTRACT
+  In the era of rapid energy transition, marked by the increasing integration of renewable energy resources, there is a critical need for data-driven technologies that address challenges on both the supply and demand sides. On the supply side, the rapid evolution of Photovoltaic (PV) technologies and the proliferation of PV systems emphasizes the need for more efficient and cost-effective monitoring strategies to ensure reliable operation and energy efficiency. We have developed a commercial platform in collaboration with an industrial partner, incorporating available electrical parameters for over 1200 distributed commercial PV systems across Australia. On the demand side, individual users and communities appear as new participants that search the aggregation of energy resources to offer the flexibility required by the grid through energy storage and demand response (DR) capabilities. Due to the global scale of smart meter infrastructure rollout and deployment, data-driven technologies can make the energy transition smarter and more efficient. Energy can be managed and scheduled cooperatively at the community level, offering a local economic and environmental perspective for achieving a net-zero society.
+  SPEAKER BIO
+  Yinyan LIU
+  Postdoctoral Researcher
+  University of New South Wales
+  Dr. Yinyan Liu is a postdoctoral research associate at the School of Photovoltaic and Renewable Energy Engineering, University of New South Wales, Australia. Her research interest broadly includes demand response for decarbonization and decentralization, data-driven smart grids, and operation and maintenance (O&M) of solar PV systems. Yinyan is also a recipient of the National Scholarship, the University of Sydney International Scholarship, Faculty of Engineering PhD Completion Award, and Full Scholarship for the Asian Rising Stars Women in Engineering.
+  Date
+  17 November 2023
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  W2-2F-233, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  879 6605 3902
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

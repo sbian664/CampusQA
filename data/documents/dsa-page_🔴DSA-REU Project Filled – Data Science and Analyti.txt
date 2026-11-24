@@ -1,0 +1,136 @@
+dsa_page: 🔴DSA-REU Project Filled – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/28/dsa-reu-project-filled/
+source: DSA
+
+headings:
+
+text: >
+  DSA-REU
+  🔴DSA-REU Project Filled
+  Day: February 28, 2025
+  Browse: 2628
+  Share to
+  Project Title
+  :
+  Ego-View Drone Video Understanding for Scene Understanding
+  Faculty Mentor
+  :
+  Prof. Xiaowen Chu
+  Students:
+  Yehua Huang, Zebin Chen
+  Project Title
+  :
+  Enhancing Reasoning in Large Language Models: Data, Algorithms,and Applications
+  Faculty Mentor
+  :
+  Prof. Jia Li
+  Student:
+  Bowen Liu
+  Project Title
+  :
+  Speeding Up Your LLMs: Advancing Speculative Decoding
+  Faculty Mentor
+  :
+  Prof. Jia Li
+  Student:
+  Han Xiao
+  Project Title
+  :
+  Agentic Design for High-Quality Math Data Generation and Evaluation
+  Faculty Mentor
+  :
+  Prof. Jiaheng Wei
+  Student:
+  Yilin Liu
+  Project Title
+  :
+  Robust supervised fine-tuning on noisy LLM alignment data
+  Faculty Mentor
+  :
+  Prof. Jiaheng Wei
+  Student:
+  Zhouan Shen
+  Project Title
+  :
+  Efficient LLM Training via High-Quality Data Selection
+  Faculty Mentor
+  :
+  Prof. Jiaheng Wei
+  Student:
+  Keyu Hu
+  Project Title
+  :
+  Human-AI Collaborative Sample Selection Framework
+  Faculty Mentor
+  :
+  Prof. Weikai Yang
+  Student:
+  Mingyang Yu
+  Project Title
+  :
+  Exploration the brain activities during memory retrieval
+  Faculty Mentor
+  :
+  Prof. Zixin Zhong
+  Student:
+  Sze Lai
+  Project Title
+  :
+  Reinforcement learning: theory and application
+  Faculty Mentor
+  :
+  Prof. Zixin Zhong
+  Student:
+  Daoyuan Guo
+  Project Title
+  :
+  AscendFlow Law
+  Faculty Mentor
+  :
+  Prof. Jing Tang
+  Student:
+  Zehan Lu
+  Project Title
+  :
+  Exploring Reasoning Models as Textual World Models
+  Faculty Mentor
+  :
+  Prof. Yuyu Luo
+  Student:
+  Xingjian Li
+  Project Title
+  :
+  LinguaSQL: Unlocking NL2SQL Potential Through Multilingual and Multi-Dialect Prompting
+  Faculty Mentor
+  :
+  Prof. Yuyu Luo
+  Student:
+  Ocean Kun Hei Ou
+  Project Title
+  :
+  Efficient and Controllable AIGC with Diffusion Models
+  Faculty Mentor
+  :
+  Prof. Zeke Xie
+  Student:
+  Zhenzhuo Li
+
+links:
+  - Ego-View Drone Video Understanding for Scene Understanding | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Xiaowen-CHU.pdf
+  - Prof. Xiaowen Chu | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/xiaowen-chu/
+  - Enhancing Reasoning in Large Language Models: Data, Algorithms,and Applications | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/DSA_REU_Research-Project_Jia-LI_Enhancing-Reasoning-in-Large-Language-Models-Data-Algorithms-and-App.pdf
+  - Prof. Jia Li | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/jia-li/
+  - Speeding Up Your LLMs: Advancing Speculative Decoding | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/DSA_REU_Research-Project_Jia-LI_Speeding-Up-Your-LLMs-Advancing-Speculative-Decoding.pdf
+  - Prof. Jiaheng Wei | https://dsa.hkust-gz.edu.cn/blog/2024/12/10/jiaheng-wei/
+  - Human-AI Collaborative Sample Selection Framework | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Weikai_LLM-Human-Collaborative_Data_Sampling.pdf
+  - Prof. Weikai Yang | https://dsa.hkust-gz.edu.cn/blog/2024/07/11/yang-weikai/
+  - Exploration the brain activities during memory retrieval | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zixin-Zhong_psychology.pdf
+  - Prof. Zixin Zhong | https://dsa.hkust-gz.edu.cn/blog/2024/07/11/zixin-zhong/
+  - Reinforcement learning: theory and application | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Zixin-Zhong_rl.pdf
+  - Prof. Jing Tang | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/jing-tang/
+  - Exploring Reasoning Models as Textual World Models | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yuyu-Luo_Exploring-Reasoning-Models-as-Textual-World-Models.pdf
+  - Prof. Yuyu Luo | https://dsa.hkust-gz.edu.cn/blog/2024/03/12/yuyu-luo/
+  - LinguaSQL: Unlocking NL2SQL Potential Through Multilingual and Multi-Dialect Prompting | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/03/DSA_REU_Research-Project_Yuyu-Luo_LinguaSQL.pdf
+  - Efficient and Controllable AIGC with Diffusion Models | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2025/04/DSA_REU_Research-Project_Zeke-Xie.pdf
+  - https://dsa.hkust-gz.edu.cn/blog/2024/05/13/guoming-tang/ | https://dsa.hkust-gz.edu.cn/blog/2024/05/13/guoming-tang/
+  - Prof. Zeke Xie | https://dsa.hkust-gz.edu.cn/blog/2024/06/18/zeke-xie/

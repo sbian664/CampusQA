@@ -1,0 +1,69 @@
+fytgs_page: Visiting Postgraduate Students
+url: https://fytgs.hkust-gz.edu.cn/short-term/visiting-postgraduate-students
+source: FYTGS
+
+headings:
+  - Visiting Postgraduate Students (Coursework Only)
+  - Eligibility
+  - Application Procedures
+  - Application Deadline
+  - Fees
+  - Student Visa/Travel Permit
+  - Financial Assistance
+  - Accommodation
+
+text: >
+  Visiting Postgraduate Students (Coursework Only)
+  If you are currently studying in other institutions* and wish to take courses on a short-term basis (normally one term, maximum two terms) at HKUST(GZ), you may consider applying for enrolment as a Visiting Postgraduate Student.
+  *Please note that Visiting Postgraduate Student status is not applicable to students from HKUST, as such mobility follows the established Cross-campus Studies mechanism. For undergraduate students from HKUST, please contact the Office of Global Learning at HKUST at
+  study.abroad@ust.hk
+  . For postgraduate students from HKUST and HKUST(GZ), please contact the Global Learning Department at HKUST(GZ) at
+  ccsct@hkust-gz.edu.cn
+  .
+  Eligibility
+  To be eligible for Visiting Postgraduate Study at HKUST(GZ), you should:
+  currently be a registered postgraduate student at a recognized tertiary institution*
+  have an educational background deemed satisfactory by the Hub & Thrust as a Visiting Postgraduate Student; and
+  have gained agreement in advance from your home institution
+  *International students shall observe and abide by the corresponding China student visa regulations.
+  Application Procedures
+  Step 1
+  Consult the
+  Thrust Area
+  you are interested in
+  Send "
+  Support from Home University/ Institution
+  " Form to your home institution to request for confirmation of support at HKUST(GZ) and upload to the application system
+  Step 2
+  Apply
+  online before the deadline
+  Step 3
+  After getting an offer:
+  Accept offer via the Online Admission System and
+  Send the Official transcript and/or testimonial issued from Central Unit (e.g. Registry) in hard copy to us (photocopy is unacceptable)
+  Learn more
+  Step 4
+  Apply for student visa at the local Chinese embassy/consulate (for international students)
+  Step 5
+  Register as a Visiting Postgraduate Student
+  Application Deadline
+  Fall Term: 15 July each year
+  Spring Term: 31 December each year
+  Fees
+  Please visit
+  Fees
+  .
+  Student Visa/Travel Permit
+  All international students are required to enter China with the appropriate student visa. Considering the time needed for the international travel arrangement e.g. visa application, early application is highly recommended.
+  Students from Hong Kong, Macao and Taiwan regions are required to enter China’s mainland with Mainland Travel Permit for Hong Kong and Macau Residents and Mainland Travel Permit for Taiwan Residents, respectively.
+  Financial Assistance
+  Visiting Postgraduate Students are not entitled to any financial assistance from the University. It is therefore important to ensure that you have adequate funds to support yourself.
+  Accommodation
+  Priority for university housing is given to the regular students. As such, please be prepared that you may have to arrange your own off-campus accommodation.
+
+links:
+  - Thrust Area | https://hkust-gz.edu.cn/academics/four-hubs
+  - Support from Home University/ Institution | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2023/07/Support-from-Home-University-Institution_PGVRS-Form.pdf
+  - Apply | https://pgoas.hkust-gz.edu.cn/
+  - Learn more | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/submitting-official-documents/
+  - Fees | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/scholarships-fees

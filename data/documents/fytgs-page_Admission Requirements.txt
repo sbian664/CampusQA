@@ -1,0 +1,34 @@
+fytgs_page: Admission Requirements
+url: https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+source: FYTGS
+
+headings:
+  - 1. General Admission Requirements
+  - 2. English Language Requirements
+  - 3. Program-Specific Admission Requirements
+
+text: >
+  To qualify for admissions to HKUST(GZ), applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements
+  Applicants seeking admission to master’s degree, postgraduate diploma, or postgraduate certificate programs should have:
+  Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification.
+  Applicants seeking admission to a doctoral degree program should have:
+  Obtained a bachelor’s degree with a proven record of outstanding performance from a recognized institution or presented evidence of satisfactory work at the postgraduate level on a full-time basis for at least one year, or on a part-time basis for at least two years.
+  2. English Language Requirements
+  Applicants have to fulfill English Language requirements with one of the following proficiency attainments:
+  TOEFL-iBT: 80 (for tests taken prior to 21 January 2026) *
+  4.5 (for tests taken from 21 January 2026 onwards) *
+  TOEFL-pBT: 550
+  TOEFL-Revised paper-delivered test: 60 (total scores for Reading, Listening and Writing sections)
+  IELTS (Academic Module): Overall score: 6.5 and All sub-score: 5.5*
+  * Refers to scores in one single attempt only. Test at home option is not accepted.
+  Applicants are not required to present TOEFL or IELTS score if
+  Their first language is English, or
+  Their bachelor's degree (or equivalent qualification) was awarded by an institution where the medium of instruction was English.
+  3. Program-Specific Admission Requirements
+  Some programs may stipulate additional requirements for admissions. For more information on the program-specific admission requirements, please click
+  here
+  .
+
+links:
+  - here | https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog/

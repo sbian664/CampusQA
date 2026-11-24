@@ -1,0 +1,54 @@
+dsa_page: EFFICIENT AND EFFECTIVE REACHABILITY QUERY ANSWERING AND ASKING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/06/efficient-and-effective-reachability-query-answering-and-asking/
+source: DSA
+
+headings:
+  - EFFICIENT AND EFFECTIVE REACHABILITY QUERY ANSWERING AND ASKING
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  EFFICIENT AND EFFECTIVE REACHABILITY QUERY ANSWERING AND ASKING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LINGHU, Han
+  Abstract
+  Reachability queries are a fundamental and critical type of query in graph analysis, with a wide range of applications across numerous domains. Given a directed graph
+  G
+  =(
+  V
+  ,
+  E
+  ) and two nodes
+  u
+  ,
+  v ∈ V
+  , a reachability query
+  Qr
+  (
+  u
+  ,
+  v
+  ) determines whether there exists a path from
+  u
+  to
+  v
+  . How to effectively and efficiently answer and ask reachability queries have been two key research topics studied extensively over the past decades. In this survey, we review classical approaches and recent advancements in both areas. Specifically, we first explore a wide range of indexing techniques designed for the efficient answering of both plain and constrained reachability queries. We then summarize stateof-the-art strategies for reachability query asking, focusing on the interactive graph search problem. This problem aims to locate a target node in a hierarchy by iteratively asking reachability queries on nodes selected through various querying strategies. Finally, we conclude this survey by highlighting open challenges and outlining potential research directions for both reachability query answering and asking.
+  PQE Committee
+  Chair of Committee: Prof. WANG Wei
+  Prime Supervisor: Prof. TANG Jing
+  Co-Supervisor: Prof. LU Shangqi
+  Examiner: Prof. XIE Zeke
+  Date
+  09 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-150 (HKUST-GZ)

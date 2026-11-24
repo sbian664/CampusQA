@@ -1,0 +1,40 @@
+dsa_page: Data-Centric Visual Analytics for Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/15/data-centric-visual-analytics-for-machine-learning/
+source: DSA
+
+headings:
+  - Data-Centric Visual Analytics for Machine Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA & CMA Joint Seminar
+  Data-Centric Visual Analytics for Machine Learning
+  Share to
+  ABSTRACT
+  Machine learning has achieved great success across various applications. However, it is still challenging for users to build high-performance machine learning models due to the need to analyze large-scale training samples and understand the relationships between samples and models. This process is very time-consuming and expertise-demanding. Visual analytics offers a promising solution by tightly integrating machine learning with interactive visualization techniques, which loop humans directly into the analysis process. Along this line, my research includes the following three topics: 1) For scenarios with limited annotated samples, we develop FSLDiagnotor that combines an automatic sample recommendation method and interactive visualization to help users examine and adjust annotated samples and boost model performance; 2) For scenarios that the samples are annotated but with poor quality, we develop Reweighter to allow users examine both the reweighting relationships and reweighting results and then make informed adjustments. 3) For scenarios that the sample distributions are changing after deploying the model, we develop DriftVis to facilitate the analysis of distribution changes and timely update the training samples. The effectiveness of our methods is demonstrated by both quantitative evaluation and case studies.
+  SPEAKER BIO
+  Weikai YANG
+  Tsinghua University
+  Weikai Yang is a 5th-year Ph.D. candidate at Tsinghua University. His research interests lie in integrating machine learning into visual analytics. In particular, he focuses on lowering the barriers to help practitioners better explore large-scale data and build high-performance machine learning models in real-world applications. Currently, he has published 12 papers (9 CCF-A papers) and 1 book (Springer, second author). Among these, he is the first author of 5 CCF-A papers published in top-tier journals and conferences, such as IEEE TVCG and IEEE VIS.
+  Date
+  16 April 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  846 9646 3368
+  Passcode: dsacma
+  Event Organizer
+  Data Science and Analytics Thrust
+  Computational Media and Arts Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  cmat@hkust-gz.edu.cn

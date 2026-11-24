@@ -1,0 +1,39 @@
+dsa_page: Understanding Vessel Movement: A Multi-Perspective Study on Spatio-temporal Maritime Trajectories – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/10/understanding-vessel-movement-a-multi-perspective-study-on-spatio-temporal-maritime-trajectories/
+source: DSA
+
+headings:
+  - Understanding Vessel Movement: A Multi-Perspective Study on Spatio-temporal Maritime Trajectories
+  - Abstrac t
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  Understanding Vessel Movement: A Multi-Perspective Study on Spatio-temporal Maritime Trajectories
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms QIU Siya
+  Abstrac
+  t
+  Understanding the trajectory of moving objects is critical in various applications such as autonomous navigation, surveillance, and anomaly detection. While pedestrian and vehicle trajectory analysis has been widely studied, maritime vessel trajectories remain relatively underexplored despite their global significance. Unlike land-based movements, vessel trajectories are not confined to predefined road networks and are less influenced by social dynamics or agent-to-agent interactions. As one of the most common forms of transportation trajectories, maritime vessel trajectories are worth studying as a distinct category of trajectory.
+  This proposal focuses on three aspects of maritime trajectory analysis. First, vessel trajectory prediction. In the absence of fixed road networks and dense agent-to-agent interactions, we propose a dynamic mutual attention mechanism that integrates historically similar trajectories to enhance prediction accuracy. Additionally, we introduce a novel spatiotemporal indexing method for the efficient retrieval of trajectories with similar spatiotemporal properties from large databases.
+  Second, trajectory segmentation and classification. Unlike traditional approaches that rely on pre-segmented trajectories with ground truth labels, we propose an integrated method for segmentation and classification, making it applicable to real-world scenarios. To address over-segmentation errors commonly seen in trajectory/series segmentation, we design a novel loss function that reduces frequent predicted label changes within short intervals, ensuring more accurate segmentation.
+  Third, traffic flow prediction. Conventional methods rely on region-specific maps, which limit the generalization ability of baseline models to unseen areas. Leveraging the powerful causal reasoning capabilities of large language models (LLMs), we propose a map-free approach to traffic flow prediction. We develop a novel method to convert flow trajectories into textual descriptions and employ a teacher-forcing strategy during LLM fine-tuning. The generated descriptions, combined with our temporal decoder, produce the final predictions.
+  Additionally, to address the lack of standardized maritime datasets, we construct taskspecific datasets tailored to each of the three analyses. These datasets are designed to reflect real-world maritime dynamics and support rigorous evaluation of the proposed methods.
+  TPE Committee
+  Chair of Committee: Prof. TANG, Nan
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. LUO, Qiong
+  Examiner: Prof. LI, Lei
+  Date
+  13 June 2025
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  E3-201 (HKUST-GZ)

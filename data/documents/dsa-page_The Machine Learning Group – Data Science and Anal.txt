@@ -1,0 +1,93 @@
+dsa_page: The Machine Learning Group – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/14/the-machine-learning-group/
+source: DSA
+
+headings:
+  - The Machine Learning Group
+  - Abstract
+  - Project members
+  - Lei CHEN
+  - Publications
+  - Project Period
+  - Research Area
+
+text: >
+  Research Project
+  The Machine Learning Group
+  Abstract
+  Under the supervision of Prof. Lei Chen, the machine learning (ML) group aims to promote a series of application scenarios, including spatial-temporal crowdsourcing, knowledge base and graph neural network (Figure. 1). Generally, the technique developed by the Prof. Lei Chen’s research team is based on Automated Machine Learning (AutoML) and Transfer Learning (TL).
+  As shown in Figure 2, the machine learning solution generally follow the steps: 1) clean the target data, including removing noisy, duplicated, and inconsistent data, 2) convert the data into an appropriate form through dimension reduction or normalization, 3) manually apply various machine
+  learning algorithms and try different model structures, and select the best
+  candidate model. However, such way requires a lot of human efforts to clean data, design model and tune hyper-parameters. Thus, it is inconvenient to apply machine learning models to down-streaming tasks or applications.
+  Motivated by the limitation of existing ML models, Prof. Lei CHEN leads the ML group to develop the AutoML and TL techniques for different tasks. For instance, in classic knowledge base (KB) embedding research, there are three major components, scoring function, negative sampling, and loss function, are manually designed for a specific KB. However, the model designed for one KB may not be able to achieve state-of-the-art (SOTA) performance on another KB. Thus, we develop a unified framework for KB embeddings based on AutoML as shown in Figure 3. Given any KB, the proposed method could capture the data properties and design a model that can achieve good performance.
+  More details of ML's applications, please check spatial-temporal crowdsourcing and Fintech.
+  LEARN MORE ABOUT OUR RESEARCH TOPICS
+  Project members
+  Lei CHEN
+  Chair Professor
+  Publications
+  Incremental Tabular Learning on Heterogeneous Feature Space
+  . Hanmo Liu, Shimin Di, and Lei Chen. SIGMOD 2023
+  Revisiting Injective Attacks on Recommender Systems
+  . Haoyang Li, Shimin Di, and Lei Chen. NeurIPS 2022
+  IS-MVSNet: Importance sampling-based MVSNet
+  . Likang Wang, Yue Gong, Xinjun Ma, Kaixuan Zhou, and Lei Chen. ECCV 2022
+  On Glocal Explainability of Graph Neural Networks. Ge Lv, Lei Chen, and Caleb Chen Cao. DASFAA 2022
+  Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks
+  . Jingshu Peng, Zhao Chen, Yingxia Shao, Yanyan Shen, Lei Chen, and Jiannong Cao. VLDB 2022
+  Black-box Adversarial Attack and Defense on Graph Neural Networks
+  . Haoyang Li, Shimin Di, Zijian Li, Lei Chen, and Jiannong Cao. ICDE 2022
+  AutoGEL: An Automated Graph Neural Network with Explicit Link Information
+  . Zhili Wang, Shimin Di, and Lei Chen. NeurIPS 2021
+  GraphANGEL: Adaptive and Structure-Aware Sampling on Graph Neural Networks
+  . Jingshu Peng, Yanyan Shen, and Lei Chen. ICDM 2021
+  FluxEV: A Fast and Effective Unsupervised Framework for Time-Series Anomaly Detection
+  . Jia Li, Shimin Di, Yanyan Shen, and Lei Chen. WSDM 2021
+  Mcore: Multi-Agent Collaborative Learning for Knowledge-Graph-Enhanced Recommendation
+  . Xujia Li, Yanyan Shen, and Lei Chen. ICDM 2021
+  Cache-based Graph Neural Networks for Dynamic Graphs. Haoyang Li, and Lei Chen. CIKM 2021
+  Efficient, Simple and Automated Negative Sampling for Knowledge Graph Embedding
+  . Yongqi Zhang, Quanming Yao, and Lei Chen. VLDBJ 2021
+  Searching to Sparsify Tensor Decomposition for N-ary Relational Data
+  . Shimin Di, Quanming Yao, and Lei Chen. WWW 2021
+  Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding
+  . Shimin Di, Yongqi Zhang, Quanming Yao, and Lei Chen. ICDE 2021
+  Interstellar: Searching Recurrent Architecture for Knowledge Graph Embedding
+  . Yongqi Zhang, Quanming Yao, and Lei Chen. NeurIPS 2020
+  AutoSF: Searching Scoring Functions for Knowledge Graph Embedding
+  . Yongqi Zhang, Quanming Yao, Wenyuan Dai, and Lei Chen. ICDE 2020
+  NSCaching: simple and efficient negative sampling for knowledge graph embedding
+  . Yongqi Zhang, Quanming Yao, Yingxia Shao, and Lei Chen. ICDE 2019
+  Relation Extraction via Domain-aware Transfer Learning
+  . Shimin Di, Yanyan Shen, and Lei Chen. SIGKDD 2019
+  Transfer Learning via Feature Isomorphism Discovery
+  . Shimin Di, Jingshu Peng, Yanyan Shen, and Lei Chen. SIGKDD 2018
+  Context-aware academic collaborator recommendation
+  . Zheng Liu, Xie Xing, and Lei Chen. KDD 2018
+  Project Period
+  2022
+  Research Area
+  Machine Learning
+
+links:
+  - https://dsa.hkust-gz.edu.cn/wp-admin/edit.php?post_type=post | https://dsa.hkust-gz.edu.cn/wp-admin/edit.php?post_type=post
+  - LEARN MORE ABOUT OUR RESEARCH TOPICS | https://cse.hkust.edu.hk/dbml/
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  - Incremental Tabular Learning on Heterogeneous Feature Space | https://dl.acm.org/doi/pdf/10.1145/3588698
+  - Revisiting Injective Attacks on Recommender Systems | https://proceedings.neurips.cc/paper_files/paper/2022/file/c1bb0e3b062f0a443f2cc8a4ec4bb30d-Paper-Conference.pdf
+  - IS-MVSNet: Importance sampling-based MVSNet | https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920663.pdf
+  - Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks | https://dl.acm.org/doi/pdf/10.14778/3538598.3538614
+  - Black-box Adversarial Attack and Defense on Graph Neural Networks | https://ieeexplore.ieee.org/iel7/9835153/9835154/09835574.pdf
+  - AutoGEL: An Automated Graph Neural Network with Explicit Link Information | https://proceedings.neurips.cc/paper/2021/file/cd3afef9b8b89558cd56638c3631868a-Paper.pdf
+  - GraphANGEL: Adaptive and Structure-Aware Sampling on Graph Neural Networks | https://ieeexplore.ieee.org/iel7/9678506/9678989/09679081.pdf
+  - FluxEV: A Fast and Effective Unsupervised Framework for Time-Series Anomaly Detection | https://dl.acm.org/doi/pdf/10.1145/3437963.3441823
+  - Mcore: Multi-Agent Collaborative Learning for Knowledge-Graph-Enhanced Recommendation | https://ieeexplore.ieee.org/iel7/9678506/9678989/09679143.pdf
+  - Efficient, Simple and Automated Negative Sampling for Knowledge Graph Embedding | https://arxiv.org/pdf/2010.14227
+  - Searching to Sparsify Tensor Decomposition for N-ary Relational Data | https://dl.acm.org/doi/pdf/10.1145/3442381.3449853
+  - Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding | https://ieeexplore.ieee.org/iel7/9458599/9458600/09458750.pdf
+  - Interstellar: Searching Recurrent Architecture for Knowledge Graph Embedding | https://proceedings.neurips.cc/paper/2020/file/722caafb4825ef5d8670710fa29087cf-Paper.pdf
+  - AutoSF: Searching Scoring Functions for Knowledge Graph Embedding | https://ieeexplore.ieee.org/iel7/9093725/9101180/09101641.pdf
+  - NSCaching: simple and efficient negative sampling for knowledge graph embedding | https://ieeexplore.ieee.org/iel7/8725877/8731337/08731371.pdf
+  - Relation Extraction via Domain-aware Transfer Learning | https://dl.acm.org/doi/pdf/10.1145/3292500.3330890
+  - Transfer Learning via Feature Isomorphism Discovery | https://dl.acm.org/doi/pdf/10.1145/3219819.3220029
+  - Context-aware academic collaborator recommendation | https://dl.acm.org/doi/pdf/10.1145/3219819.3220050

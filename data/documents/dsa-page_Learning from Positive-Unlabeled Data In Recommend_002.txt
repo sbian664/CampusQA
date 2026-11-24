@@ -1,0 +1,45 @@
+dsa_page: Learning from Positive-Unlabeled Data In Recommender Systems and Bioinformatics: A Brief Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/learning-from-positive-unlabeled-data-in-recommender-systems-and-bioinformatics-a-brief-survey/
+source: DSA
+
+headings:
+  - Learning from Positive-Unlabeled Data In Recommender Systems and Bioinformatics: A Brief Survey
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Learning from Positive-Unlabeled Data In Recommender Systems and Bioinformatics: A Brief Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Kexin SHI
+  Abstract
+  Positive-Unlabeled (PU) learning, a semi-supervised learning framework, has gained significant attention due to its potential to handle situations where negative examples are costly, difficult to obtain, or unavailable. In this survey, we first present the fundamental theories and methodologies of PU learning. The core of the discussion, however, lies in application of PU learning in two real-world scenarios, i.e. recommender systems and bioinformatics.
+  The primary focus is given to two-step methods, with an emphasis on negative sampling in two-step framework as applied to recommender systems and bioinformatics. Each realistic scenario is explored separately, addressing their unique data structures, the aptness of PU learning in these field, and the potential challenges for future research directions.
+  Zoom Link
+  Committee Members
+  Prof. Xiaowen CHU(chair)
+  Dr. Wenjia WANG
+  Dr. Xinzhou GUO
+  Dr. Lei LI
+  Date
+  03 July 2023
+  Time
+  14:30:00 -
+  16:00:00
+  Location
+  E1-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  886 4374 6102
+  Passcode: 030723
+  Email
+  dsarpg@hkust-gz.edu.cn
+
+links:
+  - Zoom Link | https://hkust-gz-edu-cn.zoom.us/j/88643746102?pwd=RjVXeExCMnNrRGN1Z0V6ZGFLRjdsUT09

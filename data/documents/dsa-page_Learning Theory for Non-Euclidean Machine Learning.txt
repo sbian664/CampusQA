@@ -1,0 +1,39 @@
+dsa_page: Learning Theory for Non-Euclidean Machine Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/12/10/learning-theory-for-non-euclidean-machine-learning/
+source: DSA
+
+headings:
+  - Learning Theory for Non-Euclidean Machine Learning
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Learning Theory for Non-Euclidean Machine Learning
+  Share to
+  ABSTRACT
+  Learning theory, which aims to evaluate machine learning models' performance quantitatively, is the fundamental building block of machine learning. This talk presents the recent advances in learning theory. Specifically, the talk focuses on the performance of machine learning models using non-Euclidean space. Recently, hyperbolic space, one variant of non-Euclidean space, has attracted attention since it can represent the hierarchical structure behind data in extremely low-dimensional space. However, such capability also involves a high risk of overfitting. Here, overfitting means performance degradation owing to data incompleteness. The presenter, for the first time, successfully provided the upper bound of hyperbolic-space-based machine learning's performance degradation by overfitting. This talk first reviews learning theory's motivation and the advantage of hyperbolic space in the machine learning context. Then, the talk introduces the presenter's recent work on performance analysis of hyperbolic-space-based machine learning using learning theory. If time permits, the talk briefly reviews the presenter's contribution to information-theoretic learning theory.
+  SPEAKER BIO
+  Atsushi Suzuki
+  Lecturer
+  King's College London
+  Atsushi Suzuki is a Lecturer in Machine Learning in the Department of Informatics at King's College London. Atsushi Suzuki was conferred a Doctoral Degree from the University of Tokyo. During the PhD study, Atsushi also worked as a research fellow on the Research Fellowship for Young Scientists (DC2) offered by the Japan Society for the Promotion of Science. Atsushi has published papers in the top academic venues, including ICML, NeurIPS, AAAI, IJCAI, IEEE Transactions on Information Theory, ISIT, ICDM, etc. Atsushi has also been invited to the top international conferences for talks, including IJCAI and ICLR.
+  Date
+  11 December 2023
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  820 3425 8606
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

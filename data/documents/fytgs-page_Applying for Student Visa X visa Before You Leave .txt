@@ -1,0 +1,55 @@
+fytgs_page: Applying for Student Visa (X visa) Before You Leave Home
+url: https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home
+source: FYTGS
+
+headings:
+  - Who Needs Student Visa (X visa)?
+  - Steps for Student Visa Application in Your Home Country (X visa)
+
+text: >
+  Who Needs Student Visa (X visa)?
+  All international students are required to obtain a student visa for studying in China’s mainland.
+  International Students who will be studying in China’s mainland for more than 6 months are required to obtain an “X1” Visa. Students who will be studying in China’s mainland for less than 6 months may apply for an “X2” Visa.
+  Important Notes:
+  The “X1” Visa is only valid for 30 days after your entry to China’s mainland. You must apply for a Residence Permit within these 30 days; you would be otherwise considered staying illegally and heavily fined.
+  According to Chinese law and regulations, international students MUST enter China’s mainland and register at universities with “X1”/ “X2” Visa. Students with other types of visas are NOT permitted to register.
+  Steps for Student Visa Application in Your Home Country (X visa)
+  1.
+  Accept the Admission Offer in the Online Admission System
+  2.
+  Confirm receiving the following documents mailed by HKUST(GZ)
+  Admission Notice
+  Visa Application for Foreign Students Studying in China (JW201 Form/JW202 Form)
+  Smart tips:
+  a. Please make sure the mailing address that you provided in the Online Admission System is accurate, so as to receive the visa documents in time to begin the visa application at the local Chinese embassy or consulate.
+  b. You will receive an email notification once your documents have been mailed to you. If you haven’t received the above documents by the given time in the email, please contact us at
+  pgadmitgz@hkust-gz.edu.cn
+  3.
+  Prepare documents required for Student Visa (X Visa) Application
+  Valid Passport
+  : original signed passport with at least six months of remaining validity and blank visa pages.
+  Admission Notice
+  issued by HKUST(GZ)
+  Visa Application for Study in China
+  (JW201/JW202 Form)
+  Other documents required
+  Note: The requirements vary between different consulates. For information regarding the location and the contacts of the Chinese Embassy/Consulate in your country, please visit the Chinese Ministry of Foreign Affairs at
+  http://www.fmprc.gov.cn/eng/
+  .
+  4.
+  Submit the visa application
+  along with all the required documents to the Chinese embassy/ consulate in your country
+  5.
+  After receiving the visa
+  Upload a copy of your approved visa as supporting document in the Online Admission System
+  Attention: When you pick up your passport and the "X1” or “X2” visa, please
+  make sure that your Admission Notice and JW201/JW202 Form page 3 (the yellow page) are handed back to you
+  .
+  6. Before Coming to China’s mainland: ensure that your admission offer is confirmed.
+  Notes:
+  It is advisable to enter China’s mainland within 1 week before the day of registration since you will not be able to convert X Visa to Residence Permit prior to in-person registration.
+  Please pay attention to your visa expiration date. If you have any questions, please contact us via emailing to
+  pgadmitgz@hkust-gz.edu.cn
+
+links:
+  - http://www.fmprc.gov.cn/eng/ | https://www.fmprc.gov.cn/mfa_eng/gjhdq_665435/

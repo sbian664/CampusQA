@@ -1,0 +1,40 @@
+dsa_page: HKUST & HKUST(GZ) Virtual Fair on MPhil and PhD Studies – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/11/hkust-hkustgz-virtual-fair-on-mphil-and-phd-studies/
+source: DSA
+
+headings:
+  - HKUST & HKUST(GZ) Virtual Fair on MPhil and PhD Studies
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Audience
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Postgraduate Admissions
+  HKUST & HKUST(GZ) Virtual Fair on MPhil and PhD Studies
+  Share to
+  Date
+  11 March 2024
+  Time
+  14:50:00 -
+  15:30:00
+  Location
+  Online
+  Event Organizer
+  HKUST
+  HKUST(GZ)
+  Audience
+  Prospective MPhil
+  Prospective PhD
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://fytgs.hkust-gz.edu.cn/discover/events/hkust-hkustgz-virtual-fair-on-mphil-and-phd-studies
+  - REGISTER | https://fytgs.hkust.edu.hk/virtualfair-reg
+  - EVENT RECAP | https://mp.weixin.qq.com/s/ebglavnHlktnuFELFSKP5w

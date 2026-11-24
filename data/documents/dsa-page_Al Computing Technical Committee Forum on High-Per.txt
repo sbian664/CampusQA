@@ -1,0 +1,38 @@
+dsa_page: Al Computing Technical Committee Forum on High-Performance Machine Learning Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/12/04/al-computing-technical-committee-forum-on-high-performance-machine-learning-systems/
+source: DSA
+
+headings:
+  - Al Computing Technical Committee Forum on High-Performance Machine Learning Systems
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Forum
+  Al Computing Technical Committee Forum on High-Performance Machine Learning Systems
+  Share to
+  Date
+  16 December 2024
+  Time
+  09:00:00 -
+  17:00:00
+  Location
+  HKUST(GZ) Campus
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/TEcCMhVmp1Ha1Hkh_qFjTQ
+  - REGISTER | https://qnr.hkust-gz.edu.cn/vm/h2DvvF9.aspx
+  - EVENT RECAP | https://mp.weixin.qq.com/s/FmY1SrwO0nHqqgMS3WFTQw

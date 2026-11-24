@@ -1,0 +1,56 @@
+dsa_page: Data Management for Scalable Deep Learning Pipelines Over Data Streams – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/09/18/data-management-for-scalable-deep-learning-pipelines-over-data-streams/
+source: DSA
+
+headings:
+  - Data Management for Scalable Deep Learning Pipelines Over Data Streams
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Data Management for Scalable Deep Learning Pipelines Over Data Streams
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Shihong GAO
+  ABSTRACT
+  Deep learning over dynamic data streams has emerged as a cornerstone for modern intelligent services, powering critical applications such as fraud detection, personalized social network services, and conversational agents. The streaming nature of data, however, introduces fundamental scalability challenges at the system level that go beyond conventional offline learning. In production, models must undergo continual retraining to adapt to fast-evolving data distributions. Enabling such large-scale retraining with fresh data is crucial for maintaining model relevance, but it is often constrained by limited hardware resources and tight training budgets. At the same time, in the deployment phase, the system must serve incoming requests over a continuous and sometimes bursty data flow. Guaranteeing low-latency and high-throughput inference under these dynamic workloads remains difficult, creating a tension between adaptability and efficiency that current solutions struggle to resolve.
+  This thesis explores specialized data management techniques for deep learning systems aimed at overcoming scalability challenges. The study focuses on improving the scalability of pipelines processing two representative forms of data streams: graph-structured data (e.g., social networks) and textual data (e.g., user prompts). In the first work, We present ETC, a general framework designed to alleviate key bottlenecks in T-GNN training over large-scale dynamic graphs. At its core, ETC employs a single-pass batch-splitting algorithm that strikes a balance between computational efficiency and information preservation, while offering provable optimality guarantees. In addition, to mitigate input data loading overhead, ETC integrates a three-phase deduplication mechanism together with a lightweight inter-batch pipeline, thereby streamlining data access. In the second work, To further reduce data loading overhead in T-GNN training, we introduce SIMPLE, a system that exploits dynamic data placement strategies. By maintaining a compact GPU buffer for frequently accessed inputs, SIMPLE minimizes redundant data transfers. The system formulates a memory-constrained interval selection problem to guide buffer placement and employs a greedy algorithm with provable approximation guarantees.
+  Second, we present Apt-Serve, a novel LLM inference serving framework aimed at maximizing effective throughput. The framework leverages a hybrid cache architecture to support larger batch sizes and incorporates an adaptive scheduling mechanism that dynamically adjusts batch composition based on runtime information. We formalize the per-iteration scheduling problem in Apt-Serve as an optimization task, establish its NP-hardness, and propose an efficient greedy algorithm with theoretical guarantees.
+  We validate the efficiency and effectiveness of our proposed methods through extensive experiments on real-world datasets, comparing against state-of-the-art approaches. The thesis concludes with a discussion of potential directions for future research.
+  TEC
+  Chairperson: Prof Danny Hin Kwok TSANG
+  Prime Supervisor: Prof Can YANG
+  Co-Supervisor: Prof Lei CHEN
+  Examiners:
+  Prof Xiaofang ZHOU
+  Prof Jia LI
+  Prof Yongqi ZHANG
+  Prof Zhiguo GONG
+  Date
+  29 September 2025
+  Time
+  13:15:00 -
+  15:00:00
+  Location
+  E1-319, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 99688448171
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/99688448171?pwd=ooX47gbaUqoMzLkyCQLWdE90svaZ3H.1

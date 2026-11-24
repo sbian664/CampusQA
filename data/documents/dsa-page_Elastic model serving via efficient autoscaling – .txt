@@ -1,0 +1,38 @@
+dsa_page: Elastic model serving via efficient autoscaling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/04/elastic-model-serving-via-efficient-autoscaling/
+source: DSA
+
+headings:
+  - Elastic model serving via efficient autoscaling
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Elastic model serving via efficient autoscaling
+  Share to
+  ABSTRACT
+  AI workloads like model serving are inherently dynamic. Autoscaling is a promising technique for elastic model serving to handle such dynamic, but cold start overheads limit its effectiveness. In this talk, I will discuss our recent work on accelerating cold starts. Key insights include leveraging OS primitives (GPU checkpoint and restore) to eliminate container startup costs and using advanced networking and model execution features to overcome GPU parameter loading limits. Our first system, PhoenixOS, can boot a Llama-2 13B inference instance on one GPU in 300ms, 10–96× faster than state-of-the-art solutions like cuda-checkpoint and Docker. Our second system, BlitzScale further enhances throughput without full parameter loading or altering the inference process (e.g., no early exit) through a model-system-network co-designed approach.
+  SPEAKER BIO
+  Xingda Wei is a tenure-track Assistant Professor at Shanghai Jiao Tong University. His main research interests include improving the performance, reliability, and resource efficiency of system support for AI. He has published papers in conferences including OSDI/SOSP, Eurosys, and NSDI. He has received awards including the Eurosys 2024 Best Paper Award, 2022 Huawei OlympusMons Award, and 2021 ACM SIGOPS Dennis M. Ritchie Award. He serves on the program committees of multiple leading system conferences including OSDI, ASPLOS, NSDI, and as the program committee chair of ACM ChinaSys.
+  Date
+  06 March 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-201 (HKUST-GZ)
+  Join Link
+  Zoom Meeting ID:
+  910 5670 9161
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

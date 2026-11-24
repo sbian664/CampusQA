@@ -1,0 +1,38 @@
+dsa_page: Towards Helpful, Honest, and Harmless Communication via Human-Model Alignment and Multicultural Understanding – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/13/towards-helpful-honest-and-harmless-communication-via-human-model-alignment-and-multicultural-understanding/
+source: DSA
+
+headings:
+  - Towards Helpful, Honest, and Harmless Communication via Human-Model Alignment and Multicultural Understanding
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Helpful, Honest, and Harmless Communication via Human-Model Alignment and Multicultural Understanding
+  Share to
+  ABSTRACT
+  In recent years, language and multimedia models have made significant advancements, achieving remarkable performance on a large variety of tasks, including question answering, summarization, scientific reasoning, procedural understanding, and action planning, along with demonstrating robust zero-shot/few-shot capabilities, bolstered by model scaling and innovative training techniques. Despite the exciting progress, ensuring these models align with fundamental constitutional principles remains a critical challenge. In this talk, we present a roadmap for foundation models as digital agents that are not only technologically advanced and functionally robust, but also sociocultural-aware and ethically grounded. We begin by delving into advanced mechanisms (i.e., the InfoSurgeon architecture) for identifying information inconsistencies in textual or multimedia content, along with novel strategies to counter the undesirable phenomena of generative model hallucination. Moreover, we introduce norm discovery with self-verification on-the-fly (i.e., the NormSAGE framework) as a promising solution for the explainable detection of real-world norm violation occurrences and for guiding harmless language model response generations. Particularly, we emphasize the importance of our investigative efforts in massively multicultural knowledge acquisition as a vital component to enrich model understanding of norms across diverse societal groups, ensuring more accurate and respectful human-centered interactions. By addressing these research problems and opportunities, we aim to reinforce the relevance and responsibility of these foundational language and multimedia AI models in helping promote healthy information communication amidst our increasingly interconnected world.
+  SPEAKER BIO
+  Yiren FUNG
+  University of Illinois Urbana-Champaign
+  Yi R. Fung is a final year PhD student in computer science at the University of Illinois Urbana-Champaign, advised by Heng Ji. Her research specialization lies in AI/NLP and computational social science, with a particular focus on addressing the fundamental research questions of human-model alignment and ‘helpful/honest/harmless' healthy information communication. Yi is one of the first researchers who proposed fine-grained knowledge-element level misinformation detection in multimedia news documents, along with a novel approach of event/entity manipulation for constructing targeted dataset that serves as a benchmark for this important task. In addition, she is the first to formally introduce norm discovery from conversation on-the-fly, and largely extended the scope of multicultural social norm knowledge acquisition for language model human-centered awareness and norm violation detection. Yi's research not only boldly addresses crucial emerging interdisciplinary problem domains, but also pioneers advancements in core NLP reasoning techniques, including multimedia knowledge-guided reasoning and language model prompting-based knowledge elicitation with self-verification mechanisms. Moreover, she has also been a leading student driver of several multi-million dollar national-level grant projects, such as SemaFor and CCU, achieving top scores in the evaluation tasks; received various professional recognition ranging from top-conference Best Demo Paper Award to prestigious academic scholarships; organized timely and relevant tutorials at KDD’22 and AACL’22; served in TA role for three graduate-level CS courses attended in total by ~1000 students; and mentored many junior students who continue on to pursue successful graduate careers.
+  Date
+  15 January 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  835 3916 2162
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

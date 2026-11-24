@@ -1,0 +1,39 @@
+dsa_page: Generalizable Graph AI for Biomedicine – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/13/generalizable-graph-ai-for-biomedicine/
+source: DSA
+
+headings:
+  - Generalizable Graph AI for Biomedicine
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Generalizable Graph AI for Biomedicine
+  Share to
+  ABSTRACT
+  AI is revolutionizing the world with unprecedented impacts rippling to the field of biomedicine. Yet, fundamental challenges remain to curb the AI power. In comparison to the fields of vision/linguistics, AI models encounter the greater challenge of generalization in biomedical modeling. The reasons lie in two folds concerning data: In terms of complexity, biomedical data in nature involve complicated structural features such as topology, geometry, or hierarchy, and moreover, such data are often restricted in quality, for instance, lacking sufficient supervised annotations due to the limitations of biotechnologies. Concentrating on such a challenge, I will introduce my efforts on how to build more generalizable AI systems on structural data (e.g. graphs), on in-distribution and out-of-distribution data, and in discriminative and generative modeling. I will also demonstrate how they can be useful in the real-world biomedical problems, including predicting protein-ligand interactions and designing small-molecule drugs conditioning on properties.
+  SPEAKER BIO
+  Yuning YOU
+  Postdoctoral Researcher
+  Texas A&M University
+  Yuning You is a fifth-year Ph.D. candidate in the Department of Electrical and Computer Engineering at Texas A&M University, advised by Prof. Yang Shen and co-advised by Prof. Zhangyang Wang. His research focuses on machine learning on non-Euclidean data (e.g. graphs or hypergraphs) with practical constraints, with fundamental understanding in theory and challenging real-world applications to biomedicines. Homepage: https://yyou1996.github.io/.
+  Date
+  15 November 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  834 2182 6498
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

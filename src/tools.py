@@ -9,6 +9,7 @@ import hashlib
 import os
 import time
 from src.index_state import retrieval_guard
+from src.document_catalog import DocumentCatalog
 from src.errors import KnowledgeUnavailable
 from typing import List, Dict, Optional
 from collections import defaultdict
@@ -36,14 +37,8 @@ SEARCH_KB_TOOL = {
     "function": {
         "name": "search_knowledge_base",
         "description": (
-            "在知识库中进行混合检索（语义理解 + 关键词匹配）。"
-            "返回与查询相关的文档片段，包含来源文件和相似度分数。\n"
-            "适用场景：需要从已加载的文档中查找信息时。\n"
-            "不适用场景：简单寒暄、常识性问题、纯代码生成。\n"
-            "检索策略建议：首次用问题的核心关键词；若结果不理想，尝试同义词或更宽泛/更具体的表述；"
-            "也可用 filters 限定文档类型或时间范围。\n"
-            "⚠️ 完整性提示：每条结果会标注该文档共有多少块（如 [文档共 12 块，本次展示 3 块]）。"
-            "若发现检索到的块数远小于文档总块数且信息不完整，应增大 top_k 或用 filters.source 限定该文档重新检索。"
+            "混合检索相关正文片段，附来源和相对分数，适合事实查询和主题探索。"
+            "结果已回答问题即可结束；缺少必要内容时再补查。文档清单或计数使用 find_documents。"
         ),
         "parameters": {
             "type": "object",
@@ -57,21 +52,14 @@ SEARCH_KB_TOOL = {
                     "default": 3,
                     "minimum": 1,
                     "maximum": 30,
-                    "description": "返回结果条数，默认 3。多实体集合问题通常使用 5；若从 3 或 5 开始，后续可用 8、15、30 扩大，最大 30。",
-                },
-                "entity_scope": {
-                    "type": "string",
-                    "enum": ["single", "multiple", "unknown"],
-                    "description": "按整轮用户问题判断实体范围；明确单实体填 single，多实体填 multiple，不确定填 unknown。不可按拆分后的检索词判断。",
+                    "description": "返回片段数，按需要选择；不是文档或实体总数。",
                 },
                 "rerank_query_source": {
                     "type": "string",
                     "enum": ["search_query", "user_query", "custom"],
                     "default": "search_query",
                     "description": (
-                        "可选的重排查询来源。search_query 使用当前检索词；"
-                        "user_query 使用当前轮用户问题；custom 使用 rerank_query。"
-                        "问题独立完整时可选 user_query；追问或子问题优先使用 search_query。"
+                        "重排使用检索词、当前用户问题或自定义 rerank_query；追问/子问题通常用 search_query。"
                     ),
                 },
                 "rerank_query": {
@@ -83,7 +71,7 @@ SEARCH_KB_TOOL = {
                     "description": (
                         "可选元数据过滤条件，用于缩小检索范围。"
                         "支持字段: doc_type（文档类型: markdown/text/pdf/html）、"
-                        "source（按源文件路径过滤，用于获取某文档的全部块）、"
+                        "source（按源文件路径精确过滤，仍受 top_k 限制）、"
                         "mtime_after（修改时间晚于指定日期，格式 YYYY-MM-DD）、"
                         "mtime_before（修改时间早于指定日期）"
                     ),
@@ -101,8 +89,65 @@ SEARCH_KB_TOOL = {
 }
 
 
-# Agent Loop 可用的工具列表（目前仅一个，后续可扩展）
-AGENT_TOOLS = [SEARCH_KB_TOOL]
+FIND_DOCUMENTS_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "find_documents",
+        "description": (
+            "筛选全部已索引文档，不受 Top-k 限制。目录足以回答其中的名称、编号和文档计数；"
+            "其他属性有需要再读正文。filters 为 AND，包含匹配忽略大小写、Unicode 宽度及空白，不支持正则。"
+            "total 是匹配总数；next_cursor 用于列清单的续页。只计数选 view=count。"
+        ),
+        "parameters": {
+            "type": "object", "additionalProperties": False,
+            "properties": {
+                "filters": {
+                    "type": "object", "additionalProperties": False,
+                    "description": "元数据条件，空对象匹配全部已索引文档。",
+                    "properties": {
+                        "document_id": {"type": "string", "description": "精确文档 ID"},
+                        "source": {"type": "string", "description": "清单返回的相对来源路径，精确匹配"},
+                        "source_contains": {"type": "string", "description": "来源相对路径包含文字"},
+                        "source_prefix": {"type": "string", "description": "来源目录前缀，按目录边界匹配"},
+                        "filename_contains": {"type": "string", "description": "文件名包含文字"},
+                        "title_contains": {"type": "string", "description": "已索引标题包含文字；标题缺失时使用文件名"},
+                        "doc_type": {"type": "string", "enum": ["markdown", "text", "pdf", "html", "md", "txt"]},
+                        "mtime_after": {"type": "string", "description": "UTC 文件修改日期下界 YYYY-MM-DD，含当天；不是政策生效时间"},
+                        "mtime_before": {"type": "string", "description": "UTC 文件修改日期上界 YYYY-MM-DD，含当天"},
+                    },
+                },
+                "page_size": {"type": "integer", "minimum": 1, "maximum": 100, "default": 20},
+                "view": {"type": "string", "enum": ["list", "count"], "default": "list",
+                         "description": "list 返回清单，count 仅返回总数与范围。"},
+                "cursor": {"type": "string", "description": "上一页原样返回的 next_cursor；续页保持相同 filters"},
+            },
+        },
+    },
+}
+
+READ_DOCUMENTS_TOOL = {
+    "type": "function",
+    "function": {
+        "name": "read_documents",
+        "description": (
+            "按文档 ID 补读所需正文，按索引分块顺序返回，块间可能重叠。"
+            "需要继续读取时原样传 next_cursor，保持 ID 列表及顺序不变。偏移和总字符数表示读取范围。"
+        ),
+        "parameters": {
+            "type": "object", "additionalProperties": False,
+            "properties": {
+                "document_ids": {"type": "array", "minItems": 1, "maxItems": 10, "items": {"type": "string"}},
+                "max_chars": {"type": "integer", "minimum": 1, "maximum": 8000, "default": 2000,
+                              "description": "本次正文字符预算，另受 12000 UTF-8 字节限制；不足时返回游标"},
+                "cursor": {"type": "string", "description": "上一页原样返回的 next_cursor；失效时从该批第一页重读"},
+            },
+            "required": ["document_ids"],
+        },
+    },
+}
+
+DOCUMENT_TOOL_NAMES = {"find_documents", "read_documents"}
+AGENT_TOOLS = [SEARCH_KB_TOOL, FIND_DOCUMENTS_TOOL, READ_DOCUMENTS_TOOL]
 
 FINISH_RETRIEVAL_TOOL = {
     "type": "function",
@@ -273,7 +318,7 @@ def format_search_results(results: List[Dict]) -> str:
             source_name = source.replace("\\", "/").split("/")[-1]
             warnings.append(
                 f"  ⚠️ {source_name} 共 {total} 块，仅检索到 {shown} 块 "
-                f"（覆盖率 {shown}/{total}）。如需完整内容，建议以 source=\"{source}\" 过滤并增大 top_k 重新检索。"
+                f"（覆盖率 {shown}/{total}）。如需完整索引正文，使用 find_documents 定位 {source_name}，再 read_documents 按游标读取。"
             )
 
     # ── 汇总评估 ──
@@ -315,6 +360,7 @@ class ToolHandler:
         self.turn_id = turn_id
         self.user_query = str(user_query or "").strip()
         self.call_log: List[Dict] = []  # 工具调用日志
+        self.last_search_hits: List[Dict] = []
         self._pending_trace: Dict = {}
 
     @retrieval_guard
@@ -330,10 +376,16 @@ class ToolHandler:
             格式化的工具执行结果文本
         """
         start_time = time.time()
+        self._pending_trace = {}
+        self.last_search_hits = []
 
         try:
+            if not isinstance(arguments, dict):
+                raise ValueError("工具参数必须是对象")
             if tool_name == "search_knowledge_base":
                 result_text = self._handle_search_knowledge_base(arguments)
+            elif tool_name in DOCUMENT_TOOL_NAMES:
+                result_text = self._handle_document_tool(tool_name, arguments)
             else:
                 result_text = f"[ERROR] 未知工具: {tool_name}"
                 self._pending_trace = {"error": result_text}
@@ -359,6 +411,27 @@ class ToolHandler:
         self.call_log.append(log_entry)
 
         return result_text
+
+    def _handle_document_tool(self, tool_name: str, args: Dict) -> str:
+        allowed = ({"filters", "page_size", "cursor", "view"} if tool_name == "find_documents"
+                   else {"document_ids", "max_chars", "cursor"})
+        if set(args) - allowed:
+            raise ValueError("包含未知工具参数")
+        catalog = DocumentCatalog(self.kb)
+        result = getattr(catalog, tool_name)(**args)
+        result["tool"] = tool_name
+        hits = [{
+            "document_id": item["document_id"], "source": item["source"],
+            "title": item["title"], "doc_type": item["doc_type"],
+            "chunk_index": 0, "score": None,
+            "content_snippet": self._trace_preview(item.get("content", "")),
+        } for item in result["items"]]
+        self._pending_trace = {
+            "engine": tool_name, "filters": args.get("filters", {}), "hits": hits,
+            "result_count": len(hits), "has_more": result["next_cursor"] is not None,
+            "catalog_total": result.get("total"),
+        }
+        return json.dumps(result, ensure_ascii=False)
 
     def _handle_search_knowledge_base(self, args: Dict) -> str:
         """
@@ -492,31 +565,22 @@ class ToolHandler:
 
         self._mark_trace_anchors(results)
         self._mark_trace_anchors(bm25_results)
+        # Keep the original ranked matches ahead of neighbor expansion and merging.
+        self.last_search_hits = [dict(item) for item in (*results, *bm25_results)]
 
-        # A single-entity question retains all exact hits, but only its first
-        # three ranked anchors receive adjacent context. Expanding the complete
-        # anchor set first prevents a later exact hit being duplicated as a
-        # neighbor; each anchor is merged separately so trace IDs are retained.
-        limited = args.get("entity_scope") == "single" and len(results) > 3
-        if limited:
-            anchors = list(results)
-            expanded = (self.kb.expand_adjacent_chunks(anchors, radius=RAG_CONTEXT_NEIGHBOR_RADIUS)
-                        if hasattr(self.kb, "expand_adjacent_chunks") else anchors)
-            context = [item for item in expanded if item.get("is_context_neighbor")]
-            results = []
-            for anchor in anchors[:3]:
-                group = [anchor] + [item for item in context
-                    if item.get("source") == anchor.get("source")
-                    and item.get("anchor_chunk") == anchor.get("chunk_index")]
-                if AGENT_CHUNK_MERGE_ENABLED and len(group) > 1:
-                    group = merge_adjacent_chunks(group, AGENT_CHUNK_MERGE_MAX_CHARS)
-                results.extend(group)
-            results.extend(anchors[3:])
-        else:
-            if hasattr(self.kb, "expand_adjacent_chunks"):
-                results = self.kb.expand_adjacent_chunks(results, radius=RAG_CONTEXT_NEIGHBOR_RADIUS)
-            if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
-                results = merge_adjacent_chunks(results, AGENT_CHUNK_MERGE_MAX_CHARS)
+        # ── 相邻分块合并 ──
+        if hasattr(self.kb, "expand_adjacent_chunks"):
+            results = self.kb.expand_adjacent_chunks(
+                results,
+                radius=RAG_CONTEXT_NEIGHBOR_RADIUS,
+            )
+
+        if AGENT_CHUNK_MERGE_ENABLED and len(results) > 1:
+            before = len(results)
+            results = merge_adjacent_chunks(results, AGENT_CHUNK_MERGE_MAX_CHARS)
+            after = len(results)
+            if before != after:
+                print(f"  🔗 分块合并: {before} → {after} 块")
 
         # 格式化输出
         output = format_search_results(results)

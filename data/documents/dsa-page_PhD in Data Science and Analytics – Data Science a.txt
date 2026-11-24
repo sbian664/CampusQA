@@ -1,0 +1,17 @@
+dsa_page: PhD in Data Science and Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/
+source: DSA
+
+headings:
+
+text: >
+  PhD in Data Science and Analytics
+  Program Overview
+  Admission Events
+  Brochure
+
+links:
+  - PhD in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/
+  - Program Overview | https://fytgs.hkust-gz.edu.cn/programs/2024-25/information-hub/data-science-and-analytics-3
+  - Admission Events | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/phd-admission-events/
+  - Brochure | https://dsa.hkust-gz.edu.cn/wp-content/uploads/2024/04/DSA_PhD.pdf

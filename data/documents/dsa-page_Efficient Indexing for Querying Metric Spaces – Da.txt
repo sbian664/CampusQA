@@ -1,0 +1,40 @@
+dsa_page: Efficient Indexing for Querying Metric Spaces – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/05/08/efficient-indexing-for-querying-metric-spaces/
+source: DSA
+
+headings:
+  - Efficient Indexing for Querying Metric Spaces
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Efficient Indexing for Querying Metric Spaces
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  With the rapid advances in Internet and other techniques, there is an exploration of big data with three typical characteristics, i.e., volume, velocity, and variety. Volume denotes that the amount of data is extremely large; velocity represents that the speed of data input and output is extremely high; and variety indicates that the range of data types and sources is extremely wide. A lot of studies have been done on volume and velocity, but not as much has been reported on variety. To handle the variety of data, metric space can be used. Metric space is a general model that can represent any type of data as long as its distance metric satisfies the triangle-inequality. Thus, based on metric space model, we can develop a unified solution to process all various data types. In this tutorial, the speakers systematically present indexing and query processing technologies in metric spaces, including metric index structures and metric query processing.
+  SPEAKER BIO
+  Lu CHEN
+  Plan-100 Professor
+  Zhejiang University
+  Lu Chen is now a ZJU plan-100 professor at the College of Computer Science, Zhejiang University (ZJU), Hangzhou, China. She received the PhD degree in computer science from Zhejiang University, China, in 2016. She was an assistant professor in Aalborg University for a 2-year period from 2017 to 2019, and she was an associated professor in Aalborg University for a 1-year period from 2019 to 2020. Her research interests include are Database, Big Data Management and Analytics, indexing and querying metric spaces, spatio-temporal databases, and database usability. She has published more than 60 papers on several premium/leading journals including VLDBJ, TKDE, JCST, and various prestigious international conferences such as SIGMOD, VLDB, ICDE, SIGIR, and DASFAA. She is a member of the CCF and a guest editor of WWWJ and DSE. She is/was a referee/reviewer of several top/important journals such as TODS, VLDBJ, TKDE, TKDD, DAPD, Information Sciences, WWWJ, Pattern Recognition Letters, MultiMedia Tools and Applications, JCST, DSE etc.; and she is/has serving/served as an organization committee (e.g., PC co-chairs, publication chair, publicity co-chair) or a program committee member for various top/important conferences such as VLDB, CIKM, SSTD, PAKDD, APWeb-WAIM, WISE, MDM, ICBK, ICWL, SpatialDI etc. She won ICDE 2022 Best Paper, One of the Best Papers of ICDE 2019, the Best Paper Award of APWeb-WAIM 2018, the 2017 CCF Outstanding Doctoral Dissertation Award, One of the Best Papers of ICDE 2015.
+  Date
+  10 May 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  834-679-092
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

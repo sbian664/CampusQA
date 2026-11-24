@@ -1,0 +1,182 @@
+fytgs_page: Smart Manufacturing
+url: https://fytgs.hkust-gz.edu.cn/programs/smart-manufacturing-5
+source: FYTGS
+
+headings:
+  - Master of Science Program in Smart Manufacturing
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Science Program in Smart Manufacturing
+  GENERAL INFORMATION
+  Award Title
+  Master of Science in Smart Manufacturing
+  Program Short Name
+  MSc(SMMG)
+  Mode of Study
+  Full-time
+  Normative Program Duration
+  Full-time: 2 years
+  Program Fee
+  RMB 280,000
+  Offering Unit
+  Smart Manufacturing Thrust Area
+  Systems Hub
+  Program Advisor
+  Program Director:
+  Prof. Kaihao ZHANG, Assistant Professor of Smart Manufacturing
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/
+  Enquiry
+  smmgmsc@hkust-gz.edu.cn
+  INTRODUCTION
+  Smart Manufacturing systems are fully integrated, collaborative manufacturing systems that respond quickly to meet changing demands and conditions in smart factories, supply networks, and customer needs. To state it simply, it is the use of real time data and cutting-edge technologies to support factories in making effective and accurate engineering decisions and creating highly differentiated, cost-effective, and competitive products that match market needs.
+  The Smart Manufacturing Thrust established under the Systems Hub at HKUST(GZ) aims to enhance HKUST(GZ)’s international visibility in this field and foster the development of smart manufacturing in the Greater Bay Area (GBA) and beyond through nurturing talents and exploring novel R&D achievements.
+  The Master of Science Program in Smart Manufacturing provides professional training and educates a new breed of workforce for the fourth industrial revolution, featured by advanced computer technologies (such as AI and big data) and new manufacturing technologies (such as 3D printing). We seek to train and equip students with cutting-edge knowledge in smart design and manufacturing technologies, sensing, data analytics, and control. The rigorous program lasting for two-years (full time) (38 credits in total) will provide theoretical, experimental, and data-analytical training comparable to similar MSc degrees offered by leading universities in China and other countries. The MSc(SMMG) program is strategically in line with the Smart Manufacturing Thrust and will educate and produce the much-needed workforce for the region and beyond.
+  LEARNING OUTCOMES
+  On successful completion of the program, graduates will be able to:
+  Gain a comprehensive understanding of the latest smart manufacturing technologies, including Additive Manufacturing (both metallic and non-metallic), Internet of Things (IoT), robotics, artificial intelligence (AI), virtual and augmented reality, and data analytics;
+  Explain how to design and optimize smart manufacturing processes and systems, including manufacturing and production processes, equipment, and logistics, to improve efficiency, productivity, and quality;
+  Explain how to collect, process, and analyze data from manufacturing/production processes, equipment, and products to make informed decisions and improve business outcomes;
+  Acquire interdisciplinary knowledge in engineering, computer science, data analytics, and business management that is essential for success in the field of smart manufacturing;
+  Develop communication and collaboration skills that are necessary for working in cross-functional teams in a dynamic and fast-paced business environment; and
+  Develop project management skills that are crucial for implementing smart manufacturing processes and systems, including how to plan, organize, and execute projects, and manage resources effectively.
+  CURRICULUM
+  Minimum Credit Requirement
+  38 credits
+  Credit Transfer
+  Subject to the approval of the Program Director, and the University’s regulation governing credit transfer, students may apply for credit transfer or course substitution of no more than 6 credits.
+  Required Courses
+  24 credits
+  MSSM 5001
+  Additive Manufacturing Introduction
+  3 Credit(s)
+  Description
+  This course covers selected topics of current interest in additive manufacturing. Students will study the fundamentals of various additive manufacturing techniques, including fused deposition modeling (FDM), two-photon lithography, stereolithography (SLA), etc. The additive manufacturing process (FDM or SLA as an example) will be illustrated by actual model design, system setup and fabrication of parts.
+  MSSM 5002
+  Advanced Metal Additive Manufacturing
+  3 Credit(s)
+  Description
+  This course provides students with the latest knowledge and skills for metal additive manufacturing (AM) techniques and implications, as well as the fundamental understanding of process-structure-property relationships in material processing using AM.
+  MSSM 5003
+  Design for Manufacturing and Assembly
+  3 Credit(s)
+  Description
+  This is a course in Design for Manufacturing and Assembly (DFMA) that focuses on the principles and techniques involved in designing products for efficient and cost-effective manufacturing and assembly processes. This course aims to equip students with the knowledge and skills necessary to optimize the design of products, considering factors such as ease of manufacturing, assembly, and overall product quality.
+  MSSM 5004
+  Introduction to Statistical Learning for Smart Manufacturing
+  3 Credit(s)
+  Description
+  This course focuses on the sensing and data analytics techniques for modeling, monitoring, and optimization of advanced manufacturing processes. The techniques introduced in this course can find wide applications in manufacturing industries such as ship/fuselage assembly process. This course will provide the students with understanding of the fundamental and advanced data analytics and statistical learning methodologies, and the ability of formulating and solving real problems with the appropriate modeling strategies and statistical principles.
+  MSSM 5005
+  Manufacturing System Modeling and Analysis
+  3 Credit(s)
+  Description
+  This course will introduce the students to an in-depth modeling and analysis of the workflow dynamics that shape the operation and the performance of contemporary production systems. It will develop systematic and rigorous models for the study of the considered environments. It aims to fill the need for an accessible but comprehensive presentation of the analytical approaches for modeling and analyzing models of manufacturing and production systems.
+  MSSM 5007
+  Sustainable Manufacturing
+  3 Credit(s)
+  Description
+  The course discusses the principles of sustainability with manufacturing processes. It covers from the social to technological impact of sustainable manufacturing. The evaluation system and tools used for sustainable manufacturing will be introduced. It also contains a business case study of sustainable manufacturing. Students will learn how to manage manufacturing systems that minimize environmental impact while maintaining economic viability and ensuring social responsibility.
+  MSSM 5008
+  Immersive Technologies in Manufacturing
+  3 Credit(s)
+  Description
+  This course covers the technical and experiential design foundation required for the implementation of immersive environments in current and future virtual, augmented, and mixed reality platforms. It also highlights the applications of these technologies under the manufacturing environment. The curriculum covers a wide range of literature and practice starting from the human-computer interface concepts following the evolution of all supporting technologies including visual displays for VR, AR and MR, motion tracking, interactive 3D graphics, multimodal sensory integration, immersive audio, user interfaces, IoT, games and experience design, focusing on manufacturing-related scenarios.
+  MSSM 5009
+  Fundamental Theories and Algorithms of CAD/CAM
+  3 Credit(s)
+  Description
+  This course covers topics such as curves and surfaces, geometric modeling basics, data structures in CAD/CAM, optimization, numerical control technology, numerical control machining, and projects. In addition to lectures, a 3-hour lab in SolidWorks and MATLAB programming will be offered.
+  MSSM 5010
+  Numerical Methods for Engineers
+  3 Credit(s)
+  Description
+  This course is intended for teaching numerical methods for engineering students at the postgraduate level. The course will have three important objectives: (1) to teach the basic theories and fundamentals of numerical methods; (2) to help the students to acquire skills to implement these methods for computer solution; and finally (3) to provide an environment where the students can familiarize themselves with many today’s popular commercial software systems and their use in the solution of engineering problems.
+  MSSM 5011
+  Computerized Numerical Control Technology
+  3 Credit(s)
+  Description
+  This course covers the contents of the principle and applications of Computerized Numerical Control (CNC), like the fundamental technologies of numerical control (including interpreter, interpolator, control of acceleration and deceleration, and position control system), and the characteristics and industrial applications of typical CNC controllers and CNC machine tool.
+  MSSM 5012
+  Introduction to Microelectromechanical Systems (MEMS): Fabrication and Application
+  3 Credit(s)
+  Description
+  In this course, students will delve into the intricate world of microfabrication technologies, including key processes such as photolithography, etching, deposition, and more. These techniques, used in integrated circuit (IC) fabrication, are adapted and extended to address the unique challenges posed by Microelectromechanical Systems (MEMS) design and manufacturing. The processes are explored both theoretically and practically, enabling students to develop the skills necessary for research-level prototyping and industry-scale production of MEMS. Furthermore, this course delves into the integration of MEMS and ICs, discussing the advantages and exploring different levels of integration. These discussions are complemented by detailed case studies of several MEMS devices, revealing their real-world applications and the associated micro-fabrication processes.
+  MSSM 5013
+  Introduction to Precision Engineering
+  3 Credit(s)
+  Description
+  This course provides an in-depth understanding of the principles and techniques used in precision engineering, including tool materials, mechanics of cutting, ultra-precision machine elements, MEMS and nanoscale additive manufacturing. Based on these accumulations, this course also covers topics such as the industry growth, global state and the future of precision engineering.
+  MSSM 5014
+  Robotics Manufacturing
+  3 Credit(s)
+  Description
+  This course introduces students to wide fundamental concepts, techniques, and technologies in robotics-enabled manufacturing automation and optimization. The course covers wide topics including robot kinematic and dynamic modeling, GPU-based solid modeling, control system design, sensors and perception, motion planning, and process control. Students will explore integrating robotic techniques into the manufacturing process to enable design automation and optimization for smart manufacturing.
+  MSSM 5015
+  Bioprinting and Biofabrication
+  3 Credit(s)
+  Description
+  From printing an artificial joint to replicating a heart, manufacturing advances have unleashed the possibilities to create complex tissues and organs for therapeutic studies and for patients in need. In this course, students will learn the fundamentals of 3D bioprinting that fabricates tissue engineering scaffolds and customizable implants; and they will explore the state-of-the-art biofabrication strategies that produce living organs and systems.
+  MSSM 6000
+  Independent Project
+  4 Credit(s)
+  Description
+  An independent research project related to Smart Manufacturing carried out under the supervision of faculty members. Grade PP, P or F.
+  Industry Internship Project
+  8 credits
+  MSSM 6001
+  Industry Internship Project I
+  4 Credit(s)
+  Description
+  The Industry Internship Project provides students with the opportunity to apply their theoretical knowledge and academic training to real-world manufacturing environments, allowing them to gain practical experience and witness the application of smart manufacturing concepts in action. Students are required to complete an industry internship with a duration of 6 months. The internship consists of two parts. In MSSM 6001, students are required to submit a mid-term progress report for review by the academic and industry supervisors. Graded PP, P or F.
+  MSSM 6002
+  Industry Internship Project II
+  4 Credit(s)
+  Description
+  The Industry Internship Project provides students with the opportunity to apply their theoretical knowledge and academic training to real-world manufacturing environments, allowing them to gain practical experience and witness the application of smart manufacturing concepts in action. Students are required to complete an industry internship with a duration of 6 months. The internship consists of two parts. In MSSM 6002, students are required to submit a final internship report for review by a committee consisting of the academic and industrial supervisors, and the Program Director. Graded P or F.
+  The Industry Internship Project provides students with the opportunity to apply their theoretical knowledge and academic training to real-world manufacturing environments, allowing them to gain practical experience and witness the application of smart manufacturing concepts in action.
+  Students are required to complete an industry internship with a duration of 6 months. The internship consists of two parts. In MSSM 6001, students are required to submit a mid-term progress report for review by the academic and industry supervisors. In MSSM 6002, students are required to submit a final internship report for review by a committee consisting of the academic and industrial supervisors, and the Program Director.
+  Capstone Project
+  6 credits
+  MSSM 6003
+  Capstone Project
+  6 Credit(s)
+  Description
+  Students are required to undertake a capstone project in the last term of the program. The capstone project should generally be combined with the industry internship training and coursework study, with a duration of a regular term. By the end of the term, students need to finish and submit a project report and give a defense presentation. Graded P or F.
+  Students are required to undertake a capstone project in the last term of the program. The capstone project should generally be combined with the industry internship training and coursework study, with a duration of a regular term. By the end of the term, students need to finish and submit a project report and give a defense presentation.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  3. Additional Information
+  A bachelor’s degree in Applied Statistics, Mechanical Engineering, Automation or other Science and Engineering fields is preferred.
+  APPLICATION
+  Apply online
+  before the application deadlines.
+  Application Fee
+  RMB 300
+  Application Deadlines
+  For 2025/26 Fall Term Intake (commencing in Sep 2025):
+  International students*
+  15 Jun 2025
+  Chinese students
+  15 Jul 2025
+  Application Open On
+  27 Mar 2025
+  * All international students are required to obtain a student visa (X visa) for studying in China's mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

@@ -1,0 +1,32 @@
+dsa_page: Advancing AI in IoT Systems for Smart Health – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/08/15/advancing-ai-in-iot-systems-for-smart-health/
+source: DSA
+
+headings:
+  - Advancing AI in IoT Systems for Smart Health
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Audience
+
+text: >
+  DSA Seminar
+  Advancing AI in IoT Systems for Smart Health
+  Share to
+  ABSTRACT
+  Nowadays Internet of Things (IoT) and mobile devices are all around our daily lives, offering the capabilities of in-situ sensing and networked computing across connected devices. However, deploying AI models on resource-constrained devices and in real-world applications still faces many practical challenges. Our work aims to empower IoT and mobile devices with AI to create ambient intelligence, facilitating real-world applications, particularly in smart health. First, I will introduce how we address real-world data and system challenges in advancing AI within practical IoT systems, such as distributed and imperfect IoT data, limited resources, and system dynamics. Then, I will talk about our work on leveraging AI-powered smart devices for in-home and community-based healthcare, including detecting behavioral biomarkers of chronic diseases, generating personalized health interventions using large language models (LLMs), and understanding behavioral and cognitive activities.
+  SPEAKER BIO
+  Xiaomin Ouyang is an Assistant Professor at the Department of Computer Science & Engineering, The Hong Kong University of Science and Technology. Previously, she was a postdoctoral researcher at UCLA and received her Ph.D. degree from CUHK in 2023. Her research interests include embedded AI, IoT, and smart health, with a primary focus on building AI-powered mobile and IoT systems for in-home and community-based healthcare. She received Distinguished TPC members at ACM SenSys 2025, ACM MobiSys 2023 Best Paper Award and ACM SIGBED China Outstanding Doctoral Dissertation Award. She was named one of EECS Rising Stars in 2023 and mHealth Scholars by NIH in the U.S. in 2024. Actively looking for PhD/Visiting students/RA for both undergraduate and graduate students. If you are interested, email her at
+  xmouyang@cse.ust.hk
+  .
+  Date
+  19 August 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  W1-102, HKUST-GZ
+  Audience
+  Xiaomin Ouyang

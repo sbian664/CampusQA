@@ -1,0 +1,103 @@
+dsa_page: Thesis Proposal Examination – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/events/defenses/thesis-proposal-examination/
+source: DSA
+
+headings:
+  - Structured Generative Market Simulation for Controllable Financial Stress Testing
+  - Bridging the Gap between LLM Capabilities andTrustworthy Deployment
+  - The Language of Dynamics:Learning Neural Representations of Time Series Data
+  - Time-Sensitive Multimodal Retrieval-Augmented Generation(TS-MRAG)
+  - Designing SLO-Aware Serving Systems for Dependency-Intensive Applications
+  - A Study on Robustness and Generalization for Visual and Multimodal Learning
+  - GRAPH REPRESENTATION LEARNING ONREAL-WORLD COMPLEX NETWORKS
+  - Novel Representation Learning Frameworks for Tabular Data and a Unifying Theory for Optimal Nested Simulation.
+  - Data Stream Management: Efficient T-GNN Training over Large-Scale Dynamic Graphs
+  - From Iterative to Instantaneous: DiffusionPost-Training for Real-Time High-Quality Generation.
+
+text: >
+  Keyword
+  Speaker
+  Search
+  No events.
+  17
+  Jun 2026
+  Thesis Proposal Examination
+  Structured Generative Market Simulation for Controllable Financial Stress Testing
+  Mr. CAO,Bokai
+  W1-202, HKUST-GZ
+  15:00 - 16:00
+  10
+  Jun 2026
+  Thesis Proposal Examination
+  Bridging the Gap between LLM Capabilities andTrustworthy Deployment
+  Mr. HE, Yanji
+  E1-150, HKUST-GZ
+  16:00 - 17:00
+  20
+  May 2026
+  Thesis Proposal Examination
+  The Language of Dynamics:Learning Neural Representations of Time Series Data
+  Mr ZHONG, Siru
+  E3-201 (HKUST-GZ)
+  10:00 - 11:00
+  28
+  Apr 2026
+  Thesis Proposal Examination
+  Time-Sensitive Multimodal Retrieval-Augmented Generation(TS-MRAG)
+  Mr JIA, Zhifeng
+  W1-102 (HKUST-GZ)
+  10:00 - 11:00
+  10
+  Dec 2025
+  Thesis Proposal Examination
+  Designing SLO-Aware Serving Systems for Dependency-Intensive Applications
+  Ms PENG, Xuemei
+  E3-201 (HKUST-GZ)
+  11:00 - 12:00
+  25
+  Sep 2025
+  Thesis Proposal Examination
+  A Study on Robustness and Generalization for Visual and Multimodal Learning
+  Mr WANG, Xiasi
+  W2-202 (HKUST-GZ)
+  15:00 - 16:00
+  29
+  Aug 2025
+  Thesis Proposal Examination
+  GRAPH REPRESENTATION LEARNING ONREAL-WORLD COMPLEX NETWORKS
+  By Mr SONG Yifan
+  E3-201 (HKUST-GZ)
+  10:30 - 11:30
+  18
+  Aug 2025
+  Thesis Proposal Examination
+  Novel Representation Learning Frameworks for Tabular Data and a Unifying Theory for Optimal Nested Simulation.
+  Ms LIU Ruoxue
+  E4-202 (HKUST-GZ)
+  10:00 - 11:00
+  04
+  Aug 2025
+  Thesis Proposal Examination
+  Data Stream Management: Efficient T-GNN Training over Large-Scale Dynamic Graphs
+  Mr GAO Shihong
+  E3-201 (HKUST-GZ)
+  15:00 - 16:00
+  30
+  Jul 2025
+  Thesis Proposal Examination
+  From Iterative to Instantaneous: DiffusionPost-Training for Real-Time High-Quality Generation.
+  Mr LUO Yihong
+  E4-201 (HKUST-GZ)
+  09:00 - 10:00
+
+links:
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/05/structured-generative-market-simulation-for-controllable-financial-stress-testing/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/05/structured-generative-market-simulation-for-controllable-financial-stress-testing/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/06/05/bridging-the-gap-between-llm-capabilities-andtrustworthy-deployment/ | https://dsa.hkust-gz.edu.cn/blog/2026/06/05/bridging-the-gap-between-llm-capabilities-andtrustworthy-deployment/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/05/19/the-language-of-dynamicslearning-neural-representations-of-time-series-data/ | https://dsa.hkust-gz.edu.cn/blog/2026/05/19/the-language-of-dynamicslearning-neural-representations-of-time-series-data/
+  - https://dsa.hkust-gz.edu.cn/blog/2026/04/24/time-sensitive-multimodal-retrieval-augmented-generationts-mrag/ | https://dsa.hkust-gz.edu.cn/blog/2026/04/24/time-sensitive-multimodal-retrieval-augmented-generationts-mrag/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/12/09/designing-slo-aware-serving-systems-for-dependency-intensive-applications/ | https://dsa.hkust-gz.edu.cn/blog/2025/12/09/designing-slo-aware-serving-systems-for-dependency-intensive-applications/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/09/25/a-study-on-robustness-and-generalization-for-visual-and-multimodal-learning/ | https://dsa.hkust-gz.edu.cn/blog/2025/09/25/a-study-on-robustness-and-generalization-for-visual-and-multimodal-learning/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/08/15/graph-representation-learning-onreal-world-complex-networks/ | https://dsa.hkust-gz.edu.cn/blog/2025/08/15/graph-representation-learning-onreal-world-complex-networks/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/08/18/novel-representation-learning-frameworks-for-tabular-data-and-a-unifying-theory-for-optimal-nested-simulation/ | https://dsa.hkust-gz.edu.cn/blog/2025/08/18/novel-representation-learning-frameworks-for-tabular-data-and-a-unifying-theory-for-optimal-nested-simulation/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/07/22/data-stream-management-efficient-t-gnn-training-over-large-scale-dynamic-graphs/ | https://dsa.hkust-gz.edu.cn/blog/2025/07/22/data-stream-management-efficient-t-gnn-training-over-large-scale-dynamic-graphs/
+  - https://dsa.hkust-gz.edu.cn/blog/2025/07/24/from-iterative-to-instantaneous-diffusionpost-training-for-real-time-high-quality-generation/ | https://dsa.hkust-gz.edu.cn/blog/2025/07/24/from-iterative-to-instantaneous-diffusionpost-training-for-real-time-high-quality-generation/

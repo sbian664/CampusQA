@@ -1,0 +1,39 @@
+dsa_page: Basics of DL: Symmetry of Neural Network and Mathematical Structures of Applications – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/27/basics-of-dl-symmetry-of-neural-network-and-mathematical-structures-of-applications/
+source: DSA
+
+headings:
+  - Basics of DL: Symmetry of Neural Network and Mathematical Structures of Applications
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Basics of DL: Symmetry of Neural Network and Mathematical Structures of Applications
+  Share to
+  ABSTRACT
+  The widespread applications and the foundations of the success of deep learning methods play a fundamental role in understanding deep learning and expanding application fields. Starting from the basic elements of sample space, model space, empirical risk minimization, and regularization in machine learning, this talk explores their special forms in the field of deep learning, covering the density of deep neural network functions in continuous function space, the regularized subspace of neural networks achieved through invariance, stability, and local invariance, and the development framework of the existence and approximation of functions driven by the mathematical structures of applications.
+  SPEAKER BIO
+  Zhihong CHONG
+  Associate Professor
+  Southeast University
+  Zhihong Chong is an Associate Professor in the School of Computer Science and Engineering, the School of Software, and the School of Artificial Intelligence at Southeast University. He received his Ph.D. in Computer Science at Fudan University. His research interests span the broad areas of theoretical research and engineering applications in data science, artificial intelligence, and blockchain.
+  Date
+  29 November 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  819 7712 0999
+  Passcode: dsa2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

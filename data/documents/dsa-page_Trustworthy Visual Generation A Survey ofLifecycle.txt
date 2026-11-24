@@ -1,0 +1,44 @@
+dsa_page: Trustworthy Visual Generation: A Survey ofLifecycle Consistency – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/trustworthy-visual-generation-a-survey-oflifecycle-consistency/
+source: DSA
+
+headings:
+  - Trustworthy Visual Generation: A Survey ofLifecycle Consistency
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  Trustworthy Visual Generation: A Survey ofLifecycle Consistency
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. CHEN, Yiyun
+  Abstract
+  Visual realism is no longer a sufficient criterion for evaluating generative visual models. This survey argues that trustworthy visual generation should be treated as a lifecycle consistency problem spanning three linked dimensions: content consistency, process consistency, and provenance verifiability. Content consistency asks whether generated or edited artifacts preserve task-relevant semantics, identity,
+  attributes, structure, and temporal relations. Process consistency asks whether exposed intermediate artifacts, such as plans, captions, layouts, edit logs, and reasoning traces, agree with the final output. Provenance verifiability asks whether origin and transformation evidence remains recoverable after editing, compression, regeneration, and platform circulation. We synthesize work on controllable generation, editing, personalization, video generation, multimodal planning, reasoning faithfulness, watermarking, and content credentials. Across these areas, we identify a common limitation: content-control methods, process-diagnostic methods, and provenance mechanisms are usually evaluated separately. We therefore propose a lifecycle-oriented scorecard that jointly reports content preservation, process-output agreement, and provenance survivability. Building on this framework, the proposed
+  research agenda centers on three concrete problems: preserving task-critical identity and attribute information in practical generation and editing scenarios; improving the faithfulness of intermediate planning and reasoning traces to final visual outputs; and strengthening provenance evidence against AIGC editing, regeneration, and circulation. Together, these directions aim to move trustworthy visual generation from isolated quality or detection metrics toward lifecycle consistency assurance
+  for reliable evaluation, attribution, and accountability.
+  Keywords: generative visual models; trustworthy AI; consistency evaluation; controllable generation; image editing; multimodal planning; provenance; watermarking; content credentials.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. YANG, Weikai
+  Co-Supervisor: Prof. LUO, Yuyu
+  Examiner: Prof. ZHANG, Yanlin
+  Date
+  09 June 2026
+  Time
+  17:00:00 -
+  18:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

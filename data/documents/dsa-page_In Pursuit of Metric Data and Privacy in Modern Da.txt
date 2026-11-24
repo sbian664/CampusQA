@@ -1,0 +1,40 @@
+dsa_page: In Pursuit of Metric Data and Privacy in Modern Data Analysis – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/11/in-pursuit-of-metric-data-and-privacy-in-modern-data-analysis/
+source: DSA
+
+headings:
+  - In Pursuit of Metric Data and Privacy in Modern Data Analysis
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  In Pursuit of Metric Data and Privacy in Modern Data Analysis
+  Share to
+  ABSTRACT
+  Modern data analysis presents many new challenges less considered by classic settings. First, many classic data analysis algorithms either assume or are considerably more efficient if the distances between the data points satisfy a metric. However, as real data sets are noisy, they often do not possess this fundamental property. Second, data leaks and commercial data transactions threaten to reveal sensitive information about any individual in the dataset. Thus, it is necessary to develop algorithms for addressing non-metric data and private data.
+  In this talk, I will present algorithms that rise to these aforementioned challenges. I will first formalize the metric repair problem (which seeks to minimally modify the data to make it metric, thereby finding the nearest metric data set) and propose solutions to that problem. Then, I will present fast and private algorithms for several classic problems such as k-means, correlation clustering and more.
+  SPEAKER BIO
+  Chenglin FAN
+  Postdoctoral Researcher
+  Johns Hopkins University
+  Dr. Chenglin Fan is currently a postdoctoral researcher at Johns Hopkins University. He received his Ph.D. in Computer Science from UT Dallas. After graduation, he did a postdoc at Sorbonne University and subsequently was a researcher at Baidu Research. His research interests lie broadly in algorithms theory and differential privacy. Dr. Fan's research has been published at top theory and machine learning conferences such as FOCS, ICML and NeurIPS.
+  Date
+  13 November 2023
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  820 9302 9823
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

@@ -1,0 +1,45 @@
+dsa_page: Robust and Efficient Astronomical Data Reconstruction and Analysis – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/08/12/robust-and-efficient-astronomical-data-reconstruction-and-analysis/
+source: DSA
+
+headings:
+  - Robust and Efficient Astronomical Data Reconstruction and Analysis
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Robust and Efficient Astronomical Data Reconstruction and Analysis
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Ms. Ruoqi WANG
+  ABSTRACT
+  Modern astronomical facilities continuously produce noisy, sparse, and multi-modal observational data. These data support important scientific tasks including radio interferometric imaging and galaxy morphology analysis, but they also pose challenges for reliable processing and analysis. In radio astronomy, observations are sparsely and irregularly sampled in the frequency domain due to the limited number and non-uniform distribution of radio telescopes. Imagingand reconstruction processes of these observations face challenges in both effectiveness and efficiency, since incomplete frequency recovery may cause artifacts, blurred structures and missing faint sources, while irregular samples and point-level encoding strategies introduce high computational costs. These challenges are further amplified by the scarcity of labeled data, as obtaining fully sampled sky measurements and clean reference images is impractical and labor-intensive. Beyond reconstruction, astronomical image analysis also requires semantic understanding and cross-domain robustness: galaxy morphology analysis needs models to capture accurate structural patterns, while data from different surveys and instruments may exhibit distribution shifts that degrade model performance.
+  This thesis addresses these challenges by developing a series of deep learning methods around the observational properties and practical constraints of astronomical data. For astronomical data reconstruction, the thesis develops complementary methods that use spectral-spatial conditioning, visibility-domain geometric modeling, and semi-supervised learning to improve reconstruction fidelity, computational efficiency, label efficiency, and robustness under noise and domain shifts. These methods correspond to image-domain reconstruction, visibility-domain recovery, and label-efficient robust reconstruction, respectively. For astronomical image analysis, the thesis further develops methods that use multi-modal morphology guidance and gradient-guided frequency-pixel augmentation to improve morphology-aware representation learning and out-of-domain robustness. Together, these studies provide more accurate, robust, and efficient tools for astronomical data processing, demonstrating that astronomical reconstruction and analysis can be improved by adapting model architectures, learning objectives, and training strategies to the characteristics of astronomical observations.
+  TEC
+  Chairperson: Prof Dan XU
+  Prime Supervisor: Prof Qiong LUO
+  Co-Supervisor: Prof Hao CHEN
+  Examiners:
+  Prof Jeffrey Xu YU
+  Prof Jia LI
+  Prof Yi WANG
+  Prof Peng JIA
+  Date
+  14 August 2026
+  Time
+  08:00:00 -
+  10:00:00
+  Location
+  E3-201, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

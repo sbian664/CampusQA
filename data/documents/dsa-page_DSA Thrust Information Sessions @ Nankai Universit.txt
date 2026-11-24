@@ -1,0 +1,43 @@
+dsa_page: DSA Thrust Information Sessions @ Nankai University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/11/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8d%97%e5%bc%80%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ Nankai University
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ Nankai University
+  Share to
+  Date
+  11 April 2024
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  南开大学计算机学院620会议室
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/r35wN1Trx12XY6fdS5JFyA
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

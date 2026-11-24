@@ -1,0 +1,35 @@
+dsa_page: DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/datingsec-detecting-malicious-accounts-in-dating-apps-using-a-content-based-attention-network/
+source: DSA
+
+headings:
+  - DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network
+  - Abstract
+  - Project members
+  - Xinlei HE
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network
+  Abstract
+  Dating apps have gained tremendous popularity during the past decade. Compared with traditional offline dating means, dating apps ease the process of partner finding significantly. While bringing convenience to hundreds of millions of users, dating apps are vulnerable to become targets of adversaries. In this article, we focus on malicious user detection in dating apps. Existing methods overlooked the signals hidden in the textual information of user interactions, particularly the interplay of temporal-spatial behaviors and textual information, leading to limited detection performance. To tackle this, we propose DatingSec, a novel malicious user detection system for dating apps. Concretely, DatingSec leverages long short-term memory neural networks (LSTM) and an attentive module to capture the interplay of users' temporal-spatial behaviors and user-generated textual content. We evaluate DatingSec on a real-world dataset collected from Momo, a widely used dating app with more than 180 million users. Experimental results show that DatingSec outperforms state-of-the-art methods and achieves an F1-score of 0.857 and AUC of 0.940.
+  Project members
+  Xinlei HE
+  Assistant Professor
+  Publications
+  DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network
+  . Xinlei He, Qingyuan Gong, Yang Chen , Yang Zhang, Xin Wang, and Xiaoming Fu.
+  Project Period
+  2021
+  Research Area
+  Data-driven AI & Machine Learning、Security and Privacy
+  Keywords
+  Dating Apps, Malicious Account Detection, Social Network
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Xinlei/xinleihe
+  - DatingSec: Detecting Malicious Accounts in Dating Apps Using a Content-Based Attention Network | https://ieeexplore.ieee.org/document/9384217

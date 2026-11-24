@@ -1,0 +1,35 @@
+dsa_page: Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/large-language-models-meet-harry-potter-a-dataset-for-aligning-dialogue-agents-with-characters-2/
+source: DSA
+
+headings:
+  - Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters
+  Abstract
+  In recent years, Dialogue-style Large Language Models (LLMs) such as ChatGPT and GPT4 have demonstrated immense potential in constructing open-domain dialogue agents. However, aligning these agents with specific characters or individuals remains a considerable challenge due to the complexities of character representation and the lack of comprehensive annotations. In this paper, we introduce the Harry Potter Dialogue (HPD) dataset, designed to advance the study of dialogue agents and character alignment. The dataset encompasses all dialogue sessions (in both English and Chinese) from the Harry Potter series and is annotated with vital background information, including dialogue scenes, speakers, character relationships, and attributes. These extensive annotations may empower LLMs to unlock character-driven dialogue capabilities. Furthermore, it can serve as a universal benchmark for evaluating how well can a LLM aligning with a specific character. We benchmark LLMs on HPD using both fine-tuning and in-context learning settings. Evaluation results reveal that although there is substantial room for improvement in generating high-quality, character-aligned responses, the proposed dataset is valuable in guiding models toward responses that better align with the character of Harry Potter.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters
+  . Nuo Chen, Yan Wang, Haiyun Jiang, Deng Cai, Yuhan Li, ziyang chen, Longyue Wang, and Jia Li.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  Dataset, Personalized Dialogue Systems
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters | https://openreview.net/forum?id=TKo2JXw7vL&referrer=%5Bthe%20profile%20of%20Jia%20Li%5D(%2Fprofile%3Fid%3D~Jia_Li4)

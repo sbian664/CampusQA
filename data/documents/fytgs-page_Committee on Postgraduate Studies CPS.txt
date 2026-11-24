@@ -1,0 +1,19 @@
+fytgs_page: Committee on Postgraduate Studies (CPS)
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/guidelines/committee-on-postgraduate-study-cps
+source: FYTGS
+
+headings:
+  - Introduction
+  - Meeting Schedules
+
+text: >
+  Introduction
+  The Senate Committee on Postgraduate Studies (CPS) is formed to advise and make recommendations to the Senate on policies and regulations, and to monitor and review procedures, quality and performance relating to postgraduate studies.
+  Please click
+  here
+  for the terms of reference and membership.
+  Meeting Schedules
+  The CPS meeting dates and paper submission deadlines for 2026/27 are as follows:
+
+links:
+  - here | https://www.hkust-gz.edu.cn/about/governance/governing-bodies/senate/committees/committee-on-postgraduate-studies/

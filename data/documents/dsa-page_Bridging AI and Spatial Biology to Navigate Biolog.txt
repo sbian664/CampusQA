@@ -1,0 +1,47 @@
+dsa_page: Bridging AI and Spatial Biology to Navigate Biological Landscapes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/14/bridging-ai-and-spatial-biology-to-navigate-biological-landscapes/
+source: DSA
+
+headings:
+  - Bridging AI and Spatial Biology to Navigate Biological Landscapes
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Bridging AI and Spatial Biology to Navigate Biological Landscapes
+  Share to
+  ABSTRACT
+  Spatial biology has revolutionized our understanding of tissue organization and function by providing spatially resolved molecular profiles, offering unprecedented insights into complex biological systems. However, harmonizing multi-scale and multi-modal spatial biology data remains a major challenge in achieving a comprehensive and precise representation of biological landscapes. Addressing these challenges is essential for unraveling intricate tumor heterogeneity and enhancing diagnostic and prognostic decision-making. In this talk, I will present my research on AI-driven methods that facilitate the exploration of comprehensive and precise biological landscapes. First, I will introduce SANTO, a coarse-to-fine method targeting alignment and stitching tasks for spatial omics data, which can align cross-platform, spatiotemporal, and cross-modality spatial omics datasets, especially enabling integration of complementary features to synergistically explore tumor microenvironment. Second, I will introduce STP, which partitions individual cells by integrating spatial transcriptomics spots with nuclei-stained images, expanding segmented nuclei through simulated annealing. It outperforms traditional methods by revealing 3D spatial patterns and identifying rare cell types in the
+  Drosophila
+  and mouse embryos. Finally, I will outline a vision for leveraging multi-modal, multi -dimensional and multi-scale spatial biology data to construct high-fidelity digital twins of the human body, and address real-world healthcare challenges to facilitate clinical translation, with a focus on improving cancer diagnosis, treatment, and prognosis.
+  SPEAKER BIO
+  Haoyang Li is a final-year Ph.D. candidate at King Abdullah University of Science and Technology (KAUST) supervised by Prof. Xin Gao. His research focuses on developing novel AI models to tackle clinically and scientifically significant challenges in spatial biology, including diverse aspects such as spatial multi-omics, spatiotemporal omics and pathomics. His research has been published in the prestigious journals and conferences such as
+  Nature Machine Intelligence, Nature Communications, Science Advances, Bioinformatics, IEEE TMI,
+  and
+  MICCAI.
+  One of his first-authored paper in
+  Nature Communications
+  is recognized as Editor’s Highlight and the 50 best papers in 'Biotechnology and methods'. In addition, Haoyang had two internships at Yale University and Stanford University as visiting student researcher in 2023 and 2024. He has served as a teaching assistant and guest lecturer for the Ministry of Interior in Saudi Arabia, Saudi Aramco, and KAUST. Currently, he serves as an editorial board member and a guest editor for
+  Molecular & Cellular Biomechanics
+  and
+  Biomedical Informatics
+  .
+  Date
+  18 February 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Join Link
+  Zoom Meeting ID:
+  988 7946 5085
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

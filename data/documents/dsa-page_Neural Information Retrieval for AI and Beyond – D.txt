@@ -1,0 +1,45 @@
+dsa_page: Neural Information Retrieval for AI and Beyond – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/16/neural-information-retrieval-for-ai-and-beyond/
+source: DSA
+
+headings:
+  - Neural Information Retrieval for AI and Beyond
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  Final Defense
+  Neural Information Retrieval for AI and Beyond
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jiawei ZHOU
+  ABSTRACT
+  Information retrieval (IR) has long been a cornerstone of artificial intelligence (AI), with search engines designed to efficiently access, organize, and deliver information for human users. For decades, these systems have focused on helping people find relevant information to support their decisions. However, with the rise of large language models (LLMs) like ChatGPT, we are witnessing a shift in how IR can enable AI to retrieve knowledge and complete tasks for humans.
+  In this thesis, we focus on neural information retrieval and explore how retrieval systems should be designed and applied in this new context. We begin by examining the core principles of existing neural information retrieval systems, including their architecture, learning methods, and related work. This is followed by an exploration of our efforts in developing effective retrieval models. We then address the design of retrieval systems optimized for AI rather than humans, emphasizing the key differences in this shift. Next, we discuss the challenges of managing retrieval indices in large-scale data stores as data volume continues to grow across various contexts. We also examine the extension of retrieval methods to handle multi-modal data, such as images and videos, alongside traditional documents. Finally, we conclude by outlining future work and directions for the field.
+  TEC
+  Chairperson: Prof Jishan HU
+  Prime Supervisor: Prof Lei CHEN
+  Co-Supervisor: Prof Fugee TSUNG
+  Examiners:
+  Prof Xiaowen CHU
+  Prof Wei WANG
+  Prof Hao LIU
+  Prof Haibo HU
+  Date
+  17 December 2025
+  Time
+  10:30:00 -
+  12:30:00
+  Location
+  E1-319, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

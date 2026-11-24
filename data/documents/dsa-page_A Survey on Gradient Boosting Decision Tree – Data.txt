@@ -1,0 +1,32 @@
+dsa_page: A Survey on Gradient Boosting Decision Tree – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-gradient-boosting-decision-tree/
+source: DSA
+
+headings:
+  - A Survey on Gradient Boosting Decision Tree
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Gradient Boosting Decision Tree
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr.Hanfeng LIU
+  Abstract
+  This survey offers an in-depth review of Gradient Boosting Decision Trees (GBDT), a key machine learning algorithm known for its high predictive accuracy and broad applicability. Originating from adaptive boosting concepts, GBDT combines decision trees with boosting to create a potent ensemble method. We trace GBDT’s development from its theoretical roots to its extensive use in industries such as finance, healthcare, and marketing. The survey focuses on advanced variants like XGBoost, LightGBM, and CatBoost, which have significantly improved GBDT’s efficiency and scalability. We also cover contemporary challenges in training GBDT models, including integration with other machine learning frameworks. We also show our attempts to enhance GBDT with innovate methods, like predefined structural learning, PSO-enhanced optimization, and GPU acceleration for multi-output models. By detailing empirical results, this work underscores the continuous evolution of GBDT and explores emerging trends that may influence its future in our data-driven world.
+  PQE Committee
+  Chairperson: Prof. Nan TANG
+  Prime Supervisor: Prof Zeyi WEN
+  Co-Supervisor: Prof Qiong LUO
+  Examiner: Prof Xinlei HE
+  Date
+  05 June 2024
+  Time
+  16:10:00 -
+  17:25:00
+  Location
+  E1-147

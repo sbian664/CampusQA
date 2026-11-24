@@ -1,0 +1,7 @@
+msc_dcai_page: Dr. Jing Xiao
+source: MSc DCAI
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+supervisor_type: industrial
+role: none
+profile_url: none
+responsibilities: Group Chief Scientist, Ping An Insurance | Company of China, Ltd | H-Index: 43

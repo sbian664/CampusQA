@@ -1,0 +1,406 @@
+fytgs_page: Artificial Intelligence
+url: https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-4
+source: FYTGS
+
+headings:
+  - Master of Philosophy and Doctor of Philosophy Programs in Artificial Intelligence
+
+text: >
+  Postgraduate Programs 2025/26
+  Master of Philosophy and Doctor of Philosophy Programs in Artificial Intelligence
+  GENERAL INFORMATION
+  Award Title
+  Master of Philosophy in Artificial Intelligence
+  Doctor of Philosophy in Artificial Intelligence
+  Program Short Name
+  MPhil(AI)
+  PhD(AI)
+  Mode of Study
+  Both full- and part-time
+  Normative Program Duration
+  MPhil
+  Full-time: 2 years
+  Part-time: 4 years
+  PhD
+  Full-time: 3 years (with a relevant research master’s degree), 4 years (without a relevant research master’s degree)
+  Part-time: 6 years
+  Offering Unit
+  Artificial Intelligence Thrust Area
+  Information Hub
+  Program Advisor
+  PG Programs Coordinator:
+  Prof Hao LIU, Assistant Professor of Artificial Intelligence
+  Website
+  https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/
+  Enquiry
+  ait@hkust-gz.edu.cn
+  INTRODUCTION
+  Artificial Intelligence Thrust rides on the strong research background at HKUST and is committed to basic and applied research in artificial intelligence. We aim to nurture high-level research and application talents with strong professional skills, interdisciplinary capabilities and international perspectives. Our team of highly qualified faculty members actively promotes interdisciplinary research, and strives to build an AI research ecosystem that is Greater Bay Area based, internationally oriented, and HKUST branded. We envisage here a talent incubator, an innovative center, a dream hatchery, and a future enlightener.
+  The Master of Philosophy (MPhil) Program aims to train students in independent and interdisciplinary research in AI. An MPhil graduate is expected to demonstrate sound knowledge in the discipline and is able to synthesize and create new knowledge, making a contribution to the field.
+  The Doctor of Philosophy (PhD) Program aims to train students in original research in AI, and to cultivate independent, interdisciplinary and innovative thinking that is essential for a successful career in AI-related industry or academia. A PhD graduate is expected to demonstrate mastery of knowledge in the chosen discipline and is able to synthesize and create new knowledge, making original and substantial scientific contributions to the discipline.
+  LEARNING OUTCOMES
+  On successful completion of the MPhil program, graduates will be able to:
+  Demonstrate thorough knowledge of the literature and a comprehensive understanding of scientific methods and techniques relevant to AI;
+  Demonstrate practical skills in building AI systems;
+  Independently pursue research or innovation of significance in AI applications; and
+  Demonstrate skills in oral and written communication sufficient for a professional career.
+  On successful completion of the PhD program, graduates will be able to:
+  Demonstrate thorough knowledge of the literature and a comprehensive understanding of scientific methods and techniques relevant to AI;
+  Demonstrate practical skills in building AI systems;
+  Critically apply theories, methodologies, and knowledge to address fundamental questions in AI;
+  Independently pursue research or innovation of significance in AI applications; and
+  Demonstrate skills in oral and written communication sufficient for a professional career.
+  CURRICULUM
+  Minimum Credit Requirement
+  MPhil:
+  15 credits
+  PhD:
+  21 credits
+  Credit Transfer
+  Students who have taken equivalent courses at HKUST(GZ) or other recognized universities may be granted credit transfer on a case-by-case basis, up to a maximum of 3 credits for MPhil students, and 6 credits for PhD students.
+  PhD students who are HKUST(GZ) MPhil graduates may be granted credit transfer for all credits earned from the MPhil programs to the PhD programs, subject to prior approval of the Thrust.
+  Cross-disciplinary Core Courses
+  2 credits
+  UCMP 6010
+  Cross-disciplinary Research Methods I
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems. May be graded PP.
+  UCMP 6020
+  Cross-disciplinary Research Methods II
+  2 Credit(s)
+  Description
+  This course focuses on using various approaches to perform quantitative analysis through real-world examples. Students will learn how to use different tools in an interdisciplinary project and how to acquire new skills on their own. The course offers different modules that are multidisciplinary/multifunctional and generally applicable to a wide class of problems.
+  UCMP 6030
+  Cross-disciplinary Design Thinking I
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6040
+  Cross-disciplinary Design Thinking II
+  2 Credit(s)
+  Description
+  This course focuses on user-collaborative design methods for generating inclusive product solutions that integrate stakeholder and product functionality perspectives. Students will create specified product/process/policy/protocol/plan (5P) concept models through the use of recursive user feedback engagement methods, experimental prototyping, and divergent and convergent ideation strategies. Featured topics include design thinking; stakeholder research; concept development, screening, and selection; and interaction design.
+  UCMP 6050
+  Project-driven Collaborative Design Thinking
+  2 Credit(s)
+  Description
+  This course aims to familiarize students with the principles of design thinking and promote the adoption of a human-centered approach to problem-solving. Students will gain the ability to identify users' pain points, define problems, and develop creative and innovative solutions. By engaging in interdisciplinary collaboration, students will have the opportunity to apply their problem-solving skills to real-world projects. This course is divided into three modules, with each module being taken during one regular term. May be graded PP.
+  All MPhil students are required to complete UCMP 6050. All PhD students are required to complete either UCMP 6010 or UCMP 6030. Students may complete the remaining courses as part of the credit requirements, as requested by the Program Planning cum Thesis Supervision Committee.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed UCMP 6010, UCMP 6030 or UCMP 6050 before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Hub Core Courses
+  4 Credits
+  Students are required to complete at least one Hub core course (2 credits) from the Information Hub and at least one core course (2 credits) from other Hubs.
+  Information Hub Core Course
+  INFH 5000
+  Information Science and Technology: Essentials and Trends
+  2 Credit(s)
+  Description
+  This inquiry-based course aims to introduce students to the concepts and skills needed to drive digital transformation in the information age. Students will learn to conduct research, explore real-world applications, and discuss grand challenges in the four thrust areas of the Information hub, namely Artificial Intelligence, Data Science and Analytics, Internet of Things, and Computational Media and Arts. The course incorporates various teaching and learning formats including lectures, seminars, online courses, group discussions, and a term project.
+  Other Hub Core Courses
+  FUNH 5000
+  Introduction to Function Hub for Sustainable Future
+  2 Credit(s)
+  Description
+  This course covers background knowledge in the thrust areas of the Function Hub, including Advanced Materials, Sustainable Energy and Environment, Microelectronics, and Earth, Ocean and Atmospheric Sciences.
+  SOCH 5000
+  Technological Innovation and Social Entrepreneurship
+  2 Credit(s)
+  Description
+  This course discusses both opportunities and risks that technological breakthrough has brought to the human society. What would be the policy responses required to maximize its positive benefit and minimize its social costs? In particular, how could we utilize the technological advancement, entrepreneurial thinking to address the challenges our societies are facing, such as job loss/unemployment, income inequality and societal polarization, environmental degradation, health disparity, population aging, and among others. The course uses either case studies or cross-country and time-series data analyses to facilitate the discussion of various social issues and look for innovative solutions of in the real world.
+  SYSH 5000
+  Model-Based Systems Engineering
+  2 Credit(s)
+  Description
+  Model-based systems engineering (MBSE) is a contemporary systems engineering methodology that uses conceptual models for communication between system architects, designers, developers, and stakeholders. Object-Process Methodology (OPM) is an MBSE language and methodology for constructing domain-independent conceptual models of all kinds of systems. The course provides students with basic knowledge and tools for MBSE, focusing on conceptual modeling of systems, giving learners a competitive advantage over their peers.
+  PhD students who are HKUST(GZ) MPhil graduates and have completed the required Hub core courses before may be exempted from this requirement, subject to prior approval of the Program Planning cum Thesis Supervision Committee, and be granted credit transfer for the respective courses, subject to prior approval of the Thrust.
+  Courses on Domain Knowledge
+  MPhil:
+  minimum 9 credits of coursework
+  PhD:
+  minimum 15 credits of coursework
+  Under this requirement, each student is required to take one of the required courses, and other electives to form an individualized curriculum relevant to the cross-disciplinary thesis research.
+  For PhD, students must complete the AI required course in the first year of their study and obtain a B+ or above. Students who cannot meet the B+ requirement have to retake the course or take another AI required course in the second year to make it up.
+  Only one Independent Study course may be used to satisfy the course requirements.
+  To ensure that students will take appropriate courses to equip them with needed domain knowledge, each student has a Program Planning cum Thesis Supervision Committee to approve the courses to be taken soonest after program commencement and no later than the end of the first year. Depending on the approved curriculum, individual students may be required to complete additional credits beyond the minimal credit requirements.
+  Required Course List
+  Students are required to take one of the required courses listed below:
+  AIAA 5026
+  Computer Vision and Its Applications
+  3 Credit(s)
+  Description
+  This course covers popular topics in computer vision, which includes high-level tasks like image classification, object detection, image segmentation, and low-level tasks like image generation, image enhancement, image-to-image translation, etc.
+  AIAA 5030
+  Foundations of Data Mining in the Era of LLMs
+  3 Credit(s)
+  Description
+  This course will introduce the fundamental principles, uses, and technical details of data mining techniques by lectures and real-world case studies. The emphasis is on understanding the basic data mining techniques and their applications, with a focus on how these techniques are evolving in the era of large language models (LLMs). We will discuss the mechanics of how data analytics techniques work as is necessary to understand the fundamental concepts and real-world applications.
+  AIAA 5031
+  Introduction to Computing Using Python
+  3 Credit(s)
+  Description
+  This course covers how to program with Python and use it to solve practical problems in Artificial Intelligence. Topics include basic Python usage (e.g., syntax, data structure, etc.) and important packages for data analysis and machine learning applications (e.g., NumPy, SciPy, etc.). The students will be guided to practice on simple artificial intelligence tasks.
+  AIAA 5032
+  Foundations of Artificial Intelligence
+  3 Credit(s)
+  Description
+  This course aims to provide students with an overview of Artificial Intelligence (AI) principles and techniques. Key topics include machine learning, search, game theories, Markov decision process, constraint satisfaction problems, Bayesian networks, etc. Through this course, students will learn and practice the foundational principles, techniques and tools to tackle new AI problems.
+  AIAA 5033
+  AI Security and Privacy
+  3 Credit(s)
+  Description
+  This course introduces potential security and privacy vulnerabilities in Artificial Intelligence (AI) and covers basic and advanced protections. Topics include security and privacy risks in AI technologies, the goal of C.I.A. (Confidentiality, Integrity and Availability) in AI technologies, basic and advanced cryptography, protocol designs for AI security and privacy, etc.
+  AIAA 5034
+  Reinforcement Learning and Optimization
+  3 Credit(s)
+  Description
+  Learning to make good decisions is one of the keys to autonomous systems. This course will focus on Reinforcement Learning (RL), a currently very active subfield of artificial intelligence, and it will discuss selectively a number of algorithmic topics including Markov Decision Process, Q-Learning, function approximation, exploration and exploitation, policy search, imitation learning, model-based RL and optimal control. This course provides both the foundations and techniques for developing RL and deep RL algorithms that interact with physical environments, and real application cases of RL will be introduced. Basic knowledge of machine learning and mathematical optimization are expected for this course.
+  Sample Elective Course List
+  To meet individual needs, students will be taking courses in different areas, which may include but not limited to courses and areas listed below.
+  AIAA 5023
+  Foundation of Deep Neural Networks
+  3 Credit(s)
+  Description
+  This course helps students to get basic knowledge about deep neural networks, helping them to understand basic concepts, capabilities and challenges of deep neural networks.
+  AIAA 5024
+  Advanced Deep Learning
+  3 Credit(s)
+  Description
+  This course covers recent developments in deep learning. Topics include meta learning, model compression, federated learning, representation learning, explainable AI, adversarial attack and defense, and advances in deep learning theory.
+  AIAA 5027
+  Chasing Trends for Visual Intelligence: From Recognition to 3D Reconstruction
+  3 Credit(s)
+  Description
+  This is a task-oriented yet interaction-based course, which aims to scrutinize the recent trends and challenges in visual intelligence tasks (from the image restoration to 3D vision tasks). This course will follow the way of flipped-classroom manner where the lecturer teaches the basics; meanwhile, the students will also be focused on active discussions, presentations (lecturing), and hands-on research projects under the guidance of the lecturer in the whole semester. Through this course, students will be equipped with the capability to critically challenge the existing methodologies/techniques and hopefully make breakthroughs in some new research directions.
+  AIAA 5028
+  Machine Learning on Graphs
+  3 Credit(s)
+  Description
+  This course covers recent developments in machine learning on graph-structured data. Topics include network embedding, graph neural networks, knowledge graph embedding, generative models for graphs, scalable graph neural networks, explainable graph neural networks, and their applications.
+  AIAA 5029
+  Programming for Vision Systems
+  3 Credit(s)
+  Description
+  This course is a hands-on introduction to the algorithms and programming for visual learning problems of the intelligent mobile systems, such as self-driving cars, in the era of industry 4.0. This course is highlighted by practical programming assignments and projects. This course will first introduce the basic principles of machine/deep learning and computer vision. Then, the specific visual learning tasks crucial for achieving intelligent mobile systems (e.g., object detection, semantic segmentation, optical flow, stereo/depth estimation, pose estimation, lane detection, traffic sign detection) will be covered. Finally, the latest development of novel sensor-based vision and AI-based augmented reality (AR) /metaverse technologies for intelligent mobile systems will also be introduced.
+  AIAA 5036
+  Embodied AI
+  3 Credit(s)
+  Description
+  This course aims to provide students with key principles and algorithms to build modern embodied AI systems. Key topics include machine perception, planning and decision-making algorithms. Through this course, students will learn and practice the foundational principles, techniques, and tools to build new embodied AI systems.
+  AIAA 5037
+  Advanced Algorithms and Data Structures
+  3 Credit(s)
+  Description
+  This course covers typical algorithms and data structures. Topics include core methodologies of algorithm design, standard data structures, and typical algorithms and data structures that have been widely adopted for solving different problems, covering from fundamental ones (e.g., searching and sorting algorithms) to more advanced ones (e.g., graph algorithms, number theory algorithms, FFT).
+  AIAA 5045
+  Artificial Intelligence for Medical Imaging
+  3 Credit(s)
+  Description
+  This course will explore the basic knowledge and the latest advances of Deep Learning based methods in the medical field, with special attention to challenges and opportunities for Medical AI. This course will provide students the opportunity to learn skills to train/learn/develop Deep Learning models from medical data with several case studies. It covers knowledge on Digital Medical Imaging, supervised learning, semi-supervised learning, and unsupervised learning related with Medical AI research. Importantly, some hot topics on "AI for Medical" will be introduced.
+  AIAA 5046
+  Fundamentals of Machine Learning
+  3 Credit(s)
+  Description
+  Machine learning is a cornerstone of AI. The course targets beginners who will learn basic and rigorous machine learning methods, including linear regression, logistic regression, decision trees, naïve Bayes, SVM, unsupervised learning, neural networks, graphical models, EM algorithm. The students will be able to enter more advanced machine learning courses after taking this course.
+  AIAA 5047
+  Responsible Artificial Intelligence
+  3 Credit(s)
+  Description
+  Artificial Intelligence technologies have been maturing and are deployed in real-world applications, such as healthcare, entertainment, business, scientific research, military, etc. In all these domains, the decisions made by AI algorithms can critically impact individuals, organizations and society. The designers, auditors, and users of AI technologies thus need to be equipped with the capabilities to understand, analyze, and eventually discipline these algorithms in the broader contexts. This course will introduce students to the latest research of responsible AI and explore these capabilities in both theoretical and practical ways. Topics include but are not limited to theories and algorithms of secure machine learning, fair machine learning, interpretable AI, and case studies involving natural language processing, computer vision, and reinforcement learning.
+  AIAA 5048
+  Multimodal Artificial Intelligencee
+  3 Credit(s)
+  Description
+  This course focuses on the Artificial Intelligence (AI) techniques and applications in multimodal tasks, which involve processing, fusing, and generating contents from multiple data modalities, such as images, videos, text etc. The course will cover the challenges, state-of-the-art methods, as well as hands-on experience in implementing and evaluating multi-modal deep learning models.
+  AIAA 5049
+  Applied Deep Learning: From Speech to Language and Multimodal Processing
+  3 Credit(s)
+  Description
+  .In the era of large-scale deep learning models, multimodal learning based on speech, text, and images is gaining increasing prominence. It holds the potential to facilitate cross-domain applications, improve human-computer interaction, and advance innovation in the field of AI. This course will provide an in-depth exploration of applied deep learning techniques, focusing on their applications in speech processing, natural language understanding, and multimodal data analysis. Students will gain practical experience in building deep learning models for various tasks, including speech recognition, language translation, image analysis, and more. The course covers fundamental concepts, algorithms, and tools in the field of deep learning and emphasizes hands-on projects and real-world applications.
+  AIAA 5050
+  Machine Consciousness
+  3 Credit(s)
+  Description
+  The study of consciousness is referred to as the "ultimate challenge of artificial intelligence." This course provides instruction and discussions in the field of machine consciousness. The main content includes an introduction to consciousness research, mainstream theories of consciousness, research on self-awareness, attention mechanisms, optimization of intelligent agent goals, subjectivity and affective computing, consciousness modeling and evaluation of artificial intelligence systems, and analysis and control of risks related to machine consciousness. Through this course, participants can gain a fairly comprehensive and in-depth understanding of the research history and current status of the field of machine consciousness, and engage in collaborative research on several specific issues.
+  AIAA 5051
+  Trustworthy Graph Mining
+  3 Credit(s)
+  Description
+  Graph mining methods have been investigated for various applications, including financial analysis, traffic prediction, and drug discovery. Despite their great potential in benefiting humans in the real world, recent study shows that existing graph mining methods can leak private information, are vulnerable to adversarial attacks, can inherit and magnify societal bias from training data, and lack interpret ability. In this course, representative graph mining models and their inner mechanisms will be discussed. Then, we will introduce the trustworthy graph mining methods in aspects of privacy, robustness, fairness, and explain ability.
+  AIAA 5072
+  Quantum Computing
+  3 Credit(s)
+  Description
+  This course provides a comprehensive introduction to the field of quantum computing. Students will explore fundamental concepts such as quantum bits, quantum circuits, and quantum algorithms. Advanced topics including quantum error correction, quantum information processing, and quantum machine learning will also be covered.
+  AIAA 5075
+  Information Theory for Machine Learning
+  3 Credit(s)
+  Description
+  In the era of big data and artificial intelligence, information theory has become an indispensable tool for machine learning practitioners. This course aims to bridge the gap between classical information theory and its cuttingedge applications in machine learning. Students will explore the foundations of information measures, data compression, hypothesis testing, channel coding, channel capacity, entropies, and divergences, as well as their statistical learning applications. Through guest lectures by leading experts, we will also delve into the frontiers of information theory in machine learning. By the end of this course, students will be equipped with the knowledge and skills necessary to apply information theory to develop more efficient and effective machine learning technologies.
+  AIAA 5088
+  Natural Language Processing and Its Applications
+  3 Credit(s)
+  Description
+  This course offers an in-depth exploration of Natural Language Processing (NLP), emphasizing transformative neural network architectures like RNNs and transformers. Students will engage with core NLP tasks such as language modeling and machine translation, and examine the impacts of recent innovations like Large Language Models.
+  AIAA 5147
+  Frontier of AI for Healthcare
+  3 Credit(s)
+  Description
+  This course delves into essential machine learning and deep learning algorithms for healthcare applications, covering areas such as life sciences discovery, medical image analysis, biosignal processing, medical data mining, and foundational models for electronic health records. Core topics include key methodologies for algorithm design, commonly used data structures, and widely adopted algorithms tailored to diverse healthcare challenges. Additionally, the course highlights the latest advancements in this rapidly evolving field.
+  AIAA 6011
+  Topics in Artificial Intelligence
+  3 Credit(s)
+  Description
+  Selected topics in Artificial Intelligence (AI) of current interest of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered. May be graded by letter or P/F for different offerings.
+  AIAA 6021
+  Topics in Machine Learning
+  3 Credit(s)
+  Description
+  Covers emerging topics of machine learning. Potential topics include machine learning and cognitive science, transfer learning, multi-task learning, active learning, lifelong learning, assemble learning, and advances in deep learning. Graded P or F.
+  AIAA 6090
+  #
+  Research Internship
+  0 Credit(s)
+  Description
+  The course will provide students with the opportunity to gain relevant knowledge, skills, and experience while establishing important connections in the field. Graded P or F.
+  AIAA 6091
+  Independent Studies
+  3 Credit(s)
+  Description
+  An independent research project carried out under the supervision of a faculty member. Graded P or F.
+  CMAA 5019
+  Machine Learning for the Arts
+  3 Credit(s)
+  Description
+  As Machine Learning (ML) permeates numerous aspects of culture, industry, and scholarship, it is crucial for the next generation of computational artists to be ML-literate, possessing the ability to critically evaluate and apply this rapidly evolving technology. Through hands-on experience with cutting-edge ML tools, students will hone their skills in this domain and establish critical perspectives on the strengths and limitations of current methods. This course employs free, open-source ML toolkits, enabling students to become familiar with various classification and regression models, RNNs, Convolutional Neural Networks, Transfer Learning, large language models, Text-to-Image generators, and more, for the purpose of implementing art projects. Each week, pertinent computational artworks utilizing various techniques are introduced, analyzed, and discussed.
+  DSAA 5002
+  Data Mining and Knowledge Discovery in Data Science
+  3 Credit(s)
+  Description
+  With more and more data available, data mining and knowledge discovery has become a major field of research and applications in data science. Aimed at extracting useful and interesting knowledge from large data repositories such as databases, scientific data, social media and the Web, data mining and knowledge discovery integrates techniques from the fields of database, statistics and AI.
+  INTR 6000
+  Special Topics in Intelligent Transportation
+  3 Credit(s)
+  Description
+  Selected topics in intelligent transportation of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  IOTA 5501
+  Convex and Nonconvex Optimization I
+  3 Credit(s)
+  Description
+  This course covers fundamental theory, algorithms, and applications for convex and nonconvex optimization, including: 1) Theory: convex sets, convex functions, optimization problems and optimality conditions, convex optimization problems, geometric programming, duality, Lagrange multiplier theory; 2) Algorithms: disciplined convex programming, numerical linear algebra, unconstrained minimization, minimization over a convex set, equality constrained minimization, inequality constrained minimization; 3) Applications: approximation (regression), statistical estimation, geometric problems, classification, etc.
+  SEEN 5320
+  Information Technology in Advanced Energy Systems
+  3 Credit(s)
+  Description
+  The course aims to introduce main machine learning techniques and their applications in energy systems. The topics will include: 1) the basic concept of machine learning, big data, and energy system; 2) both basic and the state-of-the-art techniques in machine learning; 3) the application of machine learning in energy systems, especially for power systems and smart grids. The goal of the course is to prepare the students for careers in energy and artificial intelligence related areas by teaching data-driven perspective.
+  SMMG 6000
+  Special Topics in Smart Manufacturing
+  3 Credit(s)
+  Description
+  Selected topics in smart manufacturing of current interest in emerging areas and not covered by existing courses. May be repeated for credit if different topics are covered.
+  UGOD 5010
+  Science of Cities
+  3 Credit(s)
+  Description
+  The course aims to provide a comprehensive understanding of the city and the system of cities, the challenges faced by cities, especially the rapidly-developing large cities, and the key tools for interventions in response to critical pressures linked to economic development, urbanization, globalization, migration, social inclusion, climate change, resource efficiency, technology etc.
+  UGOD 5040
+  Urban Data Acquisition and Analysis
+  3 Credit(s)
+  #: Full-time PhD students are encouraged to take at least 6 months of AI related research internship.
+  Additional Foundation Courses
+  Individual students may be required to take foundation courses to strengthen their academic background and research capacity in related areas, which will be specified by the Program Planning cum Thesis Supervision Committee. The credits earned cannot be counted toward the credit requirements.
+  Graduate Teaching Assistant Training
+  PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  0 Credit(s)
+  Description
+  The course is designed to strengthen students’ competence in teaching. It comprises 2 parts: Part 1 aims to equip all full-time research postgraduate (RPg) students with basic teaching skills before assuming teaching assistant duties for the department. Good teaching skills can be acquired through learning and practice. This 10-hour mandatory training course provides all graduate teaching assistants (GTA) with the necessary theoretical knowledge with practical opportunities to apply and build up their knowledge, skills and confidence in taking up their teaching duties. At the end of the course, GTAs should be able to (1) facilitate teaching in tutorials and laboratory settings; (2) provide meaningful feedback to their students; and (3) design an active learning environment to engage their students. In Part 2, students are required to perform instructional delivery assigned by their respective departments to complete this course. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. Graded PP, P or F.
+  All full-time RPg students are required to complete PDEV 6800. The course is composed of a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP), and session(s) of instructional delivery to be assigned by the respective Thrusts/Base. Upon satisfactory completion of the training conducted by IEIP, MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms. The instructional delivery will be formally assessed.
+  Professional Development Course Requirement
+  PDEV 6770
+  Professional Development for Research Postgraduate Students
+  1 Credit(s)
+  Description
+  This course aims at equipping research postgraduate students with transferrable skills conducive to their professional development. Students are required to attend 3 hours of mandatory training on Professional Conduct, and complete 12 hours of workshops, at their own choice, under the themes of Communication Skills, Research Competency, Entrepreneurship, Self‐Management, and Career Development. Graded PP, P or F.
+  Students are required to complete PDEV 6770. The 1 credit earned from PDEV 6770 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed PDEV 6770 or other professional development courses offered by the University before may be exempted from taking PDEV 6770, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  INFH 6780
+  Career Development for Information Hub Students
+  1 Credit(s)
+  Description
+  This course aims at equipping RPg students of the Information Hub with the skills conducive to their professional career development. Students are required to attend the 3 hours' training focusing on personality self-exploration and discipline-specific training at the thrust level, and another 10 hours' training at the hub level, at their own choice. Graded PP, P or F.
+  Students are required to complete INFH 6780. The 1 credit earned from INFH 6780 cannot be counted toward the credit requirements.
+  PhD students who are HKUST MPhil graduates and have completed INFH 6780 or other professional development courses offered by the University before may be exempted from taking INFH 6780, subject to prior approval of the Program Planning cum Thesis Supervision Committee.
+  English Language Requirement
+  LANG 5000
+  Foundation in Listening & Speaking for Postgraduate Students
+  1 Credit(s)
+  Description
+  For students whose level of spoken English is lower than ELPA Level 4 (Speaking) when they enter the University. The course addresses the immediate linguistic needs of research postgraduate students for oral communication on campus using English. To complete the course, students are required to attain at least ELPA Level 4 (Speaking). Graded P or F.
+  Full-time RPg students are required to take an English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education before the start of their first term of study. Students whose ELPA Speaking Test score is below Level 4, or who failed to take the test in their first term of study, are required to take LANG 5000 until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. The 1 credit earned from LANG 5000 cannot be counted toward the credit requirements.
+  PLED 5001
+  Communicating Research in English
+  1 Credit(s)
+  Description
+  This course aims to help research postgraduate students to develop skills they need to understand how to successfully communicate research in English to academic, cross-disciplinary and non-specialist audiences. Graded P or F.
+  Students are required to take PLED 5001. The credit earned cannot be counted toward the credit requirements. Students can be exempted from taking this course with the approval of the Program Planning cum Thesis Supervision Committee.
+  Postgraduate Seminar
+  AIAA 6101
+  Artificial Intelligence Seminar I
+  0 Credit(s)
+  Description
+  Series of seminars presenting research problems currently under investigation, presented by faculty, students, and visiting speakers. Students are expected to attend regularly. Graded P or F.
+  AIAA 6102
+  Artificial Intelligence Seminar II
+  1 Credit(s)
+  Description
+  Series of seminars presenting research problems currently under investigation, presented by faculty, students, and visiting speakers. Students are expected to attend regularly. Continuation of AIAA 6101. Graded P or F.
+  Students are required to complete AIAA 6101 and AIAA 6102 in two terms. The credit earned cannot be counted toward the credit requirements.
+  PhD Qualifying Examination
+  PhD students are required to pass a qualifying examination to obtain PhD candidacy following established policy.
+  Thesis Research
+  AIAA 6990
+  MPhil Thesis Research
+  0 Credit(s)
+  Description
+  Master's thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  AIAA 7990
+  Doctoral Thesis Research
+  0 Credit(s)
+  Description
+  Original and independent doctoral thesis research supervised by co-advisors from different disciplines. A successful defense of the thesis leads to the grade Pass. No course credit is assigned.
+  MPhil:
+  Registration in AIAA 6990; and
+  Presentation and oral defense of the MPhil thesis.
+  PhD:
+  Registration in AIAA 7990; and
+  Presentation and oral defense of the PhD thesis.
+  * Postgraduate students who are Chinese citizens are required to fulfill the Political Education requirement (3 credits for master's students, 2 credits for PhD students).
+  ADMISSION REQUIREMENTS
+  To qualify for admission, applicants must meet all of the following requirements. Admission is selective and meeting these minimum requirements does not guarantee admission.
+  1. General Admission Requirements of the University
+  Please refer to
+  Admission Requirements
+  .
+  2. English Language Admission Requirements
+  Please refer to
+  Admission Requirements
+  .
+  APPLICATION
+  Admission to HKUST(GZ)
+  Apply online
+  before the
+  application deadlines
+  .
+  Application Fee
+  RMB150
+  * All international students are required to obtain a student visa (X visa) for studying in China’s mainland. For details on student visa (X visa) requirements, please click
+  here
+  .
+
+links:
+  - https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/ | https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/
+  - Admission Requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - Apply online | https://fytgs.hkust-gz.edu.cn/admissions/apply-now/
+  - application deadlines | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+  - here | https://fytgs.hkust-gz.edu.cn/admissions/after-getting-an-offer/applying-for-student-visa-x-visa-before-you-leave-home

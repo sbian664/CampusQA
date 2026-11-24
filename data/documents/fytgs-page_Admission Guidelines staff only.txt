@@ -1,0 +1,261 @@
+fytgs_page: Admission Guidelines (staff only)
+url: https://fytgs.hkust-gz.edu.cn/internal-resources/pg-admissions-guidelines
+source: FYTGS
+
+headings:
+  - Postgraduate Admission Guidelines (staff only)
+  - 1. Admission Requirement s
+  - 2. Application and Selection
+  - 3. Making an Offer
+  - 4. Post-offer Follow Up
+  - 5. RPg Sponsorship Arrangement
+  - 6. Short-term Study
+  - 7. Confidentiality and Conflict of Interests
+
+text: >
+  Postgraduate Admission Guidelines
+  (staff only)
+  1.
+  Admission Requirement
+  s
+  To qualify for admissions to HKUST(GZ), applicants must meet all
+  admission requirements
+  . Admission is selective and meeting these minimum requirements does not guarantee admission. Some programs may stipulate additional requirements for admissions.
+  2.
+  Application and Selection
+  Postgraduate Online Admission System
+  2.1 The
+  Postgraduate Online Admission System (OAS)
+  refers to the online platform hosted by HKUST Fok Ying Tung Graduate School (Guangzhou) (FYTGS(GZ)) for handling postgraduate (PG) admissions. This is the centralized online platform where:
+  a. applicants can prepare and submit applications, upload documents, pay application fees, review their application status, and accept admission offers;
+  b. referees can submit online reference forms
+  ;
+  c.
+  T
+  hrust/Base/Program can review and shortlist applications, invite applicants to interview(s) and/or test(s), recommend offers, and review admission status; and
+  d. FYTGS(GZ) can update application profiles, release offers, and handle admission-related procedures.
+  2.2 FYTGS(GZ) will request Thrust/Base/Program to provide updated information such as application deadlines, tuition fees, and first payment of tuition fee amounts for the upcoming admission exercise. The request will be made in May for both Fall and Spring Term admission. FYTGS(GZ) will update publicity materials, admission webpages and OAS accordingly.
+  Application Period
+  2.3 Applications for admission are invited a year ahead of the intake year. Regarding the specific dates for each admission cycle, please refer to
+  Admission Timeline
+  .
+  Application for Admissions
+  2.4 Once the OAS opens, applicants can create an account and submit applications. Besides presenting their personal particulars, academic qualifications, public examination results, etc., applicants can also upload supporting documents and invite referees to provide references online.
+  2.5 Applications can only be submitted successfully after payment of the application fee.
+  2.6 Applicants can apply for multiple programs under the same account via OAS. They need to complete each application and settle application fee one by one.
+  2.7 After application submission, an applicant can still make the following changes in OAS:
+  a. update contact details
+  b. provide newly available academic result(s) or test score(s)
+  c. add or update publications
+  d. resend invitations to referee(s) or add referee(s)
+  e. upload additional supporting document(s)
+  2.8 Personal data such as name, date of birth, and applicant type cannot be revised by applicants after application submission. Where necessary, applicants can approach Thrust/Base/Program for switching of their first name and last name.
+  Admission Interview, Test and Decision
+  2.9 Thrust/Base/Program are recommended to arrange admission interviews and/or tests for shortlisted candidates. To ensure impartiality, interview panels should consist of at least two interviewers.
+  2.10 Admission interviews should be held either face-to-face or via video conferencing. Phone interview is not recommended. Identity of the applicants should be verified before the interview.
+  2.11 Hub/College and Thrust/Base/Program are required to keep proper documentation for all admission interviews, including assessment reports and admission decisions.
+  2.12 Before attending admission interviews, shortlisted applicants will be invited via email by the programs through OAS to complete psychological tests. Supervisors, RBM, and Program Offices will receive the test results directly for PhD, MPhil, and TPg students, respectively. The test results are strictly confidential and should not be disclosed to applicants or any unauthorized parties. The test results should be considered as reference only and should not affect the final admissions decision.
+  2.13 Admission decisions should be made by an admission committee consisting of at least one academic faculty. A prime supervisor who fails the substantiation review will not be allowed to admit any new students.
+  3.
+  Making an Offer
+  Offer Recommendation and Issuance
+  3.1 Before recommending an offer, Hub/College and Thrust/Base/Program should
+  a. check the application profile and make sure that the applicant’s name and date of birth are the same across all identification documents, transcripts, diploma, and supporting documents
+  b. ensure that the applicant satisfies (i) the University’s general admission requirements; (ii) the English Language requirement; and (iii) the program-specific requirements
+  c. determine the offer type, and specify condition(s) for admissions where applicable
+  d. check whether the applicant needs to apply for student visa, and if he/she has input a correct indication as an international applicant (click here for details) (if a student visa is required, see 3.5 for the procedures)
+  e. review whether the applicant has any ongoing commitments (e.g. another degree program) that may overlap with the intended study at HKUST(GZ), and ensure that any such commitments can be completed before commencement of studies.
+  3.2 For programs requiring applicants to have obtained a degree in a related field, Thrust/Base/Program should share with FYTGS(GZ) the list of acceptable fields. Any update to the list or any one-off approval should be made known to FYTGS(GZ) before offer recommendation.
+  3.3 Offers recommended by Thrust/Base/Program need to be endorsed by the respective Hub/College before they are forwarded to FYTGS(GZ) for clearance.
+  3.4 Hub/College and Thrust/Base/Program should note that conditional offers are binding on both applicants and the respective Programs.
+  Visa Support for International Applicants
+  3.5 For international applicants requiring a student visa to study in mainland China, the admission offer shall only be issued after the visa application process has been properly initiated. Upon nomination of the offer by the Hub/College, the following procedures will be followed:
+  a. PGOA informs Office of Student Affairs (OSA) via email to support the JW202 form application for the applicant;
+  b. OSA provides a form for applicants to fill in the required visa-related details; applicants submit the completed form to OSA;
+  c. Once the JW202 is issued, as notified by OSA, PGOA releases the admission offer to the applicant via the OAS;
+  d. Once the admission offer is accepted by the applicant, PGOA prepares the official paper Admission Notice to OSA, with an electronic copy retained for internal records.
+  Deadline for Offer Recommendation
+  3.6 To allow sufficient time for applicants who need to apply for student visas, Thrust/Base/Program should observe the following deadline for offer recommendation.
+  Applicants
+  Fall Term
+  Spring Term
+  International
+  29 June
+  Four weeks ahead of Spring Term Commencement
+  Chinese
+  29 July
+  Two weeks ahead of Spring Term Commencement
+  3.7 Programs not following regular academic terms or the general program commencement dates of the University should work out their specific deadlines with FYTGS(GZ).
+  Late Offer
+  3.8 If there are exceptional circumstances where offers have to be made after the above deadlines (i.e. late offers), Thrust/Base/Program are requested to send a written request to FYTGS(GZ). The request should include:
+  a. endorsement by the Supervisor, Thrust Head/Program Director;
+  b. endorsement by the Hub/College Dean;
+  c. confirmation on the understanding that the applicant may proceed to register only if he/she arrives before end of the Add/Drop period;
+  d. assessment by the Thrust/Base/Program of the potential impact on applicant’s academic progress in case of late arrival.
+  3.9 For approved late offers, Thrust/Base/Program should alert the relevant applicant that, in case the offer cannot be confirmed (see 4.3) or the student visa cannot be approved in time for program registration, they may need to apply for deferred admission (see 4.7-4.12).
+  Result Notification
+  3.10 During the admission cycle, Thrust/Base/Program are advised to notify applicants of their admission results as soon as feasible. It is suggested that application rejections should be conducted according to the following timelines:
+  Applicants
+  Fall Term
+  Spring Term
+  International
+  31 July
+  31 December
+  Chinese
+  Before Fall Term Commencement
+  Before Spring Term Commencement
+  3.11 Thrust/Base/Program may consider carrying over applications for the Fall Term for consideration for Spring Term admission within the same academic year. Such requests should be sent to FYTGS(GZ) two weeks before the rejection deadline stated above. Once carried over, applicants will be informed of such an arrangement by a system-generated email.
+  Request for Waiver of Admission Requirement
+  3.12 If Thrust/Base/Program would like to seek approval from the Postgraduate Admissions Sub-committee of Committee on Postgraduate Studies (PAS) for waiving certain admission requirement(s) for an applicant, they may apply in writing to FYTGS(GZ) at
+  pgadmitgz@hkust-gz.edu.cn
+  for the consideration of PAS. Thrust/Base/Program is advised to consult FYTGS(GZ) before submitting the request
+  3.13 The following information should be included in the request:
+  a. basis for the waiver request
+  b. quality of the applicant in comparison with the application pool
+  c. academic performance of students with the same or similar waivers in the last 3 cohorts
+  3.14 Endorsement from the Hub/College is required if waiver of the requirement for a recognized Bachelor’s or higher degree is involved. Thrust/Base/Program should note that, under Senate guidelines, the total number of students without a degree should not exceed 10% of the cohort of a program.
+  4.
+  Post-offer Follow Up
+  Document Verification
+  4.1 After offer acceptance, applicants will need to submit official documents as listed in their respective Document Checklist before the deadline stipulated in the OAS. This deadline may be extended to applicants with conditional offers. For details of document requirements, please refer to
+  Document Verification
+  .
+  4.2 For all HKUST(GZ) students/graduates, FYTGS(GZ) will retrieve their HKUST(GZ) transcript from the Student Information System (SIS). For HKUST(GZ) postgraduate students/graduates, FYTGS(GZ) will retrieve the degree qualifications, English test and/or public exam record(s) that they submitted to HKUST(GZ) upon their last PG admission. However, FYTGS(GZ) reserves the right to request applicants for the submission of official documents if deemed necessary.
+  4.3 Documents submitted are checked and verified by FYTGS(GZ). After the verification of all documents required to substantiate applicants’ qualifications and satisfy admission requirements, the admission offers will be confirmed, and the applicants are eligible for program registration.
+  4.4 After the admission offer is confirmed and the student visa is approved (where applicable), information of the applicant will be released from OAS to SIS. The Academic Registry Services (ARS) will then invite the applicants to program online registration.
+  4.5 Current final year students at HKUST(GZ) who have passed graduation check but have not been officially conferred a degree can apply for special approval for program registration. Students should complete and submit the
+  Request for Special Approval for Program Registration (for HKUST(GZ) Graduates)
+  to FYTGS(GZ) via Thrust/Base/Program.
+  4.6 Current final year students of other institutions under similar situations as 4.5 may apply for special approval for program registration. Such a request must be supported by official documents issued by the Academic Registry or equivalent central unit of applicant’s home university.
+  Deferred Admission
+  4.7 Under special circumstances (e.g. delay in student visa approval or medical reasons), applicants who have accepted an offer (firm or conditional) and paid the first payment of tuition fee may apply for deferred admission to the subsequent regular term. Applicants should complete the eRequest Form sent by the respective Thrust/Base/Program via the OAS.
+  4.8 Thrust/Base/Program is requested to reach an outcome as soon as feasible, and no later than the Extended Drop Period. Once the decisions regarding deferral requests are made and recorded in the OAS, PGOA will clear the case and notify the outcome to the applicant, Thrust/Base/Program and Hub/College.
+  4.9 For a deferred applicant who has applied for a student visa, FYTGS(GZ) will inform OSA to terminate the visa application process. The applicant will need to reapply for student visa before commencement of studies.
+  4.10 All approvals for deferred admission are valid for not more than two consecutive regular terms, after which a new application for admission must be made.
+  Conclusion of Admission Offer
+  4.11 By mid-October for Fall Term admission and mid-March for Spring Term admission, FYTGS(GZ) will conclude admissions by lapsing offers not taken up, including those:
+  a. without full first payment of tuition fee
+  b. with essential substantiating document(s) missing
+  c. without approved student visa / entry permit
+  d. who did not show up for registration
+  4.12 If Hub/College or Thrust/Base/Program wishes to exclude any offers from lapse (e.g. applications under consideration for deferred admission), they should notify FYTGS(GZ) before the end of the Extended Drop Period.
+  The First Payment of Tuition Fee Refund and Forfeiture
+  4.13 Applicants shall confirm their acceptance of admission offers by making the first payment of tuition fee.
+  4.14 In the case of deferred admission, the first payment of tuition fee will be kept for the deferred studies.
+  4.15 For RPg programs, the first payment of tuition fee is set at 50% of the annual tuition fee. For TPg programs, the first payment of tuition fee will be decided by the individual program.
+  4.16 Upon request, 90% of the paid first payment of tuition fee can be refunded if an applicant declines the offer after acceptance or fails to complete online registration after the offer is confirmed. This arrangement is to ensure compliance with local government’s regulations.
+  4.17 By clicking on "declining" in OAS, a system-generated email with instructions on submitting the refund request materials will be sent to the applicants. Refund requests will be processed and submitted to the Student Finance Section (SFS) in the middle of each month by PGOA. SFS will process the refund, which will take approximately four weeks.
+  4.18 For applicants who fail to complete online registration, they can email PGOA to request a refund of the first payment. Once request is received, PGOA will follow up the refund with SFS.
+  4.19 After completion of an admission cycle, first payment of tuition fee for offers not taken up nor request for refund are handled by an automated forfeiture process.
+  5. RPg Sponsorship Arrangement
+  5.1 Once the sponsorship agreement is signed, Thrust shall confirm the English name of the sponsorship with FYTGS(GZ). The offer template will then be prepared and made available in the OAS.
+  5.2 Thrust shall issue the
+  RPg Sponsorship Undertaking Form
+  to selected applicants, who will then submit the completed form via OAS. When recommending the offer, Thrust shall indicate the sponsorship, and PGOA will follow the regular offer-making process.
+  6. Short-term Study
+  6.1 Students from other tertiary institutions may enroll as one of the following:
+  Short-term Study
+  Enrollment
+  Visiting Postgraduate Students
+  (VPS)
+  1–2 regular terms
+  Visiting Research Students
+  (VRS)
+  1-6 months, eligible for extension
+  6.2 The application and offer-making follow the regular procedures outlined in Sections 2 and 3 of the Guidelines.
+  6.3 The fee arrangements for short-term study are as follows:
+  RMB
+  Remarks
+  Application Fee
+  VPS
+  250
+  per application
+  VRS
+  250
+  per application
+  Tuition Fee
+  VPS
+  TPg courses: subject to the respective program;
+  RPg courses: 7500
+  per credit
+  pay on arrival
+  VRS
+  1800
+  per credit
+  pay on arrival
+  Allowance
+  VPS
+  N/A
+  VRS
+  Up to 8000
+  per month (pre-tax)
+  the allowance is not an entitlement, and is dependent on the individual supervisor, and funds available
+  6.4 VRS may extend the research period once if necessaryby submitting the
+  Request for Extension of PG Visiting Research Period
+  . Requests should be submitted as follows:
+  Applicant Type
+  Extension Request Timeline
+  Chinese
+  At least 6 weeks before the original end date
+  International
+  At least 10 weeks before the original end date
+  7. Confidentiality and Conflict of Interests
+  Applicant Declarations and Use of Personal Data
+  7.1 Applicants must confirm the accuracy of information submitted and also consent to the
+  Personal Information Collection Statement
+  , allowing the use of their data for admission and related purposes prior to creating an account via the OAS. By doing so, applicants authorize HKUST(GZ) to verify their academic records and check for concurrent applications, enrolments at other institutions, or for any other purposes related to the admission process.
+  Faculty and Staff Responsibilities
+  7.2 Throughout the admissions process, all faculty and staff shall rigorously comply with the University's policy on faculty ethics and conduct, including
+  confidentiality
+  ,
+  conflicts of interest
+  , and the
+  acceptance of advantage
+  (
+  The Faculty Code of Conduct at HKUST(GZ)
+  and the
+  Procedure for the Investigation of Faculty Misconduct
+  ).
+  7.3 Whenever a conflict of interest situation arises during the admissions process, faculty/staff should complete a
+  declaration form
+  and submit it to Thrust/Base and Hub/College for a decision, followed by clearance from FYTGS(GZ).
+  HKUST Fok Ying Tung Graduate School -
+  Guangzhou
+  Office
+  July 2025
+
+tables:
+  - Applicants | Fall Term | Spring Term
+  - International | 29 June | Four weeks ahead of Spring Term Commencement
+  - Chinese | 29 July | Two weeks ahead of Spring Term Commencement
+  - Applicants | Fall Term | Spring Term
+  - International | 31 July | 31 December
+  - Chinese | Before Fall Term Commencement | Before Spring Term Commencement
+  - Short-term Study | Enrollment
+  - Visiting Postgraduate Students (VPS) | 1–2 regular terms
+  - Visiting Research Students (VRS) | 1-6 months, eligible for extension
+  - RMB | Remarks
+  - Application Fee | VPS | 250 | per application
+  - VRS | 250 | per application
+  - Tuition Fee | VPS | TPg courses: subject to the respective program; RPg courses: 7500 | per credit | pay on arrival
+  - VRS | 1800 | per credit | pay on arrival
+  - Allowance | VPS | N/A
+  - VRS | Up to 8000 | per month (pre-tax) | the allowance is not an entitlement, and is dependent on the individual supervisor, and funds available
+  - Applicant Type | Extension Request Timeline
+  - Chinese | At least 6 weeks before the original end date
+  - International | At least 10 weeks before the original end date
+
+links:
+  - admission requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements/
+  - Postgraduate Online Admission System (OAS) | https://pgoas.hkust-gz.edu.cn/
+  - Admission Timeline | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline/
+  - Document Verification | https://fytgs.hkust-gz.edu.cn/doc
+  - Request for Special Approval for Program Registration (for HKUST(GZ) Graduates) | https://fytgs.hkust-gz.edu.cn/special-registration
+  - RPg Sponsorship Undertaking Form | https://fytgs.hkust-gz.edu.cn/internal-resources/useful-forms
+  - Personal Information Collection Statement | https://fytgs.hkust-gz.edu.cn/pics
+  - confidentiality | https://document.hkust-gz.edu.cn/office/viewer?key=330&fileType=pdf&fileName=2%20Staff%20Must-know%20Policy_Confidentiality_May2022
+  - conflicts of interest | https://document.hkust-gz.edu.cn/office/viewer?key=331&fileType=pdf&fileName=3%20Staff%20Must-know%20Policy_Conflict%20of%20Interests_June2022_CN&EN
+  - acceptance of advantage | https://document.hkust-gz.edu.cn/office/viewer?key=332&fileType=pdf&fileName=4%20Staff%20Must-know%20Policy_Guidelines%20on%20Acceptance%20of%20Advantages_Mar2022
+  - The Faculty Code of Conduct at HKUST(GZ) | https://document.hkust-gz.edu.cn/office/viewer?key=599
+  - Procedure for the Investigation of Faculty Misconduct | https://document.hkust-gz.edu.cn/office/viewer?key=600
+  - declaration form | https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2025/07/PG0106_Declaration-of-Conflict-of-Interest-for-RPg-V3.pdf

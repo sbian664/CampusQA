@@ -1,0 +1,32 @@
+dsa_page: A Survey on Deep Learning Approaches for Solving and Discovering Partial Differential Equations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/01/a-survey-on-deep-learning-approaches-for-solving-and-discovering-partial-differential-equations/
+source: DSA
+
+headings:
+  - A Survey on Deep Learning Approaches for Solving and Discovering Partial Differential Equations
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey on Deep Learning Approaches for Solving and Discovering Partial Differential Equations
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Zhihao LI
+  Abstract
+  Partial differential equations (PDEs) are pivotal in modeling complex physical phenomena across various scientific disciplines. Recent advancements in deep learning have shown substantial promise in not only solving but also discovering PDEs. This survey reviews three principal deep learning methodologies that facilitate these tasks: Physics-Informed Neural Networks (PINNs), Operator Learning, and Foundation Models. PINNs effectively incorporate domain knowledge into neural network architectures to approximate solutions, ensuring compliance with governing equations and boundary conditions. Operator Learning is dedicated to identifying and learning the differential operators governing the system dynamics. Conversely, Foundation Models utilize large-scale pre-trained models to swiftly adapt to a variety of PDE-related tasks, enhancing both predictive accuracy and computational efficiency. Throughout this survey, we explore the theoretical foundations, implementation strategies, and diverse applications of these approaches, underscoring the transformative potential of deep learning in advancing computational science and elucidating the dynamics of intricate physical systems. The discussion also delves into the unique challenges each method faces and the promising directions for future research in this evolving field.
+  PQE Committee
+  Chairperson: Prof. Qiong LUO
+  Prime Supervisor: Prof Wei WANG
+  Co-Supervisor: Prof Zhilu LAI
+  Examiner: Prof Xinlei HE
+  Date
+  04 June 2024
+  Time
+  09:50:00 -
+  11:05:00
+  Location
+  E1-147

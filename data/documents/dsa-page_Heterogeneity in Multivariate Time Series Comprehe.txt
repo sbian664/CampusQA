@@ -1,0 +1,27 @@
+dsa_page: Heterogeneity in Multivariate Time Series: Comprehensive Analysis and Adaptive Modeling – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/11/17/heterogeneity-in-multivariate-time-series-comprehensive-analysis-and-adaptive-modeling/
+source: DSA
+
+headings:
+  - Heterogeneity in Multivariate Time Series: Comprehensive Analysis and Adaptive Modeling
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Heterogeneity in Multivariate Time Series: Comprehensive Analysis and Adaptive Modeling
+  Share to
+  ABSTRACT
+  In recent years, Multivariate Time Series (MTS) forecasting methods have developed rapidly. However, inconsistencies in model performance, insufficiently rigorous evaluation, and divergent methodological choices across studies have led to significant challenges in comprehensive benchmarking, architectural design, and robust forecasting. To address these issues, this talk will first introduce BasicTS, a standard and scalable benchmarking framework that enables fair and reproducible evaluation for heterogeneous time series models, followed by a systematic discussion on the heterogeneity of MTS and the resulting challenges. The second part of the talk will focus on adaptive robust modeling methods, covering deep time-series selective learning, balanced sampling-based corpus construction, and feature-aware model recommendation techniques, aiming to enhance the adaptability and robustness of time series forecasting models.
+  SPEAKER BIO
+  Zezhi Shao is an Assistant Professor at the Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS), affiliated with the Research Center for Intelligent Equipment Systems and the State Key Laboratory of AI Safety. His research interests include spatiotemporal data mining, time series forecasting, and AI for Science. Dr. Shao obtained his Ph.D. degree from ICT, CAS, under the supervision of Prof. Yongjun Xu. He has published over 20 papers in top international conferences such as NeurIPS, VLDB, and SIGKDD, and in journals including The Innovation and TKDE, with more than 2,500 citations on Google Scholar. Four of his papers were selected for the “Most Influential Papers” list, and two were recognized as ESI Highly Cited or Hot Papers. In addition to academic research, he is also an active contributor to the open-source community. His GitHub repositories have accumulated over 2,800 stars, and he is the founder of BasicTS, a widely used open-source project for time series research.
+  Date
+  18 November 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  Lecture Hall C, HKUST(GZ)

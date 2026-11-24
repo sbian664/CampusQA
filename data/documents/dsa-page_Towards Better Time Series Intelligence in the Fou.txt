@@ -1,0 +1,28 @@
+dsa_page: Towards Better Time Series Intelligence in the Foundation Model Era: From a Data-Centric Lens – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/04/21/towards-better-time-series-intelligence-in-the-foundation-model-era-from-a-data-centric-lens/
+source: DSA
+
+headings:
+  - Towards Better Time Series Intelligence in the Foundation Model Era: From a Data-Centric Lens
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Towards Better Time Series Intelligence in the Foundation Model Era: From a Data-Centric Lens
+  Share to
+  ABSTRACT
+  High-quality, well-curated data are the cornerstone of effective time series modeling, yet the data-centric dimension of time series intelligence remains underexplored. This seminar presents a data-centric perspective on enabling time series foundation models and LLM-based reasoning, organized around two themes: ensuring data quality and automating data preparation for reasoning. (1) On the data quality side, this talk introduces TSRating, a meta-learning framework that leverages LLM judgments to rate and rank time series samples across diverse domains. (2) On the data preparation side, this talk demonstrates how carefully constructed training data unlocks LLM reasoning over time series through VeriTime, an end-to-end pipeline that synthesizes process-verifiable chain-of-thought data and applies reinforcement fine-tuning with multi-objective rewards for diverse time series reasoning tasks.
+  Together, these works take a preliminary step towards demonstrating that progress in time series intelligence hinges not only on model capacity, but on principled data quality control and automated data preparation, opening avenues for further exploration of the data-centric perspective on time series foundation models.
+  SPEAKER BIO
+  Dr. Dan Li is an Associate Professor at the School of Software Engineering, Sun Yat-Sen University (SYSU). Previously, she worked as a postdoctoral researcher at the Institute of Data Science (IDS), National University of Singapore (NUS). She obtained her Ph.D. from Nanyang Technological University (NTU), under the Singapore-UC Berkeley Joint Program. Her research interets includes Data-Centric AI, Time Series Data Analysis, Time Series Foundation Models. Dr. Li has published more than 40 papers in related areas. She is the recipient of the 2023 AIoTSys Best Paper Award and 2025 PHM-AP Best Paper Award.
+  Date
+  21 April 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  Rm 101, W1, HKUST(GZ)

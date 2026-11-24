@@ -1,0 +1,40 @@
+dsa_page: Assisting Software Engineering Tasks beyond Natural Language Processing – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/assisting-software-engineering-tasks-beyond-natural-language-processing/
+source: DSA
+
+headings:
+  - Assisting Software Engineering Tasks beyond Natural Language Processing
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Assisting Software Engineering Tasks beyond Natural Language Processing
+  Share to
+  ABSTRACT
+  Machine learning is extensively employed to tackle natural language processing (NLP) issues. Given the similarities between natural language and source code, researchers are exploring NLP techniques for code-related tasks. Yet, it's crucial to acknowledge that source code and natural language differ fundamentally, potentially limiting the efficacy of direct application of NLP techniques.
+  In this talk, I'll discuss my efforts to enhance existing natural language processing (NLP) techniques to better support various software engineering tasks, with a focus on understanding and analyzing code structure. First, I'll showcase the current issues concerning natural language text within source code, using logging statements as an illustration, as they contain human-written text and provide crucial execution information. Then, I'll present another key intersection between source code and natural language: learning and evaluating distributed code representations (code embeddings), which are essential for many software engineering tasks, particularly in the era of deep learning. Finally, I'll share my vision for integrating multidimensional knowledge to enable intelligent development and operations for software systems, particularly in the context of large language models (LLMs).
+  SPEAKER BIO
+  Zishuo DING
+  Postdoctoral Researcher
+  University of Waterloo
+  Zishuo Ding is currently a postdoctoral researcher at the University of Waterloo. His research focuses on leveraging intelligent approaches (e.g., ML/DL/LLMs) to enhance various software engineering tasks. His research interests include optimizing natural language processing techniques for software engineering applications, which will be the focus of this talk, as well as software performance engineering for large-scale systems. Zishuo's work has been published in prestigious software engineering venues such as ICSE, ESEC/FSE, ASE, EMSE, and TOSEM. He received the ACM SIGSOFT Distinguished Paper Award at ICSE 2020. Zishuo obtained his Ph.D. from the University of Waterloo under the guidance of Weiyi Shang. More information about Zishuo's work can be found at https://ece.uwaterloo.ca/~z8ding/.
+  Date
+  09 April 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  824 3770 9841
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

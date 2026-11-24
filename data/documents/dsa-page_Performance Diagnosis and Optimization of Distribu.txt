@@ -1,0 +1,40 @@
+dsa_page: Performance Diagnosis and Optimization of Distributed DNN Training – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/27/performance-diagnosis-and-optimization-of-distributed-dnn-training/
+source: DSA
+
+headings:
+  - Performance Diagnosis and Optimization of Distributed DNN Training
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Performance Diagnosis and Optimization of Distributed DNN Training
+  Share to
+  * Students who enroll in DSAA 6102 must attend the seminar in classroom.
+  ABSTRACT
+  Distributed training using multiple devices (e.g., GPUs) has been widely adopted for learning DNN models over large datasets. The performance of large-scale distributed training tends to be far from linear speed-up in practice. Given the complexity of distributed systems, it is challenging to identify the root cause(s) of inefficiency and exercise effective performance optimizations when unexpected low training speed occurs. We seek a generic, efficient toolkit that can diagnose performance issues and expedite distributed DNN training. Our proposed toolkit includes: (1) a profiler that collects runtime traces of distributed DNN training across multiple frameworks, especially fine-grained communication traces, and constructs global data flow graphs including detailed communication operations for accurate replay; (2) an optimizer that effectively identifies performance bottlenecks and explores optimization strategies (from computation, communication, and memory aspects) for training acceleration. We implement our toolkit on multiple deep learning frameworks (TensorFlow, MXNet) and representative communication schemes (AllReduce and Parameter Server), and evaluate its practical performance in distributed training in various settings.
+  SPEAKER BIO
+  Chuan WU
+  Professor
+  The University of Hong Kong
+  Chuan Wu received her B.Engr. and M.Engr. degrees in 2000 and 2002 from the Department of Computer Science and Technology, Tsinghua University, China, and her Ph.D. degree in 2008 from the Department of Electrical and Computer Engineering, University of Toronto, Canada. Between 2002 and 2004, She worked in the Information Technology industry in Singapore. Since September 2008, Chuan Wu has been with the Department of Computer Science at the University of Hong Kong, where she is currently a Professor. Her current research is in the areas of cloud computing, distributed machine learning systems and algorithms, and datacenter networking. She is a senior member of IEEE, a member of ACM, and an associate editor of ACM/IEEE Transactions on Networking and IEEE Transactions on Cloud Computing. She has coauthored 70 journal articles and more than 120 conference papers. She has active collaborations with various AI cloud operators, including Huawei, ByteDance, Alibaba and AWS. She was the co-recipient of the best paper awards of HotPOST 2012 and ACM e-Energy 2016.
+  Date
+  01 March 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  142-619-639
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

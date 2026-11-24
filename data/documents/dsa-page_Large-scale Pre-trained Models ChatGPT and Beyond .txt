@@ -1,0 +1,39 @@
+dsa_page: Large-scale Pre-trained Models: ChatGPT and Beyond – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/17/large-scale-pre-trained-models-chatgpt-and-beyond/
+source: DSA
+
+headings:
+  - Large-scale Pre-trained Models: ChatGPT and Beyond
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Large-scale Pre-trained Models: ChatGPT and Beyond
+  Share to
+  ABSTRACT
+  ChatGPT recently released by OpenAI demonstrates powerful natural language interaction capabilities. This talk introduces the techniques of large-scale pre-trained models (PTMs) behind ChatGPT and discusses several distinct features of PTMs as compared to conventional deep learning models.
+  SPEAKER BIO
+  Zhiyuan LIU
+  Associate Professor
+  Tsinghua University
+  Zhiyuan Liu is an associate professor at the Department of Computer Science and Technology, Tsinghua University. He received his Ph.D. degree in Computer Science from Tsinghua in 2011. His research interests include deep learning for NLP, knowledge graphs and social computation, and has published more than 100 papers in top-tier conferences and journals of AI and NLP including ACL, EMNLP, IJCAI and AAAI with 30,000+ citations according to Google Scholar. He is the recipient of the Excellent Doctoral Dissertation of Tsinghua University, the Excellent Doctoral Dissertation of CAAI (Chinese Association for Artificial Intelligence), Outstanding Post-Doctoral Fellow in Tsinghua University, MIT Technology Review Innovators Under 35 China (MIT TR-35 China), BAAI Young Scientist. He serves as Associate Editor of AI Open, Track/Area Chairs of ACL, EMNLP, WWW, CIKM, COLING, etc.
+  Date
+  19 April 2023
+  Time
+  13:30:00 -
+  14:50:00
+  Location
+  W1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  217-553-826
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

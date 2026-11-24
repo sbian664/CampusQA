@@ -1,0 +1,37 @@
+dsa_page: A Survey of Reward-driven Learning in Recommender, Dialog, and Vision Systems – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/12/a-survey-of-reward-driven-learning-in-recommender-dialog-and-vision-systems/
+source: DSA
+
+headings:
+  - A Survey of Reward-driven Learning in Recommender, Dialog, and Vision Systems
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Reward-driven Learning in Recommender, Dialog, and Vision Systems
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss SHI Xinran
+  Abstract
+  The field of artificial intelligence (AI) has undergone a significant transformation as researchers move beyond traditional supervised learning to embrace reward-driven approaches. Rather than simply minimizing prediction errors on static datasets, modern AI systems learn to optimize for what humans actually value. This survey examines how reward-driven techniques—particularly reinforcement learning (RL) and reward modeling—are reshaping three critical AI domains: recommender systems, conversational AI, and generative vision.
+  We begin by exploring how recommendation systems benefit from treating suggestions as sequential decisions rather than isolated predictions. By framing recommendation as RL, systems can optimize for long-term user satisfaction instead of just immediate clicks. We then examine how conversational AI systems like ChatGPT have been transformed through Reinforcement Learning from Human Feedback (RLHF), enabling them to optimize for dialogue quality, user satisfaction, and safety rather than just linguistic fluency. Finally, we investigate the emerging field of reward-enhanced vision models, where diffusion and autoregressive image generators learn to create content that better matches human aesthetic and quality preferences.
+  Throughout this survey, we highlight both the theoretical foundations—from Markov Decision Process (MDP) to policy optimization—and practical implementations that have proven successful in real-world systems. We discuss ongoing challenges including reward specification difficulties, the high cost of collecting human feedback, and the delicate balance between model alignment and output diversity. To illustrate these concepts, we present case studies including RewardRec, a reward-enhanced academic paper recommendation system, and preview our future work on self-reflective image generation.
+  The survey concludes by envisioning unified reward-driven AI systems that seamlessly integrate personalized recommendations, natural language understanding, and visual generation. We argue that reward-based learning provides a pathway toward AI agents that can learn, adapt, and improve themselves through continuous feedback—ultimately creating systems that truly understand and optimize for human values.
+  PQE Committee
+  Chair of Committee: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. LUO, Qiong
+  Co-Supervisor: Prof. HU, Xuming
+  Examiner: Prof. WEN, Zeyi
+  Date
+  19 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-202 (HKUST-GZ)

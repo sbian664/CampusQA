@@ -1,0 +1,39 @@
+dsa_page: AI Algorithms for Disease Diagnosis and Prognosis Based on Imperfect Biomedical Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/02/01/dsa%e7%a0%94%e8%ae%a8%e4%bc%9a-ai-algorithms-for-disease-diagnosis-and-prognosis/
+source: DSA
+
+headings:
+  - AI Algorithms for Disease Diagnosis and Prognosis Based on Imperfect Biomedical Data
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  AI Algorithms for Disease Diagnosis and Prognosis Based on Imperfect Biomedical Data
+  Share to
+  ABSTRACT
+  In recent years, Artificial Intelligence (AI) technology has been widely applied to the analysis of biomedical data, bringing revolutionary advancements to the field of healthcare. Unlike natural images or language, the analysis of biomedical data is challenging due to the “data imperfection”, such as limited training data, class imbalance, label noise, and modality gap. To improve the accuracy of disease diagnosis and survival prediction, we need to design efficient AI algorithms to tackle the data imperfection of each medical data modality. Along this main line, my research includes the following three topics: 1) For medical image analysis, we zoom in the lesion regions on endoscopy images, regulate the inter-sample relationships for skin lesion diagnosis, and design noise-robust classification networks to deal with the label noise. 2) For the omics data, we construct co-expression gene networks and build graph models to extract the pathway information. 3) For the integration of the pathology and genomics data, we explore the complementary information among different modalities via low-rank constraint and saliency-aware masking, and propose a novel knowledge distillation framework to tackle the missing modality issue. Our methods have achieved state-of-the-art performance on public datasets and have great clinical significance.
+  SPEAKER BIO
+  Xiaohan XING
+  Postdoctoral Researcher
+  Stanford University
+  Xiaohan Xing is a postdoctoral researcher at Stanford University, having obtained her Ph.D. from The Chinese University of Hong Kong in 2021. She has been extensively involved in research related to medical AI, focusing on disease diagnosis and survival prediction based on medical images, omics data, and the integration of multimodal data. Currently, she has published more than 20 papers in top-tier journals and conferences in the field. Among these, she is the first author of 12 papers in leading journals such as Proceedings of IEEE, TMI, Medical Image Analysis, Bioinformatics, and prominent conferences like MICCAI and BIBM. Her research contributions have gained worldwide recognition, and she was honored with the MICCAI Young Scientist Award in 2022.
+  Date
+  02 February 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  812 5241 3967
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

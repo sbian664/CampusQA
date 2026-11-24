@@ -1,0 +1,40 @@
+dsa_page: A Survey of Mixture-of-Experts LLM Inference Optimization – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/a-survey-of-mixture-of-experts-llm-inference-optimization/
+source: DSA
+
+headings:
+  - A Survey of Mixture-of-Experts LLM Inference Optimization
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  PhD Qualifying-Exam
+  A Survey of Mixture-of-Experts LLM Inference Optimization
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Rui
+  Abstract
+  Mixture-of-Experts (MoE) architectures have become a key design paradigm in modern large language models (LLMs), enabling large-scale parameter growth while maintaining efficient inference through sparse activation. By activating only a subset of experts for each token, MoE models significantly improve capacity and scaling efficiency and have been widely adopted in state-of-the-art systems such as Switch Transformer, Mixtral, Qwen-MoE, and DeepSeek series models. However, MoE inference introduces unique challenges, including dynamic routing, irregular computation, memory overhead, load imbalance, and costly inter-device communication, which are not well addressed by techniques designed for dense LLMs. This survey provide a comprehensive review of recent advances in MoE-LLM inference optimization. It systematically categorizes existing methods into three levels: algorithm-level optimization, system-level optimization, and hardware-level optimization. Algorithm-level approaches focus on improving routing strategies, reducing redundant computation, and compressing expert parameters. System-level techniques aim to enhance runtime efficiency through expert scheduling, communication reduction, memory management, and heterogeneous execution. Hardware-level methods explore specialized accelerators and hardware-software co-design to better support sparse and dynamic computation patterns. Finally, It discuss open challenges and future research directions toward efficient, scalable, and deployment-ready MoE inference across cloud and edge environments.
+  PQE Committee
+  Chair: Prof. YU, Xu Jeffrey
+  Prime Supervisor: Prof. WEN, Zeyi
+  Co-Supervisor: Prof. TSUNG, Fu-Gee
+  Examiner: Prof. DING, Ningning
+  Date
+  09 June 2026
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E1-147, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

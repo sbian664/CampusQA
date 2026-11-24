@@ -1,0 +1,55 @@
+dsa_page: Generalizable and Efficient Transfer Learning for Graph and Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/03/generalizable-and-efficient-transfer-learning-for-graph-and-language-models/
+source: DSA
+
+headings:
+  - Generalizable and Efficient Transfer Learning for Graph and Language Models
+  - ABSTRACT
+  - TEC
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+  - JOIN ONLINE
+
+text: >
+  Final Defense
+  Generalizable and Efficient Transfer Learning for Graph and Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Examination
+  By Mr. Jiashun CHENG
+  ABSTRACT
+  Transfer learning, as a key paradigm in modern machine learning, has rapidly advanced the scalability and effectiveness of model deployment by enabling knowledge reuse across tasks. This thesis identifies three principal challenges that arise at different stages of its evolving landscape: (1) generalizable graph pre-training, (2) effective adaptation for graphs, and (3) efficient adaptation for large language models (LLMs), and presents three innovative approaches to tackle these challenges.
+  Our first framework, WGDN, revisits the long-overlooked generative graph pre-training by proposing the augmentation-adaptive graph Wiener filter that better captures the topological nature of graphs within the reconstruction paradigm, thereby improving the generalizability of graph representation learning. Subsequently, PAF addresses the challenges of limited supervision and structural heterophily in graph anomaly detection by introducing a unified framework that combines multi-filter spectral pre-training with adaptive fine-tuning, enabling task-aware and effective adaptation. Furthermore, SeLoRA targets the parameter redundancy in Low-Rank Adaptation (LoRA) fine-tuning for LLMs, and introduces a sparse spectral re-parameterization module that achieves highly efficient adaptation while preserving expressive capacity.
+  Extensive experiments across diverse benchmarks and downstream tasks in both graph and language domains validate the effectiveness and efficiency of these approaches. Collectively, they aim to advance the frontier of transfer learning toward greater generalizability, adaptability, and resource efficiency.
+  TEC
+  Chairperson: Prof Sihong XIE
+  Prime Supervisor: Prof Fugee TSUNG
+  Co-Supervisor: Prof Jia LI
+  Examiners:
+  Prof Qiong LUO
+  Prof Lei ZHU
+  Prof Yingcong CHEN
+  Prof Yang YANG
+  Date
+  06 June 2025
+  Time
+  09:30:00 -
+  11:30:00
+  Location
+  E1-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID: 981 3735 3788
+  Passcode: dsa2025
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn
+  JOIN ONLINE
+
+links:
+  - JOIN ONLINE | https://hkust-gz-edu-cn.zoom.us/j/98137353788?pwd=GnaKiF1WoGs3TzZ2iDBlxaa7aianbi.1

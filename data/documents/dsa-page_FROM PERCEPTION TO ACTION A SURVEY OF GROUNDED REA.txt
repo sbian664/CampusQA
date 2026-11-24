@@ -1,0 +1,35 @@
+dsa_page: FROM PERCEPTION TO ACTION: A SURVEY OF GROUNDED REASONING FOR MULTIMODAL AGENTS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/from-perception-to-action-a-survey-of-grounded-reasoning-for-multimodal-agents/
+source: DSA
+
+headings:
+  - FROM PERCEPTION TO ACTION: A SURVEY OF GROUNDED REASONING FOR MULTIMODAL AGENTS
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  FROM PERCEPTION TO ACTION: A SURVEY OF GROUNDED REASONING FOR MULTIMODAL AGENTS
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr.TAO, Xingjian
+  Abstract
+  Recent advances in multimodal large language models have enabled agents to perceive, reason, and act across increasingly complex environments, including images, graphical user interfaces, web pages, videos, and multi-view scenes. However, building reliable multimodal agents requires more than recognizing visual content or generating fluent language. These systems must perform grounded reasoning: they need to connect language, perception, spatial structure, object relations, interface elements, and environmental feedback into coherent decisions and actions. This survey reviews recent progress in grounded reasoning for multimodal agents, with a particular focus on how multimodal models move from passive perception to interactive decision-making.
+  We first introduce the foundations of multimodal large language models and clarify the concept of grounded reasoning in multimodal settings. We then organize existing studies along three major directions: visual and spatial grounding, multi-view and embodied reasoning, and agentic interaction in GUI, web, and physical environments. For each direction, we discuss representative tasks, modeling strategies, training paradigms, and evaluation protocols. We further examine how supervised fine-tuning, reinforcement learning, preference optimization, and inference-time reasoning strategies improve the grounding and decision-making abilities of multimodal agents. Finally, we summarize key challenges, including hallucination, weak spatial understanding, long-horizon planning, unreliable action grounding, limited feedback utilization, and the lack of unified evaluation benchmarks. By connecting grounded multimodal reasoning with agentic action, this survey aims to provide a structured overview of the field and identify promising research opportunities for developing more reliable, generalizable, and interactive multimodal agents.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. WANG, Yiwei (online)
+  Examiner: Prof. DING, Ningning
+  Date
+  10 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-148, HKUST(GZ)

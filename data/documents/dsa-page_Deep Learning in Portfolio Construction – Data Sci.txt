@@ -1,0 +1,35 @@
+dsa_page: Deep Learning in Portfolio Construction – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/13/deep-learning-in-portfolio-construction/
+source: DSA
+
+headings:
+  - Deep Learning in Portfolio Construction
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Deep Learning in Portfolio Construction
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Miss ZHOU Wanyun
+  Abstract
+  Portfolio construction is a fundamental challenge in finance, focusing on the allocation of capital across assets to achieve a balance between return and risk objectives.Traditional approaches follow a two-stage process: return and covariance estimation followed byportfolio allocation. A classical method is the mean-variance optimization introduced by Markowitz, which forms the foundation of modern portfolio theory and relies on the assumption that asset returns are independent and identically distributed. However, this assumption rarely holds in real financial markets, leading to significant estimation errors in both the expected return and the asset covariance matrix. These substantial estimation errors can severely degrade portfolio performance and limit practical applicability. Recent advances in deep learning offer powerful tools to address these fundamental limitations and enhance portfolio performance.
+  This survey provides a comprehensive review of how deep learning has advanced portfolio construction through three key paradigms. First, we examine how deep learning has revolutionized return prediction by enabling the integration of diverse datamodalitiesliketimeseriesdata, graphstructures, and textual information, through sophisticated modeling approaches such as sequence models, graph neural networks, and large language models. Second, we review portfolio allocation strategies, where deeplearning improvesmean-varianceoptimization particularly through more robust covariance matrix estimation. Third, to address the fundamental misalignment be tween prediction objectives and investment performance in two-stage approaches, we explore joint prediction and optimization frameworks. These include end-to-end differentiable methods that directly optimize portfolio weights and deep reinforcement learning approaches that frame portfolio construction as sequential decision-making problems. Finally, we identify current challenges and highlight corresponding future research directions to address these limitations
+  PQE Committee
+  Chair of Committee: Prof. WANG Wei
+  Prime Supervisor: Prof. CHU Xiaowen
+  Co-Supervisor: Prof. ZHANG Chao
+  Examiner: Prof. ZHANG Yongqi
+  Date
+  27 June 2025
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  E3-201 (HKUST-GZ)

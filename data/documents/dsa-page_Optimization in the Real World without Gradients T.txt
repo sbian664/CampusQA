@@ -1,0 +1,39 @@
+dsa_page: Optimization in the Real World without Gradients: Theory and Practice – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/07/optimization-in-the-real-world-without-gradients-theory-and-practice/
+source: DSA
+
+headings:
+  - Optimization in the Real World without Gradients: Theory and Practice
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Optimization in the Real World without Gradients: Theory and Practice
+  Share to
+  ABSTRACT
+  Many real-world problems require optimizing black-box reward functions (i.e., functions for which we cannot access their gradients), such as automated machine learning (AutoML) which aims to optimize the hyperparameters of machine learning models and AI4Science whose goal is to accelerate scientific discovery. Bayesian optimization (BO), which is a black-box optimization algorithm not requiring the gradient information, has been one of the most widely used methods to solve these problems. This is mainly thanks to its practical sample efficiency (i.e., it only requires a small number of queries to the reward function) and solid theoretical guarantees (thanks to its equivalence to a multi-armed bandit algorithm). My research aims to further unleash the potential of BO for solving real-world black-box optimization problems by (1) applying BO to solve novel black-box optimization problems, (2) further improving the performance of BO both in theory and in practice, and (3) extending BO to the novel setting of federated learning. To achieve these goals, I have designed novel BO algorithms which are both theoretically grounded (e.g., through rigorous regret analysis) and practically effective (in important applications such as AutoML and AI4Science). In my future work, I aim to use BO and multi-armed bandits to solve emerging important black-box optimization problems, with a particular focus on (1) automating advanced AI algorithms (e.g., optimizing the prompt for large language models such as ChatGPT) and (2) solving novel AI4Science problems. In addition, I will also continue working on fundamental theoretical problems in BO and multi-armed bandits.
+  SPEAKER BIO
+  Zhongxiang DAI
+  Postdoctoral Associate
+  Massachusetts Institute of Technology
+  Dr. Zhongxiang Dai is currently a Postdoctoral Associate in MIT, Laboratory for Information and Decision Systems (LIDS). Previously, he was a Postdoctoral Fellow in National University of Singapore (NUS). Before that, he received his PhD from NUS in July 2021, jointly advised by Associate Professor Bryan Low from NUS and Professor Patrick Jaillet from MIT. His PhD study was supported by Singapore-MIT Alliance for Research and Technology (SMART) Graduate Fellowship. He received the Dean's Graduate Research Excellence Award and multiple Research Achievement Awards from NUS, School of Computing. His research area is AI and machine learning. His main research interests are Bayesian optimization (BO) and multi-armed bandits (MAB), and he aims to develop theoretically grounded BO and MAB algorithms to solve real-world black-box optimization problems, such as automated machine learning and AI4Science.
+  Date
+  09 January 2024
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  899 4671 6368
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

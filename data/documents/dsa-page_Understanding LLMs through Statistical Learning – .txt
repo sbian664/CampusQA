@@ -1,0 +1,33 @@
+dsa_page: Understanding LLMs through Statistical Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/03/07/understanding-llms-through-statistical-learning/
+source: DSA
+
+headings:
+  - Understanding LLMs through Statistical Learning
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Understanding LLMs through Statistical Learning
+  Share to
+  ABSTRACT
+  Statistical learning has been a foundational framework for understanding machine learning and deep learning models, offering key insights into generalization and optimization. However, the pretraining–alignment paradigm of Large Language Models (LLMs) introduces new challenges. Specifically, (a) their error rates do not fit conventional parametric or nonparametric regimes and exhibit dataset-size dependence, and (b) the training and testing tasks can differ significantly, complicating generalization. In this talk, we propose new learning frameworks to address these challenges. Our analysis highlights three key insights: the necessity of data-dependent generalization analysis, the role of sparse sequential dependence in language learning, and the importance of autoregressive compositionality in enabling LLMs to generalize to unseen tasks.
+  SPEAKER BIO
+  Jingzhao Zhang is an assistant professor at Tsinghua, IIIS. He graduated in 2022 from MIT EECS PhD program under the supervision of Prof. Ali Jadbabaie and Prof. Suvrit Sra. His research focused on providing theoretical analyses to practical large-scale algorithms. He now aims to propose theory that are simple and can predict experiment observations. Jingzhao Zhang is also interested in machine learning applications, specifically those involving dynamical system formulations. He received Ernst A. Guillemin SM Thesis Award and George M. Sprowls PhD Thesis Award.
+  Date
+  12 March 2025
+  Time
+  09:30:00 -
+  10:20:00
+  Location
+  E4-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

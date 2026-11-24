@@ -1,0 +1,32 @@
+dsa_page: TOWARDS EFFICIENT NEURAL NETWORK TRAINING: DATA AUGMENTATION AND DISTILLATION – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/06/02/towards-efficient-neural-network-training-data-augmentation-and-distillation/
+source: DSA
+
+headings:
+  - TOWARDS EFFICIENT NEURAL NETWORK TRAINING: DATA AUGMENTATION AND DISTILLATION
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  TOWARDS EFFICIENT NEURAL NETWORK TRAINING: DATA AUGMENTATION AND DISTILLATION
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Jiahang JIANG
+  Abstract
+  Deep learning has achieved remarkable success in the past decade and has become the primary choice in various research fields. In addition to optimizing the structure of deep learning models, researchers are increasingly paying attention to directly manipulating the original dataset, and many methods have been proposed for the dataset to enhance prediction accuracy, training efficiency, and generalization. In this paper, we specifically investigate the influence of data augmentation and distillation techniques, with the goal of improving both theoretical understanding and experimental performance.
+  TPE Committee
+  Chairperson: Prof. Fugee TSUNG
+  Prime Supervisor: Prof Wenjia WANG
+  Co-Supervisor: Prof Jia LI
+  Examiner: Prof Xinlei HE
+  Date
+  13 June 2024
+  Time
+  14:50:00 -
+  16:05:00
+  Location
+  E1-149

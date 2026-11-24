@@ -1,0 +1,34 @@
+dsa_page: Machine Learning Models for Molecular Optimization: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/11/27/machine-learning-models-formolecular-optimization-a-survey/
+source: DSA
+
+headings:
+  - Machine Learning Models for Molecular Optimization: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Machine Learning Models for Molecular Optimization: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. Yifan NIU
+  Abstract
+  Molecular optimization is a vital field that focuses on designing and improving molecules to achieve desirable properties and functions. It has various critical applications, such as drug discovery, material science, etc. However, the chemical space is vast and complicated, making it impractical for chemical experts to exhaust all possible molecules and experimentally test them in the wet lab. In recent years, significant success has been witnessed in solving molecular optimization problems with machine learning methods. We start with a brief review of the background and mainstream molecule representation methods. Then we broadly categorize existing works into two frameworks, the constrained generative models and combinatorial optimization models, and aim to deliver a thorough and structured review of the current machine learning-based molecular optimization methods. A clear taxonomy is introduced to categorize them according to whether they search in a continuous latent space or a discrete chemical space. Finally, we conclude the survey and present potential avenues for future research in this area.
+  PQE Committee
+  Chair of Committee: Prof. Nan TANG
+  Prime Supervisor: Prof. Jia LI
+  Co-Supervisor: Prof. Yuan YAO
+  Examiner: Prof. Zeke XIE
+  Date
+  28 November 2024
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E3-105

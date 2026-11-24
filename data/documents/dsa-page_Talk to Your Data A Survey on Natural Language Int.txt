@@ -1,0 +1,34 @@
+dsa_page: Talk to Your Data: A Survey on Natural Language Interfaces for Data Visualization in the Age of LLMs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/09/talk-to-your-data-a-survey-on-natural-language-interfaces-for-data-visualization-in-the-age-of-llms/
+source: DSA
+
+headings:
+  - Talk to Your Data: A Survey on Natural Language Interfaces for Data Visualization in the Age of LLMs
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Talk to Your Data: A Survey on Natural Language Interfaces for Data Visualization in the Age of LLMs
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr LUO Tianqi
+  Abstract
+  The rapid evolution of Natural Language Interfaces for Visualization (NL2VIS) has significantly transformed how users interact with data, culminating in the integration of Large Language Models (LLMs) in recent years. This survey presents the first comprehensive review of NL2VIS systems in the LLM era, covering the methodological evolution from rule-based and neural approaches to pre-trained and large-scale generative models. We propose a unified pipeline framework that spans three operational spaces—Data Space, Visualization Space, and Narration Space—capturing the full spectrum of system capabilities from query interpretation to storytelling. Our review systematically categorizes over 100 publications and 50 systems, analyzes key challenges such as semantic ambiguity, evaluation inconsistency, and limited dialogue support, and surveys existing benchmarks and evaluation frameworks. We also highlight emerging research directions, such as multi-agent pipelines for complex visualization tasks, step-wise reasoning for ambiguity resolution, and automatic data synthesis for robust model training. This survey aims to serve as a foundational reference for researchers and practitioners, outlining a roadmap toward more interpretable, conversational, and user-centered NL2VIS systems powered by LLMs.
+  PQE Committee
+  Chair of Committee: Prof. WANG Wei
+  Prime Supervisor: Prof. LUO Yuyu
+  Co-Supervisor: Prof. TANG Nan
+  Examiner: Prof. YANG Weikai
+  Date
+  11 June 2025
+  Time
+  15:00:00 -
+  16:00:00
+  Location
+  E1-148 (HKUST-GZ)

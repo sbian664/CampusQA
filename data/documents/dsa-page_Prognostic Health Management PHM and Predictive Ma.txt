@@ -1,0 +1,39 @@
+dsa_page: Prognostic Health Management (PHM) and Predictive Maintenance (PdM) via Off-line and On-line Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/04/10/prognostic-health-management-phm-and-predictive-maintenance-pdm-via-off-line-and-on-line-data/
+source: DSA
+
+headings:
+  - Prognostic Health Management (PHM) and Predictive Maintenance (PdM) via Off-line and On-line Data
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Prognostic Health Management (PHM) and Predictive Maintenance (PdM) via Off-line and On-line Data
+  Share to
+  ABSTRACT
+  Maintenance optimization for complex systems is an increasing critical issue in manufacturing industries. Using IoT and smart censors, engineers try to decide proper maintenance time points or intervals based on system condition. In this seminar, I introduce prognostic health management (PHM) and predictive maintenance (PdM) via off-line and on-line Data. Using off-line data, I present nonhomogeneous Poisson process modeling for repairable systems. I present condition based maintenance policy using signal processing and statistical process control techniques, based on on-line sensor data. Finally, I present several real case studies for PHM and PdM.
+  SPEAKER BIO
+  Suk Joo BAE
+  Professor
+  Hanyang University
+  Dr. Suk Joo Bae is a Professor and Provost in Graduate School at Hanyang University, Seoul, Korea. Prof. Bae received his PhD. from the ISyE Department at Georgia Tech, 2003. Prof. Bae was the Editor-in-Chief of Journal of the Korean Society for Quality Management, The Journal of Applied Reliability, and the Associate Editor of IEEE Transactions on Reliability. Prof. Bae has published more than 100 journal papers including Technometrics, Journal of Quality Technology, Reliability Engineering & System Safety, IISE Transactions, and IEEE Transactions on Reliability.
+  Date
+  13 April 2023
+  Time
+  15:30:00 -
+  17:00:00
+  Location
+  E1-1F-134, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  925 7587 4519
+  Passcode: 123456
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.

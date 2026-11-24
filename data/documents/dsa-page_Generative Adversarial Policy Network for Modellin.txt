@@ -1,0 +1,35 @@
+dsa_page: Generative Adversarial Policy Network for Modelling Protein Complexes – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/generative-adversarial-policy-network-for-modelling-protein-complexes/
+source: DSA
+
+headings:
+  - Generative Adversarial Policy Network for Modelling Protein Complexes
+  - Abstract
+  - Project members
+  - Jia LI
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Generative Adversarial Policy Network for Modelling Protein Complexes
+  Abstract
+  Structure prediction of large protein complexes (a.k.a., protein multimer mod- elling, PMM) can be achieved through the one-by-one assembly using provided dimer structures and predicted docking paths. However, existing PMM methods struggle with vast search spaces and generalization challenges: (1) The assembly of a N -chain multimer can be depicted using graph structured data, with each chain represented as a node and assembly actions as edges. Thus the assembly graph can be arbitrary acyclic undirected connected graph, leading to the com- binatorial optimization space of N^(N −2) for the PMM problem. (2) Knowledge transfer in the PMM task is non-trivial. The gradually limited data availability as the chain number increases necessitates PMM models that can generalize across multimers of various chains. To address these challenges, we propose GAPN, a Generative Adversarial Policy Network powered by domain-specific rewards and adversarial loss through policy gradient for automatic PMM prediction. Specifi- cally, GAPN learns to efficiently search through the immense assembly space and optimize the direct docking reward through policy gradient. Importantly, we de- sign a adversarial reward function to enhance the receptive field of our model. In this way, GAPN will simultaneously focus on a specific batch of multimers and the global assembly rules learned from multimers with varying chain numbers. Empirically, we have achieved both significant accuracy (measured by RMSD and TM-Score) and efficiency improvements compared to leading complex mod- eling software. GAPN outperforms the state-of-the-art method (MoLPC) with up to 27% improvement in TM-Score, with a speed-up of 600×.
+  Project members
+  Jia LI
+  Associate Professor
+  Publications
+  Deep Reinforcement Learning for Modelling Protein Complexes
+  . Ziqi Gao, Tao Feng, Jiaxuan You, Chenyi Zi, Yan Zhou, Chen Zhang, and Jia Li.
+  Project Period
+  2024
+  Research Area
+  Data-driven AI
+  Keywords
+  Docking path prediction, Policy network, Protein complex structure prediction, Reinforcement learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - Deep Reinforcement Learning for Modelling Protein Complexes | https://openreview.net/forum?id=4MsfQ2H0lP

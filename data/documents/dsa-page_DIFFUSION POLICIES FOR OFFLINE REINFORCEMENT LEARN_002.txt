@@ -1,0 +1,34 @@
+dsa_page: DIFFUSION POLICIES FOR OFFLINE REINFORCEMENT LEARNING – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/12/03/diffusion-policies-for-offline-reinforcement-learning/
+source: DSA
+
+headings:
+  - DIFFUSION POLICIES FOR OFFLINE REINFORCEMENT LEARNING
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  Thesis Proposal Examination
+  DIFFUSION POLICIES FOR OFFLINE REINFORCEMENT LEARNING
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Mr. Linjiajie FANG
+  Abstract
+  Reinforcement learning (RL) has made significant progress in decision-making problems, but most advancements have been tested in games or simulations that require millions of interactions. This limits the practical application of RL methods in real-world scenarios. To address this, offline RL aims to learn effective policies from previously collected data without needing online interactions. However, relying solely on offline data poses challenges. Prior data, such as human demonstrations, is often suboptimal and covers only a small part of the state-action space. Learning policies that surpass the behavior policy requires evaluating the value function of actions not present in the dataset. These out-of-distribution actions can increase bootstrapping error in value function estimation,leading to overestimated action values and poor performance. This proposal provides a brief overview of recent advancements in offline RL and discusses potential solutions through improved policy representations. Specifically, we explore the use of powerful diffusion models to enhance the expressiveness of policies and solve the challenge of offline RL.
+  TPE Committee
+  Chair of Committee: Prof. Xiaowen CHU
+  Prime Supervisor: Prof. Dong XIA
+  Co-Supervisor: Prof. Wenjia WANG
+  Examiner: Prof. Zixin ZHONG
+  Date
+  18 December 2024
+  Time
+  16:00:00 -
+  17:00:00
+  Location
+  E3-201

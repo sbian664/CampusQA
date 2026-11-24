@@ -1,0 +1,39 @@
+dsa_page: Wiener Graph Deconvolutional Network Improves Graph Self-Supervised Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/08/wiener-graph-deconvolutional-network-improves-graph-self-supervised-learning/
+source: DSA
+
+headings:
+  - Wiener Graph Deconvolutional Network Improves Graph Self-Supervised Learning
+  - Abstract
+  - Project members
+  - Jia LI
+  - Fugee TSUNG
+  - Publications
+  - Project Period
+  - Research Area
+  - Keywords
+
+text: >
+  Research Project
+  Wiener Graph Deconvolutional Network Improves Graph Self-Supervised Learning
+  Abstract
+  Graph self-supervised learning (SSL) has been vastly employed to learn representations from unlabeled graphs. Existing methods can be roughly divided into predictive learning and contrastive learning, where the latter one attracts more research attention with better empirical performance. We argue that, however, predictive models weaponed with powerful decoder could achieve comparable or even better representation power than contrastive models. In this work, we propose a Wiener Graph Deconvolutional Network (WGDN), an augmentation-adaptive decoder empowered by graph wiener filter to perform information reconstruction. Theoretical analysis proves the superior reconstruction ability of graph wiener filter. Extensive experimental results on various datasets demonstrate the effectiveness of our approach.
+  Project members
+  Jia LI
+  Associate Professor
+  Fugee TSUNG
+  Chair Professor
+  Publications
+  Wiener Graph Deconvolutional Network Improves Graph Self-Supervised Learning
+  . Jiashun Cheng, Man Li, Jia Li, and Fugee Tsung.
+  Project Period
+  2023
+  Research Area
+  Data-driven AI
+  Keywords
+  ML: Graph-based Machine Learning
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season
+  - Wiener Graph Deconvolutional Network Improves Graph Self-Supervised Learning | https://ojs.aaai.org/index.php/AAAI/article/view/25870

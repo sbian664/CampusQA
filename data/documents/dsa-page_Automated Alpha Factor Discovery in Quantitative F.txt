@@ -1,0 +1,34 @@
+dsa_page: Automated Alpha Factor Discovery in Quantitative Finance: A Critical Survey from Human Expertise to Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/28/automated-alpha-factor-discovery-in-quantitative-finance-a-critical-survey-from-human-expertise-to-large-language-models/
+source: DSA
+
+headings:
+  - Automated Alpha Factor Discovery in Quantitative Finance: A Critical Survey from Human Expertise to Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Automated Alpha Factor Discovery in Quantitative Finance: A Critical Survey from Human Expertise to Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Junxiang
+  Abstract
+  Alpha factor mining is a central problem in quantitative investment because it connects raw market, fundamental, and textual data to tradable portfolio decisions. This survey reviews automated alpha factor discovery as a sequence of expanding search spaces and feedback mechanisms: human-designed economic factors, formulaic alpha libraries, evolutionary and symbolic search, machine-learning and deep-learning factor modeling, reinforcement-learning-based generation, and recent LLM-, RAG-, and agent-based workflows. Rather than treating these paradigms as isolated tool families, the survey compares them through a common framework: factor representation, search space, optimization mechanism, evaluation protocol, interpretability, and robustness. The review emphasizes that automation improves discovery capacity but also amplifies long-standing validation risks. Larger generators can produce many plausible candidates, yet financial data are noisy, non-stationary, and vulnerable to look-ahead bias, data snooping, factor redundancy, crowding, and alpha decay. LLM-based systems add new opportunities for semantic hypothesis generation and code synthesis, but they also introduce hallucination, leakage, invalid-code, and post-hoc explanation risks. The survey concludes that progress in alpha mining depends less on unconstrained generation and more on reliable evaluation, economic grounding, diversity control, reproducible infrastructure, and human-AI collaboration.
+  PQE Committee
+  Chair: Prof. WANG, Wei
+  Prime Supervisor: Prof. TANG, Jing
+  Co-Supervisor: Prof. TANG, Nan
+  Examiner: Prof. DING, Ningning
+  Date
+  10 June 2026
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-148, HKUST(GZ)

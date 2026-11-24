@@ -1,0 +1,787 @@
+fytgs_page: Handbook for Research Postgraduate Studies
+url: https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-research-postgraduate-studies
+source: FYTGS
+
+headings:
+  - Handbook for Research Postgraduate Studies HKUST(GZ) (2026-27)
+  - Preface
+  - University Governance
+  - Student Conduct and Academic Integrity
+  - The HKUST(GZ) Academic Honor Code
+  - Student Conduct
+  - Academic Integrity
+  - Policies and Regulations
+  - Policies and Practices Governing Research Activities
+  - Intellectual Property Policy
+  - Policies and Guidelines for Research Practices
+  - Admissions
+  - Admission Requirements
+  - Admissions Process
+  - Applicants from Hong Kong, Macao and Taiwan regions of China
+  - International Applicants
+  - Deferred Admission
+  - Re-admission
+  - Fees
+  - Tuition Fees
+  - Late Charges and Other Penalties
+  - Compulsory Medical Insurance
+  - Scholarships
+  - Postgraduate Studentships: Terms and Conditions
+  - Overseas Research Award: Terms and Conditions
+  - Registration in Programs
+  - Maintaining Registration
+  - Double Registration
+  - Late Registration
+  - Mode of Study
+  - Normative Period of Study
+  - Residency Requirements
+  - Leave from Study
+  - Retention of Student Status
+  - Continuing Student Status
+  - Off-campus Study Status
+  - Off-campus Research Status
+  - Cross-campus Study Status
+  - Changes of Registration
+  - Registration Beyond Program Completion
+  - Withdrawal from the University
+  - Study Commitment
+  - Internship and Employment During Study
+  - Annual Leave
+  - Curriculum Requirements
+  - Medium of Instruction and Assessment
+  - Adherence to the Curriculum
+  - General Requirements of Research Postgraduate Programs
+  - Course Registration
+  - Course Selection and Registration
+  - Credit Requirements
+  - Study Load
+  - Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  - Course Auditing
+  - Course Add/Drop and Course Withdrawal
+  - Academic Accommodations or Adjustments for Students with Special Educational Needs
+  - Course Substitution and Credit Transfer
+  - Course Substitution
+  - Credit Transfer
+  - Transfer of Course Grades and Credits on Resumption of Studies
+  - Course Grading
+  - Grades for Postgraduate Courses
+  - Assignment of Course Grades
+  - Grade Announcement
+  - Illness or Other Circumstances Affecting Assessment
+  - Grade Review
+  - Course Repeats
+  - Grade Averages
+  - Progression and Academic Standing
+  - Academic Standing
+  - Academic Leave and Academic Dismissal
+  - Annual Progress Reports
+  - Quarterly Progress Evaluation
+  - Graduation
+  - Degree Conferment by HKUST on Completion of Studies
+  - Graduation Grade Average (GGA)
+  - Graduation Approval
+  - Congregation
+  - Award Diploma
+  - Appeals and Grievance Channels
+  - Appeals
+  - Grievance Channels
+  - Glossary of Terms
+  - 1. Academic Terms
+  - 2. Academic Year
+  - 3. Academic Program
+  - 4. Academic Standing
+  - 5. Add/Drop Period
+  - 6. Award
+  - 7. Concentration
+  - 8. Course
+  - 9. Course Code
+  - 10. Course Offering Unit
+  - 11. Course Substitution
+  - 12. Credit Transfer
+  - 13. Credit Unit
+  - 14. Cumulative Grade Average (CGA)
+  - 15. Dean or the Dean’s Designee
+  - 16. Grade Points
+  - 17. G raduation Grade Average (GGA)
+  - 18. Hub/College
+  - 19. Registration
+  - 20. Research Postgraduate Programs
+  - 21. Study Load
+  - 22. Term Grade Average (TGA)
+  - 23. Thrust/Base
+  - 24. Transcript
+
+text: >
+  Handbook for Research Postgraduate Studies HKUST(GZ)
+  (2026-27)
+  Preface
+  For the purpose of this Handbook,
+  - The Hong Kong University of Science and Technology (Guangzhou), will be referred to as the University, this University or HKUST(GZ), whereas
+  - The Hong Kong University of Science and Technology at Clear Water Bay, the HKSAR, will be referred to as HKUST.
+  This Handbook has been prepared with the purpose of helping students understand their rights and responsibilities as research postgraduate (RPg) students at The Hong Kong University of Science and Technology (Guangzhou), and the policies related to various aspects of their studies. This Handbook should serve as a useful guide for RPg students throughout their course of study. Students are obliged to find out what they need to do or know about their program of study and the related University regulations.
+  This may also serve as a handy reference for faculty members and administrative staff who may need to advise students on procedural matters concerning postgraduate studies at the University.
+  The content of this Handbook may change from time to time to reflect the most updated information. Students should also refer to the Academic Regulations of the University for policies related to their study.
+  HKUST Fok Ying Tung Graduate School –
+  Guangzhou Office
+  August 2026
+  University Governance
+  The Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)) is a Mainland-Hong Kong cooperatively run university that implements academic education and has an independent legal status. It is jointly organized by Guangzhou University (GZU) and The Hong Kong University of Science and Technology (HKUST), under the support from Guangzhou Municipal Government, with reference to the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools and the Implementation Measures of the Regulations of the People’s Republic of China on Chinese-Foreign Cooperation in Running Schools , and other relevant laws, regulations and administrative rules, with the additional premise of not violating Chapter 1141 of the Hong Kong Laws on The Hong Kong University of Science and Technology Ordinance and its relevant laws, regulations, and within the scope of the parties. HKUST(GZ) implements the principal responsibility system under the leadership of the
+  Governing Board
+  .
+  Student Conduct and Academic Integrity
+  The HKUST(GZ) Academic Honor Code
+  Honesty and integrity are central to the academic work of HKUST(GZ). Students of the University must observe and uphold the highest standards of academic integrity and honesty in all the work they do throughout their program of study.
+  As members of the University community, students have the responsibility to help maintain the academic reputation of HKUST(GZ) in its academic endeavors.
+  Sanctions will be imposed on students if they are found to have violated the regulations governing academic integrity and honesty.
+  Student Conduct
+  The University expects good conduct from its students and may take disciplinary action under the Regulations for Student Conduct against students, current or former, who are found, either individually or in aggregate with others, to have committed misconduct.
+  Academic Integrity
+  The University’s approach to academic misconduct, involving breaches of the Academic Honor Code and academic integrity, is fundamentally educational, striving to foster a strong ethical foundation among its students. The process for dealing with academic misconduct is designed to enable students to better understand the nature of academic misconduct and the high standards of academic integrity that are expected of them. The sanctions applied in confirmed cases of academic misconduct are intended to communicate to the University community that the University has zero tolerance towards breaches of academic integrity.
+  Policies and Regulations
+  For details on University policies and regulations governing student conduct, academic integrity and research conduct, please refer to:
+  Regulations for Student Conduct
+  Regulations for Student Academic Integrity
+  Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct
+  Policy on Research Conduct and Integrity
+  Policies and Practices Governing Research Activities
+  Intellectual Property Policy
+  The University has developed the Intellectual Property Policy and its constituent Guidelines to support the management, technology transfer and commercialization of intellectual property created by employees, students or others during their association with the University.
+  More information is available
+  here
+  .
+  Policies and Guidelines for Research Practices
+  The University community has a collective responsibility to ensure that proper research practices are carried out in accordance with both international and University standards and regulations at all times, to be vigilant in guarding against serious lapses, and to report violations if they occur.
+  More details on the policies and guidelines for research practices are available
+  here
+  .
+  Admissions
+  Admission Requirements
+  To qualify for admission to the University, applicants must meet (i)
+  the University admission requirements
+  ; (ii) the admission requirements of the program they are applying for; and (iii) the English language admission requirement.
+  University and program admission requirements are minimum requirements for admission. Meeting these minimum requirements does not guarantee admission. Applicants who possess other qualifications equivalent to the University requirements for admission may submit applications for consideration on the basis of individual merit.
+  Admissions Process
+  Applications for admission to postgraduate programs are normally invited from July in the previous year. Interested persons are strongly advised to apply well before the application closing dates. Application deadlines for individual programs may vary and should be checked prior to submitting an application. In order to allow sufficient time to obtain a student visa/entry permit, applicants are encouraged to submit their applications as early as possible.
+  Selected applicants may be invited for an admission interview. Successful applicants will receive an offer of admission from the HKUST Fok Ying Tung Graduate School, and may be required to satisfy specified conditions. Applicants receiving an offer will be expected to accept or decline by a specified date.
+  Detailed application procedures are available
+  here
+  .
+  Applicants from Hong Kong, Macao and Taiwan regions of China
+  The University welcomes applications from Hong Kong, Macao and Taiwan regions of China who are seeking admission at the postgraduate level.
+  Students are required to apply for HKUST(GZ) with valid Identity Card and Mainland Travel Permit. Admitted students shall enter the Chinese Mainland with valid Mainland Travel Permit. This is applicable to both degree and non-degree seeking students.
+  International Applicants
+  The University welcomes applications from all over the world who are seeking admission at the postgraduate level.
+  (i) Student Visa
+  All international students are required to obtain a student visa for studying at HKUST(GZ). This is applicable to both degree and non-degree seeking students.
+  General procedures for applying for China Visa as a new student, please contact:
+  study@hkust-gz.edu.cn
+  .
+  (ii
+  ) Costs of Study
+  In addition to tuition fees, costs associated with staying in HKUST(GZ) mainly include accommodation, medical, visa and living expenses. International students should consider the financial aspects of their study before coming to HKUST(GZ).
+  (iii
+  ) Employment During Study
+  International students should note that, full-time MPhil and PhD students should not take up any employment outside their research studies. They may only apply to take up on-campus part-time work, winter/summer work and study-related internship, subject to rules and conditions specified by the Government and the University. For details, please refer to the “Study Commitment” section of this Handbook.
+  Deferred Admission
+  Under special circumstances, students may apply in writing to the HKUST Fok Ying Tung Graduate School for deferred admission to a subsequent regular term. Requests will be considered on an individual basis by the relevant Hub/College/Thrust/Base, who will notify the applicant of the outcome. All approvals for deferred admission are valid for not more than two consecutive regular terms, after which re-application for admission to the University must be made.
+  Re-admission
+  Students who have withdrawn from the University may apply for admission into any program of study by following the regular admissions procedure. However, those who are required to withdraw from the University due to academic reasons or failure to meet the prescribed conditions set for re-enrollment at the end of an academic leave may not apply for re-admission into the same program of study.
+  For re-admitted students, course grades and credits taken within five years prior to re-admission and not used to earn any academic qualification at either the University, HKUST or elsewhere may be used to fulfill requirements of the new program of study, subject to approval of the Thrust/Base.
+  Fees
+  Tuition Fees
+  Students are required to settle the tuition fee in full by the prescribed deadline. Tuition fee paid is refundable.
+  Late Charges and Other Penalties
+  Students may be required to pay late charges or subject to other penalties for failure to complete certain University procedures by stipulated deadlines. These include fines for overdue library books, and other administrative charges. Late charges and penalties are levied in accordance with the rules and regulations set by respective offices.
+  Compulsory Medical Insurance
+  The University policy stipulates that compulsory medical insurance is required for all registered international postgraduate students studying at HKUST(GZ) on student visa.
+  The compulsory medical insurance aims to provide better resources and safety net for international students in the event that they need prompt, appropriate and affordable medical services.
+  For more details about compulsory medical insurance, please consult Office of Student Affairs (OSA):
+  gzsmi@hkust-gz.edu.cn
+  .
+  Scholarships
+  Postgraduate Studentships: Terms and Conditions
+  The terms and conditions in this document apply to all postgraduate studentships (PGS) granted to research postgraduate (RPg) students in HKUST(GZ) irrespective of the sources of funding.
+  1.
+  Purpose and Nature of PGS
+  1.1 PGS is a form of financial support provided to full-time RPg students to ensure that they do not need to be concerned with looking for other sources of income to support themselves.
+  1.2 All full-time RPg students are required to fulfill Graduate Teaching Assistant (GTA) duties. PGS should not be mistaken as the remuneration for GTA duties. Given that students receiving PGS do not enter an employer-employee relationship with the University, the PGS award is not taxable income.
+  2.
+  Eligibility
+  2.1 PGS is given based on academic merit including English language proficiency, and the suitability of the RPg students for the program of study.
+  2.2 Full-time regular RPg students, except those on “Off-campus Study” status, are eligible to be considered for PGS.
+  2.3 Holders of other scholarships/awards may be considered for receiving PGS on a case-by-case basis, with support from the respective Hub/College/Thrust/Base.
+  3.
+  Duration and Amount
+  3.1 Selected students will be notified of the PGS award granted to them in the admission offer letters. The PGS will be awarded on the condition that the student registers as a full-time RPg student at HKUST(GZ) in the specified program of study.
+  3.2 PGS is offered on a yearly basis. PGS for subsequent academic year(s) will be reviewed and determined subject to satisfactory academic performance, research progress, English language proficiency, GTA performance, and compliance with the University Academic Honor Code (in case of disciplinary issues) and etc.
+  3.3 Students will receive PGS in each calendar month starting from September in Fall and February in Spring. Under special circumstances, a student may start his/her study substantially after the term has commenced and the PGS provided will be adjusted accordingly on a pro-rata basis.
+  3.4 The PGS rate listed in the table below is applicable to all RPg students.
+  Regular PGS (per month)
+  PhD
+  CNY 15000
+  MPhil
+  CNY 10000
+  3.5 A graduating student will receive PGS payment up to and including the month that he/she submits the final thesis to the University’s Thesis Submission System.
+  3.6 Faculty members have the option to continue to provide PGS to students under their supervision, who are studying beyond their normative study period, subject to availability of funding.
+  4.
+  Reduction, Suspension and Termination
+  4.1 English language proficiency is a factor in granting PGS to a student. In general, students are expected to have passed the English Language Proficiency Assessment (ELPA) Speaking Test administered by the Pillar of Language Education (PLE) or the English course, LANG 5000, by the end of the first term of their study at HKUST(GZ). Failure to do so may result in 25% reduction of PGS, except in the case that exemption from ELPA is granted by PLE.
+  4.2 Students not performing satisfactorily in their program of study or GTA duties may result in reduction or suspension of PGS, normally with at least one month’s written notice from the respective academic unit. PGS reduction due to unsatisfactory progress in Annual Progress Report (APR) and Quarterly Progress Evaluation (QPE) follows the below rules:
+  PGS reduction (%)
+  Point 2 (Unsatisfactory) First Time
+  50
+  Point 2 (Unsatisfactory) After First Time
+  100
+  Point 1 (Very Unsatisfactory)
+  100
+  The warning letter issued by the Thrust to student following his/her unsatisfactory progress in APR/QPE will specify PGS reduction, expectations, courses of action for performance improvement, and possible consequences, such as suspension of PGS, if the student’s performance continues to be unsatisfactory.
+  4.3 PGS recipients shall comply with the relevant leave guidelines as stated in the Handbook for Research Postgraduate Studies under “Study Commitment”. Unauthorized leave will result in immediate suspension of PGS.
+  4.4 In the case that a student takes leave from study or is required to take academic leave, the PGS will be suspended during the leave period, or from an earlier date as advised by the Thrust/Base. PGS will also be suspended if a student is exceptionally approved under special circumstance to take leave additional to the annual leave.
+  4.5 Being full-time RPg students, PGS recipients should devote full efforts to their studies. They are not allowed to take up any part-time work, winter/summer work, or internship. Engagement in unauthorized work will lead to termination of PGS.
+  4.6 During Winter or Summer Term, an RPg student may, subject to prior approval, engage in full-time research assistantship work within the University, under the condition that his/her PGS will be suspended during assistantship period. International students must be mindful that they comply with the conditions of their stay as laid down by the corresponding regulations on entry and exit of foreigners.
+  4.7 For the PGS arrangement due to a change of supervisor, if a good working relationship fails to develop between the student and the supervisor despite sincere efforts and the student requests a change of supervisor, PGS may not be available unless a replacement supervisor who is willing to provide the PGS has been identified.
+  4.8 In the event that any misrepresentation and fraudulence of information during the application for admission stage is detected, the PGS shall be terminated immediately, and the student concerned is liable to refund in full the PGS paid. Additional sanctions may be imposed in accordance with the University regulations and policies to address the misrepresentation and fraudulence of information.
+  4.9 Other circumstances that affect PGS include but are not limited to violation of student honor code and disciplinary issues, depending on the nature of the infraction. Under exceptional circumstances and with the support of respective Hub/College and FYTGS, the termination of a PGS may be effective immediately without prior notification.
+  Overseas Research Award: Terms and Conditions
+  1.
+  Objectives
+  The Overseas Research Award (ORA) for PhD Students aims to:
+  1.1 Enrich students’ research experience through interacting in a different research environment with researchers;
+  1.2 Provide students with exposure to a foreign culture and environment, with a view to strengthening their cross-cultural understanding as well as social and communication skills;
+  1.3 Better prepare students for their academic as well as career developments; and
+  1.4 Widen the circle of professional contacts for the awardees, which may help them in their future work.
+  2.
+  About the Award
+  2.1 The number of research awards may vary from year to year depending on the funding availability as well as the extent to which the awards will benefit the nominated student(s).
+  2.2 The research attachment period may range from two to six months and the start date must fall within the current academic year (i.e. 1st September 2026 to 31st August 2027).
+  2.3 Awardees shall receive a monthly subsidy of CNY 8000 per month for an overseas attachment. 50% of the ORA award will be supported by Central, while the remaining 50% will be borne by the supervisor(s). Awardees may continue to receive postgraduate studentship (PGS) from the home Thrust at HKUST(GZ) or financial support from other sources during the attachment period.
+  2.4 The subsidy will be released in two installments. 60% of the total subsidy will be released to awardees before the attachment period, while the remaining 40% of the total subsidy will be released to awardees after the research attachment.
+  2.5 The research attachment should be conducted physically at the approved destination. It should be relevant to the student’s study and serve to enrich his/her research experience in the field. This is not meant to bear the nature of employment or internship. The host institution/unit must be a higher education institution or research facility of reputable standing.
+  2.6 The host institution/unit should be located outside the student’s country/region of origin.
+  2.7 A successful applicant will be supported by the Overseas Research Award only once throughout the program of study at HKUST(GZ).
+  2.8 On completion of the research attachment and fulfillment of requirements stipulated in paragraph 4.1 below, a statement about the award will be shown on awardees’ transcripts.
+  3.
+  Eligibility
+  To be eligible for the Overseas Research Award, an applicant must have fulfilled all the criteria listed below:
+  3.1 The student is a registered full-time PhD student at the time the application is submitted, and throughout the attachment period. Continuing Students are not eligible for the Overseas Research Award.
+  3.2 The student has enrolled in the current PhD program for a minimum of one FTE year at the time the application is submitted. One FTE year of study equates with one year of full-time study or two years of part-time study.
+  3.3 The student has completed all coursework requirements of the current PhD program with a cumulative grade average (CGA) of 3.500 or above.
+  3.4 The student must have passed the qualifying examination prior to his/her leaving HKUST(GZ) for the host institution/unit.
+  3.5 The student must be able to demonstrate how the proposed attachment will benefit him/her in research work, with full support from the supervisor(s), the PG Coordinator/Thrust Head and the Associate Dean/Dean of Hub.
+  3.6 The student must have the written consent of the head of the hosting institution/unit or designee who will be hosting the attachment visit prior to the commencement of the research attachment. The student must show that the host institution/unit would identify at least one supervisor who should oversee the work of the student, provide professional and personal advice, and prepare reports on the performance and progress of the student for the review and retention of the home Thrust at HKUST(GZ), when necessary.
+  3.7 The student has done exceptionally well in teaching assistant and/or research assistant duties assigned.
+  3.8 Exceptional cases where students do not meet the ORA criteria may be considered on a case-by-case basis, with strong justifications provided by the Hub to FYTGS.
+  4.
+  Obligations of the Student
+  4.1 A student who has been granted the Award must:
+  Be accessible by members of the Program Planning cum Thesis Supervision Committee (PPTSC) of the University throughout the attachment period.
+  Be responsible for all expenses incurred, including airfare/transportation cost, and optional insurance other than the University’s travel insurance plan, throughout the attachment period. Students may refer to the details of the University's travel insurance plan.
+  Submit to the Hub/Thrust the itinerary and/or air tickets at least 14 days before the commencement of the research attachment for the release of the first installment of the subsidy. However, applicants are advised NOT to purchase transportation ticket(s) before obtaining approval from FYTGS, particularly if they expect the ORA subsidy will serve as the primary funding source for the proposed research attachment.
+  Submit an
+  summary report
+  covering work done and professional activities participated in and the boarding passes (if applicable), to FYTGS via the Hub within 30 days of comleting the research attachment, for the release of the second installment of the subsidy.
+  Apply for the “Off-campus Research” status for Thrust’s approval prior to the commencement of the research attachment.
+  4.2 In the event that any of the following situation occurs, a student shall refund to the University in full/pro rata the subsidy amount as well as the total PGS amount that has been provided for the period of attachment:
+  The student withdraws from the PhD program during the research attachment or within one year after the attachment; or
+  The student transfers to another program of study at the University during or after the research attachment; or
+  The student is on Leave from Study or registered as “Continuing Student” during the research attachment; or
+  The student completes the PhD program during the research attachment; or
+  The student fails to fulfill the special conditions and requirements set by the Hub by the stipulated date; or
+  The student fails to submit a summary report and the boarding passes/transportation tickets to FYTGS via the Hub within 30 days on completion of the research attachment.
+  4.3 The home Thrust also reserves the right to terminate the award and request the student to return to HKUST(GZ) at short notice. Should the request be ignored, the student may lose his/her registration status and be required to refund to the University the amount given in the form of PGS and/or the subsidy provided by the Award.
+  4.4 If, for any reasons, the period of attachment is changed, the student should consult and seek endorsement from the supervisor. On completion of the research attachment, the student should modify the period of attachment visit in the summary report, along with supporting documents such as endorsement from supervisor and host unit, and boarding passes/transportation tickets. The total subsidy amount may be adjusted accordingly. In case the revised subsidy amount is less than the first installment subsidy amount, the student will be required to refund the difference to the University.
+  5.
+  Application Procedures
+  5.1 Applicant shall first discuss the proposed research attachment arrangements with the thesis supervisor(s) and obtain written consent from the thesis supervisor(s) before approaching the intended host institution/unit. The written recommendation is prepared for the review of the student’s affiliated Hub that includes the following information:
+  The stage of study which the applicant has reached;
+  Statements of full support to the application; and
+  How the research attachment with the particular institution/unit will benefit the student.
+  5.2 Applicant should submit the
+  application form
+  .The application must include the written consent of the head of the host institution/unit or designee which states:
+  The purposes and duration of the proposed research attachment;
+  The name of the institution/unit the applicant will be attached to;
+  The name of the responsible supervisor(s) at the host institution/unit, and
+  A detailed program of the research attachment, listing the objectives to be met and the academic activities the student will engage in during the attachment period.
+  5.3 The duly endorsed application with all supporting documents must be submitted to FYTGS via the Hub at least 45 days before the commencement of the proposed attachment. Late application will not be processed.
+  5.4 The Hub will inform the applicant in writing the result of the application normally at least 21 days before the commencement of the proposed attachment.
+  6.
+  Selection Process and Award Administration
+  6.1 Individual Hub may form a Selection Committee and set different selection criteria that befit their own needs. The selection records must be kept by the Hub.
+  6.2 Hubs/Thrusts are expected to:
+  Ensure that the student is well informed of the requirements and arrangements for the release of the subsidy;
+  Assist the student with necessary documentations required for the trip;
+  Prepare the duly endorsed application with all supporting documents (including the itinerary, air tickets and/or other relevant documents) to FYTGS for funding approval;
+  Notify FYTGS if any of the above mentioned in paragraph 4.2 occur.
+  6.3 FYTGS will liaise with the Finance Department on the release of the subsidy before and after the attachment period.
+  Registration in Programs
+  Maintaining Registration
+  Program registration involves payment of tuition and other prescribed fees, and completion of the registration process. Failure to maintain registration in the program in any regular term will result in automatic withdrawal from the program and the University, unless a formal approval of Leave from Study has been obtained from the student’s Thrust/Base. Moreover, students must be officially registered in their programs in the regular term when they are being considered for graduation from the programs concerned.
+  Double Registration
+  Unless prior permission from the Academic Registrar is obtained, students are not permitted to concurrently register for another program at this University or at another tertiary institution. If students are found to be registered elsewhere without seeking prior approval, they will normally be required to discontinue their studies at this University.
+  The restriction against double registration is not applicable to students of the University who have been approved to register on Cross-campus Study status at HKUST, or vice versa.
+  Students who wish to apply for simultaneous registration should submit an
+  “Application for Double Registration”
+  to th
+  e
+  Academic Registry Services together with appropriate documentary evidence. Students will be notified of the result of the application in writing.
+  Late Registration
+  Postgraduate students admitted to the University in a particular academic year must complete registration in their programs by the end of the add/drop period in the Fall or Spring Term. Under special circumstances, students may apply in writing to the Academic Registry Services via the Thrust/Base for late program registration for the term concerned.
+  Mode of Study
+  Most postgraduate programs are available in both full-time and part-time modes of study. The MPhil and PhD are research degrees, and students in some disciplines may be required to participate in research on a full-time basis.
+  Postgraduate students may apply to their Thrust/Base, prior to the beginning of any regular term, for transfer from full-time to part-time status or from part-time to full-time status. When such a transfer is allowed, the remaining program requirements will be determined.
+  Full-time students in MPhil and PhD programs are expected to be in attendance on a year-round basis. For part-time students, attendance shall be as above except on a part-time basis as defined by the requirements of their programs of study.
+  Normative Period of Study
+  The normative period of study for completing a PhD degree in full-time mode is four years after the first degree with a reduction of one year if a relevant research postgraduate degree was earned prior to entering the PhD program. For an MPhil degree in full-time mode, the normative period of study is two years.
+  The maximum time allowed for program completion is five years for a master’s degree and eight years for a doctoral degree. Time limits for part-time study are the same as for full-time study. The time limits are in effect whether or not the student is in continuous registration. That is, period of approved Leave from Study, and suspension period are also counted toward the maximum time allowed for program completion.
+  Residency Requirements
+  Full-time research postgraduate students are required to be on campus full-time and consequently in such geographical proximity as to be able to participate fully in University activities associated with the program. Residency provides students with an opportunity to become immersed in the intellectual environment of the University. Also included in residency are periods during which students’ research requires off-campus field or non-HKUST(GZ) laboratory work. The residency requirement stipulates the minimum period of study that a research postgraduate student needs to be effectively enrolled in a program before the student can be considered for program completion.
+  The residency requirement for a full-time MPhil degree is two regular terms; and that for a full-time PhD degree is three regular terms if a relevant research postgraduate degree was earned prior to entering the PhD program, but four regular terms if only a first degree was earned prior to entering the PhD program.
+  A regular term of residency of a part-time student counts as a one-half regular term of residency. Students who have not completed their thesis work should continue registration on a full- or part-time basis, without interruption.
+  Leave from Study
+  Students are discouraged from interrupting their program of study. In exceptional circumstances with sufficient justification, students may apply for Leave from Study for one regular term, subject to approval of the Thrust/Base. Applications for Leave from Study for two consecutive regular terms or more require the approval of the Dean or the Dean’s designee. Applications for Leave from Study for more than two consecutive regular terms will normally not be considered. Any exception to this rule requires provision of detailed justifications and relevant supporting documents (e.g. a study plan on resumption of study showing that the student can complete the program within the maximum period allowed) for the special approval of the Dean or the Dean’s designee.
+  The approved period of Leave from Study will be counted toward the time limit for completion of the program being pursued.
+  To apply for Leave from Study, students should submit an “
+  Application for Leave from Study
+  ” together with the appropriate supporting documents to the Thrust/Base for approval before the start of the proposed leave period.
+  Retention of Student Status
+  Research postgraduate students who submit their theses for examination at least four weeks before the commencement of the following regular term, and who are unable to sit for their thesis examinations before the start of the following regular term through no fault of their own, are allowed to retain their student status for a period not longer than four weeks into the following regular term.
+  Those students whose date of submission of thesis copies for examination falls short of the four-week period prior to the start of a regular term are not eligible to apply for retention of student status.
+  Students are required to submit an “
+  Application for Retention of Student Status (for Research Postgraduates)
+  ” to the Academic Registry Services within two weeks after they have submitted their thesis copies to Thrusts/Bases for examination purpose.
+  During this four-week non-fee paying period, these students are still regarded as students of the University and are entitled to normal student services. However, they are not entitled to receive Postgraduate Studentships nor to University student accommodation.
+  The respective thesis examinations should be held within the first three weeks of the following regular term, leaving at least one week for the candidates to submit the final version of their theses. In the event that students are unable to submit their final theses before the end of the four-week period, they are required to register as regular students to maintain their student status. They have to complete program and course registration, and pay the tuition for the term concerned.
+  Continuing Student Status
+  Research postgraduate students who are studying beyond the normative period of study and in their final stage of thesis writing may apply to register as Continuing Student, and pay a reduced tuition fee equivalent to a quarter of the full-time tuition fee. Their previous mode of study, whether full-time or part-time before changing to Continuing Student status, will remain unchanged. The application “
+  Application for Continuing Student Status of Research Postgraduate Students
+  ”, duly considered and endorsed by the thesis supervisor(s), and Thrust/Base Head or PG Coordinator, has to reach the Academic Registry Services at least four weeks before the start of the term the Continuing Student status is to be effected.
+  Continuing Students, regardless of their mode of study, are not eligible to receive any forms of financial assistance, including but not limited to Postgraduate Studentship and Postgraduate Research Assistantship, regardless of the source of funding, and are not entitled to University student accommodation. There is no time limit for research postgraduates to register as Continuing Student. However, the maximum time allowed for degree completion still holds. Once having registered for the Continuing Student status, students are not allowed to change back to regular student status.
+  Off-campus Study Status
+  Students under formal dual-degree programs may register on the “Off-campus Study” status at the University during the terms when they are pursuing dual-degree study at the host institutions.
+  Students with the “Off-campus Study” status will remain officially registered in their programs. They are allowed to register for or audit course(s), and may be considered for graduation from the programs concerned. They are not required to pay tuition fee at the University, not entitled to University student accommodation, and not eligible to receive any forms of financial assistance, including but not limited to postgraduate studentship and postgraduate research assistantship.
+  The off-campus study period should normally commence at the beginning of a term. For off-campus study commencing in the middle of a term, tuition fee paid for that term is not refundable or transferable. The period will be officially recorded on student’s academic transcript, and will count toward the residency requirements of research postgraduate programs, as well as the maximum time allowed for program completion.
+  Students who wish to apply for the “Off-campus Study” status should approach the home Hub/College/ Thrust/Base prior to the commencement of the term when the “Off-campus Study” status will take effect.
+  Off-campus Research Status
+  Research postgraduate students who are officially assigned by their thesis supervisors to conduct study-related research in other institutions are eligible for registering on the “Off-campus Research” status.
+  Students approved to hold the “Off-campus Research” status remain officially registered in their programs at the University. They are required to pay tuition fee at the University, and are allowed to register for or audit course(s). They enjoy all the rights as other full-time RPg students studying on campus, including Postgraduate Studentship, or Part-time Research Assistantship, group travel insurance, and student accommodation, where appropriate. They are governed by all the University regulations and policies relevant and applicable to RPg students. They may be considered for graduation from the program concerned.
+  The off-campus research period will be officially recorded on student’s academic transcript, and will count toward the residency requirements of research postgraduate programs, as well as the maximum time allowed for program completion.
+  Students who wish to apply for the off-campus research status are required to submit an “
+  Application for Off-Campus Research Status”
+  to the Thrust/Base for approval prior to the commencement of the off-campus research.
+  Cross-campus Study Status
+  Students who are officially assigned by their Thrusts to enroll in course(s) or conduct study-related research across campuses are eligible to apply for registering on the “Cross-campus Study” status.
+  Registration should normally be on a term basis, with two months (half-term) as the minimum duration. Application for extension of one more term to a maximum total duration of one year may also be considered. Students should have normally completed no less than one year of study in the current program prior to their planned cross-campus study.
+  Students participating in cross-campus study shall be officially registered at the home campus as active students, and the period of physical cross-campus study will be recorded on their academic transcripts. The period of cross-campus study, not more than one year in principle, will count toward the residency requirements of RPg programs, as well as the maximum time allowed for program completion.
+  For inbound students under the “Cross-campus Study” status, they are required to officially register in at least one course at the host campus to maintain their program registration, in accordance with the requirements stipulated in the Academic Regulations Governing Postgraduate Studies (section 5.1). During the cross-campus study period at the host campus, students are not allowed to take up “Off-campus Study” or “Off-campus Research” involving a third educational institution or organization.
+  All courses taken with the course grades assigned by the host campus must be recorded and reflected on the students’ academic transcripts of the home campus and counted toward their grade average calculations, as appropriate. The credit transfer restrictions of the University and individual programs will not be applicable to courses taken under cross-campus study.
+  Students on the “Cross-campus Study” status shall continue to receive Postgraduate Studentships from their home campus if applicable. Students shall pay tuition fees only to the home campus, with their host tuition being waived.
+  Students who wish to apply for the “Cross-campus Study” status should approach the home Hub /Thrust prior to the commencement of the term when the “Cross-campus Study” status will take effect.
+  Changes of Registration
+  A student may change from one program of study to another with the permission of the Thrust/Base to which the student wishes to transfer. If a transfer is approved, that Thrust/Base will determine which credits from the student's former program apply to the new program. Normally, the transfer will not be effected until the following regular term. Students who wish to transfer to another program of study in the middle of a term should obtain the prior approval of the Thrust/Base and the Dean or the Dean’s designee. Unless there are extenuating circumstances, requests for program transfers to be effected in the middle of a term are not supported.
+  For students who have transferred from one program of study to another, the maximum time for program completion will be counted from the first day of registration at the University.
+  To apply for program transfer, students are required to submit an “
+  Application for Program Transfer/Change of Academic Load (for Postgraduate Students)
+  ” to the receiving Thrust/Base for consideration.
+  Registration Beyond Program Completion
+  Students who have completed their program requirements are not allowed to continue their registration for the same program of study in subsequent regular terms.
+  Withdrawal from the University
+  Students who withdraw, or are required to withdraw, from the University must complete clearance procedures as specified by the Academic Registrar.
+  To apply for withdrawal, students should complete and return the “
+  Application for Withdrawal of Study
+  ” to the Academic Registry Services.
+  Study Commitment
+  Students admitted to a full-time program are expected to study full-time for their programs, and are cautioned that outside work commitments may impede their academic performance.
+  Full-time research postgraduate (RPg) students are provided with Postgraduate Studentships to ensure that they do not need to be concerned with looking for other sources of income to support themselves. Although study-related work or internship may be desirable experiences to have, they may not be critical to the studies being pursued. Full-time RPg students should devote full efforts to their studies.
+  Internship and Employment During Study
+  All full-time RPg students are not encouraged to take up any employment outside their research studies regardless of whether or not they are receiving Postgraduate Studentship (PGS) awards.
+  During the Fall and Spring Terms, full-time research postgraduate (RPg) students, are not allowed to engage in any full-time or part-time employment with the University or any other employer. The only exception is that full-time RPg students who are not receiving PGS, may apply for taking up no more than 8 hours per week, 40 hours per month of on-campus part-time work, subject to the prior approval of their thesis supervisor(s), the Thrust/Base PG Coordinator, the Dean of the Hub/College, and the Guangzhou office of HKUST Fok Ying Tung Graduate School.
+  During the Winter or Summer Terms, with the prior approval of the thesis supervisor(s), the Thrust/ Base PG Coordinator, the Dean of the Hub/College, and FYTGS, RPg students may engage in full-time research assistantship work within the University. In such cases, the PGS will be temporarily suspended during the period of employment as research assistants. Students who wish to take up an assistantship should seek the prior approval of FYTGS via their Thrust/Base before they commit themselves for Winter or Summer assistantship.
+  Full-time RPg students wishing to engage in study-related internship are required to obtain prior approval. The thesis supervisor(s) and the Thrust/Base PG Coordinator may approve internship of no more than 40 hours per week. For exceptional cases involving internship work of more than 40 hours per week, with strong justifications, case-by-case approval has to be obtained from the thesis supervisor(s), the Thrust/Base PG Coordinator, Dean of the Hub/College, and FYTGS.
+  Students are strongly encouraged to discuss the study plans with their supervisors who will provide advising and support where needed, and ensure that the employment will not bring adverse impact to their studies/research. Students should also ensure that there is no conflict of interest with the research work/studies and no breaching of University's Intellectual Property Policy arising from the employment. Prior approval from supervisors/PG coordinators has to be obtained if there is potential conflict of interest.
+  For international students wishing to take up employment or internship, they are reminded to observe and adhere to the relevant government policies and corresponding conditions attached to their student visa.
+  Annual Leave
+  With the prior approval of the Thrust/Base, full-time research postgraduate students may have up to 21 calendar days’ leave in an academic year (1 September to 31 August). This leave is inclusive of Saturdays, Sundays and public holidays that lie within the leave period. Those who arrive late will have their annual leave pro-rated.
+  Unused leave for one year cannot be carried forward to the next academic year. The decision on whether or not a leave request should be granted rests jointly with the thesis supervisor(s) of the student and the PG Coordinator.
+  Curriculum Requirements
+  Medium of Instruction and Assessment
+  Unless otherwise approved by the Senate for a specific course or program of study, English is the medium of instruction and assessment at the University.
+  It is, therefore, crucial for research postgraduate students to possess an adequate level of English proficiency in order to (a) become more effective learners in their respective disciplines through the medium of English; (b) be able to disseminate their research effectively to an English-speaking audience and readership; and (c) enhance their educational and career prospects.
+  Adherence to the Curriculum
+  Each student enrolled in a specific program is subject to the requirements of the Thrust/Base and the University. All postgraduate students must adhere to the curriculum of the year of entry throughout their program of study.
+  Students should ensure that they understand the curriculum requirements of their program and plan ahead to complete their program within the permitted duration of study. In case of deviations from Hub/Thrust/Base program requirements, approval must be obtained from the Dean or the Dean’s designee. Deviations from University requirements must be approved by the Guangzhou office of HKUST Fok Ying Tung Graduate School.
+  Thrusts/Base should, as far as possible, deliver the curriculum advertised unless due to special circumstances, changes to the original curriculum are necessary or advantageous.
+  Detailed curriculum requirements for students admitted in different academic years are published in the Postgraduate Program Catalog.
+  General Requirements of Research Postgraduate Programs
+  Spoken English Test for New Research Postgraduate Students
+  In order to ensure that research postgraduate students have the oral and aural skills for effective postgraduate studies and classroom teaching, before the start of their first term of study at the University, all new full-time research postgraduate students are required to take a spoken English test, the English Language Proficiency Assessment (ELPA), administered by the Pillar of Language Education.
+  Students who fail to attain Level 4 in the ELPA Speaking Test or who fail take the test in their first term of study at the University are required to take LANG 5000 Foundation in Listening and Speaking for Postgraduate Students administered by the Pillar of Language Education of the University, until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation.
+  ELPA provides a useful assessment of the spoken English ability of those whose mother tongue or first language is not English, to determine if they can effectively perform Graduate Teaching Assistant (GTA) duties in English. The work of GTAs is an integral part of the training for all full-time RPg students. The duties assigned to GTAs may include direct class interaction with undergraduate (UG) students in the conduct of tutorials, assistance in laboratory sessions, and/or engagement in other UG class activities. It is important that RPg students who perform GTA duties have an adequate mastery of spoken English. For more information concerning the design of ELPA, how to register a timeslot for the test, and how native English speakers can apply for exemption, please refer to the
+  PLE
+  website.
+  English Language Enhancement Courses
+  Students who failed to attain Level 4 in the ELPA Speaking Test or take the test in their first term of study at the University are required to take LANG 5000 Foundation in Listening and Speaking for Postgraduate Students until they pass the course by attaining at least Level 4 in the ELPA Speaking Test before graduation. Students who obtained a score below Level 4 in the ELPA Speaking Test would not be allowed to serve as graduate teaching assistants until they have passed LANG 5000.
+  Thrusts/Base may link the performance of LANG 5000 with the Postgraduate Studentship (PGS) rate. Students failing LANG 5000 may receive a 25% reduction in PGS.
+  In addition, some programs require their students to take and pass additional language courses as part of the program requirements.
+  Professional Development Courses
+  To enhance the educational experience of research postgraduate (RPg) students, the University has introduced the Professional Development Course (PDC) to provide them with a comprehensive set of essential transferable skills to enhance their personal growth and career development.
+  All RPg students (both full-time and part-time) are required to take two PDCs as part of their program requirements.
+  The University-level PDC, PDEV 6770 Professional Development for Research Postgraduate Students, is a course which is composed of a series of workshops and modules that must be attended before completion of RPg studies. Professional development training includes the themes of Professional Conduct, Communication Skills, Research Competency, Entrepreneurship, Self-Management, and Career Development.
+  To further prepare RPg students to excel in their future career, Hubs have introduced discipline-specific PDCs to equip students with the knowledge and skills required for the development and advancement of their professional career inside and outside academia. In general, the course comprises at least 13 hours of activities in the form of workshops or seminars delivered by faculty members, guest speakers, or service units of the University.
+  RPgs as Graduate Teaching Assistants
+  The work of graduate teaching assistants (GTAs) is an integral part of the training for all full-time research postgraduate (RPg) students regardless of whether they are recipients of Postgraduate Studentships or scholarships. It helps prepare them for teaching-related work they need to undertake.
+  To strengthen students’ competence in teaching, all full-time RPg students are required to complete PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  , a course designed to equip students with basic teaching skills and provide them with practical opportunities to apply their knowledge and skills in teaching. The course comprises two parts. Students will complete a 10-hour training offered by the Institute of Educational Innovation and Practice (IEIP) for Part 1, and perform instructional delivery to be assigned by the respective Thrusts/Base for Part 2. MPhil students are required to give at least one 30-minute session of instructional delivery in front of a group of students for one term. PhD students are required to give at least one such session each in two different terms.
+  RPg students may be assigned GTA duties during their study at the University. Such duties may include marking and grading of assignments, helping course instructors conduct tutorials and/or laboratory sessions, answering questions/queries from students, and/or helping prepare class materials among other tasks.
+  HKUST(GZ) introduces GTA duty requirements at university level to ensure consistent practices across Thrusts/Base/Hubs/Colleges. The GTA duty requirements are applicable to all full-time PhD students. Students may start to take GTA duties from the 2nd year of their study, upon the completion of PDEV 6800
+  Introduction to Teaching and Learning in Higher Education
+  , and passing the English Language Proficiency Assessment (ELPA) or LANG 5000
+  Foundation in Listening and Speaking for Postgraduate Students
+  . Students are required to take GTA duties for at least two terms, with one term for Vice-President Teaching and Learning Office (VPTLO). In each term, GTA duty assignments are at least five effective hours per week on average. “Effective hours” include both contact hours and preparation time.
+  For this kind of work, students need to have a thorough understanding of the subject area being dealt with. They are also exposed to varied situations where they can acquire and improve transferable skills which will be useful to them in the long term. The range of skills involved includes time management, communication skills, group discussion techniques, techniques for conducting materials or information searches, writing skill, critical thinking skills and organization skills.
+  Graduate Teaching Assistant Coordinators (TACs) are experienced GTAs chosen by Thrusts/Base to work as a bridge between GTAs, the Thrust/Base/Hub/College and the University; their job is to help co-ordinate GTA-related matters.
+  Newly-admitted international RPg students who are unfamiliar with the local environment will normally not be assigned any GTA duties during their first term of study at the University.
+  PhD Qualifying Examination
+  {For PhD students admitted in the 2025-26 intake or after
+  In order to obtain PhD candidacy, full-time doctoral students are required to pass the qualifying examination within 30 months after the commencement of their PhD program, and part-time doctoral students within 60 months after the commencement of their PhD program. In cases where students transfer from an MPhil or PhD program to a different PhD program, the timeframe will be calculated from the commencement of the new PhD program. Each student is allowed a maximum of two attempts within the above-stipulated timeframes, which will apply to all doctoral students regardless of the length of the normative period of studies.
+  Within the University-wide framework, individual programs may set an earlier timeline for the qualifying examination that meets the specific program needs.
+  The period of approved Leave from Study will not be counted toward the maximum time allowed for qualifying examination. However, any suspension period will be included in the calculation of the maximum time.
+  In exceptional cases where students require an extension of the University timeline, for example due to medical reasons, they are required to submit the request to the Committee on Postgraduate Studies for consideration of approval prior to exceeding the designated timeline. The request should be supported by the respective Thrusts and Hubs.
+  Supervisors’ consent is not a mandatory requirement for taking qualifying examination. However, doctoral students should consult their supervisors before requesting to take the examination.
+  The qualifying examination may be conducted through the oral or written mode, or both.
+  Students who fail to take or pass the qualifying examination within the stipulated timeframe will be considered as failing the qualifying examination, and will either be dismissed from the University or required to apply for transfer to the MPhil program.}
+  [For PhD students admitted in the 2024-25 intake or before
+  Students enrolled in PhD programs are required to pass a qualifying examination within a stipulated period in order to obtain PhD candidacy. The qualifying examination may be conducted through the oral or written mode, or both. Those who fail the qualifying examination after two attempts are not allowed to continue with their doctoral studies. Individual programs may have stipulations concerning the timeframe that students should take the qualifying examination and when the qualifying examination should be retaken in the case of failure in the first attempt.]
+  Thesis Research
+  Research postgraduate (RPg) programs focus on original research by the students. In addition to coursework requirements, RPg students will undertake thesis research under the direction of their thesis supervisors.
+  Please refer to the following guidelines on thesis research for details:
+  Guidelines on Thesis Supervision
+  Guidelines on Thesis Preparation
+  Guidelines on MPhil Thesis Examination Committees
+  Guidelines on PhD Thesis Examination Committees
+  Guidelines for Scheduling, Preparing for and Executing MPhil Thesis Examinations
+  Guidelines for Scheduling, Preparing for and Executing PhD Thesis Examinations
+  Guidelines on Conducting MPhil and PhD Thesis Examinations
+  Guidelines on Hybrid Thesis Examination Arrangement
+  Course Registration
+  Course Selection and Registration
+  Course registration deals with the selection of and registration in appropriate courses for a specific term. Course registration for a term requires approval from the Thrust/Base. The student’s program registration will be revoked without formal registration in any course. Students should ensure that they have properly registered in the courses specified for a term. Students whose names are not on the class enrollment list will not be allowed to sit for examinations of the specific courses concerned and will not be awarded any grades for the courses.
+  Students should acquaint themselves with the general rules for postgraduate course registration and Thrust/Base course requirements for the program. They should also refer to the Postgraduate Course Catalog and read the course description and requirements carefully before selecting a course.
+  Research postgraduate students should ensure that they enroll in the appropriate thesis research course when they begin their thesis research work. They should continue to enroll in the thesis research course until they have submitted their theses.
+  Credit Requirements
+  Credit requirements for postgraduate programs apply to course and project work, not to MPhil and PhD thesis research.
+  For students on research postgraduate programs, unless restricted by program regulations, a maximum of six credits of approved undergraduate courses at 4000-level may be used for postgraduate credit. Of the six credits, no more than three may be from the student’s Thrust/Base.
+  For all research postgraduate programs, no more than 50% of the program requirements could be satisfied using credits earned from online courses.
+  Study Load
+  The normal study load of full-time research degree students is ten credits per regular term whereas the maximum study load for those in part-time mode is eight.
+  Students registered as Continuing Student can only enroll in the thesis research course.
+  Background, Prerequisites, Co-requisites, Exclusions and Co-listed Courses
+  A course may require a certain general level of desired prior knowledge as background. Students should ensure that they have the necessary background to undertake a course, and may seek help from their Thrusts/Base.
+  If a course designates other courses as its prerequisites, students must have taken and passed the prerequisites before they may enroll in the course, unless exemption is granted by the course offering unit. If a course designates other courses as its co-requisites, students must have taken the co-requisites prior to, or at the same time as, the specified course. Exemption from prerequisite or co-requisite requirements requires the approval of the instructor of the course concerned.
+  If a course has exclusions specified, students are not allowed to enroll in the course if they have already taken and passed any of the stated exclusions. Also, students are not allowed to enroll in a course together with any of its stated exclusions in the same term.
+  A co-listed course is a course offered under more than one course code. There may be different assessment schemes or assignments for the different course registrations, which will be explained to students at the beginning of the term. Students may enroll in and earn credits for only one of the co-listed versions of the course.
+  Course Auditing
+  With the permission of the course instructor, postgraduate students may enroll in a course as an auditor, who attends a course and participates in activities up to and including the writing of the final examination but not receiving a formal grade. Subject to satisfactory completion of requirements set by the course instructor, the course will be designated “AU” on the student’s transcript; otherwise the course will be removed from the registration record. The credit load of audit courses is counted toward the study load of a student.
+  Course Add/Drop and Course Withdrawal
+  Students may make changes to their course registration during the add/drop period scheduled at the beginning of each term. Changes made in this period will not be reflected in the student’s record.
+  Requests to add or withdraw from courses after the add/drop period will not be accepted, except under extenuating circumstances beyond the control of the student. Students wishing to request for course add or withdrawal after the add/drop period will be required to provide the Thrust/Base with full justification for making the application. The request has to be supported by the course instructor concerned, and endorsed by the Thrust
+  /
+  Base Head, and the Dean or the Dean’s designee before it is forwarded to the Academic Registry Services for consideration. If approval is granted for course withdrawal, the Withdrawal without Penalty Grade “W” will be recorded on the student’s transcript as the course grade.
+  To apply for course add or withdrawal after the add/drop period, students are required to submit an “
+  Application for Class Enrollment/Withdrawal after Add/Drop Period
+  ” to the Thrust/Base for approval.
+  Academic Accommodations or Adjustments for Students with Special Educational Needs
+  HKUST(GZ) is committed to providing equal educational opportunities to all students. Students with any learning difficulties may reach out to instructors and/or the Student Counseling Center for support. The Student Counseling Center provides a wide range of services and resources: (a) It coordinates with course instructors to provide reasonable academic accommodations or adjustments to courses for students with special educational needs (SEN) and/or temporary health conditions. Students may contact
+  counseling@hkust-gz.edu.cn
+  to arrange a confidential discussion regarding equitable access to the chosen program and reasonable accommodations; (b) It also provides personal counseling service for students who have concerns on their well-being and personal problems. Students may
+  make an online appointment
+  or contact
+  counseling@hkust-gz.edu.cn
+  to arrange a confidential discussion to get help and advice.
+  Course Substitution and Credit Transfer
+  Course Substitution
+  Course substitution may be granted if the student can provide evidence, such as a transcript and course syllabus, that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. The course taken previously should be equivalent to 4000-level or above. No credits will be given for the exempted course and the student will be required to take an approved alternative course to fulfill program requirements.
+  Applications for course substitution must be made to the Thrust/Base during students’ first term of study after admission. The application must first be reviewed by the course instructor on the equivalency in course content and level; if supported, approval from the Thrust/Base Head/PG Coordinator is required.
+  Credit Transfer
+  Credit transfer may be granted to students in recognition of studies completed elsewhere at an appropriate level as recognized by the University. Students applying for credit transfer must provide evidence, such as a transcript and course syllabus, to illustrate that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained.
+  Applications must be made to students’ Thrust/Base during their first term after admission. For students who complete studies elsewhere during their registration at HKUST(GZ), for example on an exchange program, applications must be submitted to the Thrust/Base for approval within one month after students’ return to their study at HKUST(GZ). Late applications will not be considered.
+  Applications must first be reviewed by the course instructor; if supported, approval from the Thrust/ Base Head/PG Coordinator is required. The number of transfer credits to be granted will be determined by the Thrust/Base following a review of past academic records and the level of equivalence to HKUST(GZ) courses concerned. Conditions on the granting of transfer credits to research postgraduate students are as follows:
+  Credits earned at the undergraduate level can only be used for credit transfer purpose if the credits had not been used to earn another academic qualification, and that the course must be at 4000-level or above.
+  Notwithstanding the above, for postgraduate programs under Integrated Bachelor-Master Pathways requiring 30 credits or above, unless restricted by the respective program regulations defined otherwise, a maximum of nine credits earned at the undergraduate level can be used for credit transfer. For those programs requiring less than 30 credits, a maximum of six credits earned at the undergraduate level can be used for credit transfer.
+  Transfer credits cannot be granted in recognition of non-coursework experience or research work completed either at the University, at HKUST or at other institutions.
+  Credits for transfer must be at grade ‘B’ or above.
+  Transfer credits granted will not be included in the calculation of grade averages but the courses approved for credit transfer will be reflected on students’ transcripts.
+  Transfer of Course Grades and Credits on Resumption of Studies
+  Students who had previously withdrawn from their program of study at the University but who, after a period of time, are re-admitted to a program at the University, may be allowed to transfer their previous course grades and credits to the new program of study. Such a transfer of course grades and credits is restricted to courses which had been completed within five years prior to the resumption of study at the University. In addition, these credits must not have been used to earn any academic qualifications either at the University, at HKUST or elsewhere.
+  Course Grading
+  Grades for Postgraduate Courses
+  Students receive a grade for each course in which they are enrolled. Grades used in postgraduate courses are shown in the table below. For the purpose of calculating the grade averages, numerical grade points are assigned to each course grade, except AU, I, P, PP, T and W which are not included in the calculation of the grade averages.
+  Letter Grade
+  Grade Points
+  Definition
+  A+
+  A
+  A-
+  4.3
+  4.0
+  3.7
+  Excellent Performance
+  B+
+  B
+  3.3
+  3.0
+  Good Performance
+  B-
+  C+
+  C
+  2.7
+  2.3
+  2.0
+  Marginal Performance
+  F
+  (1)
+  0
+  Failure
+  Other Grades
+  Definition
+  AU
+  (2)
+  Audited
+  I
+  (3)
+  Incomplete
+  P
+  (4)
+  Pass, Ungraded
+  PP
+  (5)
+  Permitted to Proceed
+  T
+  Transferred
+  W
+  (6)
+  Withdrawal without Penalty
+  Notes:
+  A failed course (graded F) will not be credited toward a degree. The “F” grade, including that under the P/F grading system, will be included in the calculation of the grade averages.
+  The Audited (AU) grade will be assigned when an auditing student has completed, to the satisfaction of the instructor, any conditions established at registration as an auditor. If the conditions are not met, the course will be deleted from the student’s record.
+  An Incomplete (I) grade is used when work is necessarily delayed through no fault of the student, such as a medical problem or an equipment breakdown. This grade must be converted to a regular grade at least one working day before the start of the following regular term; otherwise, it is converted to an “F” grade. The “I” grade given to students on programs not following the regular term system must be converted to a regular grade within one month from the last day for grade reporting for courses, which is normally the sixth working day from the last day of examinations; otherwise, it is converted to an “F” grade.
+  The Pass, Ungraded (P) grade is given only under the P/F grading system for courses that are indicated in the course description in the Course Catalog that they will be graded as such.
+  When progress in thesis or project work is satisfactory but not scheduled for completion at the end of a regular term, the Permitted to Proceed (PP) grade is used.
+  The Withdrawal without Penalty (W) grade is given when a student is granted special approval for withdrawal from a course after the add/drop period.
+  Assignment of Course Grades
+  Grades with grade points assigned are the default grades for courses. Other grading scheme may only be used where this is approved for the course.
+  Grades given in each course are based on student performance in the final examination, tests, essays and reports, presentations and other forms of classroom participation, assignments, and laboratory exercises, although not all these elements may be present in each course. A failing grade in the laboratory component, if any, of a course may result in a failure in the whole course. The grading scheme for each course will be announced to the class at the beginning of the course.
+  Grade Announcement
+  After the examination period, students are required to check their own course grades which are available on the web-based Student Information System. Course grades will be posted on this web-based system as soon as they become available but not later than six working days from the last day of the examination period for the term.
+  Illness or Other Circumstances Affecting Assessment
+  If students wish the University to take into account medical reasons or some other extenuating circumstances beyond their control that have affected their performance in an examination, or ability to attend an examination, or to complete other assessment activities, they must report the circumstances of the case in writing and provide appropriate documentation to the Academic Registry Services within one week of the scheduled date of the assessment activity.
+  The Academic Registrar will review the case and make a recommendation to the relevant Dean or the Dean’s designee. The student will be notified of the result of the request within one week from the date the request is lodged with the Academic Registry Services. The make-up examination, if any, will be held within five weeks after the regular examination period. The format of the make-up examination will be decided by the course instructor concerned.
+  Grade Review
+  Students may apply for a grade review of a course in which they were enrolled in the term just completed. They should first discuss the matter with the course instructor as soon as the course grades are released. Where a clerical or administrative error has been made, the course offering Thrust/Base will report the revised grade to the Academic Registry Services.
+  If the student’s concern remains unresolved after this informal discussion, the student may submit a request for a grade review to the head of the course offering Thrust/Base in writing within two weeks from the day on which grades are released:
+  Stating the grounds for the request for review;
+  Describing the relevant facts; and
+  Providing supporting evidence.
+  If a review is granted, the Thrust/Base Head will arrange for the review within three weeks after the release of the grade.
+  Requests for review of course grades should normally be resolved at the Thrust/Base level. Students who wish to appeal against the decision of the Thrust/Base must do so in writing to the Dean within two weeks of receiving the decision stating the grounds for the appeal. Upon receipt of the written appeal, the Dean will determine whether or not a further review of the grade should be granted and how the review will be conducted. The Dean’s decision is final.
+  Course Repeats
+  A course with a grade lower than C shall not be credited toward a program although it will be reflected in the student’s record. Only two courses (excluding audited courses) in a postgraduate program may be retaken, and unless otherwise specified, each may be repeated only once. The new grade obtained at the second attempt will replace the previous grade in the calculation of the grade averages.
+  Grade Averages
+  A grade average (GA) is the weighted average grade point obtained in a group of courses with letter grades where each course is given a weight equal to its credit value. Courses graded AU, I, P, PP, T or W are not included in the calculation.
+  There are three grade averages. The term grade average (TGA) is the grade average covering all courses taken in a specific term. The cumulative grade average (CGA) is based on all the courses taken by the student up to the time of calculation. Students’ TGA and CGA will be calculated at the end of each of the four terms. At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  Progression and Academic Standing
+  Academic Standing
+  The academic standing of all postgraduate students is reviewed at the end of each regular term and assessed by their Thrusts/Base. Unsatisfactory performance may result in students being denied the opportunity to continue their studies.
+  In order for postgraduate students to attain good academic standing, they must, at the end of each regular term,
+  Obtain a cumulative grade average (CGA) of 2.850 or higher; and
+  Show a reasonable progress toward program completion.
+  Students who fail to maintain good academic standing in a regular term will be issued a letter of warning by the Thrust/Base Head.
+  Academic Leave and Academic Dismissal
+  Students who fail to maintain good academic standing in two consecutive regular terms will have their records reviewed by the Thrust/Base and may be required to take academic leave and have their studies suspended. The academic leave will last from one to three regular terms during which students may apply for re-enrollment in their program of study at the end of their suspension. If this application for re-enrollment is approved, certain conditions may apply and the student must regain good academic standing in the regular term immediately following re-enrollment. Students will be dismissed from the University if the conditions are not met. If re-enrollment in the program is not granted by the expiry of the academic leave, the suspension will be converted to a dismissal from the University.
+  Annual Progress Reports
+  All research postgraduate students are required to submit by the end of June every year a written review of their study progress in the past twelve months, and describe their study plan for the twelve months ahead, using an online system designed for this purpose.
+  The progress report will be read by members of the Program Planning cum Thesis Supervision Committee (PPTSC) and their evaluation will be discussed with the student concerned. The progress report will also be reviewed by the PG Coordinator of the Thrust, and necessary action may be taken to address issues of concern.
+  Students who fail to submit the duly completed and approved report by the stipulated deadline will be prohibited from registering for their program. Access to all systems requiring a networking account login (including Student Information System, CANVAS, Wi-Fi, computer barns, hall applications, sports facility bookings, etc.), and student card identification for access control and relevant services (including library, halls, offices, laboratories, etc.) will be suspended. Also, the Guangzhou office of HKUST Fok Ying Tung Graduate School will not be able to process Postgraduate Studentships (PGS) arrangement (if applicable) for cases where the annual progress report is not available.
+  Details of the annual progress reporting exercise are as follows:
+  In April/May each year, the annual progress reporting system will be open for access via
+  this Link
+  .
+  The first part of the report form is to be completed by the student who should enclose a brief self-assessment summary report at the time the report form is submitted to the thesis supervisor(s). The second part is an assessment of the work done by the student as well as the progress made since the previous report by the thesis supervisor(s) and PPTSC.
+  One of the main purposes of the annual progress report is to allow thesis supervisor(s) to advise students on their research progress and expectations of PPTSC. Students will be given the chance to view the report, and the thesis supervisor(s) are required to discuss the content of the report with their students. Thesis supervisor(s) should note that terminating the study of a student due to poor performance or slow progress without prior written warning may constitute student grievance.
+  Should a particular student’s progress be found to be unsatisfactory (Point 2 or Point 1), the thesis supervisor is requested to issue a prior written warning to the student, with copies sent to the PG Coordinator and Thrust Head.
+  Additionally, in the case of unsatisfactory progress, the Thrust is requested to issue a warning letter to the student specifying the expectations and the courses of action for performance improvement, along with the PGS reduction (see the table below). The warning letter should also stipulate possible consequences, such as suspension of PGS, if the improvement is not satisfactory. A copy of the warning letter should be forwarded to the Academic Registry Services for record purposes.
+  PGS Reduction Rules
+  PGS reduction (%)
+  Point 2 (Unsatisfactory) First Time
+  50
+  Point 2 (Unsatisfactory) After First Time
+  100
+  Point 1 (Very Unsatisfactory)
+  100
+  Quarterly Progress Evaluation
+  In addition to the annual progress reporting, PhD students are required to conduct quarterly progress evaluation (QPE) starting from their second year of study. The purpose of QPE is to ensure that students remain on track with their research progress and allow thesis supervisors to advise students on their research progress. Details of the QPE exercise are as follows:
+  In September, December and March each year, the QPE system is open for access via
+  this Link
+  .
+  The first part is to be completed by the students who should provide a brief summary of research progress during the reporting period. The second part is an overall assessment given by the prime supervisor following discussions with the co-supervisor. If the assessment is unsatisfactory, comments and expectations must be provided. Students will be given the chance to view and discuss the result with their supervisors.
+  PGS reduction rules and requirements follows the same practices as the annual progress reporting.
+  Graduation
+  Degree Conferment by HKUST on Completion of Studies
+  Students who have duly completed a postgraduate degree program at the University will, upon satisfying all academic and non-academic graduation requirements, be conferred a postgraduate degree by HKUST for the program of study. For the purpose of the said program of study, no separate degree will be conferred by the University.
+  Non-academic requirement includes, amongst others, the settlement of all fees or fines payable and that there is no serious case pending decision with the Student Disciplinary Committee.
+  To be considered for graduation, an MPhil or PhD student must:
+  Complete the specific program requirements for graduation within the specified time limit;
+  Achieve a graduation grade average of at least 2.850 in the courses used to satisfy the program requirements;
+  Attain a pass in the thesis examination; and
+  Meet the residency requirements of the program.
+  Graduation Grade Average (GGA)
+  At graduation, a graduation grade average (GGA) will be calculated from the courses that are presented for an academic award. The GGA for graduation for all postgraduate programs must at least be 2.850.
+  If a student has taken more courses than required by the award, upon recommendation of the Thrust, certain courses included in the calculation of the CGA may be excluded from the GGA calculation to improve the GGA of the student. Otherwise, all courses taken will be included.
+  Graduation Approval
+  Students who have duly completed a recognized postgraduate degree program at the University and satisfied all graduation requirements will be assessed by the Hub/College Boards or their Postgraduate Studies Committees. HKUST(GZ) shall then submit a list of recommended degree conferees to HKUST for the consideration of the Senate of HKUST. Upon approval by the HKUST Senate of the said recommendations, eligible students of the University will be conferred a postgraduate degree by HKUST.
+  Congregation
+  The Congregation is the formal graduation ceremony held in Fall Term of each year. All graduates with degrees conferred in the academic year concerned will be invited to the ceremony. Attendance at the Congregation is not compulsory.
+  Award Diploma
+  Diplomas are distributed to graduates after the conferment of the award. Diplomas show in Chinese and English the following:
+  Name of the graduate as shown on the graduate’s Identity Card, with the surname capitalized and appearing first, followed by a comma and the given names;
+  Award title, which is normally shown the same as the program title, with no concentration given; and
+  The date of award conferment.
+  Appeals and Grievance Channels
+  Appeals
+  A student may make an appeal in writing to the Dean of the relevant Hub/ College for matters related to his/her study.
+  Grievance Channels
+  If students have any grievance about their program, their thesis work, their study or supervision arrangements, channels are readily available to help them settle their grievance and alleviate their concerns.
+  When a student encounters any difficulty or has any concern that he/she feels should be conveyed to or discussed with the University, the first stop should normally be the PG Coordinator. If this does not work or is not appropriate for some reasons, the next level for voicing grievance is to the Thrust/Base Head. If the issue cannot be settled satisfactorily in the Thrust/Base, the student may approach the Dean of the Hub/ College for advice. In the event that the issue still cannot be resolved within the Hub/ College, the next stop is the Guangzhou office of HKUST Fok Ying Tung Graduate School. If the issue-in-question involves existing academic policies, the matter may be referred to the Committee on Postgraduate Studies or Senate for consideration.
+  In general, if the grievance is of a personal nature, the student may consider talking to a student counselor of the Office of Student Affairs (OSA) for advice.
+  Glossary of Terms
+  1.
+  Academic Terms
+  There are four Academic Terms in each Academic Year, namely Fall (normally from early September to late December); Winter (normally January); Spring (normally from early February to late May); and Summer (normally from late June to mid-August). Fall and Spring Terms are considered as regular terms. For most students, attendance for Winter and Summer Terms is not required.
+  2.
+  Academic Year
+  The Academic Year of the University begins on 1 September and ends on 31 August of the following year.
+  3.
+  Academic Program
+  An academic program is an official program recognized by the University, which constitutes a carefully constructed set of academic requirements. Each program is given a unique program code. Unless specified otherwise, the term “program” refers to an academic program wherever it appears in this document.
+  4.
+  Academic Standing
+  Students’ academic standing is an indicator of their academic progress. Poor academic progress may result in students being denied the opportunity to continue their studies.
+  5.
+  Add/Drop Period
+  At the beginning of each term, there is an add/drop period in which students may make changes to their course registration. Changes made during the add/drop period will not appear in the students’ records. After the add/drop period, students are not permitted to add or drop courses for that term.
+  6.
+  Award
+  An Award is an academic qualification granted on the completion of the requirements for the award. The successful completion of an academic program is recognized by the award of a degree or other academic awards. The award title appears on the official diploma.
+  7.
+  Concentration
+  A concentration is a defined grouping of electives as stipulated in the program curriculum. Completion of concentration requirements will be formally noted on the student’s official transcript but not the diploma.
+  8.
+  Course
+  Courses are the basic unit of instruction from which programs of study are built. All courses are designated by a course code, course title, and credit units.
+  9.
+  Course Code
+  Each course is identified by a course code which comprises a four-letter code followed by a four-digit number code. The letter code denotes either the area/program of study or the course offering unit. The first digit of the number code indicates the academic level of the course while the last three digits represent a coding series of the course offering unit.
+  10.
+  Course Offering Unit
+  The course offering unit is the unit responsible for a course, normally a Thrust/Base/Pillar.
+  11.
+  Course Substitution
+  Students may be granted course substitution if they can provide evidence that a course is equivalent in content and level to another course taken elsewhere, for which a satisfactory grade has been obtained. No credits will be given for the exempted course, and the student will be required to take an approved alternative course to fulfill the credit requirements of the program of study.
+  12.
+  Credit Transfer
+  Subject to the academic regulations, credits may be transferred in recognition of studies completed successfully at an institution other than HKUST(GZ) to meet the requirements of an award.
+  13.
+  Credit Unit
+  Credit units are earned through the completion of coursework and other assessed learning activities. The requirements for an award normally include completion of a minimum number of credits.
+  14.
+  Cumulative Grade Average (CGA)
+  For each term a CGA is calculated for all the courses earning grade points completed since first registration as a postgraduate student up to that point, as follows:
+  Where Cj is the credit and Gj is the grade point earned in the j
+  th
+  course since first registration.
+  15.
+  Dean or the Dean’s Designee
+  Where approval of the Dean or the Dean’s designee is required, applications or requests should be directed to the Office of the Dean.
+  16.
+  Grade Points
+  Courses may be assessed for grade points. A table of grade points relative to letter grades is provided in the “Course Grading” section of this Handbook. Courses graded AU, I, P, PP, T or W do not count in the calculation of grade averages.
+  17. G
+  raduation Grade Average (GGA)
+  At graduation, a GGA will be calculated from the courses that are presented for an academic award. The GGA for all postgraduate programs must at least be 2.850.
+  18.
+  Hub/College
+  Postgraduates are registered in programs under one of the Hubs/ College.
+  19.
+  Registration
+  Registration includes registration in course(s) and registration in an academic program. Registration is confirmed only when students have completed the registration process and paid tuition and other prescribed fees of the term concerned.
+  20.
+  Research Postgraduate Programs
+  The University offers two types of research postgraduate programs, namely Master of Philosophy (MPhil), and Doctor of Philosophy (PhD). MPhil programs are normally several terms in duration and require a combination of coursework and independent research; whereas PhD programs are normally several years in duration and require a combination of coursework and independent research, with major emphasis placed on research.
+  21.
+  Study Load
+  Students’ study load is the total credits for which they are registered in a specific term.
+  22.
+  Term Grade Average (TGA)
+  For each term a TGA is calculated across all courses taken in that particular term, as follows:
+  Where Ci is the course credits and Gi is the grade point earned in the i
+  th
+  course in the term.
+  23.
+  Thrust/Base
+  A Thrust/Base, or any other academic unit of the University administering academic programs. A student’s Thrust/Base is the academic unit which offers the specific academic program that the student is enrolled.
+  24.
+  Transcript
+  Academic transcripts provide the full record of students’ academic results and performance.
+
+tables:
+  - Regular PGS (per month)
+  - PhD | CNY 15000
+  - MPhil | CNY 10000
+  - PGS reduction (%)
+  - Point 2 (Unsatisfactory) First Time | 50
+  - Point 2 (Unsatisfactory) After First Time | 100
+  - Point 1 (Very Unsatisfactory) | 100
+  - Letter Grade | Grade Points | Definition
+  - A+ A A- | 4.3 4.0 3.7 | Excellent Performance
+  - B+ B | 3.3 3.0 | Good Performance
+  - B- C+ C | 2.7 2.3 2.0 | Marginal Performance
+  - F (1) | 0 | Failure
+  - Other Grades | Definition
+  - AU (2) | Audited
+  - I (3) | Incomplete
+  - P (4) | Pass, Ungraded
+  - PP (5) | Permitted to Proceed
+  - T | Transferred
+  - W (6) | Withdrawal without Penalty
+  - PGS reduction (%)
+  - Point 2 (Unsatisfactory) First Time | 50
+  - Point 2 (Unsatisfactory) After First Time | 100
+  - Point 1 (Very Unsatisfactory) | 100
+
+links:
+  - Governing Board | https://www.hkust-gz.edu.cn/about/governance/governing-bodies/governing-board/about-the-governing-board/
+  - Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=336&fileType=pdf&fileName=Regulations%20for%20Student%20Conduct
+  - Regulations for Student Academic Integrity | https://document.hkust-gz.edu.cn/office/viewer?key=338&fileType=pdf&fileName=Regulations%20for%20Student%20Academic%20Integrity
+  - Supplementary Implementation Rules for Regulations for Student Academic Integrity & Regulations for Student Conduct | https://document.hkust-gz.edu.cn/office/viewer?key=341&fileType=pdf&fileName=Supplementary%20Implementation%20Rules%20for%20Regulations%20for%20Student%20Academic%20Integrity%20%26%20Regulations%20for%20Student%20Conduct
+  - Policy on Research Conduct and Integrity | https://rd.hkust-gz.edu.cn/wp-content/uploads/2023/09/HKUSTGZ-Policy-on-Research-Conduct-and-Integrity.pdf
+  - here | https://okt.hkust-gz.edu.cn/property/content
+  - here | https://rd.hkust-gz.edu.cn/guidelines-policies/guidelines/
+  - the University admission requirements | https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements
+  - here | https://fytgs.hkust-gz.edu.cn/admissions
+  - Postgraduate Studentships: Terms and Conditions | https://fytgs.hkust-gz.edu.cn/pgs
+  - Overseas Research Award: Terms and Conditions | https://fytgs.hkust-gz.edu.cn/overseas-research-award
+  - summary report | https://fytgs.hkust-gz.edu.cn/ora-summary%20report
+  - application form | https://fytgs.hkust-gz.edu.cn/ora-application%20form
+  - PLE | https://ple.hkust-gz.edu.cn/
+  - Guidelines on Thesis Supervision | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guide-on-thesis-supervision
+  - Guidelines on Thesis Preparation | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-on-thesis-preparation
+  - Guidelines on MPhil Thesis Examination Committees | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-on-mphil-thesis-examination-committees
+  - Guidelines on PhD Thesis Examination Committees | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-on-phd-thesis-examination-committees
+  - Guidelines for Scheduling, Preparing for and Executing MPhil Thesis Examinations | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-for-scheduling-preparing-for-and-executing-mphil-thesis-examinations
+  - Guidelines for Scheduling, Preparing for and Executing PhD Thesis Examinations | https://fytgs.hkust-gz.edu.cn/rpg-handbook/Guidelines-for-Scheduling-Preparing-for-and-Executing-PhD-Thesis-Examinations
+  - Guidelines on Conducting MPhil and PhD Thesis Examinations | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-on-conducting-mphil-and-phd-thesis-examinations
+  - Guidelines on Hybrid Thesis Examination Arrangement | https://fytgs.hkust-gz.edu.cn/rpg-handbook/guidelines-on-hybrid-thesis-examinations-arrangement
+  - make an online appointment | http://counsel.hkust-gz.edu.cn/
+  - this Link | https://apr.hkust-gz.edu.cn/
+  - this Link | http://qpe.hkust-gz.edu.cn

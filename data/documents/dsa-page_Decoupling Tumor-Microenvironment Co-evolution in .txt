@@ -1,0 +1,45 @@
+dsa_page: Decoupling Tumor-Microenvironment Co-evolution in IDH Wild-type Glioblastoma via Data Analytics – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/16/decoupling-tumor-microenvironment-co-evolution-in-idh-wild-type-glioblastoma-via-data-analytics/
+source: DSA
+
+headings:
+  - Decoupling Tumor-Microenvironment Co-evolution in IDH Wild-type Glioblastoma via Data Analytics
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Email
+
+text: >
+  Thesis Proposal Examination
+  Decoupling Tumor-Microenvironment Co-evolution in IDH Wild-type Glioblastoma via Data Analytics
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. Xiaomeng ZHANG
+  Abstract
+  Glioblastoma (GBM) is one of the most aggressive brain tumor in adults and patients always suffer tumor recurrence and treatment resistance which lead to very limited survival time. Tumor heterogeneity and evolution, as well as microenvironment influence, always make the effectiveness of therapies weaker or even useless. With technical advancement on next generation sequencing, large amounts and multiple types of sequencing data about GBMs arise, and data analytics on sequencing data by appropriate computational methods enable researchers to explore hidden machnism behind the high recurrence rate of GBM. Even though the scale of data is increasing, our understanding of relationship between GBM recurrence and GBM evolution is still limited. My PhD research mainly focuses on analyzing different dimensions of IDH wild-type (IDHwt) GBM transcriptome data, with the aim of finding significant alterations of transcriptional heterogeneity of GBMs during tumor relapse process and effective factors contribute to GBM recurrence and therapy resistance. In previous investigations, a distinct subset of IDHwt GBMs exhibiting neuronal characteristics after tumor recurrence has been identified. These neuronal-type GBMs, influenced by injury repair responses from neighboring cells, undergo alterations in their expression and splicing patterns, thereby acquiring neuronal capabilities and connecting with neurons with synapse structures. As a consequence, the intensified interactions between tumor cells and normal neural cells via synapses lead to enhanced invasiveness of the tumor and augment the challenges of cancer treatment.
+  Zoom Link
+  Committee Members
+  Prof. Jun XIA (chair)
+  Dr. Jiguang WANG
+  Dr. Can YANG
+  Dr. Zhen LIU
+  Dr. Wenjia WANG
+  Date
+  13 December 2023
+  Time
+  09:30:00 -
+  11:00:00
+  Location
+  Online
+  Join Link
+  Zoom Meeting ID:
+  874 4122 2048
+  Passcode: dsa2023
+  Email
+  dsarpg@hkust-gz.edu.cn
+
+links:
+  - Zoom Link | https://hkust-gz-edu-cn.zoom.us/j/87441222048?pwd=BsUSGSQCAJHNObeJqFDYm65QECAktv.1

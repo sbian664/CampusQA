@@ -1,0 +1,67 @@
+fytgs_page: Admission Timeline
+url: https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline
+source: FYTGS
+
+headings:
+  - 2026-27 Spring Intake (Exclusively for PhD and MBA programs)
+  - 2027-28 Fall Intake
+
+text: >
+  2026-27 Spring Intake (Exclusively for PhD and MBA programs)
+  Details
+  Timeline
+  Application Period
+  PhD
+  21 July 2026 to 4 December 2026 (23:59, GMT+8) for international applicants
+  21 July 2026 to 25 December 2026 (23:59, GMT+8) for Chinese applicants
+  MBA
+  Please refer to "Application" tab of
+  individual program
+  page for details
+  Program registration
+  Early January 2027
+  Program commencement
+  25 January 2027
+  2027-28 Fall Intake
+  Details
+  Timeline
+  Application Period
+  PhD
+  21 July 2026 to 15 June 2027 (23:59, GMT+8) for international applicants
+  21 July 2026 to 15 July 2027 (23:59, GMT+8) for Chinese applicants
+  Red Bird MPhil
+  Please visit
+  College of Future Technology
+  for details
+  Taught Postgraduate
+  Please refer to "Application" tab of
+  individual program
+  page for details
+  Program registration
+  Mid-August 2027
+  On-campus registration and New Student Orientation Week
+  Late August 2027
+  Program commencement
+  1 September 2027
+  Admission offers will be issued on a rolling basis, according to individual program’s admission schedule.
+  (Last Update:
+  July
+  2026)
+
+tables:
+  - Details | Timeline
+  - Application Period | PhD | 21 July 2026 to 4 December 2026 (23:59, GMT+8) for international applicants 21 July 2026 to 25 December 2026 (23:59, GMT+8) for Chinese applicants
+  - MBA | Please refer to "Application" tab of individual program page for details
+  - Program registration | Early January 2027
+  - Program commencement | 25 January 2027
+  - Details | Timeline
+  - Application Period | PhD | 21 July 2026 to 15 June 2027 (23:59, GMT+8) for international applicants 21 July 2026 to 15 July 2027 (23:59, GMT+8) for Chinese applicants
+  - Red Bird MPhil | Please visit College of Future Technology for details
+  - Taught Postgraduate | Please refer to "Application" tab of individual program page for details
+  - Program registration | Mid-August 2027
+  - On-campus registration and New Student Orientation Week | Late August 2027
+  - Program commencement | 1 September 2027
+
+links:
+  - individual program | https://fytgs.hkust-gz.edu.cn/programs
+  - College of Future Technology | https://cft.hkust-gz.edu.cn/admission/

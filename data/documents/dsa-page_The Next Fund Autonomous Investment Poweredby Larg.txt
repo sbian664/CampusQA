@@ -1,0 +1,37 @@
+dsa_page: The Next Fund: Autonomous Investment Poweredby Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/the-next-fund-autonomous-investment-poweredby-large-language-models/
+source: DSA
+
+headings:
+  - The Next Fund: Autonomous Investment Poweredby Large Language Models
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  The Next Fund: Autonomous Investment Poweredby Large Language Models
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. LI, Xiang
+  Abstract
+  Large Language Models have demonstrated remarkable capabilities across diverse domains, but their application to autonomous investment decision making presents unique challenges spanning cognitive architecture, institutional legitimacy, and systemic risk. Traditional investment funds, as legal and operational structures governed by human stewardship, face fundamental reconceptualization as LLMs acquire the functional capacity to execute end-to-end investment processes, including information processing, strategy formulation, portfolio construction, and risk management, without continuous human intervention. This thesis presents a comprehensive investigation of LLM-based autonomous investment systems, tracing their evolution from domain-specific language models to self-evolving multi-agent architectures capable of adaptive decision making in non-stationary financial markets.
+  We begin by analyzing the cognitive foundations of LLM-based financial reasoning, establishing a conceptual framework that distinguishes between parametric knowledge, retrieval-augmented reasoning and self-evolving adaptation. We then propose a functional taxonomy organized around six capability layers: foundational language understanding, financial reasoning enhancement, knowledge-augmented intelligence, alpha mining and strategy generation, multi-agent collaborative decision-making, and continuous self-evolution. For each layer we examine the theoretical foundations, technical implementations and performance characteristics through both conceptual analysis and empirical evaluation, identifying critical gaps between isolated research advances and deployable end-to-end systems.
+  Our research makes two significant contributions to the field. First, we introduce FinKario, a novel framework that unifies automated real-time financial knowledge construction with graph-based retrieval, enabling structured, efficient, and context-aware access to evolving market information. Second, we propose Janus-Q, an end-to-end event-driven trading framework that directly maps financial events to executable investment decisions through hierarchical reward modeling. Both contributions are positioned at the intersection of knowledge augmentation, reasoning enhancement and autonomous execution, addressing the integration gap between disparate research threads.
+  Our findings suggest that while LLM-based autonomous investment systems demonstrate substantial promise for enhancing market efficiency and democratizing sophisticated investment capabilities, their widespread adoption necessitates fundamental rethinking of regulatory frameworks, risk management practices and the very conception of investment stewardship in an era of machine intelligence. The convergence of reasoning, knowledge, and adaptation capabilities points toward a future in which autonomous investment systems operate not as isolated tools but as integrated, self-improving infrastructures capable of sustained performance under adversarial and non-stationary market conditions.
+  PQE Committee
+  Chair: Prof. TANG, Nan
+  Prime Supervisor: Prof. CHU, Xiaowen
+  Co-Supervisor: Prof. ZHANG, Yongqi
+  Examiner: Prof. TANG, Jing
+  Date
+  09 June 2026
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-150, HKUST(GZ)

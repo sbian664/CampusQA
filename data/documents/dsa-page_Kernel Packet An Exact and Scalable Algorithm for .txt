@@ -1,0 +1,39 @@
+dsa_page: Kernel Packet: An Exact and Scalable Algorithm for Gaussian Process Regression with Matérn Correlations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/02/13/kernel-packet-an-exact-and-scalable-algorithm-for-gaussian-process-regression-with-matern-correlations/
+source: DSA
+
+headings:
+  - Kernel Packet: An Exact and Scalable Algorithm for Gaussian Process Regression with Matérn Correlations
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Kernel Packet: An Exact and Scalable Algorithm for Gaussian Process Regression with Matérn Correlations
+  Share to
+  ABSTRACT
+  We develop an exact and scalable algorithm for one-dimensional Gaussian process regression with Matérn correlations whose smoothness parameter ν is a half-integer. The proposed algorithm only requires O(v^3n) operations and O(vn) storage. This leads to a linear-cost solver since ν is chosen to be fixed and usually very small in most applications. The proposed method can be applied to multi-dimensional problems if a full grid or a sparse grid design is used. The proposed method is based on a novel theory for Matérn correlation functions. We find that a suitable rearrangement of these correlation functions can produce a compactly supported function, called a "kernel packet". Using a set of kernel packets as basis functions leads to a sparse representation of the covariance matrix that results in the proposed algorithm. Simulation studies show that the proposed algorithm, when applicable, is significantly superior to the existing alternatives in both the computational time and predictive accuracy.
+  SPEAKER BIO
+  Liang DING
+  Assistant Professor
+  Fudan University
+  Liang Ding is an Assistant Professor in the Data Science School at Fudan University. Prior to joining Fudan, he was a postdoctoral fellow in the ISEN department at Texas A&M. He received his Ph.D. degree in IEDA at HKUST. His research interests include Gaussian Processes, kernel methods, and simulation optimization.
+  Date
+  15 February 2023
+  Time
+  13:30:00 -
+  14:20:00
+  Location
+  E1-1F-101, HKUST(GZ)
+  Join Link
+  Tencent Meeting ID:
+  637-201-557
+  Passcode: 2023
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

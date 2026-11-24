@@ -1,0 +1,100 @@
+dsa_page: Fast Facts – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/about/fast-facts/
+source: DSA
+
+headings:
+  - Faculty Members
+  - 9
+  - 11
+  - 4
+  - 6
+  - Research Interest
+  - Achievement
+  - Infocomm 2025 Test-of-Time Award
+  - ACM EuroSys 2025 Best Paper Award
+  - SIGSPATIAL 2024 Best Vision Paper Award
+  - SIGKDD 2023 Best Paper Award
+  - SIGCOMM 2022 Best Paper Award
+  - VLDB 2022 Best Regular Research Paper
+  - Degree Programs
+  - Student Enrollment
+  - Collaboration
+  - 50th International Conference on Very Large Databases (VLDB 2024)
+  - Honorary General Chairs
+  - General Chairs
+  - IEEE/ACM International Symposium on Quality of Service 2024
+  - TPC Co-Chairs
+  - The 2023 Annual International Conference for Chinese Scholars in Industrial Engineering (CSIE&CIDH 2023)
+  - Co-Chairs
+
+text: >
+  Faculty Members
+  9
+  China’s High-Level Talents
+  11
+  World’s Top 2% Scientist
+  4
+  IEEE Fellows
+  6
+  from HKUST
+  Research Interest
+  Achievement
+  Infocomm 2025 Test-of-Time Award
+  Lionel Ming-Shuan NI
+  ,
+  Kaishun WU
+  ACM EuroSys 2025 Best Paper Award
+  High-Performance Machine Learning Laboratory
+  SIGSPATIAL 2024 Best Vision Paper Award
+  Wei WANG
+  SIGKDD 2023 Best Paper Award
+  Jia LI
+  SIGCOMM 2022 Best Paper Award
+  Wei WANG
+  VLDB 2022 Best Regular Research Paper
+  Lei CHEN
+  Degree Programs
+  2019
+  Research Postgraduate Program - PhD in Data Science and Analytics
+  2020
+  Research Postgraduate Program - MPhil in Data Science and Analytics
+  2023
+  Taught Postgraduate Program - MSc in Data-Centric Artificial Intelligence Technology
+  Undergraduate Program - BSc in Data Science and Big Data
+  Student Enrollment
+  Collaboration
+  50th International Conference on Very Large Databases (VLDB 2024)
+  Honorary General Chairs
+  Lionel M. NI
+  General Chairs
+  Lei CHEN
+  IEEE/ACM International Symposium on Quality of Service 2024
+  TPC Co-Chairs
+  Xiaowen CHU
+  The 2023 Annual International Conference for Chinese Scholars in Industrial Engineering (CSIE&CIDH 2023)
+  Co-Chairs
+  Fugee TSUNG
+  Facts and figures on this page are accurate as of Summer 2026.
+
+links:
+  - https://mp.weixin.qq.com/s?search_click_id=6838096949819640904-1750302565993-3960422606&__biz=MzkyNDQxNTYyOA==&mid=2247492813&idx=1&sn=c2d20e1287009b19be9606a1c9b2f56b&chksm=c070c1da4b86aefb9df1d5422a1edbaa88dd08535c86090f4e7fa416e79e9a4775d2ad29c382&subscene=0&scene=7&clicktime=1750302566&enterid=1750302566&ascene=65&devicetype=iOS18.5&version=18003b2e&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQCDXDAKD0tYGU2pOVSEo9fRLXAQIE97dBBAEAAAAAAPRzKbS5M94AAAAOpnltbLcz9gKNyK89dVj0d%2FNztVnqkz82NDPIBaJf4wY9Y6y%2FyX64Oei0SNaKfAuk4yiWrBopNGy1k%2FyBxGWoo1UufoWZol3JnmwwrCRRCTb8yixNHiAC%2B1VRyiacFgr1PC2XZCy60XcAioRqAg9CcWdkkKX%2Bo%2F6GwfnX%2B%2BfJ3MOeTX7uQ6lMfl08N065bq1NApGRzeXPgM2kbGTJWeGWuKTh9w9FvjNBdgaikzA%2BNedzjAdXGn9g3PgNoui3I16X&pass_ticket=5Cq7mqej1CpikjedeUz2BbOFQox9XYBTlDv5R%2FQt51zI3IZ56HCMI94ltRwVIHQS&wx_header=3 | https://mp.weixin.qq.com/s?search_click_id=6838096949819640904-1750302565993-3960422606&__biz=MzkyNDQxNTYyOA==&mid=2247492813&idx=1&sn=c2d20e1287009b19be9606a1c9b2f56b&chksm=c070c1da4b86aefb9df1d5422a1edbaa88dd08535c86090f4e7fa416e79e9a4775d2ad29c382&subscene=0&scene=7&clicktime=1750302566&enterid=1750302566&ascene=65&devicetype=iOS18.5&version=18003b2e&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQCDXDAKD0tYGU2pOVSEo9fRLXAQIE97dBBAEAAAAAAPRzKbS5M94AAAAOpnltbLcz9gKNyK89dVj0d%2FNztVnqkz82NDPIBaJf4wY9Y6y%2FyX64Oei0SNaKfAuk4yiWrBopNGy1k%2FyBxGWoo1UufoWZol3JnmwwrCRRCTb8yixNHiAC%2B1VRyiacFgr1PC2XZCy60XcAioRqAg9CcWdkkKX%2Bo%2F6GwfnX%2B%2BfJ3MOeTX7uQ6lMfl08N065bq1NApGRzeXPgM2kbGTJWeGWuKTh9w9FvjNBdgaikzA%2BNedzjAdXGn9g3PgNoui3I16X&pass_ticket=5Cq7mqej1CpikjedeUz2BbOFQox9XYBTlDv5R%2FQt51zI3IZ56HCMI94ltRwVIHQS&wx_header=3
+  - Lionel Ming-Shuan NI | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni
+  - Kaishun WU | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks
+  - https://mp.weixin.qq.com/s?search_click_id=15247860677618352307-1750302123778-7341049034&__biz=MzkyNDQxNTYyOA==&mid=2247492932&idx=1&sn=659ca8d1a2442184417a210aca014cee&chksm=c018b0e94d8cfe1ed3b1b1b4ebc943a8732d38363d1dc6151f0af5f035b8176b4b34b53b790c&subscene=0&scene=7&clicktime=1750302123&enterid=1750302123&ascene=65&devicetype=iOS18.5&version=18003b2e&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQ9eXTr0FmoaQXQkN2uAzFGBLXAQIE97dBBAEAAAAAAFtmOlYjowAAAAAOpnltbLcz9gKNyK89dVj0k6cl0dy58GoFGZCDzVT1Hj9q3yjqauTtecLQRpqd2fzJzE76VbNyDNacRusuwnT3rPSIUPcv0z4cGlVox6e3kHVSEoOH4RFbnKEXAy5g3S50cw8j6ZmN4i%2FFUJF8YcYbYa2RvWRKUihFO8g%2FuBv5kRdnTqgYPwWIl92C%2FZwyh%2F5G8NP13dOmOFgVhrnm6vO4QKdqkUX4Pk3dRZixIyc2iDPq4wL17owo70u2GSRjAFKH&pass_ticket=EUlqjLmFFlszsI9YAZBW4zq0WYh8rJ8piLxHgcdhx6hmgoY9UUhzxT3sa42LE7eK&wx_header=3 | https://mp.weixin.qq.com/s?search_click_id=15247860677618352307-1750302123778-7341049034&__biz=MzkyNDQxNTYyOA==&mid=2247492932&idx=1&sn=659ca8d1a2442184417a210aca014cee&chksm=c018b0e94d8cfe1ed3b1b1b4ebc943a8732d38363d1dc6151f0af5f035b8176b4b34b53b790c&subscene=0&scene=7&clicktime=1750302123&enterid=1750302123&ascene=65&devicetype=iOS18.5&version=18003b2e&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQ9eXTr0FmoaQXQkN2uAzFGBLXAQIE97dBBAEAAAAAAFtmOlYjowAAAAAOpnltbLcz9gKNyK89dVj0k6cl0dy58GoFGZCDzVT1Hj9q3yjqauTtecLQRpqd2fzJzE76VbNyDNacRusuwnT3rPSIUPcv0z4cGlVox6e3kHVSEoOH4RFbnKEXAy5g3S50cw8j6ZmN4i%2FFUJF8YcYbYa2RvWRKUihFO8g%2FuBv5kRdnTqgYPwWIl92C%2FZwyh%2F5G8NP13dOmOFgVhrnm6vO4QKdqkUX4Pk3dRZixIyc2iDPq4wL17owo70u2GSRjAFKH&pass_ticket=EUlqjLmFFlszsI9YAZBW4zq0WYh8rJ8piLxHgcdhx6hmgoY9UUhzxT3sa42LE7eK&wx_header=3
+  - https://aamircheema.com/research/SIGSPATIAL2024_EVs_VisionPaper.pdf | https://aamircheema.com/research/SIGSPATIAL2024_EVs_VisionPaper.pdf
+  - https://mp.weixin.qq.com/s/6eUT7SE6ew2N7tRCaFE6gQ | https://mp.weixin.qq.com/s/6eUT7SE6ew2N7tRCaFE6gQ
+  - Jia LI | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286%20
+  - https://mp.weixin.qq.com/s/4WoTWWqgkSt4w5V4AgHumQ | https://mp.weixin.qq.com/s/4WoTWWqgkSt4w5V4AgHumQ
+  - Wei WANG | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=284
+  - https://mp.weixin.qq.com/s/qvpS8SJ6ziBQsfGjBPKZ5A | https://mp.weixin.qq.com/s/qvpS8SJ6ziBQsfGjBPKZ5A
+  - Lei CHEN | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125%20
+  - Research Postgraduate Program - PhD in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/
+  - Research Postgraduate Program - MPhil in Data Science and Analytics | https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/
+  - Taught Postgraduate Program - MSc in Data-Centric Artificial Intelligence Technology | https://dsa.hkust-gz.edu.cn/programs/taught-postgraduate-program/
+  - Undergraduate Program - BSc in Data Science and Big Data | https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/
+  - https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487779&idx=1&sn=639b94ede9cbc3b5331da455165f8b9a&chksm=c1d772c0f6a0fbd6cabe2671a7f14a71c07d824dad6414ed4c72a68139d26e2f9434043bc4b9&mpshare=1&scene=2&srcid=0426TFitkFcxx4CmfGkhoVuZ&sharer_shareinfo=9bc2202be2750970895e6090f7e3cc3d&sharer_shareinfo_first=9bc2202be2750970895e6090f7e3cc3d&ascene=3&devicetype=iOS17.2.1&version=18002f2c&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQa%2FX1Laz0lWwMHIeLp4nk1xLTAQIE97dBBAEAAAAAALwuCThPWeIAAAAOpnltbLcz9gKNyK89dVj0VRm1pyZwx%2FLma%2FbIhNF4T%2BRkYVJ2rPL%2FZV%2Bo0h2c6Hrdbi0BSAsyDKGOT4K3SW8BefvoV9%2BEZTBEyNQTNkcRQ0C18vljZA8BOSAo4spXCxfMbe6GhLoTY8RM6z3jYKVzq2MoZlNpKiv8Ua6WM2WLBEGt7NUsk3%2F%2F756PqNYFnc9XEhxvZbglMDzYs%2FJga1%2F%2FlF0qcqSqqeNR0Yu%2FWbrhNElFUotqOCYRCZAw630%3D&pass_ticket=7WyuORkeofsAssNhO%2FkQLviErbje5z9%2FR41nxNy3aaIlJOA9zzlaVT%2B28ntNYoaBlpz%2FOOTCJuABlIuavgELEA%3D%3D&wx_header=3 | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487779&idx=1&sn=639b94ede9cbc3b5331da455165f8b9a&chksm=c1d772c0f6a0fbd6cabe2671a7f14a71c07d824dad6414ed4c72a68139d26e2f9434043bc4b9&mpshare=1&scene=2&srcid=0426TFitkFcxx4CmfGkhoVuZ&sharer_shareinfo=9bc2202be2750970895e6090f7e3cc3d&sharer_shareinfo_first=9bc2202be2750970895e6090f7e3cc3d&ascene=3&devicetype=iOS17.2.1&version=18002f2c&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQa%2FX1Laz0lWwMHIeLp4nk1xLTAQIE97dBBAEAAAAAALwuCThPWeIAAAAOpnltbLcz9gKNyK89dVj0VRm1pyZwx%2FLma%2FbIhNF4T%2BRkYVJ2rPL%2FZV%2Bo0h2c6Hrdbi0BSAsyDKGOT4K3SW8BefvoV9%2BEZTBEyNQTNkcRQ0C18vljZA8BOSAo4spXCxfMbe6GhLoTY8RM6z3jYKVzq2MoZlNpKiv8Ua6WM2WLBEGt7NUsk3%2F%2F756PqNYFnc9XEhxvZbglMDzYs%2FJga1%2F%2FlF0qcqSqqeNR0Yu%2FWbrhNElFUotqOCYRCZAw630%3D&pass_ticket=7WyuORkeofsAssNhO%2FkQLviErbje5z9%2FR41nxNy3aaIlJOA9zzlaVT%2B28ntNYoaBlpz%2FOOTCJuABlIuavgELEA%3D%3D&wx_header=3
+  - Lionel M. NI | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=111
+  - https://iwqos2024.ieee-iwqos.org/ | https://iwqos2024.ieee-iwqos.org/
+  - Xiaowen CHU | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=345
+  - https://meeting.cmes.org/?sid=837&mid=209&v=100 | https://meeting.cmes.org/?sid=837&mid=209&v=100
+  - Fugee TSUNG | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=115

@@ -1,0 +1,39 @@
+dsa_page: Towards Better Reasoning with Large Language Models – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/03/11/towards-better-reasoning-with-large-language-models/
+source: DSA
+
+headings:
+  - Towards Better Reasoning with Large Language Models
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Better Reasoning with Large Language Models
+  Share to
+  ABSTRACT
+  Reasoning, a cornerstone of human intelligence, is integral to problem-solving, decision-making, and critical thinking. However, in natural language processing, early efforts have struggled to reason based on prior knowledge or given information. With the advent of Large Language Models (LLMs), there is an emerging consensus that these models may possess latent reasoning abilities. This talk will present an overview of the current understanding of reasoning within LLMs. We will then explore recent advancements in evoking and improving reasoning capabilities within LLMs and beyond, through the integration of external knowledge. More importantly, the enhancement of reasoning capabilities in LLMs paves the way for many real-world applications (e.g. generative search engines, code generation), effectively positioning LLMs as the next-generation computation platform. This transformation has the potential to revolutionize human-machine interactions and reshape the computational ecosystem.
+  SPEAKER BIO
+  Dr. Zhijiang GUO
+  Visiting Researcher, the University of Cambridge
+  Senior Researcher, Huawei Noah’s Ark Lab
+  Zhijiang Guo is a Visiting Researcher at the University of Cambridge and a Senior Researcher at Huawei Noah’s Ark Lab. Before that, he was a Postdoc working with Prof. Andreas Vlachos from 2020-2022. He obtained his Ph.D. from Singapore University of Technology and Design in 2020, supervised by Prof. Wei Lu. He was a visiting student at the University of Edinburgh from 2019-2020, advised by Prof. Shay Cohen. His research primarily focuses on Natural Language Processing, specifically in the domain of Large Language Models. He has contributed to over 20 publications in top-tier journals and conferences such as NeurIPS/ICLR/TACL/ACL/EMNLP/NAACL. He has served as the Area Chair of ACL/EMNLP/COLING, the Senior Program Committee member of AAAI/IJCAI, and the Action Editor of ACL ARR. He co-organized the FEVER workshop (Fact Extraction and Verification) on four occasions, in association with ACL, EMNLP, and EACL.
+  Date
+  12 March 2024
+  Time
+  10:00:00 -
+  11:00:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  889 6326 3267
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

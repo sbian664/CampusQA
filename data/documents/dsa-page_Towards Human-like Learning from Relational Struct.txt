@@ -1,0 +1,39 @@
+dsa_page: Towards Human-like Learning from Relational Structured Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/01/16/towards-human-like-learning-from-relational-structured-data/
+source: DSA
+
+headings:
+  - Towards Human-like Learning from Relational Structured Data
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Towards Human-like Learning from Relational Structured Data
+  Share to
+  ABSTRACT
+  Relational structured data is a powerful way of representing knowledge that captures meaning in a structured form suitable for machine learning. Compared to vision and natural language data, relational structured data excels in representing and manipulating structured knowledge, making it ideal for tasks that require reasoning or inference. Human-like Learning is a set of methods that leverage relational structures to rapidly acquire and generalize knowledge to new tasks and situations. In this talk, I will explore efficient and adaptive human-like learning algorithms that are crucial in scenarios where environments may change unpredictably. Additionally, these models are more easily interpretable by humans, promoting transparency in AI algorithms.
+  SPEAKER BIO
+  Yongqi ZHANG
+  Researcher
+  4Paradigm Inc.
+  Dr. Yongqi Zhang has been a researcher at 4Paradigm Inc. since 2020. Before that, he earned his bachelor's degree from Shanghai Jiao Tong University in 2015 and his PhD degree from the Hong Kong University of Science and Technology in 2020, advised by Prof. Lei CHEN. Dr. Zhang's research interests include graph learning, automated machine learning and AI4Science. His research project, AutoBLM, earned the top spot on the leaderboard of the biomedical link prediction task in the Open Graph Benchmark. He has published over 10 papers in top-tier conferences and journals, including Nature Computational Science, TPAMI, VLDB-Journal, and NeurIPS, as the first author. He has also played a key member in two National Research Projects.
+  Date
+  17 January 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  W2-2F-201, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  872 2466 1554
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

@@ -1,0 +1,21 @@
+fytgs_page: Strategic Framework for Taught Postgraduate Education
+url: https://fytgs.hkust-gz.edu.cn/strategic-framework-for-taught-postgraduate-education
+source: FYTGS
+
+headings:
+
+text: >
+  Established under HKUST’s 2.0 vision of "Unified HKUST – Complementary Campuses", HKUST(GZ) shares and extends HKUST’s core vision and mission. HKUST(GZ) broadens the operational horizon of HKUST’s overall vision, providing a strategic gateway to project the HKUST’s global aspirations directly into the socio-economic fabric of the Guangdong-Hong Kong-Macao Greater Bay Area (GBA) and wider nation.
+  Taught postgraduate (TPg) education is, therefore, an integral part of the structure of the University’s academic provision. To achieve the institution’s vision and mission in the area of postgraduate education, the planning and development of TPg programs take into consideration the research strengths and resource priorities of the University, as well as the prevailing community and market needs. These represent the overall strategic context within which senior management annually reviews the full range of academic programs to ensure alignment with the mission and strategic direction of the University.
+  A. Vision and Mission
+  The University’s vision for TPg education is to offer the highest-quality, advanced-level study opportunities to the GBA community, as well as candidates from around the world. The mission for TPg education is to benefit students and practitioners in both their personal and professional development by offering carefully designed, cross-disciplinary curricula that reflect the latest developments in the respective fields of study.
+  B. Strategic Goals
+  TPg programs at HKUST(GZ)
+  Exemplify academic excellence through the provision of top-quality, advanced-level education in emerging cross-disciplinary fields, with the aim of preparing successful practitioners, professionals and leaders for the GBA and beyond;
+  Attract a diverse body of the best students and practitioners to promote an interactive and dynamic learning environment;
+  Enhance the student learning experience through innovative pedagogy and active engagement;
+  Generate resources for and promote the reputation of the University in support of institutional advancement in their respective areas;
+  Provide opportunities to connect the University with academic, governmental, business and industrial partners, through whom collaborations conducive to the relevance and impact of the work of the University can be established; and
+  Require students to complete an internship as an integral program component, providing them with opportunities to apply academic literacy to solve real-world problems and gain practical hands-on experience to tackle the challenges and new demands from industry.
+  C. Guiding Principles
+  Guiding Principles for the Development and Implementation of Taught Postgraduate Programs have been provided to facilitate faculty, Hubs and Thrust Areas in the design, resourcing, approval, delivery, monitoring and review of TPg programs.

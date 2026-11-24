@@ -1,0 +1,37 @@
+dsa_page: Efficient Inference with Speculative Decoding – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/06/02/efficient-inference-with-speculative-decoding/
+source: DSA
+
+headings:
+  - Efficient Inference with Speculative Decoding
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Efficient Inference with Speculative Decoding
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. YUAN, Tong
+  Abstract
+  Large language models generate text auto-regressively, so each output token depends on the committed prefix and usually requires a new target-model forward pass. This sequential dependence makes decoding latency grow with response length, even when model kernels, batching, and memory management are heavily optimized. Speculative decoding addresses this bottleneck through a draft–verify paradigm: a cheap draft mechanism proposes future tokens or higher-level candidates, and an authoritative target model or verifier checks them in parallel before committing only the accepted part.
+  This survey studies speculative decoding as a general framework for efficient inference rather than as a single small-model acceleration algorithm. It first formalizes the draft-and-verify loop, including lossless greedy decoding, speculative sampling, acceptance behavior, draft cost, and expected speedup. It then organizes drafting methods into four main paradigms: standalone draft models, learned draft heads, self-speculative paths, and training-free heuristic proposal mechanisms. Building on this foundation, the survey reviews algorithmic optimizations such as adaptive speculation, tree-structured verification, and overlapped drafting and verification.
+  The discussion then moves from isolated algorithms to deployed systems. In serving environments, speculative decoding must handle ragged acceptance lengths, KV-cache movement, batching, scheduling, heterogeneous placement, and runtime control; acceptance rate alone does not determine end-to-end speed. The survey also covers emerging applications in reasoning, agentic workflows, and reinforcement-learning post-training, where the speculative object may be a reasoning step, tool call, external action, or rollout prefix rather than only a token string. Finally, it identifies open directions in long-context, multimodal, diffusion, and non-autoregressive generation.
+  Building on this taxonomy, the survey presents two research attempts that target practical bottlenecks in speculative decoding. The first uses Memory-Augmented Sliding-Window drafting to compress the draft-side KV cache for long-context generation while keeping the target model as the full-context verifier. The second, AdaMemSpec, improves token efficiency in ordinary speculative decoding by reusing recurring token pieces through a speculation memory and by adapting the draft stopping policy online. Together, these methods show that effective speculative decoding requires joint attention to proposal quality, memory traffic, token reuse, and runtime control. Across these settings, the central challenge is to convert cheap approximate computation into reliable progress under an expensive target process.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. WEN, Zeyi
+  Co-Supervisor: Prof. CHEN, Xinyu
+  Examiner: Prof. LI, Lei
+  Date
+  10 June 2026
+  Time
+  14:00:00 -
+  15:00:00
+  Location
+  E1-150, HKUST(GZ)

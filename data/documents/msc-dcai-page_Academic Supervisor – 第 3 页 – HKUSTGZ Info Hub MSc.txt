@@ -1,0 +1,68 @@
+msc_dcai_page: Academic Supervisor – 第 3 页 – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/3/
+source: MSc DCAI
+
+headings:
+  - Our People
+  - Xiaowen CHU
+  - Acting Thrust Head
+  - Professor
+  - Xu YU
+  - Lei CHEN
+  - Dean
+  - Chair Professor
+  - Wei WANG
+  - Associate Thrust Head
+  - Qiong LUO
+  - Nan TANG
+  - Associate Professor
+  - PG Coordinator
+
+text: >
+  Our People
+  Academic Supervisor
+  Xiaowen CHU
+  Acting Thrust Head
+  Thrust of Artificial Intelligence
+  Professor
+  Thrust of Artificial Intelligence
+  Xu YU
+  Acting Thrust Head
+  Thrust of Data Science and Analytics
+  Professor
+  Thrust of Data Science and Analytics
+  Lei CHEN
+  Dean
+  Information Hub
+  Acting Thrust Head
+  Thrust of Artificial Inteligence
+  Chair Professor
+  Thrust of Data Science and Analytics
+  Wei WANG
+  Associate Thrust Head
+  Thrust of Data Science and Analytics
+  Professor
+  Thrust of Data Science and Analytics
+  Qiong LUO
+  Professor
+  Thrust of Data Science and Analytics
+  Nan TANG
+  Associate Professor
+  Thrust of Data Science and Analytics
+  PG Coordinator
+  Thrust of Data Science and Analytics
+  View More
+  1
+  2
+  3
+
+links:
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo
+  - https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang | https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang
+  - View More | https://dsa.hkust-gz.edu.cn/people/faculty/regular/
+  - https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/ | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/page/2/
+  - 1 | https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/academic-supervisor/

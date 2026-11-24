@@ -1,0 +1,39 @@
+dsa_page: Making Language Models A Better Foundation For IR – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/12/17/making-language-models-a-better-foundation-for-ir/
+source: DSA
+
+headings:
+  - Making Language Models A Better Foundation For IR
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Making Language Models A Better Foundation For IR
+  Share to
+  ABSTRACT
+  Information retrieval (IR) is to bridge human with information on top of AI techniques. Knowing that world information and human’s information requests are mostly expressed in languages, the NLP techniques are intensively applied as critical building blocks of IR systems. In recent years, the pre-trained language models (PLM) have achieved remarkable progresses in comprehension, representation, and generation of languages, therefore resulting in a series of paradigm shifts of IR. However, it remains to address challenges on retrieval quality and cost-effectiveness while applying PLMs for IR. In this talk, I’ll use our previous research on dense retrieval as an exemplar to discuss how we design task-oriented pre-training and fine-tuning strategies to facilitate PLMs’ application in IR. Besides, I’ll briefly overview RAG and IR research in the era of large language models.
+  SPEAKER BIO
+  Zheng LIU
+  Principal Researcher
+  Beijing Academy of Artificial Intelligence
+  Dr. Zheng Liu is a researcher in BAAI (Beijing Academy of Artificial Intelligence). Before joining BAAI, He was a senior researcher in MSRA (Microsoft Research Asia) and a Tech Specialist in Huawei 2012 Labs. He received his PhD and MPhil degree from HKUST, and BSc degree from Xi’an Jiaotong University. His research covers a broad range of topics in NLP and IR, such as dense retrieval, embedding models, question answering, and retrieval augmented generation. For the past few years, he published about 50 papers in ACL, EMNLP, NeurIPS, SIGIR, KDD, etc., and he received the outstanding paper award of NeurIPS’22 and the best demonstration award of VLDB’14. Many of his research works were successfully transferred into products, like Bing Search, Microsoft News, and Huawei Petal-Search. Recently, he led the development of BGE (BAAI General Embedding), which resulted in the state-of-the-art text (EN/ZH) text embedding models in the world and enjoys a high popularity from the technical community.
+  Date
+  18 December 2023
+  Time
+  09:30:00 -
+  10:30:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  818 6444 1796
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

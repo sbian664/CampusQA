@@ -1,0 +1,44 @@
+msc_dcai_page: Industrial Supervisor – HKUST(GZ) Info Hub MSc
+url: https://msc-dcai.hkust-gz.edu.cn/people_taxonomy/industrial-supervisor/
+source: MSc DCAI
+
+headings:
+  - Our People
+  - Dr. Zhengyou ZHANG
+  - Dr. Jiaya Jia
+  - Dr. Tao MEI
+  - Dr. Dacheng Tao
+  - Dr. Dou Shen
+  - Dr. Jieping Ye
+  - Dr. Hang Li
+  - Dr. Jing Xiao
+
+text: >
+  Our People
+  Academic Supervisor
+  Dr. Zhengyou ZHANG
+  Director of Robotics X, Tencent
+  H-Index: 99
+  Dr. Jiaya Jia
+  Founder and Chairman, SmartMore
+  H-Index: 79
+  Dr. Tao MEI
+  Vice President with JD.com and the Deputy
+  Managing Director of JD AI Research
+  H-Index: 78
+  Dr. Dacheng Tao
+  Senior VP, JD.com
+  H-Index: 133
+  Dr. Dou Shen
+  Executive Vice President, Baidu
+  H-Index: 28
+  Dr. Jieping Ye
+  Vice President and Chief Scientist, Beike
+  H-Index: 84
+  Dr. Hang Li
+  Director of AI Lab, ByteDance, Toutiao
+  H-Index: 69
+  Dr. Jing Xiao
+  Group Chief Scientist, Ping An Insurance
+  Company of China, Ltd
+  H-Index: 43

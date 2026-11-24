@@ -1,0 +1,29 @@
+dsa_page: Learning in the Wild: Building Trustworthy Machine Learning from Imperfect Data – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/12/01/learning-in-the-wild-building-trustworthy-machine-learning-from-imperfect-data/
+source: DSA
+
+headings:
+  - Learning in the Wild: Building Trustworthy Machine Learning from Imperfect Data
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+
+text: >
+  DSA Seminar
+  Learning in the Wild: Building Trustworthy Machine Learning from Imperfect Data
+  Share to
+  ABSTRACT
+  Today's AI, powered by large models and big data, has achieved remarkable success. Yet in many practical domains, collecting large amounts of high-quality data remains challenging. These imperfections raise a fundamental question: How can we build trustworthy AI when the data we rely on is incomplete, noisy, or biased?
+  In this talk, I will present a suite of methods from our research that enable robust learning from imperfect data, including techniques for accurate training without labels and under distribution shift. I will highlight how these principles extend beyond supervised learning, demonstrating their effectiveness in training reinforcement learning agents even when reward signals are highly unreliable.
+  I will conclude with a discussion of emerging challenges in scaling trustworthy machine learning across heterogeneous data modalities and real-world deployment scenarios, outlining open research opportunities at the intersection of data quality, model robustness, and reliable performance in the wild.
+  SPEAKER BIO
+  Dr. Nan Lu is an Assistant Professor in Artificial Intelligence at the University of Bristol. She was a postdoctoral fellow in the Foundations of Machine Learning Systems Group at the University of Tübingen, Germany, working with Prof. Robert Williamson, and obtained her Ph.D. in Machine Learning from the University of Tokyo under Prof. Masashi Sugiyama. Her research focuses on trustworthy machine learning, developing principled algorithms that remain reliable under data corruption and across diverse modalities, with applications in computer vision and reinforcement learning.
+  Date
+  09 December 2025
+  Time
+  11:00:00 -
+  11:50:00
+  Location
+  E3 202, HKUST(GZ)

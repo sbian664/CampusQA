@@ -1,0 +1,42 @@
+dsa_page: Cohesive Subgraph Analysis in Complex Networks: Efficient Algorithms for Dynamic and Temporal Scenarios – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/02/26/cohesive-subgraph-analysis-in-complexnetworks-efficient-algorithms-for-dynamic-and-temporal-scenarios/
+source: DSA
+
+headings:
+  - Cohesive Subgraph Analysis in Complex Networks: Efficient Algorithms for Dynamic and Temporal Scenarios
+  - Abstract
+  - TPE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  Thesis Proposal Examination
+  Cohesive Subgraph Analysis in Complex Networks: Efficient Algorithms for Dynamic and Temporal Scenarios
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Thesis Proposal Examination
+  By Ms. TIAN, Anxin
+  Abstract
+  Cohesive subgraph analysis serves as a fundamental tool for understanding the organization and evolution of complex networks. While extensive research has been conducted on static and undirected networks, the challenges of handling dynamic directed graphs and temporal bipartite networks remain largely unexplored. This thesis addresses these challenges by developing efficient algorithms and novel indexing techniques for two critical problems: maximal D-truss maintenance in dynamic directed graphs and temporal core analysis in bipartite networks.
+  For the dynamic D-truss problem, we first establish theoretical bounds on the structural changes of D-truss under edge updates, providing the foundation for efficient main tenance strategies. We propose an order-based D-Index structure that effectively captures the hierarchical relationships among edges based on their cycle and flow triangle counts. Building upon this index, we develop batch-update algorithms that significantly reduce the maintenance cost by processing multiple updates simultaneously. Our experimental results on real-world networks demonstrate that the proposed solution achieves up to 10x
+  speedup compared to state-of-the-art approaches while maintaining optimal space complexity.
+  To address temporal bipartite core analysis, we introduce a novel temporal containment property for (α,β)-cores and formalize it through a DAG-based hierarchy. Based on this theoretical framework, we design a superior-optimized index structure that achieves both space efficiency and query performance guarantees. The index supports efficient retrieval of temporal cores within arbitrary time windows and can be dynamically maintained with logarithmic update complexity. Extensive experiments on eight real-world temporal bipartite networks verify the effectiveness of our approach, showing consistent query time under 100ms even for graphs with millions of edges.
+  Our research makes several key contributions to the field of network analysis: (1) the first systematic study of D-truss maintenance in dynamic directed graphs with theoretical guarantees, (2) a novel indexing framework for temporal bipartite cores with provenoptimality in both space and query time, and (3) comprehensive experimental evaluations that provide insights into the practical applicability of these techniques. The proposed solutions advance the state-of-the-art in dynamic and temporal network analysis, offering both theoretical foundations and practical tools for real-world applications.
+  TPE Committee
+  Chair of Committee: Prof. ZHOU, Xiaofang
+  Prime Supervisor: Prof. CHEN, Lei
+  Co-Supervisor: Prof. YANG, Can
+  Examiner: Prof. LUO, Qiong
+  Date
+  03 March 2025
+  Time
+  14:00:00 -
+  15:30:00
+  Location
+  4472, CWB
+  Join Link
+  Zoom Meeting ID: 971 1291 2082
+  Passcode: dsa2025

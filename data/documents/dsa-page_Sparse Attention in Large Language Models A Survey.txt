@@ -1,0 +1,40 @@
+dsa_page: Sparse Attention in Large Language Models: A Survey – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2025/06/08/sparse-attention-in-large-language-models-a-survey/
+source: DSA
+
+headings:
+  - Sparse Attention in Large Language Models: A Survey
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  PhD Qualifying-Exam
+  Sparse Attention in Large Language Models: A Survey
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. YIN Hongbo
+  Abstract
+  Efficient long-context processing in large language models (LLMs) is hindered by the high computational and memory costs of self-attention. Prefilling incurs quadratic complexity with input length, while decoding suffers from growing key–value (KV) caches that strain memory and bandwidth. Sparse attention addresses these issues by selectively computing attention links, preserving model quality while reducing overhead. This sur vey provides a structured taxonomy of sparse attention methods, dividing them into static patterns (e.g., sliding windows, global tokens) and dynamic strategies. Dynamic methods include attention score selection and KV cache management, enabling adaptive sparsity during inference. We further explore future directions, highlighting the need for task-aware and performance-sensitive sparsity, as well as adaptive control based on runtime conditions, to support robust and scalable LLM deployment.
+  PQE Committee
+  Chair of Committee: Prof. LUO Qiong
+  Prime Supervisor: Prof. CHEN Lei
+  Co-Supervisor: Prof. ZHANG Yongqi
+  Examiner: Prof. LI Lei
+  Date
+  09 June 2025
+  Time
+  13:00:00 -
+  14:00:00
+  Location
+  E1-149 (HKUST-GZ
+  Join Link
+  Zoom Meeting ID:
+  969 4767 4160
+  Tencent Meeting ID:
+  dsa2025

@@ -1,0 +1,33 @@
+dsa_page: Strategic Waiting for Disruption Forecasts in Cross-Border E-Commerce Operations – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/09/25/strategic-waiting-for-disruption-forecasts-in-cross-border-e-commerce-operations/
+source: DSA
+
+headings:
+  - Strategic Waiting for Disruption Forecasts in Cross-Border E-Commerce Operations
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Strategic Waiting for Disruption Forecasts in Cross-Border E-Commerce Operations
+  Share to
+  ABSTRACT
+  Motivated by dual sales channel operations in cross-border e-commerce, we analyze an e-tailer's strategic waiting decision for channel disruption information in a global supply chain. The e-tailer operates two sales channels: a bonded-warehouse channel with products prestocked before channel disruption for demand fulfillment; and a direct-shipping channel with products delivered directly from an overseas supplier. The direct-shipping channel is exposed to disruption risk that might be caused by extreme weather events. We find that the e-tailer is better off waiting if the direct-shipping channel is either much more or much less important than the bonded-warehouse channel. If the direct-shipping channel is highly important, waiting brings a significant benefit from channel coordination, offsetting the cost increase in the bonded-warehouse channel. If the direct-shipping channel is much less important, this channel provides the e-tailer with leverage against the supplier in wholesale pricing; the e-tailer waits strategically for sourcing cost reduction.
+  SPEAKER BIO
+  Prof. Baozhuang Niu obtained his PhD degree from the Hong Kong Polytechnic University. His research interests include global supply chain management and channel co-opetition. He is selected as the “NSFC Distinguished Young Scholar” and“Cheung Kong Scholar” by the Ministry of Education, China. Three of his papers are highlighted by POM as the “TOP Cited Paper"or"TOP Downloaded Paper”. His works have appeared at journals such as MSOM, POM, TRB, EJOR, Risk Analysis et al. He serves as POMS Journal's Senior Editor, and the Best Paper Competition Committee Chair.
+  Date
+  09 October 2024
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E4-1F-102, HKUST(GZ)
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsarpg@hkust-gz.edu.cn

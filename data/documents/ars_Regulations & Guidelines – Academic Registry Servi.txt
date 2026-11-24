@@ -1,0 +1,34 @@
+ars_page: Regulations & Guidelines – Academic Registry Services
+url: https://ars.hkust-gz.edu.cn/regulations-guidelines/
+source: ARS
+
+headings:
+  - Regulations & Guidelines
+
+text: >
+  Regulations & Guidelines
+  All
+  Regulations
+  Guidelines
+  Undergraduate
+  Postgraduate
+  All Students
+  Staff
+  Academic Regulations Governing Undergraduate Studies
+  Handbook for Undergraduate Studies
+  Academic Regulations Governing Postgraduate Studies
+  Handbook for Research Postgraduate Studies
+  Handbook for Taught Postgraduate Studies
+  Regulations for Student Conduct and Academic Integrity
+  Academic Honor Code
+  Class Enrollment Guides (UG)
+
+links:
+  - https://document.hkust-gz.edu.cn/office/viewer?key=541&fileType=pdf&fileName=Academic%20Regulations%20Governing%20Undergraduate%20Studies%202025-26 | https://document.hkust-gz.edu.cn/office/viewer?key=541&fileType=pdf&fileName=Academic%20Regulations%20Governing%20Undergraduate%20Studies%202025-26
+  - https://vptlo.hkust-gz.edu.cn/ugeducation/#/ugstudenthandbook | https://vptlo.hkust-gz.edu.cn/ugeducation/#/ugstudenthandbook
+  - https://fytgs.hkust-gz.edu.cn/internal-resources/academic-regulations | https://fytgs.hkust-gz.edu.cn/internal-resources/academic-regulations
+  - https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-research-postgraduate-studies | https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-research-postgraduate-studies
+  - https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-taught-postgraduate-studies | https://fytgs.hkust-gz.edu.cn/handbooks/handbook-for-taught-postgraduate-studies
+  - https://ars.hkust-gz.edu.cn/regulations-for-student-conduct-and-academic-integrity/ | https://ars.hkust-gz.edu.cn/regulations-for-student-conduct-and-academic-integrity/
+  - https://document.hkust-gz.edu.cn/office/viewer?key=168&fileType=pdf&fileName=The%20HKUST(GZ)%20Academic%20Honor%20Code | https://document.hkust-gz.edu.cn/office/viewer?key=168&fileType=pdf&fileName=The%20HKUST(GZ)%20Academic%20Honor%20Code
+  - https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/ | https://ars.hkust-gz.edu.cn/programs-courses/guides-on-course-registration/class-enrollment-guide-ug/

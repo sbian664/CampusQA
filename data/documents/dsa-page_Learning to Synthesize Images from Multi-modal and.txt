@@ -1,0 +1,38 @@
+dsa_page: Learning to Synthesize Images from Multi-modal and Hierarchical Inputs – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/02/04/dsa%e7%a0%94%e8%ae%a8%e4%bc%9a-learning-to-synthesize-images-from-multi-modal-and-hierarchical-inputs/
+source: DSA
+
+headings:
+  - Learning to Synthesize Images from Multi-modal and Hierarchical Inputs
+  - Date
+  - Time
+  - Location
+  - Join Link
+  - Event Organizer
+  - Email
+
+text: >
+  DSA Seminar
+  Learning to Synthesize Images from Multi-modal and Hierarchical Inputs
+  Share to
+  ABSTRACT
+  In recent years, the field of image synthesis and manipulation has experienced remarkable advancements driven by the success of deep learning methods and the availability of Web-scale datasets. Despite this progress, the majority of current approaches predominantly rely on generating images based on simplistic inputs such as text and label maps. While these methods have demonstrated an impressive capability in generating realistic images, there persists a notable disconnect between the intricate nature of human ideas and the simplistic input structures employed by the existing models. Inspired by the coarse-to-fine workflow of human artists and the inherently multimodal aspect of human thought processes, we investigate the image synthesis problem based on multi-modal and hierarchical inputs. The first part of this talk presents several learning-based methods for synthesizing and manipulating images that handle a variety of user inputs and visual characteristics in images, including text, layout maps, hand-drawn sketches, object contours, and textures. Next, I will discuss the societal implications posed by image synthesis techniques and the strategies to mitigate their risks including synthetic image detection and generative model watermarking. The final part will introduce example applications of the image synthesis techniques in other CV/AI tasks and discuss potential future research directions.
+  SPEAKER BIO
+  Yu ZENG
+  Johns Hopkins University
+  Yu Zeng is a PhD student at Johns Hopkins University being advised by Prof. Vishal M Patel. My research interest lies in computer vision and deep learning. She have focused on two main areas: (1) deep generative models for image synthesis and editing, and (2) label-efficient deep learning. By combining these research areas, She aim to bridge human creativity and machine intelligence through user-friendly and socially responsible models while minimizing the need for intensive human supervision.
+  Date
+  05 February 2024
+  Time
+  14:30:00 -
+  15:30:00
+  Location
+  E3-2F-202, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  821 9474 0711
+  Passcode: dsat
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  dsat@hkust-gz.edu.cn

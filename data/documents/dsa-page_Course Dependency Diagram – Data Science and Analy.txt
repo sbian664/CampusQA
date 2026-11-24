@@ -1,0 +1,219 @@
+dsa_page: Course Dependency Diagram – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/course-diagram/
+source: DSA
+
+headings:
+  - Legend
+  - Course Type
+  - Major Elective Courses (Total 24 credits)
+  - Dependency
+
+text: >
+  Legend
+  Course Type
+  Fundamental Courses (Total 31 credits)
+  Major Required Courses (Total 30 credits)
+  Major Elective Courses (Total 24 credits)
+  Computer Science
+  Cross-Disciplinary Application
+  Data Science
+  Data System
+  AI
+  Theory
+  Dependency
+  AND
+  OR
+  Course Code
+  Course Title
+  Course Coordinators
+  DSAA1001
+  Introduction to Data Science and Analytics
+  Lei LI
+  Yongqi ZHANG
+  DSAA2043
+  Design and Analysis of Algorithms
+  Shangqi LU
+  Yanlin ZHANG
+  DSAA2011
+  Machine Learning
+  Zixin ZHONG
+  Weikai YANG
+  DSAA2031
+  Database Management System
+  Nan TANG
+  Lei LI
+  DSAA2012
+  Deep Learning
+  Zeke XIE
+  Zhijiang GUO
+  DSAA2088
+  Mathematics for Data Science
+  Wenjia WANG
+  Ningning DING
+  DSAA2044
+  Data Science Project
+  Zishuo DING
+  DSAA3032
+  Introduction to High-Performance and Parallel Computing
+  Qiong LUO
+  Zeyi WEN
+  DSAA3051
+  Introduction to Natural Language Processing and Knowledge Engineering
+  Jiaheng WEI
+  Zhijiang GUO
+  DSAA3055
+  Data Privacy and Security
+  Xinlei HE
+  Huayi DUAN
+  DSAA4040
+  Cloud Computing and Big Data Systems
+  Guoming TANG
+  DSAA3041
+  Advanced Algorithms
+  Shangqi LU
+  Yanlin ZHANG
+  DSAA3053
+  Introduction to Reinforcement Learning
+  Zixin ZHONG
+  DSAA4086
+  Introduction to Optimization
+  Ying CUI
+  DSAA2042
+  Computer Architecture and Systems
+  Zeyi WEN
+  DSAA3052
+  Data Science for Computer Vision and Multimedia
+  DSAA4011
+  Advanced Machine Learning and Deep Learning
+  Yuwen HUANG
+  DSAA4032
+  Complex Data Management
+  Yuyu LUO
+  DSAA4591
+  Final Year Capstone Project
+  DSAA2049
+  Advanced Programming Languages
+  Zishuo DING
+  DSAA3071
+  Theories in Computing
+  Wei WANG
+  Shangqi LU
+  DSAA3073
+  Theories in Data Science
+  Wei WANG
+  DSAA4012
+  Machine Learning Systems
+  Huayi DUAN
+  DSAA3074
+  Deep Learning for Science
+  Zhilu LAI
+  DSAA4019
+  Special Topics in Data Science
+  DSAA4031
+  Data Management for Data Science
+  DSAA4018
+  Data Science for Cross-disciplinary Applications
+  DSAA3070
+  Bayesian Models and Applications
+  DSAA3072
+  Advanced Theories in Computing
+  DSAA1085
+  Probability and Statistics
+  Jianfeng SUN (BSBE)
+  Huayi DUAN
+  DSAA4070
+  Data Science for Battery Technologies
+  FTEC4280
+  Data Visualization
+  FTEC3130
+  Statistical Inference
+  AIAA2290
+  Ethics, Privacy and Security in Artificial Intelligence
+
+diagram_relations:
+  - DSAA 1001 Intro to DS&A -> DSAA 2011 Machine Learning
+  - DSAA 1001 Intro to DS&A -> DSAA 2044 DS Project
+  - UFUG 1105/1102 (H) Calculus I -> UFUG 1504/1502 (H) General Physics II
+  - UFUG 1105/1102 (H) Calculus I -> UFUG 2104 Applied Statistics
+  - UFUG 1105/1102 (H) Calculus I -> UFUG 1106/1103 (H) Calculus II
+  - UFUG 1503/1501 (H) General Physics I -> UFUG 1504/1502 (H) General Physics II
+  - UFUG 1106/1103 (H) Calculus II -> UFUG 2103 Linear Algebra
+  - UFUG 1601 Intro to CS -> UFUG 2602 Data Structures Algo Design
+  - UFUG 1601 Intro to CS -> UFUG 2106 Discrete Mathematics
+  - UFUG 2103 Linear Algebra -> DSAA 1085 Pr & Stats
+  - UFUG 2104 Applied Statistics -> DSAA 2088 Math for DS
+  - UFUG 2601 C++ Programming -> DSAA 2042 Arch & Sys
+  - UFUG 2601 C++ Programming -> DSAA 2049 Adv PL
+  - UFUG 2601 C++ Programming -> DSAA 4040 Cloud & Sys
+  - UFUG 2601 C++ Programming -> DSAA 3032 HPC
+  - UFUG 2602 Data Structures Algo Design -> DSAA 2043 Design & Analysis of Algo
+  - DSAA 2011 Machine Learning -> DSAA 2012 Deep Learning
+  - DSAA 2011 Machine Learning -> DSAA 2088 Math for DS
+  - DSAA 2011 Machine Learning -> DSAA 3051 NLP & KG
+  - DSAA 2011 Machine Learning -> DSAA 3052 CV
+  - DSAA 2011 Machine Learning -> DSAA 3053 RL
+  - DSAA 2011 Machine Learning -> FTEC 4280 Visualization
+  - DSAA 2011 Machine Learning -> DSAA 3070 Bayesian
+  - DSAA 2011 Machine Learning -> DSAA 3073 DS Theory
+  - DSAA 2011 Machine Learning -> DSAA 3074 DL4Science
+  - DSAA 2011 Machine Learning -> DSAA 4086 Optimization
+  - DSAA 2011 Machine Learning -> FTEC 3130 Stats Infer
+  - DSAA 2011 Machine Learning -> DSAA 4011 Adv ML/DL
+  - DSAA 2011 Machine Learning -> DSAA 4018 DS X-disc
+  - DSAA 2011 Machine Learning -> DSAA 4019 Spec Topics
+  - DSAA 2011 Machine Learning -> DSAA 4591 Final Year Capstone
+  - DSAA 2012 Deep Learning -> DSAA 3055 Privacy & Sec
+  - DSAA 2042 Arch & Sys -> DSAA 4012 ML Sys
+  - DSAA 2043 Design & Analysis of Algo -> DSAA 2031 Database Mgmt Sys
+  - DSAA 2043 Design & Analysis of Algo -> DSAA 3041 Adv Algo
+  - DSAA 2043 Design & Analysis of Algo -[optional dependency]-> DSAA 3071 Theories
+  - DSAA 2031 Database Mgmt Sys -> DSAA 4040 Cloud & Sys
+  - DSAA 2031 Database Mgmt Sys -> DSAA 3032 HPC
+  - DSAA 2031 Database Mgmt Sys -> DSAA 4012 ML Sys
+  - DSAA 2031 Database Mgmt Sys -> DSAA 4018 DS X-disc
+  - DSAA 2031 Database Mgmt Sys -> DSAA 4031 Data Mgmt
+  - DSAA 2031 Database Mgmt Sys -> DSAA 4032 Complex DM
+  - DSAA 2088 Math for DS -[optional dependency]-> DSAA 3071 Theories
+  - DSAA 2088 Math for DS -> DSAA 3073 DS Theory
+  - DSAA 4040 Cloud & Sys -> DSAA 4019 Spec Topics
+  - DSAA 3071 Theories -> DSAA 3072 Adv Theories
+  - DSAA 3070 Bayesian -> DSAA 4070 Battery Tech
+  - DSAA 3074 DL4Science -> DSAA 4070 Battery Tech
+  - UFUG 2106 Discrete Mathematics -[OR]-> DSAA 2088 Math for DS
+
+tables:
+  - Course Code | Course Title | Course Coordinators
+  - DSAA1001 | Introduction to Data Science and Analytics | Lei LI | Yongqi ZHANG
+  - DSAA2043 | Design and Analysis of Algorithms | Shangqi LU | Yanlin ZHANG
+  - DSAA2011 | Machine Learning | Zixin ZHONG | Weikai YANG
+  - DSAA2031 | Database Management System | Nan TANG | Lei LI
+  - DSAA2012 | Deep Learning | Zeke XIE | Zhijiang GUO
+  - DSAA2088 | Mathematics for Data Science | Wenjia WANG | Ningning DING
+  - DSAA2044 | Data Science Project | Zishuo DING
+  - DSAA3032 | Introduction to High-Performance and Parallel Computing | Qiong LUO | Zeyi WEN
+  - DSAA3051 | Introduction to Natural Language Processing and Knowledge Engineering | Jiaheng WEI | Zhijiang GUO
+  - DSAA3055 | Data Privacy and Security | Xinlei HE | Huayi DUAN
+  - DSAA4040 | Cloud Computing and Big Data Systems | Guoming TANG
+  - DSAA3041 | Advanced Algorithms | Shangqi LU | Yanlin ZHANG
+  - DSAA3053 | Introduction to Reinforcement Learning | Zixin ZHONG
+  - DSAA4086 | Introduction to Optimization | Ying CUI
+  - DSAA2042 | Computer Architecture and Systems | Zeyi WEN
+  - DSAA3052 | Data Science for Computer Vision and Multimedia
+  - DSAA4011 | Advanced Machine Learning and Deep Learning | Yuwen HUANG
+  - DSAA4032 | Complex Data Management | Yuyu LUO
+  - DSAA4591 | Final Year Capstone Project
+  - DSAA2049 | Advanced Programming Languages | Zishuo DING
+  - DSAA3071 | Theories in Computing | Wei WANG | Shangqi LU
+  - DSAA3073 | Theories in Data Science | Wei WANG
+  - DSAA4012 | Machine Learning Systems | Huayi DUAN
+  - DSAA3074 | Deep Learning for Science | Zhilu LAI
+  - DSAA4019 | Special Topics in Data Science
+  - DSAA4031 | Data Management for Data Science
+  - DSAA4018 | Data Science for Cross-disciplinary Applications
+  - DSAA3070 | Bayesian Models and Applications
+  - DSAA3072 | Advanced Theories in Computing
+  - DSAA1085 | Probability and Statistics | Jianfeng SUN (BSBE) | Huayi DUAN
+  - DSAA4070 | Data Science for Battery Technologies
+  - FTEC4280 | Data Visualization
+  - FTEC3130 | Statistical Inference
+  - AIAA2290 | Ethics, Privacy and Security in Artificial Intelligence

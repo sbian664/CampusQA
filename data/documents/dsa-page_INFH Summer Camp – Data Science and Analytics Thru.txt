@@ -1,0 +1,41 @@
+dsa_page: INFH Summer Camp – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/07/18/information-hub-summer-camp/
+source: DSA
+
+headings:
+  - INFH Summer Camp
+  - Date
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+  - EVENT RECAP
+
+text: >
+  Postgraduate Admissions
+  INFH Summer Camp
+  Share to
+  Date
+  19 July 2024
+  - 23 July 2024
+  Location
+  No.1 Du Xue Rd, Nansha District, Guangzhou
+  Event Organizer
+  Information Hub
+  Email
+  infhpgadmit@hkust-gz.edu.cn
+  Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+  REGISTER
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/PHNfnQDAD3pY2qIvCmIICA
+  - REGISTER | https://summercamp-infh.hkust-gz.edu.cn/
+  - EVENT RECAP | https://mp.weixin.qq.com/s/IhLTmpWzCjvx6t9ksJD_og

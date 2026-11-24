@@ -1,0 +1,36 @@
+dsa_page: Language Models in Finance: Representation, Abstraction, and Policy Learning – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/05/29/language-models-in-finance-representation-abstraction-and-policy-learning/
+source: DSA
+
+headings:
+  - Language Models in Finance: Representation, Abstraction, and Policy Learning
+  - Abstract
+  - PQE Committee
+  - Date
+  - Time
+  - Location
+
+text: >
+  PhD Qualifying-Exam
+  Language Models in Finance: Representation, Abstraction, and Policy Learning
+  Share to
+  The Hong Kong University of Science and Technology (Guangzhou)
+  Data Science and Analytics Thrust
+  PhD Qualifying Examination
+  By Mr. ZHANG, Haohan
+  Abstract
+  Language models are increasingly used in finance not only to process text, but to define the lenses through which markets are observed, compared, and acted upon. This representational role is central because financial signals are weak, noisy, and entangled across documents, disclosures, news, prices, orders, and trading behavior. The choice of representation determines what information is preserved, what context is compressed, what can be compared across firms and time, and what downstream systems can learn or act upon. It also shapes performance and scalability: representations that expose and organize relevant market structure can make weak signals easier to aggregate, calibrate, and evaluate, whereas poorly chosen representations can create bottlenecks for efficient and scalable modeling.
+  Motivated by its pivotal role, this survey develops a view of language models in finance centered around representation. We organize the literature around three connected functions, with representation as the key interface: abstraction determines which aspects of financial information are preserved or compressed; representation gives this abstraction a concrete form, such as a sentiment score, event description, extracted factor, agent memory, or order-flow token; and policy learning studies how such representations are converted into forecasts, portfolio decisions, trading behavior, or agentic actions. From this perspective, sentiment analysis, event extraction, domain-adapted financial LLMs, multimodal reasoning systems, agentic investment workflows, and benchmark evaluation are connected by a common question: how should heterogeneous financial information be made usable under noisy market supervision?
+  The survey also connects semantic financial text modeling with tokenized market microstructure. Limit order books and transaction streams define a lower-level market language, where orders, cancellations, trades, prices, sizes, sides, and book states become symbolic sequences for language-model-style learning. By placing semantic text representations and tokenized order-flow representations under a shared language-model perspective, this survey frames financial language modeling as the design of market-facing representations that are meaningful enough to reflect financial structure and structured enough to support prediction, simulation, and policy learning.
+  PQE Committee
+  Chair: Prof. CHU, Xiaowen
+  Prime Supervisor: Prof. NI, Lionel M.
+  Co-Supervisor: Prof. GUO, Jian (Online)
+  Examiner: Prof. DING, Zishuo
+  Date
+  09 June 2026
+  Time
+  11:00:00 -
+  12:00:00
+  Location
+  E1-150, HKUST(GZ)

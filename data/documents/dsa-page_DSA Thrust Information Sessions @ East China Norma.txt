@@ -1,0 +1,43 @@
+dsa_page: DSA Thrust Information Sessions @ East China Normal University – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2024/04/25/%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6%e4%b8%8e%e5%88%86%e6%9e%90%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%8d%8e%e4%b8%9c%e5%b8%88%e8%8c%83%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+source: DSA
+
+headings:
+  - DSA Thrust Information Sessions @ East China Normal University
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - REGISTER
+
+text: >
+  Postgraduate Admissions
+  DSA Thrust Information Sessions @ East China Normal University
+  Share to
+  Date
+  25 April 2024
+  Time
+  13:00:00 -
+  14:30:00
+  Location
+  华东师范大学普陀校区文附楼507
+  Event Organizer
+  Data Science and Analytics Thrust
+  Email
+  MSc(DCAI): mscdcai@hkust-gz.edu.cn
+  PhD(DSA): dsarpg@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  PG students-Prospective
+  LEARN MORE
+  REGISTER
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s?__biz=MzkyNDQxNTYyOA==&mid=2247487701&idx=1&sn=4420f5acb004244211ba2676be402f46&chksm=c0ff9dd20bbf567b0660c1958344d1a0daefd0562d09d4403ef6796c3cbb88b83cc1b4844258&scene=0&xtrack=1&subscene=7&clicktime=1713438964&ascene=1&devicetype=iOS17.2.1&version=18002f2c&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&session_us=gh_702a752ec55c&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQa3ccrw14L%2BAmm2q%2FBKo64BLiAQIE97dBBAEAAAAAAA5pKyZp4vYAAAAOpnltbLcz9gKNyK89dVj0vZfOBIHwLZ7mKx9sU91deIPHwJwbEv1bR0p6utoZ9U8qcPYi7QDUr4B1MkPGjraFLvSz5slenb41jKQWvssvN15ct%2Fd7IzHuZAj4j7PH3bG%2BRHdUXdsEMcWIIitVjsRjs7P%2BZOji5zI7RZSB%2B%2BHeIoK%2BJHrRRB85x1AdB7enUuRuesoXYMUs2INdkzMikFyQ43uFz5YEUBpt9eIy1KnOjtO%2FFmwN48haLkpkbMBp1i7qsnawxpkWm0M4zy8%3D&pass_ticket=NF9sqZg04oMZr4%2FyAElhOCJ78OeGQy%2FLszRdltSELjhjytmDMDCNhgh9To2iUssjFfoswCtKN4F7cj2vaIXAEg%3D%3D&wx_header=3
+  - REGISTER | https://www.wjx.top/vm/Q0cKTUI.aspx

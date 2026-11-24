@@ -1,0 +1,34 @@
+dsa_page: What could go wrong: Towards a High-Assurance DNS – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2026/03/11/what-could-go-wrong-towards-a-high-assurance-dns/
+source: DSA
+
+headings:
+  - What could go wrong: Towards a High-Assurance DNS
+  - ABSTRACT
+  - SPEAKER BIO
+  - Date
+  - Time
+  - Location
+  - Join Link
+
+text: >
+  DSA Seminar
+  What could go wrong: Towards a High-Assurance DNS
+  Share to
+  ABSTRACT
+  The Domain Name System (DNS) is a cornerstone of the modern Internet. Many works have uncovered flaws in it, ranging from logical flaws in zone files or name servers to amplification attacks on the distributed database. However, we observe that many works have focused on uncovering flaws but missed defining a positive goal for the DNS.
+  In this talk, we present a different view on the DNS: that of resolvability. We say that a query is resolvable within a given configuration of DNS servers if a recursive resolver can answer it successfully. We show how the question of resolvability naturally leads to both a positively defined design-goal for the DNS and the development of tools that can formally reason about it. We present ongoing work on a tool called „regressor,“ that can reason about resolvability efficiently, following an approach inspired by logic programming.
+  While our new tool can efficiently reason about resolvability, it cannot establish any availability guarantees for the DNS. To conclude, we generalize the insights from reasoning about resolvability to reasoning about availability guarantees for the DNS and sketch future work for research on high-assurance DNS.
+  SPEAKER BIO
+  Felix Linker is a post-doc in the network and information security groups at ETH Zurich. He specializes in the formal analysis of protocols and systems with security guarantees in general. He obtained his Doctorate in the information security group at ETH Zurich, where he research protocol verification, particularly with the Tamarin prover. Felix is also active in the Internet Engineering Task Force where he works on the standardization of protocols.
+  Date
+  13 March 2026
+  Time
+  14:00:00 -
+  16:00:00
+  Location
+  E1-148, HKUST(GZ)
+  Join Link
+  Zoom Meeting ID:
+  635 003 6325
+  Passcode: dsat

@@ -1,0 +1,42 @@
+dsa_page: INFH Information Sessions @ Harbin Institute of Technology – Data Science and Analytics Thrust
+url: https://dsa.hkust-gz.edu.cn/blog/2023/11/30/%e4%bf%a1%e6%81%af%e6%9e%a2%e7%ba%bd%e7%a1%95%e5%8d%9a%e5%ae%a3%e8%ae%b2-%e5%93%88%e5%b0%94%e6%bb%a8%e5%b7%a5%e4%b8%9a%e5%a4%a7%e5%ad%a6%e4%b8%93%e5%9c%ba/
+source: DSA
+
+headings:
+  - INFH Information Sessions @ Harbin Institute of Technology
+  - Date
+  - Time
+  - Location
+  - Event Organizer
+  - Email
+  - Program
+  - Audience
+  - LEARN MORE
+  - EVENT RECAP
+
+text: >
+  Postgraduate Admissions
+  INFH Information Sessions @ Harbin Institute of Technology
+  Share to
+  Date
+  04 December 2023
+  Time
+  18:30:00 -
+  20:00:00
+  Location
+  哈尔滨工业大学一校区正心楼12教室
+  Event Organizer
+  Information Hub
+  Email
+  infh@hkust-gz.edu.cn
+  Program
+  MSc(DCAI) Program
+  PhD(DSA) Program
+  Audience
+  Prospective students
+  LEARN MORE
+  EVENT RECAP
+
+links:
+  - LEARN MORE | https://mp.weixin.qq.com/s/8YnAgq2qKvfhi-JkPEH7Yw
+  - EVENT RECAP | https://mp.weixin.qq.com/s/9nv4KvaJAfoxsQHze8UJEA
