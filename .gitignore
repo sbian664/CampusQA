@@ -61,3 +61,4 @@ AGENT.md
 
 .venv*/
 .pytest_cache/
+/deploy/cloudbase-model/node_modules/
