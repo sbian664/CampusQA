@@ -28,6 +28,9 @@ def scenario(request, client, tmp_path, monkeypatch):
             raise RuntimeError('Model request failed')
         if behavior['cancel']:
             kwargs['cancel_event'].set()
+        if kwargs.get('on_status'):
+            for stage, details in behavior.get('steps', []):
+                kwargs['on_status'](stage, details)
         return AgentChatResult(content='New answer', finish_reason='error' if behavior['error_result'] else 'stop')
 
     bot = SimpleNamespace(
@@ -71,6 +74,47 @@ def scenario(request, client, tmp_path, monkeypatch):
 
     yield SimpleNamespace(seed=seed, submit=submit, read=read, calls=calls, behavior=behavior, client=client)
     manager.shutdown()
+
+
+def test_history_activity_returns_redacted_calls_for_each_existing_reply(client):
+    session = Session(str(uuid4()), owner_user_id=client.user_id)
+    session.add_message('assistant', 'Same answer', tool_calls=[{
+        'tool_name': 'search_knowledge_base', 'query': 'Library hours', 'result_preview': 'private',
+    }])
+    session.add_message('tool', 'hidden')
+    session.add_message('assistant', 'Same answer', tool_calls=[{
+        'tool_name': 'read_documents', 'arguments': {'document_ids': ['private']},
+    }])
+    session.save()
+    url = f'/api/session/{session.session_id}'
+    assert client.get(url).json()['history'] == [
+        {'role': 'assistant', 'content': 'Same answer'},
+        {'role': 'assistant', 'content': 'Same answer'},
+    ]
+
+    activity = client.get(url, params={'include_activity': True}).json()['history']
+    assert [reply['tool_calls'] for reply in activity] == [
+        [{'tool_name': 'search_knowledge_base', 'query': 'Library hours'}],
+        [{'tool_name': 'read_documents'}],
+    ]
+
+
+def test_history_activity_persists_successful_run_steps(scenario):
+    session_id = scenario.seed([])
+    scenario.behavior['steps'] = [
+        ('searching', {'query': 'Library hours', 'internal': 'private'}),
+        ('deciding', {}),
+        ('answering', {}),
+    ]
+    scenario.submit(session_id, 'run', message='Question')
+    response = scenario.client.get(f'/api/session/{session_id}', params={'include_activity': True})
+    assert response.status_code == 200
+    assert response.json()['history'][-1]['activity_steps'] == [
+        {'stage': 'context'},
+        {'stage': 'searching', 'query': 'Library hours'},
+        {'stage': 'answering'},
+        {'stage': 'saving'},
+    ]
 
 
 @pytest.mark.parametrize('transport', ['sync', 'run'])

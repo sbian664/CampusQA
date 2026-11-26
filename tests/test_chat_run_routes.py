@@ -14,6 +14,7 @@ def test_chat_run_worker_copies_session_before_generating():
         def __init__(self, session_id=None, **kwargs):
             self.session_id = session_id or "new-session"
             self.metadata = {}
+            self.messages = [{"role": "assistant", "content": "hello"}]
             self.saved = False
 
         @classmethod

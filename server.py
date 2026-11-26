@@ -8,6 +8,7 @@ import json
 import re
 import traceback
 import logging
+from collections import deque
 from copy import copy, deepcopy
 from fastapi.responses import JSONResponse, StreamingResponse
 from src.file_processing import run_file_work, copy_limited, file_operation
@@ -1167,6 +1168,9 @@ def _chat_locked(request: ChatRequest, session: Session, trace, *, save=True,
         raise HTTPException(status_code=500, detail=f"聊天请求失败: {type(e).__name__}")
 
 
+ACTIVITY_STAGES = {"context", "searching", "reranking", "answering", "saving"}
+
+
 def _execute_chat_run(payload, emit, cancel_event):
     with turn_scope(_chat_metrics, payload['run_id']):
         return _execute_chat_run_scoped(payload, emit, cancel_event)
@@ -1185,10 +1189,16 @@ def _execute_chat_run_scoped(payload, emit, cancel_event):
             working = deepcopy(session)
             trace = {"stage": "queued", "effective_mode": None, "usage": None, "outcome": "error"}
 
+            activity_steps = deque(maxlen=12)
+
             def status(stage, details):
                 public = {"stage": stage}
                 if details.get("query"):
                     public["query"] = str(details["query"])[:80]
+                if stage in ACTIVITY_STAGES:
+                    step = public.copy()
+                    if not activity_steps or activity_steps[-1] != step:
+                        activity_steps.append(step)
                 if details.get("search_count") is not None:
                     public["search_count"] = int(details["search_count"])
                 emit("status", public)
@@ -1205,7 +1215,8 @@ def _execute_chat_run_scoped(payload, emit, cancel_event):
                 raise RuntimeError("模型未能完成回答")
             if cancel_event.is_set():
                 raise RuntimeError("generation cancelled")
-            emit("status", {"stage": "saving"})
+            status("saving", {})
+            working.messages[-1]["activity_steps"] = list(activity_steps)
             working.metadata["last_completed_run_id"] = run_id
             if not chat_runs.commit(run_id, working.save, result):
                 raise RuntimeError("generation cancelled")
@@ -1239,15 +1250,27 @@ def _require_owned_run(run_id):
 
 @app.get("/api/session/{session_id}")
 @session_operation
-def get_session(session_id: str):
+def get_session(session_id: str, include_activity: bool = False):
     """获取会话信息与历史"""
     session = Session(session_id=session_id)
     if not session.load():
         raise HTTPException(status_code=404, detail="会话不存在")
+    history = session.get_history(strip_tool_details=True)
+    if include_activity:
+        visible_messages = (message for message in session.messages if message["role"] != "tool")
+        for entry, message in zip(history, visible_messages):
+            if entry["role"] != "assistant":
+                continue
+            if message.get("activity_steps"):
+                entry["activity_steps"] = message["activity_steps"]
+            else:
+                calls = [call for call in _public_tool_call_log(message.get("tool_calls", [])) if call.get("tool_name")]
+                if calls:
+                    entry["tool_calls"] = calls
     return {
         "session_id": session.session_id,
         "message_count": session.metadata.get("message_count", 0),
-        "history": session.get_history(strip_tool_details=True),
+        "history": history,
         "created_at": session.metadata.get("created_at", ""),
         "updated_at": session.metadata.get("updated_at", ""),
         "title": _session_title(session),
